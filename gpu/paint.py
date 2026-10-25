@@ -33,8 +33,8 @@ def shots(script):
     for sec in script["sections"]:
         for s in sec.get("shots") or []:
             n += 1
-            if s.get("prompt"):
-                yield n, s["prompt"]
+            if s.get("prompt") and not s.get("diagram"):
+                yield n, s["prompt"], s.get("negative", "")
 
 
 def main(script_path, out_dir, part=0, parts=1):
@@ -52,19 +52,22 @@ def main(script_path, out_dir, part=0, parts=1):
     pipe.enable_vae_slicing()
     style, neg = BRAND["art_style"], BRAND["art_negative"]
     th = script.get("thumbnail") or {}
-    jobs = [(out / f"shot-{n:02d}.png", f"{p}, {style}", 1344, 768, 1000 + n) for n, p in shots(script)]
+    # SDXL has two text encoders (77 tokens each): the shot's subject goes to the first so it is never
+    # cut off, the brand style to the second; shot-specific negatives (e.g. "airplane" for the island)
+    # keep the subject from turning into the story's strongest noun.
+    jobs = [(out / f"shot-{n:02d}.png", p, style, f"{neg_extra}, {neg}" if neg_extra else neg, 1344, 768, 1000 + n)
+            for n, p, neg_extra in shots(script)]
+    thumb_style = "cinematic digital painting, dramatic light, high contrast, highly detailed, sharp focus, no text"
     if th.get("plane"):  # the thumbnail keeps its subject bright and readable, so a lighter style
-        jobs.append((out / "thumb-plane.png", f"{th['plane']}, cinematic digital painting, dramatic light, "
-                     "high contrast, highly detailed, no text", 1344, 768, 7))
+        jobs.append((out / "thumb-plane.png", th["plane"], thumb_style, neg, 1344, 768, 7))
     if th.get("zoom"):
-        jobs.append((out / "thumb-zoom.png", f"{th['zoom']}, cinematic digital painting, crisp detail, no text",
-                     1024, 1024, 8))
-    for i, (p, prompt, w, h, seed) in enumerate(jobs, 1):
+        jobs.append((out / "thumb-zoom.png", th["zoom"], thumb_style, neg, 1024, 1024, 8))
+    for i, (p, prompt, prompt2, negative, w, h, seed) in enumerate(jobs, 1):
         if (i - 1) % parts != part or p.exists():
             continue
         g = torch.Generator(dev).manual_seed(seed)
-        img = pipe(prompt, negative_prompt=neg, width=w, height=h, num_inference_steps=30, guidance_scale=6.5,
-                   generator=g).images[0]
+        img = pipe(prompt=prompt, prompt_2=prompt2, negative_prompt=negative, negative_prompt_2=negative,
+                   width=w, height=h, num_inference_steps=30, guidance_scale=6.5, generator=g).images[0]
         img.save(p)
         print(f"  {i}/{len(jobs)} {p.name}", flush=True)
 

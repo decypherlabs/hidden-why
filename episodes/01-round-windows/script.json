@@ -3,8 +3,8 @@
   "title": "Why Airplane Windows Are Round (It Cost 56 Lives)",
   "thumbnail": {
     "text": "56 DIED|FOR *THIS",
-    "plane": "side view of a modern white passenger jet airliner flying above the clouds at golden hour, the full aircraft from nose to tail, a long row of small rounded cabin windows clearly visible along the fuselage, dramatic sky",
-    "zoom": "extreme close-up of a single airplane cabin window seen from outside on a white fuselage, the window has smooth rounded corners, rivets around the frame, sky reflected in the glass"
+    "plane": "side view of a modern white twin-engine passenger jet flying above clouds at golden hour, the whole aircraft nose to tail, long row of small oval cabin windows clearly visible",
+    "zoom": "extreme close-up of one oval airplane window on a white fuselage from outside, rounded corners, rivets around the frame, blue sky reflected in the glass"
   },
   "music": {
     "reflective": [
@@ -26,22 +26,22 @@
       "shots": [
         {
           "vo": "January, nineteen fifty-four. The most advanced airliner on Earth is climbing over the Mediterranean in perfect weather. Then, in a single second, it comes apart in the sky.",
-          "prompt": "a 1950s silver jet airliner breaking apart high above a calm blue Mediterranean sea, debris trailing, clear daylight sky, seen from far away",
+          "prompt": "wide shot, a 1950s silver four-engine jet airliner breaking apart in mid-air high above a calm blue Mediterranean sea, debris and smoke trails, distant view, clear daylight",
           "move": "push"
         },
         {
           "vo": "Three months later, it happens again. Fifty-six people are dead, and nobody can explain why.",
-          "prompt": "an empty sunlit 1950s airliner cabin with rows of seats, quiet and still, dust in the light",
+          "prompt": "interior, empty 1950s airliner passenger cabin, rows of vintage seats, sunlight beams through square windows, dust in the air, no people",
           "move": "push"
         },
         {
           "vo": "The answer was hiding in plain sight. In fact, it is right next to you, every time you fly.",
-          "prompt": "a passenger's view of a modern airplane cabin window with rounded corners, the wing visible outside above white clouds",
+          "prompt": "over-the-shoulder view from a modern airplane seat, oval cabin window with rounded corners, airplane wing outside above white clouds",
           "move": "push"
         },
         {
           "vo": "By the end of this video, you will never look at an airplane window the same way again.",
-          "prompt": "close-up of a rounded airplane window in a dark cabin, a single beam of light coming through it",
+          "prompt": "close-up, a single oval airplane window with rounded corners inside a dark cabin, one beam of light shining through",
           "move": "push"
         }
       ]
@@ -57,17 +57,17 @@
       "shots": [
         {
           "vo": "Look at any airliner window. A soft oval. No sharp corners. Not one, on any passenger jet flying today.",
-          "prompt": "a row of oval airplane cabin windows on the inside wall of a modern airliner, soft shapes, warm reading lights",
+          "prompt": "interior, a row of oval windows along the wall of a modern airliner cabin, soft warm reading lights, empty seats",
           "move": "pan_right"
         },
         {
           "vo": "Most people think it is about style, or the view. The truth is darker. That shape was paid for with lives.",
-          "prompt": "a traveler with headphones looking out of a rounded airplane window at clouds, silhouette, back view, no face visible",
+          "prompt": "back view silhouette of a traveler with headphones looking out of an oval airplane window at clouds, face not visible",
           "move": "push"
         },
         {
           "vo": "To understand how, we have to go back to the first jet airliner the world ever built. A plane years ahead of anything else in the sky.",
-          "prompt": "a polished silver 1950s jet airliner standing on an airfield at dawn, four engines buried in the wings, long row of large squarish cabin windows",
+          "prompt": "1950s silver jet airliner parked on an empty airfield at dawn, four engines inside the wings, long row of large square windows on the fuselage, low angle",
           "move": "pull"
         }
       ]
@@ -78,7 +78,7 @@
       "shots": [
         {
           "vo": "May, nineteen fifty-two. The de Havilland Comet carries its first paying passengers. For a moment, Britain owns the future of flight.",
-          "prompt": "a 1950s silver de Havilland Comet style jet airliner taking off from a runway, crowds watching behind a fence, black and white newsreel mood painted in color",
+          "prompt": "1950s silver jet airliner taking off from a runway, crowd of people in 1950s coats watching behind a wire fence, morning",
           "move": "push"
         },
         {
@@ -91,38 +91,41 @@
         },
         {
           "vo": "And along its sides runs a row of big, almost square windows. Passengers love them. Engineers are proud of them.",
-          "prompt": "inside a 1950s jet airliner cabin, large nearly square windows with slightly rounded small corners, passengers in 1950s clothing looking out, no faces in focus",
+          "prompt": "interior, 1950s jet airliner cabin, large almost square windows, passengers in 1950s suits and hats seated, soft focus faces, warm light",
           "move": "pan_right"
         },
         {
           "vo": "Then, on the tenth of January, nineteen fifty-four, B. O. A. C. Flight seven eight one climbs out of Rome, bound for London.",
-          "prompt": "a silver 1950s jet airliner climbing over the coast of Italy in morning light, Rome far below",
+          "prompt": "1950s silver jet airliner climbing over the Italian coast in morning light, the city of Rome far below, aerial view",
           "move": "push"
         },
         {
           "vo": "Near the island of Elba, it breaks apart in the air. All thirty-five people on board are lost.",
-          "prompt": "the island of Elba seen from high above, a calm sea, a faint trail of smoke in the sky, somber mood",
-          "move": "push"
+          "prompt": "aerial view of the island of Elba in a calm turquoise sea, a thin trail of smoke in an empty sky above it, somber",
+          "move": "push",
+          "negative": "airplane, aircraft, jet, wing, fuselage"
         },
         {
           "vo": "Fishermen below watch the pieces fall into the sea.",
-          "prompt": "1950s Italian fishing boats on a calm sea, fishermen looking up at debris falling from the sky, painted from behind",
-          "move": "pan_left"
+          "prompt": "1950s Italian wooden fishing boats on a calm sea, fishermen standing in the boats looking up at the sky, seen from behind",
+          "move": "pan_left",
+          "negative": "airplane, aircraft, jet, wing, fuselage"
         },
         {
           "vo": "The Comets are grounded. Investigators suspect a fire, or an engine. Changes are made, and within weeks the jets are flying again. That decision would cost twenty-one more lives.",
-          "prompt": "1950s engineers in overalls inspecting the jet engine bay of a silver airliner in a hangar, work lights, tools",
+          "prompt": "1950s aircraft engineers in overalls inspecting an open jet engine bay inside a hangar, work lamps, toolboxes",
           "move": "push"
         },
         {
           "vo": "On the eighth of April, South African Airways Flight two oh one leaves Rome for Cairo.",
-          "prompt": "a silver 1950s jet airliner in South African Airways colors climbing into an evening sky over Italy",
+          "prompt": "1950s silver jet airliner climbing into an orange evening sky over the coast of southern Italy, side view",
           "move": "pan_right"
         },
         {
           "vo": "Near Naples, it vanishes from the sky. Twenty-one more people are gone.",
-          "prompt": "the Bay of Naples at dusk with Mount Vesuvius, an empty darkening sky, haunting stillness",
-          "move": "push"
+          "prompt": "the Bay of Naples at dusk, Mount Vesuvius on the horizon, an empty darkening sky, still water, haunting mood",
+          "move": "push",
+          "negative": "airplane, aircraft, jet, wing, fuselage"
         },
         {
           "vo": "Two identical aircraft. Two clear days. No storm. No bomb. No pilot error anyone can find. So what is tearing these planes apart?",
@@ -130,17 +133,17 @@
         },
         {
           "vo": "The world's most modern airliner is taken out of service, and Britain launches one of the biggest crash investigations in history.",
-          "prompt": "a large 1950s investigation room with long tables of twisted aluminium wreckage, investigators in suits and lab coats examining it, seen from above",
+          "prompt": "high angle, 1950s investigation hall, long tables covered with twisted aluminium wreckage, investigators in suits and white lab coats",
           "move": "pull"
         },
         {
           "vo": "The Royal Navy searches the seabed off Elba, and lifts piece after piece of the first Comet from the water.",
-          "prompt": "a 1950s Royal Navy salvage ship on the sea off Elba lifting a twisted piece of aircraft fuselage out of the water with a crane",
+          "prompt": "1950s Royal Navy salvage ship at sea, a crane lifting a twisted piece of metal fuselage out of the water, grey sky",
           "move": "push"
         },
         {
           "vo": "At Farnborough, the fragments are laid out and rebuilt like a giant puzzle. But the most important piece is still missing.",
-          "prompt": "inside a huge hangar, the wreckage of a silver airliner fuselage reassembled on a wooden frame, pieces missing, engineers measuring",
+          "prompt": "inside a huge hangar, reassembled wreckage of a silver airliner fuselage on a wooden frame, missing pieces, engineers with clipboards",
           "move": "pan_right"
         }
       ]
@@ -151,12 +154,12 @@
       "shots": [
         {
           "vo": "The wreckage cannot show what happened in the air. So the investigators try something nobody has ever done.",
-          "prompt": "a complete silver 1950s jet airliner fuselage being lowered into a giant water tank in a hangar, wings sticking out through the sides",
+          "prompt": "inside a hangar, a complete silver 1950s airliner fuselage being lowered by cranes into a giant rectangular water tank",
           "move": "push"
         },
         {
           "vo": "They put an entire Comet into a giant tank of water, and they fly it, over and over, without it ever leaving the ground.",
-          "prompt": "a 1950s airliner fuselage submerged in a massive water tank, pipes and pumps around it, engineers watching gauges",
+          "prompt": "a 1950s airliner fuselage submerged in a massive water tank, pipes and pumps around it, engineers watching from a walkway",
           "move": "pan_left"
         },
         {
@@ -165,13 +168,14 @@
         },
         {
           "vo": "Day and night, the tank keeps flying. And after about three thousand flights' worth of cycles, the fuselage splits open.",
-          "prompt": "a split in the aluminium skin of an airliner fuselage underwater, a long jagged crack, bubbles escaping",
+          "prompt": "underwater inside a giant test tank, a long jagged split tearing open the riveted aluminium skin of an airliner fuselage, bubbles escaping, dramatic light",
           "move": "push"
         },
         {
           "vo": "The crack starts at a corner. The sharp corner of a squarish opening in the skin.",
-          "prompt": "extreme close-up of the sharp corner of a square window cutout in aluminium aircraft skin, a hairline crack running from the corner through a rivet hole",
-          "move": "push"
+          "prompt": "extreme close-up, the sharp corner of a square cut-out in riveted aluminium sheet, a hairline crack running from the corner through a rivet hole",
+          "move": "push",
+          "negative": "airplane, aircraft, jet, wing, fuselage"
         },
         {
           "diagram": "corner_stress",
@@ -187,18 +191,20 @@
         },
         {
           "vo": "Engineers call it metal fatigue. Invisible cracks grow, flight after flight, until one day the skin simply lets go.",
-          "prompt": "a hairline crack spreading across polished aircraft aluminium, light glinting off the edges, close-up",
-          "move": "pan_right"
+          "prompt": "macro photograph style, polished aluminium surface with tiny branching fatigue cracks spreading from a sharp corner, scientific detail",
+          "move": "pan_right",
+          "negative": "airplane, aircraft, jet, wing, fuselage"
         },
         {
           "vo": "And when a pressurised cabin fails at thirty thousand feet, it does not leak. It bursts.",
-          "prompt": "high above the clouds, an airliner fuselage bursting open, a cloud of vapour, seen from a distance, sober and not graphic",
+          "prompt": "far above the clouds, a 1950s airliner fuselage bursting open in a white cloud of vapour, distant view, not graphic",
           "move": "push"
         },
         {
           "vo": "Later, a section of the Elba Comet's roof is pulled from the sea. The break had started at the corner of a small square opening. Exactly as the tank predicted.",
-          "prompt": "a recovered piece of airliner roof skin with a small square opening, its corner torn, laid on a workbench under a lamp",
-          "move": "push"
+          "prompt": "a recovered piece of airliner roof skin with a small square opening, its corner torn, lying on a wooden workbench under a lamp",
+          "move": "push",
+          "negative": "airplane, aircraft, jet, wing, fuselage"
         }
       ]
     },
@@ -208,7 +214,7 @@
       "shots": [
         {
           "vo": "The lesson rewrote the rules of aviation. When the Comet returned in a new version, its windows were oval.",
-          "prompt": "a 1950s silver jet airliner with oval windows flying above clouds in bright sunlight, a hopeful mood",
+          "prompt": "1950s-style silver jet airliner with oval windows flying above sunlit clouds, hopeful bright mood, side view",
           "move": "pan_right"
         },
         {
@@ -217,12 +223,12 @@
         },
         {
           "vo": "Right now, thousands of cabins above you are swelling a little on every flight, and shrinking again when they land.",
-          "prompt": "a modern passenger jet at night at an airport gate, cabin lights glowing through its row of rounded windows",
+          "prompt": "modern passenger jet at an airport gate at night, cabin lights glowing through its row of oval windows, wet tarmac reflections",
           "move": "push"
         },
         {
           "vo": "They survive, because of what those investigators learned in nineteen fifty-four.",
-          "prompt": "close-up of the rounded corner of a modern airplane window frame from inside, soft light, the engine of the wing outside",
+          "prompt": "inside a modern airplane, close-up of the rounded corner of a cabin window frame, the engine and wing visible outside, soft light",
           "move": "push"
         }
       ]
@@ -233,19 +239,20 @@
       "shots": [
         {
           "vo": "So the next time you lean against that little oval window, remember the fifty-six people who gave it its shape.",
-          "prompt": "a child's hand touching a rounded airplane window, sunset clouds outside, warm amber light",
+          "prompt": "a child's small hand touching an oval airplane window, sunset clouds outside, warm amber light",
           "move": "push"
         },
         {
           "vo": "And that is the hidden why.",
-          "prompt": "a single rounded airplane window glowing in a dark cabin, centered, quiet",
+          "prompt": "a single oval airplane window glowing in a completely dark cabin, centered, quiet",
           "move": "pull",
           "signature": true
         },
         {
           "vo": "Next time: why a town in Pennsylvania has been on fire for sixty years. Subscribe, so you don't miss it, and tell us what we should explain after that.",
-          "prompt": "a dark desk with a keyhole-shaped beam of yellow light falling across it, mysterious",
-          "move": "push"
+          "prompt": "an empty small-town road in Pennsylvania with white smoke rising from cracks in the asphalt, abandoned houses, overcast, eerie",
+          "move": "push",
+          "negative": "airplane, aircraft, jet, wing, fuselage"
         }
       ]
     }
