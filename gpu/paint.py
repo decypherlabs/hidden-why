@@ -44,8 +44,10 @@ def main(script_path, out_dir, part=0, parts=1):
     out.mkdir(parents=True, exist_ok=True)
     from diffusers import StableDiffusionXLPipeline
     src = model_path()
-    kw = {"variant": "fp16"} if src == HF_MODEL else {}
-    pipe = StableDiffusionXLPipeline.from_pretrained(src, torch_dtype=torch.float16, use_safetensors=True, **kw).to("cuda")
+    dev = os.environ.get("PAINT_DEVICE", "cuda")  # cpu only for the smoke test (tiny model)
+    kw = {"variant": "fp16", "use_safetensors": True} if src == HF_MODEL else {}
+    pipe = StableDiffusionXLPipeline.from_pretrained(
+        src, torch_dtype=torch.float16 if dev == "cuda" else torch.float32, **kw).to(dev)
     print(f"  SDXL from {src}", flush=True)
     pipe.enable_vae_slicing()
     style, neg = BRAND["art_style"], BRAND["art_negative"]
@@ -60,7 +62,7 @@ def main(script_path, out_dir, part=0, parts=1):
     for i, (p, prompt, w, h, seed) in enumerate(jobs, 1):
         if (i - 1) % parts != part or p.exists():
             continue
-        g = torch.Generator("cuda").manual_seed(seed)
+        g = torch.Generator(dev).manual_seed(seed)
         img = pipe(prompt, negative_prompt=neg, width=w, height=h, num_inference_steps=30, guidance_scale=6.5,
                    generator=g).images[0]
         img.save(p)

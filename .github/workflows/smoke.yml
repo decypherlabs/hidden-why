@@ -1,0 +1,34 @@
+name: smoke
+# Runs the GPU notebook's script (gpu/run.py) on the runner CPU with a tiny SDXL test model, so the
+# whole chain (paint -> release -> build dispatch) is exercised without a GPU. Uses the slug
+# "smoke-<episode>" so the real episode's paint release is never created by a test.
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        default: "01-round-windows"
+permissions:
+  contents: write
+  actions: write
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q diffusers==0.35.2 transformers==4.57.1 accelerate==1.11.0 safetensors huggingface_hub
+      - name: Paint (tiny model) and hand off
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SDXL_PATH: hf-internal-testing/tiny-stable-diffusion-xl-pipe
+          PAINT_DEVICE: cpu
+        run: |
+          S="smoke-${{ inputs.episode }}"
+          gh release delete "paint-$S" -R "$GITHUB_REPOSITORY" --cleanup-tag -y 2>/dev/null || true
+          cp -r "episodes/${{ inputs.episode }}" "episodes/$S"
+          python gpu/run.py "$S"

@@ -26,6 +26,11 @@ jobs:
             ~/.cache/pip
             ~/.cache/huggingface
           key: hiddenwhy-v1
+      - name: Episode folder
+        run: |
+          S="${{ inputs.slug }}"
+          if [ -d "episodes/$S" ]; then EP="episodes/$S"; else EP="episodes/${S#smoke-}"; fi   # smoke tests reuse an episode
+          echo "EP=$EP" >> "$GITHUB_ENV"
       - name: Python packages
         run: |
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
@@ -36,24 +41,24 @@ jobs:
         run: |
           mkdir -p "out/${{ inputs.slug }}"
           if [ "${{ inputs.placeholder }}" = "true" ]; then
-            python pipeline/placeholder.py "episodes/${{ inputs.slug }}/script.json" "out/${{ inputs.slug }}"
+            python pipeline/placeholder.py "$EP/script.json" "out/${{ inputs.slug }}"
           else
             gh release download "paint-${{ inputs.slug }}" -R "$GITHUB_REPOSITORY" -D out
             tar -xf "out/paint-${{ inputs.slug }}.tar" -C "out/${{ inputs.slug }}"
           fi
       - name: Narration
-        run: python pipeline/narrate.py "episodes/${{ inputs.slug }}/script.json" "out/${{ inputs.slug }}"
+        run: python pipeline/narrate.py "$EP/script.json" "out/${{ inputs.slug }}"
       - name: Edit
-        run: python pipeline/build.py "episodes/${{ inputs.slug }}/script.json" "out/${{ inputs.slug }}"
+        run: python pipeline/build.py "$EP/script.json" "out/${{ inputs.slug }}"
       - name: Thumbnail
-        run: python pipeline/thumb.py "episodes/${{ inputs.slug }}/script.json" "out/${{ inputs.slug }}"
+        run: python pipeline/thumb.py "$EP/script.json" "out/${{ inputs.slug }}"
       - name: Collect
         run: |
           mkdir -p final && cd "out/${{ inputs.slug }}"
           cp video.mp4 thumb.jpg chapters.txt ../../final/
           python3 - <<'PY'
           import json, pathlib
-          m = json.loads(pathlib.Path("../../episodes/${{ inputs.slug }}/meta.json").read_text())
+          m = json.loads(pathlib.Path("../../" + __import__("os").environ["EP"] + "/meta.json").read_text())
           ch = pathlib.Path("chapters.txt").read_text()
           m["youtube"]["description"] = m["youtube"]["description"].replace("{CHAPTERS}", ch)
           pathlib.Path("../../final/meta.json").write_text(json.dumps(m, indent=2, ensure_ascii=False))
