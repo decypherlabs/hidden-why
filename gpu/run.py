@@ -99,9 +99,9 @@ def fetch_paintings(slug, out):
     asset = next((a for a in (rel or {}).get("assets", []) if a["name"].endswith(".tar")), None)
     if not asset:
         raise SystemExit(f"{slug}: no paintings to repaint from (release paint-{slug} missing)")
+    out.mkdir(parents=True, exist_ok=True)  # also creates out/, where the pack is saved
     tar = out.parent / asset["name"]
     tar.write_bytes(gh("GET", f"/releases/assets/{asset['id']}", accept="application/octet-stream"))
-    out.mkdir(parents=True, exist_ok=True)
     with tarfile.open(tar) as t:
         t.extractall(out)
 
