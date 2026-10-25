@@ -372,10 +372,80 @@ def tetraphobia(_=None):
     return img
 
 
+def underground_fire(_=None):
+    """Cross-section: town on the surface, coal seam and old mine tunnels below, the fire front moving
+    along the seam, air drawn in through cracks and old openings, smoke and heat venting up."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "WHY IT CAN'T BE PUT OUT")
+    ground = 330
+    d.rectangle((0, ground, W, H), fill=(44, 34, 28))
+    for x in (260, 420, 600, 1500, 1660):  # houses
+        d.rectangle((x, ground - 70, x + 110, ground), fill=(150, 150, 146))
+        d.polygon([(x - 10, ground - 70), (x + 55, ground - 120), (x + 120, ground - 70)], fill=(110, 110, 106))
+    d.polygon([(0, 640), (W, 560), (W, 700), (0, 780)], fill=(18, 18, 20))  # coal seam
+    d.text((80, 720), "COAL SEAM", font=font(44), fill=(150, 150, 150), anchor="lm")
+    for x in range(120, W, 260):  # old mine tunnels in the seam
+        y = 640 + (560 - 640) * x / W
+        d.rectangle((x, y + 28, x + 150, y + 82), fill=(70, 60, 52))
+    fx = 1050
+    fire = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    fd = ImageDraw.Draw(fire)
+    fd.polygon([(fx - 260, 640 - 50), (fx + 120, 600 - 40), (fx + 120, 700 + 40), (fx - 260, 760 + 20)], fill=(255, 90, 20, 210))
+    img.paste(fire.filter(ImageFilter.GaussianBlur(26)), (0, 0), fire.filter(ImageFilter.GaussianBlur(26)))
+    d = ImageDraw.Draw(img)
+    d.text((fx - 70, 860), "FIRE FRONT  →  moving through the coal", font=font(46), fill=YEL, anchor="mm")
+    for x in (760, 980, 1180):  # smoke and heat venting through cracks
+        d.line((x, 600, x - 20, 470, x + 10, ground), fill=(190, 190, 190), width=5)
+        d.text((x, ground - 40), "~", font=font(70), fill=(190, 190, 190), anchor="mm")
+    for x in (1380, 1840):  # air drawn in
+        d.line((x, ground - 60, x, 540), fill=(120, 190, 255), width=8)
+        d.polygon([(x, 560), (x - 18, 530), (x + 18, 530)], fill=(120, 190, 255))
+    d.text((1610, ground + 120), "AIR IN", font=font(44), fill=(120, 190, 255), anchor="mm")
+    d.text((W / 2, 1010), "old tunnels and cracks keep feeding it air", font=font(40, False), fill=BONE, anchor="mm")
+    return img
+
+
+def cost_compare(_=None):
+    """1983 estimate to put the fire out vs the money Congress gave to move the town."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "PUT IT OUT, OR MOVE THE TOWN?")
+    base_y, top_y = 900, 260
+    for x, val, label, sub, col in ((650, 663, "$663 MILLION", "to try to put it out (1983 estimate, no guarantee)", RED),
+                                    (1270, 42, "$42 MILLION", "to move the people (1984)", YEL)):
+        h = (base_y - top_y) * val / 663
+        d.rectangle((x - 140, base_y - h, x + 140, base_y), fill=col)
+        d.text((x, base_y - h - 50), label, font=font(64), fill=col, anchor="mm")
+        d.text((x, base_y + 50), sub, font=font(32, False), fill=BONE, anchor="mm")
+    return img
+
+
+def population(_=None):
+    """Centralia: about 1,100 people in 1962, a handful today; ZIP code revoked in 2002."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "A TOWN DISAPPEARS")
+    pts = [(1962, 1100), (1981, 1000), (2005, 12), (2010, 7)]
+    x0, x1, yb, yt = 300, 1620, 880, 260
+    X = lambda yr: x0 + (x1 - x0) * (yr - 1960) / 52
+    Y = lambda p: yb - (yb - yt) * p / 1100
+    d.line((x0, yb, x1, yb), fill=BONE, width=4)
+    d.line([(X(y), Y(p)) for y, p in pts], fill=YEL, width=10)
+    for y, p in pts:
+        d.ellipse((X(y) - 14, Y(p) - 14, X(y) + 14, Y(p) + 14), fill=YEL)
+        d.text((X(y), Y(p) - 50 if p > 50 else Y(p) - 50), f"{p:,}", font=font(52), fill=YEL, anchor="mm")
+        d.text((X(y), yb + 45), str(y), font=font(40), fill=BONE, anchor="mm")
+    d.line((X(2002), yb - 20, X(2002), yb - 330), fill=RED, width=4)
+    d.text((X(2002) - 20, yb - 360), "2002: ZIP code 17927 revoked", font=font(38), fill=RED, anchor="rm")
+    return img
+
+
 OVERLAYS = {"corner_crack": corner_crack, "rivet_crack": rivet_crack, "square_hole": square_hole}
 
 
-DIAGRAMS = {"elevator_gap": elevator_gap, "otis_85": otis_85, "real_floors": real_floors, "tetraphobia": tetraphobia,
+DIAGRAMS = {"underground_fire": underground_fire, "cost_compare": cost_compare, "population": population,
+            "elevator_gap": elevator_gap, "otis_85": otis_85, "real_floors": real_floors, "tetraphobia": tetraphobia,
             "decompression": decompression, "corner_stress": corner_stress, "round_vs_square": round_vs_square, "altitude": altitude,
             "pressurisation": pressurisation, "crash_map": crash_map, "pressure_cycles": pressure_cycles,
             "fatigue_crack": fatigue_crack}

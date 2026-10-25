@@ -1,0 +1,230 @@
+{
+  "slug": "02-centralia",
+  "title": "Why a Town Has Been on Fire for 60 Years",
+  "approved": false,
+  "thumbnail": {
+    "text": "60 YEARS|*BURNING*",
+    "plane": "an empty cracked asphalt road in a dead winter forest with thick white smoke rising from the cracks, overcast sky, eerie, wide view",
+    "zoom": "extreme close-up of a deep crack in asphalt with white smoke pouring out and an orange glow deep inside, dramatic light"
+  },
+  "music": {
+    "intense": [
+      "cold_open",
+      "sting",
+      "reveal"
+    ],
+    "reflective": [
+      "ordinary",
+      "today",
+      "outro"
+    ],
+    "epic": [
+      "story"
+    ]
+  },
+  "sections": [
+    {
+      "id": "cold_open",
+      "card": null,
+      "shots": [
+        {
+          "vo": "There is a road in Pennsylvania where smoke rises out of the ground. Not from a chimney. From the road itself.",
+          "prompt": "a cracked abandoned two-lane asphalt road with white smoke rising from long cracks, leafless trees on both sides, overcast, eerie",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "Under your feet, the earth is burning. It has been burning since nineteen sixty-two.",
+          "prompt": "a cross-section view of the ground under a road, glowing orange embers deep underground beneath layers of rock and soil, dramatic",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "The town that stood here had more than a thousand people. Today, only a handful are left.",
+          "prompt": "an empty small-town street with overgrown grass where houses used to be, only the old concrete sidewalks and steps remain, autumn",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "So why has nobody put the fire out? After more than sixty years?",
+          "prompt": "white smoke drifting through a dead forest at dusk, bare trees, orange light low on the horizon, haunting",
+          "move": "pull",
+          "negative": "crowd, people, faces"
+        }
+      ]
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "shots": []
+    },
+    {
+      "id": "ordinary",
+      "card": "THE ORDINARY",
+      "shots": [
+        {
+          "vo": "Centralia, Pennsylvania. A small coal-mining town. Churches, bars, family homes, kids riding bikes.",
+          "prompt": "a small American coal-mining town main street in the early 1960s, brick shops, a church steeple, parked 1960s cars, sunny day",
+          "move": "push"
+        },
+        {
+          "vo": "Beneath it ran one of the richest seams of hard coal in America, riddled with old mine tunnels.",
+          "prompt": "an old abandoned coal mine tunnel with wooden support beams and black coal walls, lit by a single lantern",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "Coal built this town. Nobody imagined it would also destroy it.",
+          "prompt": "coal miners with lamps on their helmets walking out of a mine entrance at dusk, 1950s, seen from behind",
+          "move": "push"
+        }
+      ]
+    },
+    {
+      "id": "story",
+      "card": "THE STORY",
+      "shots": [
+        {
+          "vo": "May, nineteen sixty-two. The town decides to clean up its rubbish dump before Memorial Day. The usual way. They set it on fire.",
+          "prompt": "a burning rubbish dump in a small open pit at the edge of a town, orange flames and smoke, 1960s, evening",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "But the dump sits in an old pit, next to an opening into the abandoned mines. And the fire finds it.",
+          "prompt": "a dark opening in the rock wall of an old pit, small flames creeping into the hole, smoke curling inside",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "Down there, the fire reaches the coal. And coal does not just burn. It smoulders, for years.",
+          "prompt": "deep underground, a seam of black coal glowing red and orange with embers, heat haze, no people",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "Crews try to dig it out. They flood the tunnels. They pump in mud and ash. Each time, the fire slips away along the coal.",
+          "prompt": "1960s workers with bulldozers digging a deep trench in muddy ground, smoke rising from the earth behind them, overcast",
+          "move": "push"
+        },
+        {
+          "vo": "Here is why it never works. The old tunnels and cracks keep feeding the fire fresh air. And the coal goes on for miles.",
+          "diagram": "underground_fire"
+        },
+        {
+          "vo": "Years pass. The ground in town gets warm. In winter, snow melts in strange patches.",
+          "prompt": "a backyard in winter where snow has melted in an irregular patch on the ground with steam rising from it, a wooden fence, quiet",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "Basements fill with deadly gas. People start getting sick.",
+          "prompt": "a dim basement of an old house with a gas meter and a warning glow, a faint haze in the air, eerie, no people",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "Then, in nineteen eighty-one, a twelve-year-old boy is walking in a backyard when the ground opens under his feet.",
+          "prompt": "a backyard with a large fresh sinkhole in the grass, steam and smoke rising from the hole, a tree at its edge, overcast",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "He falls into a steaming hole, deep enough to kill him. He hangs on to a tree root, until his cousin pulls him out.",
+          "prompt": "close-up of a child's hand gripping an exposed tree root at the edge of a dark steaming hole, dramatic light",
+          "move": "push"
+        },
+        {
+          "vo": "Now the whole country is watching. And the question becomes impossible to ignore: can this fire be stopped at all?",
+          "prompt": "1980s television news crews and reporters standing in a small town street with smoke rising behind them",
+          "move": "push"
+        },
+        {
+          "vo": "In nineteen eighty-three, a federal study put a price on it. Six hundred and sixty-three million dollars, with no guarantee it would even work.",
+          "diagram": "cost_compare"
+        },
+        {
+          "vo": "Moving the people would cost far less. So in nineteen eighty-four, Congress set aside forty-two million dollars to buy the town and move it.",
+          "prompt": "a family loading furniture into a moving truck in front of a small house, 1980s, sad mood, backs to camera",
+          "move": "push"
+        },
+        {
+          "vo": "House after house was bought, and torn down.",
+          "prompt": "a bulldozer demolishing a small two-story wooden house in a quiet town, dust in the air, 1980s",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "card": "THE REVEAL",
+      "shots": [
+        {
+          "vo": "So the hidden why is brutal and simple. It was cheaper to erase a town than to put out a fire.",
+          "prompt": "an empty grid of overgrown streets in a forest clearing where a town used to be, aerial view, autumn colors",
+          "move": "pull",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "Centralia emptied. In two thousand two, the Postal Service even took away its ZIP code.",
+          "diagram": "population"
+        },
+        {
+          "vo": "The main highway into town cracked open, and had to be closed and moved.",
+          "prompt": "a long abandoned highway with huge cracks across it and smoke rising from them, barriers closing the road, overcast",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "And the fire? By some estimates, there is enough coal down there to keep it burning for up to two hundred and fifty years.",
+          "prompt": "deep underground, an endless glowing seam of burning coal stretching into darkness, orange and red, epic",
+          "move": "pan_right",
+          "negative": "crowd, people, faces"
+        }
+      ]
+    },
+    {
+      "id": "today",
+      "card": "TODAY",
+      "shots": [
+        {
+          "vo": "Today, only a few people still live there. They refused to leave, and the fire burns on beneath them.",
+          "prompt": "a lone old house standing at the end of an empty overgrown street, smoke drifting in the distance, autumn",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "A whole town, gone. Not because of a war, or a flood. Because of one rubbish fire, in the wrong place.",
+          "prompt": "a small fire burning in a pit at night with sparks rising into the dark sky, ominous",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "card": null,
+      "shots": [
+        {
+          "vo": "So if you ever drive through the hills of Pennsylvania and see smoke rising from the ground, now you know why.",
+          "prompt": "a car driving along a quiet forest road in Pennsylvania hills at dusk, thin smoke rising from the roadside",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "And that is the hidden why.",
+          "prompt": "a single wisp of white smoke rising from a crack in dark ground, close-up, quiet",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        },
+        {
+          "vo": "Next time: why do so many hotels skip the thirteenth floor? Here is a hint. It is still there. Subscribe, so you don't miss it.",
+          "prompt": "polished brass elevator doors in a dark hotel lobby, a single warm light, empty",
+          "move": "push",
+          "negative": "crowd, people, faces"
+        }
+      ]
+    }
+  ]
+}
