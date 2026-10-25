@@ -72,6 +72,7 @@ def main(script_path, out_dir):
     x, y = 56, (H - len(lines) * size * 1.02) / 2 + size * 0.5 + 40
     for t in lines:
         plain, _, boxed = t.upper().partition("*")
+        boxed = boxed.replace("*", "")  # "*WORD*" and "*WORD" both mean: WORD in the red box
         f = K.display(size)
         while d.textlength(plain + boxed, font=f) + (28 if boxed else 0) > W * 0.46 and f.size > 70:
             f = K.display(f.size - 6)
