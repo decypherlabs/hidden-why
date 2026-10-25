@@ -52,22 +52,24 @@ def main(script_path, out_dir, part=0, parts=1):
     pipe.enable_vae_slicing()
     style, neg = BRAND["art_style"], BRAND["art_negative"]
     th = script.get("thumbnail") or {}
-    # SDXL has two text encoders (77 tokens each): the shot's subject goes to the first so it is never
-    # cut off, the brand style to the second; shot-specific negatives (e.g. "airplane" for the island)
-    # keep the subject from turning into the story's strongest noun.
-    jobs = [(out / f"shot-{n:02d}.png", p, style, f"{neg_extra}, {neg}" if neg_extra else neg, 1344, 768, 1000 + n)
+    # SDXL has two text encoders (77 tokens each). The second (OpenCLIP bigG) also gives the pooled
+    # embedding that sets the overall composition, so it must carry the SUBJECT too: subject alone on the
+    # first, subject + brand style on the second (style-only there drew generic hangar scenes, seen on
+    # Kaggle). Shot-specific negatives (e.g. "airplane" for the island) keep the subject from turning into
+    # the story's strongest noun.
+    jobs = [(out / f"shot-{n:02d}.png", p, f"{p}, {style}", f"{neg_extra}, {neg}" if neg_extra else neg, 1344, 768, 1000 + n)
             for n, p, neg_extra in shots(script)]
     thumb_style = "cinematic digital painting, dramatic light, high contrast, highly detailed, sharp focus, no text"
     if th.get("plane"):  # the thumbnail keeps its subject bright and readable, so a lighter style
-        jobs.append((out / "thumb-plane.png", th["plane"], thumb_style, neg, 1344, 768, 7))
+        jobs.append((out / "thumb-plane.png", th["plane"], f"{th['plane']}, {thumb_style}", neg, 1344, 768, 7))
     if th.get("zoom"):
-        jobs.append((out / "thumb-zoom.png", th["zoom"], thumb_style, neg, 1024, 1024, 8))
+        jobs.append((out / "thumb-zoom.png", th["zoom"], f"{th['zoom']}, {thumb_style}", neg, 1024, 1024, 8))
     for i, (p, prompt, prompt2, negative, w, h, seed) in enumerate(jobs, 1):
         if (i - 1) % parts != part or p.exists():
             continue
         g = torch.Generator(dev).manual_seed(seed)
         img = pipe(prompt=prompt, prompt_2=prompt2, negative_prompt=negative, negative_prompt_2=negative,
-                   width=w, height=h, num_inference_steps=30, guidance_scale=6.5, generator=g).images[0]
+                   width=w, height=h, num_inference_steps=30, guidance_scale=7.0, generator=g).images[0]
         img.save(p)
         print(f"  {i}/{len(jobs)} {p.name}", flush=True)
 
