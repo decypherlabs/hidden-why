@@ -163,17 +163,37 @@ def main(script_path, out_dir):
         voice[i:i + len(x)] += x[:len(voice) - i]
     mood_of = {sid: mood for mood, sids in (script.get("music") or {}).items() for sid in sids}
     tracks = {m: load_mp3(ROOT / "brand/music" / f"{m}.mp3", total + 1) for m in set(mood_of.values())}
+    # each section's track, loudness-matched (RMS, not peak: a soft bed with a few hits would vanish),
+    # with 1.2 s crossfades where the mood changes
+    def rms(x):
+        return float(np.sqrt(np.mean(x.astype(np.float64) ** 2))) + 1e-9
+    tracks = {m: t / rms(t) for m, t in tracks.items()}
     music = np.zeros_like(voice)
-    env_len = int(1.5 * SR)
+    xf = int(1.2 * SR)
     for start, dur, _, _, sid in items:
         m = mood_of.get(sid)
         if not m:
             continue
-        a, b = int(start * SR), int((start + dur) * SR)
-        music[a:b] += tracks[m][a:b]
-    music = np.convolve(music, np.ones(64) / 64, mode="same")  # soften hard track switches
-    fade = np.minimum(1, np.arange(len(music)) / env_len) * np.minimum(1, (len(music) - np.arange(len(music))) / (3 * SR))
-    mix = voice / (np.abs(voice).max() + 1e-9) * 0.92 + music / (np.abs(music).max() + 1e-9) * 0.13 * fade
+        a, b = max(0, int(start * SR) - xf // 2), min(len(music), int((start + dur) * SR) + xf // 2)
+        seg = tracks[m][a:b].copy()
+        ramp = np.minimum(1, np.minimum(np.arange(len(seg)), np.arange(len(seg))[::-1]) / (xf / 2))
+        music[a:b] += seg * ramp
+    # ducking: music ~12 dB under the narration while it speaks, up to ~4 dB under in pauses, cards,
+    # the sting and the end screen; smooth attack (0.15 s) and slower release (0.6 s)
+    hop = SR // 50
+    env = np.sqrt(np.convolve(voice.astype(np.float64) ** 2, np.ones(hop) / hop, mode="same"))
+    speaking = (env > 0.02 * (env.max() + 1e-9)).astype(np.float64)
+    gain = np.empty_like(speaking)
+    g, up, down = 0.0, 1 / (0.6 * SR), 1 / (0.15 * SR)
+    for i in range(0, len(speaking), hop):  # per 20 ms block, then held across the block
+        target = speaking[i]
+        g = min(target, g + down * hop) if target > g else max(target, g - up * hop)
+        gain[i:i + hop] = g
+    voice_rms = rms(voice[speaking > 0]) if speaking.any() else 0.1
+    level = voice_rms * (10 ** (-12 / 20) * gain + 10 ** (-4 / 20) * (1 - gain))
+    fade = np.minimum(1, np.arange(len(music)) / (1.5 * SR)) * np.minimum(1, (len(music) - np.arange(len(music))) / (3 * SR))
+    mix = voice + music * level * fade
+    mix = mix / (np.abs(mix).max() + 1e-9) * 0.95
     mix = np.clip(mix, -1, 1)
     import soundfile as sf
     sf.write(out / "mix.wav", mix[:int(total * SR)], SR)
