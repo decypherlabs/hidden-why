@@ -293,9 +293,89 @@ def square_hole(img):
     return img
 
 
+def _button(d, cx, cy, r, label, lit=False):
+    d.ellipse((cx - r - 6, cy - r - 6, cx + r + 6, cy + r + 6), fill=(120, 104, 70))
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(250, 214, 120) if lit else (40, 38, 34), outline=(196, 160, 90), width=4)
+    if label:
+        d.text((cx, cy), label, font=font(int(r * 1.0)), fill=INK if lit else BONE, anchor="mm")
+
+
+def elevator_gap(_=None):
+    """A brass elevator panel: 10, 11, 12, (gap), 14, 15 - the missing 13 ringed."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "SOMETHING IS MISSING")
+    d.rounded_rectangle((W / 2 - 260, 190, W / 2 + 260, 1030), radius=30, fill=(70, 62, 48), outline=(170, 140, 80), width=8)
+    floors = [16, 15, 14, 13, 12, 11, 10]
+    for i, f in enumerate(floors):
+        cy = 270 + i * 112
+        if f == 13:
+            d.text((W / 2, cy), "?", font=font(90), fill=RED, anchor="mm")
+            d.ellipse((W / 2 - 80, cy - 80, W / 2 + 80, cy + 80), outline=RED, width=10)
+        else:
+            _button(d, W / 2, cy, 44, str(f), lit=(f == 14))
+    d.text((W / 2 + 420, 270 + 3 * 112), "no button 13", font=font(54), fill=RED, anchor="mm")
+    return img
+
+
+def otis_85(_=None):
+    """Otis estimate (2002): about 85% of its buildings with 13+ floors had no floor labelled 13."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "NO FLOOR 13")
+    x0, y0, w, h = 300, 360, 1320, 150
+    d.rounded_rectangle((x0, y0, x0 + w, y0 + h), radius=20, fill=(40, 52, 58))
+    d.rounded_rectangle((x0, y0, x0 + int(w * 0.85), y0 + h), radius=20, fill=YEL)
+    d.text((x0 + int(w * 0.85) / 2, y0 + h / 2), "ABOUT 85%", font=font(96), fill=INK, anchor="mm")
+    d.text((x0 + w * 0.925, y0 + h / 2), "15%", font=font(54), fill=BONE, anchor="mm")
+    d.text((W / 2, 640), "of tall buildings with Otis elevators had no button marked 13", font=font(46, False), fill=BONE, anchor="mm")
+    d.text((W / 2, 720), "estimate by an Otis executive, 2002", font=font(34, False), fill=(130, 140, 148), anchor="mm")
+    return img
+
+
+def real_floors(_=None):
+    """Count the real floors: the floor labelled 14 is the 13th floor."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "COUNT THE FLOORS")
+    bx0, bx1, top, bottom, n = 760, 1160, 190, 1010, 8
+    fh = (bottom - top) / n
+    for k in range(n):  # real floors 9..16 from the bottom
+        real = 9 + k
+        y1 = bottom - k * fh
+        y0 = y1 - fh
+        hot = real == 13
+        d.rectangle((bx0, y0 + 4, bx1, y1 - 4), fill=(80, 40, 36) if hot else (34, 52, 60), outline=RED if hot else BONE, width=6 if hot else 3)
+        label = real if real < 13 else real + 1
+        d.text((bx0 - 40, (y0 + y1) / 2), f"button {label}", font=font(44), fill=RED if hot else BONE, anchor="rm")
+        d.text((bx1 + 40, (y0 + y1) / 2), f"real floor {real}", font=font(44), fill=YEL if hot else (150, 160, 166), anchor="lm")
+    return img
+
+
+def tetraphobia(_=None):
+    """Some towers skip every floor with a 4 (and 13): the top button overstates the real height."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "SKIPPED: 4, 13, 14, 24...")
+    nums = list(range(1, 31))
+    skipped = {4, 13, 14, 24}
+    for i, f in enumerate(nums):
+        r, c = divmod(i, 10)
+        cx, cy = 300 + c * 146, 330 + r * 210
+        if f in skipped:
+            d.ellipse((cx - 50, cy - 50, cx + 50, cy + 50), outline=RED, width=6)
+            d.text((cx, cy), str(f), font=font(52), fill=RED, anchor="mm")
+            d.line((cx - 40, cy + 40, cx + 40, cy - 40), fill=RED, width=6)
+        else:
+            _button(d, cx, cy, 44, str(f))
+    d.text((W / 2, 1000), "in Chinese, \"four\" sounds almost like \"death\"", font=font(42, False), fill=YEL, anchor="mm")
+    return img
+
+
 OVERLAYS = {"corner_crack": corner_crack, "rivet_crack": rivet_crack, "square_hole": square_hole}
 
 
-DIAGRAMS = {"decompression": decompression, "corner_stress": corner_stress, "round_vs_square": round_vs_square, "altitude": altitude,
+DIAGRAMS = {"elevator_gap": elevator_gap, "otis_85": otis_85, "real_floors": real_floors, "tetraphobia": tetraphobia,
+            "decompression": decompression, "corner_stress": corner_stress, "round_vs_square": round_vs_square, "altitude": altitude,
             "pressurisation": pressurisation, "crash_map": crash_map, "pressure_cycles": pressure_cycles,
             "fatigue_crack": fatigue_crack}

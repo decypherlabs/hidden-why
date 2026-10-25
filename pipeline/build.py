@@ -119,6 +119,7 @@ def main(script_path, out_dir):
     out = Path(out_dir)
     vo = json.loads((out / "vo.json").read_text())
     items, n = [], 0  # (start, dur, visual, vo_file, section_id)
+    explainers = []  # time ranges of the science diagrams: the music sits a little higher under them
     t = 0.0
     chapters = []
     for sec in script["sections"]:
@@ -137,6 +138,7 @@ def main(script_path, out_dir):
             d = vo[f"{n:02d}"] + BREATH
             if s.get("diagram"):
                 vis = Shot(bgr(DIAGRAMS[s["diagram"]]()), "push")
+                explainers.append((t, t + d))
             else:
                 img = cv2.imread(str(out / f"shot-{n:02d}.png"))
                 if s.get("overlay"):  # science drawn onto the painting (a crack, a hole) where SDXL can't
@@ -190,7 +192,11 @@ def main(script_path, out_dir):
         g = min(target, g + down * hop) if target > g else max(target, g - up * hop)
         gain[i:i + hop] = g
     voice_rms = rms(voice[speaking > 0]) if speaking.any() else 0.1
-    level = voice_rms * (10 ** (-12 / 20) * gain + 10 ** (-4 / 20) * (1 - gain))
+    under = np.full(len(gain), 10 ** (-12 / 20))
+    for a, b in explainers:  # under the explainers: -8 dB (a clear, curious bed while the viewer reads)
+        under[int(a * SR):int(b * SR)] = 10 ** (-8 / 20)
+    under = np.convolve(under, np.ones(SR // 2) / (SR // 2), mode="same")  # ease in/out over 0.5 s
+    level = voice_rms * (under * gain + 10 ** (-4 / 20) * (1 - gain))
     fade = np.minimum(1, np.arange(len(music)) / (1.5 * SR)) * np.minimum(1, (len(music) - np.arange(len(music))) / (3 * SR))
     mix = voice + music * level * fade
     mix = mix / (np.abs(mix).max() + 1e-9) * 0.95

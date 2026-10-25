@@ -13,6 +13,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageOps
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "brand"))
 import brand_kit as K  # noqa: E402  (display font, grain, colours)
+sys.path.insert(0, str(ROOT / "pipeline"))
 
 W, H = 1280, 720
 
@@ -46,7 +47,14 @@ def main(script_path, out_dir):
     img.paste(Image.new("RGB", (W, H), K.INK), mask=shade)
     # zoom bubble: the window close-up in a circle, white rim + red ring, soft shadow
     r, cx, cy = 165, 1030, 215
-    zoom = cover(Image.open(out / "thumb-zoom.png").convert("RGB"), 2 * r, 2 * r)
+    th = script.get("thumbnail") or {}
+    if th.get("zoom_diagram"):  # numbers/labels can't be painted: the bubble shows a code-drawn close-up
+        from diagram import DIAGRAMS
+        dg = DIAGRAMS[th["zoom_diagram"]]()
+        zx, zy, zr = th.get("zoom_crop", (960, 540, 330))
+        zoom = cover(dg.crop((zx - zr, zy - zr, zx + zr, zy + zr)), 2 * r, 2 * r)
+    else:
+        zoom = cover(Image.open(out / "thumb-zoom.png").convert("RGB"), 2 * r, 2 * r)
     m = Image.new("L", (2 * r, 2 * r), 0)
     ImageDraw.Draw(m).ellipse((0, 0, 2 * r, 2 * r), fill=255)
     sh = Image.new("L", (W, H), 0)
