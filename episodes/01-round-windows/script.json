@@ -175,7 +175,8 @@
           "vo": "The crack starts at a corner. The sharp corner of a squarish opening in the skin.",
           "prompt": "extreme close-up of a flat riveted aluminium panel with one square window cut-out, a single thin dark crack running diagonally away from its sharp top corner, rows of rivets, studio light",
           "move": "push",
-          "negative": "airplane, aircraft, jet, wing, fuselage, holes, rust, organic, leaf, mud, skin"
+          "negative": "airplane, aircraft, jet, wing, fuselage, holes, rust, organic, leaf, mud, skin",
+          "overlay": "corner_crack"
         },
         {
           "diagram": "corner_stress",
@@ -193,19 +194,19 @@
           "vo": "Engineers call it metal fatigue. Invisible cracks grow, flight after flight, until one day the skin simply lets go.",
           "prompt": "macro close-up of a smooth polished aluminium sheet with neat rows of rivets, a hairline fatigue crack spreading from one rivet hole across the metal, cold metallic light",
           "move": "pan_right",
-          "negative": "airplane, aircraft, jet, wing, fuselage, holes, rust, organic, leaf, mud, skin"
+          "negative": "airplane, aircraft, jet, wing, fuselage, holes, rust, organic, leaf, mud, skin",
+          "overlay": "rivet_crack"
         },
         {
           "vo": "And when a pressurised cabin fails at thirty thousand feet, it does not leak. It bursts.",
-          "prompt": "high above white clouds, the silver fuselage of a 1950s jet airliner bursting open along its side, a sudden white cloud of vapour and fragments, wide distant view, not graphic",
-          "move": "push",
-          "negative": ""
+          "diagram": "decompression"
         },
         {
           "vo": "Later, a section of the Elba Comet's roof is pulled from the sea. The break had started at the corner of a small square opening. Exactly as the tank predicted.",
           "prompt": "a piece of salvaged silver aircraft roof panel on a wooden workbench, a small square hole cut in the metal with one corner torn open, rivet rows, a desk lamp, investigators' tools",
           "move": "push",
-          "negative": "holes, rust, organic, leather, cloth, green"
+          "negative": "holes, rust, organic, leather, cloth, green",
+          "overlay": "square_hole"
         }
       ]
     },

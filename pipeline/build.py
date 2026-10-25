@@ -4,7 +4,7 @@
 
 Timeline per the brand: cold open, 2 s logo sting, then each section behind a chapter card (ink, yellow
 Anton title, red underline). Every shot lasts its narration + a breath, with a slow push-in, pull-out or
-pan over the painting, 0.4 s dissolves, light film grain. Music by section mood (licensed library tracks
+pan over the painting (supersampled 2x, no shimmer), 0.4 s dissolves. Music by section mood (licensed library tracks
 in brand/music), kept low under the voice. Ends on a 6 s end screen (logo) for YouTube's end elements.
 """
 import json
@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "brand"))
 sys.path.insert(0, str(ROOT / "pipeline"))
 import brand_kit as K  # noqa: E402
-from diagram import DIAGRAMS  # noqa: E402
+from diagram import DIAGRAMS, OVERLAYS  # noqa: E402
 
 W, H, FPS, SR = 1920, 1080, 30, 48000
 XF = 0.4  # dissolve seconds
@@ -58,25 +58,36 @@ def sting_frames(n):
     return out
 
 
+SS = 2  # supersampling: frames are rendered at 2x and averaged down, so slow zooms/pans don't shimmer
+
+
 class Shot:
+    """A painting or diagram under a slow camera move. The source is upscaled once (Lanczos) to cover the
+    2x canvas; every frame is warped with a cubic filter at 2x and area-averaged down to 1080p: sub-pixel
+    motion stays smooth instead of crawling (the pixel jitter of a 1x linear warp)."""
+
     def __init__(self, img, move):
-        self.src = img  # BGR uint8
+        h, w = img.shape[:2]
+        f = max(SS * W / w, SS * H / h) * 1.12
+        self.src = cv2.resize(img, (round(w * f), round(h * f)), interpolation=cv2.INTER_LANCZOS4)
         self.move = move
 
     def frame(self, u):
         h, w = self.src.shape[:2]
-        s0 = max(W / w, H / h) * 1.02
+        CW, CH = W * SS, H * SS
+        s0 = max(CW / w, CH / h) * 1.02
         z = {"push": 1.0 + 0.09 * u, "pull": 1.09 - 0.09 * u}.get(self.move, 1.05)
         s = s0 * z
-        half_w, half_h = W / (2 * s), H / (2 * s)
+        half_w, half_h = CW / (2 * s), CH / (2 * s)
         cx = w / 2
         if self.move in ("pan_left", "pan_right"):
             span = max(0.0, w / 2 - half_w)
             cx = w / 2 + span * (0.8 * (u - 0.5)) * (1 if self.move == "pan_right" else -1) * 2
         cx = float(np.clip(cx, half_w, w - half_w))
         cy = float(np.clip(h / 2, half_h, h - half_h))
-        M = np.float32([[s, 0, W / 2 - s * cx], [0, s, H / 2 - s * cy]])
-        return cv2.warpAffine(self.src, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
+        M = np.float32([[s, 0, CW / 2 - s * cx], [0, s, CH / 2 - s * cy]])
+        big = cv2.warpAffine(self.src, M, (CW, CH), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
+        return cv2.resize(big, (W, H), interpolation=cv2.INTER_AREA)
 
 
 class Still:
@@ -127,7 +138,10 @@ def main(script_path, out_dir):
             if s.get("diagram"):
                 vis = Shot(bgr(DIAGRAMS[s["diagram"]]()), "push")
             else:
-                vis = Shot(cv2.imread(str(out / f"shot-{n:02d}.png")), s.get("move", "push"))
+                img = cv2.imread(str(out / f"shot-{n:02d}.png"))
+                if s.get("overlay"):  # science drawn onto the painting (a crack, a hole) where SDXL can't
+                    img = bgr(OVERLAYS[s["overlay"]](Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))))
+                vis = Shot(img, s.get("move", "push"))
             items.append((t, d, vis, out / f"vo-{n:02d}.wav", sec["id"]))
             t += d
     end_img = Image.new("RGB", (W, H), K.INK)
@@ -165,11 +179,10 @@ def main(script_path, out_dir):
     sf.write(out / "mix.wav", mix[:int(total * SR)], SR)
 
     # ---- picture
-    grains = [np.random.default_rng(k).normal(0, 6, (H // 2, W // 2, 1)).astype(np.float32) for k in range(4)]
-    grains = [cv2.resize(g, (W, H))[..., None] for g in grains]
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{W}x{H}",
                            "-r", str(FPS), "-i", "-", "-i", str(out / "mix.wav"), "-map", "0:v", "-map", "1:a",
-                           "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p",
+                           "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-tune", "film", "-pix_fmt", "yuv420p",
+                           "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
                            "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", str(out / "video.mp4")],
                           stdin=subprocess.PIPE)
     k = 0
@@ -182,7 +195,6 @@ def main(script_path, out_dir):
             left = (nf - j) / FPS
             if nxt is not None and left < XF:  # dissolve into the next item
                 fr = cv2.addWeighted(fr, left / XF, nxt.frame(0.0), 1 - left / XF, 0)
-            fr = np.clip(fr.astype(np.float32) + grains[k % 4], 0, 255).astype(np.uint8)
             ff.stdin.write(fr.tobytes())
             k += 1
     ff.stdin.close()

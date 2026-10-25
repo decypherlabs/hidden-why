@@ -203,6 +203,99 @@ def fatigue_crack(_=None):
     return img
 
 
-DIAGRAMS = {"corner_stress": corner_stress, "round_vs_square": round_vs_square, "altitude": altitude,
+def decompression(_=None):
+    """The skin fails at one point and the pressurised cabin bursts outward."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "IT DOESN'T LEAK. IT BURSTS.")
+    cx, cy, r = W / 2 - 120, 590, 290
+    gap = (math.radians(-60), math.radians(-30))  # the failed section, upper right
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(20, 40, 46))
+    steps = 200
+    for k in range(steps):
+        a0, a1 = 2 * math.pi * k / steps, 2 * math.pi * (k + 1) / steps
+        am = (a0 + a1) / 2
+        if gap[0] <= (am if am <= math.pi else am - 2 * math.pi) <= gap[1]:
+            continue
+        d.line((cx + r * math.cos(a0), cy + r * math.sin(a0), cx + r * math.cos(a1), cy + r * math.sin(a1)), fill=BONE, width=10)
+    am = sum(gap) / 2
+    for k in range(-3, 4):  # air blasting out through the gap
+        a = am + k * 0.07
+        x0, y0 = cx + (r - 120) * math.cos(a), cy + (r - 120) * math.sin(a)
+        x1, y1 = cx + (r + 260 + abs(k) * -20) * math.cos(a), cy + (r + 260 + abs(k) * -20) * math.sin(a)
+        d.line((x0, y0, x1, y1), fill=RED, width=9)
+        d.polygon([(x1 + 26 * math.cos(a), y1 + 26 * math.sin(a)), (x1 - 16 * math.sin(a), y1 + 16 * math.cos(a)),
+                   (x1 + 16 * math.sin(a), y1 - 16 * math.cos(a))], fill=RED)
+    for k in range(5):  # torn metal flaps
+        a = gap[0] + (gap[1] - gap[0]) * k / 4
+        d.line((cx + r * math.cos(a), cy + r * math.sin(a), cx + (r + 50) * math.cos(a + 0.08), cy + (r + 50) * math.sin(a + 0.08)),
+               fill=BONE, width=6)
+    d.text((cx, cy - 20), "CABIN AIR", font=font(64), fill=BONE, anchor="mm")
+    d.text((cx, cy + 45), "escapes in a fraction of a second", font=font(34, False), fill=BONE, anchor="mm")
+    d.text((W / 2, 1010), "one crack, and the whole fuselage tears open", font=font(40, False), fill=YEL, anchor="mm")
+    return img
+
+
+def _ring(d, x, y, r):
+    d.ellipse((x - r, y - r, x + r, y + r), outline=RED, width=7)
+
+
+def _crack(d, x, y, dx, dy, length, seed, width=4):
+    """A thin jagged dark crack from (x, y) along (dx, dy)."""
+    import random
+    rnd = random.Random(seed)
+    pts, n = [(x, y)], 9
+    for k in range(1, n + 1):
+        u = k / n
+        jit = (rnd.random() - 0.5) * 14
+        pts.append((x + dx * length * u - dy * jit, y + dy * length * u + dx * jit))
+    d.line(pts, fill=(18, 16, 14), width=width)
+    d.line([(px + 1, py + 1) for px, py in pts], fill=(200, 200, 205), width=1)  # glint on one edge
+
+
+def corner_crack(img):
+    """Shot 26: a square window cut-out in the riveted panel, a crack from its sharp top corner."""
+    img = img.convert("RGB")
+    d = ImageDraw.Draw(img)
+    w, h = img.size
+    x0, y0, x1, y1 = int(w * 0.36), int(h * 0.30), int(w * 0.58), int(h * 0.78)
+    d.rectangle((x0 - 6, y0 - 6, x1 + 6, y1 + 6), fill=(120, 124, 130))
+    d.rectangle((x0, y0, x1, y1), fill=(14, 16, 20))
+    _crack(d, x1, y0, 0.72, -0.69, int(h * 0.26), 3)
+    _ring(d, x1, y0, int(h * 0.12))
+    return img
+
+
+def rivet_crack(img):
+    """Shot 30: a hairline fatigue crack growing from a rivet hole."""
+    img = img.convert("RGB")
+    d = ImageDraw.Draw(img)
+    w, h = img.size
+    x, y = int(w * 0.50), int(h * 0.48)
+    d.ellipse((x - 9, y - 9, x + 9, y + 9), fill=(30, 30, 34))
+    _crack(d, x + 6, y - 2, 0.95, -0.3, int(w * 0.20), 5, width=3)
+    _crack(d, x - 6, y + 2, -0.9, 0.35, int(w * 0.12), 9, width=3)
+    _ring(d, x, y, int(h * 0.16))
+    return img
+
+
+def square_hole(img):
+    """Shot 32: a small square opening in the recovered roof panel, one corner torn."""
+    img = img.convert("RGB")
+    d = ImageDraw.Draw(img)
+    w, h = img.size
+    cx, cy, a = int(w * 0.48), int(h * 0.58), int(h * 0.09)
+    d.rectangle((cx - a - 5, cy - a - 5, cx + a + 5, cy + a + 5), fill=(150, 154, 160))
+    d.polygon([(cx - a, cy - a), (cx + a, cy - a), (cx + a + 30, cy - a - 26), (cx + a + 8, cy - a + 18),
+               (cx + a, cy + a), (cx - a, cy + a)], fill=(12, 12, 14))
+    _crack(d, cx + a + 20, cy - a - 18, 0.8, -0.6, int(h * 0.10), 11)
+    _ring(d, cx + a, cy - a, int(h * 0.11))
+    return img
+
+
+OVERLAYS = {"corner_crack": corner_crack, "rivet_crack": rivet_crack, "square_hole": square_hole}
+
+
+DIAGRAMS = {"decompression": decompression, "corner_stress": corner_stress, "round_vs_square": round_vs_square, "altitude": altitude,
             "pressurisation": pressurisation, "crash_map": crash_map, "pressure_cycles": pressure_cycles,
             "fatigue_crack": fatigue_crack}
