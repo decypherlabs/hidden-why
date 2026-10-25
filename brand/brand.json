@@ -1,0 +1,41 @@
+{
+  "name": "The Hidden Why",
+  "handle": "@The-Hidden-Why-4u",
+  "tagline": "The real reasons behind the world you take for granted.",
+  "colors": {
+    "ink": "#0A0B0F",
+    "signal_yellow": "#FFD60A",
+    "alarm_red": "#FF3B30",
+    "bone": "#F2EEE3",
+    "deep_teal": "#0F3B44"
+  },
+  "fonts": {
+    "display": "fonts/Anton-Regular.ttf",
+    "body": "fonts/Inter.ttf"
+  },
+  "voice": {
+    "engine": "kokoro",
+    "voice": "bm_george",
+    "lang": "en-gb",
+    "speed": 0.95
+  },
+  "music_moods": [
+    "reflective",
+    "intense",
+    "epic"
+  ],
+  "art_style": "cinematic dark documentary digital painting, single dramatic light source, deep teal shadows, warm amber highlights, high contrast, volumetric light, film grain, highly detailed, no text, no watermark",
+  "art_negative": "text, letters, watermark, logo, cartoon, anime, flat colors, bright pastel, blurry, low quality, deformed",
+  "thumbnail": {
+    "size": [
+      1280,
+      720
+    ],
+    "max_words": 4,
+    "text_side": "left",
+    "highlight_word_box": "alarm_red",
+    "text_color": "signal_yellow",
+    "stroke": "ink"
+  },
+  "signature_line": "And that is the hidden why."
+}

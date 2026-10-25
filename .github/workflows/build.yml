@@ -1,0 +1,66 @@
+name: build
+# Paintings come from the GPU notebook (gpu/hidden_why.ipynb on Colab/Kaggle) as release paint-<slug>;
+# this narrates, edits and makes the thumbnail. placeholder=true skips the paintings (test the edit).
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        required: true
+      placeholder:
+        default: "false"
+permissions:
+  contents: write
+jobs:
+  episode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg > /dev/null
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: hiddenwhy-v1
+      - name: Python packages
+        run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q -r requirements.txt
+      - name: Paintings
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "out/${{ inputs.slug }}"
+          if [ "${{ inputs.placeholder }}" = "true" ]; then
+            python pipeline/placeholder.py "episodes/${{ inputs.slug }}/script.json" "out/${{ inputs.slug }}"
+          else
+            gh release download "paint-${{ inputs.slug }}" -R "$GITHUB_REPOSITORY" -D out
+            tar -xf "out/paint-${{ inputs.slug }}.tar" -C "out/${{ inputs.slug }}"
+          fi
+      - name: Narration
+        run: python pipeline/narrate.py "episodes/${{ inputs.slug }}/script.json" "out/${{ inputs.slug }}"
+      - name: Edit
+        run: python pipeline/build.py "episodes/${{ inputs.slug }}/script.json" "out/${{ inputs.slug }}"
+      - name: Thumbnail
+        run: python pipeline/thumb.py "episodes/${{ inputs.slug }}/script.json" "out/${{ inputs.slug }}"
+      - name: Collect
+        run: |
+          mkdir -p final && cd "out/${{ inputs.slug }}"
+          cp video.mp4 thumb.jpg chapters.txt ../../final/
+          python3 - <<'PY'
+          import json, pathlib
+          m = json.loads(pathlib.Path("../../episodes/${{ inputs.slug }}/meta.json").read_text())
+          ch = pathlib.Path("chapters.txt").read_text()
+          m["youtube"]["description"] = m["youtube"]["description"].replace("{CHAPTERS}", ch)
+          pathlib.Path("../../final/meta.json").write_text(json.dumps(m, indent=2, ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: episode-${{ inputs.slug }}
+          path: final
+          retention-days: 14
+          compression-level: 0
