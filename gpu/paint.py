@@ -6,6 +6,7 @@ Writes shot-NN.png (1344x768, SDXL's 16:9 bucket), thumb-plane.png and thumb-zoo
 existing files are kept, so a rerun after a Colab disconnect continues where it stopped.
 """
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -13,7 +14,18 @@ import torch
 
 ROOT = Path(__file__).resolve().parent.parent
 BRAND = json.loads((ROOT / "brand" / "brand.json").read_text())
-MODEL = "stabilityai/stable-diffusion-xl-base-1.0"
+HF_MODEL = "stabilityai/stable-diffusion-xl-base-1.0"
+
+
+def model_path():
+    """SDXL from an attached Kaggle dataset (any /kaggle/input/** folder holding an SDXL model_index.json),
+    else SDXL_PATH, else the Hugging Face download."""
+    if os.environ.get("SDXL_PATH"):
+        return os.environ["SDXL_PATH"]
+    for idx in sorted(Path("/kaggle/input").glob("**/model_index.json")) if Path("/kaggle/input").exists() else []:
+        if "StableDiffusionXLPipeline" in idx.read_text():
+            return str(idx.parent)
+    return HF_MODEL
 
 
 def shots(script):
@@ -25,13 +37,16 @@ def shots(script):
                 yield n, s["prompt"]
 
 
-def main(script_path, out_dir):
+def main(script_path, out_dir, part=0, parts=1):
+    """part/parts: this process paints every parts-th job (one process per GPU on Kaggle's T4 x2)."""
     script = json.loads(Path(script_path).read_text())
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     from diffusers import StableDiffusionXLPipeline
-    pipe = StableDiffusionXLPipeline.from_pretrained(MODEL, torch_dtype=torch.float16, variant="fp16",
-                                                     use_safetensors=True).to("cuda")
+    src = model_path()
+    kw = {"variant": "fp16"} if src == HF_MODEL else {}
+    pipe = StableDiffusionXLPipeline.from_pretrained(src, torch_dtype=torch.float16, use_safetensors=True, **kw).to("cuda")
+    print(f"  SDXL from {src}", flush=True)
     pipe.enable_vae_slicing()
     style, neg = BRAND["art_style"], BRAND["art_negative"]
     th = script.get("thumbnail") or {}
@@ -43,7 +58,7 @@ def main(script_path, out_dir):
         jobs.append((out / "thumb-zoom.png", f"{th['zoom']}, cinematic digital painting, crisp detail, no text",
                      1024, 1024, 8))
     for i, (p, prompt, w, h, seed) in enumerate(jobs, 1):
-        if p.exists():
+        if (i - 1) % parts != part or p.exists():
             continue
         g = torch.Generator("cuda").manual_seed(seed)
         img = pipe(prompt, negative_prompt=neg, width=w, height=h, num_inference_steps=30, guidance_scale=6.5,
@@ -53,4 +68,4 @@ def main(script_path, out_dir):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    main(sys.argv[1], sys.argv[2], *(int(v) for v in sys.argv[3:5]))

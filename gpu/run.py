@@ -40,8 +40,14 @@ def main():
             print(f"{slug}: already painted")
             continue
         out = ROOT / "out" / slug
-        subprocess.run([sys.executable, str(ROOT / "gpu/paint.py"), str(ROOT / "episodes" / slug / "script.json"), str(out)],
-                       check=True)
+        # one painter per GPU (Kaggle gives two T4s), each on its own card
+        import torch
+        gpus = max(1, torch.cuda.device_count())
+        procs = [subprocess.Popen([sys.executable, str(ROOT / "gpu/paint.py"), str(ROOT / "episodes" / slug / "script.json"),
+                                   str(out), str(k), str(gpus)], env={**os.environ, "CUDA_VISIBLE_DEVICES": str(k)})
+                 for k in range(gpus)]
+        if any(p.wait() for p in procs):
+            raise SystemExit(f"{slug}: painting failed (see above)")
         tar = out.parent / f"paint-{slug}.tar"
         with tarfile.open(tar, "w") as t:
             for f in sorted(out.glob("*.png")):
