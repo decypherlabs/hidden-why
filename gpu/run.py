@@ -1,7 +1,7 @@
 """Kaggle/Colab worker: makes whole episodes on the notebook machine and publishes them as GitHub
 releases. No GitHub Actions needed (they're slow); the Mac downloads the result (tools/fetch.py).
 
-    python gpu/run.py [slug ...]                     # every episode without an episode-<slug> release
+    python gpu/run.py [slug ...]                     # every APPROVED episode without an episode-<slug> release
     python gpu/run.py --repaint <slug> 26 30 31      # repaint those shots, then rebuild that episode
 
 Per episode: paint (SDXL, one process per GPU) -> release paint-<slug> (paintings, kept for repaints)
@@ -137,6 +137,9 @@ def main():
         return
     slugs = args or sorted(p.name for p in (ROOT / "episodes").iterdir() if (p / "script.json").exists())
     for slug in slugs:
+        if not json.loads((ROOT / "episodes" / slug / "script.json").read_text()).get("approved"):
+            print(f"{slug}: script not approved yet (review it first; then \"approved\": true): skipped")
+            continue
         if gh("GET", f"/releases/tags/episode-{slug}"):
             print(f"{slug}: already published as a release (use --repaint to redo shots)")
             continue
