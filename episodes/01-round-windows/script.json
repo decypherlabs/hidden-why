@@ -83,13 +83,11 @@
         },
         {
           "vo": "It flies almost twice as high as the propeller planes of its day, above the weather. Smooth. Quiet. Fast. Passengers have never felt anything like it.",
-          "prompt": "a sleek 1950s jet airliner flying very high above a sea of clouds, a propeller airliner far below it, deep blue upper sky",
-          "move": "pan_right"
+          "diagram": "altitude"
         },
         {
           "vo": "To keep people alive that high, air is pumped into the cabin until the whole fuselage swells like a balloon. Remember that. It matters.",
-          "prompt": "cutaway illustration of a 1950s airliner fuselage with air flowing inside, glowing arrows pushing outward on the metal skin, technical painting",
-          "move": "push"
+          "diagram": "pressurisation"
         },
         {
           "vo": "And along its sides runs a row of big, almost square windows. Passengers love them. Engineers are proud of them.",
@@ -128,8 +126,7 @@
         },
         {
           "vo": "Two identical aircraft. Two clear days. No storm. No bomb. No pilot error anyone can find. So what is tearing these planes apart?",
-          "prompt": "two identical silver jet airliners side by side in a dark hangar, a single overhead light, ominous",
-          "move": "push"
+          "diagram": "crash_map"
         },
         {
           "vo": "The world's most modern airliner is taken out of service, and Britain launches one of the biggest crash investigations in history.",
@@ -164,8 +161,7 @@
         },
         {
           "vo": "Water is pumped into the cabin to stretch it, exactly like a flight at cruising height. Then released. Then again. Every cycle is one flight.",
-          "prompt": "close-up of 1950s pressure gauges and valves on a test rig, needles rising, water pipes, dramatic light",
-          "move": "push"
+          "diagram": "pressure_cycles"
         },
         {
           "vo": "Day and night, the tank keeps flying. And after about three thousand flights' worth of cycles, the fuselage splits open.",
@@ -187,8 +183,7 @@
         },
         {
           "vo": "Every flight stretches that point a little. Not enough to break. Just enough to tire it.",
-          "prompt": "macro view of metal grain with tiny fatigue cracks forming at a sharp corner, scientific painting",
-          "move": "push"
+          "diagram": "fatigue_crack"
         },
         {
           "vo": "Engineers call it metal fatigue. Invisible cracks grow, flight after flight, until one day the skin simply lets go.",
