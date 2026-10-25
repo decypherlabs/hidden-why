@@ -173,9 +173,9 @@
         },
         {
           "vo": "The crack starts at a corner. The sharp corner of a squarish opening in the skin.",
-          "prompt": "extreme close-up, the sharp corner of a square cut-out in riveted aluminium sheet, a hairline crack running from the corner through a rivet hole",
+          "prompt": "extreme close-up of a flat riveted aluminium panel with one square window cut-out, a single thin dark crack running diagonally away from its sharp top corner, rows of rivets, studio light",
           "move": "push",
-          "negative": "airplane, aircraft, jet, wing, fuselage"
+          "negative": "airplane, aircraft, jet, wing, fuselage, holes, rust, organic, leaf, mud, skin"
         },
         {
           "diagram": "corner_stress",
@@ -191,20 +191,21 @@
         },
         {
           "vo": "Engineers call it metal fatigue. Invisible cracks grow, flight after flight, until one day the skin simply lets go.",
-          "prompt": "macro photograph style, polished aluminium surface with tiny branching fatigue cracks spreading from a sharp corner, scientific detail",
+          "prompt": "macro close-up of a smooth polished aluminium sheet with neat rows of rivets, a hairline fatigue crack spreading from one rivet hole across the metal, cold metallic light",
           "move": "pan_right",
-          "negative": "airplane, aircraft, jet, wing, fuselage"
+          "negative": "airplane, aircraft, jet, wing, fuselage, holes, rust, organic, leaf, mud, skin"
         },
         {
           "vo": "And when a pressurised cabin fails at thirty thousand feet, it does not leak. It bursts.",
-          "prompt": "far above the clouds, a 1950s airliner fuselage bursting open in a white cloud of vapour, distant view, not graphic",
-          "move": "push"
+          "prompt": "high above white clouds, the silver fuselage of a 1950s jet airliner bursting open along its side, a sudden white cloud of vapour and fragments, wide distant view, not graphic",
+          "move": "push",
+          "negative": ""
         },
         {
           "vo": "Later, a section of the Elba Comet's roof is pulled from the sea. The break had started at the corner of a small square opening. Exactly as the tank predicted.",
-          "prompt": "a recovered piece of airliner roof skin with a small square opening, its corner torn, lying on a wooden workbench under a lamp",
+          "prompt": "a piece of salvaged silver aircraft roof panel on a wooden workbench, a small square hole cut in the metal with one corner torn open, rivet rows, a desk lamp, investigators' tools",
           "move": "push",
-          "negative": "airplane, aircraft, jet, wing, fuselage"
+          "negative": "holes, rust, organic, leather, cloth, green"
         }
       ]
     },
