@@ -88,6 +88,7 @@ def track_scripts(released):
 
 
 def sync_one(rel):
+    """An episode release made before Kaggle runs went straight to the Mac (older episodes)."""
     slug = rel["tag_name"][len("episode-"):]
     if imported(slug):
         return False
@@ -97,9 +98,23 @@ def sync_one(rel):
         f = src / a["name"]
         if not (f.exists() and f.stat().st_size == a["size"]):
             F.fetch(a, f)
+    return import_episode(slug, src, rel["published_at"][:10])
+
+
+def import_local(slug, files_dir):
+    """A finished episode straight from the Kaggle run's output (studio/thw_kaggle.py): moved into
+    channels/the-hidden-why/videos/<slug>/ and into the dashboard; no GitHub round trip."""
+    import shutil
+    src = CACHE / slug
+    src.mkdir(parents=True, exist_ok=True)
+    for f in Path(files_dir).iterdir():
+        shutil.move(str(f), src / f.name)
+    return import_episode(slug, src, time.strftime("%Y-%m-%d"))
+
+
+def import_episode(slug, src, day):
     meta = json.loads((src / "meta.json").read_text())
     title = meta["youtube"]["title"]
-    day = rel["published_at"][:10]
     pdir = project_dir(slug) or VIDEOS / day / slug  # the script's card becomes the episode
     (pdir / "long").mkdir(parents=True, exist_ok=True)
     stem = slugify(title.split("(")[0])
@@ -113,7 +128,7 @@ def sync_one(rel):
                                capture_output=True, text=True).stdout or 0)
     (pdir / "long" / f"{stem}.source.json").write_text(json.dumps(
         {"format": "long", "niche": "hidden-why", "title": title, "speaker": "", "episode": slug,
-         "source_url": f"https://github.com/{F.REPO}/releases/tag/episode-{slug}"}, indent=2))
+         "source_url": f"https://github.com/{F.REPO}/tree/main/episodes/{slug}"}, indent=2))
     now = time.strftime("%Y-%m-%dT%H:%M:%S")
     (pdir / "project.json").write_text(json.dumps({
         "id": f"hw-{slug}", "category": "hidden-why", "created": now, "updated": now, "finished": now,
@@ -132,7 +147,8 @@ def main():
     for rel in rels:
         n += sync_one(rel)
     print(f"{n} new episode(s)")
-    track_scripts({r["tag_name"][len("episode-"):] for r in rels})
+    track_scripts({r["tag_name"][len("episode-"):] for r in rels} | {s for s in (p.parent.name for p in
+                   (ROOT / "episodes").glob("*/script.json")) if imported(s)})
 
 
 if __name__ == "__main__":
