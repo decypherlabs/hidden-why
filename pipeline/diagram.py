@@ -648,10 +648,62 @@ def switch_morning(_=None):
     return img
 
 
+def scatter_bars(_=None):
+    """Rayleigh scattering ~ 1/wavelength^4: blue light (450 nm) scatters ~5.9x more than red (700 nm)."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "HOW MUCH EACH COLOUR GETS SCATTERED")
+    cols = [(700, "RED", (230, 50, 40)), (600, "ORANGE", (255, 150, 30)), (570, "YELLOW", (255, 220, 40)),
+            (520, "GREEN", (60, 200, 90)), (450, "BLUE", (40, 120, 255)), (410, "VIOLET", (150, 70, 230))]
+    base_y, top = 900, 230
+    vmax = (700 / 410) ** 4
+    for i, (nm, name, c) in enumerate(cols):
+        v = (700 / nm) ** 4
+        x = 330 + i * 250
+        h = (base_y - top) * v / vmax
+        d.rectangle((x - 80, base_y - h, x + 80, base_y), fill=c)
+        d.text((x, base_y - h - 40), f"{v:.1f}x", font=font(48), fill=BONE, anchor="mm")
+        d.text((x, base_y + 40), name, font=font(40), fill=BONE, anchor="mm")
+        d.text((x, base_y + 85), f"{nm} nm", font=font(30, False), fill=BONE, anchor="mm")
+    return img
+
+
+def sun_path(_=None):
+    """Noon: sunlight crosses a thin slice of air. Sunset: a much longer path, the blue is scattered away."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "NOON VS SUNSET")
+    cx, cy, R, r = W / 2, 1500, 1080, 900
+    d.ellipse((cx - R, cy - R, cx + R, cy + R), fill=(30, 60, 110))
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(30, 80, 50))
+    you = (cx, cy - r)
+    d.ellipse((you[0] - 14, you[1] - 14, you[0] + 14, you[1] + 14), fill=YEL)
+    d.text((you[0], you[1] + 50), "you", font=font(40), fill=BONE, anchor="mm")
+    d.line((you[0], you[1], you[0], cy - R), fill=YEL, width=8)
+    d.text((you[0] + 30, cy - R + 30), "noon: short path", font=font(40), fill=YEL, anchor="lm")
+    d.line((you[0], you[1], 120, you[1] - 150), fill=RED, width=8)
+    d.text((140, you[1] - 210), "sunset: long path, blue scattered away", font=font(40), fill=RED, anchor="lm")
+    return img
+
+
+def mars_earth(_=None):
+    """Earth: blue day, red sunset. Mars: butterscotch day, blue sunset (fine dust scatters differently)."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "EARTH VS MARS")
+    for x, name, day, dusk in ((560, "EARTH", (70, 140, 230), (240, 110, 40)), (1360, "MARS", (200, 150, 100), (90, 140, 220))):
+        d.rounded_rectangle((x - 300, 230, x - 10, 760), radius=24, fill=day)
+        d.rounded_rectangle((x + 10, 230, x + 300, 760), radius=24, fill=dusk)
+        d.text((x - 155, 800), "day", font=font(44), fill=BONE, anchor="mm")
+        d.text((x + 155, 800), "sunset", font=font(44), fill=BONE, anchor="mm")
+        d.text((x, 900), name, font=font(70), fill=YEL, anchor="mm")
+    return img
+
+
 OVERLAYS = {"corner_crack": corner_crack, "rivet_crack": rivet_crack, "square_hole": square_hole}
 
 
-DIAGRAMS = {"sword_pass": sword_pass, "keep_timeline": keep_timeline, "referendum": referendum, "switch_morning": switch_morning, "seasonal_hours": seasonal_hours, "finger_count": finger_count, "divisors": divisors, "decimal_clock": decimal_clock, "time_timeline": time_timeline, "two_barrels": two_barrels, "red_timeline": red_timeline, "underground_fire": underground_fire, "cost_compare": cost_compare, "population": population,
+DIAGRAMS = {"scatter_bars": scatter_bars, "sun_path": sun_path, "mars_earth": mars_earth, "sword_pass": sword_pass, "keep_timeline": keep_timeline, "referendum": referendum, "switch_morning": switch_morning, "seasonal_hours": seasonal_hours, "finger_count": finger_count, "divisors": divisors, "decimal_clock": decimal_clock, "time_timeline": time_timeline, "two_barrels": two_barrels, "red_timeline": red_timeline, "underground_fire": underground_fire, "cost_compare": cost_compare, "population": population,
             "elevator_gap": elevator_gap, "otis_85": otis_85, "real_floors": real_floors, "tetraphobia": tetraphobia,
             "decompression": decompression, "corner_stress": corner_stress, "round_vs_square": round_vs_square, "altitude": altitude,
             "pressurisation": pressurisation, "crash_map": crash_map, "pressure_cycles": pressure_cycles,

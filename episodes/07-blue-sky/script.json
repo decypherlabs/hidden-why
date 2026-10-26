@@ -1,0 +1,219 @@
+{
+ "slug": "07-blue-sky",
+ "title": "Why Is the Sky Blue but the Sunset Red?",
+ "approved": true,
+ "thumbnail": {
+  "layout": "face",
+  "text": "NOT *WATER*",
+  "plane": "a stunned young woman looking up at the sky with wide eyes and parted lips, half of the sky behind her deep blue and half fiery red sunset, cinematic close-up, golden rim light",
+  "zoom": "a beam of white sunlight splitting into a spectrum of colors through a glass prism, dark background"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "sting",
+   "reveal"
+  ],
+  "reflective": [
+   "ordinary",
+   "today",
+   "outro"
+  ],
+  "epic": [
+   "story"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Space is black. Pitch black. And the light from the sun is white.",
+     "prompt": "the black void of space with the sun as a brilliant white star, the thin glowing edge of Earth's atmosphere below, cinematic",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "So why, when you look up, is the sky blue?",
+     "prompt": "a bright clear blue sky above a summer meadow, a person lying in the grass looking up, wide view",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "And why, an hour later, does the same sky burn red?",
+     "prompt": "a fiery red and orange sunset over the ocean, silhouette of a lone person on the beach, cinematic",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "Most people say it reflects the ocean. It doesn't. And on Mars, it's the other way around.",
+     "prompt": "a dusty Martian landscape at sunset with a small cold blue glow around the setting sun, rocks in the foreground, photorealistic",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    }
+   ]
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "shots": []
+  },
+  {
+   "id": "ordinary",
+   "card": "THE ORDINARY",
+   "shots": [
+    {
+     "vo": "We see it every day. Blue at noon. Gold in the evening. Red at sunset.",
+     "prompt": "a time-lapse feeling city skyline, the sky shifting from blue to golden, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "The ocean theory falls apart fast. The sky is just as blue over the middle of a desert.",
+     "prompt": "a vast desert with sand dunes under a deep blue cloudless sky, no water anywhere, wide view",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "Something in the air is doing this. But air is invisible. So what is it?",
+     "prompt": "a beam of sunlight shining through a dark room with dust floating in it, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "card": "THE STORY",
+   "shots": [
+    {
+     "vo": "First, white light isn't really white. It's every colour, mixed together.",
+     "prompt": "a beam of white light passing through a glass prism and splitting into a rainbow spectrum on a dark wall",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "Each colour is a wave. Red light has long, lazy waves. Blue and violet have short, tight ones.",
+     "prompt": "abstract waves of colored light rippling across a black background, long red waves and short tight blue waves, glowing",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "Eighteen fifty-nine. An Irish scientist, John Tyndall, shines a beam of light through a glass tube of fine mist in his lab.",
+     "prompt": "a Victorian scientist in a dark laboratory shining a bright beam of light through a long glass tube filled with faint mist, brass instruments, oil painting style",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "Look at the beam from the side, and the mist glows blue.",
+     "prompt": "close-up of a glass tube glowing with a soft blue haze where a beam of light passes through, dark lab background",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "Years later, Lord Rayleigh, an English physicist, works out the maths. Tiny particles, smaller than the light's waves, scatter short waves far more than long ones.",
+     "prompt": "an English Victorian physicist writing equations by lamplight in a book-lined study, papers and a candle, oil painting style",
+     "move": "push",
+     "negative": "letters, logo, watermark"
+    },
+    {
+     "vo": "Blue light gets scattered almost six times more than red. Violet, even more.",
+     "diagram": "scatter_bars"
+    },
+    {
+     "vo": "Our air is full of tiny nitrogen and oxygen molecules. As sunlight passes through, they knock the blue light in every direction.",
+     "prompt": "sunlight streaming down through the atmosphere seen from a high mountain top, the sky glowing blue all around, cinematic",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "So wherever you look, blue light is coming at you from all over the sky. That's the blue you see.",
+     "prompt": "a person on a mountain summit with arms open under a vast blue sky, wide view",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "But wait. If violet scatters even more, why isn't the sky violet?",
+     "prompt": "a field of violet lavender flowers under a blue sky, close-up of flowers in the foreground",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "The sun gives out less violet than blue. Some of it is absorbed high up in the atmosphere. And your eyes are much more sensitive to blue.",
+     "prompt": "an extreme close-up of a human eye with the blue sky reflected in it, detailed iris",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "card": "THE REVEAL",
+   "shots": [
+    {
+     "vo": "Now, the sunset. Here's the twist. It's the same effect.",
+     "prompt": "the sun touching the horizon over the sea, deep orange and red sky, cinematic",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "At noon, sunlight crosses a thin slice of air. At sunset it comes in sideways, through far more atmosphere. By the time it reaches you, the blue has been scattered away.",
+     "diagram": "sun_path"
+    },
+    {
+     "vo": "What's left is the light that survives the long trip. Orange. Red.",
+     "prompt": "golden red sunlight streaming low across a wheat field, long shadows, warm dust",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "Dust and smoke make it stronger. That's why sunsets after wildfires or volcanic eruptions can look unreal.",
+     "prompt": "a blood-red sunset sky over hills with a smoky haze, dramatic, cinematic wide view",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "And on Mars, fine dust in the thin air turns it around. A butterscotch sky by day. A blue sunset.",
+     "diagram": "mars_earth"
+    },
+    {
+     "vo": "NASA's Curiosity rover has photographed it. A cold blue glow around a setting sun, on another world.",
+     "prompt": "the Curiosity rover silhouetted on Mars at dusk with a small blue glow around the setting sun, photorealistic",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    }
+   ]
+  },
+  {
+   "id": "today",
+   "card": "TODAY",
+   "shots": [
+    {
+     "vo": "So the next time someone tells you the sky reflects the ocean, you'll know. It's sunlight bouncing off the air itself.",
+     "prompt": "friends sitting on a rooftop at golden hour pointing at the sky, warm light, cinematic",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Tiny molecules, short waves and a long journey. That's the hidden why.",
+     "prompt": "a last sliver of sun disappearing below a calm sea, sky fading from red to deep blue",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark"
+    },
+    {
+     "vo": "Next time: why do we need leap years? Subscribe, so you don't miss it.",
+     "prompt": "an old paper calendar on a wooden desk with a single page curling, soft window light",
+     "move": "push",
+     "negative": "text, letters, numbers, logo, watermark"
+    }
+   ]
+  }
+ ]
+}

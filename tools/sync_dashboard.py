@@ -98,10 +98,10 @@ def sync_one(rel):
         f = src / a["name"]
         if not (f.exists() and f.stat().st_size == a["size"]):
             F.fetch(a, f)
-    return import_episode(slug, src, rel["published_at"][:10])
+    return bool(import_episode(slug, src, rel["published_at"][:10]))  # counted by main()
 
 
-def import_local(slug, files_dir):
+def import_local(slug, files_dir, status="done"):
     """A finished episode straight from the Kaggle run's output (studio/thw_kaggle.py): moved into
     channels/the-hidden-why/videos/<slug>/ and into the dashboard; no GitHub round trip."""
     import shutil
@@ -109,10 +109,10 @@ def import_local(slug, files_dir):
     src.mkdir(parents=True, exist_ok=True)
     for f in Path(files_dir).iterdir():
         shutil.move(str(f), src / f.name)
-    return import_episode(slug, src, time.strftime("%Y-%m-%d"))
+    return import_episode(slug, src, time.strftime("%Y-%m-%d"), status)
 
 
-def import_episode(slug, src, day):
+def import_episode(slug, src, day, status="done"):
     meta = json.loads((src / "meta.json").read_text())
     title = meta["youtube"]["title"]
     pdir = project_dir(slug) or VIDEOS / day / slug  # the script's card becomes the episode
@@ -132,13 +132,14 @@ def import_episode(slug, src, day):
     now = time.strftime("%Y-%m-%dT%H:%M:%S")
     (pdir / "project.json").write_text(json.dumps({
         "id": f"hw-{slug}", "category": "hidden-why", "created": now, "updated": now, "finished": now,
-        "status": "done", "progress": 1.0, "step": "Episode from the hidden-why repo, ready to upload", "error": None,
+        "status": status, "progress": 1.0, "error": None,  # "qc": the studio's quality gate runs first
+        "step": "Quality check" if status == "qc" else "Episode from the hidden-why repo, ready to upload",
         "pid": None, "source": {"url": f"https://github.com/{F.REPO}/tree/main/episodes/{slug}", "title": title,
                                 "creator": "The Hidden Why"},
         "items": [{"kind": "long", "file": f"long/{stem}.mp4", "title": title, "duration": round(dur, 1), "meta": True,
                    "thumbs": 1}]}, indent=2, ensure_ascii=False))
     print(f"{slug}: in the dashboard ({pdir.relative_to(RB)})")
-    return True
+    return pdir
 
 
 def main():
