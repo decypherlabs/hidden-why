@@ -481,10 +481,106 @@ def red_timeline(_=None):
     return img
 
 
+def seasonal_hours(_=None):
+    """Egypt: daylight split into 12 hours, so a summer hour was longer than a winter hour."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "AN HOUR WASN'T AN HOUR")
+    for y, label, frac, col in ((380, "SUMMER DAY", 0.62, YEL), (700, "WINTER DAY", 0.42, BONE)):
+        x0, w = 260, 1400 * frac
+        d.text((x0, y - 90), label, font=font(52), fill=col, anchor="lm")
+        for k in range(12):
+            a = x0 + w * k / 12
+            d.rectangle((a + 3, y - 40, a + w / 12 - 3, y + 40), fill=col)
+        d.text((x0 + w + 30, y), "12 hours", font=font(44, False), fill=col, anchor="lm")
+    d.text((W / 2, 960), "same 12 hours of daylight, different lengths", font=font(40, False), fill=BONE, anchor="mm")
+    return img
+
+
+def finger_count(_=None):
+    """One theory: the thumb counts the 12 finger segments of one hand; the other hand counts the dozens."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "ONE THEORY: 12 x 5 = 60")
+    cx0 = 560
+    for f in range(4):  # four fingers, three segments each
+        x = cx0 - 210 + f * 140
+        for k in range(3):
+            y = 300 + k * 120
+            d.rounded_rectangle((x - 50, y, x + 50, y + 105), radius=30, outline=BONE, width=5)
+            n = f * 3 + k + 1
+            d.text((x, y + 52), str(n), font=font(48), fill=YEL, anchor="mm")
+    d.text((cx0, 720), "thumb counts 12 segments", font=font(44, False), fill=BONE, anchor="mm")
+    d.text((W / 2 + 120, 500), "x", font=font(120), fill=RED, anchor="mm")
+    for f in range(5):
+        x = 1250 + f * 95
+        d.rounded_rectangle((x - 35, 330, x + 35, 640), radius=35, fill=YEL if f < 5 else BONE)
+    d.text((1440, 720), "5 fingers keep score", font=font(44, False), fill=BONE, anchor="mm")
+    d.text((W / 2, 900), "= 60", font=font(110), fill=YEL, anchor="mm")
+    return img
+
+
+def divisors(_=None):
+    """60 splits evenly 12 ways; 100 only 9 ways, and a third of 100 never ends."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "WHY 60 BEATS 100")
+    rows = ((330, "60", [1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60], YEL), (610, "100", [1, 2, 4, 5, 10, 20, 25, 50, 100], BONE))
+    for y, n, ds, col in rows:
+        d.text((230, y), n, font=font(110), fill=col, anchor="mm")
+        for i, v in enumerate(ds):
+            x = 380 + i * 104
+            d.ellipse((x - 44, y - 44, x + 44, y + 44), outline=col, width=5)
+            d.text((x, y), str(v), font=font(38), fill=col, anchor="mm")
+        d.text((380 + len(ds) * 104 - 20, y), f"{len(ds)} ways", font=font(48), fill=col, anchor="lm")
+    d.text((W / 2, 820), "a third of an hour: 20 minutes", font=font(56), fill=YEL, anchor="mm")
+    d.text((W / 2, 900), "a third of 100: 33.333...", font=font(56), fill=RED, anchor="mm")
+    return img
+
+
+def decimal_clock(_=None):
+    """Revolutionary France, 1793-1795: 10 hours a day, 100 minutes an hour; 1 decimal hour = 2 h 24 min."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "FRANCE, 1793: A 10-HOUR DAY")
+    cx, cy, r = 620, 590, 330
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(242, 238, 227), outline=YEL, width=10)
+    for k in range(10):
+        a = math.radians(-90 + 36 * k)
+        d.text((cx + (r - 70) * math.cos(a), cy + (r - 70) * math.sin(a)), str(10 if k == 0 else k), font=font(64), fill=INK, anchor="mm")
+    d.line((cx, cy, cx + 150 * math.cos(math.radians(-90 + 36 * 5)), cy + 150 * math.sin(math.radians(-90 + 36 * 5))), fill=INK, width=14)
+    d.line((cx, cy, cx, cy - 230), fill=RED, width=6)
+    for i, (t, c) in enumerate((("10 hours a day", YEL), ("100 minutes an hour", YEL), ("100 seconds a minute", YEL),
+                                ("1 hour = 2 h 24 min of ours", RED), ("gone by 1795", BONE))):
+        d.text((1080, 350 + i * 105), t, font=font(58), fill=c, anchor="lm")
+    return img
+
+
+def time_timeline(_=None):
+    """How the hour got its 60 minutes: Babylon's base 60, Egypt's 12+12, Ptolemy's 'small parts', clocks."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "4,000 YEARS TO MAKE A MINUTE")
+    ev = [("~2000 BC", "Babylon counts in 60s", YEL), ("Egypt", "12 hours of day, 12 of night", YEL),
+          ("~150 AD", "Ptolemy splits into 60ths", YEL), ("1175", "'minute' = small part", BONE),
+          ("1656", "pendulum clock", BONE), ("~1690", "minute hands appear", RED)]
+    x0, x1, y = 160, 1760, 560
+    d.line((x0, y, x1, y), fill=BONE, width=6)
+    for i, (a, b, col) in enumerate(ev):
+        x = x0 + (x1 - x0) * (i + 0.5) / len(ev)
+        d.ellipse((x - 18, y - 18, x + 18, y + 18), fill=col)
+        up = i % 2 == 0
+        ty = y - 200 if up else y + 130
+        d.line((x, y - 18 if up else y + 18, x, ty + (110 if up else -20)), fill=col, width=4)
+        d.text((x, ty), a, font=font(54), fill=col, anchor="mm")
+        d.text((x, ty + 60), b, font=font(32, False), fill=BONE, anchor="mm")
+    return img
+
+
 OVERLAYS = {"corner_crack": corner_crack, "rivet_crack": rivet_crack, "square_hole": square_hole}
 
 
-DIAGRAMS = {"two_barrels": two_barrels, "red_timeline": red_timeline, "underground_fire": underground_fire, "cost_compare": cost_compare, "population": population,
+DIAGRAMS = {"seasonal_hours": seasonal_hours, "finger_count": finger_count, "divisors": divisors, "decimal_clock": decimal_clock, "time_timeline": time_timeline, "two_barrels": two_barrels, "red_timeline": red_timeline, "underground_fire": underground_fire, "cost_compare": cost_compare, "population": population,
             "elevator_gap": elevator_gap, "otis_85": otis_85, "real_floors": real_floors, "tetraphobia": tetraphobia,
             "decompression": decompression, "corner_stress": corner_stress, "round_vs_square": round_vs_square, "altitude": altitude,
             "pressurisation": pressurisation, "crash_map": crash_map, "pressure_cycles": pressure_cycles,

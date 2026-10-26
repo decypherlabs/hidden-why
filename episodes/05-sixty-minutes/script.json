@@ -1,0 +1,305 @@
+{
+ "slug": "05-sixty-minutes",
+ "title": "Why Is an Hour 60 Minutes? (Not 100)",
+ "approved": true,
+ "thumbnail": {
+  "layout": "face",
+  "text": "BLAME *BABYLON*",
+  "plane": "extreme close-up of an ancient Babylonian astronomer with a wide-eyed shocked expression, mouth open, staring at the camera, braided beard, firelight on his face, night sky full of stars behind him, cinematic, dramatic, highly detailed",
+  "zoom": "an antique French clock face with only ten hours on its dial, brass and enamel, close-up, warm light"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "sting",
+   "reveal"
+  ],
+  "reflective": [
+   "ordinary",
+   "today",
+   "outro"
+  ],
+  "epic": [
+   "story"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "You check the time about a hundred times a day. Sixty seconds. Sixty minutes. Twenty-four hours. You've never once asked why.",
+     "prompt": "close-up of a person's wrist with an elegant analog wristwatch, soft morning light, shallow depth of field, numbers not visible",
+     "move": "push",
+     "negative": "text, logo, watermark"
+    },
+    {
+     "vo": "We count money in tens. Distance in tens. Everything in tens. Except time.",
+     "prompt": "a stack of coins and a wooden ruler on a desk beside an old pocket watch, warm lamp light, close-up, shallow focus",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "And here's the strange part. In seventeen ninety-three, a whole country tried to fix it. Ten hours a day. A hundred minutes an hour. It lasted less than two years.",
+     "prompt": "a crowd of 1790s French citizens in a Paris square looking up at a large public clock, tricolor flags, dramatic overcast sky, oil painting style",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Why did the strangest number win? To find out, we have to go back four thousand years.",
+     "prompt": "the ruins of an ancient Mesopotamian ziggurat at dusk, desert wind, dust, dramatic orange sky, wide cinematic view",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    }
+   ]
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "shots": []
+  },
+  {
+   "id": "ordinary",
+   "card": "THE ORDINARY",
+   "shots": [
+    {
+     "vo": "Think about how weird your morning is. Your alarm goes off at six-thirty. Half of sixty.",
+     "prompt": "a dim bedroom at dawn, a hand reaching for an old alarm clock on a nightstand, blue morning light through curtains",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Your meeting is at a quarter past. Fifteen. A quarter of sixty. You split hours into halves, thirds and quarters without ever thinking about it.",
+     "prompt": "an office desk with a paper calendar, a cup of coffee and a round wall clock in soft focus behind, morning sunlight",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Try that with a hundred. A third of a hundred is thirty-three point three three three, forever.",
+     "prompt": "a chalkboard in an old classroom with chalk dust in a beam of light, an eraser and chalk on the ledge",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Sixty splits evenly twelve different ways. A hundred, only nine. That is not an accident. Someone chose it.",
+     "diagram": "divisors"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "card": "THE STORY",
+   "shots": [
+    {
+     "vo": "Mesopotamia, about four thousand years ago. Between two rivers, the Sumerians build the first cities in the world.",
+     "prompt": "an ancient Sumerian city of mud-brick buildings between two rivers at sunrise, boats with reed sails, palm trees, epic wide view, painterly",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "They trade grain, sheep, land. And they need to divide things fairly. A field between three brothers. A harvest between four families.",
+     "prompt": "ancient Mesopotamian farmers dividing a pile of grain into equal heaps with wooden scoops in a sunlit courtyard, oil painting style",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "So they count in sixties. Nobody knows for certain why.",
+     "prompt": "a scribe's hands pressing a reed stylus into a wet clay tablet, wedge-shaped marks, close-up, warm lamplight",
+     "move": "push",
+     "negative": "letters, logo, watermark, modern objects"
+    },
+    {
+     "vo": "One theory is right there in your hand. Use your thumb to count the segments of your four fingers. Twelve. Keep score of each twelve on the fingers of your other hand. Five dozen. Sixty.",
+     "diagram": "finger_count"
+    },
+    {
+     "vo": "Whatever the reason, it stuck. The Babylonians who came after them used sixty for everything that mattered, above all the sky.",
+     "prompt": "Babylonian astronomers on the flat roof of a temple at night, studying a sky full of stars, one pointing upward, torchlight, cinematic",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "They mapped the stars. Predicted the moon. Split the circle of the heavens into three hundred and sixty degrees.",
+     "prompt": "a vast starry night sky over the desert with the moon rising, an ancient figure in silhouette on a rooftop looking up, long exposure star trails",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "But the Babylonians did not give us the hours. That came from the Egyptians.",
+     "prompt": "the Giza pyramids at midday with long sharp shadows across the sand, heat haze, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Egyptians watched shadows. Their sundials split the daylight into twelve parts. At night, they tracked twelve groups of stars across the sky.",
+     "prompt": "an ancient Egyptian priest kneeling beside a stone shadow clock in the desert sun, the shadow falling across carved marks, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Twelve hours of day, twelve hours of night. Twenty-four.",
+     "prompt": "a split scene: blazing Egyptian desert sun on the left and a starry Nile night on the right, temple silhouettes, painterly",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "But here's the problem. Those hours stretched. A summer day still had twelve hours, so a summer hour was much longer than a winter one.",
+     "diagram": "seasonal_hours"
+    },
+    {
+     "vo": "For thousands of years, an hour was not a fixed amount of time. It was just a slice of the day, whatever the season made it.",
+     "prompt": "an ancient Egyptian village at winter dusk, long shadows, people heading home early, warm light from doorways",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Then the Greeks arrived. Alexandria, around one hundred and fifty AD. An astronomer named Ptolemy is building the greatest book of the ancient sky.",
+     "prompt": "the great library of Alexandria at night, an astronomer in a toga writing by oil lamp among scrolls and a brass armillary sphere, cinematic",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "He has the Babylonian numbers. Sixty. And he needs to measure tiny pieces of the sky.",
+     "prompt": "close-up of a brass armillary sphere glowing in lamplight, dust floating, dark background",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "So he cuts each part into sixty smaller parts. Then cuts those into sixty again.",
+     "prompt": "an astronomer's hand drawing a geometric circle with a bronze compass on papyrus, lamplight, close-up",
+     "move": "push",
+     "negative": "letters, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Nearly a thousand years later his book is translated into Latin. The first cut is called pars minuta prima. The first small part.",
+     "prompt": "a medieval monk copying a manuscript by candlelight in a stone scriptorium, quill pen, illuminated pages, warm light",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "The second cut, pars minuta secunda. The second small part.",
+     "prompt": "close-up of a quill pen touching an illuminated manuscript page, gold leaf glinting, candle flame in the background",
+     "move": "push",
+     "negative": "readable text, logo, watermark"
+    },
+    {
+     "vo": "Say them out loud. Minute. Second. You have been speaking Latin every day of your life.",
+     "prompt": "a modern person looking at their phone in a busy city street at night, neon reflections, shallow depth of field",
+     "move": "push",
+     "negative": "text, logo, watermark, readable screen"
+    },
+    {
+     "vo": "But for centuries, nobody actually used minutes. Clocks could barely keep the hour.",
+     "prompt": "a huge medieval iron clock mechanism in a church tower, gears and weights, dusty light through a small window",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Sixteen fifty-six. A Dutch scientist, Christiaan Huygens, hangs a pendulum inside a clock. Suddenly clocks are dramatically more accurate.",
+     "prompt": "a 17th century Dutch scientist in a dark study watching a swinging brass pendulum inside an open wooden clock case, candlelight, oil painting style",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "And around sixteen ninety, clock faces start to grow a second hand. The minute hand.",
+     "prompt": "close-up of an ornate 17th century clock face with two hands, engraved brass, soft window light",
+     "move": "push",
+     "negative": "logo, watermark, readable text"
+    },
+    {
+     "vo": "Four thousand years. From Babylonian scribes to the minute hand on your wall.",
+     "diagram": "time_timeline"
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "card": "THE REVEAL",
+   "shots": [
+    {
+     "vo": "Which brings us back to France. Seventeen ninety-three. The Revolution wants to erase the old world. Kings, churches, even the calendar.",
+     "prompt": "a dramatic French revolutionary street scene, crowds with tricolor cockades, smoke and banners, 1790s Paris, oil painting style",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "The metre is coming. Everything in tens. So why not time?",
+     "prompt": "an 18th century French workshop with a craftsman measuring a brass rod with calipers, tools on the bench, warm light",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "A day of ten hours. Each hour a hundred minutes. Each minute a hundred seconds. One new hour lasted two hours and twenty-four minutes of the old kind.",
+     "diagram": "decimal_clock"
+    },
+    {
+     "vo": "Clockmakers built new faces. Some with both systems on one dial, just in case.",
+     "prompt": "an 18th century French clockmaker at his bench polishing an enamel clock face, loupe in his eye, sunlight through a dusty window",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "But people had to replace every clock and watch they owned. And for what? Their lives already ran on the old hours.",
+     "prompt": "a crowded Paris market in the 1790s, merchants and customers ignoring a public clock, everyday bustle, painterly",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "In April seventeen ninety-five, decimal time stopped being mandatory. The metre survived. The ten-hour day did not.",
+     "prompt": "a lonely antique clock with a cracked glass face lying on a dusty wooden floor in an empty room, single beam of light",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Ten was easier to count. But sixty was easier to share. And time is something we share all day long.",
+     "prompt": "a sunlit city square with people meeting under a large old public clock, warm afternoon light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    }
+   ]
+  },
+  {
+   "id": "today",
+   "card": "TODAY",
+   "shots": [
+    {
+     "vo": "Today your phone keeps time to a fraction of a second, synced to atomic clocks. And it still counts like a Babylonian.",
+     "prompt": "a smartphone lying on a dark table, its screen glowing softly, beside an ancient clay tablet with wedge marks, dramatic side light",
+     "move": "push",
+     "negative": "readable screen, logo, watermark"
+    },
+    {
+     "vo": "Sixty seconds. Sixty minutes. Three hundred and sixty degrees on every map, every compass, every GPS.",
+     "prompt": "an old brass navigation compass on a nautical map, dramatic warm light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Every time you say you'll be there in a minute, you're using a four thousand year old idea.",
+     "prompt": "a person running for a train on a busy platform at golden hour, motion blur, cinematic",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "A Sumerian counting trick, an Egyptian sundial, and a Latin translation. That's the hidden why.",
+     "prompt": "a sundial in a quiet garden at sunset, its shadow stretching long across the stone, warm golden light",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects"
+    },
+    {
+     "vo": "Next time: why does half the world drive on the left? Subscribe, so you don't miss it.",
+     "prompt": "an empty country road at dusk splitting in two directions, car headlights in the distance, cinematic wide view",
+     "move": "push",
+     "negative": "text, letters, logo, watermark, road signs"
+    }
+   ]
+  }
+ ]
+}
