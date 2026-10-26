@@ -57,7 +57,8 @@ def main(script_path, out_dir, part=0, parts=1):
     # first, subject + brand style on the second (style-only there drew generic hangar scenes, seen on
     # Kaggle). Shot-specific negatives (e.g. "airplane" for the island) keep the subject from turning into
     # the story's strongest noun.
-    jobs = [(out / f"shot-{n:02d}.png", p, f"{p}, {style}", f"{neg_extra}, {neg}" if neg_extra else neg, 1344, 768, 1000 + n)
+    sw, sh = (768, 1344) if script.get("format") == "short" else (1344, 768)  # Shorts are painted vertical
+    jobs = [(out / f"shot-{n:02d}.png", p, f"{p}, {style}", f"{neg_extra}, {neg}" if neg_extra else neg, sw, sh, 1000 + n)
             for n, p, neg_extra in shots(script)]
     thumb_style = "cinematic digital painting, dramatic light, high contrast, highly detailed, sharp focus, no text"
     if th.get("plane"):  # the thumbnail keeps its subject bright and readable, so a lighter style

@@ -116,18 +116,21 @@ def import_episode(slug, src, day, status="done"):
     meta = json.loads((src / "meta.json").read_text())
     title = meta["youtube"]["title"]
     pdir = project_dir(slug) or VIDEOS / day / slug  # the script's card becomes the episode
-    (pdir / "long").mkdir(parents=True, exist_ok=True)
+    sc = ROOT / "episodes" / slug / "script.json"
+    short = sc.exists() and json.loads(sc.read_text()).get("format") == "short"  # Shorts go to shorts/
+    sub = "shorts" if short else "long"
+    (pdir / sub).mkdir(parents=True, exist_ok=True)
     stem = slugify(title.split("(")[0])
-    mp4 = pdir / "long" / f"{stem}.mp4"
+    mp4 = pdir / sub / f"{stem}.mp4"
     if not mp4.exists():
         os.link(src / "video.mp4", mp4)  # hard link: no second copy of a big file
-    (pdir / "long" / f"{stem}.thumb.jpg").write_bytes((src / "thumb.jpg").read_bytes())
+    (pdir / sub / f"{stem}.thumb.jpg").write_bytes((src / "thumb.jpg").read_bytes())
     meta.setdefault("selected", {})["thumbnail"] = 1
-    (pdir / "long" / f"{stem}.meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
+    (pdir / sub / f"{stem}.meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)],
                                capture_output=True, text=True).stdout or 0)
-    (pdir / "long" / f"{stem}.source.json").write_text(json.dumps(
-        {"format": "long", "niche": "hidden-why", "title": title, "speaker": "", "episode": slug,
+    (pdir / sub / f"{stem}.source.json").write_text(json.dumps(
+        {"format": "short" if short else "long", "niche": "hidden-why", "title": title, "speaker": "", "episode": slug,
          "source_url": f"https://github.com/{F.REPO}/tree/main/episodes/{slug}"}, indent=2))
     now = time.strftime("%Y-%m-%dT%H:%M:%S")
     (pdir / "project.json").write_text(json.dumps({
@@ -136,7 +139,7 @@ def import_episode(slug, src, day, status="done"):
         "step": "Quality check" if status == "qc" else "Episode from the hidden-why repo, ready to upload",
         "pid": None, "source": {"url": f"https://github.com/{F.REPO}/tree/main/episodes/{slug}", "title": title,
                                 "creator": "The Hidden Why"},
-        "items": [{"kind": "long", "file": f"long/{stem}.mp4", "title": title, "duration": round(dur, 1), "meta": True,
+        "items": [{"kind": "short" if short else "long", "file": f"{sub}/{stem}.mp4", "title": title, "duration": round(dur, 1), "meta": True,
                    "thumbs": 1}]}, indent=2, ensure_ascii=False))
     print(f"{slug}: in the dashboard ({pdir.relative_to(RB)})")
     return pdir

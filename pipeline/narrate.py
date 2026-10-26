@@ -34,9 +34,11 @@ def main(script_path, out_dir):
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     durs = {}
-    for n, text in lines(json.loads(Path(script_path).read_text())):
+    script = json.loads(Path(script_path).read_text())
+    speed = script.get("voice_speed") or v.get("speed", 0.95)  # Shorts: a little faster
+    for n, text in lines(script):
         chunks = [a.numpy() if hasattr(a, "numpy") else np.asarray(a)
-                  for _, _, a in tts(text, voice=v["voice"], speed=v.get("speed", 0.95))]
+                  for _, _, a in tts(text, voice=v["voice"], speed=speed)]
         x = np.concatenate(chunks) if chunks else np.zeros(SR // 2)
         sf.write(out / f"vo-{n:02d}.wav", x, SR)
         durs[f"{n:02d}"] = round(len(x) / SR, 3)

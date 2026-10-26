@@ -1,4 +1,5 @@
-"""The edit: paintings + diagrams + narration + music -> the 1920x1080 episode.
+"""The edit: paintings + diagrams + narration + music -> the 1920x1080 episode, or with "format": "short" the
+1080x1920 Short (fast cuts, bold 2-3 word captions, no cards, no end screen: Shorts loop).
 
     python pipeline/build.py episodes/<slug>/script.json out/<slug>/   ->  video.mp4, chapters.txt
 
@@ -106,6 +107,47 @@ class Seq:
         return self.frames[min(len(self.frames) - 1, int(u * len(self.frames)))]
 
 
+class Captions:
+    """Shorts: 2-3 word groups in heavy white caps with a black outline, mid-lower, timed across each
+    shot's narration by word length (the voice reads at a steady pace)."""
+
+    def __init__(self, groups):
+        self.groups, self.cache = groups, {}  # [(t0, t1, text)]
+
+    @staticmethod
+    def for_shot(text, start, dur, size=3):
+        words = text.split()
+        chunks = [words[i:i + size] for i in range(0, len(words), size)]
+        total = sum(len(w) + 1 for w in words) or 1
+        out, t = [], start
+        for c in chunks:
+            d = dur * sum(len(w) + 1 for w in c) / total
+            out.append((t, t + d, " ".join(c)))
+            t += d
+        return out
+
+    def draw(self, frame, t):
+        g = next((g for g in self.groups if g[0] <= t < g[1]), None)
+        if not g:
+            return frame
+        if g[2] not in self.cache:
+            f = K.display(118)
+            img = Image.new("RGBA", (W, 400), (0, 0, 0, 0))
+            d = ImageDraw.Draw(img)
+            text = g[2].upper().replace(",", "").replace(".", "")
+            while d.textlength(text, font=f) > W * 0.86 and f.size > 60:
+                f = K.display(f.size - 6)
+            d.text((W / 2, 200), text, font=f, anchor="mm", fill=(255, 255, 255, 255), stroke_width=10,
+                   stroke_fill=(0, 0, 0, 255))
+            a = np.asarray(img)
+            self.cache[g[2]] = (cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0)
+        rgb, al = self.cache[g[2]]
+        y = int(H * 0.68) - 200
+        roi = frame[y:y + 400].astype(np.float32)
+        frame[y:y + 400] = (rgb * al + roi * (1 - al)).astype(np.uint8)
+        return frame
+
+
 def load_mp3(path, seconds):
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
                          capture_output=True, check=True).stdout
@@ -115,7 +157,12 @@ def load_mp3(path, seconds):
 
 
 def main(script_path, out_dir):
+    global W, H, XF
     script = json.loads(Path(script_path).read_text())
+    short = script.get("format") == "short"
+    if short:
+        W, H, XF = 1080, 1920, 0.15
+    caps = []
     out = Path(out_dir)
     vo = json.loads((out / "vo.json").read_text())
     items, n = [], 0  # (start, dur, visual, vo_file, section_id)
@@ -145,13 +192,19 @@ def main(script_path, out_dir):
                     img = bgr(OVERLAYS[s["overlay"]](Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))))
                 vis = Shot(img, s.get("move", "push"))
             items.append((t, d, vis, out / f"vo-{n:02d}.wav", sec["id"]))
+            if short:
+                caps += Captions.for_shot(s["vo"], t + 0.15, vo[f"{n:02d}"])
             t += d
-    end_img = Image.new("RGB", (W, H), K.INK)
-    lg = Image.open(ROOT / "brand/logo.png").convert("RGBA").resize((300, 300), Image.LANCZOS)
-    end_img.paste(lg, ((W - 300) // 2, 300), lg)
-    K.wordmark(ImageDraw.Draw(end_img), W / 2, 680, 72, anchor="mm")
-    items.append((t, 6.0, Still(bgr(K.grain(end_img))), None, "outro"))
-    total = t + 6.0
+    if short:  # no end screen: Shorts loop back to the start
+        total = t
+    else:
+        end_img = Image.new("RGB", (W, H), K.INK)
+        lg = Image.open(ROOT / "brand/logo.png").convert("RGBA").resize((300, 300), Image.LANCZOS)
+        end_img.paste(lg, ((W - 300) // 2, 300), lg)
+        K.wordmark(ImageDraw.Draw(end_img), W / 2, 680, 72, anchor="mm")
+        items.append((t, 6.0, Still(bgr(K.grain(end_img))), None, "outro"))
+        total = t + 6.0
+    captions = Captions(caps) if short else None
 
     # ---- audio: narration + music by section mood
     voice = np.zeros(int(total * SR) + SR, np.float32)
@@ -221,11 +274,13 @@ def main(script_path, out_dir):
             left = (nf - j) / FPS
             if nxt is not None and left < XF:  # dissolve into the next item
                 fr = cv2.addWeighted(fr, left / XF, nxt.frame(0.0), 1 - left / XF, 0)
+            if captions:
+                fr = captions.draw(fr.copy(), k / FPS)
             ff.stdin.write(fr.tobytes())
             k += 1
     ff.stdin.close()
     ff.wait()
-    (out / "chapters.txt").write_text("\n".join(f"{int(s // 60):02d}:{int(s % 60):02d} {name}" for s, name in chapters))
+    (out / "chapters.txt").write_text("" if short else"\n".join(f"{int(s // 60):02d}:{int(s % 60):02d} {name}" for s, name in chapters))
     print(f"video {total / 60:.1f} min, {k} frames -> {out / 'video.mp4'}")
 
 

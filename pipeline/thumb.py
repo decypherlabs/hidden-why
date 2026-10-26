@@ -79,6 +79,11 @@ def face_layout(script, out):
 def main(script_path, out_dir):
     script = json.loads(Path(script_path).read_text())
     out = Path(out_dir)
+    if script.get("format") == "short":  # Shorts: the first painting, 1080x1920 (the Reel cover)
+        im = cover(Image.open(out / "shot-01.png").convert("RGB"), 1080, 1920)
+        im.save(out / "thumb.jpg", quality=92)
+        print(out / "thumb.jpg")
+        return
     if (script.get("thumbnail") or {}).get("layout") == "face":
         return face_layout(script, out)
     plane = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
