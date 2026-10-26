@@ -441,10 +441,50 @@ def population(_=None):
     return img
 
 
+def two_barrels(_=None):
+    """1890s: liquor was taxed, soda wasn't; the soda barrels were painted red so agents could tell them apart."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "SAME BARREL. DIFFERENT TAX.")
+    for cx, col, hoop, label, sub, subcol in ((640, (120, 82, 50), (60, 40, 25), "LIQUOR", "TAXED", RED),
+                                             (1280, (196, 22, 28), (90, 10, 12), "SODA", "NOT TAXED", YEL)):
+        top, bot, rw = 260, 820, 190
+        d.rounded_rectangle((cx - rw, top, cx + rw, bot), radius=90, fill=col)
+        d.ellipse((cx - rw - 18, 470, cx + rw + 18, 610), outline=hoop, width=0)
+        for y in (330, 540, 750):
+            d.line((cx - rw - 6, y, cx + rw + 6, y), fill=hoop, width=22)
+        d.text((cx, bot + 60), label, font=font(64), fill=BONE, anchor="mm")
+        d.text((cx, bot + 130), sub, font=font(52), fill=subcol, anchor="mm")
+    return img
+
+
+def red_timeline(_=None):
+    """The red came first: red lettering (1886), red barrels (1890s), a red Santa in a White Rock ad (1915),
+    Coca-Cola's Santa only in 1931."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "WHICH CAME FIRST?")
+    ev = [(1886, "red letters on white", "the first signs", RED), (1895, "red barrels", "so tax agents could tell", RED),
+          (1915, "a RED Santa", "White Rock water ad", YEL), (1931, "Coca-Cola's Santa", "16 years later", BONE)]
+    x0, x1, y = 230, 1690, 560
+    X = lambda yr: x0 + (x1 - x0) * (yr - 1880) / 55
+    d.line((x0, y, x1, y), fill=BONE, width=6)
+    for i, (yr, a, b, col) in enumerate(ev):
+        x = X(yr)
+        d.ellipse((x - 20, y - 20, x + 20, y + 20), fill=col)
+        up = i % 2 == 0
+        d.line((x, y - 20 if up else y + 20, x, y - 120 if up else y + 120), fill=col, width=4)
+        ty = y - 250 if up else y + 170
+        d.text((x, ty), "1890s" if yr == 1895 else str(yr), font=font(60), fill=col, anchor="mm")
+        d.text((x, ty + 62), a, font=font(40), fill=BONE, anchor="mm")
+        d.text((x, ty + 106), b, font=font(30, False), fill=BONE, anchor="mm")
+    return img
+
+
 OVERLAYS = {"corner_crack": corner_crack, "rivet_crack": rivet_crack, "square_hole": square_hole}
 
 
-DIAGRAMS = {"underground_fire": underground_fire, "cost_compare": cost_compare, "population": population,
+DIAGRAMS = {"two_barrels": two_barrels, "red_timeline": red_timeline, "underground_fire": underground_fire, "cost_compare": cost_compare, "population": population,
             "elevator_gap": elevator_gap, "otis_85": otis_85, "real_floors": real_floors, "tetraphobia": tetraphobia,
             "decompression": decompression, "corner_stress": corner_stress, "round_vs_square": round_vs_square, "altitude": altitude,
             "pressurisation": pressurisation, "crash_map": crash_map, "pressure_cycles": pressure_cycles,

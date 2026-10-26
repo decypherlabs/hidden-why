@@ -1,0 +1,202 @@
+{
+ "slug": "04-coca-cola-red",
+ "title": "Why Is Coca-Cola Red? (It's Not Santa)",
+ "approved": true,
+ "thumbnail": {
+  "text": "NOT|*SANTA",
+  "plane": "a plain glossy red soda can standing alone on a dark wooden bar counter, one dramatic spotlight from above, deep black background, condensation droplets, no logo, no text",
+  "zoom": "an old wooden barrel painted bright red in a dusty 1890s railway freight car, warm lantern light, dramatic, no text"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "sting",
+   "reveal"
+  ],
+  "reflective": [
+   "ordinary",
+   "today",
+   "outro"
+  ],
+  "epic": [
+   "story"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Quick question. Why is Coca-Cola red? If you just said Santa Claus, you are not alone.",
+     "prompt": "a plain red soda can on a dark table, a single hard spotlight, cinematic, deep shadows, no logo",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "Almost everyone believes it. And it's backwards.",
+     "prompt": "a vintage 1930s illustration style Santa Claus in a red suit, laughing, warm painterly light, seen from a distance, cozy living room",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "The red came first. Decades first. And the real reason has nothing to do with Christmas. It has to do with tax collectors.",
+     "prompt": "a stern 1890s tax inspector in a bowler hat holding a ledger, standing beside wooden barrels in a dim warehouse, lantern light, sepia oil painting style",
+     "move": "pan_right",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    }
+   ]
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "shots": []
+  },
+  {
+   "id": "ordinary",
+   "card": "THE ORDINARY",
+   "shots": [
+    {
+     "vo": "Think about how strange this is. A brown drink. In a red can.",
+     "prompt": "a glass of dark brown cola with ice and bubbles beside an unbranded red can, studio light, black background",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "Nothing about cola is red. Not the taste, not the color, not a single ingredient. And yet that one red is so powerful the company calls it its second secret formula.",
+     "prompt": "a perfectly round glossy red disc glowing on a dark brick wall at night, neon reflection on wet pavement, no text",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "So where did it come from?",
+     "prompt": "an old map of 1880s Atlanta spread on a desk under a brass lamp, magnifying glass, dust in the light, no readable text",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "card": "THE STORY",
+   "shots": [
+    {
+     "vo": "Atlanta, eighteen eighty-six. A pharmacist named John Pemberton mixes a syrup and sells it at a soda fountain, five cents a glass.",
+     "prompt": "an 1880s American pharmacy soda fountain with marble counter, brass taps, glass jars, a pharmacist in a waistcoat mixing syrup, warm gaslight, oil painting style",
+     "move": "pan_right",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "His bookkeeper, Frank Robinson, names it. He writes the name in flowing script, and he paints the first signs in red letters on white. He simply liked how it popped.",
+     "prompt": "a 19th century bookkeeper with ink pen writing elegant script on paper at a wooden desk, red ink bottle, candlelight, close-up of hands, no readable words",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "But a color you like isn't a color you're stuck with. What locked it in?",
+     "prompt": "a dim 1890s brick warehouse full of stacked wooden barrels, beams of dusty light through high windows",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "Here's the problem. In the eighteen nineties, the syrup travelled across America in wooden barrels. And so did whiskey.",
+     "prompt": "an 1890s steam freight train crossing open prairie at sunset, smoke trailing, wide cinematic view",
+     "move": "pan_right",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "Alcohol was taxed. Soda was not. To a tax agent at a depot, one barrel looked exactly like the other.",
+     "prompt": "a busy 1890s railway depot platform stacked with identical brown wooden barrels, workers with hand carts, an official inspecting, hazy morning light",
+     "move": "pan_right",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "So, as the company tells it, they painted their barrels red. One look, and the agent knew: no whiskey here, no tax.",
+     "diagram": "two_barrels"
+    },
+    {
+     "vo": "A red barrel rolling off every train, into every town, onto every soda fountain floor in the country.",
+     "prompt": "a single bright red wooden barrel being rolled off a freight car onto a wooden platform, dramatic low angle, warm light",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "Red stopped being decoration. It became the signal. See red, and you knew the cold drink was here.",
+     "prompt": "an 1890s small-town main street with a general store, a bright red painted sign board above the door with no readable text, horse carriage, golden hour",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "card": "THE REVEAL",
+   "shots": [
+    {
+     "vo": "Now, Santa. In nineteen thirty-one, Coca-Cola hired an artist named Haddon Sundblom to paint Santa for its Christmas ads.",
+     "prompt": "an artist in a 1930s studio painting a jolly bearded man in a red suit on a large canvas, easel, oil paints, warm window light, seen from behind the artist",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "Those paintings were everywhere, for decades. Plump, rosy, red suit. That's why so many people think Coke invented him.",
+     "prompt": "a 1930s American living room at Christmas with a fireplace, stockings, a magazine open on a table showing a painted Santa, cozy warm light, no readable text",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "But look at the dates. Red letters, eighteen eighty-six. Red barrels, the eighteen nineties. And in nineteen fifteen, sixteen years before Coke's Santa, a mineral water brand called White Rock was already selling with a red-suited Santa.",
+     "diagram": "red_timeline"
+    },
+    {
+     "vo": "Artists had been dressing Santa in red for years. Even Coca-Cola's own archivists say it: Santa wore red before their ads.",
+     "prompt": "a stack of antique early 1900s Christmas postcards and magazine covers on a wooden table, Santa in red robes in illustrations, soft candlelight, no readable text",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "So Coke didn't make Santa red. If anything, a red Santa fit perfectly with a brand that was already red.",
+     "prompt": "a plain red soda can beside a small vintage Santa figurine on a snowy windowsill, night, warm glow from inside, no logo",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    }
+   ]
+  },
+  {
+   "id": "today",
+   "card": "TODAY",
+   "shots": [
+    {
+     "vo": "Today that red is one of the most recognised colors on Earth. And here's the strange part: there's no official paint code for it. No standard swatch. When you see it, you just know.",
+     "prompt": "a giant red billboard panel glowing over a crowded neon city street at night, rain reflections, no text",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "All because, a hundred and thirty years ago, somebody had to tell soda from whiskey.",
+     "prompt": "a lone red wooden barrel in an empty old warehouse, a single beam of light falling on it, dust floating",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "A tax rule, a bookkeeper's favorite color, and a coat of paint. That's the hidden why.",
+     "prompt": "a plain red soda can on a dark bar counter with the spotlight slowly dimming, cinematic, no logo",
+     "move": "push",
+     "negative": "logo, text, letters, words, brand, label, watermark"
+    },
+    {
+     "vo": "Next time: why does an hour have sixty minutes, and not a hundred? The answer is four thousand years old. Subscribe, so you don't miss it.",
+     "prompt": "an ancient clay tablet covered in wedge-shaped cuneiform marks lying on desert sand at golden hour, a brass pocket watch beside it, dramatic light",
+     "move": "push",
+     "negative": "logo, brand, watermark, modern text"
+    }
+   ]
+  }
+ ]
+}

@@ -1,230 +1,230 @@
 {
-  "slug": "03-13th-floor",
-  "title": "Why Hotels Skip the 13th Floor (It's Still There)",
-  "approved": false,
-  "thumbnail": {
-    "text": "WHAT'S|*HERE?",
-    "plane": "interior of a luxury hotel elevator lobby at night, polished brass elevator doors closed, marble floor, one warm spotlight, empty, ominous, symmetrical",
-    "zoom_diagram": "elevator_gap",
-    "zoom_crop": [
-      960,
-      560,
-      240
-    ]
-  },
-  "music": {
-    "intense": [
-      "cold_open",
-      "sting",
-      "reveal"
-    ],
-    "reflective": [
-      "ordinary",
-      "today",
-      "outro"
-    ],
-    "epic": [
-      "story"
-    ]
-  },
-  "sections": [
-    {
-      "id": "cold_open",
-      "card": null,
-      "shots": [
-        {
-          "vo": "You step into a hotel elevator and press fourteen. But you are not going to the fourteenth floor.",
-          "prompt": "close-up of a man's finger pressing a glowing brass button on a hotel elevator panel, mirrored walls, warm light, no numbers visible",
-          "move": "push"
-        },
-        {
-          "vo": "Look closely. Twelve. Fourteen. Something is missing.",
-          "diagram": "elevator_gap"
-        },
-        {
-          "vo": "Thirteen floors up, there is a floor that officially does not exist. Thousands of buildings have one. Maybe the one you slept in last night.",
-          "prompt": "a long empty hotel corridor at night, rows of closed doors, patterned carpet, one flickering ceiling light, eerie, symmetrical",
-          "move": "push",
-          "negative": "crowd, people, faces"
-        },
-        {
-          "vo": "Why would the most modern buildings on Earth pretend a floor is not there? And who decided it?",
-          "prompt": "low angle view of a tall glass hotel skyscraper at dusk, rows of lit windows, dramatic sky",
-          "move": "pull",
-          "negative": "crowd, people, faces"
-        }
-      ]
-    },
-    {
-      "id": "sting",
-      "sting": true,
-      "shots": []
-    },
-    {
-      "id": "ordinary",
-      "card": "THE ORDINARY",
-      "shots": [
-        {
-          "vo": "Most of us never notice. We step in, press a button, and stare at our phones.",
-          "prompt": "people waiting in front of hotel elevators in a bright lobby, one looking at a phone, backs to camera, warm light",
-          "move": "push"
-        },
-        {
-          "vo": "But in two thousand two, an executive at Otis, one of the biggest elevator makers in the world, estimated that around eighty-five percent of their tall buildings had no button marked thirteen.",
-          "diagram": "otis_85"
-        },
-        {
-          "vo": "Not because of engineering. Because of fear.",
-          "prompt": "a skyscraper blueprint spread on a wooden desk, pencil and ruler, a desk lamp casting a pool of light, dark office",
-          "move": "push",
-          "negative": "crowd, people, faces"
-        }
-      ]
-    },
-    {
-      "id": "story",
-      "card": "THE STORY",
-      "shots": [
-        {
-          "vo": "The fear of thirteen is ancient. At the Last Supper, thirteen sat at the table. One of them was the man who betrayed Jesus.",
-          "prompt": "a long candlelit wooden table in a stone hall with thirteen robed figures seated along one side, renaissance oil painting style, seen from the end of the table",
-          "move": "pan_right"
-        },
-        {
-          "vo": "In Norse mythology, twelve gods sat down to feast. The trickster Loki arrived uninvited, the thirteenth guest. By the end of the night, the beloved god Balder was dead.",
-          "prompt": "a dark viking feast hall with a long fire pit, twelve figures at a table, a hooded uninvited figure stepping through the great doors, ominous firelight",
-          "move": "push"
-        },
-        {
-          "vo": "Over centuries, the story hardened into a rule. Thirteen brings death.",
-          "prompt": "a narrow medieval village street at dusk, a black cat on cobblestones in the foreground, lanterns, fog",
-          "move": "push",
-          "negative": "crowd, people, faces"
-        },
-        {
-          "vo": "By the eighteen eighties, the fear was so common in New York that a group of men decided to mock it.",
-          "prompt": "a New York City street in the 1880s at night, gas lamps, horse-drawn carriages, brick buildings, fog",
-          "move": "pan_left"
-        },
-        {
-          "vo": "They called themselves the Thirteen Club. Thirteen men at one table. They walked under ladders, spilled salt on purpose, and ate lobster salad moulded into coffins.",
-          "prompt": "a Victorian dinner party, thirteen men in black suits around a candlelit table, a silver platter in the center holding lobster salad shaped like a small coffin, 1880s",
-          "move": "push"
-        },
-        {
-          "vo": "They wanted to prove the fear was nonsense. Did they win?",
-          "prompt": "a Victorian gentleman in a black suit raising a wine glass and laughing at a candlelit dinner table, seen from the side, face in shadow",
-          "move": "push"
-        },
-        {
-          "vo": "No. Because at the very same time, something new was rising over American cities. Skyscrapers.",
-          "prompt": "New York City in the 1890s, early skyscrapers under construction, steel frames and cranes against a smoky sky, workers on beams",
-          "move": "pull"
-        },
-        {
-          "vo": "For the first time, buildings climbed past thirteen floors. And the men who built them had a problem.",
-          "prompt": "a 1900s property developer in a dark suit and bowler hat standing in the street looking up at a tall new office building, back view",
-          "move": "push"
-        },
-        {
-          "vo": "Who would rent an office, or buy a home, on the unluckiest floor in the building? If even a few tenants said no, that floor became a loss.",
-          "prompt": "an empty vacant office floor in an early 1900s building, bare wooden floorboards, dust in sunbeams from tall windows",
-          "move": "push",
-          "negative": "crowd, people, faces"
-        },
-        {
-          "vo": "So they did something very simple. They changed the number.",
-          "prompt": "close-up of an early 1900s gentleman's hand signing a contract with a fountain pen on a leather desk, lamp light",
-          "move": "push"
-        }
-      ]
-    },
-    {
-      "id": "reveal",
-      "card": "THE REVEAL",
-      "shots": [
-        {
-          "vo": "But here is the catch. The thirteenth floor never disappeared. Count the floors yourself.",
-          "diagram": "real_floors"
-        },
-        {
-          "vo": "The floor labelled fourteen is the thirteenth floor. If you stay there, you are sleeping on it. The number changed. The building did not.",
-          "diagram": "real_floors"
-        },
-        {
-          "vo": "Some buildings hide it as a machine floor, full of pipes and pumps. Some call it twelve A. Most just skip the number, and hope you never count.",
-          "prompt": "a dim mechanical floor inside a skyscraper, large pipes, pumps and ducts, industrial lights, concrete walls",
-          "move": "push",
-          "negative": "crowd, people, faces"
-        },
-        {
-          "vo": "And it is not only thirteen. In Chinese, the word for four sounds almost like the word for death. Some towers skip every floor with a four in it.",
-          "diagram": "tetraphobia"
-        },
-        {
-          "vo": "In buildings like that, the number at the top of the panel is higher than the real number of floors.",
-          "prompt": "a very tall glass tower in a dense Asian city skyline at night, neon reflections, mist",
-          "move": "pull",
-          "negative": "crowd, people, faces"
-        },
-        {
-          "vo": "So why does it still happen today? Not because architects believe in bad luck.",
-          "prompt": "a modern architect's studio with a white scale model of a skyscraper on a table, soft daylight",
-          "move": "push",
-          "negative": "crowd, people, faces"
-        },
-        {
-          "vo": "Because guests do. Hotels say some guests ask to change rooms when they are given one on thirteen.",
-          "prompt": "a hotel guest with a suitcase at a marble reception desk, the receptionist handing over a key card, warm lobby light, faces not visible",
-          "move": "push"
-        },
-        {
-          "vo": "And no developer wants to spend millions on a floor that people are afraid of.",
-          "prompt": "a skyscraper at night where every floor is lit except one completely dark floor in the middle",
-          "move": "push",
-          "negative": "crowd, people, faces"
-        }
-      ]
-    },
-    {
-      "id": "today",
-      "card": "TODAY",
-      "shots": [
-        {
-          "vo": "So the next time you press fourteen, you will know the truth.",
-          "prompt": "hotel elevator doors sliding open onto a bright modern corridor, view from inside the elevator",
-          "move": "push",
-          "negative": "crowd, people, faces"
-        },
-        {
-          "vo": "Thirteen is still there. It just goes by a different name.",
-          "diagram": "elevator_gap"
-        }
-      ]
-    },
-    {
-      "id": "outro",
-      "card": null,
-      "shots": [
-        {
-          "vo": "A floor of steel and concrete, hidden by a two thousand year old fear.",
-          "prompt": "a quiet hotel corridor at night with one door slightly open and warm light spilling out, mysterious",
-          "move": "push",
-          "negative": "crowd, people, faces"
-        },
-        {
-          "vo": "And that is the hidden why.",
-          "prompt": "a single round elevator call button glowing amber in a dark wall, close-up, no numbers",
-          "move": "push",
-          "negative": "crowd, people, faces"
-        },
-        {
-          "vo": "Next time: why is Coca-Cola red? The real reason will surprise you. Subscribe, so you don't miss it.",
-          "prompt": "a plain red soda can standing on a dark wooden table, a single dramatic light, no logo, no text",
-          "move": "push",
-          "negative": "logo, text, letters, brand"
-        }
-      ]
-    }
+ "slug": "03-13th-floor",
+ "title": "Why Hotels Skip the 13th Floor (It's Still There)",
+ "approved": true,
+ "thumbnail": {
+  "text": "WHAT'S|*HERE?",
+  "plane": "interior of a luxury hotel elevator lobby at night, polished brass elevator doors closed, marble floor, one warm spotlight, empty, ominous, symmetrical",
+  "zoom_diagram": "elevator_gap",
+  "zoom_crop": [
+   960,
+   560,
+   240
   ]
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "sting",
+   "reveal"
+  ],
+  "reflective": [
+   "ordinary",
+   "today",
+   "outro"
+  ],
+  "epic": [
+   "story"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "You step into a hotel elevator and press fourteen. But you are not going to the fourteenth floor.",
+     "prompt": "close-up of a man's finger pressing a glowing brass button on a hotel elevator panel, mirrored walls, warm light, no numbers visible",
+     "move": "push"
+    },
+    {
+     "vo": "Look closely. Twelve. Fourteen. Something is missing.",
+     "diagram": "elevator_gap"
+    },
+    {
+     "vo": "Thirteen floors up, there is a floor that officially does not exist. Thousands of buildings have one. Maybe the one you slept in last night.",
+     "prompt": "a long empty hotel corridor at night, rows of closed doors, patterned carpet, one flickering ceiling light, eerie, symmetrical",
+     "move": "push",
+     "negative": "crowd, people, faces"
+    },
+    {
+     "vo": "Why would the most modern buildings on Earth pretend a floor is not there? And who decided it?",
+     "prompt": "low angle view of a tall glass hotel skyscraper at dusk, rows of lit windows, dramatic sky",
+     "move": "pull",
+     "negative": "crowd, people, faces"
+    }
+   ]
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "shots": []
+  },
+  {
+   "id": "ordinary",
+   "card": "THE ORDINARY",
+   "shots": [
+    {
+     "vo": "Most of us never notice. We step in, press a button, and stare at our phones.",
+     "prompt": "people waiting in front of hotel elevators in a bright lobby, one looking at a phone, backs to camera, warm light",
+     "move": "push"
+    },
+    {
+     "vo": "But in two thousand two, an executive at Otis, one of the biggest elevator makers in the world, estimated that around eighty-five percent of their tall buildings had no button marked thirteen.",
+     "diagram": "otis_85"
+    },
+    {
+     "vo": "Not because of engineering. Because of fear.",
+     "prompt": "a skyscraper blueprint spread on a wooden desk, pencil and ruler, a desk lamp casting a pool of light, dark office",
+     "move": "push",
+     "negative": "crowd, people, faces"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "card": "THE STORY",
+   "shots": [
+    {
+     "vo": "The fear of thirteen is ancient. At the Last Supper, thirteen sat at the table. One of them was the man who betrayed Jesus.",
+     "prompt": "a long candlelit wooden table in a stone hall with thirteen robed figures seated along one side, renaissance oil painting style, seen from the end of the table",
+     "move": "pan_right"
+    },
+    {
+     "vo": "In Norse mythology, twelve gods sat down to feast. The trickster Loki arrived uninvited, the thirteenth guest. By the end of the night, the beloved god Balder was dead.",
+     "prompt": "a dark viking feast hall with a long fire pit, twelve figures at a table, a hooded uninvited figure stepping through the great doors, ominous firelight",
+     "move": "push"
+    },
+    {
+     "vo": "Over centuries, the story hardened into a rule. Thirteen brings death.",
+     "prompt": "a narrow medieval village street at dusk, a black cat on cobblestones in the foreground, lanterns, fog",
+     "move": "push",
+     "negative": "crowd, people, faces"
+    },
+    {
+     "vo": "By the eighteen eighties, the fear was so common in New York that a group of men decided to mock it.",
+     "prompt": "a New York City street in the 1880s at night, gas lamps, horse-drawn carriages, brick buildings, fog",
+     "move": "pan_left"
+    },
+    {
+     "vo": "They called themselves the Thirteen Club. Thirteen men at one table. They walked under ladders, spilled salt on purpose, and ate lobster salad moulded into coffins.",
+     "prompt": "a Victorian dinner party, thirteen men in black suits around a candlelit table, a silver platter in the center holding lobster salad shaped like a small coffin, 1880s",
+     "move": "push"
+    },
+    {
+     "vo": "They wanted to prove the fear was nonsense. Did they win?",
+     "prompt": "a Victorian gentleman in a black suit raising a wine glass and laughing at a candlelit dinner table, seen from the side, face in shadow",
+     "move": "push"
+    },
+    {
+     "vo": "No. Because at the very same time, something new was rising over American cities. Skyscrapers.",
+     "prompt": "New York City in the 1890s, early skyscrapers under construction, steel frames and cranes against a smoky sky, workers on beams",
+     "move": "pull"
+    },
+    {
+     "vo": "For the first time, buildings climbed past thirteen floors. And the men who built them had a problem.",
+     "prompt": "a 1900s property developer in a dark suit and bowler hat standing in the street looking up at a tall new office building, back view",
+     "move": "push"
+    },
+    {
+     "vo": "Who would rent an office, or buy a home, on the unluckiest floor in the building? If even a few tenants said no, that floor became a loss.",
+     "prompt": "an empty vacant office floor in an early 1900s building, bare wooden floorboards, dust in sunbeams from tall windows",
+     "move": "push",
+     "negative": "crowd, people, faces"
+    },
+    {
+     "vo": "So they did something very simple. They changed the number.",
+     "prompt": "close-up of an early 1900s gentleman's hand signing a contract with a fountain pen on a leather desk, lamp light",
+     "move": "push"
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "card": "THE REVEAL",
+   "shots": [
+    {
+     "vo": "But here is the catch. The thirteenth floor never disappeared. Count the floors yourself.",
+     "diagram": "real_floors"
+    },
+    {
+     "vo": "The floor labelled fourteen is the thirteenth floor. If you stay there, you are sleeping on it. The number changed. The building did not.",
+     "diagram": "real_floors"
+    },
+    {
+     "vo": "Some buildings hide it as a machine floor, full of pipes and pumps. Some call it twelve A. Most just skip the number, and hope you never count.",
+     "prompt": "a dim mechanical floor inside a skyscraper, large pipes, pumps and ducts, industrial lights, concrete walls",
+     "move": "push",
+     "negative": "crowd, people, faces"
+    },
+    {
+     "vo": "And it is not only thirteen. In Chinese, the word for four sounds almost like the word for death. Some towers skip every floor with a four in it.",
+     "diagram": "tetraphobia"
+    },
+    {
+     "vo": "In buildings like that, the number at the top of the panel is higher than the real number of floors.",
+     "prompt": "a very tall glass tower in a dense Asian city skyline at night, neon reflections, mist",
+     "move": "pull",
+     "negative": "crowd, people, faces"
+    },
+    {
+     "vo": "So why does it still happen today? Not because architects believe in bad luck.",
+     "prompt": "a modern architect's studio with a white scale model of a skyscraper on a table, soft daylight",
+     "move": "push",
+     "negative": "crowd, people, faces"
+    },
+    {
+     "vo": "Because guests do. Hotels say some guests ask to change rooms when they are given one on thirteen.",
+     "prompt": "a hotel guest with a suitcase at a marble reception desk, the receptionist handing over a key card, warm lobby light, faces not visible",
+     "move": "push"
+    },
+    {
+     "vo": "And no developer wants to spend millions on a floor that people are afraid of.",
+     "prompt": "a skyscraper at night where every floor is lit except one completely dark floor in the middle",
+     "move": "push",
+     "negative": "crowd, people, faces"
+    }
+   ]
+  },
+  {
+   "id": "today",
+   "card": "TODAY",
+   "shots": [
+    {
+     "vo": "So the next time you press fourteen, you will know the truth.",
+     "prompt": "hotel elevator doors sliding open onto a bright modern corridor, view from inside the elevator",
+     "move": "push",
+     "negative": "crowd, people, faces"
+    },
+    {
+     "vo": "Thirteen is still there. It just goes by a different name.",
+     "diagram": "elevator_gap"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "A floor of steel and concrete, hidden by a two thousand year old fear.",
+     "prompt": "a quiet hotel corridor at night with one door slightly open and warm light spilling out, mysterious",
+     "move": "push",
+     "negative": "crowd, people, faces"
+    },
+    {
+     "vo": "And that is the hidden why.",
+     "prompt": "a single round elevator call button glowing amber in a dark wall, close-up, no numbers",
+     "move": "push",
+     "negative": "crowd, people, faces"
+    },
+    {
+     "vo": "Next time: why is Coca-Cola red? The real reason will surprise you. Subscribe, so you don't miss it.",
+     "prompt": "a plain red soda can standing on a dark wooden table, a single dramatic light, no logo, no text",
+     "move": "push",
+     "negative": "logo, text, letters, brand"
+    }
+   ]
+  }
+ ]
 }
