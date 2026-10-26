@@ -3,6 +3,10 @@
 never answer it; the sting word in the red box).
 
     python pipeline/thumb.py episodes/<slug>/script.json out/<slug>/   ->  thumb.jpg (1280x720)
+
+thumbnail.layout "face" (after The Infographics Show, the niche's top long-form page): the painting is one
+person with an extreme emotion filling the frame, a 2-4 word statement in heavy white caps across the top
+(the *word* in yellow), and the zoom bubble, if any, small at the bottom right.
 """
 import json
 import sys
@@ -34,9 +38,49 @@ def arrow(d, start, end, width=22, head=56):
                (bx - head * 0.6 * math.sin(a), by + head * 0.6 * math.cos(a))], fill=K.RED)
 
 
+def face_layout(script, out):
+    th = script["thumbnail"]
+    img = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
+    shade = Image.new("L", (W, H))
+    sd = ImageDraw.Draw(shade)
+    for y in range(H):  # darken the top for the words
+        sd.line((0, y, W, y), fill=int(200 * max(0.0, 1 - y / (H * 0.42)) ** 1.6))
+    img.paste(Image.new("RGB", (W, H), K.INK), mask=shade)
+    d = ImageDraw.Draw(img)
+    words = th["text"].replace("|", " ").split()
+    f = K.display(170)
+    sp = lambda f: d.textlength(" ", font=f)
+    total = lambda f: sum(d.textlength(w.replace("*", "").upper(), font=f) for w in words) + sp(f) * (len(words) - 1)
+    while total(f) > W - 80 and f.size > 70:
+        f = K.display(f.size - 6)
+    x, y = (W - total(f)) / 2, 30 + f.size * 0.55
+    for w in words:
+        t = w.replace("*", "").upper()
+        d.text((x, y), t, font=f, anchor="lm", fill=K.YEL if "*" in w else K.BONE, stroke_width=10, stroke_fill=K.INK)
+        x += d.textlength(t, font=f) + sp(f)
+    if th.get("zoom") or th.get("zoom_diagram"):
+        r, cx, cy = 120, W - 160, H - 150
+        if th.get("zoom_diagram"):
+            from diagram import DIAGRAMS
+            dg = DIAGRAMS[th["zoom_diagram"]]()
+            zx, zy, zr = th.get("zoom_crop", (960, 540, 330))
+            zoom = cover(dg.crop((zx - zr, zy - zr, zx + zr, zy + zr)), 2 * r, 2 * r)
+        else:
+            zoom = cover(Image.open(out / "thumb-zoom.png").convert("RGB"), 2 * r, 2 * r)
+        m = Image.new("L", (2 * r, 2 * r), 0)
+        ImageDraw.Draw(m).ellipse((0, 0, 2 * r, 2 * r), fill=255)
+        img.paste(zoom, (cx - r, cy - r), m)
+        d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=K.BONE, width=8)
+        d.ellipse((cx - r - 8, cy - r - 8, cx + r + 8, cy + r + 8), outline=K.RED, width=8)
+    K.grain(img).save(out / "thumb.jpg", quality=95)
+    print(out / "thumb.jpg")
+
+
 def main(script_path, out_dir):
     script = json.loads(Path(script_path).read_text())
     out = Path(out_dir)
+    if (script.get("thumbnail") or {}).get("layout") == "face":
+        return face_layout(script, out)
     plane = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
     img = plane.copy()
     # darken the left for the words
