@@ -7,7 +7,10 @@ releases. No GitHub Actions needed (they're slow); the Mac downloads the result 
 Per episode: paint (SDXL, one process per GPU) -> release paint-<slug> (paintings, kept for repaints)
 -> narration (Kokoro on the GPU) -> diagrams + edit -> thumbnail -> metadata with real chapters ->
 release episode-<slug> with video.mp4, thumb.jpg, meta.json, chapters.txt.
-Needs GH_TOKEN (Kaggle/Colab secret or env) with contents write on this repo.
+Needs GH_TOKEN (Kaggle/Colab secret or env) with contents write on this repo, or OUTBOX mode (Kaggle
+run started by the Mac's API push, which can't use notebook secrets): the repo comes from a private
+Kaggle dataset with the earlier paint packs in packs/, every "release" is written to $OUTBOX/<tag>/
+instead, and the Mac publishes those releases after the run (studio/thw_kaggle.py).
 """
 import json
 import os
@@ -20,7 +23,9 @@ from pathlib import Path
 
 REPO = "decypherlabs/hidden-why"
 ROOT = Path(__file__).resolve().parent.parent
-TOK = os.environ["GH_TOKEN"]
+OUTBOX = Path(os.environ["OUTBOX"]) if os.environ.get("OUTBOX") else None
+TOK = None if OUTBOX else os.environ["GH_TOKEN"]
+PACKS = ROOT / "packs"  # OUTBOX mode: paint-<slug>.tar packs shipped with the repo snapshot
 PY = sys.executable
 
 
@@ -42,11 +47,19 @@ def gh(method, path, body=None, data=None, ctype="application/json", accept="app
 
 def release(tag):
     """The release for tag (created if missing)."""
+    if OUTBOX:
+        return {"tag": tag}
     return gh("GET", f"/releases/tags/{tag}") or gh("POST", "/releases", {"tag_name": tag, "name": tag, "prerelease": True})
 
 
 def upload(rel, path, ctype):
     """Upload (or replace) one asset."""
+    if OUTBOX:
+        import shutil
+        (OUTBOX / rel["tag"]).mkdir(parents=True, exist_ok=True)
+        shutil.copy2(path, OUTBOX / rel["tag"] / path.name)
+        print(f"  saved {rel['tag']}/{path.name} ({path.stat().st_size / 1e6:.0f} MB) for the Mac to publish", flush=True)
+        return
     for a in gh("GET", f"/releases/{rel['id']}/assets?per_page=100") or []:
         if a["name"] == path.name:
             gh("DELETE", f"/releases/assets/{a['id']}")
@@ -95,6 +108,14 @@ def paint(slug, script, out):
 
 def fetch_paintings(slug, out):
     """Earlier paintings of this episode (for a repaint): release paint-<slug>."""
+    if OUTBOX:
+        pack = PACKS / f"paint-{slug}.tar"
+        if not pack.exists():
+            raise SystemExit(f"{slug}: no paintings to repaint from (packs/paint-{slug}.tar missing)")
+        out.mkdir(parents=True, exist_ok=True)
+        with tarfile.open(pack) as t:
+            t.extractall(out)
+        return
     rel = gh("GET", f"/releases/tags/paint-{slug}")
     asset = next((a for a in (rel or {}).get("assets", []) if a["name"].endswith(".tar")), None)
     if not asset:
@@ -140,11 +161,11 @@ def main():
         if not json.loads((ROOT / "episodes" / slug / "script.json").read_text()).get("approved"):
             print(f"{slug}: script not approved yet (review it first; then \"approved\": true): skipped")
             continue
-        if gh("GET", f"/releases/tags/episode-{slug}"):
+        if not OUTBOX and gh("GET", f"/releases/tags/episode-{slug}"):  # OUTBOX: the Mac sends only due ones
             print(f"{slug}: already published as a release (use --repaint to redo shots)")
             continue
         script, out = ROOT / "episodes" / slug / "script.json", ROOT / "out" / slug
-        if gh("GET", f"/releases/tags/paint-{slug}"):
+        if (PACKS / f"paint-{slug}.tar").exists() if OUTBOX else gh("GET", f"/releases/tags/paint-{slug}"):
             fetch_paintings(slug, out)  # painted before: reuse, paint only what's missing
         paint(slug, script, out)
         finish(slug, script, out)
