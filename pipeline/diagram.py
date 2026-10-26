@@ -577,10 +577,81 @@ def time_timeline(_=None):
     return img
 
 
+def sword_pass(_=None):
+    """The theory: riders kept left so a right-handed sword arm faced whoever came the other way."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "ONE THEORY: KEEP YOUR SWORD ARM FREE")
+    d.rectangle((0, 470, W, 610), fill=(40, 44, 52))
+    d.line((0, 540, W, 540), fill=BONE, width=4)
+    for x, y, dirn, col in ((560, 505, 1, YEL), (1360, 575, -1, BONE)):
+        d.ellipse((x - 60, y - 28, x + 60, y + 28), fill=col)            # rider seen from above
+        d.polygon([(x + dirn * 70, y), (x + dirn * 40, y - 18), (x + dirn * 40, y + 18)], fill=col)
+    d.line((560, 530, 560, 600), fill=RED, width=10)                       # sword arm toward the oncoming rider
+    d.line((1360, 550, 1360, 480), fill=RED, width=10)
+    d.text((560, 380), "keeps LEFT", font=font(56), fill=YEL, anchor="mm")
+    d.text((1360, 700), "keeps LEFT", font=font(56), fill=BONE, anchor="mm")
+    d.text((W / 2, 880), "right hands meet in the middle", font=font(46, False), fill=BONE, anchor="mm")
+    d.text((W / 2, 950), "a popular theory, not proven", font=font(34, False), fill=RED, anchor="mm")
+    return img
+
+
+def keep_timeline(_=None):
+    """How the map split: Paris keeps right (1794), Napoleon spreads it, Britain makes left law (1835)."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "HOW THE WORLD SPLIT")
+    ev = [("1794", "Paris: keep RIGHT", YEL), ("1800s", "Napoleon spreads it", YEL), ("1835", "Britain: LEFT by law", RED),
+          ("1800s", "the Empire follows", RED), ("1967", "Sweden switches", BONE)]
+    x0, x1, y = 200, 1720, 560
+    d.line((x0, y, x1, y), fill=BONE, width=6)
+    for i, (a, b, col) in enumerate(ev):
+        x = x0 + (x1 - x0) * (i + 0.5) / len(ev)
+        d.ellipse((x - 20, y - 20, x + 20, y + 20), fill=col)
+        up = i % 2 == 0
+        ty = y - 200 if up else y + 130
+        d.line((x, y - 20 if up else y + 20, x, ty + (110 if up else -20)), fill=col, width=4)
+        d.text((x, ty), a, font=font(60), fill=col, anchor="mm")
+        d.text((x, ty + 64), b, font=font(36, False), fill=BONE, anchor="mm")
+    return img
+
+
+def referendum(_=None):
+    """Sweden, 1955: 82.9% voted to keep driving on the left. The switch came anyway in 1967."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "SWEDEN, 1955: SHOULD WE SWITCH?")
+    x0, x1, y0, y1 = 260, 1660, 420, 560
+    split = x0 + (x1 - x0) * 0.829
+    d.rectangle((x0, y0, split, y1), fill=RED)
+    d.rectangle((split, y0, x1, y1), fill=YEL)
+    d.text(((x0 + split) / 2, (y0 + y1) / 2), "82.9% NO", font=font(80), fill=BONE, anchor="mm")
+    d.text((x1 + 30, (y0 + y1) / 2), "YES", font=font(54), fill=YEL, anchor="lm")
+    d.text((W / 2, 760), "1967: they switched anyway", font=font(72), fill=YEL, anchor="mm")
+    return img
+
+
+def switch_morning(_=None):
+    """Dagen H, 3 September 1967: traffic stops, crosses to the right, carries on."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "3 SEPTEMBER 1967, BEFORE DAWN")
+    for i, (t, a, col) in enumerate((("BEFORE", "drive on the LEFT", BONE), ("STOP", "every vehicle halts", RED),
+                                     ("CROSS", "switch sides", YEL), ("GO", "drive on the RIGHT", YEL))):
+        x = 300 + i * 440
+        d.rounded_rectangle((x - 180, 380, x + 180, 640), radius=30, outline=col, width=8)
+        d.text((x, 470), t, font=font(80), fill=col, anchor="mm")
+        d.text((x, 570), a, font=font(34, False), fill=BONE, anchor="mm")
+        if i < 3:
+            d.polygon([(x + 240, 510), (x + 200, 488), (x + 200, 532)], fill=BONE)
+    d.text((W / 2, 820), "a whole country changed sides in one morning", font=font(48, False), fill=BONE, anchor="mm")
+    return img
+
+
 OVERLAYS = {"corner_crack": corner_crack, "rivet_crack": rivet_crack, "square_hole": square_hole}
 
 
-DIAGRAMS = {"seasonal_hours": seasonal_hours, "finger_count": finger_count, "divisors": divisors, "decimal_clock": decimal_clock, "time_timeline": time_timeline, "two_barrels": two_barrels, "red_timeline": red_timeline, "underground_fire": underground_fire, "cost_compare": cost_compare, "population": population,
+DIAGRAMS = {"sword_pass": sword_pass, "keep_timeline": keep_timeline, "referendum": referendum, "switch_morning": switch_morning, "seasonal_hours": seasonal_hours, "finger_count": finger_count, "divisors": divisors, "decimal_clock": decimal_clock, "time_timeline": time_timeline, "two_barrels": two_barrels, "red_timeline": red_timeline, "underground_fire": underground_fire, "cost_compare": cost_compare, "population": population,
             "elevator_gap": elevator_gap, "otis_85": otis_85, "real_floors": real_floors, "tetraphobia": tetraphobia,
             "decompression": decompression, "corner_stress": corner_stress, "round_vs_square": round_vs_square, "altitude": altitude,
             "pressurisation": pressurisation, "crash_map": crash_map, "pressure_cycles": pressure_cycles,
