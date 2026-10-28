@@ -3,6 +3,8 @@
     python3 tools/cut_shorts.py 04-coca-cola-red [--count 4]     # writes episodes/<ep>-short-<n>/
     python3 tools/cut_shorts.py --all                             # every approved long episode not cut yet
 
+DEPRECATED 28 Oct: the user rejected these cuts (no context, repetitive). THW Shorts are written as originals.
+
 Claude (one headless call per episode, no tools) picks 3-4 self-contained 30-55 s stories from the
 episode's narration and writes a vertical painting prompt per line plus the Shorts metadata. The words
 are the episode's own, copied line for line and checked here, so they're as fact-checked as the
