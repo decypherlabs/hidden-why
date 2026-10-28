@@ -700,10 +700,68 @@ def mars_earth(_=None):
     return img
 
 
+def calendar_drift(_=None):
+    """A 365-day calendar slips ~0.2422 days a year against the seasons (tropical year 365.2422 days)."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "A CALENDAR WITH NO LEAP YEARS")
+    rows = [(4, "1 day"), (100, "24 days"), (400, "97 days"), (750, "6 months: July in winter")]
+    for i, (yrs, off) in enumerate(rows):
+        y = 300 + i * 170
+        w = 1300 * (yrs * 0.2422) / (750 * 0.2422)
+        d.text((200, y), f"{yrs} years", font=font(50), fill=BONE, anchor="lm")
+        d.rectangle((520, y - 40, 520 + max(w, 12), y + 40), fill=RED if i == 3 else YEL)
+        d.text((540 + max(w, 12), y), off, font=font(44), fill=BONE, anchor="lm")
+    return img
+
+
+def leap_rule(_=None):
+    """Gregorian rule: every 4th year, except century years, unless divisible by 400."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "THE LEAP YEAR RULE")
+    steps = [("DIVISIBLE BY 4?", "2024: leap", YEL), ("BUT DIVISIBLE BY 100?", "1900: not leap", RED),
+             ("UNLESS DIVISIBLE BY 400", "2000: leap", YEL)]
+    for i, (q, ex, c) in enumerate(steps):
+        y = 330 + i * 230
+        d.rounded_rectangle((260, y - 80, 1100, y + 80), radius=28, fill=(20, 40, 50), outline=c, width=6)
+        d.text((680, y), q, font=font(56), fill=BONE, anchor="mm")
+        d.text((1180, y), ex, font=font(56), fill=c, anchor="lm")
+    return img
+
+
+def cruise_layers(_=None):
+    """Weather lives in the troposphere (top ~36,000 ft at mid-latitudes); airliners cruise ~31-42k ft."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "WHERE AIRLINERS FLY")
+    for y0, y1, c, label in ((780, 980, (40, 70, 60), "WEATHER: clouds, storms, rain"),
+                             (420, 780, (25, 45, 75), "TROPOSPHERE"), (200, 420, (15, 25, 50), "STRATOSPHERE: calm, thin air")):
+        d.rectangle((160, y0, 1760, y1), fill=c)
+        d.text((190, y0 + 40), label, font=font(40), fill=BONE, anchor="lm")
+    d.line((160, 420, 1760, 420), fill=YEL, width=4)
+    d.text((1740, 400), "~36,000 ft", font=font(40), fill=YEL, anchor="rb")
+    d.rectangle((1100, 350, 1700, 470), outline=RED, width=6)
+    d.text((1400, 410), "AIRLINERS 31-42k ft", font=font(44), fill=RED, anchor="mm")
+    return img
+
+
+def drag_fuel(_=None):
+    """Air density at 35,000 ft is about 30% of sea level (0.38 vs 1.225 kg/m3): far less drag for the same speed."""
+    img = base()
+    d = ImageDraw.Draw(img)
+    title(d, "HOW THICK IS THE AIR?")
+    for x, h, lab, val in ((620, 620, "SEA LEVEL", "100%"), (1300, 192, "35,000 FT", "~30%")):
+        d.rectangle((x - 140, 900 - h, x + 140, 900), fill=YEL if x == 1300 else BONE)
+        d.text((x, 900 - h - 50), val, font=font(64), fill=BONE, anchor="mm")
+        d.text((x, 950), lab, font=font(44), fill=BONE, anchor="mm")
+    return img
+
+
 OVERLAYS = {"corner_crack": corner_crack, "rivet_crack": rivet_crack, "square_hole": square_hole}
 
 
-DIAGRAMS = {"scatter_bars": scatter_bars, "sun_path": sun_path, "mars_earth": mars_earth, "sword_pass": sword_pass, "keep_timeline": keep_timeline, "referendum": referendum, "switch_morning": switch_morning, "seasonal_hours": seasonal_hours, "finger_count": finger_count, "divisors": divisors, "decimal_clock": decimal_clock, "time_timeline": time_timeline, "two_barrels": two_barrels, "red_timeline": red_timeline, "underground_fire": underground_fire, "cost_compare": cost_compare, "population": population,
+DIAGRAMS = {"cruise_layers": cruise_layers, "drag_fuel": drag_fuel, "calendar_drift": calendar_drift, "leap_rule": leap_rule, "scatter_bars": scatter_bars, "sun_path": sun_path, "mars_earth": mars_earth, "sword_pass": sword_pass, "keep_timeline": keep_timeline, "referendum": referendum, "switch_morning": switch_morning, "seasonal_hours": seasonal_hours, "finger_count": finger_count, "divisors": divisors, "decimal_clock": decimal_clock, "time_timeline": time_timeline, "two_barrels": two_barrels, "red_timeline": red_timeline, "underground_fire": underground_fire, "cost_compare": cost_compare, "population": population,
             "elevator_gap": elevator_gap, "otis_85": otis_85, "real_floors": real_floors, "tetraphobia": tetraphobia,
             "decompression": decompression, "corner_stress": corner_stress, "round_vs_square": round_vs_square, "altitude": altitude,
             "pressurisation": pressurisation, "crash_map": crash_map, "pressure_cycles": pressure_cycles,

@@ -1,0 +1,77 @@
+{
+ "slug": "09-35000-feet",
+ "title": "Why Do Planes Fly at 35,000 Feet?",
+ "approved": true,
+ "thumbnail": {
+  "layout": "face",
+  "text": "NOT FOR *SPEED*",
+  "plane": "a stunned passenger pressed against an airplane window with wide eyes, a sea of clouds far below and a deep blue sky above, cinematic close-up, cold rim light",
+  "zoom": "a cockpit altimeter dial reading thirty-five thousand feet, close-up, dramatic light"
+ },
+ "music": {
+  "intense": ["cold_open", "sting", "reveal"],
+  "reflective": ["ordinary", "today", "outro"],
+  "epic": ["story"]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {"vo": "Right now, about seven miles above you, thousands of people are eating peanuts.", "prompt": "an airliner cruising high above a sea of white clouds, deep blue sky, sun glinting on the wing, cinematic", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Higher than Mount Everest. In air so thin you'd pass out in under a minute.", "prompt": "the snowy summit of Mount Everest seen from above, an airliner contrail far higher in the dark blue sky", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "So why do planes go all the way up there? And why do eastbound and westbound flights use different heights?", "prompt": "two airliners passing far apart at different heights above clouds at sunset, wide view", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"}
+   ]
+  },
+  {"id": "sting", "sting": true, "shots": []},
+  {
+   "id": "ordinary",
+   "card": "THE ORDINARY",
+   "shots": [
+    {"vo": "Every flight does the same thing. Climb for twenty minutes, level off somewhere between thirty-one and forty-two thousand feet, then stay there.", "prompt": "an airliner climbing steeply after takeoff over a city at dawn, landing gear up, cinematic", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Climbing burns a huge amount of fuel. So it would be cheaper to stay low. Right?", "prompt": "a jet engine at full power close-up with heat haze, dramatic light", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Wrong. Up there is where the plane is cheapest to fly.", "prompt": "a calm airliner cabin at cruise, passengers relaxed, soft window light", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"}
+   ]
+  },
+  {
+   "id": "story",
+   "card": "THE STORY",
+   "shots": [
+    {"vo": "The secret is the air itself. The higher you go, the thinner it gets.", "prompt": "a view from high altitude where the sky fades from bright blue to dark navy at the top, cinematic", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "At thirty-five thousand feet, the air is only about a third as thick as at the ground.", "diagram": "drag_fuel"},
+    {"vo": "Thinner air means less drag. The plane slips through it, so the same fuel takes you much further.", "prompt": "an airliner slicing cleanly through thin wisps of cloud at high altitude, motion, cinematic", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Jet engines love it too. Air up there is around minus fifty degrees, and cold, dense intake air makes them more efficient.", "prompt": "frost forming on the edge of an airplane wing at high altitude, icy blue light, close-up", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Then there's the weather. Almost all of it, the clouds, the rain, the storms, lives in the lowest layer of the sky.", "prompt": "a towering thunderstorm cloud with lightning seen from the side, an airliner flying far above its top", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Its ceiling sits around thirty-six thousand feet. Fly near the top, and you're above most of the bumps.", "diagram": "cruise_layers"},
+    {"vo": "Old propeller airliners couldn't get that high. They flew right through the weather, and passengers felt every storm.", "prompt": "a 1950s propeller airliner bouncing through dark storm clouds, rain streaks, vintage painting style", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"}
+   ]
+  },
+  {
+   "id": "reveal",
+   "card": "THE REVEAL",
+   "shots": [
+    {"vo": "But higher isn't always better. Go too high, and the air is too thin for the wings to hold you up at a safe speed.", "prompt": "a lone airliner far above the clouds near the edge of space, the sky almost black, cinematic", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Pilots call that squeeze the coffin corner. Too slow and the wing stalls. Too fast and it shakes itself apart.", "prompt": "a tense pilot in a dim cockpit at night watching glowing instruments, close-up", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "So as a plane burns fuel and gets lighter, it climbs, step by step, to the height that's best for its weight.", "prompt": "an airliner seen from below climbing gently into a bright blue sky, long contrail", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "And the different heights? That rule was written in blood. In 1956, two airliners collided over the Grand Canyon. A hundred and twenty-eight people died.", "prompt": "the Grand Canyon at dusk seen from the air, somber light, wide view", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "It led to the creation of America's Federal Aviation Administration, and to strict rules for who flies where.", "prompt": "a 1950s air traffic control room with radar screens and controllers, vintage photo style", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Today, flights heading east take odd thousands of feet, like thirty-five thousand. Flights heading west take even ones, like thirty-six thousand. They can never meet head on at the same height.", "prompt": "two airliners passing in opposite directions with clear vertical separation above clouds, wide view, golden light", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"}
+   ]
+  },
+  {
+   "id": "today",
+   "card": "TODAY",
+   "shots": [
+    {"vo": "Concorde flew at sixty thousand feet, where passengers could see the curve of the Earth. But for the rest of us, thirty-five thousand is the sweet spot.", "prompt": "the curve of the Earth seen from very high altitude through an airplane window, dark sky above", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"}
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {"vo": "Thin air, cold engines, and a tragedy over the Grand Canyon. That's the hidden why.", "prompt": "an airliner flying into a golden sunset above the clouds, peaceful, cinematic", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "What ordinary thing should we explain next? Tell us in the comments, and subscribe so you don't miss it.", "prompt": "a cozy desk by a window at night with an open notebook and a warm lamp", "move": "push", "negative": "text, letters, numbers, logo, watermark"}
+   ]
+  }
+ ]
+}

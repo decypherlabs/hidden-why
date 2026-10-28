@@ -1,0 +1,79 @@
+{
+ "slug": "08-leap-years",
+ "title": "Why Do We Need Leap Years?",
+ "approved": true,
+ "thumbnail": {
+  "layout": "face",
+  "text": "11 DAYS *GONE*",
+  "plane": "a shocked man in 18th-century clothes staring at a wall calendar with wide eyes and mouth open, candlelit room, cinematic close-up, dramatic rim light",
+  "zoom": "an old paper calendar page torn in half with days missing, dark background"
+ },
+ "music": {
+  "intense": ["cold_open", "sting", "reveal"],
+  "reflective": ["ordinary", "today", "outro"],
+  "epic": ["story"]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {"vo": "In September 1752, millions of people in Britain went to bed on the second, and woke up on the fourteenth.", "prompt": "a sleeping family in an 18th-century English bedroom by candlelight, moonlight through the window, oil painting style", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Eleven days. Gone. By law.", "prompt": "an old wall calendar with pages torn away and scattered on a wooden floor, dramatic shadows", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "And it all comes back to one strange day that shows up every four years. Almost.", "prompt": "a single calendar page curling in soft window light on an old desk, close-up", "move": "push", "negative": "text, letters, numbers, logo, watermark"}
+   ]
+  },
+  {"id": "sting", "sting": true, "shots": []},
+  {
+   "id": "ordinary",
+   "card": "THE ORDINARY",
+   "shots": [
+    {"vo": "We think a year is 365 days. It isn't.", "prompt": "the Earth orbiting the sun seen from space, a faint glowing orbit line, cinematic", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "From one spring to the next, the Earth takes about 365 days, 5 hours and 49 minutes.", "prompt": "cherry blossoms blooming on a tree in early spring, soft morning light, close-up", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Almost a quarter of a day, left over. Every single year.", "prompt": "an antique pocket watch lying open on a stone surface, warm light, macro", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Ignore it, and the calendar slowly slides away from the seasons. In about 750 years, July would land in the middle of winter.", "diagram": "calendar_drift"}
+   ]
+  },
+  {
+   "id": "story",
+   "card": "THE STORY",
+   "shots": [
+    {"vo": "Ancient Rome had exactly this problem. Its calendar was so far off that festivals for the harvest fell in the wrong season.", "prompt": "a Roman harvest festival in a snowy forum, confused citizens in togas, oil painting style", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "So in 46 BC, Julius Caesar, advised by the astronomer Sosigenes of Alexandria, fixed it.", "prompt": "Julius Caesar in a marble hall studying a scroll with an astronomer pointing at a bronze sky globe, oil painting style", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "To catch up, that one year ran for 445 days. Romans called it the year of confusion.", "prompt": "a long Roman scroll unrolling across a table with endless rows of marks, lamplight", "move": "push", "negative": "letters, words, logo, watermark"},
+    {"vo": "Then a simple rule. Three years of 365 days, and every fourth year, one extra day. The leap year was born.", "prompt": "a stone Roman calendar carved into a wall, lit by torches, close-up", "move": "push", "negative": "text, letters, words, logo, watermark"},
+    {"vo": "But Caesar's year was 365 and a quarter days. Too long, by about eleven minutes.", "prompt": "a sundial casting a long shadow at sunset in an ancient courtyard, cinematic", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Eleven minutes a year sounds like nothing. Over sixteen centuries, it added up to ten whole days.", "prompt": "a medieval monk tracking dates in a huge book by candlelight, stacks of old calendars around him", "move": "push", "negative": "letters, words, logo, watermark"},
+    {"vo": "Easter, tied to the spring equinox, was drifting out of place.", "prompt": "a grand cathedral at dawn in spring, golden light on the facade, wide view", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"}
+   ]
+  },
+  {
+   "id": "reveal",
+   "card": "THE REVEAL",
+   "shots": [
+    {"vo": "In 1582, Pope Gregory the Thirteenth deleted the extra days. In Catholic countries, Thursday the 4th of October was followed by Friday the 15th.", "prompt": "a Renaissance pope signing a parchment decree at a desk in the Vatican, cardinals watching, oil painting style", "move": "push", "negative": "text, letters, words, logo, watermark"},
+    {"vo": "And he changed the rule. Century years are not leap years, unless they divide by 400.", "diagram": "leap_rule"},
+    {"vo": "That's why 1900 had no February 29th, but 2000 did.", "prompt": "fireworks over a city skyline on a millennium New Year's night, crowds celebrating, wide view", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Protestant Britain refused a pope's calendar. For 170 years. By 1752 it was eleven days behind, so eleven days had to go.", "prompt": "the British Parliament in the 1750s, lords in wigs debating in a wood-panelled chamber, oil painting style", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Legend says angry crowds marched shouting give us our eleven days. Historians have found almost no proof it ever happened.", "prompt": "a crowd in 18th-century London street at night holding torches, painting style", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "Russia waited until 1918. That's why the October Revolution actually happened in November.", "prompt": "a snowy Saint Petersburg street in 1917 with soldiers and red banners, cinematic, desaturated", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"}
+   ]
+  },
+  {
+   "id": "today",
+   "card": "TODAY",
+   "shots": [
+    {"vo": "The calendar on your phone still runs on Gregory's rule. And it is still off. By about 27 seconds a year.", "prompt": "a smartphone calendar glowing on a nightstand in a dark bedroom, close-up", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "That's one day in about three thousand years. Someone, someday, will have to fix it again.", "prompt": "a futuristic city at sunrise far in the future, gleaming towers, wide view", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"}
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {"vo": "A leftover quarter of a day, an emperor, a pope and eleven missing days. That's the hidden why.", "prompt": "an hourglass with the last grains of sand falling, dark background, warm light", "move": "push", "negative": "text, letters, words, numbers, logo, watermark"},
+    {"vo": "What ordinary thing should we explain next? Tell us in the comments, and subscribe so you don't miss it.", "prompt": "a cozy desk by a window at night with an open notebook and a warm lamp", "move": "push", "negative": "text, letters, numbers, logo, watermark"}
+   ]
+  }
+ ]
+}

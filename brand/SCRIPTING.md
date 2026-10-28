@@ -26,3 +26,8 @@ Title: a plain question or a stakes statement with a time anchor; 40-70 characte
 Thumbnail: `"layout": "face"`: `plane` is ONE person with an extreme emotion (shock, panic, disbelief)
 filling the frame, painted for the topic; `text` is a 2-4 word statement, one *word* in yellow
 ("IT WAS *NEVER* SANTA"); optional zoom bubble with the key detail.
+
+## Description
+YouTube description 300+ characters for every video, Shorts too (the dashboard refuses to queue
+shorter ones): the hook line, 2-3 sentences of the real explanation (myth vs truth), the channel
+line, then hashtags.
