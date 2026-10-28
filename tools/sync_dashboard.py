@@ -124,8 +124,9 @@ def import_episode(slug, src, day, status="done"):
     mp4 = pdir / sub / f"{stem}.mp4"
     if not mp4.exists():
         os.link(src / "video.mp4", mp4)  # hard link: no second copy of a big file
-    (pdir / sub / f"{stem}.thumb.jpg").write_bytes((src / "thumb.jpg").read_bytes())
-    meta.setdefault("selected", {})["thumbnail"] = 1
+    if (src / "thumb.jpg").exists():  # Shorts come without a cover
+        (pdir / sub / f"{stem}.thumb.jpg").write_bytes((src / "thumb.jpg").read_bytes())
+        meta.setdefault("selected", {})["thumbnail"] = 1
     (pdir / sub / f"{stem}.meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)],
                                capture_output=True, text=True).stdout or 0)

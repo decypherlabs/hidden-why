@@ -133,14 +133,17 @@ def finish(slug, script, out):
     print("\n== narrate", flush=True)
     subprocess.run([os.environ.get("TTS_PY", PY), str(ROOT / "pipeline/narrate.py"), str(script), str(out)], check=True)
     step(ROOT / "pipeline/build.py", script, out)
-    step(ROOT / "pipeline/thumb.py", script, out)
+    short = json.loads(script.read_text()).get("format") == "short"
+    if not short:  # Shorts have no cover (owner, 28 Oct): YouTube/Instagram use a frame
+        step(ROOT / "pipeline/thumb.py", script, out)
     meta = json.loads((script.parent / "meta.json").read_text())
     meta["youtube"]["description"] = meta["youtube"]["description"].replace("{CHAPTERS}", (out / "chapters.txt").read_text())
     (out / "meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
     rel = release(f"episode-{slug}")
     for name, ctype in (("thumb.jpg", "image/jpeg"), ("meta.json", "application/json"),
                         ("chapters.txt", "text/plain"), ("video.mp4", "video/mp4")):
-        upload(rel, out / name, ctype)
+        if (out / name).exists():
+            upload(rel, out / name, ctype)
     print(f"\n{slug}: DONE -> https://github.com/{REPO}/releases/tag/episode-{slug}", flush=True)
 
 
