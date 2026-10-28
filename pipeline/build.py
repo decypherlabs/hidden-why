@@ -118,7 +118,15 @@ class Captions:
     @staticmethod
     def for_shot(text, start, dur, size=3):
         words = text.split()
-        chunks = [words[i:i + size] for i in range(0, len(words), size)]
+        # a group never runs across a sentence/clause end (29 Oct QC: "OPEN POP THE" read as nonsense)
+        chunks, cur = [], []
+        for w in words:
+            cur.append(w)
+            if len(cur) == size or w[-1] in ".,!?;:":
+                chunks.append(cur)
+                cur = []
+        if cur:
+            chunks.append(cur)
         total = sum(len(w) + 1 for w in words) or 1
         out, t = [], start
         for c in chunks:

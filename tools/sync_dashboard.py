@@ -75,7 +75,8 @@ def track_scripts(released):
         pdir = project_dir(slug) or VIDEOS / time.strftime("%Y-%m-%d") / slug
         pj = pdir / "project.json"
         old = json.loads(pj.read_text()) if pj.exists() else {}
-        if old.get("status") == "done" or (old.get("status"), old.get("step"), old.get("title")) == (status, step, sc["title"]):
+        if old.get("status") == "done" or (old.get("status"), old.get("step"), old.get("title")) == (status, step, sc["title"]) \
+                or (old.get("status") == "awaiting_review" and status == "script"):  # QC-held stays held (no rebuild loop)
             continue
         pdir.mkdir(parents=True, exist_ok=True)
         now = time.strftime("%Y-%m-%dT%H:%M:%S")
@@ -122,6 +123,11 @@ def import_episode(slug, src, day, status="done"):
     (pdir / sub).mkdir(parents=True, exist_ok=True)
     stem = slugify(title.split("(")[0])
     mp4 = pdir / sub / f"{stem}.mp4"
+    if mp4.exists() and not os.path.samefile(mp4, src / "video.mp4"):
+        # a rebuild (repaint): the old render is archived, never deleted, and the new one takes its place
+        # (29 Oct: rebuilds kept the old file, so QC held the same stale video every run)
+        (pdir / "archive").mkdir(exist_ok=True)
+        os.replace(mp4, pdir / "archive" / f"{stem}.{int(mp4.stat().st_mtime)}.mp4")
     if not mp4.exists():
         os.link(src / "video.mp4", mp4)  # hard link: no second copy of a big file
     if (src / "thumb.jpg").exists():  # Shorts come without a cover
