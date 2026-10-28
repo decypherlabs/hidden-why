@@ -170,6 +170,10 @@ def main():
         script, out = ROOT / "episodes" / slug / "script.json", ROOT / "out" / slug
         if (PACKS / f"paint-{slug}.tar").exists() if OUTBOX else gh("GET", f"/releases/tags/paint-{slug}"):
             fetch_paintings(slug, out)  # painted before: reuse, paint only what's missing
+            # "repaint" in script.json: shots QC held (garbled lettering etc.) are dropped and painted again
+            rp = json.loads(script.read_text()).get("repaint") or {}
+            for name in [f"shot-{n:02d}.png" for n in rp.get("shots") or []] + list(rp.get("thumbs") or []):
+                (out / name).unlink(missing_ok=True)
         paint(slug, script, out)
         finish(slug, script, out)
 
