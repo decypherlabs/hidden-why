@@ -108,11 +108,12 @@ class Seq:
 
 
 class Captions:
-    """Shorts: 2-3 word groups in heavy white caps with a black outline, mid-lower, timed across each
+    """Shorts: 2-3 word groups in heavy white caps with a black outline, mid-lower. Long-forms: 7-word
+    subtitles on a soft box near the bottom. Both timed across each
     shot's narration by word length (the voice reads at a steady pace)."""
 
-    def __init__(self, groups):
-        self.groups, self.cache = groups, {}  # [(t0, t1, text)]
+    def __init__(self, groups, short=True):
+        self.groups, self.cache, self.short = groups, {}, short  # [(t0, t1, text)]
 
     @staticmethod
     def for_shot(text, start, dur, size=3):
@@ -130,6 +131,8 @@ class Captions:
         g = next((g for g in self.groups if g[0] <= t < g[1]), None)
         if not g:
             return frame
+        if not self.short:
+            return self.draw_long(frame, g[2])
         if g[2] not in self.cache:
             f = K.display(118)
             img = Image.new("RGBA", (W, 400), (0, 0, 0, 0))
@@ -145,6 +148,26 @@ class Captions:
         y = int(H * 0.68) - 200
         roi = frame[y:y + 400].astype(np.float32)
         frame[y:y + 400] = (rgb * al + roi * (1 - al)).astype(np.uint8)
+        return frame
+
+    def draw_long(self, frame, text):
+        """Long-form: subtitle-style, sentence case on a soft dark box near the bottom."""
+        if text not in self.cache:
+            f = K.display(50)
+            d = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+            while d.textlength(text, font=f) > W * 0.8 and f.size > 34:
+                f = K.display(f.size - 2)
+            tw, bh = int(d.textlength(text, font=f)), 100
+            img = Image.new("RGBA", (W, bh), (0, 0, 0, 0))
+            d = ImageDraw.Draw(img)
+            d.rounded_rectangle(((W - tw) // 2 - 28, 8, (W + tw) // 2 + 28, bh - 8), 18, fill=(0, 0, 0, 150))
+            d.text((W / 2, bh / 2), text, font=f, anchor="mm", fill=(255, 255, 255, 255))
+            a = np.asarray(img)
+            self.cache[text] = (cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0)
+        rgb, al = self.cache[text]
+        y = int(H * 0.86) - rgb.shape[0] // 2
+        roi = frame[y:y + rgb.shape[0]].astype(np.float32)
+        frame[y:y + rgb.shape[0]] = (rgb * al + roi * (1 - al)).astype(np.uint8)
         return frame
 
 
@@ -194,6 +217,8 @@ def main(script_path, out_dir):
             items.append((t, d, vis, out / f"vo-{n:02d}.wav", sec["id"]))
             if short:
                 caps += Captions.for_shot(s["vo"], t + 0.15, vo[f"{n:02d}"])
+            elif not s.get("diagram"):  # diagrams carry their own labels
+                caps += Captions.for_shot(s["vo"], t + 0.15, vo[f"{n:02d}"], size=7)
             t += d
     if short:  # no end screen: Shorts loop back to the start
         total = t
@@ -204,7 +229,7 @@ def main(script_path, out_dir):
         K.wordmark(ImageDraw.Draw(end_img), W / 2, 680, 72, anchor="mm")
         items.append((t, 6.0, Still(bgr(K.grain(end_img))), None, "outro"))
         total = t + 6.0
-    captions = Captions(caps) if short else None
+    captions = Captions(caps, short) if caps else None
 
     # ---- audio: narration + music by section mood
     voice = np.zeros(int(total * SR) + SR, np.float32)
