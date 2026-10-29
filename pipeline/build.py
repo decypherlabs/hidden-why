@@ -77,7 +77,8 @@ class Shot:
         h, w = self.src.shape[:2]
         CW, CH = W * SS, H * SS
         s0 = max(CW / w, CH / h) * 1.02
-        z = {"push": 1.0 + 0.09 * u, "pull": 1.09 - 0.09 * u}.get(self.move, 1.05)
+        k = 0.16 if W < H else 0.09  # Shorts move faster (a slow drift reads as a still on a phone)
+        z = {"push": 1.0 + k * u, "pull": 1.0 + k - k * u}.get(self.move, 1.05)
         s = s0 * z
         half_w, half_h = CW / (2 * s), CH / (2 * s)
         cx = w / 2
@@ -89,6 +90,41 @@ class Shot:
         M = np.float32([[s, 0, CW / 2 - s * cx], [0, s, CH / 2 - s * cy]])
         big = cv2.warpAffine(self.src, M, (CW, CH), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
         return cv2.resize(big, (W, H), interpolation=cv2.INTER_AREA)
+
+
+class Split:
+    """Shorts: a long shot cut in two (the painting, then a tighter crop of it) so the picture changes every
+    2-3 s (29 Oct: one painting held 4-5 s and viewers swiped after 13 s of 41)."""
+
+    def __init__(self, img):
+        h, w = img.shape[:2]
+        crop = img[int(h * 0.18):int(h * 0.82), int(w * 0.18):int(w * 0.82)]
+        self.a, self.b = Shot(img, "push"), Shot(crop, "pull")
+
+    def frame(self, u):
+        return self.a.frame(u * 2) if u < 0.5 else self.b.frame(u * 2 - 1)
+
+
+def hook_card(text):
+    """Shorts: the question as a big headline over the first seconds, so the scroll stops on it."""
+    img = Image.new("RGBA", (W, 520), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    import re
+    text = re.sub(r"[^\w\s?!'’.,:-]", "", text).strip()  # the display font has no emoji (they drew as boxes)
+    words, lines, f = text.upper().split(), [], K.display(112)
+    for wd in words:  # wrap at ~86% width
+        if lines and d.textlength(lines[-1] + " " + wd, font=f) < W * 0.86:
+            lines[-1] += " " + wd
+        else:
+            lines.append(wd)
+    y = 260 - 62 * (len(lines) - 1)
+    for ln in lines[:3]:
+        tw = d.textlength(ln, font=f)
+        d.rectangle((W / 2 - tw / 2 - 24, y - 66, W / 2 + tw / 2 + 24, y + 62), fill=K.YEL + (255,))
+        d.text((W / 2, y), ln, font=f, anchor="mm", fill=K.INK + (255,))
+        y += 132
+    a = np.asarray(img)
+    return cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0
 
 
 class Still:
@@ -221,10 +257,10 @@ def main(script_path, out_dir):
                 img = cv2.imread(str(out / f"shot-{n:02d}.png"))
                 if s.get("overlay"):  # science drawn onto the painting (a crack, a hole) where SDXL can't
                     img = bgr(OVERLAYS[s["overlay"]](Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))))
-                vis = Shot(img, s.get("move", "push"))
+                vis = Split(img) if short and d > 3.5 else Shot(img, s.get("move", "push"))
             items.append((t, d, vis, out / f"vo-{n:02d}.wav", sec["id"]))
-            if short:
-                caps += Captions.for_shot(s["vo"], t + 0.15, vo[f"{n:02d}"])
+            if short:  # the very first words show at 0.0 s, not after a pause
+                caps += Captions.for_shot(s["vo"], t + (0.0 if t == 0 else 0.15), vo[f"{n:02d}"])
             elif not s.get("diagram"):  # diagrams carry their own labels
                 caps += Captions.for_shot(s["vo"], t + 0.15, vo[f"{n:02d}"], size=7)
             t += d
@@ -247,7 +283,7 @@ def main(script_path, out_dir):
         import soundfile as sf
         x, sr = sf.read(f, dtype="float32")
         x = np.interp(np.arange(int(len(x) * SR / sr)) * sr / SR, np.arange(len(x)), x).astype(np.float32)
-        i = int((start + 0.15) * SR)
+        i = int((start + (0.0 if short and start == 0 else 0.15)) * SR)  # Shorts: the voice starts at once
         voice[i:i + len(x)] += x[:len(voice) - i]
     mood_of = {sid: mood for mood, sids in (script.get("music") or {}).items() for sid in sids}
     tracks = {m: load_mp3(ROOT / "brand/music" / f"{m}.mp3", total + 1) for m in set(mood_of.values())}
@@ -283,7 +319,8 @@ def main(script_path, out_dir):
         under[int(a * SR):int(b * SR)] = 10 ** (-8 / 20)
     under = np.convolve(under, np.ones(SR // 2) / (SR // 2), mode="same")  # ease in/out over 0.5 s
     level = voice_rms * (under * gain + 10 ** (-4 / 20) * (1 - gain))
-    fade = np.minimum(1, np.arange(len(music)) / (1.5 * SR)) * np.minimum(1, (len(music) - np.arange(len(music))) / (3 * SR))
+    fade = np.minimum(1, np.arange(len(music)) / ((0.05 if short else 1.5) * SR)) * \
+        np.minimum(1, (len(music) - np.arange(len(music))) / (3 * SR))
     mix = voice + music * level * fade
     mix = mix / (np.abs(mix).max() + 1e-9) * 0.95
     mix = np.clip(mix, -1, 1)
@@ -297,6 +334,8 @@ def main(script_path, out_dir):
                            "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
                            "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", str(out / "video.mp4")],
                           stdin=subprocess.PIPE)
+    hook = hook_card(script.get("hook_text") or script["title"]) if short else None
+    HOOK_S = 2.8
     k = 0
     for idx, (start, dur, vis, _, _) in enumerate(items):
         nf = int(round((start + dur) * FPS)) - int(round(start * FPS))
@@ -309,6 +348,12 @@ def main(script_path, out_dir):
                 fr = cv2.addWeighted(fr, left / XF, nxt.frame(0.0), 1 - left / XF, 0)
             if captions:
                 fr = captions.draw(fr.copy(), k / FPS)
+            if hook is not None and k / FPS < HOOK_S:  # the question headline, fading out over its last 0.3 s
+                rgb, al = hook
+                al = al * min(1.0, (HOOK_S - k / FPS) / 0.3)
+                y = int(H * 0.12)
+                roi = fr[y:y + 520].astype(np.float32)
+                fr[y:y + 520] = (rgb * al + roi * (1 - al)).astype(np.uint8)
             ff.stdin.write(fr.tobytes())
             k += 1
     ff.stdin.close()
