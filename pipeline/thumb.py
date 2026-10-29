@@ -76,14 +76,66 @@ def face_layout(script, out):
     print(out / "thumb.jpg")
 
 
+def short_cover(script, out):
+    """Shorts cover 1080x1920 (owner, 29 Oct: "shocking and surprising, put a question in the viewer's
+    brain"). After Zack D. Films' winners: one strange, bright picture fills the frame; ours adds the
+    question in heavy caps in the top safe zone (the Shorts UI covers the bottom and right), the *key*
+    word in a yellow box, and our tag. script["cover_shot"] picks the painting (default: the first)."""
+    from PIL import ImageEnhance
+    import re
+    CW, CH = 1080, 1920
+    n = int(script.get("cover_shot") or 1)
+    img = cover(Image.open(out / f"shot-{n:02d}.png").convert("RGB"), CW, CH)
+    img = ImageEnhance.Contrast(ImageEnhance.Color(img).enhance(1.25)).enhance(1.12)
+    img = img.filter(ImageFilter.UnsharpMask(radius=2, percent=60, threshold=2))
+    shade = Image.new("L", (CW, CH))
+    sd = ImageDraw.Draw(shade)
+    for y in range(CH):  # dark at the top for the words, a light vignette at the bottom
+        top = max(0.0, 1 - y / (CH * 0.40)) ** 1.5
+        bottom = max(0.0, (y - CH * 0.82) / (CH * 0.18)) ** 1.5
+        sd.line((0, y, CW, y), fill=int(215 * top + 140 * bottom))
+    img.paste(Image.new("RGB", (CW, CH), K.INK), mask=shade)
+    d = ImageDraw.Draw(img)
+    text = re.sub(r"[^\w\s?!'’*.,:…-]", "", script.get("cover_text") or script.get("hook_text") or script["title"]).strip().upper()
+    if "*" not in text:  # no marked key word: the last word of the question
+        ws = text.split()
+        ws[-1] = "*" + ws[-1]
+        text = " ".join(ws)
+    words, lines, f = text.split(), [], K.display(150)
+    width = lambda s: d.textlength(s.replace("*", ""), font=f)
+    while True:
+        lines = []
+        for w in words:
+            if lines and width(lines[-1] + " " + w) < CW * 0.86:
+                lines[-1] += " " + w
+            else:
+                lines.append(w)
+        if len(lines) <= 3 or f.size <= 96:
+            break
+        f = K.display(f.size - 8)
+    y = 230
+    for ln in lines:
+        x = (CW - width(ln)) / 2
+        for w in ln.split():
+            t = w.replace("*", "")
+            tw = d.textlength(t, font=f)
+            if w.startswith("*"):
+                d.rectangle((x - 14, y - f.size * 0.56, x + tw + 14, y + f.size * 0.52), fill=K.YEL)
+                d.text((x, y), t, font=f, anchor="lm", fill=K.INK)
+            else:
+                d.text((x, y), t, font=f, anchor="lm", fill=K.BONE, stroke_width=10, stroke_fill=K.INK)
+            x += tw + d.textlength(" ", font=f)
+        y += f.size * 1.08
+    K.wordmark(d, CW / 2, CH - 330, 44, anchor="mm")
+    K.grain(img).save(out / "thumb.jpg", quality=95)
+    print(out / "thumb.jpg")
+
+
 def main(script_path, out_dir):
     script = json.loads(Path(script_path).read_text())
     out = Path(out_dir)
-    if script.get("format") == "short":  # Shorts: the first painting, 1080x1920 (the Reel cover)
-        im = cover(Image.open(out / "shot-01.png").convert("RGB"), 1080, 1920)
-        im.save(out / "thumb.jpg", quality=92)
-        print(out / "thumb.jpg")
-        return
+    if script.get("format") == "short":
+        return short_cover(script, out)
     if (script.get("thumbnail") or {}).get("layout") == "face":
         return face_layout(script, out)
     plane = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)

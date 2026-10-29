@@ -134,8 +134,8 @@ def finish(slug, script, out):
     subprocess.run([os.environ.get("TTS_PY", PY), str(ROOT / "pipeline/narrate.py"), str(script), str(out)], check=True)
     step(ROOT / "pipeline/build.py", script, out)
     short = json.loads(script.read_text()).get("format") == "short"
-    if not short:  # Shorts have no cover (owner, 28 Oct): YouTube/Instagram use a frame
-        step(ROOT / "pipeline/thumb.py", script, out)
+    # Shorts get a designed cover too (owner, 29 Oct: shocking question + strangest painting; the Reel cover)
+    step(ROOT / "pipeline/thumb.py", script, out)
     meta = json.loads((script.parent / "meta.json").read_text())
     meta["youtube"]["description"] = meta["youtube"]["description"].replace("{CHAPTERS}", (out / "chapters.txt").read_text())
     (out / "meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
