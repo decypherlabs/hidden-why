@@ -21,7 +21,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg > /dev/null
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg libraqm0 libfribidi0 libharfbuzz0b > /dev/null
       - uses: actions/cache@v4
         with:
           path: |
@@ -42,6 +42,8 @@ jobs:
             pip install -q git+https://github.com/huggingface/parler-tts.git
             pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
           fi
+      - name: Hindi text shaping
+        run: python -c "from PIL import features; assert features.check('raqm'), 'no raqm: Devanagari would render broken'"
       - name: Paintings
         env:
           GH_TOKEN: ${{ github.token }}

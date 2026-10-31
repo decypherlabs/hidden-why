@@ -110,7 +110,7 @@ def hook_card(text):
     img = Image.new("RGBA", (W, 520), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     import re
-    text = re.sub(r"[^\w\s?!'’.,:-]", "", text).strip()  # the display font has no emoji (they drew as boxes)
+    text = re.sub(r"[^\w\s?!'’.,:\u0900-\u097F-]", "", text).strip()  # the display font has no emoji (they drew as boxes)
     words, lines, f = text.upper().split(), [], K.display(112)
     for wd in words:  # wrap at ~86% width
         if lines and d.textlength(lines[-1] + " " + wd, font=f) < W * 0.86:
@@ -158,7 +158,7 @@ class Captions:
         chunks, cur = [], []
         for w in words:
             cur.append(w)
-            if len(cur) == size or w[-1] in ".,!?;:":
+            if len(cur) == size or w[-1] in ".,!?;:।":
                 chunks.append(cur)
                 cur = []
         if cur:
@@ -181,7 +181,7 @@ class Captions:
             f = K.display(118)
             img = Image.new("RGBA", (W, 400), (0, 0, 0, 0))
             d = ImageDraw.Draw(img)
-            text = g[2].upper().replace(",", "").replace(".", "")
+            text = g[2].upper().replace(",", "").replace(".", "").replace("।", "")
             while d.textlength(text, font=f) > W * 0.86 and f.size > 60:
                 f = K.display(f.size - 6)
             d.text((W / 2, 200), text, font=f, anchor="mm", fill=(255, 255, 255, 255), stroke_width=10,

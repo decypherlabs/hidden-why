@@ -96,7 +96,7 @@ def short_cover(script, out):
         sd.line((0, y, CW, y), fill=int(215 * top + 140 * bottom))
     img.paste(Image.new("RGB", (CW, CH), K.INK), mask=shade)
     d = ImageDraw.Draw(img)
-    text = re.sub(r"[^\w\s?!'’*.,:…-]", "", script.get("cover_text") or script.get("hook_text") or script["title"]).strip().upper()
+    text = re.sub(r"[^\w\s?!'’*.,:…\u0900-\u097F-]", "", script.get("cover_text") or script.get("hook_text") or script["title"]).strip().upper()
     if "*" not in text:  # no marked key word: the last word of the question
         ws = text.split()
         ws[-1] = "*" + ws[-1]
