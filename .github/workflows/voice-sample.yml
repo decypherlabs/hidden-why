@@ -11,8 +11,8 @@ jobs:
         with:
           python-version: "3.11"
       - run: |
-          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
-          pip install -q git+https://github.com/huggingface/parler-tts.git soundfile
+          pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          pip install -q git+https://github.com/huggingface/parler-tts.git soundfile && pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
       - run: python tools/parler_sample.py out/voices
       - uses: actions/upload-artifact@v4
         with:
