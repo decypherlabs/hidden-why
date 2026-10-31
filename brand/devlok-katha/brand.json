@@ -1,33 +1,34 @@
 {
-  "name": "Devlok Katha",
-  "handle": "@DevlokKatha",
-  "wordmark": [
-    "DEVLOK ",
-    "KATHA"
-  ],
-  "colors": {
-    "ink": "#1A1210",
-    "signal_yellow": "#E8A33D",
-    "alarm_red": "#9E1B1B",
-    "bone": "#F2DFB8",
-    "deep_teal": "#1F5C57"
-  },
-  "voice": {
-    "engine": "parler",
-    "model": "ai4bharat/indic-parler-tts",
-    "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
-    "_about": "owner, 31 Oct 2026: Divya (Indic Parler-TTS, Apache-2.0, free on GitHub's CPU runners; needs HF_TOKEN for the gated model)"
-  },
-  "art_style": "traditional Indian Pattachitra folk painting, Odisha palm-leaf art style, bold black outlines, flat ochre deep red cream and teal colours, ornate patterned borders, decorative dotted details, intricate jewellery and textiles, flat perspective, devotional and respectful, no text",
-  "art_negative": "text, letters, watermark, logo, photo, photorealistic, 3d render, cartoon, anime, deformed hands, extra limbs, distorted face, disfigured, ugly, blurry, low quality, nsfw",
-  "fonts": {
-    "display": "devlok-katha/fonts/Hind-Bold.ttf",
-    "body": "fonts/Inter.ttf",
-    "_about": "owner, 31 Oct 2026: Hindi captions in the banner's font family: Hind (Indian Type Foundry, OFL), the free sibling of the banner's ITF Devanagari"
-  },
-  "sfx": {
-    "open": "bell",
-    "reveal": "bell",
-    "_about": "owner, 31 Oct 2026: devotional sound design (bells made in code, no samples)"
-  }
+ "name": "Devlok Katha",
+ "handle": "@DevlokKatha",
+ "wordmark": [
+  "DEVLOK ",
+  "KATHA"
+ ],
+ "colors": {
+  "ink": "#1A1210",
+  "signal_yellow": "#E8A33D",
+  "alarm_red": "#9E1B1B",
+  "bone": "#F2DFB8",
+  "deep_teal": "#1F5C57"
+ },
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
+  "_about": "owner, 31 Oct 2026: Divya (Indic Parler-TTS, Apache-2.0, free on GitHub's CPU runners; needs HF_TOKEN for the gated model)"
+ },
+ "art_style": "traditional Indian Pattachitra folk painting, Odisha palm-leaf art style, bold black outlines, flat ochre deep red cream and teal colours, ornate patterned borders, decorative dotted details, intricate jewellery and textiles, flat perspective, devotional and respectful, no text",
+ "art_negative": "text, letters, watermark, logo, photo, photorealistic, 3d render, cartoon, anime, deformed hands, extra limbs, distorted face, disfigured, ugly, blurry, low quality, nsfw",
+ "fonts": {
+  "display": "devlok-katha/fonts/Hind-Bold.ttf",
+  "body": "fonts/Inter.ttf",
+  "_about": "owner, 31 Oct 2026: Hindi captions in the banner's font family: Hind (Indian Type Foundry, OFL), the free sibling of the banner's ITF Devanagari"
+ },
+ "sfx": {
+  "open": "bell",
+  "reveal": "bell",
+  "_about": "owner, 31 Oct 2026: devotional sound design (bells made in code, no samples)"
+ },
+ "cover_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text"
 }

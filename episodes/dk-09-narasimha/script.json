@@ -7,7 +7,7 @@
  "approved": true,
  "title": "न इंसान, न जानवर, न दिन, न रात: हिरण्यकशिपु कैसे मरा? 🙏",
  "hook_text": "न दिन, न रात, न इंसान!",
- "cover_text": "*नरसिंह* अवतार",
+ "cover_text": "न दिन, न रात: *कैसे* मरा?",
  "cover_shot": 7,
  "music": {
   "epic": [
@@ -46,9 +46,9 @@
     },
     {
      "vo": "उसका अपना पुत्र प्रह्लाद, भगवान विष्णु का परम भक्त था।",
-     "prompt": "Young boy Prahlada with folded hands in prayer, serene and glowing, eyes closed, with a small image of four-armed Lord Vishnu holding conch, discus, mace and lotus above him, vertical composition, centered figure, rich detail",
+     "prompt": "a young human boy prince Prahlad, about eight years old, ordinary human face, dark hair, hands folded in prayer, eyes closed, serene, soft glow, palace courtyard, vertical composition, centered figure, rich detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, elephant, trunk, tusk, Ganesha, animal head on the boy"
     },
     {
      "vo": "क्रोधित राजा ने पूछा: कहाँ है तेरा विष्णु? क्या इस खंभे में भी है?",
@@ -70,11 +70,21 @@
     },
     {
      "vo": "न मनुष्य, न पशु, न दिन, न रात। वरदान भी रहा, और भक्त प्रह्लाद बचा।",
-     "prompt": "Lord Narasimha with a calmed gentle gaze blessing the young devotee Prahlada, who bows with folded hands at his feet, a soft golden glow around them, vertical composition, centered figure, rich detail",
+     "prompt": "Lord Narasimha with a lion's face and mane, calm and gentle, placing his hand in blessing on the head of a young human boy prince Prahlad who bows with folded hands, vertical composition, centered figure, rich detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, elephant, trunk, tusk, Ganesha, animal head on the boy"
     }
    ]
   }
- ]
+ ],
+ "cover": {
+  "prompt": "Lord Narasimha, half lion and half man, roaring at the palace doorway at twilight with the demon king Hiranyakashipu held on his lap, young Prahlad praying nearby"
+ },
+ "repaint": {
+  "shots": [
+   5,
+   9
+  ],
+  "at": "2026-10-31 16:48"
+ }
 }

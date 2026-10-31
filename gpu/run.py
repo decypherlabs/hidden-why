@@ -81,7 +81,8 @@ def expected(script):
             if sh.get("prompt") and not sh.get("diagram"):
                 names.append(f"shot-{n:02d}.png")
     th = d.get("thumbnail") or {}
-    return names + [f for f, k in (("thumb-plane.png", "plane"), ("thumb-zoom.png", "zoom")) if th.get(k)]
+    cover = ["cover.png"] if (d.get("cover") or {}).get("prompt") else []
+    return names + cover + [f for f, k in (("thumb-plane.png", "plane"), ("thumb-zoom.png", "zoom")) if th.get(k)]
 
 
 def paint(slug, script, out):

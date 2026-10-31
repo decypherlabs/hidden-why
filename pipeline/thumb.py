@@ -85,7 +85,8 @@ def short_cover(script, out):
     import re
     CW, CH = 1080, 1920
     n = int(script.get("cover_shot") or 1)
-    img = cover(Image.open(out / f"shot-{n:02d}.png").convert("RGB"), CW, CH)
+    own = out / "cover.png"  # script["cover"]["prompt"]: painted for the cover alone (31 Oct)
+    img = cover(Image.open(own if own.exists() else out / f"shot-{n:02d}.png").convert("RGB"), CW, CH)
     img = ImageEnhance.Contrast(ImageEnhance.Color(img).enhance(1.25)).enhance(1.12)
     img = img.filter(ImageFilter.UnsharpMask(radius=2, percent=60, threshold=2))
     shade = Image.new("L", (CW, CH))

@@ -64,6 +64,10 @@ def main(script_path, out_dir, part=0, parts=1):
     thumb_style = "cinematic digital painting, dramatic light, high contrast, highly detailed, sharp focus, no text"
     if th.get("plane"):  # the thumbnail keeps its subject bright and readable, so a lighter style
         jobs.append((out / "thumb-plane.png", th["plane"], f"{th['plane']}, {thumb_style}", neg, 1344, 768, 7))
+    cv = (script.get("cover") or {}).get("prompt")
+    if cv:  # a Short's own cover painting: the one image that says the title (owner, 31 Oct: DK covers didn't match)
+        cs = BRAND.get("cover_style") or style  # DK: realistic, not the folk style (owner: "realistic, engaging, hooking")
+        jobs.append((out / "cover.png", cv, f"{cv}, {cs}", f"blood, gore, deformed, extra limbs, {neg}", 768, 1344, 9))
     if th.get("zoom"):
         jobs.append((out / "thumb-zoom.png", th["zoom"], f"{th['zoom']}, {thumb_style}", neg, 1024, 1024, 8))
     for i, (p, prompt, prompt2, negative, w, h, seed) in enumerate(jobs, 1):
