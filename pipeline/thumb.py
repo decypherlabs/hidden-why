@@ -143,6 +143,10 @@ def short_cover(script, out):
 def main(script_path, out_dir):
     script = json.loads(Path(script_path).read_text())
     out = Path(out_dir)
+    picked = Path(script_path).parent / "cover.png"  # the owner's pick from the dk-covers notebook wins (31 Oct)
+    if picked.exists():
+        out.mkdir(parents=True, exist_ok=True)
+        (out / "cover.png").write_bytes(picked.read_bytes())
     if script.get("format") == "short":
         return short_cover(script, out)
     if (script.get("thumbnail") or {}).get("layout") == "face":
