@@ -127,6 +127,13 @@ def short_cover(script, out):
                 d.text((x, y), t, font=f, anchor="lm", fill=K.BONE, stroke_width=10, stroke_fill=K.INK)
             x += tw + d.textlength(" ", font=f)
         y += f.size * 1.08
+    # the brand mark on a dark pill: on a bright painting its yellow last word vanished (31 Oct QC: "THE HIDDEN WH")
+    a, b = K.B.get("wordmark") or ["THE HIDDEN ", "WHY"]
+    mw = d.textlength(a + b, font=K.display(44))
+    pill = Image.new("L", (CW, CH), 0)
+    ImageDraw.Draw(pill).rounded_rectangle((CW / 2 - mw / 2 - 28, CH - 330 - 38, CW / 2 + mw / 2 + 28, CH - 330 + 38), 38, fill=190)
+    img.paste(Image.new("RGB", (CW, CH), K.INK), mask=pill)
+    d = ImageDraw.Draw(img)
     K.wordmark(d, CW / 2, CH - 330, 44, anchor="mm")
     K.grain(img).save(out / "thumb.jpg", quality=95)
     print(out / "thumb.jpg")
