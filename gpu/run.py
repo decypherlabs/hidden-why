@@ -136,7 +136,15 @@ def finish(slug, script, out):
     short = json.loads(script.read_text()).get("format") == "short"
     # Shorts get a designed cover too (owner, 29 Oct: shocking question + strangest painting; the Reel cover)
     step(ROOT / "pipeline/thumb.py", script, out)
-    meta = json.loads((script.parent / "meta.json").read_text())
+    mp = script.parent / "meta.json"
+    if not mp.exists():  # 31 Oct: s30 was pushed without one and its run crashed here, after all the GPU work
+        sc = json.loads(script.read_text())
+        vo = [s["vo"] for sec in sc["sections"] for s in sec.get("shots") or []]
+        mp.write_text(json.dumps({"youtube": {
+            "title": f"{sc['title']} #Shorts", "description": " ".join(vo) + "\n\n#Shorts #science #facts #thehiddenwhy",
+            "tags": ["the hidden why", "shorts", "facts", "did you know", "science"], "category_id": "27",
+            "privacy": "public", "made_for_kids": False}}, indent=1, ensure_ascii=False))
+    meta = json.loads(mp.read_text())
     meta["youtube"]["description"] = meta["youtube"]["description"].replace("{CHAPTERS}", (out / "chapters.txt").read_text())
     (out / "meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
     rel = release(f"episode-{slug}")
