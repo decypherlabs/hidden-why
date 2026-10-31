@@ -29,8 +29,9 @@ VIDEOS = RB / "videos" / "hidden-why"
 
 
 def niche(slug):
-    """Hindi editions (episodes/<slug>-hi) belong to The Hidden Why Hindi's category (owner, 31 Oct 2026)."""
-    return "hidden-why-hindi" if slug.endswith("-hi") else "hidden-why"
+    """Hindi editions (episodes/<slug>-hi) belong to The Hidden Why Hindi's category, dk-* to Devlok Katha's
+    (owner, 31 Oct 2026)."""
+    return "devlok-katha" if slug.startswith("dk-") else "hidden-why-hindi" if slug.endswith("-hi") else "hidden-why"
 
 
 def videos(slug):
@@ -78,7 +79,8 @@ def track_scripts(released):
             status, step = "failed", f"The Kaggle run failed ({about}); Claude is fixing it"
             err = "see dashboard/data/thw_kaggle.last.log"
         elif sc.get("approved"):
-            where = "on GitHub (no GPU: the English paintings are reused)" if slug.endswith("-hi") else "in the next Kaggle run"
+            where = ("on GitHub (no GPU: the English paintings are reused)" if slug.endswith("-hi")
+                     else "painted on Kaggle, then narrated and edited on GitHub" if slug.startswith("dk-") else "in the next Kaggle run")
             status, step, err = "script", f"Script approved: made {where} ({about})", None
         else:
             status, step, err = "script", f"Script written: awaiting review ({about})", None
