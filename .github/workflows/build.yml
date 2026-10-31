@@ -33,10 +33,15 @@ jobs:
           S="${{ inputs.slug }}"
           if [ -d "episodes/$S" ]; then EP="episodes/$S"; else EP="episodes/${S#smoke-}"; fi   # smoke tests reuse an episode
           echo "EP=$EP" >> "$GITHUB_ENV"
+          echo "HW_BRAND=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1])).get('brand') or '')" "$EP/script.json")" >> "$GITHUB_ENV"
       - name: Python packages
         run: |
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
           pip install -q -r requirements.txt
+          if [ -n "$HW_BRAND" ] && grep -q '"parler"' "brand/$HW_BRAND/brand.json"; then
+            pip install -q git+https://github.com/huggingface/parler-tts.git
+            pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          fi
       - name: Paintings
         env:
           GH_TOKEN: ${{ github.token }}
@@ -50,6 +55,8 @@ jobs:
             tar -xf "out/paint-$P.tar" -C "out/${{ inputs.slug }}"
           fi
       - name: Narration
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python pipeline/narrate.py "$EP/script.json" "out/${{ inputs.slug }}"
       - name: Edit
         run: python pipeline/build.py "$EP/script.json" "out/${{ inputs.slug }}"

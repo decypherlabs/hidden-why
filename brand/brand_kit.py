@@ -15,7 +15,8 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 HERE = Path(__file__).resolve().parent
-B = json.loads((HERE / "brand.json").read_text())
+sys.path.insert(0, str(HERE))
+from brandcfg import B, asset  # noqa: E402  (another channel's overlay when HW_BRAND is set)
 C = {k: tuple(int(v[i:i + 2], 16) for i in (1, 3, 5)) for k, v in B["colors"].items()}
 INK, YEL, RED, BONE, TEAL = C["ink"], C["signal_yellow"], C["alarm_red"], C["bone"], C["deep_teal"]
 
@@ -80,13 +81,13 @@ def logo():
 
 def wordmark(d, x, y, size, anchor="lm"):
     f = display(size)
-    a = "THE HIDDEN "
+    a, b = B.get("wordmark") or ["THE HIDDEN ", "WHY"]
     wa = d.textlength(a, font=f)
-    wb = d.textlength("WHY", font=f)
+    wb = d.textlength(b, font=f)
     if anchor == "mm":
         x -= (wa + wb) / 2
     d.text((x, y), a, font=f, anchor="lm", fill=BONE)
-    d.text((x + wa, y), "WHY", font=f, anchor="lm", fill=YEL)
+    d.text((x + wa, y), b, font=f, anchor="lm", fill=YEL)
     return wa + wb
 
 

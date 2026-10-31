@@ -43,7 +43,7 @@ def card(title):
 
 
 def sting_frames(n):
-    logo = Image.open(ROOT / "brand/logo.png").convert("RGBA")
+    logo = Image.open(K.asset("logo.png")).convert("RGBA")
     out = []
     for k in range(n):
         u = k / max(1, n - 1)
@@ -268,7 +268,7 @@ def main(script_path, out_dir):
         total = t
     else:
         end_img = Image.new("RGB", (W, H), K.INK)
-        lg = Image.open(ROOT / "brand/logo.png").convert("RGBA").resize((300, 300), Image.LANCZOS)
+        lg = Image.open(K.asset("logo.png")).convert("RGBA").resize((300, 300), Image.LANCZOS)
         end_img.paste(lg, ((W - 300) // 2, 300), lg)
         K.wordmark(ImageDraw.Draw(end_img), W / 2, 680, 72, anchor="mm")
         items.append((t, 6.0, Still(bgr(K.grain(end_img))), None, "outro"))
@@ -286,7 +286,7 @@ def main(script_path, out_dir):
         i = int((start + (0.0 if short and start == 0 else 0.15)) * SR)  # Shorts: the voice starts at once
         voice[i:i + len(x)] += x[:len(voice) - i]
     mood_of = {sid: mood for mood, sids in (script.get("music") or {}).items() for sid in sids}
-    tracks = {m: load_mp3(ROOT / "brand/music" / f"{m}.mp3", total + 1) for m in set(mood_of.values())}
+    tracks = {m: load_mp3(K.asset(f"music/{m}.mp3"), total + 1) for m in set(mood_of.values())}
     # each section's track, loudness-matched (RMS, not peak: a soft bed with a few hits would vanish),
     # with 1.2 s crossfades where the mood changes
     def rms(x):

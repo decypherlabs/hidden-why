@@ -13,7 +13,8 @@ from pathlib import Path
 import torch
 
 ROOT = Path(__file__).resolve().parent.parent
-BRAND = json.loads((ROOT / "brand" / "brand.json").read_text())
+sys.path.insert(0, str(ROOT / "brand"))
+from brandcfg import B as BRAND  # noqa: E402  (HW_BRAND: another channel's art style)
 HF_MODEL = "stabilityai/stable-diffusion-xl-base-1.0"
 
 
