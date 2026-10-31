@@ -1,0 +1,71 @@
+{
+ "slug": "s20-brain-freeze-hi",
+ "format": "short",
+ "title": "Ice Cream Khate Hi Sir Kyun Dukhne Lagta Hai? 🧠",
+ "hook_text": "BRAIN FREEZE KYUN?",
+ "approved": true,
+ "music": {
+  "intense": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "ब्रेन फ्रीज़ में आपका ब्रेन फ्रीज़ नहीं होता।",
+     "prompt": "a person clutching their forehead in pain while holding an ice cream cone, bright summer day, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Brain freeze mein aapka brain freeze nahi hota."
+    },
+    {
+     "vo": "ठंडा मुँह की छत को लगता है, और वहाँ की ब्लड वेसल्स अचानक सिकुड़ जाती हैं।",
+     "prompt": "a glowing illustration of blood vessels in the roof of a mouth turning icy blue, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Thanda muh ki chhat ko lagta hai, aur wahan ki blood vessels achanak sikud jaati hain."
+    },
+    {
+     "vo": "फिर गर्मी लाने के लिए वो झट से खुलती हैं, और एक बड़ी नर्व अलार्म भेजती है।",
+     "prompt": "a glowing nerve pathway lighting up red across a face, scientific illustration style, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Phir garmi laane ke liye wo jhat se khulti hain, aur ek badi nerve alarm bhejti hai."
+    },
+    {
+     "vo": "दिमाग़ कन्फ़्यूज़ हो जाता है और दर्द माथे में महसूस करता है।",
+     "prompt": "a person's forehead with a red glowing pain point, dramatic light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Dimaag confuse ho jaata hai aur dard maathe mein mehsoos karta hai."
+    },
+    {
+     "vo": "जल्दी का इलाज? अपनी जीभ को मुँह की छत से दबाइए, ताकि वो गर्म हो जाए।",
+     "prompt": "a smiling person pressing their tongue to the roof of their mouth, playful light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Jaldi ka ilaaj? Apni jeebh ko muh ki chhat se dabaiye, taaki wo garam ho jaye."
+    },
+    {
+     "vo": "और ट्विस्ट ये है: दिमाग़ खुद दर्द महसूस ही नहीं कर सकता।",
+     "prompt": "a glowing human brain floating in calm blue light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Aur twist ye hai: dimaag khud dard mehsoos hi nahi kar sakta."
+    }
+   ]
+  }
+ ],
+ "cover_text": "BRAIN *FREEZE* KYUN?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "paint_from": "s20-brain-freeze",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

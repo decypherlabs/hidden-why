@@ -1,0 +1,71 @@
+{
+ "slug": "s18-eiffel-tower-grows-hi",
+ "format": "short",
+ "title": "Eiffel Tower garmi mein lamba kyun ho jata hai? 🗼",
+ "hook_text": "EIFFEL TOWER BADHTA HAI",
+ "approved": true,
+ "music": {
+  "intense": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "एफ़िल टावर सर्दी के मुकाबले गर्मी में ज़्यादा लंबा होता है।",
+     "prompt": "the Eiffel Tower under a blazing summer sun, heat shimmer, low angle, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Eiffel Tower sardi ke mukabले garmi mein zyada lamba hota hai."
+    },
+    {
+     "vo": "ये लोहे का बना है, और लोहा गर्मी में फैलता है।",
+     "prompt": "macro of riveted iron beams glowing in hot sunlight, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Ye lohe ka bana hai, aur loha garmi mein failta hai."
+    },
+    {
+     "vo": "सबसे गर्म दिनों में ये करीब पंद्रह सेंटीमीटर तक बढ़ सकता है।",
+     "prompt": "the Eiffel Tower against a deep orange sky, heat haze, wide shot, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Sabse garam dinon mein ye kareeb pandrah centimetre tak badh sakta hai."
+    },
+    {
+     "vo": "और सूरज एक तरफ़ ज़्यादा तपाता है, इसलिए ऊपर का हिस्सा उससे दूर थोड़ा झुक जाता है।",
+     "prompt": "the top of the Eiffel Tower against a bright sun, dramatic angle, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Aur suraj ek taraf zyada tapata hai, isliye upar ka hissa usse door thoda jhuk jata hai."
+    },
+    {
+     "vo": "सर्दी में ठंड इसे वापस सिकोड़ देती है।",
+     "prompt": "the Eiffel Tower in falling snow at dusk, cold blue light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Sardi mein thand ise wapas sikod deti hai."
+    },
+    {
+     "vo": "ये हर साल होता है। एक टावर जो मौसमों के साथ साँस लेता है।",
+     "prompt": "the Eiffel Tower at sunrise over Paris rooftops, peaceful, golden light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Ye har saal hota hai. Ek tower jo mausamon ke saath saans leta hai."
+    }
+   ]
+  }
+ ],
+ "cover_text": "TOWER *BADHTA* HAI",
+ "cover_shot": 1,
+ "lang": "hi",
+ "paint_from": "s18-eiffel-tower-grows",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
