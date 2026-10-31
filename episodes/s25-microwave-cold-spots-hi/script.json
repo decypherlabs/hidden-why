@@ -1,0 +1,71 @@
+{
+ "slug": "s25-microwave-cold-spots-hi",
+ "format": "short",
+ "title": "Microwave mein khana kahin garam, kahin thanda kyun rehta hai? 🥶",
+ "hook_text": "KAHIN GARAM, KAHIN THANDA",
+ "approved": true,
+ "music": {
+  "intense": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "क्या आपने कभी माइक्रोवेव में खाना गरम किया है और वो एक जगह उबल रहा हो, और दूसरी जगह बिल्कुल ठंडा?",
+     "prompt": "a plate of food with steam on one side and frost on the other, close-up, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Kya aapne kabhi microwave mein khana garam kiya hai aur wo ek jagah ubal raha ho, aur doosri jagah bilkul thanda?"
+    },
+    {
+     "vo": "माइक्रोवेव्स डिब्बे के अंदर इधर-उधर टकराती हैं और आपस में ओवरलैप करती हैं।",
+     "prompt": "glowing wave patterns bouncing inside a microwave oven, scientific illustration style, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Microwaves dibbe ke andar idhar-udhar takrati hain aur aapas mein overlap karti hain."
+    },
+    {
+     "vo": "जहाँ तरंगें जुड़ती हैं, वहाँ खाना गरम होता है। जहाँ वो एक दूसरे को काट देती हैं, वहाँ लगभग कुछ नहीं होता।",
+     "prompt": "a glowing grid of hot and cold spots across a plate, top view, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Jahan tarangein judti hain, wahan khana garam hota hai. Jahan wo ek doosre ko kaat deti hain, wahan lagbhag kuch nahi hota."
+    },
+    {
+     "vo": "इसीलिए टर्नटेबल होता है। वो आपके खाने को हॉट स्पॉट्स से घुमाता है।",
+     "prompt": "a spinning glass turntable inside a microwave, warm interior light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Isiliye turntable hota hai. Wo aapke khane ko hot spots se ghumata hai."
+    },
+    {
+     "vo": "टर्नटेबल निकालकर चॉकलेट का बार माइक्रोवेव करो, तो पिघले हुए धब्बे एक लाइन में दिखेंगे।",
+     "prompt": "a chocolate bar with evenly spaced melted spots on a plate, macro, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Turntable nikaalkar chocolate ka bar microwave karo, to pighle hue dhabbe ek line mein dikhenge."
+    },
+    {
+     "vo": "उनके बीच का गैप नापो, तो आप रोशनी की रफ़्तार निकाल सकते हो।",
+     "prompt": "a ruler beside melted chocolate spots on a kitchen table, curious mood, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Unke beech ka gap naapo, to aap roshni ki raftaar nikaal sakte ho."
+    }
+   ]
+  }
+ ],
+ "cover_text": "*COLD* SPOTS KA RAAZ",
+ "cover_shot": 1,
+ "lang": "hi",
+ "paint_from": "s25-microwave-cold-spots",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

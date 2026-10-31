@@ -1,0 +1,71 @@
+{
+ "slug": "s26-seeing-stars-hi",
+ "format": "short",
+ "title": "Aankh masalne par taare kyun dikhte hain? ✨",
+ "hook_text": "AANKH MASLO, TAARE DIKHTE",
+ "approved": true,
+ "music": {
+  "intense": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आँखें बंद करके उन्हें मसलो। आपको रंग और चिंगारियाँ दिखती हैं।",
+     "prompt": "a person rubbing their closed eyes, colourful sparks around them, dark, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Aankhein band karke unhe maslo. Aapko rang aur chingariyan dikhti hain."
+    },
+    {
+     "vo": "लेकिन वहाँ कोई रोशनी है ही नहीं।",
+     "prompt": "total darkness with faint swirling colours, abstract, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Lekin wahan koi roshni hai hi nahi."
+    },
+    {
+     "vo": "आँख के लाइट सेंसर सिर्फ़ रोशनी से नहीं, दबाव से भी ट्रिगर हो जाते हैं।",
+     "prompt": "a glowing illustration of the back of an eye, cells lighting up, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Aankh ke light sensors sirf roshni se nahi, dabav se bhi trigger ho jaate hain."
+    },
+    {
+     "vo": "जब आप दबाते हो, तो वो फिर भी फ़ायर करते हैं, और दिमाग़ उसे रोशनी समझ लेता है।",
+     "prompt": "glowing nerve signals running from an eye to a brain, scientific style, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Jab aap dabate ho, to wo phir bhi fire karte hain, aur dimaag use roshni samajh leta hai."
+    },
+    {
+     "vo": "इन चिंगारियों का नाम भी है: फ़ॉस्फ़ीन।",
+     "prompt": "swirling coloured patterns and sparks in darkness, abstract, beautiful, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "In chingariyon ka naam bhi hai: phosphenes."
+    },
+    {
+     "vo": "आप वो रोशनी देख रहे हो जो असल में है ही नहीं।",
+     "prompt": "a person opening their eyes in a dark room, surprised, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Aap wo roshni dekh rahe ho jo asal mein hai hi nahi."
+    }
+   ]
+  }
+ ],
+ "cover_text": "AANKHON mein *TAARE*?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "paint_from": "s26-seeing-stars",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

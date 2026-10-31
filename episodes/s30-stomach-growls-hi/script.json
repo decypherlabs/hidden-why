@@ -1,0 +1,78 @@
+{
+ "slug": "s30-stomach-growls-hi",
+ "format": "short",
+ "title": "Pet Khaali Ho Toh Hi Kyun Garajta Hai? 🫃",
+ "hook_text": "PET KYUN GARAJTA?",
+ "approved": true,
+ "music": {
+  "playful": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपका पेट इसलिए नहीं गरजता कि उसे भूख लगी है।",
+     "prompt": "a surprised person holding their rumbling belly in a quiet room, playful light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Aapka pet isliye nahi garajta ki use bhookh lagi hai."
+    },
+    {
+     "vo": "वो इसलिए गरजता है क्योंकि वो खाली है।",
+     "prompt": "a glowing empty stomach shape inside a translucent body, scientific illustration style, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Woh isliye garajta hai kyunki woh khaali hai."
+    },
+    {
+     "vo": "आपकी गट की मसल्स दिन भर सिकुड़ती हैं, खाना, गैस और लिक्विड को आगे धकेलती हैं।",
+     "prompt": "glowing tube-like intestines with rippling waves of muscle squeezing bubbles along, macro, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Aapki gut ki muscles din bhar sikudti hain, khaana, gas aur liquid ko aage dhakelti hain."
+    },
+    {
+     "vo": "जब पेट भरा होता है, तो खाना आवाज़ को दबा देता है।",
+     "prompt": "a soft pillow pressed over a loudspeaker, muffled sound waves, cozy light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Jab pet bhara hota hai, toh khaana awaaz ko daba deta hai."
+    },
+    {
+     "vo": "खाने के लगभग दो घंटे बाद, गट एक क्लीनिंग वेव शुरू करती है, बचा हुआ सब साफ़ करने के लिए।",
+     "prompt": "a glowing wave sweeping crumbs down a long tunnel, scientific illustration style, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Khaane ke lagbhag do ghante baad, gut ek cleaning wave shuru karti hai, bacha hua sab saaf karne ke liye."
+    },
+    {
+     "vo": "अब दबाने को कुछ नहीं बचता, तो गैस और लिक्विड ज़ोर से गुड़गुड़ाते हैं।",
+     "prompt": "bubbles of air rushing through liquid in a glowing tunnel, splashing, dark background, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Ab dabane ko kuch nahi bachta, toh gas aur liquid zor se gudgudate hain."
+    },
+    {
+     "vo": "तो वो गरज बस आपका पेट कचरा निकाल रहा है।",
+     "prompt": "a tiny cartoon-like janitor sweeping inside a glowing stomach, playful light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Toh woh garaj bas aapka pet kachra nikaal raha hai."
+    }
+   ]
+  }
+ ],
+ "cover_text": "PET KI *GARAJ*",
+ "cover_shot": 1,
+ "lang": "hi",
+ "paint_from": "s30-stomach-growls",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
