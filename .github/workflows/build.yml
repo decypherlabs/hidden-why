@@ -43,7 +43,8 @@ jobs:
             pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
           fi
       - name: Hindi text shaping
-        run: python -c "from PIL import features; assert features.check('raqm'), 'no raqm: Devanagari would render broken'"
+        run: |
+          python -c "from PIL import features; assert features.check('raqm'), 'no raqm, Devanagari would render broken'"
       - name: Paintings
         env:
           GH_TOKEN: ${{ github.token }}
