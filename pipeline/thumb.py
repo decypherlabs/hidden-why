@@ -120,7 +120,8 @@ def short_cover(script, out):
             t = w.replace("*", "")
             tw = d.textlength(t, font=f)
             if w.startswith("*"):
-                d.rectangle((x - 14, y - f.size * 0.56, x + tw + 14, y + f.size * 0.52), fill=K.YEL)
+                bb = d.textbbox((x, y), t, font=f, anchor="lm")  # the real ink: Devanagari vowel signs rise above the caps height
+                d.rectangle((x - 14, min(y - f.size * 0.56, bb[1] - 12), x + tw + 14, max(y + f.size * 0.52, bb[3] + 12)), fill=K.YEL)
                 d.text((x, y), t, font=f, anchor="lm", fill=K.INK)
             else:
                 d.text((x, y), t, font=f, anchor="lm", fill=K.BONE, stroke_width=10, stroke_fill=K.INK)
