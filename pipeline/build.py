@@ -286,7 +286,9 @@ def main(script_path, out_dir):
         i = int((start + (0.0 if short and start == 0 else 0.15)) * SR)  # Shorts: the voice starts at once
         voice[i:i + len(x)] += x[:len(voice) - i]
     mood_of = {sid: mood for mood, sids in (script.get("music") or {}).items() for sid in sids}
-    tracks = {m: load_mp3(K.asset(f"music/{m}.mp3"), total + 1) for m in set(mood_of.values())}
+    # a mood without a track falls back to reflective (31 Oct: "playful" has no track; s29-s31 crashed every run)
+    track = lambda m: K.asset(f"music/{m}.mp3") if K.asset(f"music/{m}.mp3").exists() else K.asset("music/reflective.mp3")
+    tracks = {m: load_mp3(track(m), total + 1) for m in set(mood_of.values())}
     # each section's track, loudness-matched (RMS, not peak: a soft bed with a few hits would vanish),
     # with 1.2 s crossfades where the mood changes
     def rms(x):

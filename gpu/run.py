@@ -183,13 +183,16 @@ def main():
             for name in [f"shot-{n:02d}.png" for n in rp.get("shots") or []] + list(rp.get("thumbs") or []):
                 (out / name).unlink(missing_ok=True)
         os.environ["HW_BRAND"] = json.loads(script.read_text()).get("brand") or ""  # the channel's art style
-        paint(slug, script, out)
-        if json.loads(script.read_text()).get("build") == "github":
-            # Devlok Katha (owner, 31 Oct 2026): only the painting uses Kaggle's GPU hours; the paint-<slug> release
-            # goes to GitHub, where the free runner narrates (Indic Parler-TTS), edits and makes the cover
-            print(f"{slug}: painted; narration and edit run on GitHub (build.yml)", flush=True)
-            continue
-        finish(slug, script, out)
+        try:  # one episode's failure must not lose the others' work (31 Oct: s29's edit crash lost a whole run)
+            paint(slug, script, out)
+            if json.loads(script.read_text()).get("build") == "github":
+                # Devlok Katha (owner, 31 Oct 2026): only the painting uses Kaggle's GPU hours; the paint-<slug> release
+                # goes to GitHub, where the free runner narrates (Indic Parler-TTS), edits and makes the cover
+                print(f"{slug}: painted; narration and edit run on GitHub (build.yml)", flush=True)
+                continue
+            finish(slug, script, out)
+        except (Exception, SystemExit) as e:  # noqa: BLE001
+            print(f"{slug}: FAILED: {e}", flush=True)
 
 
 if __name__ == "__main__":
