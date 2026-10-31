@@ -19,7 +19,7 @@
   "_about": "owner, 31 Oct 2026: Divya (Indic Parler-TTS, Apache-2.0, free on GitHub's CPU runners; needs HF_TOKEN for the gated model)"
  },
  "art_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text",
- "art_negative": "text, letters, watermark, logo, cartoon, anime, flat illustration, deformed hands, extra limbs, extra fingers, bad hands, distorted face, disfigured, ugly, blurry, low quality, nsfw, revealing clothes, blood, gore",
+ "art_negative": "text, letters, watermark, logo, cartoon, anime, flat illustration, deformed hands, extra limbs, extra fingers, bad hands, distorted face, disfigured, ugly, blurry, low quality, nsfw, revealing clothes, blood, gore, duplicate figure, two heads, extra head, extra face, stacked figures, merged faces, clones, repeated people",
  "fonts": {
   "display": "devlok-katha/fonts/Hind-Bold.ttf",
   "body": "fonts/Inter.ttf",
@@ -35,5 +35,9 @@
  "model": "SG161222/RealVisXL_V5.0_Lightning",
  "vae": "madebyollin/sdxl-vae-fp16-fix",
  "steps": 6,
- "guidance": 1.5
+ "guidance": 1.5,
+ "short_size": [
+  832,
+  1216
+ ]
 }

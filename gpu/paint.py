@@ -63,6 +63,8 @@ def main(script_path, out_dir, part=0, parts=1):
     # Kaggle). Shot-specific negatives (e.g. "airplane" for the island) keep the subject from turning into
     # the story's strongest noun.
     sw, sh = (768, 1344) if script.get("format") == "short" else (1344, 768)  # Shorts are painted vertical
+    if script.get("format") == "short" and BRAND.get("short_size"):  # DK (31 Oct): 768x1344 stacked/merged figures
+        sw, sh = BRAND["short_size"]
     jobs = [(out / f"shot-{n:02d}.png", p, f"{p}, {style}", f"{neg_extra}, {neg}" if neg_extra else neg, sw, sh, 1000 + n)
             for n, p, neg_extra in shots(script)]
     thumb_style = "cinematic digital painting, dramatic light, high contrast, highly detailed, sharp focus, no text"
