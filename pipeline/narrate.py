@@ -1,4 +1,5 @@
-"""Narration: Kokoro's British narrator (brand voice) reads every shot's line.
+"""Narration: Kokoro's British narrator (brand voice) reads every shot's line. A script's own "voice"
+({"voice", "lang", "lang_code", "speed"}) wins: the Hindi editions use Kokoro's Hindi narrator.
 
     python pipeline/narrate.py episodes/<slug>/script.json out/<slug>/
 
@@ -28,13 +29,13 @@ def lines(script):
 def main(script_path, out_dir):
     from kokoro import KPipeline
     from misaki.espeak import EspeakG2P
-    v = BRAND["voice"]
-    tts = KPipeline(lang_code="e", repo_id="hexgrad/Kokoro-82M")
+    script = json.loads(Path(script_path).read_text())
+    v = {**BRAND["voice"], **(script.get("voice") or {})}
+    tts = KPipeline(lang_code=v.get("lang_code", "e"), repo_id="hexgrad/Kokoro-82M")
     tts.g2p = EspeakG2P(language=v.get("lang", "en-gb"))
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     durs = {}
-    script = json.loads(Path(script_path).read_text())
     speed = script.get("voice_speed") or v.get("speed", 0.95)  # Shorts: a little faster
     for n, text in lines(script):
         chunks = [a.numpy() if hasattr(a, "numpy") else np.asarray(a)

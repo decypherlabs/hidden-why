@@ -1,6 +1,8 @@
 name: build
+run-name: build ${{ inputs.slug }}  # studio/thw_kaggle.py finds its run by this name
 # Paintings come from the GPU notebook (gpu/hidden_why.ipynb on Colab/Kaggle) as release paint-<slug>;
-# this narrates, edits and makes the thumbnail. placeholder=true skips the paintings (test the edit).
+# this narrates, edits and makes the thumbnail. A script's "paint_from" reuses another episode's paintings
+# (the Hindi editions, episodes/<slug>-hi: no GPU needed). placeholder=true skips the paintings (test the edit).
 on:
   workflow_dispatch:
     inputs:
@@ -43,8 +45,9 @@ jobs:
           if [ "${{ inputs.placeholder }}" = "true" ]; then
             python pipeline/placeholder.py "$EP/script.json" "out/${{ inputs.slug }}"
           else
-            gh release download "paint-${{ inputs.slug }}" -R "$GITHUB_REPOSITORY" -D out
-            tar -xf "out/paint-${{ inputs.slug }}.tar" -C "out/${{ inputs.slug }}"
+            P=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1])).get('paint_from') or sys.argv[2])" "$EP/script.json" "${{ inputs.slug }}")
+            gh release download "paint-$P" -R "$GITHUB_REPOSITORY" -D out
+            tar -xf "out/paint-$P.tar" -C "out/${{ inputs.slug }}"
           fi
       - name: Narration
         run: python pipeline/narrate.py "$EP/script.json" "out/${{ inputs.slug }}"

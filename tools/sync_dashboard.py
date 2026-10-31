@@ -26,6 +26,15 @@ sys.path.insert(0, str(ROOT / "tools"))
 import fetch as F  # noqa: E402
 
 VIDEOS = RB / "videos" / "hidden-why"
+
+
+def niche(slug):
+    """Hindi editions (episodes/<slug>-hi) belong to The Hidden Why Hindi's category (owner, 31 Oct 2026)."""
+    return "hidden-why-hindi" if slug.endswith("-hi") else "hidden-why"
+
+
+def videos(slug):
+    return RB / "videos" / niche(slug)
 CACHE = RB / "channels" / "the-hidden-why" / "videos"
 
 
@@ -40,7 +49,7 @@ def slugify(t, n=60):
 
 
 def project_dir(slug):
-    return next((p for p in sorted(VIDEOS.glob(f"*/{slug}")) if (p / "project.json").exists()), None)
+    return next((p for p in sorted(videos(slug).glob(f"*/{slug}")) if (p / "project.json").exists()), None)
 
 
 def imported(slug):
@@ -69,10 +78,11 @@ def track_scripts(released):
             status, step = "failed", f"The Kaggle run failed ({about}); Claude is fixing it"
             err = "see dashboard/data/thw_kaggle.last.log"
         elif sc.get("approved"):
-            status, step, err = "script", f"Script approved: made in the next Kaggle run ({about})", None
+            where = "on GitHub (no GPU: the English paintings are reused)" if slug.endswith("-hi") else "in the next Kaggle run"
+            status, step, err = "script", f"Script approved: made {where} ({about})", None
         else:
             status, step, err = "script", f"Script written: awaiting review ({about})", None
-        pdir = project_dir(slug) or VIDEOS / time.strftime("%Y-%m-%d") / slug
+        pdir = project_dir(slug) or videos(slug) / time.strftime("%Y-%m-%d") / slug
         pj = pdir / "project.json"
         old = json.loads(pj.read_text()) if pj.exists() else {}
         if old.get("status") == "done" or (old.get("status"), old.get("step"), old.get("title")) == (status, step, sc["title"]) \
@@ -81,7 +91,7 @@ def track_scripts(released):
         pdir.mkdir(parents=True, exist_ok=True)
         now = time.strftime("%Y-%m-%dT%H:%M:%S")
         pj.write_text(json.dumps({
-            "id": f"hw-{slug}", "category": "hidden-why", "created": old.get("created") or now, "updated": now,
+            "id": f"hw-{slug}", "category": niche(slug), "created": old.get("created") or now, "updated": now,
             "status": status, "progress": None, "step": step, "error": err, "pid": None, "title": sc["title"],
             "source": {"url": f"https://github.com/{F.REPO}/blob/main/episodes/{slug}/script.json", "title": sc["title"],
                        "creator": "The Hidden Why"}, "items": []}, indent=2, ensure_ascii=False))
@@ -116,7 +126,7 @@ def import_local(slug, files_dir, status="done"):
 def import_episode(slug, src, day, status="done"):
     meta = json.loads((src / "meta.json").read_text())
     title = meta["youtube"]["title"]
-    pdir = project_dir(slug) or VIDEOS / day / slug  # the script's card becomes the episode
+    pdir = project_dir(slug) or videos(slug) / day / slug  # the script's card becomes the episode
     sc = ROOT / "episodes" / slug / "script.json"
     short = sc.exists() and json.loads(sc.read_text()).get("format") == "short"  # Shorts go to shorts/
     sub = "shorts" if short else "long"
@@ -137,11 +147,11 @@ def import_episode(slug, src, day, status="done"):
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)],
                                capture_output=True, text=True).stdout or 0)
     (pdir / sub / f"{stem}.source.json").write_text(json.dumps(
-        {"format": "short" if short else "long", "niche": "hidden-why", "title": title, "speaker": "", "episode": slug,
+        {"format": "short" if short else "long", "niche": niche(slug), "title": title, "speaker": "", "episode": slug,
          "source_url": f"https://github.com/{F.REPO}/tree/main/episodes/{slug}"}, indent=2))
     now = time.strftime("%Y-%m-%dT%H:%M:%S")
     (pdir / "project.json").write_text(json.dumps({
-        "id": f"hw-{slug}", "category": "hidden-why", "created": now, "updated": now, "finished": now,
+        "id": f"hw-{slug}", "category": niche(slug), "created": now, "updated": now, "finished": now,
         "status": status, "progress": 1.0, "error": None,  # "qc": the studio's quality gate runs first
         "step": "Quality check" if status == "qc" else "Episode from the hidden-why repo, ready to upload",
         "pid": None, "source": {"url": f"https://github.com/{F.REPO}/tree/main/episodes/{slug}", "title": title,

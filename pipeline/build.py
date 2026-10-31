@@ -260,9 +260,9 @@ def main(script_path, out_dir):
                 vis = Split(img) if short and d > 3.5 else Shot(img, s.get("move", "push"))
             items.append((t, d, vis, out / f"vo-{n:02d}.wav", sec["id"]))
             if short:  # the very first words show at 0.0 s, not after a pause
-                caps += Captions.for_shot(s["vo"], t + (0.0 if t == 0 else 0.15), vo[f"{n:02d}"])
+                caps += Captions.for_shot(s.get("caption") or s["vo"], t + (0.0 if t == 0 else 0.15), vo[f"{n:02d}"])
             elif not s.get("diagram"):  # diagrams carry their own labels
-                caps += Captions.for_shot(s["vo"], t + 0.15, vo[f"{n:02d}"], size=7)
+                caps += Captions.for_shot(s.get("caption") or s["vo"], t + 0.15, vo[f"{n:02d}"], size=7)
             t += d
     if short:  # no end screen: Shorts loop back to the start
         total = t
