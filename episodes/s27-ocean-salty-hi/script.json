@@ -1,0 +1,72 @@
+{
+ "slug": "s27-ocean-salty-hi",
+ "format": "short",
+ "title": "Samundar ka paani namkeen kyun hota hai? 🌊",
+ "hook_text": "NADI MEETHI, SAMUNDAR NAMKEEN?",
+ "approved": true,
+ "music": {
+  "intense": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "नदियाँ नमकीन नहीं होतीं। तो फिर समंदर क्यों है?",
+     "prompt": "a river meeting the ocean at a wide estuary, aerial view, golden light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Nadiyan namkeen nahi hoti. To phir samandar kyun hai?"
+    },
+    {
+     "vo": "बारिश थोड़ी सी एसिडिक होती है। धीरे-धीरे ये चट्टानों को घोल देती है।",
+     "prompt": "rain falling on dark rocks, macro, dramatic, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Baarish thodi si acidic hoti hai. Dheere-dheere ye chattanon ko ghol deti hai."
+    },
+    {
+     "vo": "नदियाँ उन छोटे घुले हुए मिनरल्स को समंदर तक ले जाती हैं।",
+     "prompt": "a river flowing over rocks toward the sea, clear water, sunlight, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Nadiyan un chhote ghule hue minerals ko samandar tak le jaati hain."
+    },
+    {
+     "vo": "सूरज पानी को भाप बना देता है, लेकिन नमक पीछे रह जाता है।",
+     "prompt": "sunlight glittering on the ocean with mist rising, wide view, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Suraj paani ko bhaap bana deta hai, lekin namak peeche reh jaata hai."
+    },
+    {
+     "vo": "समंदर की तली में गरम वेंट्स और नमक जोड़ते हैं।",
+     "prompt": "a hydrothermal vent pouring dark smoke on the deep sea floor, glowing, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Samandar ki tali mein garam vents aur namak jodte hain."
+    },
+    {
+     "vo": "अगर सारा नमक निकालकर ज़मीन पर फैला दें, तो वो करीब एक सौ पचास मीटर गहरा होगा।",
+     "prompt": "a vast white salt landscape covering hills under a blue sky, epic scale, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Agar saara namak nikaalkar zameen par faila dein, to wo kareeb ek sau pachaas meter gehra hoga."
+    }
+   ]
+  }
+ ],
+ "cover_text": "SAMUNDAR *NAMKEEN* KYUN?",
+ "cover_shot": 5,
+ "lang": "hi",
+ "paint_from": "s27-ocean-salty",
+ "voice": {
+  "voice": "hm_omega",
+  "lang": "hi",
+  "lang_code": "h",
+  "speed": 1.15
+ }
+}
