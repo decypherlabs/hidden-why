@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VOICE = {"voice": "hm_omega", "lang": "hi", "lang_code": "h", "speed": 1.0}  # Kokoro's Hindi male narrator
+VOICE = {"voice": "hm_omega", "lang": "hi", "lang_code": "h", "speed": 1.15}  # Kokoro's Hindi male narrator
 
 
 def main(slug, hindi_path):
