@@ -1,0 +1,71 @@
+{
+ "slug": "s22-mosquitoes-bite-you-hi",
+ "format": "short",
+ "title": "Kuch logon ko hi mosquitoes zyada kyun kaatte hain? 🦟",
+ "hook_text": "MACHHAR KISE CHUNTE HAIN?",
+ "approved": true,
+ "music": {
+  "intense": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "मच्छर सच में कुछ लोगों को ज़्यादा पसंद करते हैं। और वैज्ञानिकों ने इसकी वजह ढूँढ ली है।",
+     "prompt": "a mosquito landing on a person's arm at dusk, macro, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Mosquitoes sach mein kuch logon ko zyada pasand karte hain. Aur scientists ne iski wajah dhoondh li hai."
+    },
+    {
+     "vo": "पहले वो आपकी छोड़ी हुई कार्बन डाइऑक्साइड को, मीटरों दूर से ट्रैक करते हैं।",
+     "prompt": "a person exhaling a faint glowing breath at dusk, mosquitoes approaching, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Pehle woh aapki chhodi hui carbon dioxide ko, metron door se track karte hain."
+    },
+    {
+     "vo": "पास आकर वो आपके शरीर की गर्मी और त्वचा की गंध के पीछे जाते हैं।",
+     "prompt": "a thermal camera view of a human arm glowing warm, mosquitoes nearby, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Paas aakar woh aapke sharir ki garmi aur twacha ki gandh ke peeche jaate hain."
+    },
+    {
+     "vo": "एक स्टडी में, सबसे ज़्यादा पसंद किए गए इंसान ने, सबसे कम वाले से सौ गुना ज़्यादा मच्छर खींचे।",
+     "prompt": "a crowd of mosquitoes swarming one glowing person while another stands alone, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Ek study mein, sabse zyada pasand kiye gaye insaan ne, sabse kam wale se sau guna zyada mosquitoes kheenche."
+    },
+    {
+     "vo": "इन मैग्नेट लोगों की त्वचा पर कुछ ख़ास एसिड ज़्यादा थे। और वो सालों तक मैग्नेट ही रहे।",
+     "prompt": "macro of human skin with a soft glow, scientific style, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "In magnet logon ki twacha par kuch khaas acids zyada the. Aur woh saalon tak magnet hi rahe."
+    },
+    {
+     "vo": "और सिर्फ़ मादा मच्छर काटती हैं। उन्हें अंडे बनाने के लिए आपका खून चाहिए।",
+     "prompt": "a female mosquito with a red abdomen on skin, extreme macro, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Aur sirf female mosquitoes kaatti hain. Unhe ande banane ke liye aapka khoon chahiye."
+    }
+   ]
+  }
+ ],
+ "cover_text": "*MACHHAR* KA FAVOURITE",
+ "cover_shot": 4,
+ "lang": "hi",
+ "paint_from": "s22-mosquitoes-bite-you",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

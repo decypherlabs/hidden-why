@@ -1,0 +1,71 @@
+{
+ "slug": "s23-immortal-jellyfish-hi",
+ "format": "short",
+ "title": "Woh Jellyfish Jo Kabhi Marti Hi Nahi, Kaise? 🪼",
+ "hook_text": "KABHI NAHI MARTI",
+ "approved": true,
+ "music": {
+  "intense": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "एक ऐसी जेलीफ़िश है जो वक़्त को पीछे मोड़ सकती है।",
+     "prompt": "a tiny translucent jellyfish glowing red in the dark ocean, macro, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Ek aisi jellyfish hai jo waqt ko peeche mod sakti hai."
+    },
+    {
+     "vo": "वो आपके नाखून से भी छोटी है, और समंदर में रहती है।",
+     "prompt": "a tiny jellyfish next to a fingertip for scale, underwater, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Woh aapke nakhun se bhi chhoti hai, aur samandar mein rehti hai."
+    },
+    {
+     "vo": "जब वो ज़ख़्मी, भूखी या बूढ़ी होती है, तो मरती नहीं।",
+     "prompt": "a shrinking pale jellyfish drifting in dark water, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Jab woh zakhmi, bhookhi ya boodhi hoti hai, toh marti nahi."
+    },
+    {
+     "vo": "वो पिघलकर एक गोले जैसी बन जाती है, और फिर से बच्चा बन जाती है।",
+     "prompt": "a tiny jellyfish transforming into a small branching polyp on a rock, macro, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Woh pighalkar ek goley jaisi ban jaati hai, aur phir se bachcha ban jaati hai."
+    },
+    {
+     "vo": "फिर वो अपनी पूरी ज़िंदगी दोबारा शुरू करती है। बार बार।",
+     "prompt": "a cluster of baby jellyfish budding off a polyp, glowing, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Phir woh apni poori zindagi dobara shuru karti hai. Baar baar."
+    },
+    {
+     "vo": "उसे खाया जा सकता है। लेकिन बुढ़ापा? वो उसे बस छोड़ देती है।",
+     "prompt": "a glowing jellyfish drifting peacefully upward in blue water, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Ise kha sakte hain. Lekin budhapa? Woh ise bas chhod deti hai."
+    }
+   ]
+  }
+ ],
+ "cover_text": "*AMAR* JELLYFISH",
+ "cover_shot": 1,
+ "lang": "hi",
+ "paint_from": "s23-immortal-jellyfish",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
