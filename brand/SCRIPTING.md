@@ -37,3 +37,13 @@ line, then hashtags.
 - Topics Indian viewers see in their own lives first (body, animals, space, food, trains, monsoon); no US-only subjects.
 - The last line flows back into the first, so the Short loops.
 - 25-40 s. Shorts are cut every ~2 s automatically (build.py Split), with a whoosh on each cut and a hit on the reveal.
+
+## Reach rules (owner, 31 Oct 2026, from the first week's numbers)
+Winners (1,100-1,300 views): golf ball dimples, bubble wrap, jeans pocket: objects viewers own. Losers
+(2-23 views): obscure history and disasters, and repeats (airplane windows 5x). Viewers left at 34-36%.
+- Topics: everyday objects, the body, food and things seen daily ("Why does your ___ ___?"). No history,
+  disasters or far-away places.
+- Never repeat a topic or a near-twin of one: check every slug in episodes/ first.
+- 20-30 s (55-80 words). Hold the answer until the second-last line; every line before it raises the stakes.
+- The second-last line flows back into the first (loop). The LAST line is always exactly
+  "Subscribe for a new why every day." (Hindi: "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।"). Say subscribe, never follow.
