@@ -133,7 +133,9 @@ def import_episode(slug, src, day, status="done"):
     short = sc.exists() and json.loads(sc.read_text()).get("format") == "short"  # Shorts go to shorts/
     sub = "shorts" if short else "long"
     (pdir / sub).mkdir(parents=True, exist_ok=True)
-    stem = slugify(title.split("(")[0])
+    # a Devanagari title slugifies to nothing: keep the clip's existing name, else the episode slug (31 Oct)
+    old = [p for p in (pdir / sub).glob("*.mp4")]
+    stem = slugify(title.split("(")[0]) or (old[0].stem if len(old) == 1 else slugify(slug))
     mp4 = pdir / sub / f"{stem}.mp4"
     if mp4.exists() and not os.path.samefile(mp4, src / "video.mp4"):
         # a rebuild (repaint): the old render is archived, never deleted, and the new one takes its place
