@@ -93,16 +93,20 @@ class Shot:
 
 
 class Split:
-    """Shorts: a long shot cut in two (the painting, then a tighter crop of it) so the picture changes every
-    2-3 s (29 Oct: one painting held 4-5 s and viewers swiped after 13 s of 41)."""
+    """Shorts: a long shot cut into parts (the painting, then tighter crops of it) so the picture changes every
+    ~2 s (29 Oct: one painting held 4-5 s and viewers swiped after 13 s of 41; 31 Oct: every 2-3 s -> ~2 s).
+    The second crop sits in the upper third, where faces are."""
 
-    def __init__(self, img):
+    def __init__(self, img, parts=2):
         h, w = img.shape[:2]
         crop = img[int(h * 0.18):int(h * 0.82), int(w * 0.18):int(w * 0.82)]
-        self.a, self.b = Shot(img, "push"), Shot(crop, "pull")
+        face = img[int(h * 0.08):int(h * 0.58), int(w * 0.22):int(w * 0.78)]
+        self.parts = [Shot(img, "push"), Shot(crop, "pull"), Shot(face, "push")][:parts]
 
     def frame(self, u):
-        return self.a.frame(u * 2) if u < 0.5 else self.b.frame(u * 2 - 1)
+        n = len(self.parts)
+        i = min(n - 1, int(u * n))
+        return self.parts[i].frame(u * n - i)
 
 
 def hook_card(text):
@@ -184,11 +188,27 @@ class Captions:
             text = g[2].upper().replace(",", "").replace(".", "").replace("।", "")
             while d.textlength(text, font=f) > W * 0.86 and f.size > 60:
                 f = K.display(f.size - 6)
-            d.text((W / 2, 200), text, font=f, anchor="mm", fill=(255, 255, 255, 255), stroke_width=10,
-                   stroke_fill=(0, 0, 0, 255))
+            # the group's key word (its longest) in the brand colour (31 Oct: keeps the eye on the screen)
+            words = text.split()
+            key = max(range(len(words)), key=lambda i: len(words[i])) if len(words) > 1 else -1
+            sp = d.textlength(" ", font=f)
+            x = W / 2 - d.textlength(text, font=f) / 2
+            for i, wd in enumerate(words):
+                d.text((x, 200), wd, font=f, anchor="lm", fill=(K.YEL if i == key else (255, 255, 255)) + (255,),
+                       stroke_width=10, stroke_fill=(0, 0, 0, 255))
+                x += d.textlength(wd, font=f) + sp
             a = np.asarray(img)
             self.cache[g[2]] = (cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0)
         rgb, al = self.cache[g[2]]
+        age = t - g[0]
+        if age < 0.12:  # pop in: 82% -> 100% over 0.12 s
+            sc = 0.82 + 0.18 * age / 0.12
+            sw, sh = int(W * sc), int(400 * sc)
+            ox, oy = (W - sw) // 2, (400 - sh) // 2
+            r2, a2 = np.zeros_like(rgb), np.zeros_like(al)
+            r2[oy:oy + sh, ox:ox + sw] = cv2.resize(rgb, (sw, sh))
+            a2[oy:oy + sh, ox:ox + sw] = cv2.resize(al, (sw, sh))[..., None]
+            rgb, al = r2, a2
         y = int(H * 0.68) - 200
         roi = frame[y:y + 400].astype(np.float32)
         frame[y:y + 400] = (rgb * al + roi * (1 - al)).astype(np.uint8)
@@ -215,6 +235,35 @@ class Captions:
         return frame
 
 
+def whoosh(sec=0.45, seed=5):
+    """A soft air whoosh, made here (no sample, no licence): noise through a band-pass sweeping up then down."""
+    rng = np.random.default_rng(seed)
+    n = int(sec * SR)
+    x = rng.standard_normal(n).astype(np.float32)
+    spec = np.fft.rfft(x)
+    fq = np.fft.rfftfreq(n, 1 / SR)
+    x = np.fft.irfft(spec * np.exp(-((fq - 1800) / 1400) ** 2), n).astype(np.float32)
+    u = np.linspace(0, 1, n)
+    return x * np.sin(np.pi * u) ** 2
+
+
+def bell(sec=2.2):
+    """A temple-bell strike, made here: inharmonic partials with long decays."""
+    t = np.arange(int(sec * SR)) / SR
+    parts = [(523, 1.0, 1.6), (1046 * 1.003, 0.5, 1.1), (1410, 0.35, 0.8), (2093, 0.2, 0.5), (2790, 0.12, 0.35)]
+    x = sum(a * np.sin(2 * np.pi * f * t) * np.exp(-t / d) for f, a, d in parts)
+    return (x * np.minimum(1, t / 0.004)).astype(np.float32)
+
+
+def load_sfx(name):
+    if name == "bell":
+        return bell()
+    import soundfile as sf
+    x, sr = sf.read(K.asset(f"sfx/{name}.wav"), dtype="float32")
+    x = x.mean(axis=1) if x.ndim > 1 else x
+    return np.interp(np.arange(int(len(x) * SR / sr)) * sr / SR, np.arange(len(x)), x).astype(np.float32)
+
+
 def load_mp3(path, seconds):
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
                          capture_output=True, check=True).stdout
@@ -233,6 +282,7 @@ def main(script_path, out_dir):
     out = Path(out_dir)
     vo = json.loads((out / "vo.json").read_text())
     items, n = [], 0  # (start, dur, visual, vo_file, section_id)
+    cuts = []  # Shorts: every picture change (new shot or new crop), for the whoosh
     explainers = []  # time ranges of the science diagrams: the music sits a little higher under them
     t = 0.0
     chapters = []
@@ -257,7 +307,10 @@ def main(script_path, out_dir):
                 img = cv2.imread(str(out / f"shot-{n:02d}.png"))
                 if s.get("overlay"):  # science drawn onto the painting (a crack, a hole) where SDXL can't
                     img = bgr(OVERLAYS[s["overlay"]](Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))))
-                vis = Split(img) if short and d > 3.5 else Shot(img, s.get("move", "push"))
+                parts = 3 if d > 5.4 else 2 if d > 2.6 else 1
+                vis = Split(img, parts) if short and parts > 1 else Shot(img, s.get("move", "push"))
+                if short:
+                    cuts += [t + d * i / parts for i in range(1, parts)]
             items.append((t, d, vis, out / f"vo-{n:02d}.wav", sec["id"]))
             if short:  # the very first words show at 0.0 s, not after a pause
                 caps += Captions.for_shot(s.get("caption") or s["vo"], t + (0.0 if t == 0 else 0.15), vo[f"{n:02d}"])
@@ -324,6 +377,23 @@ def main(script_path, out_dir):
     fade = np.minimum(1, np.arange(len(music)) / ((0.05 if short else 1.5) * SR)) * \
         np.minimum(1, (len(music) - np.arange(len(music))) / (3 * SR))
     mix = voice + music * level * fade
+    if short:
+        sfx = np.zeros_like(mix)
+
+        def put(x, at, db):
+            i = int(at * SR)
+            if 0 <= i < len(sfx):
+                sfx[i:i + len(x)] += x[:len(sfx) - i] * voice_rms * 10 ** (db / 20) / rms(x)
+
+        style = K.B.get("sfx") or {}
+        last = items[-1][0] if items else 0
+        for c in cuts + [it[0] for it in items[1:]]:
+            if abs(c - last) > 0.05:
+                put(whoosh(), max(0, c - 0.18), -15)
+        put(load_sfx(style.get("reveal", "impact")), last, -9)
+        if style.get("open"):
+            put(load_sfx(style["open"]), 0, -12)
+        mix = mix + sfx
     mix = mix / (np.abs(mix).max() + 1e-9) * 0.95
     mix = np.clip(mix, -1, 1)
     import soundfile as sf
