@@ -83,8 +83,39 @@ def main(script_path, out_dir, part=0, parts=1):
         img = pipe(prompt=prompt, prompt_2=prompt2, negative_prompt=negative, negative_prompt_2=negative,
                    width=w, height=h, num_inference_steps=int(BRAND.get("steps", 30)), guidance_scale=float(BRAND.get("guidance", 7.0)),
                    generator=g).images[0]
+        if BRAND.get("face_fix"):
+            img = face_fix(pipe, img, prompt, prompt2, negative, g)
         img.save(p)
         print(f"  {i}/{len(jobs)} {p.name}", flush=True)
+
+
+def face_fix(pipe, img, prompt, prompt2, negative, g):
+    """Repaint each face larger, then paste it back (owner, 31 Oct: DK eyes came out garbled; a face is only
+    ~150 px of an 832x1216 frame, too few for 6 Lightning steps to draw eyes). OpenCV's face detector; no
+    face found = the painting is kept as it is."""
+    import cv2
+    import numpy as np
+    from diffusers import StableDiffusionXLImg2ImgPipeline
+    from PIL import Image, ImageDraw, ImageFilter
+    det = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+    gray = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2GRAY)
+    faces = det.detectMultiScale(gray, 1.1, 6, minSize=(48, 48))
+    if not len(faces):
+        return img
+    i2i = StableDiffusionXLImg2ImgPipeline(**pipe.components)
+    for x, y, w, h in faces[:3]:
+        c = int(max(w, h) * 1.8)  # the face plus hair and chin, as a square
+        cx, cy = x + w // 2, y + h // 2
+        box = (max(0, cx - c // 2), max(0, cy - c // 2), min(img.width, cx + c // 2), min(img.height, cy + c // 2))
+        crop = img.crop(box)
+        big = crop.resize((1024, 1024), Image.LANCZOS)
+        new = i2i(prompt=f"detailed face, clear symmetrical eyes, {prompt}", prompt_2=prompt2, negative_prompt=f"bad eyes, crossed eyes, {negative}",
+                  negative_prompt_2=negative, image=big, strength=0.4, num_inference_steps=int(BRAND.get("steps", 30)) * 2,
+                  guidance_scale=float(BRAND.get("guidance", 7.0)), generator=g).images[0].resize(crop.size, Image.LANCZOS)
+        m = Image.new("L", crop.size, 0)  # feathered edge: no visible seam
+        ImageDraw.Draw(m).ellipse((crop.width * 0.08, crop.height * 0.08, crop.width * 0.92, crop.height * 0.92), fill=255)
+        img.paste(new, box[:2], m.filter(ImageFilter.GaussianBlur(crop.width * 0.06)))
+    return img
 
 
 if __name__ == "__main__":
