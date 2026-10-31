@@ -44,9 +44,13 @@ def main(script_path, out_dir, part=0, parts=1):
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     from diffusers import StableDiffusionXLPipeline
-    src = model_path()
+    # a brand's own model (Devlok Katha, owner 31 Oct 2026: realistic RealVisXL Lightning, 6 steps), else SDXL base
+    src = BRAND.get("model") or model_path()
     dev = os.environ.get("PAINT_DEVICE", "cuda")  # cpu only for the smoke test (tiny model)
     kw = {"variant": "fp16", "use_safetensors": True} if src == HF_MODEL else {}
+    if BRAND.get("vae"):
+        from diffusers import AutoencoderKL
+        kw["vae"] = AutoencoderKL.from_pretrained(BRAND["vae"], torch_dtype=torch.float16 if dev == "cuda" else torch.float32)
     pipe = StableDiffusionXLPipeline.from_pretrained(
         src, torch_dtype=torch.float16 if dev == "cuda" else torch.float32, **kw).to(dev)
     print(f"  SDXL from {src}", flush=True)
@@ -75,7 +79,8 @@ def main(script_path, out_dir, part=0, parts=1):
             continue
         g = torch.Generator(dev).manual_seed(seed)
         img = pipe(prompt=prompt, prompt_2=prompt2, negative_prompt=negative, negative_prompt_2=negative,
-                   width=w, height=h, num_inference_steps=30, guidance_scale=7.0, generator=g).images[0]
+                   width=w, height=h, num_inference_steps=int(BRAND.get("steps", 30)), guidance_scale=float(BRAND.get("guidance", 7.0)),
+                   generator=g).images[0]
         img.save(p)
         print(f"  {i}/{len(jobs)} {p.name}", flush=True)
 

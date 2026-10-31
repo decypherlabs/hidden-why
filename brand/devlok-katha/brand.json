@@ -18,8 +18,8 @@
   "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
   "_about": "owner, 31 Oct 2026: Divya (Indic Parler-TTS, Apache-2.0, free on GitHub's CPU runners; needs HF_TOKEN for the gated model)"
  },
- "art_style": "traditional Indian Pattachitra folk painting, Odisha palm-leaf art style, bold black outlines, flat ochre deep red cream and teal colours, ornate patterned borders, decorative dotted details, intricate jewellery and textiles, flat perspective, devotional and respectful, no text",
- "art_negative": "text, letters, watermark, logo, photo, photorealistic, 3d render, cartoon, anime, deformed hands, extra limbs, distorted face, disfigured, ugly, blurry, low quality, nsfw",
+ "art_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text",
+ "art_negative": "text, letters, watermark, logo, cartoon, anime, flat illustration, deformed hands, extra limbs, extra fingers, bad hands, distorted face, disfigured, ugly, blurry, low quality, nsfw, revealing clothes, blood, gore",
  "fonts": {
   "display": "devlok-katha/fonts/Hind-Bold.ttf",
   "body": "fonts/Inter.ttf",
@@ -30,5 +30,10 @@
   "reveal": "bell",
   "_about": "owner, 31 Oct 2026: devotional sound design (bells made in code, no samples)"
  },
- "cover_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text"
+ "cover_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text",
+ "art_style_folk": "traditional Indian Pattachitra folk painting, Odisha palm-leaf art style, bold black outlines, flat ochre deep red cream and teal colours, ornate patterned borders, decorative dotted details, intricate jewellery and textiles, flat perspective, devotional and respectful, no text",
+ "model": "SG161222/RealVisXL_V5.0_Lightning",
+ "vae": "madebyollin/sdxl-vae-fp16-fix",
+ "steps": 6,
+ "guidance": 1.5
 }
