@@ -1,0 +1,78 @@
+{
+ "slug": "s31-recorded-voice-weird-hi",
+ "format": "short",
+ "title": "Recording Mein Aapki Awaaz Alag Kyun Lagti Hai? 🎙️",
+ "hook_text": "AAPKI AWAAZ ALAG KYUN?",
+ "approved": true,
+ "music": {
+  "playful": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपने अपनी असली आवाज़ कभी सुनी ही नहीं है।",
+     "prompt": "a startled person listening to their own voice from a phone speaker, moody light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Aapne apni asli awaaz kabhi suni hi nahi hai."
+    },
+    {
+     "vo": "जब आप बोलते हैं, तो आवाज़ दो रास्तों से आपके कानों तक पहुँचती है।",
+     "prompt": "glowing sound waves leaving a person's mouth and curving around to their ear, dark background, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Jab aap bolte hain, to awaaz do raston se aapke kaanon tak pahunchti hai."
+    },
+    {
+     "vo": "एक हवा से, जैसे बाकी सब सुनते हैं।",
+     "prompt": "soft ripples of sound travelling through the air across a dim room, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Ek hawa se, jaise baaki sab sunte hain."
+    },
+    {
+     "vo": "और दूसरी खोपड़ी से। आपकी हड्डियाँ वाइब्रेशन को सीधे अंदरूनी कान तक पहुँचाती हैं।",
+     "prompt": "a translucent human skull with glowing vibrations travelling through the bone to the inner ear, scientific illustration style, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Aur doosri khopdi se. Aapki haddiyan vibrations ko seedha andruni kaan tak pahunchati hain."
+    },
+    {
+     "vo": "हड्डी low आवाज़ों को सबसे अच्छे से ले जाती है, इसलिए सिर के अंदर आपकी आवाज़ ज़्यादा गहरी और भारी लगती है।",
+     "prompt": "deep low-frequency waves glowing warm amber inside a translucent head, scientific illustration style, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Haddi low awaazon ko sabse acche se le jaati hai, isliye sir ke andar aapki awaaz zyada gehri aur bhari lagti hai."
+    },
+    {
+     "vo": "रिकॉर्डिंग सिर्फ़ हवा वाली आवाज़ पकड़ती है। गहरा हिस्सा गायब हो जाता है।",
+     "prompt": "an old studio microphone in a dark room, thin pale sound waves, cold light, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Recording sirf hawa wali awaaz pakadti hai. Gehra hissa gayab ho jaata hai."
+    },
+    {
+     "vo": "तो जो आवाज़ आपको रिकॉर्डिंग में बुरी लगती है? वही आवाज़ बाकी सब सुनते हैं।",
+     "prompt": "a crowd of people listening to a single person speaking, warm spotlight, vertical composition, dramatic cinematic lighting, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "To jo awaaz aapko recording mein buri lagti hai? Wahi awaaz baaki sab sunte hain."
+    }
+   ]
+  }
+ ],
+ "cover_text": "APNI *AWAAZ* KYUN ALAG?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "paint_from": "s31-recorded-voice-weird",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
