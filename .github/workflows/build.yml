@@ -38,7 +38,7 @@ jobs:
         run: |
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
           pip install -q -r requirements.txt
-          if [ -n "$HW_BRAND" ] && grep -q '"parler"' "brand/$HW_BRAND/brand.json"; then
+          if grep -q '"parler"' "$EP/script.json" || { [ -n "$HW_BRAND" ] && grep -q '"parler"' "brand/$HW_BRAND/brand.json"; }; then
             pip install -q git+https://github.com/huggingface/parler-tts.git
             pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
           fi

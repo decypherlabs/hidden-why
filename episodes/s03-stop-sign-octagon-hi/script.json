@@ -75,10 +75,9 @@
  "lang": "hi",
  "paint_from": "s03-stop-sign-octagon",
  "voice": {
-  "voice": "hf_beta",
-  "lang": "hi",
-  "lang_code": "h",
-  "speed": 1.15
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise."
  },
  "hook_text": "AATH KONE KYUN?",
  "cover_text": "STOP SIGN ke *AATH* KONE"

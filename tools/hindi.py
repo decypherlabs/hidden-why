@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VOICE = {"voice": "hf_beta", "lang": "hi", "lang_code": "h", "speed": 1.15}  # owner, 31 Oct: Indian female narrator
+VOICE = {"engine": "parler", "model": "ai4bharat/indic-parler-tts", "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise."}  # owner, 31 Oct: Kokoro Hindi was bad; Indic Parler-TTS on GitHub
 
 
 def main(slug, hindi_path):
