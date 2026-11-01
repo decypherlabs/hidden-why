@@ -47,3 +47,7 @@ Winners (1,100-1,300 views): golf ball dimples, bubble wrap, jeans pocket: objec
 - 20-30 s (55-80 words). Hold the answer until the second-last line; every line before it raises the stakes.
 - The second-last line flows back into the first (loop). The LAST line is always exactly
   "Subscribe for a new why every day." (Hindi: "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।"). Say subscribe, never follow.
+
+## Engagement + learning loop (owner, 1 Nov 2026: fully automatic)
+- Read `config/learnings/hidden-why.md` (the weekly review's findings from our own numbers) before writing; follow it.
+- Every Short's meta.json carries `youtube.comment`: one short question viewers will answer, ending with 👇. The dashboard posts it as the channel's comment once the Short is live and adds the Short to its series playlist.

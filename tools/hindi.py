@@ -35,7 +35,8 @@ def main(slug, hindi_path):
     tags = ["the hidden why hindi", "shorts", "hindi facts", "science in hindi", *hi.get("tags", [])]
     (dst / "meta.json").write_text(json.dumps({
         "youtube": {"title": f"{hi['title']} #Shorts", "description": hi["description"], "tags": tags,
-                    "category_id": "27", "privacy": "public", "made_for_kids": False, "default_language": "hi"},
+                    "category_id": "27", "privacy": "public", "made_for_kids": False, "default_language": "hi",
+                    **({"comment": hi["comment"]} if hi.get("comment") else {})},
     }, indent=1, ensure_ascii=False) + "\n")
     print(f"episodes/{slug}-hi: {len(shots)} shots")
 
