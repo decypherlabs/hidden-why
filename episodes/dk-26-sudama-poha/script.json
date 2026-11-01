@@ -10,7 +10,8 @@
  "cover_text": "चिवड़े से बना *महल*?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Lord Krishna with dark blue skin, a peacock feather in his crown and a yellow dhoti, smiling warmly and lovingly as he eats a handful of flattened rice from a small tattered cloth bundle held by a thin, poor Brahmin Sudama in simple worn white clothes standing on the right, Krishna on the left, golden palace hall softly lit, waist-up, large clear faces, deep emotion"
+  "prompt": "Lord Krishna with dark blue skin, a peacock feather in his crown and a yellow dhoti, smiling warmly and lovingly as he eats a handful of flattened rice from a small tattered cloth bundle held by a thin, poor Brahmin Sudama in simple worn white clothes standing on the right, Krishna on the left, golden palace hall softly lit, waist-up, large clear faces, deep emotion",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -52,7 +53,7 @@
      "prompt": "Lord Krishna with dark blue skin, peacock feather crown and yellow dhoti on the left, warmly embracing Sudama in worn white clothes on the right, tears of joy, waist-up, golden palace hall, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8924
+     "seed": 16843
     },
     {
      "vo": "उन्होंने अपने हाथों से सुदामा के चरण धोए।",
@@ -85,14 +86,17 @@
   "shots": [
    5
   ],
-  "thumbs": [],
-  "at": "2026-11-01 20:08"
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-01 21:21"
  },
  "shot_qc": {
-  "checked": "2026-11-01T14:04:39Z",
-  "rounds": 1,
+  "checked": "2026-11-01T15:18:37Z",
+  "rounds": 2,
   "why": {
-   "5": "Two figures hug and their bodies and arms merge. The lower figure's head has a second set of peacock feathers stacked behind it, and the arms and shoulders overlap ambiguously."
+   "5": "Two embracing figures with tangled, merged arms and bodies. It is unclear which arm belongs to which figure.",
+   "C": "The face is small and the eyes look mismatched and askew. The legs and feet at the bottom are muddled."
   }
  }
 }
