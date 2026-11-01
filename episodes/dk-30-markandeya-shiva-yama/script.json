@@ -51,7 +51,8 @@
      "vo": "सोलहवें साल में यमराज के दूत उसे लेने आ पहुँचे।",
      "prompt": "Lord Yama with dark complexion, a tall crown and a noose in hand, riding no animal, waist-up, stern glowing eyes, dark stormy red sky behind, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "मार्कण्डेय डरे नहीं, वे शिवलिंग से लिपट गए।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-01 20:10"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T14:05:11Z",
+  "rounds": 1,
+  "why": {
+   "5": "The rider is stacked on a horse whose body merges with the figure, and the swing ropes run through both. The anatomy is muddled."
+  }
+ }
 }
