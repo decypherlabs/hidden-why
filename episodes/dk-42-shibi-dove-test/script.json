@@ -51,7 +51,8 @@
      "vo": "शिबि बोले, शरण में आए को मैं नहीं छोड़ूंगा।",
      "prompt": "King Shibi with a golden crown, protective firm expression, one hand shielding a small white dove against his chest, close-up waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "बाज ने कहा, तो कबूतर के बराबर अपना मांस दो।",
@@ -64,7 +65,7 @@
      "prompt": "A large wooden balance scale with a white dove on one pan, King Shibi with a golden crown standing calm and resolute beside it, waist-up, palace courtyard, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 16845
+     "seed": 24764
     },
     {
      "vo": "अंत में वे स्वयं तराजू पर बैठने को तैयार हो गए।",
@@ -83,16 +84,18 @@
  ],
  "repaint": {
   "shots": [
+   5,
    7
   ],
   "thumbs": [],
-  "at": "2026-11-02 03:24"
+  "at": "2026-11-02 04:37"
  },
  "shot_qc": {
-  "checked": "2026-11-01T21:19:28Z",
-  "rounds": 2,
+  "checked": "2026-11-01T22:33:24Z",
+  "rounds": 3,
   "why": {
-   "7": "Two doves at very different scales: a giant dove stands beside a small one on the scale, which looks like a duplicated or stacked figure."
+   "5": "The hand holding the gold object is malformed: the fingers and the object merge into each other.",
+   "7": "A crown floats above the dove on the scale beam. The scale chains and pans are tangled with the dove's body, and the beam seems to pass through it."
   }
  }
 }
