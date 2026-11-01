@@ -39,7 +39,8 @@
      "vo": "गांधारी के सौ पुत्र मारे जा चुके थे।",
      "prompt": "Queen Gandhari, elderly Indian queen in a plain white sari with a cloth blindfold over her eyes, tears on her cheeks, hands pressed to her chest in grief, waist-up close view, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "वे रणभूमि में पहुँचीं, और दुख से टूट गईं।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   3
+  ],
+  "thumbs": [],
+  "at": "2026-11-01 20:10"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T14:05:52Z",
+  "rounds": 1,
+  "why": {
+   "3": "Hands pressed to the nose have clustered, merged-looking fingers, and extra fingers appear to overlap the face."
+  }
+ }
 }
