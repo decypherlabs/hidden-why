@@ -35,14 +35,14 @@
      "prompt": "Gajendra, a majestic elephant king with large tusks, standing in a lotus lake at the foot of Trikuta mountain, waist-deep in water, close view of his face, calm morning light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8921
+     "seed": 16840
     },
     {
      "vo": "एक दिन स्नान करते समय एक मगरमच्छ ने उसका पांव पकड़ लिया।",
      "prompt": "Gajendra the elephant on the left with a pained face, a large crocodile on the right gripping his leg in the lake water, close view, dramatic light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8922
+     "seed": 16841
     },
     {
      "vo": "बहुत वर्षों तक वह लड़ता रहा, पर थक गया।",
@@ -60,7 +60,8 @@
      "vo": "पुकार सुनते ही विष्णु गरुड़ पर सवार होकर दौड़ पड़े।",
      "prompt": "Lord Vishnu with four arms, blue skin and golden crown, holding conch and discus, flying fast through golden clouds, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "उन्होंने सुदर्शन चक्र से मगरमच्छ का संहार किया।",
@@ -86,20 +87,19 @@
  "repaint": {
   "shots": [
    2,
-   3
+   3,
+   6
   ],
-  "thumbs": [
-   "cover.png"
-  ],
-  "at": "2026-11-01 20:08"
+  "thumbs": [],
+  "at": "2026-11-01 21:21"
  },
  "shot_qc": {
-  "checked": "2026-11-01T14:04:56Z",
-  "rounds": 1,
+  "checked": "2026-11-01T15:17:36Z",
+  "rounds": 2,
   "why": {
-   "2": "A person is merged with the elephant's trunk and front legs, and a second trunk-like piece floats at the left.",
-   "3": "The crocodile body is fused with the elephant's trunk, so the trunk looks doubled and stacked.",
-   "C": "More than four arms, with extra ones behind the shoulders on the right, and a stray tail-like shape between the legs."
+   "2": "A person is merged with the elephant. The trunk and body overlap the figure, which reads as one fused form.",
+   "3": "The crocodile's head and teeth look fused and tusk-like, and it sits awkwardly against the elephant.",
+   "6": "There are too many arms, more than the traditional four, and they tangle together with the drapery."
   }
  }
 }
