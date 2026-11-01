@@ -69,15 +69,33 @@
      "vo": "फिर कृष्ण ने श्राप दिया, तीन हज़ार वर्ष तक भटको, घाव कभी नहीं भरेगा।",
      "prompt": "Lord Krishna with dark blue skin and peacock feather crown on the left, stern face with raised hand, and Ashwatthama on the right with a bleeding wound on his forehead where the gem was removed, bowed head, both waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "जय श्री कृष्ण! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
      "prompt": "Close-up of Lord Krishna with dark blue skin, peacock feather crown, playing a flute, serene smile, golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8928
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   8,
+   9
+  ],
+  "thumbs": [],
+  "at": "2026-11-01 20:10"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T14:04:19Z",
+  "rounds": 1,
+  "why": {
+   "8": "Eyes look dark and smudged. The blue hands raised on both sides of the head look oddly attached.",
+   "9": "The flute is garbled. It merges with the hand and chin, and its shape bends and doesn't read as a real flute."
+  }
+ }
 }
