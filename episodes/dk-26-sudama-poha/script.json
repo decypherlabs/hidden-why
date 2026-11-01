@@ -51,7 +51,8 @@
      "vo": "द्वारका के राजा श्रीकृष्ण ने दौड़कर मित्र को गले लगाया।",
      "prompt": "Lord Krishna with dark blue skin, peacock feather crown and yellow dhoti on the left, warmly embracing Sudama in worn white clothes on the right, tears of joy, waist-up, golden palace hall, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "उन्होंने अपने हाथों से सुदामा के चरण धोए।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-01 20:08"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T14:04:39Z",
+  "rounds": 1,
+  "why": {
+   "5": "Two figures hug and their bodies and arms merge. The lower figure's head has a second set of peacock feathers stacked behind it, and the arms and shoulders overlap ambiguously."
+  }
+ }
 }
