@@ -10,7 +10,8 @@
  "cover_text": "मुँह में *ब्रह्मांड* कैसे?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Baby Lord Krishna with dark blue skin, a peacock feather in his hair and a gentle divine smile, sitting in a village courtyard with his mouth wide open, a glowing vision of swirling galaxies, stars, sun, moon and oceans visible inside; mother Yashoda kneeling beside him on the right, her face full of awe and wonder, waist-up, warm golden light"
+  "prompt": "Baby Lord Krishna with dark blue skin, a peacock feather in his hair and a gentle divine smile, sitting in a village courtyard with his mouth wide open, a glowing vision of swirling galaxies, stars, sun, moon and oceans visible inside; mother Yashoda kneeling beside him on the right, her face full of awe and wonder, waist-up, warm golden light",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -34,7 +35,7 @@
      "prompt": "Baby Lord Krishna with dark blue skin and a peacock feather playing with a village cowherd boy, the boy standing on the right, both laughing, waist-up, in a sunlit Gokul courtyard, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8921
+     "seed": 16840
     },
     {
      "vo": "सखाओं ने माता यशोदा से शिकायत की, कान्हा ने मिट्टी खा ली है।",
@@ -84,16 +85,19 @@
  ],
  "repaint": {
   "shots": [
-   4
+   2
   ],
-  "thumbs": [],
-  "at": "2026-11-01 21:21"
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-01 22:37"
  },
  "shot_qc": {
-  "checked": "2026-11-01T15:18:06Z",
-  "rounds": 2,
+  "checked": "2026-11-01T16:32:41Z",
+  "rounds": 3,
   "why": {
-   "4": "The baby's lower face is smeared blue and merges with the hand held over the mouth. The hand and bracelet are tangled and the fingers are unclear."
+   "2": "Peacock tail feathers sprout from behind the left boy with no bird body, and the bird on the other boy's head is fused with his hair",
+   "C": "The peacock on the shoulder merges into the child's shoulder and arm, so the animal is fused with the person"
   }
  }
 }
