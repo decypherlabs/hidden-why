@@ -10,7 +10,8 @@
  "cover_text": "कैकेयी ने *वनवास* क्यों माँगा?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Queen Kaikeyi in a dimly lit royal chamber, modestly dressed in a sari with a gold crown, standing on the right with a stern face and tears in her eyes, one hand raised as she makes her demand; King Dasharatha in royal robes and crown stands on the left, shocked and pleading with folded hands, both waist-up with large clear faces, dramatic lamplight, intense emotion"
+  "prompt": "Queen Kaikeyi in a dimly lit royal chamber, modestly dressed in a sari with a gold crown, standing on the right with a stern face and tears in her eyes, one hand raised as she makes her demand; King Dasharatha in royal robes and crown stands on the left, shocked and pleading with folded hands, both waist-up with large clear faces, dramatic lamplight, intense emotion",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-02 02:47"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T20:41:57Z",
+  "rounds": 1,
+  "why": {
+   "C": "The left and middle women overlap, and their raised arms and sarees blend into each other, so they look partly merged. All three figures are near-identical clones in the same gold saree."
+  }
+ }
 }
