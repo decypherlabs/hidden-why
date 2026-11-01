@@ -3,7 +3,7 @@
     python3 tools/hindi.py <slug> <hindi.json>     # writes episodes/<slug>-hi/{script,meta}.json
 
 hindi.json: {"title", "hook_text", "cover_text", "description", "tags": [...],
-             "shots": [{"vo": "<Devanagari, read by the voice>", "caption": "<Hinglish, shown on screen>"}, ...]}
+             "shots": [{"vo": "<Devanagari, read by the voice>", "caption": "<Devanagari, shown on screen>"}, ...]}
 one entry per shot, in order. The copy keeps every painting prompt and paints nothing: "paint_from" makes
 the build reuse the English episode's paintings (GitHub Actions, no GPU; studio/thw_kaggle.py hindi()).
 """
@@ -26,7 +26,8 @@ def main(slug, hindi_path):
         s["vo"], s["caption"] = h["vo"], h["caption"]
     sc.pop("repaint", None)
     sc.pop("voice_speed", None)
-    sc.update(slug=f"{slug}-hi", lang="hi", paint_from=slug, voice=VOICE, approved=True,
+    sc.update(slug=f"{slug}-hi", lang="hi", brand="hidden-why-hindi",  # Devanagari font (owner, 1 Nov 2026)
+              paint_from=slug, voice=VOICE, approved=True,
               title=hi["title"], hook_text=hi["hook_text"], cover_text=hi.get("cover_text") or hi["hook_text"])
     dst = ROOT / "episodes" / f"{slug}-hi"
     dst.mkdir(exist_ok=True)
