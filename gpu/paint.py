@@ -35,7 +35,8 @@ def shots(script):
         for s in sec.get("shots") or []:
             n += 1
             if s.get("prompt") and not s.get("diagram"):
-                yield n, s["prompt"], s.get("negative", "")
+                # "seed": a repaint after a failed shot check draws a new image, not the same one (1 Nov)
+                yield n, s["prompt"], s.get("negative", ""), int(s.get("seed") or 1000 + n)
 
 
 def main(script_path, out_dir, part=0, parts=1):
@@ -65,15 +66,15 @@ def main(script_path, out_dir, part=0, parts=1):
     sw, sh = (768, 1344) if script.get("format") == "short" else (1344, 768)  # Shorts are painted vertical
     if script.get("format") == "short" and BRAND.get("short_size"):  # DK (31 Oct): 768x1344 stacked/merged figures
         sw, sh = BRAND["short_size"]
-    jobs = [(out / f"shot-{n:02d}.png", p, f"{p}, {style}", f"{neg_extra}, {neg}" if neg_extra else neg, sw, sh, 1000 + n)
-            for n, p, neg_extra in shots(script)]
+    jobs = [(out / f"shot-{n:02d}.png", p, f"{p}, {style}", f"{neg_extra}, {neg}" if neg_extra else neg, sw, sh, seed)
+            for n, p, neg_extra, seed in shots(script)]
     thumb_style = "cinematic digital painting, dramatic light, high contrast, highly detailed, sharp focus, no text"
     if th.get("plane"):  # the thumbnail keeps its subject bright and readable, so a lighter style
         jobs.append((out / "thumb-plane.png", th["plane"], f"{th['plane']}, {thumb_style}", neg, 1344, 768, 7))
     cv = (script.get("cover") or {}).get("prompt")
     if cv:  # a Short's own cover painting: the one image that says the title (owner, 31 Oct: DK covers didn't match)
         cs = BRAND.get("cover_style") or style  # DK: realistic, not the folk style (owner: "realistic, engaging, hooking")
-        jobs.append((out / "cover.png", cv, f"{cv}, {cs}", f"blood, gore, deformed, extra limbs, {neg}", 768, 1344, 9))
+        jobs.append((out / "cover.png", cv, f"{cv}, {cs}", f"blood, gore, deformed, extra limbs, {neg}", sw, sh, int((script.get("cover") or {}).get("seed") or 9)))
     if th.get("zoom"):
         jobs.append((out / "thumb-zoom.png", th["zoom"], f"{th['zoom']}, {thumb_style}", neg, 1024, 1024, 8))
     for i, (p, prompt, prompt2, negative, w, h, seed) in enumerate(jobs, 1):
@@ -83,10 +84,27 @@ def main(script_path, out_dir, part=0, parts=1):
         img = pipe(prompt=prompt, prompt_2=prompt2, negative_prompt=negative, negative_prompt_2=negative,
                    width=w, height=h, num_inference_steps=int(BRAND.get("steps", 30)), guidance_scale=float(BRAND.get("guidance", 7.0)),
                    generator=g).images[0]
+        if BRAND.get("refine"):
+            img = refine(pipe, img, prompt, prompt2, negative, g, float(BRAND["refine"]))
         if BRAND.get("face_fix"):
             img = face_fix(pipe, img, prompt, prompt2, negative, g)
         img.save(p)
         print(f"  {i}/{len(jobs)} {p.name}", flush=True)
+
+
+def refine(pipe, img, prompt, prompt2, negative, g, scale):
+    """Hi-res pass over the whole painting (owner, 1 Nov: eyes still garbled): upscaled `scale`x and repainted
+    lightly, so every face, turned or small, gets more pixels; shrunk back to the canvas size."""
+    from diffusers import StableDiffusionXLImg2ImgPipeline
+    from PIL import Image
+    i2i = StableDiffusionXLImg2ImgPipeline(**pipe.components)
+    i2i.enable_vae_tiling()
+    big = img.resize((int(img.width * scale) // 8 * 8, int(img.height * scale) // 8 * 8), Image.LANCZOS)
+    out = i2i(prompt=f"sharp detailed faces, clear natural eyes, {prompt}", prompt_2=prompt2,
+              negative_prompt=f"bad eyes, crossed eyes, {negative}", negative_prompt_2=negative, image=big, strength=0.3,
+              num_inference_steps=int(BRAND.get("steps", 30)) * 3, guidance_scale=float(BRAND.get("guidance", 7.0)),
+              generator=g).images[0]
+    return out.resize(img.size, Image.LANCZOS)
 
 
 def face_fix(pipe, img, prompt, prompt2, negative, g):
@@ -99,7 +117,10 @@ def face_fix(pipe, img, prompt, prompt2, negative, g):
     from PIL import Image, ImageDraw, ImageFilter
     det = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
     gray = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2GRAY)
-    faces = det.detectMultiScale(gray, 1.1, 6, minSize=(48, 48))
+    faces = list(det.detectMultiScale(gray, 1.1, 4, minSize=(40, 40)))
+    side = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_profileface.xml")  # turned faces too
+    faces += [f for f in side.detectMultiScale(gray, 1.1, 4, minSize=(40, 40))
+              if not any(abs(f[0] - g0[0]) < g0[2] and abs(f[1] - g0[1]) < g0[3] for g0 in faces)]
     if not len(faces):
         return img
     i2i = StableDiffusionXLImg2ImgPipeline(**pipe.components)
