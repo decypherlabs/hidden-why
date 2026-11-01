@@ -10,7 +10,8 @@
  "cover_text": "भीम *पूंछ* क्यों न उठा सके?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Bhima, a mighty broad-shouldered Pandava warrior with a large mace, straining with all his strength and sweating, gripping the tail of a frail old monkey lying on a forest path, the old monkey calm and smiling, lush Himalayan forest with lotus flowers in the background, dramatic golden light, one scene, no text"
+  "prompt": "Bhima, a mighty broad-shouldered Pandava warrior with a large mace, straining with all his strength and sweating, gripping the tail of a frail old monkey lying on a forest path, the old monkey calm and smiling, lush Himalayan forest with lotus flowers in the background, dramatic golden light, one scene, no text",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -51,7 +52,8 @@
      "vo": "भीम बोले, पूंछ हटाओ, मुझे जाने दो।",
      "prompt": "Bhima, a mighty broad-shouldered warrior with a large mace, waist-up on the left, pointing sternly forward, and an old white-furred monkey on the right resting calmly, facing each other on a forest path, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "वानर ने कहा, मैं बूढ़ा हूँ, तुम खुद हटा दो।",
@@ -79,5 +81,22 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-02 02:10"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T20:05:09Z",
+  "rounds": 1,
+  "why": {
+   "5": "The front ape has a human muscular torso with an ape head, so animal and person are fused. Another monkey is stacked on the big ape's shoulder, and the apes overlap in a cluster.",
+   "C": "The central figure is a bear/panda-like animal fused with a person: it has armor and a human stance and holds a weapon. A second monkey figure is balanced on a staff above it, so the figures are merged or stacked."
+  }
+ }
 }
