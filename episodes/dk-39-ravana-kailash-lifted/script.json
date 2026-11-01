@@ -69,7 +69,8 @@
      "vo": "तब उसने भक्ति से स्तुति गाई, और शिव तांडव स्तोत्र बना। शिव ने उसे क्षमा किया।",
      "prompt": "Ravana with one humble face and golden crown, hands folded in prayer, eyes closed with tears, waist-up, glowing warm light of devotion, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "हर हर महादेव! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 02:08"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T20:05:27Z",
+  "rounds": 1,
+  "why": {
+   "8": "Eyes are mismatched: one is nearly closed and the other half open and squinting, so the face looks off."
+  }
+ }
 }
