@@ -1,0 +1,71 @@
+{
+ "slug": "s43-bread-goes-stale-hi",
+ "format": "short",
+ "title": "Bread sakht kyun ho jaati hai, jab wo sukhti hi nahi? 🍞",
+ "hook_text": "BREAD SUKHTI NAHI!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "ब्रेड बाहर रखो तो सख़्त हो जाती है, पर असल में वो सूखती नहीं।",
+     "prompt": "close-up of a hard stale slice of bread on a kitchen counter next to a fresh loaf, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Bread bahar rakho toh sakht ho jaati hai, par asal mein wo sukhti nahi."
+    },
+    {
+     "vo": "बेकिंग में ब्रेड का स्टार्च पानी सोख लेता है और नरम हो जाता है।",
+     "prompt": "a golden loaf of bread fresh from the oven, steam rising, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Baking mein bread ka starch paani sokh leta hai aur naram ho jaata hai."
+    },
+    {
+     "vo": "ठंडी होने पर वही स्टार्च धीरे-धीरे पानी बाहर निकालता है और सख़्त क्रिस्टल बन जाता है।",
+     "prompt": "macro of the crumb inside a slice of bread, tiny air pockets, crisp detail, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Thandi hone par wahi starch dheere-dheere paani bahar nikaalta hai aur sakht crystal ban jaata hai."
+    },
+    {
+     "vo": "इसीलिए फ्रिज में ब्रेड और जल्दी बासी होती है।",
+     "prompt": "a loaf of bread inside an open refrigerator, cool blue light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Isiliye fridge mein bread aur jaldi baasi hoti hai."
+    },
+    {
+     "vo": "और इसीलिए हल्का टोस्ट करने से वो फिर नरम हो जाती है। तो काउंटर पर रखी वो सख़्त स्लाइस, सूखी नहीं थी।",
+     "prompt": "a stale slice of bread going into a toaster, warm glow, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Aur isiliye halka toast karne se wo phir naram ho jaati hai. Toh counter par rakhi wo sakht slice, sukhi nahi thi."
+    },
+    {
+     "vo": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।",
+     "prompt": "close-up of a hard stale slice of bread on a kitchen counter next to a fresh loaf, the same close-up, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Roz ek naya 'kyun' jaanne ke liye subscribe karo."
+    }
+   ]
+  }
+ ],
+ "cover_text": "BREAD *SUKHTI* NAHI",
+ "cover_shot": 3,
+ "lang": "hi",
+ "paint_from": "s43-bread-goes-stale",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

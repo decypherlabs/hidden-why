@@ -1,0 +1,71 @@
+{
+ "slug": "s42-coin-ridged-edges-hi",
+ "format": "short",
+ "title": "Sikkon ke kinare ridges kyun hote hain? 🪙",
+ "hook_text": "SIKKE KI LAKEEREIN",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सिक्के के किनारे पर उँगली फिराओ, छोटी-छोटी लकीरें महसूस होंगी।",
+     "prompt": "macro close-up of the ridged edge of a silver coin held between fingertips, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Sikke ke kinare par ungli phirao, chhoti-chhoti lakeerein mehsoos hongi."
+    },
+    {
+     "vo": "पहले सिक्के असली सोने और चाँदी के बनते थे।",
+     "prompt": "a pile of old gold and silver coins on a wooden table, candle light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Pehle sikke asli sone aur chandi ke bante the."
+    },
+    {
+     "vo": "तो चोर किनारों से पतली परत छील कर धातु बेच देते थे।",
+     "prompt": "a shady man in an old workshop filing the edge of a silver coin, metal shavings on the table, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Toh chor kinaron se patli parat chheel kar dhaatu bech dete the."
+    },
+    {
+     "vo": "फिर वो छोटा हुआ सिक्का पूरी कीमत पर चला देते थे।",
+     "prompt": "an old market stall, a hand passing a coin to a merchant, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Phir wo chhota hua sikka poori keemat par chala dete the."
+    },
+    {
+     "vo": "लकीरों से छिलाई तुरंत पकड़ी जाने लगी। आज ये नेत्रहीन लोगों को सिक्के पहचानने में भी मदद करती हैं। तो फिर से किनारा छूकर देखो।",
+     "prompt": "close-up of two coins side by side, one with a neat ridged edge, one with a smooth worn edge, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Lakeeron se chhilaai turant pakdi jaane lagi. Aaj ye netrheen logon ko sikke pehchanne mein bhi madad karti hain. Toh phir se kinara chhookar dekho."
+    },
+    {
+     "vo": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।",
+     "prompt": "macro close-up of the ridged edge of a silver coin held between fingertips, the same close-up, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "Roz ek naya 'kyon' jaanne ke liye subscribe karo."
+    }
+   ]
+  }
+ ],
+ "cover_text": "SIKKE pe *LAKEEREIN* kyun?",
+ "cover_shot": 4,
+ "lang": "hi",
+ "paint_from": "s42-coin-ridged-edges",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
