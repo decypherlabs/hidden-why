@@ -42,7 +42,8 @@
      "vo": "गोपों ने इंद्र की जगह गोवर्धन की पूजा की।",
      "prompt": "Govardhan hill decorated with garlands and food offerings, decorated cows grazing at its foot, vertical composition, cinematic wide shot, no people",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, revealing clothes, deformed hands"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, revealing clothes, deformed hands",
+     "seed": 8923
     },
     {
      "vo": "क्रोधित इंद्र ने सात दिन तक भयंकर वर्षा भेजी।",
@@ -72,7 +73,8 @@
      "vo": "जय श्री कृष्ण! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
      "prompt": "Waist-up, Lord Krishna with dark blue skin, peacock feather crown and flute, one hand raised in blessing, a cow beside him, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, revealing clothes, deformed hands"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, revealing clothes, deformed hands",
+     "seed": 8928
     }
    ]
   }
@@ -82,10 +84,18 @@
  },
  "repaint": {
   "shots": [
-   3,
-   5
+   4,
+   9
   ],
   "thumbs": [],
-  "at": "2026-11-01 18:24"
+  "at": "2026-11-01 20:07"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T14:05:29Z",
+  "rounds": 1,
+  "why": {
+   "4": "The white cows on the right overlap and merge, with a cow stacked on another and extra heads and legs.",
+   "9": "There are extra, mismatched arms and hands. A hand holds a staff against the forehead while another hand holds a flute, and the limbs are tangled."
+  }
  }
 }
