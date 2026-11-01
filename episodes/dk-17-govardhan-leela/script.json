@@ -43,7 +43,7 @@
      "prompt": "Govardhan hill decorated with garlands and food offerings, decorated cows grazing at its foot, vertical composition, cinematic wide shot, no people",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, revealing clothes, deformed hands",
-     "seed": 8923
+     "seed": 16842
     },
     {
      "vo": "क्रोधित इंद्र ने सात दिन तक भयंकर वर्षा भेजी।",
@@ -80,20 +80,24 @@
   }
  ],
  "cover": {
-  "prompt": "Young Lord Krishna with dark blue skin and peacock feather crown lifting Govardhan mountain on his little finger, calm smile, storm clouds and lightning above, face in sharp focus"
+  "prompt": "Young Lord Krishna with dark blue skin and peacock feather crown lifting Govardhan mountain on his little finger, calm smile, storm clouds and lightning above, face in sharp focus",
+  "seed": 7928
  },
  "repaint": {
   "shots": [
-   9
+   4
   ],
-  "thumbs": [],
-  "at": "2026-11-01 21:20"
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-01 22:36"
  },
  "shot_qc": {
-  "checked": "2026-11-01T15:18:15Z",
-  "rounds": 2,
+  "checked": "2026-11-01T16:32:48Z",
+  "rounds": 3,
   "why": {
-   "9": "Two flutes: one at the mouth and a second large one on the left. The hands holding them are tangled and the fingers look malformed."
+   "4": "Cows at the bottom right look fused or stacked: the white cows merge into one blob and into the food spread.",
+   "C": "The eyes look slightly mismatched and uneven, and the hand held up to the chin is awkward and malformed."
   }
  }
 }
