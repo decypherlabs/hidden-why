@@ -58,6 +58,18 @@ def imported(slug):
     return bool(d) and json.loads((d / "project.json").read_text()).get("status") == "done"
 
 
+TITLE_TAGS = ["#science", "#facts", "#didyouknow"]  # owner, 1 Nov 2026: popular hashtags in every THW title
+
+
+def thw_title(title, short):
+    """The Hidden Why's title + its hashtags (#Shorts first on a Short), as many as fit YouTube's 100 chars."""
+    base = re.sub(r"\s*#\w+", "", title).strip()
+    tags = (["#Shorts"] if short else []) + TITLE_TAGS
+    while tags and len(f"{base} {' '.join(tags)}") > 100:
+        tags.pop()
+    return f"{base} {' '.join(tags)}".strip()
+
+
 def track_scripts(released):
     """A project card per script that isn't published yet, with where it is now."""
     run = {}
@@ -132,6 +144,8 @@ def import_episode(slug, src, day, status="done"):
     sc = ROOT / "episodes" / slug / "script.json"
     short = sc.exists() and json.loads(sc.read_text()).get("format") == "short"  # Shorts go to shorts/
     sub = "shorts" if short else "long"
+    if niche(slug) == "hidden-why":
+        meta["youtube"]["title"] = thw_title(title, short)
     (pdir / sub).mkdir(parents=True, exist_ok=True)
     # a Devanagari title slugifies to nothing: keep the clip's existing name, else the episode slug (31 Oct)
     old = [p for p in (pdir / sub).glob("*.mp4")]
