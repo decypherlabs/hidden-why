@@ -10,7 +10,8 @@
  "cover_text": "भीष्म के *पतन* की वजह?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Princess Amba of Kashi, modestly dressed in a simple saree, her face large in close-up, eyes blazing with fierce tearful resolve, hands raised in a solemn vow, with the aged warrior Bhishma, white-haired and bearded in royal armour, standing on the right looking at her, a golden dawn light on the battlefield behind them, realistic cinematic painting, no text"
+  "prompt": "Princess Amba of Kashi, modestly dressed in a simple saree, her face large in close-up, eyes blazing with fierce tearful resolve, hands raised in a solemn vow, with the aged warrior Bhishma, white-haired and bearded in royal armour, standing on the right looking at her, a golden dawn light on the battlefield behind them, realistic cinematic painting, no text",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-01 20:11"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T14:05:44Z",
+  "rounds": 1,
+  "why": {
+   "C": "Two women are stacked: the upper woman's head sits directly on top of the lower woman's head, so the two figures read as merged."
+  }
+ }
 }
