@@ -34,11 +34,12 @@
  "art_style_folk": "traditional Indian Pattachitra folk painting, Odisha palm-leaf art style, bold black outlines, flat ochre deep red cream and teal colours, ornate patterned borders, decorative dotted details, intricate jewellery and textiles, flat perspective, devotional and respectful, no text",
  "model": "SG161222/RealVisXL_V5.0_Lightning",
  "vae": "madebyollin/sdxl-vae-fp16-fix",
- "steps": 6,
+ "steps": 8,
  "guidance": 1.5,
  "short_size": [
   832,
   1216
  ],
- "face_fix": true
+ "face_fix": true,
+ "_steps_about": "owner, 1 Nov 2026: more quality; Lightning models peak around 6-8 steps"
 }
