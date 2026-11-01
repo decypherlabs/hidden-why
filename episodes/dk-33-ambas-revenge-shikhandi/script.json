@@ -40,7 +40,8 @@
      "vo": "अंबा का मन राजा शाल्व में था, तो भीष्म ने उसे विदा कर दिया।",
      "prompt": "Bhishma in royal armour on the left folding his hands respectfully, Princess Amba in a modest saree on the right, waist-up, a palanquin behind them at dusk, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "पर शाल्व ने ठुकरा दिया, और भीष्म ब्रह्मचर्य के व्रत में बंधे थे।",
@@ -70,7 +71,8 @@
      "vo": "कुरुक्षेत्र में शिखंडी को देख भीष्म ने शस्त्र रख दिए।",
      "prompt": "Bhishma, white-haired in royal armour, on the left lowering his bow with a sorrowful face; Shikhandi in warrior armour with a bow on the right, waist-up, Kurukshetra battlefield at dawn, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "यही थी अंबा की प्रतिज्ञा। हर हर महादेव! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -82,17 +84,19 @@
   }
  ],
  "repaint": {
-  "shots": [],
-  "thumbs": [
-   "cover.png"
+  "shots": [
+   3,
+   8
   ],
-  "at": "2026-11-01 20:11"
+  "thumbs": [],
+  "at": "2026-11-01 21:24"
  },
  "shot_qc": {
-  "checked": "2026-11-01T14:05:44Z",
-  "rounds": 1,
+  "checked": "2026-11-01T15:18:30Z",
+  "rounds": 2,
   "why": {
-   "C": "Two women are stacked: the upper woman's head sits directly on top of the lower woman's head, so the two figures read as merged."
+   "3": "The man's eyes are lost in smeared black paint and look melted or mismatched.",
+   "8": "A face-like helmet mask floats above and behind the men, so it reads as an extra stacked face. The helmet on the right man's head is also warped."
   }
  }
 }
