@@ -57,7 +57,8 @@
      "vo": "चारों भाई वहीं गिर पड़े।",
      "prompt": "Four Pandava brothers lying motionless on the grass beside the lake at dusk, seen from a wide distance with no visible faces, still and sorrowful scene, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "युधिष्ठिर ने धैर्य से हर प्रश्न का उत्तर दिया।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-01 20:09"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T14:05:19Z",
+  "rounds": 1,
+  "why": {
+   "6": "The three lying figures overlap in a tangle at the bottom left. Limbs and bodies merge, and the faces are small and distorted."
+  }
+ }
 }
