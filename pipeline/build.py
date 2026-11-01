@@ -131,6 +131,22 @@ def hook_card(text):
     return cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0
 
 
+def video_mark():
+    """brand.json "video_mark": the channel banner's name + tagline as a small panel at the top of every frame
+    (owner, 1 Nov 2026: Devlok Katha's videos carry the banner's text, in the banner's colours)."""
+    m = K.B.get("video_mark")
+    if not m:
+        return None
+    # see-through text only, no panel (owner: "not in full opacity, nothing gets blocked")
+    ft, fs = K.display(58), K.display(28)
+    img = Image.new("RGBA", (W, 130), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.text((W / 2, 44), m["title"], font=ft, anchor="mm", fill=tuple(m["fg"]) + (255,), stroke_width=3, stroke_fill=tuple(m["bg"]) + (255,))
+    d.text((W / 2, 98), m["tagline"], font=fs, anchor="mm", fill=tuple(m["bg"]) + (255,), stroke_width=2, stroke_fill=tuple(m["ink"]) + (255,))
+    a = np.asarray(img)
+    return cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0 * float(m.get("opacity", 0.6))
+
+
 class Still:
     def __init__(self, img):
         self.img = img
@@ -408,6 +424,7 @@ def main(script_path, out_dir):
                           stdin=subprocess.PIPE)
     hook = hook_card(script.get("hook_text") or script["title"]) if short else None
     HOOK_S = 2.8
+    mark = video_mark() if short else None
     k = 0
     for idx, (start, dur, vis, _, _) in enumerate(items):
         nf = int(round((start + dur) * FPS)) - int(round(start * FPS))
@@ -426,6 +443,11 @@ def main(script_path, out_dir):
                 y = int(H * 0.12)
                 roi = fr[y:y + 520].astype(np.float32)
                 fr[y:y + 520] = (rgb * al + roi * (1 - al)).astype(np.uint8)
+            if mark is not None:  # the banner's name + tagline at the top, above the hook (it starts at 12%)
+                rgb, al = mark
+                y = 40
+                roi = fr[y:y + rgb.shape[0]].astype(np.float32)
+                fr[y:y + rgb.shape[0]] = (rgb * al + roi * (1 - al)).astype(np.uint8)
             ff.stdin.write(fr.tobytes())
             k += 1
     ff.stdin.close()
