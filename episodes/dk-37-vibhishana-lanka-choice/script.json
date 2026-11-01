@@ -57,7 +57,8 @@
      "vo": "वह समुद्र पार करके श्रीराम की शरण में पहुँचे।",
      "prompt": "Vibhishana on the left with folded hands bowing humbly, Lord Rama on the right with a bow on his shoulder and a calm gaze, seashore camp at dawn, both waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "वानरों को शक था, पर श्रीराम ने कहा, शरण में आए को मैं अभय देता हूँ।",
@@ -70,7 +71,7 @@
      "prompt": "Lord Rama on the left and Vibhishana on the right embracing warmly, both waist-up, seashore at sunrise, soft golden light, devotional mood, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8927
+     "seed": 16846
     },
     {
      "vo": "जय श्री राम! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -83,16 +84,18 @@
  ],
  "repaint": {
   "shots": [
+   6,
    8
   ],
   "thumbs": [],
-  "at": "2026-11-02 01:02"
+  "at": "2026-11-02 02:46"
  },
  "shot_qc": {
-  "checked": "2026-11-01T18:59:18Z",
-  "rounds": 1,
+  "checked": "2026-11-01T20:41:49Z",
+  "rounds": 2,
   "why": {
-   "8": "The two faces merge at the nose and mouth in the kiss, so the eyes and features are distorted. The man's crown is also cut off and detached at the top."
+   "6": "The front figure has a floating crown spike above the headband. Their arms and hands are tangled, with praying hands at the chin and another arm crossed.",
+   "8": "The two faces are merged and overlapping nose-to-nose, and their bodies and arms are fused together."
   }
  }
 }
