@@ -10,7 +10,8 @@
  "cover_text": "*नंगे पांव* क्यों दौड़े?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Lord Vishnu with four arms, blue skin and golden crown, raising the glowing Sudarshan discus, urgent compassionate face, stormy lotus lake behind him"
+  "prompt": "Lord Vishnu with four arms, blue skin and golden crown, raising the glowing Sudarshan discus, urgent compassionate face, stormy lotus lake behind him",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -33,13 +34,15 @@
      "vo": "त्रिकूट पर्वत के सरोवर में हाथियों का राजा गजेंद्र रहता था।",
      "prompt": "Gajendra, a majestic elephant king with large tusks, standing in a lotus lake at the foot of Trikuta mountain, waist-deep in water, close view of his face, calm morning light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "एक दिन स्नान करते समय एक मगरमच्छ ने उसका पांव पकड़ लिया।",
      "prompt": "Gajendra the elephant on the left with a pained face, a large crocodile on the right gripping his leg in the lake water, close view, dramatic light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "बहुत वर्षों तक वह लड़ता रहा, पर थक गया।",
@@ -82,12 +85,21 @@
  ],
  "repaint": {
   "shots": [
-   6,
-   8
+   2,
+   3
   ],
   "thumbs": [
    "cover.png"
   ],
-  "at": "2026-11-01 18:24"
+  "at": "2026-11-01 20:08"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T14:04:56Z",
+  "rounds": 1,
+  "why": {
+   "2": "A person is merged with the elephant's trunk and front legs, and a second trunk-like piece floats at the left.",
+   "3": "The crocodile body is fused with the elephant's trunk, so the trunk looks doubled and stacked.",
+   "C": "More than four arms, with extra ones behind the shoulders on the right, and a stray tail-like shape between the legs."
+  }
  }
 }
