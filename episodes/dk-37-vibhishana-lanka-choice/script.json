@@ -69,7 +69,8 @@
      "vo": "श्रीराम ने विभीषण को गले लगाया। वह भक्त थे, गद्दार नहीं, धर्म के साथ खड़े हुए।",
      "prompt": "Lord Rama on the left and Vibhishana on the right embracing warmly, both waist-up, seashore at sunrise, soft golden light, devotional mood, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "जय श्री राम! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 01:02"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T18:59:18Z",
+  "rounds": 1,
+  "why": {
+   "8": "The two faces merge at the nose and mouth in the kiss, so the eyes and features are distorted. The man's crown is also cut off and detached at the top."
+  }
+ }
 }
