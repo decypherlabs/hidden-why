@@ -11,7 +11,7 @@
  "cover_shot": 1,
  "cover": {
   "prompt": "Lord Vishnu with four arms, blue skin and golden crown, raising the glowing Sudarshan discus, urgent compassionate face, stormy lotus lake behind him",
-  "seed": 7928
+  "seed": 15847
  },
  "music": {
   "epic": [
@@ -67,7 +67,8 @@
      "vo": "उन्होंने सुदर्शन चक्र से मगरमच्छ का संहार किया।",
      "prompt": "Lord Vishnu with blue skin and golden crown, hand raised releasing the glowing Sudarshan discus, radiant golden light, close view of his determined face, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "गजेंद्र मुक्त हुआ, क्योंकि भगवान भक्त की सच्ची पुकार पर तुरंत आते हैं।",
@@ -86,20 +87,19 @@
  ],
  "repaint": {
   "shots": [
-   2,
-   3,
-   6
+   7
   ],
-  "thumbs": [],
-  "at": "2026-11-01 21:21"
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-01 22:36"
  },
  "shot_qc": {
-  "checked": "2026-11-01T15:17:36Z",
-  "rounds": 2,
+  "checked": "2026-11-01T16:33:14Z",
+  "rounds": 3,
   "why": {
-   "2": "A person is merged with the elephant. The trunk and body overlap the figure, which reads as one fused form.",
-   "3": "The crocodile's head and teeth look fused and tusk-like, and it sits awkwardly against the elephant.",
-   "6": "There are too many arms, more than the traditional four, and they tangle together with the drapery."
+   "7": "The hand at the forehead is malformed and the arm placement is confusing, with another arm cutting across the bottom right.",
+   "C": "The legs are contorted and merged into the skirt, and the pose on the water is anatomically wrong."
   }
  }
 }
