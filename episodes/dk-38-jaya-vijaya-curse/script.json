@@ -69,7 +69,8 @@
      "vo": "उन्होंने तीन जन्म शत्रु बनना चुना, ताकि जल्दी भगवान के पास लौट सकें।",
      "prompt": "Gatekeeper Jaya in golden armour on the left and gatekeeper Vijaya on the right, both with folded hands and resolute faces, waist-up, looking toward a glowing golden gate of Vaikuntha, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "जय श्री कृष्ण! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 02:08"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T20:05:35Z",
+  "rounds": 1,
+  "why": {
+   "8": "The left woman has gold smears or markings around both eyes, so her eyes look garbled and mismatched. The right figure is also cut off at the frame edge."
+  }
+ }
 }
