@@ -57,7 +57,8 @@
      "vo": "जब कार्तिकेय लौटे, तो गणेश जी का विवाह तय हो चुका था।",
      "prompt": "Lord Kartikeya with a golden crown on left, shocked and stunned face, Lord Ganesha with an elephant head and one tusk on right, calm smiling face, both waist-up, in a festive hall on Kailash, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "पर असली मोड़ अब आता है।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 09:32"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T03:27:14Z",
+  "rounds": 1,
+  "why": {
+   "6": "A second, grey elephant is stacked behind the elephant-headed figure and merges into its shoulder and body. The face also looks human-like and fused with the trunk."
+  }
+ }
 }
