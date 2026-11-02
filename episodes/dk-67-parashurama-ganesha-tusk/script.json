@@ -35,7 +35,7 @@
      "prompt": "Lord Ganesha with an elephant head and one tusk standing on the left, Parashurama, a stern sage with matted hair, saffron robes and an axe, standing on the right, facing each other at a grand Kailash gateway, waist-up, modestly dressed, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8921
+     "seed": 16840
     },
     {
      "vo": "परशुराम, शिव जी के अपने शिष्य, उनसे मिलने कैलाश आए थे।",
@@ -71,25 +71,26 @@
      "vo": "दाँत टूटा, और गणेश जी एकदंत कहलाए। गणपति बप्पा मोरया! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
      "prompt": "Lord Ganesha with an elephant head and a single remaining tusk, smiling gently with a divine glow behind his head, close-up portrait, modestly dressed, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     }
    ]
   }
  ],
  "repaint": {
   "shots": [
-   1,
-   2
+   2,
+   8
   ],
   "thumbs": [],
-  "at": "2026-11-02 10:49"
+  "at": "2026-11-02 12:02"
  },
  "shot_qc": {
-  "checked": "2026-11-02T04:42:56Z",
-  "rounds": 1,
+  "checked": "2026-11-02T05:58:01Z",
+  "rounds": 2,
   "why": {
-   "1": "A second grey elephant head or ears shows behind the main head, on both sides of the crown, so the figure looks stacked on another.",
-   "2": "Two Ganesha figures stand side by side and look duplicated. The left one is small and its anatomy is unclear."
+   "2": "The left figure's elephant face is garbled. The trunk and mustache are mixed together and the face is malformed.",
+   "8": "A second curved tusk-like trunk shape hangs on the left beside the real trunk, which reads as a duplicated trunk or tusk."
   }
  }
 }
