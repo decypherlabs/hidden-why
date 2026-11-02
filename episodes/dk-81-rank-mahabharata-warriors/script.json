@@ -27,7 +27,8 @@
      "vo": "भीष्म ने रणभूमि से पहले महारथी गिने, और नंबर एक उनका अपना नहीं था।",
      "prompt": "Dramatic dark silhouette of Arjuna with a great bow drawn, a crown on his head, his face fully in shadow, standing against a blazing orange sunset sky on a battlefield, waist-up, modestly dressed in warrior's armor, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, two bows, duplicate weapons, extra weapon, two swords"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, two bows, duplicate weapons, extra weapon, two swords",
+     "seed": 8920
     },
     {
      "vo": "दुर्योधन ने पूछा, कौन कितना बड़ा रथी है, और भीष्म ने सबको तौल दिया।",
@@ -75,5 +76,19 @@
   }
  ],
  "art_style": "photorealistic cinematic epic battle poster, heroic low-angle shot, dramatic rim light, fiery embers and storm sky, high contrast, intense colour, epic scale, ultra detailed, sharp focus, no text",
- "series": "ranking"
+ "series": "ranking",
+ "repaint": {
+  "shots": [
+   1
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 18:36"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T12:32:23Z",
+  "rounds": 1,
+  "why": {
+   "1": "Two bows, one in hand and another crossing low at the left, with ambiguous extra limbs/straps. The figure's arms are unclear, so it reads as extra limbs."
+  }
+ }
 }
