@@ -33,7 +33,8 @@
      "vo": "असुरराज बलि बड़े दानी राजा थे।",
      "prompt": "King Bali, a noble asura king with a golden crown, waist-up, hands open in generosity, dignified calm face, in a grand sacrificial hall, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "यज्ञ में भगवान विष्णु वामन बालक बनकर आए।",
@@ -45,7 +46,8 @@
      "vo": "उन्होंने बलि से केवल तीन पग भूमि माँगी।",
      "prompt": "Lord Vamana the Brahmin boy standing left with his palm extended in request, King Bali with a golden crown standing right, listening with a warm smile, both waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "गुरु शुक्राचार्य ने पहचान लिया, और बलि को रोका।",
@@ -79,5 +81,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   2,
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 05:50"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T23:45:51Z",
+  "rounds": 1,
+  "why": {
+   "2": "Hands at both edges look malformed or like extra limbs, and the eyes are muddy and unclear.",
+   "4": "The two boys' bodies and arms are tangled, with the lower boy's arm and hand merging into the figure behind, so it's unclear which limb belongs to whom."
+  }
+ }
 }
