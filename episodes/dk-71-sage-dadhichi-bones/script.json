@@ -39,14 +39,15 @@
      "vo": "कोई शस्त्र उस असुर पर काम नहीं करता था।",
      "prompt": "Close-up of the demon Vritrasura, a huge dark-skinned asura with one face, a fierce crown and a menacing expression, storm clouds behind him, no other figures, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "तब भगवान विष्णु ने उपाय बताया, कि दधीचि की हड्डियों से बना वज्र ही उसे हरा सकता है।",
      "prompt": "Lord Vishnu with four arms, blue skin, a golden crown, holding a conch and a discus, calm compassionate face, waist-up, glowing lotus light behind him, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 16842
+     "seed": 24761
     },
     {
      "vo": "देवता इंद्र के साथ दधीचि के आश्रम पहुँचे, और हाथ जोड़कर उनकी देह माँगी।",
@@ -83,16 +84,18 @@
  ],
  "repaint": {
   "shots": [
+   3,
    4
   ],
   "thumbs": [],
-  "at": "2026-11-02 15:41"
+  "at": "2026-11-02 16:17"
  },
  "shot_qc": {
-  "checked": "2026-11-02T09:35:49Z",
-  "rounds": 2,
+  "checked": "2026-11-02T10:43:25Z",
+  "rounds": 3,
   "why": {
-   "4": "Odd white wing-like object behind the right shoulder, and the hands and held items at the edges are muddled and unclear."
+   "3": "A second face is sculpted on the front of the helmet, on top of the demon's own face, so it reads as stacked faces.",
+   "4": "The hands are tangled and there is an extra hand on the shoulder. The two tridents float without being held, and the arms are anatomically confused."
   }
  }
 }
