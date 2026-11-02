@@ -45,7 +45,8 @@
      "vo": "उन्होंने एक भरोसेमंद ब्राह्मण के हाथ द्वारका संदेश भेजा।",
      "prompt": "Rukmini standing on the left in a red saree handing a rolled letter to an elderly Brahmin with a white beard, saffron dhoti and sacred thread standing on the right, waist-up, palace garden, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "पत्र में लिखा था, आप आइए और मुझे यहाँ से ले जाइए।",
@@ -57,7 +58,8 @@
      "vo": "पर असली मोड़ अब आता है।",
      "prompt": "Close-up of Lord Krishna with blue complexion and peacock feather crown, reading a letter, eyes intense and determined, warm light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "कृष्ण तुरंत रथ पर निकले, और मंदिर से रुक्मिणी को अपने साथ ले गए।",
@@ -73,5 +75,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4,
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 16:06"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T10:14:22Z",
+  "rounds": 1,
+  "why": {
+   "4": "The woman on the left has a white beard, which looks like her face merged with a second male face.",
+   "6": "Script-like text is painted on the parchment in the lower left corner."
+  }
+ }
 }
