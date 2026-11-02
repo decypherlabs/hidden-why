@@ -145,7 +145,7 @@ def import_episode(slug, src, day, status="done"):
     title = meta["youtube"]["title"]
     pdir = project_dir(slug) or videos(slug) / day / slug  # the script's card becomes the episode
     sc = ROOT / "episodes" / slug / "script.json"
-    short = sc.exists() and json.loads(sc.read_text()).get("format") == "short"  # Shorts go to shorts/
+    short = sc.exists() and json.loads(sc.read_text()).get("format") in ("short", "quiz")  # Shorts go to shorts/ (quiz: SKB)
     sub = "shorts" if short else "long"
     if niche(slug) == "hidden-why":
         meta["youtube"]["title"] = thw_title(title, short)
@@ -153,6 +153,8 @@ def import_episode(slug, src, day, status="done"):
     # a Devanagari title slugifies to nothing: keep the clip's existing name, else the episode slug (31 Oct)
     old = [p for p in (pdir / sub).glob("*.mp4")]
     stem = slugify(re.sub(r"#\w+", "", title.split("(")[0])) or (old[0].stem if len(old) == 1 else slugify(slug))
+    if slug.startswith("gk-") or len(re.sub(r"[^a-z]", "", stem)) < 4:  # a Hindi title slugs to "1526": use the episode's
+        stem = slugify(slug)
     mp4 = pdir / sub / f"{stem}.mp4"
     if mp4.exists() and not os.path.samefile(mp4, src / "video.mp4"):
         # a rebuild (repaint): the old render is archived, never deleted, and the new one takes its place
