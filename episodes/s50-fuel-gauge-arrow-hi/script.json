@@ -1,0 +1,72 @@
+{
+ "slug": "s50-fuel-gauge-arrow-hi",
+ "format": "short",
+ "title": "आपके फ्यूल गेज के पास छोटा सा तीर क्यों होता है? ⛽",
+ "hook_text": "फ्यूल गेज का राज़",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपकी कार के फ्यूल गेज के पास जो छोटा तीर है, वो एक छुपा हुआ इशारा है।",
+     "prompt": "close-up of a car dashboard fuel gauge with a small fuel pump icon and a tiny triangle arrow beside it, glowing, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आपकी कार के फ्यूल गेज के पास जो छोटा तीर है, वो एक छुपा हुआ इशारा है।"
+    },
+    {
+     "vo": "ये बताता है कि फ्यूल कैप किस तरफ है।",
+     "prompt": "side view of a car's closed fuel cap door at a petrol station, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये बताता है कि फ्यूल कैप किस तरफ है।"
+    },
+    {
+     "vo": "किराये की कार है? पंप पर किस तरफ लगानी है, तुरंत पता चल जाएगा।",
+     "prompt": "a car pulling up beside a fuel pump at a petrol station, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "किराये की कार है? पंप पर किस तरफ लगानी है, तुरंत पता चल जाएगा।"
+    },
+    {
+     "vo": "न बाहर निकलकर देखना, न स्टेशन में चक्कर काटना।",
+     "prompt": "a driver leaning out of a car window looking back confused at a petrol station, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "न बाहर निकलकर देखना, न स्टेशन में चक्कर काटना।"
+    },
+    {
+     "vo": "ज़्यादातर नई कारों में ये होता है, अपनी कार में देखिए।",
+     "prompt": "close-up of a car dashboard with the fuel gauge glowing, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ज़्यादातर नई कारों में ये होता है, अपनी कार में देखिए।"
+    },
+    {
+     "vo": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।",
+     "prompt": "close-up of a car dashboard fuel gauge with a small fuel pump icon and a tiny arrow, the same close-up, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "छोटा *तीर* क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s50-fuel-gauge-arrow",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

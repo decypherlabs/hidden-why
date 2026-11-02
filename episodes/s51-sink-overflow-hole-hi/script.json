@@ -1,0 +1,72 @@
+{
+ "slug": "s51-sink-overflow-hole-hi",
+ "format": "short",
+ "title": "बाथरूम सिंक में ऊपर एक छेद क्यों होता है? 🚰",
+ "hook_text": "सिंक का ये छेद?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सिंक में ऊपर जो छोटा सा छेद है, वो एक बैकअप ड्रेन है।",
+     "prompt": "close-up of a white ceramic bathroom sink showing the small overflow hole under the rim, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सिंक में ऊपर जो छोटा सा छेद है, वो एक बैकअप ड्रेन है।"
+    },
+    {
+     "vo": "इसे ओवरफ़्लो कहते हैं।",
+     "prompt": "macro close-up of the overflow hole in a white bathroom sink, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसे ओवरफ़्लो कहते हैं।"
+    },
+    {
+     "vo": "प्लग लगाकर नल चलता छोड़ दो, तो पानी इसी छेद तक पहुँचता है।",
+     "prompt": "a bathroom sink filling with water from a running tap, plug in, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "प्लग लगाकर नल चलता छोड़ दो, तो पानी इसी छेद तक पहुँचता है।"
+    },
+    {
+     "vo": "फिर वो एक छिपे चैनल से ड्रेन में चला जाता है, फ़र्श पर नहीं गिरता।",
+     "prompt": "cutaway view of a ceramic sink showing a hidden channel carrying water from the overflow hole to the drain pipe, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "फिर वो एक छिपे चैनल से ड्रेन में चला जाता है, फ़र्श पर नहीं गिरता।"
+    },
+    {
+     "vo": "ये हवा भी अंदर आने देता है, इसलिए भरा सिंक जल्दी खाली होता है।",
+     "prompt": "water swirling down the drain of a white bathroom sink, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये हवा भी अंदर आने देता है, इसलिए भरा सिंक जल्दी खाली होता है।"
+    },
+    {
+     "vo": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।",
+     "prompt": "close-up of a white ceramic bathroom sink showing the small overflow hole under the rim, the same close-up, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "सिंक में *छेद* क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s51-sink-overflow-hole",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
