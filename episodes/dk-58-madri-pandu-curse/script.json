@@ -10,7 +10,8 @@
  "cover_text": "पांडु *पत्नी* को छू क्यों नहीं सके?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "King Pandu of the Mahabharata, a noble Kuru king in a simple forest hunter's attire with a bow lowered in his hands, face full of shock and grief, kneeling in a dense forest at dusk, two deer lying wounded in the soft light before him, close-up on his anguished face, no text"
+  "prompt": "King Pandu of the Mahabharata, a noble Kuru king in a simple forest hunter's attire with a bow lowered in his hands, face full of shock and grief, kneeling in a dense forest at dusk, two deer lying wounded in the soft light before him, close-up on his anguished face, no text",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -45,7 +46,8 @@
      "vo": "झाड़ियों में दो हिरण दिखे, और उन्होंने तीर छोड़ दिया।",
      "prompt": "Two deer standing together in a forest clearing at dawn, soft light, no people, wide shot, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "पर वे हिरण नहीं थे, वे ऋषि किंदम और उनकी पत्नी थे।",
@@ -79,5 +81,22 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-02 08:54"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T02:50:27Z",
+  "rounds": 1,
+  "why": {
+   "4": "The left deer's body is merged with the deer in front of it, so they look stacked or fused, with an unclear head and leg count.",
+   "C": "Antlers sprout from the man's head and crown, which reads as an animal fused with a person. The animal under him is also a muddled shape."
+  }
+ }
 }
