@@ -63,7 +63,8 @@
      "vo": "राजा जनक ने उनकी परीक्षा ली, और उत्तर सुनकर चकित रह गए।",
      "prompt": "Two figures waist-up: on the left King Janaka with a gold crown, white royal garments and a thoughtful astonished expression, on the right the boy Ashtavakra in saffron robes with a bent body, facing each other in the court, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "फिर शास्त्रार्थ में अष्टावक्र के उत्तरों से बंदी निरुत्तर हो गए।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 05:51"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T23:46:14Z",
+  "rounds": 1,
+  "why": {
+   "7": "Three overlapping boys stacked on each other (one head directly above another, bodies merged); a glyph that looks like painted-in lettering on the white robe"
+  }
+ }
 }
