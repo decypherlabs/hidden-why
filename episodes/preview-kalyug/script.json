@@ -1,0 +1,40 @@
+{
+ "slug": "preview-kalyug",
+ "format": "short",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "hold_build": true,
+ "title": "कलयुग में कुलीन कौन? 💰",
+ "art_style": "photorealistic dark cinematic scene, ominous stormy sky, deep crimson and teal light, dramatic volumetric light, high contrast, apocalyptic mood, ultra detailed, sharp focus, no text",
+ "cover": {
+  "prompt": "Close-up of an elderly Indian sage with a long white beard and rudraksha beads, writing on a palm leaf by firelight, his face lit warm gold, his eyes grave and sorrowful, a dark stormy sky behind him, one scene, no text"
+ },
+ "music": {
+  "epic": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "पाँच हज़ार साल पहले लिखा गया: कलयुग में इंसान की क़ीमत एक चीज़ तय करेगी।",
+     "prompt": "Bright close-up of the face of an elderly Indian sage with a long white beard, rudraksha beads and a saffron cloth on the shoulder, lit by warm firelight, solemn and knowing eyes, one figure, dark sky behind, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यानी जिसके पास धन होगा, वही ऊँचे कुल का और गुणवान कहलाएगा।",
+     "prompt": "Huge glowing piles of gold coins and banknotes under a dark ominous Kali Yuga sky with a dim red moon, no people, wide shot, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ],
+ "_about": "owner, 2 Nov: 2 sample frames + cover of the new DK series look; never built"
+}

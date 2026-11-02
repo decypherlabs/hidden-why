@@ -1,0 +1,40 @@
+{
+ "slug": "preview-ranking",
+ "format": "short",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "hold_build": true,
+ "title": "भीष्म ने किसे नंबर एक चुना? ⚔️",
+ "art_style": "photorealistic cinematic epic battle poster, heroic low-angle shot, dramatic rim light, fiery embers and storm sky, high contrast, intense colour, epic scale, ultra detailed, sharp focus, no text",
+ "cover": {
+  "prompt": "Close-up of the aged Bhishma, white-haired and white-bearded, in white robes with a simple gold armlet, seated in a war camp at dusk, looking forward with a calm, solemn gaze as if naming the greatest warrior; behind him the blurred silhouette of a war chariot in firelight, one scene, no text"
+ },
+ "music": {
+  "epic": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "भीष्म ने रणभूमि से पहले महारथी गिने, और नंबर एक उनका अपना नहीं था।",
+     "prompt": "Dramatic dark silhouette of Arjuna with a great bow drawn, a crown on his head, his face fully in shadow, standing against a blazing orange sunset sky on a battlefield, waist-up, modestly dressed in warrior's armor, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "नंबर पाँच: भीम, जिनमें दस हज़ार हाथियों का बल था।",
+     "prompt": "Bhima, a towering broad-shouldered warrior with a thick moustache, swinging a massive mace overhead mid-action, heroic low angle, fierce determined face, modest warrior dress, battlefield dust, waist-up, alone, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ],
+ "_about": "owner, 2 Nov: 2 sample frames + cover of the new DK series look; never built"
+}
