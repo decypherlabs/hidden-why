@@ -11,7 +11,7 @@
  "cover_shot": 1,
  "cover": {
   "prompt": "King Pandu of the Mahabharata, a noble Kuru king in a simple forest hunter's attire with a bow lowered in his hands, face full of shock and grief, kneeling in a dense forest at dusk, two deer lying wounded in the soft light before him, close-up on his anguished face, no text",
-  "seed": 7928
+  "seed": 15847
  },
  "music": {
   "epic": [
@@ -41,7 +41,7 @@
      "prompt": "King Pandu in hunter's attire drawing a bow in a green forest, focused face, close-up, golden sunlight through the trees, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8922
+     "seed": 16841
     },
     {
      "vo": "झाड़ियों में दो हिरण दिखे, और उन्होंने तीर छोड़ दिया।",
@@ -85,18 +85,19 @@
  ],
  "repaint": {
   "shots": [
-   3,
-   4
+   3
   ],
-  "thumbs": [],
-  "at": "2026-11-02 10:10"
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-02 11:25"
  },
  "shot_qc": {
-  "checked": "2026-11-02T04:05:03Z",
-  "rounds": 2,
+  "checked": "2026-11-02T05:20:18Z",
+  "rounds": 3,
   "why": {
-   "3": "Round furry bear-like ears sit on or fused with the crown, so it reads as an animal part joined to the head.",
-   "4": "The middle deer's body merges with the right deer's body, so the legs and bodies are stacked and tangled."
+   "3": "A panda's head is fused onto a human body in armor, so an animal is merged with a person.",
+   "C": "Deer antlers grow out of the man's head, so a deer is fused with a person."
   }
  }
 }
