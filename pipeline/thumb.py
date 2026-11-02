@@ -140,6 +140,91 @@ def short_cover(script, out):
     print(out / "thumb.jpg")
 
 
+RANKS = {5: "पाँच", 4: "चार", 3: "तीन", 2: "दो", 1: "एक"}
+
+
+def ranking_cover(script, out):
+    """Ranking Shorts cover (owner, 2 Nov 2026: "make the best thumbnail for the ranking"): the countdown's
+    #5-#2 as numbered portraits in a row, #1 hidden as a big dark silhouette with a "?" (watch to the end to see
+    it), the question on top. Ranked shots are found by their "नंबर पाँच:" … lines."""
+    from PIL import ImageEnhance
+    import re
+    CW, CH = 1080, 1920
+    shots = [s for sec in script["sections"] for s in sec.get("shots") or []]
+    rank_shot = {}
+    for r, word in RANKS.items():
+        i = next((i for i, s in enumerate(shots) if f"नंबर {word}" in s["vo"]), None)
+        if i is not None and (out / f"shot-{i + 1:02d}.png").exists():
+            rank_shot[r] = out / f"shot-{i + 1:02d}.png"
+    if len(rank_shot) < 5:
+        return short_cover(script, out)
+    one = Image.open(rank_shot[1]).convert("RGB")
+    img = cover(one, CW, CH).filter(ImageFilter.GaussianBlur(28))
+    img = ImageEnhance.Brightness(img).enhance(0.35)
+    d = ImageDraw.Draw(img)
+    # the question on top
+    text = re.sub(r"[^\w\s?!*ऀ-ॿ-]", "", script.get("cover_text") or script["title"]).strip()
+    f = K.display(118)
+    words = text.split()
+    lines = [""]
+    for w in words:
+        if lines[-1] and d.textlength((lines[-1] + " " + w).replace("*", ""), font=f) > CW * 0.88:
+            lines.append(w)
+        else:
+            lines[-1] = (lines[-1] + " " + w).strip()
+    y = 200
+    hot = False  # inside a *marked phrase* (it can span words: "*नंबर एक*"): one yellow box
+    for ln in lines[:2]:
+        x = (CW - d.textlength(ln.replace("*", ""), font=f)) / 2
+        runs = []  # (text, marked) runs of consecutive words
+        for w in ln.split():
+            start, end = w.startswith("*"), w.endswith("*") and len(w) > 1
+            marked = hot or start
+            hot = (hot or start) and not end
+            t = w.replace("*", "")
+            if runs and runs[-1][1] == marked:
+                runs[-1] = (runs[-1][0] + " " + t, marked)
+            else:
+                runs.append((t, marked))
+        for t, marked in runs:
+            tw = d.textlength(t, font=f)
+            if marked:
+                bb = d.textbbox((x, y), t, font=f, anchor="lm")
+                d.rectangle((x - 12, bb[1] - 10, x + tw + 12, bb[3] + 10), fill=K.YEL)
+                d.text((x, y), t, font=f, anchor="lm", fill=K.INK)
+            else:
+                d.text((x, y), t, font=f, anchor="lm", fill=K.BONE, stroke_width=9, stroke_fill=K.INK)
+            x += tw + d.textlength(" ", font=f)
+        y += f.size * 1.15
+    # #5..#2: a row of numbered portraits
+    tw_, th_, gap, top = 236, 330, 12, int(y) + 20
+    x0 = (CW - (4 * tw_ + 3 * gap)) / 2
+    for k, r in enumerate((5, 4, 3, 2)):
+        tile = cover(Image.open(rank_shot[r]).convert("RGB"), tw_, th_)
+        tile = ImageEnhance.Contrast(ImageEnhance.Color(tile).enhance(1.2)).enhance(1.1)
+        x = int(x0 + k * (tw_ + gap))
+        mask = Image.new("L", (tw_, th_), 0)
+        ImageDraw.Draw(mask).rounded_rectangle((0, 0, tw_, th_), 26, fill=255)
+        img.paste(tile, (x, top), mask)
+        d.rounded_rectangle((x, top, x + tw_, top + th_), 26, outline=K.YEL, width=5)
+        d.ellipse((x + 10, top + 10, x + 82, top + 82), fill=K.RED, outline=K.INK, width=4)
+        d.text((x + 46, top + 48), str(r), font=K.display(52), fill=K.BONE, anchor="mm")
+    # #1: the big mystery
+    by, bw, bh = top + th_ + 40, 760, 620
+    bx = (CW - bw) // 2
+    big = cover(one, bw, bh)
+    big = ImageEnhance.Brightness(ImageEnhance.Color(big).enhance(0.2)).enhance(0.18)  # a silhouette
+    mask = Image.new("L", (bw, bh), 0)
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, bw, bh), 40, fill=255)
+    img.paste(big, (bx, by), mask)
+    d.rounded_rectangle((bx, by, bx + bw, by + bh), 40, outline=K.YEL, width=8)
+    d.text((CW / 2, by + bh / 2 + 10), "?", font=K.display(420), fill=K.YEL, anchor="mm", stroke_width=12, stroke_fill=K.INK)
+    d.rounded_rectangle((bx - 20, by - 40, bx + 230, by + 60), 30, fill=K.RED, outline=K.INK, width=5)
+    d.text((bx + 105, by + 8), "नंबर 1", font=K.display(64), fill=K.BONE, anchor="mm")
+    K.grain(img).save(out / "thumb.jpg", quality=95)
+    print(out / "thumb.jpg")
+
+
 def main(script_path, out_dir):
     script = json.loads(Path(script_path).read_text())
     out = Path(out_dir)
@@ -148,7 +233,7 @@ def main(script_path, out_dir):
         out.mkdir(parents=True, exist_ok=True)
         (out / "cover.png").write_bytes(picked.read_bytes())
     if script.get("format") == "short":
-        return short_cover(script, out)
+        return ranking_cover(script, out) if script.get("series") == "ranking" else short_cover(script, out)
     if (script.get("thumbnail") or {}).get("layout") == "face":
         return face_layout(script, out)
     plane = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
