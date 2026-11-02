@@ -94,6 +94,7 @@ def track_scripts(released):
             err = "see dashboard/data/thw_kaggle.last.log"
         elif sc.get("approved"):
             where = ("on GitHub (no GPU: the English paintings are reused)" if slug.endswith("-hi")
+                     else "on GitHub (a quiz: drawn frames + Divya's voice, no GPU)" if slug.startswith("gk-")
                      else "painted on Kaggle, then narrated and edited on GitHub" if slug.startswith("dk-") else "in the next Kaggle run")
             status, step, err = "script", f"Script approved: made {where} ({about})", None
         else:
