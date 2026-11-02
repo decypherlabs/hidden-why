@@ -1,6 +1,10 @@
 name: voice-sample
 # Indic Parler-TTS samples on a free runner (tools/parler_sample.py)
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      set:
+        default: ""
 jobs:
   sample:
     runs-on: ubuntu-latest
@@ -15,6 +19,7 @@ jobs:
           pip install -q git+https://github.com/huggingface/parler-tts.git soundfile && pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
       - run: python tools/parler_sample.py out/voices
         env:
+          SET: ${{ inputs.set }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
       - uses: actions/upload-artifact@v4
         with:
