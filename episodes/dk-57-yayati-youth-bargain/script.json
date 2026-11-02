@@ -45,7 +45,8 @@
      "vo": "उन्होंने अपने बेटों से उनकी जवानी माँगी।",
      "prompt": "Old King Yayati with white beard and golden crown standing on the left, extending a pleading hand toward a young prince on the right, both waist-up, palace courtyard, warm light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "बड़े बेटों ने मना कर दिया।",
@@ -73,5 +74,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 07:42"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T01:36:56Z",
+  "rounds": 1,
+  "why": {
+   "4": "The two men's hands are tangled and merged at the handshake, and the arms look unnatural. The faces are small and hard to check."
+  }
+ }
 }
