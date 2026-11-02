@@ -57,7 +57,8 @@
      "vo": "ग्रंथ कहता है, विद्वान उसे माना जाएगा जो चतुराई से बोलना जानता हो।",
      "prompt": "Close-up of an ancient rishi's hands and face, writing on a palm leaf by firelight, a thoughtful and grave expression, shadows flickering on the wall, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, dollar bills, US dollars, american currency, banknotes, paper money"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, dollar bills, US dollars, american currency, banknotes, paper money",
+     "seed": 8925
     },
     {
      "vo": "आज स्क्रीन पर जो सबसे अच्छा बोले, लोग उसी को ज्ञानी मान लेते हैं।",
@@ -69,7 +70,8 @@
      "vo": "ज्ञान बोलने में नहीं, जीने में होता है। सच को परखना ही हमारा धर्म है।",
      "prompt": "Wide shot of a crowded modern Indian city at night, glowing neon signs and streams of lights, people seen only as small distant silhouettes with no visible faces, a quiet reflective mood, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, dollar bills, US dollars, american currency, banknotes, paper money"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, dollar bills, US dollars, american currency, banknotes, paper money",
+     "seed": 8927
     },
     {
      "vo": "हरे कृष्ण। ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -81,5 +83,21 @@
   }
  ],
  "art_style": "photorealistic dark cinematic scene, ominous stormy sky, deep crimson and teal light, dramatic volumetric light, high contrast, apocalyptic mood, ultra detailed, sharp focus, no text",
- "series": "kalyug"
+ "series": "kalyug",
+ "repaint": {
+  "shots": [
+   6,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 18:38"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T12:32:39Z",
+  "rounds": 1,
+  "why": {
+   "6": "Face is dark and its eyes can't be made out. Both hands look distorted, with too many or merged fingers.",
+   "8": "Neon and shop signs have garbled, painted-in lettering."
+  }
+ }
 }
