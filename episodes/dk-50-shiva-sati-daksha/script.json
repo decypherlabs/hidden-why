@@ -39,13 +39,15 @@
      "vo": "शिव ने सती को जाने से रोका, पर सती पिता के घर जाना चाहती थीं।",
      "prompt": "Lord Shiva with blue throat, crescent moon, matted hair and a snake around his neck stands on the left, calm and concerned; Goddess Sati in a modest red sari stands on the right, pleading, both waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "यज्ञ में पहुँचीं तो पिता ने उनकी ओर देखा तक नहीं।",
      "prompt": "Close-up of Goddess Sati in a modest red sari, her face hurt and bewildered, standing at the edge of a grand yagna hall, torchlight on her face, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "दक्ष ने सबके सामने शिव का अपमान किया।",
@@ -79,5 +81,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   3,
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 05:51"
+ },
+ "shot_qc": {
+  "checked": "2026-11-01T23:46:07Z",
+  "rounds": 1,
+  "why": {
+   "3": "A reptile head is fused onto a blue snake body, and the creature is stacked against the woman's shoulder.",
+   "4": "A second small figure sits directly above her head in the background, so it reads as a stacked or duplicated figure."
+  }
+ }
 }
