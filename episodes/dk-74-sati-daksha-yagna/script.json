@@ -39,7 +39,8 @@
      "vo": "सती बिना बुलाए पहुँचीं, तो दक्ष ने सबके सामने शिव का अपमान किया।",
      "prompt": "King Daksha with a golden crown standing on the left, pointing angrily, and Goddess Sati in a red sari standing on the right, hurt and shocked, both waist-up, yagna fire glow behind, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "पति का अपमान सती सह न सकीं, और उन्होंने योग की अग्नि में देह त्याग दी।",
@@ -73,5 +74,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   3
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 15:04"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T08:58:50Z",
+  "rounds": 1,
+  "why": {
+   "3": "Hands near the woman's waist and the man's arm are tangled and ambiguous, so there appears to be an extra hand or arm that doesn't belong."
+  }
+ }
 }
