@@ -45,7 +45,8 @@
      "vo": "आज देखिए, लोग इंसान को उसकी गाड़ी और घर से तौलते हैं।",
      "prompt": "Wide shot of a crowded modern Indian city at night with bright neon signs, tall glass towers and a luxury car on the road, people only as tiny faceless silhouettes, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, dollar bills, US dollars, american currency, banknotes, paper money"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, dollar bills, US dollars, american currency, banknotes, paper money",
+     "seed": 8923
     },
     {
      "vo": "महँगे कपड़ों वाले की बात सब सुनते हैं, सादे कपड़ों वाले की नहीं।",
@@ -63,7 +64,8 @@
      "vo": "पर सच्चा गुण आचरण में बसता है, तिजोरी में नहीं।",
      "prompt": "A single glowing brass oil lamp burning steadily beside an old palm-leaf manuscript on a wooden table, warm light in surrounding darkness, no people, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, dollar bills, US dollars, american currency, banknotes, paper money"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, dollar bills, US dollars, american currency, banknotes, paper money",
+     "seed": 8926
     },
     {
      "vo": "हरे कृष्ण। ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -75,5 +77,21 @@
   }
  ],
  "art_style": "photorealistic dark cinematic scene, ominous stormy sky, deep crimson and teal light, dramatic volumetric light, high contrast, apocalyptic mood, ultra detailed, sharp focus, no text",
- "series": "kalyug"
+ "series": "kalyug",
+ "repaint": {
+  "shots": [
+   4,
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 18:37"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T12:32:08Z",
+  "rounds": 1,
+  "why": {
+   "4": "Neon signs show painted-in letters and garbled characters",
+   "7": "Manuscript pages have painted-in text and letters"
+  }
+ }
 }
