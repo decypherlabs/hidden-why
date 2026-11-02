@@ -45,7 +45,8 @@
      "vo": "बहुत पहले रावण ने अप्सरा रंभा का अपमान किया था।",
      "prompt": "Apsara Rambha, modestly dressed in a traditional saree with jewellery, frightened face, on the left; Ravana with ONE face and his golden crown on the right, both waist-up, moonlit forest, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "पर असली मोड़ अब आता है।",
@@ -73,5 +74,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 12:39"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T06:33:18Z",
+  "rounds": 1,
+  "why": {
+   "4": "a stray thin circular outline is painted across the right cheek and eye area, which looks like a melted or garbled artifact on the face"
+  }
+ }
 }
