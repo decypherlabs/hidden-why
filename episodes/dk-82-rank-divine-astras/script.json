@@ -51,13 +51,15 @@
      "vo": "नंबर दो: नारायणास्त्र। पिता के वध पर अश्वत्थामा ने छोड़ा, और श्रीकृष्ण बोले, शस्त्र छोड़ दो।",
      "prompt": "Ashwatthama with a gem on his forehead, modestly dressed, waist-up from a low heroic angle, raising a glowing blue-white arrow as countless fiery arrows fill the sky behind him, angry face, one figure alone, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, two bows, duplicate weapons, extra weapon, two swords"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, two bows, duplicate weapons, extra weapon, two swords",
+     "seed": 8924
     },
     {
      "vo": "पर असली मोड़ अब आता है। नंबर एक: पाशुपतास्त्र। महादेव ने अर्जुन को दिया, पर कमज़ोर शत्रु पर चलाना मना था।",
      "prompt": "Lord Shiva with blue throat, crescent moon, matted locks and a snake around his neck, modestly dressed, waist-up from a low heroic angle, holding a bow with a blazing divine arrow of fire, cosmic flames behind him, one figure alone, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, two bows, duplicate weapons, extra weapon, two swords"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, two bows, duplicate weapons, extra weapon, two swords",
+     "seed": 8925
     },
     {
      "vo": "आपके हिसाब से नंबर एक कौन? कमेंट करें। हर हर महादेव! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -69,5 +71,21 @@
   }
  ],
  "art_style": "photorealistic cinematic epic battle poster, heroic low-angle shot, dramatic rim light, fiery embers and storm sky, high contrast, intense colour, epic scale, ultra detailed, sharp focus, no text",
- "series": "ranking"
+ "series": "ranking",
+ "repaint": {
+  "shots": [
+   5,
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 18:36"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T12:32:46Z",
+  "rounds": 1,
+  "why": {
+   "6": "A second small blue face sits on the topknot above the head, so there is an extra face.",
+   "5": "A letter-like 'A' mark is painted on the blue sash at the shoulder."
+  }
+ }
 }
