@@ -34,6 +34,7 @@ jobs:
           if [ -d "episodes/$S" ]; then EP="episodes/$S"; else EP="episodes/${S#smoke-}"; fi   # smoke tests reuse an episode
           echo "EP=$EP" >> "$GITHUB_ENV"
           echo "HW_BRAND=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1])).get('brand') or '')" "$EP/script.json")" >> "$GITHUB_ENV"
+          echo "QUIZ=$(python3 -c "import json,sys; print('1' if json.load(open(sys.argv[1])).get('format') == 'quiz' else '')" "$EP/script.json")" >> "$GITHUB_ENV"  # Soch Ke Batao: no paintings
       - name: Python packages
         run: |
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
@@ -50,7 +51,9 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           mkdir -p "out/${{ inputs.slug }}"
-          if [ "${{ inputs.placeholder }}" = "true" ]; then
+          if [ -n "$QUIZ" ]; then
+            echo "quiz: drawn frames, no paintings"
+          elif [ "${{ inputs.placeholder }}" = "true" ]; then
             python pipeline/placeholder.py "$EP/script.json" "out/${{ inputs.slug }}"
           else
             P=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1])).get('paint_from') or sys.argv[2])" "$EP/script.json" "${{ inputs.slug }}")
@@ -62,9 +65,12 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python pipeline/narrate.py "$EP/script.json" "out/${{ inputs.slug }}"
       - name: Edit
-        run: python pipeline/build.py "$EP/script.json" "out/${{ inputs.slug }}"
+        run: |
+          if [ -n "$QUIZ" ]; then python pipeline/quiz.py "$EP/script.json" "out/${{ inputs.slug }}"
+          else python pipeline/build.py "$EP/script.json" "out/${{ inputs.slug }}"; fi
       - name: Thumbnail
-        run: python pipeline/thumb.py "$EP/script.json" "out/${{ inputs.slug }}"
+        run: |
+          [ -n "$QUIZ" ] || python pipeline/thumb.py "$EP/script.json" "out/${{ inputs.slug }}"  # quiz.py made it
       - name: Collect
         run: |
           mkdir -p final && cd "out/${{ inputs.slug }}"

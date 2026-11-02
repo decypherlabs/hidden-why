@@ -31,6 +31,8 @@ VIDEOS = RB / "videos" / "hidden-why"
 def niche(slug):
     """Hindi editions (episodes/<slug>-hi) belong to The Hidden Why Hindi's category, dk-* to Devlok Katha's
     (owner, 31 Oct 2026)."""
+    if slug.startswith("gk-"):  # Soch Ke Batao quizzes (owner, 2 Nov 2026)
+        return "soch-ke-batao"
     return "devlok-katha" if slug.startswith("dk-") else "hidden-why-hindi" if slug.endswith("-hi") else "hidden-why"
 
 

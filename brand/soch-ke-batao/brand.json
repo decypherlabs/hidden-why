@@ -1,0 +1,15 @@
+{
+ "name": "Soch Ke Batao",
+ "handle": "@SochKeBatao",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
+  "_about": "owner, 31 Oct 2026: Divya (Indic Parler-TTS, Apache-2.0, free on GitHub's CPU runners; needs HF_TOKEN for the gated model)"
+ },
+ "fonts": {
+  "display": "devlok-katha/fonts/Hind-Bold.ttf",
+  "body": "fonts/Inter.ttf"
+ },
+ "_about": "owner, 2 Nov 2026: Hindi GK quiz Shorts. Divya's voice (same as DK, owner: 'Divya is the best'); frames drawn by pipeline/quiz.py (design approved 2 Nov)"
+}
