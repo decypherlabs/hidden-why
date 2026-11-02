@@ -27,7 +27,8 @@
      "vo": "अमृत पीने वाले असुर का सिर कटा, फिर भी वह आज तक नहीं मरा।",
      "prompt": "Bright close-up of Lord Vishnu with calm blue-skinned face, golden crown with peacock feather, gentle divine glow, modestly dressed in yellow garments, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "देवताओं की पंक्ति में बैठा एक असुर, और किसी को ख़बर तक नहीं थी।",
@@ -84,18 +85,16 @@
  ],
  "repaint": {
   "shots": [
-   6,
-   7
+   1
   ],
   "thumbs": [],
-  "at": "2026-11-02 12:39"
+  "at": "2026-11-02 13:53"
  },
  "shot_qc": {
-  "checked": "2026-11-02T06:33:25Z",
-  "rounds": 1,
+  "checked": "2026-11-02T07:48:50Z",
+  "rounds": 2,
   "why": {
-   "6": "Figures duplicated: two identical crowned men and two identical face medallions above them.",
-   "7": "Extra blue hands rest on both shoulders with no clear arms or body they belong to."
+   "1": "The eyes look half-closed and muddy, and they don't match each other. A stray yellow wing shape sticks out on the left."
   }
  }
 }
