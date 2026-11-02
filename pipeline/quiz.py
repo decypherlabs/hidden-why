@@ -194,12 +194,23 @@ def main(script_path, out_dir):
     try:  # a low bed under everything (the repo's licensed library)
         sys.path.insert(0, str(ROOT / "brand"))
         import brandcfg as K
-        m = K.asset("music/intense.mp3")
+        # the quiz-suspense bed (owner, 2 Nov 2026: "suspicious, thriller music, as it goes in a quiz"): full under the
+        # question and the countdown, cut on the reveal chime, then a quiet return under the explanation
+        m = K.asset("music/suspense.mp3")
+        m = m if m.exists() else K.asset("music/intense.mp3")
         tmp = Path(tempfile.mkdtemp()) / "m.wav"
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(m), "-ac", "1", "-ar", str(SR), str(tmp)], check=True)
         bed = sf.read(tmp, dtype="float32")[0]
         bed = np.tile(bed, int(np.ceil(len(music) / len(bed))))[:len(music)]
-        music = bed * 0.08
+        t = np.arange(len(music)) / SR
+        reveal = t_q + t_b
+        level = np.where(t < t_q, 0.16, 0.24)  # louder through the countdown
+        level = np.where(t >= reveal, 0.0, level)
+        back = (t >= reveal + 1.2)
+        level = np.where(back, 0.05 * np.clip((t - reveal - 1.2) / 0.8, 0, 1), level)
+        fade = (t >= reveal - 0.15) & (t < reveal)
+        level = np.where(fade, 0.24 * (reveal - t) / 0.15, level)
+        music = bed * level.astype(np.float32)
     except Exception as e:  # noqa: BLE001 - no music is better than no video
         print(f"  music skipped ({e})")
     mix = voice + fx + music
