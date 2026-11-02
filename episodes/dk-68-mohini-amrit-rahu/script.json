@@ -57,13 +57,15 @@
      "vo": "सूर्य और चंद्र देव ने उसे पहचान लिया और भगवान को इशारा कर दिया।",
      "prompt": "Surya Dev with a radiant golden halo on the left and Chandra Dev with a crescent moon on his crown on the right, both waist-up, faces alarmed, pointing toward the same direction, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "पर असली मोड़ अब आता है।",
      "prompt": "Close-up of Lord Vishnu with four arms and blue skin raising the glowing Sudarshana chakra, fierce focused eyes, golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "सुदर्शन चक्र ने सिर काट दिया, पर अमृत गले तक पहुँच चुका था, इसलिए सिर अमर हो गया।",
@@ -79,5 +81,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   6,
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 12:39"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T06:33:25Z",
+  "rounds": 1,
+  "why": {
+   "6": "Figures duplicated: two identical crowned men and two identical face medallions above them.",
+   "7": "Extra blue hands rest on both shoulders with no clear arms or body they belong to."
+  }
+ }
 }
