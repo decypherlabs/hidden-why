@@ -45,7 +45,8 @@
      "vo": "लोग भीड़ में हैं, फिर भी हर कोई अपने फ़ोन में अकेला है।",
      "prompt": "Wide shot of a crowded neon-lit Indian city street at night, many people seen only from behind as small silhouettes with no visible faces, each lit by the glow of a phone screen, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, dollar bills, US dollars, american currency, banknotes, paper money"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, dollar bills, US dollars, american currency, banknotes, paper money",
+     "seed": 8923
     },
     {
      "vo": "पर असली मोड़ अब आता है।",
@@ -69,5 +70,19 @@
   }
  ],
  "art_style": "photorealistic dark cinematic scene, ominous stormy sky, deep crimson and teal light, dramatic volumetric light, high contrast, apocalyptic mood, ultra detailed, sharp focus, no text",
- "series": "kalyug"
+ "series": "kalyug",
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 18:38"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T12:32:30Z",
+  "rounds": 1,
+  "why": {
+   "4": "Shop signs have letters or script painted in (e.g. the green sign at top left and the red sign at right)."
+  }
+ }
 }
