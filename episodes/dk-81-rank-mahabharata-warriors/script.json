@@ -52,7 +52,8 @@
      "vo": "नंबर तीन: आचार्य द्रोण, अस्त्र-विद्या के महान गुरु, जिन्हें भीष्म ने अतिरथी कहा।",
      "prompt": "Acharya Drona, an elderly white-haired warrior-teacher with a white beard and a sacred thread, holding a bow with an arrow nocked, mid-action, heroic low angle, stern wise face, modest saffron-and-white dress, waist-up, alone, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, two bows, duplicate weapons, extra weapon, two swords"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, two bows, duplicate weapons, extra weapon, two swords",
+     "seed": 8924
     },
     {
      "vo": "नंबर दो: स्वयं भीष्म, जिन्हें इच्छामृत्यु का वरदान था। पर असली मोड़ अब आता है।",
@@ -79,16 +80,16 @@
  "series": "ranking",
  "repaint": {
   "shots": [
-   1
+   5
   ],
   "thumbs": [],
-  "at": "2026-11-02 18:36"
+  "at": "2026-11-02 19:59"
  },
  "shot_qc": {
-  "checked": "2026-11-02T12:32:23Z",
-  "rounds": 1,
+  "checked": "2026-11-02T13:53:13Z",
+  "rounds": 2,
   "why": {
-   "1": "Two bows, one in hand and another crossing low at the left, with ambiguous extra limbs/straps. The figure's arms are unclear, so it reads as extra limbs."
+   "5": "Two bow shapes: a diagonal stick at upper left plus a separate bow on the right. This looks like a duplicated or merged bow and arm."
   }
  }
 }
