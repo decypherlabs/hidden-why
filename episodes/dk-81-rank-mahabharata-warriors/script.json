@@ -1,0 +1,80 @@
+{
+ "slug": "dk-81-rank-mahabharata-warriors",
+ "format": "short",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "title": "भीष्म ने किसे नंबर एक चुना? ⚔️",
+ "hook_text": "नंबर एक उनका अपना नहीं",
+ "cover_text": "भीष्म का *नंबर एक* कौन?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Close-up of the aged Bhishma, white-haired and white-bearded, in white robes with a simple gold armlet, seated in a war camp at dusk, looking forward with a calm, solemn gaze as if naming the greatest warrior; behind him the blurred silhouette of a war chariot in firelight, one scene, no text"
+ },
+ "music": {
+  "epic": [
+   "main"
+  ]
+ },
+ "source": "Mahabharata, Udyoga Parva (Rathatiratha-sankhyana, chapters 162-169: Bhishma rates the warriors)",
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "भीष्म ने रणभूमि से पहले महारथी गिने, और नंबर एक उनका अपना नहीं था।",
+     "prompt": "Dramatic dark silhouette of Arjuna with a great bow drawn, a crown on his head, his face fully in shadow, standing against a blazing orange sunset sky on a battlefield, waist-up, modestly dressed in warrior's armor, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन ने पूछा, कौन कितना बड़ा रथी है, और भीष्म ने सबको तौल दिया।",
+     "prompt": "Two figures waist-up in a war camp tent lit by oil lamps: on the left Duryodhana with a gold crown and a stern, demanding face, on the right the aged Bhishma with white hair and a white beard in white robes, answering calmly, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "नंबर पाँच: भीम, जिनमें दस हज़ार हाथियों का बल था।",
+     "prompt": "Bhima, a towering broad-shouldered warrior with a thick moustache, swinging a massive mace overhead mid-action, heroic low angle, fierce determined face, modest warrior dress, battlefield dust, waist-up, alone, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "नंबर चार: कर्ण, कवच और कुंडल के साथ जन्मे, जिन्हें भीष्म ने अर्धरथी कहा।",
+     "prompt": "Karna with golden natural armor and shining gold earrings, drawing a great bow mid-action, heroic low angle, glowing face like the sun, modest warrior dress, waist-up, alone, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "नंबर तीन: आचार्य द्रोण, अस्त्र-विद्या के महान गुरु, जिन्हें भीष्म ने अतिरथी कहा।",
+     "prompt": "Acharya Drona, an elderly white-haired warrior-teacher with a white beard and a sacred thread, holding a bow with an arrow nocked, mid-action, heroic low angle, stern wise face, modest saffron-and-white dress, waist-up, alone, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "नंबर दो: स्वयं भीष्म, जिन्हें इच्छामृत्यु का वरदान था। पर असली मोड़ अब आता है।",
+     "prompt": "Bhishma, white-haired and white-bearded, in gleaming armor, raising a great bow with an arrow ready, heroic low angle, powerful calm face, his war chariot blurred behind, waist-up, alone, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "नंबर एक: अर्जुन, जिनके सारथी स्वयं श्रीकृष्ण थे।",
+     "prompt": "Arjuna with a crown and the divine bow Gandiva, aiming a glowing arrow mid-action, heroic low angle, radiant determined face, a golden light behind him, modest warrior dress, waist-up, alone, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आपके हिसाब से नंबर एक कौन? कमेंट करें। जय श्री कृष्ण! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
+     "prompt": "Lord Krishna with a peacock feather in his crown and a gentle smile, holding the reins of a chariot, bright warm golden light, close-up of his serene face, modest yellow dhoti and garland, alone, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ],
+ "art_style": "photorealistic cinematic epic battle poster, heroic low-angle shot, dramatic rim light, fiery embers and storm sky, high contrast, intense colour, epic scale, ultra detailed, sharp focus, no text",
+ "series": "ranking",
+ "hold_build": true
+}

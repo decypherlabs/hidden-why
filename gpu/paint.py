@@ -57,6 +57,7 @@ def main(script_path, out_dir, part=0, parts=1):
     print(f"  SDXL from {src}", flush=True)
     pipe.enable_vae_slicing()
     style, neg = BRAND["art_style"], BRAND["art_negative"]
+    style = script.get("art_style") or style  # a series' own look (DK ranking / Kalyug, 2 Nov 2026)
     th = script.get("thumbnail") or {}
     # SDXL has two text encoders (77 tokens each). The second (OpenCLIP bigG) also gives the pooled
     # embedding that sets the overall composition, so it must carry the SUBJECT too: subject alone on the
@@ -73,7 +74,7 @@ def main(script_path, out_dir, part=0, parts=1):
         jobs.append((out / "thumb-plane.png", th["plane"], f"{th['plane']}, {thumb_style}", neg, 1344, 768, 7))
     cv = (script.get("cover") or {}).get("prompt")
     if cv:  # a Short's own cover painting: the one image that says the title (owner, 31 Oct: DK covers didn't match)
-        cs = BRAND.get("cover_style") or style  # DK: realistic, not the folk style (owner: "realistic, engaging, hooking")
+        cs = script.get("art_style") or BRAND.get("cover_style") or style  # DK: realistic, not the folk style (owner: "realistic, engaging, hooking")
         jobs.append((out / "cover.png", cv, f"{cv}, {cs}", f"blood, gore, deformed, extra limbs, {neg}", sw, sh, int((script.get("cover") or {}).get("seed") or 9)))
     if th.get("zoom"):
         jobs.append((out / "thumb-zoom.png", th["zoom"], f"{th['zoom']}, {thumb_style}", neg, 1024, 1024, 8))
