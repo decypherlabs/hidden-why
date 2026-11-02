@@ -10,7 +10,8 @@
  "cover_text": "जाम्बवान ने *बेटी* क्यों दी?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Lord Krishna with dark blue skin, peacock feather crown and yellow garments, waist-up, facing a mighty old bear-king Jambavan with thick dark fur, standing left and right in a dim cave lit by a glowing jewel between them, both with fists raised, intense determined expressions, no touching, dramatic golden light"
+  "prompt": "Lord Krishna with dark blue skin, peacock feather crown and yellow garments, waist-up, facing a mighty old bear-king Jambavan with thick dark fur, standing left and right in a dim cave lit by a glowing jewel between them, both with fists raised, intense determined expressions, no touching, dramatic golden light",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -51,7 +52,8 @@
      "vo": "दोनों में युद्ध छिड़ा, और वह पूरे अट्ठाईस दिन चला।",
      "prompt": "Lord Krishna with dark blue skin and peacock feather crown standing on the left, Jambavan the mighty bear-king with dark fur standing on the right, facing each other with raised fists in a cave, not touching, dramatic torch light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "आख़िर जाम्बवान की शक्ति घटने लगी। पर असली मोड़ अब आता है।",
@@ -63,7 +65,8 @@
      "vo": "वे पहचान गए कि ये तो उनके प्रभु हैं, और हाथ जोड़कर क्षमा माँगने लगे।",
      "prompt": "Jambavan, an old bear-king with dark fur, waist-up, with paws folded in reverence and bowed head, a glowing jewel at his side, soft golden light in a cave, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "उन्होंने मणि के साथ अपनी बेटी जाम्बवती का विवाह कृष्ण से करा दिया।",
@@ -79,5 +82,24 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5,
+   7
+  ],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-02 16:18"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T10:43:42Z",
+  "rounds": 1,
+  "why": {
+   "5": "The bear-headed humanoid has a bear head fused onto a human body. The pose is also awkward, with a raised hand near the other figure's head.",
+   "7": "A bear head sits on a robed, human-like torso, so the animal is fused with a person.",
+   "C": "A large bear is stacked directly behind the figure, and a small extra teal bear-like head sits beside the crown, giving the figure an extra head."
+  }
+ }
 }
