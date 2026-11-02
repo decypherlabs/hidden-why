@@ -40,7 +40,8 @@
      "vo": "यज्ञ में भगवान विष्णु वामन बालक बनकर आए।",
      "prompt": "Lord Vamana as a small Brahmin boy with a sacred thread, holding an umbrella and a water pot, waist-up, standing at the entrance of a yajna hall with a sacred fire behind, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "उन्होंने बलि से केवल तीन पग भूमि माँगी।",
@@ -84,18 +85,16 @@
  ],
  "repaint": {
   "shots": [
-   2,
-   4
+   3
   ],
   "thumbs": [],
-  "at": "2026-11-02 05:50"
+  "at": "2026-11-02 07:04"
  },
  "shot_qc": {
-  "checked": "2026-11-01T23:45:51Z",
-  "rounds": 1,
+  "checked": "2026-11-02T00:59:55Z",
+  "rounds": 2,
   "why": {
-   "2": "Hands at both edges look malformed or like extra limbs, and the eyes are muddy and unclear.",
-   "4": "The two boys' bodies and arms are tangled, with the lower boy's arm and hand merging into the figure behind, so it's unclear which limb belongs to whom."
+   "3": "The umbrella has no hand holding it. Its pole disappears behind the head, so it looks like it is floating."
   }
  }
 }
