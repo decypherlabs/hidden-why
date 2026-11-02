@@ -63,7 +63,8 @@
      "vo": "भीम और जरासंध कई दिन लड़े, पर जरासंध हारता ही नहीं था।",
      "prompt": "Bhima, a very muscular warrior with a thick moustache, on the left, wrestling Jarasandha, a crowned king, on the right, both modestly dressed in simple wrestling cloth, waist-up, dust in the air, intense expressions, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "पर असली मोड़ अब आता है। कृष्ण ने एक तिनका बीच से चीरकर दो दिशाओं में फेंका।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 10:11"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T04:05:17Z",
+  "rounds": 1,
+  "why": {
+   "7": "Three men crowded together with merged, overlapping bodies. The lower-left man's head and shoulders sit stacked against the back man's torso, so the figures look fused."
+  }
+ }
 }
