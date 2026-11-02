@@ -27,7 +27,8 @@
      "vo": "जिस राजा को सात दिन में मरना था, उसने डरने के बजाय कुछ और चुना।",
      "prompt": "Bright close-up of King Parikshit, a young Indian king with a gold crown and modest royal garments, calm and resolute expression, warm golden light on his face, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "एक साँप ने उसके जीवन की घड़ी तय कर दी थी, और वो भी एक बच्चे के श्राप से।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   1
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 09:32"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T03:27:29Z",
+  "rounds": 1,
+  "why": {
+   "1": "A second golden crown or head fragment sits behind the figure at the left edge, which reads as a stray duplicate figure."
+  }
+ }
 }
