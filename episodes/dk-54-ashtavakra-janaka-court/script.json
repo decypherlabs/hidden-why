@@ -63,7 +63,8 @@
      "vo": "उसकी बुद्धि भरी बातें सुनकर राजा जनक और पूरी सभा दंग रह गई।",
      "prompt": "King Janaka on the left, a dignified king with a golden crown and a thoughtful astonished face, young sage Ashtavakra with a bent body on the right looking at him calmly, both waist-up, royal court hall, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "ज्ञान रूप से नहीं, बुद्धि से मापा जाता है। अष्टावक्र ने बंदी को हराकर पिता को लौटा लिया।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 07:05"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T01:00:34Z",
+  "rounds": 1,
+  "why": {
+   "7": "Two crowned figures stacked one above the other. The rear figure's head and body sit directly on top of the front figure, so it reads as a duplicated or merged body."
+  }
+ }
 }
