@@ -57,7 +57,8 @@
      "vo": "क्रोध में उसने श्रीकृष्ण को बंदी बनाने का आदेश दिया।",
      "prompt": "Duryodhana in golden crown on the left pointing commandingly, and Lord Krishna with dark blue skin and peacock feather crown on the right, calm and unafraid, waist-up, court hall, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "तब श्रीकृष्ण ने अपना विराट रूप प्रकट किया।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 06:28"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T00:23:15Z",
+  "rounds": 1,
+  "why": {
+   "6": "Three figures are crowded and overlap, with faces stacked behind and beside each other. The bodies are merged, with the middle figure's head and body tangled into the left figure."
+  }
+ }
 }
