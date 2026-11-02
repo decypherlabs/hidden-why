@@ -27,13 +27,15 @@
      "vo": "जिस गणेश ने शिव के शिष्य को रोका, उसी का दाँत टूट गया।",
      "prompt": "Close-up bright portrait of Lord Ganesha with an elephant head and one tusk, a firm and calm expression, warm golden light, ornate crown, modestly dressed, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "कैलाश के द्वार पर एक पुत्र और एक योद्धा-ऋषि आमने-सामने थे।",
      "prompt": "Lord Ganesha with an elephant head and one tusk standing on the left, Parashurama, a stern sage with matted hair, saffron robes and an axe, standing on the right, facing each other at a grand Kailash gateway, waist-up, modestly dressed, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "परशुराम, शिव जी के अपने शिष्य, उनसे मिलने कैलाश आए थे।",
@@ -73,5 +75,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   1,
+   2
+  ],
+  "thumbs": [],
+  "at": "2026-11-02 10:49"
+ },
+ "shot_qc": {
+  "checked": "2026-11-02T04:42:56Z",
+  "rounds": 1,
+  "why": {
+   "1": "A second grey elephant head or ears shows behind the main head, on both sides of the crown, so the figure looks stacked on another.",
+   "2": "Two Ganesha figures stand side by side and look duplicated. The left one is small and its anatomy is unclear."
+  }
+ }
 }
