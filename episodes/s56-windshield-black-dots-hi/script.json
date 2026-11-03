@@ -1,0 +1,66 @@
+{
+ "slug": "s56-windshield-black-dots-hi",
+ "format": "short",
+ "title": "गाड़ी के शीशे पर काले डॉट्स क्यों होते हैं? 🚗",
+ "hook_text": "शीशा सिर्फ चिपका है",
+ "approved": true,
+ "experiment": "short-20s",
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "गाड़ी का शीशा सिर्फ गोंद से चिपका है, और ये काले डॉट्स ही उसे टिकाए रखते हैं।",
+     "prompt": "extreme close-up of tiny black ceramic dots fading across the edge of a car windshield, sunlight behind, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गाड़ी का शीशा सिर्फ गोंद से चिपका है, और ये काले डॉट्स ही उसे टिकाए रखते हैं।"
+    },
+    {
+     "vo": "धूप उस गोंद को धीरे-धीरे खराब कर देती है।",
+     "prompt": "strong sun rays hitting the dark band along the top of a car windshield, seen from inside the car, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "धूप उस गोंद को धीरे-धीरे खराब कर देती है।"
+    },
+    {
+     "vo": "इसलिए एक पक्की काली पट्टी धूप को रोकती है।",
+     "prompt": "close-up of thick black adhesive bead along the edge of a car windshield frame during installation, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसलिए एक पक्की काली पट्टी धूप को रोकती है।"
+    },
+    {
+     "vo": "डॉट्स उस पट्टी को साफ शीशे में बदल देते हैं, ताकि किनारा बराबर गर्म हो, और शीशा टिका रहे।",
+     "prompt": "macro view of black dots getting smaller into clear glass at a windshield edge, soft heat glow, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "डॉट्स उस पट्टी को साफ शीशे में बदल देते हैं, ताकि किनारा बराबर गर्म हो, और शीशा टिका रहे।"
+    },
+    {
+     "vo": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।",
+     "prompt": "extreme close-up of tiny black ceramic dots fading across the edge of a car windshield, sunlight behind, the same close-up, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "*काले* डॉट्स क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s56-windshield-black-dots",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

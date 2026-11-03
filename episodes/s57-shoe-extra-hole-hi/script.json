@@ -1,0 +1,66 @@
+{
+ "slug": "s57-shoe-extra-hole-hi",
+ "format": "short",
+ "title": "आपके रनिंग शूज़ में एक छुपा छेद क्यों होता है? 👟",
+ "hook_text": "शूज़ का छुपा छेद",
+ "approved": true,
+ "experiment": "short-20s",
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपके रनिंग शूज़ में एक छुपा छेद है, जो आपके नाखून बचा सकता है।",
+     "prompt": "close-up of the top unused eyelet on a plain running shoe with an untied lace beside it, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आपके रनिंग शूज़ में एक छुपा छेद है, जो आपके नाखून बचा सकता है।"
+    },
+    {
+     "vo": "लगभग कोई इसे इस्तेमाल नहीं करता।",
+     "prompt": "close-up side view of a heel lifting slightly inside a loose plain running shoe, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लगभग कोई इसे इस्तेमाल नहीं करता।"
+    },
+    {
+     "vo": "लेस इसमें से निकालो, और एड़ी अपनी जगह लॉक हो जाती है।",
+     "prompt": "hands threading a shoelace through the top eyelet of a plain running shoe, forming a small loop, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेस इसमें से निकालो, और एड़ी अपनी जगह लॉक हो जाती है।"
+    },
+    {
+     "vo": "अब ढलान पर उँगलियाँ आगे नहीं टकरातीं, और नाखून बच जाते हैं।",
+     "prompt": "a runner's plain shoes striding down a sunny hillside trail, low angle, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "अब ढलान पर उँगलियाँ आगे नहीं टकरातीं, और नाखून बच जाते हैं।"
+    },
+    {
+     "vo": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।",
+     "prompt": "close-up of the top unused eyelet on a plain running shoe with an untied lace beside it, the same close-up, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "छुपा *छेद*",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s57-shoe-extra-hole",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

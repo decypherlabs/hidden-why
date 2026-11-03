@@ -1,0 +1,66 @@
+{
+ "slug": "s58-foil-shiny-side-hi",
+ "format": "short",
+ "title": "फ़ॉइल का एक side चमकदार क्यों होता है? ✨",
+ "hook_text": "चमकीला side बस हादसा है",
+ "approved": true,
+ "experiment": "short-20s",
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "फ़ॉइल का कौन सा side सही है? कोई फ़र्क नहीं पड़ता।",
+     "prompt": "a sheet of aluminum foil half folded, one side mirror shiny and the other side matte, on a kitchen counter, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "फ़ॉइल का कौन सा side सही है? कोई फ़र्क नहीं पड़ता।"
+    },
+    {
+     "vo": "चमकीला side तो फैक्ट्री की एक चूक है।",
+     "prompt": "huge steel rollers pressing a wide sheet of aluminum in a factory, sparks of light on metal, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "चमकीला side तो फैक्ट्री की एक चूक है।"
+    },
+    {
+     "vo": "आख़िरी रोलिंग में दो शीट्स एक साथ दबती हैं।",
+     "prompt": "two thin sheets of aluminum foil passing together between giant polished steel rollers, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आख़िरी रोलिंग में दो शीट्स एक साथ दबती हैं।"
+    },
+    {
+     "vo": "रोलर से छूने वाला side चमकता है, आपस में छूने वाला मैट रह जाता है।",
+     "prompt": "two layers of foil peeling apart, showing shiny outer faces and matte inner faces, macro, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "रोलर से छूने वाला side चमकता है, आपस में छूने वाला मैट रह जाता है।"
+    },
+    {
+     "vo": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।",
+     "prompt": "a sheet of aluminum foil half folded, one side mirror shiny and the other side matte, on a kitchen counter, the same close-up, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "*चमकीला* side क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s58-foil-shiny-side",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
