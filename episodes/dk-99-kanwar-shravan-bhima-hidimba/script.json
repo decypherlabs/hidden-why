@@ -33,7 +33,8 @@
      "vo": "लाक्षागृह की आग से बचे पांडव, थककर घने जंगल में सो गए। भीम अकेले पहरा दे रहे थे।",
      "prompt": "Bhima, a mighty Pandava prince in simple forest garments, sitting alert on guard at night in a dense forest, waist-up, behind him sleeping figures in the dark shadows with no visible faces, moonlight through the trees, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "राक्षस हिडिंब ने अपनी बहन हिडिंबा को भेजा, कि उन्हें पकड़कर ले आओ।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   2
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 04:23"
+ },
+ "shot_qc": {
+  "checked": "2026-11-03T22:17:48Z",
+  "rounds": 1,
+  "why": {
+   "2": "Face is a small, grey, smeared mask-like blob with unreadable eyes."
+  }
+ }
 }
