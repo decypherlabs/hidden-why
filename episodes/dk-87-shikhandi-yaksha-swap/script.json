@@ -10,7 +10,8 @@
  "cover_text": "यक्ष ने क्या *दिया*?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Close-up painting of the yaksha Sthunakarna on the left, a noble modestly dressed yaksha with a gold crown and calm compassionate eyes, gently placing his hand on the shoulder of the young Shikhandini on the right, a modestly dressed royal woman in simple forest garments with tearful hopeful eyes, golden light in a dense forest, one scene, no text"
+  "prompt": "Close-up painting of the yaksha Sthunakarna on the left, a noble modestly dressed yaksha with a gold crown and calm compassionate eyes, gently placing his hand on the shoulder of the young Shikhandini on the right, a modestly dressed royal woman in simple forest garments with tearful hopeful eyes, golden light in a dense forest, one scene, no text",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -63,7 +64,8 @@
      "vo": "कुबेर ने श्राप दिया कि जब तक शिखंडी जीवित है, स्थूणाकर्ण स्त्री ही रहेगा।",
      "prompt": "Lord Kubera on the left, golden-skinned with jeweled crown, raising his hand in a curse, the yaksha Sthunakarna on the right with bowed head and sorrowful face, waist-up, dramatic light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "जय श्री कृष्ण! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -73,5 +75,22 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   7
+  ],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-04 01:13"
+ },
+ "shot_qc": {
+  "checked": "2026-11-03T19:06:18Z",
+  "rounds": 1,
+  "why": {
+   "7": "Two hands raised beside the head have no clear arms attached, and the arms spread out below them, so there appear to be extra or disconnected arms.",
+   "C": "The blue figure's crossed arms and hands are tangled, with a stray hand near the woman's shoulder, so the limbs look merged or extra."
+  }
+ }
 }
