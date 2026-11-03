@@ -39,7 +39,8 @@
      "vo": "आश्रम सूने होने लगे, यज्ञ रुकने लगे, और देवता भी उन्हें पकड़ नहीं पा रहे थे।",
      "prompt": "An empty forest hermitage at dusk with a cold extinguished sacrificial fire pit and scattered rudraksha beads on the ground, no people, sorrowful atmosphere, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "तब देवता भगवान विष्णु के पास पहुँचे।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   3
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 03:45"
+ },
+ "shot_qc": {
+  "checked": "2026-11-03T21:40:08Z",
+  "rounds": 1,
+  "why": {
+   "3": "The fire pit is duplicated: a second stone ring and fire stacked behind the first."
+  }
+ }
 }
