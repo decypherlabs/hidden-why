@@ -45,7 +45,8 @@
      "vo": "तो भरत ने उनकी खड़ाऊँ माँग ली, और नगर छोड़ दिया।",
      "prompt": "Close-up of Bharata's hands and face, holding a pair of golden wooden sandals reverently against his forehead, eyes closed in devotion, glowing warm light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "नंदिग्राम की कुटिया से चौदह साल राज किया, राजा नहीं, सेवक बनकर।",
@@ -64,5 +65,19 @@
  ],
  "art_style": null,
  "series": "quick",
- "experiment": "short-27s"
+ "experiment": "short-27s",
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 00:34"
+ },
+ "shot_qc": {
+  "checked": "2026-11-03T18:26:09Z",
+  "rounds": 1,
+  "why": {
+   "4": "Hands on the face are tangled. One hand at the cheek and another at the chin, and it is unclear whose they are or how many there are."
+  }
+ }
 }
