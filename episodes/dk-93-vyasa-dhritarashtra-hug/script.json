@@ -27,7 +27,8 @@
      "vo": "धृतराष्ट्र ने भीम को इतनी ज़ोर से भींचा कि वो चूर-चूर हो गया।",
      "prompt": "Waist-up: the blind old king Dhritarashtra with a gold crown stands on the left, fierce grief-struck face, arms locked around it; on the right a dark iron statue of Bhima lies shattered with a broken torso and cracks, dust in the air, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "पर वो भीम था ही नहीं।",
@@ -64,5 +65,19 @@
  ],
  "art_style": null,
  "series": "quick",
- "experiment": "short-27s"
+ "experiment": "short-27s",
+ "repaint": {
+  "shots": [
+   1
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 00:33"
+ },
+ "shot_qc": {
+  "checked": "2026-11-03T18:26:41Z",
+  "rounds": 1,
+  "why": {
+   "1": "A second crown floats on a dark blob above the head, with a smaller crown underneath. The head and crown are stacked and duplicated."
+  }
+ }
 }
