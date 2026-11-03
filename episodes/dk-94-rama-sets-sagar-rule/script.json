@@ -27,7 +27,8 @@
      "vo": "जिन राम को सब शांत मानते हैं, उन्होंने समुद्र सुखाने को धनुष उठा लिया।",
      "prompt": "Lord Rama with blue-tinged skin drawing a great bow with a glowing arrow, fierce determined face, waist-up, on a rocky shore with a vast dark ocean and stormy red sky behind, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "तीन दिन विनती की, पर समुद्र ने जवाब तक नहीं दिया।",
@@ -39,7 +40,8 @@
      "vo": "राम की आँखें लाल हुईं, बोले, वानर अब पैदल पार करेंगे।",
      "prompt": "Lord Rama with blue-tinged skin and a stern angry face standing on the left, Lakshmana with a fair complexion, topknot and a quiver standing on the right holding out a large bow, seaside at dusk, waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "बाण चढ़ते ही समुद्र खौल उठा, और सागर हाथ जोड़े सामने आए।",
@@ -64,5 +66,21 @@
  ],
  "art_style": null,
  "series": "quick",
- "experiment": "short-27s"
+ "experiment": "short-27s",
+ "repaint": {
+  "shots": [
+   1,
+   3
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 00:34"
+ },
+ "shot_qc": {
+  "checked": "2026-11-03T18:26:28Z",
+  "rounds": 1,
+  "why": {
+   "1": "Bow geometry is wrong. There are two bow shapes and a stray string or limb curve, and the arrow and bow hands don't resolve.",
+   "3": "The two figures' hands are fused or merged at the center, and the extra bow and staff lines tangle with the bodies."
+  }
+ }
 }
