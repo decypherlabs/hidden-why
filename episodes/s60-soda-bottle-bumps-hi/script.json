@@ -1,0 +1,66 @@
+{
+ "slug": "s60-soda-bottle-bumps-hi",
+ "format": "short",
+ "title": "सोडा की बोतल के नीचे ये उभार क्यों होते हैं? 🥤",
+ "hook_text": "फ्लैट बोतल? फट जाती!",
+ "approved": true,
+ "experiment": "short-20s",
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सोडा की बोतल का तला सपाट हो, तो गैस उसे बिगाड़ देती है।",
+     "prompt": "a clear unlabeled plastic soda bottle with a warped bulging bottom on a table, bubbles inside, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सोडा की बोतल का तला सपाट हो, तो गैस उसे बिगाड़ देती है।"
+    },
+    {
+     "vo": "गैस इतना ज़ोर लगाती है कि पतला प्लास्टिक फूल जाता है।",
+     "prompt": "macro of fizzy bubbles pressing inside a clear unlabeled plastic bottle, backlit, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गैस इतना ज़ोर लगाती है कि पतला प्लास्टिक फूल जाता है।"
+    },
+    {
+     "vo": "गोल गुंबद दबाव झेल लेता है, पर बोतल खड़ी नहीं रह पाती।",
+     "prompt": "a clear plastic bottle with a smooth round dome bottom tipped over on its side on a table, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गोल गुंबद दबाव झेल लेता है, पर बोतल खड़ी नहीं रह पाती।"
+    },
+    {
+     "vo": "इसलिए उभार दोनों करते हैं: मज़बूत मोड़ भी, और छोटे पैर भी।",
+     "prompt": "close-up of the five-lobed petal-shaped bottom of a clear unlabeled plastic soda bottle, standing on a table, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसलिए उभार दोनों करते हैं: मज़बूत मोड़ भी, और छोटे पैर भी।"
+    },
+    {
+     "vo": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।",
+     "prompt": "a clear unlabeled plastic soda bottle with a warped bulging bottom on a table, bubbles inside, the same close-up, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "रोज़ एक नया 'क्यों' जानने के लिए सब्सक्राइब करो।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "नीचे *उभार* क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s60-soda-bottle-bumps",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
