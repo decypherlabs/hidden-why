@@ -33,7 +33,8 @@
      "vo": "राजा त्रिशंकु की एक ही इच्छा थी, इसी शरीर के साथ स्वर्ग जाना।",
      "prompt": "King Trishanku with a gold crown, a trimmed beard and a longing, hopeful gaze looking upward, modest royal attire, waist-up portrait, soft golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "वसिष्ठ ऋषि ने साफ़ मना कर दिया, और उनके सौ पुत्रों ने उसे श्राप दे दिया।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   2
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 04:22"
+ },
+ "shot_qc": {
+  "checked": "2026-11-03T22:17:39Z",
+  "rounds": 1,
+  "why": {
+   "2": "A grey shape behind the crown looks like a second head or hair stacked on the figure."
+  }
+ }
 }
