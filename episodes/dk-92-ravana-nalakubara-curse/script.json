@@ -51,7 +51,8 @@
      "vo": "अब किसी स्त्री को ज़बरदस्ती छुआ, तो तेरे सिर के सात टुकड़े होंगे।",
      "prompt": "Waist-up scene, on the left Nalakubara, a radiant celestial figure in modest saffron robes with a raised hand pronouncing a curse and stern eyes; on the right Ravana with ONE face and a tall golden crown, shrinking back in fear; glowing light between them, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "जय श्री राम! सब्सक्राइब करें।",
@@ -64,5 +65,19 @@
  ],
  "art_style": null,
  "series": "quick",
- "experiment": "short-27s"
+ "experiment": "short-27s",
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 00:33"
+ },
+ "shot_qc": {
+  "checked": "2026-11-03T18:26:48Z",
+  "rounds": 1,
+  "why": {
+   "5": "A second golden figure with its own face is cut off at the right edge and merges into the background. It reads as an extra head or figure that doesn't belong."
+  }
+ }
 }
