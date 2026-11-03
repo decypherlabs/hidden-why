@@ -45,7 +45,8 @@
      "vo": "बच्चे का सिर घड़े जैसा चिकना था, इसलिए नाम पड़ा घटोत्कच।",
      "prompt": "A young Ghatotkacha, a sturdy child with a smooth bald head shaped like a clay pot, dark skin, large bright eyes, close-up face in a forest clearing, modestly dressed, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "उसने कुंती को प्रणाम करके कहा, जब भी याद करेंगे, मैं हाज़िर हो जाऊंगा।",
@@ -63,7 +64,8 @@
      "vo": "घटोत्कच ने कौरव सेना में हाहाकार मचा दिया, तब कर्ण को इंद्र की शक्ति चलानी पड़ी।",
      "prompt": "Karna in golden armour and earrings, waist-up, a stern pained face, holding a blazing divine spear of white-gold light in his hand, night battlefield, one figure, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "उस शक्ति से घटोत्कच वीरगति को मिला, पर अर्जुन बच गए, और उसका वचन पूरा हुआ।",
@@ -79,5 +81,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4,
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 03:45"
+ },
+ "shot_qc": {
+  "checked": "2026-11-03T21:40:32Z",
+  "rounds": 1,
+  "why": {
+   "4": "The torso is a rigid rectangular brick-like block that doesn't read as a body, and the eyes look slightly off.",
+   "7": "The face is split into two mismatched halves, with a gold helmet merging into a grey painted face and muddled eyes."
+  }
+ }
 }
