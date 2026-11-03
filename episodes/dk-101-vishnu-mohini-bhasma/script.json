@@ -45,7 +45,8 @@
      "vo": "तब देवताओं ने भगवान विष्णु की शरण ली।",
      "prompt": "Lord Vishnu with blue skin holding a conch and discus, calm reassuring face, waist-up, glowing divine light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "विष्णु जी ने धारण किया एक अत्यंत सुंदर रूप, मोहिनी का।",
@@ -73,5 +74,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 04:59"
+ },
+ "shot_qc": {
+  "checked": "2026-11-03T22:54:43Z",
+  "rounds": 1,
+  "why": {
+   "4": "A gray melted animal-like shape is fused to the figure's legs at the bottom. The conch and flower-trumpet hands are malformed, and the arms look jumbled."
+  }
+ }
 }
