@@ -38,6 +38,11 @@ def niche(slug):
 
 def videos(slug):
     return RB / "videos" / niche(slug)
+
+
+def discarded(slug):
+    """THW Shorts cut from episodes (owner: Shorts are originals), archived 3 Nov 2026: never back on Projects."""
+    return bool(re.search(r"-short-\d+$", slug))
 CACHE = RB / "channels" / "the-hidden-why" / "videos"
 
 
@@ -81,7 +86,7 @@ def track_scripts(released):
         pass
     for sp in sorted((ROOT / "episodes").glob("*/script.json")):
         slug = sp.parent.name
-        if slug in released or slug.startswith("preview-"):  # sample frames for the owner, never a project on a channel
+        if slug in released or discarded(slug) or slug.startswith("preview-"):  # sample frames for the owner, never a project on a channel
             continue
         sc = json.loads(sp.read_text())
         shots = [x for sec in sc.get("sections") or [] for x in sec.get("shots") or []]
@@ -118,7 +123,7 @@ def track_scripts(released):
 def sync_one(rel):
     """An episode release made before Kaggle runs went straight to the Mac (older episodes)."""
     slug = rel["tag_name"][len("episode-"):]
-    if imported(slug):
+    if imported(slug) or discarded(slug):
         return False
     src = CACHE / slug
     src.mkdir(parents=True, exist_ok=True)
