@@ -27,7 +27,8 @@
      "vo": "अमृत गले तक पहुँचा, और उसी पल उसका सिर कट गया।",
      "prompt": "Lord Vishnu with blue skin and golden crown on the left holding a spinning glowing Sudarshan chakra, determined face; a dark-skinned demon with a fierce face and glowing nectar on his lips on the right, both waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "वो असुर देवताओं की पंक्ति में छिपकर बैठा था।",
@@ -45,7 +46,8 @@
      "vo": "सुदर्शन ने सिर अलग किया, पर अमृत अपना काम कर चुका था।",
      "prompt": "Close-up of a glowing golden amrit kalash pot with shimmering nectar, dark ominous sky behind it, no people, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "वो सिर आज भी ज़िंदा है। नाम है राहु, और इसी दुश्मनी में वो ग्रहण लगाता है।",
@@ -64,5 +66,21 @@
  ],
  "art_style": null,
  "series": "quick",
- "experiment": "short-27s"
+ "experiment": "short-27s",
+ "repaint": {
+  "shots": [
+   1,
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 00:33"
+ },
+ "shot_qc": {
+  "checked": "2026-11-03T18:26:22Z",
+  "rounds": 1,
+  "why": {
+   "1": "Dark face-like shapes sit under the crown above the forehead, which reads as extra or stacked heads, and the eyes look slightly mismatched.",
+   "4": "The head looks like it is placed on a gold ring and shell. The neck and body don't connect, and the eyes are half-melted."
+  }
+ }
 }
