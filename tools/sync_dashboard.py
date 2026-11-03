@@ -81,7 +81,7 @@ def track_scripts(released):
         pass
     for sp in sorted((ROOT / "episodes").glob("*/script.json")):
         slug = sp.parent.name
-        if slug in released:
+        if slug in released or slug.startswith("preview-"):  # sample frames for the owner, never a project on a channel
             continue
         sc = json.loads(sp.read_text())
         shots = [x for sec in sc.get("sections") or [] for x in sec.get("shots") or []]
