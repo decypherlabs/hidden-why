@@ -46,13 +46,14 @@
      "prompt": "A group of thin old frail cows standing in a quiet village yard at dusk, no people, wide shot, soft golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 16842
+     "seed": 24761
     },
     {
      "vo": "नचिकेता ने पूछा, पिताजी, मुझे किसे देंगे? पिता ने क्रोध में कहा, तुझे यम को देता हूँ।",
      "prompt": "Sage Vajashrava standing at the left with an angry stern face, pointing, and young Nachiketa standing at the right looking up at him with calm respect, both waist-up, a simple ashram background, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "नचिकेता यमराज के द्वार पहुँचा और तीन दिन भूखा-प्यासा वहीं रुका।",
@@ -83,16 +84,18 @@
  ],
  "repaint": {
   "shots": [
-   4
+   4,
+   5
   ],
   "thumbs": [],
-  "at": "2026-11-04 14:59"
+  "at": "2026-11-04 16:17"
  },
  "shot_qc": {
-  "checked": "2026-11-04T08:52:36Z",
-  "rounds": 2,
+  "checked": "2026-11-04T10:12:11Z",
+  "rounds": 3,
   "why": {
-   "4": "The cows in the herd overlap and merge into each other. Heads and bodies fuse, and there are extra horns and heads in the cluster."
+   "4": "Cows are crowded and overlap, with merged bodies and heads in the cluster, and the cow at the back left looks fused with its neighbour.",
+   "5": "The two men's crossed arms overlap and merge at the bottom, so the arm count and attachment look wrong."
   }
  }
 }
