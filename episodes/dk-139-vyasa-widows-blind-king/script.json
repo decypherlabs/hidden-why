@@ -33,7 +33,8 @@
      "vo": "एक राजा अंधा जन्मा, दूसरा पीला, और तीसरा दासी का बेटा सबसे ज्ञानी निकला।",
      "prompt": "Three newborn royal infants lying side by side on a silk bed in a palace chamber, no adults, soft lamplight, wide shot with tiny indistinct figures, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "हस्तिनापुर के राजा विचित्रवीर्य संतान के बिना ही चल बसे थे।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   2
+  ],
+  "thumbs": [],
+  "at": "2026-11-05 00:56"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T18:51:04Z",
+  "rounds": 1,
+  "why": {
+   "2": "The four swaddled babies share one tangled blanket mass. Their bodies merge into each other, and the overlapping heads look stacked."
+  }
+ }
 }
