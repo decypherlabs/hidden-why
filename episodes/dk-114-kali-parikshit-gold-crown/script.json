@@ -34,7 +34,8 @@
      "vo": "सरस्वती के किनारे एक गाय रो रही थी, और एक बैल काँप रहा था।",
      "prompt": "A weeping white cow and a frail white bull standing together on a riverbank at dusk, soft golden light, no people, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "वह बैल धर्म था। उसके तीन पैर टूट चुके थे, सिर्फ़ सत्य बचा था।",
@@ -82,17 +83,17 @@
   }
  ],
  "repaint": {
-  "shots": [],
-  "thumbs": [
-   "cover.png"
+  "shots": [
+   2
   ],
-  "at": "2026-11-04 13:05"
+  "thumbs": [],
+  "at": "2026-11-04 14:20"
  },
  "shot_qc": {
-  "checked": "2026-11-04T07:00:17Z",
-  "rounds": 1,
+  "checked": "2026-11-04T08:14:51Z",
+  "rounds": 2,
   "why": {
-   "C": "The kneeling figure's legs and cloth are muddled, and the long sword crosses the body at an odd angle. The two figures' anatomy is unclear and looks partly merged."
+   "2": "The two cows overlap and their bodies and legs blend together, so it looks like one animal merged into or stacked on the other."
   }
  }
 }
