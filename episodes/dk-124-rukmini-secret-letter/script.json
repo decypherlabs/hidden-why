@@ -57,13 +57,15 @@
      "vo": "उसमें लिखा था, विवाह से पहले आकर मुझे ले जाइए।",
      "prompt": "Close-up of hands holding an unrolled scroll with elegant handwriting, lit by a warm oil lamp, no readable text, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "अब सवाल था, क्या द्वारका से कृष्ण समय पर पहुँचेंगे?",
      "prompt": "Lord Krishna with dark blue skin and peacock feather crown, waist-up, reading the letter with a serious, determined look, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "कृष्ण रथ से आए, और मंदिर से निकलती रुक्मिणी को अपने साथ द्वारका ले गए।",
@@ -75,9 +77,28 @@
      "vo": "जय श्री कृष्ण! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
      "prompt": "Close-up of Lord Krishna with dark blue skin, peacock feather crown, playing a flute, serene expression, golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8928
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   6,
+   7,
+   9
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 18:05"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T11:58:47Z",
+  "rounds": 1,
+  "why": {
+   "6": "Handwritten script painted onto the manuscript, and the hands look odd",
+   "7": "Script painted on the manuscript, and the eyes have dark smudged patches",
+   "9": "The flute looks doubled or fused, with no hands holding it, and the eyes are murky"
+  }
+ }
 }
