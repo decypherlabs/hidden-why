@@ -45,7 +45,8 @@
      "vo": "ब्रह्मा जी के कहने पर उन्होंने गणेश जी को याद किया।",
      "prompt": "Lord Ganesha with an elephant head and one tusk standing on the left, Maharishi Vyasa with white beard and saffron robes standing on the right with folded hands, both waist-up, calm hermitage background, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "गणेश जी बोले, मैं लिखूँगा, पर मेरी कलम एक पल भी नहीं रुकेगी।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 13:42"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T07:37:31Z",
+  "rounds": 1,
+  "why": {
+   "4": "The elephant statue ears and head behind the sage's head look fused with his own head, so he seems to have a second elephant ear or head. The background elephants are also muddled."
+  }
+ }
 }
