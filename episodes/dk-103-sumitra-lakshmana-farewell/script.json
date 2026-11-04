@@ -11,7 +11,7 @@
  "cover_shot": 1,
  "cover": {
   "prompt": "Queen Sumitra, a dignified mother in a simple modest saree with a gentle crown, her eyes glistening with restrained tears yet firm, placing her hand on the head of kneeling young Lakshmana in forest-bark garments, Sumitra on the left and Lakshmana on the right, waist-up, warm golden palace light, deeply emotional, one scene, no text",
-  "seed": 7928
+  "seed": 15847
  },
  "music": {
   "epic": [
@@ -47,13 +47,14 @@
      "prompt": "Queen Sumitra on the left tenderly kissing the forehead of Lakshmana on the right, who is in forest-bark garments, both waist-up, soft golden lamp glow, emotional, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8923
+     "seed": 16842
     },
     {
      "vo": "अब सुनिए वे शब्द, जो एक माँ को अमर कर गए।",
      "prompt": "Close-up of Queen Sumitra's face, eyes lifted and determined, her raised hand in a blessing gesture, glowing lamplight behind her, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "राम को पिता दशरथ समझना, सीता को मुझे, और वन को अयोध्या।",
@@ -80,20 +81,20 @@
  "repaint": {
   "shots": [
    4,
-   6
+   5
   ],
   "thumbs": [
    "cover.png"
   ],
-  "at": "2026-11-04 06:47"
+  "at": "2026-11-04 09:44"
  },
  "shot_qc": {
-  "checked": "2026-11-04T00:42:45Z",
-  "rounds": 1,
+  "checked": "2026-11-04T01:58:01Z",
+  "rounds": 2,
   "why": {
-   "4": "The two faces are merged while kissing, and the hands and arms tangle into the bodies.",
-   "6": "The two women overlap and look cloned. The right figure blends into the left one's body and arm.",
-   "C": "The second woman's head and body are stacked directly behind the first, so it reads as a duplicated or stacked figure."
+   "4": "The two faces are pressed together and the bodies, arms and jewelry merge into each other, so the figures read as fused.",
+   "5": "A disembodied hand with no visible arm floats at the left edge beside the face.",
+   "C": "The child's body and limbs are tangled into the woman's, the child's face is hidden, and the arms and legs can't be told apart, so the two figures look merged."
   }
  }
 }
