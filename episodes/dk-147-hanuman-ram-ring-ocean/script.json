@@ -51,7 +51,8 @@
      "vo": "नीचे पाताल में एक राजा ने उन्हें अंगूठियों का घड़ा दिखाया।",
      "prompt": "Left: a dignified underworld king with a gold crown and a long beard, modestly dressed in a dhoti and shawl. Right: Lord Hanuman with reddish-golden face, mace on his shoulder, both waist-up, a large pot of gold rings between them, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "पर सच जानने से पहले, हनुमान जी की आँखें उस घड़े पर ठहर गईं।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-05 04:03"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T21:57:54Z",
+  "rounds": 1,
+  "why": {
+   "5": "Two different bearded men are fused side by side in one frame, split down the middle with a hard seam, so two figures are merged into one."
+  }
+ }
 }
