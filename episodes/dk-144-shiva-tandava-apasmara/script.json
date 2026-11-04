@@ -51,7 +51,8 @@
      "vo": "शिव उसके ऊपर पैर रखकर नृत्य करते हैं, पर उसे कुचलकर मारते नहीं।",
      "prompt": "Lord Nataraja, Shiva with blue throat and crescent moon, on the left, pressing his foot gently on the dwarf Apasmara on the right, waist-up, golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "तो फिर अज्ञान को खत्म क्यों नहीं किया गया?",
@@ -73,5 +74,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-05 03:25"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T21:21:22Z",
+  "rounds": 1,
+  "why": {
+   "5": "Extra arms: more than four, tangled around the torso, and the legs and lower body look confused and merged with the ornament."
+  }
+ }
 }
