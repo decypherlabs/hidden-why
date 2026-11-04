@@ -39,7 +39,8 @@
      "vo": "समुद्र मंथन से अमृत निकला, तो भगवान विष्णु मोहिनी बनकर उसे बाँटने लगे।",
      "prompt": "Lord Vishnu as Mohini on the left, with a graceful face and golden pot of nectar, and a god with a radiant crown on the right, waist-up, holding out a cup, warm golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "स्वर्भानु ने देवता का रूप बनाया और अमृत पी लिया।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   3
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 21:46"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T15:41:12Z",
+  "rounds": 1,
+  "why": {
+   "3": "Two near-identical women stacked and overlapping, with arms and hands merged on the shared pot. It reads as a duplicated figure."
+  }
+ }
 }
