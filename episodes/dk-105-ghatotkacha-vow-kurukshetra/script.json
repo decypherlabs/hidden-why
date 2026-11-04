@@ -10,7 +10,8 @@
  "cover_text": "कृष्ण *हँसे* क्यों?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Lord Krishna with dark blue skin, peacock feather crown and yellow garment, a calm knowing smile on his bright face, standing on the left; Arjuna in grief with tears, hands folded, on the right; a dark battlefield night lit by torches behind them, no text"
+  "prompt": "Lord Krishna with dark blue skin, peacock feather crown and yellow garment, a calm knowing smile on his bright face, standing on the left; Arjuna in grief with tears, hands folded, on the right; a dark battlefield night lit by torches behind them, no text",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -75,9 +76,27 @@
      "vo": "जय श्री कृष्ण! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
      "prompt": "Lord Krishna with dark blue skin, peacock feather crown and yellow garment playing a flute, bright serene face, waist-up, soft golden glow, starry night behind, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8928
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   9
+  ],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-04 07:25"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T01:19:53Z",
+  "rounds": 1,
+  "why": {
+   "9": "The flute is doubled: two flute segments cross at the mouth and the hands holding them are muddled.",
+   "C": "The raised hand holds a flame or stick that melts into the fingers, and the hand is malformed."
+  }
+ }
 }
