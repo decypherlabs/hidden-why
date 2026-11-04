@@ -45,7 +45,8 @@
      "vo": "राम ने वचन दिया, जो भी बीच में भीतर आएगा, उसे मृत्युदंड मिलेगा।",
      "prompt": "Lord Rama with a dark-blue complexion and a gold crown standing at the left, and the ascetic Kaal in saffron robes standing at the right, facing each other in a palace chamber, waist-up, serious expressions, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "द्वार पर पहरा देने के लिए राम ने लक्ष्मण को खड़ा किया।",
@@ -69,7 +70,8 @@
      "vo": "लक्ष्मण ने वंश बचाने के लिए ख़ुद भीतर जाकर सूचना दे दी, और वचन के कारण राम को उन्हें त्यागना पड़ा।",
      "prompt": "Lord Rama with a dark-blue complexion and a gold crown at the left, and Lakshmana at the right with bowed head and folded hands, in a palace chamber, waist-up, heavy grief, soft lamplight, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "जय श्री राम! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -79,5 +81,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 12:27"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T06:19:42Z",
+  "rounds": 1,
+  "why": {
+   "4": "Eyes on the left figure look dark and smudged. A third face is half-hidden behind the figures.",
+   "8": "Eyes on the left figure look dark and muddy. The praying hands of the two figures sit tightly together and look merged."
+  }
+ }
 }
