@@ -51,7 +51,8 @@
      "vo": "सबकी साँसें थम गईं, क्या राम यह धनुष चढ़ा पाएंगे?",
      "prompt": "Close-up of Prince Rama with dark-blue complexion, a golden crown and a calm, steady gaze, one hand reaching forward to take a great bow, modestly dressed, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "राम ने पल भर में धनुष चढ़ाया और उस पर बाण साध दिया।",
@@ -73,5 +74,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 23:41"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T17:34:55Z",
+  "rounds": 1,
+  "why": {
+   "5": "A stray hand-like shape sticks out at the right edge by the head. It doesn't belong to the figure."
+  }
+ }
 }
