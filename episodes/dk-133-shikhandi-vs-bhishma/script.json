@@ -39,7 +39,8 @@
      "vo": "तब अर्जुन के रथ के आगे शिखंडी आकर खड़े हो गए।",
      "prompt": "Shikhandi, a slender warrior with a determined face, wearing a simple armour and a plain helmet, holding a bow, standing in front of a chariot wheel, waist-up, battlefield haze behind, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "भीष्म ने उसी क्षण अपना धनुष नीचे रख दिया।",
@@ -83,16 +84,16 @@
  ],
  "repaint": {
   "shots": [
-   4
+   3
   ],
   "thumbs": [],
-  "at": "2026-11-04 21:47"
+  "at": "2026-11-04 23:03"
  },
  "shot_qc": {
-  "checked": "2026-11-04T15:41:30Z",
-  "rounds": 1,
+  "checked": "2026-11-04T16:57:27Z",
+  "rounds": 2,
   "why": {
-   "4": "Hands holding the arrow are tangled and malformed, with fingers merging into each other and the arrow."
+   "3": "The giant bow looks like a wagon wheel and is merged with the figure's arms and spear, so the weapon shapes are garbled and the face is hidden."
   }
  }
 }
