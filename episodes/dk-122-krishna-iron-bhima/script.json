@@ -45,7 +45,8 @@
      "vo": "कृष्ण ने सबको रोका, पर धृतराष्ट्र ने भीम को आगे बुलाया।",
      "prompt": "Lord Krishna with a peacock feather crown standing on the left, raising one hand in caution, and the blind King Dhritarashtra with closed eyes standing on the right, arms open, both waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "कृष्ण भाँप चुके थे कि इस गले लगने में प्यार नहीं, बदला छिपा है।",
@@ -73,5 +74,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 16:18"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T10:12:02Z",
+  "rounds": 1,
+  "why": {
+   "4": "The right figure's arms and hands are tangled with the left figure's. Extra or merged limbs reach out at the lower left, and the bodies overlap unclearly."
+  }
+ }
 }
