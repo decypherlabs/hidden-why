@@ -10,7 +10,8 @@
  "cover_text": "धृतराष्ट्र ने *किसे* कुचला?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Close-up of Lord Krishna with a peacock feather crown and a calm, knowing expression, standing on the left, and the blind old King Dhritarashtra with closed eyes and a grief-stricken, furious face on the right, both waist-up, an iron statue's shoulder visible between them, dramatic torch-lit palace hall, modestly dressed in royal attire, no text"
+  "prompt": "Close-up of Lord Krishna with a peacock feather crown and a calm, knowing expression, standing on the left, and the blind old King Dhritarashtra with closed eyes and a grief-stricken, furious face on the right, both waist-up, an iron statue's shoulder visible between them, dramatic torch-lit palace hall, modestly dressed in royal attire, no text",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -46,7 +47,7 @@
      "prompt": "Lord Krishna with a peacock feather crown standing on the left, raising one hand in caution, and the blind King Dhritarashtra with closed eyes standing on the right, arms open, both waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8923
+     "seed": 16842
     },
     {
      "vo": "कृष्ण भाँप चुके थे कि इस गले लगने में प्यार नहीं, बदला छिपा है।",
@@ -79,14 +80,17 @@
   "shots": [
    4
   ],
-  "thumbs": [],
-  "at": "2026-11-04 16:18"
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-04 18:04"
  },
  "shot_qc": {
-  "checked": "2026-11-04T10:12:02Z",
-  "rounds": 1,
+  "checked": "2026-11-04T11:59:20Z",
+  "rounds": 2,
   "why": {
-   "4": "The right figure's arms and hands are tangled with the left figure's. Extra or merged limbs reach out at the lower left, and the bodies overlap unclearly."
+   "4": "The two figures' arms and bodies tangle together. The left figure's face is distorted, with a smeared mouth and eyes, and an extra arm reaches across the other figure.",
+   "C": "The eyes on both faces are mismatched and garbled, with uneven painted eye marks. The raised hand and the overlapping bodies of the two figures look merged."
   }
  }
 }
