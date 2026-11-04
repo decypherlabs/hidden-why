@@ -57,13 +57,15 @@
      "vo": "फिर उन्होंने कहा, हे जगद्गुरु, हमारे जीवन में विपत्तियाँ बार-बार आती रहें।",
      "prompt": "Close-up of Queen Kunti speaking with trembling emotion and tearful eyes, hands joined at her chest, modest white saree, soft light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "पर क्या कोई माँ सच में अपने लिए विपत्ति चाहेगी?",
      "prompt": "Close-up of Lord Krishna with blue skin and peacock feather crown, listening with a tender, thoughtful expression, soft glowing light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "क्योंकि विपत्ति में ही आपके दर्शन होते हैं, और सुख में मन आपको भूल जाता है।",
@@ -79,5 +81,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   6,
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-05 03:26"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T21:21:29Z",
+  "rounds": 1,
+  "why": {
+   "6": "The hands crossed over the chest are tangled, with fingers that look merged or extra.",
+   "7": "The eyes are mismatched in size and shape, and the heavy blue paint around them makes them look melted."
+  }
+ }
 }
