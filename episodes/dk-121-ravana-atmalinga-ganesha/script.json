@@ -10,7 +10,8 @@
  "cover_text": "*आत्मलिंग* ज़मीन पर क्यों?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Lord Ganesha disguised as a young Brahmin boy with a gentle smile, holding a small glowing Shiva Atmalinga in his hands, waist-up close-up, evening sky glowing orange behind him, calm divine expression, realistic cinematic painting, no text"
+  "prompt": "Lord Ganesha disguised as a young Brahmin boy with a gentle smile, holding a small glowing Shiva Atmalinga in his hands, waist-up close-up, evening sky glowing orange behind him, calm divine expression, realistic cinematic painting, no text",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-04 15:39"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T09:32:30Z",
+  "rounds": 1,
+  "why": {
+   "C": "The face is human with elephant ears and tusks, and it has no clear trunk. It reads as a person fused with an elephant."
+  }
+ }
 }
