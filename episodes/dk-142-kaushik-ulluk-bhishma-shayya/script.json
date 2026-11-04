@@ -34,7 +34,8 @@
      "vo": "भीष्म गिरे, पर उनका शरीर धरती को छू ही नहीं सका।",
      "prompt": "Bhishma, an old warrior with long white hair and white beard, bare-chested with a sacred thread, lying back suspended on a bed of arrows, waist-up, calm and pained face, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "बाण उनके शरीर में इतने धंसे थे कि वही उनकी शय्या बन गए।",
@@ -83,17 +84,17 @@
   }
  ],
  "repaint": {
-  "shots": [],
-  "thumbs": [
-   "cover.png"
+  "shots": [
+   2
   ],
-  "at": "2026-11-05 04:03"
+  "thumbs": [],
+  "at": "2026-11-05 05:18"
  },
  "shot_qc": {
-  "checked": "2026-11-04T21:58:01Z",
-  "rounds": 2,
+  "checked": "2026-11-04T23:14:04Z",
+  "rounds": 3,
   "why": {
-   "C": "A seated figure sits directly in front of a standing crowned figure. Their bodies and heads stack and merge, and the white horse and wolf at the edges add to the muddle."
+   "2": "The legs and limbs are tangled in the cloth and arrows, so the anatomy is unclear and there may be an extra or merged leg."
   }
  }
 }
