@@ -39,7 +39,8 @@
      "vo": "बाज से डरा कबूतर राजा शिबि की गोद में आ छिपा।",
      "prompt": "Close-up of a frightened white dove nestled in the lap of King Shibi, the king looking down protectively, golden crown, modest royal dress, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "बाज बोला, यह मेरा भोजन है, इसे मुझे लौटा दो।",
@@ -63,7 +64,8 @@
      "vo": "राजा ने तराज़ू मंगवाया और अपना मांस काटकर रखने लगे।",
      "prompt": "King Shibi with golden crown and serene face standing beside a large wooden balance scale with a white dove on one pan, waist-up, modest royal dress, no blood shown, golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "पलड़ा फिर भी नहीं झुका, तो राजा ख़ुद उस पर बैठ गए।",
@@ -79,5 +81,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   3,
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 18:44"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T12:37:22Z",
+  "rounds": 1,
+  "why": {
+   "3": "A large white wing sticks out behind the woman's shoulder and belongs to no body. It is a second, stacked bird next to the dove in her lap.",
+   "7": "The doves at left are merged or doubled, with stacked wings. The man's two staffs and the dove perched on a stand are also confusing, so the anatomy and objects don't read cleanly."
+  }
+ }
 }
