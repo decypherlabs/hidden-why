@@ -52,7 +52,7 @@
      "prompt": "Left: a dignified underworld king with a gold crown and a long beard, modestly dressed in a dhoti and shawl. Right: Lord Hanuman with reddish-golden face, mace on his shoulder, both waist-up, a large pot of gold rings between them, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8924
+     "seed": 16843
     },
     {
      "vo": "पर सच जानने से पहले, हनुमान जी की आँखें उस घड़े पर ठहर गईं।",
@@ -76,23 +76,26 @@
      "vo": "जय श्री राम! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
      "prompt": "Bright close-up of Lord Rama with dark blue-green skin, golden crown, gentle smile and raised blessing hand, soft golden halo behind him, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8928
     }
    ]
   }
  ],
  "repaint": {
   "shots": [
-   5
+   5,
+   9
   ],
   "thumbs": [],
-  "at": "2026-11-05 04:03"
+  "at": "2026-11-05 05:19"
  },
  "shot_qc": {
-  "checked": "2026-11-04T21:57:54Z",
-  "rounds": 1,
+  "checked": "2026-11-04T23:14:27Z",
+  "rounds": 2,
   "why": {
-   "5": "Two different bearded men are fused side by side in one frame, split down the middle with a hard seam, so two figures are merged into one."
+   "5": "Two figures sit side by side with a visible vertical seam, and their crowns and heads overlap. It looks like two images stitched together.",
+   "9": "The raised hand on the left has no arm connecting it to the body, so it reads as an extra, detached limb."
   }
  }
 }
