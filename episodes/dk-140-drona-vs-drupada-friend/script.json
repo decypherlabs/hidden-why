@@ -10,7 +10,8 @@
  "cover_text": "द्रोण ने फ़ीस में *क्या* माँगा?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Close-up of the sage-warrior Acharya Drona, an elderly Brahmin teacher with white hair, grey beard, saffron robes and a sacred thread, holding a bow, his eyes burning with resolve, pointing forward in command, warm golden light on his face"
+  "prompt": "Close-up of the sage-warrior Acharya Drona, an elderly Brahmin teacher with white hair, grey beard, saffron robes and a sacred thread, holding a bow, his eyes burning with resolve, pointing forward in command, warm golden light on his face",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-05 01:34"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T19:27:54Z",
+  "rounds": 1,
+  "why": {
+   "C": "A raised arm holding a bow appears at the upper left and does not connect clearly to the man's body, so it reads as an extra or detached arm. A stray flame also appears at the top right."
+  }
+ }
 }
