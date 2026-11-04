@@ -51,7 +51,8 @@
      "vo": "गणेश जी मान गए, पर बोले, मेरी कलम बीच में रुकनी नहीं चाहिए।",
      "prompt": "Lord Ganesha with an elephant head and one tusk on the left holding a palm-leaf manuscript, Sage Vyasa with matted hair and white beard on the right, facing each other, hermitage, waist-up view, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "व्यास जी ने भी शर्त रखी, हर श्लोक समझकर ही लिखना।",
@@ -71,7 +72,7 @@
      "prompt": "Lord Ganesha with an elephant head and one tusk, writing on a palm-leaf manuscript with his broken tusk held like a pen, devoted focused expression, golden lamplight, close waist-up view, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8927
+     "seed": 16846
     },
     {
      "vo": "गणपति बप्पा मोरया! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -84,18 +85,18 @@
  ],
  "repaint": {
   "shots": [
-   7,
+   5,
    8
   ],
   "thumbs": [],
-  "at": "2026-11-04 21:46"
+  "at": "2026-11-04 23:02"
  },
  "shot_qc": {
-  "checked": "2026-11-04T15:41:21Z",
-  "rounds": 1,
+  "checked": "2026-11-04T16:57:55Z",
+  "rounds": 2,
   "why": {
-   "7": "The trunk, a tusk and a hand merge at the lower right, so it is unclear which is which and the anatomy looks fused.",
-   "8": "Text and letters are painted on the scroll behind the figure."
+   "5": "The trunk curls up to the mouth and merges with a tusk and a flute-like object, so the anatomy is muddled.",
+   "8": "The scroll has painted-in script text."
   }
  }
 }
