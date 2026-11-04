@@ -52,13 +52,14 @@
      "prompt": "Two identical-looking humanoid vanara brothers with golden-brown fur facing each other in fierce combat, one on the left and one on the right, rocky cave entrance behind, waist-up, two figures, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8924
+     "seed": 16843
     },
     {
      "vo": "फिर लक्ष्मण ने सुग्रीव के गले में फूलों की माला पहनाई।",
      "prompt": "Lakshmana in simple forest attire with a bow on the left placing a garland of wild flowers around the neck of Sugriva, a humanoid vanara with reddish fur, on the right, waist-up, two figures, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "माला से पहचान हुई, और राम पेड़ की ओट में खड़े हो गए।",
@@ -83,16 +84,18 @@
  ],
  "repaint": {
   "shots": [
-   5
+   5,
+   6
   ],
   "thumbs": [],
-  "at": "2026-11-04 22:24"
+  "at": "2026-11-04 23:40"
  },
  "shot_qc": {
-  "checked": "2026-11-04T16:18:41Z",
-  "rounds": 1,
+  "checked": "2026-11-04T17:34:32Z",
+  "rounds": 2,
   "why": {
-   "5": "Lion heads fused onto human bodies, so animal and person are merged."
+   "5": "Two lion-headed humanoids fused animal and person, with cluttered, melted-looking faces and anatomy.",
+   "6": "A stray hand-like or face-like shape sits at the left shoulder, and the red feather mass on the right shoulder reads as an extra body part."
   }
  }
 }
