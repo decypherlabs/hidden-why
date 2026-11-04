@@ -51,7 +51,8 @@
      "vo": "वहाँ उन्होंने नागों की स्तुति की, पर कुंडल कहीं नहीं मिले।",
      "prompt": "Wide view of a glowing underground serpent realm with jeweled palaces and many coiled cobras, no human faces, a single small figure of a young student with folded hands in the distance, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "तभी एक अद्भुत घोड़ा सामने आया, जिसके भीतर आग छिपी थी।",
@@ -73,5 +74,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 11:05"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T04:49:27Z",
+  "rounds": 1,
+  "why": {
+   "5": "The snakes are a tangled mass of coils with heads and bodies merging into each other, so the animals look stacked or fused."
+  }
+ }
 }
