@@ -51,7 +51,8 @@
      "vo": "पहले युद्ध में दोनों भाई एक जैसे दिखे, राम बाण चला ही नहीं सके।",
      "prompt": "Two identical-looking humanoid vanara brothers with golden-brown fur facing each other in fierce combat, one on the left and one on the right, rocky cave entrance behind, waist-up, two figures, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "फिर लक्ष्मण ने सुग्रीव के गले में फूलों की माला पहनाई।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 22:24"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T16:18:41Z",
+  "rounds": 1,
+  "why": {
+   "5": "Lion heads fused onto human bodies, so animal and person are merged."
+  }
+ }
 }
