@@ -45,7 +45,8 @@
      "vo": "तभी कृष्ण ने अर्जुन को गले लगाया और खुशी जताई।",
      "prompt": "Waist-up, Lord Krishna with dark blue complexion and peacock feather crown stands on the left embracing nothing, Arjuna with a bow and quiver stands on the right looking confused, torchlit night, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "कर्ण के पास इंद्र की दी हुई एक अमोघ शक्ति थी।",
@@ -83,16 +84,16 @@
  ],
  "repaint": {
   "shots": [
-   9
+   4
   ],
   "thumbs": [],
-  "at": "2026-11-04 15:38"
+  "at": "2026-11-04 17:26"
  },
  "shot_qc": {
-  "checked": "2026-11-04T09:32:38Z",
-  "rounds": 1,
+  "checked": "2026-11-04T11:32:49Z",
+  "rounds": 2,
   "why": {
-   "9": "Face looks melted or masked: the blue patches around the eyes don't match the pale green skin, so the eyes read as garbled."
+   "4": "Eyes are pale and washed out, with no clear pupils or irises, so they look blank or melted."
   }
  }
 }
