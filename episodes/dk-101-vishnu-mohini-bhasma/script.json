@@ -27,7 +27,8 @@
      "vo": "जिस रूप को देखकर स्वयं महादेव का मन डोल गया, वह भगवान विष्णु का ही था।",
      "prompt": "Close-up bright face of Lord Vishnu with blue skin, gentle smile, golden crown, tilak on forehead, glowing divine light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "समुद्र मंथन से अमृत निकला, और असुर उसे छीनकर भाग गए।",
@@ -78,16 +79,16 @@
  ],
  "repaint": {
   "shots": [
-   7
+   1
   ],
   "thumbs": [],
-  "at": "2026-11-04 06:46"
+  "at": "2026-11-04 09:39"
  },
  "shot_qc": {
-  "checked": "2026-11-04T00:42:54Z",
-  "rounds": 2,
+  "checked": "2026-11-04T01:57:52Z",
+  "rounds": 3,
   "why": {
-   "7": "Eyes are smudged into dark, melted-looking sockets, with a stray curved object behind the head."
+   "1": "Eyes look slightly mismatched and misaligned, so the gaze is off."
   }
  }
 }
