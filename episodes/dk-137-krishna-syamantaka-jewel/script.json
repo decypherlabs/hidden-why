@@ -63,7 +63,8 @@
      "vo": "गुफा में अट्ठाईस दिन तक युद्ध चला, और जाम्बवान ने आख़िर उन्हें पहचान लिया।",
      "prompt": "Jambavan, an old bear king with a thick dark furry face and wise human-like gentle eyes shown as a bear, bowing his head on the right, Lord Krishna with dark blue skin and peacock feather crown smiling kindly on the left, cave interior, waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "जाम्बवान ने मणि लौटा दी, कृष्ण ने सभा में सच बताया, और झूठा आरोप मिट गया।",
@@ -75,9 +76,26 @@
      "vo": "सच के आगे हर कलंक हार जाता है। जय श्री कृष्ण! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
      "prompt": "Lord Krishna with dark blue skin, peacock feather crown and yellow garments, playing a flute with a serene smile, soft golden sunrise glow, waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8928
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   7,
+   9
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 23:40"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T17:34:40Z",
+  "rounds": 1,
+  "why": {
+   "7": "A bear's head is fused onto a humanoid body, so an animal is merged with a person.",
+   "9": "The flute is doubled or broken into two crossing segments, and the hands and flute geometry are garbled."
+  }
+ }
 }
