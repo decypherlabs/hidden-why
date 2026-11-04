@@ -10,7 +10,8 @@
  "cover_text": "तीरों की *शय्या* क्यों?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Grand old Bhishma with long white hair and white beard, bare-chested with a sacred thread, lying back on a bed of countless arrows with a calm, pained face, while Arjuna in royal armour with a golden crown kneels at his side with tears in his eyes, dramatic evening sky, one scene"
+  "prompt": "Grand old Bhishma with long white hair and white beard, bare-chested with a sacred thread, lying back on a bed of countless arrows with a calm, pained face, while Arjuna in royal armour with a golden crown kneels at his side with tears in his eyes, dramatic evening sky, one scene",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -39,7 +40,8 @@
      "vo": "बाण उनके शरीर में इतने धंसे थे कि वही उनकी शय्या बन गए।",
      "prompt": "Close view of countless arrows standing upright in the ground forming a bed, with the white-haired Bhishma resting on them, evening sky behind, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "सिर लटक रहा था। भीष्म बोले, मेरे सिर को सहारा दो।",
@@ -79,5 +81,22 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   3
+  ],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-05 02:48"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T20:42:40Z",
+  "rounds": 1,
+  "why": {
+   "C": "Horses on both sides are stacked and merged into each other, with an extra crowned horse head on the left. The sky creatures are garbled.",
+   "3": "The small seated figure has distorted, ambiguous legs and feet that blend into the arrows. The face is too small to read and looks melted."
+  }
+ }
 }
