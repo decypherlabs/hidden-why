@@ -45,7 +45,8 @@
      "vo": "भीष्म ने उसी क्षण अपना धनुष नीचे रख दिया।",
      "prompt": "Bhishma with white hair and beard lowering his great bow toward the ground, eyes calm and sorrowful, arrows scattered at his feet, waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "कारण था उनका प्रण, कि वे किसी स्त्री या स्त्रीरूप पर बाण नहीं चलाएँगे।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 21:47"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T15:41:30Z",
+  "rounds": 1,
+  "why": {
+   "4": "Hands holding the arrow are tangled and malformed, with fingers merging into each other and the arrow."
+  }
+ }
 }
