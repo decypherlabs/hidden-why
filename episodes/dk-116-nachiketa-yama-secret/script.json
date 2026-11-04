@@ -45,7 +45,8 @@
      "vo": "पर वे जो गायें दे रहे थे, वे बूढ़ी और कमज़ोर थीं।",
      "prompt": "A group of thin old frail cows standing in a quiet village yard at dusk, no people, wide shot, soft golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "नचिकेता ने पूछा, पिताजी, मुझे किसे देंगे? पिता ने क्रोध में कहा, तुझे यम को देता हूँ।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 13:42"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T07:37:06Z",
+  "rounds": 1,
+  "why": {
+   "4": "Cows are crowded and overlap, with heads and bodies merging into one another. Extra horns and legs show up in the middle of the herd."
+  }
+ }
 }
