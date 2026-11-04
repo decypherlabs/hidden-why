@@ -51,7 +51,8 @@
      "vo": "ऋषि पास गए, तभी बालक ने एक गहरी साँस ली।",
      "prompt": "Sage Markandeya with long white hair and beard on the left, leaning toward baby Lord Vishnu with dark blue skin on the right, lying on a banyan leaf, both waist-up, wonder on the sage's face, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "साँस के साथ ऋषि बालक के भीतर खिंच गए।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-05 04:04"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T21:58:19Z",
+  "rounds": 1,
+  "why": {
+   "5": "Two bearded men overlap and their bodies blend into each other. The rear man's face is light-skinned but his body is blue, and his arms and torso are ambiguous."
+  }
+ }
 }
