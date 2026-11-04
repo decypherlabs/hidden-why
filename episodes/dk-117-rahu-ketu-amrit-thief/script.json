@@ -51,7 +51,8 @@
      "vo": "तुरंत भगवान विष्णु ने सुदर्शन चक्र से उसका सिर धड़ से अलग कर दिया।",
      "prompt": "Lord Vishnu with blue skin, four arms, golden crown, conch and a glowing spinning Sudarshan chakra raised in his hand, waist-up, stern fierce face, blazing golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "पर कटे सिर को मौत क्यों नहीं आई?",
@@ -73,5 +74,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 13:43"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T07:37:42Z",
+  "rounds": 1,
+  "why": {
+   "5": "Extra or merged arms and hands at the chest and left shoulder, with the trident prongs fused into the limbs."
+  }
+ }
 }
