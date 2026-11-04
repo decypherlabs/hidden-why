@@ -63,7 +63,8 @@
      "vo": "अश्वत्थामा के अस्त्र बेकार गए, तब उसने अग्नि वेदी पर ख़ुद को अर्पित कर दिया।",
      "prompt": "Ashwatthama with a gem on his forehead kneeling before a blazing fire altar with folded hands in prayer, waist-up, orange firelight on his face, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "प्रसन्न होकर महादेव ने उसमें प्रवेश किया और तलवार दी। द्वार के रक्षक वही महादेव थे।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 22:24"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T16:18:59Z",
+  "rounds": 1,
+  "why": {
+   "7": "The arms and hands at the chest are tangled. Crossed forearms sit beside or under the namaste hands, which reads as extra arms or hands."
+  }
+ }
 }
