@@ -45,7 +45,8 @@
      "vo": "दो बार उसे मारा गया, और दोनों बार देवयानी की विनती पर गुरु ने उसे जिला दिया।",
      "prompt": "Young woman Devayani on the right with tearful pleading eyes and folded hands, old sage Shukracharya with white beard on the left raising his hand in blessing, soft glowing light between them, ashram setting, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "तीसरी बार असुरों ने कच को जलाया, राख मदिरा में मिलाई और गुरु को ही पिला दी।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-04 18:05"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T11:59:13Z",
+  "rounds": 1,
+  "why": {
+   "4": "A second face peeks out from behind the man's beard and hand. Her hand blends into his, so the two figures look merged and stacked."
+  }
+ }
 }
