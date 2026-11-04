@@ -27,7 +27,8 @@
      "vo": "जिनकी कलम टूट गई, उन्होंने अपना ही दाँत तोड़ डाला।",
      "prompt": "Close-up of Lord Ganesha with an elephant head and one tusk, bright serene face, golden crown and gold ornaments, warm glowing light, modestly dressed, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "और वजह थी दुनिया की सबसे बड़ी कथा।",
@@ -46,7 +47,7 @@
      "prompt": "Lord Ganesha with an elephant head and one tusk standing on the left, Maharishi Vyasa with white beard and saffron robes standing on the right with folded hands, both waist-up, calm hermitage background, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 8923
+     "seed": 16842
     },
     {
      "vo": "गणेश जी बोले, मैं लिखूँगा, पर मेरी कलम एक पल भी नहीं रुकेगी।",
@@ -70,7 +71,8 @@
      "vo": "कथा न रुके, इसलिए उन्होंने अपना एक दाँत तोड़कर उसी से लिखना शुरू किया।",
      "prompt": "Lord Ganesha with an elephant head, one tusk broken, holding the broken tusk like a pen and writing on a palm-leaf manuscript, devoted and resolute expression, close waist-up view, golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "तभी से वे एकदंत कहलाए। गणपति बप्पा मोरया! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -83,16 +85,20 @@
  ],
  "repaint": {
   "shots": [
-   4
+   1,
+   4,
+   8
   ],
   "thumbs": [],
-  "at": "2026-11-04 13:42"
+  "at": "2026-11-04 14:58"
  },
  "shot_qc": {
-  "checked": "2026-11-04T07:37:31Z",
-  "rounds": 1,
+  "checked": "2026-11-04T08:52:50Z",
+  "rounds": 2,
   "why": {
-   "4": "The elephant statue ears and head behind the sage's head look fused with his own head, so he seems to have a second elephant ear or head. The background elephants are also muddled."
+   "1": "Three tusks, two on one side and one on the other, so the tusks look malformed.",
+   "4": "Two extra elephant heads stacked behind the man. His mustache also merges into a trunk shape.",
+   "8": "A large curved tusk sweeps down to the hand and blends into the trunk. The tusk and trunk are fused and read as extra anatomy."
   }
  }
 }
