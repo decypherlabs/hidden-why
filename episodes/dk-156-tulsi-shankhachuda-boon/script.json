@@ -45,7 +45,8 @@
      "vo": "घबराए देवता भगवान विष्णु की शरण में पहुँचे।",
      "prompt": "Lord Brahma with one face and a crown, standing left, and Lord Indra with a golden crown, standing right, both with folded hands and worried faces, waist-up, heavenly clouds behind, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "अब इस कथा में एक ऐसा मोड़ आता है, जो तुलसी का जीवन बदल देगा।",
@@ -69,7 +70,8 @@
      "vo": "विष्णु जी ने उसे वरदान दिया कि तुम पवित्र तुलसी का पौधा बनोगी, और मैं शालिग्राम बनकर सदा तुम्हारे साथ रहूँगा।",
      "prompt": "A sacred green Tulsi plant in a decorated courtyard planter beside a smooth black Shaligram stone, glowing with soft golden light, evening lamps around, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "इसी कारण आज भी हर आँगन में तुलसी पूजी जाती है। जय श्री हरि विष्णु! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -79,5 +81,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-05 08:31"
+ },
+ "shot_qc": {
+  "checked": "2026-11-05T02:25:29Z",
+  "rounds": 1,
+  "why": {
+   "4": "Two near-identical crowned figures side by side. The second looks like a duplicate of the first, with the bodies and faces mirrored.",
+   "8": "Script-like glyphs are painted on the pillar. A face fused into the plant pot, with the plant growing out of its head, reads as a merged figure."
+  }
+ }
 }
