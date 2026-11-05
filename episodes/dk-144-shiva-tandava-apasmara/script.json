@@ -39,7 +39,8 @@
      "vo": "उस बौने का नाम है अपस्मार, यानी अज्ञान का रूप।",
      "prompt": "A small dwarf figure Apasmara, modestly dressed, lying on the ground and looking up with a restless face, close view, dim temple light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "वह भूल और अहंकार का प्रतीक है, जो इंसान को सच्चा ज्ञान भूला देता है।",
@@ -52,7 +53,7 @@
      "prompt": "Lord Nataraja, Shiva with blue throat and crescent moon, on the left, pressing his foot gently on the dwarf Apasmara on the right, waist-up, golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 16843
+     "seed": 24762
     },
     {
      "vo": "तो फिर अज्ञान को खत्म क्यों नहीं किया गया?",
@@ -77,16 +78,18 @@
  ],
  "repaint": {
   "shots": [
+   3,
    5
   ],
   "thumbs": [],
-  "at": "2026-11-05 04:41"
+  "at": "2026-11-05 05:56"
  },
  "shot_qc": {
-  "checked": "2026-11-04T22:36:32Z",
-  "rounds": 2,
+  "checked": "2026-11-04T23:51:43Z",
+  "rounds": 3,
   "why": {
-   "5": "Has more arms than a traditional four-armed deity, about six, and the limbs and legs look tangled."
+   "3": "Eyes look mismatched and misaligned: the gaze and the shape of the two eyes differ.",
+   "5": "Limbs are tangled. The raised arms end in odd hook-like hands, and the legs and the trailing hair or snake merge confusingly."
   }
  }
 }
