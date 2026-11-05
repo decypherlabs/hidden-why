@@ -45,7 +45,8 @@
      "vo": "सब को उपहार बाँटे गए। सीता माता ने हनुमान को मोतियों का हार दिया।",
      "prompt": "Mother Sita standing on the left offering a pearl necklace, Lord Hanuman standing on the right with folded hands bowing slightly, both waist-up, palace court, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "हनुमान ने हार लिया, और एक-एक मोती को ध्यान से देखने लगे।",
@@ -76,23 +77,25 @@
      "prompt": "Lord Rama with blue-green complexion and crown on the left and Mother Sita on the right, both smiling with blessing hands raised, waist-up, golden light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "seed": 16847
+     "seed": 24766
     }
    ]
   }
  ],
  "repaint": {
   "shots": [
+   4,
    9
   ],
   "thumbs": [],
-  "at": "2026-11-05 11:36"
+  "at": "2026-11-05 12:14"
  },
  "shot_qc": {
-  "checked": "2026-11-05T05:30:15Z",
-  "rounds": 2,
+  "checked": "2026-11-05T06:09:16Z",
+  "rounds": 3,
   "why": {
-   "9": "Crowded layout with several extra raised hands and arms from a third figure behind. They read as extra limbs on the main woman, and the crown sits oddly on her head."
+   "4": "The large statue-like deity sits directly behind the two women, so its head and shoulders stack on and merge with their figures. Its eyes also look slightly off.",
+   "9": "Several figures overlap. Extra raised hands appear, including a faint green one at the far right and one beside the background woman, so the arms don't clearly belong to anyone."
   }
  }
 }
