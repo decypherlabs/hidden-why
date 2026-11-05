@@ -33,13 +33,15 @@
      "vo": "वे शिवजी को एक हज़ार कमलों से पूजना चाहते थे, और पूजा अधूरी नहीं छोड़ सकते थे।",
      "prompt": "Lord Vishnu with blue skin and a gold crown, waist-up, kneeling before a Shiva linga, placing lotus flowers on it, many lotuses glowing around, soft temple light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "वे एक-एक करके कमल चढ़ाते गए, और मन में बस शिवजी का नाम था।",
      "prompt": "Close view of hands of Lord Vishnu with blue skin offering a pink lotus flower onto a stone Shiva linga, drops of water and golden lamp light, no faces, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "गिनती पूरी हुई, तो एक कमल कम निकला।",
@@ -79,5 +81,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   2,
+   3
+  ],
+  "thumbs": [],
+  "at": "2026-11-05 07:13"
+ },
+ "shot_qc": {
+  "checked": "2026-11-05T01:07:45Z",
+  "rounds": 1,
+  "why": {
+   "2": "Extra arms holding lotuses have odd greenish, stalk-like hands that blend into the lotus stems. The arm count and anatomy look wrong.",
+   "3": "The hands are tangled. One hand holds the lotus from above, an open palm sits below it, and a third hand rests at right, so the hands look extra or merged."
+  }
+ }
 }
