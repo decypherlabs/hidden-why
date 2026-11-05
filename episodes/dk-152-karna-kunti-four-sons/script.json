@@ -51,7 +51,8 @@
      "vo": "पर माँ को ख़ाली हाथ भी नहीं लौटाऊँगा, उसने कहा।",
      "prompt": "Karna on the left gently folding his hands toward Kunti on the right, who looks at him with tearful eyes, both waist-up, soft dawn light, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "मैं अर्जुन को छोड़कर किसी पांडव को नहीं मारूँगा।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-05 05:57"
+ },
+ "shot_qc": {
+  "checked": "2026-11-04T23:51:34Z",
+  "rounds": 1,
+  "why": {
+   "5": "The two men's hands are tangled together in the prayer pose. The fingers merge and the hand count looks wrong."
+  }
+ }
 }
