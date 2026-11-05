@@ -51,7 +51,8 @@
      "vo": "रावण ने प्रहस्त को दूत बनाकर कुबेर के पास भेजा।",
      "prompt": "Prahasta, a stern rakshasa envoy in dark armour with a message scroll, waist-up, in a grand golden palace hall, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "कुबेर ने पिता विश्रवा से पूछा, और उनकी सलाह पर लंका छोड़कर कैलाश चले गए।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-05 10:20"
+ },
+ "shot_qc": {
+  "checked": "2026-11-05T04:13:08Z",
+  "rounds": 1,
+  "why": {
+   "5": "Text or script is painted onto the scroll or placard the figure is holding."
+  }
+ }
 }
