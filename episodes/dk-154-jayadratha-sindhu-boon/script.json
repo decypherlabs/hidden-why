@@ -39,7 +39,8 @@
      "vo": "श्रीकृष्ण ने अर्जुन को चेताया, इसका सिर धरती पर गिरा, तो गिराने वाले का सिर फट जाएगा।",
      "prompt": "Lord Krishna with peacock feather crown, dark blue skin and yellow garment standing on the left, speaking gravely; Arjuna with bow and crown standing on the right, listening, both waist-up, vertical composition, cinematic medium close-up, face in sharp focus, clear detailed eyes",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "उसी समय वृद्धक्षत्र पास ही स्यमन्तपंचक में आँखें बंद करके तप कर रहे थे।",
@@ -73,5 +74,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   3
+  ],
+  "thumbs": [],
+  "at": "2026-11-05 07:52"
+ },
+ "shot_qc": {
+  "checked": "2026-11-05T01:46:43Z",
+  "rounds": 1,
+  "why": {
+   "3": "Two near-identical blue figures overlap, and the front figure's torso and jewelry blend into the one behind. It reads as a duplicated or merged figure."
+  }
+ }
 }
