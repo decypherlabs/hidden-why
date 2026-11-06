@@ -2,7 +2,7 @@
  "slug": "s80-cat-eyes-glow",
  "format": "short",
  "title": "Why Cat Eyes Glow in the Dark 🐱",
- "hook_text": "EYES THAT MAKE NO LIGHT",
+ "hook_text": "NOT A GLOW?",
  "approved": true,
  "voice_speed": 1.05,
  "music": {
@@ -16,8 +16,8 @@
    "card": null,
    "shots": [
     {
-     "vo": "A cat's eyes glow in the dark, but they make no light.",
-     "prompt": "Close medium shot of a black cat sitting in total darkness, face centred, two bright green eyes glowing, faint rim light on whiskers, photoreal, no text, vertical composition, bright warm light, highly detailed",
+     "vo": "Cat eyes aren't glowing. They're bouncing.",
+     "prompt": "Close-up of a tabby cat's face at centre in a dark room, a thin white beam of light from the left reaching its eyes, both eyes flaring bright green, black background, dramatic light, vertical composition, bright warm light, highly detailed",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
     },
@@ -55,5 +55,10 @@
   }
  ],
  "cover_text": "CAT EYES GLOW BUT MAKE *NO LIGHT*",
- "cover_shot": 1
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 8,
+  "why": "Short, contradicts the familiar belief immediately, 'bouncing' creates a precise question, and it's true to the script; shock lands in the first 3 words ('Cat eyes aren't glowing').",
+  "was": "A cat's eyes glow in the dark, but they make no light."
+ }
 }

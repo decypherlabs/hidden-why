@@ -6,7 +6,7 @@
  "lang": "hi",
  "approved": true,
  "title": "राजा ऋषि क्यों बन गए? 🐄",
- "hook_text": "एक गाय ने छुड़ाया राजपाट",
+ "hook_text": "क्यों नहीं दी?",
  "cover_text": "एक गाय ने राजा विश्वामित्र को *ऋषि* बनाया!",
  "cover_shot": 1,
  "cover": {
@@ -24,8 +24,8 @@
    "card": null,
    "shots": [
     {
-     "vo": "एक गाय की हुंकार से सेना मिट गई, राजा ने राजपाट छोड़ दिया।",
-     "prompt": "Wide shot of a forest ashram clearing at dusk: a divine white cow with golden horns standing alone in the centre, head raised, mouth open in a roar, golden light blazing around her; on the ground behind her broken chariots and scattered banners, distant blurred silhouettes of soldiers fleeing, stormy fiery sky, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "एक लाख गायें ठुकराईं, एक गाय नहीं दी।",
+     "prompt": "Medium-wide shot: a calm old man with a long white beard in white robes stands on the right, one palm raised in refusal; on the left a stern king with black beard, golden crown and golden armour; between them heaps of gold coins and a row of cattle drawn far behind, one radiant white cow with golden horns beside the sage, soft daylight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
@@ -79,5 +79,10 @@
     }
    ]
   }
- ]
+ ],
+ "hook_score": {
+  "score": 8,
+  "why": "Strong number contrast (एक लाख vs एक) in first 3 words, 8 words, opens a clear unanswered question (why refuse?), and the on-screen 'क्यों नहीं दी?' adds a gap; visual is weaker but the tension is specific.",
+  "was": "एक गाय की हुंकार से सेना मिट गई, राजा ने राजपाट छोड़ दिया।"
+ }
 }

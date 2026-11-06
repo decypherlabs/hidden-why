@@ -6,7 +6,7 @@
  "lang": "hi",
  "approved": true,
  "title": "आख़िरी पानी भी क्यों दे दिया? 💧",
- "hook_text": "भूखे राजा का आख़िरी पानी",
+ "hook_text": "थाली में क्या था?",
  "cover_text": "भूखे रंतिदेव ने *आख़िरी पानी* चांडाल को दिया!",
  "cover_shot": 1,
  "cover": {
@@ -24,8 +24,8 @@
    "card": null,
    "shots": [
     {
-     "vo": "अड़तालीस दिन भूखे राजा ने अपना आख़िरी पानी भी दे दिया!",
-     "prompt": "Wide shot, a gaunt old man with a white beard in a plain saffron dhoti and thin gold armband stands on the right holding a small clay cup of water, a thin exhausted poor man in a torn white cloth kneels on the left with open palms, bare stone courtyard, soft dawn light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "उनचास दिन भूखा राजा, थाली सामने, और खाया नहीं!",
+     "prompt": "Medium shot, a gaunt old man with a white beard, sunken cheeks and a plain saffron dhoti sits cross-legged at the centre, a brass plate of kheer, halwa and ghee with rising steam on the floor before him, hands resting on his knees, empty stone palace hall behind, warm dramatic light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
@@ -79,5 +79,10 @@
     }
    ]
   }
- ]
+ ],
+ "hook_score": {
+  "score": 8,
+  "why": "Specific number, plate in front, and refusal: impossible-act contradiction in the first words, a concrete visible image, and a specific open question; 8 words.",
+  "was": "अड़तालीस दिन भूखे राजा ने अपना आख़िरी पानी भी दे दिया!"
+ }
 }

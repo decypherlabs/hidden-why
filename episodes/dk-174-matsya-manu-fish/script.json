@@ -6,7 +6,7 @@
  "lang": "hi",
  "approved": true,
  "title": "छोटी मछली ने मनु को क्या चेताया? 🐟",
- "hook_text": "छोटी मछली, बढ़ता आकार!",
+ "hook_text": "7 दिन। एक चेतावनी।",
  "cover_text": "मनु की अंजुलि में आई मछली, *प्रलय* बताया!",
  "cover_shot": 1,
  "cover": {
@@ -24,8 +24,8 @@
    "card": null,
    "shots": [
     {
-     "vo": "क्या आप जानते हैं, एक मछली के सींग से पूरी दुनिया की नाव बंधी थी?",
-     "prompt": "Wide shot of a small wooden boat on a stormy ocean, a giant golden fish with a single horn rising from the waves to the right, a thick serpent rope stretched from its horn to the boat, an elderly bearded sage in plain white robes seated in the boat, dark storm clouds, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "सात दिन में पूरी दुनिया डूबने वाली थी।",
+     "prompt": "Wide shot at dusk, a vast dark stormy sea with towering waves rolling toward distant blurred mountains, an old man with white beard, matted grey hair and plain white robes standing alone on a rocky shore at centre, looking out at the horizon, lightning in black clouds, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
@@ -73,5 +73,10 @@
     }
    ]
   }
- ]
+ ],
+ "hook_score": {
+  "score": 7,
+  "why": "Opens with a number and a catastrophe (7 days, world drowning); short, 7 words, creates a 'who warned/why' gap, but 'सात दिन' is not the first-3-words shock and the flood is somewhat familiar.",
+  "was": "क्या आप जानते हैं, एक मछली के सींग से पूरी दुनिया की नाव बंधी थी?"
+ }
 }

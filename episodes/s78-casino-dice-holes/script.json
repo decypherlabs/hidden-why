@@ -2,7 +2,7 @@
  "slug": "s78-casino-dice-holes",
  "format": "short",
  "title": "Why Casino Dice Have Holes Drilled In 🎲",
- "hook_text": "HOLES THAT CAN'T CHEAT",
+ "hook_text": "FLAW ON PURPOSE",
  "approved": true,
  "voice_speed": 1.05,
  "music": {
@@ -16,8 +16,8 @@
    "card": null,
    "shots": [
     {
-     "vo": "Every casino die has holes drilled in it, yet stays perfectly fair.",
-     "prompt": "Medium shot, photoreal painting of a clear red casino die with white drilled pips resting on green felt at centre, a stack of chips behind it, warm overhead lamp light glinting on the pips, no people, no text, vertical composition, bright warm light, highly detailed",
+     "vo": "Every hole is a flaw. The casino wants that.",
+     "prompt": "Medium shot, a stern middle-aged man in a black suit and red tie at the centre of a casino back room, holding a magnifying glass up to a red die in his other hand, bright desk lamp above, green felt table, dim amber light, vertical composition, bright warm light, highly detailed",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
     },
@@ -55,5 +55,10 @@
   }
  ],
  "cover_text": "CASINO DICE HAVE *HOLES*. STILL FAIR?",
- "cover_shot": 1
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 7,
+  "why": "Tight contradiction: a flaw the casino wants. Opens a clear question and is under 9 words, though the visual is abstract.",
+  "was": "Every casino die has holes drilled in it, yet stays perfectly fair."
+ }
 }

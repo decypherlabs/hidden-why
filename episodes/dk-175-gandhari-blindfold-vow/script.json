@@ -6,7 +6,7 @@
  "lang": "hi",
  "approved": true,
  "title": "गांधारी ने आँखें क्यों बाँधीं? 🙏",
- "hook_text": "आँखों पर पट्टी, ताउम्र!",
+ "hook_text": "कौन सी माँ अंधी?",
  "cover_text": "गांधारी ने *सौ बेटों* का चेहरा नहीं देखा!",
  "cover_shot": 1,
  "cover": {
@@ -24,8 +24,8 @@
    "card": null,
    "shots": [
     {
-     "vo": "क्या आप जानते हैं, एक रानी ने पूरी ज़िंदगी आँखें खोली ही नहीं?",
-     "prompt": "Medium shot of a woman, a young queen in a modest cream and maroon saree with gold bangles, standing centre in a torch-lit palace hall, both hands raising a thick white cloth over her closed eyes, calm resolute face, stone pillars, glowing oil lamps, warm light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "सौ बेटों की माँ ने, एक भी बेटा नहीं देखा।",
+     "prompt": "Wide shot of a woman, a queen in a cream and maroon saree with a white cloth tied over her eyes, standing centre in a grand palace hall, hands folded, in front of her on the floor a long row of distant blurred silhouettes of young princes in golden armour, warm lamp light, stone pillars, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
@@ -73,5 +73,10 @@
     }
    ]
   }
- ]
+ ],
+ "hook_score": {
+  "score": 8,
+  "why": "Shock in first 3 words (100 sons, never saw one), 7 words, opens a clear gap; the image is slightly abstract but it doesn't answer the question",
+  "was": "क्या आप जानते हैं, एक रानी ने पूरी ज़िंदगी आँखें खोली ही नहीं?"
+ }
 }

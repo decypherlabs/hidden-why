@@ -2,7 +2,7 @@
  "slug": "s79-cabin-lights-dim",
  "format": "short",
  "title": "Why Planes Dim Their Lights Before Takeoff 💡",
- "hook_text": "LIGHTS OFF ON PURPOSE",
+ "hook_text": "WHY GO DARK?",
  "approved": true,
  "voice_speed": 1.05,
  "music": {
@@ -16,8 +16,8 @@
    "card": null,
    "shots": [
     {
-     "vo": "Right before takeoff, the crew switches the plane's lights off on purpose.",
-     "prompt": "Wide shot of an airliner cabin interior just before takeoff, ceiling lights switched off, long rows of empty seats lit only by soft blue glow from small oval windows, a single empty aisle down the centre, dim cinematic light, no people, no text, vertical composition, bright warm light, highly detailed",
+     "vo": "Planes go dark right before the most dangerous minutes.",
+     "prompt": "Medium-wide shot of an airliner cabin in near darkness, a woman with worried wide eyes seated on the LEFT and a man in a white shirt seated on the RIGHT, both facing forward, a dim amber emergency strip glowing along the floor, rows of distant blurred silhouettes behind, no text, vertical composition, bright warm light, highly detailed",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
     },
@@ -55,5 +55,10 @@
   }
  ],
  "cover_text": "PLANES DIM CABIN LIGHTS *BEFORE* TAKEOFF. WHY?",
- "cover_shot": 1
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 6,
+  "why": "'Planes go dark' is a striking image up front and 'most dangerous minutes' opens a gap; 10 words, slightly over limit.",
+  "was": "Right before takeoff, the crew switches the plane's lights off on purpose."
+ }
 }
