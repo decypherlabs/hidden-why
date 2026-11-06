@@ -38,9 +38,10 @@
     },
     {
      "vo": "सपने में भगवान ने उन्हें मंदिर बनाने को कहा।",
-     "prompt": "Medium-wide shot of King Indradyumna, a middle-aged bearded man in saffron robes with a simple gold crown, asleep on a low wooden bed in a palace chamber, behind him Lord Vishnu, blue skin, golden crown, yellow dhoti, holding a conch and discus, glowing softly, lamplight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Medium-wide shot of a sleeping middle-aged bearded man with a simple gold crown and saffron robes, lying on a low wooden bed on the left, a large glowing dream cloud of golden light above him showing Lord Vishnu, blue skin, golden crown, yellow dhoti, holding a conch and discus, palace chamber, lamplight, clean stone floor, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "समुद्र किनारे एक बड़ा लकड़ी का तना बहकर आया।",
@@ -82,5 +83,19 @@
   }
  ],
  "reviewed_at": "2026-11-06 22:31",
- "released_at": "2026-11-06 23:03"
+ "released_at": "2026-11-06 23:03",
+ "repaint": {
+  "shots": [
+   3
+  ],
+  "thumbs": [],
+  "at": "2026-11-07 02:28"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T20:54:13Z",
+  "rounds": 1,
+  "why": {
+   "3": "Odd blue fish/bird-like creatures lie on the floor and look fused or malformed. The tile also doesn't show a dream or any divine presence."
+  }
+ }
 }
