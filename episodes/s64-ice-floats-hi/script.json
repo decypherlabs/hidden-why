@@ -1,0 +1,65 @@
+{
+ "slug": "s64-ice-floats-hi",
+ "format": "short",
+ "title": "बर्फ़ पानी में डूबती क्यों नहीं? 🧊",
+ "hook_text": "बर्फ़ क्यों तैरती है?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "लगभग हर ठोस अपने ही द्रव में डूबता है, लेकिन बर्फ़ तैरती है।",
+     "prompt": "an ice cube floating in a clear glass of water, bubbles, side view, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लगभग हर ठोस अपने ही द्रव में डूबता है, लेकिन बर्फ़ तैरती है।"
+    },
+    {
+     "vo": "पानी जमता है, तो उसके अणु खुली-खुली जगह वाले पैटर्न में बंध जाते हैं।",
+     "prompt": "an artistic view of a glowing hexagonal ice crystal lattice, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पानी जमता है, तो उसके अणु खुली-खुली जगह वाले पैटर्न में बंध जाते हैं।"
+    },
+    {
+     "vo": "इसलिए बर्फ़ उतने ही पानी से हल्की होती है, और ऊपर आ जाती है।",
+     "prompt": "a large chunk of ice floating in a calm blue lake, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसलिए बर्फ़ उतने ही पानी से हल्की होती है, और ऊपर आ जाती है।"
+    },
+    {
+     "vo": "अगर बर्फ़ डूबती, तो झील नीचे से जमती, और मछलियों के लिए जगह ही नहीं बचती।",
+     "prompt": "fish swimming in dark water under a frozen lake surface, light through the ice, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "अगर बर्फ़ डूबती, तो झील नीचे से जमती, और मछलियों के लिए जगह ही नहीं बचती।"
+    },
+    {
+     "vo": "और इसीलिए बर्फ़ डूबती नहीं, तैरती है।",
+     "prompt": "an ice cube floating in a clear glass of water, bubbles, side view, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "और इसीलिए बर्फ़ डूबती नहीं, तैरती है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "बर्फ़ *तैरती* क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s64-ice-floats",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

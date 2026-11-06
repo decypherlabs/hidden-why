@@ -1,0 +1,65 @@
+{
+ "slug": "s63-sky-blue-hi",
+ "format": "short",
+ "title": "आसमान नीला क्यों होता है, जबकि सूरज की रोशनी सफ़ेद है? 🌤️",
+ "hook_text": "सफ़ेद रोशनी, नीला आसमान",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सूरज की रोशनी सफ़ेद है, फिर आसमान नीला क्यों?",
+     "prompt": "a wide bright blue sky over green hills with a white sun, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सूरज की रोशनी सफ़ेद है, फिर आसमान नीला क्यों?"
+    },
+    {
+     "vo": "सफ़ेद रोशनी में सारे रंग मिले होते हैं।",
+     "prompt": "a glass prism splitting a beam of white light into a rainbow on a dark table, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सफ़ेद रोशनी में सारे रंग मिले होते हैं।"
+    },
+    {
+     "vo": "हवा के छोटे कण नीली तरंगों को लाल से कहीं ज़्यादा बिखेरते हैं।",
+     "prompt": "an artistic view of blue light beams bouncing off countless tiny glowing particles in the air, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "हवा के छोटे कण नीली तरंगों को लाल से कहीं ज़्यादा बिखेरते हैं।"
+    },
+    {
+     "vo": "इसीलिए नीला पूरे आसमान में फैलता है। सूर्यास्त पर रोशनी दूर तक चलती है, और सिर्फ़ लाल पहुँचता है।",
+     "prompt": "a dramatic orange and red sunset over the ocean, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए नीला पूरे आसमान में फैलता है। सूर्यास्त पर रोशनी दूर तक चलती है, और सिर्फ़ लाल पहुँचता है।"
+    },
+    {
+     "vo": "और इसीलिए सफ़ेद रोशनी के बावजूद आसमान नीला है।",
+     "prompt": "a wide bright blue sky over green hills with a white sun, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "और इसीलिए सफ़ेद रोशनी के बावजूद आसमान नीला है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "आसमान *नीला* क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s63-sky-blue",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

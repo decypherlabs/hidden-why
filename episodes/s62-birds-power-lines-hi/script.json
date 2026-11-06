@@ -1,0 +1,65 @@
+{
+ "slug": "s62-birds-power-lines-hi",
+ "format": "short",
+ "title": "बिजली के तार पर बैठी चिड़िया को झटका क्यों नहीं लगता? ⚡",
+ "hook_text": "हज़ारों वोल्ट, फिर भी सुरक्षित",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "हज़ारों वोल्ट का तार, और चिड़िया ज़रा भी नहीं चौंकती।",
+     "prompt": "a small sparrow perched calmly on a single high-voltage power line against a blue sky, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "हज़ारों वोल्ट का तार, और चिड़िया ज़रा भी नहीं चौंकती।"
+    },
+    {
+     "vo": "बिजली तभी बहती है, जब नीचे जाने का रास्ता मिले।",
+     "prompt": "close-up of a thick power line cable with a faint blue electric glow, sky behind, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बिजली तभी बहती है, जब नीचे जाने का रास्ता मिले।"
+    },
+    {
+     "vo": "दोनों पैर एक ही तार पर, एक ही वोल्टेज पर, तो करंट बहता ही नहीं।",
+     "prompt": "close-up of a bird's two feet gripping one power cable, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "दोनों पैर एक ही तार पर, एक ही वोल्टेज पर, तो करंट बहता ही नहीं।"
+    },
+    {
+     "vo": "लेकिन बड़ा पक्षी दो तारों को छू ले, तो करंट उसके अंदर से निकल जाता है।",
+     "prompt": "a large hawk with wings spread wide between two parallel power lines, sparks at its wingtip, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन बड़ा पक्षी दो तारों को छू ले, तो करंट उसके अंदर से निकल जाता है।"
+    },
+    {
+     "vo": "और इसीलिए, हज़ारों वोल्ट के तार पर भी चिड़िया नहीं चौंकती।",
+     "prompt": "a small sparrow perched calmly on a single high-voltage power line against a blue sky, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "और इसीलिए, हज़ारों वोल्ट के तार पर भी चिड़िया नहीं चौंकती।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "चिड़िया को *झटका* क्यों नहीं?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s62-birds-power-lines",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

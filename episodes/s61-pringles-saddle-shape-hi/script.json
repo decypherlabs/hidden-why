@@ -1,0 +1,65 @@
+{
+ "slug": "s61-pringles-saddle-shape-hi",
+ "format": "short",
+ "title": "प्रिंगल्स चिप्स की शक्ल घोड़े की ज़ीन जैसी क्यों होती है? 🥔",
+ "hook_text": "चिप्स टूटते क्यों नहीं?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "प्रिंगल्स का ये मुड़ाव दिखावे के लिए नहीं है। ये उसे टूटने से बचाता है।",
+     "prompt": "a single curved saddle-shaped potato crisp floating in mid-air, crumbs around it, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "प्रिंगल्स का ये मुड़ाव दिखावे के लिए नहीं है। ये उसे टूटने से बचाता है।"
+    },
+    {
+     "vo": "सपाट चिप्स दबाते ही चटक जाता है।",
+     "prompt": "a flat thin potato crisp cracking in half between two fingers, crumbs flying, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सपाट चिप्स दबाते ही चटक जाता है।"
+    },
+    {
+     "vo": "ये ज़ीन जैसी बनावट एक तरफ़ ऊपर, दूसरी तरफ़ नीचे मुड़ती है, तो ज़ोर फैल जाता है।",
+     "prompt": "close-up of a saddle-shaped potato crisp on a plate showing its double curve, soft shadows, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये ज़ीन जैसी बनावट एक तरफ़ ऊपर, दूसरी तरफ़ नीचे मुड़ती है, तो ज़ोर फैल जाता है।"
+    },
+    {
+     "vo": "और हर चिप्स बिल्कुल एक जैसा है, इसलिए ट्यूब में एक के ऊपर एक रखकर भी नहीं टूटता।",
+     "prompt": "a neat stack of identical saddle-shaped potato crisps standing on a table, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "और हर चिप्स बिल्कुल एक जैसा है, इसलिए ट्यूब में एक के ऊपर एक रखकर भी नहीं टूटता।"
+    },
+    {
+     "vo": "तो प्रिंगल्स की ये शक्ल दिखावे की नहीं, उसे टूटने से बचाने की है।",
+     "prompt": "a single curved saddle-shaped potato crisp floating in mid-air, crumbs around it, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "तो प्रिंगल्स की ये शक्ल दिखावे की नहीं, उसे टूटने से बचाने की है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "*टूटती* क्यों नहीं?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s61-pringles-saddle-shape",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
