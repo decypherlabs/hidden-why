@@ -27,7 +27,8 @@
      "vo": "क्या आप जानते हैं, खींचते-खींचते दुःशासन थक गया, पर साड़ी खत्म ही नहीं हुई?",
      "prompt": "Dushasana, a strong man in royal attire, pulling with both hands at an endless flowing cloth of rich colours in a torch-lit royal assembly hall, exhausted and straining, Draupadi in a simple saree standing at the right with her hands raised in prayer, cloth heaped on the floor between them, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "भरी सभा में भीष्म, द्रोण और सब राजा चुप बैठे थे, कोई कुछ न बोला।",
@@ -39,19 +40,22 @@
      "vo": "दुःशासन ने द्रौपदी की साड़ी पकड़कर खींचना शुरू किया।",
      "prompt": "Dushasana on the left grabbing and pulling the end of Draupadi's saree, Draupadi on the right in a simple modest saree holding it tightly and resisting, in a torch-lit royal assembly hall, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "द्रौपदी ने पहले अपने ही सहारे बचना चाहा, पर कोई रास्ता न बचा।",
      "prompt": "Draupadi in a simple saree standing alone in the centre of a torch-lit assembly hall, clutching her saree with both hands, looking around in helpless distress, distant silhouettes of the court far behind her, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "लेकिन रुकिए, अब उसने ऐसा क्या किया, जिसने सब बदल दिया?",
      "prompt": "Close-up of Draupadi's face, eyes closed and wet with tears, both hands raised high above her head in prayer, soft golden light beginning to fall on her from above, torch-lit hall blurred behind, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "तब उसने दोनों हाथ उठाकर पूरे मन से श्रीकृष्ण को पुकारा।",
@@ -63,13 +67,15 @@
      "vo": "साड़ी बढ़ती चली गई, और दुःशासन खींचते-खींचते हार गया।",
      "prompt": "Dushasana on the left, exhausted and sinking to his knees, a huge mound of colourful endless cloth piled high on the floor of the assembly hall, Draupadi standing safe and calm on the right with folded hands, torch-lit hall, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "जब सब छूट गए, तब सच्ची पुकार पर कृष्ण ने उसकी लाज बचाई।",
      "prompt": "Draupadi standing serene in the assembly hall with folded hands and tearful grateful eyes, a soft blue-gold divine light surrounding her, heaps of cloth around her feet, Lord Krishna with a peacock feather crown shown as a faint glowing form above, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "जय श्री कृष्ण! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -79,5 +85,29 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   1,
+   3,
+   4,
+   5,
+   7,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-06 16:37"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T10:49:40Z",
+  "rounds": 1,
+  "why": {
+   "1": "The narration is about Dushasana pulling the sari until he tires, but the tile shows only a woman dancing or posing, with no Dushasana and no pulling.",
+   "3": "Dushasana is not clearly pulling Draupadi's sari. The standing figure holds a torch or flame near the kneeling woman's face, and the faces are small.",
+   "4": "The tile shows only a woman standing. Nothing in it shows her trying to save herself or having no way out.",
+   "5": "This is a close-up of a woman's face with her hand at her cheek. It doesn't show the narrated action, which is a turning point.",
+   "7": "The image is stacked or duplicated: a second seated man appears in the background above the foreground man. Dushasana is not pulling a sari, and the two figures are not a coherent scene.",
+   "8": "Draupadi stands with folded hands alone. Krishna is not shown saving her honour, and the sari is not shown."
+  }
+ }
 }
