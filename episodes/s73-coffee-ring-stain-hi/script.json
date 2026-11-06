@@ -1,0 +1,72 @@
+{
+ "slug": "s73-coffee-ring-stain-hi",
+ "format": "short",
+ "title": "कॉफ़ी की बूंद सूखकर एक छल्ला क्यों बना देती है? ☕",
+ "hook_text": "बीच में खाली क्यों?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "कॉफ़ी की एक बूंद सूखती है, तो बीच खाली रहता है और बनता है एक पक्का छल्ला।",
+     "prompt": "Realistic painting of a dried coffee stain on a wooden table forming a perfect dark ring with a pale empty centre, a white mug beside it, no text, no people, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "कॉफ़ी की एक बूंद सूखती है, तो बीच खाली रहता है और बनता है एक पक्का छल्ला।"
+    },
+    {
+     "vo": "बूंद का किनारा सबसे पहले सूखता है, और मेज़ से चिपका रहता है।",
+     "prompt": "Realistic painting of a fresh coffee droplet on a wooden table, its rim gripping the surface while the top stays rounded, macro view, no text, no people, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बूंद का किनारा सबसे पहले सूखता है, और मेज़ से चिपका रहता है।"
+    },
+    {
+     "vo": "वहां पानी उड़ता है, तो अंदर से और पानी बाहर की तरफ़ दौड़ता है।",
+     "prompt": "Realistic cutaway painting of a coffee drop with arrows of brown liquid flowing from the centre toward the edge, tiny steam wisps rising at the rim, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वहां पानी उड़ता है, तो अंदर से और पानी बाहर की तरफ़ दौड़ता है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, यही बहाव कॉफ़ी के हर कण को अपने साथ ले जाता है।",
+     "prompt": "Realistic macro painting of tiny dark coffee particles streaming along the current toward the outer edge of a drop, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, यही बहाव कॉफ़ी के हर कण को अपने साथ ले जाता है।"
+    },
+    {
+     "vo": "कण किनारे पर जमा हो जाते हैं, और बीच खाली रह जाता है।",
+     "prompt": "Realistic macro painting of dark coffee particles stacked densely along the rim of a drying drop, the centre clear and pale, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "कण किनारे पर जमा हो जाते हैं, और बीच खाली रह जाता है।"
+    },
+    {
+     "vo": "इसीलिए कॉफ़ी की बूंद सूखकर बीच से खाली, एक छल्ला बनती है।",
+     "prompt": "Realistic painting of several perfect coffee rings on a wooden table next to a steaming cup, warm morning light, no text, no people, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए कॉफ़ी की बूंद सूखकर बीच से खाली, एक छल्ला बनती है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "कॉफ़ी का *छल्ला*",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s73-coffee-ring-stain",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
