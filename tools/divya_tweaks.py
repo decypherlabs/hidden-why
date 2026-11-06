@@ -20,8 +20,8 @@ DESC = {
     "e2-dramatic": "Divya speaks in a dramatic, intense and highly expressive voice, like a gripping storyteller building suspense, with strong emphasis and varied pitch." + CLEAR,
     "e3-per-line": None,  # the mood follows each line: a question surprised, the turn suspenseful, the rest animated
 }
-MOOD = {"?": "Divya speaks in a surprised, curious and very expressive tone, with strong emphasis and high pitch variation.",
-        "रुकिए": "Divya speaks in a dramatic, suspenseful whisper-like tone, slow and intense, with strong emphasis.",
+MOOD = {"रुकिए": "Divya speaks in a dramatic, suspenseful whisper-like tone, slow and intense, with strong emphasis.",
+        "?": "Divya speaks in a surprised, curious and very expressive tone, with strong emphasis and high pitch variation.",
         "": "Divya speaks in a very expressive and animated storytelling voice with high pitch variation, stressing the key words."}
 model = ParlerTTSForConditionalGeneration.from_pretrained(M)
 tok, dtok = AutoTokenizer.from_pretrained(M), AutoTokenizer.from_pretrained(model.config.text_encoder._name_or_path)
