@@ -44,6 +44,8 @@ def main(script_path, out_dir, part=0, parts=1):
     script = json.loads(Path(script_path).read_text())
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
+    if BRAND.get("engine") == "flux":
+        return paint_flux(script, out, part, parts)
     from diffusers import StableDiffusionXLPipeline
     # a brand's own model (Devlok Katha, owner 31 Oct 2026: realistic RealVisXL Lightning, 6 steps), else SDXL base
     src = os.environ.get("SDXL_PATH") or BRAND.get("model") or model_path()  # the smoke test's tiny model wins
@@ -89,6 +91,43 @@ def main(script_path, out_dir, part=0, parts=1):
             img = refine(pipe, img, prompt, prompt2, negative, g, float(BRAND["refine"]))
         if BRAND.get("face_fix"):
             img = face_fix(pipe, img, prompt, prompt2, negative, g)
+        img.save(p)
+        print(f"  {i}/{len(jobs)} {p.name}", flush=True)
+
+
+def paint_flux(script, out, part=0, parts=1):
+    """FLUX.1-schnell (Apache-2.0; owner, 6 Nov 2026: "more beautiful and premium", it paints what SDXL dropped:
+    Kaliya, blue Krishna). 4 steps, no negative prompt, 4-bit transformer, CPU offload: ~41 s an image on a T4.
+    The model is gated: the read-only token comes in the private input dataset (hf_token.txt)."""
+    import subprocess
+    try:
+        import bitsandbytes  # noqa: F401
+    except ImportError:
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "bitsandbytes"], check=True)
+    tok = next(Path("/kaggle/input").rglob("hf_token.txt"), None) if Path("/kaggle/input").exists() else None
+    if tok and not os.environ.get("HF_TOKEN"):
+        os.environ["HF_TOKEN"] = tok.read_text().strip()
+    from diffusers import BitsAndBytesConfig, FluxPipeline, FluxTransformer2DModel
+    repo = BRAND.get("flux_model") or "black-forest-labs/FLUX.1-schnell"
+    style = script.get("art_style") or BRAND["art_style"]
+    w, h = (768, 1344) if script.get("format") == "short" else (1344, 768)
+    jobs = [(out / f"shot-{n:02d}.png", f"{p}, {style}", seed) for n, p, _, seed in shots(script)]
+    cv = (script.get("cover") or {}).get("prompt")
+    if cv:
+        jobs.append((out / "cover.png", f"{cv}, {script.get('art_style') or BRAND.get('cover_style') or style}",
+                     int((script.get("cover") or {}).get("seed") or 9)))
+    jobs = [j for i, j in enumerate(jobs) if i % parts == part and not j[0].exists()]
+    if not jobs:
+        return
+    tr = FluxTransformer2DModel.from_pretrained(repo, subfolder="transformer", torch_dtype=torch.float16,
+                                                quantization_config=BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4",
+                                                                                       bnb_4bit_compute_dtype=torch.float16))
+    pipe = FluxPipeline.from_pretrained(repo, transformer=tr, torch_dtype=torch.float16)
+    pipe.enable_model_cpu_offload()
+    print(f"  FLUX from {repo}", flush=True)
+    for i, (p, prompt, seed) in enumerate(jobs, 1):
+        img = pipe(prompt, width=w, height=h, num_inference_steps=int(BRAND.get("flux_steps", 4)), guidance_scale=0.0,
+                   max_sequence_length=256, generator=torch.Generator("cpu").manual_seed(seed)).images[0]
         img.save(p)
         print(f"  {i}/{len(jobs)} {p.name}", flush=True)
 

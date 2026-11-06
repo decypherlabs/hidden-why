@@ -96,6 +96,10 @@ def paint(slug, script, out):
     print(f"{slug}: painting {len(missing)}: {', '.join(missing)}", flush=True)
     import torch
     gpus = max(1, torch.cuda.device_count())
+    cfg = [ROOT / "brand" / "brand.json"] + [ROOT / "brand" / b / "brand.json" for b in [os.environ.get("HW_BRAND")] if b]
+    engine = [json.loads(c.read_text()).get("engine") for c in cfg if c.exists()]  # this episode's brand (set per episode)
+    if ([e for e in engine if e] or [None])[-1] == "flux":  # one FLUX process: two would each hold ~17 GB in RAM for the CPU offload (Kaggle has 30)
+        gpus = 1
     procs = [subprocess.Popen([PY, str(ROOT / "gpu/paint.py"), str(script), str(out), str(k), str(gpus)],
                               env={**os.environ, "CUDA_VISIBLE_DEVICES": str(k)}) for k in range(gpus)]
     if any(p.wait() for p in procs):
