@@ -39,13 +39,15 @@
      "vo": "संपाति और जटायु होड़ में सूरज की ओर उड़े थे।",
      "prompt": "Two vultures, one large and one slightly smaller, flying side by side upward toward a huge glowing sun above clouds and distant mountains, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "जटायु झुलसने लगे, तो संपाति ने उन्हें अपने पंखों से ढक लिया।",
      "prompt": "A smaller vulture at right with scorched feathers drooping, a giant vulture at left stretching its enormous wings over it against the harsh midday sun, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "लेकिन रुकिए, इन्हीं जले पंखों वाले संपाति ने सीता का पता बताया।",
@@ -57,7 +59,8 @@
      "vo": "बरसों बाद विंध्य के समुद्र किनारे सीता को खोजते वानर आ पहुँचे।",
      "prompt": "Vanara prince Angada with golden armlets standing at right on a seashore rock, facing a giant old vulture at left perched on a cliff, a few distant vanara silhouettes behind, not touching, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "संपाति ने गिद्ध-दृष्टि से सौ योजन दूर समुद्र पार देखा।",
@@ -69,7 +72,8 @@
      "vo": "लंका में रावण के पास बंदी सीता उन्हें दिख गईं, और उनके नए पंख उग आए।",
      "prompt": "A giant vulture on a cliff with fresh new red-brown wings sprouting and spreading, a golden city of Lanka glowing across the sea in the distance, distant vanara silhouettes on the shore, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "जय श्री राम! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -79,5 +83,25 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   3,
+   4,
+   6,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-06 16:38"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T10:49:24Z",
+  "rounds": 1,
+  "why": {
+   "3": "The left bird has a second wing or bird shape stacked behind its body, so it looks duplicated.",
+   "4": "Only one vulture is shown. There is no Jatayu being covered by Sampati's wings.",
+   "6": "A single man in a yellow robe stands beside the vulture. The narration says vanaras arrive, and none are shown.",
+   "8": "A lone flying vulture over a coast. There is no Sita, no Ravana, no Lanka, and no sign of new wings growing."
+  }
+ }
 }
