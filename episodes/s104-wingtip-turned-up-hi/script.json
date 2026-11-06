@@ -1,0 +1,72 @@
+{
+ "slug": "s104-wingtip-turned-up-hi",
+ "format": "short",
+ "title": "हवाई जहाज़ के पंखों के सिरे ऊपर क्यों मुड़े होते हैं? ✈️",
+ "hook_text": "हर पंख में तूफ़ान!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "हर पंख के सिरे पर एक बवंडर बनता है। प्लेन रोज़ इससे लड़ते हैं।",
+     "prompt": "Close-up of an airliner wingtip, a thick white twisting vortex funnel spiralling off the very tip into humid cloudy sky, mist swirling around it, golden evening light, photograph, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "हर पंख के सिरे पर एक बवंडर बनता है। प्लेन रोज़ इससे लड़ते हैं।"
+    },
+    {
+     "vo": "पंख के नीचे की तेज़ दबाव वाली हवा, सिरे से बाहर निकलना चाहती है।",
+     "prompt": "Medium-wide view from behind a large airliner wing, bright glowing streaks of air curling upward and around the wingtip from underneath, deep blue sky, soft sunlight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पंख के नीचे की तेज़ दबाव वाली हवा, सिरे से बाहर निकलना चाहती है।"
+    },
+    {
+     "vo": "यही हवा घूमकर बवंडर बन जाती है, जिसे विंगटिप वॉर्टेक्स कहते हैं।",
+     "prompt": "Wide view of an airliner wing from behind, a long thin white spiral vortex swirling in a whirlpool shape behind the wingtip through misty air, dramatic low sun, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "यही हवा घूमकर बवंडर बन जाती है, जिसे विंगटिप वॉर्टेक्स कहते हैं।"
+    },
+    {
+     "vo": "लेकिन रुकिए, ये घूमती हवा पूरे प्लेन को पीछे खींचती है।",
+     "prompt": "Wide shot of a jet flying through grey turbulent air, two thick white spinning vortices trailing behind both wingtips, streaks of air pulling backward along the fuselage, stormy light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, ये घूमती हवा पूरे प्लेन को पीछे खींचती है।"
+    },
+    {
+     "vo": "विंगलेट इस हवा को रोकता है, इसलिए प्लेन कम ड्रैग में निकल जाता है।",
+     "prompt": "Medium shot of an upturned winglet at the end of a jet wing, smooth straight white airstream lines flowing cleanly past it, only a faint thin wisp at the tip, clear blue sky, bright sunlight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "विंगलेट इस हवा को रोकता है, इसलिए प्लेन कम ड्रैग में निकल जाता है।"
+    },
+    {
+     "vo": "ऊपर मुड़ा ये छोटा सिरा बवंडर को काबू करके करोड़ों का फ्यूल बचाता है।",
+     "prompt": "Wide shot of a passenger jet cruising above clouds, both upturned winglets bright and prominent in golden sunlight, one calm straight white contrail trailing behind, clear sky, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ऊपर मुड़ा ये छोटा सिरा बवंडर को काबू करके करोड़ों का फ्यूल बचाता है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "पंख के सिरे पर उठता *बवंडर*!",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s104-wingtip-turned-up",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
