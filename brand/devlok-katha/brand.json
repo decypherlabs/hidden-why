@@ -19,7 +19,7 @@
   "_about": "owner, 31 Oct 2026: Divya (Indic Parler-TTS, Apache-2.0, free on GitHub's CPU runners; needs HF_TOKEN for the gated model)",
   "_revert_about": "owner, 6 Nov 2026: deep-fast felt too fast; back to Divya's original voice"
  },
- "art_style": "cinematic film still, anamorphic lens, shallow depth of field, dramatic rim light and volumetric god rays, teal and orange colour grade, atmospheric haze, film grain, epic scale, photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text",
+ "art_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text",
  "art_negative": "text, letters, watermark, logo, cartoon, anime, flat illustration, deformed hands, extra limbs, extra fingers, bad hands, distorted face, disfigured, ugly, blurry, low quality, nsfw, revealing clothes, blood, gore, duplicate figure, two heads, extra head, extra face, stacked figures, merged faces, clones, repeated people, bad eyes, crossed eyes, asymmetric eyes",
  "fonts": {
   "display": "devlok-katha/fonts/Hind-Bold.ttf",
@@ -31,7 +31,7 @@
   "reveal": "bell",
   "_about": "owner, 6 Nov 2026: the opening hits (impact) instead of a calm bell (\"not hooking\"); the bell stays on the reveal"
  },
- "cover_style": "cinematic film still, anamorphic lens, shallow depth of field, dramatic rim light and volumetric god rays, teal and orange colour grade, atmospheric haze, film grain, epic scale, photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text",
+ "cover_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text",
  "art_style_folk": "traditional Indian Pattachitra folk painting, Odisha palm-leaf art style, bold black outlines, flat ochre deep red cream and teal colours, ornate patterned borders, decorative dotted details, intricate jewellery and textiles, flat perspective, devotional and respectful, no text",
  "model": "SG161222/RealVisXL_V5.0_Lightning",
  "vae": "madebyollin/sdxl-vae-fp16-fix",
@@ -66,5 +66,5 @@
  },
  "refine": 1.5,
  "_short_size_about": "1 Nov 2026: 896x1152 is an SDXL training bucket; taller canvases tiled figures on top of each other. The build crops to 9:16.",
- "_engine_note": "owner, 6 Nov 2026: FLUX tried and rolled back (less realistic); RealVisXL with a more cinematic style. FLUX code stays in gpu/paint.py (engine: flux)"
+ "_engine_note": "owner, 6 Nov 2026: FLUX rolled back; the 'cinematic' grade (teal-orange, haze, shallow focus) was rolled back too: it muted the colours and the scenes"
 }
