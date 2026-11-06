@@ -1,0 +1,65 @@
+{
+ "slug": "s67-hiccups-hi",
+ "format": "short",
+ "title": "हमें हिचकी क्यों आती है? 😮",
+ "hook_text": "बिना पूछे हिचकी!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपकी साँस की मांसपेशी, आपसे बिना पूछे झटका मार देती है।",
+     "prompt": "a young woman with a surprised face holding her chest mid-hiccup, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आपकी साँस की मांसपेशी, आपसे बिना पूछे झटका मार देती है।"
+    },
+    {
+     "vo": "फेफड़ों के नीचे का डायाफ्राम अचानक हवा को अंदर खींचता है।",
+     "prompt": "an artistic glowing view of the human lungs and the dome-shaped diaphragm muscle below them, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "फेफड़ों के नीचे का डायाफ्राम अचानक हवा को अंदर खींचता है।"
+    },
+    {
+     "vo": "फिर वोकल कॉर्ड्स झटके से बंद हो जाती हैं, और यही है हिक की आवाज़।",
+     "prompt": "close-up of a throat with a soft glow where the vocal cords are, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "फिर वोकल कॉर्ड्स झटके से बंद हो जाती हैं, और यही है 'हिक' की आवाज़।"
+    },
+    {
+     "vo": "जल्दी खाना, फिज़ी ड्रिंक या तापमान का अचानक बदलना, इससे हिचकी शुरू हो सकती है।",
+     "prompt": "a man gulping a fizzy drink quickly at a table, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "जल्दी खाना, फिज़ी ड्रिंक या तापमान का अचानक बदलना, इससे हिचकी शुरू हो सकती है।"
+    },
+    {
+     "vo": "और इसीलिए आपकी साँस की मांसपेशी, आपसे बिना पूछे झटका मारती है।",
+     "prompt": "a young woman with a surprised face holding her chest mid-hiccup, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "और इसीलिए आपकी साँस की मांसपेशी, आपसे बिना पूछे झटका मारती है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "हिचकी *क्यों*?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s67-hiccups",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

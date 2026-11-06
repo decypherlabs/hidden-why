@@ -1,0 +1,69 @@
+{
+ "slug": "s65-why-eyebrows-hi",
+ "format": "short",
+ "title": "हमारी भौंहें आखिर क्यों होती हैं? 🤨",
+ "hook_text": "भौंहें सिर्फ सजावट नहीं",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपकी भौंहें सजावट नहीं हैं। ये छोटी नालियाँ हैं।",
+     "prompt": "close-up of a man's face with sweat on his forehead, strong eyebrows, outdoors, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आपकी भौंहें सजावट नहीं हैं। ये छोटी नालियाँ हैं।"
+    },
+    {
+     "vo": "इनका आर्क और बालों की दिशा पसीने और बारिश को किनारों की तरफ मोड़ देती है।",
+     "prompt": "macro of a water droplet running along the arch of an eyebrow toward the side of the face, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इनका आर्क और बालों की दिशा पसीने और बारिश को किनारों की तरफ मोड़ देती है।"
+    },
+    {
+     "vo": "ताकि वो सीधे आँखों में जाकर जलन न करे।",
+     "prompt": "a runner in the rain wiping his forehead, eyes clear, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ताकि वो सीधे आँखों में जाकर जलन न करे।"
+    },
+    {
+     "vo": "लेकिन रुकिए, ये हैरानी, गुस्सा और चिंता भी दिखाती हैं, कमरे के दूसरी तरफ से भी।",
+     "prompt": "close-up of a single man's face looking at the viewer, one pair of eyes, expressive raised eyebrows showing surprise, clear smooth forehead, one face only, centered, plain background, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8923,
+     "caption": "लेकिन रुकिए, ये हैरानी, गुस्सा और चिंता भी दिखाती हैं, कमरे के दूसरी तरफ से भी।"
+    },
+    {
+     "vo": "यही वजह है कि आपकी भौंहें सजावट नहीं, छोटी नालियाँ हैं।",
+     "prompt": "close-up of a man's face with sweat on his forehead, strong eyebrows, outdoors, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "यही वजह है कि आपकी भौंहें सजावट नहीं, छोटी नालियाँ हैं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "भौंहें हैं *नालियाँ*",
+ "cover_shot": 1,
+ "shot_qc": {
+  "rounds": 0
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s65-why-eyebrows",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

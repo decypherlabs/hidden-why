@@ -1,0 +1,65 @@
+{
+ "slug": "s68-mirror-flip-hi",
+ "format": "short",
+ "title": "आईना बाएँ-दाएँ नहीं पलटता, तो फिर क्या पलटता है? 🪞",
+ "hook_text": "आईना बाएँ-दाएँ नहीं पलटता",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आईना बाएँ और दाएँ को नहीं पलटता। सच में।",
+     "prompt": "a man raising his right hand in front of a large mirror, his reflection facing him, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आईना बाएँ और दाएँ को नहीं पलटता। सच में।"
+    },
+    {
+     "vo": "वो पलटता है आगे और पीछे को।",
+     "prompt": "a hand touching a mirror, fingertips meeting their reflection, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वो पलटता है आगे और पीछे को।"
+    },
+    {
+     "vo": "अक्स का हाथ ठीक आपके हाथ के सामने है। बस दस्ताने की तरह उल्टा हो गया है।",
+     "prompt": "a right-hand glove and a left-hand glove lying side by side on a table, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "अक्स का हाथ ठीक आपके हाथ के सामने है। बस दस्ताने की तरह उल्टा हो गया है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, फिर उल्टा क्यों लगता है? क्योंकि हम सोचते हैं कि घूमकर उसकी जगह खड़े हो गए।",
+     "prompt": "a person standing face to face with their reflection in a tall mirror, side view, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, फिर उल्टा क्यों लगता है? क्योंकि हम सोचते हैं कि घूमकर उसकी जगह खड़े हो गए।"
+    },
+    {
+     "vo": "इसीलिए आईना बाएँ-दाएँ नहीं पलटता, आगे-पीछे पलटता है।",
+     "prompt": "a man raising his right hand in front of a large mirror, his reflection facing him, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए आईना बाएँ-दाएँ नहीं पलटता, आगे-पीछे पलटता है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "आईना *नहीं* पलटता?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s68-mirror-flip",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

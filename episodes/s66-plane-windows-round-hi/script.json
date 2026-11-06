@@ -1,0 +1,65 @@
+{
+ "slug": "s66-plane-windows-round-hi",
+ "format": "short",
+ "title": "हवाई जहाज़ की खिड़कियाँ गोल क्यों होती हैं? ✈️",
+ "hook_text": "चौकोर खिड़कियाँ, गिरते जहाज़",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "पहले जहाज़ की खिड़कियाँ चौकोर थीं, और जहाज़ आसमान में टूटकर गिर जाते थे।",
+     "prompt": "a vintage 1950s passenger jet in the sky with square windows, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पहले जहाज़ की खिड़कियाँ चौकोर थीं, और जहाज़ आसमान में टूटकर गिर जाते थे।"
+    },
+    {
+     "vo": "ऊँचाई पर केबिन में दबाव बनाया जाता है, इसलिए हर उड़ान में जहाज़ का ढाँचा फैलता है।",
+     "prompt": "an airliner fuselage high above the clouds, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ऊँचाई पर केबिन में दबाव बनाया जाता है, इसलिए हर उड़ान में जहाज़ का ढाँचा फैलता है।"
+    },
+    {
+     "vo": "चौकोर कोनों पर ये तनाव जमा होता गया, जब तक धातु चटक नहीं गई।",
+     "prompt": "close-up of a crack spreading from the sharp corner of a square aircraft window, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "चौकोर कोनों पर ये तनाव जमा होता गया, जब तक धातु चटक नहीं गई।"
+    },
+    {
+     "vo": "गोल कोने ज़ोर को बराबर बाँट देते हैं।",
+     "prompt": "a passenger looking out of a round airplane window at clouds, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गोल कोने ज़ोर को बराबर बाँट देते हैं।"
+    },
+    {
+     "vo": "और इसीलिए आज हर खिड़की गोल होती है, चौकोर नहीं।",
+     "prompt": "a vintage 1950s passenger jet in the sky with square windows, glowing warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "और इसीलिए आज हर खिड़की गोल होती है, चौकोर नहीं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "जहाज़ की *खिड़की* गोल क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s66-plane-windows-round",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
