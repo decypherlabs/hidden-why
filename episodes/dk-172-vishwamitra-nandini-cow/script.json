@@ -5,12 +5,12 @@
  "build": "github",
  "lang": "hi",
  "approved": true,
- "title": "राजा ऋषि क्यों बन गए? 🐄",
- "hook_text": "क्यों नहीं दी?",
- "cover_text": "एक गाय ने राजा विश्वामित्र को *ऋषि* बनाया!",
+ "title": "गाय ने राजा को क्यों हराया? 🐄",
+ "hook_text": "14,000 हाथी. 1 गाय.",
+ "cover_text": "वशिष्ठ की एक गाय, *लाख गायें* भी कम!",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Wide shot of a forest ashram at dusk: a divine white cow with golden horns standing in the centre, golden light behind her, armoured warriors as distant blurred silhouettes and broken chariots on the ground; on the left a king with a black beard, golden crown and red robes watching in shock, on the right an old white-bearded man in saffron robes holding a wooden staff upright, fiery sky"
+  "prompt": "Wide shot in a forest ashram at dusk: on the left a man with a crown, dark beard and golden armour, stepping back with a shocked face; on the right an old man with white beard, matted hair and saffron robes, one hand raised; in the centre a glowing white cow; distant blurred silhouettes of warriors, smoke and fallen banners on the ground, no text"
  },
  "music": {
   "epic": [
@@ -24,65 +24,54 @@
    "card": null,
    "shots": [
     {
-     "vo": "एक लाख गायें ठुकराईं, एक गाय नहीं दी।",
-     "prompt": "Medium-wide shot: a calm old man with a long white beard in white robes stands on the right, one palm raised in refusal; on the left a stern king with black beard, golden crown and golden armour; between them heaps of gold coins and a row of cattle drawn far behind, one radiant white cow with golden horns beside the sage, soft daylight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "चौदह हज़ार हाथी भी, एक गाय न ले जा सके।",
+     "prompt": "Wide shot: on the right a calm white divine cow with a soft glow standing still on a dusty path; on the left, in the distance, long rows of gold-decorated war elephants stopped and facing her, distant blurred silhouettes of soldiers, golden dusty light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "उसी गाय ने पल भर में राजा की पूरी सेना को भोजन कराया।",
-     "prompt": "Medium-wide shot of a forest ashram courtyard: a long row of golden platters heaped with fruits, sweets and rice laid on the ground, distant blurred silhouettes of soldiers sitting in rows eating, a divine white cow with golden horns standing calmly at the right, warm evening light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "चौदह हज़ार हाथी, आठ सौ सोने के रथ, फिर भी वशिष्ठ नहीं माने।",
+     "prompt": "Medium-wide: on the left a man with a crown, dark beard, golden armour and red cloak, arm stretched out toward distant rows of golden chariots and elephants; on the right an old man with long white beard and saffron robes, calmly shaking his head, ashram clearing, warm evening light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "राजा ने बदले में एक लाख गायें देनी चाहीं, वशिष्ठ नहीं माने।",
-     "prompt": "Medium-wide shot: a king with a black beard, golden crown, red and gold royal robes standing on the left, heaps of gold coins and jewels at his feet; an old man with a long white beard in saffron robes standing on the right, shaking his head, hands folded; ashram huts and trees, soft daylight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "यही गाय पल भर में पूरी सेना को छह रस वाला भोजन खिला चुकी थी।",
+     "prompt": "Medium-wide: a divine white cow standing in the centre of a forest ashram courtyard, in front of her heaps of steaming food, fruits and sweets on banana leaves, rows of seated soldiers as distant blurred silhouettes, an old man with white beard and saffron robes standing at the right, golden light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "तब राजा के सैनिक उस गाय को ज़बरदस्ती ले जाने लगे।",
-     "prompt": "Medium-wide shot in an ashram yard: a divine white cow with golden horns standing alone in the centre, a long rope trailing from her neck across the ground to the left, tears in her eyes, looking back; distant blurred silhouettes of soldiers holding the rope end far behind, golden dust in the air, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "राजा ने सैनिकों को हुक्म दिया, गाय को ज़बरदस्ती ले चलो।",
+     "prompt": "Medium-wide: on the left a man with a crown, dark beard, golden armour and red cloak, pointing angrily with one arm; on the right a white cow with tears on her face standing alone in an ashram clearing; distant blurred silhouettes of armed soldiers behind him, tense dusk light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "लेकिन रुकिए… गाय ने वशिष्ठ से पूछा, क्या आपने मुझे छोड़ दिया?",
-     "prompt": "Medium-wide shot at dusk: an old man with a long white beard in saffron robes standing on the right before his thatched hut, one hand raised, sorrowful face; a divine white cow with golden horns standing on the left a few steps away, gazing at him with wet pleading eyes, soft dusk light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "लेकिन रुकिए… शबला ने हुंकार भरी, और उसके पास से सेनाएँ निकलने लगीं।",
+     "prompt": "Wide shot: a glowing white cow standing in the centre of an ashram clearing with head raised, bright radiant light behind her, distant blurred silhouettes of warriors with swords, spears and shields gathered in the light at her sides, sparks and dust in the air, dramatic epic light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "फिर उसकी हुंकार से योद्धा प्रकट हुए और पूरी सेना बिखर गई।",
-     "prompt": "Wide shot outside an ashram: a glowing golden light on the left with a line of fierce warriors in ancient armour standing before it holding spears, a divine white cow at the far left; on the right overturned chariots, fallen banners and distant blurred silhouettes of soldiers fleeing, smoke and dust, dramatic sky, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "राजा की सेना मिट गई, और वशिष्ठ की एक हुंकार से उनके सौ बेटे राख हो गए।",
+     "prompt": "Medium-wide: on the right an old man with long white beard and saffron robes, one palm raised, calm stern face; on the left a man with a crown, dark beard and golden armour standing stunned; ash piles, smoke, fallen banners and broken chariots on the ground between them, dim fiery light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "गुस्से में राजा के सौ बेटे दौड़े, वशिष्ठ की हुंकार से राख हो गए।",
-     "prompt": "Medium-wide shot: an old man with a long white beard in saffron robes standing calm and radiant on the right before his ashram, one palm raised; on the left a wide field of blazing fire, ash and glowing embers with distant blurred dark silhouettes of young men beyond it, orange glowing light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "पर राजा की सबसे बड़ी हार अभी बाकी थी।",
+     "prompt": "Medium close-up: a man with dark beard, golden crown slightly askew, golden armour, stunned grief-stricken face, eyes wide, smoke and ruined battlefield blurred behind him, dim ashen light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "शिव से दिव्य अस्त्र पाए, पर वशिष्ठ के एक डंडे के आगे सब बेकार हो गए।",
-     "prompt": "Medium-wide shot at dusk: an old man with a long white beard in saffron robes standing on the right holding a plain wooden staff upright; on the left a king with a black beard, golden crown and red robes staring wide-eyed; between them on the ground broken glowing weapons with sparks and smoke, forest ashram behind, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "राजा बोले, बल तो तप का है, और राजपाट छोड़ वे ऋषि विश्वामित्र बने। जय श्री राम।",
-     "prompt": "Wide shot: a thin man with matted hair and a beard in simple saffron robes sitting cross-legged in meditation, eyes closed, on a rocky Himalayan peak at sunrise; beside him on the ground a golden crown and a sword lying abandoned, golden light on snowy mountains, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "\"धिक् राजबल, तप ही असली बल है\" कहकर राजा ने राज छोड़ा। एक गाय ने उन्हें ऋषि बना दिया। जय श्री राम।",
+     "prompt": "Wide dawn shot in a forest: a lean man with dark beard in simple saffron robes sitting cross-legged with eyes closed in meditation under a large tree, a golden crown and a sword lying on the ground beside him, golden sunrise light behind, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     }
    ]
   }
- ],
- "hook_score": {
-  "score": 8,
-  "why": "Strong number contrast (एक लाख vs एक) in first 3 words, 8 words, opens a clear unanswered question (why refuse?), and the on-screen 'क्यों नहीं दी?' adds a gap; visual is weaker but the tension is specific.",
-  "was": "एक गाय की हुंकार से सेना मिट गई, राजा ने राजपाट छोड़ दिया।"
- }
+ ]
 }

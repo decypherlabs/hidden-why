@@ -5,12 +5,12 @@
  "build": "github",
  "lang": "hi",
  "approved": true,
- "title": "नल का सब कुछ क्यों छिन गया? 🎲",
- "hook_text": "12 साल। एक दुश्मन।",
- "cover_text": "सच्चे राजा नल को *कलि* ने हराया!",
+ "title": "नल को कलि ने क्यों हराया? 🎲",
+ "hook_text": "भीतर कौन था?",
+ "cover_text": "राजा नल को *पासों* में हराया दानव ने!",
  "cover_shot": 1,
  "cover": {
-  "prompt": "King Nala in simple royal clothes sitting on the floor of a torch-lit palace hall, staring at dice scattered on a game board, a dark shadowy figure with a menacing smile standing behind him on the left, Queen Damayanti standing on the right with folded hands and tearful eyes, jewels and gold lying lost around, one clear dramatic scene, no text"
+  "prompt": "Medium-wide shot, a young man in simple royal clothes sits dejected on the left at a low dice table in a torch-lit palace hall, gold coins and ornaments scattered on the floor, a gaunt grey-faced man in dark robes stands on the right looking down at him, dramatic torchlight, no text"
  },
  "music": {
   "epic": [
@@ -24,65 +24,54 @@
    "card": null,
    "shots": [
     {
-     "vo": "बारह साल, एक अदृश्य दुश्मन राजा के भीतर घुसने को तड़पता रहा।",
-     "prompt": "Medium-wide shot, a sleeping man with a gold crown and a white dhoti lying on a carved bed in the centre of a palace chamber, a tall black smoky shadow figure with glowing red eyes standing in the open doorway at the right, cold moonlight, oil lamps dim, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "राजा के शरीर में एक दानव घुस गया।",
+     "prompt": "Medium shot, a tall man with a gaunt grey face and dark robes stands on the right in a dim ancient palace hall, facing a young king in gold crown and white dhoti on the left, black smoke curling on the floor between them, torchlight, no text, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "और उसके पीछे कोई इंसान नहीं, ख़ुद कलि था, जो बारह साल से उसके भीतर घुसने का मौका ढूँढ रहा था।",
-     "prompt": "A dark shadowy demon figure with glowing eyes standing at the left outside a palace gate at night, King Nala in royal clothes standing at the right, looking calm and unaware, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "उसी दानव ने नल से पासे में पूरा राज्य हरवा दिया।",
+     "prompt": "Medium-wide shot, a young king in a white dhoti and gold crown sits on the left and a young man in a maroon tunic with a short beard sits on the right, a low wooden dice table between them, heaps of gold coins and jewels piled on the right side, palace hall, torchlight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "स्वयंवर में देवता भी दमयंती को पाना चाहते थे, पर दमयंती ने नल को चुना।",
-     "prompt": "Princess Damayanti in a red bridal sari holding a flower garland, standing at the right of King Nala in royal clothes on the left, in a grand swayamvara hall with distant silhouettes of onlookers, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "कलि दमयंती के स्वयंवर से लौट रहा था, जहाँ देवता भी हार गए थे।",
+     "prompt": "Wide shot, a gaunt grey-faced man in dark robes stands on the left on a forest path at dusk, looking toward a radiant glowing figure in white and gold standing on the right, distant palace lights glowing behind them, warm twilight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "यही बात कलि को चुभ गई। वह देवताओं के साथ लौट रहा था और रास्ते में उसे सब पता चला।",
-     "prompt": "The dark demon Kali with glowing eyes on the left, walking on a forest road at dusk, a radiant god figure in the distance on the right, both looking back toward a palace, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "दमयंती ने देवताओं को छोड़कर एक मनुष्य नल को चुना था।",
+     "prompt": "Medium-wide shot, a young woman in a red saree with gold jewellery stands on the left holding a flower garland in her hands, a young king in a white dhoti and gold crown stands on the right facing her, grand hall, distant blurred silhouettes of kings seated behind, warm light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "बारह साल बाद नल से एक छोटी-सी चूक हुई, और कलि उनके भीतर समा गया।",
-     "prompt": "King Nala sitting on a palace step at dusk, a dark smoky shadow flowing into his body from behind, his feet visible with a small patch left unwashed, lamps glowing around, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "लेकिन रुकिए, असली परीक्षा तो जुए के बाद शुरू हुई।",
+     "prompt": "Wide shot, a young king in simple torn cloth on the left and a young woman in a plain faded saree on the right walk side by side toward the camera away from a large stone palace gate, empty city behind them, soft dawn light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "लेकिन रुकिए, असली दर्द पासे नहीं थे। राज्य हारकर नल जंगल पहुँचे, और वहाँ उन्होंने कुछ ऐसा किया जो कोई सोच नहीं सकता।",
-     "prompt": "King Nala in torn simple clothes walking alone through a dark forest at dusk, Queen Damayanti sleeping on the forest ground at the right, moonlight through the trees, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "नल भूखे जंगल में भटके, और सोती दमयंती को अकेला छोड़ गए।",
+     "prompt": "Wide shot, a young woman in a plain saree lies asleep on the ground on the right under a huge banyan tree, a young man in torn cloth stands on the left at the edge of the clearing looking down at her, dark forest, silver moonlight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "आधी फटी साड़ी में सोती दमयंती को नल वहीं छोड़कर चले गए।",
-     "prompt": "King Nala walking away into the dark forest on the left with his back turned, Queen Damayanti asleep on the ground at the right wearing a half-torn sari, moonlit forest, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "फिर भी दमयंती उन्हें ढूँढती रही, और हार नहीं मानी।",
+     "prompt": "Medium-wide shot, a young woman in a plain worn saree walks alone along a misty forest path at dawn, looking ahead with a tired but determined face, tall trees, golden light through fog, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "दमयंती ने न हार मानी, न रोना छोड़ा, और अकेली अपने पति को ढूँढती रही।",
-     "prompt": "Queen Damayanti in a simple worn sari walking alone along a dusty road through hills at sunrise, looking ahead with determination, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "सालों बाद उसने नल को पा लिया, और कलि को उतरना पड़ा। राजा सब हारा, पर दमयंती का प्रेम नहीं हारा। जय श्री कृष्ण।",
-     "prompt": "King Nala on the left with a dark smoky shadow leaving his body and fading into the air, Queen Damayanti on the right with folded hands and tears of joy, a palace courtyard at dawn, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "vo": "सत्य और प्रेम के आगे कलि हारा, नल को राज्य मिला। जय श्री राम!",
+     "prompt": "Wide shot, a young king in royal red and gold clothes with a crown on the left and a young woman in a red saree with gold jewellery on the right face each other in a sunlit palace courtyard, dark smoke clearing in the air above, bright warm light, no text, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     }
    ]
   }
- ],
- "hook_score": {
-  "score": 7,
-  "why": "Number first plus an invisible enemy trying to enter a king is a strong, unfamiliar, visual hook; slightly long at 10 words and the phrasing is clunky.",
-  "was": "जिस राजा ने कभी झूठ नहीं बोला, वह पासों में अपना पूरा राज्य हार गया।"
- }
+ ]
 }
