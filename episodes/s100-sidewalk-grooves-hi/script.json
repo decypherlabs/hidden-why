@@ -1,0 +1,72 @@
+{
+ "slug": "s100-sidewalk-grooves-hi",
+ "format": "short",
+ "title": "फुटपाथ में ये लाइनें काटी क्यों जाती हैं? 🧱",
+ "hook_text": "हर फुटपाथ टूटेगा!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "हर फुटपाथ टूटने के लिए ही बनता है।",
+     "prompt": "Close-up of a fresh gray concrete sidewalk with one straight groove cut across it and a thin hairline crack beginning exactly along the groove, warm morning light, shallow depth of field, blurred Indian city street behind, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "हर फुटपाथ टूटने के लिए ही बनता है।"
+    },
+    {
+     "vo": "कंक्रीट कितना भी अच्छा डालो, दरार पड़ती ही है।",
+     "prompt": "Medium-wide shot of an old gray concrete slab with one long jagged crack running across its whole width, weeds at the edges, harsh midday daylight, Indian street setting, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "कंक्रीट कितना भी अच्छा डालो, दरार पड़ती ही है।"
+    },
+    {
+     "vo": "सूखते हुए वो सिकुड़ता है, और हर मौसम के साथ फैलता-सिकुड़ता रहता है।",
+     "prompt": "Medium-wide split scene on one concrete sidewalk: left half under blazing white sun with heat haze, right half covered in white frost, a single crack running across the middle between them, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सूखते हुए वो सिकुड़ता है, और हर मौसम के साथ फैलता-सिकुड़ता रहता है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, अपने आप पड़ी दरार टेढ़ी-मेढ़ी और बेकाबू होती है।",
+     "prompt": "Close-up of a gray concrete walkway with a wandering, branching, jagged crack splitting off in several random directions, dusty Indian street, flat daylight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, अपने आप पड़ी दरार टेढ़ी-मेढ़ी और बेकाबू होती है।"
+    },
+    {
+     "vo": "खांचा काटो तो वहां लाइन कमज़ोर हो जाती है, और दरार उसी में पड़ती है।",
+     "prompt": "Close-up cutaway side view of a thick gray concrete slab with a thin groove cut on its top surface and a clean straight crack running vertically down from the groove to the bottom, soil beneath, daylight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "खांचा काटो तो वहां लाइन कमज़ोर हो जाती है, और दरार उसी में पड़ती है।"
+    },
+    {
+     "vo": "यानी ये लाइनें पहले से तय की गई दरारें हैं, जो खुद को छुपा लेती हैं।",
+     "prompt": "Wide shot of a clean gray city sidewalk in an Indian town with neat evenly spaced thin grooves stretching into the distance, a distant blurred silhouette of one walker, soft golden evening light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "यानी ये लाइनें पहले से तय की गई दरारें हैं, जो खुद को छुपा लेती हैं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "फुटपाथ की लाइनें *जानबूझकर* तोड़ी जाती हैं?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s100-sidewalk-grooves",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

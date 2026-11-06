@@ -1,0 +1,72 @@
+{
+ "slug": "s101-rain-smell-hi",
+ "format": "short",
+ "title": "बारिश की कोई खुशबू नहीं होती, तो मिट्टी महकती क्यों है? 🌧️",
+ "hook_text": "बारिश में खुशबू नहीं!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "बारिश की कोई खुशबू नहीं होती। तो फिर ये महक कहाँ से आती है?",
+     "prompt": "Close-up of a single raindrop splashing on dry cracked red soil in the centre, a small puff of dust rising from the impact, dark overcast monsoon sky behind, soft cool light, photoreal macro, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बारिश की कोई खुशबू नहीं होती। तो फिर ये महक कहाँ से आती है?"
+    },
+    {
+     "vo": "वैज्ञानिकों ने इस महक को नाम भी दिया है: पेट्रिकोर।",
+     "prompt": "Medium shot of a young woman in a white lab coat at the centre, holding a dry rock in one hand and a small jar of brown soil in the other, in an open Indian field at dusk, faint mist over the ground, warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वैज्ञानिकों ने इस महक को नाम भी दिया है: पेट्रिकोर।"
+    },
+    {
+     "vo": "सूखे पौधे अपने तेल मिट्टी और चट्टानों में छोड़ देते हैं, पानी के इंतज़ार में।",
+     "prompt": "Wide shot of dry yellow grass and cracked soil in an Indian field, grey stones in the foreground each with a visible golden oily shine on top, dry shrubs behind, harsh golden afternoon light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सूखे पौधे अपने तेल मिट्टी और चट्टानों में छोड़ देते हैं, पानी के इंतज़ार में।"
+    },
+    {
+     "vo": "लेकिन रुकिए, मिट्टी के बैक्टीरिया जियोस्मिन भी बनाते हैं, जिसे इंसान आसानी से सूंघ लेते हैं।",
+     "prompt": "Close-up of dark moist soil crumbs in the centre, thin glowing white thread-like bacteria colonies spreading across them, earthy mist curling above, a man's cupped hand on the right holding the soil, soft light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, मिट्टी के बैक्टीरिया जियोस्मिन भी बनाते हैं, जिसे इंसान आसानी से सूंघ लेते हैं।"
+    },
+    {
+     "vo": "बूंदें गिरती हैं, हवा के छोटे बुलबुले फँसते हैं, और फूटकर दोनों को हवा में उछाल देते हैं।",
+     "prompt": "Macro shot of one large raindrop landing in the centre of dark soil, tiny air bubbles on the wet surface, a fine mist of droplets rising straight up from it, grey stormy light, photoreal, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बूंदें गिरती हैं, हवा के छोटे बुलबुले फँसते हैं, और फूटकर दोनों को हवा में उछाल देते हैं।"
+    },
+    {
+     "vo": "यानी बारिश में खुशबू नहीं, महक उस ज़मीन की है जिस पर वो गिरती है।",
+     "prompt": "Medium-wide shot of a young Indian man in a blue shirt on the left, eyes closed, breathing in deeply with his face tilted up, standing in a green rain-soaked field, wet dark soil at his feet, misty soft light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "यानी बारिश में खुशबू नहीं, महक उस ज़मीन की है जिस पर वो गिरती है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "बारिश में *खुशबू* नहीं, फिर मिट्टी क्यों महकती?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s101-rain-smell",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
