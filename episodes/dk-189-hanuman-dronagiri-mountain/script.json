@@ -62,25 +62,46 @@
     },
     {
      "vo": "लेकिन पर्वत पर हर तरफ़ चमकती बूटियाँ थीं।",
-     "prompt": "Wide shot, a hillside of Dronagiri mountain covered with hundreds of glowing green and golden herbs shining in the dark; Lord Hanuman, reddish-brown monkey god with gold crown, standing on the left with one hand on his head, looking anxiously at them, night, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot, a steep hillside of Dronagiri mountain covered with hundreds of bright glowing green and golden herbs shining in the dark, filling the frame; Lord Hanuman, reddish-brown monkey god with gold crown, standing small on the left, one hand on his head, looking at them in confusion, night, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "बूटी पहचान नहीं पाए, तो पूरा पर्वत उठा लाए।",
-     "prompt": "Wide shot, an enormous glowing mountain covered in shining herbs held high above Lord Hanuman's head in both his hands; Hanuman, reddish-brown muscular monkey god with gold crown, standing on bare ground at the mountain's base, broken rocks on the floor, stormy night sky, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot, Lord Hanuman, reddish-brown muscular monkey god with gold crown, standing centre on bare ground, holding an entire enormous mountain covered in glowing herbs high above his head on both raised palms, the mountain's broken base and rocks hanging beneath it, stormy night sky, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "बूटी सूँघते ही लक्ष्मण उठ बैठे। जय श्री राम! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
-     "prompt": "Medium-wide shot at dawn, Lakshmana, a young man in simple saffron warrior clothes, sitting up smiling on the left; Lord Rama, blue skin and golden crown, kneeling on the right facing him with joyful face; Hanuman with folded hands beside them; the glowing mountain behind, golden sunrise, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Medium-wide shot at dawn, Lakshmana, a young man in saffron warrior clothes, sitting up smiling on the left of the ground; Lord Rama, blue skin, golden crown, standing on the right, hands folded, joyful face, clear space between them; glowing herb in a small bowl at Lakshmana's feet, golden sunrise, distant mountain, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8928
     }
    ]
   }
  ],
  "reviewed_at": "2026-11-06 22:34",
- "released_at": "2026-11-06 23:03"
+ "released_at": "2026-11-06 23:03",
+ "repaint": {
+  "shots": [
+   7,
+   8,
+   9
+  ],
+  "thumbs": [],
+  "at": "2026-11-07 02:28"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T20:54:20Z",
+  "rounds": 1,
+  "why": {
+   "7": "No glowing herbs on the mountain, which the line names. Hanuman is just sitting and pointing.",
+   "8": "The line says he lifted the whole mountain, but Hanuman is standing in front of it and not carrying it.",
+   "9": "Two blue figures are stacked on each other. One sits on or behind the other's head, so the bodies look merged."
+  }
+ }
 }
