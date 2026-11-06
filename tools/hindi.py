@@ -29,12 +29,15 @@ def main(slug, hindi_path):
     sc.update(slug=f"{slug}-hi", lang="hi", brand="hidden-why-hindi",  # Devanagari font (owner, 1 Nov 2026)
               paint_from=slug, voice=VOICE, approved=True,
               title=hi["title"], hook_text=hi["hook_text"], cover_text=hi.get("cover_text") or hi["hook_text"])
+    short = sc.get("format") == "short"
+    if not short and isinstance(sc.get("thumbnail"), dict):  # long-form: the same thumbnail paintings, Hindi words
+        sc["thumbnail"]["text"] = (hi.get("cover_text") or hi["hook_text"]).replace("*", "*").upper()
     dst = ROOT / "episodes" / f"{slug}-hi"
     dst.mkdir(exist_ok=True)
     (dst / "script.json").write_text(json.dumps(sc, indent=1, ensure_ascii=False) + "\n")
-    tags = ["the hidden why hindi", "shorts", "hindi facts", "science in hindi", *hi.get("tags", [])]
+    tags = ["the hidden why hindi", *(["shorts"] if short else []), "hindi facts", "science in hindi", *hi.get("tags", [])]
     (dst / "meta.json").write_text(json.dumps({
-        "youtube": {"title": f"{hi['title']} #Shorts", "description": hi["description"], "tags": tags,
+        "youtube": {"title": f"{hi['title']} #Shorts" if short else hi["title"], "description": hi["description"], "tags": tags,
                     "category_id": "27", "privacy": "public", "made_for_kids": False, "default_language": "hi",
                     **({"comment": hi["comment"]} if hi.get("comment") else {})},
     }, indent=1, ensure_ascii=False) + "\n")
