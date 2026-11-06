@@ -46,10 +46,12 @@ def parler(script, out, v):
                            prompt_input_ids=p.input_ids, prompt_attention_mask=p.attention_mask).cpu().float().squeeze()
         x = AF.resample(a.unsqueeze(0), model.config.sampling_rate, SR).squeeze().numpy()
         sf.write(out / f"vo-{n:02d}.wav", x, SR)
-        if v.get("tempo", 1) != 1:  # faster delivery, same pitch (owner, 6 Nov 2026: hits speak ~3 words/s, Divya ~2)
-            tmp = out / f"vo-{n:02d}.raw.wav"
+        if v.get("tempo", 1) != 1 or v.get("pitch", 1) != 1:  # faster delivery (owner, 6 Nov 2026: hits speak ~3 words/s, Divya ~2)
+            tmp = out / f"vo-{n:02d}.raw.wav"  # "pitch" < 1 deepens the voice without slowing it (owner picked 0.92 + 1.15x)
             (out / f"vo-{n:02d}.wav").rename(tmp)
-            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(tmp), "-af", f"atempo={v['tempo']}",
+            p = v.get("pitch", 1)
+            af = f"asetrate={int(SR * p)},aresample={SR},atempo={v.get('tempo', 1) / p:.4f}" if p != 1 else f"atempo={v['tempo']}"
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(tmp), "-af", af,
                             str(out / f"vo-{n:02d}.wav")], check=True)
             tmp.unlink()
             x, _ = sf.read(out / f"vo-{n:02d}.wav")
