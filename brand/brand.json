@@ -24,7 +24,7 @@
   "intense",
   "epic"
  ],
- "art_style": "photorealistic cinematic film still, real-world scene, natural textures, realistic lighting, bright warm key light with teal accents, sharp focus, highly detailed, no text, no watermark",
+ "art_style": "cinematic film still, anamorphic lens, shallow depth of field, dramatic rim light and volumetric god rays, teal and orange colour grade, atmospheric haze, film grain, epic scale, photorealistic cinematic film still, real-world scene, natural textures, realistic lighting, bright warm key light with teal accents, sharp focus, highly detailed, no text, no watermark",
  "art_negative": "text, letters, watermark, logo, cartoon, anime, flat colors, bright pastel, blurry, low quality, deformed",
  "thumbnail": {
   "size": [
@@ -50,6 +50,5 @@
  "face_fix": true,
  "refine": 1.5,
  "_art_about": "owner, 6 Nov 2026: THW painted realistic like Devlok Katha (was 'cinematic documentary digital painting' on the default model)",
- "engine": "flux",
- "_engine_about": "owner, 6 Nov 2026: FLUX.1-schnell for every painting (\"more beautiful and premium\", quality over quantity); model/steps/refine/face_fix are the SDXL fallback"
+ "_engine_note": "owner, 6 Nov 2026: FLUX tried and rolled back (less realistic); RealVisXL with a more cinematic style. FLUX code stays in gpu/paint.py (engine: flux)"
 }
