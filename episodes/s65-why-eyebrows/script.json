@@ -35,9 +35,10 @@
     },
     {
      "vo": "They also show emotion: surprise, anger, worry, all readable from across a room.",
-     "prompt": "three faces side by side showing surprised, angry and worried eyebrows, vertical composition, bright warm light, highly detailed",
+     "prompt": "close-up of a single man's face looking at the viewer, one pair of eyes, expressive raised eyebrows showing surprise, clear smooth forehead, one face only, centered, plain background, vertical composition, bright warm light, highly detailed",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8923
     },
     {
      "vo": "Subscribe for a new why every day.",
@@ -49,5 +50,15 @@
   }
  ],
  "cover_text": "WHY *EYEBROWS*?",
- "cover_shot": 1
+ "cover_shot": 1,
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-06 17:25"
+ },
+ "shot_qc": {
+  "rounds": 0
+ }
 }
