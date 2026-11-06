@@ -1,0 +1,62 @@
+{
+ "slug": "s129-twisted-network-cable",
+ "format": "short",
+ "title": "Why Internet Cables Are Twisted 🔌",
+ "hook_text": "UNTWIST IT. SIGNAL DIES.",
+ "approved": true,
+ "voice_speed": 1.05,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Untwist one cable, and your internet dies.",
+     "prompt": "Close-up of a man's two hands holding an ethernet cable cut open, one pair of orange and white copper wires untwisted and splayed apart at the tips, other pairs still twisted, dark workshop background, dramatic side light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Every pair is twisted tight, with a different twist rate each time.",
+     "prompt": "Macro shot of four twisted wire pairs lying side by side on a dark workbench: orange, green, blue and brown, each pair twisted at a different tightness, cut ethernet cable sheath behind them, soft warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Straight wires act like antennas, picking up static from everything nearby.",
+     "prompt": "Medium-wide shot of straight bare copper wires stretched across a workbench on the left, thick black power cables running parallel on the right, faint blue sparks in the air between them, dim workshop, cool light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But here's the catch: twisting flips which wire sits closer to the noise.",
+     "prompt": "Macro shot of two twisted wires, one orange and one white, spiralling around each other, a black power cable lying close beside them on the right, the orange wire nearest the cable at one end and the white wire nearest at the other, soft light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Each twist makes the interference hit both wires equally, so it cancels out.",
+     "prompt": "Macro shot of a tightly twisted orange and white wire pair on a dark bench, a black power cable beside it on the right with faint blue sparks drifting equally over both wires, sparks dimming to nothing on the far side, soft light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "That's why twisted wires carry clean signal: untwist them, and noise wins.",
+     "prompt": "Medium-wide shot of two cables on a dark workbench: on the left a neat twisted ethernet cable glowing with a steady bright green light at its end, on the right an untwisted tangle of loose wires with scattered flickering orange sparks, dim light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "cover_text": "UNTWIST AN INTERNET CABLE, SIGNAL TURNS TO *NOISE*",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Macro painting of an internet cable cut open showing four colorful twisted wire pairs, one pair being pulled straight with electric noise sparks around it, bright light, no text, vertical composition, bright warm light, highly detailed"
+ }
+}

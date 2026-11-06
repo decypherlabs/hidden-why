@@ -1,0 +1,62 @@
+{
+ "slug": "s126-tire-grooves",
+ "format": "short",
+ "title": "Why Car Tires Have Grooves 🌧️",
+ "hook_text": "FLOATING TIRES",
+ "approved": true,
+ "voice_speed": 1.05,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "At 80 km/h, your tires may not touch the road.",
+     "prompt": "Medium-wide side view of a dark sedan driving fast on a flooded Indian highway, a visible wedge of water under the front tire lifting it just above the road, heavy spray behind the wheel, stormy grey sky, cold overcast light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Race cars do exactly that, and they win on dry tracks.",
+     "prompt": "Wide view of a single open-wheel race car with smooth slick tires speeding on a dry sunlit racetrack, no logos, tall grandstands as distant blurred silhouettes, bright golden afternoon light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But your car can't, because of one thing that falls from the sky.",
+     "prompt": "Wide view from road level of an empty Indian highway under enormous black storm clouds, heavy rain falling in sheets, wet shining asphalt, a single car far away, dim dramatic light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "At speed, a thin film of rain lifts a smooth tire off the road.",
+     "prompt": "Medium close side view of a smooth bald car tire on wet asphalt, a thin clear sheet of water visible under the tire with the rubber hovering just above the road, rain splashes, grey light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Grooves are channels that pump that water out from under the rubber.",
+     "prompt": "Medium close view of a deeply grooved car tire on a wet road, thick water streaming out sideways through the wide tread grooves, spray at both sides, overcast light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Grooves don't add grip; they only clear the rain so the rubber can grip.",
+     "prompt": "Medium close view of a grooved tire pressed firmly on wet asphalt, a clear dry patch of dark road under the rubber, water pushed aside to the left and right, soft rainy light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "cover_text": "RACE CARS USE TIRES WITH *NO GROOVES*",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Extreme close-up painting of a smooth racing tire next to a deeply grooved road tire on wet asphalt, water spraying out of the grooves, dramatic bright light, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ }
+}
