@@ -2,7 +2,7 @@
  "slug": "s85-black-box-orange",
  "format": "short",
  "title": "Why the Airplane Black Box Is Orange 🟠",
- "hook_text": "BLACK BOX ISN'T BLACK",
+ "hook_text": "THEN WHY 'BLACK'?",
  "approved": true,
  "voice_speed": 1.05,
  "music": {
@@ -16,8 +16,8 @@
    "card": null,
    "shots": [
     {
-     "vo": "The black box in every airliner is painted bright orange.",
-     "prompt": "Medium shot of a bright orange flight recorder box with white reflective stripes resting on dark scorched earth, wisps of smoke behind it, low golden dusk light, sharp focus, no people, no text, vertical composition, bright warm light, highly detailed",
+     "vo": "The black box isn't black.",
+     "prompt": "Medium shot of a bright orange flight recorder box with a white stripe resting on a dark wooden table, a black rectangle of paper lying beside it on the left, a gloved hand holding a black marker on the right, dramatic spotlight, dark background, no text, vertical composition, bright warm light, highly detailed",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
     },
@@ -55,5 +55,10 @@
   }
  ],
  "cover_text": "AIRPLANE BLACK BOXES ARE PAINTED *ORANGE*. WHY?",
- "cover_shot": 1
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 8,
+  "why": "Contradiction in 5 words, opens a clear question (why called black?), not answered; slightly familiar as a fact, and the image is a bit plain.",
+  "was": "The black box in every airliner is painted bright orange."
+ }
 }

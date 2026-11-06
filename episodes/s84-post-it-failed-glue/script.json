@@ -2,7 +2,7 @@
  "slug": "s84-post-it-failed-glue",
  "format": "short",
  "title": "Why Post-it Notes Use a Failed Glue 📝",
- "hook_text": "GLUE THAT FAILED",
+ "hook_text": "WRONG ON PURPOSE?",
  "approved": true,
  "voice_speed": 1.05,
  "music": {
@@ -16,8 +16,8 @@
    "card": null,
    "shots": [
     {
-     "vo": "A chemist invented a glue so weak, his company ignored it for years.",
-     "prompt": "Medium-wide painting of a middle-aged man in a white lab coat and glasses, grey short hair, standing at centre of a 1960s laboratory bench, holding a glass stirring rod over a beaker of cloudy glue, rows of glass flasks on shelves behind, warm lamplight, vertical composition, bright warm light, highly detailed",
+     "vo": "He wanted the strongest glue. He made garbage.",
+     "prompt": "Medium painting of a man in his forties, glasses, short grey hair, white lab coat, at centre leaning over a microscope with a frustrated frown, glass beakers of milky grey liquid on the bench around him, a crumpled failed test strip on a metal plate, dramatic side lighting, vertical composition, bright warm light, highly detailed",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
     },
@@ -55,5 +55,10 @@
   }
  ],
  "cover_text": "POST-IT GLUE WAS A *FAILED* INVENTION",
- "cover_shot": 1
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 7,
+  "why": "Strong contradiction: wanted strongest, made garbage. Short, opens why-question, not widely known detail.",
+  "was": "A chemist invented a glue so weak, his company ignored it for years."
+ }
 }

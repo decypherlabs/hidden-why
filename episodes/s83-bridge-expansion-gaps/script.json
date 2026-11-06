@@ -2,7 +2,7 @@
  "slug": "s83-bridge-expansion-gaps",
  "format": "short",
  "title": "Why Bridges Have Gaps in the Road 🌉",
- "hook_text": "GAPS ON PURPOSE",
+ "hook_text": "WHY CUT IT?",
  "approved": true,
  "voice_speed": 1.05,
  "music": {
@@ -16,8 +16,8 @@
    "card": null,
    "shots": [
     {
-     "vo": "Engineers cut gaps into bridge roads on purpose, or the bridge would wreck itself.",
-     "prompt": "Wide shot, a steel expansion joint with interlocking metal teeth cutting straight across a grey asphalt bridge road, steel railings on both sides, no people, warm golden hour light, photoreal, vertical composition, bright warm light, highly detailed",
+     "vo": "Bridges are cut open on purpose.",
+     "prompt": "Medium shot, a steel highway bridge expansion joint, a jagged metal gap with interlocking steel teeth cut straight across the asphalt road, deep dark drop visible inside the gap, no people, golden hour light, realistic photo, vertical composition, bright warm light, highly detailed",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
     },
@@ -55,5 +55,10 @@
   }
  ],
  "cover_text": "BRIDGES HAVE *GAPS* YOU DRIVE OVER. WHY?",
- "cover_shot": 1
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 6,
+  "why": "5 words, a contradiction ('cut open on purpose') with a clear gap, and the on-screen 'WHY CUT IT?' adds a second question; 'cut open' is a bit vague visually.",
+  "was": "Engineers cut gaps into bridge roads on purpose, or the bridge would wreck itself."
+ }
 }
