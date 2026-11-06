@@ -1,0 +1,72 @@
+{
+ "slug": "s86-ketchup-bottle-hi",
+ "format": "short",
+ "title": "केचप बोतल से निकलता क्यों नहीं, फिर अचानक बाढ़ क्यों आ जाती है? 🍅",
+ "hook_text": "केचप ठोस है!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "केचप ठोस होता है, जब तक आप उसे मारते नहीं।",
+     "prompt": "Medium shot, a glass ketchup bottle held upside down over a white plate of golden fries on a wooden kitchen table, a thick red blob of ketchup sitting still at the bottle mouth, a hand gripping the bottle, soft warm window light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "केचप ठोस होता है, जब तक आप उसे मारते नहीं।"
+    },
+    {
+     "vo": "बोतल उल्टी कर दो, कितना भी इंतज़ार करो, कुछ नहीं हिलता।",
+     "prompt": "Medium shot, a hand holding a glass ketchup bottle upside down over a plate of fries, thick red ketchup packed inside the neck and not moving, empty spoon and napkin beside the plate, bright diner table, soft daylight, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बोतल उल्टी कर दो, कितना भी इंतज़ार करो, कुछ नहीं हिलता।"
+    },
+    {
+     "vo": "फिर एक थपकी, और आधा केचप आपके फ्राइज़ पर।",
+     "prompt": "Medium shot, a white plate of fries completely covered under a big heap of red ketchup, an upside-down glass ketchup bottle lying empty beside the plate, red drops on the wooden table, warm kitchen light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "फिर एक थपकी, और आधा केचप आपके फ्राइज़ पर।"
+    },
+    {
+     "vo": "लेकिन रुकिए, थपकी ने केचप को ही बदल दिया।",
+     "prompt": "Macro shot, a glossy thick red ketchup surface in a white bowl with a single round spoon dent in the centre and smooth ripples spreading outward, a metal spoon resting beside it, soft side light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, थपकी ने केचप को ही बदल दिया।"
+    },
+    {
+     "vo": "टमाटर के रेशे उलझकर एक ढीला जाल बनाते हैं, जो उसे रोके रखता है।",
+     "prompt": "Macro shot, thick red ketchup with tangled pale tomato fibers and tiny red particles woven into a loose net, sharp detail, warm backlight, shallow depth of field, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "टमाटर के रेशे उलझकर एक ढीला जाल बनाते हैं, जो उसे रोके रखता है।"
+    },
+    {
+     "vo": "मारो, जाल टूटता है, और ठोस केचप तरल बन जाता है।",
+     "prompt": "Macro shot, a red net of tomato fibers broken into loose strands, smooth runny ketchup streaming down a white plate in a glossy ribbon, soft side light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "मारो, जाल टूटता है, और ठोस केचप तरल बन जाता है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "केचप *ठोस* है, मारते ही बहने लगता है",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s86-ketchup-bottle",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
