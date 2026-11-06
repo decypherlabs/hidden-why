@@ -27,7 +27,8 @@
      "vo": "क्या आप जानते हैं, यमदूतों के फंदे के सामने से एक पापी को विष्णु के दूतों ने छुड़ा लिया?",
      "prompt": "Two radiant four-armed messengers of Lord Vishnu in yellow garments holding conch and discus stand on the left, raising hands to stop two fierce dark Yamadutas holding ropes on the right, in a dim humble hut, golden divine light blazing, a dying old man lying on a bed between them, dramatic wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "जीवन भर उसने चोरी और छल किया था, फिर भी उसे कोई सज़ा नहीं मिली।",
@@ -45,13 +46,15 @@
      "vo": "उसके सबसे छोटे बेटे का नाम था नारायण, और उसी में उसकी जान बसती थी।",
      "prompt": "An elderly Brahmin Ajamila seated on the left at the doorway of a simple village house, smiling as a small boy in a simple dhoti plays on the ground on the right, warm afternoon light, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "अंत समय आया, तो तीन भयंकर यमदूत फंदे लिए सामने खड़े थे।",
      "prompt": "A frail old man lying on a simple bed in a dim hut, terrified, while three fierce dark Yamadutas with ropes loom at the foot of the bed as shadowy figures, dramatic wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "डर के मारे उसने बेटे को पुकारा, नारायण! लेकिन रुकिए, इसके बाद जो हुआ, वो यमदूतों ने भी नहीं सोचा था।",
@@ -73,5 +76,23 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   1,
+   4,
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-06 16:38"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T10:48:34Z",
+  "rounds": 1,
+  "why": {
+   "1": "Shows three men in yellow doing a ritual in a hut. There are no Yamadutas, no noose, and no sinner being rescued.",
+   "4": "Shows an old man sitting alone at a door. Ajamil's youngest son Narayan, who the line is about, is missing.",
+   "5": "Shows a man lying on a bed with ropes hanging from the roof. The three fearsome Yamadutas holding nooses and standing in front of him are missing."
+  }
+ }
 }
