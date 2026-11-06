@@ -42,6 +42,7 @@ jobs:
           if grep -q '"parler"' "$EP/script.json" || { [ -n "$HW_BRAND" ] && grep -q '"parler"' "brand/$HW_BRAND/brand.json"; }; then
             pip install -q git+https://github.com/huggingface/parler-tts.git
             pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+            pip install -q sentencepiece==0.2.2  # 0.2.3 (5 Nov 2026) needs a newer protobuf than parler-tts gets: every Hindi build failed
           fi
       - name: Hindi text shaping
         run: |
