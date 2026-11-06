@@ -7,6 +7,7 @@ Writes vo-NN.wav per shot (24 kHz mono) and vo.json ({"NN": seconds}). English p
 espeak-ng: misaki's default English G2P loads spaCy, which crashes on load on these runners.
 """
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -45,6 +46,13 @@ def parler(script, out, v):
                            prompt_input_ids=p.input_ids, prompt_attention_mask=p.attention_mask).cpu().float().squeeze()
         x = AF.resample(a.unsqueeze(0), model.config.sampling_rate, SR).squeeze().numpy()
         sf.write(out / f"vo-{n:02d}.wav", x, SR)
+        if v.get("tempo", 1) != 1:  # faster delivery, same pitch (owner, 6 Nov 2026: hits speak ~3 words/s, Divya ~2)
+            tmp = out / f"vo-{n:02d}.raw.wav"
+            (out / f"vo-{n:02d}.wav").rename(tmp)
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(tmp), "-af", f"atempo={v['tempo']}",
+                            str(out / f"vo-{n:02d}.wav")], check=True)
+            tmp.unlink()
+            x, _ = sf.read(out / f"vo-{n:02d}.wav")
         durs[f"{n:02d}"] = round(len(x) / SR, 3)
         print(f"  vo {n:02d}: {durs[f'{n:02d}']:.1f}s", flush=True)
     (out / "vo.json").write_text(json.dumps(durs, indent=1))
