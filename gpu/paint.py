@@ -46,7 +46,7 @@ def main(script_path, out_dir, part=0, parts=1):
     out.mkdir(parents=True, exist_ok=True)
     from diffusers import StableDiffusionXLPipeline
     # a brand's own model (Devlok Katha, owner 31 Oct 2026: realistic RealVisXL Lightning, 6 steps), else SDXL base
-    src = BRAND.get("model") or model_path()
+    src = os.environ.get("SDXL_PATH") or BRAND.get("model") or model_path()  # the smoke test's tiny model wins
     dev = os.environ.get("PAINT_DEVICE", "cuda")  # cpu only for the smoke test (tiny model)
     kw = {"variant": "fp16", "use_safetensors": True} if src == HF_MODEL else {}
     if BRAND.get("vae"):
