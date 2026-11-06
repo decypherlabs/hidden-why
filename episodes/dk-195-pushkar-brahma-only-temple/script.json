@@ -50,9 +50,10 @@
     },
     {
      "vo": "समय निकल न जाए, इसलिए ब्रह्मा जी ने दूसरी स्त्री को बैठाया।",
-     "prompt": "Medium-wide shot, Lord Brahma with one face, white beard, four arms and golden crown seated at the left of a yajna fire, a young woman in a plain saffron saree with head covered seated at the right, flames between them, distant blurred silhouettes of rishis, warm firelight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Medium-wide shot, a young woman in a plain saffron saree with her head covered, seated at the right beside a burning yajna fire, Lord Brahma with one face, white beard, four arms and golden crown seated at the left facing her, flames between them, distant blurred silhouettes of rishis, no statue, warm firelight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "लेकिन तभी सावित्री जी वहाँ आ गईं और बहुत गुस्सा हुईं।",
@@ -82,5 +83,19 @@
   }
  ],
  "reviewed_at": "2026-11-06 22:30",
- "released_at": "2026-11-06 23:03"
+ "released_at": "2026-11-06 23:03",
+ "repaint": {
+  "shots": [
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-07 02:29"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T20:53:40Z",
+  "rounds": 1,
+  "why": {
+   "5": "The line says Brahma seats another woman beside him for the yajna. The tile shows only Brahma sitting alone in front of a large deity statue, with no second woman."
+  }
+ }
 }
