@@ -1,0 +1,356 @@
+{
+ "slug": "05-sixty-minutes-hi",
+ "title": "एक घंटा 60 मिनट का ही क्यों? 100 का क्यों नहीं?",
+ "approved": true,
+ "thumbnail": {
+  "layout": "face",
+  "text": "*दस घंटे* का दिन!",
+  "plane": "extreme close-up of an ancient Babylonian astronomer with a wide-eyed shocked expression, mouth open, staring at the camera, braided beard, firelight on his face, night sky full of stars behind him, cinematic, dramatic, highly detailed",
+  "zoom": "an antique French clock face with only ten hours on its dial, brass and enamel, close-up, warm light"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "sting",
+   "reveal"
+  ],
+  "reflective": [
+   "ordinary",
+   "today",
+   "outro"
+  ],
+  "epic": [
+   "story"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आप दिन में सौ बार समय देखते हैं। साठ सेकंड। साठ मिनट। चौबीस घंटे। पर कभी पूछा, ऐसा क्यों?",
+     "prompt": "close-up of a person's wrist with an elegant analog wristwatch, soft morning light, shallow depth of field, numbers not visible",
+     "move": "push",
+     "negative": "text, logo, watermark",
+     "caption": "आप दिन में 100 बार समय देखते हैं। 60 सेकंड। 60 मिनट। 24 घंटे। पर कभी पूछा, ऐसा क्यों?"
+    },
+    {
+     "vo": "पैसा गिनते हैं दहाई में। दूरी भी दहाई में। सब कुछ दहाई में। सिवाय समय के।",
+     "prompt": "a stack of coins and a wooden ruler on a desk beside an old pocket watch, warm lamp light, close-up, shallow focus",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "पैसा गिनते हैं दहाई में। दूरी भी दहाई में। सब कुछ दहाई में। सिवाय समय के।"
+    },
+    {
+     "vo": "और अजीब बात ये है। सत्रह सौ तिरानवे में एक पूरे देश ने इसे बदलने की कोशिश की। दिन के दस घंटे। घंटे के सौ मिनट। दो साल भी नहीं चला।",
+     "prompt": "a crowd of 1790s French citizens in a Paris square looking up at a large public clock, tricolor flags, dramatic overcast sky, oil painting style",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "और अजीब बात ये है। 1793 में एक पूरे देश ने इसे बदलने की कोशिश की। दिन के 10 घंटे। घंटे के 100 मिनट। दो साल भी नहीं चला।"
+    },
+    {
+     "vo": "सबसे अजीब गिनती जीती कैसे? जानने के लिए चार हज़ार साल पीछे चलना होगा।",
+     "prompt": "the ruins of an ancient Mesopotamian ziggurat at dusk, desert wind, dust, dramatic orange sky, wide cinematic view",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "सबसे अजीब गिनती जीती कैसे? जानने के लिए 4000 साल पीछे चलना होगा।"
+    }
+   ]
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "shots": []
+  },
+  {
+   "id": "ordinary",
+   "card": "THE ORDINARY",
+   "shots": [
+    {
+     "vo": "अपनी सुबह देखिए। अलार्म साढ़े छह बजे बजता है। यानी साठ का आधा।",
+     "prompt": "a dim bedroom at dawn, a hand reaching for an old alarm clock on a nightstand, blue morning light through curtains",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "अपनी सुबह देखिए। अलार्म साढ़े छह बजे बजता है। यानी 60 का आधा।"
+    },
+    {
+     "vo": "आपकी मीटिंग घंटे के पंद्रह मिनट बाद है। पंद्रह, यानी साठ का चौथाई। घंटे को आधा, तिहाई, चौथाई में बाँटना आप बिना सोचे करते हैं।",
+     "prompt": "an office desk with a paper calendar, a cup of coffee and a round wall clock in soft focus behind, morning sunlight",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "आपकी मीटिंग घंटे के 15 मिनट बाद है। 15, यानी 60 का चौथाई। घंटे को आधा, तिहाई, चौथाई में बाँटना आप बिना सोचे करते हैं।"
+    },
+    {
+     "vo": "यही सौ के साथ करके देखिए। सौ का तिहाई है तैंतीस दशमलव तीन तीन तीन, हमेशा चलता रहेगा।",
+     "prompt": "a chalkboard in an old classroom with chalk dust in a beam of light, an eraser and chalk on the ledge",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "यही 100 के साथ करके देखिए। 100 का तिहाई है 33.333… हमेशा चलता रहेगा।"
+    },
+    {
+     "vo": "साठ बारह अलग तरीकों से बराबर बँटता है। सौ सिर्फ़ नौ से। ये इत्तेफ़ाक नहीं है। किसी ने चुना था।",
+     "diagram": "divisors",
+     "caption": "60 बारह अलग तरीकों से बराबर बँटता है। 100 सिर्फ़ नौ से। ये इत्तेफ़ाक नहीं है। किसी ने चुना था।"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "card": "THE STORY",
+   "shots": [
+    {
+     "vo": "मेसोपोटामिया, करीब चार हज़ार साल पहले। दो नदियों के बीच सुमेरियन लोग दुनिया के पहले शहर बसाते हैं।",
+     "prompt": "an ancient Sumerian city of mud-brick buildings between two rivers at sunrise, boats with reed sails, palm trees, epic wide view, painterly",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "मेसोपोटामिया, करीब 4000 साल पहले। दो नदियों के बीच सुमेरियन लोग दुनिया के पहले शहर बसाते हैं।"
+    },
+    {
+     "vo": "वे अनाज, भेड़ें, ज़मीन का व्यापार करते हैं। और चीज़ें बराबर बाँटनी होती हैं। तीन भाइयों में एक खेत। चार परिवारों में एक फ़सल।",
+     "prompt": "ancient Mesopotamian farmers dividing a pile of grain into equal heaps with wooden scoops in a sunlit courtyard, oil painting style",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "वे अनाज, भेड़ें, ज़मीन का व्यापार करते हैं। और चीज़ें बराबर बाँटनी होती हैं। तीन भाइयों में एक खेत। चार परिवारों में एक फ़सल।"
+    },
+    {
+     "vo": "इसलिए वे साठ में गिनते हैं। क्यों, ये पक्का कोई नहीं जानता।",
+     "prompt": "a scribe's hands pressing a reed stylus into a wet clay tablet, wedge-shaped marks, close-up, warm lamplight",
+     "move": "push",
+     "negative": "letters, logo, watermark, modern objects",
+     "caption": "इसलिए वे 60 में गिनते हैं। क्यों, ये पक्का कोई नहीं जानता।"
+    },
+    {
+     "vo": "एक अंदाज़ा आपके हाथ में ही है। अँगूठे से एक हाथ की चारों उँगलियों के पोर गिनिए। बारह। हर बारह का हिसाब दूसरे हाथ की उँगलियों पर रखिए। पाँच दर्जन। यानी साठ।",
+     "diagram": "finger_count",
+     "caption": "एक अंदाज़ा आपके हाथ में ही है। अँगूठे से एक हाथ की चारों उँगलियों के पोर गिनिए। 12। हर 12 का हिसाब दूसरे हाथ की उँगलियों पर रखिए। पाँच दर्जन। यानी 60।"
+    },
+    {
+     "vo": "वजह जो भी हो, ये टिक गया। बाद के बाबुल वाले हर ज़रूरी चीज़ में साठ इस्तेमाल करते थे, सबसे ज़्यादा आसमान में।",
+     "prompt": "Babylonian astronomers on the flat roof of a temple at night, studying a sky full of stars, one pointing upward, torchlight, cinematic",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "वजह जो भी हो, ये टिक गया। बाद के बाबुल वाले हर ज़रूरी चीज़ में 60 इस्तेमाल करते थे, सबसे ज़्यादा आसमान में।"
+    },
+    {
+     "vo": "उन्होंने तारों का नक्शा बनाया। चाँद की भविष्यवाणी की। आसमान के गोले को तीन सौ साठ डिग्री में बाँटा।",
+     "prompt": "a vast starry night sky over the desert with the moon rising, an ancient figure in silhouette on a rooftop looking up, long exposure star trails",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "उन्होंने तारों का नक्शा बनाया। चाँद की भविष्यवाणी की। आसमान के गोले को 360 डिग्री में बाँटा।"
+    },
+    {
+     "vo": "लेकिन घंटे हमें बाबुल वालों ने नहीं दिए। वो मिस्र से आए।",
+     "prompt": "the Giza pyramids at midday with long sharp shadows across the sand, heat haze, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "लेकिन घंटे हमें बाबुल वालों ने नहीं दिए। वो मिस्र से आए।"
+    },
+    {
+     "vo": "मिस्र के लोग परछाइयाँ देखते थे। उनकी धूपघड़ी दिन की रोशनी को बारह हिस्सों में बाँटती थी। रात में वे आसमान में तारों के बारह समूहों पर नज़र रखते थे।",
+     "prompt": "an ancient Egyptian priest kneeling beside a stone shadow clock in the desert sun, the shadow falling across carved marks, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "मिस्र के लोग परछाइयाँ देखते थे। उनकी धूपघड़ी दिन की रोशनी को 12 हिस्सों में बाँटती थी। रात में वे आसमान में तारों के 12 समूहों पर नज़र रखते थे।"
+    },
+    {
+     "vo": "दिन के बारह घंटे, रात के बारह घंटे। कुल चौबीस।",
+     "prompt": "a split scene: blazing Egyptian desert sun on the left and a starry Nile night on the right, temple silhouettes, painterly",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "दिन के 12 घंटे, रात के 12 घंटे। कुल 24।"
+    },
+    {
+     "vo": "पर दिक्कत ये थी। ये घंटे खिंचते-सिकुड़ते थे। गर्मी के दिन में भी बारह घंटे होते थे, तो गर्मी का घंटा सर्दी के घंटे से काफ़ी लंबा था।",
+     "diagram": "seasonal_hours",
+     "caption": "पर दिक्कत ये थी। ये घंटे खिंचते-सिकुड़ते थे। गर्मी के दिन में भी 12 घंटे होते थे, तो गर्मी का घंटा सर्दी के घंटे से काफ़ी लंबा था।"
+    },
+    {
+     "vo": "हज़ारों साल तक घंटा तय समय था ही नहीं। वो दिन का एक टुकड़ा था, जैसा मौसम बना दे।",
+     "prompt": "an ancient Egyptian village at winter dusk, long shadows, people heading home early, warm light from doorways",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "हज़ारों साल तक घंटा तय समय था ही नहीं। वो दिन का एक टुकड़ा था, जैसा मौसम बना दे।"
+    },
+    {
+     "vo": "फिर यूनानी आए। सिकंदरिया, करीब एक सौ पचास ईस्वी। टॉलेमी नाम का खगोलशास्त्री प्राचीन आसमान की सबसे महान किताब बना रहा है।",
+     "prompt": "the great library of Alexandria at night, an astronomer in a toga writing by oil lamp among scrolls and a brass armillary sphere, cinematic",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "फिर यूनानी आए। सिकंदरिया, करीब 150 ईस्वी। टॉलेमी नाम का खगोलशास्त्री प्राचीन आसमान की सबसे महान किताब बना रहा है।"
+    },
+    {
+     "vo": "उसके पास बाबुल के अंक हैं। साठ। और उसे आसमान के छोटे-छोटे टुकड़े नापने हैं।",
+     "prompt": "close-up of a brass armillary sphere glowing in lamplight, dust floating, dark background",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "उसके पास बाबुल के अंक हैं। 60। और उसे आसमान के छोटे-छोटे टुकड़े नापने हैं।"
+    },
+    {
+     "vo": "तो वो हर हिस्से को साठ छोटे हिस्सों में काटता है। फिर उन्हें भी साठ में।",
+     "prompt": "an astronomer's hand drawing a geometric circle with a bronze compass on papyrus, lamplight, close-up",
+     "move": "push",
+     "negative": "letters, logo, watermark, modern objects",
+     "caption": "तो वो हर हिस्से को 60 छोटे हिस्सों में काटता है। फिर उन्हें भी 60 में।"
+    },
+    {
+     "vo": "करीब हज़ार साल बाद उसकी किताब का लैटिन में अनुवाद होता है। पहले कट का नाम पड़ा पार्स मिनूटा प्रीमा। पहला छोटा हिस्सा।",
+     "prompt": "a medieval monk copying a manuscript by candlelight in a stone scriptorium, quill pen, illuminated pages, warm light",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "करीब 1000 साल बाद उसकी किताब का लैटिन में अनुवाद होता है। पहले कट का नाम पड़ा pars minuta prima। पहला छोटा हिस्सा।"
+    },
+    {
+     "vo": "दूसरे कट का नाम, पार्स मिनूटा सेकुंडा। दूसरा छोटा हिस्सा।",
+     "prompt": "close-up of a quill pen touching an illuminated manuscript page, gold leaf glinting, candle flame in the background",
+     "move": "push",
+     "negative": "readable text, logo, watermark",
+     "caption": "दूसरे कट का नाम, pars minuta secunda। दूसरा छोटा हिस्सा।"
+    },
+    {
+     "vo": "ज़ोर से बोलिए। मिनट। सेकंड। आप ज़िंदगी भर रोज़ लैटिन बोलते आए हैं।",
+     "prompt": "a modern person looking at their phone in a busy city street at night, neon reflections, shallow depth of field",
+     "move": "push",
+     "negative": "text, logo, watermark, readable screen",
+     "caption": "ज़ोर से बोलिए। मिनट। सेकंड। आप ज़िंदगी भर रोज़ लैटिन बोलते आए हैं।"
+    },
+    {
+     "vo": "पर सदियों तक मिनट कोई इस्तेमाल नहीं करता था। घड़ियाँ घंटा ही मुश्किल से सँभाल पाती थीं।",
+     "prompt": "a huge medieval iron clock mechanism in a church tower, gears and weights, dusty light through a small window",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "पर सदियों तक मिनट कोई इस्तेमाल नहीं करता था। घड़ियाँ घंटा ही मुश्किल से सँभाल पाती थीं।"
+    },
+    {
+     "vo": "सोलह सौ छप्पन। डच वैज्ञानिक क्रिस्टियान हाइगेन्स घड़ी के अंदर पेंडुलम लगाते हैं। अचानक घड़ियाँ कहीं ज़्यादा सटीक हो जाती हैं।",
+     "prompt": "a 17th century Dutch scientist in a dark study watching a swinging brass pendulum inside an open wooden clock case, candlelight, oil painting style",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "1656। डच वैज्ञानिक क्रिस्टियान हाइगेन्स घड़ी के अंदर पेंडुलम लगाते हैं। अचानक घड़ियाँ कहीं ज़्यादा सटीक हो जाती हैं।"
+    },
+    {
+     "vo": "और करीब सोलह सौ नब्बे में घड़ियों पर दूसरी सुई उगने लगती है। मिनट की सुई।",
+     "prompt": "close-up of an ornate 17th century clock face with two hands, engraved brass, soft window light",
+     "move": "push",
+     "negative": "logo, watermark, readable text",
+     "caption": "और करीब 1690 में घड़ियों पर दूसरी सुई उगने लगती है। मिनट की सुई।"
+    },
+    {
+     "vo": "चार हज़ार साल। बाबुल के मुंशियों से आपकी दीवार की मिनट वाली सुई तक।",
+     "diagram": "time_timeline",
+     "caption": "4000 साल। बाबुल के मुंशियों से आपकी दीवार की मिनट वाली सुई तक।"
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "card": "THE REVEAL",
+   "shots": [
+    {
+     "vo": "अब लौटते हैं फ़्रांस। सत्रह सौ तिरानवे। क्रांति पुरानी दुनिया मिटाना चाहती है। राजा, चर्च, यहाँ तक कि कैलेंडर।",
+     "prompt": "a dramatic French revolutionary street scene, crowds with tricolor cockades, smoke and banners, 1790s Paris, oil painting style",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "अब लौटते हैं फ़्रांस। 1793। क्रांति पुरानी दुनिया मिटाना चाहती है। राजा, चर्च, यहाँ तक कि कैलेंडर।"
+    },
+    {
+     "vo": "मीटर आ रहा है। सब कुछ दहाई में। तो समय क्यों नहीं?",
+     "prompt": "an 18th century French workshop with a craftsman measuring a brass rod with calipers, tools on the bench, warm light",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "मीटर आ रहा है। सब कुछ दहाई में। तो समय क्यों नहीं?"
+    },
+    {
+     "vo": "दिन के दस घंटे। हर घंटे के सौ मिनट। हर मिनट के सौ सेकंड। एक नया घंटा पुराने वाले के दो घंटे चौबीस मिनट के बराबर था।",
+     "diagram": "decimal_clock",
+     "caption": "दिन के 10 घंटे। हर घंटे के 100 मिनट। हर मिनट के 100 सेकंड। एक नया घंटा पुराने वाले के 2 घंटे 24 मिनट के बराबर था।"
+    },
+    {
+     "vo": "घड़ीसाज़ों ने नए डायल बनाए। कुछ में एक ही डायल पर दोनों प्रणालियाँ, ताकि काम चल जाए।",
+     "prompt": "an 18th century French clockmaker at his bench polishing an enamel clock face, loupe in his eye, sunlight through a dusty window",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "घड़ीसाज़ों ने नए डायल बनाए। कुछ में एक ही डायल पर दोनों प्रणालियाँ, ताकि काम चल जाए।"
+    },
+    {
+     "vo": "पर लोगों को अपनी हर घड़ी बदलनी पड़ती। और किसलिए? उनकी ज़िंदगी पुराने घंटों पर चल रही थी।",
+     "prompt": "a crowded Paris market in the 1790s, merchants and customers ignoring a public clock, everyday bustle, painterly",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "पर लोगों को अपनी हर घड़ी बदलनी पड़ती। और किसलिए? उनकी ज़िंदगी पुराने घंटों पर चल रही थी।"
+    },
+    {
+     "vo": "अप्रैल सत्रह सौ पचानवे में दशमलव समय अनिवार्य नहीं रहा। मीटर बच गया। दस घंटे का दिन नहीं।",
+     "prompt": "a lonely antique clock with a cracked glass face lying on a dusty wooden floor in an empty room, single beam of light",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "अप्रैल 1795 में दशमलव समय अनिवार्य नहीं रहा। मीटर बच गया। 10 घंटे का दिन नहीं।"
+    },
+    {
+     "vo": "दस गिनने में आसान था। पर साठ बाँटने में आसान था। और समय वो चीज़ है जो हम दिन भर बाँटते हैं।",
+     "prompt": "a sunlit city square with people meeting under a large old public clock, warm afternoon light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "10 गिनने में आसान था। पर 60 बाँटने में आसान था। और समय वो चीज़ है जो हम दिन भर बाँटते हैं।"
+    }
+   ]
+  },
+  {
+   "id": "today",
+   "card": "TODAY",
+   "shots": [
+    {
+     "vo": "आज आपका फ़ोन सेकंड के अंश तक समय रखता है, परमाणु घड़ियों से जुड़ा हुआ। फिर भी वो बाबुल वालों की तरह गिनता है।",
+     "prompt": "a smartphone lying on a dark table, its screen glowing softly, beside an ancient clay tablet with wedge marks, dramatic side light",
+     "move": "push",
+     "negative": "readable screen, logo, watermark",
+     "caption": "आज आपका फ़ोन सेकंड के अंश तक समय रखता है, परमाणु घड़ियों से जुड़ा हुआ। फिर भी वो बाबुल वालों की तरह गिनता है।"
+    },
+    {
+     "vo": "साठ सेकंड। साठ मिनट। हर नक्शे, हर कंपास, हर जीपीएस पर तीन सौ साठ डिग्री।",
+     "prompt": "an old brass navigation compass on a nautical map, dramatic warm light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "60 सेकंड। 60 मिनट। हर नक्शे, हर कंपास, हर GPS पर 360 डिग्री।"
+    },
+    {
+     "vo": "जब भी आप कहते हैं बस एक मिनट में पहुँच रहा हूँ, आप चार हज़ार साल पुराना विचार इस्तेमाल करते हैं।",
+     "prompt": "a person running for a train on a busy platform at golden hour, motion blur, cinematic",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "जब भी आप कहते हैं बस एक मिनट में पहुँच रहा हूँ, आप 4000 साल पुराना विचार इस्तेमाल करते हैं।"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सुमेरियों की गिनती की तरकीब, मिस्र की धूपघड़ी और लैटिन का अनुवाद। यही है असली वजह।",
+     "prompt": "a sundial in a quiet garden at sunset, its shadow stretching long across the stone, warm golden light",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, modern objects",
+     "caption": "सुमेरियों की गिनती की तरकीब, मिस्र की धूपघड़ी और लैटिन का अनुवाद। यही है असली वजह।"
+    },
+    {
+     "vo": "अगली बार: आधी दुनिया सड़क के बाएँ क्यों चलती है? ऐसी और असली वजहें जानने के लिए सब्सक्राइब करें।",
+     "prompt": "an empty country road at dusk splitting in two directions, car headlights in the distance, cinematic wide view",
+     "move": "push",
+     "negative": "text, letters, logo, watermark, road signs",
+     "caption": "अगली बार: आधी दुनिया सड़क के बाएँ क्यों चलती है? ऐसी और असली वजहें जानने के लिए सब्सक्राइब करें।"
+    }
+   ]
+  }
+ ],
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "05-sixty-minutes",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ },
+ "hook_text": "साठ ही क्यों?",
+ "cover_text": "*दस घंटे* का दिन!"
+}

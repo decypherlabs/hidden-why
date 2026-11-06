@@ -1,0 +1,243 @@
+{
+ "slug": "08-leap-years-hi",
+ "title": "1752 में ब्रिटेन के 11 दिन कानून से गायब क्यों हुए?",
+ "approved": true,
+ "thumbnail": {
+  "layout": "face",
+  "text": "कैलेंडर से 11 दिन *गायब*",
+  "plane": "a shocked man in 18th-century clothes staring at a wall calendar with wide eyes and mouth open, candlelit room, cinematic close-up, dramatic rim light",
+  "zoom": "an old paper calendar page torn in half with days missing, dark background"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "sting",
+   "reveal"
+  ],
+  "reflective": [
+   "ordinary",
+   "today",
+   "outro"
+  ],
+  "epic": [
+   "story"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सितंबर सत्रह सौ बावन में ब्रिटेन के लाखों लोग दो तारीख को सोए, और चौदह को उठे।",
+     "prompt": "a sleeping family in an 18th-century English bedroom by candlelight, moonlight through the window, oil painting style",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "सितंबर 1752 में ब्रिटेन के लाखों लोग 2 तारीख को सोए, और 14 को उठे।"
+    },
+    {
+     "vo": "ग्यारह दिन। गायब। कानून के हुक्म से।",
+     "prompt": "an old wall calendar with pages torn away and scattered on a wooden floor, dramatic shadows",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "11 दिन। गायब। कानून के हुक्म से।"
+    },
+    {
+     "vo": "और इसकी जड़ है एक अजीब दिन, जो हर चार साल में आता है। लगभग।",
+     "prompt": "a single calendar page curling in soft window light on an old desk, close-up",
+     "move": "push",
+     "negative": "text, letters, numbers, logo, watermark",
+     "caption": "और इसकी जड़ है एक अजीब दिन, जो हर 4 साल में आता है। लगभग।"
+    }
+   ]
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "shots": []
+  },
+  {
+   "id": "ordinary",
+   "card": "THE ORDINARY",
+   "shots": [
+    {
+     "vo": "हम मानते हैं कि साल तीन सौ पैंसठ दिन का होता है। नहीं होता।",
+     "prompt": "the Earth orbiting the sun seen from space, a faint glowing orbit line, cinematic",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "हम मानते हैं कि साल 365 दिन का होता है। नहीं होता।"
+    },
+    {
+     "vo": "एक बसंत से अगले बसंत तक धरती को लगते हैं तीन सौ पैंसठ दिन, पाँच घंटे, उनचास मिनट।",
+     "prompt": "cherry blossoms blooming on a tree in early spring, soft morning light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "एक बसंत से अगले बसंत तक धरती को लगते हैं 365 दिन, 5 घंटे, 49 मिनट।"
+    },
+    {
+     "vo": "यानी लगभग चौथाई दिन बच जाता है। हर साल।",
+     "prompt": "an antique pocket watch lying open on a stone surface, warm light, macro",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "यानी लगभग चौथाई दिन बच जाता है। हर साल।"
+    },
+    {
+     "vo": "इसे छोड़ दें, तो कैलेंडर मौसमों से खिसकता जाता है। करीब साढ़े सात सौ साल में जुलाई सर्दियों में आ जाएगा।",
+     "diagram": "calendar_drift",
+     "caption": "इसे छोड़ दें, तो कैलेंडर मौसमों से खिसकता जाता है। करीब 750 साल में जुलाई सर्दियों में आ जाएगा।"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "card": "THE STORY",
+   "shots": [
+    {
+     "vo": "प्राचीन रोम के साथ यही हुआ। फसल के त्योहार गलत मौसम में पड़ने लगे।",
+     "prompt": "a Roman harvest festival in a snowy forum, confused citizens in togas, oil painting style",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "प्राचीन रोम के साथ यही हुआ। फसल के त्योहार गलत मौसम में पड़ने लगे।"
+    },
+    {
+     "vo": "तो छियालीस ईसा पूर्व में जूलियस सीज़र ने, एलेक्ज़ेंड्रिया के खगोलशास्त्री सोसिजेनीज़ की सलाह पर, इसे ठीक किया।",
+     "prompt": "Julius Caesar in a marble hall studying a scroll with an astronomer pointing at a bronze sky globe, oil painting style",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "तो 46 ईसा पूर्व में जूलियस सीज़र ने, एलेक्ज़ेंड्रिया के खगोलशास्त्री सोसिजेनीज़ की सलाह पर, इसे ठीक किया।"
+    },
+    {
+     "vo": "भरपाई के लिए वह साल चार सौ पैंतालीस दिन का रहा। रोमन उसे भ्रम का साल कहते थे।",
+     "prompt": "a long Roman scroll unrolling across a table with endless rows of marks, lamplight",
+     "move": "push",
+     "negative": "letters, words, logo, watermark",
+     "caption": "भरपाई के लिए वह साल 445 दिन का रहा। रोमन उसे भ्रम का साल कहते थे।"
+    },
+    {
+     "vo": "फिर एक आसान नियम। तीन साल तीन सौ पैंसठ दिन के, और हर चौथे साल एक दिन ज़्यादा। लीप ईयर का जन्म हुआ।",
+     "prompt": "a stone Roman calendar carved into a wall, lit by torches, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, watermark",
+     "caption": "फिर एक आसान नियम। तीन साल 365 दिन के, और हर चौथे साल एक दिन ज़्यादा। लीप ईयर का जन्म हुआ।"
+    },
+    {
+     "vo": "पर सीज़र का साल था तीन सौ पैंसठ और चौथाई दिन। यानी करीब ग्यारह मिनट ज़्यादा।",
+     "prompt": "a sundial casting a long shadow at sunset in an ancient courtyard, cinematic",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "पर सीज़र का साल था 365 और चौथाई दिन। यानी करीब 11 मिनट ज़्यादा।"
+    },
+    {
+     "vo": "ग्यारह मिनट कुछ नहीं लगते। लेकिन सोलह सदियों में ये पूरे दस दिन बन गए।",
+     "prompt": "a medieval monk tracking dates in a huge book by candlelight, stacks of old calendars around him",
+     "move": "push",
+     "negative": "letters, words, logo, watermark",
+     "caption": "11 मिनट कुछ नहीं लगते। लेकिन 16 सदियों में ये पूरे 10 दिन बन गए।"
+    },
+    {
+     "vo": "वसंत विषुव से जुड़ा ईस्टर अपनी जगह से खिसक रहा था।",
+     "prompt": "a grand cathedral at dawn in spring, golden light on the facade, wide view",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "वसंत विषुव से जुड़ा ईस्टर अपनी जगह से खिसक रहा था।"
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "card": "THE REVEAL",
+   "shots": [
+    {
+     "vo": "पंद्रह सौ बयासी में पोप ग्रेगरी तेरहवें ने फालतू दिन हटा दिए। कैथोलिक देशों में गुरुवार चार अक्टूबर के बाद सीधे शुक्रवार पंद्रह अक्टूबर आया।",
+     "prompt": "a Renaissance pope signing a parchment decree at a desk in the Vatican, cardinals watching, oil painting style",
+     "move": "push",
+     "negative": "text, letters, words, logo, watermark",
+     "caption": "1582 में पोप ग्रेगरी तेरहवें ने फालतू दिन हटा दिए। कैथोलिक देशों में गुरुवार 4 अक्टूबर के बाद सीधे शुक्रवार 15 अक्टूबर आया।"
+    },
+    {
+     "vo": "और उन्होंने नियम बदला। सौ वाले साल लीप ईयर नहीं, जब तक चार सौ से पूरे न बँटें।",
+     "diagram": "leap_rule",
+     "caption": "और उन्होंने नियम बदला। सदी वाले साल लीप ईयर नहीं, जब तक 400 से पूरे न बँटें।"
+    },
+    {
+     "vo": "इसीलिए उन्नीस सौ में फरवरी की उनतीस तारीख नहीं थी, पर दो हज़ार में थी।",
+     "prompt": "fireworks over a city skyline on a millennium New Year's night, crowds celebrating, wide view",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "इसीलिए 1900 में 29 फरवरी नहीं थी, पर 2000 में थी।"
+    },
+    {
+     "vo": "प्रोटेस्टेंट ब्रिटेन ने पोप का कैलेंडर नहीं माना। एक सौ सत्तर साल तक। सत्रह सौ बावन तक वह ग्यारह दिन पीछे था, तो ग्यारह दिन हटाने पड़े।",
+     "prompt": "the British Parliament in the 1750s, lords in wigs debating in a wood-panelled chamber, oil painting style",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "प्रोटेस्टेंट ब्रिटेन ने पोप का कैलेंडर नहीं माना। 170 साल तक। 1752 तक वह 11 दिन पीछे था, तो 11 दिन हटाने पड़े।"
+    },
+    {
+     "vo": "कहते हैं गुस्साई भीड़ चिल्लाई, हमारे ग्यारह दिन लौटाओ। इतिहासकारों को इसका लगभग कोई सबूत नहीं मिला।",
+     "prompt": "a crowd in 18th-century London street at night holding torches, painting style",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "कहते हैं गुस्साई भीड़ चिल्लाई, हमारे 11 दिन लौटाओ। इतिहासकारों को इसका लगभग कोई सबूत नहीं मिला।"
+    },
+    {
+     "vo": "रूस ने उन्नीस सौ अठारह तक इंतज़ार किया। इसीलिए अक्टूबर क्रांति असल में नवंबर में हुई।",
+     "prompt": "a snowy Saint Petersburg street in 1917 with soldiers and red banners, cinematic, desaturated",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "रूस ने 1918 तक इंतज़ार किया। इसीलिए अक्टूबर क्रांति असल में नवंबर में हुई।"
+    }
+   ]
+  },
+  {
+   "id": "today",
+   "card": "TODAY",
+   "shots": [
+    {
+     "vo": "आपके फ़ोन का कैलेंडर आज भी ग्रेगरी के नियम पर चलता है। और वह अब भी गलत है। हर साल करीब सत्ताईस सेकंड।",
+     "prompt": "a smartphone calendar glowing on a nightstand in a dark bedroom, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "आपके फ़ोन का कैलेंडर आज भी ग्रेगरी के नियम पर चलता है। और वह अब भी गलत है। हर साल करीब 27 सेकंड।"
+    },
+    {
+     "vo": "यानी करीब तीन हज़ार साल में एक दिन। किसी को, कभी, इसे फिर ठीक करना होगा।",
+     "prompt": "a futuristic city at sunrise far in the future, gleaming towers, wide view",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "यानी करीब 3000 साल में एक दिन। किसी को, कभी, इसे फिर ठीक करना होगा।"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "बचा हुआ चौथाई दिन, एक सम्राट, एक पोप और ग्यारह गायब दिन। यही है असली वजह।",
+     "prompt": "an hourglass with the last grains of sand falling, dark background, warm light",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark",
+     "caption": "बचा हुआ चौथाई दिन, एक सम्राट, एक पोप और 11 गायब दिन। यही है असली वजह।"
+    },
+    {
+     "vo": "अगली कौन सी आम चीज़ समझाएँ? कमेंट में बताइए। ऐसी और असली वजहें जानने के लिए सब्सक्राइब करें।",
+     "prompt": "a cozy desk by a window at night with an open notebook and a warm lamp",
+     "move": "push",
+     "negative": "text, letters, numbers, logo, watermark",
+     "caption": "अगली कौन सी आम चीज़ समझाएँ? कमेंट में बताइए। ऐसी और असली वजहें जानने के लिए सब्सक्राइब करें।"
+    }
+   ]
+  }
+ ],
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "08-leap-years",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ },
+ "hook_text": "11 दिन, गायब!",
+ "cover_text": "कैलेंडर से 11 दिन *गायब*"
+}
