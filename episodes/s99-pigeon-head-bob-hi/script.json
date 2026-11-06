@@ -1,0 +1,72 @@
+{
+ "slug": "s99-pigeon-head-bob-hi",
+ "format": "short",
+ "title": "कबूतर चलते वक़्त सिर क्यों हिलाते हैं? 🐦",
+ "hook_text": "आपकी आँखें घूमती हैं, इसकी नहीं",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपकी आँखें घूमती हैं। कबूतर की नहीं।",
+     "prompt": "Extreme close-up of a single grey pigeon's head in profile, a large orange eye fixed and unmoving in its socket, a tiny reflection of an Indian town square with a temple in the eye, soft blurred feathers, warm cinematic light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आपकी आँखें घूमती हैं। कबूतर की नहीं।"
+    },
+    {
+     "vo": "ध्यान से देखिए: सिर झटके से आगे जाता है, फिर रुक जाता है, और शरीर पीछे से आ मिलता है।",
+     "prompt": "Medium shot of one grey pigeon on a stone ledge in an old Indian courtyard, neck stretched far forward with head out in front of its body, chest and tail feathers still behind, sharp focus, warm morning light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ध्यान से देखिए: सिर झटके से आगे जाता है, फिर रुक जाता है, और शरीर पीछे से आ मिलता है।"
+    },
+    {
+     "vo": "कबूतर की आँखें सॉकेट में जमी होती हैं, इसलिए वो हमारी तरह घूम नहीं सकतीं।",
+     "prompt": "Close-up of a grey pigeon's head in profile, a round orange eye on the side of its head clearly visible and fixed, detailed iridescent neck feathers, a blurred Indian street behind, soft daylight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "कबूतर की आँखें सॉकेट में जमी होती हैं, इसलिए वो हमारी तरह घूम नहीं सकतीं।"
+    },
+    {
+     "vo": "लेकिन रुकिए: चलता हुआ सिर पूरी दुनिया को धुंधला कर देता है।",
+     "prompt": "Wide shot of a crowded Indian street market smeared into streaks of colour, blurred orange, red and yellow stalls and soft blurred silhouettes, no sharp detail anywhere, dusty afternoon light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए: चलता हुआ सिर पूरी दुनिया को धुंधला कर देता है।"
+    },
+    {
+     "vo": "इसलिए सिर रुकता है, और आँखें एक साफ़ तस्वीर पकड़ लेती हैं।",
+     "prompt": "Wide shot of a sharp crisp Indian temple plaza in perfect detail, carved stone pillars, marigold garlands, clear tiled floor, distant silhouettes of people, bright clean morning light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसलिए सिर रुकता है, और आँखें एक साफ़ तस्वीर पकड़ लेती हैं।"
+    },
+    {
+     "vo": "यानी सिर हिलाता कबूतर असल में अपना सिर स्थिर रखता है।",
+     "prompt": "Medium-wide shot of one grey pigeon walking on a stone path in an Indian park, body mid-stride, head held level and perfectly still, golden hour light, green trees behind, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "यानी सिर हिलाता कबूतर असल में अपना सिर स्थिर रखता है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "कबूतर की आँखें *घूमती* ही नहीं!",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s99-pigeon-head-bob",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

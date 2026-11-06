@@ -1,0 +1,72 @@
+{
+ "slug": "s96-power-lines-sag-hi",
+ "format": "short",
+ "title": "बिजली के तार इतने ढीले क्यों लटके होते हैं? ⚡",
+ "hook_text": "तार बन जाता है गिटार",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "ठंड में हर बिजली का तार, गिटार की टूटती तार बन जाता है।",
+     "prompt": "Wide shot, a huge steel power line stretched tight and straight between two tall lattice pylons across a frozen snowy Indian plain, the cable taut like a guitar string, frost on the wires, cold blue dusk light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ठंड में हर बिजली का तार, गिटार की टूटती तार बन जाता है।"
+    },
+    {
+     "vo": "धातु का तार ठंड में सिकुड़ता है, बाकी हर चीज़ की तरह।",
+     "prompt": "Medium close shot, a thick steel power cable coated in white frost, strands pulled tight and straight between two metal clamps on a pylon, icicles hanging beneath, cold blue morning light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "धातु का तार ठंड में सिकुड़ता है, बाकी हर चीज़ की तरह।"
+    },
+    {
+     "vo": "गर्मी में तार कस दो, तो वो खिंची हुई गिटार की तार है।",
+     "prompt": "Wide shot, a power line pulled tight and straight between two tall poles over a dry golden Indian field, a man in a white shirt and khaki trousers standing at left looking up at it, harsh hot sunlight, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गर्मी में तार कस दो, तो वो खिंची हुई गिटार की तार है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, वो ज़्यादा लटक भी नहीं सकता।",
+     "prompt": "Medium-wide shot, a power line sagging low in a deep curve between two poles, its lowest point just above the treetops beside a dusty Indian village road, a man in a white kurta standing at right looking up, tense afternoon light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, वो ज़्यादा लटक भी नहीं सकता।"
+    },
+    {
+     "vo": "गर्मी में तार लंबा होता है, और ज़मीन के पास झुक जाता है।",
+     "prompt": "Wide shot, a long power line hanging in a deep drooping curve between two pylons low over a wheat field, heat haze shimmering, a woman in a red sari standing at left looking up, blazing orange midday sun, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गर्मी में तार लंबा होता है, और ज़मीन के पास झुक जाता है।"
+    },
+    {
+     "vo": "इसीलिए तार जानबूझकर ढीले हैं, ताकि सर्दी में गिटार की तार न टूटे।",
+     "prompt": "Wide shot, a power line hanging in a gentle loose curve between two pylons over a snowy Indian hill landscape, thick snow on the ground, a man in a grey woollen shawl standing at right looking up at it, soft pale winter light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए तार जानबूझकर ढीले हैं, ताकि सर्दी में गिटार की तार न टूटे।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "बिजली के तार जानबूझकर *ढीले* क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s96-power-lines-sag",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
