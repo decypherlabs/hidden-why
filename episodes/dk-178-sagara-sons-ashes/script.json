@@ -43,9 +43,10 @@
     },
     {
      "vo": "घोड़ा ऋषि कपिल के पास था, और उन्होंने ऋषि को ही चोर समझ लिया।",
-     "prompt": "Medium-wide shot, an angry young man in a red royal tunic with gold crown on the left holding a sword down at his side and pointing with the other hand, an old sage with matted hair in saffron robe sitting cross-legged on the right, white horse standing behind, dark cavern, torchlight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Medium-wide shot, an angry young man in a red royal tunic with gold armlet on the left, pointing one hand at the right, an old man with matted grey hair, white beard, saffron robe sitting calmly cross-legged on the right, a white horse standing beside the old man, dark cavern, torchlight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "लेकिन रुकिए, ऋषि ने कोई श्राप नहीं दिया, बस आँखें खोलीं।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-06 20:57"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T15:19:43Z",
+  "rounds": 1,
+  "why": {
+   "4": "Shows a crowned king kneeling between a white horse and a black horse, with no sage Kapila. The line says the horse was with the sage and the princes mistook him for the thief."
+  }
+ }
 }
