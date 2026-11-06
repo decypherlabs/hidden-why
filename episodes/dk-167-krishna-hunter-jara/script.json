@@ -57,19 +57,22 @@
      "vo": "जरा को उनका चरण हिरण के मुख जैसा लगा, और उसने तीर चला दिया।",
      "prompt": "Close view of the hunter Jara releasing an arrow from his bow in a dim forest, the arrow flying toward a softly glowing foot visible among leaves, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "पास आकर देखा तो वह काँप उठा और कृष्ण के चरणों में गिर पड़ा।",
      "prompt": "The hunter Jara in simple dhoti kneeling with folded hands on the left, Lord Krishna with dark blue skin, peacock feather crown and yellow dhoti, seated on the right under the tree, gentle and compassionate, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "पुराने जन्म में जरा बालि था, जिसे राम ने छिपकर तीर मारा था। यही उसका पुराना ऋण था।",
      "prompt": "Vanara king Vali with golden-brown fur lying wounded on the forest floor on the left, Lord Rama with dark complexion, bow in hand and a simple crown of matted hair, standing on the right in a Kishkindha forest, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "कृष्ण ने जरा को अभय दिया और अपने धाम चले गए। जय श्री कृष्ण! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -79,5 +82,23 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   6,
+   7,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-06 16:37"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T10:48:44Z",
+  "rounds": 1,
+  "why": {
+   "6": "A second bow-like shape sits beside the archer's hand. Krishna's foot, which the line describes, is not shown.",
+   "7": "Only Krishna is shown. There is no hunter trembling or falling at his feet.",
+   "8": "A crowned man sits beside a lion. Nothing shows Bali, Rama's hidden arrow or a past-life scene."
+  }
+ }
 }
