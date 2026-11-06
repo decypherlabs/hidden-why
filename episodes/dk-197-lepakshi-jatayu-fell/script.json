@@ -26,39 +26,45 @@
    "shots": [
     {
      "vo": "ऐसा क्या हुआ कि राम ने घायल जटायु को देखकर 'ले पक्षी' कहा?",
-     "prompt": "Medium-wide shot, an enormous old vulture with brown wings lying wounded on rocky ground on the right, bloodied cut wings spread on the stones, Lord Rama, blue skin, dark-green cloth, bow in hand, kneeling on the left facing the bird, soft golden forest light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Medium-wide shot, one single enormous old vulture with brown wings and a bald head lying wounded on rocky ground on the right, cut bloodied wing stumps on the stones, Lord Rama, blue skin, dark-green cloth, bow in hand, kneeling on the left facing the bird, soft golden forest light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "रावण सीता माता को रथ में ले जा रहा था।",
-     "prompt": "Wide shot, a golden chariot with horses standing on a rocky forest road, a ten-faced-free man with a black beard, golden crown, dark red royal robes and heavy gold jewellery holding reins on the left, a frightened woman in a yellow saree with long black hair on the right, dusk sky, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot, a large golden royal chariot with two white horses on a rocky forest road, a man with a black beard, golden crown, dark red royal robes and heavy gold jewellery standing in the chariot on the left holding reins, a frightened young woman in a yellow saree with long black hair seated in the chariot on the right, dusk sky, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "तभी बूढ़े जटायु ने उसका रास्ता रोक लिया।",
-     "prompt": "Wide shot, an enormous old vulture with grey-brown wings spread wide perched on a rock on the left, facing a golden chariot on the right on a forest road, a man with black beard and golden crown in the chariot, a woman in yellow saree beside him, dramatic evening clouds, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot, one enormous old vulture with grey-brown wings spread wide standing on the forest road on the left, facing a golden chariot with white horses on the right, a man with a black beard, golden crown and dark red robes standing in the chariot, a woman in a yellow saree seated beside him, dramatic evening clouds, no modern vehicles, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8922
     },
     {
      "vo": "जटायु पूरी ताकत से रावण से लड़े।",
-     "prompt": "Wide shot, an enormous old vulture with wings spread wide and sharp claws on the left, standing on a rock facing a man with black beard and golden crown holding a sword in a golden chariot on the right, sparks and dust in the air, stormy orange sky, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot, one enormous old vulture with wings spread wide and sharp claws standing on a rock on the left, a large man with a black beard, golden crown and dark red robes holding a sword raised in a golden chariot on the right, both figures large and clear, sparks and dust in the air, stormy orange sky, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "लेकिन रावण ने तलवार से उनके पंख काट दिए।",
-     "prompt": "Medium-wide shot, a man with black beard, golden crown and dark red robes holding a long sword high on the right in a golden chariot, on the left an enormous old vulture lying on the ground with large cut feathers scattered around it, flames of sunset sky behind, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Medium-wide shot, a man with a black beard, golden crown and dark red robes standing in a golden chariot on the right holding a long sword raised high, on the left one old vulture lying on the ground with its wings cut short, large brown feathers scattered on the ground around it, orange sunset sky behind, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "घायल जटायु ज़मीन पर गिर पड़े।",
-     "prompt": "Wide shot, an enormous old wounded vulture lying on its side on rocky forest ground, one wing stretched out, many brown feathers scattered around it, a tiny distant golden chariot silhouette in the red evening sky, no people, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot, one single old wounded vulture with two wings lying on its side on rocky forest ground, one wing stretched on the stones, many brown feathers scattered around it, a tiny distant golden chariot silhouette in the red evening sky, no people, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "राम और लक्ष्मण सीता को ढूँढते हुए वहाँ पहुँचे।",
@@ -82,5 +88,29 @@
   }
  ],
  "reviewed_at": "2026-11-06 22:30",
- "released_at": "2026-11-06 23:03"
+ "released_at": "2026-11-06 23:03",
+ "repaint": {
+  "shots": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-07 01:15"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T19:42:50Z",
+  "rounds": 1,
+  "why": {
+   "1": "One vulture stacked on top of another",
+   "2": "Ravana and Sita ride a horse, not a chariot (rath); there are two horses and no chariot",
+   "3": "A modern yellow jeep sits in the background, and Ravana is missing from the scene",
+   "4": "A second bird or head sits on Jatayu's head, and Ravana is only a tiny figure",
+   "5": "The bird holds the sword, so Ravana is not cutting its wings; a fallen armored figure also lies on the ground",
+   "6": "Jatayu has extra wings (four in total) and does not look like a wounded bird fallen on the ground"
+  }
+ }
 }
