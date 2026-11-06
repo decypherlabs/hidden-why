@@ -1,0 +1,75 @@
+{
+ "slug": "s122-spider-web-stuck-hi",
+ "format": "short",
+ "title": "मकड़ी अपने ही जाले में क्यों नहीं फँसती? 🕷️",
+ "hook_text": "ये गोंद सबको पकड़ता है",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "ये गोंद सबको पकड़ लेती है। सिर्फ़ एक जानवर को छोड़कर।",
+     "prompt": "Macro shot, a large orb spider sitting still at the centre of a dew-covered web, sticky glue droplets glittering on the spiral threads, a small green leaf, a brown feather and a tiny fly stuck in the web around it, soft golden morning light, blurred green background, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये गोंद सबको पकड़ लेती है। सिर्फ़ एक जानवर को छोड़कर।"
+    },
+    {
+     "vo": "जाले को उंगली से छुओ, तो वो तुरंत चिपक जाता है।",
+     "prompt": "Macro shot, a human index finger on the right pressing against a spider web on the left, long sticky silk threads stretched out and clinging to the fingertip, glittering droplets on the strands, soft backlight, blurred garden background, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "जाले को उंगली से छुओ, तो वो तुरंत चिपक जाता है।"
+    },
+    {
+     "vo": "पर मकड़ी उस पर ऐसे दौड़ती है, जैसे गोंद है ही नहीं।",
+     "prompt": "Medium macro shot, a large garden spider standing upright on a big round web, all eight legs planted on the web, glittering glue droplets all around it, dew sparkling, warm golden sunrise light behind, blurred green background, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पर मकड़ी उस पर ऐसे दौड़ती है, जैसे गोंद है ही नहीं।"
+    },
+    {
+     "vo": "लेकिन रुकिए, गोंद सिर्फ़ गोल घुमावदार धागों पर लगी होती है।",
+     "prompt": "Macro shot, a round spider web filled with glittering glue droplets on its curved spiral threads, while the straight spokes running from the centre to the edge are smooth, thin and dry with no droplets, backlit by golden light, dark blurred background, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, गोंद सिर्फ़ गोल घुमावदार धागों पर लगी होती है।"
+    },
+    {
+     "vo": "सीधे धागे सूखे होते हैं, और मकड़ी सिर्फ़ उन्हीं पर चलती है।",
+     "prompt": "Macro shot, a brown garden spider standing on one thin, smooth, straight dry spoke of its web, the glittering glue-beaded spiral threads curving on either side of it, golden backlight, dark green blurred background, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सीधे धागे सूखे होते हैं, और मकड़ी सिर्फ़ उन्हीं पर चलती है।"
+    },
+    {
+     "vo": "यानी मकड़ी दिन भर गोंद पर बैठती है, पर चलती सूखे धागे पर है।",
+     "prompt": "Medium macro shot, a large spider sitting at the exact centre of a huge round web where the straight dry spokes meet, a wide gleaming spiral of glue droplets circling all around it, warm golden backlight at sunset, blurred green background, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "यानी मकड़ी दिन भर गोंद पर बैठती है, पर चलती सूखे धागे पर है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "जाले की गोंद में *मकड़ी* क्यों नहीं चिपकती?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Close-up realistic painting of a large orb-weaver spider standing calmly in the center of a dew-covered web, sticky glue droplets glittering on the spiral threads, bright backlight, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s122-spider-web-stuck",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

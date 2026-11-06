@@ -1,0 +1,75 @@
+{
+ "slug": "s123-ship-bulbous-bow-hi",
+ "format": "short",
+ "title": "जहाज़ के नीचे पानी में इतना बड़ा बल्ब क्यों होता है? 🚢",
+ "hook_text": "ये बल्ब जहाज़ को रोकता नहीं!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "ये बल्ब जहाज़ को धीमा करना चाहिए, पर ये उल्टा करता है।",
+     "prompt": "Wide shot, an enormous rounded steel bulb protruding from the underwater bow of a giant ship, dark blue ocean, bubbles streaming past, sunlight rays slanting down from the surface above, ominous scale, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये बल्ब जहाज़ को धीमा करना चाहिए, पर ये उल्टा करता है।"
+    },
+    {
+     "vo": "ये पानी के नीचे रहता है, जहाँ यात्री इसे कभी नहीं देखते।",
+     "prompt": "Wide shot, a huge cargo ship at sea in daylight, red hull, white foam at the bow, and below the waterline a large pale rounded bulb clearly visible through clear turquoise water, sunlit, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये पानी के नीचे रहता है, जहाँ यात्री इसे कभी नहीं देखते।"
+    },
+    {
+     "vo": "देखने में तो ये जहाज़ को रोकता हुआ लगता है।",
+     "prompt": "Medium-wide shot, underwater view of a giant round steel bulb at the front of a ship's hull pushing through blue water, bubbles and swirling turbulence around it, light rays from above, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "देखने में तो ये जहाज़ को रोकता हुआ लगता है।"
+    },
+    {
+     "vo": "लेकिन रुकिए: पानी को चीरता जहाज़ एक विशाल लहर बनाता है।",
+     "prompt": "Wide shot, a tall white bow wave rising high at the front of a large ship, foam curling off the dark hull, spray in the air, open grey-blue sea, overcast daylight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए: पानी को चीरता जहाज़ एक विशाल लहर बनाता है।"
+    },
+    {
+     "vo": "बल्ब एक दूसरी लहर बनाता है, जो पहली से मिलकर उसे खत्म कर देती है।",
+     "prompt": "Wide shot, cutaway side view of a ship's bow: a tall wave crest above the waterline on the right, a second wave from the underwater bulb on the left, between them the water surface flat and smooth, bright daylight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बल्ब एक दूसरी लहर बनाता है, जो पहली से मिलकर उसे खत्म कर देती है।"
+    },
+    {
+     "vo": "लहर कम, तो ड्रैग कम, और इसीलिए ये छिपा बल्ब जहाज़ का टनों ईंधन बचाता है।",
+     "prompt": "Wide shot, a giant container ship gliding on calm glassy water at sunrise, stacked colourful containers, a tiny ripple at the bow, golden orange light, distant blurred coastline, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लहर कम, तो ड्रैग कम, और इसीलिए ये छिपा बल्ब जहाज़ का टनों ईंधन बचाता है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "जहाज़ के नीचे *विशाल बल्ब*, फिर भी तेज़?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Realistic painting of a huge cargo ship in dry dock seen from the front, a giant rounded bulb protruding from the bottom of its bow, dramatic low angle, bright, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s123-ship-bulbous-bow",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

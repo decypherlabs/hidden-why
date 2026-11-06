@@ -1,0 +1,75 @@
+{
+ "slug": "s124-rainbow-full-circle-hi",
+ "format": "short",
+ "title": "आपने पूरा इंद्रधनुष गोल क्यों नहीं देखा? 🌈",
+ "hook_text": "इंद्रधनुष आधा कटा है",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपने आज तक जितने इंद्रधनुष देखे, सब आधे कटे थे।",
+     "prompt": "Wide shot, a vivid half rainbow rising from green Indian paddy fields and ending abruptly in mid-air at the horizon line, distant blurred silhouettes of a farmer and a bullock cart on a mud path, storm clouds breaking with golden sunlight after rain, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आपने आज तक जितने इंद्रधनुष देखे, सब आधे कटे थे।"
+    },
+    {
+     "vo": "बूंदें सूरज की रोशनी लौटाती हैं, और सूरज के ठीक सामने वाले बिंदु के चारों ओर गोला बनता है।",
+     "prompt": "Medium shot, a single large raindrop hanging on a green leaf in the foreground, sunlight entering it and spreading into a bright rainbow fan of colours behind it, blurred Indian village rooftops and wet trees, soft golden light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बूंदें सूरज की रोशनी लौटाती हैं, और सूरज के ठीक सामने वाले बिंदु के चारों ओर गोला बनता है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, नीचे का आधा हिस्सा ज़मीन रोक लेती है।",
+     "prompt": "Wide shot, a rainbow arc whose lower end is hidden behind a long dark ridge of distant hills, a flat green plain in front with a narrow dirt road, a man in white kurta standing on the left looking up, grey rain clouds, low sun, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, नीचे का आधा हिस्सा ज़मीन रोक लेती है।"
+    },
+    {
+     "vo": "पहाड़ पर चढ़ें या प्लेन में उड़ें, तो गायब आधा हिस्सा दिख जाता है।",
+     "prompt": "Wide shot, a man in a red jacket standing on the right at a Himalayan mountaintop ledge, a full round rainbow circle curving down and below him over a cloud-filled valley, snowy peaks, bright clear sunlight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पहाड़ पर चढ़ें या प्लेन में उड़ें, तो गायब आधा हिस्सा दिख जाता है।"
+    },
+    {
+     "vo": "वहां बूंदें आपके नीचे भी गिरती हैं, और बचा हुआ गोला रोशन कर देती हैं।",
+     "prompt": "Medium-wide shot, a woman in a yellow sari standing on the left at a Himalayan mountain edge, looking down, rain falling in the valley beneath her feet glowing with rainbow colours in the lower arc, white clouds, bright sunlight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वहां बूंदें आपके नीचे भी गिरती हैं, और बचा हुआ गोला रोशन कर देती हैं।"
+    },
+    {
+     "vo": "इंद्रधनुष पूरा गोल होता है, बस ज़मीन उसका आधा हिस्सा छिपा लेती है।",
+     "prompt": "Wide shot, a complete circular rainbow ring glowing over a sea of white clouds seen from a mountain peak, a small man in a red jacket standing at centre on the rocky summit, blue sky, bright sun behind him, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इंद्रधनुष पूरा गोल होता है, बस ज़मीन उसका आधा हिस्सा छिपा लेती है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "इंद्रधनुष असल में *पूरा गोल* होता है",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Realistic painting of a perfect full-circle rainbow seen from above the clouds, glowing in saturated colors around a small airplane shadow on the clouds, bright, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s124-rainbow-full-circle",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
