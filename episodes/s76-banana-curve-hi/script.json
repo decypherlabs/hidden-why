@@ -1,0 +1,72 @@
+{
+ "slug": "s76-banana-curve-hi",
+ "format": "short",
+ "title": "केला मुड़ा हुआ क्यों होता है? 🍌",
+ "hook_text": "केला नीचे, फिर ऊपर?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "केला पहले ज़मीन की तरफ़ बढ़ता है, फिर आसमान की तरफ़ मुड़ जाता है।",
+     "prompt": "Realistic painting of a young green banana bunch hanging from a plantation tree, small fruits pointing straight down with tips beginning to curl upward, tropical morning light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "केला पहले ज़मीन की तरफ़ बढ़ता है, फिर आसमान की तरफ़ मुड़ जाता है।"
+    },
+    {
+     "vo": "पूरा गुच्छा देखिए: हर केला ऊपर की ओर मुड़ा है, नीचे नहीं।",
+     "prompt": "Realistic painting of a full ripening bunch of bananas hanging on a tree, every banana curving upward in the same direction, golden sunlight through large leaves, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पूरा गुच्छा देखिए: हर केला ऊपर की ओर मुड़ा है, नीचे नहीं।"
+    },
+    {
+     "vo": "लेकिन रुकिए: केले का पौधा गुरुत्वाकर्षण को महसूस करता है।",
+     "prompt": "Realistic painting of a banana plant with a faint glowing downward arrow-like pull of gravity shown as soft light rays toward the ground, young fruits reacting, dreamy realistic style, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए: केले का पौधा गुरुत्वाकर्षण को महसूस करता है।"
+    },
+    {
+     "vo": "नीचे की तरफ़ हॉर्मोन जमा होते हैं, तो वो हिस्सा तेज़ बढ़ता है।",
+     "prompt": "Realistic cross-section painting of a young banana finger showing golden glowing particles collecting along the lower side of the cells, scientific illustration look, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "नीचे की तरफ़ हॉर्मोन जमा होते हैं, तो वो हिस्सा तेज़ बढ़ता है।"
+    },
+    {
+     "vo": "नीचे का हिस्सा तेज़ बढ़ा, तो फल ऊपर धकेला जाकर मुड़ जाता है।",
+     "prompt": "Realistic painting of a banana finger mid-bend, the lower edge visibly longer than the upper edge, shown in soft side light on a green background, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "नीचे का हिस्सा तेज़ बढ़ा, तो फल ऊपर धकेला जाकर मुड़ जाता है।"
+    },
+    {
+     "vo": "इसीलिए केला पहले नीचे की ओर जाता है, फिर आसमान की ओर मुड़ता है।",
+     "prompt": "Realistic painting of a ripe yellow banana bunch hanging in a tropical plantation, all fruits curving up toward the sunrise sky, warm light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए केला पहले नीचे की ओर जाता है, फिर आसमान की ओर मुड़ता है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "केला नीचे उगता, फिर *ऊपर* मुड़ता क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s76-banana-curve",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
