@@ -1,0 +1,75 @@
+{
+ "slug": "s110-cd-rainbow-shimmer-hi",
+ "format": "short",
+ "title": "सीडी को टेढ़ा करते ही उसमें इंद्रधनुष क्यों दिखता है? 🌈",
+ "hook_text": "डिस्क में पाँच किलोमीटर ट्रैक!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "इस डिस्क में पाँच किलोमीटर लंबा ट्रैक छिपा है।",
+     "prompt": "Extreme macro photograph of a silver compact disc surface, a single fine spiral groove with rows of tiny pits stretching into the distance, cold metallic light, rainbow glints at the edges, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इस डिस्क में 5 किलोमीटर लंबा ट्रैक छिपा है।"
+    },
+    {
+     "vo": "इसे रोशनी में टेढ़ा करो, तो रंग फिसलने लगते हैं।",
+     "prompt": "Medium shot of a hand holding a compact disc tilted toward a window, bands of red, green and violet colour sliding across the shiny silver surface, warm window light, no face visible, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसे रोशनी में टेढ़ा करो, तो रंग फिसलने लगते हैं।"
+    },
+    {
+     "vo": "माइक्रोस्कोप से देखो, तो ये एक ही सर्पिल ट्रैक है, पाँच किलोमीटर से लंबा।",
+     "prompt": "Macro photograph of one long spiral groove with tiny pits curving across a metallic disc surface, the spiral winding toward the centre, cool blue light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "माइक्रोस्कोप से देखो, तो ये एक ही सर्पिल ट्रैक है, 5 किलोमीटर से लंबा।"
+    },
+    {
+     "vo": "लेकिन रुकिए, पास की पंक्तियों में बस एक दशमलव छह माइक्रोन का फ़ासला है।",
+     "prompt": "Extreme macro photograph of very fine parallel metal grooves with a single human hair lying across them, the hair far thicker than the grooves, dramatic side light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, पास की पंक्तियों में बस 1.6 माइक्रोन का फ़ासला है।"
+    },
+    {
+     "vo": "इतनी बारीक पंक्तियाँ रोशनी मोड़ती हैं, और सफ़ेद को सारे रंगों में बाँट देती हैं।",
+     "prompt": "Wide shot in a dark room: a beam of white light on the left hits a finely grooved silver disc on the right, and fans out into a spectrum of red, orange, green, blue and violet bands across the wall, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इतनी बारीक पंक्तियाँ रोशनी मोड़ती हैं, और सफ़ेद को सारे रंगों में बाँट देती हैं।"
+    },
+    {
+     "vo": "तो डिस्क में रंग नहीं, उसके बारीक खाँचे ही इंद्रधनुष बनाते हैं।",
+     "prompt": "Medium shot of a plain silver disc standing upright on a dark table, a full rainbow glowing across its face, a single beam of white light striking it from the left, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "तो डिस्क में रंग नहीं, उसके बारीक खाँचे ही इंद्रधनुष बनाते हैं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "सीडी में रंग नहीं, फिर *इंद्रधनुष* कहाँ से?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Extreme close-up realistic painting of a silver compact disc tilted in sunlight, a vivid full-spectrum rainbow sweeping across its mirror surface, dark background, glowing reflections, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s110-cd-rainbow-shimmer",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

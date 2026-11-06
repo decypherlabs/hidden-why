@@ -1,0 +1,75 @@
+{
+ "slug": "s111-soap-bubble-colors-hi",
+ "format": "short",
+ "title": "साबुन के बुलबुले में रंग आते कहाँ से हैं? 🫧",
+ "hook_text": "बुलबुले में रंग नहीं!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "बुलबुले में कोई रंग नहीं होता। ज़ीरो।",
+     "prompt": "Extreme close-up of one large soap bubble floating in warm sunlight over a green Indian garden, its surface swirling with vivid rainbow bands of magenta, green and gold, dark blurred background, photorealistic macro photograph, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बुलबुले में कोई रंग नहीं होता। ज़ीरो।"
+    },
+    {
+     "vo": "पानी और साबुन साफ़ हैं, अंदर की हवा भी।",
+     "prompt": "Medium shot of a clear glass bowl of soapy water on a wooden table in an Indian courtyard, a wire loop above it holding a transparent bubble, soft daylight, photorealistic, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पानी और साबुन साफ़ हैं, अंदर की हवा भी।"
+    },
+    {
+     "vo": "इसकी परत बाल से सैकड़ों गुना पतली है।",
+     "prompt": "Macro shot of a single human hair stretched across the frame, beside it a bubble's wall as an extremely thin shimmering colored film hundreds of times thinner, dark background, photorealistic, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसकी परत बाल से सैकड़ों गुना पतली है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, रोशनी इस परत के दोनों तरफ़ से टकराती है।",
+     "prompt": "Macro shot of a thin transparent soap film in the dark, one bright ray of light hitting it, splitting into two reflected rays, one off the front surface and one off the back, photorealistic, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, रोशनी इस परत के दोनों तरफ़ से टकराती है।"
+    },
+    {
+     "vo": "दोनों परछाइयाँ टकराती हैं, और हर रंग बढ़ता या कटता है।",
+     "prompt": "Close-up of a bubble surface where two glowing light rays cross, bright colored bands of magenta and green appearing where they overlap, dark background, photorealistic macro, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "दोनों परछाइयाँ टकराती हैं, और हर रंग बढ़ता या कटता है।"
+    },
+    {
+     "vo": "यानी बुलबुले में रंग नहीं, परत की मोटाई इंद्रधनुष बनाती है।",
+     "prompt": "Medium shot of one floating bubble in soft sunlight, thick colored bands of magenta, blue and gold at the bottom, nearly clear and transparent at the top, blurred green garden behind, photorealistic, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "यानी बुलबुले में रंग नहीं, परत की मोटाई इंद्रधनुष बनाती है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "साबुन के बुलबुले में *रंग* ही नहीं!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Giant close-up realistic painting of a floating soap bubble with swirling magenta, gold, green and blue rainbow bands across its glassy surface, bright blue sky background, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s111-soap-bubble-colors",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

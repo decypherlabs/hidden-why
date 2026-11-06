@@ -1,0 +1,75 @@
+{
+ "slug": "s112-tangled-headphones-hi",
+ "format": "short",
+ "title": "हेडफोन के तार हमेशा उलझ क्यों जाते हैं? 🎧",
+ "hook_text": "दस सेकंड, और गाँठ!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "दस सेकंड में लगभग आधे तार गाँठ बन जाते हैं।",
+     "prompt": "Close-up of a hand held up at centre holding a tightly tangled knot of white earbud cords, an old round stopwatch with a clearly visible dial hanging beside it, wooden desk, warm window light, dark soft background, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "10 सेकंड में लगभग आधे तार गाँठ बन जाते हैं।"
+    },
+    {
+     "vo": "गाँठ कोई नहीं बाँधता, फिर भी वो चंद सेकंड में पड़ जाती है।",
+     "prompt": "Medium shot of a pair of white earphones lying on a wooden table beside a small cloth pocket, the cord curling into several loose twisted loops, soft morning light from a window, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गाँठ कोई नहीं बाँधता, फिर भी चंद सेकंड में पड़ जाती है।"
+    },
+    {
+     "vo": "वैज्ञानिकों ने डिब्बे में डोरियाँ घुमाईं और फ़िल्म बनाई।",
+     "prompt": "Medium-wide shot of a clear plastic box with several colourful strings lying inside, a video camera on a tripod on the left pointing at the box, bright laboratory bench, white walls, cool even light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वैज्ञानिकों ने डिब्बे में डोरियाँ घुमाईं और फ़िल्म बनाई।"
+    },
+    {
+     "vo": "सिर्फ़ दस सेकंड में लगभग आधी डोरियों में गाँठ पड़ गई।",
+     "prompt": "Medium shot of a clear plastic box on a lab bench, half of the colourful strings inside tied in tight knots and half lying loose, a stopwatch standing beside the box showing ten seconds, bright cool light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सिर्फ़ 10 सेकंड में लगभग आधी डोरियों में गाँठ पड़ गई।"
+    },
+    {
+     "vo": "लेकिन रुकिए, डोरी जितनी लंबी और ढीली, गाँठ उतनी ज़्यादा पक्की।",
+     "prompt": "Medium-wide shot of a wooden table, on the left a very long soft cotton cord in a badly tangled knot, on the right a short stiff straight cord lying neatly, warm side light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, डोरी जितनी लंबी और ढीली, गाँठ उतनी ज़्यादा पक्की।"
+    },
+    {
+     "vo": "यानी गाँठ खुद बनती है: हिलने-डुलने से तार अपने ही लूप में घुस जाता है।",
+     "prompt": "Close-up of a cloth bag opening, a long soft cord with its end passing through a loop of its own cord and tightening into a visible knot, warm dim light, wooden floor, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "यानी गाँठ खुद बनती है: हिलने-डुलने से तार अपने ही लूप में घुस जाता है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "हेडफोन का तार *दस सेकंड* में उलझा!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Big close-up realistic painting of white earphone cords twisted into a hopeless tight knot lying on a wooden table, bright warm light, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s112-tangled-headphones",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

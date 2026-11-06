@@ -1,0 +1,68 @@
+{
+ "slug": "s113-three-blade-turbines-hi",
+ "format": "short",
+ "title": "पवन चक्की में हमेशा तीन ही पंखे क्यों होते हैं? 🌬️",
+ "hook_text": "दो पंखे? हिल जाएगा टावर!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "दो पंखों वाली पवन चक्की खुद को ही हिला डालती है।",
+     "prompt": "Wide shot, a tall white two-bladed wind turbine on a grassy hill, its two long blades spinning, thin cracks running up the tower base and broken bolts and small metal pieces on the ground, dust in the air, stormy grey sky, low angle, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "दो पंखों वाली पवन चक्की खुद को ही हिला डालती है।"
+    },
+    {
+     "vo": "काउंटरवेट के साथ एक पंखा भी घूमकर बिजली बना सकता है।",
+     "prompt": "Wide shot, a single-bladed white wind turbine with one long blade and a heavy dark grey counterweight on the short opposite arm, standing on a sandy coast, blue sea behind, soft morning light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "काउंटरवेट के साथ एक पंखा भी घूमकर बिजली बना सकता है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, घूमते हुए दो पंखे पूरे टावर को हिला देते हैं।",
+     "prompt": "Medium-wide shot, a tall two-bladed wind turbine in the centre, tower bending slightly, loose bolts and small metal fragments on the ground at its base, dust rising, a distant blurred silhouette of an engineer looking up on the left, dramatic cloudy sky, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, घूमते हुए दो पंखे पूरे टावर को हिला देते हैं।"
+    },
+    {
+     "vo": "चौथा पंखा बिजली तो थोड़ी बढ़ाता है, पर वज़न और खर्च बहुत।",
+     "prompt": "Medium close shot, a wind turbine hub with four thick steel blades attached, heavy and crowded, large bolts and steel plates in sharp detail, a stack of coins on a metal crate in the foreground, overcast light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "चौथा पंखा बिजली तो थोड़ी बढ़ाता है, पर वज़न और खर्च बहुत।"
+    },
+    {
+     "vo": "इसीलिए बड़ी पवन चक्की में तीन पंखे होते हैं, जो सबसे सस्ते में आराम से घूमते हैं।",
+     "prompt": "Wide shot, a tall white three-bladed wind turbine in the centre with three evenly spaced blades turning smoothly, on a green Indian hillside with a dirt road, warm golden hour light, calm sky, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए बड़ी पवन चक्की में तीन पंखे होते हैं, जो सबसे सस्ते में आराम से घूमते हैं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "पवन चक्की के *तीन* ही पंखे क्यों?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Dramatic low-angle realistic painting of a giant white wind turbine with three huge blades against a golden sunset sky, big and close, bright, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s113-three-blade-turbines",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
