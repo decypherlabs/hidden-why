@@ -1,0 +1,20 @@
+name: voice-audition
+on: workflow_dispatch
+jobs:
+  audition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.10"}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - run: |
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q git+https://github.com/ai4bharat/IndicF5.git
+          pip install -q pyarrow soundfile huggingface_hub
+      - env: {HF_TOKEN: "${{ secrets.HF_TOKEN }}"}
+        run: python tools/voice_audition.py out/voices
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: voices, path: out/voices}
