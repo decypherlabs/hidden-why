@@ -1,0 +1,72 @@
+{
+ "slug": "s74-ridged-tin-cans-hi",
+ "format": "short",
+ "title": "सूप के डिब्बे में ये उभरी हुई धारियाँ क्यों होती हैं? 🥫",
+ "hook_text": "बिना धारियों के पिचक जाए",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सूप के डिब्बे से धारियाँ हटा दो, तो वो पिचक सकता है।",
+     "prompt": "Realistic painting of a smooth silver can crumpled and caved inward on a kitchen counter next to an intact ridged can, no text, no logos, no people, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सूप के डिब्बे से धारियाँ हटा दो, तो वो पिचक सकता है।"
+    },
+    {
+     "vo": "डिब्बे का खाना कीटाणु मारने के लिए गरम होता है, फिर एयरटाइट सील होता है।",
+     "prompt": "Realistic painting of rows of steel cans moving through a steamy industrial sterilising chamber, sealed lids, warm industrial light, no text, no logos, no people, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "डिब्बे का खाना कीटाणु मारने के लिए गरम होता है, फिर एयरटाइट सील होता है।"
+    },
+    {
+     "vo": "ठंडा होते ही अंदर की भाप सिकुड़ती है और दीवारों को अंदर खींच लेती है।",
+     "prompt": "Realistic cutaway painting of a cooling sealed can with arrows of pressure pulling the thin metal walls inward, a faint mist inside, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ठंडा होते ही अंदर की भाप सिकुड़ती है और दीवारों को अंदर खींच लेती है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, पतली स्टील की दीवार बहुत आसानी से मुड़ जाती है।",
+     "prompt": "Realistic painting of a hand pressing a thin smooth steel sheet that is buckling under light pressure, no faces, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, पतली स्टील की दीवार बहुत आसानी से मुड़ जाती है।"
+    },
+    {
+     "vo": "धातु में धारियाँ बनाओ, तो वो सख़्त हो जाती है, जैसे गत्ते में फोल्ड।",
+     "prompt": "Realistic painting of a steel can wall being rolled with circular ridges by a machine, next to a corrugated cardboard cross-section, no text, no people, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "धातु में धारियाँ बनाओ, तो वो सख़्त हो जाती है, जैसे गत्ते में फोल्ड।"
+    },
+    {
+     "vo": "इसीलिए सूप के डिब्बों में धारियाँ होती हैं, वरना वो पिचक जाएँ।",
+     "prompt": "Realistic painting of a neat stack of ridged soup cans on a pantry shelf, standing strong and undented, no text, no logos, no people, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए सूप के डिब्बों में धारियाँ होती हैं, वरना वो पिचक जाएँ।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "डिब्बा *पिचक* जाए?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s74-ridged-tin-cans",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
