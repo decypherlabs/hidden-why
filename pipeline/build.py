@@ -67,11 +67,12 @@ class Shot:
     2x canvas; every frame is warped with a cubic filter at 2x and area-averaged down to 1080p: sub-pixel
     motion stays smooth instead of crawling (the pixel jitter of a 1x linear warp)."""
 
-    def __init__(self, img, move):
+    def __init__(self, img, move, focus=None):
         h, w = img.shape[:2]
         f = max(SS * W / w, SS * H / h) * 1.12
         self.src = cv2.resize(img, (round(w * f), round(h * f)), interpolation=cv2.INTER_LANCZOS4)
         self.move = move
+        self.focus = focus  # (x, y) 0-1: the zoom drifts toward the subject, not the centre (owner, 6 Nov 2026)
 
     def frame(self, u):
         h, w = self.src.shape[:2]
@@ -81,15 +82,47 @@ class Shot:
         z = {"push": 1.0 + k * u, "pull": 1.0 + k - k * u}.get(self.move, 1.05)
         s = s0 * z
         half_w, half_h = CW / (2 * s), CH / (2 * s)
-        cx = w / 2
+        cx, cy0 = w / 2, h / 2
+        if self.focus is not None and self.move in ("push", "pull"):
+            t = u if self.move == "push" else 1 - u  # tighter = nearer the subject
+            cx = w / 2 + (self.focus[0] * w - w / 2) * t
+            cy0 = h / 2 + (self.focus[1] * h - h / 2) * t
         if self.move in ("pan_left", "pan_right"):
             span = max(0.0, w / 2 - half_w)
             cx = w / 2 + span * (0.8 * (u - 0.5)) * (1 if self.move == "pan_right" else -1) * 2
         cx = float(np.clip(cx, half_w, w - half_w))
-        cy = float(np.clip(h / 2, half_h, h - half_h))
+        cy = float(np.clip(cy0, half_h, h - half_h))
         M = np.float32([[s, 0, CW / 2 - s * cx], [0, s, CH / 2 - s * cy]])
         big = cv2.warpAffine(self.src, M, (CW, CH), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
         return cv2.resize(big, (W, H), interpolation=cv2.INTER_AREA)
+
+
+def subject(img):
+    """Where the painting's subject is, as (x, y) in 0-1, plus the faces' centre (or None): faces first (OpenCV's
+    frontal and profile detectors), else the most detailed region (blurred edge energy), which is where a figure,
+    animal or object is and empty sky or floor isn't."""
+    h, w = img.shape[:2]
+    g = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    small = cv2.resize(g, (w // 2, h // 2))
+    found = []
+    if hasattr(cv2, "CascadeClassifier"):  # OpenCV 5 dropped the Haar detectors: then the detail map alone
+        for xml in ("haarcascade_frontalface_default.xml", "haarcascade_profileface.xml"):
+            det = cv2.CascadeClassifier(cv2.data.haarcascades + xml)
+            found += [tuple(f) for f in det.detectMultiScale(small, 1.1, 5, minSize=(24, 24))]
+    faces = None
+    if found:
+        found = sorted(found, key=lambda f: -f[2] * f[3])[:3]
+        faces = (float(np.mean([(x + fw / 2) * 2 / w for x, y, fw, fh in found])),
+                 float(np.mean([(y + fh / 2) * 2 / h for x, y, fw, fh in found])))
+    e = cv2.GaussianBlur(np.abs(cv2.Sobel(small, cv2.CV_32F, 1, 0)) + np.abs(cv2.Sobel(small, cv2.CV_32F, 0, 1)), (0, 0), small.shape[1] / 12)
+    e = np.maximum(e - np.percentile(e, 60), 0)
+    ys, xs = np.mgrid[0:e.shape[0], 0:e.shape[1]]
+    e = e * np.clip(1.25 - ys / e.shape[0], 0.25, 1.0)  # floors and rocks are detailed too: favour where heads are
+    tot = e.sum() or 1.0
+    ex, ey = float((xs * e).sum() / tot / e.shape[1]), float((ys * e).sum() / tot / e.shape[0])
+    if faces:  # the body is below the face: aim a little lower than the faces, toward the detail
+        return (0.7 * faces[0] + 0.3 * ex, min(0.85, 0.6 * (faces[1] + 0.12) + 0.4 * ey), faces)
+    return (ex, 0.6 * ey + 0.4 * 0.42, None)
 
 
 class Split:
@@ -99,9 +132,16 @@ class Split:
 
     def __init__(self, img, parts=2):
         h, w = img.shape[:2]
-        crop = img[int(h * 0.18):int(h * 0.82), int(w * 0.18):int(w * 0.82)]
-        face = img[int(h * 0.08):int(h * 0.58), int(w * 0.22):int(w * 0.78)]
-        self.parts = [Shot(img, "push"), Shot(crop, "pull"), Shot(face, "push")][:parts]
+        fx, fy, faces = subject(img)  # the crops follow the people (owner, 6 Nov 2026: zooms landed on empty areas)
+
+        def around(cx, cy, frac):
+            cw, ch = int(w * frac), int(h * frac)
+            x0 = int(np.clip(cx * w - cw / 2, 0, w - cw))
+            y0 = int(np.clip(cy * h - ch / 2, 0, h - ch))
+            return img[y0:y0 + ch, x0:x0 + cw]
+        crop = around(fx, fy, 0.64)
+        face = around(faces[0], faces[1], 0.5) if faces else around(fx, fy - 0.1, 0.5)  # the upper body, not the feet
+        self.parts = [Shot(img, "push", (fx, fy)), Shot(crop, "pull"), Shot(face, "push")][:parts]
 
     def frame(self, u):
         n = len(self.parts)
