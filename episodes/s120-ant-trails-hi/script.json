@@ -1,0 +1,75 @@
+{
+ "slug": "s120-ant-trails-hi",
+ "format": "short",
+ "title": "चींटियाँ एकदम सीधी लाइन में क्यों चलती हैं? 🐜",
+ "hook_text": "एक गंध, हज़ार चींटियाँ",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "एक गंध मिटा दो, और हज़ार चींटियाँ खो जाती हैं।",
+     "prompt": "Medium shot, a human hand on the right holding a damp white cloth that has just wiped across a wooden kitchen counter, a clean wet streak cutting a long line of black ants in two, ants on the left scattering in different directions, soft window light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "एक गंध मिटा दो, और हज़ार चींटियाँ खो जाती हैं।"
+    },
+    {
+     "vo": "चींटियाँ बोल नहीं सकतीं, और ज़्यादातर को ठीक से दिखता भी नहीं।",
+     "prompt": "Extreme macro close-up of a single black ant's head facing the camera, tiny dark eyes and two long bent antennae sharply detailed, on a dark soil surface, soft natural daylight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "चींटियाँ बोल नहीं सकतीं, और ज़्यादातर को ठीक से दिखता भी नहीं।"
+    },
+    {
+     "vo": "तो अकेली भटकती पहली चींटी खाना ढूँढकर लौट पड़ती है।",
+     "prompt": "Medium shot, one black ant alone on a wooden counter at the right touching a bright crumb of bread with its antennae, its body turned back toward the left, empty wooden surface around it, warm window light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "तो अकेली भटकती पहली चींटी खाना ढूँढकर लौट पड़ती है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, वो पूरे रास्ते पर एक अनदेखी लकीर बनाती जाती है।",
+     "prompt": "Medium-wide shot, one black ant walking from a bread crumb on the right across a wooden counter toward the left, a faint glowing golden line of scent drawn on the wood behind it, dark background, soft warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, वो पूरे रास्ते पर एक अनदेखी लकीर बनाती जाती है।"
+    },
+    {
+     "vo": "जो भी चींटी उसे सूँघती है, पीछे चलती है, और गंध बढ़ा देती है।",
+     "prompt": "Medium-wide shot, a line of black ants walking one behind another along a glowing golden scent trail on a wooden counter, antennae touching the trail, trail brighter near the front, bread crumb at the far right, warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "जो भी चींटी उसे सूँघती है, पीछे चलती है, और गंध बढ़ा देती है।"
+    },
+    {
+     "vo": "ऐसे एक चींटी हज़ार को भेजती है: गंध की सड़क, जो सिर्फ़ चींटियाँ सूँघ सकती हैं।",
+     "prompt": "Wide shot, a thick river of black ants marching along a bright glowing golden scent road across a wooden counter toward a shining drop of honey on the right, a few ants far apart on the left, warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ऐसे एक चींटी हज़ार को भेजती है: गंध की सड़क, जो सिर्फ़ चींटियाँ सूँघ सकती हैं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "चींटियाँ एक *गंध* मिटते ही खो जाती हैं",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Close-up realistic painting of a long line of black ants marching across a kitchen counter straight toward a single drop of honey, glowing faint scent trail on the surface, bright, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s120-ant-trails",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

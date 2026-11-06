@@ -1,0 +1,75 @@
+{
+ "slug": "s119-glasses-fog-up-hi",
+ "format": "short",
+ "title": "चश्मे पर बिना छुए सफ़ेद धुंध क्यों आ जाती है? 👓",
+ "hook_text": "बिना छुए चश्मा सफ़ेद!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "चश्मे को किसी ने छुआ भी नहीं, फिर भी वो सफ़ेद हो गया।",
+     "prompt": "Close-up of a pair of eyeglasses resting on a wooden table, both lenses completely clouded white with thick fog, clean untouched glass frames, warm indoor lamp light, soft blurred living room behind, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "चश्मे को किसी ने छुआ भी नहीं, फिर भी वो सफ़ेद हो गया।"
+    },
+    {
+     "vo": "न कुछ छिड़का, न कुछ लगा। फिर भी शीशे पर सफ़ेद धुंध छा गई।",
+     "prompt": "Medium close-up of one eyeglass lens held upright on a table, fine white mist spreading inward from the edges, centre still clear, nothing touching it, no spray bottle, warm window light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "न कुछ छिड़का, न कुछ लगा। फिर भी शीशे पर सफ़ेद धुंध छा गई।"
+    },
+    {
+     "vo": "लेकिन ये धुंध न गंदगी है, न धुआँ।",
+     "prompt": "Medium shot of a fogged eyeglass lens standing on the left, a folded clean cloth lying on the right, a small clear patch on the lens showing no dirt, soft warm kitchen light, wooden table, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन ये धुंध न गंदगी है, न धुआँ।"
+    },
+    {
+     "vo": "आपके लेंस बर्फ़ जैसे ठंडे हैं, और कमरे की हवा में अनदेखा पानी भरा है।",
+     "prompt": "Medium-wide shot of frosty eyeglasses with ice crystals on a wooden table in the foreground, a warm Indian living room behind, steam rising from a tea cup, faint glowing mist hanging in the air, golden light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आपके लेंस बर्फ़ जैसे ठंडे हैं, और कमरे की हवा में अनदेखा पानी भरा है।"
+    },
+    {
+     "vo": "गर्म हवा ठंडे शीशे से टकराती है, और अपना पानी हज़ारों बूँदों में छोड़ देती है।",
+     "prompt": "Macro shot of a glass surface covered in thousands of tiny round water droplets, bright light sparkling through each droplet, dark soft background, realistic photography, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गर्म हवा ठंडे शीशे से टकराती है, और अपना पानी हज़ारों बूँदों में छोड़ देती है।"
+    },
+    {
+     "vo": "इसीलिए चश्मा अंधा हो जाता है: ठंडे शीशे पर जमा अनदेखा पानी।",
+     "prompt": "Medium shot of eyeglasses on a table, left lens fully fogged white, right lens with one clear swipe showing a warm cozy Indian living room beyond, golden evening light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए चश्मा अंधा हो जाता है: ठंडे शीशे पर जमा अनदेखा पानी।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "चश्मे पर *सफ़ेद* धुंध, बिना छुए कैसे?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Close-up realistic painting of a pair of eyeglasses lying on a table, both lenses completely fogged white with condensation, a snowy winter window glowing behind, bright, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s119-glasses-fog-up",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

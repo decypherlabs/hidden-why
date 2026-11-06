@@ -1,0 +1,75 @@
+{
+ "slug": "s118-soap-grease-hi",
+ "format": "short",
+ "title": "साबुन ग्रीस हटा देता है, पानी क्यों नहीं? 🧼",
+ "hook_text": "साबुन है किडनैपर",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "साबुन एक किडनैपर है, और ग्रीस को भनक तक नहीं लगती।",
+     "prompt": "Medium shot, a dark frying pan with a golden oil droplet on its surface, with a large bottle of dish soap tipped beside it and a thick white soap foam creeping toward the droplet from the right, a sharp-eyed black cloth-masked bandit figurine standing on the pan's rim, warm Indian home kitchen with steel utensils, soft window light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "साबुन एक किडनैपर है, और ग्रीस को भनक तक नहीं लगती।"
+    },
+    {
+     "vo": "पानी तेल पर टिकता ही नहीं, बत्तख की पीठ से बारिश की तरह फिसल जाता है।",
+     "prompt": "Medium shot, a greasy black frying pan tilted on a steel kitchen counter, clear water beads sliding off its oily golden surface without wetting it, a steel jug of water pouring from the left, Indian home kitchen, soft morning window light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पानी तेल पर टिकता ही नहीं, बत्तख की पीठ से बारिश की तरह फिसल जाता है।"
+    },
+    {
+     "vo": "लेकिन साबुन के अणु के दो सिरे होते हैं, और दोनों की पसंद उल्टी है।",
+     "prompt": "Medium close-up, one large glass-like soap molecule model floating in clear water: a round blue ball head on the left, a long orange tail curving to the right, glowing, deep teal water background, soft studio light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन साबुन के अणु के दो सिरे होते हैं, और दोनों की पसंद उल्टी है।"
+    },
+    {
+     "vo": "एक सिरा पानी को पकड़ता है, दूसरा ग्रीस को।",
+     "prompt": "Medium shot, in clear water on the left, many blue ball-headed soap molecule models pointing toward the water; on the right a golden oil droplet with their long orange tails stuck into it, glowing teal and gold light, dark background, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "एक सिरा पानी को पकड़ता है, दूसरा ग्रीस को।"
+    },
+    {
+     "vo": "लाखों अणु चिकनाई की बूँद को घेरकर एक छोटी गेंद में कैद कर लेते हैं।",
+     "prompt": "Medium close-up, a perfect golden grease ball in the centre fully wrapped by a dense shell of tiny blue and orange soap molecule models, floating in clear water, glowing light, dark teal background, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लाखों अणु चिकनाई की बूँद को घेरकर एक छोटी गेंद में कैद कर लेते हैं।"
+    },
+    {
+     "vo": "साबुन ग्रीस को धोता नहीं, किडनैप करता है, और पानी उसे बहा ले जाता है।",
+     "prompt": "Medium shot, a steel Indian kitchen sink, a tap on the left pouring water over a soapy steel plate, foamy water carrying small golden grease balls swirling toward the drain on the right, bright daylight from a window, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "साबुन ग्रीस को धोता नहीं, किडनैप करता है, और पानी उसे बहा ले जाता है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "साबुन ग्रीस को *किडनैप* करता है?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Extreme macro realistic painting of a greasy golden oil droplet being wrapped and trapped by thousands of tiny glowing blue soap molecules in clear water, bright, dramatic, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s118-soap-grease",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
