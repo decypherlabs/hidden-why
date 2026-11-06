@@ -1,0 +1,77 @@
+{
+ "slug": "s78-casino-dice-holes-hi",
+ "format": "short",
+ "title": "कैसीनो के पासों में छेद क्यों किए जाते हैं? 🎲",
+ "hook_text": "हर छेद एक कमी है",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "पासे का हर छेद एक कमी है, और कैसीनो यही चाहता है।",
+     "prompt": "Medium shot, a stern middle-aged man in a black suit and red tie at the centre of a casino back room, holding a magnifying glass up to a red die in his other hand, bright desk lamp above, green felt table, dim amber light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पासे का हर छेद एक कमी है, और कैसीनो यही चाहता है।"
+    },
+    {
+     "vo": "हर छेद उस तरफ़ का थोड़ा प्लास्टिक निकाल देता है।",
+     "prompt": "Macro medium shot, photoreal painting of a tiny steel drill bit boring a round pip into one face of a red plastic die on a workbench, small plastic shavings scattered on the surface, bright workshop light, no people, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "हर छेद उस तरफ़ का थोड़ा प्लास्टिक निकाल देता है।"
+    },
+    {
+     "vo": "छह छेद वाली तरफ़ एक छेद वाली तरफ़ से हल्की होनी चाहिए।",
+     "prompt": "Medium-wide shot, photoreal painting of a brass balance scale on a wooden workshop table, left pan holds a die with six pips sitting higher, right pan holds a die with one pip sitting lower, warm window light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "6 छेद वाली तरफ़ 1 छेद वाली तरफ़ से हल्की होनी चाहिए।"
+    },
+    {
+     "vo": "हल्की तरफ़ ज़्यादा बार ऊपर आती, और जुआरी इसका फ़ायदा उठाते।",
+     "prompt": "Medium-wide shot, photoreal painting of a red die resting on a green casino table with the six-pip face turned upward, poker chips in front, two distant blurred silhouettes at the far edge of the table, dim amber light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "हल्की तरफ़ ज़्यादा बार ऊपर आती, और जुआरी इसका फ़ायदा उठाते।"
+    },
+    {
+     "vo": "लेकिन रुकिए, हर छेद में पेंट भरा होता है।",
+     "prompt": "Macro medium shot, photoreal painting of a fine paintbrush loaded with glossy white paint held above a translucent red die, one drilled pip half filled with white paint, small paint pot beside it on a workbench, soft light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, हर छेद में पेंट भरा होता है।"
+    },
+    {
+     "vo": "पेंट प्लास्टिक जितना ही भारी है, इसलिए हर छेद एक कमी है, पर बदलता कुछ नहीं।",
+     "prompt": "Medium shot, photoreal painting of a perfectly level brass balance scale on a wooden table, two identical glossy red casino dice with white painted pips in the pans at equal height, soft golden light, no people, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पेंट प्लास्टिक जितना ही भारी है, इसलिए हर छेद एक कमी है, पर बदलता कुछ नहीं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "कैसीनो पासों में *छेद*, फिर भी वज़न बराबर?",
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 7,
+  "why": "Tight contradiction: a flaw the casino wants. Opens a clear question and is under 9 words, though the visual is abstract.",
+  "was": "Every casino die has holes drilled in it, yet stays perfectly fair."
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s78-casino-dice-holes",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

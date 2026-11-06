@@ -1,0 +1,77 @@
+{
+ "slug": "s79-cabin-lights-dim-hi",
+ "format": "short",
+ "title": "प्लेन उड़ान से पहले लाइटें बंद क्यों कर देता है? 💡",
+ "hook_text": "अंधेरा क्यों?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सबसे खतरनाक मिनटों से ठीक पहले, प्लेन अंधेरा कर देता है।",
+     "prompt": "Medium-wide shot of an airliner cabin in near darkness, a woman with worried wide eyes seated on the LEFT and a man in a white shirt seated on the RIGHT, both facing forward, a dim amber emergency strip glowing along the floor, rows of distant blurred silhouettes behind, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सबसे खतरनाक मिनटों से ठीक पहले, प्लेन अंधेरा कर देता है।"
+    },
+    {
+     "vo": "कुछ खराब नहीं है, और कोई आपको सुलाना भी नहीं चाहता।",
+     "prompt": "Medium-wide shot of a dim airliner cabin, a ceiling light panel switched off above rows of seats, a few passengers seen only as distant blurred silhouettes from behind, soft blue window glow, calm still mood, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "कुछ खराब नहीं है, और कोई आपको सुलाना भी नहीं चाहता।"
+    },
+    {
+     "vo": "ज़्यादातर हादसे टेकऑफ़ और लैंडिंग के वक्त होते हैं।",
+     "prompt": "Wide shot of a large airliner lifting off a runway at dusk, nose raised and wheels just clear of the tarmac, orange and purple sky, runway lights glowing, dramatic light, no people, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ज़्यादातर हादसे टेकऑफ़ और लैंडिंग के वक्त होते हैं।"
+    },
+    {
+     "vo": "लेकिन रुकिए, अचानक अंधेरे में आपकी आँखें बहुत कमज़ोर हैं।",
+     "prompt": "Medium close shot of a single human eye with a wide black pupil, surrounded by deep darkness, a faint thin ring of blue light reflecting on the iris, dramatic low light, no face visible, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, अचानक अंधेरे में आपकी आँखें बहुत कमज़ोर हैं।"
+    },
+    {
+     "vo": "तेज़ रोशनी से अंधेरे में जाते ही कई मिनट तक लगभग कुछ नहीं दिखता।",
+     "prompt": "Wide shot of a bright open doorway on the LEFT flooding light onto the floor, a long pitch-black corridor to the RIGHT, a man in a grey jacket standing still at the threshold with one hand stretched out ahead, seen from behind, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "तेज़ रोशनी से अंधेरे में जाते ही कई मिनट तक लगभग कुछ नहीं दिखता।"
+    },
+    {
+     "vo": "बिजली गई, तो आँखें तैयार रहें, इसीलिए प्लेन पहले ही अंधेरा करता है।",
+     "prompt": "Wide shot of a dark airliner cabin aisle, glowing green floor-path emergency lights running along the carpet toward a lit exit door at the far end, rows of seats as dark shapes on both sides, no people, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बिजली गई, तो आँखें तैयार रहें, इसीलिए प्लेन पहले ही अंधेरा करता है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "टेकऑफ़ से पहले प्लेन में *अंधेरा* क्यों?",
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 6,
+  "why": "'Planes go dark' is a striking image up front and 'most dangerous minutes' opens a gap; 10 words, slightly over limit.",
+  "was": "Right before takeoff, the crew switches the plane's lights off on purpose."
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s79-cabin-lights-dim",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "slug": "s80-cat-eyes-glow-hi",
+ "format": "short",
+ "title": "बिल्ली की आँखें अँधेरे में हरी क्यों चमकती हैं? 🐱",
+ "hook_text": "आँखें चमकती नहीं!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "बिल्ली की आँखें चमकती नहीं हैं। वो रोशनी को उछालती हैं।",
+     "prompt": "Close-up of a tabby cat's face at centre in a dark room, a thin white beam of light from the left reaching its eyes, both eyes flaring bright green, black background, dramatic light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बिल्ली की आँखें चमकती नहीं हैं। वो रोशनी को उछालती हैं।"
+    },
+    {
+     "vo": "अँधेरे आँगन में टॉर्च घुमाओ, तो आँखें हरी चमक उठती हैं।",
+     "prompt": "Wide shot of a dark backyard at night, a flashlight lying on the grass at left casting a beam across the lawn toward a wooden fence at right, two green glowing eyes low at the fence base, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "अँधेरे आँगन में टॉर्च घुमाओ, तो आँखें हरी चमक उठती हैं।"
+    },
+    {
+     "vo": "बिल्ली उस हल्की रोशनी में भी देख लेती है, जिसमें आप अंधे हो जाएँ।",
+     "prompt": "Medium-wide shot of a tabby cat standing on a stone garden wall at night, moonless sky, faint silver light showing the wall, leaves and shrubs around it, eyes alert, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बिल्ली उस हल्की रोशनी में भी देख लेती है, जिसमें आप अंधे हो जाएँ।"
+    },
+    {
+     "vo": "लेकिन रुकिए, उनकी आँखों में एक छिपा हुआ शीशा होता है।",
+     "prompt": "Medium close shot of a large cat's eye in profile, the inner back of the eye shown as a shimmering silver mirror-like layer behind a dark pupil, soft studio light, detailed macro style, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, उनकी आँखों में एक छिपा हुआ शीशा होता है।"
+    },
+    {
+     "vo": "रेटिना के पीछे टेपेटम ल्यूसिडम नाम की परत रोशनी को वापस उछाल देती है।",
+     "prompt": "Medium shot of a cat's eye on the right, a single thin beam of white light entering from the left through the pupil and bouncing off a silvery layer at the back, glowing rays returning outward, dark background, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "रेटिना के पीछे टेपेटम ल्यूसिडम नाम की परत रोशनी को वापस उछाल देती है।"
+    },
+    {
+     "vo": "यानी वो चमक उधार की है। बिल्ली की आँखें खुद रोशनी नहीं बनातीं।",
+     "prompt": "Medium shot of a grey cat sitting in darkness at centre, a small desk lamp on the left floor shining a warm beam onto its face, both eyes shining gold, black background, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "यानी वो चमक उधार की है। बिल्ली की आँखें खुद रोशनी नहीं बनातीं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "बिल्ली की आँखें *चमकती* नहीं, लौटाती हैं",
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 8,
+  "why": "Short, contradicts the familiar belief immediately, 'bouncing' creates a precise question, and it's true to the script; shock lands in the first 3 words ('Cat eyes aren't glowing').",
+  "was": "A cat's eyes glow in the dark, but they make no light."
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s80-cat-eyes-glow",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
