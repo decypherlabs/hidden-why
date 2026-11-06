@@ -32,9 +32,10 @@
     },
     {
      "vo": "महाभारत के युद्ध के बाद पांडवों को अपने पापों का दुख था।",
-     "prompt": "Medium-wide shot, a tall muscular man in simple white dhoti and a broad-shouldered young man beside him sitting with bowed heads on a riverbank at dusk, grey smoke rising from a far distant battlefield, dim orange light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Medium-wide shot, a tall muscular bearded man in a white dhoti sitting with bowed head on the left of a riverbank, a young broad-shouldered man in a plain cream dhoti sitting on the right with bowed head, clear gap of empty sand between them, grey smoke from a distant battlefield, dim orange dusk light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "वे माफ़ी माँगने के लिए शिव जी को ढूँढने निकले।",
@@ -62,15 +63,17 @@
     },
     {
      "vo": "भीम ने दौड़कर बैल को पीछे से पकड़ लिया।",
-     "prompt": "Medium-wide shot, Bhima, tall muscular bearded man in saffron dhoti, on the left leaning forward with arms stretched out, a giant white bull on the right standing with its hindquarters toward him, long rope lying on the ground between them, rocky Himalayan slope, dust in the air, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Medium-wide shot, a giant white bull with a big hump on the right standing with its hindquarters toward the left, a tall muscular bearded man in saffron dhoti standing on the left leaning forward with both arms stretched out toward it, long rope lying on the ground between them, rocky Himalayan slope, dust in the air, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "बैल धरती में समा गया, बस पीठ का कूबड़ बाहर रह गया।",
-     "prompt": "Medium shot, an enormous bull's hump rising large from cracked rocky ground, the rest of the bull gone, Bhima, tall muscular bearded man in saffron dhoti, kneeling on the left with wide astonished eyes, snow peaks behind, dramatic light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Medium shot, an enormous bull's hump rising large from a hole in cracked rocky ground, the rest of the bull buried below, loose soil and stones around it, a tall muscular bearded man in saffron dhoti kneeling on the left with wide astonished eyes, snow peaks behind, dramatic light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "शिव जी ने पांडवों की भक्ति देखकर उन्हें माफ़ किया, इसलिए केदारनाथ में आज भी सिर्फ कूबड़ पूजा जाता है। हर हर महादेव! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -82,5 +85,23 @@
   }
  ],
  "reviewed_at": "2026-11-06 22:31",
- "released_at": "2026-11-06 23:03"
+ "released_at": "2026-11-06 23:03",
+ "repaint": {
+  "shots": [
+   2,
+   7,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-07 02:28"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T20:53:25Z",
+  "rounds": 1,
+  "why": {
+   "2": "the two men sit stacked and overlapping, so their bodies look merged",
+   "7": "one man stands on the bull's back with his arms raised, so nobody is grabbing it from behind and the figures are confusing",
+   "8": "the bull stands whole beside a kneeling man; it is not sinking into the ground with only the hump showing"
+  }
+ }
 }
