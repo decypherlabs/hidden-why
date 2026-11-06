@@ -1,5 +1,7 @@
 name: voice-audition
-on: workflow_dispatch
+on:
+  push:
+    branches: [voice-audition]
 jobs:
   audition:
     runs-on: ubuntu-latest
