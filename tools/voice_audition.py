@@ -1,5 +1,7 @@
-"""Male narrator audition for Devlok Katha (owner, 6 Nov 2026): Hindi male takes from AI4Bharat's Rasa and
-IndicVoices-R (CC-BY 4.0) as references, IndicF5 (MIT) reading the same lines in each voice. Test branch only."""
+"""A DK narrator like the owner's reference sound (owner, 6 Nov 2026: "something similar, not exact"): the CC-BY
+speakers of AI4Bharat's Rasa and IndicVoices-R whose voice fingerprint is closest to tools/target_voice.npy (a
+fingerprint only; no reference audio is copied), their most expressive take as the IndicF5 (MIT) reference.
+Test branch only."""
 import io
 import json
 import os
@@ -14,10 +16,10 @@ from huggingface_hub import HfApi, hf_hub_download
 OUT = Path(sys.argv[1] if len(sys.argv) > 1 else "out/voices")
 OUT.mkdir(parents=True, exist_ok=True)
 api = HfApi()
-LINES = ["क्या आप जानते हैं, धृतराष्ट्र ने भीम को इतनी ज़ोर से भींचा कि वो चूर-चूर हो गया?",
-         "लेकिन रुकिए, वो भीम था ही नहीं।",
-         "सौ पुत्र खोकर अंधे राजा ने भीम को गले लगाने बुलाया।",
-         "कृष्ण इरादा भाँप गए, और आगे कर दी लोहे की मूर्ति।"]
+LINES = ["सात साल का बच्चा, सात दिन, एक उँगली पर पर्वत!",
+         "ऊपर से सात दिन तक इंद्र के बादल बिना रुके बरसते रहे।",
+         "लेकिन रुकिए, यह सब शुरू हुआ था एक छोटे से सवाल से।",
+         "कृष्ण बोले, पूजा उस पर्वत की कीजिए जो हमारी गायों को चारा देता है।"]
 
 
 def pitch(a, sr):
@@ -43,7 +45,7 @@ def col(t, *names):
 
 
 cands = []
-for repo, shards in (("ai4bharat/Rasa", 3), ("ai4bharat/indicvoices_r", 3)):
+for repo, shards in (("ai4bharat/Rasa", 6), ("ai4bharat/indicvoices_r", 6)):
     files = sorted(f for f in api.list_repo_files(repo, repo_type="dataset") if f.startswith("Hindi/") and f.endswith(".parquet"))
     print(repo, len(files), "Hindi files", flush=True)
     for f in files[:shards]:
@@ -71,17 +73,23 @@ for repo, shards in (("ai4bharat/Rasa", 3), ("ai4bharat/indicvoices_r", 3)):
             cands.append({"repo": repo, "speaker": spk, "style": str(r.get(st)), "text": r[tx], "dur": d,
                           "y": y, "sr": sr})
 print(len(cands), "male clips", flush=True)
+from resemblyzer import VoiceEncoder, preprocess_wav  # noqa: E402
+
+target = np.load(Path(__file__).with_name("target_voice.npy"))
+enc = VoiceEncoder("cpu", verbose=False)
 for c in cands:
     c["f0"] = pitch(c["y"], c["sr"])
+    y16 = np.interp(np.arange(int(len(c["y"]) * 16000 / c["sr"])) * c["sr"] / 16000, np.arange(len(c["y"])), c["y"])
+    c["sim"] = float(np.dot(enc.embed_utterance(preprocess_wav(y16.astype(np.float32), source_sr=16000)), target))
 best = {}
-for c in sorted(cands, key=lambda c: c["f0"]):  # deepest take of each speaker
+for c in sorted(cands, key=lambda c: -c["sim"]):  # each speaker's take closest to the target sound
     k = (c["repo"], c["speaker"])
-    if k not in best and c["f0"] < 160:
+    if k not in best:
         best[k] = c
-picks = list(best.values())[:6]
+picks = sorted(best.values(), key=lambda c: -c["sim"])[:3]
 for i, c in enumerate(picks, 1):
     sf.write(OUT / f"ref-{i}.wav", c["y"], c["sr"])
-    print("ref", i, c["repo"], c["speaker"], c["style"], round(c["f0"]), flush=True)
+    print("ref", i, c["repo"], c["speaker"], c["style"], round(c["f0"]), round(c["sim"], 3), flush=True)
 from transformers import AutoModel  # noqa: E402
 
 model = AutoModel.from_pretrained("ai4bharat/IndicF5", trust_remote_code=True, low_cpu_mem_usage=False)
@@ -96,6 +104,6 @@ for i, c in enumerate(picks, 1):
             y = y / 32768.0
         parts += [y, np.zeros(6000, dtype=np.float32)]
     sf.write(OUT / f"voice-{i}.wav", np.concatenate(parts), 24000)
-    summary.append({k: c[k] for k in ("repo", "speaker", "style", "text", "dur", "f0")})
+    summary.append({k: c[k] for k in ("repo", "speaker", "style", "text", "dur", "f0", "sim")})
     print(i, summary[-1], flush=True)
 (OUT / "voices.json").write_text(json.dumps(summary, ensure_ascii=False, indent=1))

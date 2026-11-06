@@ -1,7 +1,7 @@
 name: voice-audition
 on:
   push:
-    branches: [voice-audition]
+    branches: [voice-rk-like]
 jobs:
   audition:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
           pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
           pip install -q git+https://github.com/ai4bharat/IndicF5.git
           pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
-          pip install -q pyarrow soundfile huggingface_hub "transformers==4.49.0" "accelerate<1.5" "datasets==3.3.2"
+          pip install -q pyarrow soundfile huggingface_hub "transformers==4.49.0" "accelerate<1.5" "datasets==3.3.2" resemblyzer librosa
       - env: {HF_TOKEN: "${{ secrets.HF_TOKEN }}"}
         run: python tools/voice_audition.py out/voices
       - uses: actions/upload-artifact@v4
