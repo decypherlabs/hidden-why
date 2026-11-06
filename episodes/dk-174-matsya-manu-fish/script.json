@@ -55,9 +55,10 @@
     },
     {
      "vo": "तब मछली बोली, सातवें दिन प्रलय आएगा, एक बड़ी नाव बनवा लो।",
-     "prompt": "Medium-wide shot of a stormy seashore, a middle-aged grey-bearded man in white robes standing on the left with folded hands, on the right a huge golden fish with one long horn raising its head from the waves, dark gathering clouds, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot of a stormy seashore, a man with a grey beard in white robes standing alone on the left on the sand with folded hands, far on the right a single huge golden fish with one long horn in the waves, dark gathering clouds, empty sky, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "मनु ने नाव में अन्न-बीज रखे और सप्तर्षियों को साथ बिठाया।",
@@ -79,5 +80,19 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-06 20:54"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T15:20:20Z",
+  "rounds": 1,
+  "why": {
+   "6": "A second fish seems to grow out of the man's robe at his legs, so it reads as fused with the person. A fish is also flying in the sky, which makes the scene unclear."
+  }
+ }
 }
