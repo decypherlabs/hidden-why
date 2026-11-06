@@ -1,0 +1,77 @@
+{
+ "slug": "s83-bridge-expansion-gaps-hi",
+ "format": "short",
+ "title": "पुलों की सड़क में जानबूझकर दरार क्यों होती है? 🌉",
+ "hook_text": "पुल जानबूझकर काटे जाते हैं",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "पुलों को जानबूझकर बीच से काटा जाता है।",
+     "prompt": "Medium shot, a steel highway bridge expansion joint, a jagged metal gap with interlocking steel teeth cut straight across the asphalt road, deep dark drop visible inside the gap, no people, golden hour light, realistic photo, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पुलों को जानबूझकर बीच से काटा जाता है।"
+    },
+    {
+     "vo": "उन पर चलो, तो टायरों के नीचे थप की आवाज़ आती है।",
+     "prompt": "Medium shot, low angle of a single black car tire resting on a bridge road right beside a metal expansion joint gap with interlocking teeth, asphalt texture, no people, soft afternoon light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "उन पर चलो, तो टायरों के नीचे थप की आवाज़ आती है।"
+    },
+    {
+     "vo": "गर्मी में स्टील का पुल, ठंडी रात से ज़्यादा लंबा हो जाता है।",
+     "prompt": "Wide shot, a long steel suspension bridge across a wide river under a bright blue cloudless sky, heat haze shimmering above the road deck, a few distant blurred silhouettes of cars, intense summer sunlight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गर्मी में स्टील का पुल, ठंडी रात से ज़्यादा लंबा हो जाता है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, जगह न मिले तो स्टील बहुत ज़ोर से धक्का देता है।",
+     "prompt": "Medium shot, two heavy grey steel bridge deck slabs pushed tightly together with no gap, thin cracks and chipped asphalt along the seam, bolts and steel beams, no people, harsh dramatic side light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, जगह न मिले तो स्टील बहुत ज़ोर से धक्का देता है।"
+    },
+    {
+     "vo": "गैप न हो, तो गर्मी में सड़क ऊपर की तरफ़ उठकर टूट जाए।",
+     "prompt": "Medium-wide shot, a bridge road with asphalt heaved upward into a long cracked ridge across the lanes, broken chunks of asphalt on the ground, steel railings behind, empty road, harsh midday sun, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गैप न हो, तो गर्मी में सड़क ऊपर की तरफ़ उठकर टूट जाए।"
+    },
+    {
+     "vo": "वो थप एक जानबूझकर बनाया गैप है, ताकि पुल सुरक्षित फैल सके।",
+     "prompt": "Wide shot from above, a bridge road with a narrow clean expansion joint gap across the lanes, a few cars driving across in a line, steel cables rising behind, warm orange sunset light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वो थप एक जानबूझकर बनाया गैप है, ताकि पुल सुरक्षित फैल सके।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "पुल की सड़क में *जानबूझकर* दरार क्यों?",
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 6,
+  "why": "5 words, a contradiction ('cut open on purpose') with a clear gap, and the on-screen 'WHY CUT IT?' adds a second question; 'cut open' is a bit vague visually.",
+  "was": "Engineers cut gaps into bridge roads on purpose, or the bridge would wreck itself."
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s83-bridge-expansion-gaps",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "slug": "s82-red-eye-photos-hi",
+ "format": "short",
+ "title": "फ्लैश वाली फोटो में आँखें लाल क्यों दिखती हैं? 📸",
+ "hook_text": "वो लाल रंग खून है",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपकी फोटो में जो लाल रंग दिखता है? वो आपका खून है।",
+     "prompt": "Extreme close-up of a young woman's face, centre, one wide-open eye glowing bright red from a camera flash, fine red veins visible around the iris, dim room, deep dark background, realistic photograph, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आपकी फोटो में जो लाल रंग दिखता है? वो आपका खून है।"
+    },
+    {
+     "vo": "ऐसा अंधेरे कमरों में होता है, जब पुतलियाँ पूरी खुली होती हैं।",
+     "prompt": "Wide shot of a dim living room at night, a young woman with brown hair and grey sweater standing at the left, a small compact camera on a wooden table at the right, one soft lamp, deep shadows, wide dark eyes, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ऐसा अंधेरे कमरों में होता है, जब पुतलियाँ पूरी खुली होती हैं।"
+    },
+    {
+     "vo": "फ्लैश पलक झपकते चमकता है, पुतलियों के सिकुड़ने से भी पहले।",
+     "prompt": "Medium shot of a man with short black hair in a dark room, holding a compact camera up to his face at the right, bright white flash burst of light streaking across the room, a young woman in grey sweater standing at the left, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "फ्लैश पलक झपकते चमकता है, पुतलियों के सिकुड़ने से भी पहले।"
+    },
+    {
+     "vo": "लेकिन रुकिए, रोशनी सीधी आँख के पीछे पहुँच जाती है।",
+     "prompt": "Medium close-up of a human eye, centre, wide dark pupil, a single thin white beam of light entering the pupil from the left and reaching deep inside, dark background, glowing, realistic anatomical illustration, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, रोशनी सीधी आँख के पीछे पहुँच जाती है।"
+    },
+    {
+     "vo": "वहाँ रेटिना के नीचे खून की नसों की एक मोटी परत होती है।",
+     "prompt": "Medium close-up of the inside back wall of a human eye, a dense web of red blood vessels spread across a pink-orange surface, thin translucent layer in front, warm red light, realistic anatomical illustration, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वहाँ रेटिना के नीचे खून की नसों की एक मोटी परत होती है।"
+    },
+    {
+     "vo": "फ्लैश उसी खून से टकराता है, इसीलिए फोटो में आँखों का लाल रंग खून है।",
+     "prompt": "Medium close-up of a human eye in cross-section, white beam entering the pupil from the left, the inner back wall glowing deep red with blood vessels, a red beam leaving through the pupil toward the right, realistic anatomical illustration, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "फ्लैश उसी खून से टकराता है, इसीलिए फोटो में आँखों का लाल रंग खून है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "फोटो में आँखें *लाल* क्यों होती हैं?",
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 6,
+  "why": "Short (8 words), blood in your eyes is a striking reveal and opens a gap; but 'That red in your photos?' is a mild warm-up and the answer (blood) is given immediately",
+  "was": "Flash photos turn your eyes red, and that red is your own blood."
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s82-red-eye-photos",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "slug": "s85-black-box-orange-hi",
+ "format": "short",
+ "title": "ब्लैक बॉक्स काला नहीं होता, तो फिर क्यों? 🟠",
+ "hook_text": "ब्लैक बॉक्स काला नहीं!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "ब्लैक बॉक्स असल में काला होता ही नहीं।",
+     "prompt": "Medium shot of a bright orange flight recorder box with a white stripe resting on a dark wooden table, a black rectangle of paper lying beside it on the left, a gloved hand holding a black marker on the right, dramatic spotlight, dark background, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ब्लैक बॉक्स असल में काला होता ही नहीं।"
+    },
+    {
+     "vo": "इसमें कॉकपिट की आवाज़ें और उड़ान की हज़ारों रीडिंग रिकॉर्ड होती हैं, और इसे हर हाल में बचना होता है।",
+     "prompt": "Medium-wide shot inside a dark airliner cockpit at night, two empty pilot seats, a headset hanging on the left seat, glowing instrument panels and dials, soft blue and amber light, no people, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसमें कॉकपिट की आवाज़ें और उड़ान की हज़ारों रीडिंग रिकॉर्ड होती हैं, और इसे हर हाल में बचना होता है।"
+    },
+    {
+     "vo": "ये गुरुत्वाकर्षण से तीन हज़ार चार सौ गुना ज़्यादा झटका झेल सकता है।",
+     "prompt": "Medium shot of a bright orange recorder unit clamped inside a heavy steel impact test machine, sparks in the air and dented metal plates around it, harsh industrial light, no people, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये गुरुत्वाकर्षण से 3,400 गुना ज़्यादा झटका झेल सकता है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, अगर कोई इसे ढूँढ ही न पाए, तो बचने का क्या फ़ायदा?",
+     "prompt": "Wide shot of a vast empty wreckage field at dusk, scattered metal debris and a tail fin on the ground, a few tiny flashlight beams from distant blurred silhouettes on the horizon, grey blue sky, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, अगर कोई इसे ढूँढ ही न पाए, तो बचने का क्या फ़ायदा?"
+    },
+    {
+     "vo": "मलबा घने जंगल, गहरी बर्फ़ या समंदर के नीचे पड़ा हो सकता है।",
+     "prompt": "Wide shot of a snowy mountain slope with twisted airplane debris half buried in snow on the left, dark ocean water with a sinking metal wing on the right, cold overcast light, no people, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "मलबा घने जंगल, गहरी बर्फ़ या समंदर के नीचे पड़ा हो सकता है।"
+    },
+    {
+     "vo": "इसीलिए ब्लैक बॉक्स काला नहीं, चमकीला नारंगी होता है, ताकि खोजने वाले उसे देख लें।",
+     "prompt": "Medium shot of a bright orange recorder box lying on grey ash among green forest debris and broken branches, a man in an orange jacket and gloves kneeling on the right, one gloved hand reaching toward it, soft morning light, no text, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए ब्लैक बॉक्स काला नहीं, चमकीला नारंगी होता है, ताकि खोजने वाले उसे देख लें।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "ब्लैक बॉक्स का रंग *नारंगी* क्यों?",
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 8,
+  "why": "Contradiction in 5 words, opens a clear question (why called black?), not answered; slightly familiar as a fact, and the image is a bit plain.",
+  "was": "The black box in every airliner is painted bright orange."
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s85-black-box-orange",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

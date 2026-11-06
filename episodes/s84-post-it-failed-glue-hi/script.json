@@ -1,0 +1,77 @@
+{
+ "slug": "s84-post-it-failed-glue-hi",
+ "format": "short",
+ "title": "ये गोंद फेल हुआ, फिर भी करोड़ों डेस्क पर क्यों है? 📝",
+ "hook_text": "सबसे बेकार गोंद",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "उसे सबसे मज़बूत गोंद बनानी थी, पर बन गया कचरा।",
+     "prompt": "Medium painting of a man in his forties, glasses, short grey hair, white lab coat, at centre leaning over a microscope with a frustrated frown, glass beakers of milky grey liquid on the bench around him, a crumpled failed test strip on a metal plate, dramatic side lighting, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "उसे सबसे मज़बूत गोंद बनानी थी, पर बन गया कचरा।"
+    },
+    {
+     "vo": "उन्नीस सौ अड़सठ में स्पेंसर सिल्वर सबसे ताकतवर गोंद बना रहे थे।",
+     "prompt": "Medium-wide painting of a middle-aged man in a white lab coat, grey short hair, on the right, hands resting on two steel blocks clamped together on a heavy workbench at left, industrial lab with metal shelves, dramatic side lighting, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "1968 में स्पेंसर सिल्वर सबसे ताकतवर गोंद बना रहे थे।"
+    },
+    {
+     "vo": "बनी छोटी चिपचिपी गोलियाँ, जो मुश्किल से चिपकतीं और साफ़ उतर जातीं।",
+     "prompt": "Medium close painting of a middle-aged man in a white lab coat, grey short hair, at centre holding a small sheet of paper in one hand with a faint sticky smear, a second sheet lying clean on the bench beside him, glass beakers behind, soft window light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बनी छोटी चिपचिपी गोलियाँ, जो मुश्किल से चिपकतीं और साफ़ उतर जातीं।"
+    },
+    {
+     "vo": "पाँच साल तक किसी को समझ नहीं आया कि ऐसी गोंद का करें क्या।",
+     "prompt": "Wide painting of a dusty office storage shelf at centre, a forgotten small glass jar with a blank label, stacks of yellowed paperwork and cardboard boxes around it, a closed door at left, dim moody light from a single window, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "5 साल तक किसी को समझ नहीं आया कि ऐसी गोंद का करें क्या।"
+    },
+    {
+     "vo": "फिर आर्ट फ्राई के भजन-पुस्तक के बुकमार्क कोयर प्रैक्टिस में गिरते रहे।",
+     "prompt": "Medium-wide painting of a young man in a dark sweater, short brown hair, seated in a wooden church pew at centre, holding an open hymnbook, loose paper bookmarks lying scattered on the floor at his feet, stained-glass windows behind, warm coloured light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "फिर आर्ट फ्राई के भजन-पुस्तक के बुकमार्क कोयर प्रैक्टिस में गिरते रहे।"
+    },
+    {
+     "vo": "वो कमज़ोर गोंद ही परफ़ेक्ट निकली, और बन गया Post-it नोट।",
+     "prompt": "Medium painting of a tidy wooden desk, a computer monitor at left with a bright yellow square note stuck to its edge, a man's hand at right holding a pad of yellow notes and peeling one off, clean desk, soft daylight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वो कमज़ोर गोंद ही परफ़ेक्ट निकली, और बन गया Post-it नोट।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "दुनिया की *कमज़ोर* गोंद से बना Post-it",
+ "cover_shot": 1,
+ "hook_score": {
+  "score": 7,
+  "why": "Strong contradiction: wanted strongest, made garbage. Short, opens why-question, not widely known detail.",
+  "was": "A chemist invented a glue so weak, his company ignored it for years."
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s84-post-it-failed-glue",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
