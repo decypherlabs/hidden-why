@@ -27,7 +27,8 @@
      "vo": "भरी सभा के सामने अचानक धरती फट गई, और उसमें से निकला एक दिव्य सिंहासन!",
      "prompt": "A huge crack splitting open the earth in a vast yajna ground at Valmiki's ashram, a magnificent jewelled divine throne rising from the glowing fissure, golden light bursting upward, flower petals and dust swirling, Mother Sita in a simple saffron saree standing at the left with folded hands, sages and onlookers as distant silhouettes, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "सीता माता ने अयोध्या लौटने के बजाय, इसी धरती की गोद चुन ली।",
@@ -57,7 +58,8 @@
      "vo": "तभी धरती देवी ने सीता को दोनों बाहों में उठाकर सिंहासन पर बिठा लिया।",
      "prompt": "The divine goddess Earth, a radiant regal woman in green and gold with a jewelled crown, seated on a glowing jewelled throne at the right, with Mother Sita in a simple saffron saree seated beside her at the left, both within the cracked open ground, golden light, flower petals falling, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "आकाश से फूल बरसे, देवताओं ने कहा, साधु साधु, और राम शोक में डूब गए।",
@@ -79,5 +81,21 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   1,
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-06 16:38"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T10:48:53Z",
+  "rounds": 1,
+  "why": {
+   "1": "Narration says the earth splits and a divine throne rises in front of the assembly. The painting shows a woman standing on a flower platform, with no split ground and no throne.",
+   "6": "Two women are stacked on the same throne. The upper one looks fused with the seated one, and Earth is not shown lifting Sita in both arms."
+  }
+ }
 }
