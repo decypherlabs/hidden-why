@@ -65,7 +65,10 @@ for repo, shards in (("ai4bharat/Rasa", 3), ("ai4bharat/indicvoices_r", 3)):
             d = len(y) / sr
             if not 5 <= d <= 12:
                 continue
-            cands.append({"repo": repo, "speaker": str(r.get(sp)), "style": str(r.get(st)), "text": r[tx], "dur": d,
+            if "snr" in r and (r.get("snr") or 0) < 30:
+                continue  # studio-clean takes only
+            spk = str(r.get(sp)) if sp else "_".join(str(r.get("filename", "")).split("_")[:2])
+            cands.append({"repo": repo, "speaker": spk, "style": str(r.get(st)), "text": r[tx], "dur": d,
                           "y": y, "sr": sr})
 print(len(cands), "male clips", flush=True)
 for c in cands:
@@ -76,13 +79,15 @@ for c in sorted(cands, key=lambda c: c["f0"]):  # deepest take of each speaker
     if k not in best and c["f0"] < 160:
         best[k] = c
 picks = list(best.values())[:6]
+for i, c in enumerate(picks, 1):
+    sf.write(OUT / f"ref-{i}.wav", c["y"], c["sr"])
+    print("ref", i, c["repo"], c["speaker"], c["style"], round(c["f0"]), flush=True)
 from transformers import AutoModel  # noqa: E402
 
-model = AutoModel.from_pretrained("ai4bharat/IndicF5", trust_remote_code=True)
+model = AutoModel.from_pretrained("ai4bharat/IndicF5", trust_remote_code=True, low_cpu_mem_usage=False)
 summary = []
 for i, c in enumerate(picks, 1):
     ref = OUT / f"ref-{i}.wav"
-    sf.write(ref, c["y"], c["sr"])
     parts = []
     for line in LINES:
         y = model(line, ref_audio_path=str(ref), ref_text=c["text"])
