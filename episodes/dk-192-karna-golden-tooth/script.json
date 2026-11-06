@@ -56,9 +56,10 @@
     },
     {
      "vo": "कर्ण ने पत्थर से अपना दाँत तोड़ा और ख़ुशी से दे दिया।",
-     "prompt": "Medium-wide shot, Karna, a wounded dark-skinned man with long black hair and golden earrings, sitting on the left smiling, a small stone in one hand and a golden tooth on his open palm held out, an old white-bearded man in white dhoti with staff standing on the right, battlefield at dusk, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Medium shot, a wounded dark-skinned man with long black hair and golden earrings sitting against a broken chariot wheel, a large grey stone raised in his right hand beside his open mouth, a bloodied golden tooth in his left palm, blood on his lips, an old white-bearded man in white dhoti watching from the distant right, dusk, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "दाँत पर ख़ून था, तो कर्ण ने तीर से पानी निकालकर उसे धोया।",
@@ -82,5 +83,19 @@
   }
  ],
  "reviewed_at": "2026-11-06 22:32",
- "released_at": "2026-11-06 23:03"
+ "released_at": "2026-11-06 23:03",
+ "repaint": {
+  "shots": [
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-07 02:28"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T20:53:32Z",
+  "rounds": 1,
+  "why": {
+   "6": "Two men crouch and stand beside each other, but nothing shows Karna breaking his tooth with a stone, which is the defining action of the line."
+  }
+ }
 }
