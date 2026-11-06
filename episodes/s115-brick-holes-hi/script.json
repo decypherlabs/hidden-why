@@ -1,0 +1,75 @@
+{
+ "slug": "s115-brick-holes-hi",
+ "format": "short",
+ "title": "ईंट में छेद क्यों होते हैं? 🧱",
+ "hook_text": "ईंट में छेद, फिर भी महंगे!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "हर ईंट में छेद होते हैं, और फैक्टरियाँ इनके लिए ज़्यादा पैसे देती हैं।",
+     "prompt": "Medium shot, a man centre in a brick factory, grey work shirt, black gloves, holding up one freshly made red clay brick with rows of rectangular holes clearly punched through it, warm industrial light, stacks of red bricks blurred behind, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "हर ईंट में छेद होते हैं, और फैक्टरियाँ इनके लिए ज़्यादा पैसे देती हैं।"
+    },
+    {
+     "vo": "बिना छेद की ईंट भारी होती, जोड़ने में धीमी, और महंगी भी।",
+     "prompt": "Medium-wide shot, a weighing scale on a wooden table, on the LEFT pan a thick solid red brick with no holes sitting low, on the RIGHT pan a lighter red brick with visible rectangular holes sitting high, brick pile behind, soft daylight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बिना छेद की ईंट भारी होती, जोड़ने में धीमी, और महंगी भी।"
+    },
+    {
+     "vo": "लेकिन रुकिए, मोटी ठोस मिट्टी अंदर से बराबर नहीं पकती।",
+     "prompt": "Medium shot, a large solid red clay brick with a deep jagged crack splitting it in two, resting on a worn kiln floor, open brick kiln behind with orange glow, broken clay pieces nearby, dusty warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, मोटी ठोस मिट्टी अंदर से बराबर नहीं पकती।"
+    },
+    {
+     "vo": "छेदों से गर्मी और भाप बीच तक पहुँचती है, इसलिए पूरी ईंट बराबर पकती है।",
+     "prompt": "Medium-wide shot, red bricks with rectangular holes stacked inside a glowing brick kiln, bright orange fire at the base, white steam and hot air rising visibly through the holes, warm orange light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "छेदों से गर्मी और भाप बीच तक पहुँचती है, इसलिए पूरी ईंट बराबर पकती है।"
+    },
+    {
+     "vo": "और अंदर बची हवा दीवार को गर्मी-सर्दी से बचाती है।",
+     "prompt": "Medium-wide shot, a cutaway brick wall with large hollow air-filled holes clearly visible inside each brick, LEFT side a snowy Indian hill village outside the window, RIGHT side a cosy warm room with a lamp, soft golden light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "और अंदर बची हवा दीवार को गर्मी-सर्दी से बचाती है।"
+    },
+    {
+     "vo": "इसीलिए ईंट के छेद जानबूझकर होते हैं, ताकि वो बराबर पके, हल्की रहे और दीवार को बचाए।",
+     "prompt": "Medium-wide shot, a neat new red brick wall under construction at a building site, one holed brick with clear rectangular holes sitting large in the foreground on the wall top, no people, warm golden sunlight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए ईंट के छेद जानबूझकर होते हैं, ताकि वो बराबर पके, हल्की रहे और दीवार को बचाए।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "ईंट में *छेद* क्यों? फैक्टरी देती है एक्स्ट्रा पैसे",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Big close-up realistic painting of a stack of red clay bricks with rows of rectangular holes running through them, one brick cut open, warm sunset light, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s115-brick-holes",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

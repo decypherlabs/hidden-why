@@ -1,0 +1,75 @@
+{
+ "slug": "s117-honeycomb-hexagons-hi",
+ "format": "short",
+ "title": "मधुमक्खियों के छत्ते में हमेशा षट्भुज ही क्यों होते हैं? 🐝",
+ "hook_text": "सोलह सौ साल, फेल!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "गणितज्ञ सोलह सौ साल फेल रहे। मधुमक्खियाँ कभी नहीं।",
+     "prompt": "Medium shot, a single honeybee standing large on top of a flawless golden hexagonal honeycomb in the foreground, behind it an old faded parchment covered in failed geometry sketches and compass lines lying on a wooden table, warm dramatic window light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गणितज्ञ 1600 साल फेल रहे। मधुमक्खियाँ कभी नहीं।"
+    },
+    {
+     "vo": "गोल खानों में खाली जगह बचती, और चौकोर या तिकोने में ज़्यादा मोम लगता।",
+     "prompt": "Medium-wide shot, a wooden table in an Indian village kitchen, on the left a wax slab with round circular cells showing gaps between them, in the centre square and triangular wax cells, on the right a neat hexagonal honeycomb grid, soft warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गोल खानों में खाली जगह बचती, और चौकोर या तिकोने में ज़्यादा मोम लगता।"
+    },
+    {
+     "vo": "मोम बनाना महँगा है: एक पाउंड मोम के लिए करीब छह पाउंड शहद।",
+     "prompt": "Medium shot, a rustic wooden balance scale on a village table, on the left pan many jars of golden honey piled high, on the right pan one small pale block of beeswax, warm morning light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "मोम बनाना महँगा है: एक पाउंड मोम के लिए करीब 6 पाउंड शहद।"
+    },
+    {
+     "vo": "लेकिन रुकिए: षट्भुज सबसे अच्छा है, ये साबित करने में गणितज्ञों को सोलह सौ साल से ज़्यादा लगे।",
+     "prompt": "Medium shot, an old yellowed parchment covered in hexagon drawings and compass marks lit by a candle on a wooden desk, a modern notebook with hexagon sketches lying beside it, warm dim light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए: षट्भुज सबसे अच्छा है, ये साबित करने में गणितज्ञों को 1600 साल से ज़्यादा लगे।"
+    },
+    {
+     "vo": "उन्नीस सौ निन्यानवे में एक गणितज्ञ ने साबित किया: बराबर खानों के लिए इससे कम दीवार कोई पैटर्न नहीं लेता।",
+     "prompt": "Medium-wide shot, a large green chalkboard covered with hexagon tilings and equations in a quiet empty Indian university study, a wooden desk and chair in front, soft daylight from a window, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "1999 में एक गणितज्ञ ने साबित किया: बराबर खानों के लिए इससे कम दीवार कोई पैटर्न नहीं लेता।"
+    },
+    {
+     "vo": "इसीलिए मधुमक्खियाँ परफ़ेक्ट षट्भुज बनाती हैं, क्योंकि इससे ज़्यादा मोम कोई नहीं बचाता।",
+     "prompt": "Medium shot, a full wooden frame filled with flawless golden hexagonal honeycomb glowing in sunlight, several honeybees resting on its surface, blurred green garden background, warm backlight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए मधुमक्खियाँ परफ़ेक्ट षट्भुज बनाती हैं, क्योंकि इससे ज़्यादा मोम कोई नहीं बचाता।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "गणितज्ञ *1600 साल* फेल, मधुमक्खी नहीं!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Big close-up realistic painting of a golden honeycomb with perfect hexagonal cells dripping honey and a bee on it, bright warm light, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s117-honeycomb-hexagons",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
