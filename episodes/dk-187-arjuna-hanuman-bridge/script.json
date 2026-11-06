@@ -4,7 +4,7 @@
  "brand": "devlok-katha",
  "build": "github",
  "lang": "hi",
- "approved": true,
+ "approved": false,
  "title": "तीरों का पुल किसने तोड़ा? 🏹",
  "hook_text": "आग या पुल?",
  "cover_text": "अर्जुन का *तीरों का पुल* एक कदम में टूटा",
@@ -73,5 +73,8 @@
     }
    ]
   }
- ]
+ ],
+ "rejected": true,
+ "review": "rejected",
+ "review_note": "old rules: obscure character, cryptic opening (owner, 6 Nov)"
 }
