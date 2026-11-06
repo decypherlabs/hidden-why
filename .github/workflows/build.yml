@@ -15,7 +15,7 @@ permissions:
 jobs:
   episode:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 350  # Hindi long-form: ~10 min of Parler narration on CPU takes ~2-3 h (6 Nov 2026)
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
