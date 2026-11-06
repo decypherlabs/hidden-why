@@ -1,0 +1,72 @@
+{
+ "slug": "s89-train-wheels-cones-hi",
+ "format": "short",
+ "title": "ट्रेन के पहिए कोन जैसे क्यों होते हैं? 🚂",
+ "hook_text": "पहिया काटो, कोन निकलेगा",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "ट्रेन का पहिया आधा काटो, तो अंदर से कोन निकलता है।",
+     "prompt": "Medium shot of a steel train wheel cut cleanly in half on a workshop table, showing a tapered cone-shaped cross-section, bright sparks on the floor beside it, warm industrial lamp light, dark workshop background, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ट्रेन का पहिया आधा काटो, तो अंदर से कोन निकलता है।"
+    },
+    {
+     "vo": "कोई ड्राइवर पहिया नहीं मोड़ता, फिर भी ट्रेन हर मोड़ पर निकल जाती है।",
+     "prompt": "Wide shot of a long passenger train curving smoothly around a bend through green hills, golden hour sunlight, warm glow on the carriages, soft mist in the valley, empty countryside, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "कोई ड्राइवर पहिया नहीं मोड़ता, फिर भी ट्रेन हर मोड़ पर निकल जाती है।"
+    },
+    {
+     "vo": "ध्यान से देखो, हर पहिया बाहर से पतला और अंदर से चौड़ा है।",
+     "prompt": "Medium close shot of a steel train wheel resting on a rail, its tapered rim wider on the inner side near the flange, side light showing the cone shape, gravel and sleepers around, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ध्यान से देखो, हर पहिया बाहर से पतला और अंदर से चौड़ा है।"
+    },
+    {
+     "vo": "अब मोड़ सोचो। बाहर वाले पहिए को ज़्यादा दूर जाना पड़ता है।",
+     "prompt": "Wide aerial shot of a railway track curving through a green field, the outer rail visibly longer than the inner rail, gravel and sleepers between them, soft morning light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "अब मोड़ सोचो। बाहर वाले पहिए को ज़्यादा दूर जाना पड़ता है।"
+    },
+    {
+     "vo": "वो बाहर की तरफ़ चौड़े हिस्से पर चढ़ता है, और हर चक्कर में ज़्यादा दूरी नापता है।",
+     "prompt": "Medium shot of a train wheelset on a curved rail, the outer wheel resting on its larger wide part, the inner wheel on its narrower part, gravel ground, soft overcast light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वो बाहर की तरफ़ चौड़े हिस्से पर चढ़ता है, और हर चक्कर में ज़्यादा दूरी नापता है।"
+    },
+    {
+     "vo": "इसीलिए कोन वाले पहिए, ट्रेन को हर मोड़ पर खुद मोड़ देते हैं।",
+     "prompt": "Medium-wide side view of a train gliding around a curved track, steel wheels sharp in the foreground on the rails, blurred green hills behind, late afternoon golden light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए कोन वाले पहिए, ट्रेन को हर मोड़ पर खुद मोड़ देते हैं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "ट्रेन का पहिया है *कोन* जैसा, क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s89-train-wheels-cones",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
