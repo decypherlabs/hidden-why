@@ -12,18 +12,24 @@ from transformers import AutoTokenizer
 OUT = Path(sys.argv[1])
 OUT.mkdir(parents=True, exist_ok=True)
 M = "ai4bharat/indic-parler-tts"
-LINES = json.loads(Path("episodes/dk-165-draupadi-endless-saree/script.json").read_text())["sections"][0]["shots"][:4]
+LINES = json.loads(Path("episodes/dk-165-draupadi-endless-saree/script.json").read_text())["sections"][0]["shots"][:6]
+CLEAR = " The recording is very clear and close-sounding, with no background noise."
 DESC = {
-    "a-now": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
-    "b-confident": "Divya speaks in a confident, authoritative and slightly low-pitched storytelling voice at a moderately fast pace, with strong emphasis. The recording is very clear and close-sounding, with no background noise.",
-    "c-dramatic": "Divya speaks in a deep, bold and dramatic voice at a fast pace, like a gripping narrator, with intensity and emotion. The recording is very clear and close-sounding, with no background noise.",
+    "a-now": "Divya speaks in a calm, expressive storytelling voice at a moderate pace." + CLEAR,
+    "e1-animated": "Divya speaks in a very expressive and animated storytelling voice with high pitch variation, stressing the key words, at a moderate pace." + CLEAR,
+    "e2-dramatic": "Divya speaks in a dramatic, intense and highly expressive voice, like a gripping storyteller building suspense, with strong emphasis and varied pitch." + CLEAR,
+    "e3-per-line": None,  # the mood follows each line: a question surprised, the turn suspenseful, the rest animated
 }
+MOOD = {"?": "Divya speaks in a surprised, curious and very expressive tone, with strong emphasis and high pitch variation.",
+        "रुकिए": "Divya speaks in a dramatic, suspenseful whisper-like tone, slow and intense, with strong emphasis.",
+        "": "Divya speaks in a very expressive and animated storytelling voice with high pitch variation, stressing the key words."}
 model = ParlerTTSForConditionalGeneration.from_pretrained(M)
 tok, dtok = AutoTokenizer.from_pretrained(M), AutoTokenizer.from_pretrained(model.config.text_encoder._name_or_path)
 for name, desc in DESC.items():
-    d = dtok(desc, return_tensors="pt")
     parts = []
     for s in LINES:
+        mood = next(m for k, m in MOOD.items() if k in s["vo"]) + CLEAR
+        d = dtok(desc or mood, return_tensors="pt")
         torch.manual_seed(7)
         p = tok(s["vo"], return_tensors="pt")
         a = model.generate(input_ids=d.input_ids, attention_mask=d.attention_mask, prompt_input_ids=p.input_ids,
