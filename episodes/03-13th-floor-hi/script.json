@@ -1,0 +1,270 @@
+{
+ "slug": "03-13th-floor-hi",
+ "title": "होटल में 13वीं मंज़िल क्यों ग़ायब है? पर वो वहीं है",
+ "approved": true,
+ "thumbnail": {
+  "text": "13वीं मंज़िल *ग़ायब* क्यों?",
+  "plane": "interior of a luxury hotel elevator lobby at night, polished brass elevator doors closed, marble floor, one warm spotlight, empty, ominous, symmetrical",
+  "zoom_diagram": "elevator_gap",
+  "zoom_crop": [
+   960,
+   560,
+   240
+  ]
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "sting",
+   "reveal"
+  ],
+  "reflective": [
+   "ordinary",
+   "today",
+   "outro"
+  ],
+  "epic": [
+   "story"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आप लिफ्ट में चौदह दबाते हैं। लेकिन आप चौदहवीं मंज़िल पर नहीं जा रहे।",
+     "prompt": "close-up of a man's finger pressing a glowing brass button on a hotel elevator panel, mirrored walls, warm light, no numbers visible",
+     "move": "push",
+     "caption": "आप लिफ्ट में 14 दबाते हैं। लेकिन आप 14वीं मंज़िल पर नहीं जा रहे।"
+    },
+    {
+     "vo": "ध्यान से देखिए। बारह। चौदह। कुछ ग़ायब है।",
+     "diagram": "elevator_gap",
+     "caption": "ध्यान से देखिए। 12। 14। कुछ ग़ायब है।"
+    },
+    {
+     "vo": "तेरह मंज़िल ऊपर एक ऐसी मंज़िल है, जो आधिकारिक तौर पर है ही नहीं। हज़ारों इमारतों में है। शायद उसमें भी, जहाँ आप कल सोए।",
+     "prompt": "a long empty hotel corridor at night, rows of closed doors, patterned carpet, one flickering ceiling light, eerie, symmetrical",
+     "move": "push",
+     "negative": "crowd, people, faces",
+     "caption": "13 मंज़िल ऊपर एक ऐसी मंज़िल है, जो आधिकारिक तौर पर है ही नहीं। हज़ारों इमारतों में है। शायद उसमें भी, जहाँ आप कल सोए।"
+    },
+    {
+     "vo": "दुनिया की सबसे आधुनिक इमारतें एक मंज़िल को क्यों छुपाती हैं? और ये फ़ैसला किसने किया?",
+     "prompt": "low angle view of a tall glass hotel skyscraper at dusk, rows of lit windows, dramatic sky",
+     "move": "pull",
+     "negative": "crowd, people, faces",
+     "caption": "दुनिया की सबसे आधुनिक इमारतें एक मंज़िल को क्यों छुपाती हैं? और ये फ़ैसला किसने किया?"
+    }
+   ]
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "shots": []
+  },
+  {
+   "id": "ordinary",
+   "card": "THE ORDINARY",
+   "shots": [
+    {
+     "vo": "ज़्यादातर लोग ध्यान ही नहीं देते। बटन दबाते हैं और फ़ोन देखते रहते हैं।",
+     "prompt": "people waiting in front of hotel elevators in a bright lobby, one looking at a phone, backs to camera, warm light",
+     "move": "push",
+     "caption": "ज़्यादातर लोग ध्यान ही नहीं देते। बटन दबाते हैं और फ़ोन देखते रहते हैं।"
+    },
+    {
+     "vo": "लेकिन दो हज़ार दो में, दुनिया की सबसे बड़ी लिफ्ट कंपनियों में से एक, ओटिस के एक अधिकारी ने अंदाज़ा लगाया कि उनकी क़रीब पचासी प्रतिशत ऊँची इमारतों में तेरह का बटन ही नहीं था।",
+     "diagram": "otis_85",
+     "caption": "लेकिन 2002 में, दुनिया की सबसे बड़ी लिफ्ट कंपनियों में से एक, ओटिस के एक अधिकारी ने अंदाज़ा लगाया कि उनकी क़रीब 85% ऊँची इमारतों में 13 का बटन ही नहीं था।"
+    },
+    {
+     "vo": "वजह इंजीनियरिंग नहीं थी। डर था।",
+     "prompt": "a skyscraper blueprint spread on a wooden desk, pencil and ruler, a desk lamp casting a pool of light, dark office",
+     "move": "push",
+     "negative": "crowd, people, faces",
+     "caption": "वजह इंजीनियरिंग नहीं थी। डर था।"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "card": "THE STORY",
+   "shots": [
+    {
+     "vo": "तेरह का डर बहुत पुराना है। आख़िरी भोज में मेज़ पर तेरह लोग थे। उनमें से एक ने यीशु को धोखा दिया।",
+     "prompt": "a long candlelit wooden table in a stone hall with thirteen robed figures seated along one side, renaissance oil painting style, seen from the end of the table",
+     "move": "pan_right",
+     "caption": "13 का डर बहुत पुराना है। आख़िरी भोज में मेज़ पर 13 लोग थे। उनमें से एक ने यीशु को धोखा दिया।"
+    },
+    {
+     "vo": "नॉर्स कथाओं में बारह देवता दावत पर बैठे थे। शरारती देवता लोकी बिन बुलाए आ गया, तेरहवाँ मेहमान बनकर। रात ख़त्म होते-होते प्यारे देवता बाल्डर मर चुके थे।",
+     "prompt": "a dark viking feast hall with a long fire pit, twelve figures at a table, a hooded uninvited figure stepping through the great doors, ominous firelight",
+     "move": "push",
+     "caption": "नॉर्स कथाओं में 12 देवता दावत पर बैठे थे। शरारती देवता लोकी बिन बुलाए आ गया, 13वाँ मेहमान बनकर। रात ख़त्म होते-होते प्यारे देवता बाल्डर मर चुके थे।"
+    },
+    {
+     "vo": "सदियों में ये कहानी एक नियम बन गई। तेरह यानी मौत।",
+     "prompt": "a narrow medieval village street at dusk, a black cat on cobblestones in the foreground, lanterns, fog",
+     "move": "push",
+     "negative": "crowd, people, faces",
+     "caption": "सदियों में ये कहानी एक नियम बन गई। 13 यानी मौत।"
+    },
+    {
+     "vo": "अठारह सौ अस्सी के दशक तक, न्यूयॉर्क में ये डर इतना आम था कि कुछ आदमियों ने इसका मज़ाक उड़ाने की ठानी।",
+     "prompt": "a New York City street in the 1880s at night, gas lamps, horse-drawn carriages, brick buildings, fog",
+     "move": "pan_left",
+     "caption": "1880 के दशक तक, न्यूयॉर्क में ये डर इतना आम था कि कुछ आदमियों ने इसका मज़ाक उड़ाने की ठानी।"
+    },
+    {
+     "vo": "उन्होंने अपना नाम रखा थर्टीन क्लब। एक मेज़ पर तेरह आदमी। वे सीढ़ी के नीचे से गुज़रे, जानबूझकर नमक गिराया, और ताबूत के आकार में ढला लॉबस्टर सलाद खाया।",
+     "prompt": "a Victorian dinner party, thirteen men in black suits around a candlelit table, a silver platter in the center holding lobster salad shaped like a small coffin, 1880s",
+     "move": "push",
+     "caption": "उन्होंने अपना नाम रखा थर्टीन क्लब। एक मेज़ पर 13 आदमी। वे सीढ़ी के नीचे से गुज़रे, जानबूझकर नमक गिराया, और ताबूत के आकार में ढला लॉबस्टर सलाद खाया।"
+    },
+    {
+     "vo": "वे साबित करना चाहते थे कि ये डर बकवास है। क्या वे जीते?",
+     "prompt": "a Victorian gentleman in a black suit raising a wine glass and laughing at a candlelit dinner table, seen from the side, face in shadow",
+     "move": "push",
+     "caption": "वे साबित करना चाहते थे कि ये डर बकवास है। क्या वे जीते?"
+    },
+    {
+     "vo": "नहीं। क्योंकि उसी वक़्त अमेरिकी शहरों में कुछ नया उठ रहा था। गगनचुंबी इमारतें।",
+     "prompt": "New York City in the 1890s, early skyscrapers under construction, steel frames and cranes against a smoky sky, workers on beams",
+     "move": "pull",
+     "caption": "नहीं। क्योंकि उसी वक़्त अमेरिकी शहरों में कुछ नया उठ रहा था। गगनचुंबी इमारतें।"
+    },
+    {
+     "vo": "पहली बार इमारतें तेरह मंज़िल से ऊपर गईं। और उन्हें बनाने वालों के सामने एक समस्या थी।",
+     "prompt": "a 1900s property developer in a dark suit and bowler hat standing in the street looking up at a tall new office building, back view",
+     "move": "push",
+     "caption": "पहली बार इमारतें 13 मंज़िल से ऊपर गईं। और उन्हें बनाने वालों के सामने एक समस्या थी।"
+    },
+    {
+     "vo": "सबसे अशुभ मंज़िल पर कौन ऑफ़िस किराए पर लेगा, या घर ख़रीदेगा? चंद लोगों ने भी मना किया, तो वो मंज़िल घाटा बन जाती।",
+     "prompt": "an empty vacant office floor in an early 1900s building, bare wooden floorboards, dust in sunbeams from tall windows",
+     "move": "push",
+     "negative": "crowd, people, faces",
+     "caption": "सबसे अशुभ मंज़िल पर कौन ऑफ़िस किराए पर लेगा, या घर ख़रीदेगा? चंद लोगों ने भी मना किया, तो वो मंज़िल घाटा बन जाती।"
+    },
+    {
+     "vo": "तो उन्होंने बहुत आसान काम किया। नंबर बदल दिया।",
+     "prompt": "close-up of an early 1900s gentleman's hand signing a contract with a fountain pen on a leather desk, lamp light",
+     "move": "push",
+     "caption": "तो उन्होंने बहुत आसान काम किया। नंबर बदल दिया।"
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "card": "THE REVEAL",
+   "shots": [
+    {
+     "vo": "लेकिन असली बात ये है। तेरहवीं मंज़िल कभी ग़ायब नहीं हुई। ख़ुद मंज़िलें गिनकर देखिए।",
+     "diagram": "real_floors",
+     "caption": "लेकिन असली बात ये है। 13वीं मंज़िल कभी ग़ायब नहीं हुई। ख़ुद मंज़िलें गिनकर देखिए।"
+    },
+    {
+     "vo": "जिस पर चौदह लिखा है, वही तेरहवीं मंज़िल है। वहाँ रुके, तो आप उसी पर सो रहे हैं। नंबर बदला। इमारत नहीं।",
+     "diagram": "real_floors",
+     "caption": "जिस पर 14 लिखा है, वही 13वीं मंज़िल है। वहाँ रुके, तो आप उसी पर सो रहे हैं। नंबर बदला। इमारत नहीं।"
+    },
+    {
+     "vo": "कहीं उसे मशीनों की मंज़िल बना दिया जाता है, पाइप और पंपों से भरी। कहीं उसे बारह ए कहते हैं। ज़्यादातर बस नंबर छोड़ देते हैं, और उम्मीद करते हैं कि आप गिनेंगे नहीं।",
+     "prompt": "a dim mechanical floor inside a skyscraper, large pipes, pumps and ducts, industrial lights, concrete walls",
+     "move": "push",
+     "negative": "crowd, people, faces",
+     "caption": "कहीं उसे मशीनों की मंज़िल बना दिया जाता है, पाइप और पंपों से भरी। कहीं उसे 12A कहते हैं। ज़्यादातर बस नंबर छोड़ देते हैं, और उम्मीद करते हैं कि आप गिनेंगे नहीं।"
+    },
+    {
+     "vo": "और बात सिर्फ़ तेरह की नहीं है। चीनी भाषा में चार का शब्द मौत के शब्द जैसा सुनाई देता है। कुछ टावर चार वाली हर मंज़िल छोड़ देते हैं।",
+     "diagram": "tetraphobia",
+     "caption": "और बात सिर्फ़ 13 की नहीं है। चीनी भाषा में 4 का शब्द मौत के शब्द जैसा सुनाई देता है। कुछ टावर 4 वाली हर मंज़िल छोड़ देते हैं।"
+    },
+    {
+     "vo": "ऐसी इमारतों में पैनल पर सबसे ऊपर का नंबर, असली मंज़िलों की गिनती से ज़्यादा होता है।",
+     "prompt": "a very tall glass tower in a dense Asian city skyline at night, neon reflections, mist",
+     "move": "pull",
+     "negative": "crowd, people, faces",
+     "caption": "ऐसी इमारतों में पैनल पर सबसे ऊपर का नंबर, असली मंज़िलों की गिनती से ज़्यादा होता है।"
+    },
+    {
+     "vo": "तो आज भी ऐसा क्यों होता है? इसलिए नहीं कि आर्किटेक्ट बदक़िस्मती मानते हैं।",
+     "prompt": "a modern architect's studio with a white scale model of a skyscraper on a table, soft daylight",
+     "move": "push",
+     "negative": "crowd, people, faces",
+     "caption": "तो आज भी ऐसा क्यों होता है? इसलिए नहीं कि आर्किटेक्ट बदक़िस्मती मानते हैं।"
+    },
+    {
+     "vo": "बल्कि इसलिए कि मेहमान मानते हैं। होटलों के मुताबिक़, तेरहवीं मंज़िल का कमरा मिलने पर कुछ मेहमान कमरा बदलने को कहते हैं।",
+     "prompt": "a hotel guest with a suitcase at a marble reception desk, the receptionist handing over a key card, warm lobby light, faces not visible",
+     "move": "push",
+     "caption": "बल्कि इसलिए कि मेहमान मानते हैं। होटलों के मुताबिक़, 13वीं मंज़िल का कमरा मिलने पर कुछ मेहमान कमरा बदलने को कहते हैं।"
+    },
+    {
+     "vo": "और कोई डेवलपर लाखों डॉलर ऐसी मंज़िल पर नहीं लगाना चाहता, जिससे लोग डरते हैं।",
+     "prompt": "a skyscraper at night where every floor is lit except one completely dark floor in the middle",
+     "move": "push",
+     "negative": "crowd, people, faces",
+     "caption": "और कोई डेवलपर लाखों डॉलर ऐसी मंज़िल पर नहीं लगाना चाहता, जिससे लोग डरते हैं।"
+    }
+   ]
+  },
+  {
+   "id": "today",
+   "card": "TODAY",
+   "shots": [
+    {
+     "vo": "तो अगली बार आप चौदह दबाएँगे, तो आपको सच पता होगा।",
+     "prompt": "hotel elevator doors sliding open onto a bright modern corridor, view from inside the elevator",
+     "move": "push",
+     "negative": "crowd, people, faces",
+     "caption": "तो अगली बार आप 14 दबाएँगे, तो आपको सच पता होगा।"
+    },
+    {
+     "vo": "तेरह अब भी वहीं है। बस उसका नाम अलग है।",
+     "diagram": "elevator_gap",
+     "caption": "13 अब भी वहीं है। बस उसका नाम अलग है।"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "स्टील और कंक्रीट की एक मंज़िल, दो हज़ार साल पुराने डर के पीछे छुपी हुई।",
+     "prompt": "a quiet hotel corridor at night with one door slightly open and warm light spilling out, mysterious",
+     "move": "push",
+     "negative": "crowd, people, faces",
+     "caption": "स्टील और कंक्रीट की एक मंज़िल, 2000 साल पुराने डर के पीछे छुपी हुई।"
+    },
+    {
+     "vo": "और यही है असली वजह।",
+     "prompt": "a single round elevator call button glowing amber in a dark wall, close-up, no numbers",
+     "move": "push",
+     "negative": "crowd, people, faces",
+     "caption": "और यही है असली वजह।"
+    },
+    {
+     "vo": "अगली बार: कोका-कोला लाल क्यों होता है? असली वजह चौंका देगी। ऐसी और असली वजहें जानने के लिए सब्सक्राइब करें।",
+     "prompt": "a plain red soda can standing on a dark wooden table, a single dramatic light, no logo, no text",
+     "move": "push",
+     "negative": "logo, text, letters, brand",
+     "caption": "अगली बार: कोका-कोला लाल क्यों होता है? असली वजह चौंका देगी। ऐसी और असली वजहें जानने के लिए सब्सक्राइब करें।"
+    }
+   ]
+  }
+ ],
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "03-13th-floor",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ },
+ "hook_text": "चौदह दबाया, पर कहाँ?",
+ "cover_text": "13वीं मंज़िल *ग़ायब* क्यों?"
+}
