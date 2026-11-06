@@ -26,9 +26,10 @@
    "shots": [
     {
      "vo": "ऐसा क्या हुआ कि राम के नाम लिखे पत्थर समुद्र पर तैरने लगे?",
-     "prompt": "Wide shot, a large grey boulder floating on a calm blue sea with the name Ram carved in white Devanagari letters on its face, a muscular brown-skinned vanara with a long tail on the left shore placing it, distant blurred silhouettes of vanaras behind, golden sunrise light, dramatic waves, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot, a large grey boulder floating on calm blue sea water in the centre, its smooth face covered in bold white Devanagari-style carved marks on the stone only, a muscular brown-furred vanara with a long tail standing on the left sandy shore with both hands lowered toward the water, distant blurred silhouettes of vanaras behind, golden sunrise light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "श्रीराम समुद्र किनारे खड़े थे, लंका जाने का रास्ता नहीं था।",
@@ -62,9 +63,10 @@
     },
     {
      "vo": "वानर पत्थर लाते गए, नल उन्हें पानी में रखते गए।",
-     "prompt": "Wide shot, a muscular young vanara builder Nala, brown fur, orange waist cloth, on the left standing in shallow sea placing a huge grey boulder on the water where it floats, distant blurred silhouettes of vanaras carrying rocks and tree trunks along the shore on the right, bright daylight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot, a pile of many large grey boulders on the sandy shore at right, a muscular young brown-furred vanara with orange waist cloth standing on the left in shallow sea placing a huge grey boulder on the water where it floats, a row of floating boulders behind him, distant blurred silhouettes of vanaras carrying rocks along the shore, bright daylight, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "पाँच दिन में पुल बना, रामसेतु आज भी रामेश्वरम के पास है।",
@@ -82,5 +84,21 @@
   }
  ],
  "reviewed_at": "2026-11-06 22:30",
- "released_at": "2026-11-06 23:03"
+ "released_at": "2026-11-06 23:03",
+ "repaint": {
+  "shots": [
+   1,
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-07 02:29"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T20:54:28Z",
+  "rounds": 1,
+  "why": {
+   "1": "The letters 'RAM' are painted into the water in the lower left, which counts as painted-in text.",
+   "7": "The line says vanaras bring stones and Nala places them. The painting shows one lone human walking on the shore, with no vanaras and no stones being carried or placed."
+  }
+ }
 }
