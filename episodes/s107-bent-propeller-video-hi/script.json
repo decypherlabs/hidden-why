@@ -1,0 +1,72 @@
+{
+ "slug": "s107-bent-propeller-video-hi",
+ "format": "short",
+ "title": "कैमरे पर प्रोपेलर मुड़े हुए क्यों दिखते हैं? 📱",
+ "hook_text": "फ़ोन झूठ बोल रहा है",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपका फ़ोन झूठ बोल रहा है: ये प्रोपेलर मुड़ा हुआ नहीं है।",
+     "prompt": "Medium shot, a man's hand on the left holding a smartphone toward a small single-engine airplane on a sunlit grass airfield on the right; the phone screen clearly shows a propeller with rubbery, bent, curved blades, while the real propeller behind is straight, golden evening light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आपका फ़ोन झूठ बोल रहा है: ये प्रोपेलर मुड़ा हुआ नहीं है।"
+    },
+    {
+     "vo": "असल में ब्लेड सख़्त धातु के होते हैं, कभी नहीं मुड़ते।",
+     "prompt": "Medium shot, a stationary small airplane propeller with two long straight rigid metal blades, centred, silver metal with sunlight glinting along the edges, small grass airfield and blue sky blurred behind, warm golden light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "असल में ब्लेड सख़्त धातु के होते हैं, कभी नहीं मुड़ते।"
+    },
+    {
+     "vo": "आँखों को वो धुंधले दिखते हैं, लेकिन फ़ोन में मुड़े हुए।",
+     "prompt": "Medium-wide shot, a man on the left holds a smartphone up toward a small airplane on the right whose propeller is a soft round circular blur; the phone screen shows curved bent blade shapes, grass airfield, golden afternoon light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आँखों को वो धुंधले दिखते हैं, लेकिन फ़ोन में मुड़े हुए।"
+    },
+    {
+     "vo": "लेकिन रुकिए: फ़ोन पूरी तस्वीर एक साथ नहीं लेता।",
+     "prompt": "Close-up, a smartphone camera lens centred, a thin bright glowing horizontal line of light stretching across the top of the lens glass and sliding downward, dark background, cool blue glow reflecting on the glass, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए: फ़ोन पूरी तस्वीर एक साथ नहीं लेता।"
+    },
+    {
+     "vo": "वो ऊपर से नीचे, एक-एक लाइन करके स्कैन करता है।",
+     "prompt": "Medium shot, a smartphone held upright in a man's hand, screen filled by a photo of an airplane propeller: the top half sharp and captured, the bottom half plain empty black, airfield blurred behind, soft daylight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वो ऊपर से नीचे, एक-एक लाइन करके स्कैन करता है।"
+    },
+    {
+     "vo": "हर लाइन पल भर बाद कैप्चर होती है, इसीलिए प्रोपेलर मुड़ा दिखता है।",
+     "prompt": "Medium shot, a smartphone screen showing a propeller image sliced into many thin horizontal strips stacked top to bottom, each strip with the blade tilted slightly more, together forming a curved bent blade, airfield blurred behind, golden light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "हर लाइन पल भर बाद कैप्चर होती है, इसीलिए प्रोपेलर मुड़ा दिखता है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "प्रोपेलर सीधा है, पर फ़ोन में *मुड़ा* क्यों?",
+ "cover_shot": 1,
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s107-bent-propeller-video",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
