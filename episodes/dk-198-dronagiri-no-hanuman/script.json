@@ -11,7 +11,8 @@
  "cover_text": "हनुमान जी की पूजा यहाँ *मना* क्यों?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Medium-wide shot, Lord Hanuman, red-orange skin, golden mace in hand, at centre holding an enormous glowing mountain of herbs above his head, Himalayan stone-house village below, one distant blurred silhouette of a villager on the right, dramatic moonlit sky, no text"
+  "prompt": "Medium-wide shot, Lord Hanuman, red-orange skin, golden mace in hand, at centre holding an enormous glowing mountain of herbs above his head, Himalayan stone-house village below, one distant blurred silhouette of a villager on the right, dramatic moonlit sky, no text",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -50,15 +51,17 @@
     },
     {
      "vo": "लेकिन वहाँ बहुत सारी बूटियाँ चमक रही थीं।",
-     "prompt": "Wide shot, a dark Himalayan mountainside covered with hundreds of small glowing green and golden herbs, Lord Hanuman, red-orange skin, standing small on the slope at the left, looking down at the glowing plants, night, soft green light, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot, a dark Himalayan mountainside covered with hundreds of bright glowing green and golden herbs shining in every direction, Lord Hanuman, red-orange skin, golden mace, standing on the slope at the left facing the camera, hand raised to his brow, night lit by green herb glow, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "बूटी पहचान न पाने पर वे पूरा पर्वत उठा ले गए।",
-     "prompt": "Wide shot, an enormous glowing mountain of herbs lifted high above Lord Hanuman, red-orange skin, who stands at centre with both arms raised under it, mace at his waist, stormy night sky, lightning clouds, torn rocks and dust around his feet, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot, Lord Hanuman, red-orange skin, golden mace at his waist, standing at centre holding an enormous rocky mountain with glowing herbs on one raised palm high above his head, torn roots and rocks hanging from it, stormy night sky, lightning clouds, dust at his feet, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "द्रोणागिरी के लोग इसी पर्वत को अपना देवता मानते हैं।",
@@ -74,13 +77,35 @@
     },
     {
      "vo": "इसीलिए वे हनुमान जी की पूजा नहीं करते। जय श्री राम! ऐसी और कथाओं के लिए सब्सक्राइब करें।",
-     "prompt": "Wide shot, a quiet stone temple courtyard in a Himalayan village at dusk, a small shrine with an unlit lamp at centre, distant blurred silhouettes of villagers walking away on the right, a snow mountain glowing orange behind, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Wide shot, an Indian Himalayan village temple courtyard at dusk, stone shikhara tower with saffron flag, a small shrine at centre with an unlit brass lamp, distant blurred silhouettes of villagers in dhotis and saris walking away on the right, a snow mountain glowing orange behind, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8928
     }
    ]
   }
  ],
  "reviewed_at": "2026-11-06 22:29",
- "released_at": "2026-11-06 23:03"
+ "released_at": "2026-11-06 23:03",
+ "repaint": {
+  "shots": [
+   5,
+   6,
+   9
+  ],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-07 01:15"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T19:42:39Z",
+  "rounds": 1,
+  "why": {
+   "5": "The line says many herbs were glowing, but the painting shows no glowing herbs. It only shows Hanuman seen from behind on a green slope.",
+   "6": "The line says he carried off the whole mountain, but he is standing in front of it with his arms raised. He isn't lifting it.",
+   "9": "The temple has East Asian (Chinese or Japanese) roofs and the figures look like monks. The setting isn't Indian.",
+   "C": "The temple on the mountain is a Chinese-style pagoda, so the setting isn't Indian."
+  }
+ }
 }
