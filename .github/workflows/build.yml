@@ -67,6 +67,9 @@ jobs:
           T="voice-${EP#episodes/}-$(python3 tools/voicehash.py "$EP/script.json")"
           if gh release download "$T" -R "$GITHUB_REPOSITORY" -p voice.tar -D out 2>/dev/null; then
             tar -xf out/voice.tar -C "out/${{ inputs.slug }}" && echo "narration reused from $T"
+          elif grep -q '"voice_ok"' "$EP/script.json"; then
+            # the owner approved a voiceover: never make another one in a build (owner, 7 Nov 2026)
+            echo "::error::approved narration $T not found; the build won't narrate again" && exit 1
           else
             python pipeline/narrate.py "$EP/script.json" "out/${{ inputs.slug }}"
           fi

@@ -469,6 +469,11 @@ class Captions:
 
 _LT = {}
 MOVES_CYCLE = ("pan_right", "pull", "pan_left", "push")
+# a colour grade per episode (script "grade"; owner, 7 Nov 2026: Maruti 800 in Cross process), the same settings as the
+# dashboard's filter previews (clipper/filters.json), applied while encoding
+GRADES = {"cross-process": "eq=contrast=1.15:saturation=1.3,hue=h=-12",
+          "cinematic": "eq=contrast=1.1:saturation=1.15,colorbalance=rs=0.05:bs=-0.05:rh=0.04:bh=-0.04",
+          "warm": "colorbalance=rs=0.06:gs=0.02:bs=-0.06,eq=saturation=1.08"}
 FX = False  # brand "motion_fx" (Logos & Legends, owner 7 Nov 2026: "make it more engaging, with some motion")
 YEAR = re.compile(r"\b(1[89]\d\d|20\d\d)\b")
 AMOUNT = re.compile(r"₹\s?[\d,]+(?:\.\d+)?\s*(?:करोड़|लाख|crore|lakh)?|\b\d+(?:\.\d+)?\s?%")
@@ -798,6 +803,7 @@ def main(script_path, out_dir):
     # ---- picture
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{W}x{H}",
                            "-r", str(FPS), "-i", "-", "-i", str(out / "mix.wav"), "-map", "0:v", "-map", "1:a",
+                           *(["-vf", GRADES[script["grade"]]] if script.get("grade") in GRADES else []),
                            "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-tune", "film", "-pix_fmt", "yuv420p",
                            "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
                            "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", str(out / "video.mp4")],
