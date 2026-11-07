@@ -1,0 +1,75 @@
+{
+ "slug": "s137-seashell-ocean-sound-hi",
+ "format": "short",
+ "title": "खाली मग में समुद्र की आवाज़ कहाँ से आती है? 🐚",
+ "hook_text": "खाली मग, समुद्र?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "खाली मग में समुद्र की आवाज़ क्यों आती है?",
+     "prompt": "Medium shot, a young man with short black hair in a grey t-shirt standing centre in a bright Indian home kitchen, a white ceramic coffee mug pressed to his ear, eyes wide with amazement, steel utensils on the shelf behind, soft morning window light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "खाली मग में समुद्र की आवाज़ क्यों आती है?"
+    },
+    {
+     "vo": "शंख को समुद्र से हज़ार मील दूर ले जाओ, फिर भी वो गरजता है।",
+     "prompt": "Wide shot, a woman in a green cotton saree standing centre in a dry golden wheat field, a large pink spiral seashell held to her ear, face turned away, flat empty horizon in every direction, warm late afternoon light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "शंख को समुद्र से 1,000 मील दूर ले जाओ, फिर भी वो गरजता है।"
+    },
+    {
+     "vo": "खाली मग कान पर लगाओ, वही आवाज़ आती है।",
+     "prompt": "Medium shot, an old man with white hair and glasses in a cream kurta seated at a wooden table in an Indian kitchen, a white coffee mug held against his ear, eyes closed, soft window light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "खाली मग कान पर लगाओ, वही आवाज़ आती है।"
+    },
+    {
+     "vo": "लेकिन पेच ये है: ये आवाज़ कमरे में पहले से थी।",
+     "prompt": "Wide shot, an empty Indian living room with a sofa on the left and a brass lamp on the right, faint translucent wavy sound ripples drifting through the air between them, warm evening light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन पेच ये है: ये आवाज़ कमरे में पहले से थी।"
+    },
+    {
+     "vo": "कमरे का हल्का शोर हमेशा हवा में रहता है, बस इतना धीमा कि पता नहीं चलता।",
+     "prompt": "Wide shot, a still Indian bedroom at night, a woman in a white nightdress asleep in a bed on the left, a wooden window on the right, pale translucent ripples floating through the air across the room, cool moonlight, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "कमरे का हल्का शोर हमेशा हवा में रहता है, बस इतना धीमा कि पता नहीं चलता।"
+    },
+    {
+     "vo": "शंख उस शोर की कुछ आवाज़ें बढ़ा देता है, इसीलिए खाली मग में समुद्र सुनाई देता है।",
+     "prompt": "Close medium shot, a large spiral seashell cut open on a wooden table, its curved inner chamber visible, glowing blue sound-wave lines entering the opening and swelling inside the spiral, bright clear light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "शंख उस शोर की कुछ आवाज़ें बढ़ा देता है, इसीलिए खाली मग में समुद्र सुनाई देता है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "खाली मग में सुनाई देता है *समुद्र*!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Realistic painting, giant spiral seashell held against a child's ear in extreme close-up, glowing blue ocean waves swirling out of the shell opening, bright beach light, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s137-seashell-ocean-sound",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

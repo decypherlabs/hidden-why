@@ -1,0 +1,75 @@
+{
+ "slug": "s138-bottle-glug-pour-hi",
+ "format": "short",
+ "title": "बोतल से पानी गट-गट करके क्यों गिरता है? 💧",
+ "hook_text": "पानी रुका क्यों?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "बिना रुकावट के भी बोतल का पानी क्यों रुक जाता है?",
+     "prompt": "Medium shot of a clear plastic bottle held upside down in a man's hand, narrow neck pointing down, water stream cut short with a visible gap of empty air beneath the neck, water hanging inside, dark kitchen counter, dramatic side light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "बिना रुकावट के भी बोतल का पानी क्यों रुक जाता है?"
+    },
+    {
+     "vo": "पानी निकलता है, रुकता है, फिर निकलता है, गट-गट-गट की आवाज़ के साथ।",
+     "prompt": "Medium close shot of an upside-down clear bottle held by a man's hand over a steel sink, water spilling out in a thick splash, one large air bubble rising inside the bottle, dark kitchen, bright side light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पानी निकलता है, रुकता है, फिर निकलता है, गट-गट-गट की आवाज़ के साथ।"
+    },
+    {
+     "vo": "पर चौड़े गिलास से पानी आराम से गिर जाता है।",
+     "prompt": "Medium shot of a woman on the right tilting a wide clear drinking glass, a smooth unbroken stream of water pouring into a steel bowl on a wooden table at left, bright morning window light, Indian kitchen, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पर चौड़े गिलास से पानी आराम से गिर जाता है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, बोतल एक ऐसी चीज़ से लड़ रही है जो दिखती नहीं।",
+     "prompt": "Medium shot of an upside-down clear bottle with a narrow neck held in a man's hand, faint white swirling mist inside pressing upward against the water, dark kitchen background, dramatic blue side light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, बोतल एक ऐसी चीज़ से लड़ रही है जो दिखती नहीं।"
+    },
+    {
+     "vo": "पानी तभी निकलेगा जब हवा उसी पतली गर्दन से अंदर जाएगी।",
+     "prompt": "Close medium shot of a clear glass bottle neck pointing down, a thin stream of water flowing out along one wall and a single large air bubble rising up along the opposite wall inside the neck, dark background, strong side light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पानी तभी निकलेगा जब हवा उसी पतली गर्दन से अंदर जाएगी।"
+    },
+    {
+     "vo": "एक ही मुँह पर हवा और पानी की लड़ाई, इसीलिए बोतल रुक-रुककर गट-गट करती है।",
+     "prompt": "Medium close shot of an upside-down clear bottle mouth, water crowded at the narrow opening with one big air bubble stuck against it, bubbles bunched together, held by a man's hand over a sink, bright colourful kitchen light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "एक ही मुँह पर हवा और पानी की लड़ाई, इसीलिए बोतल रुक-रुककर गट-गट करती है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "बोतल का पानी बिना रुकावट *अटकता* क्यों?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Realistic painting, close-up of an upside-down water bottle with a giant air bubble bursting up through the gushing water at the neck, splashing droplets, bright background, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s138-bottle-glug-pour",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
