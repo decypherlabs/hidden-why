@@ -1,0 +1,65 @@
+{
+ "slug": "s151-coin-hole-pocket",
+ "format": "short",
+ "title": "Why Shop Receipts Fade Over Time 🧾",
+ "hook_text": "WHERE DID IT GO?",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "voice_speed": 1.05,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Why does your receipt turn blank after a few months?",
+     "prompt": "a hand holding up a crumpled shop receipt faded to completely blank white paper, wallet and coins on a wooden table, soft daylight, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Here's the strange part: that printer has no ink at all.",
+     "prompt": "a small receipt printer with an empty ink-free interior and a roll of white paper feeding out, on a shop counter, soft daylight, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The paper itself is coated with a chemical that turns black with heat.",
+     "prompt": "a strip of white thermal paper with one half turning black under a hot metal print head, glowing heat, macro close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The printer just heats tiny dots, and the dots turn dark.",
+     "prompt": "a thermal print head with rows of tiny glowing orange dots pressing on white paper, dark dots appearing behind it, macro close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But sunlight, a hot wallet or rubbing triggers the same reaction slowly.",
+     "prompt": "a receipt turning dark and unreadable on a car dashboard in strong sunlight, wallet beside it, bright window light, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "That's why receipts fade: the ink was only ever heat-sensitive paper.",
+     "prompt": "three receipts side by side on a table: left one with sharp black print, middle one half faded grey, right one completely blank white, soft daylight, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "cover_text": "RECEIPTS ARE PRINTED WITHOUT *INK*",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A crumpled shop receipt half blank and faded next to a fresh one, close up, bright, realistic painting, no text, vertical composition, bright warm light, highly detailed"
+ }
+}
