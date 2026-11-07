@@ -28,6 +28,18 @@ def lines(script):
             yield n, s["vo"]
 
 
+def trim(x, pad=0.06):
+    """Parler pads a line with silence at both ends (owner, 7 Nov 2026: "a lot of pauses in the voiceover"): cut it
+    to `pad` seconds, so the pause between lines is the edit's own breath, not the model's. Pauses inside a line
+    (commas) stay."""
+    hop = SR // 100
+    rms = np.sqrt(np.convolve(x.astype(np.float64) ** 2, np.ones(hop) / hop, mode="same"))
+    on = np.where(rms > max(1e-4, 0.03 * rms.max()))[0]
+    if not len(on):
+        return x
+    return x[max(0, on[0] - int(pad * SR)):min(len(x), on[-1] + int(pad * SR))]
+
+
 def parler(script, out, v):
     """Indic Parler-TTS (AI4Bharat, Apache-2.0): Devlok Katha's Hindi narrator, on a free CPU runner. The voice is
     set by a written description; one seed for every line keeps it the same person. Resampled to 24 kHz."""
@@ -45,6 +57,8 @@ def parler(script, out, v):
         a = model.generate(input_ids=d.input_ids, attention_mask=d.attention_mask,
                            prompt_input_ids=p.input_ids, prompt_attention_mask=p.attention_mask).cpu().float().squeeze()
         x = AF.resample(a.unsqueeze(0), model.config.sampling_rate, SR).squeeze().numpy()
+        if v.get("trim"):
+            x = trim(x)
         sf.write(out / f"vo-{n:02d}.wav", x, SR)
         if v.get("tempo", 1) != 1 or v.get("pitch", 1) != 1:  # faster delivery (owner, 6 Nov 2026: hits speak ~3 words/s, Divya ~2)
             tmp = out / f"vo-{n:02d}.raw.wav"  # "pitch" < 1 deepens the voice without slowing it (owner picked 0.92 + 1.15x)
