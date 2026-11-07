@@ -27,9 +27,10 @@
    "shots": [
     {
      "vo": "क्या आप जानते हैं, माखन चोर कृष्ण को ओखली से क्यों बाँधा गया?",
-     "prompt": "a heavy wooden mortar with a thick rope tied around it and a broken butter pot beside it, a small dark-blue-skinned child with peacock feather sitting near it, village home in Gokul, soft side light, medium shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "a heavy wooden mortar with a thick rope tied around it and a broken butter pot beside it on the floor, centre, village home in Gokul, soft morning light, medium shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8920
     },
     {
      "vo": "गोकुल में नन्हे कृष्ण को माखन बहुत पसंद था।",
@@ -57,21 +58,24 @@
     },
     {
      "vo": "उन्होंने कृष्ण को ओखली से बाँधना चाहा।",
-     "prompt": "a woman in a plain red saree kneeling with a rope in both hands, left, a large wooden mortar on the right with a small dark-blue-skinned child with peacock feather standing beside it, rope stretched between them, village courtyard, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "a woman in a red saree tying a rope around the waist of a small dark-blue-skinned child with peacock feather standing against a large wooden mortar, centre, village courtyard, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "लेकिन रस्सी हर बार दो उँगल छोटी पड़ गई।",
-     "prompt": "a long rope made of several ropes knotted together lying stretched on the ground, ending just short of a large wooden mortar, a kneeling woman in a red saree holding one end on the left, small dark-blue-skinned child with peacock feather standing by the mortar on the right, village courtyard, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "a rope stretched between a woman in a red saree on the left and a large wooden mortar on the right, the rope ends two fingers away from the mortar, small dark-blue-skinned child with peacock feather standing by the mortar, village courtyard, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "यशोदा थक गईं, तब कृष्ण खुद बँध गए।",
-     "prompt": "a small dark-blue-skinned child with peacock feather standing smiling beside a large wooden mortar with a rope tied around his waist, right, a tired woman in a red saree wiping her forehead far off on the left, Gokul courtyard, soft golden light, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "a small dark-blue-skinned child with peacock feather standing smiling with a rope tied securely around his waist to the large wooden mortar, centre, a tired woman in a red saree resting on the left, Gokul courtyard, soft golden light, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "माँ के प्यार में बँधे, इसीलिए यशोदा कृष्ण को बाँध पाईं। कमेंट में जय श्री कृष्ण लिखिए, और ऐसी कथाओं के लिए सब्सक्राइब करें।",
@@ -91,5 +95,25 @@
   "model": "ai4bharat/indic-parler-tts",
   "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
   "trim": true
+ },
+ "repaint": {
+  "shots": [
+   1,
+   6,
+   7,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-07 23:18"
+ },
+ "shot_qc": {
+  "checked": "2026-11-07T17:37:56Z",
+  "rounds": 1,
+  "why": {
+   "1": "The image likely shows Krishna already tied or in a context that obscures the 'okhal' (mortar) focus.",
+   "6": "The scene fails to clearly show the attempt to tie Krishna to the mortar as per the narration.",
+   "7": "The image fails to depict the critical narrative element of the rope being two fingers short.",
+   "8": "The image does not clearly show Krishna 'letting' himself be tied; the visual narrative is inconsistent with the specific moment described."
+  }
  }
 }
