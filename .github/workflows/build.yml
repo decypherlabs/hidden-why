@@ -61,7 +61,15 @@ jobs:
       - name: Narration
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: python pipeline/narrate.py "$EP/script.json" "out/${{ inputs.slug }}"
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # the narration the owner already heard and approved (narrate.yml) when the lines and voice are unchanged
+          T="voice-${EP#episodes/}-$(python3 tools/voicehash.py "$EP/script.json")"
+          if gh release download "$T" -R "$GITHUB_REPOSITORY" -p voice.tar -D out 2>/dev/null; then
+            tar -xf out/voice.tar -C "out/${{ inputs.slug }}" && echo "narration reused from $T"
+          else
+            python pipeline/narrate.py "$EP/script.json" "out/${{ inputs.slug }}"
+          fi
       - name: Edit
         run: |
           python pipeline/build.py "$EP/script.json" "out/${{ inputs.slug }}"

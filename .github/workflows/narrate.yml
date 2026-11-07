@@ -1,0 +1,59 @@
+name: narrate
+run-name: narrate ${{ inputs.slug }}  # studio/thw_kaggle.py voice() finds its run by this name
+# Narration only, before any painting (owner, 7 Nov 2026: "as soon as I approve the script, the voice gets generated
+# first on GH and I want to hear the audio before we spend the GPU"). Publishes release voice-<slug>-<hash>
+# (tools/voicehash.py) with voice.tar (vo-NN.wav + vo.json, reused by build.yml) and preview.mp3 (the owner listens).
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        required: true
+permissions:
+  contents: write
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg > /dev/null
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: hiddenwhy-v1
+      - name: Episode
+        run: |
+          EP="episodes/${{ inputs.slug }}"
+          echo "EP=$EP" >> "$GITHUB_ENV"
+          echo "HW_BRAND=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1])).get('brand') or '')" "$EP/script.json")" >> "$GITHUB_ENV"
+          echo "VH=$(python3 tools/voicehash.py "$EP/script.json")" >> "$GITHUB_ENV"
+      - name: Python packages
+        run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q -r requirements.txt
+          if grep -q '"parler"' "$EP/script.json" || { [ -n "$HW_BRAND" ] && grep -q '"parler"' "brand/$HW_BRAND/brand.json"; }; then
+            pip install -q git+https://github.com/huggingface/parler-tts.git
+            pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+            pip install -q sentencepiece==0.2.2  # same pin as build.yml
+          fi
+      - name: Narration
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          mkdir -p "out/${{ inputs.slug }}"
+          python pipeline/narrate.py "$EP/script.json" "out/${{ inputs.slug }}"
+          python tools/voice_preview.py "$EP/script.json" "out/${{ inputs.slug }}"
+      - name: Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd "out/${{ inputs.slug }}"
+          tar -cf voice.tar vo-*.wav vo.json
+          T="voice-${{ inputs.slug }}-$VH"
+          gh release delete "$T" -R "$GITHUB_REPOSITORY" -y --cleanup-tag 2>/dev/null || true
+          gh release create "$T" voice.tar preview.mp3 -R "$GITHUB_REPOSITORY" -t "$T" -n "Narration of ${{ inputs.slug }} ($VH)"
