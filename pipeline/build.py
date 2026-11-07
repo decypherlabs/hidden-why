@@ -86,6 +86,190 @@ class Intro:
         return (out * fade).astype(np.uint8) if fade < 1 else out
 
 
+# ---- documentary graphics (Logos & Legends, owner 7 Nov 2026, after The Quiet Story's on-screen text)
+
+def numbered_card(title, num):
+    """Chapter card like the reference: deep navy, the chapter number huge and faded, "CHAPTER 02" in small gold
+    spaced capitals, the title in cream."""
+    img = Image.new("RGB", (W, H), (12, 22, 36))
+    d = ImageDraw.Draw(img)
+    big = K.display(560)
+    d.text((W / 2, H / 2 + 40), f"{num:02d}", font=big, anchor="mm", fill=(26, 40, 60))
+    d.text((W / 2, H / 2 - 70), " ".join(f"CHAPTER {num:02d}"), font=K.body(28, "Bold"), fill=K.YEL, anchor="mm")
+    f = K.display(96)
+    while d.textlength(title, font=f) > W * 0.8 and f.size > 50:
+        f = K.display(f.size - 4)
+    d.text((W / 2, H / 2 + 30), title, font=f, fill=(244, 236, 220), anchor="mm")
+    return bgr(K.grain(img))
+
+
+def _paste(frame, rgba, x, y, alpha=1.0):
+    arr = np.asarray(rgba)
+    rgb, al = cv2.cvtColor(arr[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), arr[..., 3:4] / 255.0 * max(0.0, alpha)
+    h, w = rgb.shape[:2]
+    x, y = int(x), int(y)
+    x0, y0, x1, y1 = max(0, x), max(0, y), min(W, x + w), min(H, y + h)
+    if x1 <= x0 or y1 <= y0:
+        return frame
+    roi = frame[y0:y1, x0:x1].astype(np.float32)
+    sr, sa = rgb[y0 - y:y1 - y, x0 - x:x1 - x], al[y0 - y:y1 - y, x0 - x:x1 - x]
+    frame[y0:y1, x0:x1] = (sr * sa + roi * (1 - sa)).astype(np.uint8)
+    return frame
+
+
+def _dim(frame, k):
+    return (frame.astype(np.float32) * (1 - k)).astype(np.uint8)
+
+
+def date_callout(frame, text, t, dur=2.0):
+    """A big bold date over a softened, dimmed frame ("OCTOBER 1947"), underlined; a typewriter hit lands on it."""
+    a = min(1.0, t / 0.2, (dur - t) / 0.3)
+    frame = cv2.addWeighted(frame, 1 - 0.6 * a, cv2.GaussianBlur(frame, (0, 0), 9), 0.6 * a, 0)
+    frame = _dim(frame, 0.25 * a)
+    f = K.body(130, "Bold")
+    img = Image.new("RGBA", (W, 260), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.text((W / 2, 110), text.upper(), font=f, anchor="mm", fill=(255, 255, 255, 255))
+    tw = d.textlength(text.upper(), font=f)
+    d.rectangle((W / 2 - tw / 2, 190, W / 2 - tw / 2 + tw * min(1.0, t / 0.6), 196), fill=(255, 255, 255, 255))
+    return _paste(frame, img, 0, H / 2 - 130, a)
+
+
+def stamp(frame, text, t, dur=2.4):
+    """A red rubber stamp slammed onto the scene ("NO MONEY"): double border, grainy ink, tilted, a quick slam-in."""
+    if t > dur:
+        return frame
+    key = ("stamp", text)
+    if key not in _TITLES:
+        f = K.body(110, "Bold")
+        d0 = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+        tw = int(d0.textlength(text.upper(), font=f))
+        im = Image.new("RGBA", (tw + 120, 220), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        red = (200, 30, 36, 235)
+        d.rounded_rectangle((8, 8, tw + 112, 212), 22, outline=red, width=12)
+        d.rounded_rectangle((26, 26, tw + 94, 194), 16, outline=red, width=5)
+        d.text(((tw + 120) / 2, 112), text.upper(), font=f, anchor="mm", fill=red)
+        rng = np.random.default_rng(7)  # worn ink
+        a = np.asarray(im).copy()
+        holes = rng.random(a.shape[:2]) < 0.09
+        a[..., 3][holes] = (a[..., 3][holes] * 0.25).astype(np.uint8)
+        im = Image.fromarray(a).rotate(-11, expand=True, resample=Image.BICUBIC)
+        _TITLES[key] = im
+    im = _TITLES[key]
+    sc = 1.35 - 0.35 * min(1.0, t / 0.12)
+    w, h = int(im.width * sc), int(im.height * sc)
+    a = min(1.0, (dur - t) / 0.35)
+    return _paste(frame, im.resize((w, h)), W * 0.62 - w / 2, H * 0.4 - h / 2, a)
+
+
+def keyword(frame, text, t, dur=2.6):
+    """A spaced-capitals word over the dimmed scene ("LICENCE RAJ")."""
+    a = min(1.0, t / 0.35, (dur - t) / 0.4)
+    frame = _dim(frame, 0.45 * a)
+    img = Image.new("RGBA", (W, 200), (0, 0, 0, 0))
+    ImageDraw.Draw(img).text((W / 2, 100), "  ".join(text.upper()), font=K.body(66), anchor="mm", fill=(250, 246, 238, 255))
+    return _paste(frame, img, 0, H / 2 - 100, a)
+
+
+def typecard(frame, text, t, dur=3.4):
+    """Old paper with the words typed onto it, letter by letter (company names, documents)."""
+    a = min(1.0, t / 0.3, (dur - t) / 0.35)
+    frame = _dim(frame, 0.35 * a)
+    f = ImageFont.truetype(str(K.HERE / "logos-and-legends" / "fonts" / "SpecialElite-Regular.ttf"), 76) \
+        if (K.HERE / "logos-and-legends" / "fonts" / "SpecialElite-Regular.ttf").exists() else K.body(70)
+    shown = text[:int(max(0.0, t - 0.25) / 0.07)]
+    d0 = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+    cw = int(max(700, d0.textlength(text, font=f) + 160))
+    card = Image.new("RGBA", (cw, 260), (236, 224, 196, 250))
+    rng = np.random.default_rng(3)
+    arr = np.asarray(card).copy()
+    arr[..., :3] = np.clip(arr[..., :3].astype(np.int16) - rng.integers(0, 18, arr.shape[:2])[..., None], 0, 255).astype(np.uint8)
+    card = Image.fromarray(arr)
+    ImageDraw.Draw(card).text((cw / 2, 130), shown, font=f, anchor="mm", fill=(40, 34, 28, 255))
+    return _paste(frame, card, W / 2 - cw / 2, H / 2 - 130, a)
+
+
+_LOGOS = {}
+
+
+def logo_image(name, out):
+    """The brand's real logo from its Wikipedia page (editorial use; owner, 7 Nov 2026), cached in out/logos/."""
+    if name in _LOGOS:
+        return _LOGOS[name]
+    import urllib.parse
+    import urllib.request
+    p = out / "logos" / (re.sub(r"[^a-z0-9]+", "-", name.lower()) + ".png")
+    if not p.exists():
+        try:
+            q = urllib.parse.urlencode({"action": "query", "titles": name, "prop": "pageimages", "format": "json",
+                                        "pithumbsize": 600, "redirects": 1})
+            req = urllib.request.Request(f"https://en.wikipedia.org/w/api.php?{q}", headers={"User-Agent": "LogosAndLegends/1.0"})
+            pages = json.loads(urllib.request.urlopen(req, timeout=30).read())["query"]["pages"]
+            src = next(iter(pages.values())).get("thumbnail", {}).get("source")
+            if src:
+                p.parent.mkdir(exist_ok=True)
+                req = urllib.request.Request(src, headers={"User-Agent": "LogosAndLegends/1.0"})
+                p.write_bytes(urllib.request.urlopen(req, timeout=30).read())
+        except Exception as e:  # noqa: BLE001 - the brand's name in type instead
+            print(f"logo {name}: {e}")
+    _LOGOS[name] = Image.open(p).convert("RGBA") if p.exists() else None
+    return _LOGOS[name]
+
+
+def _logo_tile(name, out, size=230):
+    """A white rounded card with the logo (or the name in type when there's none)."""
+    card = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    d = ImageDraw.Draw(card)
+    d.rounded_rectangle((0, 0, size - 1, size - 1), 28, fill=(250, 250, 248, 245))
+    lg = logo_image(name, out)
+    if lg is not None:
+        lg.thumbnail((int(size * 0.8), int(size * 0.8)))
+        card.paste(lg, ((size - lg.width) // 2, (size - lg.height) // 2), lg)
+    else:
+        f = K.body(34, "Bold")
+        d.multiline_text((size / 2, size / 2), name.replace(" ", "\n"), font=f, anchor="mm", fill=(30, 30, 30, 255), align="center")
+    return card
+
+
+def logo_card(frame, name, out, t, dur=2.8):
+    a = min(1.0, t / 0.25, (dur - t) / 0.35)
+    sc = 0.85 + 0.15 * min(1.0, t / 0.25)
+    tile = _logo_tile(name, out)
+    s2 = int(tile.width * sc)
+    return _paste(frame, tile.resize((s2, s2)), W - s2 - 80, 80, a)
+
+
+def merge_graphic(frame, spec, out, t, dur=4.2):
+    """A business move in one line: logos with "+" and "->", the year over the arrow (Mahindra + Punjab Tractors
+    -> 2007 -> Swaraj). spec: {"from": [...], "year": "2007", "to": "Swaraj"}; each piece appears in turn."""
+    a = min(1.0, (dur - t) / 0.4)
+    frame = _dim(frame, 0.5 * min(1.0, t / 0.3) * a)
+    names = list(spec.get("from") or []) + ([spec["to"]] if spec.get("to") else [])
+    n = len(names)
+    tile_w, gap = 230, 110
+    total = n * tile_w + (n - 1) * gap
+    x = W / 2 - total / 2
+    f = K.body(70, "Bold")
+    for i, nm in enumerate(names):
+        ti = 0.35 * i
+        if t < ti:
+            break
+        al = min(1.0, (t - ti) / 0.25) * a
+        frame = _paste(frame, _logo_tile(nm, out), x, H / 2 - tile_w / 2, al)
+        if i < n - 1 and t > ti + 0.2:
+            sym = "→" if (spec.get("to") and i == n - 2) else "+"
+            img = Image.new("RGBA", (gap, 200), (0, 0, 0, 0))
+            ImageDraw.Draw(img).text((gap / 2, 100), sym, font=f, anchor="mm", fill=(255, 255, 255, 255))
+            frame = _paste(frame, img, x + tile_w, H / 2 - 100, al)
+            if sym == "→" and spec.get("year"):
+                yi = Image.new("RGBA", (gap + 120, 60), (0, 0, 0, 0))
+                ImageDraw.Draw(yi).text(((gap + 120) / 2, 30), str(spec["year"]), font=K.body(40, "Bold"), anchor="mm", fill=K.YEL + (255,))
+                frame = _paste(frame, yi, x + tile_w - 60, H / 2 - 150, al)
+        x += tile_w + gap
+    return frame
+
+
 def film_card(title, num, first_shot):
     """A documentary chapter card (Logos & Legends, after The Quiet Story; brand "chapter_style": "film"): the
     chapter's first picture darkened and softened, "CHAPTER N" in small spaced gold capitals, the title large,
@@ -626,6 +810,7 @@ def main(script_path, out_dir):
     labels = []  # (t0, t1, text): lower-thirds
     titles = []  # (t0, t1, text): big phrases over the picture
     counters, years_seen, cards_at, last_counter = [], set(), [], -99.0  # FX: counting amounts, auto date labels
+    gfx = []  # (t0, kind, payload): date callouts, stamps, keywords, typed cards, logos, merge graphics
     intro_at = None
     for si, sec in enumerate(script["sections"]):
         if FX and K.B.get("intro") == "title" and intro_at is None and si > 0 and sec.get("card"):
@@ -641,7 +826,12 @@ def main(script_path, out_dir):
             continue
         if sec.get("card"):
             chapters.append((t, sec["card"].title()))
-            if K.B.get("chapter_style") == "film" and not short:
+            if K.B.get("chapter_style") == "numbered" and not short:  # the reference's navy numbered card
+                cards_at.append(t)
+                num = len(chapters) - (1 if chapters[0][1] == "Intro" else 0)
+                items.append((t, 3.0, Shot(numbered_card(sec["card"], num), "push"), None, sec["id"]))
+                t += 3.0
+            elif K.B.get("chapter_style") == "film" and not short:
                 first = next((x for x in [out / f"shot-{n + 1:02d}.png"] if x.exists()), None)
                 cards_at.append(t)
                 items.append((t, 3.0, Shot(film_card(sec["card"], len(chapters) - (1 if chapters[0][1] == "Intro" else 0), first), "push"),
@@ -681,11 +871,21 @@ def main(script_path, out_dir):
                 labels.append((t + 0.3, t + min(d, 4.3), s["label"]))
                 years_seen.update(YEAR.findall(s["label"]))
             line = s.get("caption") or s["vo"]
-            if FX and not s.get("label"):  # every first mention of a year gets its own lower-third
+            if FX and s.get("date"):
+                gfx.append((t + 0.2, "date", s["date"]))
+                years_seen.update(YEAR.findall(s["date"]))
+            elif FX and not s.get("label"):  # every first mention of a year: a big date callout (or a lower-third)
                 y = next((y for y in YEAR.findall(line) if y not in years_seen), None)
                 if y:
                     years_seen.add(y)
-                    labels.append((t + 0.3, t + min(d, 3.6), y))
+                    if K.B.get("date_style") == "callout":
+                        gfx.append((t + 0.2, "date", y))
+                    else:
+                        labels.append((t + 0.3, t + min(d, 3.6), y))
+            if FX:
+                for kind in ("stamp", "keyword", "typecard", "logo", "merge"):
+                    if s.get(kind):
+                        gfx.append((t + (0.6 if kind == "stamp" else 0.25), kind, s[kind]))
             if FX and t - last_counter > 12:  # an amount or a percentage counts up as it's said
                 m = AMOUNT.search(line)
                 if m and not YEAR.fullmatch(m.group().strip()):
@@ -785,8 +985,20 @@ def main(script_path, out_dir):
         for it in items[1:]:
             if it[3] is not None:
                 put(whoosh(0.35), max(0, it[0] - 0.2), -27)
-        for c in cards_at:
-            put(riser(), max(0, c - 1.4), -21)
+        page = K.asset("sfx/page.wav")
+        for c in cards_at:  # the brand's page sound on each chapter card, else a rising swell into it
+            if page.exists():
+                put(load_sfx("page"), c + 0.05, -14)
+            else:
+                put(riser(), max(0, c - 1.4), -21)
+        hit = K.asset("sfx/typehit.wav").exists()
+        for g0, kind, pay in gfx:
+            if kind in ("date", "stamp"):
+                put(load_sfx("typehit") if hit else load_sfx("impact"), g0 + (0.0 if kind == "date" else 0.1), -12 if kind == "stamp" else -15)
+            elif kind == "typecard" and K.asset("sfx/typing.wav").exists():
+                put(load_sfx("typing")[:int(SR * min(3.0, 0.07 * len(str(pay)) + 0.2))], g0 + 0.25, -20)
+            elif kind in ("logo", "merge"):
+                put(whoosh(0.3, seed=13), g0, -24)
         if intro_at is not None:
             put(riser(1.8), max(0, intro_at - 1.6), -17)
             put(load_sfx("impact"), intro_at + 0.15, -12)
@@ -827,6 +1039,22 @@ def main(script_path, out_dir):
                     fr = transition(fr, nxt.frame(0.0), 1 - left / XF, kind)
                 else:
                     fr = cv2.addWeighted(fr, left / XF, nxt.frame(0.0), 1 - left / XF, 0)
+            for g0, kind, pay in gfx:
+                gt = k / FPS - g0
+                if gt < 0 or gt > {"date": 2.0, "stamp": 2.4, "keyword": 2.6, "typecard": 3.4, "logo": 2.8, "merge": 4.2}[kind]:
+                    continue
+                if kind == "date":
+                    fr = date_callout(fr.copy(), pay, gt)
+                elif kind == "stamp":
+                    fr = stamp(fr.copy(), pay, gt)
+                elif kind == "keyword":
+                    fr = keyword(fr.copy(), pay, gt)
+                elif kind == "typecard":
+                    fr = typecard(fr.copy(), pay, gt)
+                elif kind == "logo":
+                    fr = logo_card(fr.copy(), pay, out, gt)
+                elif kind == "merge":
+                    fr = merge_graphic(fr.copy(), pay, out, gt)
             cnt = next((c for c in counters if 0 <= k / FPS - c[0] < 2.8), None)
             if cnt:
                 fr = counter(fr.copy(), cnt[1], k / FPS - cnt[0])
