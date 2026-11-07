@@ -352,6 +352,37 @@ class Captions:
         return frame
 
 
+_LT = {}
+
+
+def lower_third(frame, text, alpha):
+    """A documentary lower-third (after The Quiet Story): the label in spaced capitals with a thin accent line,
+    bottom-left above the captions, e.g. "J.C. MAHINDRA · INDIA'S FIRST STEEL CONTROLLER"."""
+    if text not in _LT:
+        main, _, sub = text.partition("·")
+        f1, f2 = K.body(34, "Bold"), K.body(22)
+        spaced = lambda t: " ".join(t.strip().upper())  # letter-spacing, like the reference
+        a, b = spaced(main), spaced(sub) if sub.strip() else ""
+        d0 = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+        w = int(max(d0.textlength(a, font=f1), d0.textlength(b, font=f2) if b else 0)) + 40
+        img = Image.new("RGBA", (w, 120), (0, 0, 0, 0))
+        d = ImageDraw.Draw(img)
+        d.rectangle((0, 8, 4, 104 if b else 60), fill=K.YEL + (255,))
+        d.text((20, 10), a, font=f1, fill=(250, 245, 235, 255), stroke_width=2, stroke_fill=(0, 0, 0, 160))
+        if b:
+            d.text((20, 62), b, font=f2, fill=(220, 210, 190, 255), stroke_width=2, stroke_fill=(0, 0, 0, 160))
+        arr = np.asarray(img)
+        _LT[text] = (cv2.cvtColor(arr[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), arr[..., 3:4] / 255.0)
+    rgb, al = _LT[text]
+    al = al * max(0.0, alpha)
+    x, y = 70, int(H * 0.70)
+    h, w = rgb.shape[:2]
+    w = min(w, W - x)
+    roi = frame[y:y + h, x:x + w].astype(np.float32)
+    frame[y:y + h, x:x + w] = (rgb[:, :w] * al[:, :w] + roi * (1 - al[:, :w])).astype(np.uint8)
+    return frame
+
+
 def whoosh(sec=0.45, seed=5):
     """A soft air whoosh, made here (no sample, no licence): noise through a band-pass sweeping up then down."""
     rng = np.random.default_rng(seed)
@@ -403,6 +434,7 @@ def main(script_path, out_dir):
     explainers = []  # time ranges of the science diagrams: the music sits a little higher under them
     t = 0.0
     chapters = []
+    labels = []  # (t0, t1, text): lower-thirds
     for sec in script["sections"]:
         if sec.get("sting"):
             items.append((t, 2.2, Seq(sting_frames(int(2.2 * FPS))), None, sec["id"]))
@@ -429,6 +461,8 @@ def main(script_path, out_dir):
                 if short:
                     cuts += [t + d * i / parts for i in range(1, parts)]
             items.append((t, d, vis, out / f"vo-{n:02d}.wav", sec["id"]))
+            if s.get("label") and not short:  # a lower-third (Logos & Legends, 7 Nov 2026: names, dates, places)
+                labels.append((t + 0.3, t + min(d, 4.3), s["label"]))
             if short:  # the very first words show at 0.0 s, not after a pause
                 caps += Captions.for_shot(s.get("caption") or s["vo"], t + (0.0 if t == 0 else 0.15), vo[f"{n:02d}"])
             elif not s.get("diagram"):  # diagrams carry their own labels
@@ -538,6 +572,9 @@ def main(script_path, out_dir):
             left = (nf - j) / FPS
             if nxt is not None and left < XF:  # dissolve into the next item
                 fr = cv2.addWeighted(fr, left / XF, nxt.frame(0.0), 1 - left / XF, 0)
+            lab = next((l for l in labels if l[0] <= k / FPS < l[1]), None)
+            if lab:
+                fr = lower_third(fr.copy(), lab[2], min(1.0, (k / FPS - lab[0]) / 0.4, (lab[1] - k / FPS) / 0.4))
             if captions:
                 fr = captions.draw(fr.copy(), k / FPS)
             if hook is not None and k / FPS < HOOK_S:  # the question headline, fading out over its last 0.3 s
