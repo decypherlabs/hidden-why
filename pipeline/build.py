@@ -145,6 +145,9 @@ class Shot:
         if self.move in ("pan_left", "pan_right"):
             span = max(0.0, w / 2 - half_w)
             cx = w / 2 + span * (0.8 * (u - 0.5)) * (1 if self.move == "pan_right" else -1) * 2
+        if FX:  # a slow handheld drift, so a still never feels frozen
+            cx += w * 0.004 * np.sin(2 * np.pi * (0.9 * u + 0.13 * (hash(self.move) % 7)))
+            cy0 += h * 0.003 * np.sin(2 * np.pi * (0.7 * u + 0.37))
         cx = float(np.clip(cx, half_w, w - half_w))
         cy = float(np.clip(cy0, half_h, h - half_h))
         M = np.float32([[s, 0, CW / 2 - s * cx], [0, s, CH / 2 - s * cy]])
@@ -409,6 +412,73 @@ class Captions:
 
 _LT = {}
 MOVES_CYCLE = ("pan_right", "pull", "pan_left", "push")
+FX = False  # brand "motion_fx" (Logos & Legends, owner 7 Nov 2026: "make it more engaging, with some motion")
+YEAR = re.compile(r"\b(1[89]\d\d|20\d\d)\b")
+AMOUNT = re.compile(r"₹\s?[\d,]+(?:\.\d+)?\s*(?:करोड़|लाख|crore|lakh)?|\b\d+(?:\.\d+)?\s?%")
+
+
+def transition(a, b, p, kind):
+    """a (outgoing) into b (incoming), p 0->1. dissolve / whip (a fast blurred slide) / zoom (a pushes through) /
+    leak (a warm light leak at the crossover) / dip (through black, for chapters)."""
+    if kind == "whip":
+        sh = int(W * p)
+        out = np.zeros_like(a)
+        out[:, :W - sh] = a[:, sh:]
+        out[:, W - sh:] = b[:, :sh]
+        k = max(1, int(60 * np.sin(np.pi * p)))
+        return cv2.blur(out, (k * 2 + 1, 1))
+    if kind == "zoom":
+        z = 1 + 0.35 * p
+        M = cv2.getRotationMatrix2D((W / 2, H / 2), 0, z)
+        a2 = cv2.warpAffine(a, M, (W, H), borderMode=cv2.BORDER_REPLICATE)
+        return cv2.addWeighted(a2, 1 - p, b, p, 0)
+    if kind == "dip":
+        return (a * max(0.0, 1 - 2 * p) if p < 0.5 else b * min(1.0, 2 * p - 1)).astype(np.uint8)
+    out = cv2.addWeighted(a, 1 - p, b, p, 0)
+    if kind == "leak":
+        glow = np.sin(np.pi * p) * 0.55
+        g = np.linspace(1, 0, W, dtype=np.float32)[None, :, None] * np.array([90, 170, 255], np.float32)  # BGR warm
+        out = np.clip(out.astype(np.float32) + g * glow, 0, 255).astype(np.uint8)
+    return out
+
+
+_CNT = {}
+
+
+def counter(frame, text, t):
+    """An amount counting up as it's said ("₹47,500", "60%"): big gold digits, top-left, ~2.8 s."""
+    m = re.search(r"[\d,]+(?:\.\d+)?", text)
+    if not m:
+        return frame
+    val = float(m.group().replace(",", ""))
+    k = min(1.0, t / 1.1)
+    cur = val * (1 - (1 - k) ** 3)
+    num = f"{cur:,.1f}" if "." in m.group() else f"{int(round(cur)):,}"
+    shown = text[:m.start()] + num + text[m.end():]
+    a = min(1.0, t / 0.25, max(0.0, (2.8 - t) / 0.4))
+    f = K.body(110, "Bold")
+    img = Image.new("RGBA", (W, 170), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.text((86, 85), shown, font=f, anchor="lm", fill=K.YEL + (255,), stroke_width=6, stroke_fill=(10, 10, 10, 220))
+    arr = np.asarray(img)
+    rgb, al = cv2.cvtColor(arr[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), arr[..., 3:4] / 255.0 * a
+    y = int(H * 0.12)
+    roi = frame[y:y + 170].astype(np.float32)
+    frame[y:y + 170] = (rgb * al + roi * (1 - al)).astype(np.uint8)
+    return frame
+
+
+def riser(sec=1.4, seed=9):
+    """A rising swell before a chapter card: noise through a band-pass sweeping upward, getting louder."""
+    rng = np.random.default_rng(seed)
+    n = int(sec * SR)
+    x = rng.standard_normal(n).astype(np.float32)
+    out, lp = np.zeros(n, np.float32), 0.0
+    for i in range(n):
+        a = 0.002 + 0.12 * (i / n) ** 2
+        lp += a * (x[i] - lp)
+        out[i] = lp
+    return out * np.linspace(0.05, 1, n, dtype=np.float32) ** 2
 
 
 def lower_third(frame, text, alpha):
@@ -477,9 +547,10 @@ def load_mp3(path, seconds):
 
 
 def main(script_path, out_dir):
-    global W, H, XF
+    global W, H, XF, FX
     script = json.loads(Path(script_path).read_text())
     short = script.get("format") == "short"
+    FX = not short and bool(K.B.get("motion_fx"))
     if short:
         W, H, XF = 1080, 1920, 0.15
     caps = []
@@ -492,6 +563,7 @@ def main(script_path, out_dir):
     chapters = []
     labels = []  # (t0, t1, text): lower-thirds
     titles = []  # (t0, t1, text): big phrases over the picture
+    counters, years_seen, cards_at, last_counter = [], set(), [], -99.0  # FX: counting amounts, auto date labels
     for sec in script["sections"]:
         if sec.get("sting"):
             items.append((t, 2.2, Seq(sting_frames(int(2.2 * FPS))), None, sec["id"]))
@@ -501,6 +573,7 @@ def main(script_path, out_dir):
             chapters.append((t, sec["card"].title()))
             if K.B.get("chapter_style") == "film" and not short:
                 first = next((x for x in [out / f"shot-{n + 1:02d}.png"] if x.exists()), None)
+                cards_at.append(t)
                 items.append((t, 3.0, Shot(film_card(sec["card"], len(chapters) - (1 if chapters[0][1] == "Intro" else 0), first), "push"),
                               None, sec["id"]))
                 t += 3.0
@@ -536,6 +609,18 @@ def main(script_path, out_dir):
                 titles.append((t + 0.2, t + min(d, 3.2), s["title"]))
             if s.get("label") and not short:  # a lower-third (Logos & Legends, 7 Nov 2026: names, dates, places)
                 labels.append((t + 0.3, t + min(d, 4.3), s["label"]))
+                years_seen.update(YEAR.findall(s["label"]))
+            line = s.get("caption") or s["vo"]
+            if FX and not s.get("label"):  # every first mention of a year gets its own lower-third
+                y = next((y for y in YEAR.findall(line) if y not in years_seen), None)
+                if y:
+                    years_seen.add(y)
+                    labels.append((t + 0.3, t + min(d, 3.6), y))
+            if FX and t - last_counter > 12:  # an amount or a percentage counts up as it's said
+                m = AMOUNT.search(line)
+                if m and not YEAR.fullmatch(m.group().strip()):
+                    counters.append((t + 0.2, m.group().strip()))
+                    last_counter = t
             if short:  # the very first words show at 0.0 s, not after a pause
                 caps += Captions.for_shot(s.get("caption") or s["vo"], t + (0.0 if t == 0 else 0.15), vo[f"{n:02d}"])
             elif not s.get("diagram"):  # diagrams carry their own labels
@@ -620,6 +705,23 @@ def main(script_path, out_dir):
         if style.get("open"):
             put(load_sfx(style["open"]), 0, -12)
         mix = mix + sfx
+    elif FX:  # sound design (owner, 7 Nov 2026): a soft whoosh on new shots, a swell into chapters, a hit on titles
+        sfx = np.zeros_like(mix)
+
+        def put(x, at, db):
+            i = int(at * SR)
+            if 0 <= i < len(sfx):
+                sfx[i:i + len(x)] += x[:len(sfx) - i] * voice_rms * 10 ** (db / 20) / rms(x)
+        for it in items[1:]:
+            if it[3] is not None:
+                put(whoosh(0.35), max(0, it[0] - 0.2), -27)
+        for c in cards_at:
+            put(riser(), max(0, c - 1.4), -21)
+        for t0, _, _ in titles:
+            put(load_sfx("impact"), t0, -18)
+        for t0, _ in counters:
+            put(whoosh(0.25, seed=11), t0, -26)
+        mix = mix + sfx
     mix = mix / (np.abs(mix).max() + 1e-9) * 0.95
     mix = np.clip(mix, -1, 1)
     import soundfile as sf
@@ -643,8 +745,17 @@ def main(script_path, out_dir):
             u = j / max(1, nf - 1)
             fr = vis.frame(u)
             left = (nf - j) / FPS
-            if nxt is not None and left < XF:  # dissolve into the next item
-                fr = cv2.addWeighted(fr, left / XF, nxt.frame(0.0), 1 - left / XF, 0)
+            if nxt is not None and left < XF:  # into the next item
+                if FX:
+                    ns = items[idx + 1][0]
+                    kind = "dip" if any(abs(ns - c) < 0.01 for c in cards_at) or any(abs(start - c) < 0.01 for c in cards_at) \
+                        else (("whip", "zoom", "leak", "dissolve")[idx % 4] if items[idx + 1][3] is not None else "dissolve")
+                    fr = transition(fr, nxt.frame(0.0), 1 - left / XF, kind)
+                else:
+                    fr = cv2.addWeighted(fr, left / XF, nxt.frame(0.0), 1 - left / XF, 0)
+            cnt = next((c for c in counters if 0 <= k / FPS - c[0] < 2.8), None)
+            if cnt:
+                fr = counter(fr.copy(), cnt[1], k / FPS - cnt[0])
             ttl = next((x for x in titles if x[0] <= k / FPS < x[1]), None)
             if ttl:
                 fr = title_overlay(fr.copy(), ttl[2], min(1.0, (k / FPS - ttl[0]) / 0.35, (ttl[1] - k / FPS) / 0.35))
