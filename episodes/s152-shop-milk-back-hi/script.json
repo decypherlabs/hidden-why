@@ -1,0 +1,81 @@
+{
+ "slug": "s152-shop-milk-back-hi",
+ "format": "short",
+ "title": "दूध हमेशा दुकान के पीछे क्यों रखा जाता है? 🥛",
+ "hook_text": "दूध पीछे क्यों?",
+ "approved": true,
+ "review": "auto",
+ "voice_review": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आप दूध लेने जाते हैं, पर बीस चीज़ें लेकर बाहर क्यों निकलते हैं?",
+     "prompt": "A shopper's two hands holding an overflowing basket of chips, chocolates, biscuits with one small milk carton on top, at a supermarket checkout counter, bright shop light, close-up shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आप दूध लेने जाते हैं, पर बीस चीज़ें लेकर बाहर क्यों निकलते हैं?"
+    },
+    {
+     "vo": "ये वो एक चीज़ है जो हर कोई हर हफ़्ते लेने आता है।",
+     "prompt": "A man in a blue shirt walking toward a glowing milk fridge at the far back of a supermarket, back turned, basket in hand, bright shop light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये वो एक चीज़ है जो हर कोई हर हफ़्ते लेने आता है।"
+    },
+    {
+     "vo": "इसीलिए दुकान आपको बाकी सब चीज़ों के बीच से गुज़ारती है।",
+     "prompt": "A woman with a basket walking down a supermarket aisle lined with colourful snack packets and drinks on both sides, back turned, bright light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए दुकान आपको बाकी सब चीज़ों के बीच से गुज़ारती है।"
+    },
+    {
+     "vo": "चिप्स, चॉकलेट, बिस्किट, सब आपकी नज़रों के सामने रखे होते हैं।",
+     "prompt": "Shelves of chips, chocolate bars and biscuit packets exactly at eye level, bright supermarket light, close-up shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "चिप्स, चॉकलेट, बिस्किट, सब आपकी नज़रों के सामने रखे होते हैं।"
+    },
+    {
+     "vo": "ज़्यादातर लोग दूध के लिए आते हैं और पूरी टोकरी भरकर निकलते हैं।",
+     "prompt": "A full basket overflowing with chips, chocolates and biscuits beside one single milk packet on a checkout counter, warm light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ज़्यादातर लोग दूध के लिए आते हैं और पूरी टोकरी भरकर निकलते हैं।"
+    },
+    {
+     "vo": "दूध पीछे होता है क्योंकि ये लंबा रास्ता ही दुकान की चाल है।",
+     "prompt": "A very long supermarket aisle stretching toward a milk fridge glowing at the far end, a small shopper walking, warm light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "दूध पीछे होता है क्योंकि ये लंबा रास्ता ही दुकान की चाल है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "सुपरमार्केट में दूध *पीछे* ही क्यों?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Long supermarket aisle with a single glowing fridge of milk packets at the very end, bright, realistic painting, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "voice_requested": "voice-s152-shop-milk-back-c985e09dae",
+ "voice_ok": "voice-s152-shop-milk-back-c985e09dae",
+ "voice_approved_at": "2026-11-07 22:36",
+ "released_at": "2026-11-07 22:36",
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s152-shop-milk-back",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
