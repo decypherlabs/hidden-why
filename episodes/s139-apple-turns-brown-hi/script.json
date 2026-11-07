@@ -1,0 +1,75 @@
+{
+ "slug": "s139-apple-turns-brown-hi",
+ "format": "short",
+ "title": "कटा सेब भूरा क्यों हो जाता है? 🍎",
+ "hook_text": "सेब के अंदर क्या छुपा?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सेब के अंदर ऐसा क्या है, जो कटते ही उसे भूरा कर देता है?",
+     "prompt": "a brown patch spreading on a cut apple half, white flesh with a brown stain at the cut, a whole red apple behind it, wooden kitchen table, soft window light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सेब के अंदर ऐसा क्या है, जो कटते ही उसे भूरा कर देता है?"
+    },
+    {
+     "vo": "हर सेल में एक एंज़ाइम बंद है, ऑक्सीजन से दूर।",
+     "prompt": "a sliced apple half showing white flesh with tiny glowing orange dots sealed in neat rows of cells, a closed knife beside it, wooden table, soft green and cream light, macro close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "हर सेल में एक एंज़ाइम बंद है, ऑक्सीजन से दूर।"
+    },
+    {
+     "vo": "चाकू सेल खोलता है, और एंज़ाइम हवा से मिल जाता है।",
+     "prompt": "a knife blade slicing through a red apple on a wooden board, apple flesh split open, glowing orange sparks drifting in the air above the cut, kitchen counter, warm light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "चाकू सेल खोलता है, और एंज़ाइम हवा से मिल जाता है।"
+    },
+    {
+     "vo": "लेकिन रंग एंज़ाइम का नहीं है।",
+     "prompt": "a cut apple half with pale cream flesh just starting to darken into small brown patches, a knife lying beside it, wooden table, dramatic side light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रंग एंज़ाइम का नहीं है।"
+    },
+    {
+     "vo": "ये फ़िनोल नाम के केमिकल को भूरे पिगमेंट में बदल देता है।",
+     "prompt": "a cut apple half with a rich brown stain spreading across the flesh, clear water droplets on the surface, a small glass jar of amber liquid beside it, warm amber light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये फ़िनोल नाम के केमिकल को भूरे पिगमेंट में बदल देता है।"
+    },
+    {
+     "vo": "एंज़ाइम को ऑक्सीजन मिली, और कटा सेब भूरा हो गया।",
+     "prompt": "a whole red apple on the left and a browned cut apple half on the right, a halved lemon between them on a kitchen counter, soft morning light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "एंज़ाइम को ऑक्सीजन मिली, और कटा सेब भूरा हो गया।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "कटा सेब हवा में *भूरा* क्यों पड़ता है?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Realistic painting, extreme close-up of a freshly cut apple half on a wooden board, one side still bright creamy white and the other side turning deep brown in a sharp diagonal line, a knife beside it, bright kitchen light, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s139-apple-turns-brown",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
