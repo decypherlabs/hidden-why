@@ -1,0 +1,75 @@
+{
+ "slug": "s127-soccer-ball-pentagons-hi",
+ "format": "short",
+ "title": "फुटबॉल में काले टुकड़े आखिर क्यों होते हैं? ⚽",
+ "hook_text": "षट्कोण गोला नहीं बनाते",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "षट्कोण से गोला बन ही नहीं सकता। एक भी नहीं।",
+     "prompt": "Wide shot, dozens of white hexagon tiles laid perfectly flat across a large stone floor, a single deflated black and white soccer ball lying in the centre of the flat tiles, dusty sunlight from a high window, moody shadows, photoreal, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "षट्कोण से गोला बन ही नहीं सकता। एक भी नहीं।"
+    },
+    {
+     "vo": "षट्कोण फर्श तो पूरा ढक देते हैं, पर फर्श गोल नहीं होता।",
+     "prompt": "Medium-wide shot, a clean bathroom floor covered in neat white hexagon tiles, a round soccer ball resting on the flat tiles at the right, warm morning light from a window on the left, photoreal, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "षट्कोण फर्श तो पूरा ढक देते हैं, पर फर्श गोल नहीं होता।"
+    },
+    {
+     "vo": "इसीलिए हर क्लासिक फुटबॉल में बारह काले टुकड़े छिपे होते हैं।",
+     "prompt": "Medium shot, a classic black and white soccer ball on green grass, twelve black pentagon patches large and clear against the white hexagons, low golden evening sun, photoreal, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए हर क्लासिक फुटबॉल में 12 काले टुकड़े छिपे होते हैं।"
+    },
+    {
+     "vo": "ये काले टुकड़े पंचकोण हैं, और हर एक सतह को मोड़ देता है।",
+     "prompt": "Medium shot, one large black pentagon patch at the centre of a soccer ball surrounded by a ring of white hexagons, the surface visibly curving away around it, soft side light, photoreal, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये काले टुकड़े पंचकोण हैं, और हर एक सतह को मोड़ देता है।"
+    },
+    {
+     "vo": "बारह पंचकोण और बीस षट्कोण मिलकर बिना खाली जगह के गोला बनाते हैं।",
+     "prompt": "Medium shot, a half-finished soccer ball on a wooden workbench, black pentagon and white hexagon panels stitched tight with no gaps, loose panels and a needle with thread beside it, warm workshop light, photoreal, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "12 पंचकोण और 20 षट्कोण मिलकर बिना खाली जगह के गोला बनाते हैं।"
+    },
+    {
+     "vo": "ये बारह पंचकोण हटा दो, तो गोला फिर बन ही नहीं सकता।",
+     "prompt": "Wide shot, a flat white sheet of hexagon panels spread on a football pitch at the centre, a few loose white hexagons around it, no black patches anywhere, a round ball absent, low sunset light, photoreal, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये 12 पंचकोण हटा दो, तो गोला फिर बन ही नहीं सकता।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "फुटबॉल में *बारह* काले टुकड़े क्यों?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Giant close-up painting of a classic black and white soccer ball with a flat sheet of only white hexagons unrolled beside it, bright light, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s127-soccer-ball-pentagons",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

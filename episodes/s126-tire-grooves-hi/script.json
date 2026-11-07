@@ -1,0 +1,75 @@
+{
+ "slug": "s126-tire-grooves-hi",
+ "format": "short",
+ "title": "80 की स्पीड पर टायर सड़क को छूते ही नहीं? 🌧️",
+ "hook_text": "टायर सड़क छूते ही नहीं",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "अस्सी की स्पीड पर आपके टायर सड़क को छूते ही नहीं।",
+     "prompt": "Medium-wide side view of a dark sedan driving fast on a flooded Indian highway, a visible wedge of water under the front tire lifting it just above the road, heavy spray behind the wheel, stormy grey sky, cold overcast light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "80 की स्पीड पर आपके टायर सड़क को छूते ही नहीं।"
+    },
+    {
+     "vo": "रेस कार तो हमेशा ऐसा ही करती हैं, और सूखे ट्रैक पर जीतती हैं।",
+     "prompt": "Wide view of a single open-wheel race car with smooth slick tires speeding on a dry sunlit racetrack, no logos, tall grandstands as distant blurred silhouettes, bright golden afternoon light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "रेस कार तो हमेशा ऐसा ही करती हैं, और सूखे ट्रैक पर जीतती हैं।"
+    },
+    {
+     "vo": "लेकिन आपकी कार नहीं कर सकती, क्योंकि आसमान से गिरती एक चीज़ है।",
+     "prompt": "Wide view from road level of an empty Indian highway under enormous black storm clouds, heavy rain falling in sheets, wet shining asphalt, a single car far away, dim dramatic light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन आपकी कार नहीं कर सकती, क्योंकि आसमान से गिरती एक चीज़ है।"
+    },
+    {
+     "vo": "स्पीड में बारिश की पतली परत चिकने टायर को सड़क से उठा देती है।",
+     "prompt": "Medium close side view of a smooth bald car tire on wet asphalt, a thin clear sheet of water visible under the tire with the rubber hovering just above the road, rain splashes, grey light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "स्पीड में बारिश की पतली परत चिकने टायर को सड़क से उठा देती है।"
+    },
+    {
+     "vo": "खांचे वो नालियां हैं जो रबर के नीचे से पानी निकाल देती हैं।",
+     "prompt": "Medium close view of a deeply grooved car tire on a wet road, thick water streaming out sideways through the wide tread grooves, spray at both sides, overcast light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "खांचे वो नालियां हैं जो रबर के नीचे से पानी निकाल देती हैं।"
+    },
+    {
+     "vo": "खांचे ग्रिप नहीं बढ़ाते, बस बारिश हटाते हैं, ताकि रबर सड़क को पकड़ सके।",
+     "prompt": "Medium close view of a grooved tire pressed firmly on wet asphalt, a clear dry patch of dark road under the rubber, water pushed aside to the left and right, soft rainy light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "खांचे ग्रिप नहीं बढ़ाते, बस बारिश हटाते हैं, ताकि रबर सड़क को पकड़ सके।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "80 की स्पीड पर टायर *हवा* में?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Extreme close-up painting of a smooth racing tire next to a deeply grooved road tire on wet asphalt, water spraying out of the grooves, dramatic bright light, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s126-tire-grooves",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
