@@ -139,8 +139,10 @@ class Split:
             x0 = int(np.clip(cx * w - cw / 2, 0, w - cw))
             y0 = int(np.clip(cy * h - ch / 2, 0, h - ch))
             return img[y0:y0 + ch, x0:x0 + cw]
-        crop = around(fx, fy, 0.64)
-        face = around(faces[0], faces[1], 0.5) if faces else around(fx, fy - 0.1, 0.5)  # the upper body, not the feet
+        # mild crops (owner, 7 Nov 2026: pictures didn't match the line; a 2x crop aimed at the busiest texture
+        # showed chariot wheels, not the person or the mountain the line was about): 0.64/0.5 -> 0.8/0.66
+        crop = around(fx, fy, 0.8)
+        face = around(faces[0], faces[1], 0.66) if faces else around(fx, fy - 0.1, 0.66)  # the upper body, not the feet
         self.parts = [Shot(img, "push", (fx, fy)), Shot(crop, "pull"), Shot(face, "push")][:parts]
 
     def frame(self, u):
