@@ -27,6 +27,23 @@ if __import__("os").environ.get("SET") == "bold":  # long-form narrator (owner, 
     BOLD = ("speaks in a deep, bold, low-pitched and commanding documentary narrator voice, with confident, slightly "
             "dramatic expression, at a moderate pace. The recording is very clear and close-sounding, with no background noise.")
     VOICES = {n.lower(): f"{n} {BOLD}" for n in ("Rohit", "Karan", "Aman", "Vikas")}
+if __import__("os").environ.get("SET") == "dk-aman":  # Aman on a ~35 s Devlok Katha passage (owner, 7 Nov 2026)
+    TEXT = ["हस्तिनापुर के राजा शांतनु, एक मछुआरे की बेटी सत्यवती से विवाह करना चाहते थे।",
+            "लेकिन सत्यवती के पिता ने एक शर्त रखी।", "राजगद्दी पर सिर्फ़ सत्यवती का पुत्र ही बैठेगा।",
+            "राजा उदास होकर लौट आए। उनके पुत्र देवव्रत से यह देखा नहीं गया।",
+            "देवव्रत उस मछुआरे के पास गए, और सबके सामने प्रतिज्ञा ली।",
+            "मैं कभी राजा नहीं बनूँगा। और मैं जीवन भर विवाह भी नहीं करूँगा।",
+            "उस पल आकाश से फूल बरसे, और देवताओं ने कहा, भीष्म!",
+            "उसी दिन से देवव्रत, भीष्म कहलाए।"]
+    VOICES = {
+        "aman-bold": ("Aman speaks in a deep, bold, low-pitched and commanding documentary narrator voice, with confident, "
+                      "slightly dramatic expression, at a moderate pace. The recording is very clear and close-sounding, "
+                      "with no background noise."),  # LL's exact voice
+        "aman-epic": ("Aman speaks in a deep, resonant and reverent storytelling voice, with dramatic, emotional expression, "
+                      "at a slightly slow pace. The recording is very clear and close-sounding, with no background noise."),
+        "aman-warm": ("Aman speaks in a warm, calm and expressive storytelling voice at a moderate pace. The recording is "
+                      "very clear and close-sounding, with no background noise."),
+    }
 out = Path(sys.argv[1])
 out.mkdir(parents=True, exist_ok=True)
 model = ParlerTTSForConditionalGeneration.from_pretrained("ai4bharat/indic-parler-tts")
