@@ -51,9 +51,10 @@
     },
     {
      "vo": "उन्होंने हनुमान जी को कैलाश से शिवलिंग लाने भेजा।",
-     "prompt": "Lord Rama pointing far toward a snowy mountain, blue skin, golden crown, on the left; a distant red-brown monkey god with gold crown and mace, small on the right, looking at the mountain, sunrise over the shore, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "a blue-skinned man in a golden crown pointing toward a distant snowy mountain, on the left; a monkey god with reddish-brown fur and a golden crown, small on the right, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "लेकिन हनुमान जी को आने में देर हो गई।",
@@ -63,15 +64,17 @@
     },
     {
      "vo": "पूजा का समय निकल रहा था, तो सीता माता ने रेत से शिवलिंग बनाया।",
-     "prompt": "a woman in a plain white saree kneeling on the sandy shore shaping a small sand Shivling with both hands, on the left, a distant fair-skinned young man in saffron standing small on the right with folded hands, sunset sea, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "a woman in a plain white saree kneeling on the sandy shore shaping a small sand Shivling with both hands, on the left, a distant fair-skinned man in saffron standing small on the right, sunset sea, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "राम ने उसी शिवलिंग की पूजा की, वो आज भी रामेश्वरम में है।",
-     "prompt": "Lord Rama kneeling and pouring water from a brass pot over a sand Shivling covered in flowers, blue skin, golden crown, saffron dhoti, left, Shivling on the right, golden sunset sea, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "a blue-skinned man in a saffron dhoti kneeling and pouring water from a brass pot over a sand Shivling, left, Shivling on the right, golden sunset sea, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "इसीलिए राम ने रेत का शिवलिंग बनाया। कमेंट में हर हर महादेव लिखिए, और ऐसी कथाओं के लिए सब्सक्राइब करें।",
@@ -91,5 +94,23 @@
   "model": "ai4bharat/indic-parler-tts",
   "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
   "trim": true
+ },
+ "repaint": {
+  "shots": [
+   5,
+   7,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-07 23:17"
+ },
+ "shot_qc": {
+  "checked": "2026-11-07T17:39:04Z",
+  "rounds": 1,
+  "why": {
+   "5": "The deity figure has multiple sets of arms and distorted anatomy that does not clearly depict Hanuman.",
+   "7": "Sita is depicted with distorted facial features and an extra/merged hand structure.",
+   "8": "The figure of Rama has a mangled face and eyes, making the deity unrecognizable."
+  }
  }
 }
