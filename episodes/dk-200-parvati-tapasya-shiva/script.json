@@ -88,5 +88,11 @@
   "why": "One short clear question with famous character, simple Hindi, about 12 words, true to the story",
   "was": "आख़िर क्यों माँ पार्वती ने सालों तक जंगल में भूखे-प्यासे तपस्या की?"
  },
- "review_note": "place-first hook and action-first prompts (7 Nov)"
+ "review_note": "place-first hook and action-first prompts (7 Nov)",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
+  "trim": true
+ }
 }
