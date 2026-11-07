@@ -43,6 +43,49 @@ def card(title):
     return bgr(K.grain(img))
 
 
+class Intro:
+    """The show's title sequence after the cold open (Logos & Legends, owner 7 Nov 2026: "LL misses the
+    introduction"): the brand crest scales in out of darkness, the episode title rises in under it and a gold rule
+    sweeps out; a slow push throughout. brand "intro": "title"."""
+
+    def __init__(self, title):
+        self.title = title.upper()
+        lg = Image.open(K.asset("logo.png")).convert("RGBA")
+        m = Image.new("L", lg.size, 0)
+        ImageDraw.Draw(m).ellipse((0, 0) + lg.size, fill=255)  # the round crest, without its square corners
+        lg.putalpha(Image.composite(lg.getchannel("A"), Image.new("L", lg.size, 0), m))
+        self.logo = lg
+        self.bg = Image.new("RGB", (W, H), (10, 10, 14))
+        g = Image.new("L", (W, H), 0)
+        ImageDraw.Draw(g).ellipse((W * 0.2, H * 0.05, W * 0.8, H * 0.95), fill=70)
+        from PIL import ImageFilter
+        self.bg = Image.composite(Image.new("RGB", (W, H), (38, 32, 24)), self.bg, g.filter(ImageFilter.GaussianBlur(160)))
+
+    def frame(self, u):
+        ease = lambda x: 1 - (1 - min(1.0, max(0.0, x))) ** 3
+        img = self.bg.copy()
+        a = ease(u / 0.35)
+        size = int(440 * (0.82 + 0.18 * a) * (1 + 0.04 * u))
+        lg = self.logo.resize((size, size), Image.LANCZOS)
+        lg.putalpha(lg.getchannel("A").point(lambda v: int(v * a)))
+        img.paste(lg, (W // 2 - size // 2, int(H * 0.38) - size // 2), lg)
+        d = ImageDraw.Draw(img)
+        b = ease((u - 0.25) / 0.35)
+        if b > 0:
+            f = K.display(104)
+            while d.textlength(self.title, font=f) > W * 0.85 and f.size > 40:
+                f = K.display(f.size - 4)
+            y = int(H * 0.74 + 30 * (1 - b))
+            col = tuple(int(c * b + 10 * (1 - b)) for c in (248, 242, 230))
+            d.text((W / 2, y), self.title, font=f, anchor="mm", fill=col)
+            half = int(260 * ease((u - 0.4) / 0.3))
+            if half > 0:
+                d.rectangle((W // 2 - half, y + 78, W // 2 + half, y + 82), fill=K.YEL)
+        fade = min(1.0, (1 - u) / 0.12)  # out to the first chapter
+        out = bgr(img)
+        return (out * fade).astype(np.uint8) if fade < 1 else out
+
+
 def film_card(title, num, first_shot):
     """A documentary chapter card (Logos & Legends, after The Quiet Story; brand "chapter_style": "film"): the
     chapter's first picture darkened and softened, "CHAPTER N" in small spaced gold capitals, the title large,
@@ -564,7 +607,15 @@ def main(script_path, out_dir):
     labels = []  # (t0, t1, text): lower-thirds
     titles = []  # (t0, t1, text): big phrases over the picture
     counters, years_seen, cards_at, last_counter = [], set(), [], -99.0  # FX: counting amounts, auto date labels
-    for sec in script["sections"]:
+    intro_at = None
+    for si, sec in enumerate(script["sections"]):
+        if FX and K.B.get("intro") == "title" and intro_at is None and si > 0 and sec.get("card"):
+            # the show's title sequence between the cold open and the first chapter
+            name = script.get("intro_title") or script.get("title", "").split("|")[0].strip()
+            name = re.sub(r"[^\w\s&'.:-]", "", name).strip()
+            intro_at = t
+            items.append((t, 4.0, Intro(name), None, "intro"))
+            t += 4.0
         if sec.get("sting"):
             items.append((t, 2.2, Seq(sting_frames(int(2.2 * FPS))), None, sec["id"]))
             t += 2.2
@@ -717,6 +768,9 @@ def main(script_path, out_dir):
                 put(whoosh(0.35), max(0, it[0] - 0.2), -27)
         for c in cards_at:
             put(riser(), max(0, c - 1.4), -21)
+        if intro_at is not None:
+            put(riser(1.8), max(0, intro_at - 1.6), -17)
+            put(load_sfx("impact"), intro_at + 0.15, -12)
         for t0, _, _ in titles:
             put(load_sfx("impact"), t0, -18)
         for t0, _ in counters:
