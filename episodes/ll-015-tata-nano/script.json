@@ -39,22 +39,25 @@
    "card": null,
    "shots": [
     {
-     "vo": "जिस car के लिए दो लाख से ज़्यादा लोगों ने booking की… वो दस साल में ही ख़त्म क्यों हो गई?",
+     "vo": "जिस कार के लिए दो लाख से ज़्यादा लोगों ने बुकिंग की… वो दस साल में ही ख़त्म क्यों हो गई?",
      "prompt": "Hundreds of identical tiny egg-shaped city cars parked in long dusty rows with weeds between them, one bright yellow car in the foreground, deserted Indian factory yard, golden dusk backlight, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जिस car के लिए दो लाख से ज़्यादा लोगों ने booking की… वो दस साल में ही ख़त्म क्यों हो गई?"
     },
     {
-     "vo": "एक लाख रुपये. हर हिंदुस्तानी परिवार के लिए अपनी car. ये सिर्फ़ एक product नहीं, एक वादा था.",
+     "vo": "एक लाख रुपये. हर हिंदुस्तानी परिवार के लिए अपनी कार. ये सिर्फ़ एक प्रोडक्ट नहीं, एक वादा था.",
      "prompt": "Marigold garland draped over the bonnet of a tiny new yellow city car, an Indian man and woman in simple clothes standing beside it, modest house behind, warm morning light, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "एक लाख रुपये. हर हिंदुस्तानी परिवार के लिए अपनी car. ये सिर्फ़ एक product नहीं, एक वादा था."
     },
     {
-     "vo": "अगर आप सोचते हैं कि ये car सिर्फ़ इसलिए डूबी, क्योंकि वो ख़राब थी, तो आप ग़लत हैं. इसे किसी competitor ने भी नहीं मारा.",
+     "vo": "अगर आप सोचते हैं कि ये कार सिर्फ़ इसलिए डूबी, क्योंकि वो ख़राब थी, तो आप ग़लत हैं. इसे किसी कॉम्पिटिटर ने भी नहीं मारा.",
      "prompt": "A tiny yellow city car alone on a wet empty Indian highway at night, large cars passing as blurred streaks of light, ominous mood, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगर आप सोचते हैं कि ये car सिर्फ़ इसलिए डूबी, क्योंकि वो ख़राब थी, तो आप ग़लत हैं. इसे किसी competitor ने भी नहीं मारा."
     },
     {
      "vo": "और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते.",
@@ -63,10 +66,11 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "बारिश में भीगते एक scooter से, Singur के खेतों तक, और 2018 के उस आख़िरी महीने तक. ये है Tata Nano की कहानी.",
+     "vo": "बारिश में भीगते एक स्कूटर से, सिंगूर के खेतों तक, और दो हज़ार अठारह के उस आख़िरी महीने तक. ये है टाटा नैनो की कहानी.",
      "prompt": "A family of four on a scooter riding through monsoon rain beside green Bengal paddy fields, red protest flags in the distance, grey sky, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "बारिश में भीगते एक scooter से, Singur के खेतों तक, और 2018 के उस आख़िरी महीने तक. ये है Tata Nano की कहानी."
     }
    ]
   },
@@ -81,16 +85,18 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "एक scooter पर पूरा परिवार. आगे खड़ा एक बच्चा, माँ-बाप के बीच दबा दूसरा.",
+     "vo": "एक स्कूटर पर पूरा परिवार. आगे खड़ा एक बच्चा, माँ-बाप के बीच दबा दूसरा.",
      "prompt": "A whole family of four squeezed on one scooter in heavy rain, a small boy standing in front, a girl pressed between the father and mother, seen from behind, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "एक scooter पर पूरा परिवार. आगे खड़ा एक बच्चा, माँ-बाप के बीच दबा दूसरा."
     },
     {
-     "vo": "Ratan Tata बार-बार ऐसे परिवार देखते थे. और ये तस्वीर उनके मन से नहीं निकली.",
+     "vo": "रतन टाटा बार-बार ऐसे परिवार देखते थे. और ये तस्वीर उनके मन से नहीं निकली.",
      "prompt": "An elderly man with white hair in a grey suit watching through a rain-streaked car window, a family on a scooter outside, blue-grey light, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Ratan Tata बार-बार ऐसे परिवार देखते थे. और ये तस्वीर उनके मन से नहीं निकली."
     },
     {
      "vo": "सवाल सीधा था: क्या इन परिवारों को एक सुरक्षित, छत वाली सवारी नहीं मिल सकती?",
@@ -99,40 +105,46 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "कहा जाता है कि 2003 में एक interview में उनसे कीमत पूछी गई. उन्होंने अंदाज़े से कहा: क़रीब एक लाख रुपये.",
+     "vo": "कहा जाता है कि दो हज़ार तीन में एक इंटरव्यू में उनसे कीमत पूछी गई. उन्होंने अंदाज़े से कहा: क़रीब एक लाख रुपये.",
      "prompt": "An elderly man in a grey suit speaking to journalists holding notepads and recorders at a motor show, bright exhibition lights, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "कहा जाता है कि 2003 में एक interview में उनसे कीमत पूछी गई. उन्होंने अंदाज़े से कहा: क़रीब एक लाख रुपये."
     },
     {
-     "vo": "अगले दिन यही बात headline बन गई. अब पीछे हटने का रास्ता नहीं था.",
+     "vo": "अगले दिन यही बात हेडलाइन बन गई. अब पीछे हटने का रास्ता नहीं था.",
      "prompt": "Stacks of morning newspapers bundled at a dawn news stand in India, headlines blurred, early blue light, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगले दिन यही बात headline बन गई. अब पीछे हटने का रास्ता नहीं था."
     },
     {
-     "vo": "दुनिया की कई car companies ने इसे नामुमकिन बताया. इतने में पूरी car बनेगी कैसे?",
+     "vo": "दुनिया की कई कार कंपनीज़ ने इसे नामुमकिन बताया. इतने में पूरी कार बनेगी कैसे?",
      "prompt": "Men in dark suits seated around a boardroom table with a small car model at the centre, shaking their heads, cold skeptical light, medium-wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "दुनिया की कई car companies ने इसे नामुमकिन बताया. इतने में पूरी car बनेगी कैसे?"
     },
     {
-     "vo": "Tata के young engineers ने हर एक rupee के लिए लड़ाई लड़ी. Engine पीछे, सिर्फ़ 624cc, दो cylinder.",
+     "vo": "टाटा के यंग इंजीनियर्स ने हर एक रुपये के लिए लड़ाई लड़ी. इंजन पीछे, सिर्फ़ छह सौ चौबीस सीसी, दो सिलेंडर.",
      "prompt": "Young engineers' hands over a large technical drawing of a tiny rear-engine car, a compact two-cylinder engine on the workbench, fluorescent light, close-up",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Tata के young engineers ने हर एक rupee के लिए लड़ाई लड़ी. Engine पीछे, सिर्फ़ 624cc, दो cylinder."
     },
     {
-     "vo": "एक wiper, हर पहिये में सिर्फ़ तीन nuts. हर चीज़ में बचत, ताकि वादा न टूटे.",
+     "vo": "एक वाइपर, हर पहिये में सिर्फ़ तीन नट्स. हर चीज़ में बचत, ताकि वादा न टूटे.",
      "prompt": "A small car wheel with only three wheel nuts in sharp focus on a workshop floor, a tiny windshield with a single wiper behind, warm light, close-up",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "एक wiper, हर पहिये में सिर्फ़ तीन nuts. हर चीज़ में बचत, ताकि वादा न टूटे."
     },
     {
-     "vo": "Car तैयार हो रही थी. लेकिन तभी… steel के दाम आसमान छूने लगे.",
+     "vo": "कार तैयार हो रही थी. लेकिन तभी… स्टील के दाम आसमान छूने लगे.",
      "prompt": "A tiny car prototype dwarfed by huge stacked steel coils in a dark warehouse, long looming shadows, dramatic contrast, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Car तैयार हो रही थी. लेकिन तभी… steel के दाम आसमान छूने लगे."
     }
    ]
   },
@@ -141,16 +153,18 @@
    "card": "A Promise Is A Promise",
    "shots": [
     {
-     "vo": "10 जनवरी 2008. New Delhi का Auto Expo. दुनिया भर का media एक छोटी सी car का इंतज़ार कर रहा था.",
+     "vo": "दस जनवरी दो हज़ार आठ. न्यू दिल्ली का ऑटो एक्सपो. दुनिया भर का मीडिया एक छोटी सी कार का इंतज़ार कर रहा था.",
      "prompt": "Rows of photographers with cameras raised toward a dark stage in a vast packed exhibition hall in New Delhi, spotlights cutting through haze, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "10 जनवरी 2008. New Delhi का Auto Expo. दुनिया भर का media एक छोटी सी car का इंतज़ार कर रहा था."
     },
     {
-     "vo": "उस वक़्त steel और raw material के दाम लगातार बढ़ रहे थे.",
+     "vo": "उस वक़्त स्टील और रॉ मटीरियल के दाम लगातार बढ़ रहे थे.",
      "prompt": "Molten steel pouring in a dim Indian steel mill, sparks flying in the air, deep orange glow, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "उस वक़्त steel और raw material के दाम लगातार बढ़ रहे थे."
     },
     {
      "vo": "सबको लगा, अब एक लाख वाला वादा टूटेगा. कीमत बढ़ेगी.",
@@ -159,34 +173,39 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "लेकिन stage से जवाब आया: A promise is a promise.",
+     "vo": "लेकिन स्टेज से जवाब आया: ए प्रॉमिस इज़ ए प्रॉमिस.",
      "prompt": "An elderly man in a grey suit standing at a podium beside a tiny bright yellow car on a large stage, single spotlight, sea of cameras in front, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "लेकिन stage से जवाब आया: A promise is a promise."
     },
     {
-     "vo": "कीमत: एक लाख रुपये, factory से, tax अलग. पूरा हॉल तालियों से गूँज उठा.",
+     "vo": "कीमत: एक लाख रुपये, फ़ैक्ट्री से, टैक्स अलग. पूरा हॉल तालियों से गूँज उठा.",
      "prompt": "A tiny egg-shaped yellow city car on a rotating stage under sweeping light beams, distant blurred silhouettes applauding with raised hands, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "कीमत: एक लाख रुपये, factory से, tax अलग. पूरा हॉल तालियों से गूँज उठा."
     },
     {
-     "vo": "दुनिया भर के अख़बारों ने इसे नया नाम दिया: World's Cheapest Car.",
+     "vo": "दुनिया भर के अख़बारों ने इसे नया नाम दिया: वर्ल्ड्स चीपेस्ट कार.",
      "prompt": "A wall of newspapers from many countries pinned together, each with a photo of a tiny yellow car, text blurred, soft newsroom light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "दुनिया भर के अख़बारों ने इसे नया नाम दिया: World's Cheapest Car."
     },
     {
-     "vo": "भारत को गर्व था. एक Indian company ने वो कर दिखाया, जिसे दुनिया नामुमकिन कह रही थी.",
+     "vo": "भारत को गर्व था. एक इंडियन कंपनी ने वो कर दिखाया, जिसे दुनिया नामुमकिन कह रही थी.",
      "prompt": "Distant blurred silhouettes of men watching a small old television showing a tiny yellow car at an Indian roadside tea stall, warm evening light, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "भारत को गर्व था. एक Indian company ने वो कर दिखाया, जिसे दुनिया नामुमकिन कह रही थी."
     },
     {
-     "vo": "पर ये car बननी थी West Bengal के Singur में. और वहाँ, तालियों की जगह नारे गूँज रहे थे.",
+     "vo": "पर ये कार बननी थी वेस्ट बंगाल के सिंगूर में. और वहाँ, तालियों की जगह नारे गूँज रहे थे.",
      "prompt": "A half-built factory shed on the horizon of green Bengal paddy fields, distant blurred silhouettes with red flags, ominous dark clouds at dusk, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर ये car बननी थी West Bengal के Singur में. और वहाँ, तालियों की जगह नारे गूँज रहे थे."
     }
    ]
   },
@@ -195,40 +214,46 @@
    "card": "Singur की लड़ाई",
    "shots": [
     {
-     "vo": "2006 में West Bengal सरकार ने Singur में क़रीब 997 एकड़ ज़मीन ली, Nano factory के लिए.",
+     "vo": "दो हज़ार छह में वेस्ट बंगाल सरकार ने सिंगूर में क़रीब नौ सौ सत्तानवे एकड़ ज़मीन ली, नैनो फ़ैक्ट्री के लिए.",
      "prompt": "Farmland in rural West Bengal being fenced off with concrete pillars and barbed wire, overcast sky, aerial wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "2006 में West Bengal सरकार ने Singur में क़रीब 997 एकड़ ज़मीन ली, Nano factory के लिए."
     },
     {
-     "vo": "इसमें बहुत सी उपजाऊ खेती की ज़मीन थी. कई किसानों ने compensation लिया, पर कई ने मना कर दिया.",
+     "vo": "इसमें बहुत सी उपजाऊ खेती की ज़मीन थी. कई किसानों ने कम्पेंसेशन लिया, पर कई ने मना कर दिया.",
      "prompt": "An elderly farmer in a white dhoti standing at the edge of his green field facing a new boundary wall, seen from behind, hands clasped, soft light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "इसमें बहुत सी उपजाऊ खेती की ज़मीन थी. कई किसानों ने compensation लिया, पर कई ने मना कर दिया."
     },
     {
-     "vo": "दिसंबर 2006 में विपक्ष की नेता Mamata Banerjee छब्बीस दिन के अनशन पर बैठ गईं.",
+     "vo": "दिसंबर दो हज़ार छह में विपक्ष की नेता ममता बनर्जी छब्बीस दिन के अनशन पर बैठ गईं.",
      "prompt": "A woman in a white cotton sari sitting on a mat under a canopy on a protest stage, distant blurred silhouettes around, banners with no text, Kolkata, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "दिसंबर 2006 में विपक्ष की नेता Mamata Banerjee छब्बीस दिन के अनशन पर बैठ गईं."
     },
     {
-     "vo": "धरने, रास्ते जाम, और factory के बाहर हज़ारों लोग. Bengal की राजनीति इसी ज़मीन पर लड़ी जा रही थी.",
+     "vo": "धरने, रास्ते जाम, और फ़ैक्ट्री के बाहर हज़ारों लोग. बंगाल की राजनीति इसी ज़मीन पर लड़ी जा रही थी.",
      "prompt": "A highway blocked by thousands of protesters as distant blurred silhouettes with flags beside a factory fence, police lines, smoke, dusty afternoon light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "धरने, रास्ते जाम, और factory के बाहर हज़ारों लोग. Bengal की राजनीति इसी ज़मीन पर लड़ी जा रही थी."
     },
     {
-     "vo": "अंदर factory लगभग तैयार थी. कहा जाता है कि Tata यहाँ पंद्रह सौ करोड़ से ज़्यादा लगा चुकी थी.",
+     "vo": "अंदर फ़ैक्ट्री लगभग तैयार थी. कहा जाता है कि टाटा यहाँ पंद्रह सौ करोड़ से ज़्यादा लगा चुकी थी.",
      "prompt": "Empty assembly lines and robotic arms inside a nearly finished car factory, a few workers in helmets far away seen from behind, uneasy silence, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अंदर factory लगभग तैयार थी. कहा जाता है कि Tata यहाँ पंद्रह सौ करोड़ से ज़्यादा लगा चुकी थी."
     },
     {
-     "vo": "3 अक्टूबर 2008. Ratan Tata ने ऐलान किया: Nano, Singur से बाहर जाएगी.",
+     "vo": "तीन अक्टूबर दो हज़ार आठ. रतन टाटा ने ऐलान किया: नैनो, सिंगूर से बाहर जाएगी.",
      "prompt": "An elderly man in a grey suit at a table with rows of microphones in front of a bright window, journalists blurred behind, Kolkata press conference, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "3 अक्टूबर 2008. Ratan Tata ने ऐलान किया: Nano, Singur से बाहर जाएगी."
     },
     {
      "vo": "एक तरफ़ किसानों की ज़मीन, उनकी रोज़ी. दूसरी तरफ़ हज़ारों नौकरियों का सपना.",
@@ -237,28 +262,32 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "आपकी नज़र में Singur में सही कौन था: किसान या factory? Comments में लिखिए.",
+     "vo": "आपकी नज़र में सिंगूर में सही कौन था: किसान या फ़ैक्ट्री? कमेंट्स में लिखिए.",
      "prompt": "A lone banyan tree standing between green paddy fields on the left and an abandoned factory shed on the right, still dusk light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "आपकी नज़र में Singur में सही कौन था: किसान या factory? Comments में लिखिए."
     },
     {
-     "vo": "फिर एक SMS आया. Gujarat के तब के मुख्यमंत्री Narendra Modi का. बस एक शब्द: सुस्वागतम.",
+     "vo": "फिर एक एस एम एस आया. गुजरात के तब के मुख्यमंत्री नरेंद्र मोदी का. बस एक शब्द: सुस्वागतम.",
      "prompt": "An old keypad mobile phone glowing on a desk at night, screen blurred, dramatic blue light, close-up",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "फिर एक SMS आया. Gujarat के तब के मुख्यमंत्री Narendra Modi का. बस एक शब्द: सुस्वागतम."
     },
     {
-     "vo": "कुछ ही दिनों में फ़ैसला हुआ: Nano अब Gujarat के Sanand में बनेगी. मशीनें ट्रकों में भरकर देश के दूसरे कोने तक गईं.",
+     "vo": "कुछ ही दिनों में फ़ैसला हुआ: नैनो अब गुजरात के साणंद में बनेगी. मशीनें ट्रकों में भरकर देश के दूसरे कोने तक गईं.",
      "prompt": "A long convoy of trucks carrying heavy factory machinery under tarpaulins on an Indian highway at sunrise, stretching to the horizon, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "कुछ ही दिनों में फ़ैसला हुआ: Nano अब Gujarat के Sanand में बनेगी. मशीनें ट्रकों में भरकर देश के दूसरे कोने तक गईं."
     },
     {
-     "vo": "हार के बीच ये comeback अच्छा लगा हो, तो एक like कर दीजिए. पर अब असली सवाल था: क्या लोग इसे ख़रीदेंगे?",
+     "vo": "हार के बीच ये कमबैक अच्छा लगा हो, तो एक लाइक कर दीजिए. पर अब असली सवाल था: क्या लोग इसे ख़रीदेंगे?",
      "prompt": "First steel frames of a huge factory rising on flat dry land in Gujarat, cranes in silhouette, golden hour, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "हार के बीच ये comeback अच्छा लगा हो, तो एक like कर दीजिए. पर अब असली सवाल था: क्या लोग इसे ख़रीदेंगे?"
     }
    ]
   },
@@ -267,46 +296,53 @@
    "card": "दो लाख Booking",
    "shots": [
     {
-     "vo": "23 मार्च 2009. Mumbai में Nano का launch हुआ. Sanand तैयार नहीं था, तो पहली cars Uttarakhand के Pantnagar plant से बनीं.",
+     "vo": "तेईस मार्च दो हज़ार नौ. मुंबई में नैनो का लॉन्च हुआ. साणंद तैयार नहीं था, तो पहली कार्स उत्तराखंड के पंतनगर प्लांट से बनीं.",
      "prompt": "Three tiny cars in different colours on a launch stage under spotlights in Mumbai at night, distant blurred silhouettes of an audience, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "23 मार्च 2009. Mumbai में Nano का launch हुआ. Sanand तैयार नहीं था, तो पहली cars Uttarakhand के Pantnagar plant से बनीं."
     },
     {
-     "vo": "अप्रैल में booking खुली. कुछ ही हफ़्तों में दो लाख से ज़्यादा booking आ गईं.",
+     "vo": "अप्रैल में बुकिंग खुली. कुछ ही हफ़्तों में दो लाख से ज़्यादा बुकिंग आ गईं.",
      "prompt": "Long queues of people holding forms outside an Indian bank branch, seen from behind, bright sunny morning, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अप्रैल में booking खुली. कुछ ही हफ़्तों में दो लाख से ज़्यादा booking आ गईं."
     },
     {
-     "vo": "Demand इतनी थी कि पहली एक लाख cars lottery से दी गईं.",
+     "vo": "डिमांड इतनी थी कि पहली एक लाख कार्स लॉटरी से दी गईं.",
      "prompt": "A hand reaching into a glass lottery drum full of folded paper slips, single spotlight, suspense, close-up",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Demand इतनी थी कि पहली एक लाख cars lottery से दी गईं."
     },
     {
-     "vo": "जुलाई 2009 में पहली Nano अपने मालिक के घर पहुँची. पूरा मोहल्ला उसे देखने आया.",
+     "vo": "जुलाई दो हज़ार नौ में पहली नैनो अपने मालिक के घर पहुँची. पूरा मोहल्ला उसे देखने आया.",
      "prompt": "A tiny new bright red city car parked in a narrow Indian residential lane, distant blurred silhouettes of neighbours gathered around it, warm afternoon light, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जुलाई 2009 में पहली Nano अपने मालिक के घर पहुँची. पूरा मोहल्ला उसे देखने आया."
     },
     {
-     "vo": "जून 2010 में Sanand plant शुरू हुआ. क्षमता: साल में ढाई लाख cars.",
+     "vo": "जून दो हज़ार दस में साणंद प्लांट शुरू हुआ. क्षमता: साल में ढाई लाख कार्स.",
      "prompt": "Rows of tiny cars moving along a gleaming modern assembly line in Gujarat, workers far off seen from behind, bright industrial light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जून 2010 में Sanand plant शुरू हुआ. क्षमता: साल में ढाई लाख cars."
     },
     {
-     "vo": "लेकिन तभी showrooms में एक अजीब चीज़ दिखने लगी. कई लोग आते, Nano देखते, और कोई दूसरी car ले जाते.",
+     "vo": "लेकिन तभी शोरूम्स में एक अजीब चीज़ दिखने लगी. कई लोग आते, नैनो देखते, और कोई दूसरी कार ले जाते.",
      "prompt": "A customer in a shirt walking past a small yellow car toward a larger hatchback in an Indian showroom, salesman watching, cool light, medium-wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "लेकिन तभी showrooms में एक अजीब चीज़ दिखने लगी. कई लोग आते, Nano देखते, और कोई दूसरी car ले जाते."
     },
     {
-     "vo": "वजह engine नहीं थी. Design भी नहीं. वजह थी एक शब्द.",
+     "vo": "वजह इंजन नहीं थी. डिज़ाइन भी नहीं. वजह थी एक शब्द.",
      "prompt": "A single raindrop running down a small car's round headlight like a tear, dark background, extreme close-up",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "वजह engine नहीं थी. Design भी नहीं. वजह थी एक शब्द."
     },
     {
      "vo": "सस्ती।",
@@ -315,22 +351,25 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "भारत में car सिर्फ़ सवारी नहीं, इज़्ज़त है. शादी में, ऑफिस में, मोहल्ले में.",
+     "vo": "भारत में कार सिर्फ़ सवारी नहीं, इज़्ज़त है. शादी में, ऑफिस में, मोहल्ले में.",
      "prompt": "A large white sedan decorated with flowers in front of a lit Indian wedding venue at night, distant blurred silhouettes of guests, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "भारत में car सिर्फ़ सवारी नहीं, इज़्ज़त है. शादी में, ऑफिस में, मोहल्ले में."
     },
     {
-     "vo": "और कोई नहीं चाहता था कि लोग कहें: इसने तो सबसे सस्ती car ली है.",
+     "vo": "और कोई नहीं चाहता था कि लोग कहें: इसने तो सबसे सस्ती कार ली है.",
      "prompt": "A man in office clothes hesitating beside a small yellow car parked between larger sedans in an office parking lot, seen from behind, overcast light, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और कोई नहीं चाहता था कि लोग कहें: इसने तो सबसे सस्ती car ली है."
     },
     {
-     "vo": "जिस label ने Nano को मशहूर किया, वही उसके गले का पत्थर बन गया. लेकिन तभी… सड़कों से एक और ख़बर आई.",
+     "vo": "जिस लेबल ने नैनो को मशहूर किया, वही उसके गले का पत्थर बन गया. लेकिन तभी… सड़कों से एक और ख़बर आई.",
      "prompt": "A small yellow car with a giant looming shadow of a blank price-tag shape cast over it on a wall, no text, dramatic chiaroscuro, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जिस label ने Nano को मशहूर किया, वही उसके गले का पत्थर बन गया. लेकिन तभी… सड़कों से एक और ख़बर आई."
     }
    ]
   },
@@ -339,28 +378,32 @@
    "card": "आग और सवाल",
    "shots": [
     {
-     "vo": "2010 के आसपास कुछ शहरों से ख़बरें आईं: चलती Nano में आग.",
+     "vo": "दो हज़ार दस के आसपास कुछ शहरों से ख़बरें आईं: चलती नैनो में आग.",
      "prompt": "A small yellow city car burning at the side of an Indian road, orange flames and black smoke, distant blurred silhouettes of onlookers, dusk, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "2010 के आसपास कुछ शहरों से ख़बरें आईं: चलती Nano में आग."
     },
     {
-     "vo": "TV, अख़बार, हर जगह जलती हुई छोटी car की तस्वीरें.",
+     "vo": "टीवी, अख़बार, हर जगह जलती हुई छोटी कार की तस्वीरें.",
      "prompt": "Several televisions in an electronics shop window all showing a small burning car, passers-by seen from behind, evening light, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "TV, अख़बार, हर जगह जलती हुई छोटी car की तस्वीरें."
     },
     {
-     "vo": "Tata ने कहा, जाँच में design की ग़लती नहीं मिली. कई मामलों में बाद में लगी extra fittings को वजह बताया गया.",
+     "vo": "टाटा ने कहा, जाँच में डिज़ाइन की ग़लती नहीं मिली. कई मामलों में बाद में लगी एक्स्ट्रा फ़िटिंग्स को वजह बताया गया.",
      "prompt": "A mechanic's hands examining charred electrical wiring in the rear engine bay of a small car, focused workshop light, close-up",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Tata ने कहा, जाँच में design की ग़लती नहीं मिली. कई मामलों में बाद में लगी extra fittings को वजह बताया गया."
     },
     {
-     "vo": "फिर भी company ने Nano मालिकों को मुफ़्त safety upgrade दिया.",
+     "vo": "फिर भी कंपनी ने नैनो मालिकों को मुफ़्त सेफ़्टी अपग्रेड दिया.",
      "prompt": "A row of small cars in a clean service centre bay with mechanics working on their rear engines, bright even light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "फिर भी company ने Nano मालिकों को मुफ़्त safety upgrade दिया."
     },
     {
      "vo": "पर लोगों के मन में 'सस्ती' के साथ अब एक डर भी जुड़ गया था.",
@@ -369,34 +412,39 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "2014 में Global NCAP के crash test में Nano को zero star मिले.",
+     "vo": "दो हज़ार चौदह में ग्लोबल एन सी ए पी के क्रैश टेस्ट में नैनो को ज़ीरो स्टार मिले.",
      "prompt": "A small car crumpled against a concrete barrier in a crash-test laboratory, white studio lights, a test dummy inside, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "2014 में Global NCAP के crash test में Nano को zero star मिले."
     },
     {
-     "vo": "पर सच ये भी है: उसी test में कई दूसरी popular Indian cars को भी zero ही मिला था. सुर्खियाँ बस Nano की बनीं.",
+     "vo": "पर सच ये भी है: उसी टेस्ट में कई दूसरी पॉपुलर इंडियन कार्स को भी ज़ीरो ही मिला था. सुर्खियाँ बस नैनो की बनीं.",
      "prompt": "Several small hatchbacks lined up in a lab, all crumpled at the front, one small yellow car in the centre under a spotlight, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर सच ये भी है: उसी test में कई दूसरी popular Indian cars को भी zero ही मिला था. सुर्खियाँ बस Nano की बनीं."
     },
     {
-     "vo": "Tata ने कोशिश की. Power steering, AC, और 2015 में GenX Nano, खुलने वाली dicky और automatic gear के साथ.",
+     "vo": "टाटा ने कोशिश की. पावर स्टीयरिंग, ए सी, और दो हज़ार पंद्रह में जेन एक्स नैनो, खुलने वाली डिक्की और ऑटोमैटिक गियर के साथ.",
      "prompt": "A refreshed tiny city car with its rear hatch open in a modern showroom, glossy paint, soft polished light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Tata ने कोशिश की. Power steering, AC, और 2015 में GenX Nano, खुलने वाली dicky और automatic gear के साथ."
     },
     {
-     "vo": "पर हर feature के साथ कीमत बढ़ी, और एक लाख वाला वादा पीछे छूटता गया.",
+     "vo": "पर हर फ़ीचर के साथ कीमत बढ़ी, और एक लाख वाला वादा पीछे छूटता गया.",
      "prompt": "A small car on a showroom floor with the shadow of a rising staircase growing behind it, cool tones, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर हर feature के साथ कीमत बढ़ी, और एक लाख वाला वादा पीछे छूटता गया."
     },
     {
-     "vo": "ये video उस दोस्त को भेजिए, जिसके घर कभी Nano थी. लेकिन तभी… Tata Group के अंदर से ही एक letter आया.",
+     "vo": "ये वीडियो उस दोस्त को भेजिए, जिसके घर कभी नैनो थी. लेकिन तभी… टाटा ग्रुप के अंदर से ही एक लेटर आया.",
      "prompt": "A single sealed envelope on a polished table in a dark corporate boardroom, one lamp, night, close-up",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "ये video उस दोस्त को भेजिए, जिसके घर कभी Nano थी. लेकिन तभी… Tata Group के अंदर से ही एक letter आया."
     }
    ]
   },
@@ -405,52 +453,60 @@
    "card": "The End",
    "shots": [
     {
-     "vo": "अक्टूबर 2016. Tata Sons के chairman Cyrus Mistry को पद से हटाया गया.",
+     "vo": "अक्टूबर दो हज़ार सोलह. टाटा संस के चेयरमैन साइरस मिस्त्री को पद से हटाया गया.",
      "prompt": "A tall corporate headquarters building in Mumbai at night with a few lit windows, rain, heavy dramatic sky, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अक्टूबर 2016. Tata Sons के chairman Cyrus Mistry को पद से हटाया गया."
     },
     {
-     "vo": "Board को लिखे उनके letter में Nano का भी ज़िक्र था: ये car लगातार घाटे में है.",
+     "vo": "बोर्ड को लिखे उनके लेटर में नैनो का भी ज़िक्र था: ये कार लगातार घाटे में है.",
      "prompt": "Hands holding a printed letter over a dark wooden desk, text blurred, a small toy car model beside it, close-up",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Board को लिखे उनके letter में Nano का भी ज़िक्र था: ये car लगातार घाटे में है."
     },
     {
-     "vo": "उसमें लिखा था कि Nano का घाटा क़रीब एक हज़ार करोड़ तक पहुँचा, और इसे भावनाओं की वजह से चलाया जा रहा था.",
+     "vo": "उसमें लिखा था कि नैनो का घाटा क़रीब एक हज़ार करोड़ तक पहुँचा, और इसे भावनाओं की वजह से चलाया जा रहा था.",
      "prompt": "A financial chart on an old office monitor sliding steeply downward, red glow on a dark desk, no readable numbers, close-up",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "उसमें लिखा था कि Nano का घाटा क़रीब एक हज़ार करोड़ तक पहुँचा, और इसे भावनाओं की वजह से चलाया जा रहा था."
     },
     {
-     "vo": "Sanand plant ढाई लाख cars के लिए बना था. पर सबसे अच्छे साल में भी Nano क़रीब पचहत्तर हज़ार तक ही पहुँची.",
+     "vo": "साणंद प्लांट ढाई लाख कार्स के लिए बना था. पर सबसे अच्छे साल में भी नैनो क़रीब पचहत्तर हज़ार तक ही पहुँची.",
      "prompt": "A huge assembly hall with most lines idle, only a few small cars on one line, dust drifting in shafts of light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Sanand plant ढाई लाख cars के लिए बना था. पर सबसे अच्छे साल में भी Nano क़रीब पचहत्तर हज़ार तक ही पहुँची."
     },
     {
-     "vo": "साल दर साल numbers गिरते गए. Dealers के यार्ड में Nano धूल खाने लगी.",
+     "vo": "साल दर साल नंबर्स गिरते गए. डीलर्स के यार्ड में नैनो धूल खाने लगी.",
      "prompt": "Dusty unsold small cars in a dealer's back yard, faded paint, dry leaves on the bonnets, afternoon haze, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "साल दर साल numbers गिरते गए. Dealers के यार्ड में Nano धूल खाने लगी."
     },
     {
-     "vo": "जून 2018. पूरे महीने में सिर्फ़ एक Nano बनी.",
+     "vo": "जून दो हज़ार अठारह. पूरे महीने में सिर्फ़ एक नैनो बनी.",
      "prompt": "A single small yellow car at the end of a vast empty assembly line, one worker walking away seen from behind, cold blue light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जून 2018. पूरे महीने में सिर्फ़ एक Nano बनी."
     },
     {
-     "vo": "उसके बाद production लगभग रुक गया, और People's Car चुपचाप सड़कों से ग़ायब होने लगी.",
+     "vo": "उसके बाद प्रोडक्शन लगभग रुक गया, और पीपल्स कार चुपचाप सड़कों से ग़ायब होने लगी.",
      "prompt": "An old small yellow car under a half-pulled tarpaulin in a quiet Indian lane, monsoon puddles, nostalgic grey light, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "उसके बाद production लगभग रुक गया, और People's Car चुपचाप सड़कों से ग़ायब होने लगी."
     },
     {
-     "vo": "और Singur? 2016 में Supreme Court ने वो acquisition रद्द कर दिया, और ज़मीन किसानों को लौटाने का आदेश दिया.",
+     "vo": "और सिंगूर? दो हज़ार सोलह में सुप्रीम कोर्ट ने वो एक्विज़िशन रद्द कर दिया, और ज़मीन किसानों को लौटाने का आदेश दिया.",
      "prompt": "Overgrown abandoned factory sheds in rural Bengal, distant blurred silhouettes of farmers walking onto the land, soft hopeful morning light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और Singur? 2016 में Supreme Court ने वो acquisition रद्द कर दिया, और ज़मीन किसानों को लौटाने का आदेश दिया."
     },
     {
      "vo": "तो आख़िर, इतने बड़े सपने को मारा किसने?",
@@ -465,34 +521,39 @@
    "card": null,
    "shots": [
     {
-     "vo": "जिस car के लिए दो लाख से ज़्यादा लोगों ने booking की, वो दस साल में इसलिए ख़त्म हुई, क्योंकि उसका सबसे बड़ा वादा ही उसकी पहचान बन गया: सबसे सस्ती car.",
+     "vo": "जिस कार के लिए दो लाख से ज़्यादा लोगों ने बुकिंग की, वो दस साल में इसलिए ख़त्म हुई, क्योंकि उसका सबसे बड़ा वादा ही उसकी पहचान बन गया: सबसे सस्ती कार.",
      "prompt": "A small yellow car driving away on a rain-washed Indian road at dusk, red tail lights glowing on the wet asphalt, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जिस car के लिए दो लाख से ज़्यादा लोगों ने booking की, वो दस साल में इसलिए ख़त्म हुई, क्योंकि उसका सबसे बड़ा वादा ही उसकी पहचान बन गया: सबसे सस्ती car."
     },
     {
-     "vo": "2013 में Ratan Tata ने ख़ुद माना था कि इसे 'cheapest car' कहकर बेचना एक ग़लती थी. दिक़्क़त car से ज़्यादा उसके tagline में थी.",
+     "vo": "दो हज़ार तेरह में रतन टाटा ने ख़ुद माना था कि इसे 'चीपेस्ट कार' कहकर बेचना एक ग़लती थी. दिक़्क़त कार से ज़्यादा उसके टैगलाइन में थी.",
      "prompt": "An elderly man with white hair in a grey suit standing at a tall window beside a small car model, looking out at falling rain, reflective light, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "2013 में Ratan Tata ने ख़ुद माना था कि इसे 'cheapest car' कहकर बेचना एक ग़लती थी. दिक़्क़त car से ज़्यादा उसके tagline में थी."
     },
     {
-     "vo": "और वो बात जो ज़्यादातर लोग नहीं जानते: Nano पहले car थी ही नहीं. Ratan Tata शुरू में scooter को ही सुरक्षित बनाने के doodles बना रहे थे.",
+     "vo": "और वो बात जो ज़्यादातर लोग नहीं जानते: नैनो पहले कार थी ही नहीं. रतन टाटा शुरू में स्कूटर को ही सुरक्षित बनाने के डूडल्स बना रहे थे.",
      "prompt": "Pencil doodles on yellowed paper: a scooter with protective rails, a doorless four-wheeled frame, then a small car, no readable text, warm lamplight, close-up",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और वो बात जो ज़्यादातर लोग नहीं जानते: Nano पहले car थी ही नहीं. Ratan Tata शुरू में scooter को ही सुरक्षित बनाने के doodles बना रहे थे."
     },
     {
-     "vo": "Doodle से car बनी, और car से एक सपना. Ratan Tata 2024 में दुनिया छोड़ गए, पर बारिश में भीगते उस परिवार की उनकी फ़िक्र आज भी याद की जाती है.",
+     "vo": "डूडल से कार बनी, और कार से एक सपना. रतन टाटा दो हज़ार चौबीस में दुनिया छोड़ गए, पर बारिश में भीगते उस परिवार की उनकी फ़िक्र आज भी याद की जाती है.",
      "prompt": "An Indian family of four sitting dry inside a small yellow car while rain pours outside, seen from behind through the rear window, warm golden glow, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Doodle से car बनी, और car से एक सपना. Ratan Tata 2024 में दुनिया छोड़ गए, पर बारिश में भीगते उस परिवार की उनकी फ़िक्र आज भी याद की जाती है."
     },
     {
-     "vo": "ऐसी कहानियों के लिए subscribe कीजिए. अगली बार: वो scooter, जिसके लिए लोग सालों इंतज़ार करते थे. Bajaj Chetak.",
+     "vo": "ऐसी कहानियों के लिए सब्सक्राइब कीजिए. अगली बार: वो स्कूटर, जिसके लिए लोग सालों इंतज़ार करते थे. बजाज चेतक.",
      "prompt": "A classic 1980s Indian scooter parked in a sunlit old lane, nostalgic soft light, quiet anticipation, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "ऐसी कहानियों के लिए subscribe कीजिए. अगली बार: वो scooter, जिसके लिए लोग सालों इंतज़ार करते थे. Bajaj Chetak."
     }
    ]
   }

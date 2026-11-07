@@ -37,34 +37,39 @@
    "card": null,
    "shots": [
     {
-     "vo": "सिर्फ़ अस्सी रुपये का उधार। सात औरतें। और Mumbai की एक पुरानी छत।",
+     "vo": "सिर्फ़ अस्सी रुपये का उधार। सात औरतें। और मुंबई की एक पुरानी छत।",
      "prompt": "Seven women in cotton saris kneeling in a row rolling thin round papads on wooden boards, seen from behind, hundreds of papads drying on white cloth, 1959 Mumbai rooftop, chawl buildings, sunrise haze, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सिर्फ़ अस्सी रुपये का उधार। सात औरतें। और Mumbai की एक पुरानी छत।"
     },
     {
-     "vo": "2021 तक, उसी छत से निकली company का सालाना turnover था लगभग सोलह सौ करोड़ रुपये।",
+     "vo": "दो हज़ार इक्कीस तक, उसी छत से निकली कंपनी का सालाना टर्नओवर था लगभग सोलह सौ करोड़ रुपये।",
      "prompt": "A vast modern Indian warehouse filled with towering stacks of sealed plain cartons, a few tiny worker silhouettes, shafts of light from high windows, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "2021 तक, उसी छत से निकली company का सालाना turnover था लगभग सोलह सौ करोड़ रुपये।"
     },
     {
-     "vo": "तो एक छत से शुरू हुई ये company इतनी बड़ी बनी कैसे? और इसका मालिक कौन है? जवाब आपको चौंका देगा।",
+     "vo": "तो एक छत से शुरू हुई ये कंपनी इतनी बड़ी बनी कैसे? और इसका मालिक कौन है? जवाब आपको चौंका देगा।",
      "prompt": "A tall carved wooden chair seen from behind at the end of a dim corridor, only its outline lit by a thin beam of light, mysterious mood, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "तो एक छत से शुरू हुई ये company इतनी बड़ी बनी कैसे? और इसका मालिक कौन है? जवाब आपको चौंका देगा।"
     },
     {
-     "vo": "अगर आप सोचते हैं कि बड़ी company बनाने के लिए एक boss और करोड़ों का पैसा चाहिए, तो आप ग़लत हैं।",
+     "vo": "अगर आप सोचते हैं कि बड़ी कंपनी बनाने के लिए एक बॉस और करोड़ों का पैसा चाहिए, तो आप ग़लत हैं।",
      "prompt": "A tiny humble rooftop in the foreground with clay pots and wooden rolling boards, a towering glass corporate building behind at dusk, dramatic sky, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगर आप सोचते हैं कि बड़ी company बनाने के लिए एक boss और करोड़ों का पैसा चाहिए, तो आप ग़लत हैं।"
     },
     {
-     "vo": "और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते: इस brand का नाम असल में आया कहाँ से।",
+     "vo": "और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते: इस ब्रांड का नाम असल में आया कहाँ से।",
      "prompt": "A folded slip of paper on an old wooden table under a kerosene lamp, 1960s Mumbai room, warm shadows, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते: इस brand का नाम असल में आया कहाँ से।"
     },
     {
      "vo": "एक उधार, एक बारिश, एक अनोखा नियम, और एक खरगोश: चार मोड़ों में पूरी कहानी।",
@@ -79,16 +84,18 @@
    "card": "₹80 का उधार",
    "shots": [
     {
-     "vo": "साल 1959। Mumbai का Girgaum इलाका। तंग गलियाँ, पुरानी इमारतें, और हर तरफ़ भीड़।",
+     "vo": "साल उन्नीस सौ उनसठ। मुंबई का गिरगाँव इलाका। तंग गलियाँ, पुरानी इमारतें, और हर तरफ़ भीड़।",
      "prompt": "A crowded 1959 Girgaum Mumbai street, old wooden-balcony buildings, handcarts, distant blurred silhouettes of people, morning haze, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "साल 1959। Mumbai का Girgaum इलाका। तंग गलियाँ, पुरानी इमारतें, और हर तरफ़ भीड़।"
     },
     {
-     "vo": "यहाँ की एक building थी, Lohana Niwas। इसमें कुछ Gujarati परिवार रहते थे।",
+     "vo": "यहाँ की एक बिल्डिंग थी, लोहाना निवास। इसमें कुछ गुजराती परिवार रहते थे।",
      "prompt": "An old four-storey 1950s Mumbai residential building with wooden balconies and laundry hanging, Gujarati families on balconies as distant silhouettes, soft morning light, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "यहाँ की एक building थी, Lohana Niwas। इसमें कुछ Gujarati परिवार रहते थे।"
     },
     {
      "vo": "घर की औरतें चाहती थीं कि घर चलाने में वो भी हाथ बटाएँ। अपनी मेहनत से।",
@@ -109,34 +116,39 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "तब उन्होंने अस्सी रुपये उधार लिए, social worker Chhaganlal Karamsi Parekh से। सब उन्हें छगनबापा कहते थे।",
+     "vo": "तब उन्होंने अस्सी रुपये उधार लिए, सोशल वर्कर छगनलाल करमसी पारेख से। सब उन्हें छगनबापा कहते थे।",
      "prompt": "An elderly man in white dhoti and kurta, grey hair, on the left, holding out a few rupee notes toward a woman in a sari on the right, standing apart on a 1959 Mumbai doorstep, soft light, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "तब उन्होंने अस्सी रुपये उधार लिए, social worker Chhaganlal Karamsi Parekh से। सब उन्हें छगनबापा कहते थे।"
     },
     {
-     "vo": "उन पैसों से उन्होंने एक घाटे में चल रहा छोटा papad काम संभाला, Lakshmidas Bhai का। और उसका सामान ख़रीदा।",
+     "vo": "उन पैसों से उन्होंने एक घाटे में चल रहा छोटा पापड़ काम संभाला, लक्ष्मीदास भाई का। और उसका सामान ख़रीदा।",
      "prompt": "Hands holding a small bundle of old tins and rolling boards over a stone grinder and sacks of lentils, cramped 1959 Mumbai storeroom, dusty window light, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "उन पैसों से उन्होंने एक घाटे में चल रहा छोटा papad काम संभाला, Lakshmidas Bhai का। और उसका सामान ख़रीदा।"
     },
     {
-     "vo": "15 March 1959। उसी building की छत पर पहली बार बेलन चला।",
+     "vo": "पंद्रह मार्च उन्नीस सौ उनसठ। उसी बिल्डिंग की छत पर पहली बार बेलन चला।",
      "prompt": "Seven women in cotton saris rolling the first papads on wooden boards, seen from behind, 1959 Mumbai rooftop, water tanks, pigeons, sunrise golden light, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "15 March 1959। उसी building की छत पर पहली बार बेलन चला।"
     },
     {
-     "vo": "पहले दिन बने सिर्फ़ चार packet papad। पर डर भी था: अनजान बाज़ार में इन्हें ख़रीदेगा कौन?",
+     "vo": "पहले दिन बने सिर्फ़ चार पैकेट पापड़। पर डर भी था: अनजान बाज़ार में इन्हें ख़रीदेगा कौन?",
      "prompt": "Four small hand-tied paper packets of papad on a wooden plank, a woman's hand hesitating above them, rooftop, early uncertain light, close shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पहले दिन बने सिर्फ़ चार packet papad। पर डर भी था: अनजान बाज़ार में इन्हें ख़रीदेगा कौन?"
     },
     {
-     "vo": "वो चार packet Bhuleshwar के एक व्यापारी ने ख़रीदे। पहली कमाई हाथ में आई।",
+     "vo": "वो चार पैकेट भुलेश्वर के एक व्यापारी ने ख़रीदे। पहली कमाई हाथ में आई।",
      "prompt": "A merchant in white cap receiving small paper packets across a counter, seen from behind, 1959 Bhuleshwar shop with grain sacks, warm light, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "वो चार packet Bhuleshwar के एक व्यापारी ने ख़रीदे। पहली कमाई हाथ में आई।"
     },
     {
      "vo": "पहले साल की पूरी बिक्री: छह हज़ार एक सौ छियानवे रुपये। छोटी रकम, बड़ा भरोसा।",
@@ -145,10 +157,11 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "सपना चल पड़ा था। लेकिन तभी... Mumbai के आसमान में बादल घिरने लगे।",
+     "vo": "सपना चल पड़ा था। लेकिन तभी... मुंबई के आसमान में बादल घिरने लगे।",
      "prompt": "Wind tearing a white cloth of papads upward on a Mumbai rooftop, a lone woman in a sari from behind reaching for it, towering black monsoon clouds above old rooftops, ominous light, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सपना चल पड़ा था। लेकिन तभी... Mumbai के आसमान में बादल घिरने लगे।"
     }
    ]
   },
@@ -157,22 +170,25 @@
    "card": "बारिश का क़हर",
    "shots": [
     {
-     "vo": "Mumbai का monsoon। हफ़्तों तक धूप नहीं। छतों पर सिर्फ़ पानी।",
+     "vo": "मुंबई का मॉनसून। हफ़्तों तक धूप नहीं। छतों पर सिर्फ़ पानी।",
      "prompt": "Torrential monsoon rain pouring over 1959 Mumbai rooftops, water streaming off tin sheds, grey sky, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Mumbai का monsoon। हफ़्तों तक धूप नहीं। छतों पर सिर्फ़ पानी।"
     },
     {
-     "vo": "Papad बनते थे, पर सूखते नहीं थे। और गीला papad कोई नहीं ख़रीदता।",
+     "vo": "पापड़ बनते थे, पर सूखते नहीं थे। और गीला पापड़ कोई नहीं ख़रीदता।",
      "prompt": "A woman's hand lifting a soggy curled papad from a wet cloth under a dripping awning, rain behind, close shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Papad बनते थे, पर सूखते नहीं थे। और गीला papad कोई नहीं ख़रीदता।"
     },
     {
-     "vo": "उस पहले monsoon में, लगभग चार महीने तक काम रुका रहा।",
+     "vo": "उस पहले मॉनसून में, लगभग चार महीने तक काम रुका रहा।",
      "prompt": "An empty rain-soaked rooftop with abandoned rolling boards and an overturned stool, puddles reflecting grey clouds, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "उस पहले monsoon में, लगभग चार महीने तक काम रुका रहा।"
     },
     {
      "vo": "चार महीने। न बिक्री, न कमाई। बस खिड़की से बरसता पानी।",
@@ -187,10 +203,11 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "अगले साल हल निकला: एक खाट और एक चूल्हा। खाट पर papad, नीचे हल्की आँच।",
+     "vo": "अगले साल हल निकला: एक खाट और एक चूल्हा। खाट पर पापड़, नीचे हल्की आँच।",
      "prompt": "Round papads spread on a wooden rope cot with a glowing clay stove beneath, women's hands arranging them, warm orange light, rain streaking the window, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगले साल हल निकला: एक खाट और एक चूल्हा। खाट पर papad, नीचे हल्की आँच।"
     },
     {
      "vo": "अब बारिश भी काम नहीं रोक सकती थी।",
@@ -205,28 +222,32 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "शुरू में papad की दो quality बनती थीं: एक बढ़िया, और एक थोड़ी सस्ती।",
+     "vo": "शुरू में पापड़ की दो क्वालिटी बनती थीं: एक बढ़िया, और एक थोड़ी सस्ती।",
      "prompt": "Two small piles of papads on a wooden table, one thin and perfect on the left, one uneven and thick on the right, side light, close shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "शुरू में papad की दो quality बनती थीं: एक बढ़िया, और एक थोड़ी सस्ती।"
     },
     {
-     "vo": "छगनबापा की सलाह थी कि quality एक ही हो: सबसे अच्छी। और उस पर कोई समझौता नहीं।",
+     "vo": "छगनबापा की सलाह थी कि क्वालिटी एक ही हो: सबसे अच्छी। और उस पर कोई समझौता नहीं।",
      "prompt": "A hand pushing aside an uneven pile of papads, leaving a neat stack of perfect thin papads in warm light, close shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "छगनबापा की सलाह थी कि quality एक ही हो: सबसे अच्छी। और उस पर कोई समझौता नहीं।"
     },
     {
-     "vo": "दो quality बनाकर ज़्यादा बेचना, या एक quality पर अड़े रहना: आप क्या करते? Comments में लिखिए।",
+     "vo": "दो क्वालिटी बनाकर ज़्यादा बेचना, या एक क्वालिटी पर अड़े रहना: आप क्या करते? कमेंट्स में लिखिए।",
      "prompt": "A balance scale on a wooden table, one pan heaped with uneven papads, the other holding a few perfect ones, dramatic side light, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "दो quality बनाकर ज़्यादा बेचना, या एक quality पर अड़े रहना: आप क्या करते? Comments में लिखिए।"
     },
     {
-     "vo": "उनकी दूसरी सलाह: इसे charity नहीं, business की तरह चलाना। लेकिन तभी सवाल उठा: इतनी औरतें जुड़ रही हैं, तो ये company है किसकी?",
+     "vo": "उनकी दूसरी सलाह: इसे चैरिटी नहीं, बिज़नेस की तरह चलाना। लेकिन तभी सवाल उठा: इतनी औरतें जुड़ रही हैं, तो ये कंपनी है किसकी?",
      "prompt": "A line of women in saris seen from behind climbing a narrow old Mumbai staircase toward a blinding bright rooftop doorway, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "उनकी दूसरी सलाह: इसे charity नहीं, business की तरह चलाना। लेकिन तभी सवाल उठा: इतनी औरतें जुड़ रही हैं, तो ये company है किसकी?"
     }
    ]
   },
@@ -241,22 +262,25 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "इतना बड़ा परिवार, तो नियम भी चाहिए। July 1966 में ये Societies Registration Act के तहत register हुई।",
+     "vo": "इतना बड़ा परिवार, तो नियम भी चाहिए। जुलाई उन्नीस सौ छियासठ में ये सोसाइटीज़ रजिस्ट्रेशन एक्ट के तहत रजिस्टर हुई।",
      "prompt": "A stamped official document on a 1960s government office desk with an ink pad and rubber stamp, ceiling fan above, close shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "इतना बड़ा परिवार, तो नियम भी चाहिए। July 1966 में ये Societies Registration Act के तहत register हुई।"
     },
     {
-     "vo": "उसी साल September में, Khadi and Village Industries Commission ने इसे village industry की मान्यता दी।",
+     "vo": "उसी साल सितंबर में, खादी एंड विलेज इंडस्ट्रीज़ कमीशन ने इसे विलेज इंडस्ट्री की मान्यता दी।",
      "prompt": "An official's hands pressing a seal onto a document on a khadi-covered table, a calendar page beside it, afternoon light, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "उसी साल September में, Khadi and Village Industries Commission ने इसे village industry की मान्यता दी।"
     },
     {
-     "vo": "किसी भी business में आम तौर पर एक मालिक होता है। बाकी सब उसके कर्मचारी। तो Lijjat का मालिक कौन था?",
+     "vo": "किसी भी बिज़नेस में आम तौर पर एक मालिक होता है। बाकी सब उसके कर्मचारी। तो लिज्जत का मालिक कौन था?",
      "prompt": "A single silhouetted man watching from a raised glass office above a 1960s factory floor, workers in rows below as distant blurred silhouettes, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "किसी भी business में आम तौर पर एक मालिक होता है। बाकी सब उसके कर्मचारी। तो Lijjat का मालिक कौन था?"
     },
     {
      "vo": "कोई नहीं।",
@@ -265,40 +289,46 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "जो भी औरत यहाँ member बनती है, वो इसकी co-owner है। हर एक।",
+     "vo": "जो भी औरत यहाँ मेंबर बनती है, वो इसकी को-ओनर है। हर एक।",
      "prompt": "Many women's hands from above, each rolling a papad on her own board, arranged in a circle like a mandala, warm light, top-down shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जो भी औरत यहाँ member बनती है, वो इसकी co-owner है। हर एक।"
     },
     {
-     "vo": "यहाँ कोई employee नहीं कहलाता। सब एक-दूसरे को बहन कहती हैं।",
+     "vo": "यहाँ कोई एम्प्लॉई नहीं कहलाता। सब एक-दूसरे को बहन कहती हैं।",
      "prompt": "Two women in saris standing side by side, seen from behind, carrying dough bundles, soft morning light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "यहाँ कोई employee नहीं कहलाता। सब एक-दूसरे को बहन कहती हैं।"
     },
     {
-     "vo": "Profit हो या loss, सब members में बँटता है। बड़े फ़ैसले भी सहमति से होते हैं।",
+     "vo": "प्रॉफ़िट हो या लॉस, सब मेंबर्स में बँटता है। बड़े फ़ैसले भी सहमति से होते हैं।",
      "prompt": "Women seated in a circle on a mat, a ledger and baskets at the centre, hands raised in agreement, seen from behind, blurred silhouettes, medium-wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Profit हो या loss, सब members में बँटता है। बड़े फ़ैसले भी सहमति से होते हैं।"
     },
     {
-     "vo": "आदमी यहाँ काम कर सकते हैं, पर सिर्फ़ salary पर। member नहीं बन सकते।",
+     "vo": "आदमी यहाँ काम कर सकते हैं, पर सिर्फ़ सैलरी पर। मेंबर नहीं बन सकते।",
      "prompt": "A man loading sealed plain cartons onto a delivery tempo, seen from behind, outside an Indian workshop, women as distant silhouettes at the doorway, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "आदमी यहाँ काम कर सकते हैं, पर सिर्फ़ salary पर। member नहीं बन सकते।"
     },
     {
-     "vo": "याद है शुरुआत वाली बात? न boss, न करोड़ों। बस अस्सी रुपये, और एक-दूसरे पर भरोसा।",
+     "vo": "याद है शुरुआत वाली बात? न बॉस, न करोड़ों। बस अस्सी रुपये, और एक-दूसरे पर भरोसा।",
      "prompt": "A humble rooftop full of women rolling papads in golden light, a faint glass corporate building fading into mist behind, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "याद है शुरुआत वाली बात? न boss, न करोड़ों। बस अस्सी रुपये, और एक-दूसरे पर भरोसा।"
     },
     {
-     "vo": "लेकिन असली इम्तिहान अभी बाकी था: बिना boss के, क्या ये Mumbai की एक छत से बाहर निकल पाएगी?",
+     "vo": "लेकिन असली इम्तिहान अभी बाकी था: बिना बॉस के, क्या ये मुंबई की एक छत से बाहर निकल पाएगी?",
      "prompt": "A woman in a sari standing at the edge of a Mumbai rooftop at dusk, seen from behind, looking over endless city lights and the dark sea, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "लेकिन असली इम्तिहान अभी बाकी था: बिना boss के, क्या ये Mumbai की एक छत से बाहर निकल पाएगी?"
     }
    ]
   },
@@ -307,46 +337,53 @@
    "card": "कर्रम कुर्रम",
    "shots": [
     {
-     "vo": "1968। Maharashtra के बाहर पहली branch खुली: Gujarat का Valod।",
+     "vo": "उन्नीस सौ अड़सठ। महाराष्ट्र के बाहर पहली ब्रांच खुली: गुजरात का वलोड।",
      "prompt": "Women in colourful saris rolling papads under a neem tree in a 1968 Gujarat courtyard, seen from behind, bright afternoon, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "1968। Maharashtra के बाहर पहली branch खुली: Gujarat का Valod।"
     },
     {
-     "vo": "पर हर नई branch के साथ एक डर भी बढ़ता था।",
+     "vo": "पर हर नई ब्रांच के साथ एक डर भी बढ़ता था।",
      "prompt": "Cartons and steel trunks being loaded onto a steam train on a 1960s Indian railway platform at dawn, a lone sari-clad woman from behind watching it leave, mist, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर हर नई branch के साथ एक डर भी बढ़ता था।"
     },
     {
-     "vo": "सैकड़ों किलोमीटर दूर, बिना किसी boss की निगरानी के, क्या quality वही रहेगी?",
+     "vo": "सैकड़ों किलोमीटर दूर, बिना किसी बॉस की निगरानी के, क्या क्वालिटी वही रहेगी?",
      "prompt": "A hand holding a single papad up against a lamp in a distant village room, dusty road visible through the window, tense light, close shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सैकड़ों किलोमीटर दूर, बिना किसी boss की निगरानी के, क्या quality वही रहेगी?"
     },
     {
-     "vo": "एक भी ख़राब papad, और सालों का भरोसा टूट सकता था।",
+     "vo": "एक भी ख़राब पापड़, और सालों का भरोसा टूट सकता था।",
      "prompt": "A single cracked burnt papad lying on a white cloth among perfect round papads, harsh spotlight, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "एक भी ख़राब papad, और सालों का भरोसा टूट सकता था।"
     },
     {
-     "vo": "जवाब था: हर branch का तरीका एक जैसा। वही आटा, वही नियम, वही जाँच।",
+     "vo": "जवाब था: हर ब्रांच का तरीका एक जैसा। वही आटा, वही नियम, वही जाँच।",
      "prompt": "Identical lumps of papad dough on a brass scale at a branch counter, women's hands receiving them, close shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जवाब था: हर branch का तरीका एक जैसा। वही आटा, वही नियम, वही जाँच।"
     },
     {
-     "vo": "धीरे-धीरे branches देश के कोने-कोने में फैलीं। आज अस्सी से ज़्यादा।",
+     "vo": "धीरे-धीरे ब्रांचेज़ देश के कोने-कोने में फैलीं। आज अस्सी से ज़्यादा।",
      "prompt": "India seen from high above at dusk, small warm lights scattered across towns and villages like stars, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "धीरे-धीरे branches देश के कोने-कोने में फैलीं। आज अस्सी से ज़्यादा।"
     },
     {
-     "vo": "और फिर आया TV का दौर। घर-घर में एक नया डिब्बा।",
+     "vo": "और फिर आया टीवी का दौर। घर-घर में एक नया डिब्बा।",
      "prompt": "A family seen from behind on a sofa watching a glowing wooden-cabinet television in a 1980s Indian living room, warm evening light, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और फिर आया TV का दौर। घर-घर में एक नया डिब्बा।"
     },
     {
      "vo": "उस पर आया एक प्यारा सा खरगोश, और एक आवाज़ जो पूरे देश को याद हो गई...",
@@ -361,16 +398,18 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "ये आवाज़ याद आ गई? तो video को like कर दीजिए।",
+     "vo": "ये आवाज़ याद आ गई? तो वीडियो को लाइक कर दीजिए।",
      "prompt": "A traditional steel thali with dal, rice, sabzi and a crisp papad on top, a child's hand reaching for it, warm home light, close shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "ये आवाज़ याद आ गई? तो video को like कर दीजिए।"
     },
     {
-     "vo": "Papad अब हर थाली का हिस्सा था। लेकिन इतनी बड़ी संस्था, बिना boss के, रोज़ चलती कैसे है? जवाब शुरू होता है सूरज उगने से पहले।",
+     "vo": "पापड़ अब हर थाली का हिस्सा था। लेकिन इतनी बड़ी संस्था, बिना बॉस के, रोज़ चलती कैसे है? जवाब शुरू होता है सूरज उगने से पहले।",
      "prompt": "A woman's silhouette walking toward a single glowing doorway of a branch building on a pitch-dark pre-dawn Indian street, long shadows, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Papad अब हर थाली का हिस्सा था। लेकिन इतनी बड़ी संस्था, बिना boss के, रोज़ चलती कैसे है? जवाब शुरू होता है सूरज उगने से पहले।"
     }
    ]
   },
@@ -379,10 +418,11 @@
    "card": "सूरज से पहले",
    "shots": [
     {
-     "vo": "सुबह तड़के, अँधेरे में, बहनें अपनी branch पहुँचती हैं।",
+     "vo": "सुबह तड़के, अँधेरे में, बहनें अपनी ब्रांच पहुँचती हैं।",
      "prompt": "Women in saris arriving at a lit branch doorway, seen from behind, blue pre-dawn darkness, street lamp glowing, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सुबह तड़के, अँधेरे में, बहनें अपनी branch पहुँचती हैं।"
     },
     {
      "vo": "पहले साफ़-सफ़ाई का सख़्त नियम। फिर हर बहन गुँथा हुआ आटा लेकर घर जाती है।",
@@ -391,16 +431,18 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "घर पर papad बेले जाते हैं, सुखाए जाते हैं, और फिर branch वापस लाए जाते हैं।",
+     "vo": "घर पर पापड़ बेले जाते हैं, सुखाए जाते हैं, और फिर ब्रांच वापस लाए जाते हैं।",
      "prompt": "A woman spreading rows of round papads on a cloth on a small home balcony, seen from behind, morning sun, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "घर पर papad बेले जाते हैं, सुखाए जाते हैं, और फिर branch वापस लाए जाते हैं।"
     },
     {
-     "vo": "वहाँ हर papad की जाँच होती है। जो कमज़ोर है, वो पास नहीं होता।",
+     "vo": "वहाँ हर पापड़ की जाँच होती है। जो कमज़ोर है, वो पास नहीं होता।",
      "prompt": "Hands holding a thin papad up against the light at a branch table, a small rejected pile on the left, a neat approved stack on the right, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "वहाँ हर papad की जाँच होती है। जो कमज़ोर है, वो पास नहीं होता।"
     },
     {
      "vo": "यानी जल्दबाज़ी का मतलब, अपनी ही मेहनत पर पानी। इसलिए हर बेलन सधा हुआ चलता है।",
@@ -415,22 +457,25 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "बहनों ने papad से आगे भी कदम रखे: masala, chapati, khakhra, और Sasa detergent भी।",
+     "vo": "बहनों ने पापड़ से आगे भी कदम रखे: मसाला, चपाती, खाखरा, और सासा डिटर्जेंट भी।",
      "prompt": "A 1990s Indian kirana shop shelf with plain spice packets, khakhra stacks and detergent packets, shopkeeper's hands arranging them, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "बहनों ने papad से आगे भी कदम रखे: masala, chapati, khakhra, और Sasa detergent भी।"
     },
     {
-     "vo": "Papad समंदर पार export होने लगा। एक छत की ख़ुशबू, अब दुनिया तक।",
+     "vo": "पापड़ समंदर पार एक्सपोर्ट होने लगा। एक छत की ख़ुशबू, अब दुनिया तक।",
      "prompt": "Plain cartons being lifted by a crane onto a cargo ship at a Mumbai port at sunset, golden sea, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Papad समंदर पार export होने लगा। एक छत की ख़ुशबू, अब दुनिया तक।"
     },
     {
-     "vo": "अगर आपके घर में कोई है जो घर से कुछ शुरू करना चाहता है, ये video उन्हें ज़रूर भेजिए।",
+     "vo": "अगर आपके घर में कोई है जो घर से कुछ शुरू करना चाहता है, ये वीडियो उन्हें ज़रूर भेजिए।",
      "prompt": "A woman's hands rolling dough at a modern Indian kitchen table, a phone lying beside, warm morning light, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगर आपके घर में कोई है जो घर से कुछ शुरू करना चाहता है, ये video उन्हें ज़रूर भेजिए।"
     },
     {
      "vo": "लेकिन इस कहानी का सबसे भावुक पल अभी बाकी है।",
@@ -445,10 +490,11 @@
    "card": "इज़्ज़त की कमाई",
    "shots": [
     {
-     "vo": "Lijjat का एक और अनोखा नियम: ये दान नहीं लेता। न charity, न gift।",
+     "vo": "लिज्जत का एक और अनोखा नियम: ये दान नहीं लेता। न चैरिटी, न गिफ़्ट।",
      "prompt": "A hand pushing back an offered envelope across a table, firm dignified gesture, soft light, close shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Lijjat का एक और अनोखा नियम: ये दान नहीं लेता। न charity, न gift।"
     },
     {
      "vo": "क्योंकि यहाँ हर रुपया अपनी मेहनत का है। और उसमें इज़्ज़त है।",
@@ -457,16 +503,18 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "2021 तक, इसका सालाना turnover लगभग सोलह सौ करोड़ रुपये था। और लगभग पैंतालीस हज़ार बहनें।",
+     "vo": "दो हज़ार इक्कीस तक, इसका सालाना टर्नओवर लगभग सोलह सौ करोड़ रुपये था। और लगभग पैंतालीस हज़ार बहनें।",
      "prompt": "A vast gathering of women in colourful saris seen from behind on a wide open ground at sunrise, golden light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "2021 तक, इसका सालाना turnover लगभग सोलह सौ करोड़ रुपये था। और लगभग पैंतालीस हज़ार बहनें।"
     },
     {
-     "vo": "और उसी साल, उन सात में से एक, Jaswantiben Jamnadas Popat, को Padma Shri मिला।",
+     "vo": "और उसी साल, उन सात में से एक, जसवंतीबेन जमनादास पोपट, को पद्म श्री मिला।",
      "prompt": "An elderly woman in a white sari walking toward a stage in a grand hall with chandeliers, seen from behind, golden light, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और उसी साल, उन सात में से एक, Jaswantiben Jamnadas Popat, को Padma Shri मिला।"
     },
     {
      "vo": "तब उनकी उम्र नब्बे पार थी।",
@@ -475,16 +523,18 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "सोचिए: 1959 में जिन औरतों के कमाने पर भी सवाल उठते थे,",
+     "vo": "सोचिए: उन्नीस सौ उनसठ में जिन औरतों के कमाने पर भी सवाल उठते थे,",
      "prompt": "An empty 1950s chawl corridor with shadowed doorways, faded hazy memory light, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सोचिए: 1959 में जिन औरतों के कमाने पर भी सवाल उठते थे,"
     },
     {
-     "vo": "उनकी कहानी देश के बड़े नागरिक सम्मानों में से एक, Padma Shri, तक पहुँच चुकी थी।",
+     "vo": "उनकी कहानी देश के बड़े नागरिक सम्मानों में से एक, पद्म श्री, तक पहुँच चुकी थी।",
      "prompt": "An old 1959 Mumbai rooftop empty at sunset, a single rolling pin resting on a wooden board, nostalgic golden light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "उनकी कहानी देश के बड़े नागरिक सम्मानों में से एक, Padma Shri, तक पहुँच चुकी थी।"
     },
     {
      "vo": "पर हमारा पहला सवाल अब भी बाकी है।",
@@ -499,34 +549,39 @@
    "card": null,
    "shots": [
     {
-     "vo": "तो एक छत से शुरू हुई ये company इतनी बड़ी बनी कैसे?",
+     "vo": "तो एक छत से शुरू हुई ये कंपनी इतनी बड़ी बनी कैसे?",
      "prompt": "An empty carved wooden chair turned to face the light, beside a rolling board with a perfect papad on it, soft light, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "तो एक छत से शुरू हुई ये company इतनी बड़ी बनी कैसे?"
     },
     {
-     "vo": "एक quality, जिससे कभी समझौता नहीं हुआ। और हज़ारों मालिक, जिनकी इज़्ज़त हर papad से जुड़ी थी।",
+     "vo": "एक क्वालिटी, जिससे कभी समझौता नहीं हुआ। और हज़ारों मालिक, जिनकी इज़्ज़त हर पापड़ से जुड़ी थी।",
      "prompt": "Countless women's hands from above, each holding a perfect round papad, filling the frame, warm golden light, top-down shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "एक quality, जिससे कभी समझौता नहीं हुआ। और हज़ारों मालिक, जिनकी इज़्ज़त हर papad से जुड़ी थी।"
     },
     {
-     "vo": "और अब वो बात, जो ज़्यादातर लोग नहीं जानते। 1962 में नाम के लिए एक contest हुआ। इनाम था पाँच रुपये।",
+     "vo": "और अब वो बात, जो ज़्यादातर लोग नहीं जानते। उन्नीस सौ बासठ में नाम के लिए एक कॉन्टेस्ट हुआ। इनाम था पाँच रुपये।",
      "prompt": "Women gathered around a table of folded paper slips, a single five-rupee coin set aside, 1962 Mumbai room, lamp light, seen from behind, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और अब वो बात, जो ज़्यादातर लोग नहीं जानते। 1962 में नाम के लिए एक contest हुआ। इनाम था पाँच रुपये।"
     },
     {
-     "vo": "जीतीं Dhirajben Ruparel। उनका दिया नाम था Lijjat। Gujarati में इसका मतलब: स्वादिष्ट।",
+     "vo": "जीतीं धीरजबेन रूपारेल। उनका दिया नाम था लिज्जत। गुजराती में इसका मतलब: स्वादिष्ट।",
      "prompt": "A woman's hand unfolding a paper slip under a warm lamp, a crisp golden papad on a plate beside it, close shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जीतीं Dhirajben Ruparel। उनका दिया नाम था Lijjat। Gujarati में इसका मतलब: स्वादिष्ट।"
     },
     {
-     "vo": "अगली बार papad की कुरकुराहट सुनें, तो उस छत को याद कीजिए, जहाँ सात बहनों ने अस्सी रुपये से इतिहास बेल दिया। ऐसी और कहानियों के लिए subscribe कर लीजिए।",
+     "vo": "अगली बार पापड़ की कुरकुराहट सुनें, तो उस छत को याद कीजिए, जहाँ सात बहनों ने अस्सी रुपये से इतिहास बेल दिया। ऐसी और कहानियों के लिए सब्सक्राइब कर लीजिए।",
      "prompt": "Seven women sitting on a 1959 Mumbai rooftop at golden sunset rolling papads, seen from behind, the city glowing beyond, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगली बार papad की कुरकुराहट सुनें, तो उस छत को याद कीजिए, जहाँ सात बहनों ने अस्सी रुपये से इतिहास बेल दिया। ऐसी और कहानियों के लिए subscribe कर लीजिए।"
     }
    ]
   }

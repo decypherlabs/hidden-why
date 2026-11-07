@@ -37,34 +37,39 @@
    "card": null,
    "shots": [
     {
-     "vo": "एक factory जो बंद हो चुकी थी. एक company जो liquidation में थी.",
+     "vo": "एक फ़ैक्ट्री जो बंद हो चुकी थी. एक कंपनी जो लिक्विडेशन में थी.",
      "prompt": "a small white 1980s Indian hatchback car standing alone inside a vast abandoned factory shed, shafts of golden light through broken roof, rusted machinery around, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "एक factory जो बंद हो चुकी थी. एक company जो liquidation में थी."
     },
     {
-     "vo": "और उसी मलबे से निकली वो car, जो India के लाखों घरों की पहली car बनी.",
+     "vo": "और उसी मलबे से निकली वो कार, जो इंडिया के लाखों घरों की पहली कार बनी.",
      "prompt": "a row of small white 1980s hatchbacks parked in front of modest Indian middle-class homes, colony street at dawn, soft golden light, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और उसी मलबे से निकली वो car, जो India के लाखों घरों की पहली car बनी."
     },
     {
-     "vo": "सवाल ये है: एक fail हुआ सपना, India की सबसे प्यारी car कैसे बन गया?",
+     "vo": "सवाल ये है: एक फ़ेल हुआ सपना, इंडिया की सबसे प्यारी कार कैसे बन गया?",
      "prompt": "a torn old blueprint of a small car lying on a dusty desk, a white hatchback faintly reflected in a cracked window behind, dramatic light, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सवाल ये है: एक fail हुआ सपना, India की सबसे प्यारी car कैसे बन गया?"
     },
     {
-     "vo": "अगर आप सोचते हैं कि Maruti 800 Sanjay Gandhi की car थी, तो आप ग़लत हैं. और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते.",
+     "vo": "अगर आप सोचते हैं कि मारुति आठ सौ संजय गांधी की कार थी, तो आप ग़लत हैं. और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते.",
      "prompt": "a lone man in silhouette standing at the gates of an empty factory, long shadow on the ground, face hidden, dusk, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगर आप सोचते हैं कि Maruti 800 Sanjay Gandhi की car थी, तो आप ग़लत हैं. और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते."
     },
     {
-     "vo": "एक सपना, एक हार, एक हादसा, और फिर Japan से आई एक दोस्ती. चलिए शुरू से.",
+     "vo": "एक सपना, एक हार, एक हादसा, और फिर जापान से आई एक दोस्ती. चलिए शुरू से.",
      "prompt": "a Japanese factory floor on the left and a 1970s Indian street on the right, a small white hatchback in the centre, warm tones, distant blurred silhouettes, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "एक सपना, एक हार, एक हादसा, और फिर Japan से आई एक दोस्ती. चलिए शुरू से."
     }
    ]
   },
@@ -73,28 +78,32 @@
    "card": "1970 का सपना",
    "shots": [
     {
-     "vo": "1970 का India. सड़कों पर गिनी-चुनी cars.",
+     "vo": "उन्नीस सौ सत्तर का इंडिया. सड़कों पर गिनी-चुनी कार्स.",
      "prompt": "a 1970s Indian city road with bicycles, scooters, a tonga and just two rounded vintage sedans, warm afternoon light, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "1970 का India. सड़कों पर गिनी-चुनी cars."
     },
     {
-     "vo": "ज़्यादातर दो ही नाम: भारी-भरकम Ambassador और छोटी Premier Padmini.",
+     "vo": "ज़्यादातर दो ही नाम: भारी-भरकम एंबेसडर और छोटी प्रीमियर पद्मिनी.",
      "prompt": "a rounded white 1960s Indian sedan on the left and a small boxy 1970s sedan on the right, parked on a Delhi street, afternoon light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "ज़्यादातर दो ही नाम: भारी-भरकम Ambassador और छोटी Premier Padmini."
     },
     {
-     "vo": "Car book करो, तो सालों का इंतज़ार. और दाम, आम आदमी की पहुँच से बाहर.",
+     "vo": "कार बुक करो, तो सालों का इंतज़ार. और दाम, आम आदमी की पहुँच से बाहर.",
      "prompt": "a tired man in a shirt and trousers holding a paper form, standing outside a 1970s car dealer's office, a distant blurred queue of silhouettes behind him, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Car book करो, तो सालों का इंतज़ार. और दाम, आम आदमी की पहुँच से बाहर."
     },
     {
-     "vo": "Middle class का सपना था एक scooter. Car तो बस अमीरों की चीज़ थी.",
+     "vo": "मिडिल क्लास का सपना था एक स्कूटर. कार तो बस अमीरों की चीज़ थी.",
      "prompt": "an Indian family of four squeezed onto a 1970s scooter on a dusty road, a big black sedan far off behind them, afternoon light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Middle class का सपना था एक scooter. Car तो बस अमीरों की चीज़ थी."
     },
     {
      "vo": "इसी दौर में एक नौजवान ने एक बड़ा सपना देखा.",
@@ -103,34 +112,39 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "Prime Minister Indira Gandhi के बेटे, Sanjay Gandhi. सपना था: एक सस्ती, देसी, लोगों की car.",
+     "vo": "प्राइम मिनिस्टर इंदिरा गांधी के बेटे, संजय गांधी. सपना था: एक सस्ती, देसी, लोगों की कार.",
      "prompt": "a young man in a kurta standing in a garage doorway at night, a rough car chassis under a bare bulb behind him, face in shadow, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Prime Minister Indira Gandhi के बेटे, Sanjay Gandhi. सपना था: एक सस्ती, देसी, लोगों की car."
     },
     {
-     "vo": "Target छोटा नहीं था: हर साल पचास हज़ार cars.",
+     "vo": "टारगेट छोटा नहीं था: हर साल पचास हज़ार कार्स.",
      "prompt": "a large 1970s chart pinned on an office wall with rising ink bars, a man's hand pointing at the tallest bar, desk lamp light, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Target छोटा नहीं था: हर साल पचास हज़ार cars."
     },
     {
-     "vo": "4 June 1971 को Maruti Limited नाम की company बनी.",
+     "vo": "चार जून उन्नीस सौ इकहत्तर को मारुति लिमिटेड नाम की कंपनी बनी.",
      "prompt": "a fountain pen and a rubber stamp resting on thick company registration files on a 1970s government desk, warm lamp light, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "4 June 1971 को Maruti Limited नाम की company बनी."
     },
     {
-     "vo": "Haryana के Gurgaon में, सैकड़ों acre ज़मीन पर factory की नींव रखी गई.",
+     "vo": "हरियाणा के गुड़गांव में, सैकड़ों एकड़ ज़मीन पर फ़ैक्ट्री की नींव रखी गई.",
      "prompt": "the steel frames of a new factory rising on wide farmland, a bullock cart in front, distant blurred silhouettes of workers, hazy sunlight, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Haryana के Gurgaon में, सैकड़ों acre ज़मीन पर factory की नींव रखी गई."
     },
     {
-     "vo": "लेकिन तभी सवाल उठा: इतनी बड़ी factory में आख़िर बन क्या रहा था?",
+     "vo": "लेकिन तभी सवाल उठा: इतनी बड़ी फ़ैक्ट्री में आख़िर बन क्या रहा था?",
      "prompt": "a single rough prototype car body under a dusty sheet in the middle of a huge empty factory, cold blue light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "लेकिन तभी सवाल उठा: इतनी बड़ी factory में आख़िर बन क्या रहा था?"
     }
    ]
   },
@@ -139,22 +153,25 @@
    "card": "सपना टूटा",
    "shots": [
     {
-     "vo": "साल बीतते गए. पचास हज़ार तो दूर, एक भरोसेमंद car भी सड़क तक नहीं पहुँची.",
+     "vo": "साल बीतते गए. पचास हज़ार तो दूर, एक भरोसेमंद कार भी सड़क तक नहीं पहुँची.",
      "prompt": "a rough handmade prototype car with mismatched panels in a factory yard, a mechanic in overalls standing far off, overcast sky, medium-wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "साल बीतते गए. पचास हज़ार तो दूर, एक भरोसेमंद car भी सड़क तक नहीं पहुँची."
     },
     {
-     "vo": "Technology नहीं थी. Experience नहीं था. और पैसा लगातार डूब रहा था.",
+     "vo": "टेक्नोलॉजी नहीं थी. एक्सपीरियंस नहीं था. और पैसा लगातार डूब रहा था.",
      "prompt": "two hands holding a broken engine part over a cluttered 1970s workbench, oil stains, dim light, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Technology नहीं थी. Experience नहीं था. और पैसा लगातार डूब रहा था."
     },
     {
-     "vo": "Dealers ने dealership के लिए पैसे जमा किए थे. Showroom तैयार थे, पर car नहीं.",
+     "vo": "डीलर्स ने डीलरशिप के लिए पैसे जमा किए थे. शोरूम तैयार थे, पर कार नहीं.",
      "prompt": "a man in a shirt standing alone inside an empty showroom with bare floors and glass windows, hands on his head, daylight, medium-wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Dealers ने dealership के लिए पैसे जमा किए थे. Showroom तैयार थे, पर car नहीं."
     },
     {
      "vo": "अब डर एक ही था: क्या वो पैसा भी इसी के साथ डूब जाएगा?",
@@ -163,40 +180,46 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "1975 में देश में Emergency लगी. 1977 में सरकार बदल गई.",
+     "vo": "उन्नीस सौ पचहत्तर में देश में इमरजेंसी लगी. उन्नीस सौ सतहत्तर में सरकार बदल गई.",
      "prompt": "a 1977 Indian city street with election posters on walls, distant blurred silhouettes of crowds, dusty evening light, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "1975 में देश में Emergency लगी. 1977 में सरकार बदल गई."
     },
     {
-     "vo": "नई सरकार ने Maruti पर जाँच बैठाई: Justice A.C. Gupta Commission.",
+     "vo": "नई सरकार ने मारुति पर जाँच बैठाई: जस्टिस ए सी गुप्ता कमीशन.",
      "prompt": "a long 1970s government hearing room with thick files piled on a table, ceiling fans, distant blurred silhouettes of officials seated, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "नई सरकार ने Maruti पर जाँच बैठाई: Justice A.C. Gupta Commission."
     },
     {
-     "vo": "Company पैसों में डूब चुकी थी. आख़िर में उसे liquidation में भेज दिया गया.",
+     "vo": "कंपनी पैसों में डूब चुकी थी. आख़िर में उसे लिक्विडेशन में भेज दिया गया.",
      "prompt": "a heavy chain and brass padlock locking tall factory gates, a man in a safari suit walking away far off, grey sky, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Company पैसों में डूब चुकी थी. आख़िर में उसे liquidation में भेज दिया गया."
     },
     {
-     "vo": "जिस factory में लोगों की car बननी थी, वहाँ अब सन्नाटा था.",
+     "vo": "जिस फ़ैक्ट्री में लोगों की कार बननी थी, वहाँ अब सन्नाटा था.",
      "prompt": "a silent abandoned factory hall with dust floating in light beams, birds perched on rusting cranes, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जिस factory में लोगों की car बननी थी, वहाँ अब सन्नाटा था."
     },
     {
-     "vo": "Machines पर जंग. Gate पर ताला. और सपना, काग़ज़ों में दफ़न.",
+     "vo": "मशीन्स पर जंग. गेट पर ताला. और सपना, काग़ज़ों में दफ़न.",
      "prompt": "rusting machines and torn car blueprints scattered on a dusty factory floor, a heavy padlock hanging on the gate behind, warm faded light, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Machines पर जंग. Gate पर ताला. और सपना, काग़ज़ों में दफ़न."
     },
     {
-     "vo": "लेकिन तभी, 23 June 1980 की सुबह…",
+     "vo": "लेकिन तभी, तेईस जून उन्नीस सौ अस्सी की सुबह…",
      "prompt": "a pale early-morning sky over 1980 Delhi rooftops, a tiny aircraft far in the distance, uneasy hush, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "लेकिन तभी, 23 June 1980 की सुबह…"
     }
    ]
   },
@@ -205,34 +228,39 @@
    "card": "राख से वापसी",
    "shots": [
     {
-     "vo": "Delhi में Safdarjung airport के पास एक छोटा plane गिरा.",
+     "vo": "दिल्ली में सफ़दरजंग एयरपोर्ट के पास एक छोटा प्लेन गिरा.",
      "prompt": "a small crashed aircraft lying broken on open ground near a Delhi airport, smoke rising behind it, pale morning sky, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Delhi में Safdarjung airport के पास एक छोटा plane गिरा."
     },
     {
-     "vo": "Plane उड़ा रहे थे Sanjay Gandhi. वो बच नहीं पाए.",
+     "vo": "प्लेन उड़ा रहे थे संजय गांधी. वो बच नहीं पाए.",
      "prompt": "a newspaper boy standing on a 1980 Delhi street holding up a newspaper, distant blurred silhouettes of people stopping behind him, morning light, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Plane उड़ा रहे थे Sanjay Gandhi. वो बच नहीं पाए."
     },
     {
-     "vo": "सिर्फ़ पाँच महीने पहले, January 1980 में, Indira Gandhi फिर सत्ता में लौटी थीं.",
+     "vo": "सिर्फ़ पाँच महीने पहले, जनवरी उन्नीस सौ अस्सी में, इंदिरा गांधी फिर सत्ता में लौटी थीं.",
      "prompt": "a crowd of distant blurred silhouettes holding flags high on a Delhi street, winter sunlight, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सिर्फ़ पाँच महीने पहले, January 1980 में, Indira Gandhi फिर सत्ता में लौटी थीं."
     },
     {
-     "vo": "जिसका सपना Maruti था, वो चला गया. Company पहले से बंद.",
+     "vo": "जिसका सपना मारुति था, वो चला गया. कंपनी पहले से बंद.",
      "prompt": "an empty wooden chair at a dusty office desk, a car sketch lying on the desk, single window light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जिसका सपना Maruti था, वो चला गया. Company पहले से बंद."
     },
     {
-     "vo": "सबको लगा, Maruti की कहानी यहीं ख़त्म.",
+     "vo": "सबको लगा, मारुति की कहानी यहीं ख़त्म.",
      "prompt": "chained factory gates at night, a single streetlamp, an empty road, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सबको लगा, Maruti की कहानी यहीं ख़त्म."
     },
     {
      "vo": "ग़लत।",
@@ -241,34 +269,39 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "जिस company पर कुछ साल पहले सरकारी जाँच बैठी थी, अब सरकार ने ख़ुद उसे ख़रीद लिया.",
+     "vo": "जिस कंपनी पर कुछ साल पहले सरकारी जाँच बैठी थी, अब सरकार ने ख़ुद उसे ख़रीद लिया.",
      "prompt": "a tall government hall with rows of distant blurred silhouettes seated, a man at a desk holding out a document, warm light, medium-wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "जिस company पर कुछ साल पहले सरकारी जाँच बैठी थी, अब सरकार ने ख़ुद उसे ख़रीद लिया."
     },
     {
-     "vo": "1980 में एक कानून बना, और Maruti की factory और ज़मीन सरकार के हाथ में आ गई.",
+     "vo": "उन्नीस सौ अस्सी में एक कानून बना, और मारुति की फ़ैक्ट्री और ज़मीन सरकार के हाथ में आ गई.",
      "prompt": "an official seal stamp pressed on a thick legal document beside a map of a factory site, desk lamp light, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "1980 में एक कानून बना, और Maruti की factory और ज़मीन सरकार के हाथ में आ गई."
     },
     {
-     "vo": "24 February 1981 को बनी एक नई सरकारी company: Maruti Udyog Limited.",
+     "vo": "चौबीस फ़रवरी उन्नीस सौ इक्यासी को बनी एक नई सरकारी कंपनी: मारुति उद्योग लिमिटेड.",
      "prompt": "old factory gates swung open at dawn, a worker in 1980s clothes walking in, golden light, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "24 February 1981 को बनी एक नई सरकारी company: Maruti Udyog Limited."
     },
     {
-     "vo": "इसकी कमान V. Krishnamurthy को मिली, और साथ में R.C. Bhargava जैसे officers.",
+     "vo": "इसकी कमान वी कृष्णमूर्ति को मिली, और साथ में आर सी भार्गव जैसे ऑफ़िसर्स.",
      "prompt": "two men in 1980s suits walking away down a reopened factory hall, seen from behind, sunlight streaming, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "इसकी कमान V. Krishnamurthy को मिली, और साथ में R.C. Bhargava जैसे officers."
     },
     {
-     "vo": "Mission एक ही था: इस बार car बननी ही चाहिए. लेकिन तभी सबसे बड़ा सवाल: बनाएगा कौन?",
+     "vo": "मिशन एक ही था: इस बार कार बननी ही चाहिए. लेकिन तभी सबसे बड़ा सवाल: बनाएगा कौन?",
      "prompt": "a world map spread on a 1981 office table with pins in Europe and Japan, a man's hand pointing at it, desk lamp light, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Mission एक ही था: इस बार car बननी ही चाहिए. लेकिन तभी सबसे बड़ा सवाल: बनाएगा कौन?"
     }
    ]
   },
@@ -277,76 +310,88 @@
    "card": "Japan का साथी",
    "shots": [
     {
-     "vo": "India के पास आधुनिक technology नहीं थी. Team ने Europe से Japan तक car companies से बात की.",
+     "vo": "इंडिया के पास आधुनिक टेक्नोलॉजी नहीं थी. टीम ने यूरोप से जापान तक कार कंपनीज़ से बात की.",
      "prompt": "a small group of Indian officials standing on a foggy airport tarmac beside a plane, seen from behind, early 1980s, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "India के पास आधुनिक technology नहीं थी. Team ने Europe से Japan तक car companies से बात की."
     },
     {
-     "vo": "शुरुआती shortlist में Suzuki का नाम था ही नहीं. वो बाद में जुड़ी.",
+     "vo": "शुरुआती शॉर्टलिस्ट में सुज़ुकी का नाम था ही नहीं. वो बाद में जुड़ी.",
      "prompt": "a typed list on a desk with a pen adding one more line at the bottom, text blurred, soft office light, close shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "शुरुआती shortlist में Suzuki का नाम था ही नहीं. वो बाद में जुड़ी."
     },
     {
-     "vo": "Suzuki तब motorcycles और Japan की छोटी kei cars के लिए जानी जाती थी.",
+     "vo": "सुज़ुकी तब मोटरसाइकिल्स और जापान की छोटी केई कार्स के लिए जानी जाती थी.",
      "prompt": "a tidy early 1980s Japanese factory floor, small motorcycles on the left line and tiny boxy cars on the right line, bright clean light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Suzuki तब motorcycles और Japan की छोटी kei cars के लिए जानी जाती थी."
     },
     {
-     "vo": "पर यही तो India को चाहिए था: छोटी, हल्की, कम petrol पीने वाली car.",
+     "vo": "पर यही तो इंडिया को चाहिए था: छोटी, हल्की, कम पेट्रोल पीने वाली कार.",
      "prompt": "a small light 1980s hatchback on the left and a large heavy sedan on the right, a petrol pump nozzle in the foreground, daylight, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर यही तो India को चाहिए था: छोटी, हल्की, कम petrol पीने वाली car."
     },
     {
-     "vo": "और Suzuki इस deal को लेकर सबसे ज़्यादा उत्सुक दिखी.",
+     "vo": "और सुज़ुकी इस डील को लेकर सबसे ज़्यादा उत्सुक दिखी.",
      "prompt": "a man in a suit seated at a Japanese boardroom table leaning forward toward an Indian guest across from him, warm light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और Suzuki इस deal को लेकर सबसे ज़्यादा उत्सुक दिखी."
     },
     {
-     "vo": "2 October 1982 को agreement हुआ. Suzuki को company में छब्बीस percent हिस्सा मिला.",
+     "vo": "दो अक्टूबर उन्नीस सौ बयासी को एग्रीमेंट हुआ. सुज़ुकी को कंपनी में छब्बीस परसेंट हिस्सा मिला.",
      "prompt": "two hands shaking over a table with signed documents, one Indian sleeve and one Japanese sleeve, soft dramatic light, close shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "2 October 1982 को agreement हुआ. Suzuki को company में छब्बीस percent हिस्सा मिला."
     },
     {
-     "vo": "और जो car चुनी गई, वो Sanjay Gandhi का design नहीं थी. वो Suzuki की Alto थी, Japan की SS80 पर बनी car.",
+     "vo": "और जो कार चुनी गई, वो संजय गांधी का डिज़ाइन नहीं थी. वो सुज़ुकी की ऑल्टो थी, जापान की एस एस अस्सी पर बनी कार.",
      "prompt": "a small white early 1980s Japanese hatchback on a turntable in a bright showroom, an old rough sketch fading on the wall behind, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और जो car चुनी गई, वो Sanjay Gandhi का design नहीं थी. वो Suzuki की Alto थी, Japan की SS80 पर बनी car."
     },
     {
-     "vo": "तो Maruti असल में किसकी car थी: Sanjay Gandhi के सपने की, या Suzuki की technology की? Comments में लिखिए.",
+     "vo": "तो मारुति असल में किसकी कार थी: संजय गांधी के सपने की, या सुज़ुकी की टेक्नोलॉजी की? कमेंट्स में लिखिए.",
      "prompt": "a small white hatchback lit warm on the left over a faded garage sketch, the same car lit cool on the right over a Japanese assembly line, medium-wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "तो Maruti असल में किसकी car थी: Sanjay Gandhi के सपने की, या Suzuki की technology की? Comments में लिखिए."
     },
     {
-     "vo": "Indian workers training के लिए Japan गए. नई भाषा, नया खाना, और एक-एक second का हिसाब.",
+     "vo": "इंडियन वर्कर्स ट्रेनिंग के लिए जापान गए. नई भाषा, नया खाना, और एक-एक सेकंड का हिसाब.",
      "prompt": "an Indian worker in uniform on the left watching a Japanese trainer on the right who points at a stopwatch beside a car door, bright factory light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Indian workers training के लिए Japan गए. नई भाषा, नया खाना, और एक-एक second का हिसाब."
     },
     {
-     "vo": "Gurgaon में भी वही नियम आया: एक जैसी uniform, एक canteen, officer और worker साथ-साथ.",
+     "vo": "गुड़गांव में भी वही नियम आया: एक जैसी यूनिफ़ॉर्म, एक कैंटीन, ऑफ़िसर और वर्कर साथ-साथ.",
      "prompt": "managers and workers in identical uniforms eating side by side at long tables in a 1980s Indian factory canteen, warm light, medium-wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Gurgaon में भी वही नियम आया: एक जैसी uniform, एक canteen, officer और worker साथ-साथ."
     },
     {
-     "vo": "Gurgaon की वीरान factory फिर से जाग उठी.",
+     "vo": "गुड़गांव की वीरान फ़ैक्ट्री फिर से जाग उठी.",
      "prompt": "a Gurgaon factory hall alive with new assembly lines, bright welding sparks, a worker in uniform in front, energetic light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Gurgaon की वीरान factory फिर से जाग उठी."
     },
     {
-     "vo": "लेकिन तभी एक नई चिंता: क्या लोग सच में ये छोटी सी car ख़रीदेंगे?",
+     "vo": "लेकिन तभी एक नई चिंता: क्या लोग सच में ये छोटी सी कार ख़रीदेंगे?",
      "prompt": "a lone small white hatchback under a sheet in a dim showroom, a salesman standing far off looking at it nervously, medium-wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "लेकिन तभी एक नई चिंता: क्या लोग सच में ये छोटी सी car ख़रीदेंगे?"
     }
    ]
   },
@@ -355,58 +400,67 @@
    "card": "14 December 1983",
    "shots": [
     {
-     "vo": "Bookings खुलीं, और जवाब ने सबको चौंका दिया.",
+     "vo": "बुकिंग्स खुलीं, और जवाब ने सबको चौंका दिया.",
      "prompt": "a crowd of distant blurred silhouettes outside a bank counter, one man in front holding a booking form, sunny day, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Bookings खुलीं, और जवाब ने सबको चौंका दिया."
     },
     {
-     "vo": "क़रीब एक लाख पैंतीस हज़ार लोगों ने पैसे जमा करके car book की.",
+     "vo": "क़रीब एक लाख पैंतीस हज़ार लोगों ने पैसे जमा करके कार बुक की.",
      "prompt": "piles of booking forms and envelopes on a long desk in a 1983 office, a clerk working, ceiling fan, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "क़रीब एक लाख पैंतीस हज़ार लोगों ने पैसे जमा करके car book की."
     },
     {
-     "vo": "Cars थोड़ी, माँग पहाड़ जैसी. इसलिए पहली cars lucky draw से बाँटी गईं.",
+     "vo": "कार्स थोड़ी, माँग पहाड़ जैसी. इसलिए पहली कार्स लकी ड्रॉ से बाँटी गईं.",
      "prompt": "a glass drum full of folded paper slips being spun by a hand on a stage, distant blurred silhouettes of an audience, warm light, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Cars थोड़ी, माँग पहाड़ जैसी. इसलिए पहली cars lucky draw से बाँटी गईं."
     },
     {
-     "vo": "शुरुआत में ज़्यादातर parts Japan से आते थे. Gurgaon में उन्हें जोड़कर car बनती थी.",
+     "vo": "शुरुआत में ज़्यादातर पार्ट्स जापान से आते थे. गुड़गांव में उन्हें जोड़कर कार बनती थी.",
      "prompt": "wooden shipping crates of car parts being unpacked in a 1983 Indian factory, a small white hatchback body beside them, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "शुरुआत में ज़्यादातर parts Japan से आते थे. Gurgaon में उन्हें जोड़कर car बनती थी."
     },
     {
-     "vo": "Car में 796 cc का छोटा engine. हल्की body. शहर के लिए perfect.",
+     "vo": "कार में सात सौ छियानवे सीसी का छोटा इंजन. हल्की बॉडी. शहर के लिए परफ़ेक्ट.",
      "prompt": "a small three-cylinder car engine in a compact hatchback, hood open, clean workshop light, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Car में 796 cc का छोटा engine. हल्की body. शहर के लिए perfect."
     },
     {
-     "vo": "और दाम? ₹47,500, Delhi ex-showroom.",
+     "vo": "और दाम? सैंतालीस हज़ार पाँच सौ रुपये, दिल्ली एक्स-शोरूम.",
      "prompt": "bundles of 1980s Indian rupee notes stacked beside a car key on a wooden table, warm lamp light, close shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और दाम? ₹47,500, Delhi ex-showroom."
     },
     {
-     "vo": "14 December 1983. Delhi. एक छोटा सा समारोह.",
+     "vo": "चौदह दिसंबर उन्नीस सौ तिरासी. दिल्ली. एक छोटा सा समारोह.",
      "prompt": "a small white hatchback decorated with a flower garland on a 1983 Delhi stage, distant blurred silhouettes seated in winter shawls, morning haze, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "14 December 1983. Delhi. एक छोटा सा समारोह."
     },
     {
-     "vo": "Indira Gandhi ने पहली Maruti 800 की चाबी सौंपी.",
+     "vo": "इंदिरा गांधी ने पहली मारुति आठ सौ की चाबी सौंपी.",
      "prompt": "a woman in a saree handing a car key across to a man on the right, a small white car blurred behind, golden light, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Indira Gandhi ने पहली Maruti 800 की चाबी सौंपी."
     },
     {
-     "vo": "चाबी किसी VIP को नहीं, Indian Airlines के एक आम employee, Harpal Singh को मिली.",
+     "vo": "चाबी किसी वी आई पी को नहीं, इंडियन एयरलाइंस के एक आम एम्प्लॉई, हरपाल सिंह को मिली.",
      "prompt": "an ordinary man in a 1980s sweater and turban standing beside a small white hatchback holding a car key, distant blurred silhouettes clapping, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "चाबी किसी VIP को नहीं, Indian Airlines के एक आम employee, Harpal Singh को मिली."
     },
     {
      "vo": "जो सपना बारह साल पहले देखा गया था, वो आज सड़क पर था.",
@@ -415,16 +469,18 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
-     "vo": "ये कहानी अच्छी लगी तो एक like ज़रूर कीजिए.",
+     "vo": "ये कहानी अच्छी लगी तो एक लाइक ज़रूर कीजिए.",
      "prompt": "a small white 1980s hatchback on an open Indian highway at sunrise, golden fields, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "ये कहानी अच्छी लगी तो एक like ज़रूर कीजिए."
     },
     {
-     "vo": "लेकिन तभी असली सवाल शुरू हुआ: क्या एक छोटी car, पूरा देश बदल सकती थी?",
+     "vo": "लेकिन तभी असली सवाल शुरू हुआ: क्या एक छोटी कार, पूरा देश बदल सकती थी?",
      "prompt": "a single small white car on a crowded 1980s Indian city road among buses and scooters, skyline at dusk, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "लेकिन तभी असली सवाल शुरू हुआ: क्या एक छोटी car, पूरा देश बदल सकती थी?"
     }
    ]
   },
@@ -433,64 +489,74 @@
    "card": "देश की कार",
    "shots": [
     {
-     "vo": "Harpal Singh ने वो पहली car, DIA 6479, कभी नहीं बेची. 2010 में अपनी मौत तक वो उसी के मालिक रहे.",
+     "vo": "हरपाल सिंह ने वो पहली कार, डी आई ए छह चार सात नौ, कभी नहीं बेची. दो हज़ार दस में अपनी मौत तक वो उसी के मालिक रहे.",
      "prompt": "an elderly man's hands resting on the steering wheel of an old small white hatchback, sunlight through the windshield, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Harpal Singh ने वो पहली car, DIA 6479, कभी नहीं बेची. 2010 में अपनी मौत तक वो उसी के मालिक रहे."
     },
     {
-     "vo": "लाखों घरों में यही रिश्ता बना. Maruti 800 सिर्फ़ एक car नहीं थी. ये एक status था.",
+     "vo": "लाखों घरों में यही रिश्ता बना. मारुति आठ सौ सिर्फ़ एक कार नहीं थी. ये एक स्टेटस था.",
      "prompt": "a family of three in late 1980s clothes standing beside their small white hatchback with a garland on the bonnet, outside a modest home, medium-wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "लाखों घरों में यही रिश्ता बना. Maruti 800 सिर्फ़ एक car नहीं थी. ये एक status था."
     },
     {
-     "vo": "पहली बार, बाबू, teacher, दुकानदार, सबकी पहुँच में एक car थी.",
+     "vo": "पहली बार, बाबू, टीचर, दुकानदार, सबकी पहुँच में एक कार थी.",
      "prompt": "a teacher with books standing on the left beside a small white hatchback, a shopkeeper on the right beside an identical white hatchback, 1990s Indian colony, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पहली बार, बाबू, teacher, दुकानदार, सबकी पहुँच में एक car थी."
     },
     {
-     "vo": "नई car आई, तो पूरा मोहल्ला देखने आता. नारियल फूटता, पूजा होती.",
+     "vo": "नई कार आई, तो पूरा मोहल्ला देखने आता. नारियल फूटता, पूजा होती.",
      "prompt": "a coconut being broken in front of a small white hatchback with marigold garland, a man holding the coconut, distant blurred silhouettes of neighbours, 1980s Indian street, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "नई car आई, तो पूरा मोहल्ला देखने आता. नारियल फूटता, पूजा होती."
     },
     {
-     "vo": "Japan वाला discipline Indian factories में आया. Parts बनाने वाली नई companies खड़ी हुईं.",
+     "vo": "जापान वाला डिसिप्लिन इंडियन फ़ैक्ट्रीज़ में आया. पार्ट्स बनाने वाली नई कंपनीज़ खड़ी हुईं.",
      "prompt": "a 1990s Indian auto-parts workshop with a worker at a bench making small components, organised shelves, bright light, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Japan वाला discipline Indian factories में आया. Parts बनाने वाली नई companies खड़ी हुईं."
     },
     {
-     "vo": "Suzuki का हिस्सा धीरे-धीरे बढ़ा, और Maruti India की सबसे बड़ी car company बन गई.",
+     "vo": "सुज़ुकी का हिस्सा धीरे-धीरे बढ़ा, और मारुति इंडिया की सबसे बड़ी कार कंपनी बन गई.",
      "prompt": "an aerial view of a huge car factory with thousands of small white cars parked in neat rows, morning light, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Suzuki का हिस्सा धीरे-धीरे बढ़ा, और Maruti India की सबसे बड़ी car company बन गई."
     },
     {
-     "vo": "Maruti 800 क़रीब तीन दशक चली. फिर 2014 में इसका production बंद हुआ.",
+     "vo": "मारुति आठ सौ क़रीब तीन दशक चली. फिर दो हज़ार चौदह में इसका प्रोडक्शन बंद हुआ.",
      "prompt": "a small white hatchback rolling off an assembly line, a worker standing far off watching quietly, soft emotional light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Maruti 800 क़रीब तीन दशक चली. फिर 2014 में इसका production बंद हुआ."
     },
     {
-     "vo": "तब तक क़रीब 28-29 लाख Maruti 800 सड़कों पर उतर चुकी थीं.",
+     "vo": "तब तक क़रीब अट्ठाईस-उनतीस लाख मारुति आठ सौ सड़कों पर उतर चुकी थीं.",
      "prompt": "a long line of small white hatchbacks stretching along a road from a city to mountains to a village, golden light, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "तब तक क़रीब 28-29 लाख Maruti 800 सड़कों पर उतर चुकी थीं."
     },
     {
-     "vo": "किसी के घर की पहली car, किसी की पहली driving, किसी की पहली long drive.",
+     "vo": "किसी के घर की पहली कार, किसी की पहली ड्राइविंग, किसी की पहली लॉन्ग ड्राइव.",
      "prompt": "a man on the left in the passenger seat and a teenager at the steering wheel of a small white hatchback on an empty early-morning road, warm light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "किसी के घर की पहली car, किसी की पहली driving, किसी की पहली long drive."
     },
     {
-     "vo": "अगर आपके घर में भी कभी Maruti 800 थी, तो ये video उन्हें भेजिए जो उसमें आपके साथ घूमे थे.",
+     "vo": "अगर आपके घर में भी कभी मारुति आठ सौ थी, तो ये वीडियो उन्हें भेजिए जो उसमें आपके साथ घूमे थे.",
      "prompt": "an old small white hatchback with faded paint parked under a neem tree outside a family home, nostalgic afternoon light, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगर आपके घर में भी कभी Maruti 800 थी, तो ये video उन्हें भेजिए जो उसमें आपके साथ घूमे थे."
     }
    ]
   },
@@ -499,34 +565,39 @@
    "card": null,
    "shots": [
     {
-     "vo": "तो एक fail हुआ सपना, India की सबसे प्यारी car कैसे बन गया? क्योंकि वो सपना एक इंसान का नहीं रहा.",
+     "vo": "तो एक फ़ेल हुआ सपना, इंडिया की सबसे प्यारी कार कैसे बन गया? क्योंकि वो सपना एक इंसान का नहीं रहा.",
      "prompt": "a bright busy factory hall with a small white hatchback in the centre, light pouring in through the roof, workers far off, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "तो एक fail हुआ सपना, India की सबसे प्यारी car कैसे बन गया? क्योंकि वो सपना एक इंसान का नहीं रहा."
     },
     {
-     "vo": "Sanjay Gandhi ने सपना दिया, सरकार ने दूसरा मौक़ा, Suzuki ने design, और हज़ारों Indian workers ने मेहनत.",
+     "vo": "संजय गांधी ने सपना दिया, सरकार ने दूसरा मौक़ा, सुज़ुकी ने डिज़ाइन, और हज़ारों इंडियन वर्कर्स ने मेहनत.",
      "prompt": "a small white hatchback in the centre of a factory floor, distant blurred silhouettes of workers in uniforms standing around it, warm proud light, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Sanjay Gandhi ने सपना दिया, सरकार ने दूसरा मौक़ा, Suzuki ने design, और हज़ारों Indian workers ने मेहनत."
     },
     {
-     "vo": "और वो बात जो ज़्यादातर लोग नहीं जानते: 14 December, Sanjay Gandhi का जन्मदिन था. वो होते, तो उस दिन सैंतीस साल के होते.",
+     "vo": "और वो बात जो ज़्यादातर लोग नहीं जानते: चौदह दिसंबर, संजय गांधी का जन्मदिन था. वो होते, तो उस दिन सैंतीस साल के होते.",
      "prompt": "a small white 1980s hatchback with a marigold garland parked alone on a misty Delhi road, empty space beside it, winter dawn, soft light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और वो बात जो ज़्यादातर लोग नहीं जानते: 14 December, Sanjay Gandhi का जन्मदिन था. वो होते, तो उस दिन सैंतीस साल के होते."
     },
     {
-     "vo": "कभी-कभी सबसे बड़ी कामयाबी, सबसे बड़ी हार के मलबे से ही निकलती है. Subscribe कर लीजिए.",
+     "vo": "कभी-कभी सबसे बड़ी कामयाबी, सबसे बड़ी हार के मलबे से ही निकलती है. सबस्क्राइब कर लीजिए.",
      "prompt": "a small green sapling growing through cracked concrete beside a rusted factory gate, golden evening light, close shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "कभी-कभी सबसे बड़ी कामयाबी, सबसे बड़ी हार के मलबे से ही निकलती है. Subscribe कर लीजिए."
     },
     {
-     "vo": "अगली कहानी एक ऐसे brand की, जो कभी हर घर में था, और फिर अचानक ग़ायब हो गया.",
+     "vo": "अगली कहानी एक ऐसे ब्रांड की, जो कभी हर घर में था, और फिर अचानक ग़ायब हो गया.",
      "prompt": "a 1990s Indian kirana shop shelf with one empty gap where a product used to be, dust in the light, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगली कहानी एक ऐसे brand की, जो कभी हर घर में था, और फिर अचानक ग़ायब हो गया."
     }
    ]
   }
