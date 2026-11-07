@@ -15,7 +15,7 @@ from pathlib import Path
 
 import cv2
 import numpy as np
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFilter, ImageFont, features
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "brand"))
@@ -212,6 +212,14 @@ class Captions:
 
     def __init__(self, groups, short=True):
         self.groups, self.cache, self.short = groups, {}, short  # [(t0, t1, text)]
+        self.soft = None if short else K.B.get("long_captions")  # owner, 7 Nov 2026: the aesthetic long-form style
+        self.spans = []  # the faint bottom gradient stays on across short gaps (no flicker between groups)
+        for t0, t1, _ in groups:
+            if self.spans and t0 - self.spans[-1][1] < 1.0:
+                self.spans[-1][1] = max(self.spans[-1][1], t1)
+            else:
+                self.spans.append([t0, t1])
+        self.shade = None
 
     @staticmethod
     def for_shot(text, start, dur, size=3):
@@ -234,6 +242,8 @@ class Captions:
         return out
 
     def draw(self, frame, t):
+        if self.soft:
+            return self.draw_soft(frame, t)
         g = next((g for g in self.groups if g[0] <= t < g[1]), None)
         if not g:
             return frame
@@ -288,6 +298,55 @@ class Captions:
             self.cache[text] = (cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0)
         rgb, al = self.cache[text]
         y = int(H * 0.86) - rgb.shape[0] // 2
+        roi = frame[y:y + rgb.shape[0]].astype(np.float32)
+        frame[y:y + rgb.shape[0]] = (rgb * al + roi * (1 - al)).astype(np.uint8)
+        return frame
+
+
+    def draw_soft(self, frame, t):
+        """Long-form with brand "long_captions" (owner, 7 Nov 2026: simpler font, medium size, the painting
+        stays whole): no box, warm off-white text with a soft shadow over a faint dark gradient at the bottom,
+        fading in and out (0.3 s gradient, 0.12 s text)."""
+        span = next((s for s in self.spans if s[0] <= t < s[1]), None)
+        if span is None:
+            return frame
+        if self.shade is None:
+            y = np.arange(H, dtype=np.float32)
+            self.shade = (0.68 * np.clip((y - H * 0.65) / (H * 0.35), 0, 1) ** 1.3)[:, None, None]
+        fade = min(1.0, (t - span[0]) / 0.3, (span[1] - t) / 0.3)
+        frame = (frame.astype(np.float32) * (1 - self.shade * fade)).astype(np.uint8)
+        g = next((g for g in self.groups if g[0] <= t < g[1]), None)
+        if not g:
+            return frame
+        text = g[2]
+        if text not in self.cache:
+            st = self.soft
+
+            def font(size):
+                f = ImageFont.truetype(str(K.HERE / st["font"]), size, layout_engine=ImageFont.Layout.RAQM
+                                       if features.check("raqm") else ImageFont.Layout.BASIC)
+                if st.get("weight"):  # a variable font's weight axis (Inter: optical size, weight)
+                    axes = f.get_variation_axes()
+                    f.set_variation_by_axes([st["weight"] if a["name"] in (b"Weight", "Weight") else a["default"] for a in axes])
+                return f
+            f = font(st.get("size", 44))
+            d = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+            while d.textlength(text, font=f) > W * 0.8 and f.size > 32:
+                f = font(f.size - 2)
+            bh = 140
+            sh = Image.new("RGBA", (W, bh), (0, 0, 0, 0))
+            ImageDraw.Draw(sh).text((W / 2, bh / 2 + 3), text, font=f, anchor="mm", fill=(0, 0, 0, 255),
+                                    stroke_width=3, stroke_fill=(0, 0, 0, 255))
+            img = sh.filter(ImageFilter.GaussianBlur(4))
+            ImageDraw.Draw(img).text((W / 2, bh / 2), text, font=f, anchor="mm", fill=(250, 243, 230, 255))
+            a = np.asarray(img)
+            self.cache[text] = (cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0)
+        rgb, al = self.cache[text]
+        # fade only at the edges of a run of groups: back-to-back groups swap without a dip
+        after = any(abs(h[1] - g[0]) < 0.05 for h in self.groups)
+        follows = any(abs(h[0] - g[1]) < 0.05 for h in self.groups)
+        al = al * min(1.0, 1.0 if after else (t - g[0]) / 0.12, 1.0 if follows else (g[1] - t) / 0.12)
+        y = int(H * 0.885) - rgb.shape[0] // 2
         roi = frame[y:y + rgb.shape[0]].astype(np.float32)
         frame[y:y + rgb.shape[0]] = (rgb * al + roi * (1 - al)).astype(np.uint8)
         return frame
@@ -427,11 +486,13 @@ def main(script_path, out_dir):
         g = min(target, g + down * hop) if target > g else max(target, g - up * hop)
         gain[i:i + hop] = g
     voice_rms = rms(voice[speaking > 0]) if speaking.any() else 0.1
-    under = np.full(len(gain), 10 ** (-12 / 20))
-    for a, b in explainers:  # under the explainers: -8 dB (a clear, curious bed while the viewer reads)
-        under[int(a * SR):int(b * SR)] = 10 ** (-8 / 20)
+    # long-form (owner, 7 Nov 2026: "a good faint bg music"): -18 dB under the voice, -8 dB in pauses and cards
+    talk_db, pause_db, read_db = (-12, -4, -8) if short else (-18, -8, -12)
+    under = np.full(len(gain), 10 ** (talk_db / 20))
+    for a, b in explainers:  # under the explainers: a clear, curious bed while the viewer reads
+        under[int(a * SR):int(b * SR)] = 10 ** (read_db / 20)
     under = np.convolve(under, np.ones(SR // 2) / (SR // 2), mode="same")  # ease in/out over 0.5 s
-    level = voice_rms * (under * gain + 10 ** (-4 / 20) * (1 - gain))
+    level = voice_rms * (under * gain + 10 ** (pause_db / 20) * (1 - gain))
     fade = np.minimum(1, np.arange(len(music)) / ((0.05 if short else 1.5) * SR)) * \
         np.minimum(1, (len(music) - np.arange(len(music))) / (3 * SR))
     mix = voice + music * level * fade
