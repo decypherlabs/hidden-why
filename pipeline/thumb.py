@@ -38,6 +38,53 @@ def arrow(d, start, end, width=22, head=56):
                (bx - head * 0.6 * math.sin(a), by + head * 0.6 * math.cos(a))], fill=K.RED)
 
 
+def epic_layout(script, out):
+    """Mythology long-form (owner, 7 Nov 2026: "DK's long-form thumbnail not at all good"; after the niche's top
+    painted thumbnails: Divya Katha's सती कथा, Katha Sagar's लंका दहन): the iconic moment fills the frame with the
+    hero on the left, the right side darkens into a stage for 2-3 huge stacked words in glowing saffron-gold with a
+    heavy dark outline (the *starred* word in fire orange). No inset bubble."""
+    from PIL import ImageFilter
+    th = script["thumbnail"]
+    img = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
+    shade = Image.new("L", (W, H))
+    sd = ImageDraw.Draw(shade)
+    for x in range(W):  # the right ~45% darkens for the words; the hero on the left stays bright
+        sd.line((x, 0, x, H), fill=int(185 * max(0.0, (x - W * 0.45) / (W * 0.55)) ** 1.2))
+    img.paste(Image.new("RGB", (W, H), (12, 8, 6)), mask=shade)
+    # two lines, balanced: the starred word keeps its star for colour
+    raw = th["text"].replace("|", " ").split()
+    half = (len(raw) + 1) // 2
+    lines = [raw[:half], raw[half:]] if len(raw) > 1 else [raw]
+    d = ImageDraw.Draw(img)
+    box_w = W * 0.5
+    size = 210
+    while size > 80:
+        f = K.display(size)
+        if max(d.textlength(" ".join(w.replace("*", "") for w in ln), font=f) for ln in lines) <= box_w and \
+                len(lines) * size * 1.08 <= H * 0.8:
+            break
+        size -= 6
+    f = K.display(size)
+    cx, y0 = W * 0.73, (H - len(lines) * size * 1.08) / 2 + size * 0.5
+    glow = Image.new("L", (W, H), 0)
+    gd = ImageDraw.Draw(glow)
+    for i, ln in enumerate(lines):
+        gd.text((cx, y0 + i * size * 1.08), " ".join(w.replace("*", "") for w in ln), font=f, anchor="mm", fill=255)
+    img.paste(Image.new("RGB", (W, H), (255, 140, 30)), mask=glow.filter(ImageFilter.GaussianBlur(18)).point(lambda v: int(v * 0.55)))
+    d = ImageDraw.Draw(img)
+    for i, ln in enumerate(lines):
+        y = y0 + i * size * 1.08
+        text = " ".join(w.replace("*", "") for w in ln)
+        x = cx - d.textlength(text, font=f) / 2
+        for w in ln:
+            t = w.replace("*", "")
+            d.text((x, y), t, font=f, anchor="lm", fill=(255, 106, 26) if "*" in w else (255, 214, 120),
+                   stroke_width=max(8, size // 18), stroke_fill=(20, 10, 4))
+            x += d.textlength(t + " ", font=f)
+    K.grain(img).save(out / "thumb.jpg", quality=95)
+    print(out / "thumb.jpg")
+
+
 def face_layout(script, out):
     th = script["thumbnail"]
     img = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
@@ -239,6 +286,8 @@ def main(script_path, out_dir):
         (out / "cover.png").write_bytes(picked.read_bytes())
     if script.get("format") == "short":
         return ranking_cover(script, out) if script.get("series") == "ranking" else short_cover(script, out)
+    if (script.get("thumbnail") or {}).get("layout") == "epic":
+        return epic_layout(script, out)
     if (script.get("thumbnail") or {}).get("layout") == "face":
         return face_layout(script, out)
     plane = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
