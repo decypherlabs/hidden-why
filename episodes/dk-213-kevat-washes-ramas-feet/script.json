@@ -107,13 +107,12 @@
   "at": "2026-11-08 00:36"
  },
  "shot_qc": {
-  "checked": "2026-11-07T18:57:45Z",
+  "checked": "2026-11-07T19:39:49Z",
   "rounds": 1,
-  "why": {
-   "1": "The image likely depicts Rama alone or missing the boat/Kevat interaction context.",
-   "5": "Kevat is often depicted with multiple or morphed limbs/hands in AI generation; specifically, the interaction with feet is anatomically incoherent.",
-   "6": "The narrative requires a visual representation of the Ahilya/stone transformation myth which is missing or garbled.",
-   "8": "The figures of Rama, Sita, and Lakshmana are often merged or duplicated in the boat scene."
-  }
+  "left": [
+   "1",
+   "5",
+   "8"
+  ]
  }
 }
