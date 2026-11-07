@@ -30,7 +30,7 @@
   "style": "pill",
   "_about": "owner, 7 Nov 2026: picked B, white text in a dark rounded pill"
  },
- "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, natural light, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, ultra detailed, no text, no logos",
+ "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, natural light, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, every signboard, shop front, banner, poster and package plain and blank without any lettering, Indian shops and markets with Indian goods and Indian shoppers, never a Western store, ultra detailed",
  "art_negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, portrait of a real person, deformed hands, extra fingers, distorted face, blurry, low quality, cartoon, painting, illustration, cartoon, anime, 3d render, oversaturated, cluttered, busy background, surreal, distorted perspective",
  "cover_style": "photorealistic cinematic still, the product or place large, sharp and centred, dramatic light, rich saturated colour, high contrast, clear uncluttered background, no text, no logos",
  "_about": "owner, 7 Nov 2026: Logos & Legends (Hindi brand stories, long-form only). Never a real person's realistic face: products, places, anonymous figures, silhouettes.",
@@ -42,5 +42,6 @@
  "motion_fx": true,
  "intro": "title",
  "_art_style_about": "owner, 7 Nov 2026: neutral base; each episode adds its own look (studio/ll_longform.py LOOKS) - not every video saturated",
- "date_style": "callout"
+ "date_style": "callout",
+ "_art_style_text": "owner, 8 Nov 2026: English 'supermarket' signs looked British; FLUX ignores 'no text', so the style asks for blank signs and Indian shops"
 }
