@@ -12,7 +12,7 @@ import json
 import sys
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageOps
+from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "brand"))
@@ -36,6 +36,69 @@ def arrow(d, start, end, width=22, head=56):
     d.line((x0, y0, bx, by), fill=K.RED, width=width)
     d.polygon([(x1, y1), (bx + head * 0.6 * math.sin(a), by - head * 0.6 * math.cos(a)),
                (bx - head * 0.6 * math.sin(a), by + head * 0.6 * math.cos(a))], fill=K.RED)
+
+
+def ll_layout(script, out):
+    """Logos & Legends (owner, 7 Nov 2026, after Live Hindi / HinExp / The Quiet Story / inspiretomind): the product or
+    place fills the frame; the left side darkens for 2-4 huge words in two colours (white, yellow; the *starred* word
+    in red-orange) with a heavy outline and drop shadow; a red falling or green rising arrow for a fall or a rise
+    ("trend"); the small crest in a corner."""
+    from PIL import ImageFilter
+    th = script["thumbnail"]
+    img = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
+    shade = Image.new("L", (W, H))
+    sd = ImageDraw.Draw(shade)
+    for x in range(W):
+        sd.line((x, 0, x, H), fill=int(170 * max(0.0, 1 - x / (W * 0.62)) ** 1.3))
+    img.paste(Image.new("RGB", (W, H), (8, 8, 10)), mask=shade)
+    fp = K.HERE / "logos-and-legends" / "fonts" / "Mukta-Bold.ttf"
+    font = lambda n: ImageFont.truetype(str(fp if fp.exists() else K.HERE / K.B["fonts"]["display"]), n,
+                                        layout_engine=ImageFont.Layout.RAQM)
+    raw = th["text"].replace("|", " ").split()
+    half = (len(raw) + 1) // 2
+    lines = [raw[:half], raw[half:]] if len(raw) > 2 else [raw]
+    d = ImageDraw.Draw(img)
+    size = 190
+    while size > 80 and max(d.textlength(" ".join(w.strip("*") for w in ln), font=font(size)) for ln in lines) > W * 0.58:
+        size -= 6
+    f = font(size)
+    colours = [(255, 255, 255), (255, 214, 0)]
+    sh = Image.new("L", (W, H), 0)
+    y0 = H * 0.5 - (len(lines) - 1) * size * 0.55
+    for i, ln in enumerate(lines):
+        ImageDraw.Draw(sh).text((60 + 10, y0 + i * size * 1.1 + 12), " ".join(w.strip("*") for w in ln), font=f, anchor="lm",
+                                fill=255, stroke_width=14, stroke_fill=255)
+    img.paste(Image.new("RGB", (W, H), (0, 0, 0)), mask=sh.filter(ImageFilter.GaussianBlur(14)).point(lambda v: int(v * 0.85)))
+    d = ImageDraw.Draw(img)
+    k = 0
+    for i, ln in enumerate(lines):
+        x, y = 60, y0 + i * size * 1.1
+        for w in ln:
+            t = w.strip("*")
+            col = (255, 74, 46) if w.startswith("*") else colours[k % 2]
+            d.text((x, y), t, font=f, anchor="lm", fill=col, stroke_width=max(10, size // 14), stroke_fill=(0, 0, 0))
+            x += d.textlength(t + " ", font=f)
+            k += 1
+    trend = th.get("trend")
+    if trend in ("rise", "fall"):  # a thick arrow, bottom-right
+        c = (40, 200, 90) if trend == "rise" else (235, 40, 40)
+        (x0, y0a), (x1, y1a) = ((W * 0.70, H * 0.86), (W * 0.93, H * 0.58)) if trend == "rise" else ((W * 0.70, H * 0.58), (W * 0.93, H * 0.86))
+        d.line((x0, y0a, x1, y1a), fill=(0, 0, 0), width=52)
+        d.line((x0, y0a, x1, y1a), fill=c, width=34)
+        import math
+        ang = math.atan2(y1a - y0a, x1 - x0)
+        pts = [(x1 + 20 * math.cos(ang), y1a + 20 * math.sin(ang)),
+               (x1 - 95 * math.cos(ang - 0.5), y1a - 95 * math.sin(ang - 0.5)),
+               (x1 - 95 * math.cos(ang + 0.5), y1a - 95 * math.sin(ang + 0.5))]
+        d.polygon(pts, fill=c, outline=(0, 0, 0), width=8)
+    lg = K.asset("logo.png")
+    if lg.exists():
+        crest = Image.open(lg).convert("RGBA").resize((110, 110), Image.LANCZOS)
+        m = Image.new("L", (110, 110), 0)
+        ImageDraw.Draw(m).ellipse((0, 0, 109, 109), fill=255)
+        img.paste(crest, (W - 140, 30), m)
+    K.grain(img).save(out / "thumb.jpg", quality=95)
+    print(out / "thumb.jpg")
 
 
 def epic_layout(script, out):
@@ -308,6 +371,8 @@ def main(script_path, out_dir):
         (out / "cover.png").write_bytes(picked.read_bytes())
     if script.get("format") == "short":
         return ranking_cover(script, out) if script.get("series") == "ranking" else short_cover(script, out)
+    if (script.get("thumbnail") or {}).get("layout") == "ll":
+        return ll_layout(script, out)
     if (script.get("thumbnail") or {}).get("layout") == "epic":
         return epic_layout(script, out)
     if (script.get("thumbnail") or {}).get("layout") == "face":
