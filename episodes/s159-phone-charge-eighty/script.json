@@ -1,0 +1,65 @@
+{
+ "slug": "s159-phone-charge-eighty",
+ "format": "short",
+ "title": "Why does your phone race to 80%, then crawl? 🔋",
+ "hook_text": "IT'S HOLDING BACK",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "voice_speed": 1.05,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Your charger is secretly slowing down. Why?",
+     "prompt": "A white phone charger cable plugged into a wall outlet and connected to a smartphone lying on a wooden desk, the phone screen glowing plain bright green, a thin line of light running along the cable, dark bedroom lit by a soft bedside lamp, close-up shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The first half is like pouring water into an empty glass.",
+     "prompt": "Clear water pouring in a thick fast stream from a glass jug into an empty tall drinking glass, the glass almost empty at the bottom, on a kitchen counter, bright morning sun, sharp focus, close-up shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Fast and easy, so the charger pushes full power.",
+     "prompt": "A bright glowing charging cable pushing streaks of white light into a smartphone lying on a table, the phone fully lit, bold energetic light trails along the cable, clean white desk, bright daylight, close-up shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Near the top, the battery gets crowded with lithium ions.",
+     "prompt": "A macro view inside a battery, hundreds of small glowing blue spheres packed tightly into a layered grid with almost no empty space left, sharp focus across the whole frame, clean dark background with soft blue light, macro shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Pushing hard now would heat and damage the battery.",
+     "prompt": "A smartphone lying on a table with its back glowing orange-hot, wavy heat haze rising above it, the battery slightly bulging under the back cover, a white charging cable plugged in, dim room lit by warm lamp light, close-up shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "That's why your phone races to 80%, then crawls: it's protecting the battery.",
+     "prompt": "A smartphone lying on a wooden bedside table, plugged into a white charger, its screen glowing softly, a gentle blue-green halo of light around the phone's edges, calm night bedroom with a warm lamp, sharp focus, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "cover_text": "PHONE CHARGES *80%* FAST, LAST 20% CRAWLS",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Giant realistic painting of a smartphone lying on a table plugged into a charger, the battery bar glowing bright green and nearly full, a small hourglass of sand beside it with the sand running slowly, bright, close, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ }
+}
