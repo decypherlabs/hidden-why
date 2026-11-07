@@ -71,7 +71,8 @@ def main(script_path, out_dir, part=0, parts=1):
         sw, sh = BRAND["short_size"]
     jobs = [(out / f"shot-{n:02d}.png", p, f"{p}, {style}", f"{neg_extra}, {neg}" if neg_extra else neg, sw, sh, seed)
             for n, p, neg_extra, seed in shots(script)]
-    thumb_style = "cinematic digital painting, dramatic light, high contrast, highly detailed, sharp focus, no text"
+    # a brand may set its own thumbnail look (DK, 7 Nov 2026: fiery and saturated like the niche's winners)
+    thumb_style = BRAND.get("thumb_style") or "cinematic digital painting, dramatic light, high contrast, highly detailed, sharp focus, no text"
     if th.get("plane"):  # the thumbnail keeps its subject bright and readable, so a lighter style
         jobs.append((out / "thumb-plane.png", th["plane"], f"{th['plane']}, {thumb_style}", neg, 1344, 768, 7))
     cv = (script.get("cover") or {}).get("prompt")

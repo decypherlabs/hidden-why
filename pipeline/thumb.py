@@ -78,8 +78,20 @@ def epic_layout(script, out):
         x = cx - d.textlength(text, font=f) / 2
         for w in ln:
             t = w.replace("*", "")
-            d.text((x, y), t, font=f, anchor="lm", fill=(255, 106, 26) if "*" in w else (255, 214, 120),
-                   stroke_width=max(8, size // 18), stroke_fill=(20, 10, 4))
+            d.text((x, y), t, font=f, anchor="lm", fill=(20, 10, 4), stroke_width=max(8, size // 18), stroke_fill=(20, 10, 4))
+            # the letters in a metal-fire gradient, like the niche's winners: light gold at the top, deep orange below
+            m = Image.new("L", (W, H), 0)
+            ImageDraw.Draw(m).text((x, y), t, font=f, anchor="lm", fill=255)
+            top, bot = ((255, 150, 40), (205, 45, 10)) if "*" in w else ((255, 236, 170), (240, 150, 40))
+            grad = Image.new("RGB", (W, H))
+            gdr = ImageDraw.Draw(grad)
+            bb = m.getbbox() or (0, int(y - size * 0.55), W, int(y + size * 0.55))
+            y1, y2 = bb[1], bb[3] + 1  # the word's real height, matras above the line included
+            for yy in range(max(0, y1), min(H, y2)):
+                k = (yy - y1) / max(1, y2 - y1)
+                gdr.line((0, yy, W, yy), fill=tuple(int(a + (b - a) * k) for a, b in zip(top, bot)))
+            img.paste(grad, mask=m)
+            d = ImageDraw.Draw(img)
             x += d.textlength(t + " ", font=f)
     K.grain(img).save(out / "thumb.jpg", quality=95)
     print(out / "thumb.jpg")
