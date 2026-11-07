@@ -45,9 +45,10 @@
     },
     {
      "vo": "लेकिन तभी हल की लकीर से एक नन्ही बच्ची निकली।",
-     "prompt": "a tiny glowing baby girl lying in a fresh furrow in the earth beside a golden plough tip, centre, a king in white dhoti and gold crown far off on the left, staring, golden morning field, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "a tiny baby girl sitting upright in a fresh furrow in the earth, centre, a king in white dhoti and gold crown standing far off on the left looking down, golden morning light, medium shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "जनक ने उसे गोद में उठाया और बेटी माना।",
@@ -57,9 +58,10 @@
     },
     {
      "vo": "हल की लकीर को सीता कहते हैं, इसलिए नाम सीता पड़ा।",
-     "prompt": "a long fresh plough furrow stretching across a golden field toward the horizon, a golden plough resting beside it, sunrise, no people, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "a long fresh plough furrow in the earth, a golden plough resting in the dirt at the end of the line, empty field under a bright sun, clear daylight, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8925
     },
     {
      "vo": "सीतामढ़ी आज भी बिहार में है, माना जाता है यहीं मिलीं।",
@@ -85,5 +87,21 @@
   "model": "ai4bharat/indic-parler-tts",
   "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
   "trim": true
+ },
+ "repaint": {
+  "shots": [
+   4,
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-08 00:36"
+ },
+ "shot_qc": {
+  "checked": "2026-11-07T18:58:06Z",
+  "rounds": 1,
+  "why": {
+   "4": "The figure of the baby emerging from the plow line is anatomically distorted/merged with the plow structure.",
+   "6": "The visual depicts a generic scene that fails to clearly represent the specific etymology of the name 'Sita' (furrow) as described in the narration."
+  }
  }
 }
