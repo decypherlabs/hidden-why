@@ -33,9 +33,10 @@
     },
     {
      "vo": "चंद्र देव की सत्ताईस पत्नियाँ थीं, पर रोहिणी सबसे प्यारी थीं।",
-     "prompt": "A pale young god with a crescent moon crown and white robes on the left holding a white lotus out toward a graceful woman in a pale sari on the right, moonlit palace garden, silver light, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Moon god Chandra with a crescent moon crown on the left walking through a garden with twenty-seven women in colorful saris, the god reaching out to hold the hand of one woman on the right, palace garden, moonlight, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "बाकी पत्नियों ने जाकर पिता दक्ष से शिकायत की।",
@@ -51,9 +52,10 @@
     },
     {
      "vo": "श्राप से चंद्र देव की चमक घटने लगी।",
-     "prompt": "A pale young god with a crescent moon crown standing alone on a dark seashore, faint dim glow around him, a thin sliver of crescent moon above, white robes, night, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "A pale young god in white robes standing alone, his body becoming faint and transparent, crescent moon crown, dark seashore at night, night sky, medium shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "वे प्रभास तट पर आए और शिव जी की तपस्या की।",
@@ -91,5 +93,21 @@
   "model": "ai4bharat/indic-parler-tts",
   "description": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
   "trim": true
+ },
+ "repaint": {
+  "shots": [
+   2,
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-07 23:17"
+ },
+ "shot_qc": {
+  "checked": "2026-11-07T17:37:48Z",
+  "rounds": 1,
+  "why": {
+   "2": "The image shows only one woman, failing to depict the context of twenty-seven wives.",
+   "5": "The moon deity is shown with multiple distorted/extra limbs and a fragmented, nonsensical body structure."
+  }
  }
 }
