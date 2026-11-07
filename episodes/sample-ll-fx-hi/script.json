@@ -1,0 +1,143 @@
+{
+ "slug": "sample-ll-fx-hi",
+ "format": "long",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_from": "sample-ll-fx",
+ "title": "बंद कंपनी के मलबे से इंडिया की सबसे प्यारी कार कैसे बनी?",
+ "thumbnail": {
+  "layout": "face",
+  "text": "मारुति 800 *संजय गांधी* की नहीं?",
+  "plane": "A small white 1980s Indian hatchback car glowing under a single dramatic spotlight in a dark, abandoned factory shed with rusted machinery behind it, an anonymous Indian family in 1980s clothes seen from behind staring at it in awe, dust in the light beams, cinematic realistic oil painting, no logos, no text",
+  "zoom": "Close-up of a hand holding a single car key with a plain round keychain against a blurred white 1980s hatchback, warm golden light, realistic painting, no text"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "ch2",
+   "ch4"
+  ],
+  "reflective": [
+   "ch1",
+   "ch6",
+   "outro"
+  ],
+  "epic": [
+   "ch3",
+   "ch5"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "बंद पड़ी फ़ैक्ट्री। लिक्विडेशन में जा चुकी कंपनी।",
+     "prompt": "a small white 1980s Indian hatchback car standing alone inside a vast abandoned factory shed, shafts of golden light through broken roof, rusted machinery around, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "बंद पड़ी फ़ैक्ट्री। लिक्विडेशन में जा चुकी कंपनी।"
+    },
+    {
+     "vo": "और उसी मलबे से निकली वो कार, जो लाखों भारतीय घरों की पहली कार बनी।",
+     "prompt": "a row of small white 1980s hatchbacks parked in front of modest Indian middle-class homes, colony street at dawn, soft golden light, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और उसी मलबे से निकली वो कार, जो लाखों भारतीय घरों की पहली कार बनी।",
+     "label": "MARUTI UDYOG · Gurgaon, 1983"
+    },
+    {
+     "vo": "सवाल ये है: एक फ़ेल सपना, इंडिया की सबसे प्यारी कार कैसे बना?",
+     "prompt": "a torn old blueprint of a small car lying on a dusty desk, a white hatchback faintly reflected in a cracked window behind, dramatic light, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सवाल ये है: एक फ़ेल सपना, इंडिया की सबसे प्यारी कार कैसे बना?"
+    },
+    {
+     "vo": "आप सोचते हैं मारुति आठ सौ संजय गांधी की कार थी? तो आप ग़लत हैं। और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते।",
+     "prompt": "a lone man in silhouette standing at the gates of an empty factory, long shadow on the ground, face hidden, dusk, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "आप सोचते हैं मारुति 800 संजय गांधी की कार थी? तो आप ग़लत हैं। और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते।"
+    },
+    {
+     "vo": "एक सपना, एक हार, एक हादसा, और जापान से आई एक दोस्ती। चलिए शुरू से।",
+     "prompt": "a Japanese factory floor on the left and a 1970s Indian street on the right, a small white hatchback in the centre, warm tones, distant blurred silhouettes, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "एक सपना, एक हार, एक हादसा, और जापान से आई एक दोस्ती। चलिए शुरू से।"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "1970 का सपना",
+   "shots": [
+    {
+     "vo": "उन्नीस सौ सत्तर का इंडिया। सड़कों पर गिनी-चुनी कार्स।",
+     "prompt": "a 1970s Indian city road with bicycles, scooters, a tonga and just two rounded vintage sedans, warm afternoon light, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "1970 का इंडिया। सड़कों पर गिनी-चुनी कार्स।"
+    },
+    {
+     "vo": "ज़्यादातर दो ही नाम: भारी एंबेसडर और छोटी प्रीमियर पद्मिनी।",
+     "prompt": "a rounded white 1960s Indian sedan on the left and a small boxy 1970s sedan on the right, parked on a Delhi street, afternoon light, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "ज़्यादातर दो ही नाम: भारी एंबेसडर और छोटी प्रीमियर पद्मिनी।",
+     "title": "सबकी अपनी *कार*?"
+    },
+    {
+     "vo": "कार बुक करो, तो सालों का इंतज़ार। और दाम आम आदमी की पहुँच से बाहर।",
+     "prompt": "a tired man in a shirt and trousers holding a paper form, standing outside a 1970s car dealer's office, a distant blurred queue of silhouettes behind him, medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "कार बुक करो, तो सालों का इंतज़ार। और दाम आम आदमी की पहुँच से बाहर।"
+    },
+    {
+     "vo": "मिडिल क्लास का सपना था स्कूटर। कार तो बस अमीरों की चीज़ थी।",
+     "prompt": "an Indian family of four squeezed onto a 1970s scooter on a dusty road, a big black sedan far off behind them, afternoon light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "मिडिल क्लास का सपना था स्कूटर। कार तो बस अमीरों की चीज़ थी।"
+    },
+    {
+     "vo": "इसी दौर में एक नौजवान ने बड़ा सपना देखा।",
+     "prompt": "a young man in a 1970s kurta seen from behind, leaning over a workbench in a small garage, sketches of a small car pinned on the wall, lamp light, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "इसी दौर में एक नौजवान ने बड़ा सपना देखा।"
+    },
+    {
+     "vo": "प्राइम मिनिस्टर इंदिरा गांधी के बेटे, संजय गांधी। सपना: एक सस्ती, देसी, लोगों की कार।",
+     "prompt": "a young man in a kurta standing in a garage doorway at night, a rough car chassis under a bare bulb behind him, face in shadow, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "प्राइम मिनिस्टर इंदिरा गांधी के बेटे, संजय गांधी। सपना: एक सस्ती, देसी, लोगों की कार।"
+    },
+    {
+     "vo": "टारगेट छोटा नहीं था: हर साल पचास हज़ार कार्स। ऐसी और असली वजहें जानने के लिए सब्सक्राइब करें।",
+     "prompt": "a large 1970s chart pinned on an office wall with rising ink bars, a man's hand pointing at the tallest bar, desk lamp light, medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "टारगेट छोटा नहीं था: हर साल 50,000 कार्स। ऐसी और असली वजहें जानने के लिए सब्सक्राइब करें।"
+    }
+   ]
+  }
+ ],
+ "_about": "owner, 7 Nov 2026: 1-minute phase-1 motion sample on GitHub (existing Maruti paintings); never published",
+ "intro_title": "THE MARUTI 800 STORY",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ },
+ "review": "auto",
+ "voice_review": true,
+ "hook_text": "बंद फ़ैक्ट्री, नई कार",
+ "cover_text": "मारुति 800 *संजय गांधी* की नहीं?"
+}
