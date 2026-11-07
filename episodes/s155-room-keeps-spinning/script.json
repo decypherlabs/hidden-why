@@ -1,0 +1,65 @@
+{
+ "slug": "s155-room-keeps-spinning",
+ "format": "short",
+ "title": "Why the Room Keeps Spinning After You Stop 🌀",
+ "hook_text": "WALK STRAIGHT. TRY.",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "voice_speed": 1.05,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Why can't you walk straight after spinning?",
+     "prompt": "A young man in a red t-shirt stumbling sideways with arms stretched out for balance, dizzy squinting face, centre, empty sunlit Indian street with shop fronts, soft afternoon light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Nothing around you is moving, yet your eyes are still racing.",
+     "prompt": "A wide open human eye staring forward with the iris and pupil large, faint horizontal streaks of colour across the eyeball, eyelashes visible, dim quiet room reflected in the eye, soft window light, extreme close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Deep inside your ear sit three tiny loops filled with fluid.",
+     "prompt": "A large glowing translucent human ear model showing three tiny loop-shaped glass tubes filled with blue liquid inside the ear, pink skin around it, dark background, soft studio light, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "When you spin, that fluid swirls and bends tiny hairs.",
+     "prompt": "Three tiny hairs bending sideways inside a glass tube of swirling blue liquid, small bright bubbles circling, magnified view, dark background, soft glowing light, macro close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But here's the catch: the fluid keeps swirling after your body stops.",
+     "prompt": "A glass loop tube of blue liquid with a visible whirlpool still swirling, centre, a still man in a white shirt standing far behind it, blurred, plain bedroom, soft warm light, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Your brain trusts it, so the room keeps spinning after you stop.",
+     "prompt": "A young man in a white shirt standing perfectly still with a puzzled face, centre, the room walls and furniture around him smeared into circular streaks, bright Indian living room, daylight, medium-wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "cover_text": "ROOM KEEPS *SPINNING* AFTER YOU STOP",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A whirling blurred colourful room swirling around a single still outstretched hand in the centre, strong spiral motion blur, bright saturated colours, one clear subject, no face, no text, vertical composition, bright warm light, highly detailed"
+ }
+}
