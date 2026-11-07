@@ -73,7 +73,8 @@ def main(script_path, out_dir, part=0, parts=1):
             for n, p, neg_extra, seed in shots(script)]
     # a brand may set its own thumbnail look (DK, 7 Nov 2026: fiery and saturated like the niche's winners)
     thumb_style = BRAND.get("thumb_style") or "cinematic digital painting, dramatic light, high contrast, highly detailed, sharp focus, no text"
-    if th.get("plane"):  # the thumbnail keeps its subject bright and readable, so a lighter style
+    flux_thumb = BRAND.get("thumb_engine") == "flux" and th.get("plane")  # DK (7 Nov 2026): the thumbnail on FLUX
+    if th.get("plane") and not flux_thumb:  # the thumbnail keeps its subject bright and readable, so a lighter style
         jobs.append((out / "thumb-plane.png", th["plane"], f"{th['plane']}, {thumb_style}", neg, 1344, 768, 7))
     cv = (script.get("cover") or {}).get("prompt")
     if cv:  # a Short's own cover painting: the one image that says the title (owner, 31 Oct: DK covers didn't match)
@@ -94,6 +95,37 @@ def main(script_path, out_dir, part=0, parts=1):
             img = face_fix(pipe, img, prompt, prompt2, negative, g)
         img.save(p)
         print(f"  {i}/{len(jobs)} {p.name}", flush=True)
+    if flux_thumb and part == 0 and not (out / "thumb-plane.png").exists():
+        del pipe
+        torch.cuda.empty_cache()
+        flux_images([(out / "thumb-plane.png", f"{th['plane']}, {thumb_style}", 7)], 1344, 768)
+
+
+def flux_images(jobs, w, h):
+    """FLUX.1-schnell for a few images (jobs: [(path, prompt, seed)]): the thumbnail of a brand that wants the
+    premium look while its shots stay on SDXL (owner, 7 Nov 2026: "doesn't match the quality they have")."""
+    import subprocess
+    try:
+        import bitsandbytes  # noqa: F401
+    except ImportError:
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "bitsandbytes"], check=True)
+    tok = next(Path("/kaggle/input").rglob("hf_token.txt"), None) if Path("/kaggle/input").exists() else None
+    if tok and not os.environ.get("HF_TOKEN"):
+        os.environ["HF_TOKEN"] = tok.read_text().strip()
+    from diffusers import BitsAndBytesConfig, FluxPipeline, FluxTransformer2DModel
+    repo = BRAND.get("flux_model") or "black-forest-labs/FLUX.1-schnell"
+    tr = FluxTransformer2DModel.from_pretrained(repo, subfolder="transformer", torch_dtype=torch.float16,
+                                                quantization_config=BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4",
+                                                                                       bnb_4bit_compute_dtype=torch.float16))
+    pipe = FluxPipeline.from_pretrained(repo, transformer=tr, torch_dtype=torch.float16)
+    pipe.enable_model_cpu_offload()
+    for p, prompt, seed in jobs:
+        img = pipe(prompt, width=w, height=h, num_inference_steps=int(BRAND.get("flux_steps", 4)), guidance_scale=0.0,
+                   max_sequence_length=256, generator=torch.Generator("cpu").manual_seed(seed)).images[0]
+        img.save(p)
+        print(f"  FLUX {p.name}", flush=True)
+    del pipe, tr
+    torch.cuda.empty_cache()
 
 
 def paint_flux(script, out, part=0, parts=1):

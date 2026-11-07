@@ -71,6 +71,12 @@ def epic_layout(script, out):
     for i, ln in enumerate(lines):
         gd.text((cx, y0 + i * size * 1.08), " ".join(w.replace("*", "") for w in ln), font=f, anchor="mm", fill=255)
     img.paste(Image.new("RGB", (W, H), (255, 140, 30)), mask=glow.filter(ImageFilter.GaussianBlur(18)).point(lambda v: int(v * 0.55)))
+    sh = Image.new("L", (W, H), 0)  # a soft drop shadow under the words: depth, like the winners' 3D titles
+    sdr = ImageDraw.Draw(sh)
+    for i, ln in enumerate(lines):
+        sdr.text((cx + size * 0.05, y0 + i * size * 1.08 + size * 0.07), " ".join(w.replace("*", "") for w in ln),
+                 font=f, anchor="mm", fill=255, stroke_width=max(8, size // 18), stroke_fill=255)
+    img.paste(Image.new("RGB", (W, H), (0, 0, 0)), mask=sh.filter(ImageFilter.GaussianBlur(10)).point(lambda v: int(v * 0.8)))
     d = ImageDraw.Draw(img)
     for i, ln in enumerate(lines):
         y = y0 + i * size * 1.08
@@ -91,6 +97,10 @@ def epic_layout(script, out):
                 k = (yy - y1) / max(1, y2 - y1)
                 gdr.line((0, yy, W, yy), fill=tuple(int(a + (b - a) * k) for a, b in zip(top, bot)))
             img.paste(grad, mask=m)
+            # a bevel: a bright band along the letters' top edges (the letter minus itself shifted down)
+            from PIL import ImageChops
+            band = ImageChops.subtract(m, m.transform(m.size, Image.AFFINE, (1, 0, 0, 0, 1, -max(3, size // 45))))
+            img.paste(Image.new("RGB", (W, H), (255, 250, 225)), mask=band.point(lambda v: int(v * 0.7)))
             d = ImageDraw.Draw(img)
             x += d.textlength(t + " ", font=f)
     K.grain(img).save(out / "thumb.jpg", quality=95)
