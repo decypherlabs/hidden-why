@@ -1,0 +1,422 @@
+{
+ "slug": "dk-220-draupadi-akshaya-patra",
+ "format": "long",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "द्रौपदी के एक दाने से दस हज़ार ऋषि कैसे तृप्त हुए? 🍚",
+ "thumbnail": {
+  "layout": "face",
+  "text": "द्रौपदी का बर्तन *ख़ाली*, ऋषि तृप्त!",
+  "plane": "Draupadi, dark-skinned queen in a modest blue sari with a gold border, long black hair, kneeling in a forest hut and looking up with tearful wonder; Lord Krishna, blue-skinned, peacock-feather crown, yellow dhoti, smiling softly beside her; a glowing empty copper pot between them; a golden-lit forest riverbank behind; realistic cinematic painting, figures filling the frame",
+  "zoom": "Close view of an empty copper vessel with a single tiny green leaf fleck stuck on its inner rim, glowing with soft golden light, dark hut background, realistic cinematic painting"
+ },
+ "music": {
+  "suspense": [
+   "cold_open",
+   "ch3"
+  ],
+  "emotional": [
+   "ch1",
+   "ch4"
+  ],
+  "devotional": [
+   "ch2",
+   "ch5",
+   "outro"
+  ]
+ },
+ "source": "महाभारत (वेदव्यास), वन पर्व, अध्याय 261-263: सूर्य द्वारा अक्षय पात्र की प्राप्ति तथा दुर्वासा-कृष्ण प्रसंग",
+ "journey_score": 9,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "क्या आप जानते हैं कि द्रौपदी के एक दाने से हज़ारों ऋषियों का पेट कैसे भरा?",
+     "prompt": "Draupadi holding a single grain of rice on her palm, a woman with dark hair in a simple sari, centre, forest hut, golden divine light from the grain, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "द्रौपदी के एक दाने से हज़ारों ऋषि कैसे तृप्त हो गए?",
+     "prompt": "thousands of sages in saffron robes sitting in rows on a riverbank, far off silhouettes, a satisfied man in the foreground, forest clearing, golden dusk light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अगर आप सोचते हैं कि बर्तन के जादू ने पेट भरा, तो आप ग़लत हैं।",
+     "prompt": "Draupadi holding an empty copper pot upside down, a woman with dark hair in a plain sari, centre, dark forest hut, a single shaft of light on the pot, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते।",
+     "prompt": "a tiny green leaf fleck on a copper pot rim, a blue-skinned man with peacock feather crown blurred in the background, hut interior, divine glow, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पहले वन का संकट, फिर दुर्योधन का षड्यंत्र, और फिर कृष्ण का चमत्कार।",
+     "prompt": "a dark forest on the left, a shadowy palace in the centre, a bright riverbank on the right with Lord Krishna, blue-skinned man with peacock feather crown, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "वनवास का संकट",
+   "shots": [
+    {
+     "vo": "द्यूतक्रीड़ा में सब कुछ हारकर पांडव बारह वर्षों के वनवास पर निकले।",
+     "prompt": "Yudhishthira in bark-cloth, a man with a beard, walking on a forest path on the left, Draupadi in a plain sari on the right, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उनके पीछे हज़ारों वेदपाठी ब्राह्मण और तपस्वी भी वन चले आए।",
+     "prompt": "a long line of Brahmin sages in saffron robes walking through a forest, Draupadi walking in front, forest trees, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वे धर्मराज युधिष्ठिर का साथ किसी भी हाल में छोड़ना नहीं चाहते थे।",
+     "prompt": "an elderly Brahmin sage with a white beard and folded hands, Yudhishthira in bark-cloth standing opposite, forest clearing, soft light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "युधिष्ठिर का नियम था कि शरण में आया कोई भी अतिथि भूखा न सोए।",
+     "prompt": "Yudhishthira in bark-cloth with a hand raised in welcome, a man with a beard, sitting at the door of a thatched hut, warm light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर बीहड़ जंगल में रोज़ हज़ारों लोगों का भोजन जुटाना असंभव था।",
+     "prompt": "Yudhishthira sitting alone under a banyan tree, a man with a beard, head bowed, forest at dusk, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पांडवों के पास न धन बचा था, न कोई राज्य का भंडार।",
+     "prompt": "Bhima, a broad-shouldered man with mace, and Arjun, a man with a bow, sitting by a campfire, forest at night, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तब कुलपुरोहित धौम्य ऋषि ने उन्हें एक गुप्त मार्ग सुझाया।",
+     "prompt": "Sage Dhaumya, an old man with a white beard and rudraksha beads, speaking to Yudhishthira, a man with a beard, under a tree at sunrise, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लेकिन तभी उन्होंने जिस देव की उपासना करने को कहा, सब चौंक पड़े।",
+     "prompt": "Yudhishthira looking up at the sky, a man with a beard, forest clearing, golden rays breaking through the trees, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "सूर्य का वरदान",
+   "shots": [
+    {
+     "vo": "धौम्य ऋषि बोले, संसार के समस्त अन्नों के स्वामी साक्षात भगवान सूर्य हैं।",
+     "prompt": "Sage Dhaumya, an old man with a white beard in saffron, standing on a riverbank, the rising sun in the distance, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने युधिष्ठिर को सूर्य देव के एक सौ आठ पवित्र नाम दिए।",
+     "prompt": "Sage Dhaumya, an old man with a white beard, teaching Yudhishthira, a man with a beard, sitting on a riverbank at dawn, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "युधिष्ठिर पवित्र गंगा के शीतल जल में खड़े होकर कठोर तप करने लगे।",
+     "prompt": "Yudhishthira standing waist-deep in the Ganga, a man with a beard, hands folded, facing the sun, mist over water, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उनकी सच्ची निष्ठा देखकर आकाश में दिव्य स्वर्ण-प्रकाश छा गया।",
+     "prompt": "golden light filling the sky over the Ganga, Yudhishthira standing in the water, a man with a beard, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भगवान सूर्य रथ पर आरूढ़ होकर युधिष्ठिर के सामने प्रकट हुए।",
+     "prompt": "Lord Surya, golden-skinned man with a radiant crown and halo, standing in the sky, Yudhishthira kneeling on the riverbank, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सूर्य देव ने युधिष्ठिर को एक दिव्य ताँबे का पात्र सौंपा।",
+     "prompt": "Lord Surya, golden-skinned man with a radiant crown, handing a shining copper vessel to Yudhishthira, a man with a beard, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कहा, बारह वर्षों तक इस अक्षय पात्र से कभी अन्न समाप्त नहीं होगा।",
+     "prompt": "a shining copper vessel overflowing with food on a rock, Yudhishthira bowing before it, a man with a beard, riverbank, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर एक कठोर मर्यादा थी। जब तक द्रौपदी भोजन न कर लें, तभी तक यह अन्न देगा।",
+     "prompt": "Draupadi in a plain sari serving food from a copper vessel to a line of sages, forest clearing, warm light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लेकिन तभी, हस्तिनापुर के राजमहल में एक भयानक चाल रची जा रही थी।",
+     "prompt": "a distant palace on a hill at night, one lit window, dark stormy sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "दुर्योधन की चाल",
+   "shots": [
+    {
+     "vo": "दुर्योधन पांडवों को वन में भी सुखी देखकर जल भुन रहा था।",
+     "prompt": "Duryodhana, a man with a crown and dark clothes, scowling on a throne, palace hall, shadows, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उसी समय परम क्रोधी महर्षि दुर्वासा दस हज़ार शिष्यों सहित हस्तिनापुर पधारे।",
+     "prompt": "Sage Durvasa, an old man with matted hair and saffron robes, walking with a group of disciples, palace gate, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन ने कपट से दिन-रात दुर्वासा मुनि की कठिन सेवा की।",
+     "prompt": "Duryodhana offering a plate of food to Sage Durvasa, an old man with matted hair, palace interior, lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि प्रसन्न हुए और बोले, राजन, अपनी इच्छानुसार कोई वरदान माँगो।",
+     "prompt": "Sage Durvasa, an old man with matted hair, raising a hand to Duryodhana, a man with a crown, palace, lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन ने हाथ जोड़कर कहा, आप वन में मेरे भाई युधिष्ठिर का भी आतिथ्य स्वीकार करें।",
+     "prompt": "Duryodhana speaking to Sage Durvasa, an old man with matted hair, palace pillars, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर उसने एक गहरी शर्त रखी। आप तब जाएँ, जब द्रौपदी सबको खिलाकर स्वयं भोजन कर चुकी हों।",
+     "prompt": "Duryodhana whispering to Sage Durvasa, an old man with matted hair, palace shadows, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन जानता था कि द्रौपदी के खाते ही अक्षय पात्र उस दिन अन्न देना बंद कर देगा।",
+     "prompt": "Draupadi eating the last bite of a meal, a woman with dark hair in a sari, forest hut, sunset light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्वासा दस हज़ार शिष्यों को लेकर ठीक उसी समय पांडवों की कुटिया पर पहुँचे।",
+     "prompt": "Sage Durvasa, an old man with matted hair, and a crowd of disciples arriving at a hut, Yudhishthira standing at the door, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लेकिन तभी दुर्वासा ने नदी में नहाकर लौटने तक तुरंत भोजन तैयार रखने की आज्ञा दी।",
+     "prompt": "Sage Durvasa, an old man with matted hair, pointing at a river, Yudhishthira bowing, a man with a beard, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "सखी की पुकार",
+   "shots": [
+    {
+     "vo": "श्राप।",
+     "prompt": "dark storm clouds over a thatched forest hut, ominous red glow, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि का सत्कार न होने पर दुर्वासा का कोप पूरे पांडव कुल को भस्म कर देता।",
+     "prompt": "Sage Durvasa, an old man with matted hair, with fierce eyes and a raised staff, fiery sky background, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "द्रौपदी कुटिया में अकेली खड़ी थीं। उन्होंने अक्षय पात्र धोकर रख दिया था।",
+     "prompt": "Draupadi standing alone in a hut, a woman with dark hair, hands on an empty copper vessel, dim lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्तन पूरी तरह ख़ाली था। अब सूर्य का नियम भी टूट नहीं सकता था।",
+     "prompt": "Draupadi looking into an empty copper pot, a woman with dark hair, hut interior, dim light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आप द्रौपदी की जगह होते तो क्या करते? ए: दुर्वासा से सच कहते, या बी: कृष्ण को पुकारते? कमेंट में बताइए।",
+     "prompt": "Draupadi standing in a hut doorway looking into the forest, a woman with dark hair, evening light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "caption": "आप द्रौपदी की जगह होते तो क्या करते? A: दुर्वासा से सच कहते, या B: कृष्ण को पुकारते? कमेंट में बताइए।"
+    },
+    {
+     "vo": "कोई उपाय न देख द्रौपदी ने आँखें मूँदीं और अपने इष्ट सखा श्रीकृष्ण को पुकारा।",
+     "prompt": "Draupadi kneeling with folded hands, a woman with dark hair, a soft blue glow around her, hut interior, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सच्ची पुकार उठते ही द्वार पर स्वयं द्वारकाधीश प्रकट हो गए।",
+     "prompt": "Lord Krishna, blue-skinned man with peacock feather crown and yellow dhoti, standing at a hut door, golden light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "श्रीकृष्ण हँसते हुए बोले, कृष्णा, सखी! मुझे बड़ी भूख लगी है, तुरंत कुछ खिलाओ।",
+     "prompt": "Lord Krishna, blue-skinned man with peacock feather crown, sitting inside a hut with Draupadi, a woman with dark hair, warm light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "द्रौपदी लज्जित होकर बोलीं, हे माधव, पात्र में तो एक दाना भी नहीं बचा।",
+     "prompt": "Draupadi bowing her head, a woman with dark hair, before Lord Krishna, blue-skinned man, hut interior, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यह कथा उस प्रियजन को शेयर कीजिए जो हर संकट में ईश्वर पर भरोसा रखता है।",
+     "prompt": "Draupadi and Lord Krishna, blue-skinned man, looking at a copper pot between them, warm radiance, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लेकिन तभी श्रीकृष्ण ने वह ताँबे का पात्र स्वयं अपने हाथों में उठा लिया।",
+     "prompt": "Lord Krishna, blue-skinned man, lifting a copper vessel, Draupadi watching, a woman with dark hair, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "यज्ञभोक्ता हरि",
+   "shots": [
+    {
+     "vo": "श्रीकृष्ण ने बर्तन के भीतरी किनारे को बड़े ध्यान से देखा।",
+     "prompt": "Lord Krishna, blue-skinned man, peering into a copper pot, Draupadi watching, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पात्र के कोने पर एक नन्हा सा शाक का पत्ता चिपका रह गया था।",
+     "prompt": "a tiny green leaf fleck on a copper pot rim, Lord Krishna's blue fingers picking it up, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भगवान ने उस छोटे से पत्ते को अपनी जीभ पर रख लिया।",
+     "prompt": "Lord Krishna, blue-skinned man, placing a tiny green fleck to his lips, Draupadi watching, hut interior, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वे बोले, इससे समस्त यज्ञों के भोक्ता और जगत के आत्मा हरि तृप्त हों।",
+     "prompt": "Lord Krishna, blue-skinned man, with a hand raised in blessing, golden waves of light radiating through the forest, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उधर नदी के तट पर स्नान कर रहे दुर्वासा और उनके शिष्यों के पेट एकाएक भर गए।",
+     "prompt": "Sage Durvasa, an old man with matted hair, and disciples in a river, touching their bellies, sunset, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषियों को ऐसी तृप्ति का अनुभव हुआ मानो उन्होंने छप्पन भोग खा लिए हों।",
+     "prompt": "disciples on a riverbank holding their stomachs, Sage Durvasa looking stunned, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "श्रीकृष्ण ही सबके हृदय में स्थित परमात्मा हैं। उनके तृप्त होते ही पूरा संसार तृप्त हो गया।",
+     "prompt": "Lord Krishna, blue-skinned man, in a hut, golden rays connecting to sages on a distant riverbank, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्वासा समझ गए कि पांडवों के रक्षक साक्षात वासुदेव हैं और वे उनके तपोबल के भय से काँप उठे।",
+     "prompt": "Sage Durvasa, an old man with matted hair, standing in a river with a fearful expression, disciples behind, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अपराधबोध और भय के कारण सारे ऋषि बिना पांडवों के सामने जाए चुपचाप वन से भाग निकले।",
+     "prompt": "thousands of sages in saffron robes fleeing into deep forest shadows, empty riverbank, twilight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जय श्री कृष्ण लिखकर लाइक कीजिए। धर्म की रक्षा एक बार फिर हो चुकी थी।",
+     "prompt": "Lord Krishna, blue-skinned man, in a hut, Draupadi and Yudhishthira bowing, hut interior, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "द्रौपदी के एक दाने से हज़ारों ऋषि इसलिए तृप्त हुए, क्योंकि कृष्ण ने उस कण को पूरे ब्रह्मांड की आत्मा बनकर ग्रहण किया था।",
+     "prompt": "Lord Krishna, blue-skinned man, in a hut, surrounded by golden aura, Draupadi looking at him, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और वो बात, जो ज़्यादातर लोग नहीं जानते—वह चावल का दाना नहीं, बल्कि बर्तन के कोने में अटका शाक का एक छोटा सा पत्ता था।",
+     "prompt": "a tiny green leaf fleck on a copper rim, heavenly golden rays, extreme close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "श्रद्धा सच्ची हो, तो परमात्मा सबसे छोटी भेंट से भी पूरी सृष्टि को तृप्त कर देते हैं।",
+     "prompt": "Draupadi and the Pandavas bowing before Lord Krishna, blue-skinned man, in a forest at night, starlight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अगली कथा में जानिए कि महादानी कर्ण ने अपने अभेद्य कवच और कुंडल क्यों दान कर दिए।",
+     "prompt": "Karna, a man with golden armor and earrings, standing in a river at sunrise, offering water to the sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कमेंट में जय श्री कृष्ण लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
+     "prompt": "Lord Krishna, blue-skinned man with peacock feather crown, playing a flute on a forest riverbank, golden dawn, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ]
+}
