@@ -1,0 +1,77 @@
+{
+ "slug": "s143-phone-calculator-keypad-hi",
+ "format": "short",
+ "title": "फ़ोन और कैलकुलेटर के बटन एक-दूसरे से उल्टे क्यों? 📱",
+ "hook_text": "बटन उल्टे क्यों?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "फ़ोन और कैलकुलेटर के बटन उल्टे क्यों होते हैं?",
+     "prompt": "a smartphone dialer keypad with 1-2-3 on the top row beside a calculator with 7-8-9 on the top row, side by side on a wooden desk, phone left, calculator right, dramatic warm light, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "फ़ोन और कैलकुलेटर के बटन उल्टे क्यों होते हैं?"
+    },
+    {
+     "vo": "फ़ोन में एक, दो, तीन ऊपर। कैलकुलेटर में सात, आठ, नौ। अंक वही दस।",
+     "prompt": "a thumb pressing the top row of a phone keypad showing 1-2-3 on the left, a finger on the top row of a calculator showing 7-8-9 on the right, wooden desk, warm light, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "फ़ोन में 1-2-3 ऊपर। कैलकुलेटर में 7-8-9। अंक वही दस।"
+    },
+    {
+     "vo": "कैलकुलेटर ने पुरानी मैकेनिकल एडिंग मशीनों की नकल की, जिनमें अंक नीचे से ऊपर जमते थे।",
+     "prompt": "a vintage mechanical adding machine with rows of round metal keys rising upward from bottom to top, brass details, centre, wooden desk, nostalgic amber light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "कैलकुलेटर ने पुरानी मैकेनिकल एडिंग मशीनों की नकल की, जिनमें अंक नीचे से ऊपर जमते थे।"
+    },
+    {
+     "vo": "लेकिन फ़ोन का कीपैड जानबूझकर बना था, उन्नीस सौ पचास के दशक में, बेल लैब्स के इंजीनियरों के हाथों।",
+     "prompt": "a man in a white shirt and thin black tie testing a 1950s push-button telephone at a laboratory bench, short hair, centre, vintage lab with instruments, soft window light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन फ़ोन का कीपैड जानबूझकर बना था, 1950 के दशक में, बेल लैब्स के इंजीनियरों के हाथों।"
+    },
+    {
+     "vo": "उन्होंने कई लेआउट आज़माए। एक, दो, तीन ऊपर वाला सबसे तेज़ निकला, क्योंकि हम ऐसे ही पढ़ते हैं।",
+     "prompt": "a hand dialing a vintage push-button telephone with 1-2-3 on the top row, cream-coloured phone, centre, dark wooden desk, warm amber light, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "उन्होंने कई लेआउट आज़माए। 1-2-3 ऊपर वाला सबसे तेज़ निकला, क्योंकि हम ऐसे ही पढ़ते हैं।"
+    },
+    {
+     "vo": "इसीलिए फ़ोन और कैलकुलेटर के बटन उल्टे हैं: दोनों का इतिहास अलग है।",
+     "prompt": "an old brass adding machine on the left and a vintage push-button phone on the right, side by side on a wooden desk, symmetrical, golden light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए फ़ोन और कैलकुलेटर के बटन उल्टे हैं: दोनों का इतिहास अलग है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "फ़ोन में 1-2-3 ऊपर, कैलकुलेटर में *उल्टा*?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Close macro painting of a smartphone keypad and a calculator keypad side by side, the phone's 1-2-3 row on top and the calculator's 7-8-9 row on top, glowing buttons, warm bright light, one clear shot, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s143-phone-calculator-keypad",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ },
+ "review": "auto",
+ "voice_review": true
+}

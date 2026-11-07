@@ -1,0 +1,77 @@
+{
+ "slug": "s144-chip-bag-air-hi",
+ "format": "short",
+ "title": "चिप्स के पैकेट में ज़्यादातर हवा क्यों भरी होती है? 🥔",
+ "hook_text": "ये हवा नहीं है!",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "चिप्स के पैकेट की हवा, असल में हवा है ही नहीं, क्यों?",
+     "prompt": "a foil chip bag with a small tear on a kitchen counter, a swirl of pale blue gas escaping from the tear, bag puffed up and shiny, centre, warm kitchen light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "चिप्स के पैकेट की हवा, असल में हवा है ही नहीं, क्यों?"
+    },
+    {
+     "vo": "लोग समझते हैं, पैकेट बड़ा दिखाने की चाल है।",
+     "prompt": "a pair of hands holding a large puffy foil snack bag up toward the camera, face out of frame, a man in a grey shirt, bag swollen like a pillow, kitchen counter, soft window light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लोग समझते हैं, पैकेट बड़ा दिखाने की चाल है।"
+    },
+    {
+     "vo": "लेकिन ये नाइट्रोजन है, जो सील करने से ठीक पहले भरी जाती है।",
+     "prompt": "a steel factory machine filling an open foil snack bag with a stream of pale blue gas from a nozzle, empty bag under the nozzle, centre, bright industrial factory, cool overhead light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन ये नाइट्रोजन है, जो सील करने से ठीक पहले भरी जाती है।"
+    },
+    {
+     "vo": "ये नाज़ुक चिप्स को चूरा बनने से बचाती है।",
+     "prompt": "golden potato chips resting on a soft pale blue cloud of gas inside a clear open bag, whole unbroken chips floating gently above the bag floor, centre, warm light, macro shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये नाज़ुक चिप्स को चूरा बनने से बचाती है।"
+    },
+    {
+     "vo": "और ऑक्सीजन को बाहर धकेलती है, जिससे तेल बासी हो जाता है।",
+     "prompt": "a sealed clear chip bag full of crisp golden chips with small pale blue bubbles drifting out of a small valve at the top, oil droplets glistening on the chips, centre, warm glowing light, macro shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "और ऑक्सीजन को बाहर धकेलती है, जिससे तेल बासी हो जाता है।"
+    },
+    {
+     "vo": "तो पैकेट में हवा नहीं, चिप्स की हिफ़ाज़त भरी होती है।",
+     "prompt": "one whole golden chip standing upright on a counter on the left, a small pile of broken crumbs on the right, a big puffed foil chip bag behind them, warm bright kitchen light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "तो पैकेट में हवा नहीं, चिप्स की हिफ़ाज़त भरी होती है।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "चिप्स के पैकेट की *हवा*, हवा है ही नहीं!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Giant puffed-up unbranded foil chip bag floating, bursting open to show only a few chips at the bottom, bright dramatic colors, close shot, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s144-chip-bag-air",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ },
+ "review": "auto",
+ "voice_review": true
+}

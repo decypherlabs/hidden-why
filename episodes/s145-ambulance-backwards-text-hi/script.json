@@ -1,0 +1,77 @@
+{
+ "slug": "s145-ambulance-backwards-text-hi",
+ "format": "short",
+ "title": "एम्बुलेंस पर नाम उल्टा क्यों लिखा होता है? 🚑",
+ "hook_text": "नाम उल्टा क्यों?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "हर एम्बुलेंस पर ये नाम उल्टा क्यों लिखा होता है?",
+     "prompt": "a white ambulance front with the word AMBULANCE painted backwards in large mirrored red letters on its hood, flashing blue and red lights, wet city road at dusk, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "हर एम्बुलेंस पर ये नाम उल्टा क्यों लिखा होता है?"
+    },
+    {
+     "vo": "ये छपाई की गलती नहीं है, जानबूझकर उल्टा लिखा गया है।",
+     "prompt": "a painter's hand holding a brush stenciling large mirrored red letters onto a white ambulance hood, stencil sheet on the metal, bright workshop light, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये छपाई की गलती नहीं है, जानबूझकर उल्टा लिखा गया है।"
+    },
+    {
+     "vo": "सोचिए, आगे चल रहा ड्राइवर पीछे वाले शीशे में देख रहा है।",
+     "prompt": "a car's rear-view mirror seen from the driver's seat, a white ambulance with flashing lights reflected inside it, road at dusk, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सोचिए, आगे चल रहा ड्राइवर पीछे वाले शीशे में देख रहा है।"
+    },
+    {
+     "vo": "शीशा बाएँ-दाएँ पलट देता है, तो उल्टा नाम सीधा दिख जाता है।",
+     "prompt": "a large mirror showing the reflection of a white ambulance front, the word AMBULANCE in the reflection reading the right way round, the real ambulance hood with mirrored letters beside it, soft glowing light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "शीशा बाएँ-दाएँ पलट देता है, तो उल्टा नाम सीधा दिख जाता है।"
+    },
+    {
+     "vo": "ड्राइवर तुरंत पढ़ लेता है, और साइड देने का ज़्यादा वक़्त मिलता है।",
+     "prompt": "a row of cars pulled aside to the curb of a busy Indian city road, a white ambulance with flashing lights driving through the cleared centre lane, dusk, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ड्राइवर तुरंत पढ़ लेता है, और साइड देने का ज़्यादा वक़्त मिलता है।"
+    },
+    {
+     "vo": "इसीलिए एम्बुलेंस पर नाम उल्टा है, ताकि शीशे में सीधा दिखे।",
+     "prompt": "a white ambulance with flashing lights seen small inside a rear-view mirror, its word AMBULANCE reading clearly the right way round, dashboard in the foreground, evening road, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए एम्बुलेंस पर नाम उल्टा है, ताकि शीशे में सीधा दिखे।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "एम्बुलेंस पर नाम *उल्टा* क्यों लिखा?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Close painting of an ambulance front seen head-on with mirrored lettering-like shapes across the hood, and a rear-view mirror reflection of it, flashing lights, bright dramatic, no readable text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s145-ambulance-backwards-text",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ },
+ "review": "auto",
+ "voice_review": true
+}

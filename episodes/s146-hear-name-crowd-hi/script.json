@@ -1,0 +1,77 @@
+{
+ "slug": "s146-hear-name-crowd-hi",
+ "format": "short",
+ "title": "भीड़ में अपना नाम कैसे सुन लेते हैं आप? 👂",
+ "hook_text": "दस आवाज़ें, एक नाम",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "दस आवाज़ों में भी अपना एक नाम कैसे पकड़ लेते हैं आप?",
+     "prompt": "a young man in a grey shirt hearing one single voice, eyes wide, head turned sharply to the right, centre, blurred silhouettes of ten people talking behind him in a crowded Indian wedding hall, warm lights, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "10 आवाज़ों में भी अपना एक नाम कैसे पकड़ लेते हैं आप?"
+    },
+    {
+     "vo": "गाना तेज़ बज रहा है, दस लोग बोल रहे हैं, फिर भी नाम तुरंत सुनाई देता है।",
+     "prompt": "a large black loudspeaker blasting music on the left, a group of distant blurred silhouettes chatting on the right, colourful party lights and streamers, Indian rooftop party at night, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "गाना तेज़ बज रहा है, 10 लोग बोल रहे हैं, फिर भी नाम तुरंत सुनाई देता है।"
+    },
+    {
+     "vo": "आपका दिमाग हर आवाज़ को चुपचाप छान रहा है, उन्हें भी जिन्हें आप अनसुना करते हैं।",
+     "prompt": "a young woman in a green kurta with a large glowing blue brain floating above her head, centre, many thin glowing lines entering one side of the brain and only two leaving the other, dark blue room, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आपका दिमाग हर आवाज़ को चुपचाप छान रहा है, उन्हें भी जिन्हें आप अनसुना करते हैं।"
+    },
+    {
+     "vo": "लेकिन रुकिए, ज़्यादातर आवाज़ें आपके ध्यान में आने से पहले ही छूट जाती हैं।",
+     "prompt": "a young man in a white shirt sitting centre, dark grey smoke swirling around his head swallowing most thin glowing lines, only two lines still shining near his ear, dim Indian living room, soft light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, ज़्यादातर आवाज़ें आपके ध्यान में आने से पहले ही छूट जाती हैं।"
+    },
+    {
+     "vo": "पर आपका अपना नाम इतना जाना-पहचाना है कि फ़िल्टर को तोड़कर निकल आता है।",
+     "prompt": "a single bright golden ribbon of light passing through a grey metal mesh screen toward a young woman's ear, woman in red kurta on the right, screen in centre, dark background, dramatic light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पर आपका अपना नाम इतना जाना-पहचाना है कि फ़िल्टर को तोड़कर निकल आता है।"
+    },
+    {
+     "vo": "इसीलिए भीड़ में भी अपना नाम सुन लेते हैं आप: आपका दिमाग कभी सुनना बंद नहीं करता।",
+     "prompt": "a young woman in a yellow kurta turning her head toward a glowing golden ribbon of light curling in the air, centre, distant blurred silhouettes of a crowd behind her at an Indian festival, warm lantern light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए भीड़ में भी अपना नाम सुन लेते हैं आप: आपका दिमाग कभी सुनना बंद नहीं करता।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "दस आवाज़ें दबीं, पर अपना *नाम* सुनाई देता है",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Painting of a person at a loud party with swirling noisy sound waves everywhere, but one bright golden glowing line of sound reaching their ear, bright vivid colors, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s146-hear-name-crowd",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ },
+ "review": "auto",
+ "voice_review": true
+}
