@@ -411,11 +411,13 @@ class Captions:
         span = next((s for s in self.spans if s[0] <= t < s[1]), None)
         if span is None:
             return frame
-        if self.shade is None:
-            y = np.arange(H, dtype=np.float32)
-            self.shade = (0.68 * np.clip((y - H * 0.65) / (H * 0.35), 0, 1) ** 1.3)[:, None, None]
-        fade = min(1.0, (t - span[0]) / 0.3, (span[1] - t) / 0.3)
-        frame = (frame.astype(np.float32) * (1 - self.shade * fade)).astype(np.uint8)
+        pill = self.soft.get("style") == "pill"  # LL (owner, 7 Nov 2026): white text in a dark rounded box
+        if not pill:
+            if self.shade is None:
+                y = np.arange(H, dtype=np.float32)
+                self.shade = (0.68 * np.clip((y - H * 0.65) / (H * 0.35), 0, 1) ** 1.3)[:, None, None]
+            fade = min(1.0, (t - span[0]) / 0.3, (span[1] - t) / 0.3)
+            frame = (frame.astype(np.float32) * (1 - self.shade * fade)).astype(np.uint8)
         g = next((g for g in self.groups if g[0] <= t < g[1]), None)
         if not g:
             return frame
@@ -434,6 +436,18 @@ class Captions:
             d = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
             while d.textlength(text, font=f) > W * 0.8 and f.size > 32:
                 f = font(f.size - 2)
+            bh = 140
+            if pill:
+                img = Image.new("RGBA", (W, bh), (0, 0, 0, 0))
+                d = ImageDraw.Draw(img)
+                tw, ph = d.textlength(text, font=f), f.size + 44
+                d.rounded_rectangle(((W - tw) / 2 - 34, (bh - ph) / 2, (W + tw) / 2 + 34, (bh + ph) / 2),
+                                    radius=ph // 2, fill=(10, 10, 14, 190))
+                d.text((W / 2, bh / 2), text, font=f, anchor="mm", fill=(255, 255, 255, 255))
+                a = np.asarray(img)
+                self.cache[text] = (cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0)
+        if text not in self.cache:
+            st = self.soft
             bh = 140
             sh = Image.new("RGBA", (W, bh), (0, 0, 0, 0))
             ImageDraw.Draw(sh).text((W / 2, bh / 2 + 3), text, font=f, anchor="mm", fill=(0, 0, 0, 255),
