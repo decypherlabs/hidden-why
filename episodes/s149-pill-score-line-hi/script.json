@@ -1,0 +1,80 @@
+{
+ "slug": "s149-pill-score-line-hi",
+ "format": "short",
+ "title": "कुछ दवाइयों के बीच में ये लाइन क्यों होती है? 💊",
+ "hook_text": "दवाई बीच से क्यों तोड़ते हैं?",
+ "approved": true,
+ "review": "auto",
+ "voice_review": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "दवाई को बीच से तोड़ने के लिए ये लाइन क्यों दी जाती है?",
+     "prompt": "A hand snapping a white scored tablet into two halves along its groove, one half in each fingertip pair, dark background, dramatic side light, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "दवाई को बीच से तोड़ने के लिए ये लाइन क्यों दी जाती है?"
+    },
+    {
+     "vo": "ये कोई डिजाइन नहीं है, और न ही फैक्ट्री की कोई गलती।",
+     "prompt": "A white round tablet with a clear straight groove across its centre resting on a clean white surface, soft bright light, macro shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये कोई डिजाइन नहीं है, और न ही फैक्ट्री की कोई गलती।"
+    },
+    {
+     "vo": "ये एक 'स्कोर लाइन' है, जिसे जानबूझकर बनाया जाता है।",
+     "prompt": "A steel tablet press die with a punch pressing white powder into a round tablet with a groove line, factory machine, industrial lighting, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये एक 'स्कोर लाइन' है, जिसे जानबूझकर बनाया जाता है।"
+    },
+    {
+     "vo": "लेकिन रुकिए, हर लाइन वाली दवाई को तोड़ना सही नहीं होता।",
+     "prompt": "A hand hovering hesitantly over an open pill bottle, several different coloured tablets and capsules scattered on a wooden table, soft window light, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, हर लाइन वाली दवाई को तोड़ना सही नहीं होता।"
+    },
+    {
+     "vo": "जहाँ इसे तोड़ना तय है, वहाँ डोज़ बराबर बंट जाती है।",
+     "prompt": "Two equal halves of a white tablet lying side by side on a clean surface, the snapped groove edges facing each other, bright even light, macro shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "जहाँ इसे तोड़ना तय है, वहाँ डोज़ बराबर बंट जाती है।"
+    },
+    {
+     "vo": "दवाई में लाइन इसलिए है, ताकि उसे सही से तोड़ा जा सके।",
+     "prompt": "A white scored tablet resting on the left and its matching snapped half beside it on the right, groove line clearly visible, clean white background, soft light, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "दवाई में लाइन इसलिए है, ताकि उसे सही से तोड़ा जा सके।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "दवाई में *लाइन* क्यों बनी होती है?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Giant close-up of a white round tablet with a deep groove across the middle, resting on a dark surface, dramatic bright light, one clear subject, realistic painting, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "voice_ok": "voice-s149-pill-score-line-48e5834a90",
+ "voice_approved_at": "2026-11-07 22:36",
+ "released_at": "2026-11-07 22:36",
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s149-pill-score-line",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

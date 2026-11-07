@@ -1,0 +1,81 @@
+{
+ "slug": "s151-coin-hole-pocket-hi",
+ "format": "short",
+ "title": "दुकान की रसीदें कुछ महीनों में खाली क्यों हो जाती हैं? 🧾",
+ "hook_text": "रसीद खाली क्यों होती है?",
+ "approved": true,
+ "review": "auto",
+ "voice_review": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "दुकान की रसीदें कुछ महीनों में पूरी तरह खाली क्यों हो जाती हैं?",
+     "prompt": "a hand holding up a crumpled shop receipt faded to completely blank white paper, wallet and coins on a wooden table, soft daylight, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "रसीदें खाली क्यों हो जाती हैं?"
+    },
+    {
+     "vo": "हैरानी की बात ये है कि प्रिंटर में स्याही होती ही नहीं।",
+     "prompt": "a small receipt printer with an empty ink-free interior and a roll of white paper feeding out, on a shop counter, soft daylight, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "प्रिंटर में स्याही नहीं होती!"
+    },
+    {
+     "vo": "ये रसीदें एक ऐसे पेपर पर छपती हैं जो गर्मी से काला पड़ जाता है।",
+     "prompt": "a strip of white thermal paper with one half turning black under a hot metal print head, glowing heat, macro close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पेपर गर्मी से काला होता है"
+    },
+    {
+     "vo": "प्रिंटर बस पेपर पर छोटे डॉट्स गर्म करता है, जो गहरे रंग के हो जाते हैं।",
+     "prompt": "a thermal print head with rows of tiny glowing orange dots pressing on white paper, dark dots appearing behind it, macro close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "प्रिंटर डॉट्स गर्म करता है"
+    },
+    {
+     "vo": "लेकिन धूप या गर्मी से ये रिएक्शन दोबारा शुरू हो जाता है।",
+     "prompt": "a receipt turning dark and unreadable on a car dashboard in strong sunlight, wallet beside it, bright window light, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "धूप से रिएक्शन होता है"
+    },
+    {
+     "vo": "इसीलिए रसीदें मिट जाती हैं, क्योंकि ये स्याही नहीं, सिर्फ गर्मी-सेंसिटिव पेपर है।",
+     "prompt": "three receipts side by side on a table: left one with sharp black print, middle one half faded grey, right one completely blank white, soft daylight, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "रसीदें गर्मी से मिटती हैं"
+    }
+   ]
+  }
+ ],
+ "cover_text": "दुकान की रसीदें *गायब* क्यों होती हैं?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A crumpled shop receipt half blank and faded next to a fresh one, close up, bright, realistic painting, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "voice_requested": "voice-s151-coin-hole-pocket-985a33c59b",
+ "voice_ok": "voice-s151-coin-hole-pocket-985a33c59b",
+ "voice_approved_at": "2026-11-07 22:36",
+ "released_at": "2026-11-07 22:36",
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s151-coin-hole-pocket",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

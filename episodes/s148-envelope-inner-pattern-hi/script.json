@@ -1,0 +1,80 @@
+{
+ "slug": "s148-envelope-inner-pattern-hi",
+ "format": "short",
+ "title": "लिफ़ाफ़े के अंदर ये अजीब डिज़ाइन क्यों होते हैं? ✉️",
+ "hook_text": "लिफ़ाफ़े के अंदर ये डिज़ाइन?",
+ "approved": true,
+ "review": "auto",
+ "voice_review": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "लिफ़ाफ़े के अंदर के ये डिज़ाइन आप क्यों नहीं पढ़ सकते?",
+     "prompt": "A sealed plain white envelope held up against a glowing lamp, the dark shape of a folded letter faintly visible through the paper, one hand holding it, dim room, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लिफ़ाफ़े के अंदर के ये डिज़ाइन आप क्यों नहीं पढ़ सकते?"
+    },
+    {
+     "vo": "कोई भी बिल या चेक वाला लिफ़ाफ़ा उठाकर अंदर देखिए।",
+     "prompt": "An opened white envelope showing its blue patterned inside lining, lying on a wooden desk beside a folded paper bill, warm lamp light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "कोई भी बिल या चेक वाला लिफ़ाफ़ा उठाकर अंदर देखिए।"
+    },
+    {
+     "vo": "ये छोटी लाइनें या पैटर्न वहां क्यों छापे जाते हैं?",
+     "prompt": "Blue diamonds, swirls and tiny lines printed on the inside of an opened envelope, filling the frame, soft desk light, macro close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये छोटी लाइनें या पैटर्न वहां क्यों छापे जाते हैं?"
+    },
+    {
+     "vo": "अब इस लिफ़ाफ़े को एक तेज़ बल्ब के सामने लाइए।",
+     "prompt": "A hand holding a sealed white envelope up in front of a bright glowing desk lamp, light shining through the paper, dark room, medium close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "अब इस लिफ़ाफ़े को एक तेज़ बल्ब के सामने लाइए।"
+    },
+    {
+     "vo": "सादा कागज़ आर-पार दिखने लगता है और अंदर का लेटर भी।",
+     "prompt": "A plain white envelope glowing see-through against a bright lamp, a dark folded letter with lines of writing clearly visible inside it, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सादा कागज़ आर-पार दिखने लगता है और अंदर का लेटर भी।"
+    },
+    {
+     "vo": "इसीलिए अंदर ये डिज़ाइन होते हैं ताकि लाइट से लेटर छिप जाए।",
+     "prompt": "A blue-patterned envelope held up to a bright lamp, the swirl pattern glowing and fully hiding the folded letter inside, dark room, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए अंदर ये डिज़ाइन होते हैं ताकि लाइट से लेटर छिप जाए।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "लिफ़ाफ़े के अंदर ये *अजीब डिज़ाइन* क्यों?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Extreme close-up of an open white envelope showing blue diamond and wavy line patterns printed on the inner paper, bright light glowing behind it, a folded cheque barely visible through the paper, bright warm colours, realistic painting, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "voice_ok": "voice-s148-envelope-inner-pattern-231ccdf8ef",
+ "voice_approved_at": "2026-11-07 22:36",
+ "released_at": "2026-11-07 22:36",
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s148-envelope-inner-pattern",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

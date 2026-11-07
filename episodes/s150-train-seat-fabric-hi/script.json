@@ -1,0 +1,81 @@
+{
+ "slug": "s150-train-seat-fabric-hi",
+ "format": "short",
+ "title": "ट्रेन की सीटों पर ये अजीब पैटर्न क्यों होते हैं? 🚆",
+ "hook_text": "ये सीट दाग क्यों छुपाती है?",
+ "approved": true,
+ "review": "auto",
+ "voice_review": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "ट्रेन की ये सीट हज़ारों दागों को कैसे छुपा लेती है?",
+     "prompt": "a finger pointing at a hidden coffee stain camouflaged inside busy red and blue patterned train seat fabric, faint ink and coffee stains in the swirls, centre, soft carriage light, extreme close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ट्रेन की ये सीट हज़ारों दागों को कैसे छुपा लेती है?"
+    },
+    {
+     "vo": "हर महीने हज़ारों लोग इन सीटों पर बैठते हैं।",
+     "prompt": "a crowded Indian train carriage with rows of patterned seats, two seated passengers in the foreground, many distant blurred silhouettes standing behind, warm window light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "हर महीने हज़ारों लोग इन सीटों पर बैठते हैं।"
+    },
+    {
+     "vo": "कॉफी, मिट्टी, स्याही, या किसी का खाना, सब यहीं गिरता है।",
+     "prompt": "a spilled cup of tea dripping and a muddy shoe print on a patterned train seat, a half-eaten lunch box beside them, Indian train compartment, warm light, close-up, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "कॉफी, मिट्टी, स्याही, या किसी का खाना, सब यहीं गिरता है।"
+    },
+    {
+     "vo": "लेकिन गौर से देखिए, दाग तो वहीं हैं, बस दिखते नहीं।",
+     "prompt": "a patterned seat fabric with several dark stains hidden within swirling red, blue and yellow designs, a magnifying glass held above one stain, centre, bright window light, macro shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन गौर से देखिए, दाग तो वहीं हैं, बस दिखते नहीं।"
+    },
+    {
+     "vo": "सादी सीट एक हफ्ते में गंदी दिखती, पर ये पैटर्न सालों तक गंदगी छुपाता है।",
+     "prompt": "a plain grey train seat covered in dark stains on the left, a clean-looking patterned seat on the right, side by side in an Indian train compartment, soft daylight, medium-wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "सादी सीट एक हफ्ते में गंदी दिखती, पर ये पैटर्न सालों तक गंदगी छुपाता है।"
+    },
+    {
+     "vo": "इसीलिए ट्रेन की सीटें जानबूझकर भद्दी होती हैं, ताकि पैटर्न दाग छुपा ले।",
+     "prompt": "a clean-looking patterned train seat with one faint stain hidden in the design, centre, empty Indian train compartment, warm golden sunset light through the window, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसीलिए ट्रेन की सीटें जानबूझकर भद्दी होती हैं, ताकि पैटर्न दाग छुपा ले।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "ट्रेन की सीटों पर *अजीब* पैटर्न क्यों?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Extreme close-up of a busy colorful patterned fabric train seat with a spilled dark tea stain vanishing into the pattern, bright, realistic painting, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "voice_requested": "voice-s150-train-seat-fabric-e02a4c099e",
+ "voice_ok": "voice-s150-train-seat-fabric-e02a4c099e",
+ "voice_approved_at": "2026-11-07 22:36",
+ "released_at": "2026-11-07 22:36",
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s150-train-seat-fabric",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
