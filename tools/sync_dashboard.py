@@ -31,8 +31,8 @@ VIDEOS = RB / "videos" / "hidden-why"
 def niche(slug):
     """Hindi editions (episodes/<slug>-hi) belong to The Hidden Why Hindi's category, dk-* to Devlok Katha's
     (owner, 31 Oct 2026)."""
-    if slug.startswith(("gk-", "ll-")):  # Soch Ke Batao quizzes (2 Nov 2026), now Logos & Legends episodes (7 Nov)
-        return "soch-ke-batao"
+    if slug.startswith("ll-"):  # Logos & Legends episodes (owner, 7 Nov 2026)
+        return "logos-and-legends"
     return "devlok-katha" if slug.startswith("dk-") else "hidden-why-hindi" if slug.endswith("-hi") else "hidden-why"
 
 
@@ -99,8 +99,7 @@ def track_scripts(released):
             err = "see dashboard/data/thw_kaggle.last.log"
         elif sc.get("approved"):
             where = ("on GitHub (no GPU: the English paintings are reused)" if slug.endswith("-hi")
-                     else "on GitHub (a quiz: drawn frames + Divya's voice, no GPU)" if slug.startswith("gk-")
-                     else "painted on Kaggle, then narrated and edited on GitHub" if slug.startswith("dk-") else "in the next Kaggle run")
+                     else "painted on Kaggle, then narrated and edited on GitHub" if slug.startswith(("dk-", "ll-")) else "in the next Kaggle run")
             status, step, err = "script", f"Script approved: made {where} ({about})", None
         else:
             status, step, err = "script", f"Script written: awaiting review ({about})", None
@@ -150,7 +149,7 @@ def import_episode(slug, src, day, status="done"):
     title = meta["youtube"]["title"]
     pdir = project_dir(slug) or videos(slug) / day / slug  # the script's card becomes the episode
     sc = ROOT / "episodes" / slug / "script.json"
-    short = sc.exists() and json.loads(sc.read_text()).get("format") in ("short", "quiz")  # Shorts go to shorts/ (quiz: SKB)
+    short = sc.exists() and json.loads(sc.read_text()).get("format") == "short"  # Shorts go to shorts/
     sub = "shorts" if short else "long"
     if niche(slug) == "hidden-why":
         meta["youtube"]["title"] = thw_title(title, short)
@@ -158,7 +157,7 @@ def import_episode(slug, src, day, status="done"):
     # a Devanagari title slugifies to nothing: keep the clip's existing name, else the episode slug (31 Oct)
     old = [p for p in (pdir / sub).glob("*.mp4")]
     stem = slugify(re.sub(r"#\w+", "", title.split("(")[0])) or (old[0].stem if len(old) == 1 else slugify(slug))
-    if slug.startswith("gk-") or len(re.sub(r"[^a-z]", "", stem)) < 4:  # a Hindi title slugs to "1526": use the episode's
+    if len(re.sub(r"[^a-z]", "", stem)) < 4:  # a Hindi title slugs to "1526": use the episode's
         stem = slugify(slug)
     mp4 = pdir / sub / f"{stem}.mp4"
     if mp4.exists() and not os.path.samefile(mp4, src / "video.mp4"):

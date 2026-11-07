@@ -20,15 +20,6 @@ VOICES = {
     "karan": "Karan speaks in a deep, warm and dramatic narrator voice at a slightly slow pace. The recording is very clear and close-sounding, with no background noise.",
     "divya": "Divya speaks in a calm, expressive storytelling voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
 }
-if __import__("os").environ.get("SET") == "quiz":  # Soch Ke Batao (owner, 2 Nov 2026: a male quiz voice)
-    TEXT = ["इसमें बड़े-बड़े फँस जाते हैं!", "भारत में एक रुपये का नोट कौन जारी करता है?",
-            "ए: भारतीय रिज़र्व बैंक, बी: भारत सरकार, सी: भारतीय स्टेट बैंक, डी: नीति आयोग।",
-            "सोच के बताओ! अपना जवाब कमेंट में लिखो।", "सही जवाब है बी: भारत सरकार।"]
-    VOICES = {
-        "rohit-host": "Rohit speaks in a confident, energetic and clear quiz-host voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
-        "rohit-deep": "Rohit speaks in a deep, dramatic and suspenseful voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
-        "aman-host": "Aman speaks in a lively, friendly and expressive voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
-    }
 if __import__("os").environ.get("SET") == "bold":  # long-form narrator (owner, 7 Nov 2026: "a bold male voice")
     TEXT = ["उन्नीस सौ अट्ठानवे में, एक आदमी बिना पैसे और बिना डिग्री के बैंक में गया।", "सबने उसका मज़ाक उड़ाया।",
             "लेकिन उसने हार नहीं मानी।", "दस साल बाद, वही बैंक उसके लिए काम कर रहा था।",
