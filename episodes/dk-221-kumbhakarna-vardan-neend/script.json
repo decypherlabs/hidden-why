@@ -1,0 +1,471 @@
+{
+ "slug": "dk-221-kumbhakarna-vardan-neend",
+ "format": "long",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "कुंभकर्ण को वरदान में छह महीने की नींद क्यों मिली? 😴",
+ "thumbnail": {
+  "layout": "epic",
+  "text": "सरस्वती ने पलटी कुंभकर्ण की *ज़ुबान*",
+  "plane": "Cinematic painting: the colossal Kumbhakarna, a dark-skinned giant demon with broad shoulders, heavy gold earrings and a simple dark lower garment, fills the LEFT half, kneeling in a vast cave-temple with a stunned, helpless face as if his own words have been taken from him, one hand pressed to his lips. The RIGHT half is a dark storm of golden clouds where the goddess Saraswati, in a white saree, holding a veena and seated on a white lotus, glows with divine light and gazes down at him. Dark, high-contrast cinematic light, rich golds against deep shadow, no text."
+ },
+ "music": {
+  "suspense": [
+   "cold_open",
+   "ch2"
+  ],
+  "devotional": [
+   "ch1",
+   "outro"
+  ],
+  "emotional": [
+   "ch3"
+  ],
+  "epic": [
+   "ch4",
+   "ch5"
+  ]
+ },
+ "source": "वाल्मीकि रामायण, उत्तरकांड 9-10 और 13 (रावण, कुंभकर्ण और विभीषण की तपस्या और वरदान, ब्रह्मा जी का छह महीने की नींद तय करना) और युद्धकांड 60 से आगे (कुंभकर्ण का जागना, सुग्रीव और लक्ष्मण से युद्ध, वध); रामचरितमानस, बालकांड (सरस्वती द्वारा कुंभकर्ण की मति फेरना) और लंकाकांड (रण में निकलने के दिन विभीषण से भेंट)",
+ "journey_score": 8,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "क्या आप जानते हैं, कुंभकर्ण ने ब्रह्मा जी से वरदान में छह महीने की नींद क्यों पाई?",
+     "prompt": "A giant dark-skinned demon with gold earrings standing with folded hands before old white-bearded Lord Brahma, who raises a blessing hand, misty forest at dawn, golden divine light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अगर आप सोचते हैं कि कुंभकर्ण बस एक आलसी राक्षस था, तो आप ग़लत हैं।",
+     "prompt": "A giant dark-skinned demon with gold earrings lying fast asleep on a vast stone floor, chest rising, calm face, tall carved pillars, torch-lit hall, warm lamp light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो वीर था, समझदार था, और भाई को सच कहने की हिम्मत रखता था।",
+     "prompt": "A giant dark-skinned demon with gold earrings standing serious and upright on the left before a throne, a dark-bearded king in gold crown and red robes seated on the right, golden palace hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते: मरने से पहले उसने अपने छोटे भाई से क्या कहा।",
+     "prompt": "A giant dark-skinned demon silhouette on the left facing a small gentle young man in white and saffron on the right, soft fog at a battlefield edge, golden dawn, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "हम चलेंगे तपस्या से, देवताओं के डर और ज़ुबान के खेल से, राम के सामने आख़िरी युद्ध तक।",
+     "prompt": "A giant dark-skinned demon meditating under a tree on the left in a sunlit forest, a burning golden city far on the right under a stormy sky, panoramic wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "तपस्या",
+   "shots": [
+    {
+     "vo": "ऋषि विश्रवा के तीन बेटे थे: रावण, कुंभकर्ण और विभीषण। तीनों ने ठाना कि ब्रह्मा जी को प्रसन्न करेंगे।",
+     "prompt": "An old sage with white beard and saffron robes sitting beside a sacred fire before a leaf hut, three empty seats of grass mats beside him, tall trees, soft golden dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सवाल बड़ा था। क्या ब्रह्मा जी सचमुच प्रकट होंगे? और ये तीनों उनसे क्या माँगेंगे?",
+     "prompt": "Two young men in simple dhotis, one dark-bearded and proud, one broad-shouldered and giant, walking up a misty forest path with determined faces, golden light between tall trees, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तीनों गोकर्ण के घने जंगल में पहुँचे, जहाँ समुद्र की लहरें दूर से सुनाई देती थीं।",
+     "prompt": "A small stone shrine among dense forest trees beside the sea shore, ocean glittering in the distance, misty morning, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "गर्मी में कुंभकर्ण चारों तरफ़ आग जलाकर उसके बीच बैठा रहा। ऊपर से सूरज भी तप रहा था।",
+     "prompt": "A giant dark-skinned demon with gold earrings sitting in meditation, eyes closed, in the middle of four blazing fires on a dry plain, fierce midday sun, shimmering heat, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बरसात में खुले आसमान के नीचे, सर्दी में ठंडे पानी में। वो ज़रा भी नहीं हिला।",
+     "prompt": "A giant dark-skinned demon with gold earrings standing waist-deep in a cold misty lake with joined palms and closed eyes, heavy rain, dark clouds, grey-blue light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बरसों बीत गए। मौसम बदलते रहे, पर उसका तप नहीं रुका।",
+     "prompt": "A giant dark-skinned demon with gold earrings meditating motionless under an ancient banyan tree, fallen leaves and moss around him, moonlight, falling petals, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रावण भी अपने तप में डूबा रहा। उसे बस वर पाने की धुन थी।",
+     "prompt": "A dark-bearded young man in a simple dhoti seated in fierce meditation before a roaring sacred fire at night, sparks rising into the dark sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "छोटा भाई विभीषण भी वहीं बैठा था। उसका मन हर पल धर्म में लगा रहा।",
+     "prompt": "A gentle young man in white dhoti and saffron shoulder cloth meditating on a rock beside a flowing stream, calm face, soft light through leaves, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आख़िर ब्रह्मा जी देवताओं के साथ प्रकट हुए। पूरा जंगल सुनहरी रोशनी से भर गया।",
+     "prompt": "Old white-bearded Lord Brahma in saffron robes standing radiant in a pillar of golden light filling a dark forest clearing, a few soft silhouettes of gods behind him, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ब्रह्मा जी बोले: माँगो, क्या वर चाहिए? तीनों भाई हाथ जोड़कर खड़े हो गए।",
+     "prompt": "Old white-bearded Lord Brahma raising a blessing hand on the left, three young men with folded hands standing small on the right, golden-lit forest clearing, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रावण ने माँगा कि कोई देवता या राक्षस उसे न मार सके। इंसानों का नाम उसने लिया ही नहीं।",
+     "prompt": "A dark-bearded young king in gold crown kneeling with joined hands, proud eager face, before radiant white-bearded Lord Brahma far off on the right, forest clearing, golden light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ब्रह्मा जी ने कहा: तथास्तु। रावण का सीना गर्व से फूल गया।",
+     "prompt": "A dark-bearded king in gold crown rising with a proud triumphant smile in a blaze of golden light, white-bearded Lord Brahma small behind him with raised hand, low-angle medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अब बारी कुंभकर्ण की थी। वो हाथ जोड़कर आगे आया।",
+     "prompt": "A giant dark-skinned demon with gold earrings kneeling with folded hands, stepping forward, white-bearded Lord Brahma small on the right, dark forest clearing, golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लेकिन तभी स्वर्ग में देवता डर से काँप उठे।",
+     "prompt": "Indra, a crowned god in royal garments, and one other worried god looking down anxiously through a break in the clouds, golden columns, dim tense sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "ज़ुबान का खेल",
+   "shots": [
+    {
+     "vo": "देवता दौड़कर ब्रह्मा जी के पास पहुँचे। हाथ जोड़कर बोले: प्रभु, रुकिए।",
+     "prompt": "Crowned Indra with folded hands pleading, standing on the left before old white-bearded Lord Brahma seated on a lotus throne on the right, cloud palace, golden twilight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यह तो पहले ही बहुतों को खा चुका है। वर पाकर पूरा संसार निगल जाएगा।",
+     "prompt": "Crowned Indra pointing anxiously down from the cloud edge at a distant colossal dark-skinned demon standing among mountains on earth, ominous red sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ब्रह्मा जी ने कुछ सोचा, और मन ही मन माँ सरस्वती को याद किया।",
+     "prompt": "Goddess Saraswati in a white saree holding a veena, rising from a white lotus on a calm lake in soft white light, old white-bearded Brahma small at the left bowing his head, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर वे कुंभकर्ण से बोले: माँगो, तुम्हें कौन-सा वर चाहिए?",
+     "prompt": "Old white-bearded Lord Brahma extending a blessing hand towards a giant dark-skinned demon kneeling on the right, dark forest clearing, golden light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रामचरितमानस कहती है कि कुंभकर्ण के मन में इंद्र का सिंहासन माँगना था।",
+     "prompt": "A giant dark-skinned demon with gold earrings kneeling with closed eyes, a faint golden vision of a glittering royal throne floating in the mist above his head, forest clearing, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उसने साँस भरी और मुँह खोला। वाल्मीकि जी के शब्दों में निकला: मैं बरसों तक सोता रहूँ।",
+     "prompt": "Close shot of a giant dark-skinned demon's face, eyes wide and startled, mouth open, a soft golden glow at his lips, dark forest behind, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ज़ुबान।",
+     "prompt": "A single small glowing white lotus of light floating in a pitch-black background, silent and dramatic, no face, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "माँ सरस्वती उसकी ज़ुबान पर आ बैठी थीं। शब्द उसके थे, पर बोल किसी और के।",
+     "prompt": "A giant dark-skinned demon with gold earrings kneeling on the right, a transparent glowing Goddess Saraswati in white with a veena beside his lips, old Brahma small on the left, golden light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उसकी अपनी माँग उससे छिन गई, और उसे पता भी न चला। देवताओं का डर उसकी ज़ुबान पर बैठ गया था।",
+     "prompt": "A giant dark-skinned demon with gold earrings kneeling alone in a dim clearing, head bowed, sorrowful bewildered face, a single shaft of cold light on him, deep shadows, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ब्रह्मा जी बोले: तथास्तु। तब रावण दौड़ा आया और बोला: प्रभु, मेरे भाई पर दया कीजिए।",
+     "prompt": "A dark-bearded king in gold crown kneeling with folded hands in the foreground, old white-bearded Lord Brahma raising a blessing hand on the right, golden twilight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तब ब्रह्मा जी ने बरसों की नींद घटा दी: यह छह महीने सोएगा, और सिर्फ़ एक दिन जागेगा। जय श्री राम लिखकर लाइक कीजिए।",
+     "prompt": "Old white-bearded Lord Brahma with raised hand on the left, a giant dark-skinned demon kneeling on the right, a large glowing sun and moon in the sky behind, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रावण ने उसके लिए एक विशाल भवन बनवाया। कुंभकर्ण लेटा, तो दीवारें उसकी साँसों से हिलने लगीं।",
+     "prompt": "A giant dark-skinned demon with gold earrings lying fast asleep on the floor of a huge stone palace hall, hanging lamps trembling, dust in the air, long shadows, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सबसे आख़िर में विभीषण की बारी आई। उसने माँगा कि बड़े से बड़े संकट में भी मेरा मन धर्म से न हटे, और मुझे ब्रह्मास्त्र का ज्ञान मिले। ब्रह्मा जी ने ख़ुश होकर उसे अमरता भी दे दी।",
+     "prompt": "A gentle young man in white and saffron kneeling with folded hands before old white-bearded Lord Brahma, who raises a blessing hand, warm golden light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लेकिन तभी रावण ने एक ऐसा काम किया, जो इस नींद को तोड़ने वाला था।",
+     "prompt": "A dark-bearded king in gold crown standing at the front of a golden chariot with wings in a stormy night sky above golden palaces, ominous lightning, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "नींद टूटी",
+   "shots": [
+    {
+     "vo": "रावण माता सीता को हर लाया। हनुमान जी ने लंका जलाई, और वानरों ने पुल बाँध दिया। पर कुंभकर्ण अब भी सो रहा था।",
+     "prompt": "Lord Hanuman, saffron-skinned monkey god with a mace, standing on a rooftop with his tail blazing with fire, burning golden city behind and around him, night, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "युद्ध छिड़ा, और कई सेनापति मारे जा चुके थे: धूम्राक्ष, अकंपन, प्रहस्त।",
+     "prompt": "A smoky battlefield at dusk, broken chariots and fallen banners on the ground, a distant blue-skinned archer standing calm with his bow, grey-red light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर श्रीराम ने रावण को अकेले में हरा दिया। राम बोले: आज जाओ, थककर कल लौटना।",
+     "prompt": "Lord Rama, blue skin, golden crown, great bow, standing on the left; a dark-bearded king in gold crown with cracked crown and lowered head standing on the right, dusk battlefield, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तब रावण को भाई की याद आई। नगाड़े बजे, शंख गूँजे, और उस पर पानी के घड़े उँडेले गए।",
+     "prompt": "Two servants beating huge drums beside a sleeping giant dark-skinned demon, two others pouring water from big clay pots over him, torch-lit hall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तब जाकर उसकी आँख खुली। उसने भरपेट खाया, फिर पूछा: भैया, मुझे क्यों जगाया?",
+     "prompt": "A giant dark-skinned demon with gold earrings, newly awake and sitting up, eating from huge bronze platters of food, one servant waiting beside him, warm lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रावण ने सारी बात बताई। कुंभकर्ण चुपचाप सुनता रहा, और उसका चेहरा गंभीर होता गया।",
+     "prompt": "A dark-bearded king in gold crown seated on a throne on the right, gesturing as he explains, a giant dark-skinned demon standing on the left with head bowed and a deep frown, golden hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भैया, काम करने से पहले सलाह लेनी चाहिए थी। सीता माता को उठा लाना धर्म नहीं है।",
+     "prompt": "A giant dark-skinned demon with gold earrings speaking firmly and sadly on the left, a dark-bearded king in gold crown seated silent and angry on his throne on the right, torch-lit hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रावण तमतमा गया। तब कुंभकर्ण नरम होकर बोला: फिर भी मैं आपके साथ लड़ूँगा। आप मेरे भाई हैं।",
+     "prompt": "A giant dark-skinned demon kneeling on one knee with a hand on his chest, a dark-bearded king in gold crown seated on a throne facing him, warm golden light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुंभकर्ण या विभीषण: कौन सही था? कमेंट में ए या बी लिखिए।",
+     "prompt": "A giant dark-skinned demon on a hill at dusk facing a golden city on the left, a small gentle young man in white and saffron on the right facing a distant army camp, two paths splitting between them, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "caption": "कुंभकर्ण या विभीषण: कौन सही था? कमेंट में A या B लिखिए।"
+    },
+    {
+     "vo": "लेकिन तभी लंका के फाटक खुले, और धरती काँप उठी। क्या राम इस पहाड़ जैसे योद्धा को रोक पाएँगे?",
+     "prompt": "The huge golden gates of Lanka swinging open at dawn, a giant dark silhouette striding out, dust and smoke rising, cracked ground, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "सेना में हाहाकार",
+   "shots": [
+    {
+     "vo": "वो चला, तो वानर सेना डर के मारे पीछे हटने लगी। कौन उसे रोकेगा?",
+     "prompt": "A huge dark-skinned demon with gold earrings marching across a dusty battlefield with a spiked club, tiny monkey warriors far below pulling back in fear, red dawn sky, very wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राम ने विभीषण से पूछा: यह पहाड़ जैसा कौन आ रहा है?",
+     "prompt": "Lord Rama, blue skin, golden crown, bow, on the left of a rocky hill pointing outward; a gentle young man in white on the right looking toward a huge distant figure approaching, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "विभीषण बोले: प्रभु, ये मेरे बड़े भाई कुंभकर्ण हैं। इन्होंने इंद्र और यमराज तक को हराया है।",
+     "prompt": "A gentle young man in white with joined hands speaking respectfully on the left, blue-skinned Lord Rama listening on the right, a small dark giant shape in dust haze far behind, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सुग्रीव आगे बढ़े और पर्वत की एक चोटी उस पर फेंकी। चोटी उसके शरीर से टकराकर बिखर गई।",
+     "prompt": "A monkey king in golden armour standing at the foot of a giant dark-skinned demon, a huge mountain peak held above his head, broken rock pieces on the ground, dust, low-angle wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुंभकर्ण ने शूल से वार किया। सुग्रीव बेहोश हो गए, और वो उन्हें उठाकर लंका की ओर चल पड़ा।",
+     "prompt": "A giant dark-skinned demon striding toward the golden gates of Lanka with a trident spear in one hand, an unconscious monkey king in golden armour hanging from his other arm, red dawn, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तभी सुग्रीव को होश आया। उन्होंने कुंभकर्ण के कान और नाक काट लिए और छलाँग मारकर निकल आए। वानरों ने राहत की साँस ली।",
+     "prompt": "A monkey king in golden armour standing on a rock by the battlefield, a giant dark-skinned demon clutching the side of his face in the distance, monkey army cheering below, dawn, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अब लक्ष्मण जी धनुष लेकर उसके सामने आ खड़े हुए। कुंभकर्ण ने उनकी वीरता की सराहना की।",
+     "prompt": "A fair-skinned young warrior in saffron with a raised bow standing bravely at the left, towering giant dark-skinned demon looking down at him with a respectful nod on the right, copper sunlight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वीर को वीर पहचान लेता है। यह कथा उसे भेजिए, जो अपने भाई के लिए कुछ भी कर सकता है।",
+     "prompt": "Two young men in simple dhotis sitting side by side on a temple step at sunset, looking over a river, warm golden glow, peaceful, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लेकिन तभी… स्वयं श्रीराम धनुष उठाकर कुंभकर्ण के सामने आ गए।",
+     "prompt": "Lord Rama, blue skin, golden crown, drawing a great bow, stepping forward alone on a battlefield, a massive dark giant standing before him, lightning behind, low-angle wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "अंतिम युद्ध",
+   "shots": [
+    {
+     "vo": "कुंभकर्ण ने राम को देखा। एक पल के लिए सारा शोर थम गया।",
+     "prompt": "A giant dark-skinned demon looking down in silence at small blue-skinned Lord Rama with a bow standing unshaken before him, still battlefield, dust floating in golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राम के बाण उसके शरीर में धँसते रहे। फिर भी वो आगे बढ़ता रहा।",
+     "prompt": "A giant dark-skinned demon with arrows stuck in his chest and shoulders advancing with a club, blue-skinned Lord Rama small on the left firing glowing arrows, sparks, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राम ने बाणों से उसकी भुजाएँ काट दीं। गदा और चोटी दूर जा गिरे।",
+     "prompt": "A giant dark-skinned demon standing without his arms, a club and a mountain peak lying on the ground beside him, glowing golden arrows streaking in from the left, dust, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर उसके पाँव भी कट गए। फिर भी वो राम की ओर झुकता रहा।",
+     "prompt": "A giant dark-skinned demon lying on the ground on his side, raising his head with fierce determination, blue-skinned Lord Rama small and calm with bow in the distance, golden dust, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तब राम ने ऐंद्र बाण उठाया। पूरा आसमान उसकी चमक से भर गया।",
+     "prompt": "Lord Rama, blue skin, golden crown, holding up one divine arrow glowing like the sun, golden-white light filling the whole sky, low-angle shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बाण छूटा। कुंभकर्ण का सिर लंका के फाटक और परकोटे पर जा गिरा, और दोनों चूर-चूर हो गए।",
+     "prompt": "The golden gate and rampart of Lanka lying shattered, a giant dark head resting among broken walls and towers, billowing dust and golden sparks at dawn, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उसका धड़ समुद्र में गिरा, और ऊँची लहरें उठीं। आकाश से देवताओं ने फूल बरसाए।",
+     "prompt": "A giant dark-skinned demon lying in shallow sea water beside Lanka at dusk, huge waves rising, flower petals falling from the sky, small blue-skinned Rama with lowered bow on the shore, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भाई की मृत्यु सुनकर रावण फूट-फूटकर रो पड़ा और बेहोश हो गया। पर कुंभकर्ण की आख़िरी बात अभी बाकी थी।",
+     "prompt": "A dark-bearded king in gold crown lying on the floor of his palace hall, eyes closed, hands near his head, a single lamp flickering beside him, sombre medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "कुंभकर्ण को छह महीने की नींद क्यों मिली? क्योंकि देवताओं का डर उसकी ज़ुबान पर बैठ गया था। पर वो आलसी नहीं, ज्ञानी था।",
+     "prompt": "A giant dark-skinned demon asleep on the left in a lamp-lit hall with a faint glow of a veena above him, the same giant standing tall at sunset on the right, a golden river of light between them, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और अब वो बात, जो ज़्यादातर लोग नहीं जानते। रामचरितमानस के अनुसार, जिस दिन वो रण में निकला, विभीषण उससे मिलने आया।",
+     "prompt": "A gentle young man in white and saffron with tears in his eyes walking toward a giant dark-skinned demon standing at a battlefield edge, golden mist, dawn, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुंभकर्ण ने उसे गले लगाया और बोला: भाई, तू धन्य है। मैं तो काल के वश में हूँ। तू राम की शरण में ही रहना।",
+     "prompt": "A giant dark-skinned demon with a warm smile placing a hand on the head of a small gentle young man in white standing before him, golden dawn, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भाई के लिए जान देने वाले कुंभकर्ण को लोग आज भी श्रद्धा से याद करते हैं। अगली कथा में सुनिए: लक्ष्मण चौदह साल बिना सोए कैसे रहे?",
+     "prompt": "A single lamp burning at the foot of an old stone shrine beside a still river, golden hour, soft warm light, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऐसी और कथाओं के लिए सब्सक्राइब करें।",
+     "prompt": "Lord Rama, blue skin, golden crown, smiling gently with a bow and a raised blessing hand, golden sunrise, calm sea behind him, medium close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ]
+}
