@@ -27,7 +27,8 @@ def main(slug, hindi_path):
     sc.pop("repaint", None)
     sc.pop("voice_speed", None)
     sc.update(slug=f"{slug}-hi", lang="hi", brand="hidden-why-hindi",  # Devanagari font (owner, 1 Nov 2026)
-              paint_from=slug, voice=VOICE, approved=True,
+              paint_from=slug, voice=VOICE, approved=True, review="auto", voice_review=True,  # heard before the build (owner, 7 Nov 2026)
+             
               title=hi["title"], hook_text=hi["hook_text"], cover_text=hi.get("cover_text") or hi["hook_text"])
     short = sc.get("format") == "short"
     if not short and isinstance(sc.get("thumbnail"), dict):  # long-form: the same thumbnail paintings, Hindi words

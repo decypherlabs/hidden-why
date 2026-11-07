@@ -132,11 +132,33 @@ def fetch_paintings(slug, out):
         t.extractall(out)
 
 
+def reuse_voice(slug, script, out):
+    """The narration the owner heard and approved (narrate.yml release voice-<slug>-<hash>, 7 Nov 2026), when the
+    lines and voice are unchanged; False means narrate here as before."""
+    try:
+        sys.path.insert(0, str(ROOT / "tools"))
+        import io
+        import tarfile
+        import voicehash
+        tag = f"voice-{slug}-{voicehash.of(json.loads(Path(script).read_text()))}"
+        rel = gh("GET", f"/releases/tags/{tag}")
+        asset = next((a for a in (rel or {}).get("assets", []) if a["name"] == "voice.tar"), None)
+        if not asset:
+            return False
+        tarfile.open(fileobj=io.BytesIO(gh("GET", asset["url"], accept="application/octet-stream"))).extractall(out)
+        print(f"   narration reused from {tag}", flush=True)
+        return True
+    except Exception as e:  # noqa: BLE001 - narrate here instead
+        print(f"   no approved narration to reuse ({e})", flush=True)
+        return False
+
+
 def finish(slug, script, out):
     """Narration, diagrams + edit, thumbnail, metadata -> release episode-<slug>."""
     # Kokoro needs Python < 3.13 (Kaggle runs 3.13): the notebook makes a 3.12 env for it (TTS_PY)
     print("\n== narrate", flush=True)
-    subprocess.run([os.environ.get("TTS_PY", PY), str(ROOT / "pipeline/narrate.py"), str(script), str(out)], check=True)
+    if not reuse_voice(slug, script, out):
+        subprocess.run([os.environ.get("TTS_PY", PY), str(ROOT / "pipeline/narrate.py"), str(script), str(out)], check=True)
     step(ROOT / "pipeline/build.py", script, out)
     short = json.loads(script.read_text()).get("format") == "short"
     # Shorts get a designed cover too (owner, 29 Oct: shocking question + strangest painting; the Reel cover)
