@@ -11,6 +11,7 @@ in brand/music), kept low under the voice. Ends on a 6 s end screen (logo) for Y
 import json
 import subprocess
 import sys
+import re
 from pathlib import Path
 
 import cv2
@@ -40,6 +41,60 @@ def card(title):
     tw = d.textlength(title, font=f)
     d.rectangle((W / 2 - tw * 0.18, H / 2 + 80, W / 2 + tw * 0.18, H / 2 + 92), fill=K.RED)
     return bgr(K.grain(img))
+
+
+def film_card(title, num, first_shot):
+    """A documentary chapter card (Logos & Legends, after The Quiet Story; brand "chapter_style": "film"): the
+    chapter's first picture darkened and softened, "CHAPTER N" in small spaced gold capitals, the title large,
+    a thin gold rule."""
+    from PIL import ImageFilter
+    bg = Image.open(first_shot).convert("RGB").resize((W, H)) if first_shot and Path(first_shot).exists() \
+        else Image.new("RGB", (W, H), K.INK)
+    bg = Image.blend(bg.filter(ImageFilter.GaussianBlur(6)), Image.new("RGB", (W, H), (8, 8, 10)), 0.62)
+    d = ImageDraw.Draw(bg)
+    d.text((W / 2, H / 2 - 95), " ".join(f"CHAPTER {num}"), font=K.body(30, "Bold"), fill=K.YEL, anchor="mm")
+    f = K.display(120)
+    while d.textlength(title, font=f) > W * 0.8 and f.size > 60:
+        f = K.display(f.size - 6)
+    d.text((W / 2, H / 2 + 10), title, font=f, fill=(248, 242, 230), anchor="mm")
+    tw = d.textlength(title, font=f)
+    d.rectangle((W / 2 - min(tw, 600) * 0.3, H / 2 + 95, W / 2 + min(tw, 600) * 0.3, H / 2 + 98), fill=K.YEL)
+    return bgr(K.grain(bg))
+
+
+_TITLES = {}
+
+
+def title_overlay(frame, text, alpha):
+    """A big phrase over the picture (shot "title"; after The Quiet Story's "OR OUR OWN?"): centred, cream with a
+    soft shadow, the *starred* word in the brand's gold, fading in and out."""
+    from PIL import ImageFilter
+    if text not in _TITLES:
+        f = K.display(118)
+        d0 = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+        plain = text.replace("*", "")
+        while d0.textlength(plain, font=f) > W * 0.8 and f.size > 48:
+            f = K.display(f.size - 4)
+        img = Image.new("RGBA", (W, 260), (0, 0, 0, 0))
+        sh = Image.new("L", (W, 260), 0)
+        ImageDraw.Draw(sh).text((W / 2, 133), plain, font=f, anchor="mm", fill=230, stroke_width=4, stroke_fill=230)
+        img.paste(Image.new("RGBA", (W, 260), (0, 0, 0, 255)), mask=sh.filter(ImageFilter.GaussianBlur(9)))
+        d = ImageDraw.Draw(img)
+        x = W / 2 - d.textlength(plain, font=f) / 2
+        for part in re.split(r"(\*[^*]+\*)", text):
+            if not part:
+                continue
+            t = part.strip("*")
+            d.text((x, 130), t, font=f, anchor="lm", fill=(K.YEL if part.startswith("*") else (250, 245, 235)) + (255,))
+            x += d.textlength(t, font=f)
+        arr = np.asarray(img)
+        _TITLES[text] = (cv2.cvtColor(arr[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), arr[..., 3:4] / 255.0)
+    rgb, al = _TITLES[text]
+    al = al * max(0.0, alpha)
+    y = int(H * 0.42) - 130
+    roi = frame[y:y + 260].astype(np.float32)
+    frame[y:y + 260] = (rgb * al + roi * (1 - al)).astype(np.uint8)
+    return frame
 
 
 def sting_frames(n):
@@ -353,6 +408,7 @@ class Captions:
 
 
 _LT = {}
+MOVES_CYCLE = ("pan_right", "pull", "pan_left", "push")
 
 
 def lower_third(frame, text, alpha):
@@ -435,6 +491,7 @@ def main(script_path, out_dir):
     t = 0.0
     chapters = []
     labels = []  # (t0, t1, text): lower-thirds
+    titles = []  # (t0, t1, text): big phrases over the picture
     for sec in script["sections"]:
         if sec.get("sting"):
             items.append((t, 2.2, Seq(sting_frames(int(2.2 * FPS))), None, sec["id"]))
@@ -442,8 +499,14 @@ def main(script_path, out_dir):
             continue
         if sec.get("card"):
             chapters.append((t, sec["card"].title()))
-            items.append((t, 2.4, Still(card(sec["card"])), None, sec["id"]))
-            t += 2.4
+            if K.B.get("chapter_style") == "film" and not short:
+                first = next((x for x in [out / f"shot-{n + 1:02d}.png"] if x.exists()), None)
+                items.append((t, 3.0, Shot(film_card(sec["card"], len(chapters) - (1 if chapters[0][1] == "Intro" else 0), first), "push"),
+                              None, sec["id"]))
+                t += 3.0
+            else:
+                items.append((t, 2.4, Still(card(sec["card"])), None, sec["id"]))
+                t += 2.4
         elif not chapters:
             chapters.append((0.0, "Intro"))
         for s in sec.get("shots") or []:
@@ -460,7 +523,17 @@ def main(script_path, out_dir):
                 vis = Split(img, parts) if short and parts > 1 else Shot(img, s.get("move", "push"))
                 if short:
                     cuts += [t + d * i / parts for i in range(1, parts)]
-            items.append((t, d, vis, out / f"vo-{n:02d}.wav", sec["id"]))
+            extras = [] if short or s.get("diagram") else sorted(
+                out.glob(f"shot-{n:02d}-*.png"), key=lambda p: int(p.stem.rsplit("-", 1)[1]))
+            if extras:  # a new picture every ~4 s (owner, 7 Nov 2026, after The Quiet Story): the line's pictures in turn
+                pics = [vis] + [Shot(cv2.imread(str(x)), MOVES_CYCLE[(n + i) % 4]) for i, x in enumerate(extras)]
+                part = d / len(pics)
+                for i, v in enumerate(pics):
+                    items.append((t + i * part, part, v, out / f"vo-{n:02d}.wav" if i == 0 else None, sec["id"]))
+            else:
+                items.append((t, d, vis, out / f"vo-{n:02d}.wav", sec["id"]))
+            if s.get("title") and not short:  # a big phrase over the picture
+                titles.append((t + 0.2, t + min(d, 3.2), s["title"]))
             if s.get("label") and not short:  # a lower-third (Logos & Legends, 7 Nov 2026: names, dates, places)
                 labels.append((t + 0.3, t + min(d, 4.3), s["label"]))
             if short:  # the very first words show at 0.0 s, not after a pause
@@ -572,6 +645,9 @@ def main(script_path, out_dir):
             left = (nf - j) / FPS
             if nxt is not None and left < XF:  # dissolve into the next item
                 fr = cv2.addWeighted(fr, left / XF, nxt.frame(0.0), 1 - left / XF, 0)
+            ttl = next((x for x in titles if x[0] <= k / FPS < x[1]), None)
+            if ttl:
+                fr = title_overlay(fr.copy(), ttl[2], min(1.0, (k / FPS - ttl[0]) / 0.35, (ttl[1] - k / FPS) / 0.35))
             lab = next((l for l in labels if l[0] <= k / FPS < l[1]), None)
             if lab:
                 fr = lower_third(fr.copy(), lab[2], min(1.0, (k / FPS - lab[0]) / 0.4, (lab[1] - k / FPS) / 0.4))
