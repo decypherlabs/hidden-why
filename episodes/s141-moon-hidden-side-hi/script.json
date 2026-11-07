@@ -1,0 +1,77 @@
+{
+ "slug": "s141-moon-hidden-side-hi",
+ "format": "short",
+ "title": "चाँद अपनी पीठ हमें क्यों नहीं दिखाता? 🌙",
+ "hook_text": "चाँद की पीठ कहाँ?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "चाँद घूमता है, फिर उसकी पीठ क्यों नहीं दिखती?",
+     "prompt": "The full Moon with one dark crater marked by a bright glowing ring on its near face, Earth large and blue behind it, far side lost in black shadow, view from space, sunlight from the right, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "चाँद घूमता है, फिर उसकी पीठ क्यों नहीं दिखती?"
+    },
+    {
+     "vo": "वो घूमता है, पर धरती के एक चक्कर में सिर्फ़ एक बार।",
+     "prompt": "The grey cratered Moon orbiting beside a large blue Earth, one bright glowing crater facing Earth, a faint thin curved orbit line of light around Earth, view from space, sunlight, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वो घूमता है, पर धरती के एक चक्कर में सिर्फ़ एक बार।"
+    },
+    {
+     "vo": "लेकिन कभी चाँद इससे कहीं तेज़ घूमता था।",
+     "prompt": "A young, glowing, molten orange-grey Moon very close to a huge blue Earth, filling the frame, surface cracked with bright lava lines, black space with stars, dramatic light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन कभी चाँद इससे कहीं तेज़ घूमता था।"
+    },
+    {
+     "vo": "धरती की ग्रैविटी उसके उभारों को खींचती रही, और स्पिन धीमी होती गई।",
+     "prompt": "A slightly egg-shaped grey Moon with long glowing blue lines of light stretching from the large Earth toward its bulging end, black space, stars, soft light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "धरती की ग्रैविटी उसके उभारों को खींचती रही, और स्पिन धीमी होती गई।"
+    },
+    {
+     "vo": "आज सत्ताईस दिन में एक घूमना, सत्ताईस दिन में एक चक्कर।",
+     "prompt": "Four grey cratered Moons placed around a blue Earth at top, bottom, left and right, each with the same bright marked crater facing Earth, black space, clean view from space, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आज 27 दिन में एक घूमना, 27 दिन में एक चक्कर।"
+    },
+    {
+     "vo": "धरती की ग्रैविटी ने स्पिन लॉक कर दी, इसीलिए चाँद अपनी पीठ नहीं दिखाता।",
+     "prompt": "The full Moon with a clear cratered face glowing large over a calm dark ocean at night, bright moonlight path on the water, Indian coast with palm trees silhouettes, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "धरती की ग्रैविटी ने स्पिन लॉक कर दी, इसीलिए चाँद अपनी पीठ नहीं दिखाता।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "चाँद घूमता है, फिर *पीठ* क्यों छुपी?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Realistic painting, a giant full Moon rising over a calm ocean with its familiar dark seas clearly visible, one bright subject, a faint shadowy dark hemisphere hinted on its far edge, dramatic night sky, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s141-moon-hidden-side",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ },
+ "review": "auto",
+ "voice_review": true
+}

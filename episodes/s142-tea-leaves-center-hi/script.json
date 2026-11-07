@@ -1,0 +1,77 @@
+{
+ "slug": "s142-tea-leaves-center-hi",
+ "format": "short",
+ "title": "चाय की पत्तियाँ घुमाने पर बीच में क्यों भागती हैं? 🍵",
+ "hook_text": "आइंस्टीन और चाय की पत्तियाँ",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आइंस्टीन ने आपकी चाय की पत्तियों पर रिसर्च क्यों की?",
+     "prompt": "an elderly man with wild white hair stirring a cup of tea with a silver spoon, tea leaves gathered in the middle of the cup, handwritten papers on the desk, 1920s study, warm lamp light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आइंस्टीन ने आपकी चाय की पत्तियों पर रिसर्च क्यों की?"
+    },
+    {
+     "vo": "चम्मच घुमाओ, तो पत्तियाँ बाहर भागनी चाहिए।",
+     "prompt": "a silver spoon stirring a white cup of tea, water swirling in a fast spiral, a few tea leaves floating near the cup wall, wooden kitchen table, soft window light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "चम्मच घुमाओ, तो पत्तियाँ बाहर भागनी चाहिए।"
+    },
+    {
+     "vo": "पर वो बीच में जमा हो जाती हैं, जैसे कोई खींच रहा हो।",
+     "prompt": "dark tea leaves piled in a neat heap exactly at the center of a white teacup, calm brown tea around them, spoon resting on the saucer, soft light, top-down close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पर वो बीच में जमा हो जाती हैं, जैसे कोई खींच रहा हो।"
+    },
+    {
+     "vo": "आइंस्टीन ने उन्नीस सौ छब्बीस में नदी के मोड़ वाले पेपर में इसे समझाया।",
+     "prompt": "a winding river with sharp curved bends through a misty green valley, seen from above at sunrise, golden light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आइंस्टीन ने 1926 में नदी के मोड़ वाले पेपर में इसे समझाया।"
+    },
+    {
+     "vo": "लेकिन असली खेल कप की तली में होता है।",
+     "prompt": "a clear glass teacup of tea seen from the side, dark tea leaves resting on the bottom in a small pile, amber water, wooden table, soft window light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन असली खेल कप की तली में होता है।"
+    },
+    {
+     "vo": "तली का धीमा पानी किनारे के दबाव से अंदर धकेला जाता है, और पत्तियाँ बीच में पहुँच जाती हैं।",
+     "prompt": "a clear glass teacup seen from the side, tea leaves swept into a small pile at the center of the bottom, thin curved streaks of water curling inward along the glass floor, amber tea, soft light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "तली का धीमा पानी किनारे के दबाव से अंदर धकेला जाता है, और पत्तियाँ बीच में पहुँच जाती हैं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "घुमाने पर चाय की पत्तियाँ *बीच* में क्यों?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Extreme close-up painting of a white teacup seen from above, a swirling whirlpool of dark tea with loose tea leaves gathered in a tight cluster at the exact center, warm golden light, steam rising, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s142-tea-leaves-center",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ },
+ "review": "auto",
+ "voice_review": true
+}

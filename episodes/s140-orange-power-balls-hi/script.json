@@ -1,0 +1,77 @@
+{
+ "slug": "s140-orange-power-balls-hi",
+ "format": "short",
+ "title": "बिजली के तारों पर नारंगी गोले क्यों लगे होते हैं? 🟠",
+ "hook_text": "ये गोले क्यों?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "पायलट को ये तार दिखते ही नहीं, तो तारों पर ये गोले क्यों?",
+     "prompt": "a thin power cable stretching across a hazy sky ahead with a few bright orange spheres floating along it, seen from a helicopter cockpit window, hills below, tense muted light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पायलट को ये तार दिखते ही नहीं, तो तारों पर ये गोले क्यों?"
+    },
+    {
+     "vo": "ये एयरपोर्ट, नदी के पार और गहरी घाटियों के पास दिखते हैं।",
+     "prompt": "a power line crossing a wide river with bright orange spheres along it, a small distant airport on the right, green deep valley hills, golden light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "ये एयरपोर्ट, नदी के पार और गहरी घाटियों के पास दिखते हैं।"
+    },
+    {
+     "vo": "वहाँ पायलट नीचे उड़ते हैं, फसल पर छिड़काव, बचाव या लैंडिंग के लिए।",
+     "prompt": "a small yellow crop-duster plane flying low over green fields beside a river, spray trailing behind, no pilot visible, sunrise light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "वहाँ पायलट नीचे उड़ते हैं, फसल पर छिड़काव, बचाव या लैंडिंग के लिए।"
+    },
+    {
+     "vo": "लेकिन कलाई से पतला तार पहाड़ और आसमान में गायब हो जाता है।",
+     "prompt": "a very thin power cable almost invisible against hazy blue hills and pale sky, one tiny orange sphere on it, a hand-width of wire in sharp focus, soft muted light, close shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन कलाई से पतला तार पहाड़ और आसमान में गायब हो जाता है।"
+    },
+    {
+     "vo": "इसलिए तार पर चमकीले गोले लगाए जाते हैं, जो पायलट की नज़र खींच लें।",
+     "prompt": "a utility worker in a white helmet seen from behind in a bucket lift, clamping a huge orange sphere onto a power cable, centre, clear blue sky, medium shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "इसलिए तार पर चमकीले गोले लगाए जाते हैं, जो पायलट की नज़र खींच लें।"
+    },
+    {
+     "vo": "तारों पर ये नारंगी गोले, पायलटों के लिए चेतावनी हैं।",
+     "prompt": "a helicopter flying safely above a power line marked with bright orange spheres across a green valley, warm evening light, wide shot, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "तारों पर ये नारंगी गोले, पायलटों के लिए चेतावनी हैं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "पायलट को बिजली का तार *दिखता* नहीं!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Realistic painting, a row of huge bright orange spheres strung along a high power line across a deep valley, a small helicopter approaching in the distance, dramatic blue sky, one clear subject, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s140-orange-power-balls",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ },
+ "review": "auto",
+ "voice_review": true
+}
