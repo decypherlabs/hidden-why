@@ -87,6 +87,11 @@ def short_cover(script, out):
     n = int(script.get("cover_shot") or 1)
     own = out / "cover.png"  # script["cover"]["prompt"]: painted for the cover alone (31 Oct)
     img = cover(Image.open(own if own.exists() else out / f"shot-{n:02d}.png").convert("RGB"), CW, CH)
+    drop = float(script.get("cover_drop") or 0)  # lower the painting so the words don't hide a head (owner, 7 Nov
+    if drop:  # 2026: Brahma ji's face sat under the text); the gap above is the same picture, blurred
+        bg = img.filter(ImageFilter.GaussianBlur(40))
+        bg.paste(img.resize((int(CW * (1 - drop)), int(CH * (1 - drop))), Image.LANCZOS), (int(CW * drop / 2), int(CH * drop)))
+        img = bg
     img = ImageEnhance.Contrast(ImageEnhance.Color(img).enhance(1.25)).enhance(1.12)
     img = img.filter(ImageFilter.UnsharpMask(radius=2, percent=60, threshold=2))
     shade = Image.new("L", (CW, CH))
