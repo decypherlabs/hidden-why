@@ -78,8 +78,11 @@ def expected(script):
     for sec in d["sections"]:
         for sh in sec.get("shots") or []:
             n += 1
+            if d.get("paint_limit") and n > d["paint_limit"]:
+                break  # the owner's preview: only the first shots (paint.py)
             if sh.get("prompt") and not sh.get("diagram"):
                 names.append(f"shot-{n:02d}.png")
+                names += [f"shot-{n:02d}-{k}.png" for k in range(2, len(sh.get("more") or []) + 2)]
     th = d.get("thumbnail") or {}
     cover = ["cover.png"] if (d.get("cover") or {}).get("prompt") else []
     return names + cover + [f for f, k in (("thumb-plane.png", "plane"), ("thumb-zoom.png", "zoom")) if th.get(k)]

@@ -20,7 +20,7 @@
   "_revert_about": "owner, 6 Nov 2026: deep-fast felt too fast; back to Divya's original voice",
   "trim": true
  },
- "art_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text",
+ "art_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, every figure modestly dressed, one head and two arms each unless the deity has more, no text",
  "art_negative": "text, letters, watermark, logo, cartoon, anime, flat illustration, deformed hands, extra limbs, extra fingers, bad hands, distorted face, disfigured, ugly, blurry, low quality, nsfw, revealing clothes, blood, gore, duplicate figure, two heads, extra head, extra face, stacked figures, merged faces, clones, repeated people, bad eyes, crossed eyes, asymmetric eyes",
  "fonts": {
   "display": "devlok-katha/fonts/Hind-Bold.ttf",
@@ -67,7 +67,7 @@
  },
  "refine": 1.5,
  "_short_size_about": "1 Nov 2026: 896x1152 is an SDXL training bucket; taller canvases tiled figures on top of each other. The build crops to 9:16.",
- "_engine_note": "owner, 6 Nov 2026: FLUX rolled back; the 'cinematic' grade (teal-orange, haze, shallow focus) was rolled back too: it muted the colours and the scenes",
+ "_engine_note": "owner, 7 Nov 2026: FLUX throughout for every channel ('good, clear pictures, as per the prompt and scene'); 6 Nov had rolled FLUX back for RealVisXL, whose settings stay below as the fallback",
  "long_captions": {
   "font": "devlok-katha/fonts/TiroDevanagariHindi-Regular.ttf",
   "size": 46,
@@ -75,5 +75,6 @@
  },
  "thumb_style": "epic mythological digital painting, fiery glowing embers and sparks, intense saturated orange and gold against deep blue and black, dramatic rim light, volumetric god rays, divine glow around the hero, ultra detailed, sharp focus, cinematic poster composition, no text",
  "_thumb_style_about": "owner, 7 Nov 2026: like the niche's top long-form thumbnails (Divya Katha, Katha Sagar, Itihaas Raz)",
- "thumb_engine": "flux"
+ "thumb_engine": "flux",
+ "engine": "flux"
 }

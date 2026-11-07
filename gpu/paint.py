@@ -30,13 +30,20 @@ def model_path():
 
 
 def shots(script):
-    n = 0
+    """(key, prompt, negative, seed) per painting: key "NN" for a shot's own picture, "NN-2", "NN-3" for the extra
+    pictures in its "more" list (owner, 7 Nov 2026: a new picture every ~4 s, like The Quiet Story). "paint_limit": N
+    paints only the first N shots (the owner's preview before the whole episode is painted)."""
+    n, limit = 0, script.get("paint_limit")
     for sec in script["sections"]:
         for s in sec.get("shots") or []:
             n += 1
+            if limit and n > limit:
+                return
             if s.get("prompt") and not s.get("diagram"):
                 # "seed": a repaint after a failed shot check draws a new image, not the same one (1 Nov)
-                yield n, s["prompt"], s.get("negative", ""), int(s.get("seed") or 1000 + n)
+                yield f"{n:02d}", s["prompt"], s.get("negative", ""), int(s.get("seed") or 1000 + n)
+                for k, extra in enumerate(s.get("more") or [], 2):
+                    yield f"{n:02d}-{k}", extra, s.get("negative", ""), int(s.get("seed") or 1000 + n) + 100 * k
 
 
 def main(script_path, out_dir, part=0, parts=1):
@@ -69,7 +76,7 @@ def main(script_path, out_dir, part=0, parts=1):
     sw, sh = (768, 1344) if script.get("format") == "short" else (1344, 768)  # Shorts are painted vertical
     if script.get("format") == "short" and BRAND.get("short_size"):  # DK (31 Oct): 768x1344 stacked/merged figures
         sw, sh = BRAND["short_size"]
-    jobs = [(out / f"shot-{n:02d}.png", p, f"{p}, {style}", f"{neg_extra}, {neg}" if neg_extra else neg, sw, sh, seed)
+    jobs = [(out / f"shot-{n}.png", p, f"{p}, {style}", f"{neg_extra}, {neg}" if neg_extra else neg, sw, sh, seed)
             for n, p, neg_extra, seed in shots(script)]
     # a brand may set its own thumbnail look (DK, 7 Nov 2026: fiery and saturated like the niche's winners)
     thumb_style = BRAND.get("thumb_style") or "cinematic digital painting, dramatic light, high contrast, highly detailed, sharp focus, no text"
@@ -143,8 +150,9 @@ def paint_flux(script, out, part=0, parts=1):
     from diffusers import BitsAndBytesConfig, FluxPipeline, FluxTransformer2DModel
     repo = BRAND.get("flux_model") or "black-forest-labs/FLUX.1-schnell"
     style = script.get("art_style") or BRAND["art_style"]
-    w, h = (768, 1344) if script.get("format") == "short" else (1344, 768)
-    jobs = [(out / f"shot-{n:02d}.png", f"{p}, {style}", seed) for n, p, _, seed in shots(script)]
+    # more pixels than SDXL's canvas: crisper on a 1080p frame (owner, 7 Nov 2026: "the best, clear shorts")
+    w, h = BRAND.get("flux_short_size", (864, 1536)) if script.get("format") == "short" else BRAND.get("flux_size", (1536, 864))
+    jobs = [(out / f"shot-{n}.png", f"{p}, {style}", seed) for n, p, _, seed in shots(script)]
     th = script.get("thumbnail") or {}
     if th.get("plane"):  # a long-form's thumbnail painting (Logos & Legends on FLUX, 7 Nov 2026)
         jobs.append((out / "thumb-plane.png", f"{th['plane']}, {BRAND.get('thumb_style') or BRAND.get('cover_style') or style}", 7))
@@ -155,9 +163,33 @@ def paint_flux(script, out, part=0, parts=1):
     jobs = [j for i, j in enumerate(jobs) if i % parts == part and not j[0].exists()]
     if not jobs:
         return
-    tr = FluxTransformer2DModel.from_pretrained(repo, subfolder="transformer", torch_dtype=torch.float16,
-                                                quantization_config=BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4",
-                                                                                       bnb_4bit_compute_dtype=torch.float16))
+    steps = int(BRAND.get("flux_steps", 4))
+    q = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.float16)
+    try:  # fast: all prompts through the text encoders first, then the 4-bit transformer + VAE alone on the GPU
+        enc = FluxPipeline.from_pretrained(repo, transformer=None, vae=None, torch_dtype=torch.float16).to("cuda")
+        with torch.no_grad():
+            embeds = [tuple(t.cpu() for t in enc.encode_prompt(prompt=prompt, prompt_2=None, max_sequence_length=256)[:2])
+                      for _, prompt, _ in jobs]
+        del enc
+        torch.cuda.empty_cache()
+        tr = FluxTransformer2DModel.from_pretrained(repo, subfolder="transformer", torch_dtype=torch.float16, quantization_config=q)
+        pipe = FluxPipeline.from_pretrained(repo, transformer=tr, text_encoder=None, text_encoder_2=None, tokenizer=None,
+                                            tokenizer_2=None, torch_dtype=torch.float16).to("cuda")
+        print(f"  FLUX from {repo} (all on the GPU)", flush=True)
+        for i, ((p, _, seed), (pe, ppe)) in enumerate(zip(jobs, embeds), 1):
+            img = pipe(prompt_embeds=pe.to("cuda"), pooled_prompt_embeds=ppe.to("cuda"), width=w, height=h,
+                       num_inference_steps=steps, guidance_scale=0.0, generator=torch.Generator("cpu").manual_seed(seed)).images[0]
+            img.save(p)
+            print(f"  {i}/{len(jobs)} {p.name}", flush=True)
+        return
+    except Exception as e:  # noqa: BLE001  the proven CPU-offload path below paints whatever is still missing
+        print(f"  FLUX fast path failed ({type(e).__name__}: {e}); falling back to CPU offload", flush=True)
+        enc = pipe = tr = None  # noqa: F841  free the GPU before the fallback loads
+        import gc
+        gc.collect()
+        torch.cuda.empty_cache()
+    jobs = [j for j in jobs if not j[0].exists()]
+    tr = FluxTransformer2DModel.from_pretrained(repo, subfolder="transformer", torch_dtype=torch.float16, quantization_config=q)
     pipe = FluxPipeline.from_pretrained(repo, transformer=tr, torch_dtype=torch.float16)
     pipe.enable_model_cpu_offload()
     print(f"  FLUX from {repo}", flush=True)

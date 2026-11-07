@@ -24,7 +24,7 @@
   "intense",
   "epic"
  ],
- "art_style": "photorealistic cinematic film still, real-world scene, natural textures, realistic lighting, bright warm key light with teal accents, sharp focus, highly detailed, no text, no watermark",
+ "art_style": "photorealistic film still, real-world scene, crisp sharp focus from foreground to background, bright natural light with a warm key light, vivid true-to-life colours, natural textures, one clear main subject, clean uncluttered composition, highly detailed, no text, no watermark",
  "art_negative": "text, letters, watermark, logo, cartoon, anime, flat colors, bright pastel, blurry, low quality, deformed",
  "thumbnail": {
   "size": [
@@ -50,10 +50,17 @@
  "face_fix": true,
  "refine": 1.5,
  "_art_about": "owner, 6 Nov 2026: THW painted realistic like Devlok Katha (was 'cinematic documentary digital painting' on the default model)",
- "_engine_note": "owner, 6 Nov 2026: FLUX rolled back; the 'cinematic' grade (teal-orange, haze, shallow focus) was rolled back too: it muted the colours and the scenes",
+ "_engine_note": "owner, 7 Nov 2026: FLUX throughout for every channel ('good, clear pictures, as per the prompt and scene'); 6 Nov had rolled FLUX back for RealVisXL, whose settings stay below as the fallback",
  "sfx": {
   "open": "impact",
   "_about": "owner, 6 Nov 2026: every Short opens on an impact hit"
  },
- "long_captions": {"font": "fonts/Inter.ttf", "size": 42, "weight": 500, "_about": "owner, 7 Nov 2026: long-form captions simpler and medium-sized, no box: warm off-white with a soft shadow over a faint bottom gradient (DK picked Tiro Devanagari, sample B)"}
+ "long_captions": {
+  "font": "fonts/Inter.ttf",
+  "size": 42,
+  "weight": 500,
+  "_about": "owner, 7 Nov 2026: long-form captions simpler and medium-sized, no box: warm off-white with a soft shadow over a faint bottom gradient (DK picked Tiro Devanagari, sample B)"
+ },
+ "engine": "flux",
+ "_art_style_sdxl": "photorealistic cinematic film still, real-world scene, natural textures, realistic lighting, bright warm key light with teal accents, sharp focus, highly detailed, no text, no watermark"
 }
