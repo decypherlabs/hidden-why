@@ -1,0 +1,75 @@
+{
+ "slug": "s132-invisible-nose-hi",
+ "format": "short",
+ "title": "आपकी अपनी नाक आपको दिखती क्यों नहीं? 👃",
+ "hook_text": "नाक कहाँ गई?",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपकी नाक हर पल सामने है, फिर भी दिखती क्यों नहीं?",
+     "prompt": "Medium shot, first-person view across a bright Indian living room: a large blurry nose edge fills the left side of the frame, the right side shows the same sharp room with no nose, sunlight through a window, brass lamp on a table, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "आपकी नाक हर पल सामने है, फिर भी दिखती क्यों नहीं?"
+    },
+    {
+     "vo": "एक आँख बंद करो, तो वो अचानक बड़ी और धुंधली दिखती है।",
+     "prompt": "Medium shot, first-person view with one eye closed: an enormous blurry nose edge fills the left side of the frame, beyond it a sunlit Indian room with a wooden table and a brass lamp, bright morning light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "एक आँख बंद करो, तो वो अचानक बड़ी और धुंधली दिखती है।"
+    },
+    {
+     "vo": "दोनों आँखें खोलो, तो वो फिर गायब, जैसे डिलीट हो गई हो।",
+     "prompt": "Medium shot, first-person view with both eyes open: a clear sharp Indian room with a wooden table, marigold garland and window light, only a faint transparent nose outline at the left edge fading away, soft light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "दोनों आँखें खोलो, तो वो फिर गायब, जैसे डिलीट हो गई हो।"
+    },
+    {
+     "vo": "लेकिन रुकिए, आँखें उसे हर पल दिमाग को भेजती रहती हैं।",
+     "prompt": "Medium shot, a young man in profile on the left with a glowing eye, a bright golden line running across the dark background to a glowing brain-shaped lantern on the right, a small nose shape travelling along the line, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन रुकिए, आँखें उसे हर पल दिमाग को भेजती रहती हैं।"
+    },
+    {
+     "vo": "दिमाग उसे हटा देता है, क्योंकि जो सिग्नल कभी बदलता नहीं, वो मायने खोने लगता है।",
+     "prompt": "Medium shot, a glowing brain-shaped lantern on the right of a wooden desk, a small nose-shaped smudge on a paper photograph on the left being rubbed away by a hand-held cloth, soft warm studio light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "दिमाग उसे हटा देता है, क्योंकि जो सिग्नल कभी बदलता नहीं, वो मायने खोने लगता है।"
+    },
+    {
+     "vo": "दिमाग हर पल नाक छुपाता है, इसीलिए आपकी नाक आपको दिखती नहीं।",
+     "prompt": "Medium-wide shot, a young man seen from behind on the left, standing on a sunlit rooftop in India and looking at a clear view of rooftops and a temple spire, a faint transparent nose outline at the edge of the frame, calm morning light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "दिमाग हर पल नाक छुपाता है, इसीलिए आपकी नाक आपको दिखती नहीं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "नाक हमेशा सामने, फिर भी *दिखती* नहीं क्यों?",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Realistic painting of a first-person view looking straight ahead with a blurry large nose edge visible on one side of the frame fading into transparency, sharp street scene beyond, bright, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s132-invisible-nose",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}

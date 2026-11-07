@@ -1,0 +1,75 @@
+{
+ "slug": "s133-autumn-leaf-colors-hi",
+ "format": "short",
+ "title": "पत्तियाँ पतझड़ में रंग बदलती हैं, या कुछ और ही होता है? 🍂",
+ "hook_text": "पत्तियाँ रंग नहीं बदलतीं",
+ "approved": true,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "पतझड़ में पत्तियाँ रंग बदलती हैं, या कोई उन्हें खोल देता है?",
+     "prompt": "Close-up of a single maple leaf held between two fingers, its outer half green and the other half bright orange and yellow, a green leaf edge peeled back like a curtain to show the orange beneath, golden hour light, blurred autumn trees behind, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पतझड़ में पत्तियाँ रंग बदलती हैं, या कोई उन्हें खोल देता है?"
+    },
+    {
+     "vo": "जुलाई में ही ये सारे रंग, हर हरी पत्ती के अंदर छुपे थे।",
+     "prompt": "Macro shot of one green maple leaf backlit by summer sun, its green surface translucent with a glowing orange and yellow pattern visible inside the veins, blurred green trees behind, warm light, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "जुलाई में ही ये सारे रंग, हर हरी पत्ती के अंदर छुपे थे।"
+    },
+    {
+     "vo": "एक चटक हरा पिगमेंट पूरी गर्मी इन्हें दबाए रखता था।",
+     "prompt": "Wide shot of a dense, lush deep green forest canopy of maple trees in midsummer, intense saturated green leaves filling the frame, bright overhead sunlight through the leaves, no orange anywhere, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "एक चटक हरा पिगमेंट पूरी गर्मी इन्हें दबाए रखता था।"
+    },
+    {
+     "vo": "लेकिन पेंच ये है: उस हरे पिगमेंट को लगातार बनाना पड़ता है।",
+     "prompt": "Macro shot of a green leaf surface with tiny glowing bright green granules packed densely in rows like a busy factory floor, small cells lit from within, soft sunlight, shallow depth of field, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "लेकिन पेंच ये है: उस हरे पिगमेंट को लगातार बनाना पड़ता है।"
+    },
+    {
+     "vo": "दिन छोटे हुए, तो पेड़ ने उसे बनाना बंद कर दिया, और हरा फीका पड़ गया।",
+     "prompt": "Wide shot of a maple forest in early autumn, leaves green at the centre and turning yellow at their edges, a dirt path in the foreground, low golden sun through the trees, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "दिन छोटे हुए, तो पेड़ ने उसे बनाना बंद कर दिया, और हरा फीका पड़ गया।"
+    },
+    {
+     "vo": "पीला और नारंगी कभी नया नहीं था, बस हरे ने छुपाना बंद कर दिया। इसीलिए पत्तियाँ रंग नहीं बदलतीं, खुलती हैं।",
+     "prompt": "Medium shot of a full autumn maple forest glowing yellow and orange, one large orange and yellow maple leaf in sharp focus in the foreground, warm low sunlight, blurred trees behind, vertical composition, bright warm light, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "caption": "पीला और नारंगी कभी नया नहीं था, बस हरे ने छुपाना बंद कर दिया। इसीलिए पत्तियाँ रंग नहीं बदलतीं, खुलती हैं।"
+    }
+   ]
+  }
+ ],
+ "cover_text": "पतझड़ की पत्तियों में *जुलाई* से छुपे थे ये रंग",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Realistic painting of a single green leaf peeling open like a curtain to reveal glowing orange and yellow underneath, macro, bright backlight, forest blur behind, no text, vertical composition, bright warm light, highly detailed"
+ },
+ "lang": "hi",
+ "brand": "hidden-why-hindi",
+ "paint_from": "s133-autumn-leaf-colors",
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise."
+ }
+}
