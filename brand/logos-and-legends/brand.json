@@ -1,0 +1,35 @@
+{
+ "name": "Logos & Legends",
+ "handle": "@LogosAndLegends",
+ "wordmark": [
+  "LOGOS & ",
+  "LEGENDS"
+ ],
+ "colors": {
+  "ink": "#101116",
+  "signal_yellow": "#E2B254",
+  "alarm_red": "#C8483C",
+  "bone": "#F4ECDC",
+  "deep_teal": "#3FA36B"
+ },
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Aman speaks in a deep, bold, low-pitched and commanding documentary narrator voice, with confident, slightly dramatic expression, at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
+  "_about": "owner, 7 Nov 2026: Aman, bold narrator (picked from the rohit/karan/aman/vikas samples, tools/parler_sample.py SET=bold)"
+ },
+ "fonts": {
+  "display": "fonts/Mukta-Medium.ttf",
+  "body": "fonts/Inter.ttf",
+  "_about": "Devanagari chapter cards and captions (Mukta, OFL)"
+ },
+ "long_captions": {
+  "font": "fonts/Mukta-Medium.ttf",
+  "size": 44,
+  "_about": "owner, 7 Nov 2026: the soft long-form style (no box)"
+ },
+ "art_style": "cinematic documentary painting, rich painterly realism, dramatic natural light, period-accurate details, warm film colour grade, wide 16:9 composition, ultra detailed, no text, no logos",
+ "art_negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, portrait of a real person, deformed hands, extra fingers, distorted face, blurry, low quality, cartoon",
+ "cover_style": "cinematic documentary painting, dramatic light, saturated, high contrast, the product or place large and centred, no text, no logos",
+ "_about": "owner, 7 Nov 2026: Soch Ke Batao became Logos & Legends (Hindi brand stories, long-form only). Never a real person's realistic face: products, places, anonymous figures, silhouettes."
+}

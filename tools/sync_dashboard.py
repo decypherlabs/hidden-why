@@ -31,7 +31,7 @@ VIDEOS = RB / "videos" / "hidden-why"
 def niche(slug):
     """Hindi editions (episodes/<slug>-hi) belong to The Hidden Why Hindi's category, dk-* to Devlok Katha's
     (owner, 31 Oct 2026)."""
-    if slug.startswith("gk-"):  # Soch Ke Batao quizzes (owner, 2 Nov 2026)
+    if slug.startswith(("gk-", "ll-")):  # Soch Ke Batao quizzes (2 Nov 2026), now Logos & Legends episodes (7 Nov)
         return "soch-ke-batao"
     return "devlok-katha" if slug.startswith("dk-") else "hidden-why-hindi" if slug.endswith("-hi") else "hidden-why"
 
@@ -168,6 +168,12 @@ def import_episode(slug, src, day, status="done"):
         os.replace(mp4, pdir / "archive" / f"{stem}.{int(mp4.stat().st_mtime)}.mp4")
     if not mp4.exists():
         os.link(src / "video.mp4", mp4)  # hard link: no second copy of a big file
+    chap = (src / "chapters.txt").read_text().strip() if (src / "chapters.txt").exists() else ""
+    if not short and chap.count("\n") >= 2:  # long-form chapters into the description (owner, 7 Nov 2026: the benchmarks all list them)
+        d = meta["youtube"].get("description", "")
+        block = f"⏱️ CHAPTERS\n{chap}"
+        meta["youtube"]["description"] = d.replace("{CHAPTERS}", chap) if "{CHAPTERS}" in d else \
+            (d if "\n00:00 " in d else f"{d.rstrip()}\n\n{block}")
     if (src / "thumb.jpg").exists():  # Shorts come without a cover
         (pdir / sub / f"{stem}.thumb.jpg").write_bytes((src / "thumb.jpg").read_bytes())
         meta.setdefault("selected", {})["thumbnail"] = 1
