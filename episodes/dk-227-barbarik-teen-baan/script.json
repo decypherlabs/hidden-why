@@ -1,0 +1,417 @@
+{
+ "slug": "dk-227-barbarik-teen-baan",
+ "format": "long",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "बर्बरीक ने तीन बाण होते हुए भी अपना शीश क्यों दिया? 🏹",
+ "thumbnail": {
+  "layout": "epic",
+  "text": "बर्बरीक का *शीश* दान",
+  "plane": "Young warrior Barbarik, curly dark hair, simple warrior armour, gold armlets, kneeling with folded hands and fierce, tearful resolve, LARGE in the LEFT half of the frame, three glowing arrows (red, gold, white) rising from the quiver behind his shoulder; the RIGHT half is the vast Kurukshetra battlefield at blood-red sunset, banners, chariots, rising smoke and fire under a stormy sky, a faint golden divine light of Lord Krishna's peacock feather glowing in the clouds; dark high-contrast cinematic light, realistic painting, no text"
+ },
+ "music": {
+  "suspense": [
+   "cold_open",
+   "ch2",
+   "ch3"
+  ],
+  "devotional": [
+   "ch1",
+   "outro"
+  ],
+  "emotional": [
+   "ch4"
+  ],
+  "epic": [
+   "ch5"
+  ]
+ },
+ "source": "स्कंद पुराण (माहेश्वर खंड, कौमारिका खंड) की बर्बरीक कथा; घुंघराले बालों से नाम, माँ का हारे का साथ देने का वचन, नीला घोड़ा और खाटू श्याम जी की मान्यता लोक परंपरा के अनुसार",
+ "journey_score": 8,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "क्या आप खाटू श्याम की कहानी जानते हैं? उन्होंने अपना शीश क्यों दिया?",
+     "prompt": "A glowing human head resting on a grey stone on a hilltop, calm closed eyes, curly black hair, golden light around it, a tall blue-skinned Lord Krishna with peacock feather crown and yellow dhoti standing far to the right, dusk battlefield below, orange sky, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अगर आप सोचते हैं कि कृष्ण ने उससे उसका सिर छीन लिया, तो आप ग़लत हैं।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, gentle smile, centre-left, facing a young fair-skinned man with thick curly black hair in a white dhoti who bows with folded hands on the right, forest clearing, soft golden morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते। उस शीश को पूरे युद्ध में सिर्फ़ दो चीज़ें दिखीं।",
+     "prompt": "A glowing human head with calm open eyes on a grey stone on a hilltop at night, curly black hair, a golden spinning disc of light and a deep red glow in the sky above a burning battlefield far below, stars, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तो चलिए, घटोत्कच के बेटे से शुरू करके, खाटू श्याम तक चलते हैं।",
+     "prompt": "A white marble temple with saffron flags on its domes, plain blank walls, a few villagers in simple Indian clothes walking toward its steps, Rajasthan sandy ground, bright sunrise light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "माँ का वचन",
+   "shots": [
+    {
+     "vo": "भीम के बेटे थे घटोत्कच। और घटोत्कच के बेटे थे बर्बरीक। बर्बरीक की माँ का नाम था मौरवी।",
+     "prompt": "A tall mighty dark-skinned giant man with a gold crown, dhoti and shoulder cloth, gently cradling a newborn baby in his large hands, smiling, centre, a woman in a green saree standing small beside him, forest palace courtyard, bright sunrise light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कहते हैं, घने घुंघराले बालों की वजह से नाम पड़ा बर्बरीक। ये लोक कथाओं की मान्यता है।",
+     "prompt": "A young boy with thick curly black hair playing with a small wooden bow, centre, a woman in a green saree smiling at him from the right, Indian village courtyard under a large tree, warm morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लोक कथाओं के अनुसार, माँ ने सिखाया, जो हारता हो, हमेशा उसी का साथ देना। बर्बरीक ने माँ को वचन दिया।",
+     "prompt": "A young boy with thick curly black hair kneeling with folded hands on the left, a woman in a green saree on the right raising her hand to bless him, a small oil lamp glowing between them, mud hut interior, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर वो युद्ध की हर कला सीखकर, बरसों तक सिद्धाम्बिका देवी की तपस्या में बैठा रहा।",
+     "prompt": "A young man with thick curly black hair sitting cross-legged in meditation with closed eyes, white dhoti, under a huge banyan tree, a faint red glow in the mist behind him, forest at dawn, soft morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "देवियाँ प्रसन्न हुईं। उन्होंने उसे तीन अजेय बाण दिए, जिनसे कोई बच नहीं सकता था।",
+     "prompt": "A goddess with a golden crown and red saree placing three glowing arrows into the open hands of a kneeling young man with curly black hair, centre, forest at twilight, warm divine light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अग्निदेव ने भी उसे एक दिव्य धनुष दिया। अब बर्बरीक के हाथ में अजेय शक्ति थी।",
+     "prompt": "A radiant fire god with a halo of flames and saffron-red robes handing a glowing bow to a kneeling young man with thick curly black hair, centre, sparks rising, dark forest clearing, firelight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पहला बाण निशान चुनता, दूसरा बचाने वालों को, और तीसरा बाक़ी सबको मिटा देता। सोचिए, ऐसी ताक़त को कौन रोकेगा? सेनाएँ पलों में ख़त्म हो सकती थीं।",
+     "prompt": "A young man with thick curly black hair holding a bow in one hand and three glowing arrows, one red, one gold, one white, fanned in the other hand, standing on a hilltop, centre, crimson twilight sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उसने सुना कि कुरुक्षेत्र में महायुद्ध होने वाला है। वो ख़ुद चल पड़ा। लेकिन रास्ते में कोई उसका इंतज़ार कर रहा था।",
+     "prompt": "A young man with thick curly black hair in a white dhoti walking on a dusty road toward a distant horizon, bow on his shoulder, a small figure in white robes standing under a tree far ahead, open plain, bright dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "पत्तों की परीक्षा",
+   "shots": [
+    {
+     "vo": "लोक कथाएँ कहती हैं, उसका नीला घोड़ा भी उसके साथ चलता था। मन में बस एक बात थी, जो कमज़ोर होगा, उसी की तरफ़ से लड़ूँगा।",
+     "prompt": "A young man with thick curly black hair walking on a long road beside a blue horse, bow on his shoulder, the horse a clear step away from him, thoughtful face, long shadows, golden sunrise sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रास्ते में एक ब्राह्मण मिले। वो असल में ख़ुद श्रीकृष्ण थे। वो बर्बरीक की परीक्षा लेना चाहते थे।",
+     "prompt": "A middle-aged fair-skinned Brahmin with a grey beard, plain white robes, sacred thread and a wooden staff, smiling knowingly, centre-left, facing a young man with curly black hair on the right, forest path, warm evening light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ब्राह्मण ने हँसकर पूछा, बस तीन बाण? इतने से कौन-सा युद्ध जीतोगे?",
+     "prompt": "A fair-skinned Brahmin in white robes laughing and pointing at a quiver with three arrows on the back of a young man with curly black hair, who stands respectfully on the right, forest path, soft evening light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्बरीक मुस्कुराया, और बोला, इन्हीं से मैं पूरी सेना एक मिनट में ख़त्म कर दूँगा।",
+     "prompt": "A young man with thick curly black hair smiling calmly, one hand resting on his bow, three softly glowing arrows in the quiver on his back, centre, a Brahmin in white robes standing small on the right, forest clearing, bright daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण ने सामने के पीपल की ओर इशारा किया। बोले, इसके सारे पत्तों को बींधकर दिखाओ।",
+     "prompt": "A huge peepal tree full of green heart-shaped leaves, large in the centre, a Brahmin in white robes on the left pointing at it, a young man with curly black hair on the right holding his bow ready, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्बरीक ने धनुष उठाया। उसी पल कृष्ण ने चुपके से एक पत्ता अपने पैर के नीचे दबा लिया।",
+     "prompt": "A Brahmin in white robes pressing one green peepal leaf under his sandalled foot on the ground, close-up of foot and leaf, a young man drawing a bow small in the background, sharp focus, bright morning light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्बरीक ने बाण छोड़ा। बाण पीपल के एक-एक पत्ते पर निशान लगाता चला गया।",
+     "prompt": "A giant peepal tree with a small red glowing mark on every green leaf, shimmering light among the branches, a young man with curly black hair and a Brahmin in white robes small beneath it, bright morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर वही बाण कृष्ण के पैर के चारों ओर घूमने लगा। बर्बरीक बोला, प्रभु, कृपया पैर हटाइए।",
+     "prompt": "A glowing arrow hovering in a ring of light around the sandalled foot of a Brahmin in white robes, the leaf under his foot, a young man with curly black hair on the right with folded hands, forest clearing, bright daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पैर हटते ही बाण ने आख़िरी पत्ता भी बींध दिया। जय श्री कृष्ण लिखकर लाइक कीजिए।",
+     "prompt": "A Brahmin in white robes lifting his foot off a green leaf, a glowing arrow touching that last leaf in a burst of golden light, a young man with curly black hair smiling on the right, forest clearing, bright daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण उसकी वीरता देखकर चकित रह गए। फिर उन्होंने वो सवाल पूछा, जिसने सब बदल दिया।",
+     "prompt": "A Brahmin in white robes looking at a young man with curly black hair with wide admiring eyes, one hand on his chin, the young man waiting calmly on the right, golden dusk light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "हारे का साथ",
+   "shots": [
+    {
+     "vo": "कृष्ण ने पूछा, बेटा, तुम इस युद्ध में किसकी तरफ़ से लड़ोगे?",
+     "prompt": "A Brahmin in white robes asking a question, one hand open, standing on the left, a young man with curly black hair listening on the right, with a distant plain and two small armies behind them, tense dusk light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्बरीक बोला, जो कमज़ोर होगा, उसकी तरफ़ से। मैंने अपनी माँ को वचन दिया है।",
+     "prompt": "A young man with thick curly black hair standing proud with one hand on his chest, centre, a Brahmin in white robes listening gravely on the right, glowing army camp fires far behind, dusk light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण समझ गए, ये वचन पूरे युद्ध को उलझा देगा। उनके माथे पर चिंता की लकीरें उभर आईं।",
+     "prompt": "A Brahmin in white robes with a deeply worried face, forehead lined, looking at the horizon, centre, side light from the setting sun, plain forest edge, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पांडवों की सेना छोटी थी, इसलिए बर्बरीक पहले पांडवों की तरफ़ से लड़ेगा।",
+     "prompt": "A small army camp with saffron banners and cloth tents on an open plain, a young man with curly black hair carrying a bow arriving at its edge, small in frame on the left, soft evening light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तब कौरव कमज़ोर पड़ जाएँगे, और वो कौरवों की तरफ़ चला जाएगा।",
+     "prompt": "A vast army camp with tall dark banners and a few elephants on the right, a young man with curly black hair standing alone at the edge of a plain on the left, golden dusk light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऐसे ही पलड़ा बदलता रहेगा, और आख़िर में सिर्फ़ बर्बरीक बचेगा, अकेला।",
+     "prompt": "A young man with thick curly black hair standing alone in the middle of an empty plain with three glowing arrows in his quiver, fallen banners scattered on the ground around him, twilight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तभी कृष्ण ने हाथ फैलाकर कहा, बेटा, मुझे दान चाहिए।",
+     "prompt": "A Brahmin in white robes holding out his open palm toward a young man with curly black hair, serious calm face, the young man looking at the hand, dark sky with golden light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्बरीक ने हाथ जोड़कर कहा, आप जो माँगेंगे, मैं दूँगा।",
+     "prompt": "A young man with thick curly black hair with folded hands and a sincere face, centre, a Brahmin in white robes facing him on the right, warm lamp-like golden glow, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सिर।",
+     "prompt": "Close-up of an open palm reaching toward the astonished face of a young man with curly black hair, a single beam of golden light between them, dark background, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्बरीक एक पल रुका। फिर बोला, मैं ज़रूर दूँगा। पर पहले बताइए, आप कौन हैं?",
+     "prompt": "A young man with thick curly black hair looking up calmly at a Brahmin in white robes, wind lifting his hair, golden light on his face, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "शीश का दान",
+   "shots": [
+    {
+     "vo": "तब उस ब्राह्मण का रूप बदल गया। सामने मोरपंख वाले श्रीकृष्ण खड़े थे।",
+     "prompt": "Lord Krishna, blue skin, peacock feather in a gold crown, yellow silk dhoti, flute at his belt, glowing aura, centre, a young man with curly black hair kneeling before him with folded hands, wide devotional shot, golden light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्बरीक ने आँखों में आँसू लिए पूछा, प्रभु, आपने मेरा शीश क्यों माँगा?",
+     "prompt": "A young man with thick curly black hair kneeling with tears on his cheeks and folded hands, looking up at Lord Krishna, blue skin, peacock feather crown, yellow dhoti, standing on the right, glowing golden light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण बोले, आज रणभूमि की पूजा के लिए सबसे वीर क्षत्रिय का शीश चाहिए। और तुमसे वीर यहाँ कोई नहीं।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, pointing toward a distant battlefield with smoke and armies, a young man with curly black hair listening beside him on the left, dusk sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्बरीक ने कोई सवाल नहीं किया। शीश छीना नहीं गया, उसने ख़ुद दान दिया।",
+     "prompt": "A young man with thick curly black hair standing calm, one hand on his heart, a peaceful smile, centre-left, Lord Krishna, blue skin, peacock feather crown, yellow dhoti, beside him on the right, golden twilight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जो माँ को वचन निभाने निकला था, उससे सबसे बड़ा दान माँगा गया। वचन सही था या कृष्ण का माँगना? ए या बी, कमेंट में लिखिए।",
+     "prompt": "A young man with thick curly black hair standing with downcast eyes, one hand on his heart, centre-left, Lord Krishna, blue skin, peacock feather crown, yellow dhoti, beside him looking at him kindly, dusk glow on the distant plain, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "caption": "जो माँ को वचन निभाने निकला था, उससे सबसे बड़ा दान माँगा गया। वचन सही था या कृष्ण का माँगना? A या B, कमेंट में लिखिए।"
+    },
+    {
+     "vo": "उसकी बस एक इच्छा थी, मैं ये पूरा युद्ध अपनी आँखों से देखना चाहता हूँ। कृष्ण ने कहा, तुम्हारी ये इच्छा ज़रूर पूरी होगी।",
+     "prompt": "A young man with thick curly black hair with folded hands looking longingly toward a distant battlefield, Lord Krishna, blue skin, peacock feather crown, yellow dhoti, raising a blessing hand over him, golden light from his palm, dusk, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्बरीक ने सिर झुकाया, और अपना शीश अर्पित कर दिया। चारों ओर बस शांति थी।",
+     "prompt": "A young man with thick curly black hair kneeling at dawn with folded hands, closed eyes and bowed head, white dhoti, no weapon, soft golden light all around, grassy hilltop, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तभी देवी चण्डिका प्रकट हुईं। उन्होंने अमृत छिड़ककर शीश को जीवित कर दिया। फिर शीश को ऊँची पहाड़ी पर रखा गया।",
+     "prompt": "A goddess in a red saree with a golden crown sprinkling golden nectar from her hand over a glowing human head with curly black hair resting on a stone on a high hilltop, a battlefield far below, sunrise light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण बोले, कलियुग में तुम मेरे नाम श्याम से पूजे जाओगे।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, raising a blessing hand over a glowing human head with curly black hair resting on a stone on a hilltop, halo of golden light around the head, flower petals in the air, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये कथा उस दोस्त को भेजिए, जो खाटू श्याम को मानता हो।",
+     "prompt": "Two friends, a young man and a young woman in modest Indian clothes, sitting side by side on a stone temple step, he holds a small saffron flag, oil lamps glowing around them, warm dusk light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लेकिन तभी कुरुक्षेत्र में युद्ध का शंख बज उठा।",
+     "prompt": "A giant white conch shell held to the lips of a man in armour on a chariot, raised high, centre, two armies waiting far behind with banners on a dusty plain, dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "युद्ध का साक्षी",
+   "shots": [
+    {
+     "vo": "अठारह दिन तक कुरुक्षेत्र में भयंकर युद्ध चला। धरती सुबह से रात तक गूँजती रही।",
+     "prompt": "Two vast armies of chariots, elephants and foot soldiers meeting on a dusty plain under saffron and dark banners, fiery orange sky, clear distant view, bright hazy daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पहाड़ी पर रखा शीश, रात की ठंडी हवा में भी, बिना पलक झपकाए सब देखता रहा।",
+     "prompt": "A glowing human head with calm open eyes on a stone on a hilltop at night, curly black hair, torchlit battlefield glowing far below, stars above, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उसने पितामह भीष्म को बाणों की शय्या पर लेटे देखा। कितने ही वीर गिरे।",
+     "prompt": "An old white-bearded warrior in armour lying on a bed of arrows on the ground, eyes calm, centre, a fair-skinned man with a bow kneeling small beside him with bowed head, battlefield at sunset, golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर आया आख़िरी दिन, और पांडवों की जीत हुई। पर उस जीत की रात, शिविर में कुछ और ही शुरू हो गया।",
+     "prompt": "Tall saffron banners raised high on a quiet plain, a fair-skinned king in simple white royal clothes standing in front, a man with a bow beside him, sunset sky, calm victory, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पांडव आपस में झगड़ने लगे। भीम अपनी गदा की ताक़त गिनाते, अर्जुन अपने गांडीव का नाम लेते।",
+     "prompt": "A huge broad dark-skinned man holding a big mace on the left, a slim fair-skinned man holding a bow on the right, arguing face to face in front of cloth tents, torchlight on their faces, night, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तब कृष्ण बोले, इसका फ़ैसला वही करेगा, जिसने पूरा युद्ध देखा है।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, raising one calming hand, centre, a fair-skinned king in white bowing on the right, torchlit camp tents behind, night, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सुबह की पहली किरण में सब उस पहाड़ी की ओर चल पड़े, जहाँ बर्बरीक का शीश रखा था।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, walking up a rocky hill path, a fair-skinned king in white following behind, a golden glow on the summit above, soft pink dawn sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण ने पूछा, बर्बरीक, बताओ, जीत का श्रेय किसे मिलना चाहिए? और तभी शीश बोल उठा।",
+     "prompt": "A glowing human head with curly black hair on a stone on a hilltop, lips parted as if speaking, golden light rays around it, Lord Krishna, blue skin, peacock feather crown, and a fair-skinned king standing small to the side, bright dawn light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "शीश बोला, जीत का श्रेय सिर्फ़ कृष्ण को जाता है। मुझे तो पूरे युद्ध में दो ही चीज़ें दिखीं। पहली, कृष्ण का सुदर्शन चक्र।",
+     "prompt": "A blazing golden spinning disc of light with a sharp edge, large in the centre of a dark stormy sky above a battlefield, trails of golden light, tiny armies far below, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण मुस्कुराए। जो योद्धा एक मिनट में महाभारत ख़त्म कर सकता था, उसने अपना सिर ख़ुशी से दिया। धर्म की जीत देखने के लिए, और हारे का सहारा श्याम बनने के लिए।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, smiling warmly at a glowing human head on a stone on a hilltop, a fair-skinned king bowing with folded hands on the right, golden morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऐसी मान्यता है कि आज राजस्थान के खाटू में वही शीश श्याम बाबा के रूप में पूजा जाता है।",
+     "prompt": "A white marble temple in Rajasthan with saffron flags on its domes and hundreds of oil lamps glowing, villagers in simple Indian clothes carrying saffron flags walking up its steps, plain blank walls, dusk, warm golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और वो दूसरी चीज़, जो ज़्यादातर लोग नहीं जानते। शीश ने द्रौपदी को महाकाली के रूप में देखा, जो अधर्म की सेना का संहार कर रही थीं।",
+     "prompt": "A dark-skinned goddess with four arms, red garland of flowers and a fierce calm face, large in the night sky above a battlefield with tiny armies, glowing red aura, stars, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बाबा श्याम की कृपा आप पर बनी रहे। अगली कथा में जानिए, कर्ण ने कवच और कुंडल क्यों दान कर दिए। कमेंट में जय श्री कृष्ण लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
+     "prompt": "Lord Krishna, blue skin, peacock feather in a gold crown, yellow dhoti, playing a bamboo flute, centre, a white marble temple with saffron flags small in the distance, glowing evening sky, soft golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ]
+}
