@@ -78,7 +78,9 @@ jobs:
           python pipeline/build.py "$EP/script.json" "out/${{ inputs.slug }}"
       - name: Thumbnail
         run: |
-          python pipeline/thumb.py "$EP/script.json" "out/${{ inputs.slug }}"
+          # a ready-made thumbnail the owner chose (episodes/<slug>/thumb-custom.jpg) wins over the generated one
+          if [ -f "$EP/thumb-custom.jpg" ]; then cp "$EP/thumb-custom.jpg" "out/${{ inputs.slug }}/thumb.jpg"
+          else python pipeline/thumb.py "$EP/script.json" "out/${{ inputs.slug }}"; fi
       - name: Collect
         run: |
           mkdir -p final && cd "out/${{ inputs.slug }}"
