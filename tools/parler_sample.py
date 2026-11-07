@@ -29,6 +29,13 @@ if __import__("os").environ.get("SET") == "quiz":  # Soch Ke Batao (owner, 2 Nov
         "rohit-deep": "Rohit speaks in a deep, dramatic and suspenseful voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
         "aman-host": "Aman speaks in a lively, friendly and expressive voice at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
     }
+if __import__("os").environ.get("SET") == "bold":  # long-form narrator (owner, 7 Nov 2026: "a bold male voice")
+    TEXT = ["उन्नीस सौ अट्ठानवे में, एक आदमी बिना पैसे और बिना डिग्री के बैंक में गया।", "सबने उसका मज़ाक उड़ाया।",
+            "लेकिन उसने हार नहीं मानी।", "दस साल बाद, वही बैंक उसके लिए काम कर रहा था।",
+            "और ये कहानी, यहीं से शुरू होती है।"]
+    BOLD = ("speaks in a deep, bold, low-pitched and commanding documentary narrator voice, with confident, slightly "
+            "dramatic expression, at a moderate pace. The recording is very clear and close-sounding, with no background noise.")
+    VOICES = {n.lower(): f"{n} {BOLD}" for n in ("Rohit", "Karan", "Aman", "Vikas")}
 out = Path(sys.argv[1])
 out.mkdir(parents=True, exist_ok=True)
 model = ParlerTTSForConditionalGeneration.from_pretrained("ai4bharat/indic-parler-tts")
