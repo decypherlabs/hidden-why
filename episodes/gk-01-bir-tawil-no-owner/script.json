@@ -1,0 +1,98 @@
+{
+ "slug": "gk-01-bir-tawil-no-owner",
+ "format": "short",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "बीर तवील को कोई देश क्यों नहीं लेता? 🏜️",
+ "hook_text": "आप बनो राजा?",
+ "cover_text": "बीर तवील ज़मीन को कोई देश *नहीं* चाहता",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A single large weathered stone boundary marker in the sharp lower foreground of a vast empty golden desert with dark rocky mountains behind, long shadows, heat haze over the sand, clear deep blue sky darker at the top, warm late-afternoon sunlight, wide shot"
+ },
+ "music": {
+  "epic": [
+   "main"
+  ]
+ },
+ "source": "Encyclopaedia Britannica; CIA World Factbook (Egypt-Sudan boundary); UK 1899 and 1902 boundary agreements",
+ "lane": 1,
+ "fact_check": {
+  "engage": 7,
+  "weak": "hard to absorb on one listen: the 1899 and 1902 lines and the swapped areas get confusing"
+ },
+ "hook_score": {
+  "score": 7,
+  "why": "Direct 'you can be king' personal hook with a strong gap in 'but how?'. It is specific and visual, and the claim is real and true, so it is the strongest opening.",
+  "was": "ये ज़मीन किसी देश की नहीं, कोई लेता क्यों नहीं?"
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आप चाहें तो इस ज़मीन के राजा बन सकते हैं, लेकिन कैसे?",
+     "caption": "आप चाहें तो इस ज़मीन के राजा बन सकते हैं, लेकिन कैसे?",
+     "prompt": "A lone traveler planting a plain cloth flag on a pole into the sand on top of a desert hill, a man in a light brown robe and head cloth, centre, vast empty golden desert below, bright sunrise light, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "इजिप्ट और सूडान के बीच, बीर तवील: करीब दो हज़ार साठ वर्ग किलोमीटर रेगिस्तान।",
+     "caption": "Egypt और Sudan के बीच, बीर तवील: करीब 2,060 वर्ग किलोमीटर रेगिस्तान।",
+     "prompt": "A vast barren desert plateau with dark jagged mountains and dry riverbeds stretching to the horizon, seen from high above, sandy brown ground, no roads, no buildings, harsh bright midday sun, wide aerial shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "देश ज़मीन के लिए जंग लड़ते हैं, लेकिन इसे दोनों ठुकराते हैं।",
+     "caption": "देश ज़मीन के लिए जंग लड़ते हैं, लेकिन इसे दोनों ठुकराते हैं।",
+     "prompt": "Two small desert patrol jeeps parked far apart on opposite edges of an empty sandy valley, both facing away from it, one on the left and one on the right, no people, dust in the air, orange sunset light, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "अठारह सौ निन्यानबे में अंग्रेज़ों ने बाईसवें लैटिट्यूड पर सीधी बॉर्डर खींची।",
+     "caption": "1899 में अंग्रेज़ों ने 22nd latitude पर सीधी border खींची।",
+     "prompt": "A hand drawing one perfectly straight black ink line across a blank sheet of aged paper with a brass ruler and fountain pen, wooden desk, warm oil lamp light, a window behind showing desert dunes, sharp close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "फिर उन्नीस सौ दो में दूसरी लाइन बनी, जिसने दो इलाके अदल-बदल दिए।",
+     "caption": "फिर 1902 में दूसरी लाइन बनी, जिसने दो इलाके अदल-बदल दिए।",
+     "prompt": "A long crooked row of old stone piles marking a boundary across a desert, bending away from a straight line of smaller stone markers, no people, low golden sunlight, long shadows, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "लेकिन रुकिए… दूसरा इलाका हलाइब है, करीब दस गुना बड़ा, समुद्र किनारे।",
+     "caption": "लेकिन रुकिए… दूसरा इलाका हलाइब है, करीब 10 गुना बड़ा, समुद्र किनारे।",
+     "prompt": "A bright turquoise sea coastline with waves breaking on a long sandy beach, meeting a wide flat desert plain with rugged brown mountains behind, no buildings, no people, bright morning sun, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "इजिप्ट अठारह सौ निन्यानबे वाली लाइन मानता है, सूडान उन्नीस सौ दो वाली, दोनों को हलाइब चाहिए।",
+     "caption": "Egypt 1899 वाली लाइन मानता है, Sudan 1902 वाली, दोनों को हलाइब चाहिए।",
+     "prompt": "Two men in light robes and head cloths seen from behind, one on the left and one on the right, standing on opposite sides of a rocky desert ridge, both looking toward a shining blue sea in the distance, dramatic clouds, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "बीर तवील माँगा, तो हलाइब गया, इसलिए ये ज़मीन किसी देश की नहीं।",
+     "caption": "बीर तवील माँगा, तो हलाइब गया, इसलिए ये ज़मीन किसी देश की नहीं।",
+     "prompt": "A single weathered stone marker standing alone in an endless empty golden desert, wind blowing sand across its base, no people, warm low dusk light, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    }
+   ]
+  }
+ ]
+}
