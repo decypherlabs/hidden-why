@@ -190,7 +190,8 @@ def face_layout(script, out):
         t = w.replace("*", "").upper()
         d.text((x, y), t, font=f, anchor="lm", fill=K.YEL if "*" in w else K.BONE, stroke_width=10, stroke_fill=K.INK)
         x += d.textlength(t, font=f) + sp(f)
-    if th.get("zoom") or th.get("zoom_diagram"):
+    # FLUX paints no thumb-zoom.png (8 Nov 2026: six LL builds failed here): the inset only when it exists
+    if th.get("zoom_diagram") or (th.get("zoom") and (out / "thumb-zoom.png").exists()):
         r, cx, cy = 120, W - 160, H - 150
         if th.get("zoom_diagram"):
             from diagram import DIAGRAMS
