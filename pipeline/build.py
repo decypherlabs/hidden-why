@@ -410,6 +410,38 @@ def subject(img):
     return (ex, 0.6 * ey + 0.4 * 0.42, None)
 
 
+class Panel:
+    """Logos & Legends Shorts (owner, 8 Nov 2026): the episode's 16:9 painting whole and sharp across the middle of
+    the vertical frame under a slow camera move, on the brand's dark ground: the hook headline stays above it and
+    the captions sit below it (a 9:16 crop of a landscape painting kept a third of it, blown up 2x)."""
+    TOP = 0.36  # the picture's top edge (fraction of the height): headline above, captions below
+
+    def __init__(self, img, move):
+        self.pw, self.ph = W, round(W * 9 / 16)
+        h, w = img.shape[:2]
+        f = max(SS * self.pw / w, SS * self.ph / h) * 1.12
+        self.src = cv2.resize(img, (round(w * f), round(h * f)), interpolation=cv2.INTER_LANCZOS4)
+        self.move = move
+        g = np.linspace(0, 1, H)[:, None, None]
+        top, bot = np.array(K.INK[::-1], np.float32), np.array(K.INK[::-1], np.float32) * 0.45
+        self.ground = (top * (1 - g) + bot * g).repeat(W, axis=1).astype(np.uint8)
+
+    def frame(self, u):
+        h, w = self.src.shape[:2]
+        cw, ch = self.pw * SS, self.ph * SS
+        z = {"push": 1.0 + 0.10 * u, "pull": 1.10 - 0.10 * u}.get(self.move, 1.04)
+        s0 = max(cw / w, ch / h) * 1.02 * z
+        hw, hh = cw / (2 * s0), ch / (2 * s0)
+        dx = {"pan_left": 1, "pan_right": -1}.get(self.move, 0) * (w / 2 - hw) * (u - 0.5) * 0.8
+        cx, cy = w / 2 + dx, h / 2
+        crop = self.src[int(cy - hh):int(cy + hh), int(cx - hw):int(cx + hw)]
+        pic = cv2.resize(crop, (self.pw, self.ph), interpolation=cv2.INTER_AREA)
+        fr = self.ground.copy()
+        y = int(H * self.TOP)
+        fr[y:y + self.ph] = pic
+        return fr
+
+
 class Split:
     """Shorts: a long shot cut into parts (the painting, then tighter crops of it) so the picture changes every
     ~2 s (29 Oct: one painting held 4-5 s and viewers swiped after 13 s of 41; 31 Oct: every 2-3 s -> ~2 s).
@@ -458,6 +490,24 @@ def hook_card(text):
     return cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0
 
 
+def cta_card(text):
+    """The Short's last seconds: a bright bar sending viewers to the full episode (owner, 8 Nov 2026: "to know
+    those, watch the full episode"), with a play triangle drawn (the fonts have no arrow glyph)."""
+    f = K.display(64)
+    d = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+    while d.textlength(text, font=f) > W * 0.72 and f.size > 40:
+        f = K.display(f.size - 2)
+    tw, bh = int(d.textlength(text, font=f)), 150
+    img = Image.new("RGBA", (W, bh), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    x0 = (W - tw - 110) // 2
+    d.rounded_rectangle((x0 - 30, 14, x0 + tw + 140, bh - 14), 26, fill=K.YEL + (255,))
+    d.polygon([(x0 + 10, bh / 2 - 30), (x0 + 10, bh / 2 + 30), (x0 + 62, bh / 2)], fill=K.RED + (255,))
+    d.text((x0 + 92, bh / 2), text, font=f, anchor="lm", fill=K.INK + (255,))
+    a = np.asarray(img)
+    return cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0
+
+
 def video_mark():
     """brand.json "video_mark": the channel banner's name + tagline as a small panel at the top of every frame
     (owner, 1 Nov 2026: Devlok Katha's videos carry the banner's text, in the banner's colours)."""
@@ -497,6 +547,7 @@ class Captions:
 
     def __init__(self, groups, short=True):
         self.groups, self.cache, self.short = groups, {}, short  # [(t0, t1, text)]
+        self.short_y = 0.68  # the caption band's centre (the panel layout puts it under the picture)
         self.soft = None if short else K.B.get("long_captions")  # owner, 7 Nov 2026: the aesthetic long-form style
         self.spans = []  # the faint bottom gradient stays on across short gaps (no flicker between groups)
         for t0, t1, _ in groups:
@@ -562,7 +613,7 @@ class Captions:
             r2[oy:oy + sh, ox:ox + sw] = cv2.resize(rgb, (sw, sh))
             a2[oy:oy + sh, ox:ox + sw] = cv2.resize(al, (sw, sh))[..., None]
             rgb, al = r2, a2
-        y = int(H * 0.68) - 200
+        y = int(H * self.short_y) - 200
         roi = frame[y:y + 400].astype(np.float32)
         frame[y:y + 400] = (rgb * al + roi * (1 - al)).astype(np.uint8)
         return frame
@@ -797,6 +848,7 @@ def main(script_path, out_dir):
     script = json.loads(Path(script_path).read_text())
     short = script.get("format") == "short"
     FX = not short and bool(K.B.get("motion_fx"))
+    PANEL = short and K.B.get("short_layout") == "panel"  # Logos & Legends Shorts: the landscape painting whole (8 Nov 2026)
     if short:
         W, H, XF = 1080, 1920, 0.15
     caps = []
@@ -849,11 +901,16 @@ def main(script_path, out_dir):
                 vis = Shot(bgr(DIAGRAMS[s["diagram"]]()), "push")
                 explainers.append((t, t + d))
             else:
-                img = cv2.imread(str(out / f"shot-{n:02d}.png"))
+                src = s.get("from")  # an episode's own painting (Logos & Legends Shorts from a long-form, 8 Nov 2026)
+                img = cv2.imread(str(out / (f"shot-{int(src.split('-')[0]):02d}{'-' + src.split('-')[1] if '-' in src else ''}.png"
+                                            if src else f"shot-{n:02d}.png")))
                 if s.get("overlay"):  # science drawn onto the painting (a crack, a hole) where SDXL can't
                     img = bgr(OVERLAYS[s["overlay"]](Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))))
                 parts = 3 if d > 5.4 else 2 if d > 2.6 else 1
-                vis = Split(img, parts) if short and parts > 1 else Shot(img, s.get("move", "push"))
+                if short and PANEL:  # a landscape painting kept whole in a vertical frame
+                    vis, parts = Panel(img, MOVES_CYCLE[n % 4]), 1
+                else:
+                    vis = Split(img, parts) if short and parts > 1 else Shot(img, s.get("move", "push"))
                 if short:
                     cuts += [t + d * i / parts for i in range(1, parts)]
             extras = [] if short or s.get("diagram") else sorted(
@@ -906,6 +963,8 @@ def main(script_path, out_dir):
         items.append((t, 6.0, Still(bgr(K.grain(end_img))), None, "outro"))
         total = t + 6.0
     captions = Captions(caps, short) if caps else None
+    if captions and PANEL:
+        captions.short_y = Panel.TOP + 9 / 16 * W / H + 0.105
 
     # ---- audio: narration + music by section mood
     voice = np.zeros(int(total * SR) + SR, np.float32)
@@ -1021,6 +1080,8 @@ def main(script_path, out_dir):
                            "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", str(out / "video.mp4")],
                           stdin=subprocess.PIPE)
     hook = hook_card(script.get("hook_text") or script["title"]) if short else None
+    cta = cta_card(script["cta"]) if short and script.get("cta") else None
+    CTA_S = 3.0
     HOOK_S = 2.8
     mark = video_mark() if short else None
     k = 0
@@ -1066,12 +1127,18 @@ def main(script_path, out_dir):
                 fr = lower_third(fr.copy(), lab[2], min(1.0, (k / FPS - lab[0]) / 0.4, (lab[1] - k / FPS) / 0.4))
             if captions:
                 fr = captions.draw(fr.copy(), k / FPS)
-            if hook is not None and k / FPS < HOOK_S:  # the question headline, fading out over its last 0.3 s
-                rgb, al = hook
-                al = al * min(1.0, (HOOK_S - k / FPS) / 0.3)
-                y = int(H * 0.12)
+            if hook is not None and (PANEL or k / FPS < HOOK_S):  # the question headline, fading out over its last 0.3 s
+                rgb, al = hook                                     # (the panel layout keeps it above the picture)
+                al = al if PANEL else al * min(1.0, (HOOK_S - k / FPS) / 0.3)
+                y = int(H * Panel.TOP) - 540 if PANEL else int(H * 0.12)
                 roi = fr[y:y + 520].astype(np.float32)
                 fr[y:y + 520] = (rgb * al + roi * (1 - al)).astype(np.uint8)
+            if cta is not None and k / FPS > total - CTA_S:  # "the answers: the full episode" (Logos & Legends Shorts)
+                rgb, al = cta
+                al = al * min(1.0, (k / FPS - (total - CTA_S)) / 0.3)
+                y = int(H * 0.86) - rgb.shape[0] // 2
+                roi = fr[y:y + rgb.shape[0]].astype(np.float32)
+                fr[y:y + rgb.shape[0]] = (rgb * al + roi * (1 - al)).astype(np.uint8)
             if mark is not None:  # the banner's name + tagline at the top, above the hook (it starts at 12%)
                 rgb, al = mark
                 y = 40
