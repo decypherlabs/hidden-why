@@ -1,0 +1,91 @@
+{
+ "slug": "gk-12-mercury-hidden-water-ice",
+ "format": "short",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "Mercury पर बर्फ़ कहाँ छिपी है? 🧊",
+ "hook_text": "सूरज के पास। बर्फ़?",
+ "cover_text": "Mercury के अंधेरे गड्ढों में *बर्फ़*!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Mercury's north polar region with a large dark crater holding brilliant white water ice, sunlit gray rocky cratered surface around it, subject in the lower two-thirds, empty dark black space at the top, sharp focus, realistic NASA-style space photography, harsh sunlight, wide shot"
+ },
+ "music": {
+  "epic": [
+   "main"
+  ]
+ },
+ "source": "NASA Jet Propulsion Laboratory, NASA Spacecraft Finds New Mercury Water Ice Evidence (2012); NASA MESSENGER Mission, Polar Deposits (2014)",
+ "lane": 2,
+ "fact_check": {
+  "engage": 7,
+  "weak": "fairly well-known space fact, so only moderately non-obvious"
+ },
+ "hook_score": {
+  "score": 7,
+  "why": "Short catchy 'how' with the shock (ice on the planet nearest the Sun) in the first words; the shadowed-crater answer is not given away.",
+  "was": "सूरज के पास बर्फ़ कहाँ छिपी हुई है?"
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सूरज के सबसे पास वाले ग्रह पर बर्फ़ कैसे?",
+     "caption": "सूरज के सबसे पास वाले ग्रह पर बर्फ़ कैसे?",
+     "prompt": "A small gray cratered planet Mercury with a huge blazing Sun filling half the black sky behind it, white ice glinting inside a deep dark polar crater in the foreground, sharp focus, realistic space photography, bright harsh sunlight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+    },
+    {
+     "vo": "मर्करी सूर्य के सबसे नज़दीक ग्रह है, लेकिन...",
+     "caption": "Mercury सूर्य के सबसे नज़दीक ग्रह है, लेकिन...",
+     "prompt": "A gray cratered planet Mercury in the centre with an enormous blazing Sun right behind it, heavily cratered rocky surface, black starry space, sharp focus, realistic NASA-style space photography, harsh sunlight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+    },
+    {
+     "vo": "इसके उत्तरी ध्रुव के कुछ गड्ढों में पानी की बर्फ़ है।",
+     "caption": "इसके उत्तरी ध्रुव के कुछ गड्ढों में पानी की बर्फ़ है।",
+     "prompt": "Bright white water ice patches inside deep dark craters at the north pole of Mercury, gray rocky cratered ground around them, sharp focus, realistic NASA-style space photography, harsh low sunlight, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+    },
+    {
+     "vo": "इन गड्ढों के अंदर सूरज की रोशनी कभी नहीं पहुँचती।",
+     "caption": "इन गड्ढों के अंदर सूरज की रोशनी कभी नहीं पहुँचती।",
+     "prompt": "A deep round crater on Mercury with a brightly sunlit gray rim and a completely black shadowed floor, looking down into it from above, sharp focus, realistic NASA-style space photography, harsh sunlight, medium shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+    },
+    {
+     "vo": "कुछ ध्रुवीय गड्ढों में तापमान माइनस एक सौ तिहत्तर डिग्री सेल्सियस से भी कम है।",
+     "caption": "कुछ ध्रुवीय गड्ढों में तापमान माइनस 173°C से भी कम है।",
+     "prompt": "A frozen crater floor on Mercury covered in white ice and frost, dark shadowed interior, a sunlit gray rocky rim above it, thin cold mist-free air, sharp focus, realistic NASA-style space photography, harsh sunlight, medium shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+    },
+    {
+     "vo": "नासा के मैसेंजर स्पेसक्राफ़्ट ने इस बर्फ़ के सबूत जुटाए।",
+     "caption": "NASA के MESSENGER spacecraft ने इस बर्फ़ के सबूत जुटाए।",
+     "prompt": "A small NASA-style spacecraft with gold foil body, solar panels and a camera instrument, orbiting close above gray cratered Mercury, the planet's north pole below it, black starry space, sharp focus, realistic space photography, bright sunlight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+    },
+    {
+     "vo": "इसीलिए सूरज के सबसे पास भी बर्फ़ बची हुई है!",
+     "caption": "इसीलिए सूरज के सबसे पास भी बर्फ़ बची हुई है!",
+     "prompt": "Brilliant white water ice glittering inside a deep shadowed crater on Mercury, bright sunlit gray rocky landscape stretching behind it, sharp focus from foreground to background, realistic NASA-style space photography, harsh sunlight, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+    }
+   ]
+  }
+ ]
+}
