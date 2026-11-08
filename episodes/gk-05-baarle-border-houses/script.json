@@ -38,12 +38,12 @@
     {
      "vo": "एक घर, आधा बेल्जियम, आधा नीदरलैंड्स: घर आखिर किसका?",
      "caption": "एक घर, आधा बेल्जियम, आधा नीदरलैंड्स: घर आखिर किसका?",
-     "prompt": "Wide dusk photo of a charming small brick house on a quiet Dutch-Belgian town street, warm lit windows, a thin painted white line running across the pavement straight through the front garden and under the house, cobblestones glowing, dramatic orange sky.",
+     "prompt": "Wide shot of a small brick house on a quiet European street at golden dawn, a bold white painted line running straight across the front path, garden and doorstep, a Belgian-style lamp on one side and a Dutch-style bicycle on the other.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a puzzled elderly couple standing in their front garden pointing in opposite directions, a white line on the paving between their feet, brick house behind them, soft golden evening light.",
-      "Close-up of a white painted line crossing red brick pavement and touching a house doorstep, a pair of worn slippers straddling the line, shallow depth of field, warm light."
+      "Medium shot of a puzzled elderly couple sitting at their kitchen table, a clear line of contrasting floor tiles dividing the room exactly beneath them, warm window light, one raising a questioning hand.",
+      "Close-up of a hand holding an old brass house key over a kitchen floor split into two different tile colours, shallow depth of field, soft morning light."
      ]
     },
     {
@@ -55,11 +55,11 @@
      "seed": 8921,
      "map": {
       "center": [
-       51.4433,
+       51.443,
        4.934
       ],
-      "span": 0.03,
-      "from_span": 0.12,
+      "span": 0.06,
+      "from_span": 0.25,
       "countries": [
        {
         "iso": "BEL",
@@ -74,36 +74,36 @@
       ],
       "points": [
        {
-        "lat": 51.4433,
+        "lat": 51.443,
         "lon": 4.934,
         "label": "बार्ले"
        }
       ]
      },
-     "key": "बार्ले शहर"
+     "key": "बार्ले"
     },
     {
      "vo": "वजह आठ सौ साल से भी पुरानी है, जब ज़मीन के टुकड़े दो घरानों में बँटे थे।",
      "caption": "वजह 800 साल से भी पुरानी है, जब ज़मीन के टुकड़े दो घरानों में बँटे थे।",
-     "prompt": "Wide cinematic photo of a medieval European countryside, two rival noblemen in armour and cloaks on horseback facing each other across green farmland patches divided by hedges, castle on a hill behind, stormy golden light.",
+     "prompt": "Wide shot of a medieval countryside, two noblemen in armour on horseback facing each other across green farmland with colourful banners, dramatic stormy sky breaking into sunlight, castle faintly distant.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of two medieval lords seated at a heavy wooden table over an old parchment map of land plots, candles flickering, advisors watching, warm dark tones.",
-      "Close-up of a hand pressing a red wax seal onto an aged parchment deed, quill and candle beside it, dramatic amber light, sharp detail."
+      "Medium shot of two medieval lords at a stone table, fingers pointing over an unrolled parchment with ink boundary lines, candle glow, rich red and gold clothing.",
+      "Close-up of a red wax seal being pressed onto aged parchment by a ringed hand, flickering candlelight, deep amber tones."
      ],
      "key": "800 साल"
     },
     {
      "vo": "अठारह सौ तैंतालीस की मास्ट्रिख्ट संधि भी इन टुकड़ों को सुलझा नहीं पाई।",
      "caption": "1843 की Maastricht संधि भी इन टुकड़ों को सुलझा नहीं पाई।",
-     "prompt": "Wide photo of a grand 19th-century diplomatic hall with Dutch and Belgian diplomats in black frock coats around a long table covered in papers and maps, chandeliers, tall windows with cold daylight.",
+     "prompt": "Wide shot of nineteenth-century diplomats in black coats around a long polished table in a grand candlelit hall, tall windows, large rolled maps piled in front of them, tense mood.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8923,
      "more": [
-      "Medium shot of a frustrated diplomat in a frock coat rubbing his forehead over a tangled map of small land fragments, ink pots and papers scattered, moody blue light.",
-      "Close-up of a quill pen resting on a signed old treaty parchment with a crumpled map beside it, shallow depth of field, cool window light."
+      "Close-up of a quill pen signing a cream treaty paper, ink glistening, a gloved hand, warm lamp light, blurred officials behind.",
+      "Medium shot of a frustrated diplomat rubbing his forehead over a tangle of scattered small coloured map pieces on a desk, cold blue dusk light from the window."
      ],
      "key": "1843"
     },
@@ -115,11 +115,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "map": {
       "center": [
-       51.4433,
+       51.443,
        4.934
       ],
-      "span": 0.08,
-      "from_span": 0.25,
+      "span": 0.12,
+      "from_span": 0.4,
       "countries": [
        {
         "iso": "NLD",
@@ -134,9 +134,9 @@
       ],
       "points": [
        {
-        "lat": 51.4433,
+        "lat": 51.443,
         "lon": 4.934,
-        "label": "बार्ले-हेर्टोग"
+        "label": "बेल्जियम के टुकड़े"
        }
       ]
      },
@@ -145,38 +145,35 @@
     {
      "vo": "लेकिन रुकिए, जिस घर के बीच से बॉर्डर गुज़रे, वो किस देश का?",
      "caption": "लेकिन रुकिए, जिस घर के बीच से border गुज़रे, वो किस देश का?",
-     "prompt": "Wide photo of a surveyor in a hi-vis vest with a tripod theodolite on a quiet suburban street, a white border line crossing the road and a row of brick houses, bright clear morning light, vivid colours.",
+     "prompt": "Wide shot of a Dutch-Belgian town street where a land surveyor in an orange vest stands with a theodolite on a tripod in front of a house, a thin line across the pavement, overcast soft light.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a puzzled man in his doorway looking down at a white line running across his hallway floor, hand on chin, warm interior light.",
-      "Close-up of a hand holding a small pair of toy flags, one orange and one red-white-blue, over a miniature model house split down the middle, shallow depth of field, bright light."
-     ],
-     "key": "border"
+      "Medium shot of a wide-eyed child standing in front of a house, looking left and right at two different small flags planted in the garden, bright afternoon sun, brick facade.",
+      "Close-up of a small brass border marker stud set into pavement between two different paving stone patterns, wet cobbles glinting, low angle."
+     ]
     },
     {
      "vo": "जिस देश में घर का मेन दरवाज़ा है, घर उसी का, और दरवाज़े की नंबर प्लेट यही बताती है।",
      "caption": "जिस देश में घर का मेन दरवाज़ा है, घर उसी का, और दरवाज़े की number plate यही बताती है।",
-     "prompt": "Wide photo of a brick row house front with a glossy dark front door at the centre, a white line on the pavement leading right up to it, a postman in uniform standing at the step, crisp daylight.",
+     "prompt": "Wide shot of a man standing on a quiet street at dusk pointing firmly at the main front door of a brick house, warm porch lamp glowing, the rest of the house in cool blue shadow.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a town official in a jacket kneeling by a front door, measuring tape in hand, checking the doorstep, neighbours watching, soft morning light.",
-      "Close-up of a brass door knob and small blank metal house plate on a dark green door, sharp detail, warm side light."
-     ],
-     "key": "मेन दरवाज़ा"
+      "Medium shot of a hand gripping a heavy wooden front door handle, door half open with warm interior light spilling onto the doorstep, rich teal paint.",
+      "Close-up of a small blank oval brass plate with decorative grooves beside a front door on red brick, sharp raking light, shallow depth of field."
+     ]
     },
     {
      "vo": "इसलिए एक ही घर, दो देश, और फैसला सिर्फ़ दरवाज़ा करता है।",
      "caption": "इसलिए एक ही घर, दो देश, और फैसला सिर्फ़ दरवाज़ा करता है।",
-     "prompt": "Wide dusk photo of a happy family standing proudly in front of their brick house, front door open with warm light spilling out, a white line on the pavement passing through the garden, cosy street lamps glowing.",
+     "prompt": "Wide shot of a cosy family house at night, lit windows, a happy family standing together in front of the glowing main door, a faint line of light on the lawn splitting the garden into red and orange tones.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a smiling child pointing at a front door, parents laughing behind, cheerful colourful evening light.",
-      "Close-up of a hand turning a key in a front door lock, shallow depth of field, warm golden glow from inside."
-     ],
-     "key": "दरवाज़ा"
+      "Medium shot of a front door lit half in red light and half in orange light, a smiling woman leaning on the frame, evening mood, sharp detail.",
+      "Close-up of a judge-style wooden gavel resting on a house-shaped wooden block beside a brass door key, dramatic side light, dark background."
+     ]
     }
    ]
   }
@@ -201,5 +198,5 @@
    "4": "Map on paper with lettering (\"NIER\") painted in"
   }
  },
- "polished": "2026-11-08 16:45"
+ "polished": "2026-11-08 16:47"
 }

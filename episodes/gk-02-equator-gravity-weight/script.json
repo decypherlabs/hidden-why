@@ -38,23 +38,23 @@
     {
      "vo": "भूमध्य रेखा पर जाते ही आपका वज़न सच में घट जाता है?",
      "caption": "भूमध्य रेखा पर जाते ही आपका वज़न सच में घट जाता है?",
-     "prompt": "Close shot of a young Indian man stepping onto a bathroom scale in a bright home, looking down at the glowing dial with a curious, hopeful expression, warm morning window light, sharp focus on his bare feet and the scale in upper-middle of frame, vivid colours, photoreal.",
+     "prompt": "Close-up of a stunned Indian man in his 30s standing on a bathroom weighing scale at home, looking down at his feet with wide eyes and raised eyebrows, warm morning light from a window, tiled bathroom, sharp vivid colours.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a bathroom scale on a tile floor with an Indian woman's feet on it, a globe sitting beside it on the floor, soft side light, vivid colours, sharp detail, photoreal.",
-      "Extreme close-up of an analog scale needle swinging slightly back from a higher mark, brushed metal dial, dramatic warm light, shallow depth of field, photoreal."
+      "Medium shot of a traveller in a light shirt with a suitcase at an airport window, a plane on the tarmac behind him in golden sunset light, thoughtful curious expression.",
+      "Extreme close-up of an old analog bathroom scale dial with its red needle trembling slightly, bare feet on the platform, shallow depth of field, soft side light."
      ]
     },
     {
      "vo": "ज़्यादातर लोग सोचते हैं, धरती पर ग्रैविटी हर जगह एक जैसी है।",
      "caption": "ज़्यादातर लोग सोचते हैं, धरती पर gravity हर जगह एक जैसी है।",
-     "prompt": "Wide shot of an Indian schoolteacher in a classroom pointing at a large globe, students seated in rows nodding, warm afternoon light through windows, globe large and sharp in upper-middle, vivid colours, photoreal.",
+     "prompt": "Wide shot of a crowded Indian school classroom, a teacher pointing at a large blue globe on her desk while students nod confidently, bright daylight through windows, vivid colours.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a man dropping an apple from his hand in a sunlit Indian courtyard, the apple falling straight down, motion captured, blue sky, vivid colours, photoreal.",
-      "Close-up of a child's amazed face looking up as a ball falls in front of them, bright outdoor light, sharp eyes and open mouth, vivid colours, photoreal."
+      "Medium shot of an Indian schoolboy holding an apple at arm's length and letting it fall toward the floor, mid-air apple sharp, sunlit classroom, confident smile.",
+      "Close-up of a student's hand releasing a steel ball above a wooden desk beside a wooden ruler, dramatic window light, crisp detail, dark background."
      ]
     },
     {
@@ -66,90 +66,102 @@
      "seed": 8922,
      "map": {
       "center": [
-       0,
-       20
+       0.0,
+       25.0
       ],
       "span": 40,
       "from_span": 120,
+      "countries": [
+       {
+        "iso": "KEN",
+        "label": "केन्या",
+        "color": "teal"
+       },
+       {
+        "iso": "UGA",
+        "label": "युगांडा",
+        "color": "teal"
+       },
+       {
+        "iso": "GAB",
+        "label": "गैबॉन",
+        "color": "teal"
+       }
+      ],
       "lines": [
        {
         "lat": 0,
-        "label": "भूमध्य रेखा · 1,670 km/h"
+        "label": "0° · 1,670 km/h"
        }
       ],
       "points": [
        {
-        "lat": 0.0,
-        "lon": -78.4558,
-        "label": "Quito"
-       },
-       {
-        "lat": 0.0,
-        "lon": 32.4,
-        "label": "Uganda"
+        "lat": 0.0167,
+        "lon": 37.0722,
+        "label": "Nanyuki"
        }
       ]
      },
-     "key": "1,670 km"
+     "key": "1,670 km/h"
     },
     {
      "vo": "ये घुमाव हर चीज़ को हल्का सा बाहर की तरफ़ धकेलता है।",
      "caption": "ये घुमाव हर चीज़ को हल्का सा बाहर की तरफ़ धकेलता है।",
-     "prompt": "Medium shot of a spinning playground merry-go-round with Indian children holding the bars, hair and clothes flying outward, motion blur on the edges, golden hour light, vivid colours, children sharp in upper-middle, photoreal.",
+     "prompt": "Medium shot of an Indian boy on a playground merry-go-round spinning fast, his hair and shirt flying outward, other kids gripping the rails, motion-blurred background, golden evening light.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Close-up of water droplets flying outward off a spinning wet bicycle wheel, dramatic backlight, sharp droplets in an arc, dark background, vivid colours, photoreal.",
-      "Wide shot of a person on a fast carnival spinning ride, body pressed outward, laughing, dusk lights streaking behind, vivid colours, photoreal."
+      "Wide shot of a salt-and-pepper desert fairground ride, a chair swing carousel spinning at dusk with chairs flung outward at an angle, glowing sky, vivid orange and purple.",
+      "Close-up of water droplets flying outward off a fast-spinning wet bicycle wheel, backlit by strong sunlight, crisp splashes against dark background."
      ]
     },
     {
      "vo": "लेकिन रुकिए… इसी घुमाव से धरती इक्वेटर पर इक्कीस किलोमीटर फूली हुई है।",
      "caption": "लेकिन रुकिए… इसी घुमाव से धरती equator पर 21 km फूली हुई है।",
-     "prompt": "Wide view from space of Earth with a visibly bulging belly at the equator, exaggerated but realistic, glowing atmosphere edge, deep black background with stars, vivid blues, photoreal.",
+     "prompt": "Wide view from space of planet Earth slightly flattened, glowing blue with a visibly wider belly at the equator, sun rising behind the edge, deep black starry space, dramatic rim light.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8924,
      "more": [
-      "Medium shot of a scientist in a lab holding a slightly squashed rubber ball next to a perfect sphere on a table, cool lab light, sharp detail, vivid colours, photoreal.",
-      "Close-up of a pizza dough being spun by a chef's hands, flattening and widening at the edges, warm kitchen light, flour in the air, vivid colours, photoreal."
+      "Close-up of a clay globe being squeezed on a potter's wheel in a studio, its middle bulging outward as it spins, an Indian potter's hands visible, warm light.",
+      "Medium shot of a scientist in a lab holding a spinning pizza dough disc that flattens and widens at the middle, cool lab light, curious expression."
      ],
      "key": "21 km"
     },
     {
      "vo": "यानी वहाँ आप धरती के सेंटर से और दूर खड़े होते हैं।",
      "caption": "यानी वहाँ आप धरती के center से और दूर खड़े होते हैं।",
-     "prompt": "Wide shot of a lone Indian man standing on a vast flat equatorial plain at sunrise, tiny against a huge curved horizon, long shadow, golden light, vivid colours, photoreal.",
+     "prompt": "Cutaway of planet Earth showing glowing orange core at the center and a tiny figure of a person standing on the bulging equator far from the core, a bright line from core to the person, dramatic dark background.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8925,
      "more": [
-      "Medium shot of a geologist in a hard hat holding a measuring tape stretched across a rocky ground, tropical forest behind, bright sun, vivid colours, sharp, photoreal.",
-      "Close-up of a compass and a small globe held in a hand, the finger tracing the equator line, warm desk light, sharp detail, vivid colours, photoreal."
+      "Wide shot of a lone Indian man standing on a high mountain ridge at sunrise looking far below, tiny against vast golden clouds, sense of distance and height.",
+      "Close-up of a tape measure stretched across a table, pulled long toward a glowing marble at the far end, shallow depth of field, warm tones."
      ]
     },
     {
      "vo": "इससे ग्रैविटी करीब आधा प्रतिशत कम होती है, साठ किलो पर तीन सौ ग्राम!",
      "caption": "इससे gravity करीब 0.5% कम होती है, 60 किलो पर 300 ग्राम!",
-     "prompt": "Close-up of a digital kitchen scale showing a small weight with a hand placing a tiny pinch of salt beside it, light dropping effect, clean bright light, sharp focus, vivid colours, no text, photoreal.",
+     "prompt": "Medium shot of an Indian woman weighing a bag of flour on a kitchen digital scale, the scale showing a slightly lower reading, her surprised face lit by warm window light, colourful spices behind.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of an Indian woman holding a 60 kg-looking sack of flour on her shoulder in a village shop, then a small cup of flour beside it for scale, warm light, vivid colours, photoreal.",
-      "Wide shot of a physicist at a chalkboard-free lab bench with a precision balance and a weight set, dramatic cool light, sharp detail, vivid colours, photoreal."
+      "Close-up of a hand placing a small chocolate bar on a precision lab scale, a tiny weight difference shown by a glowing blue display, sharp macro detail, dark background.",
+      "Wide shot of a tall Indian man in a gym stepping on a large scale, dumbbells and mirrors around, cool blue light, focused expression looking down."
      ],
      "key": "0.5%"
     },
     {
      "vo": "शरीर वही, पर भूमध्य रेखा पर स्केल का वज़न सच में घट जाता है!",
      "caption": "शरीर वही, पर भूमध्य रेखा पर scale का वज़न सच में घट जाता है!",
-     "prompt": "Close shot of an astonished Indian man looking down at a bathroom scale that has dropped to a lower reading, mouth open, bright tropical light through a window, vivid colours, sharp face in upper-middle, photoreal.",
+     "prompt": "Medium shot of a smiling Indian man in a tropical beach town standing on a bathroom scale placed on sand near a palm tree, bright equatorial midday sun, vivid turquoise sea behind, amazed look.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8927,
      "more": [
-      "Wide shot of a scientist on a tropical beach at the equator weighing a metal block on a precision scale, palm trees, bright sunlight, vivid colours, photoreal.",
-      "Extreme close-up of a scale dial needle resting at a lower mark, glinting metal, dramatic light, shallow depth of field, vivid colours, photoreal."
+      "Close-up of a digital scale display on the sand with a pair of sandals beside it, harsh sunlight, tiny sand grains sharp, hot colours.",
+      "Wide aerial shot of a lush green equatorial rainforest coast meeting a blue ocean, a small tourist group standing on a wooden pier, golden light, dramatic clouds."
      ]
     }
    ]
@@ -180,5 +192,5 @@
    "8": "Signs with maps and lettering are in the background. A glowing lava crack runs under the feet, and a blank billboard is present."
   }
  },
- "polished": "2026-11-08 16:45"
+ "polished": "2026-11-08 16:47"
 }

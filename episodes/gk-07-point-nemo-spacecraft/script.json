@@ -38,13 +38,13 @@
     {
      "vo": "आसमान से गिरता स्पेस स्टेशन किसी इंसान पर क्यों नहीं गिरता?",
      "caption": "आसमान से गिरता स्पेस स्टेशन किसी इंसान पर क्यों नहीं गिरता?",
-     "prompt": "Wide dusk shot of blazing white-orange fragments of a space station streaking across a purple sky, trailing smoke, falling toward a vast empty dark ocean with no ships or land, dramatic photoreal light, large fiery streaks in upper-middle.",
+     "prompt": "Wide dusk shot of a huge space station breaking apart in the sky, glowing orange fireballs trailing long streaks of flame above a calm dark ocean, dramatic purple and orange clouds, the burning wreck large in the upper-middle, photoreal, sharp, vivid colours.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8920,
      "more": [
-      "Medium shot of a young Indian boy on a rooftop at twilight looking up in shocked wonder, mouth open, fiery streaks reflected in his wide eyes, warm orange glow on his face, city skyline blurred behind.",
-      "Close-up of a glowing red-hot twisted metal fragment of spacecraft hull tumbling through the air, sparks and plasma trailing, dark sky behind, sharp detail of melted aluminium edges."
+      "Medium shot of a family standing on a beach at twilight, faces lit orange, pointing up with worried shocked expressions at a blazing streak of fire across the sky, waves behind them, photoreal, vivid colour.",
+      "Close-up of a glowing red-hot twisted metal fragment with molten edges falling through dark smoky air, sparks flying, shallow depth of field, intense heat shimmer, photoreal."
      ]
     },
     {
@@ -82,23 +82,13 @@
        -48.8767,
        -123.3933
       ],
-      "span": 60,
-      "from_span": 100,
+      "span": 50,
+      "from_span": 120,
       "points": [
        {
         "lat": -48.8767,
         "lon": -123.3933,
         "label": "Point Nemo"
-       },
-       {
-        "lat": -24.67,
-        "lon": -124.79,
-        "label": "Ducie Island"
-       },
-       {
-        "lat": -27.2053,
-        "lon": -109.4469,
-        "label": "Motu Nui"
        }
       ],
       "circles": [
@@ -115,61 +105,66 @@
     {
      "vo": "लेकिन ऊपर से गुज़रते आई एस एस के एस्ट्रोनॉट्स सिर्फ़ चार सौ किलोमीटर दूर!",
      "caption": "लेकिन ऊपर से गुज़रते ISS के astronauts सिर्फ़ 400 km दूर!",
-     "prompt": "Wide orbital view of the International Space Station with gold solar panels glinting, high above the blue Pacific Ocean curve of Earth, bright sun flare on the horizon, razor-sharp photoreal detail.",
+     "prompt": "Wide view from orbit of the International Space Station with gleaming solar panels floating high above a deep blue ocean and white clouds, thin glowing blue atmosphere on the horizon, sunlight flaring off metal, photoreal, sharp, vivid.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8923,
      "more": [
-      "Medium shot of an astronaut floating inside the station cupola window, looking down at the deep blue ocean far below, soft cool light from the window on their face and suit.",
-      "Close-up of an astronaut's gloved hand pressed on a thick round window, the reflection of a vast blue ocean and white clouds glowing in the glass, tiny stars beyond."
-     ]
+      "Medium shot of an astronaut floating inside the station's cupola, face lit by blue light, gazing down through the big round windows at the vast Pacific Ocean far below, photoreal, warm cabin tones.",
+      "Close-up of a gloved hand and a visor reflection pressed near a thick window, the reflection showing a tiny curved ocean and clouds, soft light, shallow depth of field, photoreal."
+     ],
+     "key": "400 km"
     },
     {
      "vo": "यहाँ ढाई सौ से ज़्यादा स्पेसक्राफ़्ट समुद्र की गहराई में पड़े हैं।",
      "caption": "यहाँ 250 से ज़्यादा spacecraft समुद्र की गहराई में पड़े हैं।",
-     "prompt": "Wide underwater view of a deep dark-blue seabed littered with dozens of crumpled spacecraft parts, rocket tanks and panels half buried in grey sediment, faint shafts of cold blue light from far above.",
+     "prompt": "Wide underwater scene of the dark deep ocean floor scattered with crumpled space debris, a broken gold-foil fuel tank and twisted panels half buried in grey silt, faint blue light rays from above, photoreal, sharp.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a submersible robot's bright spotlight illuminating a dented white rocket fuel tank lying on the silty ocean floor, floating particles in the beam.",
-      "Close-up of a corroded metal spacecraft panel on the seabed, encrusted with pale barnacles, a small ghostly deep-sea fish passing in the light beam."
-     ]
+      "Medium shot of a deep-sea robot submersible with bright lamps lighting a dented metallic sphere tank resting on the seabed, drifting particles in the beam, photoreal, cool blue and warm white light.",
+      "Close-up of a rusted, barnacle-covered metal panel on the seabed with a small pale crab crawling across it, bright torch light, dark water, macro detail, photoreal."
+     ],
+     "key": "250"
     },
     {
      "vo": "रूस का मीर स्पेस स्टेशन भी दो हज़ार एक में यहीं गिराया गया।",
      "caption": "रूस का Mir स्पेस स्टेशन भी 2001 में यहीं गिराया गया।",
-     "prompt": "Wide night sky over the Pacific, a huge old space station breaking apart into dozens of glowing orange fragments with long fiery trails, ocean glinting below, dramatic reentry light.",
+     "prompt": "Wide night shot of a huge space station breaking into many blazing fireballs streaking across the sky over the Pacific, long orange trails reflected on dark water, dramatic and cinematic, photoreal, sharp.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8925,
      "more": [
-      "Medium shot of tense Russian flight controllers in a 2001-era mission control room watching a big screen with a glowing trajectory line, blue monitor light on serious faces.",
-      "Close-up of a massive fiery fragment slamming into the ocean, a huge white splash and steam cloud erupting, dawn light orange on the water."
-     ]
+      "Medium shot of Russian engineers in a 2001-era control room, faces lit by green monitor glow, watching a screen with a descending curve, tense expressions, wall of old consoles, photoreal.",
+      "Close-up of a tense hand hovering over an old Soviet-style control panel with chunky switches and a glowing red button, dim amber light, shallow depth of field, photoreal."
+     ],
+     "key": "2001"
     },
     {
      "vo": "बड़े टुकड़े हवा में पूरे नहीं जलते, और यहाँ नीचे कोई इंसान नहीं।",
      "caption": "बड़े टुकड़े पूरे नहीं जलते, और यहाँ नीचे कोई इंसान नहीं!",
-     "prompt": "Wide aerial shot of large glowing metal chunks surviving reentry, still red-hot, plunging toward a completely empty open ocean to the horizon, no ships, no land, golden sunset light.",
+     "prompt": "Wide aerial shot of a few big glowing metal chunks splashing into a vast empty blue ocean, huge white plumes of water, tiny trails of smoke above, not a single ship or island in sight, bright daylight, photoreal, vivid.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8926,
      "more": [
-      "Medium shot of a lone albatross gliding low over endless calm empty dark-blue waves, soft pink dawn sky, not a human or ship anywhere.",
-      "Close-up of a heavy titanium fuel tank sphere sinking just below the surface, bubbles streaming up, sunlight rippling on its scorched metal."
-     ]
+      "Medium shot from an airplane window of endless empty dark-blue sea to the horizon with a faint arc of curved Earth, no land or boats anywhere, bright sunlight on the glass edge, photoreal.",
+      "Close-up of a massive charred titanium fuel tank with melted scorched surface, still glowing at its edges, held against a dark smoky background, dramatic light, photoreal, sharp."
+     ],
+     "key": "कोई इंसान नहीं"
     },
     {
      "vo": "और दो हज़ार तीस के बाद, आई एस एस भी यहीं डुबाया जाएगा।",
      "caption": "और 2030 के बाद, ISS भी यहीं डुबाया जाएगा।",
-     "prompt": "Wide orbital shot of the International Space Station crossing in front of the glowing blue edge of Earth at sunrise, long solar arrays lit gold, looking calm and old, deep black space.",
+     "prompt": "Wide silhouette of the International Space Station against a blazing orange sunrise on Earth's curved horizon, solar panels edged in gold light, deep blue space above, photoreal, cinematic, sharp.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8927,
      "more": [
-      "Medium shot of a space tug spacecraft with large thrusters approaching and docking to a station module, Earth blurred below, crisp white and silver hardware in hard sunlight.",
-      "Close-up of weathered gold insulation foil and a scratched solar panel edge on the space station, tiny micrometeorite pits visible, Earth's blue glow reflected on the metal."
-     ]
+      "Medium shot of a flight controller at a large dim mission control desk, face lit blue, watching a giant wall screen showing a glowing curved path toward the ocean, other staff blurred behind, photoreal.",
+      "Close-up of a hand holding a tiny scale model of a space station above a clear glass bowl of water on a wooden table, soft window light, shallow depth of field, photoreal."
+     ],
+     "key": "2030"
     }
    ]
   }
@@ -193,5 +188,5 @@
  },
  "voice_ok": "voice-gk-07-point-nemo-spacecraft-c502bcc937",
  "voice_approved_at": "2026-11-08 15:47",
- "polished": "2026-11-08 16:44"
+ "polished": "2026-11-08 16:47"
 }

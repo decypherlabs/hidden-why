@@ -39,10 +39,14 @@
     {
      "vo": "आधी ऑक्सीजन में ये पंछी हिमालय पार कैसे करता है?",
      "caption": "आधी oxygen में ये पंछी हिमालय पार कैसे करता है?",
-     "prompt": "One bar-headed goose flying low over jagged snow-covered Himalayan peaks, pale grey body, white head with two black bars, orange bill, wings spread, deep-blue sky, bright morning sun, goose large in frame, sharp focus, wide shot",
+     "prompt": "Wide shot of a lone bar-headed goose with two dark stripes on its white head, wings spread, flying high above jagged snow-covered Himalayan peaks at golden sunrise, thin icy air, deep blue sky, the bird large in the upper-middle, razor sharp, photoreal.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8920
+     "seed": 8920,
+     "more": [
+      "Medium shot of a flock of geese in V formation crossing a huge Himalayan ridge, wind-blown snow plumes streaming off the summit, cold pink and blue dawn light, dramatic scale.",
+      "Close-up of a bar-headed goose's face in flight, beak slightly open as if breathing hard, tiny ice crystals on its feathers, soft blurred white mountains behind, vivid detail."
+     ]
     },
     {
      "vo": "इसका नाम है बार-हेडेड गूज़, और ये हर साल हिमालय पार करता है.",
@@ -50,54 +54,120 @@
      "prompt": "One bar-headed goose standing on a snowy Himalayan mountain ridge, white head with two black bars, pale grey body, orange bill and legs, large in frame, towering snow peaks behind, bright daylight, plain rocks and snow, sharp focus, close-up",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8921
+     "seed": 8921,
+     "map": {
+      "center": [
+       28.0,
+       85.0
+      ],
+      "span": 14,
+      "from_span": 40,
+      "countries": [
+       {
+        "iso": "IND",
+        "label": "भारत",
+        "color": "teal"
+       },
+       {
+        "iso": "NPL",
+        "label": "नेपाल",
+        "color": "yellow"
+       },
+       {
+        "iso": "CHN",
+        "label": "तिब्बत (चीन)",
+        "color": "red"
+       }
+      ],
+      "areas": [],
+      "lines": [],
+      "points": [
+       {
+        "lat": 27.9881,
+        "lon": 86.925,
+        "label": "माउंट एवरेस्ट"
+       }
+      ],
+      "circles": []
+     },
+     "key": "bar-headed goose"
     },
     {
      "vo": "सात हज़ार मीटर पर हवा में ऑक्सीजन आधी से भी कम होती है.",
      "caption": "7,000 मीटर पर हवा में oxygen आधी से भी कम होती है.",
-     "prompt": "A V-shaped flock of bar-headed geese flying high above white clouds beside a towering icy Himalayan summit, pale grey bodies, white heads with black bars, dark blue thin sky, bright sunlight, sharp focus, wide shot",
+     "prompt": "Wide shot of a high Himalayan ridge at 7,000 metres, thin dark-blue sky, wind-scoured snow and rock, a tiny mountaineer in a red jacket on the ridge, crisp air, dramatic sunlight, no birds, photoreal.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8922
+     "seed": 8922,
+     "more": [
+      "Medium shot of a handheld oxygen meter held by a gloved hand, its needle sitting low, a vast snowy peak blurred behind, harsh cold light, clear and sharp.",
+      "Close-up of a gloved hand holding a clear balloon half deflated with thin air inside, frosty glacier sparkles behind, a visual of half the air missing, bright and sharp."
+     ],
+     "key": "7,000 मीटर"
     },
     {
      "vo": "वहाँ इंसान बिना ऑक्सीजन सिलेंडर के कुछ कदम चलने में हाँफ जाते हैं.",
      "caption": "वहाँ इंसान बिना oxygen cylinder के कुछ कदम चलने में हाँफ जाते हैं.",
-     "prompt": "A mountaineer in a red down jacket and hood seen from behind, bent forward with both hands on his knees, gasping for breath, white breath vapour in the freezing air, walking on a narrow snowy Himalayan ridge, deep snow all around, plain snow and rock, bright daylight, medium shot",
+     "prompt": "Medium shot of an exhausted Indian mountaineer bent over with hands on knees, gasping in snow at high altitude, breath steaming, an empty oxygen cylinder lying in the snow beside them, bright cold sunlight.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8923
+     "seed": 8923,
+     "more": [
+      "Wide shot of a line of Indian climbers trudging slowly up a steep snow slope, one collapsed sitting, huge white mountain wall above, harsh midday light.",
+      "Close-up of an Indian climber's frosted face with wide open mouth gasping for breath, ice on the beard and goggles pushed up, eyes tired, shallow depth of field."
+     ],
+     "key": "oxygen cylinder"
     },
     {
      "vo": "लेकिन ये हंस वहाँ पंख फड़फड़ाकर उड़ता है, एक तो सात हज़ार दो सौ नब्बे मीटर तक रिकॉर्ड हुआ.",
      "caption": "लेकिन ये हंस वहाँ पंख फड़फड़ाकर उड़ता है, एक तो 7,290 मीटर तक record हुआ.",
-     "prompt": "One bar-headed goose with wings fully spread flapping high above snow-capped Himalayan summits, pale grey body, white head with two black bars, orange bill, sea of clouds far below, dark blue sky, bright sun on its feathers, sharp focus, medium shot",
+     "prompt": "Wide dramatic shot of a bar-headed goose flapping its wings hard, flying alone above the cloud-piercing summit of a giant Himalayan peak, strong side light, snow banners blowing, the bird large and crisp in the upper-middle.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8924
+     "seed": 8924,
+     "more": [
+      "Medium shot from below of the goose with powerful wings mid-downstroke against a deep indigo high-altitude sky, feathers spread and glowing in sunlight.",
+      "Close-up of the goose's strong flapping wing, every feather sharp, snow-dusted summit blurred behind, golden rim light, a feeling of effort and power."
+     ],
+     "key": "7,290 मीटर"
     },
     {
      "vo": "राज़ है इसका खून: इसका हीमोग्लोबिन ऑक्सीजन को बहुत कसकर पकड़ता है.",
      "caption": "राज़ है इसका खून: इसका hemoglobin oxygen को बहुत कसकर पकड़ता है.",
-     "prompt": "Countless bright red round blood cells flowing through a blood vessel, glossy and vivid, deep crimson tones, evenly lit, sharp focus from front to back, macro shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Macro close-up of bright red blood cells flowing through a clear vessel, each cell glowing as it clutches tiny golden oxygen bubbles tightly, glossy lab-like lighting, vivid red and gold, sharp and dramatic.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a scientist in a white coat in a modern lab looking at a vial of dark red blood under bright light, a microscope beside them, tense focused face.",
+      "Close-up of a gloved hand gripping a glowing golden sphere very tightly with fingers squeezing, symbolising a strong hold, dark background, rim light."
+     ],
+     "key": "hemoglobin"
     },
     {
      "vo": "साथ में बड़े फेफड़े, गहरी साँसें, और मसल्स तक ज़्यादा खून की नलियाँ.",
      "caption": "साथ में बड़े फेफड़े, गहरी साँसें, और muscles तक ज़्यादा खून की नलियाँ.",
-     "prompt": "One bar-headed goose with wings raised high in a powerful downward flap, pale grey body, white head with two black bars, broad chest, bill open with white breath vapour in freezing air, snowy Himalayan peaks behind, bright daylight, sharp focus, close-up",
+     "prompt": "Cutaway illustration-style photoreal view of a bird's chest showing large pink lungs expanding with deep breath, glowing air streams entering, clean dark background, vivid colours, sharp.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8926
+     "seed": 8926,
+     "more": [
+      "Macro close-up of a dense web of fine red blood capillaries wrapped around bright pink muscle fibres, rich blood flowing, glossy light, vivid detail.",
+      "Medium shot of a vet-scientist's hands holding a bar-headed goose gently in a field research station, chest feathers parted slightly, soft morning light, Indian wetland behind."
+     ],
+     "key": "बड़े फेफड़े"
     },
     {
      "vo": "इसीलिए आधी ऑक्सीजन में भी, ये पंछी हिमालय पार कर जाता है.",
      "caption": "इसीलिए आधी oxygen में भी, ये पंछी हिमालय पार कर जाता है.",
-     "prompt": "A flock of bar-headed geese in V formation flying over the snowy crest of the Himalayas toward green valleys beyond, pale grey bodies, white heads with black bars, warm golden evening sun on their wings, sharp focus, wide shot",
+     "prompt": "Wide shot of a flock of bar-headed geese gliding down to land on a calm blue Himalayan lake at sunset, orange sky reflecting on the water, snow peaks across the shore, peaceful and triumphant.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8927
+     "seed": 8927,
+     "more": [
+      "Medium shot of an Indian trekker on a lakeside rock looking up in awe at geese flying over snowy peaks, warm backlight, wide-eyed smile.",
+      "Close-up of a single bar-headed goose's head with two black stripes, resting on the water, droplets glistening, calm golden light, sharp eye detail."
+     ],
+     "key": "हिमालय पार"
     }
    ]
   }
@@ -134,5 +204,6 @@
    "8": "Foreign-script signs and painted text",
    "C": "Two heads on the goose, a duplicated face"
   }
- }
+ },
+ "polished": "2026-11-08 16:46"
 }

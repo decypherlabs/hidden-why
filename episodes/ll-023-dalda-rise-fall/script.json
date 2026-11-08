@@ -49,7 +49,8 @@
       "Close-up of a plain yellow tin with a painted green palm tree emblem, no text, glistening with oil drops, lit by the orange glow of a frying fire",
       "An Indian mother in a 1960s cotton sari scooping white vanaspati from a yellow tin into a hot iron kadhai, soft dawn light through a kitchen window"
      ],
-     "caption": "एक पीला डिब्बा, उस पर हरा palm tree। इसने कई घरों और halwai की दुकानों में घी की जगह ली।"
+     "caption": "एक पीला डिब्बा, उस पर हरा palm tree। इसने कई घरों और halwai की दुकानों में घी की जगह ली।",
+     "label": "DALDA · घी की जगह लेने वाला पीला डिब्बा"
     },
     {
      "vo": "तो जिस दालदा ने घी की जगह ली, उसने रसोई में अपनी जगह कैसे खो दी?",
@@ -66,7 +67,8 @@
      "prompt": "An old Indian man with a white moustache in a white vest placing a yellow tin with a green palm tree onto a wooden shelf in a small Indian grocery shop, jars of lentils and rice sacks around, a bare bulb overhead, rainy dusk outside, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "अगर आप सोचते हैं कि Dalda बंद हो चुका है, तो आप ग़लत हैं।"
+     "caption": "अगर आप सोचते हैं कि Dalda बंद हो चुका है, तो आप ग़लत हैं।",
+     "title": "DALDA बंद नहीं"
     },
     {
      "vo": "और आख़िर में, दालदा के नाम की वो बात, जो ज़्यादातर लोग नहीं जानते।",
@@ -87,7 +89,10 @@
       "A crowded 1950s Indian street market where an Indian food inspector in a white uniform examines a brass pot of ghee, harsh noon sun",
       "Two Indian executives in 2000s suits shaking hands across a glass boardroom table, cold overcast window light, faces partly in shadow"
      ],
-     "caption": "Holland से आए vanaspati से, 1950s के मिलावट विवाद तक, और 2003 के एक सौदे तक। ये कहानी है एक substitute की, जो ख़ुद एक नाम बन गया।"
+     "caption": "Holland से आए vanaspati से, 1950s के मिलावट विवाद तक, और 2003 के एक सौदे तक। ये कहानी है एक substitute की, जो ख़ुद एक नाम बन गया।",
+     "quote": {
+      "text": "ये कहानी है एक substitute की, जो ख़ुद एक नाम बन गया।"
+     }
     }
    ]
   },
@@ -103,7 +108,8 @@
      "more": [
       "Close-up of golden ghee poured from a brass ladle over a stack of puris on a banana leaf, lantern light"
      ],
-     "caption": "1920s का India। शादी हो या त्योहार, घी के बिना खाना अधूरा माना जाता था।"
+     "caption": "1920s का India। शादी हो या त्योहार, घी के बिना खाना अधूरा माना जाता था।",
+     "date": "1920s"
     },
     {
      "vo": "लेकिन घी महँगा था। आम परिवार के लिए रोज़ घी में तलना आसान नहीं था। ज़रूरत थी एक सस्ते विकल्प की।",
@@ -122,7 +128,6 @@
      "more": [
       "Indian dock workers in turbans carrying crates of tins down a gangplank, the ship's hull towering behind, misty dawn"
      ],
-     "label": "1920s · Vanaspati reaches India",
      "caption": "इसी दौर में Europe से एक नई चीज़ India पहुँची: vanaspati।"
     },
     {
@@ -134,7 +139,8 @@
       "A 1920s European laboratory with copper vats and pipes, a European chemist in a white coat checking a gauge, bright daylight",
       "Side by side on a wooden table: a brass bowl of yellow ghee and a glass bowl of white solid vanaspati, soft window light"
      ],
-     "caption": "ये vegetable oil था। Hydrogen गैस की मदद से उसे जमाया जाता था, इसे कहते हैं hydrogenation। मक़सद: वो घी की तरह गाढ़ा दिखे, और घी से सस्ता पड़े।"
+     "caption": "ये vegetable oil था। Hydrogen गैस की मदद से उसे जमाया जाता था, इसे कहते हैं hydrogenation। मक़सद: वो घी की तरह गाढ़ा दिखे, और घी से सस्ता पड़े।",
+     "title": "HYDROGENATION"
     },
     {
      "vo": "दादा एंड को नाम की एक कंपनी इसे हॉलैंड से इम्पोर्ट करती थी। यानी इंडिया में बिकने वाला वनस्पति बाहर बनकर आता था।",
@@ -144,8 +150,14 @@
      "more": [
       "A rainy 1920s Dutch harbour, Dutch dock workers loading crates of tins onto a cargo ship, grey sky"
      ],
-     "label": "DADA & CO · Vanaspati importers",
-     "caption": "Dada & Co नाम की एक कंपनी इसे Holland से import करती थी। यानी India में बिकने वाला vanaspati बाहर बनकर आता था।"
+     "caption": "Dada & Co नाम की एक कंपनी इसे Holland से import करती थी। यानी India में बिकने वाला vanaspati बाहर बनकर आता था।",
+     "place": {
+      "name": "HOLLAND",
+      "sub": "DADA & CO · IMPORT",
+      "query": "Netherlands",
+      "lat": 52.2435,
+      "lon": 5.6343
+     }
     },
     {
      "vo": "उधर लीवर का सनलाइट साबुन उन्नीस सौ अट्ठासी से इंडिया में बिक रहा था।",
@@ -155,7 +167,8 @@
      "more": [
       "Close-up of an Indian woman's wet hands lathering a plain soap bar at a village well, bright morning"
      ],
-     "caption": "उधर Lever का Sunlight साबुन 1888 से India में बिक रहा था।"
+     "caption": "उधर Lever का Sunlight साबुन 1888 से India में बिक रहा था।",
+     "date": "1888"
     },
     {
      "vo": "अब लीवर के सामने सवाल था: वनस्पति बाहर से मँगाते रहें, या इंडिया में ही बनाएँ?",
@@ -165,8 +178,8 @@
      "more": [
       "A brass balance scale with a toy steamship on one pan and a small brick factory model on the other, dramatic side light in darkness"
      ],
-     "title": "मँगाएँ, या *बनाएँ*?",
-     "caption": "अब Lever के सामने सवाल था: vanaspati बाहर से मँगाते रहें, या India में ही बनाएँ?"
+     "caption": "अब Lever के सामने सवाल था: vanaspati बाहर से मँगाते रहें, या India में ही बनाएँ?",
+     "label": "LEVER · Sunlight साबुन वाली कंपनी"
     },
     {
      "vo": "उन्नीस सौ इकतीस में हिंदुस्तान वनस्पति मैन्युफैक्चरिंग कंपनी बनी, लीवर की अपनी कंपनी। मक़सद साफ़ था: वनस्पति अब इंडिया में ही बनेगा।",
@@ -177,8 +190,8 @@
       "Inside a new 1930s Indian factory, Indian workers in khaki tending huge steel vats and pipes, bright light from high windows",
       "Close-up of an Indian worker's hand turning a large brass valve, steam rising"
      ],
-     "label": "1931 · Hindustan Vanaspati Mfg. Co.",
-     "caption": "1931 में Hindustan Vanaspati Manufacturing Company बनी, Lever की अपनी कंपनी। मक़सद साफ़ था: vanaspati अब India में ही बनेगा।"
+     "caption": "1931 में Hindustan Vanaspati Manufacturing Company बनी, Lever की अपनी कंपनी। मक़सद साफ़ था: vanaspati अब India में ही बनेगा।",
+     "date": "1931"
     },
     {
      "vo": "उन्नीस सौ सैंतीस में दालदा वनस्पति बाज़ार में लॉन्च हुआ।",
@@ -188,8 +201,8 @@
      "more": [
       "An Indian shopkeeper in a 1930s Bombay kirana shop placing the first yellow tins on his shelf, morning light"
      ],
-     "title": "1937: *Dalda* आया",
-     "caption": "1937 में Dalda vanaspati बाज़ार में launch हुआ।"
+     "caption": "1937 में Dalda vanaspati बाज़ार में launch हुआ।",
+     "date": "1937"
     },
     {
      "vo": "फ़ैक्ट्री तैयार थी, माल तैयार था। पर एक सवाल अभी बाक़ी था, और वही सबसे मुश्किल था: लोग घी छोड़कर इसे क्यों ख़रीदें?",
@@ -199,7 +212,10 @@
      "more": [
       "A small yellow tin standing in front of a large gleaming brass ghee pot on stone steps, dark stormy sky"
      ],
-     "caption": "Factory तैयार थी, माल तैयार था। पर एक सवाल अभी बाक़ी था, और वही सबसे मुश्किल था: लोग घी छोड़कर इसे क्यों ख़रीदें?"
+     "caption": "Factory तैयार थी, माल तैयार था। पर एक सवाल अभी बाक़ी था, और वही सबसे मुश्किल था: लोग घी छोड़कर इसे क्यों ख़रीदें?",
+     "quote": {
+      "text": "लोग घी छोड़कर इसे क्यों ख़रीदें?"
+     }
     }
    ]
   },
@@ -225,7 +241,8 @@
       "Indian sign painters on bamboo scaffolding painting a giant yellow tin on a wall, bright afternoon",
       "A kirana shop front hung with painted tin plates of a yellow tin and palm tree, no text, Indian shoppers passing, late morning"
      ],
-     "caption": "ऐसे में किसी नई चीज़ पर लोगों का भरोसा जीतना आसान नहीं था। तो Lever ने बड़े पैमाने पर advertising शुरू की, दीवारों से लेकर दुकानों तक।"
+     "caption": "ऐसे में किसी नई चीज़ पर लोगों का भरोसा जीतना आसान नहीं था। तो Lever ने बड़े पैमाने पर advertising शुरू की, दीवारों से लेकर दुकानों तक।",
+     "title": "ADVERTISING"
     },
     {
      "vo": "कहा जाता है, लीवर की ऐड एजेंसी लिंटास ने दालदा के लिए सिनेमा में फ़िल्म तक चलाई। उस दौर के लिए ये बड़ी बात थी।",
@@ -236,8 +253,8 @@
       "Close-up of an old film projector whirring in a dark booth",
       "Indian families in 1940s clothes watching the screen in wonder, faces lit silver"
      ],
-     "label": "LINTAS · Lever's ad agency",
-     "caption": "कहा जाता है, Lever की ad agency Lintas ने Dalda के लिए cinema में film तक चलाई। उस दौर के लिए ये बड़ी बात थी।"
+     "caption": "कहा जाता है, Lever की ad agency Lintas ने Dalda के लिए cinema में film तक चलाई। उस दौर के लिए ये बड़ी बात थी।",
+     "label": "LINTAS · Lever की ad agency"
     },
     {
      "vo": "और फिर वो पहचान: पीला डिब्बा, उस पर हरा पाम ट्री। दुकान में दूर से दिख जाता था।",
@@ -258,7 +275,13 @@
       "Close-up of a few old coins beside a yellow tin on a worn wooden counter",
       "An Indian shopkeeper smiling as he wraps a yellow tin in newspaper for a customer"
      ],
-     "caption": "Dalda घी से सस्ता था, और घी जितनी जल्दी ख़राब नहीं होता था। दुकानदार और ग्राहक, दोनों के लिए ये बड़ी बात थी।"
+     "caption": "Dalda घी से सस्ता था, और घी जितनी जल्दी ख़राब नहीं होता था। दुकानदार और ग्राहक, दोनों के लिए ये बड़ी बात थी।",
+     "split": {
+      "left": "16",
+      "right": "19",
+      "l": "घी",
+      "r": "DALDA"
+     }
     },
     {
      "vo": "जिस घर में घी रोज़ नहीं आ पाता था, वहाँ अब रोज़ की तलाई हो सकती थी।",
@@ -288,7 +311,8 @@
       "Close-up of jalebi spirals sizzling in a giant kadhai, orange flames below",
       "A crowd of Indian customers in 1950s clothes waiting at a sweet-shop counter, lantern light"
      ],
-     "caption": "Halwai की कड़ाही में भी Dalda पहुँच गया। पकौड़े, पूरियाँ, जलेबी, रोज़ की तलाई में Dalda चलने लगा।"
+     "caption": "Halwai की कड़ाही में भी Dalda पहुँच गया। पकौड़े, पूरियाँ, जलेबी, रोज़ की तलाई में Dalda चलने लगा।",
+     "title": "HALWAI की कड़ाही"
     },
     {
      "vo": "कई घरों में भी रोज़ के खाने के लिए दालदा ने घी की जगह ले ली। घी रसोई में रहा, बस रोज़ की तलाई में दालदा आ गया।",
@@ -298,7 +322,6 @@
      "more": [
       "An Indian grandmother smiling as she fries puris while children wait with steel plates, warm kitchen glow"
      ],
-     "title": "घी की *जगह*",
      "caption": "कई घरों में भी रोज़ के खाने के लिए Dalda ने घी की जगह ले ली। घी रसोई में रहा, बस रोज़ की तलाई में Dalda आ गया।"
     },
     {
@@ -309,7 +332,13 @@
      "more": [
       "Close-up of an older Indian worker's face breaking into a proud smile, sunrise light on his cheek"
      ],
-     "caption": "जो कभी Holland से import होकर आता था, वो अब India की factory से निकलकर India के घरों तक पहुँच रहा था।"
+     "caption": "जो कभी Holland से import होकर आता था, वो अब India की factory से निकलकर India के घरों तक पहुँच रहा था।",
+     "split": {
+      "left": "10",
+      "right": "25",
+      "l": "HOLLAND से",
+      "r": "INDIA में"
+     }
     },
     {
      "vo": "उन्नीस सौ छप्पन में लीवर की इंडियन कंपनियाँ मिलकर हिंदुस्तान लीवर बनीं। और कई लोगों के लिए वनस्पति का दूसरा नाम ही दालदा बन गया।",
@@ -319,8 +348,8 @@
      "more": [
       "An Indian customer pointing at yellow tins while the kirana owner laughs, bright midday light through the shop door"
      ],
-     "label": "1956 · Hindustan Lever is formed",
-     "caption": "1956 में Lever की Indian कंपनियाँ मिलकर Hindustan Lever बनीं। और कई लोगों के लिए vanaspati का दूसरा नाम ही Dalda बन गया।"
+     "caption": "1956 में Lever की Indian कंपनियाँ मिलकर Hindustan Lever बनीं। और कई लोगों के लिए vanaspati का दूसरा नाम ही Dalda बन गया।",
+     "date": "1956"
     },
     {
      "vo": "दालदा अब हर जगह था। पर किसे पता था, जिस बात ने इसे बड़ा बनाया, वही एक दिन शक की वजह बनेगी।",
@@ -330,7 +359,8 @@
      "more": [
       "An Indian man in a lantern-lit godown at night tipping a yellow tin over a large brass pot, face half in shadow"
      ],
-     "caption": "Dalda अब हर जगह था। पर किसे पता था, जिस बात ने इसे बड़ा बनाया, वही एक दिन शक की वजह बनेगी।"
+     "caption": "Dalda अब हर जगह था। पर किसे पता था, जिस बात ने इसे बड़ा बनाया, वही एक दिन शक की वजह बनेगी।",
+     "label": "HINDUSTAN LEVER · Lever की Indian कंपनियों का मेल"
     }
    ]
   },
@@ -347,7 +377,8 @@
       "Two Indian men in a lantern-lit back room stirring white fat into a vat of ghee, tense faces",
       "Close-up of white vanaspati swirling into golden ghee in a metal vat"
      ],
-     "caption": "1950s। घी महँगा था, vanaspati सस्ता। तो कुछ मिलावटख़ोर घी में vanaspati मिलाकर उसे शुद्ध घी बताकर बेचने लगे।"
+     "caption": "1950s। घी महँगा था, vanaspati सस्ता। तो कुछ मिलावटख़ोर घी में vanaspati मिलाकर उसे शुद्ध घी बताकर बेचने लगे।",
+     "date": "1950s"
     },
     {
      "vo": "सोचिए: आप बाज़ार से महँगा शुद्ध घी लाएँ, और उसमें वनस्पति मिला हो।",
@@ -383,7 +414,7 @@
      "prompt": "A single yellow tin under one harsh spotlight in total darkness, a drop of white fat falling into a brass ghee pot beside it, sharp focus, close-up",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "*मिलावट*।"
+     "drop": true
     },
     {
      "vo": "वनस्पति को लोग 'नक़ली घी' कहने लगे। बात पार्लियामेंट तक पहुँची, और बैन तक की माँग उठी।",
@@ -394,8 +425,14 @@
       "An Indian MP in a white Gandhi cap standing to speak, hand raised, face lit by window light",
       "Indian protesters in 1950s clothes holding blank placards outside a government building, overcast"
      ],
-     "label": "1950s · The vanaspati debate",
-     "caption": "Vanaspati को लोग 'नक़ली घी' कहने लगे। बात Parliament तक पहुँची, और ban तक की माँग उठी।"
+     "caption": "Vanaspati को लोग 'नक़ली घी' कहने लगे। बात Parliament तक पहुँची, और ban तक की माँग उठी।",
+     "place": {
+      "name": "PARLIAMENT",
+      "sub": "VANASPATI BAN की माँग · 1950s",
+      "query": "Sansad Bhavan, New Delhi",
+      "lat": 28.6202,
+      "lon": 77.2103
+     }
     },
     {
      "vo": "बैन नहीं लगा। लेकिन वनस्पति पर सख़्त नियम बने। पहला: उसे घी जैसा रंग नहीं दिया जा सकता था।",
@@ -405,7 +442,12 @@
      "more": [
       "An Indian food inspector in a bright 1950s laboratory holding a jar of pale white vanaspati beside a jar of yellow ghee"
      ],
-     "caption": "Ban नहीं लगा। लेकिन vanaspati पर सख़्त नियम बने। पहला: उसे घी जैसा रंग नहीं दिया जा सकता था।"
+     "caption": "Ban नहीं लगा। लेकिन vanaspati पर सख़्त नियम बने। पहला: उसे घी जैसा रंग नहीं दिया जा सकता था।",
+     "news": {
+      "headline": "Vanaspati पर ban नहीं, सख़्त नियम बने",
+      "sub": "घी जैसा रंग देना मना",
+      "date": "1950s"
+     }
     },
     {
      "vo": "बाद में तिल का तेल मिलाना भी ज़रूरी किया गया, ताकि एक सिंपल टेस्ट से घी में मिलावट पकड़ी जा सके।",
@@ -416,7 +458,8 @@
       "An Indian lab technician watching a test tube turn red-pink, cool white lab light",
       "Indian inspectors in khaki checking ghee samples at a market stall, overcast"
      ],
-     "caption": "बाद में तिल का तेल मिलाना भी ज़रूरी किया गया, ताकि एक simple test से घी में मिलावट पकड़ी जा सके।"
+     "caption": "बाद में तिल का तेल मिलाना भी ज़रूरी किया गया, ताकि एक simple test से घी में मिलावट पकड़ी जा सके।",
+     "title": "तिल का तेल"
     },
     {
      "vo": "ये नियम हर वनस्पति पर लगे, सिर्फ़ दालदा पर नहीं। मिलावट पकड़ना आसान हुआ, और दालदा बिकता रहा।",
@@ -459,8 +502,8 @@
       "An Indian man in a 1990s office shirt jogging in a city park at dawn",
       "An Indian woman reading a health magazine at a kitchen table, the pages blurred, overcast morning light"
      ],
-     "label": "1990s · A new middle class",
-     "caption": "1990s। India बदल रहा था। Cable TV, नई नौकरियाँ, और रसोई की बातों में एक नया शब्द: health। फिर 2000s में trans fat पर सवाल उठे।"
+     "caption": "1990s। India बदल रहा था। Cable TV, नई नौकरियाँ, और रसोई की बातों में एक नया शब्द: health। फिर 2000s में trans fat पर सवाल उठे।",
+     "date": "1990s"
     },
     {
      "vo": "पुराने तरीक़े के वनस्पति में काफ़ी ट्रांस फ़ैट होता था। डॉक्टर्स इसे दिल की बीमारी के ख़तरे से जोड़ने लगे।",
@@ -471,7 +514,8 @@
       "Macro view of white solid fat glistening under a cold blue light like a specimen",
       "Close-up of the worried patient's wife gripping her sari edge, fluorescent light"
      ],
-     "caption": "पुराने तरीक़े के vanaspati में काफ़ी trans fat होता था। Doctors इसे दिल की बीमारी के ख़तरे से जोड़ने लगे।"
+     "caption": "पुराने तरीक़े के vanaspati में काफ़ी trans fat होता था। Doctors इसे दिल की बीमारी के ख़तरे से जोड़ने लगे।",
+     "title": "TRANS FAT"
     },
     {
      "vo": "दो हज़ार नौ में सी एस ई की एक स्टडी आई। वनस्पति के कई ब्रांड्स में ट्रांस फ़ैट, डेनमार्क की दो प्रतिशत की सीमा से कई गुना ज़्यादा मिला।",
@@ -481,8 +525,8 @@
      "more": [
       "A lab screen showing a bar chart with one bar shooting far above a low line, no readable text, dim lab"
      ],
-     "label": "2009 · CSE trans fat study",
-     "caption": "2009 में CSE की एक study आई। Vanaspati के कई brands में trans fat, Denmark की 2% की सीमा से कई गुना ज़्यादा मिला।"
+     "caption": "2009 में CSE की एक study आई। Vanaspati के कई brands में trans fat, Denmark की 2% की सीमा से कई गुना ज़्यादा मिला।",
+     "date": "2009"
     },
     {
      "vo": "हेडलाइंस बनीं। जो पीला डिब्बा कभी भरोसे का नाम था, उसकी पूरी कैटेगरी पर अब डर का साया था।",
@@ -492,8 +536,12 @@
      "more": [
       "The yellow palm-tree tin standing in harsh cold light on a bare table, like an accused in a courtroom"
      ],
-     "title": "दिल का *डर*",
-     "caption": "Headlines बनीं। जो पीला डिब्बा कभी भरोसे का नाम था, उसकी पूरी category पर अब डर का साया था।"
+     "caption": "Headlines बनीं। जो पीला डिब्बा कभी भरोसे का नाम था, उसकी पूरी category पर अब डर का साया था।",
+     "news": {
+      "headline": "CSE study: vanaspati में trans fat सीमा से कई गुना",
+      "sub": "Denmark की 2% की सीमा",
+      "date": "2009"
+     }
     },
     {
      "vo": "फिर दो हज़ार ग्यारह में एफ़ एस एस ए आई ने वनस्पति में ट्रांस फ़ैट की सीमा तय की, और दो हज़ार बाईस तक उसे घटाकर दो प्रतिशत कर दिया।",
@@ -503,8 +551,8 @@
      "more": [
       "Close-up of an official stamp coming down on a document, no readable text"
      ],
-     "label": "FSSAI · Trans fat capped at 2%",
-     "caption": "फिर 2011 में FSSAI ने vanaspati में trans fat की सीमा तय की, और 2022 तक उसे घटाकर 2% कर दिया।"
+     "caption": "फिर 2011 में FSSAI ने vanaspati में trans fat की सीमा तय की, और 2022 तक उसे घटाकर 2% कर दिया।",
+     "date": "2011"
     },
     {
      "vo": "पर ये सब बाद की बात है। उन्नीस सौ नब्बे के दशक में ही दालदा की शेल्फ़ पर एक और जंग शुरू हो चुकी थी।",
@@ -524,8 +572,8 @@
      "more": [
       "Close-up of golden oil pouring from a bottle into a steel kadhai"
      ],
-     "label": "SUNDROP · launched 1989",
-     "caption": "Refined oil की जंग। Saffola 1960s से बाज़ार में था, और 1989 में Sundrop आया।"
+     "caption": "Refined oil की जंग। Saffola 1960s से बाज़ार में था, और 1989 में Sundrop आया।",
+     "date": "1989"
     },
     {
      "vo": "इनके ऐड्स में दिल था, फ़िटनेस थी, हल्का खाना था। और जो पीला डिब्बा कभी आधुनिक लगता था, वो अब पुराने ज़माने का लगने लगा।",
@@ -536,7 +584,13 @@
       "A dusty yellow tin pushed to the back of a 1990s kitchen cupboard behind new oil bottles, dim rainy light",
       "An elderly Indian woman looking at the old tin with quiet nostalgia beside a rain-streaked window"
      ],
-     "caption": "इनके ads में दिल था, fitness थी, हल्का खाना था। और जो पीला डिब्बा कभी आधुनिक लगता था, वो अब पुराने ज़माने का लगने लगा।"
+     "caption": "इनके ads में दिल था, fitness थी, हल्का खाना था। और जो पीला डिब्बा कभी आधुनिक लगता था, वो अब पुराने ज़माने का लगने लगा।",
+     "split": {
+      "left": "19",
+      "right": "44",
+      "l": "पहले",
+      "r": "अब"
+     }
     },
     {
      "vo": "दो हज़ार में अदाणी और विल्मर की कंपनी अदाणी विल्मर का फ़ॉर्च्यून भी आ गया। मुक़ाबला और कड़ा हो गया।",
@@ -546,8 +600,8 @@
      "more": [
       "Indian shoppers pushing trolleys past towering oil displays"
      ],
-     "label": "2000 · Fortune launches",
-     "caption": "2000 में Adani और Wilmar की कंपनी Adani Wilmar का Fortune भी आ गया। मुक़ाबला और कड़ा हो गया।"
+     "caption": "2000 में Adani और Wilmar की कंपनी Adani Wilmar का Fortune भी आ गया। मुक़ाबला और कड़ा हो गया।",
+     "date": "2000"
     },
     {
      "vo": "रिपोर्ट्स के मुताबिक़, वनस्पति का बाज़ार अब बढ़ नहीं रहा था। हिंदुस्तान लीवर के सामने सवाल था: इस पुराने ब्रांड का क्या करें?",
@@ -557,8 +611,8 @@
      "more": [
       "Close-up of an Indian manager's tired face lit by a laptop screen late at night"
      ],
-     "title": "अब *क्या* करें?",
-     "caption": "रिपोर्ट्स के मुताबिक़, vanaspati का बाज़ार अब बढ़ नहीं रहा था। Hindustan Lever के सामने सवाल था: इस पुराने brand का क्या करें?"
+     "caption": "रिपोर्ट्स के मुताबिक़, vanaspati का बाज़ार अब बढ़ नहीं रहा था। Hindustan Lever के सामने सवाल था: इस पुराने brand का क्या करें?",
+     "label": "ADANI WILMAR · Fortune वाली कंपनी"
     },
     {
      "vo": "ये वीडियो उसे भेजिए, जिसे आज भी वो पीला डिब्बा याद है।",
@@ -590,7 +644,8 @@
      "more": [
       "Close-up of an Indian hand sliding a yellow tin to the edge of a glass table"
      ],
-     "caption": "उस दौर में Hindustan Lever अपने सबसे बड़े brands पर focus कर रही थी। रिपोर्ट्स के मुताबिक़, vanaspati अब उसके core business में फ़िट नहीं बैठता था।"
+     "caption": "उस दौर में Hindustan Lever अपने सबसे बड़े brands पर focus कर रही थी। रिपोर्ट्स के मुताबिक़, vanaspati अब उसके core business में फ़िट नहीं बैठता था।",
+     "title": "CORE BUSINESS"
     },
     {
      "vo": "तो क्या दालदा बेच दिया जाए? और बेचें, तो ख़रीदेगा कौन?",
@@ -608,9 +663,8 @@
       "Close-up of a pen signing an agreement on a glass table, cold window light",
       "A wide view of a modern edible oil plant with tall silos and conveyor belts, bright clear day"
      ],
-     "label": "2003 · HLL sells Dalda",
-     "title": "बेच *दिया*",
-     "caption": "2003 में Hindustan Lever ने Dalda बेचने का ऐलान किया। ख़रीदार थी global agribusiness कंपनी Bunge।"
+     "caption": "2003 में Hindustan Lever ने Dalda बेचने का ऐलान किया। ख़रीदार थी global agribusiness कंपनी Bunge।",
+     "date": "2003"
     },
     {
      "vo": "जिस ब्रांड को लीवर ने उन्नीस सौ सैंतीस से पाला था, वो छियासठ साल बाद किसी और का हो गया।",
@@ -620,7 +674,8 @@
      "more": [
       "An old Indian factory worker in a faded uniform looking back at a factory building at dusk, gentle sadness on his face"
      ],
-     "caption": "जिस brand को Lever ने 1937 से पाला था, वो 66 साल बाद किसी और का हो गया।"
+     "caption": "जिस brand को Lever ने 1937 से पाला था, वो 66 साल बाद किसी और का हो गया।",
+     "label": "BUNGE · global agribusiness कंपनी"
     },
     {
      "vo": "सोचिए, उन्नीस सौ सैंतीस से दो हज़ार तीन तक, दादी की रसोई से पोते की रसोई तक, ये डिब्बा वहीं था।",
@@ -642,7 +697,8 @@
      "vo": "नहीं।",
      "prompt": "The same yellow tin on a kitchen shelf suddenly lit by bright morning sun as a hand pulls a curtain open, sharp focus, medium close-up",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "drop": true
     },
     {
      "vo": "बंज के मुताबिक़, दालदा आज भी बिकता है, वनस्पति के साथ रिफ़ाइंड ऑयल्स में भी।",
@@ -652,7 +708,6 @@
      "more": [
       "An Indian halwai in a present-day sweet shop opening a yellow tin before the morning rush, golden light"
      ],
-     "title": "*ज़िंदा* है Dalda",
      "caption": "Bunge के मुताबिक़, Dalda आज भी बिकता है, vanaspati के साथ refined oils में भी।"
     },
     {
@@ -670,7 +725,13 @@
      "more": [
       "A young Indian woman in a modern kitchen holding a bottle of refined oil in one hand and a yellow tin in the other"
      ],
-     "caption": "बस फ़र्क़ इतना है: अब वो हर कड़ाही का राजा नहीं, shelves पर कई brands में से एक है।"
+     "caption": "बस फ़र्क़ इतना है: अब वो हर कड़ाही का राजा नहीं, shelves पर कई brands में से एक है।",
+     "split": {
+      "left": "23",
+      "right": "60",
+      "l": "तब",
+      "r": "अब"
+     }
     }
    ]
   },
@@ -707,15 +768,18 @@
      "more": [
       "The 1920s Bombay godown from earlier at dusk, Indian traders stacking tins by lantern light"
      ],
-     "caption": "और अब वो बात, जो ज़्यादातर लोग नहीं जानते। HUL के मुताबिक़, Dalda नाम Dada & Co से आया, वही कंपनी जो Holland से vanaspati import करती थी।"
+     "caption": "और अब वो बात, जो ज़्यादातर लोग नहीं जानते। HUL के मुताबिक़, Dalda नाम Dada & Co से आया, वही कंपनी जो Holland से vanaspati import करती थी।",
+     "label": "DADA & CO · Holland से vanaspati लाने वाली कंपनी"
     },
     {
      "vo": "दादा के बीच में लीवर का 'एल' जोड़ा गया। और बना दालदा।",
      "prompt": "Three plain wooden type blocks in a row on a desk under a warm lamp, an Indian hand pushing a fourth block into the middle, faces of the blocks hidden, golden light, sharp focus, close-up",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "Dada + *L*",
-     "caption": "Dada के बीच में Lever का 'L' जोड़ा गया। और बना Dalda।"
+     "caption": "Dada के बीच में Lever का 'L' जोड़ा गया। और बना Dalda।",
+     "quote": {
+      "text": "Dada के बीच में Lever का 'L' जोड़ा गया। और बना Dalda।"
+     }
     },
     {
      "vo": "अगली बार किसी पुरानी मिठाई की दुकान पर वो पीला डिब्बा दिखे, तो उसके नाम में छिपा लीवर का एल याद कीजिए। ऐसी कहानियों के लिए सब्सक्राइब कीजिए। अगली ब्रांड स्टोरी में, एक और नाम जिसे आप रोज़ देखते हैं, पर उसकी कहानी नहीं जानते।",

@@ -398,19 +398,27 @@ def place_pin(frame, spec, t, dur=3.4):
         _MAP[key] = (spec["lat"], spec["lon"]) if spec.get("lat") else geocode(spec.get("query") or spec["name"])
     ll = _MAP[key]
     a = min(1.0, t / 0.3, (dur - t) / 0.35)
-    lat0 = 22.0
-    cosl = np.cos(np.radians(lat0))
-    k0 = 0.86 * H / 31.5  # the whole of India fills the height
-    tgt = ll or (lat0, 82.8)
-    z = 1 + 1.6 * ease((t - 0.15) / 0.9)  # zoom in on the place
-    cx = 82.8 + (tgt[1] - 82.8) * ease((t - 0.15) / 0.9)
-    cy = lat0 + (tgt[0] - lat0) * ease((t - 0.15) / 0.9)
-    k = k0 * z
+    tgt = ll or (22.0, 82.8)
+    abroad = not (6 <= tgt[0] <= 37.5 and 68 <= tgt[1] <= 97.5)  # outside India: the world map around it
+    c0, span0, span1 = ((tgt[0], tgt[1]), 70.0, 16.0) if abroad else ((22.0, 82.8), 31.5 / 0.86, 31.5 / 0.86 / 2.6)
+    e = ease((t - 0.15) / 0.9)  # zoom in on the place
+    span = span0 * (1 - e) + span1 * e
+    cy, cx = c0[0] + (tgt[0] - c0[0]) * e, c0[1] + (tgt[1] - c0[1]) * e
+    cosl = np.cos(np.radians(cy))
+    k = H / span
     sx, sy = W * 0.40, H * 0.5  # the place ends left of centre, its name to the right
     proj = lambda r: np.int32([[(sx + (lo - cx) * cosl * k) * 4, (sy - (la - cy) * k) * 4] for lo, la in r])
     m = np.zeros((H, W, 3), np.uint8)
     m[:] = (40, 24, 14)  # deep navy sea (BGR)
-    land = [proj(r) for r in _MAP["geo"]["india"]]
+    if not _WORLD:
+        MapShot({}, 1)  # loads brand/maps/world.json
+    half = (W / (2 * k * cosl) + 2, H / (2 * k) + 2)
+    near = [c for c in _WORLD["countries"] if c["iso"] != "IND" and not (c["bbox"][2] < cx - half[0] or c["bbox"][0] > cx + half[0]
+                                                                       or c["bbox"][3] < cy - half[1] or c["bbox"][1] > cy + half[1])]
+    others = [proj(r) for c in near for r in c["rings"]]
+    cv2.fillPoly(m, others, (54, 38, 26), cv2.LINE_AA, shift=2)  # the neighbours, a little darker than India
+    cv2.polylines(m, others, True, (84, 66, 50), 1, cv2.LINE_AA, shift=2)
+    land = [proj(r) for r in _MAP["geo"]["india"]]  # India: the Survey of India boundary
     cv2.fillPoly(m, land, (62, 44, 30), cv2.LINE_AA, shift=2)
     cv2.polylines(m, [proj(r) for r in _MAP["geo"]["states"]], True, (96, 76, 58), 1, cv2.LINE_AA, shift=2)
     cv2.polylines(m, land, True, tuple(int(c) for c in K.YEL[::-1]), 3, cv2.LINE_AA, shift=2)
