@@ -38,13 +38,14 @@
     {
      "vo": "हिमालय की इस झील में दो सौ कंकाल क्यों पड़े हैं?",
      "caption": "हिमालय की इस झील में दो सौ कंकाल क्यों पड़े हैं?",
-     "prompt": "Wide dawn view of a small dark icy lake high in the Himalayas, dozens of weathered human skeletons and skulls scattered across the snowy rocky shore, jagged peaks behind, cold blue light, one skull large in the foreground, photoreal",
+     "prompt": "A human skull resting on the snowy rocky shore of a small dark icy lake, many more weathered skeletons and bones scattered behind it along the water, jagged Himalayan peaks, plain bare rocks and snow, cold blue dawn light, sharp focus, close-up to wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of a human skull and ribcage half-frozen in clear shallow ice water, bones pale against dark stones, snow dusting, cold blue morning light, photoreal",
       "Close-up of an ancient skull on snow with frost crystals on the teeth and eye sockets, sharp detail, soft pink Himalayan sunrise glow behind, photoreal"
-     ]
+     ],
+     "seed": 8920
     },
     {
      "vo": "ये है उत्तराखंड की रूपकुंड झील, करीब पाँच हज़ार मीटर ऊँचाई पर।",
@@ -90,14 +91,15 @@
     {
      "vo": "लेकिन दो हज़ार उन्नीस में डी एन ए टेस्ट ने पूरी कहानी पलट दी।",
      "caption": "लेकिन 2019 में DNA टेस्ट ने पूरी कहानी पलट दी।",
-     "prompt": "Wide shot of a modern genetics lab, a scientist in white coat and gloves at a bench with ancient bone samples in trays, cool teal light, rows of tubes behind, photoreal",
+     "prompt": "A scientist in a white coat and blue gloves holding a small ancient bone sample in tweezers at a lab bench, trays of old bones and rows of blue-capped test tubes in front of them, plain clean bench and blank screens, cool teal light, sharp focus, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of gloved hands using tweezers to lift a small ancient bone fragment over a sterile dish, warm bench lamp, sharp detail, photoreal",
       "Close-up of a rack of glass sample tubes with glowing blue liquid and a pipette tip dropping a single drop, dark background, vivid blue light, photoreal"
      ],
-     "key": "2019"
+     "key": "2019",
+     "seed": 8923
     },
     {
      "vo": "ज़्यादातर लोग भारत के थे, करीब बारह सौ साल पहले के।",
@@ -156,13 +158,20 @@
  "voice_ok": "voice-gk-11-roopkund-skeletons-0789fa8beb",
  "voice_approved_at": "2026-11-08 15:14",
  "shot_qc": {
-  "checked": "2026-11-08T10:56:33Z",
-  "rounds": 0,
-  "left": []
+  "checked": "2026-11-08T14:31:47Z",
+  "rounds": 1,
+  "why": {
+   "1": "the first tile (skull) has map boards behind it with lettering; the other two tiles are fine",
+   "4": "the first tile has a world map on the lab desk and the third has a map on a screen; the middle tile (blue test tubes) is fine"
+  }
  },
  "polished": "2026-11-08 18:36",
  "repaint": {
-  "at": "2026-11-08T18:36:19",
-  "why": "owner, 8 Nov: gk_polish: new pictures, maps drawn"
+  "shots": [
+   1,
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-08 20:03"
  }
 }
