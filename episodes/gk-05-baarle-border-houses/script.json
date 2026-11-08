@@ -38,12 +38,12 @@
     {
      "vo": "एक घर, आधा बेल्जियम, आधा नीदरलैंड्स: घर आखिर किसका?",
      "caption": "एक घर, आधा बेल्जियम, आधा नीदरलैंड्स: घर आखिर किसका?",
-     "prompt": "Wide shot of a small brick house on a quiet European street at golden dawn, a bold white painted line running straight across the front path, garden and doorstep, a Belgian-style lamp on one side and a Dutch-style bicycle on the other.",
+     "prompt": "Wide early-morning view of a quiet small-town brick street in the Dutch-Belgian borderland, one charming red-brick house with a white door and flower boxes in the centre, soft golden sunrise light, wet cobblestones, a bicycle leaning on the wall, no text anywhere.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a puzzled elderly couple sitting at their kitchen table, a clear line of contrasting floor tiles dividing the room exactly beneath them, warm window light, one raising a questioning hand.",
-      "Close-up of a hand holding an old brass house key over a kitchen floor split into two different tile colours, shallow depth of field, soft morning light."
+      "Medium shot of a puzzled middle-aged European couple in dressing gowns standing on their doorstep, looking at each other with raised eyebrows, red-brick house behind them, soft morning light.",
+      "Close-up of a worn brass door handle and a chipped blue-and-white ceramic doorstep tile with dew on it, shallow depth of field, warm sunrise glow."
      ]
     },
     {
@@ -55,11 +55,11 @@
      "seed": 8921,
      "map": {
       "center": [
-       51.443,
-       4.934
+       51.4433,
+       4.9333
       ],
-      "span": 0.06,
-      "from_span": 0.25,
+      "span": 0.3,
+      "from_span": 1.5,
       "countries": [
        {
         "iso": "BEL",
@@ -74,36 +74,36 @@
       ],
       "points": [
        {
-        "lat": 51.443,
-        "lon": 4.934,
+        "lat": 51.4433,
+        "lon": 4.9333,
         "label": "बार्ले"
        }
       ]
      },
-     "key": "बार्ले"
+     "key": "सड़कों"
     },
     {
      "vo": "वजह आठ सौ साल से भी पुरानी है, जब ज़मीन के टुकड़े दो घरानों में बँटे थे।",
      "caption": "वजह 800 साल से भी पुरानी है, जब ज़मीन के टुकड़े दो घरानों में बँटे थे।",
-     "prompt": "Wide shot of a medieval countryside, two noblemen in armour on horseback facing each other across green farmland with colourful banners, dramatic stormy sky breaking into sunlight, castle faintly distant.",
+     "prompt": "Wide dramatic sunset view of a 12th-century stone hill castle above green farmland, two columns of medieval knights in red and blue cloaks on horseback riding toward it from opposite sides, golden hour clouds, photoreal.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of two medieval lords at a stone table, fingers pointing over an unrolled parchment with ink boundary lines, candle glow, rich red and gold clothing.",
-      "Close-up of a red wax seal being pressed onto aged parchment by a ringed hand, flickering candlelight, deep amber tones."
+      "Medium shot of two stern medieval lords in red and blue velvet robes facing each other across a heavy oak table in a candlelit stone hall, a blank parchment between them, one pointing sharply.",
+      "Close-up of a red wax seal being pressed onto aged blank parchment by a ringed hand, candle flame glowing behind, shallow depth of field."
      ],
      "key": "800 साल"
     },
     {
      "vo": "अठारह सौ तैंतालीस की मास्ट्रिख्ट संधि भी इन टुकड़ों को सुलझा नहीं पाई।",
      "caption": "1843 की Maastricht संधि भी इन टुकड़ों को सुलझा नहीं पाई।",
-     "prompt": "Wide shot of nineteenth-century diplomats in black coats around a long polished table in a grand candlelit hall, tall windows, large rolled maps piled in front of them, tense mood.",
+     "prompt": "Wide view of a grand 1843 European diplomatic hall with tall windows, a dozen men in black frock coats and top hats seated around a long polished table, chandelier light, tense atmosphere, no text.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8923,
      "more": [
-      "Close-up of a quill pen signing a cream treaty paper, ink glistening, a gloved hand, warm lamp light, blurred officials behind.",
-      "Medium shot of a frustrated diplomat rubbing his forehead over a tangle of scattered small coloured map pieces on a desk, cold blue dusk light from the window."
+      "Medium shot of an exhausted bearded 19th-century diplomat in a frock coat rubbing his forehead, stacks of blank papers piled before him, candlelight and dark wood panelling.",
+      "Close-up of a quill pen resting in an ink pot on a crumpled blank parchment, a half-burnt candle beside it, warm dim light, shallow depth of field."
      ],
      "key": "1843"
     },
@@ -115,28 +115,33 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "map": {
       "center": [
-       51.443,
-       4.934
+       51.45,
+       4.95
       ],
-      "span": 0.12,
-      "from_span": 0.4,
+      "span": 1.0,
+      "from_span": 3,
       "countries": [
-       {
-        "iso": "NLD",
-        "label": "नीदरलैंड्स",
-        "color": "teal"
-       },
        {
         "iso": "BEL",
         "label": "बेल्जियम",
         "color": "yellow"
+       },
+       {
+        "iso": "NLD",
+        "label": "नीदरलैंड्स",
+        "color": "teal"
        }
       ],
       "points": [
        {
-        "lat": 51.443,
-        "lon": 4.934,
-        "label": "बेल्जियम के टुकड़े"
+        "lat": 51.4433,
+        "lon": 4.9333,
+        "label": "बार्ले-हेर्टोग"
+       },
+       {
+        "lat": 51.4425,
+        "lon": 4.9283,
+        "label": "बार्ले-नासाउ"
        }
       ]
      },
@@ -145,35 +150,38 @@
     {
      "vo": "लेकिन रुकिए, जिस घर के बीच से बॉर्डर गुज़रे, वो किस देश का?",
      "caption": "लेकिन रुकिए, जिस घर के बीच से border गुज़रे, वो किस देश का?",
-     "prompt": "Wide shot of a Dutch-Belgian town street where a land surveyor in an orange vest stands with a theodolite on a tripod in front of a house, a thin line across the pavement, overcast soft light.",
+     "prompt": "Medium shot of a bewildered young postman in a blue uniform holding a single blank envelope at a garden gate of a brick house, looking back and forth with a baffled frown, overcast soft daylight, bicycle with mail bags beside him.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a wide-eyed child standing in front of a house, looking left and right at two different small flags planted in the garden, bright afternoon sun, brick facade.",
-      "Close-up of a small brass border marker stud set into pavement between two different paving stone patterns, wet cobbles glinting, low angle."
-     ]
+      "Wide shot of an elderly European couple at a rustic kitchen table by a window, hands on chins, deep in thought, a teapot between them, warm afternoon sunlight.",
+      "Close-up of a wide-eyed curious child's face peeking around a doorframe, eyebrows raised, soft window light, sharp eyes, shallow depth of field."
+     ],
+     "key": "किस देश का"
     },
     {
      "vo": "जिस देश में घर का मेन दरवाज़ा है, घर उसी का, और दरवाज़े की नंबर प्लेट यही बताती है।",
      "caption": "जिस देश में घर का मेन दरवाज़ा है, घर उसी का, और दरवाज़े की number plate यही बताती है।",
-     "prompt": "Wide shot of a man standing on a quiet street at dusk pointing firmly at the main front door of a brick house, warm porch lamp glowing, the rest of the house in cool blue shadow.",
+     "prompt": "Wide shot of a tidy red-brick European house in crisp midday light, its white front door facing the street clearly in the centre, geraniums on the step, clear blue sky, sharp detail.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a hand gripping a heavy wooden front door handle, door half open with warm interior light spilling onto the doorstep, rich teal paint.",
-      "Close-up of a small blank oval brass plate with decorative grooves beside a front door on red brick, sharp raking light, shallow depth of field."
-     ]
+      "Medium shot of a smiling man in a sweater turning a key to lock his white front door, seen from the side, bright daylight, brick wall around him.",
+      "Close-up of a hand touching a small blank brass plate fixed beside a white door, brick texture around, crisp sidelight."
+     ],
+     "key": "number plate"
     },
     {
      "vo": "इसलिए एक ही घर, दो देश, और फैसला सिर्फ़ दरवाज़ा करता है।",
      "caption": "इसलिए एक ही घर, दो देश, और फैसला सिर्फ़ दरवाज़ा करता है।",
-     "prompt": "Wide shot of a cosy family house at night, lit windows, a happy family standing together in front of the glowing main door, a faint line of light on the lawn splitting the garden into red and orange tones.",
+     "prompt": "Wide dusk shot of the same style of red-brick house with glowing amber windows and a lit lantern by the front door, deep blue twilight sky, quiet street, cinematic mood.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a front door lit half in red light and half in orange light, a smiling woman leaning on the frame, evening mood, sharp detail.",
-      "Close-up of a judge-style wooden gavel resting on a house-shaped wooden block beside a brass door key, dramatic side light, dark background."
-     ]
+      "Medium shot of a family of four laughing together on a cosy sofa in a warm living room, a lamp glowing, wooden floor, relaxed evening mood.",
+      "Close-up of an old brass key turning in the lock of a white wooden door, lantern glow bokeh behind, shallow depth of field."
+     ],
+     "key": "दरवाज़ा"
     }
    ]
   }
@@ -183,12 +191,8 @@
  "voice_ok": "voice-gk-05-baarle-border-houses-1bf503a6b6",
  "voice_approved_at": "2026-11-08 15:14",
  "repaint": {
-  "shots": [
-   2,
-   4
-  ],
-  "thumbs": [],
-  "at": "2026-11-08 15:58"
+  "at": "2026-11-08T18:35:39",
+  "why": "owner, 8 Nov: gk_polish: new pictures, maps drawn"
  },
  "shot_qc": {
   "checked": "2026-11-08T11:33:15Z",
@@ -200,5 +204,5 @@
    5
   ]
  },
- "polished": "2026-11-08 16:47"
+ "polished": "2026-11-08 18:35"
 }

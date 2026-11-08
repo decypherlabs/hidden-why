@@ -38,12 +38,12 @@
     {
      "vo": "भूमध्य रेखा पर जाते ही आपका वज़न सच में घट जाता है?",
      "caption": "भूमध्य रेखा पर जाते ही आपका वज़न सच में घट जाता है?",
-     "prompt": "Close-up of a stunned Indian man in his 30s standing on a bathroom weighing scale at home, looking down at his feet with wide eyes and raised eyebrows, warm morning light from a window, tiled bathroom, sharp vivid colours.",
+     "prompt": "Wide shot: a startled Indian man in a plain T-shirt stands on an old analog bathroom scale in a sunlit bedroom, looking down at his feet, morning light through the window, vivid colours, sharp photoreal.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Medium shot of a traveller in a light shirt with a suitcase at an airport window, a plane on the tarmac behind him in golden sunset light, thoughtful curious expression.",
-      "Extreme close-up of an old analog bathroom scale dial with its red needle trembling slightly, bare feet on the platform, shallow depth of field, soft side light."
+      "Medium close-up: the blank dial of an analog bathroom scale, its red needle swinging backwards to a lighter reading, shallow depth of field, warm light.",
+      "Close-up: the wide-eyed, shocked face of an Indian man, mouth open, looking down, dramatic side light, sharp detail."
      ]
     },
     {
@@ -52,117 +52,103 @@
      "prompt": "Wide shot of a crowded Indian school classroom, a teacher pointing at a large blue globe on her desk while students nod confidently, bright daylight through windows, vivid colours.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "more": [
-      "Medium shot of an Indian schoolboy holding an apple at arm's length and letting it fall toward the floor, mid-air apple sharp, sunlit classroom, confident smile.",
-      "Close-up of a student's hand releasing a steel ball above a wooden desk beside a wooden ruler, dramatic window light, crisp detail, dark background."
-     ]
-    },
-    {
-     "vo": "लेकिन इक्वेटर पर धरती सोलह सौ सत्तर किलोमीटर प्रति घंटा की स्पीड से घूमती है।",
-     "caption": "लेकिन equator पर धरती 1,670 km/h की speed से घूमती है।",
-     "prompt": "Planet Earth turning in space, the blue Atlantic Ocean and green Amazon rainforest facing us in the middle, soft white cloud swirls stretched sideways by the spin, sunlit edge against black space, plain natural globe with no lines or rings, sharp focus, wide shot, vertical composition, photorealistic",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8922,
      "map": {
       "center": [
-       0.0,
-       25.0
+       0,
+       -20
       ],
-      "span": 40,
-      "from_span": 120,
-      "countries": [
-       {
-        "iso": "KEN",
-        "label": "केन्या",
-        "color": "teal"
-       },
-       {
-        "iso": "UGA",
-        "label": "युगांडा",
-        "color": "teal"
-       },
-       {
-        "iso": "GAB",
-        "label": "गैबॉन",
-        "color": "teal"
-       }
-      ],
+      "span": 50,
+      "from_span": 150,
       "lines": [
        {
         "lat": 0,
-        "label": "0° · 1,670 km/h"
+        "label": "भूमध्य रेखा · 0°"
        }
       ],
       "points": [
        {
-        "lat": 0.0167,
-        "lon": 37.0722,
-        "label": "Nanyuki"
+        "lat": -0.1807,
+        "lon": -78.4678,
+        "label": "Quito"
        }
       ]
-     },
-     "key": "1,670 km/h"
+     }
+    },
+    {
+     "vo": "लेकिन इक्वेटर पर धरती सोलह सौ सत्तर किलोमीटर प्रति घंटा की स्पीड से घूमती है।",
+     "caption": "लेकिन equator पर धरती 1,670 km/h की speed से घूमती है।",
+     "prompt": "Wide shot: an Indian schoolteacher in a bright classroom confidently holds a red apple up before attentive children, warm window light, rich colours, photoreal.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8922,
+     "more": [
+      "Medium shot: a ripe red apple falling straight down from a branch in golden evening light, motion frozen, orchard background blurred.",
+      "Close-up: a child's open hand releasing a small ball, the ball frozen just below the fingers, bright classroom light, sharp detail."
+     ],
+     "key": "1,670 km"
     },
     {
      "vo": "ये घुमाव हर चीज़ को हल्का सा बाहर की तरफ़ धकेलता है।",
      "caption": "ये घुमाव हर चीज़ को हल्का सा बाहर की तरफ़ धकेलता है।",
-     "prompt": "Medium shot of an Indian boy on a playground merry-go-round spinning fast, his hair and shirt flying outward, other kids gripping the rails, motion-blurred background, golden evening light.",
+     "prompt": "Wide shot: Indian children on a fast-spinning playground merry-go-round, hair and clothes flying outward, laughing, golden hour light, motion blur on the background.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Wide shot of a salt-and-pepper desert fairground ride, a chair swing carousel spinning at dusk with chairs flung outward at an angle, glowing sky, vivid orange and purple.",
-      "Close-up of water droplets flying outward off a fast-spinning wet bicycle wheel, backlit by strong sunlight, crisp splashes against dark background."
-     ]
+      "Medium shot: a spinning wet red umbrella throwing droplets of water outward in a circle, backlit by low sun, drops glittering.",
+      "Close-up: a hammer thrower's gloved hands whirling a steel ball on a chain, strain on the face, stadium floodlights at dusk."
+     ],
+     "key": "बाहर की तरफ़"
     },
     {
      "vo": "लेकिन रुकिए… इसी घुमाव से धरती इक्वेटर पर इक्कीस किलोमीटर फूली हुई है।",
      "caption": "लेकिन रुकिए… इसी घुमाव से धरती equator पर 21 km फूली हुई है।",
-     "prompt": "Wide view from space of planet Earth slightly flattened, glowing blue with a visibly wider belly at the equator, sun rising behind the edge, deep black starry space, dramatic rim light.",
+     "prompt": "Wide shot: a pizza maker in a busy kitchen spinning dough high in the air, the dough flattened and bulging wide at its edge, warm orange light, flour dust in the air.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8924,
      "more": [
-      "Close-up of a clay globe being squeezed on a potter's wheel in a studio, its middle bulging outward as it spins, an Indian potter's hands visible, warm light.",
-      "Medium shot of a scientist in a lab holding a spinning pizza dough disc that flattens and widens at the middle, cool lab light, curious expression."
+      "Medium shot: a potter's hands shaping spinning wet clay on a wheel, the middle bulging outward, earthy brown tones, soft studio light.",
+      "Close-up: a water balloon spinning on a string, its sides stretching into a fat flattened bulge, bright blue sky, sharp detail."
      ],
      "key": "21 km"
     },
     {
      "vo": "यानी वहाँ आप धरती के सेंटर से और दूर खड़े होते हैं।",
      "caption": "यानी वहाँ आप धरती के center से और दूर खड़े होते हैं।",
-     "prompt": "Cutaway of planet Earth showing glowing orange core at the center and a tiny figure of a person standing on the bulging equator far from the core, a bright line from core to the person, dramatic dark background.",
+     "prompt": "Wide shot: an Ecuadorian climber stands on the snowy summit of a tall equatorial volcano above a sea of clouds, deep blue sky, dramatic sunrise light, vivid colours.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8925,
      "more": [
-      "Wide shot of a lone Indian man standing on a high mountain ridge at sunrise looking far below, tiny against vast golden clouds, sense of distance and height.",
-      "Close-up of a tape measure stretched across a table, pulled long toward a glowing marble at the far end, shallow depth of field, warm tones."
-     ]
+      "Close-up: mountaineering boots with crampons planted in sparkling summit snow, ice crystals glinting, cold blue light.",
+      "Medium shot: a climber from behind gazing down the steep rocky slope into valleys far below, wind-blown jacket, golden rim light."
+     ],
+     "key": "center से और दूर"
     },
     {
      "vo": "इससे ग्रैविटी करीब आधा प्रतिशत कम होती है, साठ किलो पर तीन सौ ग्राम!",
      "caption": "इससे gravity करीब 0.5% कम होती है, 60 किलो पर 300 ग्राम!",
-     "prompt": "Medium shot of an Indian woman weighing a bag of flour on a kitchen digital scale, the scale showing a slightly lower reading, her surprised face lit by warm window light, colourful spices behind.",
+     "prompt": "Wide shot: an Indian shopkeeper in a busy market holds up a traditional brass balance scale with a small sack on one pan, warm morning light, colourful spice sacks behind.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
-      "Close-up of a hand placing a small chocolate bar on a precision lab scale, a tiny weight difference shown by a glowing blue display, sharp macro detail, dark background.",
-      "Wide shot of a tall Indian man in a gym stepping on a large scale, dumbbells and mirrors around, cool blue light, focused expression looking down."
+      "Close-up: a small cloth bag of white sugar sitting on one pan of a brass balance, the pan slightly higher, shallow depth of field.",
+      "Medium shot: an Indian woman's hand lifting a small packet of rice, light and easy, warm kitchen light, sharp detail."
      ],
-     "key": "0.5%"
+     "key": "300 ग्राम"
     },
     {
      "vo": "शरीर वही, पर भूमध्य रेखा पर स्केल का वज़न सच में घट जाता है!",
      "caption": "शरीर वही, पर भूमध्य रेखा पर scale का वज़न सच में घट जाता है!",
-     "prompt": "Medium shot of a smiling Indian man in a tropical beach town standing on a bathroom scale placed on sand near a palm tree, bright equatorial midday sun, vivid turquoise sea behind, amazed look.",
+     "prompt": "Wide shot: an Ecuadorian researcher on a green high-altitude plateau near the equator holds a spring scale with a weight hanging from it, bright clear sky, vivid colours.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "seed": 8927,
      "more": [
-      "Close-up of a digital scale display on the sand with a pair of sandals beside it, harsh sunlight, tiny sand grains sharp, hot colours.",
-      "Wide aerial shot of a lush green equatorial rainforest coast meeting a blue ocean, a small tourist group standing on a wooden pier, golden light, dramatic clouds."
-     ]
+      "Close-up: the needle on a spring scale's blank dial resting slightly lower, with a metal weight hanging below, crisp light, sharp detail.",
+      "Medium shot: a delighted Indian traveller on a tropical beach stepping off a scale and grinning in surprise, bright sun, turquoise water behind."
+     ],
+     "key": "वज़न सच में घट"
     }
    ]
   }
@@ -173,14 +159,8 @@
  "voice_ok": "voice-gk-02-equator-gravity-weight-c2505198fc",
  "voice_approved_at": "2026-11-08 15:14",
  "repaint": {
-  "shots": [
-   3,
-   5,
-   6,
-   8
-  ],
-  "thumbs": [],
-  "at": "2026-11-08 15:58"
+  "at": "2026-11-08T18:34:43",
+  "why": "owner, 8 Nov: gk_polish: new pictures, maps drawn"
  },
  "shot_qc": {
   "checked": "2026-11-08T11:19:52Z",
@@ -195,5 +175,5 @@
    8
   ]
  },
- "polished": "2026-11-08 16:47"
+ "polished": "2026-11-08 18:34"
 }
