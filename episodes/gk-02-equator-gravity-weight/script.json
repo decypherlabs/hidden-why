@@ -52,9 +52,10 @@
     {
      "vo": "लेकिन इक्वेटर पर धरती सोलह सौ सत्तर किलोमीटर प्रति घंटा की स्पीड से घूमती है।",
      "caption": "लेकिन equator पर धरती 1,670 km/h की speed से घूमती है।",
-     "prompt": "Planet Earth spinning, the Atlantic Ocean and Amazon rainforest facing us at the middle, white cloud bands streaking sideways around the equator, sunlit edge against black space, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Planet Earth turning in space, the blue Atlantic Ocean and green Amazon rainforest facing us in the middle, soft white cloud swirls stretched sideways by the spin, sunlit edge against black space, plain natural globe with no lines or rings, sharp focus, wide shot, vertical composition, photorealistic",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8922
     },
     {
      "vo": "ये घुमाव हर चीज़ को हल्का सा बाहर की तरफ़ धकेलता है।",
@@ -66,16 +67,18 @@
     {
      "vo": "लेकिन रुकिए… इसी घुमाव से धरती इक्वेटर पर इक्कीस किलोमीटर फूली हुई है।",
      "caption": "लेकिन रुकिए… इसी घुमाव से धरती equator पर 21 km फूली हुई है।",
-     "prompt": "Planet Earth seen side-on from deep space, clearly wider and bulging at the middle and flatter at the top and bottom, white polar caps, blue oceans, sunlit, black space, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Planet Earth seen side-on from deep space, clearly wider and bulging at the middle and flatter at the top and bottom, white polar caps, blue oceans, sunlit globe against plain black space, nothing else in the frame, sharp focus, wide shot, vertical composition, photorealistic",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8924
     },
     {
      "vo": "यानी वहाँ आप धरती के सेंटर से और दूर खड़े होते हैं।",
      "caption": "यानी वहाँ आप धरती के center से और दूर खड़े होते हैं।",
-     "prompt": "A hiker in a red jacket standing on a snowy mountain summit above a sea of white clouds, seen from behind, the curved blue horizon of Earth far away, centre, clear sky, bright morning sun, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A hiker in a red jacket standing on a snowy mountain summit high above a sea of white clouds, seen from behind, gazing at the far curved blue horizon of Earth, centre, clear sky, bright morning sun, untouched snow ground, sharp focus, wide shot, vertical composition, photorealistic",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8925
     },
     {
      "vo": "इससे ग्रैविटी करीब आधा प्रतिशत कम होती है, साठ किलो पर तीन सौ ग्राम!",
@@ -87,9 +90,10 @@
     {
      "vo": "शरीर वही, पर भूमध्य रेखा पर स्केल का वज़न सच में घट जाता है!",
      "caption": "शरीर वही, पर भूमध्य रेखा पर scale का वज़न सच में घट जाता है!",
-     "prompt": "Bare feet standing on a white bathroom scale with a plain blank glowing display on sunlit golden sand, palm tree shadows across it, turquoise sea behind, warm bright light, sharp focus, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Bare feet standing on a white bathroom scale with a plain blank display on smooth sunlit golden sand, soft palm tree shadows across the sand, turquoise sea and empty horizon behind, plain beach with no signs or billboards, warm bright light, sharp focus, close-up, vertical composition, photorealistic",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8927
     }
    ]
   }
@@ -98,5 +102,25 @@
  "voice_requested": "voice-gk-02-equator-gravity-weight-c2505198fc",
  "released_at": "2026-11-08 15:14",
  "voice_ok": "voice-gk-02-equator-gravity-weight-c2505198fc",
- "voice_approved_at": "2026-11-08 15:14"
+ "voice_approved_at": "2026-11-08 15:14",
+ "repaint": {
+  "shots": [
+   3,
+   5,
+   6,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-08 15:58"
+ },
+ "shot_qc": {
+  "checked": "2026-11-08T10:27:45Z",
+  "rounds": 1,
+  "why": {
+   "3": "A glowing ring or line circles the Earth. It isn't a border on a top-down view, and nothing in the line describes it.",
+   "5": "Small signs with maps and painted text/lettering sit in the corner.",
+   "6": "A laser-like beam drills a hole into the Earth, which has nothing to do with the line about pushing outward. A tiny figure stands in the hole.",
+   "8": "Signs with maps and lettering are in the background. A glowing lava crack runs under the feet, and a blank billboard is present."
+  }
+ }
 }
