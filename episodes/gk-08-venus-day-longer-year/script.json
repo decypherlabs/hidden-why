@@ -38,63 +38,98 @@
     {
      "vo": "शुक्र पर दिन साल से लंबा क्यों होता है?",
      "caption": "शुक्र पर दिन साल से लंबा क्यों होता है?",
-     "prompt": "A thick pale-yellow cloud-covered Venus globe floating in black space, half lit by the distant Sun on the right, the night side fading into darkness on the left, sharp swirling cloud bands, photoreal view from space, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A young Indian girl in a school uniform standing on a rooftop at golden dusk, staring up in wonder at a bright glowing Venus beside a thin crescent moon in a deep orange-to-blue sky, her face lit warmly, wide shot, vivid colours.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of an Indian father and son on a terrace pointing at the bright evening star Venus above city rooftops, twilight purple sky, warm lamp glow on their faces.",
+      "Close-up of a curious Indian child's eye reflecting a tiny bright white planet in the dark pupil, soft blue night light, sharp detail."
+     ]
     },
     {
      "vo": "धरती अपना एक चक्कर चौबीस घंटे में पूरा करती है।",
      "caption": "धरती अपना एक चक्कर 24 घंटे में पूरा करती है।",
-     "prompt": "Planet Earth seen from orbit with India and the Indian Ocean facing us, a sharp day-night line crossing India at sunrise, glowing golden city lights on the dark side, thin blue atmosphere on the edge, photoreal, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide view of Earth rotating in space with the sunrise line crossing India, vivid blue oceans and white clouds, golden light edge, dramatic and sharp, planet large in upper-middle of frame.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of an Indian family around a breakfast table in the morning, then a wall clock with hands near seven beside a window showing sunrise, warm golden light, no numbers visible.",
+      "Close-up of an analog wall clock face with hands and a bright sunrise glowing through the window behind it, shallow depth of field, warm amber tones."
+     ],
+     "key": "24"
     },
     {
      "vo": "लेकिन शुक्र को एक चक्कर में दो सौ तैंतालीस दिन लगते हैं।",
      "caption": "लेकिन शुक्र को एक चक्कर में 243 दिन लगते हैं।",
-     "prompt": "A round pale-yellow Venus planet with thick cloud layers, large in the centre of black space, one half lit from the right with a clear day-night edge, a small bright Sun far behind it, sharp detail, no screens, no maps, wide shot, no text",
+     "prompt": "Wide shot of an astronomer in a hooded jacket at a large observatory telescope under a star-filled night sky, dome open, Venus glowing as a bright dot, cool blue light with a small red work lamp.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8922
+     "seed": 8922,
+     "more": [
+      "Medium shot of a long row of calendar pages and a desk calendar thick with crossed-out days, a tired Indian student's hand holding a red marker, cluttered desk, warm lamp light.",
+      "Close-up of a cracked dry desert ground at a scorching sunset, heat shimmer rising, a lone sun disc low and huge on the horizon, orange and red tones."
+     ],
+     "key": "243"
     },
     {
      "vo": "और सूरज का पूरा चक्कर? सिर्फ़ दो सौ पच्चीस दिन में!",
      "caption": "और सूरज का पूरा चक्कर? सिर्फ़ 225 दिन में!",
-     "prompt": "A small perfectly round black disc of Venus crossing in front of the huge glowing orange Sun, the fiery solar surface filling the whole frame, sharp detail, no people, no screens, close-up, no text",
+     "prompt": "Wide cinematic view of Venus as a thick yellow-white cloudy planet orbiting small against a huge blazing sun in black space, bright lens flare, dramatic rim light, planet large in upper-middle.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8923
+     "seed": 8923,
+     "more": [
+      "Medium shot of a NASA-style engineer at a control room desk watching a large screen showing orbit loops around a sun, blue monitor glow on their face, dark room.",
+      "Close-up of a hand holding a small brass orrery model with a tiny planet circling a golden sun, macro detail, warm light, blurred workshop behind."
+     ],
+     "key": "225"
     },
     {
      "vo": "लेकिन रुकिए, शुक्र बाकी ग्रहों से उल्टी दिशा में घूमता है।",
      "caption": "लेकिन रुकिए, शुक्र बाकी ग्रहों से उल्टी दिशा में घूमता है।",
-     "prompt": "Venus seen from directly above its pole, a giant swirling vortex of yellow clouds spinning in the centre of the frame, a small blue Earth far off in the top corner against black space, sharp detail, no maps, no surfaces, wide shot, no text",
+     "prompt": "Wide shot of a giant carousel in a fairground at dusk with children riding in one direction while one lone horse spins the opposite way, colourful lights, motion blur, vivid saturated colours.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8924
+     "seed": 8924,
+     "more": [
+      "Medium shot of a spinning top on a wooden table spinning clockwise next to another spinning counter-clockwise, sharp motion detail, bright studio light, teal background.",
+      "Close-up of a surprised Indian boy's face with wide eyes, hair blown sideways by wind from a spinning ride, bright blue sky behind, sharp expression."
+     ]
     },
     {
      "vo": "पक्का कोई नहीं जानता, पर शायद कोई बहुत बड़ी चट्टान इससे टकराई थी।",
      "caption": "पक्का कोई नहीं जानता, पर शायद कोई बहुत बड़ी चट्टान इससे टकराई थी।",
-     "prompt": "A huge grey rocky asteroid crashing into the surface of the yellow planet Venus, a blinding orange impact flash on the planet, glowing molten rock chunks spraying out into black space, planet large in the centre, sharp detail, no panels, no screens, wide shot, no text",
+     "prompt": "Wide dramatic view of a huge rocky asteroid crashing into a glowing orange planet, fire and debris exploding into space, shockwave ring, intense red and orange light against black.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8925
+     "seed": 8925,
+     "more": [
+      "Medium shot of a scientist in a lab coat holding a rock fragment toward a camera beside a cracked crater model, puzzled expression, bright lab lighting, cool white tones.",
+      "Close-up of a shattered glowing meteorite rock with molten cracks and sparks flying, macro detail, fiery orange against dark smoke."
+     ]
     },
     {
      "vo": "या इसकी बेहद मोटी हवा ने धीरे-धीरे इसकी रफ़्तार रोक दी।",
      "caption": "या इसकी बेहद मोटी हवा ने धीरे-धीरे इसकी रफ़्तार रोक दी।",
-     "prompt": "Endless thick layers of dense yellow-orange clouds piled like a heavy ocean of haze, filling the whole frame, a small dim Sun glowing through the haze on the right, sharp detail from foreground to horizon, warm amber light, no signs, no panels, wide shot, no text",
+     "prompt": "Wide shot of Venus surface under crushing thick yellow-orange clouds, volcanic rocky plain, heavy hazy sky, lightning flickering far away, sulphur-yellow haze, dramatic and eerie.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8926
+     "seed": 8926,
+     "more": [
+      "Medium shot of a space probe lander on a rusty rocky ground enveloped in thick swirling yellow fog, antenna bent, dim amber light.",
+      "Close-up of a thick swirl of yellow gas clouds with a tiny glowing sun disc barely visible, dense texture, brown and gold tones."
+     ]
     },
     {
      "vo": "इसीलिए शुक्र पर दिन साल से लंबा है, और सूरज पश्चिम से उगता है।",
      "caption": "इसीलिए शुक्र पर दिन साल से लंबा है, और सूरज पश्चिम से उगता है।",
-     "prompt": "A small dim Sun rising over the flat horizon on the left of a cracked dark volcanic rock plain on Venus, thick orange hazy sky above, sharp detail across the whole ground, amber light, photoreal, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide shot of an Indian family on a hilltop watching a huge red-orange sun rising on the western horizon over a dark ridge, long shadows, dramatic purple sky, vivid colours.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a compass in a hand with the needle pointing west and a glowing sun rising behind it, golden light, shallow depth of field, mountain blur.",
+      "Close-up of a bright sun disc half-risen behind dark cloud bands, rich magenta and gold sky, sharp rays, no foreground clutter."
+     ]
     }
    ]
   }
@@ -124,5 +159,6 @@
    "6": "Screens and panels are in the foreground. The rock hitting a planet is unclear.",
    "7": "A signboard or screen stands in the clouds. It has panels with text, and it doesn't show thick air slowing the planet."
   }
- }
+ },
+ "polished": "2026-11-08 16:46"
 }

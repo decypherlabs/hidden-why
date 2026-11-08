@@ -38,17 +38,37 @@
     {
      "vo": "आसमान से गिरता स्पेस स्टेशन किसी इंसान पर क्यों नहीं गिरता?",
      "caption": "आसमान से गिरता स्पेस स्टेशन किसी इंसान पर क्यों नहीं गिरता?",
-     "prompt": "A huge burning piece of a space station, a white metal cylinder module with bent solar panels, falling through a twilight sky with a long trail of smoke, above an empty calm ocean, a small man seen from behind standing on a distant sandy shore looking up, orange and purple dusk light, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide dusk shot of blazing white-orange fragments of a space station streaking across a purple sky, trailing smoke, falling toward a vast empty dark ocean with no ships or land, dramatic photoreal light, large fiery streaks in upper-middle.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8920
+     "seed": 8920,
+     "more": [
+      "Medium shot of a young Indian boy on a rooftop at twilight looking up in shocked wonder, mouth open, fiery streaks reflected in his wide eyes, warm orange glow on his face, city skyline blurred behind.",
+      "Close-up of a glowing red-hot twisted metal fragment of spacecraft hull tumbling through the air, sparks and plasma trailing, dark sky behind, sharp detail of melted aluminium edges."
+     ]
     },
     {
      "vo": "इस जगह का नाम है पॉइंट नीमो, दक्षिण प्रशांत महासागर के बीचोंबीच।",
      "caption": "इस जगह का नाम है Point Nemo, दक्षिण प्रशांत महासागर के बीचोंबीच।",
      "prompt": "A view from orbit of the vast empty South Pacific Ocean, deep blue water with a few white clouds, no land anywhere, one small glowing red pin marker floating at the exact centre of the water, bright sunlight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       -48.8767,
+       -123.3933
+      ],
+      "span": 60,
+      "from_span": 150,
+      "points": [
+       {
+        "lat": -48.8767,
+        "lon": -123.3933,
+        "label": "Point Nemo"
+       }
+      ]
+     },
+     "key": "Point Nemo"
     },
     {
      "vo": "यहाँ से सबसे पास की ज़मीन भी दो हज़ार छह सौ किलोमीटर से ज़्यादा दूर है।",
@@ -56,46 +76,100 @@
      "prompt": "A vast empty blue ocean seen from high above, a small red pin in the centre of the water, far away at the edge of the frame a thin strip of green island coast on the left and another on the right, endless open water between them, bright daylight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8922
+     "seed": 8922,
+     "map": {
+      "center": [
+       -48.8767,
+       -123.3933
+      ],
+      "span": 60,
+      "from_span": 100,
+      "points": [
+       {
+        "lat": -48.8767,
+        "lon": -123.3933,
+        "label": "Point Nemo"
+       },
+       {
+        "lat": -24.67,
+        "lon": -124.79,
+        "label": "Ducie Island"
+       },
+       {
+        "lat": -27.2053,
+        "lon": -109.4469,
+        "label": "Motu Nui"
+       }
+      ],
+      "circles": [
+       {
+        "lat": -48.8767,
+        "lon": -123.3933,
+        "km": 2688,
+        "label": "2,688 km"
+       }
+      ]
+     },
+     "key": "2,600 km"
     },
     {
      "vo": "लेकिन ऊपर से गुज़रते आई एस एस के एस्ट्रोनॉट्स सिर्फ़ चार सौ किलोमीटर दूर!",
      "caption": "लेकिन ऊपर से गुज़रते ISS के astronauts सिर्फ़ 400 km दूर!",
-     "prompt": "The International Space Station with long gold solar panel wings, large in the centre of the frame, flying close above the deep-blue Pacific Ocean with a few white clouds below, Earth's curved horizon with a thin blue atmosphere behind it, bright sunlight, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide orbital view of the International Space Station with gold solar panels glinting, high above the blue Pacific Ocean curve of Earth, bright sun flare on the horizon, razor-sharp photoreal detail.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8923
+     "seed": 8923,
+     "more": [
+      "Medium shot of an astronaut floating inside the station cupola window, looking down at the deep blue ocean far below, soft cool light from the window on their face and suit.",
+      "Close-up of an astronaut's gloved hand pressed on a thick round window, the reflection of a vast blue ocean and white clouds glowing in the glass, tiny stars beyond."
+     ]
     },
     {
      "vo": "यहाँ ढाई सौ से ज़्यादा स्पेसक्राफ़्ट समुद्र की गहराई में पड़े हैं।",
      "caption": "यहाँ 250 से ज़्यादा spacecraft समुद्र की गहराई में पड़े हैं।",
-     "prompt": "Rusted spacecraft wreckage lying on the dark ocean floor: crumpled white cylindrical modules, round fuel tanks and twisted solar panel frames half-buried in grey sediment, pale blue light shining down from above, sharp focus from foreground to background, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide underwater view of a deep dark-blue seabed littered with dozens of crumpled spacecraft parts, rocket tanks and panels half buried in grey sediment, faint shafts of cold blue light from far above.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a submersible robot's bright spotlight illuminating a dented white rocket fuel tank lying on the silty ocean floor, floating particles in the beam.",
+      "Close-up of a corroded metal spacecraft panel on the seabed, encrusted with pale barnacles, a small ghostly deep-sea fish passing in the light beam."
+     ]
     },
     {
      "vo": "रूस का मीर स्पेस स्टेशन भी दो हज़ार एक में यहीं गिराया गया।",
      "caption": "रूस का Mir स्पेस स्टेशन भी 2001 में यहीं गिराया गया।",
-     "prompt": "The Mir space station, a cluster of white cylindrical modules with dark solar panels, broken apart and sinking into the deep-blue Pacific Ocean, half of it under the water with white foam and smoke rising around it, large in the centre of the frame, bright sunlight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide night sky over the Pacific, a huge old space station breaking apart into dozens of glowing orange fragments with long fiery trails, ocean glinting below, dramatic reentry light.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8925
+     "seed": 8925,
+     "more": [
+      "Medium shot of tense Russian flight controllers in a 2001-era mission control room watching a big screen with a glowing trajectory line, blue monitor light on serious faces.",
+      "Close-up of a massive fiery fragment slamming into the ocean, a huge white splash and steam cloud erupting, dawn light orange on the water."
+     ]
     },
     {
      "vo": "बड़े टुकड़े हवा में पूरे नहीं जलते, और यहाँ नीचे कोई इंसान नहीं।",
      "caption": "बड़े टुकड़े पूरे नहीं जलते, और यहाँ नीचे कोई इंसान नहीं!",
-     "prompt": "A few large glowing chunks of twisted metal splashing down into a completely empty open ocean, white foam rising where they hit the water, calm blue sea stretching to the horizon with no ships, no land and no people, bright daylight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide aerial shot of large glowing metal chunks surviving reentry, still red-hot, plunging toward a completely empty open ocean to the horizon, no ships, no land, golden sunset light.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8926
+     "seed": 8926,
+     "more": [
+      "Medium shot of a lone albatross gliding low over endless calm empty dark-blue waves, soft pink dawn sky, not a human or ship anywhere.",
+      "Close-up of a heavy titanium fuel tank sphere sinking just below the surface, bubbles streaming up, sunlight rippling on its scorched metal."
+     ]
     },
     {
      "vo": "और दो हज़ार तीस के बाद, आई एस एस भी यहीं डुबाया जाएगा।",
      "caption": "और 2030 के बाद, ISS भी यहीं डुबाया जाएगा।",
-     "prompt": "The International Space Station with long solar panel wings, large in the centre of the frame, slowly descending toward the dark-blue Pacific Ocean far below, a thin orange glow along its lower edge, Earth's curved horizon behind it, bright sunlight, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide orbital shot of the International Space Station crossing in front of the glowing blue edge of Earth at sunrise, long solar arrays lit gold, looking calm and old, deep black space.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8927
+     "seed": 8927,
+     "more": [
+      "Medium shot of a space tug spacecraft with large thrusters approaching and docking to a station module, Earth blurred below, crisp white and silver hardware in hard sunlight.",
+      "Close-up of weathered gold insulation foil and a scratched solar panel edge on the space station, tiny micrometeorite pits visible, Earth's blue glow reflected on the metal."
+     ]
     }
    ]
   }
@@ -118,5 +192,6 @@
   "left": []
  },
  "voice_ok": "voice-gk-07-point-nemo-spacecraft-c502bcc937",
- "voice_approved_at": "2026-11-08 15:47"
+ "voice_approved_at": "2026-11-08 15:47",
+ "polished": "2026-11-08 16:44"
 }

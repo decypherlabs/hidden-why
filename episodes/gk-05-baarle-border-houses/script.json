@@ -38,9 +38,13 @@
     {
      "vo": "एक घर, आधा बेल्जियम, आधा नीदरलैंड्स: घर आखिर किसका?",
      "caption": "एक घर, आधा बेल्जियम, आधा नीदरलैंड्स: घर आखिर किसका?",
-     "prompt": "A narrow red-brick townhouse split in half by a bright white painted dotted line with small crosses running across the pavement and straight up through its front doorstep, large in frame, centre, warm lamp light glowing in the windows, quiet empty street at dusk, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide dusk photo of a charming small brick house on a quiet Dutch-Belgian town street, warm lit windows, a thin painted white line running across the pavement straight through the front garden and under the house, cobblestones glowing, dramatic orange sky.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a puzzled elderly couple standing in their front garden pointing in opposite directions, a white line on the paving between their feet, brick house behind them, soft golden evening light.",
+      "Close-up of a white painted line crossing red brick pavement and touching a house doorstep, a pair of worn slippers straddling the line, shallow depth of field, warm light."
+     ]
     },
     {
      "vo": "बार्ले शहर में बॉर्डर सड़कों, दुकानों और घरों के बीच से जाता है।",
@@ -48,50 +52,131 @@
      "prompt": "A thin bright red line running through the middle of a small town between rooftops, shop fronts and narrow streets, flat green farmland and patchwork fields around it, plain blank rooftops, seen straight down from high above in top-down view, clear bright daylight, sharp focus, wide aerial shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8921
+     "seed": 8921,
+     "map": {
+      "center": [
+       51.4433,
+       4.934
+      ],
+      "span": 0.03,
+      "from_span": 0.12,
+      "countries": [
+       {
+        "iso": "BEL",
+        "label": "बेल्जियम",
+        "color": "yellow"
+       },
+       {
+        "iso": "NLD",
+        "label": "नीदरलैंड्स",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 51.4433,
+        "lon": 4.934,
+        "label": "बार्ले"
+       }
+      ]
+     },
+     "key": "बार्ले शहर"
     },
     {
      "vo": "वजह आठ सौ साल से भी पुरानी है, जब ज़मीन के टुकड़े दो घरानों में बँटे थे।",
      "caption": "वजह 800 साल से भी पुरानी है, जब ज़मीन के टुकड़े दो घरानों में बँटे थे।",
-     "prompt": "Two stone castles on opposite horizons of a flat medieval countryside, small irregular farm fields divided by hedges and ditches between them, a few tiny peasants seen from behind in the middle distance, soft misty morning sun, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide cinematic photo of a medieval European countryside, two rival noblemen in armour and cloaks on horseback facing each other across green farmland patches divided by hedges, castle on a hill behind, stormy golden light.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of two medieval lords seated at a heavy wooden table over an old parchment map of land plots, candles flickering, advisors watching, warm dark tones.",
+      "Close-up of a hand pressing a red wax seal onto an aged parchment deed, quill and candle beside it, dramatic amber light, sharp detail."
+     ],
+     "key": "800 साल"
     },
     {
      "vo": "अठारह सौ तैंतालीस की मास्ट्रिख्ट संधि भी इन टुकड़ों को सुलझा नहीं पाई।",
      "caption": "1843 की Maastricht संधि भी इन टुकड़ों को सुलझा नहीं पाई।",
-     "prompt": "An old parchment treaty with red wax seals lying open on a heavy oak desk, a quill pen and inkwell beside it, a hand-drawn paper sheet of tangled plot outlines with plain blank surfaces next to it, warm candle light in a 19th-century room, sharp focus, close-up",
+     "prompt": "Wide photo of a grand 19th-century diplomatic hall with Dutch and Belgian diplomats in black frock coats around a long table covered in papers and maps, chandeliers, tall windows with cold daylight.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8923
+     "seed": 8923,
+     "more": [
+      "Medium shot of a frustrated diplomat in a frock coat rubbing his forehead over a tangled map of small land fragments, ink pots and papers scattered, moody blue light.",
+      "Close-up of a quill pen resting on a signed old treaty parchment with a crumpled map beside it, shallow depth of field, cool window light."
+     ],
+     "key": "1843"
     },
     {
      "vo": "आज बेल्जियम के बाईस टुकड़े नीदरलैंड्स के अंदर बिखरे पड़े हैं।",
      "caption": "आज बेल्जियम के 22 टुकड़े नीदरलैंड्स के अंदर बिखरे पड़े हैं।",
      "prompt": "Twenty-two small irregular patches of land glowing red scattered among green fields and rooftops of flat farmland, seen from high above in top-down view, plain unmarked surfaces, bright daylight, wide aerial shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       51.4433,
+       4.934
+      ],
+      "span": 0.08,
+      "from_span": 0.25,
+      "countries": [
+       {
+        "iso": "NLD",
+        "label": "नीदरलैंड्स",
+        "color": "teal"
+       },
+       {
+        "iso": "BEL",
+        "label": "बेल्जियम",
+        "color": "yellow"
+       }
+      ],
+      "points": [
+       {
+        "lat": 51.4433,
+        "lon": 4.934,
+        "label": "बार्ले-हेर्टोग"
+       }
+      ]
+     },
+     "key": "22 टुकड़े"
     },
     {
      "vo": "लेकिन रुकिए, जिस घर के बीच से बॉर्डर गुज़रे, वो किस देश का?",
      "caption": "लेकिन रुकिए, जिस घर के बीच से border गुज़रे, वो किस देश का?",
-     "prompt": "A white painted border line with small crosses running across the pavement and straight through the front wall of a red-brick house between two windows, large in frame, camera low at the line, quiet cobbled street, warm evening light, sharp focus, medium shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide photo of a surveyor in a hi-vis vest with a tripod theodolite on a quiet suburban street, a white border line crossing the road and a row of brick houses, bright clear morning light, vivid colours.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a puzzled man in his doorway looking down at a white line running across his hallway floor, hand on chin, warm interior light.",
+      "Close-up of a hand holding a small pair of toy flags, one orange and one red-white-blue, over a miniature model house split down the middle, shallow depth of field, bright light."
+     ],
+     "key": "border"
     },
     {
      "vo": "जिस देश में घर का मेन दरवाज़ा है, घर उसी का, और दरवाज़े की नंबर प्लेट यही बताती है।",
      "caption": "जिस देश में घर का मेन दरवाज़ा है, घर उसी का, और दरवाज़े की number plate यही बताती है।",
-     "prompt": "A green wooden front door with a brass handle and a small plain blank enamel plate beside it, a white painted border line on the doorstep passing just beside the door, large in frame, warm afternoon sun, sharp focus, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide photo of a brick row house front with a glossy dark front door at the centre, a white line on the pavement leading right up to it, a postman in uniform standing at the step, crisp daylight.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a town official in a jacket kneeling by a front door, measuring tape in hand, checking the doorstep, neighbours watching, soft morning light.",
+      "Close-up of a brass door knob and small blank metal house plate on a dark green door, sharp detail, warm side light."
+     ],
+     "key": "मेन दरवाज़ा"
     },
     {
      "vo": "इसलिए एक ही घर, दो देश, और फैसला सिर्फ़ दरवाज़ा करता है।",
      "caption": "इसलिए एक ही घर, दो देश, और फैसला सिर्फ़ दरवाज़ा करता है।",
-     "prompt": "A red-brick house split by a white painted border line crossing the pavement and its doorstep, its green front door glowing with warm light, a small man seen from behind walking toward the door, row of brick houses on both sides, golden hour sun, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide dusk photo of a happy family standing proudly in front of their brick house, front door open with warm light spilling out, a white line on the pavement passing through the garden, cosy street lamps glowing.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a smiling child pointing at a front door, parents laughing behind, cheerful colourful evening light.",
+      "Close-up of a hand turning a key in a front door lock, shallow depth of field, warm golden glow from inside."
+     ],
+     "key": "दरवाज़ा"
     }
    ]
   }
@@ -115,5 +200,6 @@
    "2": "Glowing red neon line on an oblique street view, not a top-down border",
    "4": "Map on paper with lettering (\"NIER\") painted in"
   }
- }
+ },
+ "polished": "2026-11-08 16:45"
 }

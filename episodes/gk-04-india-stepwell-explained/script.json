@@ -38,9 +38,13 @@
     {
      "vo": "हज़ार साल पुरानी मूर्तियाँ, फिर भी कोई खरोंच नहीं, कैसे?",
      "caption": "हज़ार साल पुरानी मूर्तियाँ, फिर भी कोई खरोंच नहीं, कैसे?",
-     "prompt": "A close-up of an ancient carved sandstone goddess sculpture on a stepwell wall, crisp unweathered carving, sharp jewellery and delicate fingertips, smooth surface with no cracks, centre of frame, soft raking daylight, sharp focus throughout, macro shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide view of an ancient Indian stepwell's carved sandstone wall at golden hour, rows of crisp thousand-year-old sculptures of gods and dancers glowing warm orange, flawless unscratched surfaces, deep shadows between pillars, dramatic raking sunlight, vivid detail.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a perfectly preserved carved Vishnu figure in honey-coloured sandstone, sharp edges, ornate crown and jewellery, soft side light, shallow depth of field, pristine stone with no damage anywhere.",
+      "Extreme close-up of an Indian man's hand gently touching a flawless carved stone face, fingertips on smooth intact sandstone, warm light, astonished expression blurred behind, every chisel detail razor sharp."
+     ]
     },
     {
      "vo": "गुजरात के पाटन की रानी की वाव, ग्यारहवीं सदी में बनी।",
@@ -48,50 +52,100 @@
      "prompt": "A grand eleventh-century Indian stepwell in Patan, Gujarat, seen from its entrance, long carved sandstone stairway leading down between pillared pavilions into the earth, plain blank stone surfaces, warm sandy-gold stone, bright clear daylight, sharp focus from foreground to background, wide shot, vertical composition, photorealistic documentary still",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8921
+     "seed": 8921,
+     "map": {
+      "center": [
+       23.8588,
+       72.1017
+      ],
+      "span": 6,
+      "from_span": 18,
+      "countries": [
+       {
+        "iso": "IND",
+        "label": "भारत",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 23.8588,
+        "lon": 72.1017,
+        "label": "रानी की वाव, पाटन"
+       }
+      ]
+     },
+     "key": "11वीं सदी"
     },
     {
      "vo": "सात स्तर गहरी, क्योंकि गर्मी में पानी ज़मीन में बहुत नीचे चला जाता।",
      "caption": "7 स्तर गहरी, क्योंकि गर्मी में पानी ज़मीन में बहुत नीचे चला जाता।",
-     "prompt": "Looking straight down into a huge ancient Indian stepwell, seven descending tiers of carved sandstone pillared pavilions dropping deep into the earth, a small dark green pool of water at the very bottom, bright harsh summer sun, sharp focus from top to bottom, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Looking straight down a huge seven-level stepwell shaft in India, symmetrical stone stairways descending tier by tier into cool darkness, a tiny person at the bottom for scale, beams of sunlight cutting across carved pillars, dramatic depth.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of parched cracked earth in Gujarat in scorching summer, dry riverbed, Indian village women in colourful saris carrying brass pots across it under a harsh white sun, heat haze, vivid colours.",
+      "Close-up of still dark green water far below at the bottom of a stone well, a single shaft of light shimmering on the surface, wet stone steps in foreground, cool blue-green tones."
+     ],
+     "key": "7"
     },
     {
      "vo": "दीवारों पर पाँच सौ से ज़्यादा बड़ी मूर्तियाँ, और हज़ार से ज़्यादा छोटी।",
      "caption": "दीवारों पर 500+ बड़ी मूर्तियाँ, और 1000+ छोटी।",
-     "prompt": "Rows upon rows of large carved sandstone deity sculptures in niches along a towering stepwell wall, countless smaller carved figures and floral bands filling every space between them, warm golden light, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide shot of an enormous stone wall of a stepwell densely covered with hundreds of large carved deities in niches, row after row, glowing in late afternoon amber light, an Indian visitor tiny at the base for scale.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a graceful carved apsara dancer in a niche, sensuous pose, intricate jewellery, golden sandstone, crisp shadows, cool blue dusk sky above the edge of the frame.",
+      "Close-up macro of a tiny carved figure the size of a palm among hundreds of miniature sculptures, dozens of small figures in tight rows, fine chisel detail, warm side light."
+     ],
+     "key": "500"
     },
     {
      "vo": "लेकिन फिर सरस्वती नदी की बाढ़ आई, और पूरी वाव मिट्टी से भर गई।",
      "caption": "लेकिन फिर सरस्वती नदी की बाढ़ आई, और पूरी वाव मिट्टी से भर गई।",
-     "prompt": "Muddy brown floodwater pouring over the rim of an ancient carved sandstone stepwell and cascading down its tiers, thick mud burying the carved pillars and steps, a river flooding in from the left, stormy grey sky, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide dramatic shot of a swollen brown river bursting its banks across flat Gujarat plains, churning muddy flood water racing toward an old stepwell, stormy dark sky, flattened trees, villagers running in the distance.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of thick brown muddy water pouring down stone steps into a deep stepwell, swirling and filling the tiers, splashing against carved pillars, dark grey storm light.",
+      "Close-up of a carved sandstone pillar half-submerged in thick wet brown silt, mud creeping up the sculptures, dripping slurry, muted earthy tones."
+     ]
     },
     {
      "vo": "उन्नीस सौ अस्सी के दशक में एएसआई ने खोदा, तो नक्काशी लगभग सलामत मिली।",
      "caption": "1980 के दशक में ASI ने खोदा, तो नक्काशी लगभग सलामत मिली।",
-     "prompt": "Workers seen small from behind with baskets and shovels clearing packed earth inside a deep ancient stepwell, carved sandstone sculptures emerging clean and intact from dark soil, men in simple Indian clothes, dusty afternoon sunlight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide shot of Indian archaeologists in 1980s-style khaki clothes and hats digging in a huge sunlit pit, wheelbarrows and baskets of soil, stone stairways emerging from earth, dusty golden light, workers on rope ladders.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a half-uncovered carved stone panel emerging from packed earth, crisp sculpted figures still sharp, an Indian archaeologist kneeling beside it with a trowel, amazed look, warm light.",
+      "Close-up of a soft brush sweeping dry clay off a carved stone face, intact eyes and smile appearing, fine dust floating in a sunbeam, gloved hand."
+     ],
+     "key": "1980"
     },
     {
      "vo": "गाद ने पत्थर को हवा, बारिश और तोड़-फोड़ से बचाए रखा।",
      "caption": "गाद ने पत्थर को हवा, बारिश और तोड़-फोड़ से बचाए रखा।",
-     "prompt": "A carved sandstone goddess sculpture buried up to her waist in thick layered grey-brown silt inside a stepwell, the buried lower half crisp and pristine, silt packed tightly around it, the exposed top only slightly worn, stone stepwell walls behind, centre of frame, soft earthy daylight, sharp focus, medium close-up, vertical composition, photorealistic documentary still",
+     "prompt": "Cross-section view of a dug trench showing thick layered pale grey-brown silt packed tightly against a carved stone wall, sculptures sealed behind the clay, clean geological layers, dramatic side light, scientific documentary feel.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8926
+     "seed": 8926,
+     "more": [
+      "Medium shot of heavy monsoon rain lashing the dry grassy ground above a buried stepwell site in India, puddles and wind-blown grass, dark clouds, while the ground stays calm and sealed.",
+      "Close-up of an Indian hand holding a fine pinch of pale silt over a sharp-edged carved stone relief, powder falling in slow motion, shallow focus, soft daylight."
+     ]
     },
     {
      "vo": "जिस मिट्टी ने इसे दबाया, उसी ने इसे नया रखा।",
      "caption": "जिस मिट्टी ने इसे दबाया, उसी ने इसे नया रखा।",
-     "prompt": "A fully revealed ancient seven-tier carved sandstone stepwell glowing in golden sunset light, crisp intact sculptures on every wall, a thin layer of dark silt visible on the lowest steps, sharp focus from foreground to background, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Sunrise over the fully restored Indian stepwell, golden light flooding the symmetrical tiers and carved walls, spotless sculptures looking brand new, a few visitors tiny at the bottom, serene sky of pink and gold.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium close-up of an Indian archaeologist's hands cupping a handful of damp grey-brown clay, with a pristine carved sculpture softly blurred behind, warm light, reverent mood.",
+      "Close-up of a carved goddess face split by light, one side still dusted with drying clay and the other gleaming clean, looking brand new, dramatic warm rim light, rich detail."
+     ]
     }
    ]
   }
@@ -115,5 +169,6 @@
    "2": "Map has painted lettering ('Gujanrt', plus a pin label). It is not a painting of the Patan stepwell.",
    "7": "Shows a desert cliff with two small carved figures. It does not show the silt-covered stepwell or its stone being protected."
   }
- }
+ },
+ "polished": "2026-11-08 16:45"
 }

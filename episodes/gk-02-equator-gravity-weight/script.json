@@ -38,16 +38,24 @@
     {
      "vo": "भूमध्य रेखा पर जाते ही आपका वज़न सच में घट जाता है?",
      "caption": "भूमध्य रेखा पर जाते ही आपका वज़न सच में घट जाता है?",
-     "prompt": "Bare feet standing on a white bathroom scale with a plain blank display, on golden sand of an Indian tropical beach, palm trees and turquoise sea behind, bright tropical noon sun, sharp focus, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Close shot of a young Indian man stepping onto a bathroom scale in a bright home, looking down at the glowing dial with a curious, hopeful expression, warm morning window light, sharp focus on his bare feet and the scale in upper-middle of frame, vivid colours, photoreal.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a bathroom scale on a tile floor with an Indian woman's feet on it, a globe sitting beside it on the floor, soft side light, vivid colours, sharp detail, photoreal.",
+      "Extreme close-up of an analog scale needle swinging slightly back from a higher mark, brushed metal dial, dramatic warm light, shallow depth of field, photoreal."
+     ]
     },
     {
      "vo": "ज़्यादातर लोग सोचते हैं, धरती पर ग्रैविटी हर जगह एक जैसी है।",
      "caption": "ज़्यादातर लोग सोचते हैं, धरती पर gravity हर जगह एक जैसी है।",
-     "prompt": "Planet Earth seen from orbit, white Arctic ice cap at the top, green tropical rainforests and blue oceans across the middle, sunlit globe filling the frame, black space around, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide shot of an Indian schoolteacher in a classroom pointing at a large globe, students seated in rows nodding, warm afternoon light through windows, globe large and sharp in upper-middle, vivid colours, photoreal.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a man dropping an apple from his hand in a sunlit Indian courtyard, the apple falling straight down, motion captured, blue sky, vivid colours, photoreal.",
+      "Close-up of a child's amazed face looking up as a ball falls in front of them, bright outdoor light, sharp eyes and open mouth, vivid colours, photoreal."
+     ]
     },
     {
      "vo": "लेकिन इक्वेटर पर धरती सोलह सौ सत्तर किलोमीटर प्रति घंटा की स्पीड से घूमती है।",
@@ -55,45 +63,94 @@
      "prompt": "Planet Earth turning in space, the blue Atlantic Ocean and green Amazon rainforest facing us in the middle, soft white cloud swirls stretched sideways by the spin, sunlit edge against black space, plain natural globe with no lines or rings, sharp focus, wide shot, vertical composition, photorealistic",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8922
+     "seed": 8922,
+     "map": {
+      "center": [
+       0,
+       20
+      ],
+      "span": 40,
+      "from_span": 120,
+      "lines": [
+       {
+        "lat": 0,
+        "label": "भूमध्य रेखा · 1,670 km/h"
+       }
+      ],
+      "points": [
+       {
+        "lat": 0.0,
+        "lon": -78.4558,
+        "label": "Quito"
+       },
+       {
+        "lat": 0.0,
+        "lon": 32.4,
+        "label": "Uganda"
+       }
+      ]
+     },
+     "key": "1,670 km"
     },
     {
      "vo": "ये घुमाव हर चीज़ को हल्का सा बाहर की तरफ़ धकेलता है।",
      "caption": "ये घुमाव हर चीज़ को हल्का सा बाहर की तरफ़ धकेलता है।",
-     "prompt": "A girl in a bright yellow dress riding a round playground merry-go-round, her long black hair and a red scarf flung straight outward, arms gripping the metal bar, centre, Indian park with green trees, golden afternoon sun, sharp focus, medium shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Medium shot of a spinning playground merry-go-round with Indian children holding the bars, hair and clothes flying outward, motion blur on the edges, golden hour light, vivid colours, children sharp in upper-middle, photoreal.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Close-up of water droplets flying outward off a spinning wet bicycle wheel, dramatic backlight, sharp droplets in an arc, dark background, vivid colours, photoreal.",
+      "Wide shot of a person on a fast carnival spinning ride, body pressed outward, laughing, dusk lights streaking behind, vivid colours, photoreal."
+     ]
     },
     {
      "vo": "लेकिन रुकिए… इसी घुमाव से धरती इक्वेटर पर इक्कीस किलोमीटर फूली हुई है।",
      "caption": "लेकिन रुकिए… इसी घुमाव से धरती equator पर 21 km फूली हुई है।",
-     "prompt": "Planet Earth seen side-on from deep space, clearly wider and bulging at the middle and flatter at the top and bottom, white polar caps, blue oceans, sunlit globe against plain black space, nothing else in the frame, sharp focus, wide shot, vertical composition, photorealistic",
+     "prompt": "Wide view from space of Earth with a visibly bulging belly at the equator, exaggerated but realistic, glowing atmosphere edge, deep black background with stars, vivid blues, photoreal.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8924
+     "seed": 8924,
+     "more": [
+      "Medium shot of a scientist in a lab holding a slightly squashed rubber ball next to a perfect sphere on a table, cool lab light, sharp detail, vivid colours, photoreal.",
+      "Close-up of a pizza dough being spun by a chef's hands, flattening and widening at the edges, warm kitchen light, flour in the air, vivid colours, photoreal."
+     ],
+     "key": "21 km"
     },
     {
      "vo": "यानी वहाँ आप धरती के सेंटर से और दूर खड़े होते हैं।",
      "caption": "यानी वहाँ आप धरती के center से और दूर खड़े होते हैं।",
-     "prompt": "A hiker in a red jacket standing on a snowy mountain summit high above a sea of white clouds, seen from behind, gazing at the far curved blue horizon of Earth, centre, clear sky, bright morning sun, untouched snow ground, sharp focus, wide shot, vertical composition, photorealistic",
+     "prompt": "Wide shot of a lone Indian man standing on a vast flat equatorial plain at sunrise, tiny against a huge curved horizon, long shadow, golden light, vivid colours, photoreal.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8925
+     "seed": 8925,
+     "more": [
+      "Medium shot of a geologist in a hard hat holding a measuring tape stretched across a rocky ground, tropical forest behind, bright sun, vivid colours, sharp, photoreal.",
+      "Close-up of a compass and a small globe held in a hand, the finger tracing the equator line, warm desk light, sharp detail, vivid colours, photoreal."
+     ]
     },
     {
      "vo": "इससे ग्रैविटी करीब आधा प्रतिशत कम होती है, साठ किलो पर तीन सौ ग्राम!",
      "caption": "इससे gravity करीब 0.5% कम होती है, 60 किलो पर 300 ग्राम!",
-     "prompt": "A small sack of rice resting on golden sand beside a white bathroom scale with a plain blank display, a man in a white shirt standing on the scale seen from behind, Indian tropical beach with palm trees, bright noon sun, sharp focus, medium shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Close-up of a digital kitchen scale showing a small weight with a hand placing a tiny pinch of salt beside it, light dropping effect, clean bright light, sharp focus, vivid colours, no text, photoreal.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of an Indian woman holding a 60 kg-looking sack of flour on her shoulder in a village shop, then a small cup of flour beside it for scale, warm light, vivid colours, photoreal.",
+      "Wide shot of a physicist at a chalkboard-free lab bench with a precision balance and a weight set, dramatic cool light, sharp detail, vivid colours, photoreal."
+     ],
+     "key": "0.5%"
     },
     {
      "vo": "शरीर वही, पर भूमध्य रेखा पर स्केल का वज़न सच में घट जाता है!",
      "caption": "शरीर वही, पर भूमध्य रेखा पर scale का वज़न सच में घट जाता है!",
-     "prompt": "Bare feet standing on a white bathroom scale with a plain blank display on smooth sunlit golden sand, soft palm tree shadows across the sand, turquoise sea and empty horizon behind, plain beach with no signs or billboards, warm bright light, sharp focus, close-up, vertical composition, photorealistic",
+     "prompt": "Close shot of an astonished Indian man looking down at a bathroom scale that has dropped to a lower reading, mouth open, bright tropical light through a window, vivid colours, sharp face in upper-middle, photoreal.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8927
+     "seed": 8927,
+     "more": [
+      "Wide shot of a scientist on a tropical beach at the equator weighing a metal block on a precision scale, palm trees, bright sunlight, vivid colours, photoreal.",
+      "Extreme close-up of a scale dial needle resting at a lower mark, glinting metal, dramatic light, shallow depth of field, vivid colours, photoreal."
+     ]
     }
    ]
   }
@@ -122,5 +179,6 @@
    "6": "A laser-like beam drills a hole into the Earth, which has nothing to do with the line about pushing outward. A tiny figure stands in the hole.",
    "8": "Signs with maps and lettering are in the background. A glowing lava crack runs under the feet, and a blank billboard is present."
   }
- }
+ },
+ "polished": "2026-11-08 16:45"
 }
