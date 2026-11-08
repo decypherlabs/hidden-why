@@ -43,7 +43,8 @@ def videos(slug):
 
 def discarded(slug):
     """THW Shorts cut from episodes (owner: Shorts are originals), archived 3 Nov 2026: never back on Projects."""
-    return bool(re.search(r"-short-\d+$", slug))
+    # THW Hindi translations (episodes/<slug>-hi), archived 8 Nov 2026 when the channel became Gazab Kyun
+    return bool(re.search(r"-short-\d+$", slug)) or slug.endswith("-hi")
 CACHE = RB / "channels" / "the-hidden-why" / "videos"
 
 
