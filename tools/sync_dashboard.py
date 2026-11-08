@@ -199,6 +199,8 @@ def import_promo(slug, par, src, day):
             "thumbs": 1 if (src / "thumb.jpg").exists() else 0, "episode": slug}
     data["items"] = [i for i in data.get("items") or [] if i.get("file") != item["file"]] + [item]
     data["updated"] = now
+    if data.get("status") == "done":
+        data["finished"] = now  # the auto-scheduler looks at the project again and queues the new promo
     pj.write_text(json.dumps(data, indent=2, ensure_ascii=False))
     print(f"{slug}: in the dashboard, in {par}'s project ({pdir.relative_to(RB)})")
     return pdir
