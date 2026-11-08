@@ -38,9 +38,10 @@
     {
      "vo": "पैंसठ प्रतिशत बर्फ़ बनकर भी यह मेंढक मरता क्यों नहीं?",
      "caption": "65% बर्फ़ बनकर भी यह मेंढक मरता क्यों नहीं?",
-     "prompt": "A frozen wood frog completely encased in white frost and ice crystals, stiff and motionless, tan-brown body with dark eye mask, lying on frosted brown oak leaves, cold blue winter daylight, sharp focus, macro shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A wood frog completely encased in white frost and ice crystals, stiff and motionless, tan-brown body with dark eye mask, lying on frosted brown oak leaves on the forest floor, plain bare ground and leaves only, cold blue winter daylight, sharp focus from front to back, macro shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8920
     },
     {
      "vo": "इसका नाम वुड फ्रॉग है, जो उत्तरी अमेरिका में मिलता है।",
@@ -59,16 +60,18 @@
     {
      "vo": "इसके शरीर के लगभग पैंसठ प्रतिशत पानी की बर्फ़ बन सकती है।",
      "caption": "इसके शरीर के लगभग 65% पानी की बर्फ़ बन सकती है।",
-     "prompt": "A wood frog whose back and legs have turned into solid ice, skin glazed white with thick feathery frost crystals, one clouded frozen eye, resting on snow-dusted brown leaves, icy blue daylight, sharp focus, extreme macro shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A wood frog whose back and legs have turned into solid white ice, skin glazed with thick feathery frost crystals, both eyes clouded and symmetrical, resting on snow-dusted brown leaves, plain snowy forest floor behind, icy blue daylight, sharp focus from front to back, extreme macro shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8923
     },
     {
      "vo": "इस हालत में इसकी धड़कन और साँस भी रुक सकती हैं।",
      "caption": "इस हालत में इसकी धड़कन और साँस भी रुक सकती हैं।",
-     "prompt": "A frozen wood frog lying perfectly still under snow-covered brown leaves, chest flat, mouth closed, frost around its nostrils, eye glazed pale, a thin layer of snow on its back, cold dim winter light, sharp focus, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A frozen wood frog lying perfectly still under snow-covered brown leaves, chest flat, mouth closed, frost around its nostrils, both eyes glazed pale, a thin layer of snow on its back, plain snowy ground behind, cold dim winter light, sharp focus from front to back, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8924
     },
     {
      "vo": "इसका लिवर ग्लूकोज़ बनाता है, जो कोशिकाओं की रक्षा करता है।",
@@ -80,9 +83,10 @@
     {
      "vo": "बर्फ़ पिघलते ही ये फिर सामान्य गतिविधियाँ शुरू कर सकता है!",
      "caption": "बर्फ़ पिघलते ही ये फिर सामान्य गतिविधियाँ शुरू कर सकता है!",
-     "prompt": "A wood frog with glossy tan-brown skin and bright eyes sitting upright on wet brown leaves, melting snow and a spring forest pond behind it, water droplets on its skin, bright morning sunlight, sharp focus, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A wood frog with glossy tan-brown skin and bright eyes sitting upright on wet brown leaves, water droplets on its skin, melting snow patches and a calm spring forest pond with green shoots behind it, bright morning sunlight, sharp focus from front to back, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8926
     }
    ]
   }
@@ -90,5 +94,25 @@
  "voice_requested": "voice-gk-13-wood-frog-freezes-alive-fff2bfcc4b",
  "released_at": "2026-11-08 15:14",
  "voice_ok": "voice-gk-13-wood-frog-freezes-alive-fff2bfcc4b",
- "voice_approved_at": "2026-11-08 15:14"
+ "voice_approved_at": "2026-11-08 15:14",
+ "repaint": {
+  "shots": [
+   1,
+   4,
+   5,
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-08 16:28"
+ },
+ "shot_qc": {
+  "checked": "2026-11-08T10:56:42Z",
+  "rounds": 1,
+  "why": {
+   "1": "Painted text on the signs and a map on a board in the background.",
+   "4": "Maps and signboards in the background. The left eye looks odd.",
+   "5": "A map on a sign board is shown, and it has lettering and labels.",
+   "7": "A signboard with painted text and symbols in the background."
+  }
+ }
 }
