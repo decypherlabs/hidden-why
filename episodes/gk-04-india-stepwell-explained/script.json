@@ -45,9 +45,10 @@
     {
      "vo": "गुजरात के पाटन की रानी की वाव, ग्यारहवीं सदी में बनी।",
      "caption": "गुजरात के पाटन की रानी की वाव, 11वीं सदी में बनी।",
-     "prompt": "A wide aerial view of western India showing the coastline of Gujarat, white salt flats of the Rann to the west, and one large glowing red map pin standing in north Gujarat, plain land and sea colours with no lettering, bright daylight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A grand eleventh-century Indian stepwell in Patan, Gujarat, seen from its entrance, long carved sandstone stairway leading down between pillared pavilions into the earth, plain blank stone surfaces, warm sandy-gold stone, bright clear daylight, sharp focus from foreground to background, wide shot, vertical composition, photorealistic documentary still",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8921
     },
     {
      "vo": "सात स्तर गहरी, क्योंकि गर्मी में पानी ज़मीन में बहुत नीचे चला जाता।",
@@ -80,9 +81,10 @@
     {
      "vo": "गाद ने पत्थर को हवा, बारिश और तोड़-फोड़ से बचाए रखा।",
      "caption": "गाद ने पत्थर को हवा, बारिश और तोड़-फोड़ से बचाए रखा।",
-     "prompt": "A carved sandstone figure half-buried in thick layered grey-brown silt, the buried lower half sharp and pristine, silt packed tightly around it, the exposed top slightly worn, centre of frame, soft earthy daylight, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A carved sandstone goddess sculpture buried up to her waist in thick layered grey-brown silt inside a stepwell, the buried lower half crisp and pristine, silt packed tightly around it, the exposed top only slightly worn, stone stepwell walls behind, centre of frame, soft earthy daylight, sharp focus, medium close-up, vertical composition, photorealistic documentary still",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8926
     },
     {
      "vo": "जिस मिट्टी ने इसे दबाया, उसी ने इसे नया रखा।",
@@ -97,5 +99,21 @@
  "voice_requested": "voice-gk-04-india-stepwell-explained-4b03178f7e",
  "released_at": "2026-11-08 15:14",
  "voice_ok": "voice-gk-04-india-stepwell-explained-4b03178f7e",
- "voice_approved_at": "2026-11-08 15:14"
+ "voice_approved_at": "2026-11-08 15:14",
+ "repaint": {
+  "shots": [
+   2,
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-08 15:58"
+ },
+ "shot_qc": {
+  "checked": "2026-11-08T10:27:39Z",
+  "rounds": 1,
+  "why": {
+   "2": "Map has painted lettering ('Gujanrt', plus a pin label). It is not a painting of the Patan stepwell.",
+   "7": "Shows a desert cliff with two small carved figures. It does not show the silt-covered stepwell or its stone being protected."
+  }
+ }
 }
