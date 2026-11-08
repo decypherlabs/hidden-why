@@ -490,6 +490,24 @@ def hook_card(text):
     return cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0
 
 
+def punch_word(frame, text, t, dur=1.3):
+    """TEASER Shorts: the question's shocking word or number slams onto the screen (big, yellow on a red shadow,
+    from 140% to 100% in 0.12 s), holds, and fades."""
+    if t > dur:
+        return frame
+    a = min(1.0, (dur - t) / 0.25)
+    sc = 1.4 - 0.4 * min(1.0, t / 0.12)
+    f = K.display(int(150 * sc))
+    d = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+    while d.textlength(text, font=f) > W * 0.9 and f.size > 60:
+        f = K.display(f.size - 6)
+    img = Image.new("RGBA", (W, 300), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.text((W / 2 + 8, 158), text, font=f, anchor="mm", fill=K.RED + (235,))
+    d.text((W / 2, 150), text, font=f, anchor="mm", fill=K.YEL + (255,), stroke_width=8, stroke_fill=K.INK + (255,))
+    return _paste(frame, img, 0, H * 0.27 - 150, a)
+
+
 def cta_card(text):
     """The Short's last seconds: a bright bar sending viewers to the full episode (owner, 8 Nov 2026: "to know
     those, watch the full episode"), with a play triangle drawn (the fonts have no arrow glyph)."""
@@ -849,6 +867,8 @@ def main(script_path, out_dir):
     short = script.get("format") == "short"
     FX = not short and bool(K.B.get("motion_fx"))
     PANEL = short and K.B.get("short_layout") == "panel"  # Logos & Legends Shorts: the landscape painting whole (8 Nov 2026)
+    TEASER = short and K.B.get("short_layout") == "teaser"  # LL Shorts: fast, punchy, question after question (8 Nov 2026)
+    hits = []  # TEASER: (time, punch word) at every new question
     if short:
         W, H, XF = 1080, 1920, 0.15
     caps = []
@@ -907,7 +927,21 @@ def main(script_path, out_dir):
                 if s.get("overlay"):  # science drawn onto the painting (a crack, a hole) where SDXL can't
                     img = bgr(OVERLAYS[s["overlay"]](Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))))
                 parts = 3 if d > 5.4 else 2 if d > 2.6 else 1
-                if short and PANEL:  # a landscape painting kept whole in a vertical frame
+                if short and TEASER:  # the line's painting + 1-2 more, full frame, cut every ~1.5 s
+                    ids = [src] + list(s.get("also") or []) if src else [f"{n:02d}"]
+                    if s.get("montage"):  # the last line: a flash recap of the Short's pictures under the call
+                        ids = s["montage"]
+                    pics = []
+                    for q in ids:
+                        f = out / f"shot-{int(q.split('-')[0]):02d}{'-' + q.split('-')[1] if '-' in q else ''}.png"
+                        im = cv2.imread(str(f))
+                        if im is None:
+                            continue
+                        im = cv2.addWeighted(im, 1.6, cv2.GaussianBlur(im, (0, 0), 1.6), -0.6, 0)  # crisper upscale
+                        fx, fy, faces = subject(im)
+                        pics.append(Shot(im, ("push", "pull")[len(pics) % 2], faces or (fx, fy)))
+                    vis, parts = (pics or [Shot(img, "push")]), 1
+                elif short and PANEL:  # a landscape painting kept whole in a vertical frame
                     vis, parts = Panel(img, MOVES_CYCLE[n % 4]), 1
                 else:
                     vis = Split(img, parts) if short and parts > 1 else Shot(img, s.get("move", "push"))
@@ -915,7 +949,14 @@ def main(script_path, out_dir):
                     cuts += [t + d * i / parts for i in range(1, parts)]
             extras = [] if short or s.get("diagram") else sorted(
                 out.glob(f"shot-{n:02d}-*.png"), key=lambda p: int(p.stem.rsplit("-", 1)[1]))
-            if extras:  # a new picture every ~4 s (owner, 7 Nov 2026, after The Quiet Story): the line's pictures in turn
+            if isinstance(vis, list):  # TEASER: the line's pictures in turn, the voice on the first
+                hits.append((t, s.get("key") if hits else None))  # line 1 has the hook headline
+                part = d / len(vis)
+                for i, v in enumerate(vis):
+                    items.append((t + i * part, part, v, out / f"vo-{n:02d}.wav" if i == 0 else None, sec["id"]))
+                    if i:
+                        cuts.append(t + i * part)
+            elif extras:  # a new picture every ~4 s (owner, 7 Nov 2026, after The Quiet Story): the line's pictures in turn
                 pics = [vis] + [Shot(cv2.imread(str(x)), MOVES_CYCLE[(n + i) % 4]) for i, x in enumerate(extras)]
                 part = d / len(pics)
                 for i, v in enumerate(pics):
@@ -1030,6 +1071,11 @@ def main(script_path, out_dir):
         for c in cuts + [it[0] for it in items[1:]]:
             if abs(c - last) > 0.05:
                 put(whoosh(), max(0, c - 0.18), -15)
+        if TEASER:
+            for h in hits[1:-1]:
+                put(load_sfx("impact"), h[0], -14)
+            if len(hits) > 1:
+                put(riser(1.2), max(0, hits[-1][0] - 1.2), -16)
         put(load_sfx(style.get("reveal", "impact")), last, -9)
         if style.get("open"):
             put(load_sfx(style["open"]), 0, -12)
@@ -1133,12 +1179,30 @@ def main(script_path, out_dir):
                 y = int(H * Panel.TOP) - 540 if PANEL else int(H * 0.12)
                 roi = fr[y:y + 520].astype(np.float32)
                 fr[y:y + 520] = (rgb * al + roi * (1 - al)).astype(np.uint8)
+            if TEASER:
+                tt = k / FPS
+                h0 = next((h for h in hits if 0 <= tt - h[0] < 1.3), None)
+                if h0 is not None:
+                    a = tt - h0[0]
+                    if a < 0.25:  # a camera jolt as the question lands
+                        amp = 18 * (1 - a / 0.25)
+                        M = np.float32([[1, 0, amp * np.sin(a * 90)], [0, 1, amp * np.cos(a * 70)]])
+                        fr = cv2.warpAffine(fr, M, (W, H), borderMode=cv2.BORDER_REFLECT)
+                    if a < 0.1:  # a white flash
+                        fr = cv2.addWeighted(fr, 1 - 0.55 * (1 - a / 0.1), np.full_like(fr, 255), 0.55 * (1 - a / 0.1), 0)
+                    if h0[1]:
+                        fr = punch_word(fr, h0[1], a)
+                cv2.rectangle(fr, (0, 0), (int(W * min(1.0, tt / total)), 12), K.YEL[::-1], -1)  # watch-to-the-end bar
             if cta is not None and k / FPS > total - CTA_S:  # "the answers: the full episode" (Logos & Legends Shorts)
                 rgb, al = cta
                 al = al * min(1.0, (k / FPS - (total - CTA_S)) / 0.3)
                 y = int(H * 0.86) - rgb.shape[0] // 2
                 roi = fr[y:y + rgb.shape[0]].astype(np.float32)
                 fr[y:y + rgb.shape[0]] = (rgb * al + roi * (1 - al)).astype(np.uint8)
+                if TEASER:  # a bouncing arrow down to the related-video link
+                    by = int(H * 0.86) + 95 + int(18 * abs(np.sin(k / FPS * 6)))
+                    pts = np.array([[W // 2 - 46, by], [W // 2 + 46, by], [W // 2, by + 56]], np.int32)
+                    cv2.fillPoly(fr, [pts], K.YEL[::-1])
             if mark is not None:  # the banner's name + tagline at the top, above the hook (it starts at 12%)
                 rgb, al = mark
                 y = 40
