@@ -713,6 +713,146 @@ def subject(img):
     return (ex, 0.6 * ey + 0.4 * 0.42, None)
 
 
+_WORLD = {}
+
+
+class MapShot:
+    """A real map instead of a painting (owner, 8 Nov 2026: Gazab Kyun's painted maps had "random red marks, lines";
+    FLUX can't draw geography). Drawn from map data (brand/maps/world.json: Natural Earth, India's own boundary) at
+    the frame's size, animated over the line: the camera zooms in, highlighted countries and areas fill in turn, lines
+    draw themselves, pins drop, bold labels pop. spec (a shot's "map"):
+      {"center": [lat, lon], "span": 8, "from_span": 60,               # degrees of height shown, end and start
+       "countries": [{"iso": "EGY", "label": "मिस्र", "color": "red"}],  # ISO A3, colours: red yellow teal white
+       "areas": [{"name": "Bir Tawil", "label": "बीर तवील", "color": "yellow"}],   # disputed areas by name
+       "lines": [{"lat": 22, "label": "22° N"}, {"from": [lat, lon], "to": [lat, lon], "label": "..."}],
+       "points": [{"lat": .., "lon": .., "label": "Point Nemo"}],
+       "circles": [{"lat": .., "lon": .., "km": 2688, "label": "2,688 km"}]}
+    Events (pins, fills) sit in the first 70% of the line, so the picture is complete while the line ends."""
+    COLORS = {"red": (60, 70, 255), "yellow": (26, 194, 255), "teal": (170, 160, 40), "white": (240, 240, 240)}
+
+    def __init__(self, spec, dur):
+        if not _WORLD:
+            _WORLD.update(json.loads((K.HERE / "maps" / "world.json").read_text()))
+            for c in _WORLD["countries"] + _WORLD["disputed"]:
+                a = np.concatenate([np.array(r) for r in c["rings"]])
+                c["bbox"] = (a[:, 0].min(), a[:, 1].min(), a[:, 0].max(), a[:, 1].max())
+        self.s, self.dur = spec, dur
+        self.events = []  # (seconds into the shot, kind) for the sound
+        n = 0
+        for k in ("countries", "areas", "lines", "circles", "points"):
+            for _ in spec.get(k) or []:
+                self.events.append((min(0.7 * dur, 0.5 + 0.55 * n), k))
+                n += 1
+
+    def _proj(self, u):
+        lat, lon = self.s["center"]
+        e = ease(u / 0.45)
+        span = self.s.get("from_span", self.s.get("span", 20) * 4) * (1 - e) + self.s.get("span", 20) * e
+        k = H / span
+        cosl = np.cos(np.radians(lat))
+        return lambda lo, la: (W / 2 + (lo - lon) * cosl * k, H * 0.46 - (la - lat) * k), k, cosl
+
+    def frame(self, u):
+        P, k, cosl = self._proj(u)
+        t = u * self.dur
+        lat, lon = self.s["center"]
+        half_lon, half_lat = W / (2 * k * cosl) + 2, H / k + 2
+        view = (lon - half_lon, lat - half_lat, lon + half_lon, lat + half_lat)
+        fr = np.zeros((H, W, 3), np.uint8)
+        fr[:] = (52, 30, 14)  # deep sea
+        vis = lambda b: not (b[2] < view[0] or b[0] > view[2] or b[3] < view[1] or b[1] > view[3])
+        pts = lambda r: np.int32([[x * 4, y * 4] for x, y in (P(lo, la) for lo, la in r)])
+        countries = [c for c in _WORLD["countries"] if vis(c["bbox"])]
+        land = [pts(r) for c in countries for r in c["rings"]]
+        cv2.fillPoly(fr, land, (78, 58, 40), cv2.LINE_AA, shift=2)
+        fill = fr.copy()
+        labels = []
+        n = 0
+        for key, pool, by in (("countries", countries, "iso"), ("areas", _WORLD["disputed"], "name")):
+            for it in self.s.get(key) or []:
+                at = 0.5 + 0.55 * n
+                n += 1
+                a = min(1.0, max(0.0, (t - at) / 0.35))
+                if a <= 0:
+                    continue
+                want = str(it.get("iso" if key == "countries" else "name", "")).lower()
+                shape = next((c for c in pool if str(c.get(by, "")).lower() == want), None)
+                if shape is None:
+                    continue
+                col = self.COLORS.get(it.get("color", "yellow"), self.COLORS["yellow"])
+                layer = fr.copy()
+                cv2.fillPoly(layer, [pts(r) for r in shape["rings"]], col, cv2.LINE_AA, shift=2)
+                op = (0.92 if key == "areas" else 0.42) * a  # countries tinted, the area in question solid
+                fr = cv2.addWeighted(layer, op, fr, 1 - op, 0)
+                if key == "areas":  # a disputed area gets a bright outline, it is often tiny
+                    cv2.polylines(fr, [pts(r) for r in shape["rings"]], True, (255, 255, 255), 3, cv2.LINE_AA, shift=2)
+                if it.get("label"):  # at the middle of the part on screen
+                    inside = [P(lo, la) for r in shape["rings"] for lo, la in r]
+                    inside = [q for q in inside if 60 < q[0] < W - 60 and 80 < q[1] < H - 300] or inside
+                    if it.get("at"):
+                        pos = P(it["at"][1], it["at"][0])
+                    elif key == "areas":
+                        b = shape["bbox"]
+                        pos = P((b[0] + b[2]) / 2, b[1])  # under the area: lines and coasts run above
+                        pos = (pos[0], pos[1] + 62)
+                    else:
+                        pos = (float(np.median([q[0] for q in inside])), float(np.median([q[1] for q in inside])))
+                    labels.append((pos, it["label"], a, 64 if key == "areas" else 58))
+        cv2.polylines(fr, land, True, (140, 118, 96), 2, cv2.LINE_AA, shift=2)  # borders over the fills
+        for it in self.s.get("lines") or []:
+            at = 0.5 + 0.55 * n
+            n += 1
+            p = min(1.0, max(0.0, (t - at) / 0.8))
+            if p <= 0:
+                continue
+            if "lat" in it:
+                a0, a1 = P(view[0], it["lat"]), P(view[2], it["lat"])
+            else:
+                a0, a1 = P(it["from"][1], it["from"][0]), P(it["to"][1], it["to"][0])
+            end = (a0[0] + (a1[0] - a0[0]) * p, a0[1] + (a1[1] - a0[1]) * p)
+            cv2.line(fr, (int(a0[0]), int(a0[1])), (int(end[0]), int(end[1])), self.COLORS[it.get("color", "yellow")], 7, cv2.LINE_AA)
+            if it.get("label") and p > 0.6:
+                lx = W * 0.08 if "lat" in it else (a0[0] + a1[0]) / 2
+                ly = a0[1] + 150 if "lat" in it else (a0[1] + a1[1]) / 2 - 50
+                labels.append(((lx + (W * 0.12 if "lat" in it else 0), ly), it["label"], min(1.0, (p - 0.6) / 0.3), 52))
+        for it in self.s.get("circles") or []:
+            at = 0.5 + 0.55 * n
+            n += 1
+            p = min(1.0, max(0.0, (t - at) / 0.8))
+            if p <= 0:
+                continue
+            c = P(it["lon"], it["lat"])
+            r = it["km"] / 111.0 * k * p
+            cv2.ellipse(fr, (int(c[0]), int(c[1])), (int(r), int(r)), 0, 0, 360 * p, (255, 255, 255), 4, cv2.LINE_AA)
+            if it.get("label") and p > 0.8:
+                labels.append(((c[0], c[1] - r - 40), it["label"], min(1.0, (p - 0.8) / 0.2), 56))
+        img = Image.fromarray(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB)).convert("RGBA")
+        d = ImageDraw.Draw(img)
+        for it in self.s.get("points") or []:
+            at = 0.5 + 0.55 * n
+            n += 1
+            pt = t - at
+            if pt <= 0:
+                continue
+            px, py = P(it["lon"], it["lat"])
+            y = py - (1 - ease(pt / 0.3)) * 240
+            for j in range(3):
+                r_t = pt - 0.3 - j * 0.3
+                if 0 < r_t < 1.2:
+                    rr = 16 + 100 * r_t
+                    d.ellipse((px - rr, py - rr * 0.5, px + rr, py + rr * 0.5), outline=(255, 255, 255, int(220 * (1 - r_t / 1.2))), width=4)
+            red = (238, 40, 44, 255)
+            d.polygon([(px - 28, y - 56), (px + 28, y - 56), (px, y)], fill=red)
+            d.ellipse((px - 38, y - 106, px + 38, y - 30), fill=red)
+            d.ellipse((px - 14, y - 82, px + 14, y - 54), fill=(255, 255, 255, 255))
+            if it.get("label") and pt > 0.3:
+                labels.append(((px, py - 150), it["label"], min(1.0, (pt - 0.3) / 0.3), 64))
+        for (x, y), text, a, size in labels:
+            f = _bf(text, size, "Bold") if not DEV.search(text) else _font(K.B["fonts"]["display"], size)
+            d.text((x, y), text, font=f, anchor="mm", fill=(255, 255, 255, int(255 * a)), stroke_width=6, stroke_fill=(10, 14, 24, int(230 * a)))
+        return cv2.cvtColor(np.asarray(img.convert("RGB")), cv2.COLOR_RGB2BGR)
+
+
 class Panel:
     """Logos & Legends Shorts (owner, 8 Nov 2026): the episode's 16:9 painting whole and sharp across the middle of
     the vertical frame under a slow camera move, on the brand's dark ground: the hook headline stays above it and
@@ -1250,6 +1390,7 @@ def main(script_path, out_dir):
     counters, years_seen, cards_at, last_counter = [], set(), [], -99.0  # FX: counting amounts, auto date labels
     gfx = []  # (t0, kind, payload): date callouts, stamps, keywords, typed cards, logos, merge graphics, story beats
     drops = []  # FX: music drop-outs before a twist
+    mapfx = []  # (t, kind): the sounds of a map shot (zoom, fills, lines, pins)
     intro_at = None
     for si, sec in enumerate(script["sections"]):
         if FX and K.B.get("intro") == "title" and intro_at is None and si > 0 and sec.get("card"):
@@ -1287,6 +1428,11 @@ def main(script_path, out_dir):
             if s.get("diagram"):
                 vis = Shot(bgr(DIAGRAMS[s["diagram"]]()), "push")
                 explainers.append((t, t + d))
+            elif s.get("map"):  # a real map, never a painted one (Gazab Kyun, owner 8 Nov 2026)
+                mp = MapShot(s["map"], d)
+                mapfx.append((t, "zoom"))
+                mapfx += [(t + e, k) for e, k in mp.events]
+                vis = [mp] if short and TEASER else mp
             else:
                 src = s.get("from")  # an episode's own painting (Logos & Legends Shorts from a long-form, 8 Nov 2026)
                 img = cv2.imread(str(out / (f"shot-{int(src.split('-')[0]):02d}{'-' + src.split('-')[1] if '-' in src else ''}.png"
@@ -1317,7 +1463,7 @@ def main(script_path, out_dir):
                     vis = Split(img, parts) if short and parts > 1 else Shot(img, s.get("move", "push"))
                 if short:
                     cuts += [t + d * i / parts for i in range(1, parts)]
-            extras = [] if short or s.get("diagram") else sorted(
+            extras = [] if short or s.get("diagram") or s.get("map") else sorted(
                 out.glob(f"shot-{n:02d}-*.png"), key=lambda p: int(p.stem.rsplit("-", 1)[1]))
             if isinstance(vis, list):  # TEASER: the line's pictures in turn, the voice on the first
                 hits.append((t, s.get("key") if hits else None))  # line 1 has the hook headline
@@ -1460,6 +1606,13 @@ def main(script_path, out_dir):
                     put(load_sfx("page"), max(0, c - 0.05), -13)
                 else:
                     put(whoosh(), max(0, c - 0.18), -15)
+        for m0, kind in mapfx:  # a whoosh as the map zooms, a tick per fill or line, a pop per pin
+            if kind == "zoom":
+                put(whoosh(0.5, seed=37), m0, -17)
+            elif kind == "points":
+                put(pop(), m0 + 0.3, -13)
+            else:
+                put(tick(0.05, seed=43), m0, -18)
         if TEASER:
             for h in hits[1:-1]:
                 put(load_sfx("impact"), h[0], -14)

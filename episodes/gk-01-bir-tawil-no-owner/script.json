@@ -38,9 +38,13 @@
     {
      "vo": "ये ज़मीन किसी देश की नहीं, कोई लेता क्यों नहीं?",
      "caption": "ये ज़मीन किसी देश की नहीं, कोई लेता क्यों नहीं?",
-     "prompt": "One small lone traveler seen from behind standing in an endless empty desert of tan sand and dark rocky hills, wearing a plain beige robe and head cloth, centre, sharp focus from foreground to horizon, harsh noon sun, plain bare ground, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Vast empty golden desert at dusk, endless sand dunes under a blazing orange sky, a single line of lonely footprints crossing the sand toward the horizon, no fences, no buildings, no people, dramatic low sun, cinematic wide shot.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a weathered Sudanese Bedouin man in a white turban standing on a dune, squinting across the empty desert, warm sunset light on his face.",
+      "Close-up of an old rusted metal survey pillar half-buried in rippling sand, long shadow, glowing amber desert light behind it."
+     ]
     },
     {
      "vo": "इजिप्ट और सूडान के बीच, बीर तवील: करीब दो हज़ार साठ वर्ग किलोमीटर रेगिस्तान।",
@@ -48,21 +52,88 @@
      "prompt": "A large flat relief map table in a dim study, a small trapezoid of tan sand-coloured land marked by a thin red cord pinned around its edge, a dark green river curving beside it and blue sea on the right, plain blank surfaces without lettering, bright overhead lamp light, sharp focus, close-up from above",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8921
+     "seed": 8921,
+     "map": {
+      "center": [
+       21.8727,
+       33.7437
+      ],
+      "span": 6,
+      "from_span": 18,
+      "countries": [
+       {
+        "iso": "EGY",
+        "label": "Egypt",
+        "color": "teal"
+       },
+       {
+        "iso": "SDN",
+        "label": "Sudan",
+        "color": "yellow"
+       }
+      ],
+      "areas": [
+       {
+        "name": "Bir Tawil",
+        "label": "बीर तवील",
+        "color": "red"
+       }
+      ],
+      "points": [
+       {
+        "lat": 21.8727,
+        "lon": 33.7437,
+        "label": "बीर तवील"
+       }
+      ]
+     },
+     "key": "2,060"
     },
     {
      "vo": "देश ज़मीन के लिए जंग लड़ते हैं, लेकिन इसे दोनों ठुकराते हैं।",
      "caption": "देश ज़मीन के लिए जंग लड़ते हैं, लेकिन इसे दोनों ठुकराते हैं।",
-     "prompt": "Two dusty olive-green military jeeps driving away from each other in opposite directions across an empty tan desert plain, one on the left heading left, one on the right heading right, long dust trails behind them, bare empty ground in the middle, harsh sunlight, wide aerial shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Two diplomats in dark suits at a long polished table in a grand office, both leaning back with arms crossed, a single sheet of paper with a sandy desert photo pushed to the middle between them, cool window light.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a stern military officer at a desert border checkpoint turning his back and waving his hand in refusal, empty guard hut behind him, harsh midday sun.",
+      "Close-up of a hand pushing away a small pile of sand on a wooden desk, golden grains spilling over the edge, shallow depth of field."
+     ],
+     "key": "दोनों ठुकराते"
     },
     {
      "vo": "अठारह सौ निन्यानबे में अंग्रेज़ों ने बाईसवें लैटिट्यूड पर सीधी बॉर्डर खींची।",
      "caption": "1899 में अंग्रेज़ों ने 22nd latitude पर सीधी border खींची।",
      "prompt": "One perfectly straight glowing red line drawn across a tan desert from the western desert on the left to the blue Red Sea coast on the right, the green Nile winding at the left, seen from high above, bright daylight, sharp focus, wide aerial shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       22,
+       33
+      ],
+      "span": 8,
+      "from_span": 24,
+      "countries": [
+       {
+        "iso": "EGY",
+        "label": "Egypt",
+        "color": "teal"
+       },
+       {
+        "iso": "SDN",
+        "label": "Sudan",
+        "color": "yellow"
+       }
+      ],
+      "lines": [
+       {
+        "lat": 22,
+        "label": "22° N · 1899"
+       }
+      ]
+     },
+     "key": "1899"
     },
     {
      "vo": "फिर उन्नीस सौ दो में दूसरी लाइन बनी, जिसने दो इलाके अदल-बदल दिए।",
@@ -70,28 +141,145 @@
      "prompt": "Two ropes stretched across tan desert ground: one straight red rope running left to right and a second orange rope bending around a small patch of sand on the left, wooden stakes holding both, blue sea and a coastal triangle of land on the right, bright daylight, sharp focus, wide shot from above",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8924
+     "seed": 8924,
+     "map": {
+      "center": [
+       22,
+       34.8
+      ],
+      "span": 7,
+      "from_span": 21,
+      "countries": [
+       {
+        "iso": "EGY",
+        "label": "Egypt",
+        "color": "teal"
+       },
+       {
+        "iso": "SDN",
+        "label": "Sudan",
+        "color": "yellow"
+       }
+      ],
+      "areas": [
+       {
+        "name": "Bir Tawil",
+        "label": "बीर तवील",
+        "color": "red"
+       },
+       {
+        "name": "Halayib Triangle",
+        "label": "हलाइब",
+        "color": "white"
+       }
+      ]
+     },
+     "key": "1902"
     },
     {
      "vo": "लेकिन रुकिए… दूसरा इलाका हलाइब है, करीब दस गुना बड़ा, समुद्र किनारे।",
      "caption": "लेकिन रुकिए… दूसरा इलाका हलाइब है, करीब 10 गुना बड़ा, समुद्र किनारे।",
      "prompt": "A large triangle of coastal land glowing bright orange on the right beside turquoise sea, and far inland on the left a much smaller trapezoid patch of sand glowing faintly, tan desert between them, seen from high above, bright daylight, sharp focus, wide aerial shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       22.2,
+       36.6
+      ],
+      "span": 5,
+      "from_span": 15,
+      "countries": [
+       {
+        "iso": "EGY",
+        "label": "Egypt",
+        "color": "teal"
+       },
+       {
+        "iso": "SDN",
+        "label": "Sudan",
+        "color": "yellow"
+       }
+      ],
+      "areas": [
+       {
+        "name": "Halayib Triangle",
+        "label": "हलाइब",
+        "color": "red"
+       },
+       {
+        "name": "Bir Tawil",
+        "label": "बीर तवील",
+        "color": "white"
+       }
+      ],
+      "points": [
+       {
+        "lat": 22.2,
+        "lon": 36.6,
+        "label": "हलाइब"
+       }
+      ]
+     },
+     "key": "10 गुना"
     },
     {
      "vo": "इजिप्ट अठारह सौ निन्यानबे वाली लाइन मानता है, सूडान उन्नीस सौ दो वाली, दोनों को हलाइब चाहिए।",
      "caption": "Egypt 1899 वाली लाइन मानता है, Sudan 1902 वाली, दोनों को हलाइब चाहिए।",
      "prompt": "A large triangle of coastal desert land glowing bright red beside a turquoise sea, one straight white line and one bent yellow line both drawn across it, seen from high above, centre, bright daylight, sharp focus, wide aerial shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       22,
+       35
+      ],
+      "span": 8,
+      "from_span": 20,
+      "countries": [
+       {
+        "iso": "EGY",
+        "label": "Egypt",
+        "color": "teal"
+       },
+       {
+        "iso": "SDN",
+        "label": "Sudan",
+        "color": "red"
+       }
+      ],
+      "areas": [
+       {
+        "name": "Halayib Triangle",
+        "label": "हलाइब",
+        "color": "yellow"
+       },
+       {
+        "name": "Bir Tawil",
+        "label": "बीर तवील",
+        "color": "white"
+       }
+      ],
+      "lines": [
+       {
+        "lat": 22,
+        "label": "22° N · 1899"
+       }
+      ]
+     },
+     "key": "हलाइब"
     },
     {
      "vo": "बीर तवील माँगा, तो हलाइब गया, इसलिए ये ज़मीन किसी देश की नहीं।",
      "caption": "बीर तवील माँगा, तो हलाइब गया, इसलिए ये ज़मीन किसी देश की नहीं।",
-     "prompt": "An old dry stone well standing alone in an empty desert, centre, cracked tan sand around it, distant dark rocky mountains, no people, no roads, long shadows, warm low dusk light, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Wide shot of a brass balance scale standing on desert sand, one pan holding a small mound of dry sand, the other holding lush green coastline with turquoise sea water, scale tipping toward the green side, golden hour light.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of two officials' hands over a wooden table, one hand reaching for a large brass key while the other hand pulls a different small key away, dramatic side light.",
+      "Close-up of a hand letting golden desert sand run slowly through the fingers, grains glowing in warm sunset light, blurred empty dunes behind."
+     ],
+     "key": "किसी देश की"
     }
    ]
   }
@@ -102,12 +290,8 @@
  "voice_ok": "voice-gk-01-bir-tawil-no-owner-c3d2f95cb2",
  "voice_approved_at": "2026-11-08 15:14",
  "repaint": {
-  "shots": [
-   2,
-   5
-  ],
-  "thumbs": [],
-  "at": "2026-11-08 15:58"
+  "at": "2026-11-08T16:42:44",
+  "why": "owner, 8 Nov: gk_polish sample: new pictures, maps drawn"
  },
  "shot_qc": {
   "checked": "2026-11-08T10:27:31Z",
@@ -116,5 +300,6 @@
    "2": "The map has painted lettering (SUPDAR, NIEIRE-SUDAN) and a map-style glowing blob. The lettering is garbled.",
    "5": "The map has painted lettering (PI, AS, EGATT watermark-style text). The map is flat and cluttered, with glowing lines."
   }
- }
+ },
+ "polished": "2026-11-08 16:42"
 }
