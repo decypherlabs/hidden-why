@@ -30,7 +30,7 @@
   "style": "pill",
   "_about": "owner, 7 Nov 2026: picked B, white text in a dark rounded pill"
  },
- "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, natural light, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, every signboard, shop front, banner, poster and package plain and blank without any lettering, Indian shops and markets with Indian goods and Indian shoppers, never a Western store, ultra detailed",
+ "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, natural light, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, every other signboard, shop front, banner, poster and package plain and blank without any lettering, only the brand name the prompt quotes printed crisp and correctly spelled, Indian shops and markets with Indian goods and Indian shoppers, never a Western store, ultra detailed",
  "art_negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, portrait of a real person, deformed hands, extra fingers, distorted face, blurry, low quality, cartoon, painting, illustration, cartoon, anime, 3d render, oversaturated, cluttered, busy background, surreal, distorted perspective",
  "cover_style": "photorealistic cinematic still, the product or place large, sharp and centred, dramatic light, rich saturated colour, high contrast, clear uncluttered background, no text, no logos",
  "_about": "owner, 7 Nov 2026: Logos & Legends (Hindi brand stories, long-form only). Never a real person's realistic face: products, places, anonymous figures, silhouettes.",
@@ -47,5 +47,19 @@
  "thumbnails": "owner",
  "_thumbnails_about": "owner, 8 Nov 2026: 'Stop thumbnail production for LL': no thumbnail painting, no generated thumbnail; the owner's ChatGPT ones (set_thumbs.py) only",
  "short_layout": "teaser",
- "_short_layout_about": "owner, 8 Nov 2026: Shorts cut from the episodes (studio/ll_shorts.py) need 'good editing', not the plain panel: full-frame pictures cut every ~1.5 s, a jolt + flash + impact + punch word on every question, kinetic captions, progress bar, flash montage and the call to the full episode"
+ "_short_layout_about": "owner, 8 Nov 2026: Shorts cut from the episodes (studio/ll_shorts.py) need 'good editing', not the plain panel: full-frame pictures cut every ~1.5 s, a jolt + flash + impact + punch word on every question, kinetic captions, progress bar, flash montage and the call to the full episode",
+ "short_captions": {
+  "font": "logos-and-legends/fonts/Mukta-Bold.ttf",
+  "size": 60,
+  "color": [
+   255,
+   255,
+   255
+  ],
+  "shadow": true,
+  "y": 0.72,
+  "_about": "owner, 8 Nov 2026: the 6 bold styles weren't liked; small white like DK's (provisional, in the sample)"
+ },
+ "_art_style_brand": "owner, 8 Nov 2026: the story's brand name may be shown on its own product, gate, shop or ad (quoted in the prompt); everything else blank",
+ "_logo": "owner, 8 Nov 2026: the ChatGPT Heritage Gold L&L emblem in intro and outro; the 7 Nov logo in archive/"
 }
