@@ -52,37 +52,42 @@
     {
      "vo": "लेकिन शुक्र को एक चक्कर में दो सौ तैंतालीस दिन लगते हैं।",
      "caption": "लेकिन शुक्र को एक चक्कर में 243 दिन लगते हैं।",
-     "prompt": "A heavy round Venus with thick yellow clouds lit on its right side, a soft day-night edge across the globe, centre of frame, a small bright Sun far behind it in black space, photoreal view from space, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A round pale-yellow Venus planet with thick cloud layers, large in the centre of black space, one half lit from the right with a clear day-night edge, a small bright Sun far behind it, sharp detail, no screens, no maps, wide shot, no text",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8922
     },
     {
      "vo": "और सूरज का पूरा चक्कर? सिर्फ़ दो सौ पच्चीस दिन में!",
      "caption": "और सूरज का पूरा चक्कर? सिर्फ़ 225 दिन में!",
-     "prompt": "A small perfectly round black disc of Venus crossing in front of the huge glowing Sun, fiery orange surface filling the whole frame, sharp solar-observatory detail, photoreal, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A small perfectly round black disc of Venus crossing in front of the huge glowing orange Sun, the fiery solar surface filling the whole frame, sharp detail, no people, no screens, close-up, no text",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8923
     },
     {
      "vo": "लेकिन रुकिए, शुक्र बाकी ग्रहों से उल्टी दिशा में घूमता है।",
      "caption": "लेकिन रुकिए, शुक्र बाकी ग्रहों से उल्टी दिशा में घूमता है।",
-     "prompt": "Venus seen from directly above its pole, a giant swirling vortex of yellow clouds spinning in the centre, a small blue Earth far off in the top corner against black space, sharp detail, photoreal, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Venus seen from directly above its pole, a giant swirling vortex of yellow clouds spinning in the centre of the frame, a small blue Earth far off in the top corner against black space, sharp detail, no maps, no surfaces, wide shot, no text",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8924
     },
     {
      "vo": "पक्का कोई नहीं जानता, पर शायद कोई बहुत बड़ी चट्टान इससे टकराई थी।",
      "caption": "पक्का कोई नहीं जानता, पर शायद कोई बहुत बड़ी चट्टान इससे टकराई थी।",
-     "prompt": "A huge grey rocky asteroid smashing into young Venus, a blinding orange impact flash on the planet's surface, glowing molten rock chunks spraying out into black space, the yellow planet large in the centre, photoreal space scene, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A huge grey rocky asteroid crashing into the surface of the yellow planet Venus, a blinding orange impact flash on the planet, glowing molten rock chunks spraying out into black space, planet large in the centre, sharp detail, no panels, no screens, wide shot, no text",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8925
     },
     {
      "vo": "या इसकी बेहद मोटी हवा ने धीरे-धीरे इसकी रफ़्तार रोक दी।",
      "caption": "या इसकी बेहद मोटी हवा ने धीरे-धीरे इसकी रफ़्तार रोक दी।",
-     "prompt": "Endless thick layers of dense yellow-orange clouds stacked like a heavy ocean of haze just above Venus's cloud tops, a small dim Sun glowing through the haze on the right, sharp detail from foreground to horizon, amber light, photoreal, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Endless thick layers of dense yellow-orange clouds piled like a heavy ocean of haze, filling the whole frame, a small dim Sun glowing through the haze on the right, sharp detail from foreground to horizon, warm amber light, no signs, no panels, wide shot, no text",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8926
     },
     {
      "vo": "इसीलिए शुक्र पर दिन साल से लंबा है, और सूरज पश्चिम से उगता है।",
@@ -97,5 +102,27 @@
  "voice_requested": "voice-gk-08-venus-day-longer-year-c33c92357b",
  "released_at": "2026-11-08 15:14",
  "voice_ok": "voice-gk-08-venus-day-longer-year-c33c92357b",
- "voice_approved_at": "2026-11-08 15:14"
+ "voice_approved_at": "2026-11-08 15:14",
+ "repaint": {
+  "shots": [
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "thumbs": [],
+  "at": "2026-11-08 16:27"
+ },
+ "shot_qc": {
+  "checked": "2026-11-08T10:54:52Z",
+  "rounds": 1,
+  "why": {
+   "3": "A world map is shown on a screen in the corner. The planet looks like Jupiter, not Venus.",
+   "4": "A person sits at monitors in front of the sun. This doesn't show Venus taking 225 days to orbit the sun.",
+   "5": "Maps are on the wall and desk, and one is a US map. The Venus sphere looks odd sitting on the clouds.",
+   "6": "Screens and panels are in the foreground. The rock hitting a planet is unclear.",
+   "7": "A signboard or screen stands in the clouds. It has panels with text, and it doesn't show thick air slowing the planet."
+  }
+ }
 }
