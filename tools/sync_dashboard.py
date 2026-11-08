@@ -33,7 +33,8 @@ def niche(slug):
     (owner, 31 Oct 2026)."""
     if slug.startswith("ll-"):  # Logos & Legends episodes (owner, 7 Nov 2026)
         return "logos-and-legends"
-    return "devlok-katha" if slug.startswith("dk-") else "hidden-why-hindi" if slug.endswith("-hi") else "hidden-why"
+    return "devlok-katha" if slug.startswith("dk-") else "hidden-why-hindi" if slug.endswith("-hi") or slug.startswith("gk-") \
+        else "hidden-why"  # gk-*: Gazab Kyun (was The Hidden Why Hindi), 8 Nov 2026
 
 
 def videos(slug):
@@ -104,7 +105,7 @@ def track_scripts(released):
         elif sc.get("approved"):
             where = ("on GitHub (no GPU: the English paintings are reused)" if slug.endswith("-hi")
                      else f"on GitHub from {sc['paint_from']}'s paintings (no GPU)" if sc.get("paint_from")
-                     else "painted on Kaggle, then narrated and edited on GitHub" if slug.startswith(("dk-", "ll-")) else "in the next Kaggle run")
+                     else "painted on Kaggle, then narrated and edited on GitHub" if slug.startswith(("dk-", "ll-", "gk-")) else "in the next Kaggle run")
             status, step, err = "script", f"Script approved: made {where} ({about})", None
         else:
             status, step, err = "script", f"Script written: awaiting review ({about})", None

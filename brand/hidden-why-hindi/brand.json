@@ -23,5 +23,15 @@
   "font": "fonts/Mukta-Medium.ttf",
   "size": 44,
   "_about": "owner, 7 Nov 2026: long-form captions simpler and medium-sized, no box: warm off-white with a soft shadow over a faint bottom gradient (DK picked Tiro Devanagari, sample B)"
- }
+ },
+ "voice": {
+  "engine": "parler",
+  "model": "ai4bharat/indic-parler-tts",
+  "description": "Divya speaks in a clear, expressive and energetic voice at a slightly fast pace. The recording is very clear and close-sounding, with no background noise.",
+  "trim": true,
+  "_about": "owner, 31 Oct 2026: Divya on Indic Parler-TTS (THW Hindi's voice), kept for Gazab Kyun's own Shorts; heard on the Scripts page first"
+ },
+ "art_style": "photorealistic cinematic documentary still, one clear main subject large in frame, epic sense of scale, dramatic natural light, vivid true-to-life colour, sharp focus, ultra detailed, every sign, map, screen and board plain without any lettering",
+ "art_negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, cartoon, anime, flat illustration, blurry, low quality, deformed, extra limbs, distorted face, gore",
+ "cover_style": "photorealistic cinematic still, the subject huge, sharp and close, dramatic light, rich saturated colour, high contrast, calm dark area at the top for text, no text, no logos"
 }
