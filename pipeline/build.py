@@ -1136,9 +1136,12 @@ def main(script_path, out_dir):
         style = K.B.get("sfx") or {}
         last = items[-1][0] if items else 0
         page = TEASER and K.asset("sfx/page.wav").exists()
-        for c in sorted(set(round(x, 3) for x in cuts + [it[0] for it in items[1:]])):
+        # the brand's chapter-change page sound once per question, not on every picture (owner, 8 Nov 2026:
+        # "reduce the number of page turn sfx"); other Shorts keep a whoosh on every cut
+        at = [h[0] for h in hits[1:]] if page else cuts + [it[0] for it in items[1:]]
+        for c in sorted(set(round(x, 3) for x in at)):
             if abs(c - last) > 0.05:
-                if page:  # the brand's chapter-change page sound on every picture/question change (owner, 8 Nov 2026)
+                if page:
                     put(load_sfx("page"), max(0, c - 0.05), -13)
                 else:
                     put(whoosh(), max(0, c - 0.18), -15)
