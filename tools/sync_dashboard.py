@@ -62,7 +62,19 @@ def project_dir(slug):
     return next((p for p in sorted(videos(slug).glob(f"*/{slug}")) if (p / "project.json").exists()), None)
 
 
+def parent_of(slug):
+    """A promo Short's full episode (script "full_episode", Logos & Legends teasers), else None."""
+    try:
+        return json.loads((ROOT / "episodes" / slug / "script.json").read_text()).get("full_episode")
+    except (OSError, ValueError):
+        return None
+
+
 def imported(slug):
+    par = parent_of(slug)
+    if par:  # a promo Short lives in its episode's project (owner, 8 Nov 2026)
+        d = project_dir(par)
+        return bool(d) and any(i.get("episode") == slug for i in json.loads((d / "project.json").read_text()).get("items") or [])
     d = project_dir(slug)
     return bool(d) and json.loads((d / "project.json").read_text()).get("status") == "done"
 
@@ -88,6 +100,8 @@ def track_scripts(released):
         pass
     for sp in sorted((ROOT / "episodes").glob("*/script.json")):
         slug = sp.parent.name
+        if parent_of(slug):  # promo Shorts have no card of their own: they join their episode's project when built
+            continue
         if slug in released or discarded(slug) or slug.startswith("preview-"):  # sample frames for the owner, never a project on a channel
             continue
         sc = json.loads(sp.read_text())
@@ -151,7 +165,49 @@ def import_local(slug, files_dir, status="done"):
     return import_episode(slug, src, time.strftime("%Y-%m-%d"), status)
 
 
+def import_promo(slug, par, src, day):
+    """A promo Short goes into its full episode's project, beside the long-form (owner, 8 Nov 2026: "for LL, the
+    promotional shorts should be part of same project"); named by its slug, so two promos never share a file
+    (ll-019's two teasers were both amul.mp4). The episode's status and title stay its own."""
+    meta = json.loads((src / "meta.json").read_text())
+    title = meta["youtube"]["title"]
+    pdir = project_dir(par) or videos(par) / day / par
+    (pdir / "shorts").mkdir(parents=True, exist_ok=True)
+    mp4 = pdir / "shorts" / f"{slug}.mp4"
+    if mp4.exists() and not os.path.samefile(mp4, src / "video.mp4"):  # a rebuild: the old render is archived
+        (pdir / "archive").mkdir(exist_ok=True)
+        os.replace(mp4, pdir / "archive" / f"{slug}.{int(mp4.stat().st_mtime)}.mp4")
+    if not mp4.exists():
+        os.link(src / "video.mp4", mp4)
+    if (src / "thumb.jpg").exists():
+        (pdir / "shorts" / f"{slug}.thumb.jpg").write_bytes((src / "thumb.jpg").read_bytes())
+        meta.setdefault("selected", {})["thumbnail"] = 1
+    (pdir / "shorts" / f"{slug}.meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
+    (pdir / "shorts" / f"{slug}.source.json").write_text(json.dumps(
+        {"format": "short", "niche": niche(slug), "title": title, "speaker": "", "episode": slug,
+         "source_url": f"https://github.com/{F.REPO}/tree/main/episodes/{slug}"}, indent=2))
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)],
+                               capture_output=True, text=True).stdout or 0)
+    pj = pdir / "project.json"
+    now = time.strftime("%Y-%m-%dT%H:%M:%S")
+    data = json.loads(pj.read_text()) if pj.exists() else {
+        "id": f"hw-{par}", "category": niche(par), "created": now, "status": "script", "progress": None, "error": None,
+        "step": "Promo Shorts ready; the full episode is still being made", "pid": None,
+        "title": title, "source": {"url": f"https://github.com/{F.REPO}/tree/main/episodes/{par}", "title": title,
+                                   "creator": "The Hidden Why"}}
+    item = {"kind": "short", "file": f"shorts/{slug}.mp4", "title": title, "duration": round(dur, 1), "meta": True,
+            "thumbs": 1 if (src / "thumb.jpg").exists() else 0, "episode": slug}
+    data["items"] = [i for i in data.get("items") or [] if i.get("file") != item["file"]] + [item]
+    data["updated"] = now
+    pj.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+    print(f"{slug}: in the dashboard, in {par}'s project ({pdir.relative_to(RB)})")
+    return pdir
+
+
 def import_episode(slug, src, day, status="done"):
+    par = parent_of(slug)
+    if par:
+        return import_promo(slug, par, src, day)
     meta = json.loads((src / "meta.json").read_text())
     title = meta["youtube"]["title"]
     pdir = project_dir(slug) or videos(slug) / day / slug  # the script's card becomes the episode
@@ -194,6 +250,11 @@ def import_episode(slug, src, day, status="done"):
         {"format": "short" if short else "long", "niche": niche(slug), "title": title, "speaker": "", "episode": slug,
          "source_url": f"https://github.com/{F.REPO}/tree/main/episodes/{slug}"}, indent=2))
     now = time.strftime("%Y-%m-%dT%H:%M:%S")
+    try:  # the episode's promo Shorts stay in its project when the long-form is (re)built
+        promos = [i for i in json.loads((pdir / "project.json").read_text()).get("items") or []
+                  if i.get("episode") and i.get("episode") != slug]
+    except (OSError, ValueError):
+        promos = []
     (pdir / "project.json").write_text(json.dumps({
         "id": f"hw-{slug}", "category": niche(slug), "created": now, "updated": now, "finished": now,
         "status": status, "progress": 1.0, "error": None,  # "qc": the studio's quality gate runs first
@@ -201,7 +262,7 @@ def import_episode(slug, src, day, status="done"):
         "pid": None, "source": {"url": f"https://github.com/{F.REPO}/tree/main/episodes/{slug}", "title": title,
                                 "creator": "The Hidden Why"},
         "items": [{"kind": "short" if short else "long", "file": f"{sub}/{stem}.mp4", "title": title, "duration": round(dur, 1), "meta": True,
-                   "thumbs": 1}]}, indent=2, ensure_ascii=False))
+                   "thumbs": 1}] + promos}, indent=2, ensure_ascii=False))
     print(f"{slug}: in the dashboard ({pdir.relative_to(RB)})")
     return pdir
 
