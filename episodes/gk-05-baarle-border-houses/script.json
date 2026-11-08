@@ -45,9 +45,10 @@
     {
      "vo": "बार्ले शहर में बॉर्डर सड़कों, दुकानों और घरों के बीच से जाता है।",
      "caption": "बार्ले शहर में border सड़कों, दुकानों और घरों के बीच से जाता है।",
-     "prompt": "A bright glowing red line zigzagging between rooftops, shop fronts and streets of a small town in flat green farmland, seen from high above in top-down view, patchwork fields around it, plain blank rooftops, clear daylight, wide aerial shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A thin bright red line running through the middle of a small town between rooftops, shop fronts and narrow streets, flat green farmland and patchwork fields around it, plain blank rooftops, seen straight down from high above in top-down view, clear bright daylight, sharp focus, wide aerial shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8921
     },
     {
      "vo": "वजह आठ सौ साल से भी पुरानी है, जब ज़मीन के टुकड़े दो घरानों में बँटे थे।",
@@ -59,9 +60,10 @@
     {
      "vo": "अठारह सौ तैंतालीस की मास्ट्रिख्ट संधि भी इन टुकड़ों को सुलझा नहीं पाई।",
      "caption": "1843 की Maastricht संधि भी इन टुकड़ों को सुलझा नहीं पाई।",
-     "prompt": "An old parchment treaty with red wax seals lying on a heavy oak desk beside a quill pen and inkwell, an aged hand-drawn field map of tangled blank plot outlines next to it, warm candle light in a 19th-century room, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "An old parchment treaty with red wax seals lying open on a heavy oak desk, a quill pen and inkwell beside it, a hand-drawn paper sheet of tangled plot outlines with plain blank surfaces next to it, warm candle light in a 19th-century room, sharp focus, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8923
     },
     {
      "vo": "आज बेल्जियम के बाईस टुकड़े नीदरलैंड्स के अंदर बिखरे पड़े हैं।",
@@ -97,5 +99,21 @@
  "voice_requested": "voice-gk-05-baarle-border-houses-1bf503a6b6",
  "released_at": "2026-11-08 15:14",
  "voice_ok": "voice-gk-05-baarle-border-houses-1bf503a6b6",
- "voice_approved_at": "2026-11-08 15:14"
+ "voice_approved_at": "2026-11-08 15:14",
+ "repaint": {
+  "shots": [
+   2,
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-08 15:58"
+ },
+ "shot_qc": {
+  "checked": "2026-11-08T10:27:53Z",
+  "rounds": 1,
+  "why": {
+   "2": "Glowing red neon line on an oblique street view, not a top-down border",
+   "4": "Map on paper with lettering (\"NIER\") painted in"
+  }
+ }
 }
