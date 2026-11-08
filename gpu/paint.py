@@ -135,6 +135,20 @@ def flux_images(jobs, w, h):
     torch.cuda.empty_cache()
 
 
+def deity(prompt):
+    """A god in the prompt gets the brand's fixed beautiful look (owner, 8 Nov 2026: "every God character is beautiful
+    and attractive"; FLUX drew Ram as a villager and baby Krishna dark grey). One look per deity, first match wins."""
+    import re
+    looks = {k: v for k, v in (BRAND.get("deity_looks") or {}).items() if not k.startswith("_")}
+    low, added = prompt.lower(), []
+    for pat, look in looks.items():
+        m = re.search(rf"\b(?:{pat})", low)
+        if m and look not in added and len(added) < 2:  # two gods at most: FLUX reads ~256 tokens
+            added.append(look)
+            low = low.replace(m.group(0), "")  # "baby krishna" must not also pick up the grown-up Krishna
+    return f"{prompt}, {', '.join(added)}" if added else prompt
+
+
 def paint_flux(script, out, part=0, parts=1):
     """FLUX.1-schnell (Apache-2.0; owner, 6 Nov 2026: "more beautiful and premium", it paints what SDXL dropped:
     Kaliya, blue Krishna). 4 steps, no negative prompt, 4-bit transformer, CPU offload: ~41 s an image on a T4.
@@ -152,7 +166,7 @@ def paint_flux(script, out, part=0, parts=1):
     style = script.get("art_style") or BRAND["art_style"]
     # more pixels than SDXL's canvas: crisper on a 1080p frame (owner, 7 Nov 2026: "the best, clear shorts")
     w, h = BRAND.get("flux_short_size", (864, 1536)) if script.get("format") == "short" else BRAND.get("flux_size", (1536, 864))
-    jobs = [(out / f"shot-{n}.png", f"{p}, {style}", seed) for n, p, _, seed in shots(script)]
+    jobs = [(out / f"shot-{n}.png", f"{deity(p)}, {style}", seed) for n, p, _, seed in shots(script)]
     th = script.get("thumbnail") or {}
     if th.get("plane"):  # a long-form's thumbnail painting (Logos & Legends on FLUX, 7 Nov 2026)
         jobs.append((out / "thumb-plane.png", f"{th['plane']}, {BRAND.get('thumb_style') or BRAND.get('cover_style') or style}", 7))
