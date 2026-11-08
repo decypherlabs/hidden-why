@@ -89,6 +89,10 @@ def track_scripts(released):
         if slug in released or discarded(slug) or slug.startswith("preview-"):  # sample frames for the owner, never a project on a channel
             continue
         sc = json.loads(sp.read_text())
+        if sc.get("voice_review") and not sc.get("voice_ok") and not project_dir(slug):
+            # waiting for the owner's voiceover: it lives on the Scripts page only (owner, 8 Nov 2026: 22 teaser
+            # Short scripts showed up as project cards "made on Kaggle... on GitHub", read as builds running)
+            continue
         shots = [x for sec in sc.get("sections") or [] for x in sec.get("shots") or []]
         mins = sum(len(x.get("vo", "").split()) for x in shots) / 150
         about = f"{len(shots)} shots, about {mins:.0f} min"
@@ -99,6 +103,7 @@ def track_scripts(released):
             err = "see dashboard/data/thw_kaggle.last.log"
         elif sc.get("approved"):
             where = ("on GitHub (no GPU: the English paintings are reused)" if slug.endswith("-hi")
+                     else f"on GitHub from {sc['paint_from']}'s paintings (no GPU)" if sc.get("paint_from")
                      else "painted on Kaggle, then narrated and edited on GitHub" if slug.startswith(("dk-", "ll-")) else "in the next Kaggle run")
             status, step, err = "script", f"Script approved: made {where} ({about})", None
         else:
