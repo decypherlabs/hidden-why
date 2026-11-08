@@ -369,35 +369,96 @@ def newspaper(frame, spec, t, dur=3.8):
     return _paste(frame, im, W / 2 - im.width / 2, H / 2 - im.height / 2, a)
 
 
-def place_pin(frame, spec, t, dur=3.0):
-    """A map pin drops onto the scene with a bounce and ripples, the place in big type beside it ("PUNE",
-    "MAHARASHTRA · 1960"). A pin, not a map: India's borders must be drawn exactly, and a pin needs none."""
-    a = min(1.0, t / 0.2, (dur - t) / 0.35)
-    frame = _dim(frame, 0.35 * a)
-    px, py = W * 0.30, H * 0.46
-    drop = ease(t / 0.35)
-    bounce = 18 * np.sin(min(1.0, max(0.0, (t - 0.35) / 0.3)) * np.pi) if t > 0.35 else 0
-    y = py - (1 - drop) * 300 - bounce
+_MAP = {}
+
+
+def geocode(name):
+    """(lat, lon) of an Indian place from OpenStreetMap's Nominatim, once per build."""
+    import urllib.parse
+    import urllib.request
+    try:
+        q = urllib.parse.urlencode({"q": f"{name}, India", "format": "json", "limit": 1})
+        req = urllib.request.Request(f"https://nominatim.openstreetmap.org/search?{q}", headers={"User-Agent": "LogosAndLegends/1.0"})
+        r = json.loads(urllib.request.urlopen(req, timeout=30).read())
+        return (float(r[0]["lat"]), float(r[0]["lon"])) if r else None
+    except Exception as e:  # noqa: BLE001 - then the map without a pin
+        print(f"geocode {name}: {e}")
+        return None
+
+
+def place_pin(frame, spec, t, dur=3.4):
+    """The place on India's map (owner, 8 Nov 2026: "whenever there's a place, mark it on map correctly"): the
+    whole country, drawn from the Survey of India boundary with state lines (DataMeet, CC BY 4.0), zooms in on the
+    city, a pin drops on its real position with ripples, the name in heavy type beside it. spec: {"name": "PUNE",
+    "sub": "AKURDI · 1960", "lat": .., "lon": ..} (lat/lon looked up when missing)."""
+    if "geo" not in _MAP:
+        _MAP["geo"] = json.loads(K.asset("india-map.json").read_text())
+    key = spec["name"]
+    if key not in _MAP:
+        _MAP[key] = (spec["lat"], spec["lon"]) if spec.get("lat") else geocode(spec.get("query") or spec["name"])
+    ll = _MAP[key]
+    a = min(1.0, t / 0.3, (dur - t) / 0.35)
+    lat0 = 22.0
+    cosl = np.cos(np.radians(lat0))
+    k0 = 0.86 * H / 31.5  # the whole of India fills the height
+    tgt = ll or (lat0, 82.8)
+    z = 1 + 1.6 * ease((t - 0.15) / 0.9)  # zoom in on the place
+    cx = 82.8 + (tgt[1] - 82.8) * ease((t - 0.15) / 0.9)
+    cy = lat0 + (tgt[0] - lat0) * ease((t - 0.15) / 0.9)
+    k = k0 * z
+    sx, sy = W * 0.40, H * 0.5  # the place ends left of centre, its name to the right
+    proj = lambda r: np.int32([[(sx + (lo - cx) * cosl * k) * 4, (sy - (la - cy) * k) * 4] for lo, la in r])
+    m = np.zeros((H, W, 3), np.uint8)
+    m[:] = (40, 24, 14)  # deep navy sea (BGR)
+    land = [proj(r) for r in _MAP["geo"]["india"]]
+    cv2.fillPoly(m, land, (62, 44, 30), cv2.LINE_AA, shift=2)
+    cv2.polylines(m, [proj(r) for r in _MAP["geo"]["states"]], True, (96, 76, 58), 1, cv2.LINE_AA, shift=2)
+    cv2.polylines(m, land, True, tuple(int(c) for c in K.YEL[::-1]), 3, cv2.LINE_AA, shift=2)
+    frame = cv2.addWeighted(m, a, frame, 1 - a, 0)
+    if ll is None:
+        return frame
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    for k in range(3):  # ripples
-        r_t = t - 0.35 - k * 0.35
-        if 0 < r_t < 1.2:
-            r = 30 + 160 * r_t
-            d.ellipse((px - r, py - r * 0.35, px + r, py + r * 0.35), outline=(255, 255, 255, int(200 * (1 - r_t / 1.2))), width=4)
-    red = (226, 40, 44, 255)
-    d.polygon([(px - 34, y - 70), (px + 34, y - 70), (px, y)], fill=red)
-    d.ellipse((px - 46, y - 128, px + 46, y - 36), fill=red)
-    d.ellipse((px - 17, y - 99, px + 17, y - 65), fill=(255, 255, 255, 255))
-    b = ease((t - 0.4) / 0.35)
-    if b > 0:
-        name = spec["name"].upper()
-        f = _HI(120)
-        x = px + 90 + 40 * (1 - b)
-        d.text((x, py - 70), name, font=f, anchor="ls", fill=(255, 255, 255, int(255 * b)), stroke_width=4, stroke_fill=(0, 0, 0, int(160 * b)))
-        if spec.get("sub"):
-            d.text((x + 4, py - 40), spec["sub"].upper(), font=_HI(40), anchor="la", fill=K.YEL + (int(255 * b),))
+    px, py = sx, sy
+    pt = t - 1.0
+    if pt > 0:
+        drop = ease(pt / 0.3)
+        y = py - (1 - drop) * 260
+        for j in range(3):  # ripples
+            r_t = pt - 0.3 - j * 0.3
+            if 0 < r_t < 1.2:
+                r = 14 + 90 * r_t
+                d.ellipse((px - r, py - r * 0.5, px + r, py + r * 0.5), outline=(255, 255, 255, int(220 * (1 - r_t / 1.2))), width=4)
+        red = (232, 36, 40, 255)
+        d.polygon([(px - 26, y - 52), (px + 26, y - 52), (px, y)], fill=red)
+        d.ellipse((px - 36, y - 100, px + 36, y - 28), fill=red)
+        d.ellipse((px - 13, y - 77, px + 13, y - 51), fill=(255, 255, 255, 255))
+        b = ease((pt - 0.3) / 0.35)
+        if b > 0:
+            x = px + 70 + 30 * (1 - b)
+            d.text((x, py - 30), spec["name"].upper(), font=_HI(110), anchor="ls", fill=(255, 255, 255, int(255 * b)))
+            if spec.get("sub"):
+                d.text((x + 4, py - 6), spec["sub"].upper(), font=_HI(44), anchor="la", fill=K.YEL + (int(255 * b),))
     return _paste(frame, img, 0, 0, a)
+
+
+def corner_label(frame, text, t, dur=4.0):
+    """The scene's place and date in heavy white type, bottom left, the way the niche's best documentaries mark a
+    jump in time ("BOMBAY · 1945", "16 दिसंबर 1903"); it slides up and holds for the scene."""
+    a = min(1.0, t / 0.25, (dur - t) / 0.4)
+    key = ("corner", text)
+    if key not in _BEATS:
+        f = _HI(76)
+        d0 = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+        tw = int(d0.textlength(text.upper(), font=f)) + 40
+        im = Image.new("RGBA", (tw, 130), (0, 0, 0, 0))
+        sh = Image.new("RGBA", (tw, 130), (0, 0, 0, 0))
+        ImageDraw.Draw(sh).text((10, 70), text.upper(), font=f, anchor="lm", fill=(0, 0, 0, 200))
+        im = Image.alpha_composite(im, sh.filter(ImageFilter.GaussianBlur(6)))
+        ImageDraw.Draw(im).text((10, 66), text.upper(), font=f, anchor="lm", fill=(255, 255, 255, 255))
+        _BEATS[key] = im
+    im = _BEATS[key]
+    return _paste(frame, im, 60, H * 0.70 - 30 * (1 - ease(t / 0.3)), a)
 
 
 def split_compare(frame, spec, out, t, dur=4.0):
@@ -964,7 +1025,7 @@ class Captions:
         if span is None:
             return frame
         pill = self.soft.get("style") == "pill"  # LL (owner, 7 Nov 2026): white text in a dark rounded box
-        if not pill:
+        if not pill and self.soft.get("shade", True):  # LL (owner, 8 Nov 2026): "no background - just white, small text"
             if self.shade is None:
                 y = np.arange(H, dtype=np.float32)
                 self.shade = (0.68 * np.clip((y - H * 0.65) / (H * 0.35), 0, 1) ** 1.3)[:, None, None]
@@ -1285,7 +1346,7 @@ def main(script_path, out_dir):
                 y = next((y for y in YEAR.findall(line) if y not in years_seen), None)
                 if y:
                     years_seen.add(y)
-                    if K.B.get("date_style") == "callout":
+                    if K.B.get("date_style") in ("callout", "corner"):
                         gfx.append((t + 0.2, "date", y))
                     else:
                         labels.append((t + 0.3, t + min(d, 3.6), y))
@@ -1498,11 +1559,15 @@ def main(script_path, out_dir):
                     fr = cv2.addWeighted(fr, left / XF, nxt.frame(0.0), 1 - left / XF, 0)
             for g0, kind, pay in gfx:
                 gt = k / FPS - g0
-                if gt < 0 or gt > {"date": 2.0, "stamp": 2.4, "keyword": 2.6, "typecard": 3.4, "logo": 2.8, "merge": 4.2,
+                if gt < 0 or gt > {"date": 4.0 if K.B.get("date_style") == "corner" else 2.0, "stamp": 2.4, "keyword": 2.6, "typecard": 3.4, "logo": 2.8, "merge": 4.2,
                                    "news": 3.8, "place": 3.0, "split": 4.0, "quote": 4.0}[kind]:
                     continue
-                if kind in ("date", "stamp", "news", "place", "split"):
+                corner = kind == "date" and K.B.get("date_style") == "corner"
+                if kind in ("date", "stamp", "news", "place", "split") and not corner:
                     fr = punch(fr, gt)
+                if corner:
+                    fr = corner_label(fr.copy(), pay, gt)
+                    continue
                 if kind == "news":
                     fr = newspaper(fr.copy(), pay, gt)
                 elif kind == "place":
@@ -1575,6 +1640,8 @@ def main(script_path, out_dir):
             k += 1
     ff.stdin.close()
     ff.wait()
+    if any(kind == "place" for _, kind, _ in gfx):  # the map's licence asks for credit (build.yml adds it to the description)
+        (out / "credits.txt").write_text("Map: India boundaries by DataMeet India community (CC BY 4.0), github.com/datameet/maps")
     (out / "chapters.txt").write_text("" if short else"\n".join(f"{int(s // 60):02d}:{int(s % 60):02d} {name}" for s, name in chapters))
     print(f"video {total / 60:.1f} min, {k} frames -> {out / 'video.mp4'}")
 
