@@ -176,6 +176,10 @@ def import_episode(slug, src, day, status="done"):
     if (src / "thumb.jpg").exists():  # Shorts come without a cover
         (pdir / sub / f"{stem}.thumb.jpg").write_bytes((src / "thumb.jpg").read_bytes())
         meta.setdefault("selected", {})["thumbnail"] = 1
+    for k in (2, 3):  # the owner's Test & Compare alternates, set before the video was built (set_thumbs.py)
+        alt = ROOT / "episodes" / slug / f"thumb-custom-{k}.jpg"
+        if alt.exists():
+            (pdir / sub / f"{stem}.thumb-{k}.jpg").write_bytes(alt.read_bytes())
     (pdir / sub / f"{stem}.meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)],
                                capture_output=True, text=True).stdout or 0)
