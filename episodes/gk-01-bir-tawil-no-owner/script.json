@@ -45,9 +45,10 @@
     {
      "vo": "इजिप्ट और सूडान के बीच, बीर तवील: करीब दो हज़ार साठ वर्ग किलोमीटर रेगिस्तान।",
      "caption": "Egypt और Sudan के बीच, बीर तवील: करीब 2,060 वर्ग किलोमीटर रेगिस्तान।",
-     "prompt": "A top-down view of northeast Africa from high above: a thin glowing red outline of a small trapezoid of tan desert just south of the Egyptian border, the dark green Nile curving beside it, a blue Red Sea coast on the right, bright daylight, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A large flat relief map table in a dim study, a small trapezoid of tan sand-coloured land marked by a thin red cord pinned around its edge, a dark green river curving beside it and blue sea on the right, plain blank surfaces without lettering, bright overhead lamp light, sharp focus, close-up from above",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8921
     },
     {
      "vo": "देश ज़मीन के लिए जंग लड़ते हैं, लेकिन इसे दोनों ठुकराते हैं।",
@@ -66,9 +67,10 @@
     {
      "vo": "फिर उन्नीस सौ दो में दूसरी लाइन बनी, जिसने दो इलाके अदल-बदल दिए।",
      "caption": "फिर 1902 में दूसरी लाइन बनी, जिसने दो इलाके अदल-बदल दिए।",
-     "prompt": "Two glowing lines drawn on a tan desert seen from high above: one straight red line running left to right, and a second orange line bending around a small inland patch of sand on the left and a coastal triangle of land on the right beside blue sea, bright daylight, sharp focus, wide aerial shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "Two ropes stretched across tan desert ground: one straight red rope running left to right and a second orange rope bending around a small patch of sand on the left, wooden stakes holding both, blue sea and a coastal triangle of land on the right, bright daylight, sharp focus, wide shot from above",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8924
     },
     {
      "vo": "लेकिन रुकिए… दूसरा इलाका हलाइब है, करीब दस गुना बड़ा, समुद्र किनारे।",
@@ -98,5 +100,21 @@
  "voice_requested": "voice-gk-01-bir-tawil-no-owner-c3d2f95cb2",
  "released_at": "2026-11-08 15:14",
  "voice_ok": "voice-gk-01-bir-tawil-no-owner-c3d2f95cb2",
- "voice_approved_at": "2026-11-08 15:14"
+ "voice_approved_at": "2026-11-08 15:14",
+ "repaint": {
+  "shots": [
+   2,
+   5
+  ],
+  "thumbs": [],
+  "at": "2026-11-08 15:58"
+ },
+ "shot_qc": {
+  "checked": "2026-11-08T10:27:31Z",
+  "rounds": 1,
+  "why": {
+   "2": "The map has painted lettering (SUPDAR, NIEIRE-SUDAN) and a map-style glowing blob. The lettering is garbled.",
+   "5": "The map has painted lettering (PI, AS, EGATT watermark-style text). The map is flat and cluttered, with glowing lines."
+  }
+ }
 }
