@@ -1,0 +1,98 @@
+{
+ "slug": "gk-05-baarle-border-houses",
+ "format": "short",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "एक ही घर दो देशों में कैसे बँटा है? 🏠",
+ "hook_text": "घर किसका?",
+ "cover_text": "बार्ले में घर के बीच से *बॉर्डर*!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A charming old European brick townhouse with a bright line of white inlaid stones and small metal crosses running across the pavement, up to the front door and through the house front, splitting it in two, flower pots on the windowsill, warm golden afternoon light, house large and sharp in the lower two-thirds, calm dark blue evening sky above, wide shot"
+ },
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "source": "Encyclopaedia Britannica, BBC, Treaty of Maastricht 1843 border records",
+ "lane": 1,
+ "fact_check": {
+  "engage": 7,
+  "weak": "Closing line 'एक ही घर, दो देश' contradicts the door rule, which makes each house belong to one country; the Baarle fact is also fairly well known"
+ },
+ "hook_score": {
+  "score": 7,
+  "why": "Shock sits in the first words (half Belgium, half Netherlands) and it ends on a question the Short likely answers; slightly long.",
+  "was": "एक ही घर, आधा बेल्जियम में और आधा नीदरलैंड्स में?"
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "एक घर, आधा बेल्जियम, आधा नीदरलैंड्स: घर आखिर किसका?",
+     "caption": "एक घर, आधा बेल्जियम, आधा नीदरलैंड्स: घर आखिर किसका?",
+     "prompt": "A white painted line running across the front doorstep and up the middle of a brick house facade, splitting it in two, ordinary Dutch-style brick townhouse with a closed door, a small orange-white-blue flag on the left and a small black-yellow-red flag on the right, bright evening sun, sharp focus, medium shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "बार्ले शहर में बॉर्डर सड़कों, दुकानों और घरों के बीच से जाता है।",
+     "caption": "बार्ले शहर में border सड़कों, दुकानों और घरों के बीच से जाता है।",
+     "prompt": "A thin line of white stone markers zigzagging through a small European brick town, crossing a street, a café terrace with empty tables and the fronts of brick houses, a few tiny distant silhouettes walking, plain blank signboards, golden hour light, high aerial wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "वजह आठ सौ साल से भी पुरानी है, जब ज़मीन के टुकड़े दो घरानों में बँटे थे।",
+     "caption": "वजह 800 साल से भी पुरानी है, जब ज़मीन के टुकड़े दो घरानों में बँटे थे।",
+     "prompt": "Two noblemen in long dark robes facing each other across a heavy oak table covered in parchment deeds with red wax seals, one man on the left with a grey beard, one man on the right with a black beard, seen from the side, tall arched window with green fields behind, warm candle light, medium shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "अठारह सौ तैंतालीस की मास्ट्रिख्ट संधि भी इन टुकड़ों को सुलझा नहीं पाई।",
+     "caption": "1843 की Maastricht संधि भी इन टुकड़ों को सुलझा नहीं पाई।",
+     "prompt": "A quill pen resting on a thick treaty parchment with red wax seals, a stack of land survey sheets with plain ruled lines beside it, large and sharp on a polished wooden desk, soft bright window light, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "आज बेल्जियम के बाईस टुकड़े नीदरलैंड्स के अंदर बिखरे पड़े हैं।",
+     "caption": "आज बेल्जियम के 22 टुकड़े नीदरलैंड्स के अंदर बिखरे पड़े हैं।",
+     "prompt": "Many oddly shaped patches of green fields and small streets outlined by thin white boundary lines like scattered puzzle pieces across flat Dutch countryside, a small brick town in the middle, soft bright morning light, sharp focus throughout, high aerial wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "लेकिन रुकिए, जिस घर के बीच से बॉर्डर गुज़रे, वो किस देश का?",
+     "caption": "लेकिन रुकिए, जिस घर के बीच से border गुज़रे, वो किस देश का?",
+     "prompt": "A white boundary line on the pavement running right up to an old brick house and continuing up its wall between two windows, house large in frame, empty cobblestone street, bright side light from the left, sharp focus, medium shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "जिस देश में घर का मेन दरवाज़ा है, घर उसी का, और दरवाज़े की नंबर प्लेट यही बताती है।",
+     "caption": "जिस देश में घर का मेन दरवाज़ा है, घर उसी का, और दरवाज़े की number plate यही बताती है।",
+     "prompt": "A classic wooden front door painted deep green with a brass handle, a small plain blank enamel plate on the wall beside it, a white painted line on the stone doorstep running past it, warm morning sunlight, sharp focus, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "इसलिए एक ही घर, दो देश, और फैसला सिर्फ़ दरवाज़ा करता है।",
+     "caption": "इसलिए एक ही घर, दो देश, और फैसला सिर्फ़ दरवाज़ा करता है।",
+     "prompt": "An old brick house at dusk with its green front door slightly open, warm golden lamp light spilling onto the cobblestones, a white line across the street glowing softly, house large and centred, empty street, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    }
+   ]
+  }
+ ]
+}

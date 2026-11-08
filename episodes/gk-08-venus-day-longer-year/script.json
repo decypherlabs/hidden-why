@@ -1,0 +1,98 @@
+{
+ "slug": "gk-08-venus-day-longer-year",
+ "format": "short",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "शुक्र पर दिन साल से लंबा क्यों? 🪐",
+ "hook_text": "दिन > साल?",
+ "cover_text": "शुक्र पर सूरज *पश्चिम* से उगता है",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A huge hazy golden sun rising over the horizon of Venus, glowing through thick yellow clouds, cracked dark basalt plains and one distant volcano in the lower two-thirds, deep dark amber sky in the top third, warm bright light, sharp focus, wide shot, vertical frame"
+ },
+ "music": {
+  "epic": [
+   "main"
+  ]
+ },
+ "source": "NASA Solar System Exploration, ESA Venus Express",
+ "lane": 2,
+ "fact_check": {
+  "engage": 7,
+  "weak": "Easy to absorb on one listen: 'सूरज का पूरा चक्कर' is ambiguous (it means Venus's orbit), and 'इसीलिए' wrongly links the unknown cause to the conclusion"
+ },
+ "hook_score": {
+  "score": 7,
+  "why": "Short, a direct 'why' with the shock in it, and it matches the story's core question. The 'day longer than year' fact is fairly well known, so it's not a rare hook.",
+  "was": "शुक्र पर दिन साल से लंबा, और सूरज पश्चिम से?"
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "शुक्र पर दिन साल से लंबा क्यों होता है?",
+     "caption": "शुक्र पर दिन साल से लंबा क्यों होता है?",
+     "prompt": "A huge dim orange sun glowing behind thick swirling yellow-brown clouds over a barren grey volcanic plain with cracked rock in the foreground, hazy amber sky, dim orange light, sharp focus from foreground to horizon, wide shot, vertical frame, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "धरती अपना एक चक्कर चौबीस घंटे में पूरा करती है।",
+     "caption": "धरती अपना एक चक्कर 24 घंटे में पूरा करती है।",
+     "prompt": "The whole planet Earth large in the centre of the frame, blue oceans and white clouds on the lit half, a sharp line where day turns to night, glowing yellow city lights on the dark half, black starry space, bright sunlight from the left, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "लेकिन शुक्र को एक चक्कर में दो सौ तैंतालीस दिन लगते हैं।",
+     "caption": "लेकिन शुक्र को एक चक्कर में 243 दिन लगते हैं।",
+     "prompt": "The planet Venus large in the centre of the frame, a smooth round globe wrapped in creamy yellow swirling clouds, bright sunlight lighting the left side, the right side in soft shadow, deep black starfield, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "और सूरज का पूरा चक्कर? सिर्फ़ दो सौ पच्चीस दिन में!",
+     "caption": "और सूरज का पूरा चक्कर? सिर्फ़ 225 दिन में!",
+     "prompt": "The planet Venus as a bright yellow-white globe on the right, travelling along a thin glowing orbit line around a huge blazing orange Sun on the left, solar flares curling from the Sun, black space, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "लेकिन रुकिए, शुक्र बाकी ग्रहों से उल्टी दिशा में घूमता है।",
+     "caption": "लेकिन रुकिए, शुक्र बाकी ग्रहों से उल्टी दिशा में घूमता है।",
+     "prompt": "The planet Venus large in the centre, thick yellow cloud bands streaming sideways across its face in one clear direction, a few small distant planets in the dark background on the far left, bright sunlight from the right, sharp focus, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "पक्का कोई नहीं जानता, पर शायद कोई बहुत बड़ी चट्टान इससे टकराई थी।",
+     "caption": "पक्का कोई नहीं जानता, पर शायद कोई बहुत बड़ी चट्टान इससे टकराई थी।",
+     "prompt": "A giant rocky asteroid, dark and cratered, about to hit the planet Venus, glowing orange magma cracks across Venus's surface, the asteroid large on the left and Venus on the right, black starry space, bright orange glow, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "या इसकी बेहद मोटी हवा ने धीरे-धीरे इसकी रफ़्तार रोक दी।",
+     "caption": "या इसकी बेहद मोटी हवा ने धीरे-धीरे इसकी रफ़्तार रोक दी।",
+     "prompt": "A thick heavy blanket of orange-yellow clouds covering the whole planet Venus, seen from space, the clouds layered deep like a dense ocean around the round globe, dim sun glow from the left, black space behind, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "इसीलिए शुक्र पर दिन साल से लंबा है, और सूरज पश्चिम से उगता है।",
+     "caption": "इसीलिए शुक्र पर दिन साल से लंबा है, और सूरज पश्चिम से उगता है।",
+     "prompt": "A hazy golden sun rising over a jagged volcanic horizon on Venus, glowing amber clouds in the sky, cracked dark lava plains in the foreground, the sun large at the centre of the horizon, warm golden light, sharp focus from foreground to horizon, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    }
+   ]
+  }
+ ]
+}

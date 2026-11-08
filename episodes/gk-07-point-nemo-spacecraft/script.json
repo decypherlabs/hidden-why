@@ -1,0 +1,98 @@
+{
+ "slug": "gk-07-point-nemo-spacecraft",
+ "format": "short",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "Point Nemo में स्पेस स्टेशन क्यों डुबाते हैं? 🚀",
+ "hook_text": "किसी पर क्यों नहीं गिरा?",
+ "cover_text": "Point Nemo में डूबे *250+* स्पेसक्राफ्ट!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A huge burning space station breaking into glowing pieces as it descends through the sky toward a vast empty deep-blue ocean, orange fireballs and smoke trails, large in the lower two-thirds of the frame, sunset light on the waves, dark starry sky across the top, wide shot"
+ },
+ "music": {
+  "epic": [
+   "main"
+  ]
+ },
+ "source": "NASA, ESA, National Geographic",
+ "lane": 2,
+ "fact_check": {
+  "engage": 7,
+  "weak": "fairly well-known viral fact; the ISS-400 km line is a nice twist but the payoff is not new to many"
+ },
+ "hook_score": {
+  "score": 8,
+  "why": "The strongest hook: a vivid falling-station image plus a surprising paradox, asked as 'why', and it is easy to see in the first painting. It must be literally true, since stations do sometimes land on land, but the Short's answer covers that.",
+  "was": "स्पेस एजेंसियां पुराने स्पेस स्टेशन यहीं समुद्र में क्यों डुबाती हैं?"
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आसमान से गिरता स्पेस स्टेशन किसी इंसान पर क्यों नहीं गिरता?",
+     "caption": "आसमान से गिरता स्पेस स्टेशन किसी इंसान पर क्यों नहीं गिरता?",
+     "prompt": "Huge glowing red-hot chunks of a space station falling in a line through a dusky sky, trailing orange fire and smoke, over a calm empty dark-blue ocean with no ships and no land, bright orange glow on the water, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "इस जगह का नाम है पॉइंट नीमो, दक्षिण प्रशांत महासागर के बीचोंबीच।",
+     "caption": "इस जगह का नाम है Point Nemo, दक्षिण प्रशांत महासागर के बीचोंबीच।",
+     "prompt": "A completely empty open ocean stretching to every horizon, rolling deep-blue waves with white foam, a lone small wave crest large in the foreground, overcast grey daylight, sharp focus throughout, wide aerial shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "यहाँ से सबसे पास की ज़मीन भी दो हज़ार छह सौ किलोमीटर से ज़्यादा दूर है।",
+     "caption": "सबसे पास की ज़मीन भी 2,600 km से ज़्यादा दूर!",
+     "prompt": "A tiny rocky island far away on the horizon of a vast blue ocean, enormous stretch of rippling water filling the foreground, clear bright daylight, sharp focus from foreground to horizon, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "लेकिन ऊपर से गुज़रते आई एस एस के एस्ट्रोनॉट्स सिर्फ़ चार सौ किलोमीटर दूर!",
+     "caption": "लेकिन ऊपर से गुज़रते ISS के astronauts सिर्फ़ 400 km दूर!",
+     "prompt": "The International Space Station large in frame with gleaming gold and white solar panels, orbiting high above the curved blue Earth with a thin glowing blue atmosphere below, black starry space above, sharp sunlight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "यहाँ ढाई सौ से ज़्यादा स्पेसक्राफ़्ट समुद्र की गहराई में पड़े हैं।",
+     "caption": "यहाँ 250 से ज़्यादा spacecraft समुद्र की गहराई में पड़े हैं।",
+     "prompt": "Twisted wreckage of old satellites and rocket parts lying on the dark deep-sea floor, a rusted metal fuel tank and bent solar panels large in the foreground, faint blue light filtering down from above, sharp focus, medium-wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "रूस का मीर स्पेस स्टेशन भी दो हज़ार एक में यहीं गिराया गया।",
+     "caption": "रूस का Mir स्पेस स्टेशन भी 2001 में यहीं गिराया गया।",
+     "prompt": "A large old space station with many connected cylindrical modules and solar panels glowing red-hot as it enters the atmosphere, burning pieces trailing behind it, twilight sky over a dark ocean, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "बड़े टुकड़े हवा में पूरे नहीं जलते, और यहाँ नीचे कोई इंसान नहीं।",
+     "caption": "बड़े टुकड़े पूरे नहीं जलते, और यहाँ नीचे कोई इंसान नहीं!",
+     "prompt": "Glowing red-hot metal fragments of a space station splashing into a vast empty ocean, tall white plumes of water rising around them, no ships and no land, warm golden evening light, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    },
+    {
+     "vo": "और दो हज़ार तीस के बाद, आई एस एस भी यहीं डुबाया जाएगा।",
+     "caption": "और 2030 के बाद, ISS भी यहीं डुबाया जाएगा।",
+     "prompt": "The International Space Station seen from below, its solar panels starting to glow orange at the edges as it dips into the upper atmosphere, an endless dark ocean far beneath at dusk, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map labels, cartoon, gore, blood"
+    }
+   ]
+  }
+ ]
+}
