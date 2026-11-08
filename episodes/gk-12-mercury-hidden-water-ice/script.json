@@ -12,7 +12,8 @@
  "cover_text": "Mercury के अंधेरे गड्ढों में *बर्फ़*!",
  "cover_shot": 1,
  "cover": {
-  "prompt": "Mercury's grey cratered north pole filling the lower two-thirds of the frame, bright white ice glowing inside dark crater shadows, a fiery edge of the Sun at one side, calm deep black space at the top, sharp focus, photoreal close-up"
+  "prompt": "Mercury's grey cratered north pole filling the lower two-thirds of the frame, bright white ice glowing inside dark crater shadows, a fiery edge of the Sun at one side, calm deep black space at the top, sharp focus, photoreal close-up",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -90,5 +91,19 @@
  "voice_requested": "voice-gk-12-mercury-hidden-water-ice-c4a23ccd65",
  "released_at": "2026-11-08 15:14",
  "voice_ok": "voice-gk-12-mercury-hidden-water-ice-c4a23ccd65",
- "voice_approved_at": "2026-11-08 15:14"
+ "voice_approved_at": "2026-11-08 15:14",
+ "repaint": {
+  "shots": [],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-08 16:28"
+ },
+ "shot_qc": {
+  "checked": "2026-11-08T10:56:54Z",
+  "rounds": 1,
+  "why": {
+   "C": "A glowing blue ring and line is painted at the bottom of the planet, which is a glowing line that isn't a border. The icy surface also reads like a map of landmasses."
+  }
+ }
 }
