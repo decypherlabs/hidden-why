@@ -80,11 +80,13 @@ jobs:
         run: |
           # a ready-made thumbnail the owner chose (episodes/<slug>/thumb-custom.jpg) wins over the generated one
           if [ -f "$EP/thumb-custom.jpg" ]; then cp "$EP/thumb-custom.jpg" "out/${{ inputs.slug }}/thumb.jpg"
+          elif [ -n "$HW_BRAND" ] && grep -q '"thumbnails": "owner"' "brand/$HW_BRAND/brand.json"; then
+            echo "the owner makes this channel's thumbnails (ChatGPT): none generated"
           else python pipeline/thumb.py "$EP/script.json" "out/${{ inputs.slug }}"; fi
       - name: Collect
         run: |
           mkdir -p final && cd "out/${{ inputs.slug }}"
-          cp video.mp4 thumb.jpg chapters.txt ../../final/
+          cp video.mp4 chapters.txt ../../final/ && { [ ! -f thumb.jpg ] || cp thumb.jpg ../../final/; }
           python3 - <<'PY'
           import json, pathlib
           m = json.loads(pathlib.Path("../../" + __import__("os").environ["EP"] + "/meta.json").read_text())

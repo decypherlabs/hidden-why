@@ -85,7 +85,9 @@ def expected(script):
                 names += [f"shot-{n:02d}-{k}.png" for k in range(2, len(sh.get("more") or []) + 2)]
     th = d.get("thumbnail") or {}
     cover = ["cover.png"] if (d.get("cover") or {}).get("prompt") else []
-    return names + cover + [f for f, k in (("thumb-plane.png", "plane"), ("thumb-zoom.png", "zoom")) if th.get(k)]
+    brand = os.environ.get("HW_BRAND")
+    owner = brand and json.loads((ROOT / "brand" / brand / "brand.json").read_text()).get("thumbnails") == "owner"
+    return names + cover + ([] if owner else [f for f, k in (("thumb-plane.png", "plane"), ("thumb-zoom.png", "zoom")) if th.get(k)])
 
 
 def paint(slug, script, out):

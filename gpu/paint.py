@@ -168,7 +168,7 @@ def paint_flux(script, out, part=0, parts=1):
     w, h = BRAND.get("flux_short_size", (864, 1536)) if script.get("format") == "short" else BRAND.get("flux_size", (1536, 864))
     jobs = [(out / f"shot-{n}.png", f"{deity(p)}, {style}", seed) for n, p, _, seed in shots(script)]
     th = script.get("thumbnail") or {}
-    if th.get("plane"):  # a long-form's thumbnail painting (Logos & Legends on FLUX, 7 Nov 2026)
+    if th.get("plane") and BRAND.get("thumbnails") != "owner":  # a long-form's thumbnail painting (none when the owner makes them)
         jobs.append((out / "thumb-plane.png", f"{th['plane']}, {BRAND.get('thumb_style') or BRAND.get('cover_style') or style}", 7))
     cv = (script.get("cover") or {}).get("prompt")
     if cv:
