@@ -991,7 +991,10 @@ def main(script_path, out_dir):
                     img = bgr(OVERLAYS[s["overlay"]](Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))))
                 parts = 3 if d > 5.4 else 2 if d > 2.6 else 1
                 if short and TEASER:  # the line's painting + 1-2 more, full frame, cut every ~1.5 s
-                    ids = [src] + list(s.get("also") or []) if src else [f"{n:02d}"]
+                    # its own vertical FLUX paintings (owner, 8 Nov 2026: "paint the shorts' shots on FLUX"): the line's
+                    # picture + its "more" pictures; or, reusing an episode's, the "from" + "also" ones
+                    ids = [src] + list(s.get("also") or []) if src else [f"{n:02d}"] + [
+                        x.stem[len("shot-"):] for x in sorted(out.glob(f"shot-{n:02d}-*.png"), key=lambda p: int(p.stem.rsplit("-", 1)[1]))]
                     if s.get("montage"):  # the last line: a flash recap of the Short's pictures under the call
                         ids = s["montage"]
                     pics = []
@@ -1132,9 +1135,13 @@ def main(script_path, out_dir):
 
         style = K.B.get("sfx") or {}
         last = items[-1][0] if items else 0
-        for c in cuts + [it[0] for it in items[1:]]:
+        page = TEASER and K.asset("sfx/page.wav").exists()
+        for c in sorted(set(round(x, 3) for x in cuts + [it[0] for it in items[1:]])):
             if abs(c - last) > 0.05:
-                put(whoosh(), max(0, c - 0.18), -15)
+                if page:  # the brand's chapter-change page sound on every picture/question change (owner, 8 Nov 2026)
+                    put(load_sfx("page"), max(0, c - 0.05), -13)
+                else:
+                    put(whoosh(), max(0, c - 0.18), -15)
         if TEASER:
             for h in hits[1:-1]:
                 put(load_sfx("impact"), h[0], -14)
