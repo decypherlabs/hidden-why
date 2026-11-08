@@ -87,9 +87,10 @@
     {
      "vo": "फिर इकतीस जुलाई दो हज़ार पंद्रह की आधी रात, करीब पचास हज़ार लोगों को देश मिला।",
      "caption": "फिर 31 जुलाई 2015 की आधी रात, करीब 50,000 लोगों को देश मिला।",
-     "prompt": "A large crowd of villagers raising lit candles and lanterns in the air, seen from behind, joyful midnight celebration in monsoon rain, fireworks bursting over tin-roofed huts and palm trees, warm lantern light, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A large crowd of Indian villagers raising lit candles and lanterns in the air, seen from behind, joyful midnight celebration in light rain, fireworks bursting over thatched huts and palm trees, warm lantern light, no banners, plain surfaces, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8927
     },
     {
      "vo": "अब भारत के अंदर न बांग्लादेश का गाँव, न उसके अंदर भारत।",
@@ -104,5 +105,19 @@
  "voice_requested": "voice-gk-06-chitmahals-india-bangladesh-9a942b193e",
  "released_at": "2026-11-08 15:14",
  "voice_ok": "voice-gk-06-chitmahals-india-bangladesh-9a942b193e",
- "voice_approved_at": "2026-11-08 15:14"
+ "voice_approved_at": "2026-11-08 15:14",
+ "repaint": {
+  "shots": [
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-08 16:27"
+ },
+ "shot_qc": {
+  "checked": "2026-11-08T10:54:45Z",
+  "rounds": 1,
+  "why": {
+   "8": "Banner in the crowd has painted letters (garbled text like 'NARRIAL WITRALAN IS EATA')."
+  }
+ }
 }
