@@ -12,7 +12,8 @@
  "cover_text": "हंस *7,290 मीटर* ऊपर उड़ता है?",
  "cover_shot": 1,
  "cover": {
-  "prompt": "One bar-headed goose in flight filling the lower two-thirds of the frame, wings spread wide, white head with two black bars, orange bill, snowy Himalayan peaks below, calm dark blue empty sky above, bright sun, sharp focus, close-up"
+  "prompt": "One bar-headed goose in flight filling the lower two-thirds of the frame, wings spread wide, white head with two black bars, orange bill, snowy Himalayan peaks below, calm dark blue empty sky above, bright sun, sharp focus, close-up",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -38,37 +39,42 @@
     {
      "vo": "आधी ऑक्सीजन में ये पंछी हिमालय पार कैसे करता है?",
      "caption": "आधी oxygen में ये पंछी हिमालय पार कैसे करता है?",
-     "prompt": "One bar-headed goose flying low over jagged snow-covered Himalayan peaks, pale grey body, white head with two black bars, orange bill, wings spread, thin deep-blue sky, bright morning sun, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "One bar-headed goose flying low over jagged snow-covered Himalayan peaks, pale grey body, white head with two black bars, orange bill, wings spread, deep-blue sky, bright morning sun, goose large in frame, sharp focus, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8920
     },
     {
      "vo": "इसका नाम है बार-हेडेड गूज़, और ये हर साल हिमालय पार करता है.",
      "caption": "इसका नाम है bar-headed goose, और ये हर साल हिमालय पार करता है.",
-     "prompt": "One bar-headed goose standing on a Tibetan lake shore, white head with two black bars, pale grey body, orange bill and legs, large in frame, snowy Himalayan range behind, bright daylight, sharp focus, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "One bar-headed goose standing on a snowy Himalayan mountain ridge, white head with two black bars, pale grey body, orange bill and legs, large in frame, towering snow peaks behind, bright daylight, plain rocks and snow, sharp focus, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8921
     },
     {
      "vo": "सात हज़ार मीटर पर हवा में ऑक्सीजन आधी से भी कम होती है.",
      "caption": "7,000 मीटर पर हवा में oxygen आधी से भी कम होती है.",
-     "prompt": "A V-shaped flock of bar-headed geese flying high above white clouds beside a towering icy Himalayan summit, dark blue thin sky, bright sunlight, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A V-shaped flock of bar-headed geese flying high above white clouds beside a towering icy Himalayan summit, pale grey bodies, white heads with black bars, dark blue thin sky, bright sunlight, sharp focus, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8922
     },
     {
      "vo": "वहाँ इंसान बिना ऑक्सीजन सिलेंडर के कुछ कदम चलने में हाँफ जाते हैं.",
      "caption": "वहाँ इंसान बिना oxygen cylinder के कुछ कदम चलने में हाँफ जाते हैं.",
-     "prompt": "A mountaineer in a red down jacket seen from behind, bent over with hands on his knees, breathing hard on a narrow snowy Himalayan ridge, white breath vapour in the cold air, deep snow around, bright daylight, sharp focus, medium shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A mountaineer in a red down jacket and hood seen from behind, bent forward with both hands on his knees, gasping for breath, white breath vapour in the freezing air, walking on a narrow snowy Himalayan ridge, deep snow all around, plain snow and rock, bright daylight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8923
     },
     {
      "vo": "लेकिन ये हंस वहाँ पंख फड़फड़ाकर उड़ता है, एक तो सात हज़ार दो सौ नब्बे मीटर तक रिकॉर्ड हुआ.",
      "caption": "लेकिन ये हंस वहाँ पंख फड़फड़ाकर उड़ता है, एक तो 7,290 मीटर तक record हुआ.",
-     "prompt": "One bar-headed goose with wings fully spread flapping high above snow-capped Himalayan summits, pale grey body, white head with two black bars, sea of clouds far below, dark blue sky, bright sun on its feathers, sharp focus, medium shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "One bar-headed goose with wings fully spread flapping high above snow-capped Himalayan summits, pale grey body, white head with two black bars, orange bill, sea of clouds far below, dark blue sky, bright sun on its feathers, sharp focus, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8924
     },
     {
      "vo": "राज़ है इसका खून: इसका हीमोग्लोबिन ऑक्सीजन को बहुत कसकर पकड़ता है.",
@@ -80,16 +86,18 @@
     {
      "vo": "साथ में बड़े फेफड़े, गहरी साँसें, और मसल्स तक ज़्यादा खून की नलियाँ.",
      "caption": "साथ में बड़े फेफड़े, गहरी साँसें, और muscles तक ज़्यादा खून की नलियाँ.",
-     "prompt": "One bar-headed goose with wings raised high in a powerful flap, broad grey chest and strong wing muscles, bill open with white breath vapour in freezing air, snowy Himalayan peaks behind, bright daylight, sharp focus, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "One bar-headed goose with wings raised high in a powerful downward flap, pale grey body, white head with two black bars, broad chest, bill open with white breath vapour in freezing air, snowy Himalayan peaks behind, bright daylight, sharp focus, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8926
     },
     {
      "vo": "इसीलिए आधी ऑक्सीजन में भी, ये पंछी हिमालय पार कर जाता है.",
      "caption": "इसीलिए आधी oxygen में भी, ये पंछी हिमालय पार कर जाता है.",
-     "prompt": "A flock of bar-headed geese in V formation flying over the snowy crest of the Himalayas toward green valleys beyond, warm golden evening sun on their wings, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "prompt": "A flock of bar-headed geese in V formation flying over the snowy crest of the Himalayas toward green valleys beyond, pale grey bodies, white heads with black bars, warm golden evening sun on their wings, sharp focus, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8927
     }
    ]
   }
@@ -97,5 +105,34 @@
  "voice_requested": "voice-gk-09-bar-headed-goose-everest-ee2a52cf4e",
  "released_at": "2026-11-08 15:14",
  "voice_ok": "voice-gk-09-bar-headed-goose-everest-ee2a52cf4e",
- "voice_approved_at": "2026-11-08 15:14"
+ "voice_approved_at": "2026-11-08 15:14",
+ "repaint": {
+  "shots": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8
+  ],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-08 16:27"
+ },
+ "shot_qc": {
+  "checked": "2026-11-08T10:55:00Z",
+  "rounds": 1,
+  "why": {
+   "1": "Painted text on a world-map sign, and a map shown on a board",
+   "2": "Painted text on a red sign; the setting is a lake shore, not the Himalaya crossing",
+   "3": "Garbled painted text on signs, and a map shown on a board",
+   "4": "A climber bending over on a ridge, not struggling to breathe while walking. A small sign with text is also painted in",
+   "5": "Map and text signboards painted in",
+   "7": "A map is shown behind the goose, and the goose has a strange white tuft on its head",
+   "8": "Foreign-script signs and painted text",
+   "C": "Two heads on the goose, a duplicated face"
+  }
+ }
 }
