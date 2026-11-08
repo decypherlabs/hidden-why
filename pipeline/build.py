@@ -483,7 +483,7 @@ def hook_card(text):
     y = 260 - 62 * (len(lines) - 1)
     for ln in lines[:3]:
         tw = d.textlength(ln, font=f)
-        d.rectangle((W / 2 - tw / 2 - 24, y - 66, W / 2 + tw / 2 + 24, y + 62), fill=K.YEL + (255,))
+        d.rectangle((W / 2 - tw / 2 - 24, y - 66, W / 2 + tw / 2 + 24, y + 62), fill=_Y() + (255,))
         d.text((W / 2, y), ln, font=f, anchor="mm", fill=K.INK + (255,))
         y += 132
     a = np.asarray(img)
@@ -503,9 +503,65 @@ def punch_word(frame, text, t, dur=1.3):
         f = K.display(f.size - 6)
     img = Image.new("RGBA", (W, 300), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    d.text((W / 2 + 8, 158), text, font=f, anchor="mm", fill=K.RED + (235,))
-    d.text((W / 2, 150), text, font=f, anchor="mm", fill=K.YEL + (255,), stroke_width=8, stroke_fill=K.INK + (255,))
+    d.text((W / 2 + 8, 158), text, font=f, anchor="mm", fill=_R() + (235,))
+    d.text((W / 2, 150), text, font=f, anchor="mm", fill=_Y() + (255,), stroke_width=8, stroke_fill=K.INK + (255,))
     return _paste(frame, img, 0, H * 0.27 - 150, a)
+
+
+def episode_card(path):
+    """TEASER Shorts' end: the full episode's own thumbnail (the owner's ChatGPT one) as a framed card with a
+    "FULL EPISODE" ribbon, pre-rendered once (RGBA)."""
+    th = Image.open(path).convert("RGB")
+    cw = int(W * 0.86)
+    ch = round(cw * 9 / 16)
+    th = th.resize((cw, ch), Image.LANCZOS)
+    pad, rib = 10, 70
+    card = Image.new("RGBA", (cw + 2 * pad, ch + 2 * pad + rib), (0, 0, 0, 0))
+    d = ImageDraw.Draw(card)
+    d.rounded_rectangle((0, rib - 20, cw + 2 * pad, ch + 2 * pad + rib), 22, fill=(255, 255, 255, 255))
+    card.paste(th, (pad, pad + rib))
+    f = K.display(46)
+    label = "पूरा EPISODE"  # the play triangle is drawn: the fonts have no ▶
+    tw = int(d.textlength(label, font=f)) + 110
+    d.rounded_rectangle((pad, 0, pad + tw, rib + 4), 16, fill=_R() + (255,))
+    d.polygon([(pad + 28, rib / 2 - 16), (pad + 28, rib / 2 + 18), (pad + 58, rib / 2 + 1)], fill=(255, 255, 255, 255))
+    d.text((pad + 76, rib / 2 + 2), label, font=f, anchor="lm", fill=(255, 255, 255, 255))
+    return card
+
+
+def end_card(frame, card, t):
+    """The episode card drops in (scale 0.85 -> 1, 0.35 s) over the dimmed last picture; a curved arrow draws itself
+    down to the Shorts player's related-video link (bottom left, above the title) and keeps nudging toward it."""
+    a = min(1.0, t / 0.35)
+    frame = _dim(frame, 0.55 * a)
+    sc = 0.85 + 0.15 * (1 - (1 - a) ** 3)
+    c = card.resize((int(card.width * sc), int(card.height * sc)), Image.LANCZOS)
+    cy = int(H * 0.30)
+    frame = _paste(frame, c, (W - c.width) / 2, cy - c.height / 2, a)
+    # the arrow: from under the card's right side, curving down to the link at about (0.16 W, 0.80 H)
+    k = min(1.0, max(0.0, (t - 0.35) / 0.45))
+    if k > 0:
+        bob = 14 * abs(np.sin(t * 5))
+        p0 = np.array([W * 0.70, cy + card.height * 0.55])
+        p1 = np.array([W * 0.72, H * 0.70])
+        p2 = np.array([W * 0.20 - bob * 0.5, H * 0.79 + bob])
+        pts = [(1 - u) ** 2 * p0 + 2 * (1 - u) * u * p1 + u ** 2 * p2 for u in np.linspace(0, k, 40)]
+        pts = np.array(pts, np.int32)
+        cv2.polylines(frame, [pts], False, (20, 20, 20), 46, cv2.LINE_AA)
+        cv2.polylines(frame, [pts], False, _Y()[::-1], 30, cv2.LINE_AA)
+        if k >= 1.0:  # the head, pointing along the curve's end
+            tip, back = pts[-1].astype(np.float32), pts[-6].astype(np.float32)
+            dv = (tip - back) / (np.linalg.norm(tip - back) + 1e-6)
+            nv = np.array([-dv[1], dv[0]])
+            head = np.array([tip + dv * 40, tip - dv * 54 + nv * 60, tip - dv * 54 - nv * 60], np.int32)
+            cv2.fillPoly(frame, [head], (20, 20, 20), cv2.LINE_AA)
+            cv2.fillPoly(frame, [(head * 0.9 + tip * 0.1).astype(np.int32)], _Y()[::-1], cv2.LINE_AA)
+            f = K.display(84)
+            img = Image.new("RGBA", (W, 120), (0, 0, 0, 0))
+            ImageDraw.Draw(img).text((W * 0.40, 60), "यहाँ tap करें", font=f, anchor="lm", fill=_Y() + (255,),
+                                     stroke_width=8, stroke_fill=(20, 20, 20, 255))
+            frame = _paste(frame, img, 0, H * 0.66 - 60, min(1.0, (t - 0.8) / 0.25))
+    return frame
 
 
 def cta_card(text):
@@ -519,8 +575,8 @@ def cta_card(text):
     img = Image.new("RGBA", (W, bh), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     x0 = (W - tw - 110) // 2
-    d.rounded_rectangle((x0 - 30, 14, x0 + tw + 140, bh - 14), 26, fill=K.YEL + (255,))
-    d.polygon([(x0 + 10, bh / 2 - 30), (x0 + 10, bh / 2 + 30), (x0 + 62, bh / 2)], fill=K.RED + (255,))
+    d.rounded_rectangle((x0 - 30, 14, x0 + tw + 140, bh - 14), 26, fill=_Y() + (255,))
+    d.polygon([(x0 + 10, bh / 2 - 30), (x0 + 10, bh / 2 + 30), (x0 + 62, bh / 2)], fill=_R() + (255,))
     d.text((x0 + 92, bh / 2), text, font=f, anchor="lm", fill=K.INK + (255,))
     a = np.asarray(img)
     return cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0
@@ -566,7 +622,8 @@ class Captions:
     def __init__(self, groups, short=True):
         self.groups, self.cache, self.short = groups, {}, short  # [(t0, t1, text)]
         self.short_y = 0.68  # the caption band's centre (the panel layout puts it under the picture)
-        self.soft = None if short else K.B.get("long_captions")  # owner, 7 Nov 2026: the aesthetic long-form style
+        # owner, 7 Nov 2026: the aesthetic long-form style; 8 Nov: DK Shorts small and white too ("short_captions")
+        self.soft = K.B.get("short_captions") if short else K.B.get("long_captions")
         self.spans = []  # the faint bottom gradient stays on across short gaps (no flicker between groups)
         for t0, t1, _ in groups:
             if self.spans and t0 - self.spans[-1][1] < 1.0:
@@ -703,10 +760,11 @@ class Captions:
             st = self.soft
             bh = 140
             sh = Image.new("RGBA", (W, bh), (0, 0, 0, 0))
-            ImageDraw.Draw(sh).text((W / 2, bh / 2 + 3), text, font=f, anchor="mm", fill=(0, 0, 0, 255),
-                                    stroke_width=3, stroke_fill=(0, 0, 0, 255))
+            if st.get("shadow", True):  # DK Shorts (owner, 8 Nov 2026): "without black stroke"
+                ImageDraw.Draw(sh).text((W / 2, bh / 2 + 3), text, font=f, anchor="mm", fill=(0, 0, 0, 255),
+                                        stroke_width=3, stroke_fill=(0, 0, 0, 255))
             img = sh.filter(ImageFilter.GaussianBlur(4))
-            ImageDraw.Draw(img).text((W / 2, bh / 2), text, font=f, anchor="mm", fill=(250, 243, 230, 255))
+            ImageDraw.Draw(img).text((W / 2, bh / 2), text, font=f, anchor="mm", fill=tuple(st.get("color", (250, 243, 230))) + (255,))
             a = np.asarray(img)
             self.cache[text] = (cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0)
         rgb, al = self.cache[text]
@@ -714,13 +772,16 @@ class Captions:
         after = any(abs(h[1] - g[0]) < 0.05 for h in self.groups)
         follows = any(abs(h[0] - g[1]) < 0.05 for h in self.groups)
         al = al * min(1.0, 1.0 if after else (t - g[0]) / 0.12, 1.0 if follows else (g[1] - t) / 0.12)
-        y = int(H * 0.885) - rgb.shape[0] // 2
+        y = int(H * self.soft.get("y", 0.885)) - rgb.shape[0] // 2  # Shorts sit higher, clear of YouTube's title
         roi = frame[y:y + rgb.shape[0]].astype(np.float32)
         frame[y:y + rgb.shape[0]] = (rgb * al + roi * (1 - al)).astype(np.uint8)
         return frame
 
 
 _LT = {}
+VIVID = False  # LL teaser Shorts (owner, 8 Nov 2026: "use vibrant colors... currently faded colors"): pure yellow/red
+_Y = lambda: (255, 214, 0) if VIVID else K.YEL
+_R = lambda: (255, 40, 40) if VIVID else K.RED
 MOVES_CYCLE = ("pan_right", "pull", "pan_left", "push")
 # a colour grade per episode (script "grade"; owner, 7 Nov 2026: Maruti 800 in Cross process), the same settings as the
 # dashboard's filter previews (clipper/filters.json), applied while encoding
@@ -869,6 +930,8 @@ def main(script_path, out_dir):
     PANEL = short and K.B.get("short_layout") == "panel"  # Logos & Legends Shorts: the landscape painting whole (8 Nov 2026)
     TEASER = short and K.B.get("short_layout") == "teaser"  # LL Shorts: fast, punchy, question after question (8 Nov 2026)
     hits = []  # TEASER: (time, punch word) at every new question
+    global VIVID
+    VIVID = TEASER
     if short:
         W, H, XF = 1080, 1920, 0.15
     caps = []
@@ -990,7 +1053,8 @@ def main(script_path, out_dir):
                     counters.append((t + 0.2, m.group().strip()))
                     last_counter = t
             if short:  # the very first words show at 0.0 s, not after a pause
-                caps += Captions.for_shot(s.get("caption") or s["vo"], t + (0.0 if t == 0 else 0.15), vo[f"{n:02d}"])
+                caps += Captions.for_shot(s.get("caption") or s["vo"], t + (0.0 if t == 0 else 0.15), vo[f"{n:02d}"],
+                                          **({"size": 6} if K.B.get("short_captions") else {}))  # small subtitles: longer phrases
             elif not s.get("diagram"):  # diagrams carry their own labels
                 caps += Captions.for_shot(s.get("caption") or s["vo"], t + 0.15, vo[f"{n:02d}"], size=7)
             t += d
@@ -1127,6 +1191,9 @@ def main(script_path, out_dir):
                           stdin=subprocess.PIPE)
     hook = hook_card(script.get("hook_text") or script["title"]) if short else None
     cta = cta_card(script["cta"]) if short and script.get("cta") else None
+    ep_thumb = Path(script_path).parent.parent / (script.get("full_episode") or "-") / "thumb-custom.jpg"
+    ecard = episode_card(ep_thumb) if TEASER and ep_thumb.exists() else None
+    end_at = (hits[-1][0] + 0.6) if TEASER and hits else total
     CTA_S = 3.0
     HOOK_S = 2.8
     mark = video_mark() if short else None
@@ -1171,7 +1238,7 @@ def main(script_path, out_dir):
             lab = next((l for l in labels if l[0] <= k / FPS < l[1]), None)
             if lab:
                 fr = lower_third(fr.copy(), lab[2], min(1.0, (k / FPS - lab[0]) / 0.4, (lab[1] - k / FPS) / 0.4))
-            if captions:
+            if captions and not (ecard is not None and k / FPS >= end_at):  # the end card has the stage
                 fr = captions.draw(fr.copy(), k / FPS)
             if hook is not None and (PANEL or k / FPS < HOOK_S):  # the question headline, fading out over its last 0.3 s
                 rgb, al = hook                                     # (the panel layout keeps it above the picture)
@@ -1192,8 +1259,10 @@ def main(script_path, out_dir):
                         fr = cv2.addWeighted(fr, 1 - 0.55 * (1 - a / 0.1), np.full_like(fr, 255), 0.55 * (1 - a / 0.1), 0)
                     if h0[1]:
                         fr = punch_word(fr, h0[1], a)
-                cv2.rectangle(fr, (0, 0), (int(W * min(1.0, tt / total)), 12), K.YEL[::-1], -1)  # watch-to-the-end bar
-            if cta is not None and k / FPS > total - CTA_S:  # "the answers: the full episode" (Logos & Legends Shorts)
+                cv2.rectangle(fr, (0, 0), (int(W * min(1.0, tt / total)), 12), _Y()[::-1], -1)  # watch-to-the-end bar
+            if ecard is not None and k / FPS >= end_at:  # the full episode's thumbnail + the arrow to its link
+                fr = end_card(fr, ecard, k / FPS - end_at)
+            elif cta is not None and k / FPS > total - CTA_S:  # "the answers: the full episode" (Logos & Legends Shorts)
                 rgb, al = cta
                 al = al * min(1.0, (k / FPS - (total - CTA_S)) / 0.3)
                 y = int(H * 0.86) - rgb.shape[0] // 2
@@ -1202,7 +1271,7 @@ def main(script_path, out_dir):
                 if TEASER:  # a bouncing arrow down to the related-video link
                     by = int(H * 0.86) + 95 + int(18 * abs(np.sin(k / FPS * 6)))
                     pts = np.array([[W // 2 - 46, by], [W // 2 + 46, by], [W // 2, by + 56]], np.int32)
-                    cv2.fillPoly(fr, [pts], K.YEL[::-1])
+                    cv2.fillPoly(fr, [pts], _Y()[::-1])
             if mark is not None:  # the banner's name + tagline at the top, above the hook (it starts at 12%)
                 rgb, al = mark
                 y = 40
