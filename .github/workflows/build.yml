@@ -65,6 +65,9 @@ jobs:
         run: |
           # the narration the owner already heard and approved (narrate.yml) when the lines and voice are unchanged
           T="voice-${EP#episodes/}-$(python3 tools/voicehash.py "$EP/script.json")"
+          # a preview edit of an episode's first minute reuses that episode's approved narration ("voice_from")
+          V=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1])).get('voice_from') or '')" "$EP/script.json")
+          [ -z "$V" ] || T="voice-$V-$(python3 tools/voicehash.py "episodes/$V/script.json")"
           if gh release download "$T" -R "$GITHUB_REPOSITORY" -p voice.tar -D out 2>/dev/null; then
             tar -xf out/voice.tar -C "out/${{ inputs.slug }}" && echo "narration reused from $T"
           elif grep -q '"voice_ok"' "$EP/script.json"; then

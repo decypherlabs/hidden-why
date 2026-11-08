@@ -117,6 +117,14 @@ def _paste(frame, rgba, x, y, alpha=1.0):
     return frame
 
 
+DEV = re.compile(r"[\u0900-\u097F]")
+
+
+def _bf(text, size, weight="SemiBold"):
+    """The body font, or the Hindi one when the text has Devanagari (Inter has none: Hindi showed as boxes)."""
+    return _HI(size) if DEV.search(text) else K.body(size, weight)
+
+
 def _dim(frame, k):
     return (frame.astype(np.float32) * (1 - k)).astype(np.uint8)
 
@@ -126,7 +134,7 @@ def date_callout(frame, text, t, dur=2.0):
     a = min(1.0, t / 0.2, (dur - t) / 0.3)
     frame = cv2.addWeighted(frame, 1 - 0.6 * a, cv2.GaussianBlur(frame, (0, 0), 9), 0.6 * a, 0)
     frame = _dim(frame, 0.25 * a)
-    f = K.body(130, "Bold")
+    f = _bf(text, 130, "Bold")
     img = Image.new("RGBA", (W, 260), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     d.text((W / 2, 110), text.upper(), font=f, anchor="mm", fill=(255, 255, 255, 255))
@@ -141,7 +149,7 @@ def stamp(frame, text, t, dur=2.4):
         return frame
     key = ("stamp", text)
     if key not in _TITLES:
-        f = K.body(110, "Bold")
+        f = _bf(text, 110, "Bold")
         d0 = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
         tw = int(d0.textlength(text.upper(), font=f))
         im = Image.new("RGBA", (tw + 120, 220), (0, 0, 0, 0))
@@ -168,7 +176,7 @@ def keyword(frame, text, t, dur=2.6):
     a = min(1.0, t / 0.35, (dur - t) / 0.4)
     frame = _dim(frame, 0.45 * a)
     img = Image.new("RGBA", (W, 200), (0, 0, 0, 0))
-    ImageDraw.Draw(img).text((W / 2, 100), "  ".join(text.upper()), font=K.body(66), anchor="mm", fill=(250, 246, 238, 255))
+    ImageDraw.Draw(img).text((W / 2, 100), ("  ".join(text.upper()) if not DEV.search(text) else text), font=_bf(text, 66), anchor="mm", fill=(250, 246, 238, 255))
     return _paste(frame, img, 0, H / 2 - 100, a)
 
 
@@ -268,6 +276,240 @@ def merge_graphic(frame, spec, out, t, dur=4.2):
                 frame = _paste(frame, yi, x + tile_w - 60, H / 2 - 150, al)
         x += tile_w + gap
     return frame
+
+
+# ---- story beats (Logos & Legends, owner 8 Nov 2026: "the video for very long goes for changing images and continuous
+# captions... add sound effects on those visual details and hook the attention"): a headline, a place, a then-vs-now and
+# a quote, each with its own sound, about every 15 s (studio/ll_beats.py writes them into the script)
+
+def _font(rel, size):
+    lay = ImageFont.Layout.RAQM if features.check("raqm") else ImageFont.Layout.BASIC
+    p = K.HERE / rel
+    return ImageFont.truetype(str(p if p.exists() else K.HERE / K.B["fonts"]["display"]), size, layout_engine=lay)
+
+
+_HI = lambda size: _font("logos-and-legends/fonts/Mukta-Bold.ttf", size)
+_SERIF = lambda size: _font("devlok-katha/fonts/TiroDevanagariHindi-Regular.ttf", size)
+_BEATS = {}
+ease = lambda x: 1 - (1 - min(1.0, max(0.0, x))) ** 3
+
+
+def punch(frame, t, k=0.06):
+    """The camera jumps in a little as a beat lands, easing back over 0.3 s."""
+    if t >= 0.3:
+        return frame
+    z = 1 + k * (1 - ease(t / 0.3))
+    M = cv2.getRotationMatrix2D((W / 2, H / 2), 0, z)
+    return cv2.warpAffine(frame, M, (W, H), borderMode=cv2.BORDER_REPLICATE)
+
+
+def _wrap(d, text, f, width):
+    lines, cur = [], ""
+    for w in text.split():
+        if cur and d.textlength(cur + " " + w, font=f) > width:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = (cur + " " + w).strip()
+    return lines + ([cur] if cur else [])
+
+
+def news_sheet(spec):
+    """An aged front page: a made-up masthead (never a real paper's), the date line, the headline in heavy type,
+    columns of grey text bars and a blank photo box."""
+    key = ("news", json.dumps(spec, ensure_ascii=False))
+    if key in _BEATS:
+        return _BEATS[key]
+    pw, ph = 1180, 760
+    rng = np.random.default_rng(11)
+    base = np.full((ph, pw, 3), (232, 222, 196), np.int16) - rng.integers(0, 22, (ph, pw))[..., None]
+    yy, xx = np.mgrid[0:ph, 0:pw]
+    vig = (((xx - pw / 2) / pw) ** 2 + ((yy - ph / 2) / ph) ** 2) * 90  # browned edges
+    img = Image.fromarray(np.clip(base - vig[..., None], 0, 255).astype(np.uint8)).convert("RGBA")
+    d = ImageDraw.Draw(img)
+    ink = (34, 28, 22, 255)
+    d.text((pw / 2, 70), spec.get("paper") or "भारत दर्पण", font=_SERIF(84), anchor="mm", fill=ink)
+    d.line((40, 128, pw - 40, 128), fill=ink, width=4)
+    d.line((40, 136, pw - 40, 136), fill=ink, width=1)
+    d.text((44, 156), spec.get("date", ""), font=_HI(26), anchor="lm", fill=ink)
+    d.text((pw - 44, 156), "मूल्य 25 पैसे", font=_HI(26), anchor="rm", fill=ink)
+    d.line((40, 176, pw - 40, 176), fill=ink, width=1)
+    f = _HI(92)
+    lines = _wrap(d, spec["headline"], f, pw - 100)
+    while len(lines) > 2 and f.size > 56:
+        f = _HI(f.size - 6)
+        lines = _wrap(d, spec["headline"], f, pw - 100)
+    y = 190
+    for ln in lines[:3]:
+        d.text((pw / 2, y), ln, font=f, anchor="ma", fill=ink)
+        y += int(f.size * 1.18)
+    if spec.get("sub"):
+        d.text((pw / 2, y + 8), spec["sub"], font=_HI(36), anchor="ma", fill=(70, 60, 50, 255))
+        y += 60
+    y += 24
+    d.rectangle((44, y, pw * 0.42, ph - 40), outline=ink, width=2, fill=(205, 195, 170, 255))  # the photo box
+    for col in range(2):
+        x0 = pw * 0.46 + col * (pw * 0.27)
+        for r in range(int((ph - 40 - y) / 22)):
+            ln = pw * 0.24 * (0.6 + 0.4 * rng.random()) if r % 7 != 6 else pw * 0.1
+            d.rectangle((x0, y + r * 22, x0 + ln, y + r * 22 + 8), fill=(120, 110, 96, 255))
+    _BEATS[key] = img
+    return img
+
+
+def newspaper(frame, spec, t, dur=3.8):
+    """The front page spins in and lands (the old newsreel move), held over the darkened scene."""
+    a = min(1.0, (dur - t) / 0.35)
+    frame = _dim(cv2.GaussianBlur(frame, (0, 0), 6 * min(1.0, t / 0.3)), 0.5 * min(1.0, t / 0.3) * a)
+    u = ease(t / 0.45)
+    sheet = news_sheet(spec)
+    sc = (0.25 + 0.75 * u) * (1 + 0.03 * t)  # then a slow push
+    im = sheet.rotate((1 - u) * 540 - 3, expand=True, resample=Image.BICUBIC)
+    im = im.resize((max(1, int(im.width * sc)), max(1, int(im.height * sc))), Image.BILINEAR)
+    return _paste(frame, im, W / 2 - im.width / 2, H / 2 - im.height / 2, a)
+
+
+def place_pin(frame, spec, t, dur=3.0):
+    """A map pin drops onto the scene with a bounce and ripples, the place in big type beside it ("PUNE",
+    "MAHARASHTRA · 1960"). A pin, not a map: India's borders must be drawn exactly, and a pin needs none."""
+    a = min(1.0, t / 0.2, (dur - t) / 0.35)
+    frame = _dim(frame, 0.35 * a)
+    px, py = W * 0.30, H * 0.46
+    drop = ease(t / 0.35)
+    bounce = 18 * np.sin(min(1.0, max(0.0, (t - 0.35) / 0.3)) * np.pi) if t > 0.35 else 0
+    y = py - (1 - drop) * 300 - bounce
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    for k in range(3):  # ripples
+        r_t = t - 0.35 - k * 0.35
+        if 0 < r_t < 1.2:
+            r = 30 + 160 * r_t
+            d.ellipse((px - r, py - r * 0.35, px + r, py + r * 0.35), outline=(255, 255, 255, int(200 * (1 - r_t / 1.2))), width=4)
+    red = (226, 40, 44, 255)
+    d.polygon([(px - 34, y - 70), (px + 34, y - 70), (px, y)], fill=red)
+    d.ellipse((px - 46, y - 128, px + 46, y - 36), fill=red)
+    d.ellipse((px - 17, y - 99, px + 17, y - 65), fill=(255, 255, 255, 255))
+    b = ease((t - 0.4) / 0.35)
+    if b > 0:
+        name = spec["name"].upper()
+        f = _HI(120)
+        x = px + 90 + 40 * (1 - b)
+        d.text((x, py - 70), name, font=f, anchor="ls", fill=(255, 255, 255, int(255 * b)), stroke_width=4, stroke_fill=(0, 0, 0, int(160 * b)))
+        if spec.get("sub"):
+            d.text((x + 4, py - 40), spec["sub"].upper(), font=_HI(40), anchor="la", fill=K.YEL + (int(255 * b),))
+    return _paste(frame, img, 0, 0, a)
+
+
+def split_compare(frame, spec, out, t, dur=4.0):
+    """Then vs now: two of the episode's paintings side by side, sliding in from either edge, a gold divider
+    and a label on each ("1960 · VESPA" | "1972 · CHETAK")."""
+    key = ("split", spec.get("left"), spec.get("right"))
+    if key not in _BEATS:
+        half = []
+        for sid in (spec.get("left"), spec.get("right")):
+            f = out / f"shot-{int(str(sid).split('-')[0]):02d}{'-' + str(sid).split('-')[1] if '-' in str(sid) else ''}.png"
+            im = cv2.imread(str(f)) if sid else None
+            im = frame.copy() if im is None else im
+            h, w = im.shape[:2]
+            s = max((W // 2) / w, H / h)
+            im = cv2.resize(im, (int(w * s) + 1, int(h * s) + 1), interpolation=cv2.INTER_AREA)
+            x0, y0 = (im.shape[1] - W // 2) // 2, (im.shape[0] - H) // 2
+            half.append(im[y0:y0 + H, x0:x0 + W // 2])
+        _BEATS[key] = half
+    left, right = _BEATS[key]
+    a = min(1.0, (dur - t) / 0.35)
+    u = ease(t / 0.4)
+    canvas = frame.copy()
+    off = int((1 - u) * W / 2)
+    canvas[:, 0:W // 2 - off] = left[:, off:]
+    canvas[:, W // 2 + off:] = right[:, :W // 2 - off]
+    out_fr = cv2.addWeighted(canvas, a, frame, 1 - a, 0)
+    g = ease((t - 0.3) / 0.3)
+    if g > 0:
+        cv2.rectangle(out_fr, (W // 2 - 3, int(H / 2 - H / 2 * g)), (W // 2 + 3, int(H / 2 + H / 2 * g)), K.YEL[::-1], -1)
+    b = ease((t - 0.45) / 0.3) * a
+    if b > 0:
+        img = Image.new("RGBA", (W, 140), (0, 0, 0, 0))
+        d = ImageDraw.Draw(img)
+        for x, txt in ((W / 4, spec.get("l", "")), (W * 3 / 4, spec.get("r", ""))):
+            if txt:
+                f = _HI(58)
+                tw = d.textlength(txt.upper(), font=f)
+                d.rounded_rectangle((x - tw / 2 - 26, 30, x + tw / 2 + 26, 112), 14, fill=(10, 10, 14, 200))
+                d.text((x, 71), txt.upper(), font=f, anchor="mm", fill=(255, 255, 255, 255))
+        out_fr = _paste(out_fr, img, 0, H * 0.08, b)
+    return out_fr
+
+
+def quote_card(frame, spec, t, dur=4.0):
+    """A line that matters, on black: gold quote marks, the words appearing one by one in a serif, who said it
+    under it. The music drops out under it (the shot's "drop")."""
+    a = min(1.0, t / 0.3, (dur - t) / 0.4)
+    frame = _dim(frame, 0.88 * a)
+    text = spec["text"] if isinstance(spec, dict) else str(spec)
+    words = text.split()
+    step = min(0.16, 2.0 / max(1, len(words)))  # every word in by ~2.2 s
+    shown = " ".join(words[:max(1, int((t - 0.2) / step) + 1)]) if t > 0.2 else ""
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    f = _SERIF(84)
+    lines = _wrap(d, text, f, W * 0.72)
+    shown_lines = _wrap(d, shown, f, W * 0.72) if shown else []
+    y = H / 2 - len(lines) * f.size * 0.65
+    d.text((W * 0.12, y - 40), "“", font=_SERIF(220), anchor="lm", fill=K.YEL + (255,))
+    for ln in shown_lines:
+        d.text((W / 2, y), ln, font=f, anchor="ma", fill=(248, 242, 230, 255))
+        y += int(f.size * 1.3)
+    who = spec.get("who") if isinstance(spec, dict) else None
+    if who and t > 0.2 + step * len(words):
+        d.text((W / 2, y + 30), "— " + who, font=_HI(40), anchor="ma", fill=K.YEL + (255,))
+    return _paste(frame, img, 0, 0, a)
+
+
+def end_screen(last_shot):
+    """The 20 s end screen (owner, 8 Nov 2026): the last painting dark and soft, the emblem, and two framed spaces
+    where YouTube's end-screen elements sit (the next video on the right, subscribe on the left)."""
+    bg = Image.open(last_shot).convert("RGB").resize((W, H)) if last_shot and Path(last_shot).exists() \
+        else Image.new("RGB", (W, H), K.INK)
+    bg = Image.blend(bg.filter(ImageFilter.GaussianBlur(14)), Image.new("RGB", (W, H), (8, 8, 10)), 0.72)
+    d = ImageDraw.Draw(bg)
+    lg = Image.open(K.asset("logo.png")).convert("RGBA").resize((230, 230), Image.LANCZOS)
+    bg.paste(lg, (W // 2 - 115, 70), lg)
+    d.text((W / 2, 350), "अगली कहानी भी उतनी ही दिलचस्प है", font=_HI(54), anchor="mm", fill=(248, 242, 230))
+    gold = K.YEL
+    vx, vy, vw, vh = 1010, 440, 760, 428  # YouTube's video element (16:9), right
+    d.rounded_rectangle((vx - 8, vy - 8, vx + vw + 8, vy + vh + 8), 18, outline=gold, width=4)
+    d.text((vx + vw / 2 + 20, vy + vh + 50), "अगली कहानी", font=_HI(40), anchor="mm", fill=gold)
+    tx = vx + vw / 2 - d.textlength("अगली कहानी", font=_HI(40)) / 2 - 18
+    d.polygon([(tx - 22, vy + vh + 36), (tx - 22, vy + vh + 64), (tx + 2, vy + vh + 50)], fill=gold)
+    cx, cy, r = 520, 654, 150  # the subscribe element (round), left
+    d.ellipse((cx - r - 8, cy - r - 8, cx + r + 8, cy + r + 8), outline=gold, width=4)
+    d.text((cx, cy + r + 50), "Subscribe करें", font=_HI(40), anchor="mm", fill=gold)
+    return bgr(K.grain(bg))
+
+
+def tick(sec=0.035, seed=21):
+    """A counter's click, made here."""
+    rng = np.random.default_rng(seed)
+    n = int(sec * SR)
+    return (rng.standard_normal(n) * np.exp(-np.arange(n) / (0.004 * SR))).astype(np.float32)
+
+
+def pop(sec=0.25):
+    """A pin landing: a quick falling sine blip."""
+    t = np.arange(int(sec * SR)) / SR
+    return (np.sin(2 * np.pi * (900 * t - 1400 * t ** 2)) * np.exp(-t / 0.05)).astype(np.float32)
+
+
+def paper(sec=0.6, seed=17):
+    """A page flapping into place: crackly band-passed noise, a few sharp grains."""
+    rng = np.random.default_rng(seed)
+    n = int(sec * SR)
+    x = rng.standard_normal(n) * (rng.random(n) < 0.08) * 3 + rng.standard_normal(n) * 0.4
+    spec = np.fft.rfft(x)
+    fq = np.fft.rfftfreq(n, 1 / SR)
+    x = np.fft.irfft(spec * np.exp(-((fq - 3500) / 2500) ** 2), n)
+    return (x * np.sin(np.pi * np.linspace(0, 1, n)) ** 0.7).astype(np.float32)
 
 
 def film_card(title, num, first_shot):
@@ -832,7 +1074,7 @@ def counter(frame, text, t):
     num = f"{cur:,.1f}" if "." in m.group() else f"{int(round(cur)):,}"
     shown = text[:m.start()] + num + text[m.end():]
     a = min(1.0, t / 0.25, max(0.0, (2.8 - t) / 0.4))
-    f = K.body(110, "Bold")
+    f = _bf(shown, 110, "Bold")
     img = Image.new("RGBA", (W, 170), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     d.text((86, 85), shown, font=f, anchor="lm", fill=K.YEL + (255,), stroke_width=6, stroke_fill=(10, 10, 10, 220))
@@ -862,8 +1104,8 @@ def lower_third(frame, text, alpha):
     bottom-left above the captions, e.g. "J.C. MAHINDRA · INDIA'S FIRST STEEL CONTROLLER"."""
     if text not in _LT:
         main, _, sub = text.partition("·")
-        f1, f2 = K.body(34, "Bold"), K.body(22)
-        spaced = lambda t: " ".join(t.strip().upper())  # letter-spacing, like the reference
+        f1, f2 = _bf(main, 34, "Bold"), (_HI(32) if DEV.search(sub) else K.body(22))  # Hindi needs the size to read
+        spaced = lambda t: t.strip() if DEV.search(t) else " ".join(t.strip().upper())  # letter-spacing (Latin only)
         a, b = spaced(main), spaced(sub) if sub.strip() else ""
         d0 = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
         w = int(max(d0.textlength(a, font=f1), d0.textlength(b, font=f2) if b else 0)) + 40
@@ -945,7 +1187,8 @@ def main(script_path, out_dir):
     labels = []  # (t0, t1, text): lower-thirds
     titles = []  # (t0, t1, text): big phrases over the picture
     counters, years_seen, cards_at, last_counter = [], set(), [], -99.0  # FX: counting amounts, auto date labels
-    gfx = []  # (t0, kind, payload): date callouts, stamps, keywords, typed cards, logos, merge graphics
+    gfx = []  # (t0, kind, payload): date callouts, stamps, keywords, typed cards, logos, merge graphics, story beats
+    drops = []  # FX: music drop-outs before a twist
     intro_at = None
     for si, sec in enumerate(script["sections"]):
         if FX and K.B.get("intro") == "title" and intro_at is None and si > 0 and sec.get("card"):
@@ -1047,9 +1290,11 @@ def main(script_path, out_dir):
                     else:
                         labels.append((t + 0.3, t + min(d, 3.6), y))
             if FX:
-                for kind in ("stamp", "keyword", "typecard", "logo", "merge"):
+                for kind in ("stamp", "keyword", "typecard", "logo", "merge", "news", "place", "split", "quote"):
                     if s.get(kind):
                         gfx.append((t + (0.6 if kind == "stamp" else 0.25), kind, s[kind]))
+                if s.get("drop"):  # the music cuts out just before this line (a twist), a hit as it lands
+                    drops.append(t)
             if FX and t - last_counter > 12:  # an amount or a percentage counts up as it's said
                 m = AMOUNT.search(line)
                 if m and not YEAR.fullmatch(m.group().strip()):
@@ -1063,6 +1308,10 @@ def main(script_path, out_dir):
             t += d
     if short:  # no end screen: Shorts loop back to the start
         total = t
+    elif K.B.get("end_screen_s"):  # a full end screen with spaces for YouTube's elements (LL, 8 Nov 2026)
+        es = float(script.get("end_s") or K.B["end_screen_s"])
+        items.append((t, es, Shot(end_screen(out / f"shot-{n:02d}.png"), "push"), None, "outro"))
+        total = t + es
     else:
         end_img = Image.new("RGB", (W, H), K.INK)
         lg = Image.open(K.asset("logo.png")).convert("RGBA").resize((300, 300), Image.LANCZOS)
@@ -1124,6 +1373,11 @@ def main(script_path, out_dir):
     level = voice_rms * (under * gain + 10 ** (pause_db / 20) * (1 - gain))
     fade = np.minimum(1, np.arange(len(music)) / ((0.05 if short else 1.5) * SR)) * \
         np.minimum(1, (len(music) - np.arange(len(music))) / (3 * SR))
+    for d0 in drops:  # silence ~1 s before the twist, the music back over 1.5 s after it
+        a, b = int(max(0, d0 - 1.2) * SR), min(len(fade), int(d0 * SR))
+        fade[a:b] *= np.clip(1 - np.arange(b - a) / (0.3 * SR), 0, 1)
+        c = min(len(fade), b + int(1.5 * SR))
+        fade[b:c] *= np.linspace(0, 1, c - b)
     mix = voice + music * level * fade
     if short:
         sfx = np.zeros_like(mix)
@@ -1178,6 +1432,22 @@ def main(script_path, out_dir):
                 put(load_sfx("typing")[:int(SR * min(3.0, 0.07 * len(str(pay)) + 0.2))], g0 + 0.25, -20)
             elif kind in ("logo", "merge"):
                 put(whoosh(0.3, seed=13), g0, -24)
+            elif kind == "news":  # the page spins in, flaps down, a low hit
+                put(whoosh(0.4, seed=19), g0, -20)
+                put(paper(), g0 + 0.3, -16)
+                put(load_sfx("impact"), g0 + 0.42, -15)
+            elif kind == "place":
+                put(whoosh(0.3, seed=23), g0, -24)
+                put(pop(), g0 + 0.33, -14)
+            elif kind == "split":
+                put(whoosh(0.4, seed=29), g0, -18)
+                put(load_sfx("typehit") if hit else tick(), g0 + 0.45, -18)
+            elif kind == "quote" and K.asset("sfx/typing.wav").exists():
+                put(load_sfx("typing")[:int(SR * min(3.0, 0.16 * len(str(pay).split()) + 0.3))], g0 + 0.2, -26)
+        for d0 in drops:
+            put(load_sfx("impact"), d0, -11)
+        for t0, _, _ in labels:  # a soft tick as a name card slides in
+            put(tick(0.05, seed=31), t0, -24)
         if intro_at is not None:
             put(riser(1.8), max(0, intro_at - 1.6), -17)
             put(load_sfx("impact"), intro_at + 0.15, -12)
@@ -1185,6 +1455,9 @@ def main(script_path, out_dir):
             put(load_sfx("impact"), t0, -18)
         for t0, _ in counters:
             put(whoosh(0.25, seed=11), t0, -26)
+            for i in range(14):  # the digits tick as they count up, slowing down, then a hit
+                put(tick(seed=40 + i), t0 + 1.1 * (1 - (1 - i / 14) ** 0.5), -27)
+            put(load_sfx("impact"), t0 + 1.15, -20)
         mix = mix + sfx
     mix = mix / (np.abs(mix).max() + 1e-9) * 0.95
     mix = np.clip(mix, -1, 1)
@@ -1225,9 +1498,20 @@ def main(script_path, out_dir):
                     fr = cv2.addWeighted(fr, left / XF, nxt.frame(0.0), 1 - left / XF, 0)
             for g0, kind, pay in gfx:
                 gt = k / FPS - g0
-                if gt < 0 or gt > {"date": 2.0, "stamp": 2.4, "keyword": 2.6, "typecard": 3.4, "logo": 2.8, "merge": 4.2}[kind]:
+                if gt < 0 or gt > {"date": 2.0, "stamp": 2.4, "keyword": 2.6, "typecard": 3.4, "logo": 2.8, "merge": 4.2,
+                                   "news": 3.8, "place": 3.0, "split": 4.0, "quote": 4.0}[kind]:
                     continue
-                if kind == "date":
+                if kind in ("date", "stamp", "news", "place", "split"):
+                    fr = punch(fr, gt)
+                if kind == "news":
+                    fr = newspaper(fr.copy(), pay, gt)
+                elif kind == "place":
+                    fr = place_pin(fr.copy(), pay, gt)
+                elif kind == "split":
+                    fr = split_compare(fr.copy(), pay, out, gt)
+                elif kind == "quote":
+                    fr = quote_card(fr.copy(), pay, gt)
+                elif kind == "date":
                     fr = date_callout(fr.copy(), pay, gt)
                 elif kind == "stamp":
                     fr = stamp(fr.copy(), pay, gt)
