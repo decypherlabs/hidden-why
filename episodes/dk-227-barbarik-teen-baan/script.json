@@ -304,9 +304,10 @@
     },
     {
      "vo": "कृष्ण बोले, कलियुग में तुम मेरे नाम श्याम से पूजे जाओगे।",
-     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, raising a blessing hand over a glowing human head with curly black hair resting on a stone on a hilltop, halo of golden light around the head, flower petals in the air, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Krishna with blue skin, peacock feather crown and yellow dhoti raising a blessing hand over a calm glowing head of a young man with curly black hair resting on a grey stone, halo of golden light around the head, flower petals in the air, hilltop, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8960
     },
     {
      "vo": "ये कथा उस दोस्त को भेजिए, जो खाटू श्याम को मानता हो।",
@@ -416,5 +417,19 @@
  "released_at": "2026-11-09 08:32",
  "voice_requested": "voice-dk-227-barbarik-teen-baan-7cf3400e1a",
  "voice_ok": "voice-dk-227-barbarik-teen-baan-7cf3400e1a",
- "voice_approved_at": "2026-11-09 08:32"
+ "voice_approved_at": "2026-11-09 08:32",
+ "repaint": {
+  "shots": [
+   41
+  ],
+  "thumbs": [],
+  "at": "2026-11-09 09:48"
+ },
+ "shot_qc": {
+  "checked": "2026-11-09T04:16:41Z",
+  "rounds": 1,
+  "why": {
+   "41": "Two blue Krishna figures are merged side by side, so the figure is duplicated. This is the main body defect a viewer would notice."
+  }
+ }
 }
