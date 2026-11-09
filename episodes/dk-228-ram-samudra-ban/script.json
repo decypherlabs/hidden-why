@@ -106,9 +106,10 @@
     },
     {
      "vo": "राम ने गहरी साँस ली। लंका में सीता माता उनकी राह देख रही थीं।",
-     "prompt": "Lord Rama sitting on a rock at the shore gazing at the sea with a sad thoughtful face, golden crown, yellow dhoti, warm evening light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Rama sitting alone on a rock at the shore gazing at the sea with a sad thoughtful face, golden crown, yellow dhoti, one figure only with a clear head and face, warm evening light, sharp focus, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8930
     },
     {
      "vo": "हर दिन की देरी का मतलब था, माता का एक और दिन कैद में।",
@@ -283,9 +284,10 @@
     },
     {
      "vo": "फिर राम ने सबसे भयानक ब्रह्मास्त्र धनुष पर चढ़ा लिया। सब साँस रोके खड़े थे।",
-     "prompt": "Lord Rama placing a blazing divine arrow on his bow, a halo of fire around the arrow, tiny vanaras standing still behind him, golden crown, dusk, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Rama fitting a blazing divine arrow onto his bow with a halo of fire around the arrow, one figure with a single face, golden crown, tiny vanara silhouettes standing still far behind him, dusk, sharp focus, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8957
     },
     {
      "vo": "तीन दिन विनती के बाद धनुष उठाना सही था, या और रुकना चाहिए था? ए या बी? कमेंट में लिखिए।",
@@ -494,12 +496,18 @@
  "voice_approved_at": "2026-11-09 08:59",
  "repaint": {
   "shots": [
-   10
+   11,
+   38
   ],
   "thumbs": [],
-  "at": "2026-11-09 12:12"
+  "at": "2026-11-09 12:44"
  },
  "shot_qc": {
-  "rounds": 0
+  "checked": "2026-11-09T07:12:18Z",
+  "rounds": 1,
+  "why": {
+   "11": "The seated figure beside Rama looks headless or faceless, a broken body.",
+   "38": "Two faces are merged on one figure: Rama has a second face stacked behind his own."
+  }
  }
 }
