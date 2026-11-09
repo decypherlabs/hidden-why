@@ -98,10 +98,10 @@
     },
     {
      "vo": "Picture a man at a vegetable cart. He hands over a note and says, a hundred rupees please. The seller says, here's your change. He can't check a single coin.",
-     "prompt": "An Indian man in his fifties with a short grey beard, dark glasses, white kurta and white cane on the left, holding out a folded note to a vegetable seller with a moustache and blue checked shirt on the right, who holds coins in his palm, pile of tomatoes on the cart, bulb light at dusk, medium shot",
+     "prompt": "A grey-bearded Indian man in dark glasses, white kurta and white cane on the left holds out a folded note to a vegetable seller with a moustache and blue checked shirt on the right, who holds coins in his palm, plain wooden cart with tomatoes, bulb light at dusk, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8929
+     "seed": 16848
     },
     {
      "vo": "Most sellers are honest. But when you cannot check, every sale is an act of faith, and it takes just one dishonest person to make that faith feel foolish.",
@@ -183,17 +183,17 @@
     },
     {
      "vo": "The paper is squeezed into the grooves, picks up the ink, and comes out with the ink standing proud of the surface. Ink you can feel.",
-     "prompt": "A cut-away cross-section of paper pressed into a steel plate with deep grooves, ink-filled grooves and the paper rising into them, then a separate paper strip with ink ridges standing above its surface, clean studio light, macro shot",
+     "prompt": "A cut-away cross-section showing paper pressed down into deep ink-filled grooves of a steel plate, next to it a paper strip with dark ink ridges standing above its surface, clean white studio light, macro shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8942
+     "seed": 16861
     },
     {
      "vo": "Touch Gandhi's portrait on the same note. Rough, right? Same technique. India's presses repeat it note after note, and that precision is something to be proud of.",
-     "prompt": "A fingertip touching the engraved portrait area of a plain lavender banknote, rough ink texture visible in raking light, sharp focus, macro close-up",
+     "prompt": "A fingertip touching the rough oval portrait area of a plain lavender banknote, thick dark ink texture visible in raking light, no face visible, sharp focus, macro close-up",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8943
+     "seed": 16862
     },
     {
      "vo": "And here is the clever part. The ridges that make life hard for a counterfeiter can also speak to a person who can't see.",
@@ -209,10 +209,10 @@
     },
     {
      "vo": "So where did the designers hide that code? At the edges of the note, in those dark bars you've always called black.",
-     "prompt": "The left edge of a lavender Indian banknote with a row of dark angular bars large in the frame, plain unmarked surface, sharp focus along the whole edge, bright daylight, wide macro shot",
+     "prompt": "The left edge of a lavender Indian banknote with a row of dark slanted bars large in the frame, plain unmarked surface, sharp focus along the whole edge, bright daylight, wide macro shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8946
+     "seed": 16865
     },
     {
      "vo": "But they're not paint. They're not a design. And they're not just black. Here is what they really are.",
@@ -250,7 +250,7 @@
      "prompt": "A large lavender banknote on a white table with dark slanted bars along both its left and right edges, a thumb resting on the left edge, plain unmarked surface, bright light, top-down shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8951
+     "seed": 16870
     },
     {
      "vo": "On the 100-rupee note, four angular lines sit on the left edge, and four more on the right. Four lines means a hundred.",
@@ -381,10 +381,10 @@
     },
     {
      "vo": "And the tiny detail I promised? The bars sit on both edges. However the note lands in your hand, one swipe along either side tells you its value.",
-     "prompt": "A thumb sliding along the left edge of a lavender banknote, then the same note turned around with the thumb on its right edge, both rows of dark bars lit, plain surface, macro close-up",
+     "prompt": "A thumb sliding along the left edge of a lavender banknote, beside it the same note turned around with a thumb on its right edge, both rows of dark raised bars clearly visible, plain surface, bright light, top-down macro shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8971
+     "seed": 16890
     },
     {
      "vo": "Next time you pay for tea, run your thumb along the edge. Someone designed that for people you will never meet. That's the hidden why.",
@@ -407,38 +407,32 @@
  "voice_approved_at": "2026-11-09 08:59",
  "repaint": {
   "shots": [
-   2,
    10,
    23,
    24,
    27,
-   28,
    32,
    52
   ],
   "thumbs": [],
-  "at": "2026-11-09 15:09"
+  "at": "2026-11-09 16:01"
  },
  "shot_qc": {
-  "checked": "2026-11-09T08:23:36Z",
-  "rounds": 1,
+  "checked": "2026-11-09T10:27:40Z",
+  "rounds": 2,
   "why": {
-   "2": "Large foreign (Chinese) sign text painted in",
-   "10": "Large foreign (Chinese) sign text painted in",
-   "23": "Shows a brown rolled log, not paper pressed into an engraved plate",
-   "24": "Garbled painted text on the note and the sign",
-   "27": "Large garbled letters painted on the note edge",
-   "28": "Shows a dollar-style note with painted numbers, not the Indian note's bars",
-   "32": "Wrong note with a painted logo and numbers, and no bleed lines shown",
-   "52": "Large garbled text on the note"
+   "10": "Crate has painted letters ('aft'), and the shop has signs and labels.",
+   "23": "A '390' number sign is painted in, and the scene shows black paper stacks rather than ink ridges being pressed.",
+   "24": "The note has painted '50' and letters, and the portrait is a generic face, not Gandhi.",
+   "27": "Painted text on the note ('INDIA', garbled script) and on the shop signs ('2 ATE 5', numbers).",
+   "32": "The note carries garbled text ('Labely Senon Michoeins', '5000', numbers). It also shows no ridged bars on the edges.",
+   "52": "The note carries garbled text ('Tine Eatven') and numbers, and no edge bars are visible."
   },
   "recheck": [
-   "2",
    "10",
    "23",
    "24",
    "27",
-   "28",
    "32",
    "52"
   ]
