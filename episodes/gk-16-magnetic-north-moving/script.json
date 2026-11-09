@@ -112,50 +112,54 @@
     {
      "vo": "रफ़्तार? साल में करीब पचास किलोमीटर तक!",
      "caption": "रफ़्तार? साल में करीब 50 km तक!",
-     "prompt": "Wide shot of a team of sled dogs sprinting across vast blue-white Canadian Arctic sea ice at dawn, pink and gold light, snow spraying behind them, an Inuit driver in fur-trimmed parka leaning forward on the sled, sense of speed.",
+     "prompt": "A team of sled dogs sprinting across flat blue-white Arctic sea ice, snow spraying behind them, an Inuit driver in a fur-trimmed parka leaning forward on the sled, plain empty ice and sky, pink and gold dawn light, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of an Inuit hunter's face in a fur hood, frost on eyelashes, squinting toward the horizon, low golden sun, ice ridges blurred behind.",
       "Close-up of sled dog paws and harness pounding through powdery snow, motion blur, ice crystals flying, cold blue light."
      ],
-     "key": "50 km"
+     "key": "50 km",
+     "seed": 8922
     },
     {
      "vo": "लेकिन रुकिए, इसकी वजह से एयरपोर्ट्स के रनवे नंबर तक बदल जाते हैं!",
      "caption": "लेकिन रुकिए, इसकी वजह से airports के runway नंबर तक बदल जाते हैं!",
-     "prompt": "Wide aerial view of a long airport runway at dusk, an airliner landing, ground crew trucks parked beside it, warm orange sky, wet asphalt reflecting lights, huge white painted stripes down the centre.",
+     "prompt": "A large passenger airliner touching down on a long runway at dusk, huge plain white painted stripes down the centre of the asphalt, wet asphalt reflecting warm lights, orange sky, ground trucks parked far to the side, sharp focus, wide aerial shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of an air traffic controller in a glass tower looking out at runways with a puzzled frown, evening light, headset on, aircraft lights beyond.",
       "Close-up of an airliner nose wheel rolling over white painted runway markings, sparks of light on wet asphalt, shallow depth of field."
      ],
-     "key": "runway नंबर"
+     "key": "runway नंबर",
+     "seed": 8923
     },
     {
      "vo": "रनवे का नंबर उसकी कम्पास दिशा से बनता है।",
      "caption": "Runway का नंबर उसकी compass दिशा से बनता है।",
-     "prompt": "Wide shot from behind of an airliner cockpit at sunrise, two pilots in white shirts approaching a runway, golden light flooding the windshield, clouds below.",
+     "prompt": "A hand holding a round brass compass with its needle pointing north, above a wide airport runway with plain white stripes stretching ahead, a distant airliner on the runway, warm sunrise light, sharp focus from foreground to background, close-up",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of a pilot's hand adjusting a dial on the cockpit panel, concentrated face softly lit in the background, warm light.",
       "Close-up of a small magnetic compass with a blank dial and a trembling needle, brass rim catching light, cockpit blur behind."
      ],
-     "key": "compass दिशा"
+     "key": "compass दिशा",
+     "seed": 8924
     },
     {
      "vo": "दो हज़ार ग्यारह में अमेरिका के टैम्पा एयरपोर्ट को अपने रनवे नंबर बदलने पड़े।",
      "caption": "2011 में America के Tampa airport को अपने runway नंबर बदलने पड़े।",
-     "prompt": "Wide shot of a Florida airport at sunrise, palm trees, a jet taxiing, a road-marking truck and workers in orange vests repainting a runway end, humid golden haze.",
+     "prompt": "Workers in orange vests repainting a wide white stripe on the end of an airport runway with a paint-roller machine, a road-marking truck beside them, palm trees along the edge, a jet taxiing far behind, plain asphalt, humid golden morning light, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of two American workers in orange safety vests and hard hats rolling fresh white paint onto black asphalt, heat shimmer, jets in the distance.",
       "Close-up of a wet white paint roller leaving a thick bright stripe on dark asphalt, glossy paint, tiny pebbles, sharp detail."
      ],
-     "key": "2011"
+     "key": "2011",
+     "seed": 8925
     },
     {
      "vo": "वजह: धरती के अंदर उनतीस सौ किलोमीटर नीचे पिघला लोहा लगातार बहता है.",
@@ -172,14 +176,15 @@
     {
      "vo": "वो लोहा बहता रहेगा, और नॉर्थ पोल भागता रहेगा।",
      "caption": "वो लोहा बहता रहेगा, और North Pole भागता रहेगा।",
-     "prompt": "Wide shot of a green aurora rippling over a frozen Siberian plain at night, a small research tent glowing orange, stars above, deep blue snow.",
+     "prompt": "A small orange glowing research tent on a frozen flat plain at night, a bright green aurora rippling across the sky above it, stars overhead, deep blue snow, a lone fur-clad researcher standing beside the tent, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of a Russian scientist in a heavy parka kneeling on snow beside a tripod instrument, headlamp beam, breath steaming, aurora behind.",
       "Close-up of a compass lying on frosty snow, needle swinging, ice crystals on the glass, green aurora reflected in it."
      ],
-     "key": "भागता रहेगा"
+     "key": "भागता रहेगा",
+     "seed": 8927
     }
    ]
   }
@@ -188,5 +193,47 @@
  "released_at": "2026-11-09 15:47",
  "voice_requested": "voice-gk-16-magnetic-north-moving-524b20a9a1",
  "voice_ok": "voice-gk-16-magnetic-north-moving-524b20a9a1",
- "voice_approved_at": "2026-11-09 16:10"
+ "voice_approved_at": "2026-11-09 16:10",
+ "repaint": {
+  "shots": [
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "thumbs": [
+   "shot-03-2.png",
+   "shot-03-3.png",
+   "shot-04-2.png",
+   "shot-04-3.png",
+   "shot-05-2.png",
+   "shot-05-3.png",
+   "shot-06-2.png",
+   "shot-06-3.png",
+   "shot-08-2.png",
+   "shot-08-3.png"
+  ],
+  "at": "2026-11-09 18:20"
+ },
+ "shot_qc": {
+  "checked": "2026-11-09T12:49:11Z",
+  "rounds": 1,
+  "why": {
+   "3b": "Painted warning sign with text and symbols in the background",
+   "3c": "Sign with painted lettering ('SOLLON') in the background",
+   "4b": "Painted text on the cabin sign and the paper on the desk",
+   "5b": "Painted lettering on the cockpit panels (red label and 'ST AIT ONE')",
+   "6b": "World map on a wall and a sign with text, which breaks the map rule",
+   "8b": "US map on a sign, a projector beam and a sign with an X, none of which match the line",
+   "8c": "Sign with a screen graph that has nothing to do with the line"
+  },
+  "recheck": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "8"
+  ]
+ }
 }
