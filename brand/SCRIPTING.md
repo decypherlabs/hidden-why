@@ -32,9 +32,9 @@ YouTube description 300+ characters for every video, Shorts too (the dashboard r
 shorter ones): the hook line, 2-3 sentences of the real explanation (myth vs truth), the channel
 line, then hashtags.
 
-## Engagement rules (owner, 31 Oct 2026: India audience, grow faster)
+## Engagement rules (owner, 9 Nov 2026: US audience, highest RPM; was India, 31 Oct)
 - Shot 1: the most surprising fact in under 3 s, over a bright close-up (a face, an eye, the strange object), never a dark wide scene.
-- Topics Indian viewers see in their own lives first (body, animals, space, food, trains, monsoon); no US-only subjects.
+- Topics US viewers see in their own lives first (homes, cars, stores, food, everyday objects); nothing only people outside the US, UK, Canada and Australia would know.
 - The last line flows back into the first, so the Short loops.
 - 25-40 s. Shorts are cut every ~2 s automatically (build.py Split), with a whoosh on each cut and a hit on the reveal.
 
