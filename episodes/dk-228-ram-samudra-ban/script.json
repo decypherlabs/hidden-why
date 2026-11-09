@@ -191,9 +191,10 @@
     },
     {
      "vo": "लक्ष्मण पूरी रात धनुष लिए राम के पास पहरा देते रहे।",
-     "prompt": "A fair-skinned young warrior in saffron holding a bow, standing guard at night, with Lord Rama seated small in prayer in front of him, moonlit shore, silver-blue light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "A fair-skinned young warrior in saffron holding a bow upright, standing guard large in the foreground, Lord Rama sitting alone in prayer far off on the left, moonlit shore, silver-blue light, medium-wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8943
     },
     {
      "vo": "दूसरा दिन आया। सेना चुपचाप देखती रही। कोई कुछ नहीं बोला।",
@@ -221,9 +222,10 @@
    "shots": [
     {
      "vo": "राम उठकर खड़े हो गए। उनका चेहरा अब पहले जैसा शांत नहीं था।",
-     "prompt": "Lord Rama standing tall on the shore with a hard angry face, golden crown, yellow dhoti, his scarf blowing in the wind, dawn light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Rama standing tall on the shore with a hard angry face, golden crown, yellow dhoti, his scarf blowing in the wind, empty sand behind him, dawn light, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8947
     },
     {
      "vo": "तीन दिन की विनती का जवाब सिर्फ़ चुप्पी थी। राम शांत थे, कमज़ोर नहीं।",
@@ -368,9 +370,10 @@
     },
     {
      "vo": "समुद्र ने उत्तर की ओर इशारा किया। वहाँ पापियों का एक इलाक़ा था। वो मेरे जल को गंदा करते हैं।",
-     "prompt": "Samudra Deva, pale sea-green skin, gold crown, pointing north across a dark sea toward a barren distant shore, ominous orange sky, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Samudra Deva, pale sea-green skin, gold crown, pointing north with one arm across a dark sea toward a barren distant shore with scorched land, ominous orange sky, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8969
     },
     {
      "vo": "राम ने उसी ओर बाण साधा। सागर के किनारे सब ठहर गए।",
@@ -405,9 +408,10 @@
     },
     {
      "vo": "वहाँ की धरती का क्या हुआ, ये मैं आख़िर में बताऊँगा।",
-     "prompt": "A distant glowing red spot on the northern horizon across the night sea, tiny vanara silhouettes watching from the shore, deep blue night light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "A distant glowing red spot on the northern horizon across the night sea, tiny vanara silhouettes watching from the shore, deep blue night light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8974
     },
     {
      "vo": "अब काम शुरू हुआ। वानर पहाड़ों से चट्टानें और पेड़ लाने लगे।",
@@ -496,18 +500,28 @@
  "voice_approved_at": "2026-11-09 08:59",
  "repaint": {
   "shots": [
-   11,
-   38
+   24,
+   28,
+   50,
+   55
   ],
   "thumbs": [],
-  "at": "2026-11-09 12:44"
+  "at": "2026-11-09 15:09"
  },
  "shot_qc": {
-  "checked": "2026-11-09T07:12:18Z",
-  "rounds": 1,
+  "checked": "2026-11-09T08:09:36Z",
+  "rounds": 2,
   "why": {
-   "11": "The seated figure beside Rama looks headless or faceless, a broken body.",
-   "38": "Two faces are merged on one figure: Rama has a second face stacked behind his own."
-  }
+   "28": "stray painted letters ('EAR') at the bottom left",
+   "50": "signature-like scribble painted in at the bottom right",
+   "55": "signature-like text painted in at the bottom right",
+   "24": "Lakshmana keeping watch is missing; a small odd figure is fused into Ram's chest/lap area"
+  },
+  "recheck": [
+   "24",
+   "28",
+   "50",
+   "55"
+  ]
  }
 }
