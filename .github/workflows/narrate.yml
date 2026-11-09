@@ -40,6 +40,7 @@ jobs:
             pip install -q git+https://github.com/huggingface/parler-tts.git
             pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
             pip install -q sentencepiece==0.2.2  # same pin as build.yml
+            { pip install -q --no-deps faster-whisper==1.1.1 && pip install -q ctranslate2==4.5.0 av onnxruntime; } || echo "voice check off"  # hears each Hindi line back (pipeline/narrate.py, 9 Nov 2026); --no-deps: parler pins transformers/tokenizers
           fi
       - name: Narration
         env:
@@ -56,4 +57,5 @@ jobs:
           tar -cf voice.tar vo-*.wav vo.json
           T="voice-${{ inputs.slug }}-$VH"
           gh release delete "$T" -R "$GITHUB_REPOSITORY" -y --cleanup-tag 2>/dev/null || true
-          gh release create "$T" voice.tar preview.mp3 -R "$GITHUB_REPOSITORY" -t "$T" -n "Narration of ${{ inputs.slug }} ($VH)"
+          [ -f voice_check.json ] || echo '{}' > voice_check.json
+          gh release create "$T" voice.tar preview.mp3 voice_check.json -R "$GITHUB_REPOSITORY" -t "$T" -n "Narration of ${{ inputs.slug }} ($VH)"
