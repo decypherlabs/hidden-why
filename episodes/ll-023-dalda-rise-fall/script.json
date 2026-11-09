@@ -767,24 +767,16 @@
   "at": "2026-11-09 16:25"
  },
  "shot_qc": {
-  "checked": "2026-11-09T10:52:01Z",
+  "checked": "2026-11-09T11:32:46Z",
   "rounds": 3,
-  "why": {
-   "3b": "The bag reads \"NCN\" and the tin has pseudo-script lettering, so the text is gibberish.",
-   "30b": "The newspaper headline is garbled pseudo-Devanagari.",
-   "33b": "The circular has misspelt and garbled English text (\"CIRCUTIOLL\").",
-   "41b": "The paper's headline is gibberish (\"HYTERREEGOATEI VEGEEITABLE\").",
-   "43b": "The stamp text is gibberish (\"FSSAI FREERIMIT APPRIED\").",
-   "43": "The newspaper headline is gibberish (\"sliqwdeat\").",
-   "49b": "The contract text is garbled (\"ENQULISTTAN LIVER\")."
-  },
-  "recheck": [
+  "left": [
+   "3b",
    "3",
-   "30",
-   "33",
-   "41",
-   "43",
-   "49"
+   "30b",
+   "33b",
+   "41b",
+   "43b",
+   "49b"
   ]
  }
 }
