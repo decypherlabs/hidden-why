@@ -83,9 +83,10 @@
     },
     {
      "vo": "Millions of Indians live with severe sight loss. Money is supposed to be the most universal thing we own, yet for a long time it quietly shut them out.",
-     "prompt": "A man with a white cane standing at the edge of a crowded Indian market while people flow past him, late golden hour, wistful mood, no text, no logos",
+     "prompt": "A man with a white cane standing alone, waist-up, facing the viewer, calm and wistful expression, late golden hour. Behind him is a softly blurred Indian market of plain cloth awnings and produce stalls, with no signboards, no banners, no shop signs and no lettering anywhere. His hands hold only the cane, with no banknotes or paper money visible. One clear figure, no crowd, no text, no logos",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8927
     },
     {
      "vo": "So how did they know what they were paid? They asked. And then they had to believe whatever answer came back.",
@@ -269,9 +270,10 @@
     },
     {
      "vo": "He doesn't ask. He doesn't hope. He just knows, and the fear drains out of that moment. That is relief you can print.",
-     "prompt": "Close-up of the man's face breaking into a relieved smile, soft golden evening light, tears of relief, photorealistic painting, no text",
+     "prompt": "Close-up portrait of a man's face breaking into a relieved smile, tears of relief in his eyes, facing the viewer, soft golden evening light. Background is a plain, softly blurred warm brown and amber bokeh with no objects, no signs, no panels, no plates, no frames, no banners and no overlays. A single face filling the frame, painterly, no text",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8956
     },
     {
      "vo": "Beside the bars, there is a second clue: a raised shape. A circle on the 500, a rectangle on the 2000.",
@@ -393,5 +395,17 @@
  "voice_requested": "voice-17-why-rupees-have-lines-8e1956eb66",
  "released_at": "2026-11-09 08:59",
  "voice_ok": "voice-17-why-rupees-have-lines-8e1956eb66",
- "voice_approved_at": "2026-11-09 08:59"
+ "voice_approved_at": "2026-11-09 08:59",
+ "repaint": {
+  "shots": [
+   8,
+   37
+  ],
+  "thumbs": [],
+  "at": "2026-11-09 12:16"
+ },
+ "shot_qc": {
+  "rounds": 0
+ },
+ "auto_regen": 1
 }
