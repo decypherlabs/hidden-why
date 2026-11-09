@@ -1,0 +1,66 @@
+{
+ "slug": "s161-shoe-sole-pattern",
+ "build": "github",
+ "format": "short",
+ "title": "Why does your slipper sole have a zigzag? 🩴",
+ "hook_text": "IT'S FLOATING",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "voice_speed": 1.05,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Your slipper is floating right now. On water you can't see.",
+     "prompt": "A rubber slipper sole floating on a thin film of clear water over a wet bathroom tile floor, a visible gap of water between the smooth rubber and the tile, a small puddle shine around it, bright morning light from a window, sharp focus, macro side view, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Smooth rubber doesn't grip it. It floats on top.",
+     "prompt": "A smooth flat rubber slipper sole resting on a thin shiny layer of water on a white tile floor, a clear thin gap of water between the rubber and the tile, the slipper large in frame, bright daylight, sharp focus, macro side view, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Now look under your slipper: those zigzag lines aren't decoration.",
+     "prompt": "A hand holding up a blue rubber slipper to show its sole covered in deep zigzag grooves, the zigzag pattern large and clear, a plain bedroom with a bed behind, bright morning sun, sharp focus, close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But the grip comes from what the lines remove.",
+     "prompt": "Water droplets sliding sideways along deep zigzag grooves of a black rubber slipper sole, small streams of water running down the channels, the grooves large in frame, bright daylight, sharp focus, macro close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Each groove is a tiny drain, pushing water out from under your step.",
+     "prompt": "A bare foot in a blue rubber slipper stepping down on a wet tile floor, water squeezing out sideways from the zigzag grooves under the sole in small streams on both sides, bright bathroom light, sharp focus, low angle medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Those zigzags drain the water film, so rubber touches the floor.",
+     "prompt": "The zigzag ridges of a rubber slipper sole pressed firmly onto a tile floor with the ridges touching the tile, water flowing away in the grooves beside them, a clean wet bathroom floor, calm bright daylight, sharp focus, macro close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "cover_text": "SLIPPER ZIGZAGS STOP *WATER* FROM LIFTING YOU",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Extreme macro realistic painting of a rubber slipper sole with deep zigzag grooves on a wet shiny bathroom floor, water droplets flowing along the grooves, bright light, one clear subject, no text, vertical composition, natural light, true-to-life colour, highly detailed"
+ }
+}
