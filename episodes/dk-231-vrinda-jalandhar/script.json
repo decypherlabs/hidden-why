@@ -33,9 +33,10 @@
     },
     {
      "vo": "जालंधर बहुत ताकतवर राक्षस था, और उसकी पत्नी थी वृंदा।",
-     "prompt": "Jalandhar, a powerful dark-skinned demon king in black armor and crown with one face, stands on the left in a grand palace hall, Vrinda in a modest simple saree stands on the right beside a tulsi plant, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "A powerful demon king in black armour with a single face and a gold crown, standing beside his wife, king on the left with dark skin and thick black beard, a gentle woman on the right in a plain cream saree with long black hair holding a small green tulsi plant in a brass pot, grand Indian palace hall with stone pillars, warm lamp light, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "वृंदा विष्णु जी की सच्ची भक्त थी, और उसका व्रत बहुत शक्तिशाली था।",
@@ -45,9 +46,10 @@
     },
     {
      "vo": "उसी ताकत से जालंधर ने अहंकार में शिव जी से युद्ध छेड़ दिया।",
-     "prompt": "Jalandhar the dark demon king in black armor with one face stands on the left on a battlefield, facing Lord Shiva with blue throat, crescent moon, matted hair and a snake on the right, stormy sky, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "A dark-skinned demon king in black armour with a single face and a gold crown raising a sword toward Lord Shiva across a battlefield, demon king on the left, Lord Shiva on the right with ash-smeared pale-blue throat, crescent moon on matted hair and a snake around his neck, dark storm clouds, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "लेकिन वृंदा का व्रत टूटे बिना, जालंधर को हराया नहीं जा सकता था।",
@@ -69,9 +71,10 @@
     },
     {
      "vo": "विष्णु जी शालिग्राम बने, वृंदा तुलसी बनीं, इसलिए दोनों का विवाह होता है।",
-     "prompt": "A dark round shaligram stone on a small altar beside a blooming tulsi plant in a courtyard, marigold garland, oil lamps glowing, soft golden dusk light, wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "A smooth dark round shaligram stone resting on a small stone altar beside a green tulsi plant in a brass pot, orange marigold garland draped around both, oil lamps glowing, plain surfaces, Indian courtyard, soft golden dusk light, sharp focus, close-up, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "कमेंट में जय श्री हरि लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -85,5 +88,23 @@
  "released_at": "2026-11-09 08:30",
  "voice_requested": "voice-dk-231-vrinda-jalandhar-a95b394d0b",
  "voice_ok": "voice-dk-231-vrinda-jalandhar-a95b394d0b",
- "voice_approved_at": "2026-11-09 08:30"
+ "voice_approved_at": "2026-11-09 08:30",
+ "repaint": {
+  "shots": [
+   2,
+   4,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-09 09:24"
+ },
+ "shot_qc": {
+  "checked": "2026-11-09T03:53:24Z",
+  "rounds": 1,
+  "why": {
+   "2": "Painted banner text reads 'JALANDHAR'.",
+   "4": "Jalandhar's head looks doubled, with a second face stacked on it.",
+   "8": "Devanagari and Latin text is painted on the shaligram stone and the banner."
+  }
+ }
 }
