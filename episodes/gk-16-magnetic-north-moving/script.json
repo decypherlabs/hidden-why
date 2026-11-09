@@ -1,0 +1,189 @@
+{
+ "slug": "gk-16-magnetic-north-moving",
+ "format": "short",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "North Pole Siberia की ओर क्यों भाग रहा? 🧭",
+ "hook_text": "50 KM. हर साल.",
+ "cover_text": "Magnetic North Pole *Siberia* भाग रहा!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A large antique brass compass resting on cracked blue Arctic sea ice, filling the lower two-thirds of the frame, needle sharp and catching the light, a frozen Siberian coastline behind it with green aurora curtains, deep navy sky, plain blank compass face, close-up"
+ },
+ "music": {
+  "epic": [
+   "main"
+  ]
+ },
+ "source": "NOAA National Centers for Environmental Information; British Geological Survey",
+ "lane": 2,
+ "fact_check": {
+  "engage": 8,
+  "weak": "Cause line (molten iron) sits after the runway payoff, so the story order is slightly muddled on one listen"
+ },
+ "hook_score": {
+  "score": 7,
+  "why": "Short, striking number (50 km/year) up front, catchy why-question; slightly ambiguous which 'North Pole' but the shock is visible and unanswered.",
+  "was": "धरती का Magnetic North Pole भाग कर Siberia जा रहा है?"
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "नॉर्थ पोल साल में पचास किलोमीटर क्यों भाग रहा है?",
+     "caption": "North Pole साल में पचास किलोमीटर क्यों भाग रहा है?",
+     "prompt": "A lone explorer in a red parka staring down at a handheld compass with its needle pointing sideways, a line of footprints on the ice leading away toward a far horizon, a young man with a dark beard, vast frozen Arctic ice field, cold blue and orange dusk light, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       80,
+       -30
+      ],
+      "span": 40,
+      "from_span": 110,
+      "countries": [
+       {
+        "iso": "CAN",
+        "label": "Canada",
+        "color": "teal"
+       },
+       {
+        "iso": "RUS",
+        "label": "Russia",
+        "color": "red"
+       }
+      ],
+      "points": [
+       {
+        "lat": 90.0,
+        "lon": 0.0,
+        "label": "North Pole"
+       }
+      ]
+     }
+    },
+    {
+     "vo": "पिछले कुछ दशकों में ये कनाडा से साइबेरिया की तरफ़ दौड़ पड़ा।",
+     "caption": "पिछले कुछ दशकों में ये Canada से Siberia की तरफ़ दौड़ पड़ा।",
+     "prompt": "Earth seen from space directly above the Arctic, a white ice cap in the centre, Canada's snowy islands on the left, the long frozen coast of Siberia on the right, a thin green aurora ring around the pole, sharp focus, bright clear light, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       83,
+       30
+      ],
+      "span": 35,
+      "from_span": 90,
+      "countries": [
+       {
+        "iso": "CAN",
+        "label": "Canada",
+        "color": "teal"
+       },
+       {
+        "iso": "RUS",
+        "label": "Siberia",
+        "color": "red"
+       }
+      ],
+      "points": [
+       {
+        "lat": 83.1,
+        "lon": -118.4,
+        "label": "पहले"
+       },
+       {
+        "lat": 86.0,
+        "lon": 165.0,
+        "label": "अब"
+       }
+      ]
+     },
+     "key": "Siberia"
+    },
+    {
+     "vo": "रफ़्तार? साल में करीब पचास किलोमीटर तक!",
+     "caption": "रफ़्तार? साल में करीब 50 km तक!",
+     "prompt": "Wide shot of a team of sled dogs sprinting across vast blue-white Canadian Arctic sea ice at dawn, pink and gold light, snow spraying behind them, an Inuit driver in fur-trimmed parka leaning forward on the sled, sense of speed.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of an Inuit hunter's face in a fur hood, frost on eyelashes, squinting toward the horizon, low golden sun, ice ridges blurred behind.",
+      "Close-up of sled dog paws and harness pounding through powdery snow, motion blur, ice crystals flying, cold blue light."
+     ],
+     "key": "50 km"
+    },
+    {
+     "vo": "लेकिन रुकिए, इसकी वजह से एयरपोर्ट्स के रनवे नंबर तक बदल जाते हैं!",
+     "caption": "लेकिन रुकिए, इसकी वजह से airports के runway नंबर तक बदल जाते हैं!",
+     "prompt": "Wide aerial view of a long airport runway at dusk, an airliner landing, ground crew trucks parked beside it, warm orange sky, wet asphalt reflecting lights, huge white painted stripes down the centre.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of an air traffic controller in a glass tower looking out at runways with a puzzled frown, evening light, headset on, aircraft lights beyond.",
+      "Close-up of an airliner nose wheel rolling over white painted runway markings, sparks of light on wet asphalt, shallow depth of field."
+     ],
+     "key": "runway नंबर"
+    },
+    {
+     "vo": "रनवे का नंबर उसकी कम्पास दिशा से बनता है।",
+     "caption": "Runway का नंबर उसकी compass दिशा से बनता है।",
+     "prompt": "Wide shot from behind of an airliner cockpit at sunrise, two pilots in white shirts approaching a runway, golden light flooding the windshield, clouds below.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a pilot's hand adjusting a dial on the cockpit panel, concentrated face softly lit in the background, warm light.",
+      "Close-up of a small magnetic compass with a blank dial and a trembling needle, brass rim catching light, cockpit blur behind."
+     ],
+     "key": "compass दिशा"
+    },
+    {
+     "vo": "दो हज़ार ग्यारह में अमेरिका के टैम्पा एयरपोर्ट को अपने रनवे नंबर बदलने पड़े।",
+     "caption": "2011 में America के Tampa airport को अपने runway नंबर बदलने पड़े।",
+     "prompt": "Wide shot of a Florida airport at sunrise, palm trees, a jet taxiing, a road-marking truck and workers in orange vests repainting a runway end, humid golden haze.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of two American workers in orange safety vests and hard hats rolling fresh white paint onto black asphalt, heat shimmer, jets in the distance.",
+      "Close-up of a wet white paint roller leaving a thick bright stripe on dark asphalt, glossy paint, tiny pebbles, sharp detail."
+     ],
+     "key": "2011"
+    },
+    {
+     "vo": "वजह: धरती के अंदर उनतीस सौ किलोमीटर नीचे पिघला लोहा लगातार बहता है.",
+     "caption": "वजह: धरती के अंदर 2,900 km नीचे पिघला लोहा लगातार बहता है।",
+     "prompt": "Wide cavernous scene of a glowing orange river of molten iron flowing through a dark underground chasm, sparks drifting up, intense heat glow, rock walls lit red.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a foundry worker in heat-proof silver suit and face shield pouring bright molten iron from a giant ladle, sparks cascading, dark factory.",
+      "Close-up of swirling liquid iron, yellow-white and deep orange currents folding into each other, bubbling surface, extreme heat texture."
+     ],
+     "key": "2,900 km"
+    },
+    {
+     "vo": "वो लोहा बहता रहेगा, और नॉर्थ पोल भागता रहेगा।",
+     "caption": "वो लोहा बहता रहेगा, और North Pole भागता रहेगा।",
+     "prompt": "Wide shot of a green aurora rippling over a frozen Siberian plain at night, a small research tent glowing orange, stars above, deep blue snow.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a Russian scientist in a heavy parka kneeling on snow beside a tripod instrument, headlamp beam, breath steaming, aurora behind.",
+      "Close-up of a compass lying on frosty snow, needle swinging, ice crystals on the glass, green aurora reflected in it."
+     ],
+     "key": "भागता रहेगा"
+    }
+   ]
+  }
+ ],
+ "polished": "2026-11-09 09:12"
+}

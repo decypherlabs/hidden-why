@@ -1,0 +1,158 @@
+{
+ "slug": "gk-14-lesotho-inside-africa",
+ "format": "short",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "लेसोथो दूसरे देश के अंदर कैद क्यों? 🏔️",
+ "hook_text": "सबसे नीची ज़मीन भी 1400 मीटर",
+ "cover_text": "लेसोथो चारों ओर से *दक्षिण अफ़्रीका* में बंद",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A colossal wall of jagged green-and-brown mountains rising abruptly out of flat golden farmland plains like a fortress island, steep cliffs and deep gorges, wisps of cloud on the peaks, warm golden hour light on the cliffs, deep-blue sky above, sharp focus, aerial wide shot"
+ },
+ "music": {
+  "epic": [
+   "main"
+  ]
+ },
+ "source": "Encyclopaedia Britannica (Lesotho); CIA World Factbook",
+ "lane": 1,
+ "fact_check": {
+  "engage": 7,
+  "weak": "Dense history (Moshoeshoe, Boers, 1868, 1966) is hard to absorb in one listen; the 1400 m 'highest lowest point' fact is the real payoff"
+ },
+ "hook_score": {
+  "score": 8,
+  "why": "Concrete number (1,400 m) up front, a visual mountain image, a specific 'how saved' gap; short and checkable, though 'saved' implies a single cause.",
+  "was": "चारों तरफ़ से दूसरे देश में बंद, फिर भी आज़ाद कैसे?"
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "चौदह सौ मीटर ऊँचे पहाड़ों ने इस देश को कैसे बचाया?",
+     "caption": "1,400 मीटर ऊँचे पहाड़ों ने इस देश को कैसे बचाया?",
+     "prompt": "Wide dawn view of a rugged basalt mountain escarpment in southern Africa, steep cliffs rising from deep valleys, thin mist pooling below, first golden sunlight on the peaks, vivid green and ochre slopes, no people, sharp and dramatic.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a Basotho herder in a thick patterned wool blanket and conical straw hat riding a small horse along a narrow ridge trail, huge jagged mountains behind him, crisp morning light, cold blue shadows.",
+      "Close-up of a weathered Basotho rider's hand gripping braided leather reins, wool blanket sleeve, snow dusting on dark rock behind, shallow depth of field, cold rim light."
+     ]
+    },
+    {
+     "vo": "ये है लेसोथो, पूरा का पूरा साउथ अफ़्रीका के अंदर।",
+     "caption": "ये है Lesotho, पूरा का पूरा South Africa के अंदर।",
+     "prompt": "Aerial view from an airplane window of flat dry golden farmland with straight dirt roads ending at the foot of a steep green mountain wall that climbs into the clouds, edge of the aircraft wing in the corner, bright midday sun, sharp focus, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       -29.6,
+       28.2
+      ],
+      "span": 8,
+      "from_span": 24,
+      "countries": [
+       {
+        "iso": "LSO",
+        "label": "लेसोथो",
+        "color": "teal"
+       },
+       {
+        "iso": "ZAF",
+        "label": "दक्षिण अफ़्रीका",
+        "color": "red"
+       }
+      ],
+      "points": [
+       {
+        "lat": -29.3167,
+        "lon": 27.4833,
+        "label": "Maseru"
+       }
+      ]
+     },
+     "key": "South Africa"
+    },
+    {
+     "vo": "इसकी सबसे नीची ज़मीन भी चौदह सौ मीटर ऊपर, दुनिया में सबसे ऊँची!",
+     "caption": "इसकी सबसे नीची ज़मीन भी 1400 मीटर ऊपर, दुनिया में सबसे ऊँची!",
+     "prompt": "Wide view of a high green plateau above a sea of white clouds filling the valleys far below, sun breaking over the grass, a lone stone hut in the distance, crisp thin air, vivid blue sky, sense of great altitude.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a Basotho shepherd boy in a wool blanket with a flock of sheep on a windswept high pasture, his breath visible in the cold, clouds drifting below the ridge behind him, soft side light.",
+      "Extreme close-up of frost-covered grass blades at sunrise, ice crystals glinting, warm golden light, blurred high mountains behind."
+     ],
+     "key": "1400"
+    },
+    {
+     "vo": "लेकिन यही पहाड़ इसकी ढाल बन गए।",
+     "caption": "लेकिन यही पहाड़ इसकी ढाल बन गए।",
+     "prompt": "Wide dusk view of a massive sheer sandstone cliff wall closing off a narrow mountain pass like a natural fortress, orange and purple sky, deep shadow in the gorge, tiny horsemen at the entrance for scale.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of Basotho horsemen in blankets and straw hats holding spears, watching from a rocky pass, steep cliffs looming on both sides, tense mood, warm backlight.",
+      "Close-up of a traditional cowhide shield and spear tip held upright, a Basotho warrior's hand gripping it, grey rock cliff face behind, hard dramatic light."
+     ]
+    },
+    {
+     "vo": "राजा मोशवेशवे ने थाबा बोसिउ पहाड़ी किले से बोअर हमले रोके।",
+     "caption": "राजा Moshoeshoe ने Thaba Bosiu पहाड़ी किले से Boer हमले रोके।",
+     "prompt": "Wide golden-hour view of Thaba Bosiu, a flat-topped sandstone mountain with sheer cliffs and a few thatched huts on the summit, rising alone from a green plain, long shadows, epic scale.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a 19th-century Basotho king in a leopard-skin-trimmed blanket standing at the cliff edge looking down, Boer horsemen with rifles tiny on the plain far below, stormy sky.",
+      "Close-up of Basotho defenders' hands pushing a large boulder over a rocky cliff edge, dust and stones tumbling, dramatic low sun."
+     ]
+    },
+    {
+     "vo": "उपजाऊ ज़मीन छिनी, तो सन अठारह सौ अड़सठ में ब्रिटेन से सुरक्षा माँगी।",
+     "caption": "उपजाऊ ज़मीन छिनी, तो 1868 में Britain से सुरक्षा माँगी।",
+     "prompt": "Wide view of rich green wheat fields in a fertile river valley, Boer ox wagons rolling across the farmland, dust rising, a few Basotho figures watching from a hill, warm afternoon light, sense of loss.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a Basotho chief in a blanket meeting a British Victorian officer in a red coat on a grassy hillside, formal posture, soldiers waiting behind, soft overcast light.",
+      "Close-up of two hands clasped in a handshake over a rolled parchment sealed with red wax, one in a red uniform cuff, one in a wool blanket sleeve, warm shallow light."
+     ],
+     "key": "1868"
+    },
+    {
+     "vo": "इसलिए साउथ अफ़्रीका बना तो लेसोथो अलग रहा, उन्नीस सौ छियासठ में आज़ाद हुआ।",
+     "caption": "इसलिए South Africa बना तो Lesotho अलग रहा, 1966 में आज़ाद हुआ।",
+     "prompt": "Wide night view of a crowded stadium in 1966 with thousands of Basotho in blankets cheering, fireworks bursting over the stands, floodlights, joyful atmosphere, vivid colours.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a man in a suit raising a blue, white and green flag on a tall pole against a dawn sky, crowd silhouettes below, proud mood, warm backlight.",
+      "Close-up of a Basotho child's joyful face, wide-eyed, waving a small blue, white and green flag, confetti in the air, bright daylight."
+     ],
+     "key": "1966"
+    },
+    {
+     "vo": "चारों तरफ़ से बंद, पर पहाड़ों ने रखा आज़ाद।",
+     "caption": "चारों तरफ़ से बंद, पर पहाड़ों ने रखा आज़ाद।",
+     "prompt": "Wide golden-hour view of a remote village of round stone and thatch huts in a deep valley, completely ringed by tall rugged ridges on every side, smoke rising from a chimney, warm light, no people.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a Basotho woman in a bright patterned blanket standing at the door of a thatched rondavel, tall mountain ridges rising behind her, soft evening light, calm and proud.",
+      "Close-up of a woven conical Basotho straw hat resting on a wooden fence post, blurred sunset peaks behind, warm glowing rim light."
+     ]
+    }
+   ]
+  }
+ ],
+ "polished": "2026-11-09 09:05"
+}

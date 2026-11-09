@@ -1,0 +1,225 @@
+{
+ "slug": "gk-15-chile-thin-country",
+ "format": "short",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "Chile 4300 km लंबा पर इतना पतला क्यों? 🤯",
+ "hook_text": "4300 KM. 180 KM.",
+ "cover_text": "Chile: 4300 km लंबा, सिर्फ़ *180 km* चौड़ा",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "Aerial view looking straight down the length of Chile, a long thin ribbon of brown and green land between a towering wall of snow-capped Andes on the right and deep blue Pacific Ocean on the left, white surf along the coast, golden hour, dusk sky fading to dark at the top, vivid and sharp, wide shot"
+ },
+ "music": {
+  "epic": [
+   "main"
+  ]
+ },
+ "source": "Encyclopaedia Britannica (Chile); National Geographic",
+ "lane": 1,
+ "fact_check": {
+  "engage": 7,
+  "weak": "Not very non-obvious: Chile's thin shape is a well-known map fact, and the Kashmir-Kanyakumari comparison is the only fresh hook."
+ },
+ "hook_score": {
+  "score": 7,
+  "why": "Short, catchy question with the shock (long yet thin) up front; on-screen numbers add a second gap. The last-line answer (tectonic squeeze) fits, though 'long' is a bit familiar.",
+  "was": "Chile चार हज़ार तीन सौ किलोमीटर लंबा, पर सिर्फ़ एक सौ अस्सी किलोमीटर चौड़ा क्यों?"
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "चिली इतना लंबा, फिर भी इतना पतला क्यों?",
+     "caption": "Chile इतना लंबा, फिर भी इतना पतला क्यों?",
+     "prompt": "A very long thin ribbon of land stretching from the top to the bottom of the frame, Chile seen from high above, blue Pacific Ocean on the left, snow-capped Andes mountains on the right, sharp focus, golden light, aerial wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       -35.5,
+       -71.0
+      ],
+      "span": 46,
+      "from_span": 100,
+      "countries": [
+       {
+        "iso": "CHL",
+        "label": "Chile",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": -18.4783,
+        "lon": -70.3126,
+        "label": "Arica"
+       },
+       {
+        "lat": -53.1638,
+        "lon": -70.9171,
+        "label": "Punta Arenas"
+       }
+      ]
+     }
+    },
+    {
+     "vo": "इसकी लंबाई कश्मीर से कन्याकुमारी की दूरी से भी ज़्यादा है।",
+     "caption": "इसकी लंबाई Kashmir से Kanyakumari की दूरी से भी ज़्यादा है।",
+     "prompt": "A dead-straight empty two-lane highway running through brown desert to a vanishing point on the horizon, one small truck far ahead, dusty mountains on one side, long late-afternoon shadows, plain road with no signs, low-angle wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       21.0,
+       76.5
+      ],
+      "span": 30,
+      "from_span": 60,
+      "countries": [
+       {
+        "iso": "IND",
+        "label": "भारत",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 34.0837,
+        "lon": 74.7973,
+        "label": "Kashmir"
+       },
+       {
+        "lat": 8.0883,
+        "lon": 77.5385,
+        "label": "Kanyakumari"
+       }
+      ]
+     },
+     "key": "Kanyakumari"
+    },
+    {
+     "vo": "उत्तर में अटाकामा, दुनिया का सबसे सूखा गैर-ध्रुवीय रेगिस्तान।",
+     "caption": "उत्तर में Atacama, दुनिया का सबसे सूखा गैर-ध्रुवीय रेगिस्तान।",
+     "prompt": "A lone hiker seen from behind walking across endless cracked bone-dry white salt crust and reddish rock with not a single plant, distant volcanic cones, cloudless sky, harsh midday sun, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       -24.5,
+       -69.25
+      ],
+      "span": 12,
+      "from_span": 36,
+      "countries": [
+       {
+        "iso": "CHL",
+        "label": "Chile",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": -24.5,
+        "lon": -69.25,
+        "label": "Atacama"
+       }
+      ]
+     },
+     "key": "Atacama"
+    },
+    {
+     "vo": "लेकिन रुकिए, इतनी पतली पट्टी किसी इंसान ने नहीं बनाई।",
+     "caption": "लेकिन रुकिए, इतनी पतली पट्टी किसी इंसान ने नहीं बनाई।",
+     "prompt": "Wide aerial of a razor-thin green river valley squeezed between bare brown mountain ridges and a rugged Pacific coastline, golden late light, long shadows, nobody in sight, vivid natural colours, dramatic haze, photoreal, subject large in upper-middle.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a Chilean geologist in a hard hat and orange vest kneeling beside a huge cliff of twisted, tilted rock layers, one palm pressed on the stone, overcast soft light, rugged mountains behind, sharp photoreal detail.",
+      "Close-up of a weathered hand holding a hammer against folded, fractured rock strata glowing orange in low sunset light, tiny mineral crystals glinting, shallow depth of field, vivid colour, photoreal."
+     ],
+     "key": "इंसान"
+    },
+    {
+     "vo": "पूरब में एंडीज़ की ऊँची दीवार, पश्चिम में पैसिफ़िक ओशन।",
+     "caption": "पूरब में Andes की ऊँची दीवार, पश्चिम में Pacific Ocean।",
+     "prompt": "Wide dramatic view of a towering wall of snow-capped Andes peaks on the right, a long thin strip of land in the middle and the dark blue Pacific Ocean with white surf on the left, golden hour, vivid colour, photoreal.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a Chilean fisherman in a yellow raincoat standing on black rocks as a big Pacific wave crashes beside him, a huge snowy Andes peak rising behind him in the same frame, crisp morning light, photoreal.",
+      "Close-up of a condor in flight with wings spread against a vivid blue sky, jagged snowy Andes summits sharp behind it, strong sunlight, extreme detail, photoreal."
+     ],
+     "key": "Andes"
+    },
+    {
+     "vo": "समुद्र के नीचे नाज़्का प्लेट, साउथ अमेरिकन प्लेट के नीचे धँस रही है।",
+     "caption": "समुद्र के नीचे Nazca plate, South American plate के नीचे धँस रही है।",
+     "prompt": "Underwater wide shot of a vast dark rocky seafloor cliff dropping into a deep ocean trench, huge slab of rock sinking into blackness, blue shafts of light from above, a small research submersible with lights nearby, photoreal.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a cracked street in a Chilean coastal town after an earthquake, tilted lamp post, broken pavement split open, a worried local man looking down at the crack, dusty warm evening light, photoreal.",
+      "Close-up of a seismograph's ink needle scribbling violent jagged lines on a rolling paper strip, a scientist's hand steadying the machine, warm lab light, sharp detail, photoreal."
+     ],
+     "key": "Nazca plate"
+    },
+    {
+     "vo": "इसी टक्कर ने एंडीज़ उठाए, और उनकी चोटियाँ ही ज़्यादातर अर्जेंटीना से सीमा बनीं।",
+     "caption": "इसी टक्कर ने Andes उठाए, और उनकी चोटियाँ ही ज़्यादातर Argentina से सीमा बनीं।",
+     "prompt": "One mountaineer in a red jacket seen from behind standing on a knife-edge snowy ridge at the crest of the Andes, steep valleys falling away on both sides, a sea of clouds below, bright sunlight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       -36.0,
+       -69.5
+      ],
+      "span": 28,
+      "from_span": 60,
+      "countries": [
+       {
+        "iso": "CHL",
+        "label": "Chile",
+        "color": "teal"
+       },
+       {
+        "iso": "ARG",
+        "label": "Argentina",
+        "color": "yellow"
+       }
+      ],
+      "points": [
+       {
+        "lat": -32.6532,
+        "lon": -70.0109,
+        "label": "Aconcagua"
+       }
+      ]
+     },
+     "key": "Argentina"
+    },
+    {
+     "vo": "पहाड़ और समुद्र के बीच फँसा, इसलिए चिली बस एक सौ अस्सी किलोमीटर चौड़ा!",
+     "caption": "पहाड़ और समुद्र के बीच फँसा, इसलिए Chile बस 180 km चौड़ा!",
+     "prompt": "Wide shot of a narrow coastal road in Chile with the Pacific Ocean on one side and a massive snow-covered Andes wall on the other, a single small truck driving, both seen in one frame, clear bright light, vivid colour, photoreal.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a Chilean farmer in a straw hat standing in a tiny green vineyard strip, glancing at towering mountains on one side and a distant blue sea on the other, warm afternoon light, photoreal.",
+      "Close-up of a child's wide-eyed surprised face on a seaside cliff, wind blowing hair, snowy mountains in soft focus behind and ocean glittering, golden light, photoreal."
+     ],
+     "key": "180 km"
+    }
+   ]
+  }
+ ],
+ "polished": "2026-11-09 09:10"
+}
