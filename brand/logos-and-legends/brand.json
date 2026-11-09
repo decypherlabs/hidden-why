@@ -85,7 +85,9 @@
  },
  "_date_style_before": "callout",
  "tone": {
-  "saturation": 0.85
+  "saturation": 0.85,
+  "knee": 150,
+  "contrast": 0.95
  },
- "_about_tone": "owner, 9 Nov 2026: teasers and long-forms looked oversaturated; paintings are toned down in the edit (pipeline/build.py paint_read), captions and graphics keep their colours"
+ "_about_tone": "owner, 9 Nov 2026: paintings as the theme needs, not high-contrast and oversaturated (measured: THW 40% of pixels at max colour); toned in the edit (pipeline/build.py paint_read), covers stay bold for the click"
 }

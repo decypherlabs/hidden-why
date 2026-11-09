@@ -24,7 +24,7 @@
   "intense",
   "epic"
  ],
- "art_style": "photorealistic film still, real-world scene, crisp sharp focus from foreground to background, bright natural light with a warm key light, vivid true-to-life colours, natural textures, one clear main subject, clean uncluttered composition, highly detailed, every sign, label, screen and package plain and blank without any lettering",
+ "art_style": "photorealistic film still, real-world scene, crisp sharp focus from foreground to background, bright natural light with a warm key light, natural true-to-life colours, soft natural contrast, natural textures, one clear main subject, clean uncluttered composition, highly detailed, every sign, label, screen and package plain and blank without any lettering",
  "art_negative": "text, letters, watermark, logo, cartoon, anime, flat colors, bright pastel, blurry, low quality, deformed",
  "thumbnail": {
   "size": [
@@ -62,5 +62,11 @@
   "_about": "owner, 7 Nov 2026: long-form captions simpler and medium-sized, no box: warm off-white with a soft shadow over a faint bottom gradient (DK picked Tiro Devanagari, sample B)"
  },
  "engine": "flux",
- "_art_style_sdxl": "photorealistic cinematic film still, real-world scene, natural textures, realistic lighting, bright warm key light with teal accents, sharp focus, highly detailed, no text, no watermark"
+ "_art_style_sdxl": "photorealistic cinematic film still, real-world scene, natural textures, realistic lighting, bright warm key light with teal accents, sharp focus, highly detailed, no text, no watermark",
+ "tone": {
+  "saturation": 0.85,
+  "knee": 150,
+  "contrast": 0.92
+ },
+ "_about_tone": "owner, 9 Nov 2026: paintings as the theme needs, not high-contrast and oversaturated (measured: THW 40% of pixels at max colour); toned in the edit (pipeline/build.py paint_read), covers stay bold for the click"
 }

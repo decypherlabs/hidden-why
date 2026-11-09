@@ -1244,11 +1244,17 @@ def paint_read(f):
     Legends' teasers and long-forms "regularly have high saturation images... adapt as per the theme"). Only the
     paintings: captions and graphics keep their own colours."""
     im = cv2.imread(str(f))
-    sat = float((K.B.get("tone") or {}).get("saturation") or 1)
-    if im is None or abs(sat - 1) < 0.01:
+    tone = K.B.get("tone") or {}
+    sat, knee, con = float(tone.get("saturation") or 1), float(tone.get("knee") or 255), float(tone.get("contrast") or 1)
+    if im is None or (abs(sat - 1) < 0.01 and knee >= 255 and abs(con - 1) < 0.01):
         return im
     hsv = cv2.cvtColor(im, cv2.COLOR_BGR2HSV).astype(np.float32)
-    hsv[..., 1] = np.clip(hsv[..., 1] * sat, 0, 255)
+    s = hsv[..., 1] * sat
+    # neon colours are pulled in harder than natural ones (owner, 9 Nov 2026: "not the high-contrast and saturation
+    # images"): above the knee, saturation rises at half the rate
+    hsv[..., 1] = np.clip(np.where(s > knee, knee + (s - knee) * 0.5, s), 0, 255)
+    v = hsv[..., 2]
+    hsv[..., 2] = np.clip(v.mean() + (v - v.mean()) * con, 0, 255)  # softer contrast around the picture's own level
     return cv2.cvtColor(hsv.astype(np.uint8), cv2.COLOR_HSV2BGR)
 
 
