@@ -1,0 +1,524 @@
+{
+ "slug": "gk-18-yawn-contagious-why",
+ "format": "long",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "owner_sample": true,
+ "title": "जम्हाई क्यों आती है, और दूसरों को देखकर क्यों फैलती है? 🥱",
+ "thumbnail": {
+  "text": "*ऑक्सीजन* से नहीं आती!",
+  "plane": "Extreme close-up of a young Indian man's face in a huge yawn, mouth wide open, eyes squeezed shut, a tear at the corner of one eye, dramatic rim light from the side, a subtle cool blue glow inside his head suggesting a cooling brain, dark background, photoreal"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "ch2"
+  ],
+  "reflective": [
+   "ch1",
+   "ch4",
+   "ch5",
+   "outro"
+  ],
+  "epic": [
+   "ch3"
+  ]
+ },
+ "source": "Provine, Tate & Geldmacher 1987 (Behavioral and Neural Biology); Gallup & Gallup 2007 (Evolutionary Psychology); Gallup & Eldakar 2011 (Frontiers in Evolutionary Neuroscience); Massen et al. 2014 (Physiology & Behavior); Joly-Mascheroni et al. 2008 (Biology Letters); Anderson et al. 2004 (Biology Letters); Norscia & Palagi 2011 (PLoS ONE)",
+ "journey_score": 8,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "एक इंसान जम्हाई लेता है, और पूरे डिब्बे को जम्हाई आने लगती है। आख़िर क्यों?",
+     "prompt": "A middle-aged Indian man yawning hugely with his mouth wide open, centre foreground, grey shirt, moustache, while passengers behind him in a crowded local train compartment cover their mouths mid-yawn, plain blank signboards, warm golden window light at dusk, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "हो सकता है, ये सुनते-सुनते आपको भी जम्हाई आ गई हो।",
+     "prompt": "A young Indian woman with long black hair in a white nightdress sitting on a bed, raising her hand to her open mouth in a yawn, eyes watering, centre, dim bedroom with a warm lamp on the bedside table, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अगर आप सोचते हैं कि जम्हाई ऑक्सीजन की कमी से आती है, तो आप ग़लत हैं।",
+     "prompt": "A young Indian schoolboy in a white shirt and navy shorts yawning widely at a wooden desk, centre, bright classroom with wide open windows and green trees outside, bright morning sun, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते। इसका रिश्ता सीधे आपके अपनों से है।",
+     "prompt": "An old Indian grandmother in a white sari yawning softly at the head of a dinner table, centre, a man and a woman and a young girl smiling beside her, plates of roti and dal on the table, warm lamp light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पहले जम्हाई का असली कारण खोजेंगे। फिर देखेंगे कि वो छूत की तरह कैसे फैलती है।",
+     "prompt": "A researcher in a white coat holding a clipboard on the left and a calm young man sitting in a reclining chair on the right, plain university laboratory with a monitor and wires, soft cool daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "जम्हाई का रहस्य",
+   "shots": [
+    {
+     "vo": "जम्हाई औसतन छह सेकंड चलती है। मुँह पूरा खुलता है और साँस गहरी खिंचती है।",
+     "prompt": "Extreme close-up of a young Indian man's face mid-yawn, mouth wide open, jaw stretched, eyes squeezed shut, short black hair, soft morning light, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "फिर साँस धीरे से बाहर निकलती है, और अक्सर आँखों में पानी आ जाता है।",
+     "prompt": "Close-up of a young Indian woman's face mid-yawn, mouth open, eyes squeezed shut with a tear rolling down her cheek, a long slow breath leaving her mouth, soft morning light, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "हमें जम्हाई ज़्यादातर थकान, नींद या ऊब में आती है, और सुबह उठते ही भी।",
+     "prompt": "An Indian office worker in a blue shirt slumped at his desk yawning with heavy eyelids, centre, a steaming tea cup and a pile of files beside him, plain Indian office, flat grey afternoon light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आप सोचेंगे कि ये सिर्फ़ इंसानों की आदत है। पर शेर भी जम्हाई लेता है।",
+     "prompt": "A male lion yawning with huge open jaws and long white teeth, standing in tall dry grass, centre, golden hour sun, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कुत्ते, बिल्लियाँ और तोते भी जम्हाई लेते हैं। यहाँ तक कि कुछ मछलियाँ भी।",
+     "prompt": "A brown street dog yawning with its mouth wide open on a sunlit stone veranda step in an Indian town, centre, whitewashed wall behind, bright morning sun, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "लेकिन सबसे हैरानी की बात ये है: माँ के पेट में पल रहा बच्चा भी जम्हाई लेता है।",
+     "prompt": "A young pregnant Indian woman in a yellow kurta sitting on a sofa, both hands cradling her round belly, gentle smile, centre, warm evening light, cosy Indian living room, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अल्ट्रासाउंड में ये क़रीब ग्यारह हफ़्ते की उम्र से दिखने लगती है।",
+     "prompt": "A doctor's hand pressing an ultrasound probe on a pregnant Indian woman's bare belly, a monitor showing a grey baby scan beside them, centre, calm clinic with plain walls, soft bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अल्ट्रासाउंड में ये क़रीब 11 हफ़्ते की उम्र से दिखने लगती है।"
+    },
+    {
+     "vo": "तब तक वो हवा में साँस भी नहीं लेता। तो फिर वो जम्हाई क्यों लेता है?",
+     "prompt": "A tiny unborn baby with its mouth open in a yawn inside the womb, curled up, small hands near its face, centre, glowing amber light all around, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "यूनान के हकीम हिप्पोक्रेटीज़ मानते थे कि जम्हाई शरीर की बुरी हवा बाहर निकालती है।",
+     "prompt": "An ancient Greek physician with a white beard in a white robe bending over a sick man lying on a stone bench, the physician on the left, the sick man on the right, stone courtyard with olive trees, oil lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बाद में सोच बदल गई: कमरे में ऑक्सीजन कम है, इसलिए जम्हाई आ रही है।",
+     "prompt": "A small stuffy hall full of Indian students slumped at desks, many yawning with open mouths, centre, closed windows, hazy warm air, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आज भी घरों में कहा जाता है: खिड़की खोलो, ऑक्सीजन आने दो।",
+     "prompt": "An Indian mother in a green sari pushing open a wooden window on the left, fresh daylight pouring in, two yawning children in pyjamas sitting on a bed on the right, evening light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "लेकिन तभी, उन्नीस सौ सतासी में एक वैज्ञानिक ने इस बात को जाँचने की ठान ली।",
+     "prompt": "A young scientist in 1980s clothes, thick glasses and a brown jacket standing beside a tall green gas cylinder with tubes, centre, plain university laboratory, dramatic side light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "लेकिन तभी, 1987 में एक वैज्ञानिक ने इस बात को जाँचने की ठान ली।"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "ऑक्सीजन की परीक्षा",
+   "shots": [
+    {
+     "vo": "उनका नाम था रॉबर्ट प्रोविन। उन्होंने कुछ लोगों को एक कमरे में बिठाया।",
+     "prompt": "A researcher with a clipboard standing on the left watching a row of four calm adult volunteers sitting on chairs on the right, plain 1980s university laboratory, bright even light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पहले उन्हें ऐसी हवा दी गई, जिसमें कार्बन डाइऑक्साइड ज़्यादा थी।",
+     "prompt": "A volunteer on the right wearing a clear breathing mask connected by a hose to a tall gas cylinder, a researcher on the left turning a valve, plain laboratory, cool tense light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अगर पुरानी सोच सही होती, तो ऐसी हवा में जम्हाइयाँ बहुत बढ़ जातीं।",
+     "prompt": "Four volunteers wearing clear breathing masks sitting in a row on chairs and glancing at each other, a researcher standing at the left with a pen poised over a notepad, plain laboratory, cool light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "फिर कुछ दूसरे लोगों को सौ प्रतिशत शुद्ध ऑक्सीजन दी गई।",
+     "prompt": "A volunteer on the right breathing through a clear mask attached to a tall green oxygen cylinder, sitting calmly on a chair, researcher on the left watching, bright clean laboratory light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "तब तो जम्हाई बंद हो जानी चाहिए थी, है ना? आख़िर हवा में कोई कमी ही नहीं थी।",
+     "prompt": "A researcher on the left leaning forward holding a stopwatch in his hand, eyes locked on a volunteer sitting calmly in a chair on the right, plain quiet laboratory, cool light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कुछ लोगों से तेज़ कसरत भी करवाई गई, ताकि साँस ज़ोर से चले।",
+     "prompt": "A man pedalling hard on a stationary exercise bike, sweat on his forehead, centre, a researcher with a stopwatch standing beside him on the left, plain laboratory, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "यानी तीन तरीक़े थे, जिनसे जम्हाई की गिनती बदलनी चाहिए थी।",
+     "prompt": "A wide laboratory scene with three stations: a volunteer in a gas mask on the left, a volunteer with an oxygen cylinder in the centre, a man on an exercise bike on the right, bright even light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "हर किसी की जम्हाई गिनी गई, एक-एक करके, पूरे ध्यान से।",
+     "prompt": "A researcher's hand ticking marks on a notepad full of tally marks, a pen in the hand, centre, a desk in a plain laboratory, bright light, macro close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "सब कुछ तैयार था। और जब नतीजा आया…",
+     "prompt": "A researcher in a white coat holding printed sheets of data under a desk lamp in a dark laboratory, eyes wide with surprise, centre, warm lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ग़लत।",
+     "prompt": "A researcher in a white coat frozen in stunned silence, mouth slightly open, eyes wide, holding a sheet of paper, centre, one beam of light on his face, dark laboratory, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ज़्यादा कार्बन डाइऑक्साइड से जम्हाइयाँ नहीं बढ़ीं। शुद्ध ऑक्सीजन से घटी भी नहीं।",
+     "prompt": "Four volunteers sitting calmly on chairs with relaxed closed mouths on the right, a researcher on the left smiling in disbelief while looking at a notepad, plain laboratory, bright even light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कसरत से भी कुछ नहीं बदला। जम्हाई का हवा की कमी से सीधा रिश्ता नहीं निकला।",
+     "prompt": "A sweaty man stepping off a stationary exercise bike, breathing hard with his mouth closed, on the right, a researcher on the left slowly shaking his head over a notepad, plain laboratory, bright light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "तो फिर जम्हाई क्यों आती है? लेकिन तभी, कुछ चूहों ने एक चौंकाने वाला सुराग़ दे दिया।",
+     "prompt": "A small white lab rat sitting on a researcher's gloved palm, its mouth wide open in a yawn, centre, cool blue laboratory light, macro close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "दिमाग़ का रेडिएटर",
+   "shots": [
+    {
+     "vo": "हमारा दिमाग़ शरीर के वज़न का सिर्फ़ दो प्रतिशत है।",
+     "prompt": "A young Indian man's head in profile, centre, a warm orange glow inside the skull showing a glowing brain, dark background, side light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर शरीर की क़रीब बीस प्रतिशत ऊर्जा वही खर्च करता है। इसीलिए वो हर पल काम में लगा रहता है।",
+     "prompt": "A young Indian student with a sweaty forehead studying late at night at a wooden desk under a lamp, a tall pile of books beside him, centre, warm lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इतनी मेहनत करने वाली मशीन गरम तो होगी ही, जैसे पहाड़ चढ़ता ट्रक।",
+     "prompt": "A Tata-style Indian truck stopped on a mountain highway with white steam rising from its open bonnet, a worried driver in a khaki shirt standing beside it, centre, golden hour sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इंजन गरम हो जाए, तो रेडिएटर उसे ठंडा करता है।",
+     "prompt": "A truck driver in a khaki shirt pouring water from a metal can into the open radiator of a truck, centre, dusty Indian highway, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अमेरिका के वैज्ञानिक गैलप ने पूछा: क्या जम्हाई दिमाग़ का रेडिएटर है?",
+     "prompt": "A thoughtful American scientist in his fifties with grey hair and a white coat, centre, looking at a glass cage with a small rat inside on a lab bench, cool laboratory light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "उन्होंने चूहों के दिमाग़ में एक बहुत छोटा तापमान-मापक लगाया।",
+     "prompt": "A researcher's gloved hands on the right gently placing a tiny sensor wire on the head of a calm white rat lying on a lab table, sterile bright light, macro close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "जम्हाई से ठीक पहले, दिमाग़ का तापमान बढ़ता दिखा। जम्हाई के बाद, वो गिर गया।",
+     "prompt": "A small white rat yawning with its mouth wide open in a clean cage, centre, a warm orange glow around its head on the left fading to cool blue on the right, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसे कहते हैं ब्रेन कूलिंग थ्योरी, यानी दिमाग़ को ठंडा करने की थ्योरी।",
+     "prompt": "A human head in profile, centre, the brain glowing orange at the top and cool blue lower down, a white mist of cold air entering the open mouth, dark background, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इंसानों में माना जाता है कि गहरी साँस के साथ ठंडी हवा अंदर जाती है।",
+     "prompt": "A young Indian man yawning on a misty green hill at dawn, white breath cloud visible in the cold air in front of his open mouth, centre, wool jacket, soft morning light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और जबड़ा खिंचने से सिर की नसों में ख़ून का बहाव बढ़ जाता है।",
+     "prompt": "A human head in profile mid-yawn with the face and skull cut away to show red and blue blood vessels, centre, plain dark background, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "यानी गरमी बाहर निकलती है और ठंडक अंदर आती है। ये राज़ अच्छा लगा, तो लाइक कीजिए।",
+     "prompt": "A relieved young Indian woman with long black hair after a deep yawn, eyes open and refreshed, small smile, centre, bright morning sun at a window, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "लेकिन क्या ये सच में इंसानों पर काम करता है? इसका एक अजीब टेस्ट हुआ।",
+     "prompt": "A scientist in a white coat on the left handing a frosty blue ice pack to a curious young Indian student on the right, bright laboratory, cool daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "ठंडा पैक, गरम पैक",
+   "shots": [
+    {
+     "vo": "कुछ छात्रों को जम्हाई लेते लोगों के वीडियो दिखाए गए।",
+     "prompt": "A row of five curious Indian college students sitting at desks in a lecture room watching a video on a laptop in front of them, centre, soft daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "किसी के माथे पर ठंडा पैक रखा गया, और किसी के माथे पर गरम।",
+     "prompt": "Two students side by side, the left one pressing a frosty blue pack to his forehead, the right one pressing a warm red pack to his forehead, a researcher with notes standing behind them, bright studio light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ठंडा पैक वालों में सिर्फ़ नौ प्रतिशत ने जम्हाई ली। गरम पैक वालों में इकतालीस प्रतिशत ने।",
+     "prompt": "A student on the left holding a frosty blue pack to his forehead with a relaxed face, a second student on the right with a warm red pack on his forehead yawning widely, bright studio light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ठंडा पैक वालों में सिर्फ़ 9 प्रतिशत ने जम्हाई ली। गरम पैक वालों में 41 प्रतिशत ने।"
+    },
+    {
+     "vo": "जिन्होंने सिर्फ़ नाक से साँस ली, उनमें भी जम्हाई कम फैली।",
+     "prompt": "A calm young Indian woman breathing slowly through her nose with closed lips and closed eyes, centre, white kurta, serene morning light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "मौसम ने भी यही बताया। रिसर्चर्स ने अमेरिका के एरिज़ोना और ऑस्ट्रिया के वियना में, मौसम के हिसाब से लोगों की जम्हाई जाँची।",
+     "map": {
+      "center": [
+       40,
+       -47
+      ],
+      "span": 75,
+      "from_span": 120,
+      "countries": [
+       {
+        "iso": "USA",
+        "label": "अमेरिका",
+        "color": "teal"
+       },
+       {
+        "iso": "AUT",
+        "label": "ऑस्ट्रिया",
+        "color": "yellow"
+       }
+      ],
+      "points": [
+       {
+        "lat": 32.2226,
+        "lon": -110.9747,
+        "label": "एरिज़ोना"
+       },
+       {
+        "lat": 48.2082,
+        "lon": 16.3738,
+        "label": "वियना"
+       }
+      ]
+     }
+    },
+    {
+     "vo": "जब बाहर की हवा शरीर जितनी गरम होती है, लोग कम जम्हाई लेते हैं।",
+     "prompt": "People waiting at a sun-baked Indian bus stop at midday, sweaty tired faces, mouths closed, a shaded tin shelter, heat haze over the road, harsh bright sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "हल्की ठंडक में ज़्यादा आती है, क्योंकि तब हवा दिमाग़ को ठंडा कर पाती है।",
+     "prompt": "Two Indian friends in woollen sweaters sipping tea on a rooftop on a cool winter morning, the left one yawning with a white breath cloud, the right one holding a steel tea glass, soft morning light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर सारे वैज्ञानिक इस बात पर राज़ी नहीं हैं। बहस अभी जारी है।",
+     "prompt": "Two scientists in a university corridor, the left one gesturing with an open hand, the right one sceptically holding papers and shaking his head, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कुछ का कहना है कि जम्हाई शरीर को जगाए रखने में भी मदद करती है।",
+     "prompt": "A night-shift truck driver yawning behind the wheel of his truck cabin on a quiet highway at night, eyes alert, centre, soft dashboard glow on his face, medium close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आपको क्या लगता है: ए, दिमाग़ ठंडा करना, या बी, जगाए रखना? कमेंट में लिखिए।",
+     "prompt": "Three young Indian friends sitting on a college lawn at dusk, two arguing playfully with raised hands and laughing, the third yawning, warm evening light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "आपको क्या लगता है: A, दिमाग़ ठंडा करना, या B, जगाए रखना? कमेंट में लिखिए।"
+    },
+    {
+     "vo": "ये वीडियो किसी ऐसे दोस्त को भेजिए, जिसे हर जगह जम्हाई आ जाती है।",
+     "prompt": "Two best friends sitting side by side on an Indian city bus, the left one yawning widely, the right one grinning and nudging him with his elbow, warm afternoon light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "लेकिन असली जादू अभी बाकी है: जम्हाई एक इंसान से दूसरे में कूदती कैसे है?",
+     "prompt": "Three passengers in a row inside a crowded Indian bus, the left one mid-yawn, the middle one starting to yawn, the right one with mouth fully open yawning, warm window light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "छूत का जादू",
+   "shots": [
+    {
+     "vo": "सिर्फ़ किसी को जम्हाई लेते देखना ही नहीं, उसके बारे में पढ़ना भी काफ़ी है।",
+     "prompt": "A young Indian woman reading an open book on a train seat, suddenly yawning with a surprised look, hand rising to her mouth, centre, gentle window light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "वीडियो में जम्हाई देखकर क़रीब आधे लोग ख़ुद जम्हाई ले लेते हैं।",
+     "prompt": "Five friends sitting together on a sofa, four of them yawning widely, the fifth awake and looking amused, warm living room light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "छोटे बच्चे इसे नहीं पकड़ते। चार-पाँच साल की उम्र के आसपास ये शुरू होती है।",
+     "prompt": "A three-year-old Indian toddler in a red t-shirt on the left staring curiously at his father on the right who is yawning, the toddler's mouth closed, Indian kitchen, soft morning light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कुत्ते भी हमारी जम्हाई पकड़ लेते हैं। एक रिसर्च में उनतीस में से इक्कीस कुत्तों ने ऐसा किया।",
+     "prompt": "A man yawning on a sofa on the left and a golden retriever beside him on the right yawning with its mouth wide open, warm living room, soft evening light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "कुत्ते भी हमारी जम्हाई पकड़ लेते हैं। एक रिसर्च में 29 में से 21 कुत्तों ने ऐसा किया।"
+    },
+    {
+     "vo": "चिम्पैंज़ी भी दूसरे चिम्पैंज़ी की जम्हाई देखकर, ख़ुद जम्हाई लेते हैं।",
+     "prompt": "A chimpanzee on the left yawning with its mouth wide open, another chimpanzee on the right copying the yawn, green forest background, soft forest light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कुछ वैज्ञानिकों को लगता है कि इसका रिश्ता हमदर्दी से है, यानी दूसरों से जुड़ने से।",
+     "prompt": "A young Indian man and woman sitting close on a bench at sunset, her head resting on his shoulder, both yawning softly with eyes half closed, warm orange light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये बात अभी पक्की नहीं है, और रिसर्च आज भी जारी है।",
+     "prompt": "A scientist's quiet wooden desk at night with an open notebook, a cup of coffee, a glowing lamp and a pen resting on the page, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "तो एक सवाल उठा: क्या हर किसी की जम्हाई, हर किसी को एक जैसी लगती है?",
+     "prompt": "A busy Indian railway platform in the morning with a train waiting, strangers standing in small groups, a few people yawning, plain blank signboards, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इटली में रिसर्चर्स ने सैकड़ों जम्हाइयाँ गिनीं, और देखा कि कौन किसे देखकर जम्हाई ले रहा है।",
+     "prompt": "A researcher with a notebook sitting at a corner table in a small Italian cafe, taking notes while watching people around him yawn, warm light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "लेकिन तभी नतीजा आया, और रिसर्चर्स चौंक गए। वही बात, जिसका वादा हमने शुरू में किया था।",
+     "prompt": "A researcher looking up from his notebook with an astonished expression, eyes wide, mouth open, centre, at a cafe table, warm light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "तो जम्हाई क्यों आती है, और छूत की तरह क्यों फैलती है? शायद इसलिए कि दिमाग़ ख़ुद को ठंडा रखता है, और हम अपनों के साथ सुर मिलाते हैं।",
+     "prompt": "A crowded Indian train compartment at sunrise, passengers yawning one after another with smiles, a man in the foreground yawning, golden light through the windows, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और वो बात, जो ज़्यादातर लोग नहीं जानते: जम्हाई अपनों से सबसे ज़्यादा फैलती है। परिवार से सबसे ज़्यादा, फिर दोस्तों से, और अजनबियों से सबसे कम।",
+     "prompt": "An Indian family of five sitting together on a veranda at dawn, the grandfather in the centre yawning and everyone around him yawning back with warm smiles, soft golden morning light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "तो अगली बार किसी अपने की जम्हाई पकड़ लें, तो शर्माइए मत। ये अपनेपन की निशानी भी हो सकती है। अगले वीडियो में एक और गज़ब सवाल मिलेगा।",
+     "prompt": "Two Indian friends laughing together on a rooftop at sunset, the left one wiping a tear after a yawn, the right one grinning, warm orange glow, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ऐसे ही गज़ब सवालों के लिए सब्सक्राइब करें।",
+     "prompt": "A family of three standing on a terrace of a house, seen from behind as silhouettes, stretching their arms and yawning together, Indian village rooftops below, soft pink sunrise, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  }
+ ],
+ "topic_demand": {
+  "median": 143046,
+  "hits": 7
+ }
+}
