@@ -45,9 +45,10 @@
     },
     {
      "vo": "बलि ने अपना सब कुछ विष्णु जी को दान कर दिया।",
-     "prompt": "King Bali pouring water from a small brass vessel into the open palms of a young boy in a dhoti, Bali on the right, boy on the left, palace floor, bright morning sun, close-up, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "King Bali pouring water from a small brass vessel into the open palms of a young boy Vamana, a thin stream of water falling between them, Bali on the right with a thick black beard, gold crown and red silk robe, boy on the left with shaved head and cream dhoti, plain stone palace floor, bright morning sun, close-up, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "लेकिन बलि की भक्ति देखकर भगवान बहुत प्रसन्न हुए।",
@@ -83,5 +84,19 @@
   }
  ],
  "released_at": "2026-11-09 07:37",
- "voice_requested": "voice-dk-222-vishnu-yoganidra-a100b6cc46"
+ "voice_requested": "voice-dk-222-vishnu-yoganidra-a100b6cc46",
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-09 08:13"
+ },
+ "shot_qc": {
+  "checked": "2026-11-09T02:42:36Z",
+  "rounds": 1,
+  "why": {
+   "4": "Devanagari text is painted on the banner at the top left."
+  }
+ }
 }
