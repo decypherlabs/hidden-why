@@ -81,9 +81,10 @@
     },
     {
      "vo": "भगवान विष्णु ने वराह रूप लेकर हिरण्याक्ष को हरा दिया।",
-     "prompt": "Lord Vishnu as Varaha, blue-skinned god with a boar's face and gold ornaments, lifting a round green Earth high on his tusk above stormy ocean waves, centre, dark storm clouds, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Vishnu as Varaha, a giant boar-headed god with a boar's snout and two curved tusks, blue skin, gold ornaments, lifting a round green Earth balanced on his tusks above stormy ocean waves, centre, dark storm clouds, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "भाई की मौत सुनकर हिरण्यकशिपु का ख़ून खौल उठा। उसने क़सम खाई, मैं विष्णु से बदला लूँगा।",
@@ -93,9 +94,10 @@
     },
     {
      "vo": "उसने सोचा, पहले ऐसी ताक़त चाहिए जो कभी न मरे। वो मंदराचल पर्वत पर चला गया।",
-     "prompt": "A dark-skinned man with thick moustache in a plain dark robe walking alone along a forest path at night toward a distant glowing mountain, bright moonlight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "A dark-skinned man with thick black moustache in a plain dark robe walking alone on a forest path toward an enormous glowing Indian mountain with a rocky peak, ancient banyan trees, bright moonlight, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8928
     },
     {
      "vo": "वहाँ वो पैर के पंजों पर खड़ा हो गया, दोनों बाँहें ऊपर उठाए।",
@@ -225,9 +227,10 @@
     },
     {
      "vo": "प्रह्लाद ने कहा, पिताजी, बस भगवान विष्णु की शरण में रहना। राजा का चेहरा तमतमा उठा। लेकिन तभी उसने ऐसा हुक्म दिया, जो कोई पिता नहीं देता।",
-     "prompt": "A dark-skinned king rising from his throne in rage on the right, veins on his forehead, red firelight, a small fair-skinned boy in a saffron dhoti standing unafraid with folded hands on the left, palace hall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "A dark-skinned king rising from his throne in rage on the right, veins on his forehead, red firelight, a small fair-skinned boy in a saffron dhoti standing unafraid with folded hands on the left, plain palace hall walls, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8948
     }
    ]
   },
@@ -445,5 +448,23 @@
  "released_at": "2026-11-09 07:37",
  "voice_requested": "voice-dk-230-narasimha-pillar-boon-3a93f91ae7",
  "voice_ok": "voice-dk-230-narasimha-pillar-boon-3a93f91ae7",
- "voice_approved_at": "2026-11-09 08:59"
+ "voice_approved_at": "2026-11-09 08:59",
+ "repaint": {
+  "shots": [
+   7,
+   9,
+   29
+  ],
+  "thumbs": [],
+  "at": "2026-11-09 09:24"
+ },
+ "shot_qc": {
+  "checked": "2026-11-09T03:53:15Z",
+  "rounds": 1,
+  "why": {
+   "7": "Line says Vishnu took the Varaha (boar) form, but the painting shows a blue four-armed figure holding the earth, with no boar.",
+   "9": "A man in modern black clothes under a moon, with no Mandarachal mountain or Indian mythological setting.",
+   "29": "Text is painted on the banner in the background."
+  }
+ }
 }
