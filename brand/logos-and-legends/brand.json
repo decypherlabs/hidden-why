@@ -83,5 +83,9 @@
   "body": "fonts/Inter.ttf",
   "_about": "Devanagari chapter cards and captions (Mukta, OFL)"
  },
- "_date_style_before": "callout"
+ "_date_style_before": "callout",
+ "tone": {
+  "saturation": 0.85
+ },
+ "_about_tone": "owner, 9 Nov 2026: teasers and long-forms looked oversaturated; paintings are toned down in the edit (pipeline/build.py paint_read), captions and graphics keep their colours"
 }

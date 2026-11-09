@@ -477,7 +477,7 @@ def split_compare(frame, spec, out, t, dur=4.0):
         half = []
         for sid in (spec.get("left"), spec.get("right")):
             f = out / f"shot-{int(str(sid).split('-')[0]):02d}{'-' + str(sid).split('-')[1] if '-' in str(sid) else ''}.png"
-            im = cv2.imread(str(f)) if sid else None
+            im = paint_read(f) if sid else None
             im = frame.copy() if im is None else im
             h, w = im.shape[:2]
             s = max((W // 2) / w, H / h)
@@ -1236,9 +1236,22 @@ _R = lambda: (255, 40, 40) if VIVID else K.RED
 MOVES_CYCLE = ("pan_right", "pull", "pan_left", "push")
 # a colour grade per episode (script "grade"; owner, 7 Nov 2026: Maruti 800 in Cross process), the same settings as the
 # dashboard's filter previews (clipper/filters.json), applied while encoding
-GRADES = {"cross-process": "eq=contrast=1.15:saturation=1.3,hue=h=-12",
-          "cinematic": "eq=contrast=1.1:saturation=1.15,colorbalance=rs=0.05:bs=-0.05:rh=0.04:bh=-0.04",
-          "warm": "colorbalance=rs=0.06:gs=0.02:bs=-0.06,eq=saturation=1.08"}
+GRADES = {"cross-process": "eq=contrast=1.1:saturation=1.08,hue=h=-12",
+          "cinematic": "eq=contrast=1.08:saturation=1.0,colorbalance=rs=0.05:bs=-0.05:rh=0.04:bh=-0.04",
+          "warm": "colorbalance=rs=0.06:gs=0.02:bs=-0.06"}
+def paint_read(f):
+    """A painting from disk, toned to the brand (brand.json "tone": {"saturation": 0.85}; owner, 9 Nov 2026: Logos &
+    Legends' teasers and long-forms "regularly have high saturation images... adapt as per the theme"). Only the
+    paintings: captions and graphics keep their own colours."""
+    im = cv2.imread(str(f))
+    sat = float((K.B.get("tone") or {}).get("saturation") or 1)
+    if im is None or abs(sat - 1) < 0.01:
+        return im
+    hsv = cv2.cvtColor(im, cv2.COLOR_BGR2HSV).astype(np.float32)
+    hsv[..., 1] = np.clip(hsv[..., 1] * sat, 0, 255)
+    return cv2.cvtColor(hsv.astype(np.uint8), cv2.COLOR_HSV2BGR)
+
+
 FX = False  # brand "motion_fx" (Logos & Legends, owner 7 Nov 2026: "make it more engaging, with some motion")
 YEAR = re.compile(r"\b(1[89]\d\d|20\d\d)\b")
 AMOUNT = re.compile(r"₹\s?[\d,]+(?:\.\d+)?\s*(?:करोड़|लाख|crore|lakh)?|\b\d+(?:\.\d+)?\s?%")
@@ -1443,7 +1456,7 @@ def main(script_path, out_dir):
                 vis = [mp] if short and TEASER else mp
             else:
                 src = s.get("from")  # an episode's own painting (Logos & Legends Shorts from a long-form, 8 Nov 2026)
-                img = cv2.imread(str(out / (f"shot-{int(src.split('-')[0]):02d}{'-' + src.split('-')[1] if '-' in src else ''}.png"
+                img = paint_read(str(out / (f"shot-{int(src.split('-')[0]):02d}{'-' + src.split('-')[1] if '-' in src else ''}.png"
                                             if src else f"shot-{n:02d}.png")))
                 if s.get("overlay"):  # science drawn onto the painting (a crack, a hole) where SDXL can't
                     img = bgr(OVERLAYS[s["overlay"]](Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))))
@@ -1458,7 +1471,7 @@ def main(script_path, out_dir):
                     pics = []
                     for q in ids:
                         f = out / f"shot-{int(q.split('-')[0]):02d}{'-' + q.split('-')[1] if '-' in q else ''}.png"
-                        im = cv2.imread(str(f))
+                        im = paint_read(f)
                         if im is None:
                             continue
                         im = cv2.addWeighted(im, 1.6, cv2.GaussianBlur(im, (0, 0), 1.6), -0.6, 0)  # crisper upscale
@@ -1481,7 +1494,7 @@ def main(script_path, out_dir):
                     if i:
                         cuts.append(t + i * part)
             elif extras:  # a new picture every ~4 s (owner, 7 Nov 2026, after The Quiet Story): the line's pictures in turn
-                pics = [vis] + [Shot(cv2.imread(str(x)), MOVES_CYCLE[(n + i) % 4]) for i, x in enumerate(extras)]
+                pics = [vis] + [Shot(paint_read(x), MOVES_CYCLE[(n + i) % 4]) for i, x in enumerate(extras)]
                 part = d / len(pics)
                 for i, v in enumerate(pics):
                     items.append((t + i * part, part, v, out / f"vo-{n:02d}.wav" if i == 0 else None, sec["id"]))
@@ -1608,6 +1621,14 @@ def main(script_path, out_dir):
         # the brand's chapter-change page sound once per question, not on every picture (owner, 8 Nov 2026:
         # "reduce the number of page turn sfx"); other Shorts keep a whoosh on every cut
         at = [h[0] for h in hits[1:]] if page else cuts + [it[0] for it in items[1:]]
+        gap = float(style.get("min_gap") or 0)
+        if gap:  # brand.json sfx.min_gap (owner, 9 Nov 2026, Gazab Kyun: "the sfx on every shot change feels a bit weird...
+            # 5-6 times in 30-40 seconds"): one whoosh + hit on a new line, none closer than `gap` seconds
+            keep = []
+            for t in sorted(h[0] for h in hits[1:]):
+                if t < last - 0.5 and (not keep or t - keep[-1] >= gap):
+                    keep.append(t)
+            at = keep
         for c in sorted(set(round(x, 3) for x in at)):
             if abs(c - last) > 0.05:
                 if page:
@@ -1623,7 +1644,8 @@ def main(script_path, out_dir):
                 put(tick(0.05, seed=43), m0, -18)
         if TEASER:
             for h in hits[1:-1]:
-                put(load_sfx("impact"), h[0], -14)
+                if not gap or round(h[0], 3) in {round(x, 3) for x in at}:  # thinned with the whooshes
+                    put(load_sfx("impact"), h[0], -14)
             if len(hits) > 1:
                 put(riser(1.2), max(0, hits[-1][0] - 1.2), -16)
         put(load_sfx(style.get("reveal", "impact")), last, -9)
