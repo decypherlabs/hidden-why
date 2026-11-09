@@ -1,0 +1,163 @@
+{
+ "slug": "preview-gk-sfx",
+ "format": "short",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": false,
+ "review": "auto",
+ "voice_review": true,
+ "title": "Wood Frog जमकर भी कैसे ज़िंदा रहता है? 🐸",
+ "hook_text": "65% बर्फ़। फिर भी ज़िंदा।",
+ "cover_text": "Wood Frog का *65% शरीर* जम जाता है!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A huge close-up of a frozen wood frog, tan-brown skin with black eye mask covered in sparkling ice crystals, frosted eye staring forward, filling the lower two-thirds of the frame on snowy leaf litter, dark snowy forest above in sharp focus, cold blue winter light"
+ },
+ "music": {
+  "intense": [
+   "main"
+  ]
+ },
+ "source": "Lee, Costanzo, Davidson & Layne, Journal of Thermal Biology (1992); Storey & Storey, Antioxidants (2021); Storey et al., Cryobiology (2022)",
+ "lane": 4,
+ "fact_check": {
+  "engage": 7,
+  "weak": "Slightly repetitive wording and 'liver glucose' detail is a bit technical; the 65% figure is an approximate 'up to' value (about 65-70%), stated acceptably"
+ },
+ "hook_score": {
+  "score": 8,
+  "why": "Specific 65% number up front, catchy why-question, contradiction, short, visualizable; the script presumably answers why it survives.",
+  "was": "कौन-सा मेंढक जमकर भी ज़िंदा रह सकता है?"
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "पैंसठ प्रतिशत बर्फ़ बनकर भी यह मेंढक मरता क्यों नहीं?",
+     "caption": "65% बर्फ़ बनकर भी यह मेंढक मरता क्यों नहीं?",
+     "prompt": "A small brown wood frog sitting motionless on a forest floor, its whole body dusted with white frost, ice crystals glittering on its back and legs, wide shot of a cold winter woodland with snow-dusted leaves, pale blue dawn light, photoreal.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8920,
+     "more": [
+      "Medium shot of a frost-covered wood frog resting on brown oak leaf litter, thin ice crystals clinging to its skin, a puzzled child's gloved hand hovering nearby, soft overcast winter light, sharp detail.",
+      "Extreme close-up of a wood frog's face, golden eye dull and still, delicate white frost on its eyelid and nostril, shallow depth of field, cold teal background, photoreal."
+     ]
+    },
+    {
+     "vo": "इसका नाम वुड फ्रॉग है, जो उत्तरी अमेरिका में मिलता है।",
+     "caption": "इसका नाम Wood Frog है, जो उत्तरी अमेरिका में मिलता है।",
+     "prompt": "A living wood frog sitting upright on damp brown leaf litter, tan-brown skin, black mask stripe through the eye, white line along the upper lip, birch trunks behind in a northern forest, soft autumn daylight, sharp focus, close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       52,
+       -100
+      ],
+      "span": 55,
+      "from_span": 150,
+      "countries": [
+       {
+        "iso": "USA",
+        "label": "अमेरिका",
+        "color": "teal"
+       },
+       {
+        "iso": "CAN",
+        "label": "कनाडा",
+        "color": "teal"
+       }
+      ],
+      "areas": [],
+      "lines": [],
+      "points": [],
+      "circles": []
+     },
+     "key": "उत्तरी अमेरिका"
+    },
+    {
+     "vo": "सर्दियों में इसका शरीर धीरे-धीरे जमने लगता है।",
+     "caption": "सर्दियों में इसका शरीर धीरे-धीरे जमने लगता है।",
+     "prompt": "Wide view of a snowy North American forest at dusk, first heavy snowfall settling on bare birch trees and fallen leaves, a tiny wood frog barely visible on the ground at the base of a log, cold violet and blue light.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a wood frog tucked beneath a blanket of brown leaves, snowflakes landing on its back, its movements sluggish and slow, soft grey winter light, photoreal.",
+      "Macro close-up of a wood frog's back skin as tiny ice crystals begin to spread across it, a thin frost line creeping over the mottled brown pattern, sharp cold light."
+     ]
+    },
+    {
+     "vo": "इसके शरीर के लगभग पैंसठ प्रतिशत पानी की बर्फ़ बन सकती है।",
+     "caption": "इसके शरीर के लगभग 65% पानी की बर्फ़ बन सकती है।",
+     "prompt": "A Canadian biologist in a parka kneeling on snow, holding a wood frog frozen stiff as a stone in an open gloved palm, breath fogging in the air, bright winter sun, snowy spruce forest behind, photoreal.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8923,
+     "more": [
+      "Medium shot of a frozen wood frog lying on a laboratory tray, its body translucent and pale, ice visible through the skin, cool white light, a thermometer probe resting beside it.",
+      "Extreme macro of ice crystals locked inside a frozen frog's pale belly, glassy and sparkling, icy blue tones, razor-sharp detail."
+     ],
+     "key": "65%"
+    },
+    {
+     "vo": "इस हालत में इसकी धड़कन और साँस भी रुक सकती हैं।",
+     "caption": "इस हालत में इसकी धड़कन और साँस भी रुक सकती हैं।",
+     "prompt": "A wood frog lying perfectly still on a mossy log in the blue hour of a frozen forest, rigid and frosted, no sign of life, quiet snow around it, wide cinematic shot, deep blue and silver light.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8924,
+     "more": [
+      "Medium shot of a researcher's fingers in a thin glove pressing a stethoscope-style listening device against a stiff frozen frog, her face calm and astonished, warm lamp light against cold background.",
+      "Close-up of a frozen wood frog's closed eye and motionless throat, frost on its skin, a faint cloud of human breath drifting past in contrast, shallow depth of field."
+     ]
+    },
+    {
+     "vo": "इसका लिवर ग्लूकोज़ बनाता है, जो कोशिकाओं की रक्षा करता है।",
+     "caption": "इसका liver glucose बनाता है, जो कोशिकाओं की रक्षा करता है।",
+     "prompt": "Wide shot of a bright research laboratory bench with a scientist in a white coat and goggles holding up a glass flask of clear golden syrupy liquid to the light, rows of test tubes behind, warm amber glow.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a pipette dropping a single glistening golden drop into a small glass dish, a tiny frozen frog resting beside it, crisp lab lighting, photoreal.",
+      "Macro close-up of glittering sugar crystals and thick golden syrup beside a frog's frosted toe, deep amber and ice-blue colour contrast, sharp focus."
+     ]
+    },
+    {
+     "vo": "बर्फ़ पिघलते ही ये फिर सामान्य गतिविधियाँ शुरू कर सकता है!",
+     "caption": "बर्फ़ पिघलते ही ये फिर सामान्य गतिविधियाँ शुरू कर सकता है!",
+     "prompt": "Wide shot of a spring woodland stream with melting snow dripping from branches, green shoots pushing through wet earth, a small wood frog on a sunlit stone, warm golden morning light, vivid greens.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "seed": 8926,
+     "more": [
+      "Medium shot of a wood frog on a wet leaf with water droplets running off its body, eyes now open and bright, ice melting around it, soft backlit sunlight, photoreal.",
+      "Close-up of a wood frog leaping mid-air over a puddle, legs stretched, water splashing, vivid brown and green, fast crisp motion, sunny background."
+     ]
+    }
+   ]
+  }
+ ],
+ "voice_requested": "voice-gk-13-wood-frog-freezes-alive-fff2bfcc4b",
+ "released_at": "2026-11-08 15:14",
+ "voice_approved_at": "2026-11-08 15:14",
+ "shot_qc": {
+  "checked": "2026-11-08T14:31:58Z",
+  "rounds": 1,
+  "left": [
+   1,
+   4,
+   5,
+   6,
+   7
+  ]
+ },
+ "polished": "2026-11-08 18:36",
+ "paint_from": "gk-13-wood-frog-freezes-alive",
+ "voice_from": "gk-13-wood-frog-freezes-alive",
+ "experiment": true,
+ "review_note": "sample: sfx every 6 s (owner, 9 Nov 2026)"
+}
