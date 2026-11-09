@@ -42,7 +42,7 @@ jobs:
             pip install -q git+https://github.com/huggingface/parler-tts.git
             pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
             pip install -q sentencepiece==0.2.2  # 0.2.3 (5 Nov 2026) needs a newer protobuf than parler-tts gets: every Hindi build failed
-            { pip install -q --no-deps faster-whisper==1.1.1 && pip install -q ctranslate2==4.5.0 av onnxruntime; } || echo "voice check off"  # hears each Hindi line back (pipeline/narrate.py, 9 Nov 2026); --no-deps: parler pins transformers/tokenizers
+            { pip install -q --no-deps faster-whisper==1.1.1 && pip install -q ctranslate2==4.6.0 av onnxruntime; } || echo "voice check off"  # hears each Hindi line back (pipeline/narrate.py, 9 Nov 2026); --no-deps: parler pins transformers/tokenizers
           fi
       - name: Hindi text shaping
         run: |
