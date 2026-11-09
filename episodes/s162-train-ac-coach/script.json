@@ -20,9 +20,10 @@
    "shots": [
     {
      "vo": "Why do berth numbers stop at six, then jump sideways?",
-     "prompt": "A worn metal berth number plate with the digit 6 on the upper bunk edge, large in the foreground, an Indian sleeper train coach bay with blue vinyl berths, a side berth along the aisle visible behind it, sharp focus, warm tube light, close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "prompt": "A small worn metal plate with the digit 6 fixed on the edge of the upper blue berth, large in the foreground, the plate alone carries the number, Indian sleeper train coach bay with a row of six blue berths behind it, plain blank walls, sharp focus, warm tube light, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8920
     },
     {
      "vo": "Berth 1 and berth 8 are in the same small space.",
@@ -50,9 +51,10 @@
     },
     {
      "vo": "Seven and eight face the aisle. Every number tells you where you sleep.",
-     "prompt": "A young Indian man in a white shirt sitting on the side lower berth by the window, a side upper berth above him, aisle on his left, an Indian sleeper coach, morning sun through the window bars, sharp focus, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "prompt": "Two blue side berths running along the aisle of an Indian sleeper coach, side lower berth with a young man in a white shirt sitting on it, side upper berth above him, both berths facing the aisle, the six main berths stacked behind on the left, plain blank walls, morning sun through the window, sharp focus, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8925
     }
    ]
   }
@@ -80,5 +82,25 @@
  "voice_ok": "voice-s162-train-ac-coach-4c9ff984af",
  "voice_approved_at": "2026-11-09 16:10",
  "rejected": true,
- "reviewed_at": "2026-11-09 16:14"
+ "reviewed_at": "2026-11-09 16:14",
+ "repaint": {
+  "shots": [
+   1,
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-09 16:36"
+ },
+ "shot_qc": {
+  "checked": "2026-11-09T11:06:14Z",
+  "rounds": 1,
+  "why": {
+   "1": "A large number '6' is painted on the berth end, and there are signs and labels on the wall. The painting also shows only one seat end, not berths one to six.",
+   "6": "The painting shows a lone man sitting by a window. It does not show the side berths facing the aisle that the line names (seven and eight)."
+  },
+  "recheck": [
+   "1",
+   "6"
+  ]
+ }
 }
