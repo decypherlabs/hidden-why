@@ -237,9 +237,10 @@
     },
     {
      "vo": "राम ने लक्ष्मण से कहा, मेरा धनुष और मेरे बाण लाओ।",
-     "prompt": "Lord Rama on the right speaking and holding out his hand to a fair-skinned young warrior in saffron with a quiver on the left, dark clouds gathering over the shore, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Rama on the right holding out his open hand, asking for his bow, blue skin, golden crown, facing a fair-skinned young warrior in saffron with a quiver on the left, dark clouds gathering over the shore, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8950
     },
     {
      "vo": "लक्ष्मण ने चुपचाप विशाल धनुष राम के हाथ में रख दिया।",
@@ -261,15 +262,17 @@
     },
     {
      "vo": "उन्होंने धनुष खींचा। आसमान गरज उठा, धरती काँपने लगी।",
-     "prompt": "Lord Rama pulling a huge bow back to full stretch, lightning splitting the dark sky, cracks opening in the ground of the shore, dramatic light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Rama pulling a huge golden bow back to full stretch, blue skin, golden crown, lightning splitting the dark sky, cracks opening in the ground of the shore, dramatic light, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8954
     },
     {
      "vo": "बाण लगते ही समुद्र खौलने लगा। जीव-जंतु घबराकर भागने लगे।",
-     "prompt": "A sea boiling with fire and foam, many silver fish swimming fast in the churned water, glowing arrows burning above the waves, no people, dusk, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "A sea boiling with fire and foam, many silver fish leaping and fleeing through the churned water, glowing arrows burning above the waves, no people, dusk, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8955
     },
     {
      "vo": "ऊँची लहरें आपस में टकराने लगीं। चारों ओर धुआँ फैल गया।",
@@ -304,21 +307,24 @@
    "shots": [
     {
      "vo": "लहरों के बीच से स्वयं समुद्र देव प्रकट हुए। गले में रत्नों की माला थी।",
-     "prompt": "Samudra Deva, a majestic sea god with pale sea-green skin, gold crown and garlands of pearls and jewels, rising from the waves with a dignified face, golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Samudra Deva, a majestic sea god with pale sea-green skin, gold crown and a heavy garland of pearls and jewels around his neck, rising from the waves with a dignified face, golden light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8960
     },
     {
      "vo": "वो हाथ जोड़कर काँपते हुए राम के सामने खड़े हो गए। लहरें उनके पैरों में थम गईं।",
-     "prompt": "Samudra Deva, pale sea-green skin, gold crown, pearl garlands, standing in the surf on the left with folded hands, facing Lord Rama on the right with a lowered bow, calm waves, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Samudra Deva, pale sea-green skin, gold crown, pearl garlands, standing in the surf on the left with trembling folded hands, facing Lord Rama on the right, blue skin, lowered bow, calm waves around his feet, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8961
     },
     {
      "vo": "समुद्र बोले, प्रभु, मैं आपका ही हूँ। पर मेरी भी एक मजबूरी है।",
-     "prompt": "Samudra Deva, pale sea-green skin, gold crown, speaking humbly with a hand on his chest on the left, Lord Rama listening on the right, shore at golden evening light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Samudra Deva, pale sea-green skin, gold crown, speaking humbly with a hand on his chest on the left, Lord Rama listening on the right, blue skin, golden crown, shore at golden evening light, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8962
     },
     {
      "vo": "मेरा स्वभाव गहरा और अथाह रहना है। मैं उथला हुआ, तो नियम टूटेगा।",
@@ -352,9 +358,10 @@
     },
     {
      "vo": "पर ब्रह्मास्त्र एक बार चढ़ गया, तो ख़ाली नहीं लौटता। राम ने पूछा, अब ये बाण कहाँ छोड़ूँ?",
-     "prompt": "Lord Rama on the right holding a bow with a blazing arrow fitted on it, looking toward Samudra Deva, pale sea-green skin and gold crown, standing in the surf on the left, tense calm mood, dusk light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Rama on the right holding a bow with a blazing arrow fitted on it, blue skin, golden crown, looking toward Samudra Deva, pale sea-green skin and gold crown, standing in the surf on the left, dusk light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8968
     },
     {
      "vo": "समुद्र ने उत्तर की ओर इशारा किया। वहाँ पापियों का एक इलाक़ा था। वो मेरे जल को गंदा करते हैं।",
@@ -364,9 +371,10 @@
     },
     {
      "vo": "राम ने उसी ओर बाण साधा। सागर के किनारे सब ठहर गए।",
-     "prompt": "Lord Rama aiming a blazing arrow north across the dark sea, firelight on his face, golden crown, tiny vanaras watching in silence behind him, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Rama aiming a blazing arrow north across the dark sea, blue skin, golden crown, firelight on his face, tiny vanaras watching in silence behind him, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8970
     },
     {
      "vo": "ये कथा उस दोस्त को भेजिए, जो कहता है कि राम कभी क्रोध नहीं करते। पर उस बाण का क्या हुआ?",
@@ -482,5 +490,33 @@
  "released_at": "2026-11-09 07:37",
  "voice_requested": "voice-dk-228-ram-samudra-ban-aabf88731c",
  "voice_ok": "voice-dk-228-ram-samudra-ban-aabf88731c",
- "voice_approved_at": "2026-11-09 08:59"
+ "voice_approved_at": "2026-11-09 08:59",
+ "repaint": {
+  "shots": [
+   31,
+   35,
+   36,
+   41,
+   42,
+   43,
+   49,
+   51
+  ],
+  "thumbs": [],
+  "at": "2026-11-09 09:48"
+ },
+ "shot_qc": {
+  "checked": "2026-11-09T04:16:03Z",
+  "rounds": 1,
+  "why": {
+   "31": "Rama sits meditating with joined hands, but the line has him asking Lakshmana for his bow",
+   "35": "Rama wades in the sea with vanaras, but the line is him drawing the bow with thunder and quake",
+   "36": "A man in a headwrap talks to Rama, but the line is the sea boiling and creatures fleeing",
+   "41": "Burning arrows in the waves, but no sea god with a jewel garland as the line says",
+   "42": "Fiery sky with tiny silhouettes, but no sea god standing with folded hands before Rama",
+   "43": "Two faces stacked and merged on one body, and no sea god speaking to Rama",
+   "49": "Underwater scene with a frame structure, but the line is Rama asking where to release the Brahmastra",
+   "51": "A vanara with a stick on rocks, but no Rama aiming the arrow as the line says"
+  }
+ }
 }
