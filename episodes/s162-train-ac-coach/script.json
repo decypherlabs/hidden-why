@@ -1,0 +1,78 @@
+{
+ "slug": "s162-train-ac-coach",
+ "build": "github",
+ "format": "short",
+ "title": "Why do train berth numbers jump around so oddly? 🚆",
+ "hook_text": "WHY 6, THEN 7?",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "voice_speed": 1.05,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Why do berth numbers stop at six, then jump sideways?",
+     "prompt": "A worn metal berth number plate with the digit 6 on the upper bunk edge, large in the foreground, an Indian sleeper train coach bay with blue vinyl berths, a side berth along the aisle visible behind it, sharp focus, warm tube light, close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Berth 1 and berth 8 are in the same small space.",
+     "prompt": "An Indian sleeper train coach bay with all eight berths visible, three stacked blue berths on the left, three on the right, two side berths along the aisle, bags resting on the berths, sharp focus, bright daylight through the window, wide shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Every sleeper coach is built from identical bays of eight berths.",
+     "prompt": "A long Indian sleeper coach seen from the aisle, many identical bays repeating one after another down the corridor, each bay with stacked blue berths, plain blank panels, sharp focus throughout, bright tube light, wide shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But here's the catch: three berths stack on each side, two along the aisle.",
+     "prompt": "Three stacked blue berths on the left wall and three stacked blue berths on the right wall of an Indian train coach bay, two side berths along the aisle on the window side, all clearly separate, sharp focus, bright tube light, wide shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Lower, middle, upper, then again on the other side: berths one to six.",
+     "prompt": "Lower, middle and upper blue berths stacked on the left facing lower, middle and upper blue berths stacked on the right, an Indian sleeper coach bay, six berths large and clear, plain surfaces, even bright tube light, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Seven and eight face the aisle. Every number tells you where you sleep.",
+     "prompt": "A young Indian man in a white shirt sitting on the side lower berth by the window, a side upper berth above him, aisle on his left, an Indian sleeper coach, morning sun through the window bars, sharp focus, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "cover_text": "SEAT 1 AND 8 ARE *OPPOSITE* ENDS. WHY?",
+ "cover_shot": 1,
+ "topic_demand": {
+  "median": 2629,
+  "hits": 3,
+  "outliers": 3,
+  "q": "indian railways coach seat numbers",
+  "matched": "5/10"
+ },
+ "hook_score": {
+  "score": 7,
+  "why": "Specific, concrete gap (why 6 then sideways?) that only the end answers; short and visual, though 'berth numbers' is niche and slightly dry.",
+  "was": "Your train berth number tells you exactly where you sleep."
+ },
+ "cover": {
+  "prompt": "Wide painting of the inside of an Indian train sleeper coach, one bay of eight berths seen from the aisle, three stacked berths on each side plus two along the window side, vivid colours, one clear subject, no text, vertical composition, natural light, true-to-life colour, highly detailed"
+ }
+}
