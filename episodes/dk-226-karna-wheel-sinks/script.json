@@ -51,9 +51,10 @@
     },
     {
      "vo": "उन्होंने अर्जुन से कहा, रुको, यह युद्ध का नियम नहीं है।",
-     "prompt": "A dark-haired warrior in gold armour on the left standing in mud with one open palm raised, facing a distant fair-skinned archer in a white chariot on the right with his bow lowered, dusk battlefield, warm light, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "A dark-haired warrior in gold armour standing in mud with one open palm raised to stop, on the left, facing a distant fair-skinned archer in a white chariot on the right with his bow lowered, a sunk chariot wheel at the warrior's feet, dusk battlefield, warm light, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8924
     },
     {
      "vo": "लेकिन कृष्ण बोले, कर्ण, आज तुम्हें धर्म याद आया?",
@@ -69,9 +70,10 @@
     },
     {
      "vo": "कर्ण के पास कोई जवाब नहीं था, क्योंकि जो धर्म तोड़ता है, वह धर्म की माँग नहीं कर सकता।",
-     "prompt": "A dark-haired warrior in gold armour kneeling in mud with his head lowered, a sunk chariot wheel beside him, Lord Krishna, blue skin, peacock feather crown, yellow dhoti, standing far on the right and smaller, sad orange sunset light, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "A dark-haired warrior in gold armour with a plain bare chest-plate kneeling in thick mud with his head lowered and empty open hands on his knees, a sunk chariot wheel beside him, tan-skinned, a small distant figure of Lord Krishna, blue skin, yellow dhoti, standing far on the right, sad orange sunset light, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8927
     },
     {
      "vo": "कमेंट में जय श्री कृष्ण लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -83,5 +85,21 @@
   }
  ],
  "released_at": "2026-11-09 07:37",
- "voice_requested": "voice-dk-226-karna-wheel-sinks-e6931de831"
+ "voice_requested": "voice-dk-226-karna-wheel-sinks-e6931de831",
+ "repaint": {
+  "shots": [
+   5,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-09 08:30"
+ },
+ "shot_qc": {
+  "checked": "2026-11-09T02:59:38Z",
+  "rounds": 1,
+  "why": {
+   "5": "The text \"ag 2018\" is painted into the bottom-left corner.",
+   "8": "The kneeling figure at the wheel is blue-skinned with a peacock feather and a flute, so it looks like Krishna and not Karna. The scene doesn't read as Karna with no answer."
+  }
+ }
 }
