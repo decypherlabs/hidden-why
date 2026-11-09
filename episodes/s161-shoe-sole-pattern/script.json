@@ -3,7 +3,7 @@
  "build": "github",
  "format": "short",
  "title": "Why does your slipper sole have a zigzag? 🩴",
- "hook_text": "IT'S FLOATING",
+ "hook_text": "INVISIBLE WATER FILM",
  "approved": true,
  "paint_hold": true,
  "review": "auto",
@@ -20,8 +20,8 @@
    "card": null,
    "shots": [
     {
-     "vo": "Your slipper is floating right now. On water you can't see.",
-     "prompt": "A rubber slipper sole floating on a thin film of clear water over a wet bathroom tile floor, a visible gap of water between the smooth rubber and the tile, a small puddle shine around it, bright morning light from a window, sharp focus, macro side view, vertical composition, natural light, true-to-life colour, highly detailed",
+     "vo": "Your slipper is skating on water you can't see.",
+     "prompt": "Close-up of a rubber slipper stepping onto a glossy wet tiled floor, a razor-thin invisible film of water catching light under the sole, realistic, dramatic low angle, moody bathroom lighting, vertical composition, natural light, true-to-life colour, highly detailed",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
     },
@@ -62,5 +62,11 @@
  "cover_shot": 1,
  "cover": {
   "prompt": "Extreme macro realistic painting of a rubber slipper sole with deep zigzag grooves on a wet shiny bathroom floor, water droplets flowing along the grooves, bright light, one clear subject, no text, vertical composition, natural light, true-to-life colour, highly detailed"
+ },
+ "owner_sample": true,
+ "hook_score": {
+  "score": 7,
+  "why": "Short, striking image of an object they know, a hidden water film; opens a gap and line 1 builds into it, though 'skating' slightly overstates.",
+  "was": "Your slipper is floating right now. On water you can't see."
  }
 }
