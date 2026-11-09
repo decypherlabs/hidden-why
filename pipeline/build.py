@@ -1509,8 +1509,11 @@ def main(script_path, out_dir):
             if s.get("title") and not short:  # a big phrase over the picture
                 titles.append((t + 0.2, t + min(d, 3.2), s["title"]))
             if s.get("label") and not short:  # a lower-third (Logos & Legends, 7 Nov 2026: names, dates, places)
-                labels.append((t + 0.3, t + min(d, 4.3), s["label"]))
-                years_seen.update(YEAR.findall(s["label"]))
+                lab_txt = s["label"]
+                if isinstance(lab_txt, dict):  # {"name": ..., "role": ...} -> "NAME · role"
+                    lab_txt = " · ".join(str(v) for v in (lab_txt.get("name"), lab_txt.get("role")) if v)
+                labels.append((t + 0.3, t + min(d, 4.3), lab_txt))
+                years_seen.update(YEAR.findall(lab_txt))
             line = s.get("caption") or s["vo"]
             if FX and s.get("date"):
                 gfx.append((t + 0.2, "date", s["date"]))
