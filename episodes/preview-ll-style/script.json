@@ -34,13 +34,15 @@
     },
     {
      "vo": "-",
-     "prompt": "a black 2000s SUV driving on a winding mountain highway at sunset, the Western Ghats behind, dramatic sky, product hero shot",
-     "move": "push"
+     "prompt": "A black SUV with a plain smooth blank front bumper driving along a winding mountain road, green hills of the Western Ghats rising behind, the SUV large in the centre of the frame, golden sunset light, sharp focus, wide shot",
+     "move": "push",
+     "seed": 8924
     },
     {
      "vo": "-",
-     "prompt": "three 1990s Indian engineers in shirts and ties gathered around a full-size clay model of an SUV in a design studio, one shaping it with a tool, focused faces",
-     "move": "push"
+     "prompt": "A man in a white shirt and tie shaping the side of a full-size grey clay model of an SUV with a long metal tool, the clay car large in the centre with smooth plain blank bumpers, two other engineers standing right of the car as small figures, bright design studio with overhead lights, medium shot",
+     "move": "push",
+     "seed": 8925
     },
     {
      "vo": "-",
@@ -55,5 +57,25 @@
    ]
   }
  ],
- "hindi_skip": "The English episode is a style test with placeholder lines only (all 8 shots are '-'), so there are no facts or story to adapt into Hindi."
+ "hindi_skip": "The English episode is a style test with placeholder lines only (all 8 shots are '-'), so there are no facts or story to adapt into Hindi.",
+ "repaint": {
+  "shots": [
+   5,
+   6
+  ],
+  "thumbs": [],
+  "at": "2026-11-09 12:57"
+ },
+ "shot_qc": {
+  "checked": "2026-11-07T12:45:36Z",
+  "rounds": 1,
+  "why": {
+   "5": "The licence plate has painted-in letters and numbers.",
+   "6": "The licence plate on the clay car model reads 'LUS-207', which is painted-in text."
+  },
+  "recheck": [
+   "5",
+   "6"
+  ]
+ }
 }
