@@ -39,7 +39,7 @@
    "shots": [
     {
      "vo": "एक पीला डिब्बा, और उस पर बना वो हरा पाम ट्री। बीसवीं सदी के भारत में इसने करोड़ों परिवारों और हलवाइयों की कड़ाही में घी की जगह ले ली थी।",
-     "prompt": "Cinematic wide shot of an atmospheric 1960s Indian sweet shop at dawn, steam rising from massive iron kadhais, rows of bright yellow square tin containers with a green palm tree logo stacked against the brick wall, warm golden morning light cutting through smoke.",
+     "prompt": "A row of bright yellow square tins, each with a plain green palm tree painted on the front and no writing, stacked beside a huge iron kadhai of steaming ghee at an Indian sweet shop, a halwai in a white vest stirring, brick wall, warm morning light, wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -47,7 +47,8 @@
       "Close-up of a vintage yellow metal tin with a green palm tree illustration and bold red lettering reading 'DALDA', grease dripping down the painted tinplate in warm morning backlight."
      ],
      "caption": "एक पीला डिब्बा, और उस पर बना वो हरा पाम ट्री। 20वीं सदी के भारत में इसने करोड़ों परिवारों और हलवाइयों की कड़ाही में घी की जगह ले ली थी।",
-     "title": "THE YELLOW TIN"
+     "title": "THE YELLOW TIN",
+     "seed": 8920
     },
     {
      "vo": "तो जिस डालडा ने कभी देसी घी के सिंहासन को हिलाकर रख दिया था, उसने भारतीय रसोई में अपनी बादशाहत आख़िर कैसे गँवा दी?",
@@ -65,13 +66,14 @@
     },
     {
      "vo": "अगर आप सोचते हैं कि डालडा बाज़ार से पूरी तरह ख़त्म हो चुका है, तो आप ग़लत हैं।",
-     "prompt": "Overhead table-top shot of an old cracked ledger on a wooden desk, surrounded by faded business stamps and modern trade invoices, split lighting with one side in warm vintage sepia and the other in cool modern clinical fluorescent tone.",
+     "prompt": "A hand holding a yellow tin with a green palm tree painted on it and no writing beside a golden pot of desi ghee on a wooden table, an old open ledger with blank pages behind them, bright daylight, sharp focus, close-up",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of a modern silver and green foil cooking oil pouch resting next to an antique battered yellow tin, sharp contemporary lighting."
      ],
-     "caption": "अगर आप सोचते हैं कि Dalda बाज़ार से पूरी तरह ख़त्म हो चुका है, तो आप ग़लत हैं।"
+     "caption": "अगर आप सोचते हैं कि Dalda बाज़ार से पूरी तरह ख़त्म हो चुका है, तो आप ग़लत हैं।",
+     "seed": 8922
     },
     {
      "vo": "और आख़िर में वो बात, जो आज भी निन्यानबे प्रतिशत लोग नहीं जानते—कि डालडा नाम के पीछे एक डच कंपनी और एक अंग्रेज़ी अक्षर का क्या राज़ था।",
@@ -86,7 +88,7 @@
     },
     {
      "vo": "उन्नीस सौ तीस के हॉलैंड से लेकर उन्नीस सौ पचास के दशक के संसद विवाद और फिर दो हज़ार तीन के ऐतिहासिक सौदे तक। ये कहानी है एक सस्ते विकल्प की, जो ख़ुद भारत की पहचान बन गया।",
-     "prompt": "Sweeping cinematic wide shot of a 1930s Bombay harbor at sunset, a massive rusted cargo ship unloading wooden crates marked for India onto wet cobblestone docks, Indian dockworkers in dhotis hoisting cargo in dramatic silhouette.",
+     "prompt": "A wide shot of an old cargo ship docked at a harbour at sunset, plain unmarked hull, Indian dockworkers in dhotis carrying plain wooden crates down a plank, long queue of workers, golden light, sharp focus",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -99,7 +101,8 @@
       "query": "Rotterdam, Netherlands",
       "lat": 51.9244,
       "lon": 4.4778
-     }
+     },
+     "seed": 8924
     }
    ]
   },
@@ -186,14 +189,15 @@
     },
     {
      "vo": "उन्नीस सौ इकतीस में हिंदुस्तान वनस्पति मैन्युफैक्चरिंग कंपनी की नींव रखी गई, और उन्नीस सौ सैंतीस में बाज़ार में उतरा एक नया उत्पाद—डालडा।",
-     "prompt": "Wide shot of a newly constructed industrial gate with a clean painted cast-iron board reading 'HINDUSTAN VANASPATI', factory chimneys puffing white steam against a pale sky.",
+     "prompt": "A tall factory gate with plain blank iron board above it, red brick chimneys giving off white steam behind, a freshly painted gate, a few workers walking in, pale morning sky, wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of an immaculate, freshly painted square yellow tin rolling off a conveyor belt with the brand name 'DALDA' stamped crisply in red on its face."
      ],
      "caption": "1931 में हिंदुस्तान वनस्पति मैन्युफैक्चरिंग कंपनी की नींव रखी गई, और 1937 में बाज़ार में उतरा एक नया उत्पाद—Dalda।",
-     "date": "1931"
+     "date": "1931",
+     "seed": 8932
     },
     {
      "vo": "लेकिन फ़ैक्ट्री खड़ी हो जाने से सामान नहीं बिकता। सबसे बड़ी चुनौती थी: सदियों से देसी घी पूजने वाला भारतीय समाज इस जमाए हुए तेल को क्यों अपनाएगा?",
@@ -257,13 +261,14 @@
     },
     {
      "vo": "डालडा की सबसे बड़ी ताक़त थी उसकी क़ीमत और शेल्फ़-लाइफ़। ये शुद्ध देसी घी के मुक़ाबले लगभग आधे दाम पर मिलता था और जल्दी ख़राब भी नहीं होता था।",
-     "prompt": "A traditional Indian bania shop in 1952, an Indian grocer wearing a round cap weighing lentils on a brass balance scale while pointing to a row of Dalda tins, a price tag in old rupees visible on the wooden counter.",
+     "prompt": "An Indian grocer in a round cap pouring white ghee-like fat from a yellow tin into a customer's steel container, a brass balance scale with lentils on the counter, sacks of rice behind, bright daylight, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of an old-fashioned hand-written chalkboard price sign in Hindi and English reading 'GHEE: ₹8 | DALDA: ₹3.50'."
      ],
-     "caption": "Dalda की सबसे बड़ी ताक़त थी उसकी क़ीमत और शेल्फ़-लाइफ़। ये शुद्ध देसी घी के मुक़ाबले लगभग आधे दाम पर मिलता था और जल्दी ख़राब भी नहीं होता था।"
+     "caption": "Dalda की सबसे बड़ी ताक़त थी उसकी क़ीमत और शेल्फ़-लाइफ़। ये शुद्ध देसी घी के मुक़ाबले लगभग आधे दाम पर मिलता था और जल्दी ख़राब भी नहीं होता था।",
+     "seed": 8938
     },
     {
      "vo": "जिस मध्यमवर्गीय घर में कभी त्योहारों पर भी घी नाप-नापकर ख़र्च होता था, वहाँ अब कड़ाही में बिना झिझक छन-छन की आवाज़ गूँजने लगी।",
@@ -309,7 +314,7 @@
     },
     {
      "vo": "हालात ये हो गए कि लोग वनस्पति माँगने के बजाय सीधे कहते: 'एक किलो डालडा देना।' ब्रांड ख़ुद भाषा बन गया था।",
-     "prompt": "A small Indian village grocery kiosk, an Indian villager in a dhoti pointing his finger directly at a yellow palm tree tin sitting on the shelf, the grocer reaching to hand it over.",
+     "prompt": "A villager in a dhoti pointing at a yellow tin with a green palm tree on a shelf of a small village shop, the shopkeeper on the right reaching for it, plain blank signboard, bright daylight, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -319,7 +324,8 @@
      "label": {
       "name": "HUL",
       "role": "Hindustan Lever Limited"
-     }
+     },
+     "seed": 8943
     },
     {
      "vo": "डालडा अब हर जगह था। लेकिन जिस बात ने इसे इतना बड़ा बनाया था—यानी घी जैसा दिखना और जमना—वही ख़ूबी जल्द ही इसके गले की फाँस बनने वाली थी।",
@@ -376,13 +382,14 @@
     },
     {
      "vo": "ये एक शब्द डालडा और पूरी वनस्पति इंडस्ट्री के माथे पर बदनामी का ऐसा दाग़ बन गया जो दशकों तक नहीं धुला। लोग इसे 'नक़ली घी' कहकर कोसने लगे।",
-     "prompt": "A street protest in a North Indian city in 1952, angry citizens carrying banners in Hindi demanding action, black and white newspaper placards visible under an overcast stormy sky.",
+     "prompt": "Angry Indian men and women in a street crowd, holding blank white boards above their heads, a man in front shouting with a fist raised, stormy grey sky, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A vintage newspaper front page from 1953 with a bold black Hindi headline warning citizens against adulterated cooking fats."
      ],
-     "caption": "ये एक शब्द Dalda और पूरी वनस्पति इंडस्ट्री के माथे पर बदनामी का ऐसा दाग़ बन गया जो दशकों तक नहीं धुला। लोग इसे 'नक़ली घी' कहकर कोसने लगे।"
+     "caption": "ये एक शब्द Dalda और पूरी वनस्पति इंडस्ट्री के माथे पर बदनामी का ऐसा दाग़ बन गया जो दशकों तक नहीं धुला। लोग इसे 'नक़ली घी' कहकर कोसने लगे।",
+     "seed": 8949
     },
     {
      "vo": "बात देश की संसद तक जा पहुँची। सांसदों ने तीखी बहसें कीं, और कुछ नेताओं ने तो वनस्पति पर पूर्ण प्रतिबंध लगाने तक की माँग कर डाली।",
@@ -409,23 +416,25 @@
     },
     {
      "vo": "इसलिए सरकार ने बैन लगाने के बजाय कड़े नियम बनाए: वनस्पति में देसी घी जैसी ख़ुशबू या पीला रंग डालने पर रोक लगा दी गई।",
-     "prompt": "A government laboratory in 1950s Delhi, Indian food safety inspectors in white coats testing oil samples in glass test tubes, large official gazettes open on wooden desks.",
+     "prompt": "Two Indian inspectors in white coats holding a test tube of oil up to the light, a table with glass bottles of yellow and white oil in front of them, plain white walls, bright daylight, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of an official government circular titled 'THE VEGETABLE OIL PRODUCTS CONTROL ORDER' with official red wax seal."
-     ]
+     ],
+     "seed": 8952
     },
     {
      "vo": "और सबसे बड़ा क़ानून: हर वनस्पति में पाँच प्रतिशत तिल का तेल मिलाना अनिवार्य कर दिया गया—ताकि हाइड्रोक्लोरिक एसिड के एक साधारण टेस्ट से मिलावट तुरंत पकड़ी जा सके।",
-     "prompt": "Macro shot inside a glass test tube: a clear oil sample turning a vivid crimson red upon contact with chemical reagent, proving the presence of sesame oil, dramatic backlight.",
+     "prompt": "A glass test tube close-up with clear oil turning bright crimson red at the bottom, a dropper above it, soft backlight, plain background, macro shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "An Indian chemist holding the crimson test tube up to an eye-level light source, nodding with certainty."
      ],
      "caption": "और सबसे बड़ा क़ानून: हर वनस्पति में 5% तिल का तेल मिलाना अनिवार्य कर दिया गया—ताकि हाइड्रोक्लोरिक एसिड के एक साधारण टेस्ट से मिलावट तुरंत पकड़ी जा सके।",
-     "title": "5% तिल का तेल"
+     "title": "5% तिल का तेल",
+     "seed": 8953
     },
     {
      "vo": "आपकी राय में: डालडा ग़रीब की रसोई का सहारा था, या घी में मिलावट का ज़रिया? कमेंट्स में बताइए। सरकार के नियमों से मिलावट तो रुक गई, पर डालडा के लिए असली ख़तरा अभी बहुत दूर क्षितिज पर खड़ा था।",
@@ -445,14 +454,15 @@
    "shots": [
     {
      "vo": "उन्नीस सौ अस्सी के और उन्नीस सौ नब्बे के दशक। भारत की अर्थव्यवस्था खुल रही थी, मध्यम वर्ग के घरों में रंगीन टेलीविज़न आ रहे थे, और भारतीय जीवनशैली तेज़ी से बदल रही थी।",
-     "prompt": "A 1990s Indian living room with a CRT television sitting on a wooden cabinet, an Indian family seated on a sofa watching colorful television commercials, warm lamplight in an evolving modern home.",
+     "prompt": "An Indian family seated on a sofa watching an old television set, father on the left, mother and two children on the right, TV screen glowing blank, warm lamp light, 1990s living room, medium-wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of the television screen displaying a colorful vintage fitness ad with vibrant 1990s typography."
      ],
      "caption": "1980s और 1990s। भारत की अर्थव्यवस्था खुल रही थी, मध्यम वर्ग के घरों में रंगीन टेलीविज़न आ रहे थे, और भारतीय जीवनशैली तेज़ी से बदल रही थी।",
-     "date": "1980s"
+     "date": "1980s",
+     "seed": 8955
     },
     {
      "vo": "इसी दौर में टीवी के विज्ञापनों में एक नया शब्द गूँजने लगा: 'कोलेस्ट्रॉल' और 'दिल की सेहत'।",
@@ -465,7 +475,7 @@
     },
     {
      "vo": "और फिर बाज़ार में आए रिफ़ाइंड ऑयल्स। सफोला उन्नीस सौ साठ के दशक से मौजूद था, उन्नीस सौ नवासी में सनड्रॉप आया, और फिर दो हज़ार में अदानी विल्मर का फॉर्च्यून तेल भी उतर गया।",
-     "prompt": "A well-lit 1990s grocery store shelf displaying modern clear plastic bottles with bright labels: yellow sunflower graphics, red heart emblems, clean transparent cooking oils glowing under tube-lights.",
+     "prompt": "Clear plastic bottles of golden cooking oil standing in rows on a shelf in a bright Indian retail aisle, plain blank labels, a woman in a cotton saree reaching for one, tube-light, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -475,7 +485,8 @@
      "label": {
       "name": "ADANI WILMAR",
       "role": "Fortune तेल, 2000 में उतरा"
-     }
+     },
+     "seed": 8957
     },
     {
      "vo": "इन नए तेलों के विज्ञापनों ने सीधे दिल पर वार किया। उन्होंने संदेश दिया कि जमा हुआ वनस्पति भारी है, पुराना है, और आपके परिवार के स्वास्थ्य के लिए ख़तरनाक है।",
@@ -503,12 +514,13 @@
     },
     {
      "vo": "बात सिर्फ़ धारणा की नहीं थी; वैज्ञानिक शोधों ने भी इस पर मुहर लगा दी। पुराने तरीक़े के हाइड्रोजनेशन से वनस्पति में भारी मात्रा में ट्रांस-फ़ैट पैदा होता था।",
-     "prompt": "A modern university biochemistry lab, an Indian scientist peering through an electronic microscope, scientific monitors displaying molecular chemical structures of trans fatty acids.",
+     "prompt": "An Indian scientist in a white coat looking into a microscope, a flask of white fat beside him, a screen showing coloured blank molecule models, bright laboratory, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of a printed research paper with highlighted text showing 'HIGH TRANS FAT CONCENTRATIONS IN HYDROGENATED VEGETABLE OILS'."
-     ]
+     ],
+     "seed": 8960
     },
     {
      "vo": "दो हज़ार नौ में सेंटर फ़ॉर साइंस एंड एनवायरनमेंट यानी सी एस ई की एक चौंकाने वाली स्टडी आई। बाज़ार में बिकने वाले वनस्पति ब्रांड्स में ट्रांस-फ़ैट की मात्रा ख़तरनाक स्तर तक पाई गई।",
@@ -522,7 +534,7 @@
     },
     {
      "vo": "अख़बारों में सुर्ख़ियाँ बनीं, डॉक्टरों ने चेतावनियाँ जारी कीं, और बाद में एफ एस एस ए आई ने कड़े नियम बनाकर ट्रांस-फ़ैट की सीमा को घटाकर सिर्फ़ दो प्रतिशत तक सीमित कर दिया।",
-     "prompt": "A stack of morning English and Hindi national newspapers on a tea stall table in 2011, dramatic bold headlines reading 'GOVERNMENT CRACKS DOWN ON TRANS FATS IN OILS'.",
+     "prompt": "A stack of folded newspapers on a tea stall table beside a glass of chai, an old man reading one with a worried look, blank grey newsprint, morning sun, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -532,7 +544,8 @@
      "news": {
       "headline": "ट्रांस-फ़ैट पर सख़्ती, सीमा सिर्फ़ 2%",
       "sub": "FSSAI के कड़े नियम"
-     }
+     },
+     "seed": 8962
     },
     {
      "vo": "डालडा की पूरी कैटेगरी सिकुड़ने लगी। वनस्पति की बिक्री साल-दर-साल गिरने लगी और एच यू एल जैसी दिग्गज कंपनी के लिए ये बिज़नेस बोझ बनने लगा।",
@@ -562,14 +575,15 @@
    "shots": [
     {
      "vo": "दो हज़ार के दशक की शुरुआत में एच यू एल अपनी वैश्विक रणनीति के तहत अपने कोर बिज़नेस—यानी साबुन, शैम्पू, डिटर्जेंट और स्किनकेयर—पर ध्यान केंद्रित कर रही थी।",
-     "prompt": "A modern bright HUL corporate showroom floor displaying rows of bestselling personal care items: Lux, Lifebuoy, Surf Excel, Fair & Lovely bottles glowing under elegant spotlights.",
+     "prompt": "Rows of colourful soap bars, shampoo bottles and detergent boxes with blank plain packaging on bright shelves, a woman in a saree picking up a soap bar, clean showroom, spotlights, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Medium shot of two corporate analysts reviewing product portfolios in an ultra-modern glass conference room."
      ],
      "caption": "2000 के दशक की शुरुआत में HUL अपनी वैश्विक रणनीति के तहत अपने कोर बिज़नेस—यानी साबुन, शैम्पू, डिटर्जेंट और स्किनकेयर—पर ध्यान केंद्रित कर रही थी।",
-     "date": "2000s"
+     "date": "2000s",
+     "seed": 8965
     },
     {
      "vo": "कम मार्जिन और लगातार गिरती माँग वाला वनस्पति बिज़नेस एच यू एल के भविष्य के प्लान में कहीं फ़िट नहीं बैठ रहा था।",
@@ -593,18 +607,19 @@
     },
     {
      "vo": "दो हज़ार तीन में ख़बर आई जिसने भारतीय बाज़ार को चौंका दिया। हिंदुस्तान लीवर ने डालडा ब्रांड को अमेरिकी एग्रीबिज़नेस दिग्गज बंज लिमिटेड को बेच दिया।",
-     "prompt": "A tense corporate press conference in Mumbai in 2003, British, American and Indian corporate directors shaking hands across a conference table with company banners in the background.",
+     "prompt": "Two men in suits shaking hands across a conference table, one American on the left, one Indian on the right, a yellow tin on the table between them, bright office light, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of the signed acquisition contract showing the signatures alongside the bold names 'HINDUSTAN LEVER' and 'BUNGE LIMITED'."
      ],
      "caption": "2003 में ख़बर आई जिसने भारतीय बाज़ार को चौंका दिया। Hindustan Lever ने Dalda ब्रांड को अमेरिकी एग्रीबिज़नेस दिग्गज Bunge Limited को बेच दिया।",
-     "date": "2003"
+     "date": "2003",
+     "seed": 8968
     },
     {
      "vo": "रिपोर्ट्स के मुताबिक़, ये सौदा नब्बे से सौ करोड़ रुपये के बीच हुआ था। जिस ब्रांड को लीवर ने उन्नीस सौ सैंतीस में जन्म दिया था, वो छियासठ साल बाद किसी और की मिल्कियत बन चुका था।",
-     "prompt": "A dramatic shot of a factory gate sign being unscrewed and replaced, an Indian maintenance technician in blue overalls holding a wrench under early morning light.",
+     "prompt": "A middle-aged Indian man in a grey suit with glasses handing a yellow tin across a table to an American man in a dark suit, a stack of rupee notes on the table, bright office light, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -614,7 +629,8 @@
      "label": {
       "name": "BUNGE LIMITED",
       "role": "अमेरिकी एग्रीबिज़नेस दिग्गज"
-     }
+     },
+     "seed": 8969
     },
     {
      "vo": "सोचिए: आज़ादी की लड़ाई से लेकर इक्कीसवीं सदी तक, तीन पीढ़ियों की रसोइयों का गवाह रहा वो पीला डिब्बा अब एक विदेशी कमोडिटी कंपनी का हिस्सा था।",
@@ -671,7 +687,7 @@
    "shots": [
     {
      "vo": "तो जिस डालडा ने देसी घी को मात दी थी, उसने रसोई में अपनी बादशाहत क्यों खोई? सस्ता होकर उसने भरोसा जीता, पर मिलावट की बदनामी, ट्रांस-फ़ैट के डर और रिफ़ाइंड ऑयल्स की क्रांति ने वही ताज उससे छीन लिया।",
-     "prompt": "An evocative cinematic still life: on an antique wooden table sits a vintage 1940s yellow Dalda tin side-by-side with a traditional brass lota of desi ghee and a modern clear refined oil bottle, warm sunset light pouring through a window.",
+     "prompt": "A yellow tin on the left, a brass pot of golden ghee in the centre and a clear bottle of refined oil on the right, standing on an old wooden table, sunset light through a window, sharp focus, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -680,7 +696,8 @@
      "caption": "तो जिस Dalda ने देसी घी को मात दी थी, उसने रसोई में अपनी बादशाहत क्यों खोई? सस्ता होकर उसने भरोसा जीता, पर मिलावट की बदनामी, ट्रांस-फ़ैट के डर और रिफ़ाइंड ऑयल्स की क्रांति ने वही ताज उससे छीन लिया।",
      "quote": {
       "text": "सस्ता होकर उसने भरोसा जीता, पर मिलावट की बदनामी ने ताज छीन लिया।"
-     }
+     },
+     "seed": 8975
     },
     {
      "vo": "और अब वो बात, जो ज़्यादातर लोग नहीं जानते: डालडा नाम आख़िर आया कहाँ से? जैसा कि आपने देखा, इसे हॉलैंड से दादा एंड को. नाम की कंपनी इम्पोर्ट करती थी।",
@@ -694,14 +711,15 @@
     },
     {
      "vo": "जब लीवर ने इसे ख़रीदा, तो दादा के चार अक्षरों के बीच में लीवर ने अपने नाम का 'एल' जोड़ दिया—डी-ए-एल-डी-ए। और इस तरह जन्म हुआ डालडा का!",
-     "prompt": "An artistic graphic animation in cinematic live-action style: vintage wooden printing press letter-blocks spelling 'D A D A' on a dark table, as a hand places a brass letter 'L' squarely in the middle to form 'D A L D A'.",
+     "prompt": "A hand placing a brass letter block into the gap between wooden blocks on a dark table, forming a five-block row, desk lamp light, sharp focus, close-up",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Crisp extreme close-up of the embossed letters 'DALDA' stamped deeply into fresh yellow metal plate under dramatic directional rim light."
      ],
      "caption": "जब Lever ने इसे ख़रीदा, तो Dada के चार अक्षरों के बीच में Lever ने अपने नाम का 'L' जोड़ दिया—D-A-L-D-A। और इस तरह जन्म हुआ Dalda का!",
-     "drop": true
+     "drop": true,
+     "seed": 8977
     },
     {
      "vo": "अगली बार जब किसी पुराने हलवाई की दुकान पर वो पीला डिब्बा या पाम ट्री दिखे, तो याद रखिएगा कि उसके भीतर भारत के बदलते स्वाद का पूरा इतिहास दर्ज है।",
@@ -728,5 +746,73 @@
  "voice_requested": "voice-ll-023-dalda-rise-fall-2009bcdc26",
  "released_at": "2026-11-09 10:00",
  "voice_ok": "voice-ll-023-dalda-rise-fall-2009bcdc26",
- "voice_approved_at": "2026-11-09 10:00"
+ "voice_approved_at": "2026-11-09 10:00",
+ "repaint": {
+  "shots": [
+   1,
+   3,
+   5,
+   13,
+   19,
+   24,
+   30,
+   33,
+   34,
+   36,
+   38,
+   41,
+   43,
+   46,
+   49,
+   50,
+   56,
+   58
+  ],
+  "thumbs": [],
+  "at": "2026-11-09 12:44"
+ },
+ "shot_qc": {
+  "checked": "2026-11-09T06:02:34Z",
+  "rounds": 1,
+  "why": {
+   "1": "second tile: sign and can read 'QALDA' and 'DALDAA', misspelt brand",
+   "3": "first tile: can reads 'goakinf oil', gibberish text",
+   "5": "second tile: ship hull has pseudo-letters 'BUAIMA FIGNS'",
+   "13": "second tile: gate sign garbled ('INDBATT VANSPAT')",
+   "19": "first tile: chalkboard has gibberish script and 'Che8'",
+   "24": "second tile: shop sign is garbled pseudo-Hindi",
+   "30": "newspaper headline and protest placards carry garbled Hindi",
+   "33": "first tile: circular text is gibberish ('FIFTICENT POUTES')",
+   "34": "first tile: gibberish shop sign ('COLAYTITA') and coat text 'Pesild'",
+   "36": "first tile: painted English word 'FITNESS'",
+   "38": "first tile: painted English 'SUNFLOWER OIL' label",
+   "41": "first tile: newspaper heading is gibberish ('IGH BROSSIANT WGETALE OIL')",
+   "43": "first tile: stamp has pseudo-letters; second tile: painted English headline",
+   "46": "second tile: store signs read 'LIMX' and 'HUL HH', garbled",
+   "49": "second tile: banner has garbled Hindi",
+   "50": "second tile: sign misspelt 'FACORY'",
+   "56": "first tile: smudged garbled text on sign and can; second tile: garbled sign 'lurauurt'",
+   "58": "first tile: sign reads 'ALLDA', misspelt brand"
+  },
+  "recheck": [
+   1,
+   3,
+   5,
+   13,
+   19,
+   24,
+   30,
+   33,
+   34,
+   36,
+   38,
+   41,
+   43,
+   46,
+   49,
+   50,
+   56,
+   58
+  ]
+ }
 }
