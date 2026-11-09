@@ -394,19 +394,23 @@ def main(script_path, out_dir):
         dg = DIAGRAMS[th["zoom_diagram"]]()
         zx, zy, zr = th.get("zoom_crop", (960, 540, 330))
         zoom = cover(dg.crop((zx - zr, zy - zr, zx + zr, zy + zr)), 2 * r, 2 * r)
-    else:
+    elif (out / "thumb-zoom.png").exists():  # FLUX paints no thumb-zoom.png: no bubble then
         zoom = cover(Image.open(out / "thumb-zoom.png").convert("RGB"), 2 * r, 2 * r)
-    m = Image.new("L", (2 * r, 2 * r), 0)
-    ImageDraw.Draw(m).ellipse((0, 0, 2 * r, 2 * r), fill=255)
-    sh = Image.new("L", (W, H), 0)
-    ImageDraw.Draw(sh).ellipse((cx - r + 10, cy - r + 16, cx + r + 10, cy + r + 16), fill=190)
-    img.paste((0, 0, 0), mask=sh.filter(ImageFilter.GaussianBlur(18)))
-    img.paste(zoom, (cx - r, cy - r), m)
+    else:
+        zoom = None
     d = ImageDraw.Draw(img)
-    d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=K.BONE, width=10)
-    d.ellipse((cx - r - 9, cy - r - 9, cx + r + 9, cy + r + 9), outline=K.RED, width=9)
-    # arrow from the words toward the bubble
-    arrow(d, (560, 300), (cx - r - 22, cy + 30))
+    if zoom is not None:
+        m = Image.new("L", (2 * r, 2 * r), 0)
+        ImageDraw.Draw(m).ellipse((0, 0, 2 * r, 2 * r), fill=255)
+        sh = Image.new("L", (W, H), 0)
+        ImageDraw.Draw(sh).ellipse((cx - r + 10, cy - r + 16, cx + r + 10, cy + r + 16), fill=190)
+        img.paste((0, 0, 0), mask=sh.filter(ImageFilter.GaussianBlur(18)))
+        img.paste(zoom, (cx - r, cy - r), m)
+        d = ImageDraw.Draw(img)
+        d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=K.BONE, width=10)
+        d.ellipse((cx - r - 9, cy - r - 9, cx + r + 9, cy + r + 9), outline=K.RED, width=9)
+        # arrow from the words toward the bubble
+        arrow(d, (560, 300), (cx - r - 22, cy + 30))
     # words (brand style: yellow Anton with ink stroke, sting word in a red box)
     lines = [t.strip() for t in script["thumbnail"]["text"].split("|")]
     size = 150 if len(lines) <= 2 else 120
