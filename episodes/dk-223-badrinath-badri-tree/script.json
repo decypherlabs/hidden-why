@@ -33,9 +33,10 @@
     },
     {
      "vo": "हजारों साल पहले विष्णु जी ने नर-नारायण के रूप में अवतार लिया था।",
-     "prompt": "Two identical divine sages, fair-skinned men with long dark hair and simple saffron robes, sitting in meditation side by side on a rocky Himalayan ledge, centre, clear overcast daylight, medium shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "Two fair-skinned sages with long dark hair and plain saffron robes sitting side by side in meditation, the man on the left and the man on the right identical, on a rocky Himalayan ledge with snow behind, overcast daylight, medium shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "वे धर्म की रक्षा के लिए हिमालय की कठिन चोटियों पर आए थे।",
@@ -83,5 +84,19 @@
   }
  ],
  "released_at": "2026-11-09 07:37",
- "voice_requested": "voice-dk-223-badrinath-badri-tree-505c6badbc"
+ "voice_requested": "voice-dk-223-badrinath-badri-tree-505c6badbc",
+ "repaint": {
+  "shots": [
+   2
+  ],
+  "thumbs": [],
+  "at": "2026-11-09 08:13"
+ },
+ "shot_qc": {
+  "checked": "2026-11-09T02:42:45Z",
+  "rounds": 1,
+  "why": {
+   "2": "Text or letters are painted on the orange cloth hanging from the rock."
+  }
+ }
 }
