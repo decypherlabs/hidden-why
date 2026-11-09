@@ -112,7 +112,7 @@
     {
      "vo": "रफ़्तार? साल में करीब पचास किलोमीटर तक!",
      "caption": "रफ़्तार? साल में करीब 50 km तक!",
-     "prompt": "A team of sled dogs sprinting across flat blue-white Arctic sea ice, snow spraying behind them, an Inuit driver in a fur-trimmed parka leaning forward on the sled, plain empty ice and sky, pink and gold dawn light, sharp focus, wide shot",
+     "prompt": "Sled dogs sprinting across flat blue-white Arctic sea ice, snow spraying behind them, an Inuit driver in a fur-trimmed parka leaning forward on the sled, plain empty ice and sky, pink and gold dawn light, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -120,12 +120,12 @@
       "Close-up of sled dog paws and harness pounding through powdery snow, motion blur, ice crystals flying, cold blue light."
      ],
      "key": "50 km",
-     "seed": 8922
+     "seed": 16841
     },
     {
      "vo": "लेकिन रुकिए, इसकी वजह से एयरपोर्ट्स के रनवे नंबर तक बदल जाते हैं!",
      "caption": "लेकिन रुकिए, इसकी वजह से airports के runway नंबर तक बदल जाते हैं!",
-     "prompt": "A large passenger airliner touching down on a long runway at dusk, huge plain white painted stripes down the centre of the asphalt, wet asphalt reflecting warm lights, orange sky, ground trucks parked far to the side, sharp focus, wide aerial shot",
+     "prompt": "A large passenger airliner touching down on a long runway, huge plain white painted stripes down the centre of the asphalt, workers in orange vests standing far to the side beside a paint truck, wet asphalt reflecting warm lights, orange dusk sky, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -133,7 +133,7 @@
       "Close-up of an airliner nose wheel rolling over white painted runway markings, sparks of light on wet asphalt, shallow depth of field."
      ],
      "key": "runway नंबर",
-     "seed": 8923
+     "seed": 16842
     },
     {
      "vo": "रनवे का नंबर उसकी कम्पास दिशा से बनता है।",
@@ -146,12 +146,12 @@
       "Close-up of a small magnetic compass with a blank dial and a trembling needle, brass rim catching light, cockpit blur behind."
      ],
      "key": "compass दिशा",
-     "seed": 8924
+     "seed": 16843
     },
     {
      "vo": "दो हज़ार ग्यारह में अमेरिका के टैम्पा एयरपोर्ट को अपने रनवे नंबर बदलने पड़े।",
      "caption": "2011 में America के Tampa airport को अपने runway नंबर बदलने पड़े।",
-     "prompt": "Workers in orange vests repainting a wide white stripe on the end of an airport runway with a paint-roller machine, a road-marking truck beside them, palm trees along the edge, a jet taxiing far behind, plain asphalt, humid golden morning light, sharp focus, wide shot",
+     "prompt": "Workers in orange vests repainting a wide white stripe at the end of an airport runway with a paint-roller machine, a road-marking truck beside them, palm trees along the edge, a jet taxiing far behind, plain asphalt, humid golden morning light, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -159,7 +159,7 @@
       "Close-up of a wet white paint roller leaving a thick bright stripe on dark asphalt, glossy paint, tiny pebbles, sharp detail."
      ],
      "key": "2011",
-     "seed": 8925
+     "seed": 16844
     },
     {
      "vo": "वजह: धरती के अंदर उनतीस सौ किलोमीटर नीचे पिघला लोहा लगातार बहता है.",
@@ -199,8 +199,7 @@
    3,
    4,
    5,
-   6,
-   8
+   6
   ],
   "thumbs": [
    "shot-03-2.png",
@@ -210,30 +209,25 @@
    "shot-05-2.png",
    "shot-05-3.png",
    "shot-06-2.png",
-   "shot-06-3.png",
-   "shot-08-2.png",
-   "shot-08-3.png"
+   "shot-06-3.png"
   ],
-  "at": "2026-11-09 18:20"
+  "at": "2026-11-09 19:00"
  },
  "shot_qc": {
-  "checked": "2026-11-09T12:49:11Z",
-  "rounds": 1,
+  "checked": "2026-11-09T13:29:29Z",
+  "rounds": 2,
   "why": {
-   "3b": "Painted warning sign with text and symbols in the background",
-   "3c": "Sign with painted lettering ('SOLLON') in the background",
-   "4b": "Painted text on the cabin sign and the paper on the desk",
-   "5b": "Painted lettering on the cockpit panels (red label and 'ST AIT ONE')",
-   "6b": "World map on a wall and a sign with text, which breaks the map rule",
-   "8b": "US map on a sign, a projector beam and a sign with an X, none of which match the line",
-   "8c": "Sign with a screen graph that has nothing to do with the line"
+   "3b": "Sign with painted lettering ('Thart') and an arrow.",
+   "3c": "A map with route lines is shown on a sign board.",
+   "4b": "Display screens carry painted numbers and letters.",
+   "5c": "Cockpit panel has painted words and letters.",
+   "6b": "A world map is shown on a screen in the background."
   },
   "recheck": [
    "3",
    "4",
    "5",
-   "6",
-   "8"
+   "6"
   ]
  }
 }
