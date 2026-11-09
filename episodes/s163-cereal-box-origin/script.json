@@ -1,0 +1,78 @@
+{
+ "slug": "s163-cereal-box-origin",
+ "build": "github",
+ "format": "short",
+ "title": "Why Was Breakfast Cereal Invented? 🥣",
+ "hook_text": "BREAKFAST AS PUNISHMENT",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "voice_speed": 1.05,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Corn flakes were invented to stop people from feeling lust.",
+     "prompt": "A stern doctor in a white coat and round spectacles holding up a bowl of plain pale corn flakes, standing at the front of a Victorian sanatorium dining hall, rows of pale patients in grey gowns seated at long tables, bright window daylight, wide shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "And the doctor behind them kept them bland on purpose.",
+     "prompt": "A doctor's hand in a dark 1890s sleeve pushing a white sugar bowl away across a bare wooden table, a plain bowl of dry pale flakes in the foreground, bright window daylight, close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1894, stale boiled wheat rolled into flakes; by 1898, they tried corn.",
+     "prompt": "Heavy iron rollers pressing cooked grain into thin golden flakes in an 1890s kitchen, a basket of corn cobs beside them, flakes falling onto a tray, steam and warm lamp light, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Dr. John Harvey Kellogg believed spicy, rich food made people lustful.",
+     "prompt": "A stern middle-aged man with a moustache and round spectacles, white 1890s suit, standing at the head of a long sanatorium dining table, plates of plain boiled grain in front of pale patients while a servant carries away a tray of spiced dishes and rich cakes, bright daylight, wide shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "His brother Will added sugar anyway, and they fought in court.",
+     "prompt": "A hand pouring white sugar over a bowl of corn flakes on the left side of a long wooden courtroom table, an angry man in a dark 1900s suit pounding his fist on the table on the right, wood-panelled courtroom, bright daylight, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Corn flakes started as hospital food, kept bland to fight lust.",
+     "prompt": "A bowl of corn flakes with milk on a modern kitchen table, a spoon resting beside it, a plain 1890s hospital tray with a bowl of pale flakes and a tin cup standing next to the bowl, warm morning sun, close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "cover_text": "CORN FLAKES WERE *HOSPITAL* FOOD",
+ "cover_shot": 1,
+ "topic_demand": {
+  "median": 1105073,
+  "hits": 6,
+  "outliers": 3,
+  "q": "why was cereal invented",
+  "matched": "10/10"
+ },
+ "hook_score": {
+  "score": 8,
+  "why": "Shocking true statement, short (10 words), opens a strong gap (lust? why?), and line 2 'bland on purpose' builds into Kellogg's motive; slightly familiar-fact risk but the lust angle is unknown to most.",
+  "was": "Corn flakes started as food for hospital patients."
+ },
+ "cover": {
+  "prompt": "Realistic oil painting, close-up of a plain white enamel hospital tray holding a bowl of pale unsweetened corn flakes beside a glass of water, crisp white sanitarium bedsheets behind, bright clinical morning light, one clear subject, no text, no logos, vertical composition, natural light, true-to-life colour, highly detailed"
+ }
+}

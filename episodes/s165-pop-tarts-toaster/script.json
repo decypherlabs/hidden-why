@@ -1,0 +1,78 @@
+{
+ "slug": "s165-pop-tarts-toaster",
+ "build": "github",
+ "format": "short",
+ "title": "Why Pop-Tarts Weren't Kellogg's Idea 🍓",
+ "hook_text": "DOG FOOD TECH",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "voice_speed": 1.05,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Pop-Tart foil was borrowed from dog food.",
+     "prompt": "Rows of shiny silver foil pouches of dog food riding a conveyor belt in a 1960s factory, one pouch in the foreground opened to show a rectangular toaster pastry sealed in the same silver foil, factory workers in white caps far behind, bright overhead factory light, sharp focus, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Rival Post announced a foil-wrapped toaster pastry first, in 1963.",
+     "prompt": "A man's hand gripping a newspaper on a wooden desk, the page showing a large drawing of a silver foil-wrapped toaster pastry, plain blank columns, a cigarette smoking in a glass ashtray beside it, 1960s office, warm lamp light, close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Its secret was foil that kept food fresh, borrowed from Post's dog food.",
+     "prompt": "A silver foil pouch of dog food and an identical silver foil pouch holding a toaster pastry side by side on a 1960s kitchen counter, a brown dog's nose sniffing the edge of the dog food pouch on the left, bright morning sun, sharp focus, close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Post announced it before it was ready, so Kellogg's raced to beat it.",
+     "prompt": "A 1960s bakery factory line running at full speed, rows of rectangular toaster pastries moving on a conveyor belt in the foreground, two workers in white aprons and caps rushing along the belt seen from behind, bright overhead light, sharp focus, wide shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Pop-Tarts hit stores first, in 1964, and frosting took three more years.",
+     "prompt": "A hand reaching for the last silver foil-wrapped pastry pack on a nearly empty grocery shelf, rows of identical foil packs on the shelf, a second shopper's hand reaching from the right, plain blank price tags, 1960s aisle, bright daylight, sharp focus, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So Pop-Tarts weren't Kellogg's idea; Kellogg's just reached the toaster first.",
+     "prompt": "Two chrome toasters side by side on a kitchen counter, the left toaster with a golden toaster pastry popped high above it, the right toaster with its lever still pressed down and nothing showing, bright morning sun through a window, sharp focus, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "cover_text": "POP-TARTS WERE A *RIVAL'S* IDEA",
+ "cover_shot": 1,
+ "topic_demand": {
+  "median": 36363,
+  "hits": 4,
+  "outliers": 2,
+  "q": "why pop tarts invented",
+  "matched": "10/10"
+ },
+ "hook_score": {
+  "score": 7,
+  "why": "Short, surprising and concrete: dog food in a pastry wrapper. It opens a strong 'how?' gap and can be shown, but it gives away the foil secret that line 2 delivers.",
+  "was": "Pop-Tarts weren't even Kellogg's idea."
+ },
+ "cover": {
+  "prompt": "Realistic painting, a big close-up of a chrome 1960s toaster with a plain unfrosted rectangular pastry popping out, a torn silver foil pouch on the counter beside it, bright kitchen light, one clear subject, no text, no logos, vertical composition, natural light, true-to-life colour, highly detailed"
+ }
+}

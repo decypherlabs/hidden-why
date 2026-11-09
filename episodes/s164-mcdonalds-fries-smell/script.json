@@ -1,0 +1,78 @@
+{
+ "slug": "s164-mcdonalds-fries-smell",
+ "build": "github",
+ "format": "short",
+ "title": "Why Did McDonald's Fries Change in 1990? 🍟",
+ "hook_text": "ONE MAN. ONE AD.",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "voice_speed": 1.05,
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "One heart attack survivor changed every McDonald's fry.",
+     "prompt": "A middle-aged man in a hospital gown sitting up in a hospital bed holding open a large newspaper with a big full-page advertisement showing a red heart picture, serious determined face, pale blue hospital room with a window, bright overcast daylight, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Until 1990, they were fried in 93 percent beef fat.",
+     "prompt": "A deep steel fryer full of bubbling cloudy beef fat with a wire basket of golden french fries lifting out of it, a big white block of tallow fat on the steel counter beside it, clean 1980s kitchen, bright overhead light, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then a heart attack survivor bought full-page ads attacking that fat.",
+     "prompt": "A man's hand slamming a large open newspaper onto a wooden office desk, the full-page advertisement showing a big red clogged heart picture with plain blank text areas, seen from the side, 1990 office, warm lamp light, close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In July 1990, McDonald's switched its fryers to vegetable oil.",
+     "prompt": "Clear golden vegetable oil pouring from a large jug into an empty steel fryer vat, a single half-eaten golden fry lying on a tray beside the fryer, clean restaurant kitchen, bright overhead light, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "To bring the old taste back, they add natural beef flavor.",
+     "prompt": "A glass lab dropper releasing one amber drop above a heaped pile of golden french fries, a small brown cow reflected in the drop, clean white lab bench, bright daylight, macro close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "That added beef flavor is why US fries still aren't vegetarian.",
+     "prompt": "A single golden french fry held up large in the foreground by a hand, a brown cow grazing on a green pasture far behind it, everything in sharp focus, bright morning sun, close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "cover_text": "US MCDONALD'S FRIES AREN'T *VEGETARIAN*",
+ "cover_shot": 1,
+ "topic_demand": {
+  "median": 227273,
+  "hits": 6,
+  "outliers": 1,
+  "q": "why mcdonalds fries taste different",
+  "matched": "10/10"
+ },
+ "hook_score": {
+  "score": 8,
+  "why": "Short, shocking, specific: one man changed every fry. Opens who/how gap, line 2 (ads) builds, payoff at oil switch. Visualizable.",
+  "was": "McDonald's fries in the US still aren't vegetarian."
+ },
+ "cover": {
+  "prompt": "Realistic painting, a big glistening close-up of golden french fries lifting out of a fryer basket, a faint ghostly cow shape rising in the steam above them, warm diner light, one clear subject, no text, no logos, vertical composition, natural light, true-to-life colour, highly detailed"
+ }
+}
