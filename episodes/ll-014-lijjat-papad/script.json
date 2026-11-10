@@ -223,11 +223,13 @@
      "caption": "सात औरतों की उम्मीद पानी में बहती दिख रही थी। क्या सपना यहीं ख़त्म हो जाएगा?"
     },
     {
-     "prompt": "Round papads spread on a wooden rope cot with a glowing clay stove beneath, women's hands arranging them, warm orange light, rain streaking the window, medium shot",
+     "prompt": "A traditional rope cot with papads spread on it, a glowing clay stove underneath, women's hands arranging them, warm orange light, rain streaking the window, medium shot, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "फिर, लिज्जत के अपने इतिहास के मुताबिक़, हल निकला बस दो चीज़ों से: एक खाट और एक चूल्हा।",
-     "caption": "फिर, Lijjat के अपने इतिहास के मुताबिक़, हल निकला बस दो चीज़ों से: एक खाट और एक चूल्हा।"
+     "caption": "फिर, Lijjat के अपने इतिहास के मुताबिक़, हल निकला बस दो चीज़ों से: एक खाट और एक चूल्हा।",
+     "seed": 8945,
+     "more": []
     },
     {
      "prompt": "A small 1960 Mumbai room glowing warm from a clay stove, crisp dry papads stacked on a plate, rain at the window, medium shot",
@@ -521,11 +523,13 @@
      "caption": "अगर आपके घर में कोई घर से कुछ शुरू करना चाहता है, ये video उन्हें ज़रूर भेजिए।"
     },
     {
-     "prompt": "An elderly woman's wrinkled hands resting on an old wooden rolling pin, a beam of sunrise falling across them, close-up",
+     "prompt": "An elderly woman's wrinkled hands resting on an old wooden rolling pin, a beam of sunrise falling across them, close-up shot, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "लेकिन इस कहानी का सबसे भावुक पल अभी बाकी है: उन सात में से एक बहन, नब्बे पार की उम्र में।",
-     "caption": "लेकिन इस कहानी का सबसे भावुक पल अभी बाकी है: उन सात में से एक बहन, नब्बे पार की उम्र में।"
+     "caption": "लेकिन इस कहानी का सबसे भावुक पल अभी बाकी है: उन सात में से एक बहन, नब्बे पार की उम्र में।",
+     "seed": 8985,
+     "more": []
     }
    ]
   },
@@ -689,12 +693,11 @@
  "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, ultra detailed, no text, no logos, natural true-to-life light and colour, moderate saturation, realistic documentary grade",
  "repaint": {
   "shots": [
-   6,
-   7,
-   41
+   26,
+   66
   ],
   "thumbs": [],
-  "at": "2026-11-11 04:18"
+  "at": "2026-11-11 04:58"
  },
  "rewrite": {
   "at": "2026-11-11 04:18",
@@ -706,5 +709,18 @@
    41
   ]
  },
- "voice_requested": "voice-ll-014-lijjat-papad-81645f12e9"
+ "voice_requested": "voice-ll-014-lijjat-papad-81645f12e9",
+ "shot_qc": {
+  "checked": "2026-11-10T23:18:52Z",
+  "rounds": 1,
+  "why": {
+   "12b": "The image shows a modern professional kitchen setup with machines, which contradicts the historical 1959 context of hand-rolling papad in a chawl mentioned in the narration.",
+   "26": "The painting depicts a modern, high-end gas stove/kitchen counter which does not match the historical 1950s 'chulha' (clay stove) and 'khat' (cot) setup described in the narration.",
+   "66": "The image shows a young woman instead of the elderly woman (90+ years old) described in the narration line."
+  },
+  "recheck": [
+   "26",
+   "66"
+  ]
+ }
 }
