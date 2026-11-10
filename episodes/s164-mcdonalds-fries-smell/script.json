@@ -27,10 +27,10 @@
     },
     {
      "vo": "Until 1990, they were fried in 93 percent beef fat.",
-     "prompt": "A tall steel fryer full of bubbling thick white-yellow beef fat with a wire basket of golden french fries lifting out of it, a big pale white block of beef tallow on the steel counter beside it, a cook in a plain white uniform standing at the right, clean kitchen with plain blank walls, bright overhead light, medium shot",
+     "prompt": "A tall steel deep fryer filled to the brim with bubbling thick white-yellow beef fat, a wire basket of golden french fries lifting out of it, a large pale white block of beef tallow on the steel counter beside it, a cook in a plain white uniform standing small at the right, clean kitchen with plain blank steel surfaces, bright overhead light, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8921
+     "seed": 16840
     },
     {
      "vo": "Then millionaire Phil Sokolof bought full-page ads titled 'The Poisoning of America.'",
@@ -40,10 +40,10 @@
     },
     {
      "vo": "In July 1990, McDonald's switched its fryers to vegetable oil.",
-     "prompt": "Clear golden vegetable oil pouring from a plain unlabelled glass jug into a big steel fryer vat, a cook in a white uniform holding the jug on the left, a tray of golden french fries on the counter at the right, clean kitchen with plain blank walls, bright overhead light, medium shot",
+     "prompt": "A cook in a white uniform on the left pouring clear golden oil from a plain glass jug into a big steel deep fryer full of bubbling oil, a wire basket of golden french fries hanging above the fryer at the right, clean kitchen with plain blank steel surfaces, bright overhead light, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8923
+     "seed": 16842
     },
     {
      "vo": "To bring the old taste back, they add natural beef flavor.",
@@ -78,7 +78,7 @@
  },
  "cover": {
   "prompt": "Realistic painting, a big glistening close-up of golden french fries lifting out of a fryer basket, a faint ghostly cow shape rising in the steam above them, warm diner light, one clear subject, no text, no logos, vertical composition, natural light, true-to-life colour, highly detailed",
-  "seed": 7928
+  "seed": 15847
  },
  "owner_sample": true,
  "review_note": "owner, 9 Nov 2026: line 3 made specific (Phil Sokolof's 'The Poisoning of America' ads); the start-to-end sample",
@@ -88,34 +88,25 @@
  "voice_approved_at": "2026-11-10 17:23",
  "repaint": {
   "shots": [
-   1,
    2,
-   4,
-   5,
-   6
+   4
   ],
   "thumbs": [
    "cover.png"
   ],
-  "at": "2026-11-10 18:21"
+  "at": "2026-11-10 22:42"
  },
  "shot_qc": {
-  "checked": "2026-11-10T12:51:00Z",
-  "rounds": 1,
+  "checked": "2026-11-10T17:10:50Z",
+  "rounds": 2,
   "why": {
-   "1": "Newspaper has painted headline text. It shows a man reading, not a survivor changing the fries.",
-   "2": "Painted text on the sign and butter wrapper. The fryer holds white fat, not beef fat.",
-   "4": "Painted text on the oil jug and signs.",
-   "5": "Painted text on the dropper and signs. Two cows are stacked on the fries.",
-   "6": "Painted sign. It doesn't show vegetarian status, just a hand holding fries in a field.",
-   "C": "Painted logos and text in the background signs."
+   "2": "Text is painted on the fryer (\"FLYLST\"). The scene doesn't read clearly as a fryer full of beef fat.",
+   "4": "Garbled fake text is painted on the fry boxes. The painting is also a lab flask, not a fryer being switched to vegetable oil.",
+   "C": "Painted-in letters and signs in the background (\"ts\", sign text, a label on the basket)."
   },
   "recheck": [
-   "1",
    "2",
    "4",
-   "5",
-   "6",
    "C"
   ]
  }
