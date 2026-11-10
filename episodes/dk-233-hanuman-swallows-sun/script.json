@@ -63,9 +63,10 @@
     },
     {
      "vo": "वज्र उनके जबड़े पर लगा, और वो पर्वत पर गिर पड़े।",
-     "prompt": "baby Hanuman lying face up on a rocky mountain peak after falling, eyes closed, small golden-furred child with monkey face, a thin white lightning streak fading in the sky above him, a small crack in the rock beneath him, grey overcast daylight, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "baby Hanuman lying face up on a rocky mountain peak, eyes closed, alone in the frame, small golden-furred child with monkey face and waist cloth, a small crack in the rock beneath him, a thin white lightning streak fading in the grey sky above, overcast daylight, medium-wide shot, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8926
     },
     {
      "vo": "जबड़े को 'हनु' कहते हैं, तभी से वो हनुमान कहलाए।",
@@ -75,9 +76,10 @@
     },
     {
      "vo": "कमेंट में जय हनुमान लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
-     "prompt": "baby Hanuman standing on a mountain top with both hands folded in prayer, smiling, small golden-furred child with monkey face and waist cloth, soft golden glow around him, sunrise sky behind, medium shot, sharp focus, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
+     "prompt": "baby Hanuman standing alone on a mountain top with both hands folded in prayer, smiling, one single small golden-furred child with monkey face and waist cloth, soft golden glow around him, sunrise sky behind, medium shot, sharp focus, vertical composition, cinematic film still of the whole scene, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8928
     }
    ]
   }
@@ -86,5 +88,25 @@
  "released_at": "2026-11-10 22:26",
  "voice_requested": "voice-dk-233-hanuman-swallows-sun-96f2afa902",
  "voice_ok": "voice-dk-233-hanuman-swallows-sun-96f2afa902",
- "voice_approved_at": "2026-11-10 23:14"
+ "voice_approved_at": "2026-11-10 23:14",
+ "repaint": {
+  "shots": [
+   7,
+   9
+  ],
+  "thumbs": [],
+  "at": "2026-11-11 00:10"
+ },
+ "shot_qc": {
+  "checked": "2026-11-10T18:38:17Z",
+  "rounds": 1,
+  "why": {
+   "7": "A second crowned head or face sits stacked against the sleeping baby's head, so the figure is duplicated.",
+   "9": "The large figure behind the child has two heads or faces stacked on each other, with an extra crown and face at the left."
+  },
+  "recheck": [
+   "7",
+   "9"
+  ]
+ }
 }
