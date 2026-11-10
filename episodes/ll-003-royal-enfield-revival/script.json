@@ -216,7 +216,7 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "हीरो होंडा, टी वी एस सुज़ुकी, बजाज कावासाकी। ये मोटरसाइकिलें घर-घर पहुँच गईं।",
      "caption": "Hero Honda, TVS Suzuki, Bajaj Kawasaki। ये motorcycles घर-घर पहुँच गईं।",
-     "seed": 16861,
+     "seed": 24780,
      "more": []
     },
     {
@@ -225,7 +225,7 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "हर ख़रीदार एक ही बात पूछता था: कितना देती है? और बुलेट का जवाब किसी को पसंद नहीं था।",
      "caption": "हर ख़रीदार एक ही बात पूछता था: कितना देती है? और Bullet का जवाब किसी को पसंद नहीं था।",
-     "seed": 16862,
+     "seed": 24781,
      "more": []
     },
     {
@@ -262,7 +262,7 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "पर हालत नहीं सुधरी। शोरूम्स में मोटरसाइकिलें धूल खाती रहीं, और कंपनी घाटे में रही।",
      "caption": "पर हालत नहीं सुधरी। showrooms में motorcycles धूल खाती रहीं, और company घाटे में रही।",
-     "seed": 16867,
+     "seed": 24786,
      "more": []
     },
     {
@@ -342,7 +342,7 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "राइडर्स की शिकायतें ध्यान से सुनी गईं। फ़ैक्ट्री में काम का तरीका बदला, सप्लायर्स पर सख़्ती हुई।",
      "caption": "riders की शिकायतें ध्यान से सुनी गईं। factory में काम का तरीका बदला, suppliers पर सख़्ती हुई।",
-     "seed": 16877,
+     "seed": 24796,
      "more": []
     },
     {
@@ -466,7 +466,7 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "और फिर, सालों बाद पहली बार राहत की साँस। शोरूम्स के बाहर लाइनें लगने लगीं।",
      "caption": "और फिर, सालों बाद पहली बार राहत की साँस। showrooms के बाहर लाइनें लगने लगीं।",
-     "seed": 16893,
+     "seed": 24812,
      "more": []
     },
     {
@@ -691,16 +691,14 @@
  "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, ultra detailed, no text, no logos, warm golden-hour light, rich saturated amber and teal colour, triumphant mood",
  "repaint": {
   "shots": [
-   16,
    23,
    24,
    29,
-   31,
    39,
    55
   ],
   "thumbs": [],
-  "at": "2026-11-11 02:11"
+  "at": "2026-11-11 03:00"
  },
  "rewrite": {
   "at": "2026-11-10 23:36",
@@ -722,23 +720,19 @@
  },
  "voice_requested": "voice-ll-003-royal-enfield-revival-d564c1f711",
  "shot_qc": {
-  "checked": "2026-11-10T20:31:37Z",
-  "rounds": 2,
+  "checked": "2026-11-10T21:18:52Z",
+  "rounds": 3,
   "why": {
-   "16": "Text is gibberish/pseudo-letters on the factory components.",
-   "23": "Text on bikes and signage is garbled/pseudo-letters.",
-   "24": "Text on storefront and posters is garbled/pseudo-letters.",
-   "29": "Text on showroom signage is garbled/pseudo-letters.",
-   "31": "Text on documents/meeting signage is garbled/pseudo-letters.",
-   "39": "Text on factory signage/manuals is garbled/pseudo-letters.",
-   "55": "Text on showroom signage is garbled/pseudo-letters."
+   "23": "Text is garbled/non-existent on motorcycle tanks; brands not recognizable.",
+   "24": "Royal Enfield Bullet not clearly identifiable; 'Kitna deti hai' context missing.",
+   "29": "Motorcycles in showroom look like generic AI blobs, no clear brand identity.",
+   "39": "Factory setting lacks Indian context; process change not depicted.",
+   "55": "Crowd scene does not reflect a motorcycle showroom line; generic AI faces."
   },
   "recheck": [
-   "16",
    "23",
    "24",
    "29",
-   "31",
    "39",
    "55"
   ]
