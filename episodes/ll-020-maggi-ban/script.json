@@ -199,12 +199,13 @@
      "caption": "याद रखिए ये line, No added MSG। कहानी के आख़िर में ये फिर लौटेगी।"
     },
     {
-     "prompt": "A plain brown cardboard box sealed with white tape resting on a train window seat, the box side smooth, matte and blank, beyond the glass only a soft misty sunrise sky of warm pink-gold fog with faint pale shapes dissolving into haze, medium shot, only the box, the seat and the glowing fog in frame, every surface plain and smooth, no buildings, no signs, no packets, no lettering or text anywhere",
+     "prompt": "A plain brown cardboard box sealed with white tape resting on a train window seat, box side smooth and blank, beyond the glass a soft misty pink-gold sunrise sky, only the box, the seat and the glowing fog in frame, medium shot, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "नेस्ले ने गोरखपुर की रिपोर्ट को चुनौती दी। तो सैंपल कोलकाता की सेंट्रल फ़ूड लेबोरेटरी भेजा गया।",
      "caption": "Nestlé ने गोरखपुर की report को चुनौती दी। तो sample कोलकाता की Central Food Laboratory भेजा गया।",
-     "seed": 24779
+     "seed": 32698,
+     "more": []
     },
     {
      "prompt": "A large old colonial laboratory building in Kolkata at dusk, one lit window, a man in a lab coat in silhouette holding a sheet of paper, wide shot",
@@ -638,11 +639,10 @@
  "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, ultra detailed, no text, no logos, dark low-key light, high contrast, low saturation, deep shadows, tense mood",
  "repaint": {
   "shots": [
-   3,
    22
   ],
   "thumbs": [],
-  "at": "2026-11-11 03:58"
+  "at": "2026-11-11 04:08"
  },
  "rewrite": {
   "at": "2026-11-10 22:58",
@@ -659,10 +659,13 @@
  },
  "voice_requested": "voice-ll-020-maggi-ban-8a7ca1353b",
  "shot_qc": {
-  "rounds": 1,
+  "checked": "2026-11-10T22:37:15Z",
+  "rounds": 2,
+  "why": {
+   "22": "Small gibberish lettering is painted at the bottom of the window, which is not allowed text. The box, vehicle and bridge otherwise fit the line."
+  },
   "recheck": [
-   3,
-   22
+   "22"
   ]
  },
  "voice_ok": "voice-ll-020-maggi-ban-8a7ca1353b",
