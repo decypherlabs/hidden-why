@@ -38,19 +38,19 @@
     {
      "vo": "इस तारे का एक चम्मच, वज़न एक अरब टन?",
      "caption": "इस तारे का एक चम्मच, वज़न एक अरब टन?",
-     "prompt": "An astronaut in a white spacesuit holding out a plain steel teaspoon at arm's length, on the spoon a tiny blinding blue-white glowing droplet that lights the visor and gloves, centre, black space with dense stars, plain background, cold rim light, medium shot",
+     "prompt": "An astronaut holding out a steel teaspoon at arm's length, a tiny blinding blue-white glowing droplet on the spoon lighting the visor and gloves, astronaut in white spacesuit, centre, black space with dense stars, cold rim light, sharp focus, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of a steel teaspoon pressed into a thick slab of grey granite on a lab table. The stone cracks outward in a spiderweb from a tiny glowing white-blue droplet in the spoon, dust rising, hard side light, photoreal.",
       "Close-up at dawn of an endless line of heavily loaded Indian freight trains stretching to the far horizon across flat farmland. Orange sunrise haze, hundreds of wagons piled with coal, a sense of impossible weight, photoreal."
      ],
-     "seed": 8920
+     "seed": 16839
     },
     {
      "vo": "ये है न्यूट्रॉन स्टार, सिर्फ़ बीस किलोमीटर चौड़ा, एक शहर जितना।",
      "caption": "ये है neutron star, सिर्फ़ 20 km चौड़ा, एक शहर जितना।",
-     "prompt": "A small intensely glowing blue-white sphere hanging low above a vast Indian city of apartment towers and flyovers, the sphere as wide as the whole city, cold light over the rooftops, violet dusk sky, sharp focus, wide shot",
+     "prompt": "A small intensely glowing blue-white sphere as wide as the whole city hanging low above a vast Indian city of apartment towers and flyovers, cold light over the rooftops, violet dusk sky, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -58,7 +58,7 @@
       "Close-up in deep space of a tiny dense blue-white star with two thin, bright beams of light shooting out of opposite poles like a lighthouse. Faint dust glows around it against pure black, photoreal."
      ],
      "key": "20 km",
-     "seed": 8921
+     "seed": 16840
     },
     {
      "vo": "लेकिन इसमें हमारे सन से भी ज़्यादा मास भरा है।",
@@ -99,14 +99,14 @@
     {
      "vo": "इतना दबाव कि इलेक्ट्रॉन्स, प्रोटॉन्स में घुसकर न्यूट्रॉन्स बन जाते हैं।",
      "caption": "इतना दबाव कि electrons, protons में घुसकर neutrons बन जाते हैं।",
-     "prompt": "A giant industrial hydraulic press crushing a steel ball into a flat disc in a dim workshop, orange sparks flying, the press large and centre, a worker in a helmet small and far behind a clear safety shield, orange glow, plain blank walls, medium-wide shot",
+     "prompt": "A giant industrial hydraulic press crushing a steel ball into a flat disc, orange sparks flying, press large and centre, a worker in a helmet small and far behind a clear safety shield, dim workshop with plain blank walls, orange glow, medium-wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium macro shot of small blue glass beads being forced into larger red glass beads, squeezed together between two steel plates. Sharp reflections, strong pressure, cool studio light, photoreal.",
       "Close-up of a scientist's gloved hand adjusting a diamond anvil device in a lab. A tiny white point of light is squeezed between two diamonds, with glints on polished steel, photoreal."
      ],
-     "seed": 8925
+     "seed": 16844
     },
     {
      "vo": "एटम्स की खाली जगह मिट जाती है, बस न्यूट्रॉन्स ठसाठस भरे।",
@@ -122,7 +122,7 @@
     {
      "vo": "इसीलिए इस तारे का एक चम्मच, एक अरब टन!",
      "caption": "इसीलिए इस तारे का एक चम्मच, 1 अरब टन!",
-     "prompt": "A plain steel spoon in sharp focus held up in the foreground, holding a tiny glowing blue-white droplet, a huge snow-covered Himalayan peak behind it at golden hour, clear sky, the spoon's glow lighting the snow, plain surfaces, medium shot",
+     "prompt": "A steel spoon held up in the foreground holding a tiny glowing blue-white droplet, the spoon's glow lighting the snow, a huge snow-covered Himalayan peak behind it, golden hour, clear sky, plain surfaces, sharp focus, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -130,7 +130,7 @@
       "Extreme macro of a glowing blue-white droplet in a steel spoon, the spoon handle bending under the weight, heat shimmer and tiny sparks around it. Black background, photoreal."
      ],
      "key": "1",
-     "seed": 8927
+     "seed": 16846
     }
    ]
   }
@@ -144,7 +144,6 @@
   "shots": [
    1,
    2,
-   4,
    6,
    8
   ],
@@ -153,29 +152,26 @@
    "shot-01-3.png",
    "shot-02-2.png",
    "shot-02-3.png",
-   "shot-04-2.png",
-   "shot-04-3.png",
    "shot-06-2.png",
    "shot-06-3.png",
    "shot-08-2.png",
    "shot-08-3.png"
   ],
-  "at": "2026-11-10 18:21"
+  "at": "2026-11-10 22:42"
  },
  "shot_qc": {
-  "checked": "2026-11-10T12:50:44Z",
-  "rounds": 1,
+  "checked": "2026-11-10T17:11:15Z",
+  "rounds": 2,
   "why": {
-   "1b": "A map and lettering on a wall poster behind the spoon, plus a printed number.",
-   "2b": "It shows a radio dish with a logo painted on it, not a neutron star, and there is a board on a stand.",
-   "4b": "A map is on the wall at the bottom right.",
-   "6c": "A map is shown on a screen.",
-   "8b": "The crane has the lettering 'STRALAGO' painted on it."
+   "1b": "A world map is shown on a screen in the background.",
+   "2b": "It shows a man at a radio dish with a sign beside him, not a neutron star or a city-sized star.",
+   "6c": "A world map hangs on the wall and a sign with text is visible.",
+   "8b": "A map is shown on a screen at the bottom right of the crane scene.",
+   "8": "A sign with painted text appears at the right of the mountain scene."
   },
   "recheck": [
    "1",
    "2",
-   "4",
    "6",
    "8"
   ]
