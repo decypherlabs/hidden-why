@@ -27,10 +27,10 @@
     },
     {
      "vo": "Until 1990, they were fried in 93 percent beef fat.",
-     "prompt": "A tall steel deep fryer filled to the brim with bubbling thick white-yellow beef fat, a wire basket of golden french fries lifting out of it, a large pale white block of beef tallow on the steel counter beside it, a cook in a plain white uniform standing small at the right, clean kitchen with plain blank steel surfaces, bright overhead light, medium shot",
+     "prompt": "A tall steel deep fryer filled to the brim with bubbling white-yellow beef fat, a wire basket of golden french fries lifting out of it, a large pale white block of beef tallow on the steel counter beside it, a cook in a plain white uniform standing small on the right, clean kitchen with plain blank steel walls, bright overhead light, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 16840
+     "seed": 24759
     },
     {
      "vo": "Then millionaire Phil Sokolof bought full-page ads titled 'The Poisoning of America.'",
@@ -78,7 +78,7 @@
  },
  "cover": {
   "prompt": "Realistic painting, a big glistening close-up of golden french fries lifting out of a fryer basket, a faint ghostly cow shape rising in the steam above them, warm diner light, one clear subject, no text, no logos, vertical composition, natural light, true-to-life colour, highly detailed",
-  "seed": 15847
+  "seed": 23766
  },
  "owner_sample": true,
  "review_note": "owner, 9 Nov 2026: line 3 made specific (Phil Sokolof's 'The Poisoning of America' ads); the start-to-end sample",
@@ -88,25 +88,22 @@
  "voice_approved_at": "2026-11-10 17:23",
  "repaint": {
   "shots": [
-   2,
-   4
+   2
   ],
   "thumbs": [
    "cover.png"
   ],
-  "at": "2026-11-10 22:42"
+  "at": "2026-11-10 23:31"
  },
  "shot_qc": {
-  "checked": "2026-11-10T17:10:50Z",
-  "rounds": 2,
+  "checked": "2026-11-10T18:01:16Z",
+  "rounds": 3,
   "why": {
-   "2": "Text is painted on the fryer (\"FLYLST\"). The scene doesn't read clearly as a fryer full of beef fat.",
-   "4": "Garbled fake text is painted on the fry boxes. The painting is also a lab flask, not a fryer being switched to vegetable oil.",
-   "C": "Painted-in letters and signs in the background (\"ts\", sign text, a label on the basket)."
+   "2": "A sign with painted text, 'Beef Lard', is visible on the left wall. The fryer is also drawn wrongly: fat pours out of a basket onto a block.",
+   "C": "Text is painted into the signs in the background ('ALLS', 'AYS'). The fries are unnaturally long and look wrong."
   },
   "recheck": [
    "2",
-   "4",
    "C"
   ]
  }
