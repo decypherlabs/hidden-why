@@ -85,10 +85,10 @@
     },
     {
      "vo": "Millions of Indians live with severe sight loss. Money is supposed to be the most universal thing we own, yet for a long time it quietly shut them out.",
-     "prompt": "A man with a white cane standing alone, waist-up, facing the viewer, calm and wistful expression, late golden hour. Both of his hands rest on the top of the white cane in front of him, his hands hold only the cane and nothing else, no money, no paper, no banknotes anywhere in the picture. Behind him is a softly blurred Indian market with plain cloth awnings and heaps of vegetables, all out of focus, nothing written anywhere. One clear figure, no crowd, painterly",
+     "prompt": "A grey-bearded man in dark glasses and white kurta with a white cane standing alone in front of a busy Indian vegetable market, plain blank cloth awnings, both hands resting on the cane, golden hour light, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 24765
+     "seed": 32684
     },
     {
      "vo": "So how did they know what they were paid? They asked. And then they had to believe whatever answer came back.",
@@ -407,17 +407,19 @@
  "voice_approved_at": "2026-11-09 08:59",
  "repaint": {
   "shots": [
-   8,
-   37
+   8
   ],
   "thumbs": [],
-  "at": "2026-11-10 18:00"
+  "at": "2026-11-10 18:34"
  },
  "shot_qc": {
-  "rounds": 1,
+  "checked": "2026-11-10T13:03:41Z",
+  "rounds": 2,
+  "why": {
+   "8": "Yellow signs at the left have painted-in lettering, which isn't allowed."
+  },
   "recheck": [
-   8,
-   37
+   "8"
   ]
  },
  "auto_regen": 3
