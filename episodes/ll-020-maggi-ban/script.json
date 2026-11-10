@@ -50,12 +50,12 @@
      "caption": "वही Maggi, जो hostel की रातों और बारिश की शामों का साथी थी।"
     },
     {
-     "prompt": "An empty steel shelf with a single torn yellow noodle wrapper on it, small Indian kirana shop with plain blank signboard, rain falling outside the open shutter, dim tube light, medium shot, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
+     "prompt": "An empty steel shelf with a single torn yellow noodle wrapper lying on it, close view inside a small Indian kirana shop, bare unpainted concrete wall behind, rain falling outside the open corrugated shutter, dim tube light, medium close-up, the wrapper is a plain smooth yellow with no printing, no signboard, no signs, no labels, no posters, no lettering or text anywhere, every surface plain and blank",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "जून दो हज़ार पंद्रह में, वो लगभग हर दुकान से हटने लगी।",
      "caption": "जून 2015 में, वो लगभग हर दुकान से हटने लगी।",
-     "seed": 8922,
+     "seed": 16841,
      "more": []
     },
     {
@@ -199,11 +199,12 @@
      "caption": "याद रखिए ये line, No added MSG। कहानी के आख़िर में ये फिर लौटेगी।"
     },
     {
-     "prompt": "A sealed sample box on a train seat by the window, Howrah Bridge and Kolkata skyline in mist at sunrise, medium shot",
+     "prompt": "A plain brown cardboard sample box sealed with white tape, resting on a train seat by the window, the box side is smooth and blank, Howrah Bridge and a hazy Kolkata skyline in mist at sunrise beyond the glass, only the bridge and soft buildings visible, no billboards, no signs, no posters, no lettering or text anywhere, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "नेस्ले ने गोरखपुर की रिपोर्ट को चुनौती दी। तो सैंपल कोलकाता की सेंट्रल फ़ूड लेबोरेटरी भेजा गया।",
-     "caption": "Nestlé ने गोरखपुर की report को चुनौती दी। तो sample कोलकाता की Central Food Laboratory भेजा गया।"
+     "caption": "Nestlé ने गोरखपुर की report को चुनौती दी। तो sample कोलकाता की Central Food Laboratory भेजा गया।",
+     "seed": 8941
     },
     {
      "prompt": "A large old colonial laboratory building in Kolkata at dusk, one lit window, a man in a lab coat in silhouette holding a sheet of paper, wide shot",
@@ -637,12 +638,11 @@
  "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, ultra detailed, no text, no logos, dark low-key light, high contrast, low saturation, deep shadows, tense mood",
  "repaint": {
   "shots": [
-   48,
-   50,
-   76
+   3,
+   22
   ],
   "thumbs": [],
-  "at": "2026-11-11 02:11"
+  "at": "2026-11-11 03:45"
  },
  "rewrite": {
   "at": "2026-11-10 22:58",
@@ -659,19 +659,13 @@
  },
  "voice_requested": "voice-ll-020-maggi-ban-8a7ca1353b",
  "shot_qc": {
-  "checked": "2026-11-10T20:29:24Z",
-  "rounds": 3,
-  "why": {
-   "48": "The text in the painting is garbled pseudo-letters, not English or Hindi.",
-   "50": "The text on the lab reports is gibberish/pseudo-letters instead of legible Hindi or English.",
-   "76": "The text on the Maggi packet is garbled and does not correctly spell 'Maggi'."
-  },
+  "rounds": 1,
   "recheck": [
-   "48",
-   "50",
-   "76"
+   3,
+   22
   ]
  },
  "voice_ok": "voice-ll-020-maggi-ban-8a7ca1353b",
- "voice_approved_at": "2026-11-11 00:31"
+ "voice_approved_at": "2026-11-11 00:31",
+ "auto_regen": 1
 }
