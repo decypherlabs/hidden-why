@@ -30,507 +30,571 @@
   ]
  },
  "source": "Hindustan Motors Ltd, stock-exchange notice on suspension of work at the Uttarpara plant (24 May 2014), and BBC News coverage of the end of Ambassador production (May 2014); The Economic Times and Reuters, reports on the sale of the Ambassador brand to Groupe PSA for Rs 80 crore (February 2017); Stellantis N.V., press release on the completion of the PSA–FCA merger (16 January 2021); Maruti Suzuki India, official company history (first Maruti 800 delivered on 14 December 1983); The Times of India, reports on the BS-IV rollout in 13 cities (April 2010), the BS-IV Ambassador Encore launch (2013) and BBC Top Gear naming the Ambassador the world's best taxi (2013)",
- "journey_score": 8,
  "sections": [
   {
    "id": "cold_open",
    "card": null,
    "shots": [
     {
-     "vo": "छप्पन साल तक बनी, और दशकों तक भारत की सड़कों पर राज किया। फिर एक दिन उसकी फ़ैक्ट्री का काम हमेशा के लिए क्यों रुक गया?",
      "prompt": "a lone white rounded 1950s sedan parked before closed rusting iron factory gates, centre, tall chimneys behind, monsoon clouds at dusk, long shadows, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "एम्बेसडर का अंत क्यों हुआ? छप्पन साल तक बनी इस कार की फ़ैक्ट्री में एक दिन काम रोक दिया गया।",
+     "caption": "Ambassador का अंत क्यों हुआ? 56 साल तक बनी इस कार की factory में एक दिन काम रोक दिया गया।"
     },
     {
-     "vo": "नेता, अफ़सर, टैक्सी, शादी की बारात, सब इसी कार में बैठते थे।",
      "prompt": "a row of white rounded 1970s sedans on a busy Indian street, one with a red beacon on its roof, one yellow taxi, one with marigold garlands, distant blurred silhouettes, warm golden light, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "दशकों तक ज़्यादातर नेता और अफ़सर इसी में चलते थे, और टैक्सी से लेकर शादी की बारात तक, हर जगह यही दिखती थी।",
+     "caption": "दशकों तक ज़्यादातर नेता और अफ़सर इसी में चलते थे, और taxi से लेकर शादी की बारात तक, हर जगह यही दिखती थी।"
     },
     {
-     "vo": "अगर आप सोचते हैं कि ये एक देसी डिज़ाइन थी, तो आप ग़लत हैं। इसकी जड़ें इंग्लैंड के एक शहर में थीं।",
+     "prompt": "a rounded old sedan driving slowly on a new highway while small modern cars speed past it, motion blur, golden evening, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "फिर भारत की सड़कों के इस राजा से उसका ताज आख़िर छीना किसने?",
+     "caption": "फिर भारत की सड़कों के इस राजा से उसका ताज आख़िर छीना किसने?"
+    },
+    {
      "prompt": "a rounded two-tone 1950s sedan rolling out of a red-brick factory gate in an English town, gas lamps, fog and drizzle, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "अगर आप सोचते हैं कि ये एक देसी design थी, तो आप ग़लत हैं। इसकी जड़ें इंग्लैंड के एक शहर में थीं।"
+     "vo": "एम्बेसडर पूरी तरह देसी कार नहीं थी। इसकी जड़ें इंग्लैंड के एक शहर में थीं।",
+     "caption": "Ambassador पूरी तरह देसी कार नहीं थी। इसकी जड़ें इंग्लैंड के एक शहर में थीं।"
     },
     {
-     "vo": "और आख़िर में वो बात, जो ज़्यादातर लोग नहीं जानते: आज इस कार का नाम असल में किसके पास है।",
-     "prompt": "a single old chrome car key resting on a polished dark boardroom table, centre, empty leather chairs, slanting evening light, close shot",
-     "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
-    },
-    {
-     "vo": "इंग्लैंड की एक कार से नेताओं की शान तक, और फिर एक लंबे सन्नाटे तक, पूरी कहानी।",
-     "prompt": "a rounded white sedan driving on a long road that starts in a misty English town and ends in a dusty Indian highway with palm trees, sunset sky, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
-    }
-   ]
-  },
-  {
-   "id": "ch1",
-   "card": "British जड़ें",
-   "shots": [
-    {
-     "vo": "कहानी शुरू होती है उन्नीस सौ बयालीस में, जब देश अभी आज़ाद भी नहीं हुआ था। बिड़ला समूह के बी.एम. बिड़ला ने हिंदुस्तान मोटर्स की नींव रखी।",
-     "prompt": "a man in white dhoti and kurta standing at a tall window overlooking a harbour, seen from behind, engineering drawings spread on a teak desk, ceiling fan, sepia light, medium shot",
-     "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "कहानी शुरू होती है 1942 में, जब देश अभी आज़ाद भी नहीं हुआ था। बिड़ला समूह के बी.एम. बिड़ला ने Hindustan Motors की नींव रखी।"
-    },
-    {
-     "vo": "मक़सद था भारत में ही कारें बनाना। पहला छोटा प्लांट गुजरात के पोर्ट ओखा में लगा।",
-     "prompt": "a small 1940s industrial shed at a dry Gujarat coastal port, sea behind, two workers carrying wooden crates in front, harsh noon sun, wide shot",
-     "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "मक़सद था भारत में ही कारें बनाना। पहला छोटा plant गुजरात के पोर्ट ओखा में लगा।"
-    },
-    {
-     "vo": "फिर उन्नीस सौ अड़तालीस में काम पहुँचा बंगाल के उत्तरपाड़ा, हुगली नदी के किनारे।",
-     "prompt": "huge half-built factory sheds rising on the banks of the Hooghly river, country boats on the misty water, distant blurred labourers with baskets, morning light, wide shot",
-     "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "फिर 1948 में काम पहुँचा बंगाल के उत्तरपाड़ा, हुगली नदी के किनारे।"
-    },
-    {
-     "vo": "शुरुआत में यहाँ ब्रिटिश कंपनी मॉरिस की कारें जोड़ी जाती थीं। पुर्ज़े विदेश से आते, असेंबली भारत में होती।",
-     "prompt": "a worker's hands bolting the body of a rounded 1940s car in a dim Indian workshop, wooden crates of parts around, oil lamps, skylight beams, close shot",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "शुरुआत में यहाँ ब्रिटिश कंपनी Morris की कारें जोड़ी जाती थीं। पुर्ज़े विदेश से आते, असेंबली भारत में होती।"
-    },
-    {
-     "vo": "उन्नीस सौ छप्पन में इंग्लैंड में एक नई कार आई: मॉरिस ऑक्सफ़ोर्ड सीरीज़ थ्री। गोल-मटोल बॉडी, ऊँची छत, मज़बूत ढाँचा।",
-     "prompt": "a rounded 1950s English family sedan with a tall roof and curved bonnet standing in a small showroom, warm lights, rain on the windows, medium shot",
-     "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "1956 में इंग्लैंड में एक नई कार आई: Morris Oxford Series Three। गोल-मटोल बॉडी, ऊँची छत, मज़बूत ढाँचा।"
-    },
-    {
-     "vo": "हिंदुस्तान मोटर्स ने इसी डिज़ाइन को भारत में बनाने का रास्ता चुना। और उन्नीस सौ अट्ठावन में उत्तरपाड़ा से निकली, हिंदुस्तान एम्बेसडर।",
-     "prompt": "a gleaming new rounded sedan rolling out of giant factory doors, distant blurred workers clapping on both sides, golden sunlight flooding in, wide shot",
-     "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "Hindustan Motors ने इसी design को भारत में बनाने का रास्ता चुना। और 1958 में उत्तरपाड़ा से निकली, Hindustan Ambassador।"
-    },
-    {
-     "vo": "भारतीय सड़कों पर ये एकदम फ़िट बैठी। गड्ढे, कीचड़, ओवरलोड, एम्बेसडर सब झेल जाती थी।",
-     "prompt": "a white rounded sedan driving through a muddy pothole-filled village road, bundles tied on its roof carrier, heavy monsoon rain, grey light, medium-wide shot",
-     "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "भारतीय सड़कों पर ये एकदम फ़िट बैठी। गड्ढे, कीचड़, ओवरलोड, Ambassador सब झेल जाती थी।"
-    },
-    {
-     "vo": "मज़े की बात: उन्नीस सौ उनसठ में इंग्लैंड में ये मॉडल बनना बंद हो गया। पर भारत में इसका रूप अगले पचास साल से ज़्यादा चलने वाला था।",
-     "prompt": "an old rounded sedan covered by a dusty sheet in a corner of a quiet English factory floor, newer angular cars on a line behind, cold blue light, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "मज़े की बात: 1959 में इंग्लैंड में ये मॉडल बनना बंद हो गया। पर भारत में इसका रूप अगले पचास साल से ज़्यादा चलने वाला था।"
-    },
-    {
-     "vo": "तो हाँ, जिस कार को हम सबसे देसी मानते हैं, वो असल में एक ब्रिटिश कार का भारतीय रूप थी।",
      "prompt": "a split scene: on the left an English foggy street with a rounded two-tone sedan, on the right a dusty Indian village road with an identical white sedan and a bullock cart, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "तो हाँ, जिस कार को हम सबसे देसी मानते हैं, वो असल में एक British कार का भारतीय रूप थी।"
+     "vo": "यानी जिसे हम सबसे देसी कार मानते हैं, उसकी कहानी एक अंग्रेज़ी कार से शुरू होती है।",
+     "caption": "यानी जिसे हम सबसे देसी कार मानते हैं, उसकी कहानी एक अंग्रेज़ी कार से शुरू होती है।"
     },
     {
-     "vo": "पर एक कार, जो लगभग कभी नहीं बदली, इतने लंबे समय तक कैसे टिकी? इसका जवाब कार में नहीं, दिल्ली की सरकारी फ़ाइलों में छिपा था।",
-     "prompt": "towering stacks of tied government files in a dim 1960s Delhi ministry corridor, slow ceiling fan, dust in a single beam of light, wide shot",
+     "prompt": "a single old chrome car key lying on a stack of banknotes on a dark desk, one beam of light through shadow, close shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "और आख़िर में, वो सौदा जिसमें एम्बेसडर का नाम सिर्फ़ अस्सी करोड़ रुपये में बिका, और आज वो नाम किसके पास है।",
+     "caption": "और आख़िर में, वो सौदा जिसमें Ambassador का नाम सिर्फ़ 80 करोड़ रुपये में बिका, और आज वो नाम किसके पास है।"
+    },
+    {
+     "prompt": "A hand spreading old newspaper pages and a printed company notice across a wooden desk under a warm lamp at night, a photograph of an old rounded white sedan lying among them, no readable text",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "vo": "ये कहानी हिंदुस्तान मोटर्स के स्टॉक एक्सचेंज नोटिस, और बी बी सी, रॉयटर्स और इकोनॉमिक टाइम्स की रिपोर्टों पर टिकी है।",
+     "caption": "ये कहानी Hindustan Motors के stock exchange notice, और BBC, Reuters और Economic Times की रिपोर्टों पर टिकी है।"
+    },
+    {
+     "prompt": "a rounded white sedan driving on a long road that starts in a misty English town and ends in a dusty Indian highway with palm trees, sunset sky, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "इंग्लैंड की एक कार से नेताओं की शान तक, फिर एक लंबे सन्नाटे तक, और आख़िर में एक सौदे तक।",
+     "caption": "इंग्लैंड की एक कार से नेताओं की शान तक, फिर एक लंबे सन्नाटे तक, और आख़िर में एक सौदे तक।"
+    },
+    {
+     "vo": "कहानी में आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे रिसर्च, स्क्रिप्ट, आवाज़ और एडिटिंग, सब में बहुत मेहनत लगती है, पर सब्सक्राइब करना बिल्कुल फ़्री है। तो चैनल को सब्सक्राइब करना न भूलें। चलिए, शुरू करते हैं।",
+     "subscribe_ask": true,
+     "prompt": "a storyteller's desk at night: handwritten script pages, a studio microphone with headphones, a laptop glowing with a video-editing timeline, warm lamp light, cosy and calm, every page and screen without readable text",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "move": "push"
     }
    ]
   },
   {
-   "id": "ch2",
-   "card": "Licence Raj",
+   "id": "chapter_1",
+   "card": "इंग्लैंड से उत्तरपाड़ा",
    "shots": [
     {
-     "vo": "आज़ादी के बाद भारत ने एक अलग रास्ता चुना। बड़े उद्योगों पर सरकार का कड़ा नियंत्रण था।",
-     "prompt": "a clerk in a white shirt buried in files at a wooden desk in a crowded 1960s Indian government office, men waiting on a bench in the distance, afternoon haze, medium-wide shot",
-     "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
-    },
-    {
-     "vo": "कोई कार बनाना चाहे, तो उसे लाइसेंस चाहिए था। कितनी गाड़ियाँ बनेंगी, ये भी सरकार तय करती थी।",
-     "prompt": "a hand holding a rubber stamp above a document on a cluttered desk, inkpad and paperweights beside it, warm lamplight, close shot",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "कोई कार बनाना चाहे, तो उसे licence चाहिए था। कितनी गाड़ियाँ बनेंगी, ये भी सरकार तय करती थी।"
-    },
-    {
-     "vo": "विदेशी कारें मँगाना बेहद मुश्किल और महँगा था।",
-     "prompt": "a cargo ship with high-stacked crates at a 1960s Bombay dock, one customs officer with a clipboard seen from behind, humid grey sky, wide shot",
+     "prompt": "a man in white dhoti and kurta standing at a tall window overlooking a harbour, seen from behind, engineering drawings spread on a teak desk, ceiling fan, sepia light, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "इंग्लैंड की ये कार भारत कैसे पहुँची? उन्नीस सौ बयालीस में बी.एम. बिड़ला ने हिंदुस्तान मोटर्स की नींव रखी।",
+     "caption": "इंग्लैंड की ये कार भारत कैसे पहुँची? 1942 में बी.एम. बिड़ला ने Hindustan Motors की नींव रखी।"
     },
     {
-     "vo": "नतीजा? देश में गिनती के ही मॉडल थे। एम्बेसडर, फ़ियाट से बनी प्रीमियर पद्मिनी, और स्टैंडर्ड हेराल्ड।",
-     "prompt": "three different small rounded 1960s Indian cars parked in a row outside a colonial building, a rickshaw passing far behind, soft evening light, wide shot",
+     "prompt": "a small 1940s industrial shed at a dry Gujarat coastal port, sea behind, two workers carrying wooden crates in front, harsh noon sun, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "नतीजा? देश में गिनती के ही मॉडल थे। Ambassador, Fiat से बनी Premier Padmini, और Standard Herald।"
+     "vo": "तब देश आज़ाद भी नहीं हुआ था। मक़सद था भारत में ही कारें बनाना, और पहला छोटा प्लांट पोर्ट ओखा में लगा।",
+     "caption": "तब देश आज़ाद भी नहीं हुआ था। मक़सद था भारत में ही कारें बनाना, और पहला छोटा plant पोर्ट ओखा में लगा।"
     },
     {
-     "vo": "मुक़ाबला न के बराबर था। जो बन रहा था, लोग वही ख़रीद रहे थे।",
-     "prompt": "a single rounded sedan on display in a modest 1970s Indian showroom, a man in a shirt waiting on a wooden bench, ceiling fans, medium-wide shot",
+     "prompt": "huge half-built factory sheds rising on the banks of the Hooghly river, country boats on the misty water, distant blurred labourers with baskets, morning light, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "फिर उन्नीस सौ अड़तालीस में काम पहुँचा बंगाल के उत्तरपाड़ा, हुगली नदी के किनारे।",
+     "caption": "फिर 1948 में काम पहुँचा बंगाल के उत्तरपाड़ा, हुगली नदी के किनारे।"
     },
     {
-     "vo": "और ख़रीदना भी आसान नहीं था। कहा जाता है, नई कार के लिए सालों का वेटिंग लिस्ट होता था।",
+     "prompt": "a worker's hands bolting the body of a rounded 1940s car in a dim Indian workshop, wooden crates of parts around, oil lamps, skylight beams, close shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "शुरुआत में यहाँ ब्रिटिश कंपनी मॉरिस की कारें जोड़ी जाती थीं। पुर्ज़े विदेश से आते, असेंबली भारत में होती।",
+     "caption": "शुरुआत में यहाँ ब्रिटिश कंपनी Morris की कारें जोड़ी जाती थीं। पुर्ज़े विदेश से आते, assembly भारत में होती।"
+    },
+    {
+     "prompt": "a rounded 1950s English family sedan with a tall roof and curved bonnet standing in a small showroom, warm lights, rain on the windows, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "उन्नीस सौ छप्पन में इंग्लैंड में एक नई कार आई: मॉरिस ऑक्सफ़ोर्ड सीरीज़ थ्री। गोल-मटोल बॉडी, ऊँची छत, मज़बूत ढाँचा।",
+     "caption": "1956 में इंग्लैंड में एक नई कार आई: Morris Oxford Series 3। गोल-मटोल body, ऊँची छत, मज़बूत ढाँचा।"
+    },
+    {
+     "prompt": "a gleaming new rounded sedan rolling out of giant factory doors, distant blurred workers clapping on both sides, golden sunlight flooding in, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "हिंदुस्तान मोटर्स ने यही डिज़ाइन भारत में बनाना चुना। और उन्नीस सौ अट्ठावन के आसपास उत्तरपाड़ा से निकली, हिंदुस्तान एम्बेसडर।",
+     "caption": "Hindustan Motors ने यही design भारत में बनाना चुना। और 1958 के आसपास उत्तरपाड़ा से निकली, Hindustan Ambassador।"
+    },
+    {
+     "prompt": "a white rounded sedan driving through a muddy pothole-filled village road, bundles tied on its roof carrier, heavy monsoon rain, grey light, medium-wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "भारतीय सड़कों पर ये एकदम फ़िट बैठी। गड्ढे, कीचड़, ओवरलोड, एम्बेसडर सब झेल जाती थी।",
+     "caption": "भारतीय सड़कों पर ये एकदम फ़िट बैठी। गड्ढे, कीचड़, overload, Ambassador सब झेल जाती थी।"
+    },
+    {
+     "prompt": "an old rounded sedan covered by a dusty sheet in a corner of a quiet English factory floor, newer angular cars on a line behind, cold blue light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "मज़े की बात: उन्नीस सौ उनसठ में इंग्लैंड में ये मॉडल बनना बंद हो गया। पर भारत में इसका सफ़र अभी शुरू हुआ था।",
+     "caption": "मज़े की बात: 1959 में इंग्लैंड में ये model बनना बंद हो गया। पर भारत में इसका सफ़र अभी शुरू हुआ था।"
+    },
+    {
+     "prompt": "a split scene: on the left an English foggy street with a rounded two-tone sedan, on the right a dusty Indian village road with an identical white sedan and a bullock cart, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "तो हाँ, भारत की सबसे देसी लगने वाली कार, असल में एक ब्रिटिश कार का भारतीय रूप थी।",
+     "caption": "तो हाँ, भारत की सबसे देसी लगने वाली कार, असल में एक ब्रिटिश कार का भारतीय रूप थी।"
+    },
+    {
+     "prompt": "towering stacks of tied government files in a dim 1960s Delhi ministry corridor, slow ceiling fan, dust in a single beam of light, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "पर जो कार लगभग कभी नहीं बदली, वो इतने साल राज कैसे करती रही? जवाब दिल्ली की सरकारी फ़ाइलों में छिपा था।",
+     "caption": "पर जो कार लगभग कभी नहीं बदली, वो इतने साल राज कैसे करती रही? जवाब दिल्ली की सरकारी फ़ाइलों में छिपा था।"
+    }
+   ]
+  },
+  {
+   "id": "chapter_2",
+   "card": "लाइसेंस राज का किला",
+   "shots": [
+    {
      "prompt": "a long queue of distant blurred people with umbrellas outside a dealership office in 1970s Calcutta, trams behind, heat haze, wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "और ख़रीदना भी आसान नहीं था। कहा जाता है, नई कार के लिए सालों का waiting list होता था।"
+     "vo": "सोचिए, आपने नई कार बुक कर दी है, और अब बस इंतज़ार है। कहा जाता है, ये इंतज़ार सालों का होता था।",
+     "caption": "सोचिए, आपने नई कार बुक कर दी है, और अब बस इंतज़ार है। कहा जाता है, ये इंतज़ार सालों का होता था।"
     },
     {
-     "vo": "लोग बुकिंग करते, और फिर इंतज़ार करते। बुकिंग की पर्ची किसी ख़ज़ाने की तरह संभाली जाती।",
      "prompt": "a man in a plain shirt holding a small paper receipt in front of an open steel cupboard, seen from behind, wall calendar beside him, dim home interior, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "लोग booking करते, और फिर इंतज़ार करते। booking की पर्ची किसी ख़ज़ाने की तरह संभाली जाती।"
+     "vo": "बुकिंग की पर्ची किसी ख़ज़ाने की तरह संभाली जाती। पर पैसे होते हुए भी इतना इंतज़ार क्यों?",
+     "caption": "बुकिंग की पर्ची किसी ख़ज़ाने की तरह संभाली जाती। पर पैसे होते हुए भी इतना इंतज़ार क्यों?"
     },
     {
-     "vo": "अब सोचिए, कंपनी के सामने बड़ी चुनौती क्या थी? लगभग कोई नहीं। तो कार बदलने का दबाव भी कम था।",
+     "prompt": "a clerk in a white shirt buried in files at a wooden desk in a crowded 1960s Indian government office, men waiting on a bench in the distance, afternoon haze, medium-wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "आज़ादी के बाद भारत ने एक अलग रास्ता चुना। बड़े उद्योगों पर सरकार का कड़ा नियंत्रण था।",
+     "caption": "आज़ादी के बाद भारत ने एक अलग रास्ता चुना। बड़े उद्योगों पर सरकार का कड़ा नियंत्रण था।"
+    },
+    {
+     "prompt": "a hand holding a rubber stamp above a document on a cluttered desk, inkpad and paperweights beside it, warm lamplight, close shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "कोई कार बनाना चाहे, तो उसे लाइसेंस चाहिए था। कितनी गाड़ियाँ बनेंगी, ये भी सरकार तय करती थी।",
+     "caption": "कोई कार बनाना चाहे, तो उसे license चाहिए था। कितनी गाड़ियाँ बनेंगी, ये भी सरकार तय करती थी।"
+    },
+    {
+     "prompt": "a cargo ship with high-stacked crates at a 1960s Bombay dock, one customs officer with a clipboard seen from behind, humid grey sky, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "विदेशी कारें मँगाना बेहद मुश्किल और महँगा था।",
+     "caption": "विदेशी कारें मँगाना बेहद मुश्किल और महँगा था।"
+    },
+    {
+     "prompt": "three different small rounded 1960s Indian cars parked in a row outside a colonial building, a rickshaw passing far behind, soft evening light, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "नतीजा? उन्नीस सौ साठ और सत्तर के दशक में गिनती के मॉडल थे: एम्बेसडर, फ़ियाट से बनी प्रीमियर पद्मिनी, और स्टैंडर्ड हेराल्ड।",
+     "caption": "नतीजा? 1960 और 70 के दशक में गिनती के model थे: Ambassador, Fiat से बनी Premier Padmini, और Standard Herald।"
+    },
+    {
+     "prompt": "a single rounded sedan on display in a modest 1970s Indian showroom, a man in a shirt waiting on a wooden bench, ceiling fans, medium-wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "मुक़ाबला न के बराबर था। जो बन रहा था, लोग वही ख़रीद रहे थे।",
+     "caption": "मुक़ाबला न के बराबर था। जो बन रहा था, लोग वही ख़रीद रहे थे।"
+    },
+    {
      "prompt": "untouched drawings of a rounded car gathering dust on a drafting table, a stopped wall clock above, empty design office, afternoon light, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "अब सोचिए, कंपनी के सामने चुनौती क्या थी? लगभग कोई नहीं। तो कार बदलने का दबाव भी कम था।",
+     "caption": "अब सोचिए, कंपनी के सामने चुनौती क्या थी? लगभग कोई नहीं। तो कार बदलने का दबाव भी कम था।"
     },
     {
-     "vo": "साल बदलते गए: मार्क टू, मार्क थ्री, मार्क फ़ोर। ग्रिल थोड़ी बदली, डैशबोर्ड थोड़ा बदला, पर कार वही रही।",
      "prompt": "four nearly identical rounded white sedans side by side, each with a slightly different front grille, summer to winter sky behind, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "साल बदलते गए: Mark Two, Mark Three, Mark Four। grille थोड़ी बदली, dashboard थोड़ा बदला, पर कार वही रही।"
+     "vo": "साल बदलते गए: मार्क टू, मार्क थ्री, मार्क फ़ोर। ग्रिल थोड़ी बदली, डैशबोर्ड थोड़ा बदला, पर कार वही रही।",
+     "caption": "साल बदलते गए: Mark 2, Mark 3, Mark 4। grill थोड़ी बदली, dashboard थोड़ा बदला, पर कार वही रही।"
     },
     {
-     "vo": "लेकिन तभी एक और बात हुई। ये कार सिर्फ़ गाड़ी नहीं रही, ये ताक़त की पहचान बन गई।",
      "prompt": "a vast riverside car factory at night with every window lit, reflection shimmering on the river, chimney smoke, starry sky, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "किले के अंदर राजा आराम से था। पर सवाल ये था: अगर किसी दिन इस किले की दीवारें गिरीं, तो?",
+     "caption": "किले के अंदर राजा आराम से था। पर सवाल ये था: अगर किसी दिन इस किले की दीवारें गिरीं, तो?"
     }
    ]
   },
   {
-   "id": "ch3",
-   "card": "सफ़ेद ताक़त",
+   "id": "chapter_3",
+   "card": "सत्ता और यादों की सवारी",
    "shots": [
     {
-     "vo": "दिल्ली की सड़कों पर एक नज़ारा आम था। सफ़ेद एम्बेसडर, ऊपर लाल बत्ती, आगे-पीछे पुलिस।",
      "prompt": "a convoy of white rounded sedans with red beacons on their roofs and police jeeps on a wide New Delhi avenue, sandstone arch in the haze, bright morning, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "दिल्ली की सड़कों पर एक नज़ारा आम था। सफ़ेद Ambassador, ऊपर लाल बत्ती, आगे-पीछे पुलिस।"
+     "vo": "पर एक कार, ताक़त की पहचान कैसे बनी? दिल्ली में नज़ारा आम था: सफ़ेद एम्बेसडर, ऊपर लाल बत्ती, आगे-पीछे पुलिस।",
+     "caption": "पर एक कार, ताक़त की पहचान कैसे बनी? दिल्ली में नज़ारा आम था: सफ़ेद Ambassador, ऊपर लाल बत्ती, आगे-पीछे police।"
     },
     {
-     "vo": "दशकों तक मंत्रियों और अफ़सरों की सरकारी गाड़ी यही रही। एम्बेसडर का मतलब था सत्ता।",
      "prompt": "a man in a white kurta stepping into a white rounded sedan under the portico of a grand colonial government building, seen from behind, a guard saluting far right, medium-wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "दशकों तक मंत्रियों और अफ़सरों की सरकारी गाड़ी यही रही। एम्बेसडर का मतलब था सत्ता।",
      "caption": "दशकों तक मंत्रियों और अफ़सरों की सरकारी गाड़ी यही रही। Ambassador का मतलब था सत्ता।"
     },
     {
-     "vo": "पीछे सफ़ेद पर्दे, चौड़ी सीट, और जहाँ पहुँचो वहाँ सलाम।",
      "prompt": "interior of an old sedan, white lace curtains on the rear windows, a wide cloth bench seat with a stack of files on it, soft light, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "पीछे सफ़ेद पर्दे, चौड़ी सीट, और जहाँ पहुँचो वहाँ सलाम।",
+     "caption": "पीछे सफ़ेद पर्दे, चौड़ी seat, और जहाँ पहुँचो वहाँ सलाम।"
     },
     {
-     "vo": "सोचिए, सत्ता की यही पहचान एक दिन सिर्फ़ अस्सी करोड़ रुपये में बिकने वाली थी। कैसे, ये आख़िर में।",
-     "prompt": "a single old chrome car key lying on a stack of banknotes on a dark desk, one beam of light through shadow, close shot",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "prompt": "a single old chrome car key resting on a polished dark boardroom table, centre, empty leather chairs, slanting evening light, close shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "सोचिए, सत्ता की इसी सवारी का नाम एक दिन सिर्फ़ अस्सी करोड़ रुपये में बिकने वाला था। किसके हाथ, ये आख़िर में।",
+     "caption": "सोचिए, सत्ता की इसी सवारी का नाम एक दिन सिर्फ़ 80 करोड़ रुपये में बिकने वाला था। किसके हाथ, ये आख़िर में।"
     },
     {
-     "vo": "कोलकाता में यही कार पीली टैक्सी बनी, और शहर की पहचान बन गई।",
      "prompt": "dozens of yellow rounded taxis crossing a giant steel cantilever bridge in Kolkata at sunset, river glowing below, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "कोलकाता में यही कार पीली टैक्सी बनी, और शहर की पहचान बन गई।",
+     "caption": "कोलकाता में यही कार पीली taxi बनी, और शहर की पहचान बन गई।"
     },
     {
-     "vo": "गाँव में किसी के घर एम्बेसडर आती, तो पूरा मोहल्ला देखने आ जाता।",
      "prompt": "a shining white rounded sedan in a dusty mud-walled courtyard, distant blurred villagers crowding around it, neem tree overhead, golden afternoon, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "गाँव में किसी के घर Ambassador आती, तो पूरा मोहल्ला देखने आ जाता।"
+     "vo": "अक्सर कहा जाता है, गाँव में किसी के घर एम्बेसडर आती, तो पूरा मोहल्ला देखने आ जाता।",
+     "caption": "अक्सर कहा जाता है, गाँव में किसी के घर Ambassador आती, तो पूरा मोहल्ला देखने आ जाता।"
     },
     {
-     "vo": "शादी में दूल्हा इसी में आता, गेंदे के फूलों से सजी कार में।",
      "prompt": "a rounded sedan draped in marigold garlands leading a night wedding procession, distant silhouettes with a brass band, string lights, warm glow, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "शादी में दूल्हा इसी में आता, गेंदे के फूलों से सजी कार में।",
+     "caption": "शादी में दूल्हा इसी में आता, गेंदे के फूलों से सजी कार में।"
     },
     {
-     "vo": "तीर्थ जाना हो या अस्पताल, पूरा परिवार इसी में समा जाता।",
      "prompt": "an old white sedan climbing a winding mountain road toward a hill temple, luggage piled on its roof, misty dawn, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "तीर्थ जाना हो या अस्पताल, पूरा परिवार इसी में समा जाता।",
+     "caption": "तीर्थ जाना हो या अस्पताल, पूरा परिवार इसी में समा जाता।"
     },
     {
-     "vo": "आगे की सीट इतनी चौड़ी थी कि कई बार ड्राइवर के साथ दो लोग और बैठ जाते।",
-     "prompt": "a wide front bench seat of an old sedan seen from the back seat, a driver and two passengers shoulder to shoulder, large thin steering wheel, dusty road ahead, medium shot",
-     "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
-    },
-    {
-     "vo": "एक कार, जो पूरे देश की याद बन गई।",
      "prompt": "a middle-aged man and a woman in a sari standing beside a white rounded sedan, faces turned away, faded warm tones like an old photograph, medium-wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "एक कार, जो पूरे देश की याद बन गई।",
+     "caption": "एक कार, जो पूरे देश की याद बन गई।"
     },
     {
-     "vo": "फ़ैक्ट्री चल रही थी, बाज़ार में जगह पक्की थी। लगता था, इस राजा का कोई मुक़ाबला ही नहीं।",
      "prompt": "rows of brand-new white rounded sedans lined up in a factory yard, distant blurred workers walking between them, clear sky, proud bright light, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "फ़ैक्ट्री चल रही थी, बाज़ार में जगह पक्की थी। लगता था, इस राजा का कोई मुक़ाबला ही नहीं।",
      "caption": "factory चल रही थी, बाज़ार में जगह पक्की थी। लगता था, इस राजा का कोई मुक़ाबला ही नहीं।"
     },
     {
-     "vo": "लेकिन तभी, दिल्ली के पास गुड़गाँव में कुछ और बन रहा था। एक छोटी सी कार, जो सब कुछ बदलने वाली थी।",
      "prompt": "a new modern factory under construction in farm fields near Delhi, cranes against a pink dawn sky, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "लेकिन तभी, दिल्ली के पास गुड़गाँव में एक नई फ़ैक्ट्री खड़ी हो रही थी। और उसके पीछे जो था, वो किसी ने सोचा नहीं था।",
+     "caption": "लेकिन तभी, दिल्ली के पास गुड़गाँव में एक नई factory खड़ी हो रही थी। और उसके पीछे जो था, वो किसी ने सोचा नहीं था।"
     }
    ]
   },
   {
-   "id": "ch4",
-   "card": "1983 का झटका",
+   "id": "chapter_4",
+   "card": "छोटी कार, बड़ा झटका",
    "shots": [
     {
-     "vo": "मारुति।",
-     "prompt": "a tiny white boxy 1980s hatchback alone under a single spotlight in total darkness, centre, dramatic, medium shot",
-     "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "prompt": "A white rounded 1970s sedan with a red roof beacon parked under the portico of a grand colonial government building, while far behind it a brand-new modern car factory rises against a pale sky, no text, no logos",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "move": "push",
+     "vo": "राजा को पहला बड़ा झटका किसने दिया? किसी विदेशी कंपनी ने नहीं। उसी सरकार की एक कंपनी ने, जिसकी शान वो ख़ुद थी।",
+     "caption": "राजा को पहला बड़ा झटका किसने दिया? किसी विदेशी कंपनी ने नहीं। उसी सरकार की एक कंपनी ने, जिसकी शान वो ख़ुद थी।"
     },
     {
-     "vo": "चौदह दिसंबर उन्नीस सौ तिरासी को मारुति आठ सौ की पहली कार सौंपी गई। सरकारी कंपनी मारुति उद्योग और जापान की सुज़ुकी का साथ।",
+     "prompt": "a tiny white boxy 1980s hatchback alone under a single spotlight in total darkness, centre, dramatic, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "मारुति।",
+     "caption": "Maruti।"
+    },
+    {
      "prompt": "a hand passing a car key to another hand at a ceremony, marigold garlands and a blurred podium behind, bright winter light, close shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "चौदह दिसंबर उन्नीस सौ तिरासी को मारुति आठ सौ की पहली कार सौंपी गई। सरकारी कंपनी मारुति उद्योग और जापान की सुज़ुकी का साथ।",
      "caption": "14 दिसंबर 1983 को Maruti 800 की पहली कार सौंपी गई। सरकारी कंपनी Maruti Udyog और जापान की Suzuki का साथ।"
     },
     {
-     "vo": "एम्बेसडर के सामने ये खिलौने जैसी लगती थी। छोटी, हल्की, और शहर की गलियों के लिए बनी।",
      "prompt": "a large rounded old white sedan on the left beside a tiny boxy white hatchback on the right in a narrow Indian city lane, strong scale contrast, afternoon light, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "एम्बेसडर के सामने ये खिलौने जैसी लगती थी। छोटी, हल्की, और शहर की गलियों के लिए बनी।",
      "caption": "Ambassador के सामने ये खिलौने जैसी लगती थी। छोटी, हल्की, और शहर की गलियों के लिए बनी।"
     },
     {
-     "vo": "पर इसमें वो था जो एम्बेसडर में नहीं था: बेहतर माइलेज, आसान ड्राइविंग, और नई टेक्नोलॉजी।",
      "prompt": "the clean dashboard of a small 1980s hatchback with a fuel gauge and simple controls, a city road through the windscreen, sunlight, close shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "पर इसमें वो था जो एम्बेसडर में नहीं था: बेहतर माइलेज, आसान ड्राइविंग, और नई टेक्नोलॉजी।",
      "caption": "पर इसमें वो था जो Ambassador में नहीं था: बेहतर mileage, आसान driving, और नई technology।"
     },
     {
-     "vo": "मध्यम वर्ग के लिए पहली बार कार एक दूर का सपना नहीं, एक प्लान बन गई।",
      "prompt": "a young man and a young woman seen from behind gazing at a small white hatchback through a showroom window at night, city lights reflected in the glass, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "मध्यम वर्ग के लिए पहली बार कार एक दूर का सपना नहीं, एक प्लान बन गई।",
      "caption": "मध्यम वर्ग के लिए पहली बार कार एक दूर का सपना नहीं, एक plan बन गई।"
     },
     {
-     "vo": "कुछ ही सालों में मारुति आठ सौ देश की सबसे ज़्यादा बिकने वाली कार बन गई।",
      "prompt": "a late-1980s Indian city road filled with small white hatchbacks, one large rounded old sedan in the middle, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "कुछ ही सालों में मारुति आठ सौ देश की सबसे ज़्यादा बिकने वाली कार बन गई।",
      "caption": "कुछ ही सालों में Maruti 800 देश की सबसे ज़्यादा बिकने वाली कार बन गई।"
     },
     {
-     "vo": "और एम्बेसडर? जिसके लिए लोग सालों इंतज़ार करते थे, अब वो खुद ग्राहकों का इंतज़ार करने लगी।",
-     "prompt": "a lone rounded sedan in a dusty empty showroom, an empty salesman's chair, slowly turning ceiling fan, dim lonely light, wide shot",
+     "prompt": "rows of brand-new white rounded sedans lined up in a factory yard, distant blurred workers walking between them, clear sky, proud bright light, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "और Ambassador? जिसके लिए लोग सालों इंतज़ार करते थे, अब वो खुद ग्राहकों का इंतज़ार करने लगी।"
+     "vo": "पर एम्बेसडर की बिक्री रातोंरात नहीं गिरी। सरकारी गाड़ियों और टैक्सियों में अब भी यही चलती थी।",
+     "caption": "पर Ambassador की बिक्री रातोंरात नहीं गिरी। सरकारी गाड़ियों और taxi में अब भी यही चलती थी।"
     },
     {
-     "vo": "कंपनी ने बदलाव किए, पर कार का बुनियादी ढाँचा वही रहा, उन्नीस सौ पचास के दशक वाला।",
      "prompt": "a yellowed blueprint of a rounded 1950s car on an old drafting table, a newer desk lamp beside it, modern office behind, close shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "कंपनी ने बदलाव किए, पर कार का बुनियादी ढाँचा वही रहा, 1950s वाला।"
+     "vo": "कंपनी ने बदलाव किए, पर कार का बुनियादी ढाँचा वही रहा, उन्नीस सौ पचास के दशक वाला।",
+     "caption": "कंपनी ने बदलाव किए, पर कार का बुनियादी ढाँचा वही रहा, 1950 के दशक वाला।"
     },
     {
-     "vo": "रास्ता बदल रहा था, पर गाड़ी अपनी पुरानी चाल से चल रही थी।",
-     "prompt": "a rounded old sedan driving slowly on a new highway while small modern cars speed past it, motion blur, golden evening, wide shot",
-     "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
-    },
-    {
-     "vo": "फिर आया उन्नीस सौ इक्यानवे। और जो खिड़की थोड़ी सी खुली थी, वो पूरा दरवाज़ा बन गई।",
      "prompt": "giant heavy wooden doors opening onto a bright new highway, light flooding into a dark hall, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "फिर आया 1991। और जो खिड़की थोड़ी सी खुली थी, वो पूरा दरवाज़ा बन गई।"
+     "vo": "मारुति ने दरवाज़ा सिर्फ़ खटखटाया था। उन्नीस सौ इक्यानवे में वो दरवाज़ा पूरा खुल गया।",
+     "caption": "Maruti ने दरवाज़ा सिर्फ़ खटखटाया था। 1991 में वो दरवाज़ा पूरा खुल गया।"
     }
    ]
   },
   {
-   "id": "ch5",
-   "card": "नया भारत",
+   "id": "chapter_5",
+   "card": "खुला बाज़ार, बूढ़ा राजा",
    "shots": [
     {
-     "vo": "उन्नीस सौ इक्यानवे में भारत ने अपनी अर्थव्यवस्था दुनिया के लिए खोली। लाइसेंस राज की दीवारें गिरने लगीं।",
      "prompt": "a tall wall of stacked old files crumbling apart, papers scattered in the air, bright morning sunlight through the gap, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "1991 में भारत ने अपनी अर्थव्यवस्था दुनिया के लिए खोली। licence raj की दीवारें गिरने लगीं।"
+     "vo": "क्या एम्बेसडर इस खुली दौड़ में टिक पाती? उन्नीस सौ इक्यानवे में भारत ने अर्थव्यवस्था खोली, लाइसेंस राज की दीवारें गिरने लगीं।",
+     "caption": "क्या Ambassador इस खुली दौड़ में टिक पाती? 1991 में भारत ने अर्थव्यवस्था खोली, License Raj की दीवारें गिरने लगीं।"
     },
     {
-     "vo": "उन्नीस सौ पंचानवे से उन्नीस सौ अट्ठानवे के बीच देवू, फ़ोर्ड, जनरल मोटर्स, होंडा और ह्युंडई जैसी विदेशी कंपनियाँ अपनी कारें लेकर भारत आईं।",
      "prompt": "a cargo ship at an Indian port unloading rows of colourful modern 1990s cars, cranes, hazy blue sky, wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "1995 से 1998 के बीच Daewoo, Ford, General Motors, Honda और Hyundai जैसी विदेशी कंपनियाँ अपनी कारें लेकर भारत आईं।"
+     "vo": "उन्नीस सौ पंचानवे से उन्नीस सौ अट्ठानवे के बीच देवू, फ़ोर्ड, जनरल मोटर्स, होंडा और ह्युंडई अपनी कारें लेकर भारत आईं।",
+     "caption": "1995 से 1998 के बीच Daewoo, Ford, General Motors, Honda और Hyundai अपनी कारें लेकर भारत आईं।"
     },
     {
-     "vo": "नई शेप, नए फ़ीचर्स, और लोगों के पास पहली बार असली चॉइस।",
      "prompt": "a bright late-1990s Indian showroom full of colourful small modern hatchbacks and sedans, glossy floor, one family seen from behind far off, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "नई शेप, नए फ़ीचर्स, और लोगों के पास पहली बार असली चॉइस।",
      "caption": "नई shape, नए features, और लोगों के पास पहली बार असली choice।"
     },
     {
-     "vo": "एम्बेसडर ने भी कोशिश की। उन्नीस सौ बानवे में इसुज़ु का इंजन लगाकर एम्बेसडर अठारह सौ आई एस ज़ेड आई।",
+     "prompt": "a lone rounded sedan in a dusty empty showroom, an empty salesman's chair, slowly turning ceiling fan, dim lonely light, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "और एम्बेसडर? जिसके लिए लोग कभी सालों इंतज़ार करते थे, अब उसकी बिक्री घटने लगी।",
+     "caption": "और Ambassador? जिसके लिए लोग कभी सालों इंतज़ार करते थे, अब उसकी बिक्री घटने लगी।"
+    },
+    {
+     "prompt": "a pen hovering over a contract on a desk in a European office, rainy European city with mansard roofs through the window, cool light, close shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "कमाल देखिए, बाज़ार विदेशी कारों ने छीना, और आख़िर में एम्बेसडर का नाम भी एक विदेशी कंपनी ने ही ख़रीदा। कौन-सी, ये आख़िर में।",
+     "caption": "कमाल देखिए, बाज़ार विदेशी कारों ने छीना, और आख़िर में Ambassador का नाम भी एक विदेशी कंपनी ने ही ख़रीदा। कौन-सी, ये आख़िर में।"
+    },
+    {
      "prompt": "a mechanic's hands lowering a new engine with a chain hoist into the open bonnet of an old rounded sedan, workshop lamps, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "Ambassador ने भी कोशिश की। 1992 में Isuzu का engine लगाकर Ambassador 1800 ISZ आई।"
+     "vo": "एम्बेसडर ने भी कोशिश की। उन्नीस सौ बानवे में इसुज़ु का इंजन लगाकर आई एम्बेसडर अठारह सौ आई एस ज़ेड।",
+     "caption": "Ambassador ने भी कोशिश की। 1992 में Isuzu का engine लगाकर आई Ambassador 1800 ISZ।"
     },
     {
-     "vo": "दो हज़ार चार में अविगो आई, थोड़ा नया चेहरा। पर अंदर से कार लगभग वही पुरानी थी।",
      "prompt": "an old rounded sedan with a slightly modernised front standing under cold showroom spotlights, same curved body as decades before, medium-wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "दो हज़ार चार में अविगो आई, थोड़ा नया चेहरा। पर अंदर से कार लगभग वही पुरानी थी।",
      "caption": "2004 में Avigo आई, थोड़ा नया चेहरा। पर अंदर से कार लगभग वही पुरानी थी।"
     },
     {
-     "vo": "मरम्मत आसान थी, पर सेफ़्टी, कम्फ़र्ट और माइलेज में ये पीछे छूट रही थी।",
      "prompt": "modern cars overtaking an old rounded white sedan on a rain-soaked highway at night, headlights streaking, wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "मरम्मत आसान थी, पर सेफ़्टी, कम्फ़र्ट और माइलेज में ये पीछे छूट रही थी।",
      "caption": "मरम्मत आसान थी, पर safety, comfort और mileage में ये पीछे छूट रही थी।"
     },
     {
-     "vo": "धीरे-धीरे सरकारी दफ़्तरों में भी दूसरी गाड़ियाँ दिखने लगीं।",
      "prompt": "a single old white rounded sedan in a shaded corner of a government parking lot filled with modern SUVs and sedans, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "और जिस सरकार की वो शान थी, उसी के दफ़्तरों में धीरे-धीरे दूसरी गाड़ियाँ दिखने लगीं।",
+     "caption": "और जिस सरकार की वो शान थी, उसी के दफ़्तरों में धीरे-धीरे दूसरी गाड़ियाँ दिखने लगीं।"
     },
     {
-     "vo": "अप्रैल दो हज़ार दस में तेरह बड़े शहरों में सख़्त बी एस फ़ोर एमिशन नियम लागू हुए।",
      "prompt": "an old sedan stopped before a striped barrier across a city entry road, hazy skyline with traffic smoke behind, smoggy orange light, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "अप्रैल 2010 में तेरह बड़े शहरों में सख़्त BS-IV emission नियम लागू हुए।"
+     "vo": "फिर अप्रैल दो हज़ार दस में तेरह बड़े शहरों में सख़्त बी एस फ़ोर एमिशन नियम लागू हुए।",
+     "caption": "फिर अप्रैल 2010 में 13 बड़े शहरों में सख़्त BS4 emission नियम लागू हुए।"
     },
     {
-     "vo": "एम्बेसडर का डीज़ल इंजन इन पर खरा नहीं उतरा। दो हज़ार तेरह में बी एस फ़ोर वाली एन्कोर आने तक, इन शहरों में डीज़ल एम्बेसडर बिक ही नहीं सकती थी।",
      "prompt": "a mechanic seen from behind holding an exhaust probe at the tailpipe of an old rounded white sedan with its bonnet open, grey smoke, harsh fluorescent light, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "Ambassador का diesel engine इन पर खरा नहीं उतरा। 2013 में BS-IV वाली Encore आने तक, इन शहरों में diesel Ambassador बिक ही नहीं सकती थी।"
+     "vo": "इन शहरों में एम्बेसडर के लिए नए नियमों पर खरा उतरना मुश्किल हो गया। बी एस फ़ोर वाली एन्कोर दो हज़ार तेरह में जाकर आई।",
+     "caption": "इन शहरों में Ambassador के लिए नए नियमों पर खरा उतरना मुश्किल हो गया। BS4 वाली Encore 2013 में जाकर आई।"
     },
     {
-     "vo": "ग़लती किसकी थी: हिंदुस्तान मोटर्स की, जो नहीं बदली, या लाइसेंस राज की, जिसने बदलने की ज़रूरत ही नहीं छोड़ी? कमेंट्स में लिखिए।",
      "prompt": "a lone old white sedan at a crossroads at dusk, the left road leading to a dusty old town, the right road to a glittering modern city, wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "ग़लती किसकी थी: Hindustan Motors की, जो नहीं बदली, या licence raj की, जिसने बदलने की ज़रूरत ही नहीं छोड़ी? Comments में लिखिए।"
+     "vo": "ग़लती किसकी थी: हिंदुस्तान मोटर्स की, जो नहीं बदली, या लाइसेंस राज की, जिसने बदलने की ज़रूरत ही नहीं छोड़ी? कमेंट्स में लिखिए।",
+     "caption": "ग़लती किसकी थी: Hindustan Motors की, जो नहीं बदली, या License Raj की, जिसने बदलने की ज़रूरत ही नहीं छोड़ी? comments में लिखिए।"
     },
     {
-     "vo": "लेकिन तभी, आख़िरी दौर से ठीक पहले, विदेश से एक हैरान करने वाली ख़बर आई।",
      "prompt": "a glowing television in a dim Kolkata tea stall at night, distant silhouettes leaning in to watch, steam rising from clay cups, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "पर अंत से ठीक पहले, विदेश से एक ऐसी ख़बर आई, जिसकी किसी को उम्मीद नहीं थी।",
+     "caption": "पर अंत से ठीक पहले, विदेश से एक ऐसी ख़बर आई, जिसकी किसी को उम्मीद नहीं थी।"
     }
    ]
   },
   {
-   "id": "ch6",
-   "card": "आख़िरी दिन",
+   "id": "chapter_6",
+   "card": "आख़िरी सलाम",
    "shots": [
     {
-     "vo": "दो हज़ार तेरह में बी बी सी के मशहूर शो टॉप गियर ने दुनिया की टैक्सियों को परखा। और बेस्ट टैक्सी चुनी गई: हिंदुस्तान एम्बेसडर।",
      "prompt": "a yellow rounded taxi gleaming on a wet test track in the rain, stadium lights behind, triumphant mood, medium-wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "2013 में BBC के मशहूर शो Top Gear ने दुनिया की taxis को परखा। और best taxi चुनी गई: Hindustan Ambassador।"
+     "vo": "दो हज़ार तेरह में बी बी सी के शो टॉप गियर ने दुनिया की टैक्सियों को परखा। बेस्ट टैक्सी चुनी गई: हिंदुस्तान एम्बेसडर।",
+     "caption": "2013 में BBC के show Top Gear ने दुनिया की taxi को परखा। best taxi चुनी गई: Hindustan Ambassador।"
     },
     {
-     "vo": "जिस कार से उसका अपना बाज़ार मुँह मोड़ रहा था, उसे दुनिया सलाम कर रही थी। गर्व हुआ हो, तो लाइक कीजिए।",
      "prompt": "an old yellow rounded taxi alone on an empty Kolkata street at dawn, marigold petals on the road, soft bittersweet light, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "जिस कार से उसका अपना बाज़ार मुँह मोड़ रहा था, उसे दुनिया सलाम कर रही थी। गर्व हुआ हो, तो लाइक कीजिए।",
      "caption": "जिस कार से उसका अपना बाज़ार मुँह मोड़ रहा था, उसे दुनिया सलाम कर रही थी। गर्व हुआ हो, तो like कीजिए।"
     },
     {
-     "vo": "पर तारीफ़ से गाड़ियाँ नहीं बिकतीं। बिक्री बहुत कम रह गई थी, और कंपनी पर कर्ज़ बढ़ता जा रहा था।",
      "prompt": "a hand turning pages of a thick ledger under a single lamp in a dim office at night, empty chairs around, close shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "पर क्या तारीफ़ से फ़ैक्ट्री बचती है? मांग बहुत कम रह गई थी, और कंपनी का घाटा बढ़ता जा रहा था।",
+     "caption": "पर क्या तारीफ़ से factory बचती है? मांग बहुत कम रह गई थी, और कंपनी का घाटा बढ़ता जा रहा था।"
     },
     {
-     "vo": "पैसों की तंगी, गिरती प्रोडक्टिविटी। सवाल हवा में था: प्लांट कब तक चलेगा, और यहाँ काम करने वाले परिवारों का क्या होगा?",
      "prompt": "a man sitting on a doorstep with head in hands, seen from behind, beside rows of small workers' quarters and an old factory wall, one lit window, cold blue night, medium-wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "पैसों की तंगी, गिरती productivity। सवाल हवा में था: plant कब तक चलेगा, और यहाँ काम करने वाले परिवारों का क्या होगा?"
+     "vo": "सवाल हवा में था: प्लांट कब तक चलेगा? और यहाँ काम करने वाले परिवारों का क्या होगा?",
+     "caption": "सवाल हवा में था: plant कब तक चलेगा? और यहाँ काम करने वाले परिवारों का क्या होगा?"
     },
     {
-     "vo": "फिर आया चौबीस मई दो हज़ार चौदह।",
      "prompt": "the massive closed gates of an old riverside car factory with a paper notice pinned to them, crows on the wall, heavy grey sky, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "फिर आया चौबीस मई दो हज़ार चौदह।",
      "caption": "फिर आया 24 मई 2014।"
     },
     {
-     "vo": "हिंदुस्तान मोटर्स ने उत्तरपाड़ा प्लांट में काम रोक दिया। वजह बताई: कम प्रोडक्टिविटी, बढ़ता कर्ज़, पैसों की तंगी, और मांग की कमी।",
      "prompt": "a silent assembly line with half-built rounded car bodies, still machines, dust in shafts of light, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "Hindustan Motors ने उत्तरपाड़ा plant में काम रोक दिया। वजह बताई: कम productivity, बढ़ता कर्ज़, पैसों की तंगी, और मांग की कमी।"
+     "vo": "हिंदुस्तान मोटर्स ने उत्तरपाड़ा प्लांट में काम रोक दिया। स्टॉक एक्सचेंज के नोटिस में वजहें थीं: कम प्रोडक्टिविटी, नक़द घाटा और मांग की कमी।",
+     "caption": "Hindustan Motors ने उत्तरपाड़ा plant में काम रोक दिया। stock exchange के notice में वजहें थीं: कम productivity, नक़द घाटा और मांग की कमी।"
     },
     {
-     "vo": "जहाँ कभी दिन-रात मशीनें गूँजती थीं, वहाँ अब सन्नाटा था।",
-     "prompt": "a vast empty factory hall at night, broken skylights, moonlight falling on rusting machinery, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "जहाँ कभी दिन-रात machines गूँजती थीं, वहाँ अब सन्नाटा था।"
-    },
-    {
-     "vo": "गेट के बाहर मज़दूर खड़े थे, जिनमें से कई ने अपनी पूरी ज़िंदगी इसी प्लांट में गुज़ारी थी।",
      "prompt": "an old worker in a cap holding a steel tiffin box and umbrella at closed factory gates in the rain, seen from behind, other workers as distant blurred silhouettes, grey light, medium-wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "गेट के बाहर मज़दूर खड़े थे, जिनमें से कई ने अपनी पूरी ज़िंदगी इसी plant में गुज़ारी थी।"
+     "vo": "उसी नोटिस में कंपनी ने मज़दूरों की अनुशासनहीनता को भी एक वजह बताया।",
+     "caption": "उसी notice में कंपनी ने मज़दूरों की अनुशासनहीनता को भी एक वजह बताया।"
     },
     {
-     "vo": "छप्पन साल, लगभग एक ही शक्ल, एक ही फ़ैक्ट्री। भारत की सड़कों का राजा, बिना किसी शोर के रुक गया।",
+     "prompt": "a vast empty factory hall at night, broken skylights, moonlight falling on rusting machinery, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "बी बी सी ने बताया, उत्तरपाड़ा में एम्बेसडर का प्रोडक्शन रुक गया। और वो फिर कभी शुरू नहीं हुआ।",
+     "caption": "BBC ने बताया, उत्तरपाड़ा में Ambassador का production रुक गया। और वो फिर कभी शुरू नहीं हुआ।"
+    },
+    {
      "prompt": "the last rounded sedan body on an assembly line, half-covered with a white sheet, a single spotlight above, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "छप्पन साल, लगभग एक ही शक्ल, एक ही factory। भारत की सड़कों का राजा, बिना किसी शोर के रुक गया।"
+     "vo": "छप्पन साल, लगभग एक ही शक्ल, एक ही फ़ैक्ट्री। भारत की सड़कों का राजा, बिना किसी शोर के थम गया।",
+     "caption": "56 साल, लगभग एक ही शक्ल, एक ही factory। भारत की सड़कों का राजा, बिना किसी शोर के थम गया।"
     },
     {
-     "vo": "अगर आपके घर में किसी ने कभी एम्बेसडर चलाई है, तो ये वीडियो उन्हें ज़रूर भेजिए।",
      "prompt": "weathered elderly hands resting on the large thin steering wheel of an old sedan, seen from the back seat, soft evening light through the windscreen, close shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "अगर आपके घर में किसी ने कभी Ambassador चलाई है, तो ये वीडियो उन्हें ज़रूर भेजिए।"
+     "vo": "अगर आपके घर में किसी ने कभी एम्बेसडर चलाई है, तो ये वीडियो उन्हें ज़रूर भेजिए।",
+     "caption": "अगर आपके घर में किसी ने कभी Ambassador चलाई है, तो ये video उन्हें ज़रूर भेजिए।"
     },
     {
-     "vo": "पर कहानी यहीं ख़त्म नहीं हुई। एम्बेसडर का नाम अभी बिकना बाक़ी था।",
      "prompt": "an empty polished boardroom table at evening with a single old chrome car key in the centre, city lights through the window, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "पर कहानी यहीं ख़त्म नहीं हुई। Ambassador का नाम अभी बिकना बाक़ी था।"
+     "vo": "पर कहानी यहीं ख़त्म नहीं हुई।",
+     "caption": "पर कहानी यहीं ख़त्म नहीं हुई।"
+    },
+    {
+     "prompt": "a single old chrome car key resting on a polished dark boardroom table, centre, empty leather chairs, slanting evening light, close shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "क्योंकि एम्बेसडर का नाम अभी बिकना बाक़ी था।",
+     "caption": "क्योंकि Ambassador का नाम अभी बिकना बाक़ी था।"
     }
    ]
   },
@@ -539,132 +603,92 @@
    "card": null,
    "shots": [
     {
-     "vo": "तो छप्पन साल तक बनी, दशकों तक सड़कों पर राज करने वाली कार की फ़ैक्ट्री का काम हमेशा के लिए क्यों रुक गया? क्योंकि भारत बदल गया, पर एम्बेसडर नहीं बदली।",
      "prompt": "an old white rounded sedan in the foreground, a modern Indian city of glass towers, flyovers and metro lines behind it, golden hour, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "तो छप्पन साल तक बनी, दशकों तक सड़कों पर राज करने वाली कार की फ़ैक्ट्री का काम हमेशा के लिए क्यों रुक गया? क्योंकि भारत बदल गया, पर Ambassador नहीं बदली।"
+     "vo": "तो एम्बेसडर का अंत क्यों हुआ? किसी एक ग़लती से नहीं। भारत बदल गया, पर एम्बेसडर नहीं बदली।",
+     "caption": "तो Ambassador का अंत क्यों हुआ? किसी एक ग़लती से नहीं। भारत बदल गया, पर Ambassador नहीं बदली।"
     },
     {
-     "vo": "जिस लाइसेंस राज ने उसे राजा बनाया, उसी के जाने ने उसे अकेला कर दिया।",
      "prompt": "a lone rounded sedan in an empty parking ground at twilight, the long shadow of an old government building stretching over it, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "जिस licence raj ने उसे राजा बनाया, उसी के जाने ने उसे अकेला कर दिया।"
+     "vo": "जिस लाइसेंस राज ने उसे राजा बनाया, उसी के जाने ने उसे अकेला कर दिया।",
+     "caption": "जिस License Raj ने उसे राजा बनाया, उसी के जाने ने उसे अकेला कर दिया।"
     },
     {
-     "vo": "और वो बात, जो ज़्यादातर लोग नहीं जानते: दो हज़ार सत्रह में ये नाम प्यूज़ो बनाने वाली फ़्रेंच कंपनी ग्रुप पी एस ए को अस्सी करोड़ रुपये में बिका।",
-     "prompt": "a pen hovering over a contract on a desk in a European office, rainy European city with mansard roofs through the window, cool light, close shot",
-     "move": "pan_left",
+     "prompt": "Two men in dark suits shaking hands across a desk over a freshly signed contract in a bright modern European office, a small model of an old rounded white sedan on the desk, no readable text, no logos",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "और वो बात, जो ज़्यादातर लोग नहीं जानते: 2017 में ये नाम Peugeot बनाने वाली French कंपनी Groupe PSA को अस्सी करोड़ रुपये में बिका।"
+     "move": "pan_left",
+     "vo": "और अब वो सौदा। फ़रवरी दो हज़ार सत्रह में बिकी कोई फ़ैक्ट्री नहीं, सिर्फ़ एम्बेसडर ब्रांड का नाम।",
+     "caption": "और अब वो सौदा। फ़रवरी 2017 में बिकी कोई factory नहीं, सिर्फ़ Ambassador brand का नाम।"
     },
     {
-     "vo": "और आज, पी एस ए के स्टेलैंटिस में मिल जाने के बाद, ये नाम स्टेलैंटिस के पास है। सड़कों पर अब शायद ही दिखे, पर यादों में एम्बेसडर आज भी चल रही है।",
+     "prompt": "a single old chrome car key lying on a stack of banknotes on a dark desk, one beam of light through shadow, close shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "vo": "ख़रीदार थी प्यूज़ो बनाने वाली फ़्रेंच कंपनी ग्रुप पी एस ए। क़ीमत: सिर्फ़ अस्सी करोड़ रुपये।",
+     "caption": "ख़रीदार थी Peugeot बनाने वाली फ़्रेंच कंपनी Group PSA। क़ीमत: सिर्फ़ 80 करोड़ रुपये।"
+    },
+    {
+     "prompt": "A single old chrome car key displayed alone inside a glass case in a sleek modern European corporate lobby at dawn, soft light through tall windows, no text, no logos",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "move": "pull",
+     "vo": "सोलह जनवरी दो हज़ार इक्कीस को पी एस ए और एफ़ सी ए मिलकर स्टेलैंटिस बनीं। यानी आज एम्बेसडर का नाम स्टेलैंटिस के पास है।",
+     "caption": "16 जनवरी 2021 को PSA और FCA मिलकर Stellantis बनीं। यानी आज Ambassador का नाम Stellantis के पास है।"
+    },
+    {
      "prompt": "a rounded white sedan driving into a warm sunset on an Indian highway, soft golden haze, faint modern glass tower in the sky, painted like a fading memory, wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "और आज, PSA के Stellantis में मिल जाने के बाद, ये नाम Stellantis के पास है। सड़कों पर अब शायद ही दिखे, पर यादों में Ambassador आज भी चल रही है।"
+     "vo": "सड़कों पर अब शायद ही दिखे, पर किसी पुरानी तस्वीर में, किसी शादी की याद में, एम्बेसडर आज भी चल रही है।",
+     "caption": "सड़कों पर अब शायद ही दिखे, पर किसी पुरानी तस्वीर में, किसी शादी की याद में, Ambassador आज भी चल रही है।"
     },
     {
-     "vo": "अगली कहानी: निरमा। एक आदमी, एक साइकिल, और घर-घर बिकता पीला पाउडर, जिसने बड़ी कंपनियों को हिला दिया। सब्सक्राइब कर लीजिए।",
      "prompt": "a man on a bicycle riding down a dusty 1970s Gujarat lane, sacks of yellow powder tied to the carrier, seen from behind, distant blurred women at doorways, warm morning light, medium-wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "अगली कहानी: Nirma। एक आदमी, एक साइकिल, और घर-घर बिकता पीला पाउडर, जिसने बड़ी कंपनियों को हिला दिया। Subscribe कर लीजिए।"
+     "vo": "अगली कहानी: निरमा। एक आदमी, एक साइकिल, और घर-घर बिकता पीला पाउडर, जिसने बड़ी कंपनियों को हिला दिया।",
+     "caption": "अगली कहानी: Nirma। एक आदमी, एक साइकिल, और घर-घर बिकता पीला पाउडर, जिसने बड़ी कंपनियों को हिला दिया।"
+    },
+    {
+     "prompt": "An old bicycle loaded with small paper packets of yellow powder leaning against a whitewashed wall in a quiet 1970s Gujarat lane at dawn, no text, no logos",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "move": "pan_right",
+     "vo": "ये कहानी छूटे नहीं, इसलिए सब्सक्राइब कर लीजिए।",
+     "caption": "ये कहानी छूटे नहीं, इसलिए subscribe कर लीजिए।"
     }
    ]
   }
  ],
- "voice_requested": "voice-ll-002-hindustan-ambassador-fa1facf03d",
- "voice_ok": "voice-ll-002-hindustan-ambassador-fa1facf03d",
- "voice_approved_at": "2026-11-07 14:54",
  "released_at": "2026-11-07 14:54",
  "intro_title": "THE AMBASSADOR STORY",
  "grade": "cross-process",
  "look": "muted",
  "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, ultra detailed, no text, no logos, desaturated muted colour, overcast soft light, cool shadows, sombre mood",
  "repaint": {
-  "at": "2026-11-07T18:20:14",
   "shots": [
-   1,
-   2,
-   3,
-   4,
-   5,
-   6,
    7,
-   8,
    9,
-   10,
-   11,
-   12,
-   13,
-   14,
-   15,
-   16,
-   17,
-   18,
-   19,
-   20,
-   21,
-   22,
-   23,
-   24,
-   25,
-   26,
-   27,
-   28,
-   29,
-   30,
-   31,
-   32,
-   33,
-   34,
-   35,
-   36,
-   37,
-   38,
-   39,
-   40,
    41,
-   42,
-   43,
-   44,
-   45,
-   46,
-   47,
-   48,
-   49,
-   50,
-   51,
-   52,
-   53,
-   54,
-   55,
-   56,
-   57,
-   58,
-   59,
-   60,
-   61,
-   62,
-   63,
-   64,
-   65,
-   66,
-   67,
-   68,
-   69,
-   70,
-   71,
-   72,
-   73,
-   74
+   78,
+   80,
+   83
   ],
-  "thumbs": [
-   "thumb-plane.png"
-  ],
-  "why": "owner: repaint on FLUX in the new style"
+  "thumbs": [],
+  "at": "2026-11-10 23:45"
+ },
+ "rewrite": {
+  "at": "2026-11-10 23:45",
+  "by": "studio/retention_rewrite.py",
+  "reused": 77,
+  "new": [
+   7,
+   9,
+   41,
+   78,
+   80,
+   83
+  ]
  }
 }
