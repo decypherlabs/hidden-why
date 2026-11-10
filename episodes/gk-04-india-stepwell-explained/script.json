@@ -49,10 +49,10 @@
     {
      "vo": "गुजरात के पाटन की रानी की वाव, ग्यारहवीं सदी में बनी।",
      "caption": "गुजरात के पाटन की रानी की वाव, 11वीं सदी में बनी।",
-     "prompt": "A grand eleventh-century Indian stepwell in Patan, Gujarat, seen from its entrance, long carved sandstone stairway leading down between pillared pavilions into the earth, plain blank stone surfaces, no signs, no text, no labels, no maps, warm sandy-gold stone, bright clear daylight, sharp focus from foreground to background, wide shot, vertical composition with the stairway centered and generous empty margin on both left and right edges, photorealistic documentary still",
+     "prompt": "A grand eleventh-century Indian stepwell in Patan, Gujarat, seen from its entrance, long carved sandstone stairway leading down between pillared pavilions into the earth, plain blank stone surfaces, no signs, no text, no labels, no maps, no writing anywhere, warm sandy-gold stone, bright clear daylight, sharp focus from foreground to background, wide shot, vertical composition with the stairway centered in the middle third of the frame and a wide empty band of plain sand-coloured ground and bare stone wall on both the left and right sides, nothing near the frame edges, photorealistic documentary still",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 16840,
+     "seed": 24759,
      "map": {
       "center": [
        23.8593,
@@ -95,7 +95,7 @@
     {
      "vo": "दीवारों पर पाँच सौ से ज़्यादा बड़ी मूर्तियाँ, और हज़ार से ज़्यादा छोटी।",
      "caption": "दीवारों पर 500+ बड़ी मूर्तियाँ, और 1000+ छोटी।",
-     "prompt": "A stepwell wall covered from floor to top with hundreds of carved stone sculptures of Indian gods and goddesses in rows of niches, honey-coloured sandstone, plain bare stone floor at the bottom, soft golden light, sharp focus, wide shot",
+     "prompt": "A stepwell wall covered from floor to top with hundreds of carved stone sculptures of Indian gods and goddesses in rows of niches, honey-coloured sandstone, plain bare stone floor at the bottom with nothing on it, no signboards, no placards, no maps, no text, no writing, no plaques anywhere, only carved sculptures and smooth stone, soft golden light, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -103,7 +103,7 @@
       "Close-up of a dense cluster of tiny carved figures, miniature dancers and animals packed tightly into a stone band, hundreds of small details, raking light, extreme sharpness."
      ],
      "key": "500+",
-     "seed": 16842
+     "seed": 24761
     },
     {
      "vo": "लेकिन फिर सरस्वती नदी की बाढ़ आई, और पूरी वाव मिट्टी से भर गई।",
@@ -145,7 +145,7 @@
     {
      "vo": "जिस मिट्टी ने इसे दबाया, उसी ने इसे नया रखा।",
      "caption": "जिस मिट्टी ने इसे दबाया, उसी ने इसे नया रखा।",
-     "prompt": "A restored ancient Indian stepwell at sunrise, tiers of crisp carved sandstone sculptures glowing in golden light, plain clean stone steps and bare stone ground in the foreground, one small visitor standing far down on the steps, bright morning sun, sharp focus, wide shot",
+     "prompt": "A restored ancient Indian stepwell at sunrise, tiers of crisp carved sandstone sculptures glowing in golden light, plain clean stone steps and bare stone ground in the foreground, no road, no road signs, no signboards, no text, no writing, no plaques anywhere, one small visitor standing far down on the steps, bright morning sun, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -153,7 +153,7 @@
       "Close-up of a sharp carved goddess face in golden sandstone with a faint trace of fine dust in the grooves, glowing in soft morning light, deep shadows, looking brand new."
      ],
      "key": "नया रखा",
-     "seed": 16846
+     "seed": 24765
     }
    ]
   }
@@ -164,32 +164,21 @@
  "voice_approved_at": "2026-11-08 15:14",
  "repaint": {
   "shots": [
+   2,
    4,
    8
   ],
-  "thumbs": [
-   "shot-04-2.png",
-   "shot-04-3.png",
-   "shot-08-2.png",
-   "shot-08-3.png"
-  ],
-  "at": "2026-11-10 23:04"
+  "thumbs": [],
+  "at": "2026-11-10 23:16"
  },
  "shot_qc": {
-  "checked": "2026-11-10T17:33:46Z",
-  "rounds": 2,
-  "why": {
-   "4b": "Painted-in text and maps on signboards, a blue screen, and a map on display",
-   "4c": "Plaque with garbled lettering at the top",
-   "8b": "Foreign and garbled signs and wall maps with text",
-   "8c": "Street sign with garbled letters (DANET, AIIES)",
-   "8": "Red sign or map board with text in the lower left"
-  },
+  "rounds": 1,
   "recheck": [
-   "4",
-   "8"
+   2,
+   4,
+   8
   ]
  },
  "polished": "2026-11-08 18:34",
- "auto_regen": 1
+ "auto_regen": 2
 }
