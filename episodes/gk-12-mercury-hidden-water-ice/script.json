@@ -50,14 +50,14 @@
     {
      "vo": "मर्करी सूर्य के सबसे नज़दीक ग्रह है, लेकिन...",
      "caption": "Mercury सूर्य के सबसे नज़दीक ग्रह है, लेकिन...",
-     "prompt": "A small solid grey cratered planet Mercury on the left of the frame, an enormous solid orange Sun with solar flares on the right of the frame, a wide clear gap of empty black space between them, sharp crater detail, crisp rim light, no people, wide space shot",
+     "prompt": "a grey cratered planet orbiting close to a massive glowing orange Sun, planet on the left and sun on the right, wide gap of black space, sharp rocky detail, bright rim light, wide space shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of an Indian schoolgirl in a classroom holding a small grey rocky ball beside a bright yellow lamp to show distance, classmates watching curiously, warm natural window light, photoreal",
       "Close-up of Mercury's surface at ground level, scorched grey dust and sharp rocks glowing under a fierce white sunlight, deep black shadows, heat shimmer, a tiny cracked pebble in focus, photoreal"
      ],
-     "seed": 48516
+     "seed": 56435
     },
     {
      "vo": "इसके उत्तरी ध्रुव के कुछ गड्ढों में पानी की बर्फ़ है।",
@@ -123,10 +123,12 @@
  "voice_ok": "voice-gk-12-mercury-hidden-water-ice-c4a23ccd65",
  "voice_approved_at": "2026-11-08 15:14",
  "shot_qc": {
-  "checked": "2026-11-10T18:22:38Z",
-  "rounds": 2,
+  "checked": "2026-11-10T19:07:42Z",
+  "rounds": 3,
   "why": {
-   "2b": "A classroom with a wall map that has lettering on it, and a girl holding a globe. It doesn't show Mercury near the Sun. The uniform also has a logo with text."
+   "2": "shows an Earth-like planet with blue water and white clouds instead of the rocky, airless Mercury mentioned in the narration",
+   "14": "contains a prominent horizontal glowing line/lens flare artifact across the scene",
+   "25": "contains a prominent horizontal glowing line/lens flare artifact across the planet"
   },
   "recheck": [
    "2"
@@ -141,7 +143,7 @@
    "shot-02-2.png",
    "shot-02-3.png"
   ],
-  "at": "2026-11-10 23:53"
+  "at": "2026-11-11 00:40"
  },
  "auto_regen": 3
 }
