@@ -137,38 +137,41 @@
     {
      "vo": "लेकिन रुकिए, इतनी पतली पट्टी किसी इंसान ने नहीं बनाई।",
      "caption": "लेकिन रुकिए, इतनी पतली पट्टी किसी इंसान ने नहीं बनाई।",
-     "prompt": "Wide aerial of a razor-thin green river valley squeezed between bare brown mountain ridges and a rugged Pacific coastline, golden late light, long shadows, nobody in sight, vivid natural colours, dramatic haze, photoreal, subject large in upper-middle.",
+     "prompt": "A razor-thin green river valley squeezed between bare brown mountain ridges, a rugged ocean coastline beside it, a narrow strip of farmland and a few small Indian-style houses in the valley, nobody else in sight, golden late light, long shadows, aerial wide shot, sharp focus",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of a Chilean geologist in a hard hat and orange vest kneeling beside a huge cliff of twisted, tilted rock layers, one palm pressed on the stone, overcast soft light, rugged mountains behind, sharp photoreal detail.",
       "Close-up of a weathered hand holding a hammer against folded, fractured rock strata glowing orange in low sunset light, tiny mineral crystals glinting, shallow depth of field, vivid colour, photoreal."
      ],
-     "key": "इंसान"
+     "key": "इंसान",
+     "seed": 8923
     },
     {
      "vo": "पूरब में एंडीज़ की ऊँची दीवार, पश्चिम में पैसिफ़िक ओशन।",
      "caption": "पूरब में Andes की ऊँची दीवार, पश्चिम में Pacific Ocean।",
-     "prompt": "Wide dramatic view of a towering wall of snow-capped Andes peaks on the right, a long thin strip of land in the middle and the dark blue Pacific Ocean with white surf on the left, golden hour, vivid colour, photoreal.",
+     "prompt": "A towering wall of snow-capped mountain peaks on the right, a long thin strip of green land in the middle, and a dark blue ocean with white surf crashing on the left, all in one frame, plain landscape with no signs, golden hour light, wide shot, sharp focus",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of a Chilean fisherman in a yellow raincoat standing on black rocks as a big Pacific wave crashes beside him, a huge snowy Andes peak rising behind him in the same frame, crisp morning light, photoreal.",
       "Close-up of a condor in flight with wings spread against a vivid blue sky, jagged snowy Andes summits sharp behind it, strong sunlight, extreme detail, photoreal."
      ],
-     "key": "Andes"
+     "key": "Andes",
+     "seed": 8924
     },
     {
      "vo": "समुद्र के नीचे नाज़्का प्लेट, साउथ अमेरिकन प्लेट के नीचे धँस रही है।",
      "caption": "समुद्र के नीचे Nazca plate, South American plate के नीचे धँस रही है।",
-     "prompt": "Underwater wide shot of a vast dark rocky seafloor cliff dropping into a deep ocean trench, huge slab of rock sinking into blackness, blue shafts of light from above, a small research submersible with lights nearby, photoreal.",
+     "prompt": "A huge slab of dark rock sinking downward under another rock slab at a steep underwater cliff on the ocean floor, the deep trench falling into blackness, blue shafts of light from above, a small submersible with lights nearby, plain surfaces, wide underwater shot, sharp focus",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of a cracked street in a Chilean coastal town after an earthquake, tilted lamp post, broken pavement split open, a worried local man looking down at the crack, dusty warm evening light, photoreal.",
       "Close-up of a seismograph's ink needle scribbling violent jagged lines on a rolling paper strip, a scientist's hand steadying the machine, warm lab light, sharp detail, photoreal."
      ],
-     "key": "Nazca plate"
+     "key": "Nazca plate",
+     "seed": 8925
     },
     {
      "vo": "इसी टक्कर ने एंडीज़ उठाए, और उनकी चोटियाँ ही ज़्यादातर अर्जेंटीना से सीमा बनीं।",
@@ -208,14 +211,15 @@
     {
      "vo": "पहाड़ और समुद्र के बीच फँसा, इसलिए चिली बस एक सौ अस्सी किलोमीटर चौड़ा!",
      "caption": "पहाड़ और समुद्र के बीच फँसा, इसलिए Chile बस 180 km चौड़ा!",
-     "prompt": "Wide shot of a narrow coastal road in Chile with the Pacific Ocean on one side and a massive snow-covered Andes wall on the other, a single small truck driving, both seen in one frame, clear bright light, vivid colour, photoreal.",
+     "prompt": "A narrow coastal road squeezed between a blue ocean on the left and a massive snow-covered mountain wall on the right, one small plain white truck driving on it, both ocean and mountains visible in one frame, clear bright daylight, wide shot, sharp focus, no text",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of a Chilean farmer in a straw hat standing in a tiny green vineyard strip, glancing at towering mountains on one side and a distant blue sea on the other, warm afternoon light, photoreal.",
       "Close-up of a child's wide-eyed surprised face on a seaside cliff, wind blowing hair, snowy mountains in soft focus behind and ocean glittering, golden light, photoreal."
      ],
-     "key": "180 km"
+     "key": "180 km",
+     "seed": 8927
     }
    ]
   }
@@ -224,5 +228,42 @@
  "released_at": "2026-11-10 15:49",
  "voice_requested": "voice-gk-15-chile-thin-country-9337f31837",
  "voice_ok": "voice-gk-15-chile-thin-country-9337f31837",
- "voice_approved_at": "2026-11-10 17:23"
+ "voice_approved_at": "2026-11-10 17:23",
+ "repaint": {
+  "shots": [
+   4,
+   5,
+   6,
+   8
+  ],
+  "thumbs": [
+   "shot-04-2.png",
+   "shot-04-3.png",
+   "shot-05-2.png",
+   "shot-05-3.png",
+   "shot-06-2.png",
+   "shot-06-3.png",
+   "shot-08-2.png",
+   "shot-08-3.png"
+  ],
+  "at": "2026-11-10 18:21"
+ },
+ "shot_qc": {
+  "checked": "2026-11-10T12:50:54Z",
+  "rounds": 1,
+  "why": {
+   "4b": "map on a display board, with a person looking at it",
+   "5c": "road signs with painted lettering",
+   "5": "signs carrying a map and text",
+   "6b": "map board on the street, with signage text",
+   "6c": "map on a screen, plus handwriting and labels",
+   "8": "lettering on the truck"
+  },
+  "recheck": [
+   "4",
+   "5",
+   "6",
+   "8"
+  ]
+ }
 }
