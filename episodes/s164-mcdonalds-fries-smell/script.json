@@ -20,15 +20,17 @@
    "shots": [
     {
      "vo": "One heart attack survivor changed every McDonald's fry.",
-     "prompt": "A middle-aged man in a hospital gown sitting up in a hospital bed holding open a large newspaper with a big full-page advertisement showing a red heart picture, serious determined face, pale blue hospital room with a window, bright overcast daylight, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "prompt": "A middle-aged man in a hospital gown sitting up in a hospital bed holding a big red heart-shaped paper cutout against his chest with one hand and a plain golden french fry in the other, serious determined face, pale blue hospital room with a window, bright overcast daylight, medium shot, plain surfaces, no text",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8920
     },
     {
      "vo": "Until 1990, they were fried in 93 percent beef fat.",
-     "prompt": "A deep steel fryer full of bubbling cloudy beef fat with a wire basket of golden french fries lifting out of it, a big white block of tallow fat on the steel counter beside it, clean 1980s kitchen, bright overhead light, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "prompt": "A tall steel fryer full of bubbling thick white-yellow beef fat with a wire basket of golden french fries lifting out of it, a big pale white block of beef tallow on the steel counter beside it, a cook in a plain white uniform standing at the right, clean kitchen with plain blank walls, bright overhead light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8921
     },
     {
      "vo": "Then millionaire Phil Sokolof bought full-page ads titled 'The Poisoning of America.'",
@@ -38,21 +40,24 @@
     },
     {
      "vo": "In July 1990, McDonald's switched its fryers to vegetable oil.",
-     "prompt": "Clear golden vegetable oil pouring from a large jug into an empty steel fryer vat, a single half-eaten golden fry lying on a tray beside the fryer, clean restaurant kitchen, bright overhead light, medium shot, vertical composition, natural light, true-to-life colour, highly detailed",
+     "prompt": "Clear golden vegetable oil pouring from a plain unlabelled glass jug into a big steel fryer vat, a cook in a white uniform holding the jug on the left, a tray of golden french fries on the counter at the right, clean kitchen with plain blank walls, bright overhead light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8923
     },
     {
      "vo": "To bring the old taste back, they add natural beef flavor.",
-     "prompt": "A glass lab dropper releasing one amber drop above a heaped pile of golden french fries, a small brown cow reflected in the drop, clean white lab bench, bright daylight, macro close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "prompt": "A glass dropper releasing one amber drop above a heaped pile of golden french fries on a white plate, the dropper held by a hand on the left, a single small brown cow figurine standing on the table beside the plate, clean plain white table, bright daylight, macro close-up, plain surfaces, no text",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8924
     },
     {
      "vo": "That added beef flavor is why US fries still aren't vegetarian.",
-     "prompt": "A single golden french fry held up large in the foreground by a hand, a brown cow grazing on a green pasture far behind it, everything in sharp focus, bright morning sun, close-up, vertical composition, natural light, true-to-life colour, highly detailed",
+     "prompt": "A hand holding up one large golden french fry in the foreground, a single brown cow standing in a green field behind it, a plain green leaf lying on the left beside the fry crossed out by a red cross mark, everything in sharp focus, bright morning sun, close-up, no text",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8925
     }
    ]
   }
@@ -72,12 +77,46 @@
   "was": "McDonald's fries in the US still aren't vegetarian."
  },
  "cover": {
-  "prompt": "Realistic painting, a big glistening close-up of golden french fries lifting out of a fryer basket, a faint ghostly cow shape rising in the steam above them, warm diner light, one clear subject, no text, no logos, vertical composition, natural light, true-to-life colour, highly detailed"
+  "prompt": "Realistic painting, a big glistening close-up of golden french fries lifting out of a fryer basket, a faint ghostly cow shape rising in the steam above them, warm diner light, one clear subject, no text, no logos, vertical composition, natural light, true-to-life colour, highly detailed",
+  "seed": 7928
  },
  "owner_sample": true,
  "review_note": "owner, 9 Nov 2026: line 3 made specific (Phil Sokolof's 'The Poisoning of America' ads); the start-to-end sample",
  "released_at": "2026-11-10 17:03",
  "voice_requested": "voice-s164-mcdonalds-fries-smell-5073fd67b3",
  "voice_ok": "voice-s164-mcdonalds-fries-smell-5073fd67b3",
- "voice_approved_at": "2026-11-10 17:23"
+ "voice_approved_at": "2026-11-10 17:23",
+ "repaint": {
+  "shots": [
+   1,
+   2,
+   4,
+   5,
+   6
+  ],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-10 18:21"
+ },
+ "shot_qc": {
+  "checked": "2026-11-10T12:51:00Z",
+  "rounds": 1,
+  "why": {
+   "1": "Newspaper has painted headline text. It shows a man reading, not a survivor changing the fries.",
+   "2": "Painted text on the sign and butter wrapper. The fryer holds white fat, not beef fat.",
+   "4": "Painted text on the oil jug and signs.",
+   "5": "Painted text on the dropper and signs. Two cows are stacked on the fries.",
+   "6": "Painted sign. It doesn't show vegetarian status, just a hand holding fries in a field.",
+   "C": "Painted logos and text in the background signs."
+  },
+  "recheck": [
+   "1",
+   "2",
+   "4",
+   "5",
+   "6",
+   "C"
+  ]
+ }
 }
