@@ -209,6 +209,58 @@ def face_layout(script, out):
     print(out / "thumb.jpg")
 
 
+def split_layout(script, out):
+    """Two halves, THEN | NOW or WORLD | USA (11 Nov 2026: Hidden America's 1.5M "What REALLY Killed the American Brick
+    House?" and 1.1M "Why Americans Don't Dry Clothes Outside" covers): thumb-plane.png left, thumb-right.png right.
+    "left_label"/"right_label" in big caps at the top of each half; with "text" the headline runs across the top
+    instead and the labels sit on plaques at the bottom."""
+    th = script["thumbnail"]
+    left = Image.open(out / "thumb-plane.png").convert("RGB")
+    right = Image.open(out / "thumb-right.png").convert("RGB") if (out / "thumb-right.png").exists() else left
+    img = Image.new("RGB", (W, H), K.INK)
+    img.paste(cover(left, W // 2, H), (0, 0))
+    img.paste(cover(right, W - W // 2, H), (W // 2, 0))
+    d = ImageDraw.Draw(img)
+    d.line((W // 2, 0, W // 2, H), fill=K.INK, width=10)
+    labels = [th.get("left_label") or "", th.get("right_label") or ""]
+    if th.get("text"):
+        shade = Image.new("L", (W, H))
+        sd = ImageDraw.Draw(shade)
+        for y in range(H):
+            sd.line((0, y, W, y), fill=int(190 * max(0.0, 1 - y / (H * 0.36)) ** 1.6))
+        img.paste(Image.new("RGB", (W, H), K.INK), mask=shade)
+        d = ImageDraw.Draw(img)
+        words = th["text"].replace("|", " ").split()
+        f = K.display(150)
+        sp = lambda f: d.textlength(" ", font=f)
+        total = lambda f: sum(d.textlength(w.replace("*", "").upper(), font=f) for w in words) + sp(f) * (len(words) - 1)
+        while total(f) > W - 80 and f.size > 70:
+            f = K.display(f.size - 6)
+        x, y = (W - total(f)) / 2, 30 + f.size * 0.55
+        for w in words:
+            t = w.replace("*", "").upper()
+            d.text((x, y), t, font=f, anchor="lm", fill=K.YEL if "*" in w else K.BONE, stroke_width=10, stroke_fill=K.INK)
+            x += d.textlength(t, font=f) + sp(f)
+        f = K.display(64)
+        for k, lab in enumerate(labels):
+            if lab:
+                cx = W // 4 + k * (W // 2)
+                tw = d.textlength(lab.upper(), font=f)
+                d.rounded_rectangle((cx - tw / 2 - 28, H - 120, cx + tw / 2 + 28, H - 40), 14, fill=K.INK, outline=K.YEL, width=5)
+                d.text((cx, H - 80), lab.upper(), font=f, anchor="mm", fill=K.BONE)
+    else:
+        f = K.display(150)
+        for k, lab in enumerate(labels):
+            if lab:
+                g = f
+                while d.textlength(lab.upper(), font=g) > W // 2 - 60 and g.size > 70:
+                    g = K.display(g.size - 6)
+                d.text((W // 4 + k * (W // 2), 40 + g.size * 0.5), lab.upper(), font=g, anchor="mm", fill=K.BONE,
+                       stroke_width=10, stroke_fill=K.INK)
+    K.grain(img).save(out / "thumb.jpg", quality=95)
+    print(out / "thumb.jpg")
+
+
 def short_cover(script, out):
     """Shorts cover 1080x1920 (owner, 29 Oct: "shocking and surprising, put a question in the viewer's
     brain"). After Zack D. Films' winners: one strange, bright picture fills the frame; ours adds the
@@ -378,6 +430,8 @@ def main(script_path, out_dir):
         return epic_layout(script, out)
     if (script.get("thumbnail") or {}).get("layout") == "face":
         return face_layout(script, out)
+    if (script.get("thumbnail") or {}).get("layout") == "split":
+        return split_layout(script, out)
     plane = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
     img = plane.copy()
     # darken the left for the words

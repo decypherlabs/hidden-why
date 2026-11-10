@@ -83,6 +83,8 @@ def main(script_path, out_dir, part=0, parts=1):
     flux_thumb = BRAND.get("thumb_engine") == "flux" and th.get("plane")  # DK (7 Nov 2026): the thumbnail on FLUX
     if th.get("plane") and not flux_thumb:  # the thumbnail keeps its subject bright and readable, so a lighter style
         jobs.append((out / "thumb-plane.png", th["plane"], f"{th['plane']}, {thumb_style}", neg, 1344, 768, 7))
+        if th.get("layout") == "split" and th.get("right"):  # the split thumbnail's other half (11 Nov 2026)
+            jobs.append((out / "thumb-right.png", th["right"], f"{th['right']}, {thumb_style}", neg, 1344, 768, 9))
     cv = (script.get("cover") or {}).get("prompt")
     if cv:  # a Short's own cover painting: the one image that says the title (owner, 31 Oct: DK covers didn't match)
         cs = script.get("art_style") or BRAND.get("cover_style") or style  # DK: realistic, not the folk style (owner: "realistic, engaging, hooking")
@@ -105,7 +107,9 @@ def main(script_path, out_dir, part=0, parts=1):
     if flux_thumb and part == 0 and not (out / "thumb-plane.png").exists():
         del pipe
         torch.cuda.empty_cache()
-        flux_images([(out / "thumb-plane.png", f"{th['plane']}, {thumb_style}", 7)], 1344, 768)
+        flux_images([(out / "thumb-plane.png", f"{th['plane']}, {thumb_style}", 7)]
+                    + ([(out / "thumb-right.png", f"{th['right']}, {thumb_style}", 9)]
+                       if th.get("layout") == "split" and th.get("right") else []), 1344, 768)
 
 
 def flux_images(jobs, w, h):
@@ -170,6 +174,8 @@ def paint_flux(script, out, part=0, parts=1):
     th = script.get("thumbnail") or {}
     if th.get("plane") and BRAND.get("thumbnails") != "owner":  # a long-form's thumbnail painting (none when the owner makes them)
         jobs.append((out / "thumb-plane.png", f"{th['plane']}, {BRAND.get('thumb_style') or BRAND.get('cover_style') or style}", 7))
+        if th.get("layout") == "split" and th.get("right"):
+            jobs.append((out / "thumb-right.png", f"{th['right']}, {BRAND.get('thumb_style') or BRAND.get('cover_style') or style}", 9))
     cv = (script.get("cover") or {}).get("prompt")
     if cv:
         jobs.append((out / "cover.png", f"{cv}, {script.get('art_style') or BRAND.get('cover_style') or style}",
