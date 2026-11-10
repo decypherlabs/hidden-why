@@ -95,7 +95,7 @@
     {
      "vo": "दीवारों पर पाँच सौ से ज़्यादा बड़ी मूर्तियाँ, और हज़ार से ज़्यादा छोटी।",
      "caption": "दीवारों पर 500+ बड़ी मूर्तियाँ, और 1000+ छोटी।",
-     "prompt": "Wide shot of an ancient stepwell wall covered floor to ceiling with hundreds of carved stone sculptures in rows of niches, gods and goddesses in warm honey-coloured sandstone, soft golden light, dramatic perspective, upper-middle framing, bare stone floor at the bottom of the frame, no signboards, no placards, no maps, no text, no writing, no inscriptions anywhere, no people",
+     "prompt": "A stepwell wall covered from floor to top with hundreds of carved stone sculptures of Indian gods and goddesses in rows of niches, honey-coloured sandstone, plain bare stone floor at the bottom, soft golden light, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -103,7 +103,7 @@
       "Close-up of a dense cluster of tiny carved figures, miniature dancers and animals packed tightly into a stone band, hundreds of small details, raking light, extreme sharpness."
      ],
      "key": "500+",
-     "seed": 8923
+     "seed": 16842
     },
     {
      "vo": "लेकिन फिर सरस्वती नदी की बाढ़ आई, और पूरी वाव मिट्टी से भर गई।",
@@ -145,7 +145,7 @@
     {
      "vo": "जिस मिट्टी ने इसे दबाया, उसी ने इसे नया रखा।",
      "caption": "जिस मिट्टी ने इसे दबाया, उसी ने इसे नया रखा।",
-     "prompt": "Wide sunrise view of a restored ancient stepwell, golden light flooding its tiers of carved stone, pristine sculptures glowing, calm and majestic, plain clean stone steps and a bare stone ground in the foreground, no road, no road signs, no signboards, no text, no writing anywhere, one small visitor standing far down on the steps, warm rich colours.",
+     "prompt": "A restored ancient Indian stepwell at sunrise, tiers of crisp carved sandstone sculptures glowing in golden light, plain clean stone steps and bare stone ground in the foreground, one small visitor standing far down on the steps, bright morning sun, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -153,7 +153,7 @@
       "Close-up of a sharp carved goddess face in golden sandstone with a faint trace of fine dust in the grooves, glowing in soft morning light, deep shadows, looking brand new."
      ],
      "key": "नया रखा",
-     "seed": 8927
+     "seed": 16846
     }
    ]
   }
@@ -164,19 +164,30 @@
  "voice_approved_at": "2026-11-08 15:14",
  "repaint": {
   "shots": [
-   2,
    4,
    8
   ],
-  "thumbs": [],
-  "at": "2026-11-10 21:28"
+  "thumbs": [
+   "shot-04-2.png",
+   "shot-04-3.png",
+   "shot-08-2.png",
+   "shot-08-3.png"
+  ],
+  "at": "2026-11-10 23:04"
  },
  "shot_qc": {
-  "rounds": 1,
+  "checked": "2026-11-10T17:33:46Z",
+  "rounds": 2,
+  "why": {
+   "4b": "Painted-in text and maps on signboards, a blue screen, and a map on display",
+   "4c": "Plaque with garbled lettering at the top",
+   "8b": "Foreign and garbled signs and wall maps with text",
+   "8c": "Street sign with garbled letters (DANET, AIIES)",
+   "8": "Red sign or map board with text in the lower left"
+  },
   "recheck": [
-   2,
-   4,
-   8
+   "4",
+   "8"
   ]
  },
  "polished": "2026-11-08 18:34",
