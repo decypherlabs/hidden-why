@@ -12,7 +12,8 @@
  "cover_text": "अर्जुन गिरे अपने *बेटे* के तीर से!",
  "cover_shot": 1,
  "cover": {
-  "prompt": "A fair-skinned middle-aged warrior in gold armour lying fallen on the ground with a golden arrow in his chest, full figure and face large in the lower two-thirds, a young man in a white and gold royal tunic standing small on the left holding a bow with a stunned face, stone gateway of an Indian city behind, dusk sky, wide shot"
+  "prompt": "A fair-skinned middle-aged warrior in gold armour lying on his back on dusty ground with a solid golden arrow standing in his chest, single figure only, head and shoulders and upper body large and centred in the frame with a clear detailed face turned toward the viewer, empty dusty ground and plain dusk sky behind him, no other people, no second face, nothing below him but bare earth, medium close shot, vertical composition, cinematic film still, clear detailed face",
+  "seed": 7928
  },
  "music": {
   "epic": [
@@ -87,8 +88,17 @@
  "voice_ok": "voice-dk-228-arjuna-slain-by-son-ff2628b599",
  "voice_approved_at": "2026-11-09 08:32",
  "shot_qc": {
-  "checked": "2026-11-09T04:16:14Z",
-  "rounds": 0,
-  "left": []
- }
+  "rounds": 1,
+  "recheck": [
+   "C"
+  ]
+ },
+ "repaint": {
+  "shots": [],
+  "thumbs": [
+   "cover.png"
+  ],
+  "at": "2026-11-10 18:10"
+ },
+ "auto_regen": 1
 }
