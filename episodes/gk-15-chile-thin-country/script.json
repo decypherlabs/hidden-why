@@ -137,7 +137,7 @@
     {
      "vo": "लेकिन रुकिए, इतनी पतली पट्टी किसी इंसान ने नहीं बनाई।",
      "caption": "लेकिन रुकिए, इतनी पतली पट्टी किसी इंसान ने नहीं बनाई।",
-     "prompt": "A razor-thin green river valley squeezed between bare brown mountain ridges, a rugged ocean coastline beside it, a narrow strip of farmland and a few small Indian-style houses in the valley, nobody else in sight, golden late light, long shadows, aerial wide shot, sharp focus",
+     "prompt": "A razor-thin green river valley squeezed between two bare brown mountain ridges, the narrow valley floor with a strip of farmland, a rugged ocean coastline beside the mountains, nobody in sight, golden late light, long shadows, plain landscape with no text, aerial wide shot, sharp focus",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -145,12 +145,12 @@
       "Close-up of a weathered hand holding a hammer against folded, fractured rock strata glowing orange in low sunset light, tiny mineral crystals glinting, shallow depth of field, vivid colour, photoreal."
      ],
      "key": "इंसान",
-     "seed": 8923
+     "seed": 16842
     },
     {
      "vo": "पूरब में एंडीज़ की ऊँची दीवार, पश्चिम में पैसिफ़िक ओशन।",
      "caption": "पूरब में Andes की ऊँची दीवार, पश्चिम में Pacific Ocean।",
-     "prompt": "A towering wall of snow-capped mountain peaks on the right, a long thin strip of green land in the middle, and a dark blue ocean with white surf crashing on the left, all in one frame, plain landscape with no signs, golden hour light, wide shot, sharp focus",
+     "prompt": "A towering wall of snow-capped Andes mountain peaks on the right, a long thin strip of green land in the middle, a dark blue ocean with white surf crashing on the left, all three in one frame, golden hour light, plain landscape with no text, wide shot, sharp focus",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -158,12 +158,12 @@
       "Close-up of a condor in flight with wings spread against a vivid blue sky, jagged snowy Andes summits sharp behind it, strong sunlight, extreme detail, photoreal."
      ],
      "key": "Andes",
-     "seed": 8924
+     "seed": 16843
     },
     {
      "vo": "समुद्र के नीचे नाज़्का प्लेट, साउथ अमेरिकन प्लेट के नीचे धँस रही है।",
      "caption": "समुद्र के नीचे Nazca plate, South American plate के नीचे धँस रही है।",
-     "prompt": "A huge slab of dark rock sinking downward under another rock slab at a steep underwater cliff on the ocean floor, the deep trench falling into blackness, blue shafts of light from above, a small submersible with lights nearby, plain surfaces, wide underwater shot, sharp focus",
+     "prompt": "A huge slab of dark rock sinking downward beneath another rock slab at a steep underwater cliff on the ocean floor, the lower slab bending down into a deep trench, blue shafts of light from above, plain rock surfaces with no text, wide underwater shot, sharp focus",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -171,7 +171,7 @@
       "Close-up of a seismograph's ink needle scribbling violent jagged lines on a rolling paper strip, a scientist's hand steadying the machine, warm lab light, sharp detail, photoreal."
      ],
      "key": "Nazca plate",
-     "seed": 8925
+     "seed": 16844
     },
     {
      "vo": "इसी टक्कर ने एंडीज़ उठाए, और उनकी चोटियाँ ही ज़्यादातर अर्जेंटीना से सीमा बनीं।",
@@ -211,7 +211,7 @@
     {
      "vo": "पहाड़ और समुद्र के बीच फँसा, इसलिए चिली बस एक सौ अस्सी किलोमीटर चौड़ा!",
      "caption": "पहाड़ और समुद्र के बीच फँसा, इसलिए Chile बस 180 km चौड़ा!",
-     "prompt": "A narrow coastal road squeezed between a blue ocean on the left and a massive snow-covered mountain wall on the right, one small plain white truck driving on it, both ocean and mountains visible in one frame, clear bright daylight, wide shot, sharp focus, no text",
+     "prompt": "A narrow coastal road squeezed between a blue ocean on the left and a massive snow-covered mountain wall rising straight up on the right, one small plain white truck driving on the road, ocean and mountains both close to the road in one frame, clear bright daylight, plain landscape with no text, wide shot, sharp focus",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -219,7 +219,7 @@
       "Close-up of a child's wide-eyed surprised face on a seaside cliff, wind blowing hair, snowy mountains in soft focus behind and ocean glittering, golden light, photoreal."
      ],
      "key": "180 km",
-     "seed": 8927
+     "seed": 16846
     }
    ]
   }
@@ -246,18 +246,19 @@
    "shot-08-2.png",
    "shot-08-3.png"
   ],
-  "at": "2026-11-10 18:21"
+  "at": "2026-11-10 22:41"
  },
  "shot_qc": {
-  "checked": "2026-11-10T12:50:54Z",
-  "rounds": 1,
+  "checked": "2026-11-10T17:11:00Z",
+  "rounds": 2,
   "why": {
-   "4b": "map on a display board, with a person looking at it",
-   "5c": "road signs with painted lettering",
-   "5": "signs carrying a map and text",
-   "6b": "map board on the street, with signage text",
-   "6c": "map on a screen, plus handwriting and labels",
-   "8": "lettering on the truck"
+   "4b": "text on the sign; man kneeling with a sign, not the thin strip",
+   "4c": "text 'PREFEET' on the hammer; closeup of a hammer on rock, not the narration",
+   "5b": "sign with writing; a man in a yellow jacket, no ocean",
+   "5c": "map and sign with painted-in graphics; a condor, not the Andes wall and ocean",
+   "6b": "street signs with garbled text; a street crack, not the Nazca plate under the ocean",
+   "6c": "a map on a screen and handwritten text; a seismograph, not the plate subducting",
+   "8b": "maps on boards with text; a vineyard, not the narrow Chile squeezed between mountains and sea"
   },
   "recheck": [
    "4",
