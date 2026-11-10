@@ -1,0 +1,192 @@
+{
+ "slug": "gk-19-oymyakon-coldest-village",
+ "format": "short",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "ओइम्याकोन नॉर्थ पोल से भी ठंडा क्यों? 🥶",
+ "hook_text": "पोल से भी ठंडा",
+ "cover_text": "ओइम्याकोन: *-67.7°C* में भी लोग रहते हैं",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A frost-covered old car with its engine running and thick white exhaust steam billowing, large in the foreground of a snowy village street, a man in a heavy fur coat and fur hat walking away past it seen from behind, low log houses with smoking chimneys behind, ice crystals glittering, bright pale blue and gold winter light, calm dark blue sky at the top, medium shot"
+ },
+ "music": {
+  "intense": [
+   "main"
+  ]
+ },
+ "source": "Encyclopaedia Britannica (Oymyakon); Roshydromet climate records; World Meteorological Organization",
+ "lane": 2,
+ "fact_check": {
+  "engage": 7,
+  "weak": "Oymyakon is already a well-known viral fact, so it is only moderately non-obvious"
+ },
+ "hook_score": {
+  "score": 7,
+  "why": "Plants the exact contradiction the ending pays off (colder than the North Pole); short and true, though it gives away part of the payoff.",
+  "was": "यहाँ लोग माइनस सड़सठ डिग्री में भी ज़िंदा रहते हैं!"
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "नॉर्थ पोल से भी ठंडी जगह, जहाँ लोग रहते हैं।",
+     "caption": "नॉर्थ पोल से भी ठंडी जगह, जहाँ लोग रहते हैं।",
+     "prompt": "Aerial view of a tiny Siberian village of low wooden houses buried in snow, thin chimney smoke rising straight up into windless air, endless frosted larch forest around it, pale pink dawn light on a vast white valley, photoreal, sharp, vivid cold colours.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a Yakut man in a heavy fur hat and fur coat walking down a snowy village lane, thick white breath clouds, frost coating his fur collar, low golden sun behind wooden houses, photoreal.",
+      "Close-up of a weathered face in a fur hood, eyelashes and eyebrows white with thick frost, breath crystals hanging in the air, deep blue shadow light, extremely sharp detail, photoreal."
+     ]
+    },
+    {
+     "vo": "साइबेरिया का गाँव ओइम्याकोन, यहाँ पेन की स्याही तक जम जाती है।",
+     "caption": "साइबेरिया का गाँव ओइम्याकोन, यहाँ पेन की स्याही तक जम जाती है।",
+     "prompt": "A gloved hand holding a ballpoint pen over a paper notebook, the pen tip and the paper covered in white frost crystals, a short ink line stopping halfway across the page, snow on the fur glove, plain blank paper, snowy village street behind in sharp focus, bright overcast daylight, extreme close-up, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       63.4608,
+       142.7858
+      ],
+      "span": 12,
+      "from_span": 40,
+      "countries": [
+       {
+        "iso": "RUS",
+        "label": "रूस",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 63.4608,
+        "lon": 142.7858,
+        "label": "ओइम्याकोन"
+       }
+      ]
+     },
+     "key": "ओइम्याकोन"
+    },
+    {
+     "vo": "कारें पूरे दिन चालू छोड़ते हैं, वरना इंजन जम जाए।",
+     "caption": "कारें पूरे दिन चालू छोड़ते हैं, वरना इंजन जम जाए।",
+     "prompt": "Wide dusk shot of several old boxy Russian cars and a UAZ van parked in deep snow beside wooden houses, every exhaust pipe pouring thick white vapor, warm yellow headlights cutting through ice fog, photoreal, vivid.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a man in a fur coat standing beside an idling old truck with its hood warm and steaming, hand resting on the bonnet, frosted windshield, orange sodium-lamp glow in the night, photoreal.",
+      "Close-up of a car exhaust pipe heavy with ice and white vapor billowing out, icicles hanging from the bumper, snow crystals glittering in the headlight beam, macro sharp, photoreal."
+     ],
+     "key": "पूरे दिन"
+    },
+    {
+     "vo": "लेकिन रुकिए, ये गाँव नॉर्थ पोल वाले इलाके से भी ज़्यादा ठंडा है।",
+     "caption": "लेकिन रुकिए, ये गाँव नॉर्थ पोल वाले इलाके से भी ज़्यादा ठंडा है!",
+     "prompt": "Wide night view of a remote Siberian village under a green aurora sky, snowy rooftops and glowing windows, stars blazing over a bitterly cold valley, deep blue and green colours, photoreal.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a bearded man in a fur ushanka outdoors at night exhaling a huge cloud of frozen white breath that sparkles, his beard crusted with ice, teal moonlight, photoreal.",
+      "Close-up of a plain glass thermometer tube with no markings, frost crusted on it, red liquid sunk to the very bottom, held in a thick fur mitten, shallow focus, photoreal."
+     ]
+    },
+    {
+     "vo": "नॉर्थ पोल समुद्र पर है, और समुद्र ठंड को कुछ कम रखता है।",
+     "caption": "नॉर्थ पोल समुद्र पर है, और समुद्र ठंड को कुछ कम रखता है।",
+     "prompt": "Dark liquid ocean water in an open crack in Arctic sea ice, wisps of white steam rising from the water into the frigid air, thin ice plates floating on the water, the steaming water large and sharp in the frame, cold blue light, low-angle close shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       85.0,
+       0.0
+      ],
+      "span": 40,
+      "from_span": 80,
+      "points": [
+       {
+        "lat": 90.0,
+        "lon": 0.0,
+        "label": "नॉर्थ पोल"
+       }
+      ]
+     },
+     "key": "समुद्र"
+    },
+    {
+     "vo": "ओइम्याकोन समुद्र से बहुत दूर, पहाड़ों से घिरी घाटी में है।",
+     "caption": "ओइम्याकोन समुद्र से बहुत दूर, पहाड़ों से घिरी घाटी में है।",
+     "prompt": "A globe-like view from orbit of eastern Siberia in winter, snow-covered mountain ranges forming a ring around one deep valley, a single small glowing red pin on the valley floor, the Arctic Ocean coast far away as a dark line at the top edge, plain unlabeled terrain, clear daylight, wide shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       63.4608,
+       142.7858
+      ],
+      "span": 20,
+      "from_span": 60,
+      "countries": [
+       {
+        "iso": "RUS",
+        "label": "रूस",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 63.4608,
+        "lon": 142.7858,
+        "label": "ओइम्याकोन"
+       }
+      ],
+      "circles": [
+       {
+        "lat": 63.4608,
+        "lon": 142.7858,
+        "km": 600,
+        "label": "~600 km"
+       }
+      ]
+     },
+     "key": "पहाड़ों"
+    },
+    {
+     "vo": "भारी ठंडी हवा नीचे उतरकर इसी घाटी में फँस जाती है।",
+     "caption": "भारी ठंडी हवा नीचे उतरकर इसी घाटी में फँस जाती है।",
+     "prompt": "Wide view from a mountain ridge at sunrise of a deep valley filled to the brim with a lake of dense white cold fog, dark snowy peaks around it, larch tops poking through, orange light on summits, photoreal.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot among frost-covered larch trees where chimney smoke from a small hut flattens and hangs stuck in a layer of heavy ice fog, low pink light, photoreal.",
+      "Close-up of a larch branch thick with hoarfrost needles of ice crystals, cold air haze behind, soft blue light, macro sharp, photoreal."
+     ],
+     "key": "फँस जाती"
+    },
+    {
+     "vo": "फ़र के कपड़े और चालू इंजन, ऐसे लोग माइनस सड़सठ में भी जीते हैं।",
+     "caption": "फ़र के कपड़े और चालू इंजन, ऐसे लोग -67°C में भी जीते हैं!",
+     "prompt": "Wide shot of a Yakut family in thick fur coats and boots in front of a wooden house with smoking chimney, an old car idling with exhaust, snowy twilight with warm window glow, photoreal.",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Medium shot of a smiling woman in a long reindeer-fur coat and fur hood heavily frosted, standing in a snowy lane, warm amber late light, photoreal.",
+      "Close-up of mittened hands wrapped around a steaming metal mug of tea, vapor rising, fur cuff and ice-crusted sleeve, shallow focus, photoreal."
+     ],
+     "key": "-67°C"
+    }
+   ]
+  }
+ ],
+ "polished": "2026-11-10 22:36"
+}
