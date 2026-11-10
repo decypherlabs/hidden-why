@@ -393,12 +393,12 @@
      "caption": "और जिन labs में test हुए, वो इन tests के लिए accredited ही नहीं थीं।"
     },
     {
-     "prompt": "three sealed sample boxes lined up side by side on a courtroom table, a judge's bench behind them, a lawyer's single hand resting on the middle box, overhead light, medium shot, every surface plain and blank, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
+     "prompt": "Three sealed sample boxes lined up on a courtroom table, a lawyer's single hand resting on the middle box, overhead light, medium shot, no text, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "पर कोर्ट ने मैगी को सीधे क्लीन चिट भी नहीं दी। आदेश दिया, तीन एक्रेडिटेड लैब्स में नए सिरे से टेस्ट हों।",
      "caption": "पर court ने Maggi को सीधे clean chit भी नहीं दी। आदेश दिया, 3 accredited labs में नए सिरे से test हों।",
-     "seed": 16886,
+     "seed": 24805,
      "more": []
     },
     {
@@ -409,12 +409,12 @@
      "caption": "तो आप बताइए, पहले ban फिर जाँच, या पहले जाँच फिर ban? Comments में लिखिए।"
     },
     {
-     "prompt": "three sealed sample boxes lined up on a long table, a lab technician in a white coat standing beside each box, three small lab doors behind them, overhead light, wide shot, every surface plain and blank, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
+     "prompt": "Three sealed sample boxes lined up on a long table, a lab technician in a white coat standing beside each box, three small lab doors behind, overhead light, wide shot, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "लेकिन अब सब तीन लैब्स पर टिका था। अगर लेड फिर लिमिट से ऊपर निकलता, तो ये जीत किसी काम की नहीं रहती।",
      "caption": "लेकिन अब सब 3 labs पर टिका था। अगर lead फिर limit से ऊपर निकलता, तो ये जीत किसी काम की नहीं रहती।",
-     "seed": 16888,
+     "seed": 24807,
      "more": []
     }
    ]
@@ -611,12 +611,12 @@
      "caption": "Nestlé के मुताबिक गेहूँ और प्याज़ में glutamate कुदरती तौर पर होता है, तो बिना डाले भी test में दिख सकता है।"
     },
     {
-     "prompt": "a steaming bowl of ordinary noodles with a fork in it on a window sill, raindrops on the glass, soft city lights outside, Indian apartment, warm lamp light, medium shot, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
+     "prompt": "A steaming bowl of ordinary noodles with a fork in it on a window sill, raindrops on the glass, soft city lights outside, warm lamp light, medium shot, no text, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "अगली बार जब दो मिनट में मैगी बने, तो याद रखिए, इस पैकेट ने भी एक लंबी लड़ाई लड़ी है।",
      "caption": "अगली बार जब 2 minute में Maggi बने, तो याद रखिए, इस packet ने भी एक लंबी लड़ाई लड़ी है।",
-     "seed": 16914,
+     "seed": 24833,
      "more": []
     },
     {
@@ -637,14 +637,12 @@
  "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, ultra detailed, no text, no logos, dark low-key light, high contrast, low saturation, deep shadows, tense mood",
  "repaint": {
   "shots": [
-   14,
    48,
    50,
-   76,
-   77
+   76
   ],
   "thumbs": [],
-  "at": "2026-11-11 00:42"
+  "at": "2026-11-11 02:11"
  },
  "rewrite": {
   "at": "2026-11-10 22:58",
@@ -661,21 +659,17 @@
  },
  "voice_requested": "voice-ll-020-maggi-ban-8a7ca1353b",
  "shot_qc": {
-  "checked": "2026-11-10T19:08:11Z",
-  "rounds": 2,
+  "checked": "2026-11-10T20:29:24Z",
+  "rounds": 3,
   "why": {
-   "14": "The children have garbled and mismatched eyes, and the boy's hand is merged with the fork.",
-   "48": "The laboratory bottles contain gibberish pseudo-script.",
-   "50": "The equipment and labels contain gibberish script and pseudo-letters.",
-   "76": "The product packet contains gibberish lettering below the brand name.",
-   "77": "The storefront and banners contain garbled, gibberish script."
+   "48": "The text in the painting is garbled pseudo-letters, not English or Hindi.",
+   "50": "The text on the lab reports is gibberish/pseudo-letters instead of legible Hindi or English.",
+   "76": "The text on the Maggi packet is garbled and does not correctly spell 'Maggi'."
   },
   "recheck": [
-   "14",
    "48",
    "50",
-   "76",
-   "77"
+   "76"
   ]
  },
  "voice_ok": "voice-ll-020-maggi-ban-8a7ca1353b",
