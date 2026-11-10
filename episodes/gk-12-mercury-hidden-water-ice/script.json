@@ -50,14 +50,14 @@
     {
      "vo": "मर्करी सूर्य के सबसे नज़दीक ग्रह है, लेकिन...",
      "caption": "Mercury सूर्य के सबसे नज़दीक ग्रह है, लेकिन...",
-     "prompt": "Wide cinematic space view of an empty void with no living beings and no figures: a small solid opaque grey cratered planet Mercury on the left side of the frame, fully solid with sharp crater detail, crisp clean edges and a matte rocky surface, and on the right side a separate enormous orange Sun with solar flares curling off its edge, a wide gap of empty black space between them, dramatic rim light on Mercury, only the planet and the Sun, no people, no faces, no hands, no spheres held, no glow overlapping the planet, photoreal",
+     "prompt": "A small solid grey cratered planet Mercury on the left of the frame, a separate enormous orange Sun with solar flares curling off its edge on the right, a clear gap of empty black space between them, only the planet and the Sun, sharp crater detail, rim light on the planet, wide space shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of an Indian schoolgirl in a classroom holding a small grey rocky ball beside a bright yellow lamp to show distance, classmates watching curiously, warm natural window light, photoreal",
       "Close-up of Mercury's surface at ground level, scorched grey dust and sharp rocks glowing under a fierce white sunlight, deep black shadows, heat shimmer, a tiny cracked pebble in focus, photoreal"
      ],
-     "seed": 24759
+     "seed": 32678
     },
     {
      "vo": "इसके उत्तरी ध्रुव के कुछ गड्ढों में पानी की बर्फ़ है।",
@@ -123,9 +123,13 @@
  "voice_ok": "voice-gk-12-mercury-hidden-water-ice-c4a23ccd65",
  "voice_approved_at": "2026-11-08 15:14",
  "shot_qc": {
-  "rounds": 1,
+  "checked": "2026-11-10T17:33:31Z",
+  "rounds": 2,
+  "why": {
+   "2b": "A classroom scene with a girl holding a rock doesn't show Mercury near the Sun. A map is visible on the wall, and there is some lettering on the lamp base."
+  },
   "recheck": [
-   2
+   "2"
   ]
  },
  "polished": "2026-11-08 18:36",
@@ -133,8 +137,11 @@
   "shots": [
    2
   ],
-  "thumbs": [],
-  "at": "2026-11-10 22:59"
+  "thumbs": [
+   "shot-02-2.png",
+   "shot-02-3.png"
+  ],
+  "at": "2026-11-10 23:04"
  },
  "auto_regen": 2
 }
