@@ -50,13 +50,14 @@
     {
      "vo": "मर्करी सूर्य के सबसे नज़दीक ग्रह है, लेकिन...",
      "caption": "Mercury सूर्य के सबसे नज़दीक ग्रह है, लेकिन...",
-     "prompt": "Wide cinematic view of the small grey cratered planet Mercury hanging close beside the enormous glowing orange Sun in black space, solar flares curling off the Sun, sharp detail on Mercury's scarred surface, dramatic rim light, photoreal",
+     "prompt": "Wide cinematic view of the small solid grey cratered planet Mercury on the left side of the frame, with a separate enormous glowing orange Sun on the right side, a wide gap of empty black space between them, solar flares curling off the Sun's edge, Mercury fully opaque with sharp detail on its scarred crater-covered surface, crisp clean edges, dramatic rim light, no figures, no people, no hands, no overlays, photoreal",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of an Indian schoolgirl in a classroom holding a small grey rocky ball beside a bright yellow lamp to show distance, classmates watching curiously, warm natural window light, photoreal",
       "Close-up of Mercury's surface at ground level, scorched grey dust and sharp rocks glowing under a fierce white sunlight, deep black shadows, heat shimmer, a tiny cracked pebble in focus, photoreal"
-     ]
+     ],
+     "seed": 8921
     },
     {
      "vo": "इसके उत्तरी ध्रुव के कुछ गड्ढों में पानी की बर्फ़ है।",
@@ -122,18 +123,17 @@
  "voice_ok": "voice-gk-12-mercury-hidden-water-ice-c4a23ccd65",
  "voice_approved_at": "2026-11-08 15:14",
  "shot_qc": {
-  "checked": "2026-11-08T14:31:33Z",
   "rounds": 1,
-  "left": [
-   1,
-   2,
-   5,
-   7
+  "recheck": [
+   2
   ]
  },
  "polished": "2026-11-08 18:36",
  "repaint": {
-  "at": "2026-11-08T18:36:08",
-  "why": "owner, 8 Nov: gk_polish: new pictures, maps drawn"
+  "shots": [
+   2
+  ],
+  "thumbs": [],
+  "at": "2026-11-10 21:30"
  }
 }
