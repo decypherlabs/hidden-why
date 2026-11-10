@@ -49,10 +49,10 @@
     {
      "vo": "गुजरात के पाटन की रानी की वाव, ग्यारहवीं सदी में बनी।",
      "caption": "गुजरात के पाटन की रानी की वाव, 11वीं सदी में बनी।",
-     "prompt": "A grand eleventh-century Indian stepwell in Patan, Gujarat, seen from its entrance, long carved sandstone stairway leading down between pillared pavilions into the earth, plain blank stone surfaces, warm sandy-gold stone, bright clear daylight, sharp focus from foreground to background, wide shot, vertical composition, photorealistic documentary still",
+     "prompt": "A grand eleventh-century Indian stepwell in Patan, Gujarat, seen from its entrance, long carved sandstone stairway leading down between pillared pavilions into the earth, plain blank stone surfaces, no signs, no text, no labels, no maps, warm sandy-gold stone, bright clear daylight, sharp focus from foreground to background, wide shot, vertical composition with the stairway centered and generous empty margin on both left and right edges, photorealistic documentary still",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
-     "seed": 8921,
+     "seed": 16840,
      "map": {
       "center": [
        23.8593,
@@ -95,14 +95,15 @@
     {
      "vo": "दीवारों पर पाँच सौ से ज़्यादा बड़ी मूर्तियाँ, और हज़ार से ज़्यादा छोटी।",
      "caption": "दीवारों पर 500+ बड़ी मूर्तियाँ, और 1000+ छोटी।",
-     "prompt": "Wide shot of an ancient stepwell wall covered floor to ceiling with hundreds of carved stone sculptures in rows of niches, gods and goddesses in warm honey-coloured sandstone, soft golden light, dramatic perspective, upper-middle framing.",
+     "prompt": "Wide shot of an ancient stepwell wall covered floor to ceiling with hundreds of carved stone sculptures in rows of niches, gods and goddesses in warm honey-coloured sandstone, soft golden light, dramatic perspective, upper-middle framing, bare stone floor at the bottom of the frame, no signboards, no placards, no maps, no text, no writing, no inscriptions anywhere, no people",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of a large detailed sandstone carving of Lord Vishnu reclining on a serpent, deep relief, crisp edges, warm side light, shallow depth of field, dark stone surround.",
       "Close-up of a dense cluster of tiny carved figures, miniature dancers and animals packed tightly into a stone band, hundreds of small details, raking light, extreme sharpness."
      ],
-     "key": "500+"
+     "key": "500+",
+     "seed": 8923
     },
     {
      "vo": "लेकिन फिर सरस्वती नदी की बाढ़ आई, और पूरी वाव मिट्टी से भर गई।",
@@ -144,14 +145,15 @@
     {
      "vo": "जिस मिट्टी ने इसे दबाया, उसी ने इसे नया रखा।",
      "caption": "जिस मिट्टी ने इसे दबाया, उसी ने इसे नया रखा।",
-     "prompt": "Wide sunrise view of a restored ancient stepwell, golden light flooding its tiers of carved stone, pristine sculptures glowing, calm and majestic, a few visitors tiny on the steps, warm rich colours.",
+     "prompt": "Wide sunrise view of a restored ancient stepwell, golden light flooding its tiers of carved stone, pristine sculptures glowing, calm and majestic, plain clean stone steps and a bare stone ground in the foreground, no road, no road signs, no signboards, no text, no writing anywhere, one small visitor standing far down on the steps, warm rich colours.",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
       "Medium shot of a hand holding a fistful of dark brown soil that trickles through the fingers, a flawless carved stone figure softly blurred behind it, warm light, shallow depth of field.",
       "Close-up of a sharp carved goddess face in golden sandstone with a faint trace of fine dust in the grooves, glowing in soft morning light, deep shadows, looking brand new."
      ],
-     "key": "नया रखा"
+     "key": "नया रखा",
+     "seed": 8927
     }
    ]
   }
@@ -161,19 +163,22 @@
  "voice_ok": "voice-gk-04-india-stepwell-explained-4b03178f7e",
  "voice_approved_at": "2026-11-08 15:14",
  "repaint": {
-  "at": "2026-11-08T18:34:42",
-  "why": "owner, 8 Nov: gk_polish: new pictures, maps drawn"
+  "shots": [
+   2,
+   4,
+   8
+  ],
+  "thumbs": [],
+  "at": "2026-11-10 21:28"
  },
  "shot_qc": {
-  "checked": "2026-11-08T14:29:12Z",
   "rounds": 1,
-  "left": [
-   3,
+  "recheck": [
+   2,
    4,
-   6,
-   7,
    8
   ]
  },
- "polished": "2026-11-08 18:34"
+ "polished": "2026-11-08 18:34",
+ "auto_regen": 1
 }
