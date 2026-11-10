@@ -95,7 +95,7 @@
     {
      "vo": "दीवारों पर पाँच सौ से ज़्यादा बड़ी मूर्तियाँ, और हज़ार से ज़्यादा छोटी।",
      "caption": "दीवारों पर 500+ बड़ी मूर्तियाँ, और 1000+ छोटी।",
-     "prompt": "A stepwell wall covered from floor to top with hundreds of carved stone sculptures of Indian gods and goddesses in rows of niches, honey-coloured sandstone, the lower part of the frame is smooth plain bare sandstone floor and blank stone wall with nothing on it, no signboards, no placards, no maps, no panels, no text, no letters, no writing, no plaques, no displays anywhere, only carved sculptures and smooth stone, soft golden light, sharp focus, medium-wide shot cropped tightly on the sculpted wall",
+     "prompt": "A stepwell wall covered from floor to top with hundreds of large carved stone sculptures of Indian gods and goddesses in rows of niches, with many tiny carvings between them, honey-coloured sandstone, plain smooth bare stone floor below, soft golden light, sharp focus, medium-wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -103,7 +103,7 @@
       "Close-up of a dense cluster of tiny carved figures, miniature dancers and animals packed tightly into a stone band, hundreds of small details, raking light, extreme sharpness."
      ],
      "key": "500+",
-     "seed": 32680
+     "seed": 40599
     },
     {
      "vo": "लेकिन फिर सरस्वती नदी की बाढ़ आई, और पूरी वाव मिट्टी से भर गई।",
@@ -145,7 +145,7 @@
     {
      "vo": "जिस मिट्टी ने इसे दबाया, उसी ने इसे नया रखा।",
      "caption": "जिस मिट्टी ने इसे दबाया, उसी ने इसे नया रखा।",
-     "prompt": "A restored ancient Indian stepwell at sunrise, tiers of crisp carved sandstone sculptures glowing in golden light, plain clean stone steps in the foreground, the ground at the bottom of the frame is only smooth bare sandstone paving and stone steps, no road, no asphalt, no road signs, no signboards, no posts, no poles, no text, no letters, no writing, no plaques anywhere, one small visitor standing far down on the steps seen from behind, bright morning sun, sharp focus, wide shot",
+     "prompt": "A restored ancient Indian stepwell at sunrise, tiers of crisp carved sandstone sculptures glowing in golden light, a few brown mud-stained patches of silt at the sides and clean stone steps in the foreground, smooth bare sandstone paving, one small visitor far down the steps seen from behind, bright morning sun, sharp focus, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
      "more": [
@@ -153,7 +153,7 @@
       "Close-up of a sharp carved goddess face in golden sandstone with a faint trace of fine dust in the grooves, glowing in soft morning light, deep shadows, looking brand new."
      ],
      "key": "नया रखा",
-     "seed": 32684
+     "seed": 40603
     }
    ]
   }
@@ -164,19 +164,27 @@
  "voice_approved_at": "2026-11-08 15:14",
  "repaint": {
   "shots": [
-   2,
    4,
    8
   ],
-  "thumbs": [],
-  "at": "2026-11-10 23:18"
+  "thumbs": [
+   "shot-04-2.png",
+   "shot-04-3.png",
+   "shot-08-2.png",
+   "shot-08-3.png"
+  ],
+  "at": "2026-11-10 23:53"
  },
  "shot_qc": {
-  "rounds": 1,
+  "checked": "2026-11-10T18:22:59Z",
+  "rounds": 2,
+  "why": {
+   "4c": "A yellow sign with painted letters (\"TUN EDITIN\") at the right edge, and a glass panel at the top.",
+   "8b": "Signs with painted lettering (\"BATAUM\" and others) in the background. The tile also doesn't clearly show the line's soil keeping the place new."
+  },
   "recheck": [
-   2,
-   4,
-   8
+   "4",
+   "8"
   ]
  },
  "polished": "2026-11-08 18:34",
