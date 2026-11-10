@@ -1,0 +1,151 @@
+{
+ "slug": "gk-21-lonar-crater-pink-lake",
+ "format": "short",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "लोनार झील अचानक गुलाबी क्यों हो गई? 🩷",
+ "hook_text": "रातों-रात गुलाबी?",
+ "cover_text": "लोनार झील कुछ दिनों में *गुलाबी* हो गई!",
+ "cover_shot": 1,
+ "cover": {
+  "prompt": "A near-perfectly round crater lake filled with vivid bubblegum-pink water in Maharashtra India, the pink circle huge and sharp in the lower two-thirds of the frame, steep green forested rim and dry brown plain around it, calm deep-blue clear sky across the top third, bright midday sun, aerial shot"
+ },
+ "music": {
+  "reflective": [
+   "main"
+  ]
+ },
+ "source": "Geological Survey of India; Agharkar Research Institute 2020 report on Haloarchaea in Lonar; Encyclopaedia Britannica (Lonar Lake)",
+ "lane": 6,
+ "fact_check": {
+  "engage": 7,
+  "weak": "Novelty: the 2020 pink lake was widely covered, and the 'new study' is from 2010, so it isn't really new. The hook question is also repeated back to back."
+ },
+ "hook_score": {
+  "score": 7,
+  "why": "Short, shocking and visual, and it flows straight into 'ये है लोनार झील'. 'Overnight' is slightly loose, since the change took a few days.",
+  "was": "दो हज़ार बीस में ये झील कुछ ही दिनों में गुलाबी क्यों हो गई?"
+ },
+ "sections": [
+  {
+   "id": "main",
+   "card": null,
+   "shots": [
+    {
+     "vo": "एक रात में पूरी झील गुलाबी हो गई।",
+     "caption": "एक रात में पूरी झील गुलाबी हो गई।",
+     "prompt": "Aerial view at dawn of a huge round lake in the Indian countryside turned vivid bubblegum pink from shore to shore, surrounded by dense green forest, soft golden mist, dramatic sunrise light, photoreal, sharp, saturated colours",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Indian villager in a simple kurta standing on the lake shore, hands on his head in shock, staring at bright pink water in front of him, early morning light, medium shot, photoreal",
+      "Extreme close-up of an Indian hand cupped over the water lifting bright pink liquid, pink droplets dripping, ripples glowing in warm light, shallow depth of field, photoreal"
+     ]
+    },
+    {
+     "vo": "ये है महाराष्ट्र की लोनार झील, बिल्कुल गोल, क्योंकि ये मीटियोराइट से बनी।",
+     "caption": "ये है महाराष्ट्र की लोनार झील, बिल्कुल गोल, क्योंकि ये meteorite से बनी।",
+     "prompt": "Lonar Lake seen straight down from a drone, a perfect circle of dark green water inside a round bowl-shaped crater with a forested rim, flat brown Deccan farmland all around, crisp morning light, sharp focus, wide aerial shot, vertical composition, photorealistic cinematic documentary still, highly detailed",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "map": {
+      "center": [
+       19.976,
+       76.5086
+      ],
+      "span": 6,
+      "from_span": 18,
+      "countries": [
+       {
+        "iso": "IND",
+        "label": "भारत",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 19.976,
+        "lon": 76.5086,
+        "label": "लोनार झील"
+       }
+      ]
+     },
+     "key": "लोनार झील"
+    },
+    {
+     "vo": "नई स्टडी कहती है, ये टक्कर करीब पाँच-छह लाख साल पहले हुई।",
+     "caption": "नई स्टडी कहती है, ये टक्कर करीब 5-6 लाख साल पहले हुई।",
+     "prompt": "Prehistoric Deccan plateau with dark volcanic rock and sparse forest, a blazing meteorite streaking down through the sky leaving a fiery trail just before impact, dramatic orange light, photoreal, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Indian geologist in a hard hat and field vest crouched on rocky ground, studying a rock sample with a magnifying lens, harsh midday sun, medium shot, photoreal",
+      "Close-up of a hand holding a shattered glassy dark rock fragment from an impact, sparkling melted glass veins, sunlit, shallow depth of field, photoreal"
+     ],
+     "key": "5"
+    },
+    {
+     "vo": "बेसॉल्ट चट्टान में बना ये दुनिया का लगभग इकलौता इम्पैक्ट क्रेटर है।",
+     "caption": "basalt चट्टान में बना ये दुनिया का लगभग इकलौता impact crater है।",
+     "prompt": "Aerial view of a perfectly circular crater with steep forested rim and a lake at its floor, hazy blue monsoon sky, dramatic cloud shadows, photoreal, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Steep dark grey basalt rock layers of a crater wall rising above a trail, Indian geologist with a rock hammer standing beside the cliff for scale, overcast light, photoreal",
+      "Extreme close-up of rough dark basalt rock surface with small gas holes and a steel hammer tip resting on it, cool side light, photoreal"
+     ]
+    },
+    {
+     "vo": "लेकिन रुकिए, इसका पानी खारा भी है और अल्कलाइन भी।",
+     "caption": "लेकिन रुकिए, इसका पानी खारा भी है और alkaline भी।",
+     "prompt": "Edge of a lake with thick white salt crust along the shore and cracked pale ground, murky green-pink shallow water, harsh bright afternoon sun, low angle, photoreal, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Indian scientist in gloves dipping a pH test strip into a glass beaker of cloudy lake water, strip turning deep purple, bright lab bench, medium shot, photoreal",
+      "Extreme close-up of glittering white salt crystals clustered on a dark wet stone, tiny sparkles, macro, photoreal"
+     ]
+    },
+    {
+     "vo": "ऐसे पानी में हैलोआर्किया नाम के नन्हे जीव पनपते हैं।",
+     "caption": "ऐसे पानी में Haloarchaea नाम के नन्हे जीव पनपते हैं।",
+     "prompt": "Indian microbiologist in a white coat leaning over a microscope in a dim laboratory, soft blue lab light, concentrated face, medium-wide shot, photoreal",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Petri dish on a lab bench filled with glowing pink-red microbial culture, gloved hand holding it up to the light, sharp, photoreal",
+      "Macro microscopic view of countless tiny red-pink rod-shaped cells swarming, glowing translucent, deep dark background, photoreal"
+     ]
+    },
+    {
+     "vo": "वैज्ञानिकों के अनुसार, पानी घटा, नमक बढ़ा, और इनका लाल रंग फैल गया।",
+     "caption": "वैज्ञानिकों के अनुसार: पानी घटा, नमक बढ़ा, और इनका लाल रंग फैल गया।",
+     "prompt": "Dry cracked muddy lake shoreline with a clear pale band on the rocks showing how far the water has dropped, thick salt ring, low evaporating pink water beyond, golden hour, photoreal, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Shallow evaporation pools of deep red-pink brine on a salt flat, thick white crust around the edges, overhead angle, vivid colours, photoreal",
+      "Laboratory flask of rich red liquid being stirred with a glass rod beside a heap of salt on a scale, bright clean light, close-up, photoreal"
+     ]
+    },
+    {
+     "vo": "इसीलिए कुछ ही दिनों में ये झील गुलाबी हो गई।",
+     "caption": "इसीलिए कुछ ही दिनों में ये झील गुलाबी हो गई।",
+     "prompt": "Ground-level view at sunset of a calm lake glowing intensely pink, Indian children and tourists standing at the shore in awe, silhouettes against orange sky, photoreal, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, place names, legend, compass text, cartoon, gore, blood",
+     "more": [
+      "Young Indian girl with wide amazed eyes and open mouth, pink lake reflected softly behind her, warm evening light, medium close-up, photoreal",
+      "Pink water gently lapping over dark wet stones at the shoreline, a single dry leaf floating, soft glow, extreme close-up, photoreal"
+     ]
+    }
+   ]
+  }
+ ],
+ "polished": "2026-11-11 00:35"
+}
