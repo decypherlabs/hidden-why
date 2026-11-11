@@ -1581,6 +1581,14 @@ def main(script_path, out_dir):
         i = int((start + (0.0 if short and start == 0 else 0.15)) * SR)  # Shorts: the voice starts at once
         voice[i:i + len(x)] += x[:len(voice) - i]
     mood_of = {sid: mood for mood, sids in (script.get("music") or {}).items() for sid in sids}
+    if script.get("music"):  # every section has music (11 Nov 2026: a rewrite renamed "ch1" to "chapter_1" and
+        # Lijjat's and Ambassador's chapters played silent): an unplanned id takes its number's mood, else reflective
+        num = lambda x: "".join(c for c in str(x) if c.isdigit())
+        by_num = {num(k): v for k, v in mood_of.items() if num(k)}
+        for sid in dict.fromkeys(x[4] for x in items):
+            if sid and sid != "intro" and sid not in mood_of:  # the title sequence has its own riser and impact
+                mood_of[sid] = by_num.get(num(sid)) or "reflective"
+                print(f"  music: section {sid} wasn't in the plan, plays {mood_of[sid]}", flush=True)
     # a mood without a track falls back to reflective (31 Oct: "playful" has no track; s29-s31 crashed every run)
     track = lambda m: K.asset(f"music/{m}.mp3") if K.asset(f"music/{m}.mp3").exists() else K.asset("music/reflective.mp3")
     tracks = {m: load_mp3(track(m), total + 1) for m in set(mood_of.values())}
