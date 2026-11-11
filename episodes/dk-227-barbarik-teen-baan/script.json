@@ -273,9 +273,10 @@
     },
     {
      "vo": "बर्बरीक ने कोई सवाल नहीं किया। शीश छीना नहीं गया, उसने ख़ुद दान दिया।",
-     "prompt": "A young man with thick curly black hair standing calm, one hand on his heart, a peaceful smile, centre-left, Lord Krishna, blue skin, peacock feather crown, yellow dhoti, beside him on the right, golden twilight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "A young man with thick curly black hair in a white dhoti kneeling calmly with closed eyes, a peaceful smile and folded hands, a bright sword lying on the ground in front of him, on the left, Lord Krishna, blue skin, peacock feather crown, yellow dhoti, standing alone on the right with an open palm held out, golden twilight, medium-wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8955
     },
     {
      "vo": "जो माँ को वचन निभाने निकला था, उससे सबसे बड़ा दान माँगा गया। वचन सही था या कृष्ण का माँगना? ए या बी, कमेंट में लिखिए।",
@@ -420,15 +421,19 @@
  "voice_approved_at": "2026-11-09 08:32",
  "repaint": {
   "shots": [
-   41
+   36
   ],
   "thumbs": [],
-  "at": "2026-11-09 09:48"
+  "at": "2026-11-11 18:11",
+  "by": "owner"
  },
  "shot_qc": {
   "checked": "2026-11-09T04:54:42Z",
   "rounds": 1,
-  "left": [
+  "why": {
+   "36": "Two blue-skinned Krishna-like figures are merged into one overlapping body, with a crown on one and a flute held across both, instead of a single Krishna. The smiling, unharmed Barbarik is not offering his head as the line says. The painting should show one Krishna, and Barbarik calmly giving up his head."
+  },
+  "recheck": [
    "36"
   ]
  }
