@@ -228,7 +228,7 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "फिर, लिज्जत के अपने इतिहास के मुताबिक़, हल निकला बस दो चीज़ों से: एक खाट और एक चूल्हा।",
      "caption": "फिर, Lijjat के अपने इतिहास के मुताबिक़, हल निकला बस दो चीज़ों से: एक खाट और एक चूल्हा।",
-     "seed": 8945,
+     "seed": 16864,
      "more": []
     },
     {
@@ -523,12 +523,12 @@
      "caption": "अगर आपके घर में कोई घर से कुछ शुरू करना चाहता है, ये video उन्हें ज़रूर भेजिए।"
     },
     {
-     "prompt": "An elderly woman's wrinkled hands resting on an old wooden rolling pin, a beam of sunrise falling across them, close-up shot, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
+     "prompt": "An elderly woman over 90, face deeply lined and wise, hands resting on an old wooden rolling pin, a beam of sunrise falling across them, close-up, every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "vo": "लेकिन इस कहानी का सबसे भावुक पल अभी बाकी है: उन सात में से एक बहन, नब्बे पार की उम्र में।",
      "caption": "लेकिन इस कहानी का सबसे भावुक पल अभी बाकी है: उन सात में से एक बहन, नब्बे पार की उम्र में।",
-     "seed": 8985,
+     "seed": 16904,
      "more": []
     }
    ]
@@ -697,7 +697,7 @@
    66
   ],
   "thumbs": [],
-  "at": "2026-11-11 04:58"
+  "at": "2026-11-11 05:34"
  },
  "rewrite": {
   "at": "2026-11-11 04:18",
@@ -711,12 +711,11 @@
  },
  "voice_requested": "voice-ll-014-lijjat-papad-81645f12e9",
  "shot_qc": {
-  "checked": "2026-11-10T23:18:52Z",
-  "rounds": 1,
+  "checked": "2026-11-10T23:49:58Z",
+  "rounds": 2,
   "why": {
-   "12b": "The image shows a modern professional kitchen setup with machines, which contradicts the historical 1959 context of hand-rolling papad in a chawl mentioned in the narration.",
-   "26": "The painting depicts a modern, high-end gas stove/kitchen counter which does not match the historical 1950s 'chulha' (clay stove) and 'khat' (cot) setup described in the narration.",
-   "66": "The image shows a young woman instead of the elderly woman (90+ years old) described in the narration line."
+   "26": "The image likely depicts a modern stove or kitchen setting rather than the specific, historical 'khaat' (cot) and 'chulha' (traditional mud stove) context required for the Lijjat origin story.",
+   "66": "The AI often struggles with age-accurate depictions; if the figure does not clearly appear to be a woman of 'nabbay paar' (over 90 years old) as specified, it fails the defining element of the narration."
   },
   "recheck": [
    "26",
