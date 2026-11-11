@@ -170,13 +170,140 @@
      "vo": "Because now comes the way down. Your foot doesn't just lift. On a steep descent it slides forward, and the front of the shoe is waiting.",
      "prompt": "A hiker descending a steep rocky trail with a wooden sign reading \"STEEP DESCENT\", boots mid-step, late afternoon sun, wide shot, no logos.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "20": {
+       "src": "782d10c605cc",
+       "items": [
+        {
+         "text": "STEEP DESCENT",
+         "grid": [
+          [
+           [
+            520.0,
+            352.4
+           ],
+           [
+            633.0,
+            353.0
+           ],
+           [
+            748.1,
+            353.4
+           ],
+           [
+            863.1,
+            353.5
+           ],
+           [
+            976.2,
+            353.4
+           ],
+           [
+            1091.2,
+            352.9
+           ],
+           [
+            1206.2,
+            352.2
+           ]
+          ],
+          [
+           [
+            519.0,
+            411.3
+           ],
+           [
+            632.4,
+            411.6
+           ],
+           [
+            747.8,
+            411.8
+           ],
+           [
+            863.2,
+            411.7
+           ],
+           [
+            976.7,
+            411.4
+           ],
+           [
+            1092.1,
+            410.9
+           ],
+           [
+            1207.5,
+            410.2
+           ]
+          ],
+          [
+           [
+            518.0,
+            470.6
+           ],
+           [
+            631.8,
+            470.6
+           ],
+           [
+            747.6,
+            470.5
+           ],
+           [
+            863.4,
+            470.3
+           ],
+           [
+            977.2,
+            469.9
+           ],
+           [
+            1093.0,
+            469.3
+           ],
+           [
+            1208.8,
+            468.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           474,
+           311
+          ],
+          [
+           1252,
+           311
+          ],
+          [
+           1257,
+           515
+          ],
+          [
+           470,
+           515
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "Your toes hit the end of the shoe. Again. And again. Every step down is a small punch to the end of your toenail.",
-     "prompt": "Cutaway-style painting of a boot interior, toes pressed hard against the toe box on a downhill step, clean background, no text.",
+     "prompt": "A foot sliding forward inside a brown hiking boot with the side of the boot cut away, the toes pressed hard against the front end of the boot, one foot only, clean white background, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8940
     },
     {
      "vo": "Do that for a few miles and blood can collect under the nail. It turns dark purple, then black. Runners call it black toenail, or runner's toe. Doctors call it a subungual hematoma.",
@@ -224,7 +351,252 @@
      "vo": "It got a few names. The heel lock. The runner's loop. The lace lock. All describing the same quiet trick done with that one extra hole.",
      "prompt": "A wooden table with two hand-lettered paper cards reading \"HEEL LOCK\" and \"RUNNER'S LOOP\" beside a sneaker, overhead, warm light, no logos.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "29": {
+       "src": "a0a43fd96e8c",
+       "items": [
+        {
+         "text": "HEEL LOCK",
+         "grid": [
+          [
+           [
+            428.9,
+            539.4
+           ],
+           [
+            491.5,
+            540.9
+           ],
+           [
+            555.1,
+            542.2
+           ],
+           [
+            618.6,
+            543.4
+           ],
+           [
+            680.8,
+            544.3
+           ],
+           [
+            744.0,
+            545.2
+           ],
+           [
+            807.1,
+            545.8
+           ]
+          ],
+          [
+           [
+            426.3,
+            595.7
+           ],
+           [
+            489.3,
+            597.0
+           ],
+           [
+            553.3,
+            598.3
+           ],
+           [
+            617.1,
+            599.3
+           ],
+           [
+            679.7,
+            600.2
+           ],
+           [
+            743.3,
+            600.9
+           ],
+           [
+            806.7,
+            601.5
+           ]
+          ],
+          [
+           [
+            423.7,
+            652.7
+           ],
+           [
+            487.1,
+            653.9
+           ],
+           [
+            551.4,
+            655.0
+           ],
+           [
+            615.6,
+            655.9
+           ],
+           [
+            678.6,
+            656.7
+           ],
+           [
+            742.6,
+            657.3
+           ],
+           [
+            806.4,
+            657.8
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           407,
+           456
+          ],
+          [
+           833,
+           462
+          ],
+          [
+           832,
+           746
+          ],
+          [
+           393,
+           742
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        },
+        {
+         "text": "RUNNER'S LOOP",
+         "grid": [
+          [
+           [
+            884.7,
+            535.3
+           ],
+           [
+            944.2,
+            536.4
+           ],
+           [
+            1004.6,
+            537.4
+           ],
+           [
+            1064.7,
+            538.3
+           ],
+           [
+            1123.6,
+            538.9
+           ],
+           [
+            1183.3,
+            539.5
+           ],
+           [
+            1242.8,
+            539.8
+           ]
+          ],
+          [
+           [
+            884.9,
+            587.2
+           ],
+           [
+            944.9,
+            588.3
+           ],
+           [
+            1005.8,
+            589.3
+           ],
+           [
+            1066.4,
+            590.0
+           ],
+           [
+            1125.8,
+            590.6
+           ],
+           [
+            1186.0,
+            590.9
+           ],
+           [
+            1245.9,
+            591.1
+           ]
+          ],
+          [
+           [
+            885.1,
+            640.0
+           ],
+           [
+            945.6,
+            641.1
+           ],
+           [
+            1007.0,
+            641.9
+           ],
+           [
+            1068.1,
+            642.6
+           ],
+           [
+            1128.0,
+            643.0
+           ],
+           [
+            1188.6,
+            643.3
+           ],
+           [
+            1249.1,
+            643.3
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           860,
+           457
+          ],
+          [
+           1262,
+           463
+          ],
+          [
+           1279,
+           727
+          ],
+          [
+           860,
+           724
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "The shoe makers put one hole right at the ankle, where the shoe wraps your heel. So what does it do that tighter laces never could?",
@@ -322,7 +694,133 @@
      "vo": "Then tie your usual bow. The whole thing takes about thirty seconds. Now stand up and walk a few steps. Feel your heel stay put?",
      "prompt": "A hand-lettered paper card reading \"30 SECONDS\" propped against a sneaker on a table, with a finished heel-lock bow behind it, soft daylight, no logos.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "43": {
+       "src": "09e9cbe60977",
+       "items": [
+        {
+         "text": "30 SECONDS",
+         "grid": [
+          [
+           [
+            515.0,
+            388.5
+           ],
+           [
+            592.3,
+            410.1
+           ],
+           [
+            671.6,
+            425.8
+           ],
+           [
+            751.3,
+            434.9
+           ],
+           [
+            829.8,
+            437.4
+           ],
+           [
+            909.4,
+            433.5
+           ],
+           [
+            988.7,
+            422.9
+           ]
+          ],
+          [
+           [
+            511.9,
+            475.1
+           ],
+           [
+            590.6,
+            491.2
+           ],
+           [
+            671.0,
+            502.8
+           ],
+           [
+            751.8,
+            509.5
+           ],
+           [
+            831.2,
+            511.4
+           ],
+           [
+            912.0,
+            508.6
+           ],
+           [
+            992.4,
+            500.8
+           ]
+          ],
+          [
+           [
+            508.8,
+            564.4
+           ],
+           [
+            588.8,
+            574.5
+           ],
+           [
+            670.4,
+            581.8
+           ],
+           [
+            752.3,
+            586.1
+           ],
+           [
+            832.8,
+            587.4
+           ],
+           [
+            914.6,
+            585.7
+           ],
+           [
+            996.3,
+            580.9
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           486,
+           311
+          ],
+          [
+           1015,
+           311
+          ],
+          [
+           1036,
+           701
+          ],
+          [
+           470,
+           701
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "Not snug at the ankle? Pull the loops a little more. Pressure or tingling? Ease off. It should feel held, never pinched.",
@@ -368,9 +866,10 @@
     },
     {
      "vo": "One last thing. I promised you a detail at the start, and it's the part that makes the whole lock work.",
-     "prompt": "Extreme close-up of two small lace loops standing up from a sneaker's top eyelets, soft golden light, shallow depth of field, no logos, no text.",
+     "prompt": "Extreme close-up of two small lace loops standing up from the top eyelets at the ankle end of a grey sneaker, seen from the side, the laces below them, soft golden light",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8970
     }
    ]
   },
@@ -386,9 +885,10 @@
     },
     {
      "vo": "And that loop? About the size of a coin. Big enough to pass the lace through, small enough to pull snug.",
-     "prompt": "Close-up of a small lace loop beside a silver coin on a wooden table for scale, crisp daylight, no logos, no text.",
+     "prompt": "Close-up of a small lace loop standing beside a plain smooth silver coin with a blank surface on a wooden table, the loop about the same size as the coin, crisp daylight",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8972
     },
     {
      "vo": "The hole was always there. The trick just needed someone to show you how to use it. That's the hidden why.",
@@ -422,5 +922,28 @@
  "released_at": "2026-11-11 18:03",
  "voice_requested": "voice-20-extra-sneaker-hole-4c2560837b",
  "voice_ok": "voice-20-extra-sneaker-hole-4c2560837b",
- "voice_approved_at": "2026-11-11 18:11"
+ "voice_approved_at": "2026-11-11 18:11",
+ "repaint": {
+  "shots": [
+   21,
+   51,
+   53
+  ],
+  "thumbs": [],
+  "at": "2026-11-11 19:01"
+ },
+ "shot_qc": {
+  "checked": "2026-11-11T13:29:35Z",
+  "rounds": 1,
+  "why": {
+   "21": "The boot interior cutaway is confusing: it shows a boot plus a second foot in a machine, and the toes pressed against the toe box aren't clear.",
+   "51": "The lace ends stand up from the toe cap, not from the top eyelets at the ankle, so the object is built wrong for the line.",
+   "53": "The coin has painted gibberish text, and no lace loop is shown beside it as the line says."
+  },
+  "recheck": [
+   "21",
+   "51",
+   "53"
+  ]
+ }
 }
