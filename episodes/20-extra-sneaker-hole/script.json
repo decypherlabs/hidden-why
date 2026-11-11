@@ -866,10 +866,10 @@
     },
     {
      "vo": "One last thing. I promised you a detail at the start, and it's the part that makes the whole lock work.",
-     "prompt": "Extreme close-up of two small lace loops standing up from the top eyelets at the ankle end of a grey sneaker, seen from the side, the laces below them, soft golden light",
+     "prompt": "two distinct small lace loops standing up from the top eyelets of a grey sneaker collar, the laces passing through them, soft golden light, extreme close-up",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8970
+     "seed": 16889
     }
    ]
   },
@@ -885,10 +885,10 @@
     },
     {
      "vo": "And that loop? About the size of a coin. Big enough to pass the lace through, small enough to pull snug.",
-     "prompt": "Close-up of a small lace loop standing beside a plain smooth silver coin with a blank surface on a wooden table, the loop about the same size as the coin, crisp daylight",
+     "prompt": "a small lace loop standing up from a grey sneaker eyelet beside a plain smooth silver coin on a wooden table, the loop and coin are the same size, crisp daylight, close-up shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8972
+     "seed": 16891
     },
     {
      "vo": "The hole was always there. The trick just needed someone to show you how to use it. That's the hidden why.",
@@ -925,23 +925,20 @@
  "voice_approved_at": "2026-11-11 18:11",
  "repaint": {
   "shots": [
-   21,
    51,
    53
   ],
   "thumbs": [],
-  "at": "2026-11-11 19:01"
+  "at": "2026-11-11 19:45"
  },
  "shot_qc": {
-  "checked": "2026-11-11T13:29:35Z",
-  "rounds": 1,
+  "checked": "2026-11-11T14:14:20Z",
+  "rounds": 2,
   "why": {
-   "21": "The boot interior cutaway is confusing: it shows a boot plus a second foot in a machine, and the toes pressed against the toe box aren't clear.",
-   "51": "The lace ends stand up from the toe cap, not from the top eyelets at the ankle, so the object is built wrong for the line.",
-   "53": "The coin has painted gibberish text, and no lace loop is shown beside it as the line says."
+   "51": "the laces are garbled and melted where they meet the eyelets, and it fails to show the two distinct loops required by the narration",
+   "53": "missing the defining element of the scene; the image shows a lace tip but no loop as described in the narration"
   },
   "recheck": [
-   "21",
    "51",
    "53"
   ]
