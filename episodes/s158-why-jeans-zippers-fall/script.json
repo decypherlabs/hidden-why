@@ -4,9 +4,8 @@
  "format": "short",
  "title": "Why does your zipper *always* fall? 👖",
  "hook_text": "THE TINY LOCK",
- "approved": true,
- "paint_hold": true,
- "review": "auto",
+ "approved": false,
+ "review": "rejected",
  "voice_review": true,
  "voice_speed": 1.05,
  "music": {
@@ -62,5 +61,7 @@
  "cover_shot": 1,
  "cover": {
   "prompt": "A close-up of a metal jeans zipper sliding down slightly, realistic painting style., vertical composition, bright warm light, highly detailed"
- }
+ },
+ "rejected": true,
+ "reviewed_at": "2026-11-11 17:48"
 }
