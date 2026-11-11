@@ -253,8 +253,10 @@ def import_episode(slug, src, day, status="done"):
          "source_url": f"https://github.com/{F.REPO}/tree/main/episodes/{slug}"}, indent=2))
     now = time.strftime("%Y-%m-%dT%H:%M:%S")
     try:  # the episode's promo Shorts stay in its project when the long-form is (re)built
+        # (11 Nov 2026: Maggi's two Shorts had no "episode" and fell out of the project on its rebuild)
         promos = [i for i in json.loads((pdir / "project.json").read_text()).get("items") or []
-                  if i.get("episode") and i.get("episode") != slug]
+                  if (i.get("episode") and i.get("episode") != slug)
+                  or (not short and str(i.get("file", "")).startswith("shorts/") and (pdir / i["file"]).is_file())]
     except (OSError, ValueError):
         promos = []
     (pdir / "project.json").write_text(json.dumps({
