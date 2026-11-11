@@ -1,0 +1,473 @@
+{
+ "slug": "dk-236-shishupal-vadh-katha",
+ "format": "long",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "कृष्ण ने शिशुपाल की सौ गालियाँ क्यों माफ़ कीं? 🙏",
+ "thumbnail": {
+  "layout": "epic",
+  "text": "शिशुपाल की *सौवीं* गाली",
+  "plane": "Lord Krishna, dark-blue skin, peacock-feather crown, yellow dhoti, calm but stern, LARGE in the LEFT half with the glowing Sudarshan chakra spinning on his raised finger, facing right; in the right half the king Shishupala in golden armour and red-gold crown stands in fury in a grand Rajasuya yagna hall with a blazing sacred fire, golden pillars and shocked kings behind, dark high-contrast cinematic light, realistic painting, no text"
+ },
+ "music": {
+  "suspense": [
+   "cold_open",
+   "ch1",
+   "ch4"
+  ],
+  "emotional": [
+   "ch2"
+  ],
+  "epic": [
+   "ch3",
+   "ch5"
+  ],
+  "devotional": [
+   "outro"
+  ]
+ },
+ "source": "महाभारत, सभा पर्व, शिशुपाल वध उपपर्व (अर्घ्याभिहरण और शिशुपालवध); जय-विजय का प्रसंग पुराणों की मान्यता",
+ "journey_score": 7,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "भरी सभा में कृष्ण को गालियाँ दी गईं, और कृष्ण मुस्कुराते रहे। आख़िर क्यों?",
+     "prompt": "Lord Krishna smiling gently in the middle of a shouting crowd, blue skin, peacock feather crown, yellow dhoti, seated centre; a furious young king in gold armour and red-gold crown shouts on the right, his finger pointing; kings murmur behind; grand pillared hall, warm lamp light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शिशुपाल की मौत का फ़ैसला उसके जन्म के दिन ही हो गया था। और उसे सुनाया था आकाश की एक आवाज़ ने।",
+     "prompt": "A newborn baby with a third eye on its forehead and four small arms lying in a royal cradle, centre, large in frame, one bright shaft of golden light falling from the dark ceiling onto the cradle, ornate Indian palace chamber, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये कथा महाभारत के सभा पर्व में, शिशुपाल वध उपपर्व में दर्ज है।",
+     "prompt": "Two hands of an old sage turning a page of an ancient palm-leaf manuscript lying open on a wooden stand, plain unmarked leaves tied with string, a lit brass oil lamp beside it, warm lamp light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और आख़िर में, शिशुपाल की देह से उठी वो रोशनी, जो सबके सामने कृष्ण में समा गई।",
+     "prompt": "Golden light rising from a fallen young king in gold armour lying on a hall floor, drifting across the hall toward Lord Krishna, blue skin, peacock feather crown, yellow dhoti, standing calm with folded hands on the right; kings watch in awe far behind, wide shot, golden glow, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पहले एक अजीब जन्म, फिर एक माँ का वचन, फिर भरी सभा, और फिर सुदर्शन चक्र।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, holding up a blazing golden spinning discus on his raised finger, centre; a small royal cradle glows at his feet; kings watch behind in the yagna hall with a sacred fire, wide shot, golden light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कहानी में आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे रिसर्च, स्क्रिप्ट, आवाज़ और एडिटिंग, सब में बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है। चलिए, शुरू करते हैं।",
+     "subscribe_ask": true,
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, holding up a blazing golden spinning discus on his raised finger, centre; a small royal cradle glows at his feet; kings watch behind in the yagna hall with a sacred fire, wide shot, golden light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "move": "push"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "अजीब जन्म",
+   "shots": [
+    {
+     "vo": "चेदि देश के राजा दमघोष के घर एक बेटा हुआ। उसकी माँ रानी श्रुतश्रवा, कृष्ण के पिता वसुदेव की बहन थीं।",
+     "prompt": "A king in white and gold robes with a short grey beard and gold crown, left, and a queen in a red-gold saree with gold jewellery and black hair in a bun, right, standing beside a decorated royal cradle in an Indian palace chamber, warm lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर बच्चे की तीन आँखें थीं और चार हाथ। वो गधे की तरह रेंक रहा था।",
+     "prompt": "A frightened queen in a red-gold saree with black hair in a bun holding a crying newborn baby with four small arms and a third eye on its forehead, centre; a king in white and gold robes with a short grey beard stands beside her with a worried face, dim palace chamber, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "माँ-बाप डर गए। उन्होंने सोचा, इस बच्चे को छोड़ देना ही ठीक है।",
+     "prompt": "A king in white and gold robes with a short grey beard, left, and a queen in a red-gold saree, right, looking down in fear and sorrow at a royal cradle between them holding a baby, a few ministers as distant silhouettes, dark palace hall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तभी आकाश से आवाज़ आई। इस बच्चे को मत छोड़ो, ये बहुत बलवान बनेगा।",
+     "prompt": "A king in white and gold robes, left, and a queen in a red-gold saree, right, looking up in amazement as a beam of bright golden light shines down from the night sky into the palace courtyard, lamps glowing, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आवाज़ ने कहा, जिसकी गोद में इसके दो हाथ और तीसरी आँख गिर जाएँगे। वही इसका काल होगा।",
+     "prompt": "A queen in a red-gold saree clutching a baby with four arms and a third eye to her chest, centre, her face turned up to a bright divine light in the night sky above the palace; the king in white and gold beside her with raised hands, wide shot, night, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा-रानी ने बच्चा हर आने वाले राजा की गोद में रखा। कुछ नहीं बदला।",
+     "prompt": "A guest king in green and gold royal robes holding a baby with four small arms and a third eye in his arms, centre; the queen in a red-gold saree watching anxiously on the left; a line of courtiers as distant silhouettes behind, palace hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर एक दिन बलराम और कृष्ण अपनी बुआ से मिलने चेदि आए।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, and Balarama, a fair-skinned strong man in blue garments carrying a plough on his shoulder, walking side by side through the grand stone gate of an Indian palace, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बुआ ने प्यार से बच्चे को कृष्ण की गोद में रख दिया।",
+     "prompt": "A queen in a red-gold saree gently placing a baby with four small arms and a third eye into the arms of Lord Krishna, blue skin, peacock feather crown, yellow dhoti, who smiles softly; she is on the left, he on the right, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और उसी पल उसके दो हाथ और तीसरी आँख ग़ायब हो गई।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, holding a normal baby with two arms and two eyes, centre, golden glow around the baby; a queen in a red-gold saree and a king in white and gold stare in wonder behind him, palace chamber, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "माँ काँप उठी। अब वो जान गई थीं कि बेटे का काल कौन है। और माँगने को बस एक चीज़ बची थी।",
+     "prompt": "A queen in a red-gold saree trembling with one hand pressed to her heart, left, looking toward Lord Krishna, blue skin, peacock feather crown, yellow dhoti, who stands calm on the right; long dark shadows in the palace chamber, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "माँ का वचन",
+   "shots": [
+    {
+     "vo": "श्रुतश्रवा हाथ जोड़कर कृष्ण के सामने रो पड़ीं।",
+     "prompt": "A queen in a red-gold saree kneeling on the floor with folded hands and tears on her cheeks, left, in front of Lord Krishna, blue skin, peacock feather crown, yellow dhoti, standing right, palace chamber, soft lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो बोलीं, कृष्ण, मुझे एक वरदान दो। मेरे बेटे को अभय दे दो।",
+     "prompt": "A queen in a red-gold saree pleading with both hands outstretched, left, while Lord Krishna, blue skin, peacock feather crown, yellow dhoti, bends toward her kindly on the right, palace chamber, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण ने कहा, बुआ, घबराइए मत। बताइए, मैं क्या करूँ?",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, gently holding both hands of an older woman in a red-gold saree, his aunt, and speaking kindly to her; she is on the left, he on the right; soft palace light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बुआ बोलीं, मेरा बेटा नासमझ है। उसके अपराध माफ़ कर देना।",
+     "prompt": "A queen in a red-gold saree with a sorrowful face, left, speaking to Lord Krishna, blue skin, peacock feather crown, yellow dhoti, right; a baby sleeping in a small royal cradle between them, soft evening light through a palace window, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण बोले, बुआ, मैं इसके सौ अपराध माफ़ करूँगा। चाहे वो मौत के लायक़ क्यों न हों।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, placing his right hand over his heart in a solemn promise, facing a queen in a red-gold saree who stands small on the left; golden light, calm noble face, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "माँ को चैन मिला। उन्होंने कृष्ण के सिर पर हाथ रखकर आशीर्वाद दिया।",
+     "prompt": "A queen in a red-gold saree resting her hand on the head of Lord Krishna, blue skin, peacock feather crown, yellow dhoti, who bows before her; tears of relief on her cheeks; a glowing clay lamp beside them, warm devotional light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "समय बीता। बच्चा बड़ा हुआ और चेदि का राजा शिशुपाल बन गया।",
+     "prompt": "A young king in gold armour and red-gold crown with a thick black moustache seated on a grand golden throne, centre, courtiers bowing low on both sides as distant silhouettes, Indian royal court with carved pillars, strong daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो बलवान था, पर घमंडी। कृष्ण का नाम सुनते ही उसका चेहरा बिगड़ जाता।",
+     "prompt": "A young king in gold armour and red-gold crown with a thick black moustache scowling in anger on his throne, centre, large in frame; a messenger kneeling small on the left; dark red torchlight, Indian royal court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बरसों में उसने कृष्ण को कई चोटें दीं। कृष्ण हर बार वचन याद करके रुक गए। और एक दिन वही वचन भरी सभा में कसौटी पर चढ़ गया।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, standing alone on a sea-facing stone balcony of a golden city at dusk, his hand resting on the rail, a calm thoughtful face, waves below, wide shot, quiet golden light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "राजसूय यज्ञ",
+   "shots": [
+    {
+     "vo": "युधिष्ठिर ने इंद्रप्रस्थ में राजसूय यज्ञ किया। देश-देश के राजा आए। सोने के खंभों वाली सभा राजाओं से भर गई।",
+     "prompt": "A huge blazing sacred fire in the centre of a grand yagna ground with golden pillars, priests chanting in a row beside it, a calm fair man in white and gold welcoming royal guests on the left, kings in rich robes arriving, wide shot, golden light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सवाल उठा, सबसे पहला सम्मान किसका हो?",
+     "prompt": "A vast pillared assembly hall full of kings in rich robes turning to look at one another with puzzled faces, a calm fair man in white and gold standing at the centre with a questioning look, golden pillars, wide shot, bright light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीष्म पितामह ने कहा, पहला सम्मान कृष्ण का होना चाहिए।",
+     "prompt": "An old white-bearded man in white robes standing with one hand raised and pointing respectfully toward Lord Krishna, blue skin, peacock feather crown, yellow dhoti, seated on the right; kings watching from the seats behind, royal assembly, wide shot, warm light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीष्म के कहने पर सहदेव ने कृष्ण को अर्घ्य देकर उनका सम्मान किया।",
+     "prompt": "A young fair man in simple royal robes offering a brass water vessel with folded hands to Lord Krishna, blue skin, peacock feather crown, yellow dhoti, seated on a high seat on the right; priests holding flowers behind them, yagna hall, medium shot, devotional light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सभा में सन्नाटा छा गया। फिर शिशुपाल अपने आसन से उठ खड़ा हुआ।",
+     "prompt": "A young king in gold armour and red-gold crown with a thick black moustache rising abruptly from his seat with a furious face, centre, large in frame; silent kings in seats turning to look at him, assembly hall, wide shot, tense dark light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो बोला, एक ग्वाला राजाओं से पहले पूजा पाए? ये अपमान है।",
+     "prompt": "A young king in gold armour and red-gold crown with a thick black moustache pointing angrily across the hall, on the left; Lord Krishna, blue skin, peacock feather crown, yellow dhoti, sitting upright and calm on the right; kings in shadow behind, wide shot, red-gold light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उसने कृष्ण पर रुक्मिणी को ले जाने का भी ताना मारा। रुक्मिणी का ब्याह उसके साथ तय माना गया था।",
+     "prompt": "A young king in gold armour and red-gold crown sneering bitterly with an arm thrown out toward Lord Krishna, blue skin, peacock feather crown, yellow dhoti, on the right; a faint glowing vision of a bride in red bridal clothes in the air between them, medium-wide shot, dark red light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा आपस में फुसफुसाने लगे। कृष्ण कुछ नहीं बोले।",
+     "prompt": "Kings seated in rows in the assembly hall whispering to one another behind their hands with uneasy faces, Lord Krishna, blue skin, peacock feather crown, yellow dhoti, sitting silent and composed in the foreground, medium-wide shot, shadowy light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सौ।",
+     "prompt": "Extreme close-up of Lord Krishna's calm unwavering eyes, blue skin, peacock feather crown above, deep shadow around, a faint golden glow on his face, sharp focus, absolute stillness, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सौ की गिनती उसी दिन शुरू हो गई थी, जब माँ ने वचन माँगा था। जन्म के दिन आकाश की आवाज़ ने जिसे काल कहा था, वही सामने था।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, seated silent and calm on the right; a shouting young king in gold armour and red-gold crown on the left; above Krishna a faint glowing vision of a queen in a red-gold saree with folded hands, assembly hall, medium shot, golden light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीष्म ने सभा को समझाया कि कृष्ण से बड़ा पूजा के योग्य कोई नहीं।",
+     "prompt": "An old white-bearded man in white robes speaking steadily to a silent assembly of kings, one hand raised, on the left; Lord Krishna, blue skin, peacock feather crown, yellow dhoti, sits behind him on the right with a soft divine light around him, medium-wide shot, epic light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शिशुपाल ने भीष्म को भी कड़वी बातें सुनाईं। भीम का सब्र टूट गया। गदा थामे वो उठ खड़े हुए।",
+     "prompt": "A huge broad-shouldered fair-skinned man in simple royal clothes rising in anger from his seat gripping a big mace, on the left; a young king in gold armour and red-gold crown shouting on the right; tense hall, wide shot, dark red light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "सौ का हिसाब",
+   "shots": [
+    {
+     "vo": "भीष्म ने भीम को रोका। उन्होंने शिशुपाल के जन्म की पूरी कथा सुनाई।",
+     "prompt": "An old white-bearded man in white robes calmly speaking to a huge broad-shouldered fair-skinned man in simple royal clothes, in a quiet corner of the hall; above them a glowing dreamlike vision of a baby in a cradle, medium shot, warm light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीष्म ने बताया, कृष्ण ने बुआ को वचन दिया था। सौ अपराध माफ़ होंगे, चाहे वो मौत के लायक़ हों।",
+     "prompt": "An old white-bearded man in white robes speaking gravely with one hand raised, left; a huge broad-shouldered man in simple royal clothes listening with his mace lowered, right; above them a faint golden image of Lord Krishna's hand on his heart, medium shot, solemn light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीम रुक गए, पर गदा अब भी उनके हाथ में थी। शिशुपाल की गालियाँ नहीं रुकीं।",
+     "prompt": "A huge broad-shouldered fair-skinned man in simple royal clothes seated with a big mace across his knees and a clenched jaw, centre, large in frame; a young king in gold armour shouting small in the far background, medium shot, tense red-gold light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अब कृष्ण अपने आसन से उठे। उन्होंने सभा के राजाओं से शांत स्वर में बात की।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, rising slowly from his high seat with one hand raised calmly toward the assembly, centre; kings in rows watching in silence, wide shot, golden divine light around him, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये मेरी बुआ का बेटा है। बुआ के कहने पर मैंने सौ अपराध माफ़ करने का वचन दिया था।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, speaking gravely to the seated kings with one hand over his heart, on the left; a young king in gold armour standing small at a distance on the right, assembly hall, medium-wide shot, solemn light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण ने गिनाया, जब मैं दूर प्राग्ज्योतिषपुर गया था, इसने मेरी द्वारका जला दी।",
+     "prompt": "The sea city of Dwarka with golden towers burning in huge flames beside dark waves at night, large in frame; Lord Krishna, blue skin, peacock feather crown, small in the foreground looking back at it, wide shot, firelight, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मेरे पिता वसुदेव के अश्वमेध यज्ञ का घोड़ा पकड़कर इसने यज्ञ में विघ्न डाला।",
+     "prompt": "A white horse tied by a rope held by a young king in gold armour, left, at a dusky field edge, the horse large in frame; a priest at a yagna fire on the right raising his hands in alarm, wide shot, dusk light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इसने बभ्रु की पत्नी को द्वारका से आते समय उठा लिया। विशाला की भद्रा को भी हर ले गया।",
+     "prompt": "An empty royal chariot standing still on a lonely forest road at twilight, a woman's red veil lying on the ground beside it, large in frame; a single rider fleeing far in the distance as a small silhouette, wide shot, ominous dusky light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये सब मैंने सिर्फ़ बुआ की ख़ातिर सहा। आज भरी सभा में इसने सौ की सीमा पूरी कर दी।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, standing in the centre of the hall with a stern steady gaze and one finger lifted slightly; kings staring in stunned silence behind him, medium-wide shot, dramatic golden-red light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण सौ बार चुप रहे। क्या वचन निभाना सही था, या पहली गाली पर ही रोकना चाहिए था? कमेंट में लिखिए।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, sitting calm and silent on his high seat on the left; a furious young king in gold armour and red-gold crown shouting on the right; kings watch from the seats around, wide shot, warm light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये कथा किसी ऐसे अपने को भेजिए, जो वचन निभाना जानता हो।",
+     "prompt": "A family sitting together on the ground of an Indian village courtyard at dusk, an elder grandmother in a white saree telling a story with her hands raised, small children and a young man listening, a clay lamp glowing, medium-wide shot, warm lamp light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शिशुपाल ने फिर मुँह खोला। अब उसका हर शब्द उसकी साँसों की गिनती घटा रहा था।",
+     "prompt": "A young king in gold armour and red-gold crown shouting with his mouth wide open, left, large in frame; in the sharp foreground on the right the raised hand of Lord Krishna, blue skin, with a tiny glowing golden discus beginning to appear on his finger, medium shot, dark dramatic light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "सुदर्शन",
+   "shots": [
+    {
+     "vo": "शिशुपाल ने कृष्ण को एक और गाली दी। सौ के बाद की पहली।",
+     "prompt": "A young king in gold armour and red-gold crown thrusting his arm toward Lord Krishna, blue skin, peacock feather crown, yellow dhoti, in rage; the king on the left, Krishna calm on the right, the hall dim around them, wide shot, tense red light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सभा की साँसें थम गईं। किसी राजा ने पलक तक नहीं झपकी।",
+     "prompt": "Rows of kings in rich robes frozen in their seats in the dim assembly hall, wide-eyed and motionless, the sacred fire burning low in the far background, wide shot, hushed shadowy light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण बोले, बुआ को दिया वचन पूरा हुआ। अब मैं इसे नहीं रोकूँगा।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, speaking with a calm resolute face, eyes lowered slightly, golden light on his face, centre, large in frame, assembly hall softly visible behind, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सुदर्शन चक्र उनकी उँगली पर घूमने लगा। उसकी चमक से सबकी आँखें चौंधिया गईं।",
+     "prompt": "A blazing golden spinning discus on the raised finger of Lord Krishna, blue skin, peacock feather crown, yellow dhoti, centre, radiating golden-white light across the hall; kings in rows raise their arms to shield their eyes, wide shot, epic light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण ने चक्र छोड़ा। वो बिजली की तरह सभा के आर-पार चला।",
+     "prompt": "A glowing golden spinning discus flying like lightning through the hall, large in frame, with trails of golden light behind it, toward a young king in gold armour and red-gold crown who stares in terror on the right; Lord Krishna with his arm extended far on the left, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "चक्र ने शिशुपाल का सिर काट दिया।",
+     "prompt": "A glowing golden discus hovering in a blinding white-gold flash at the centre of the hall, a gold crown rolling on the floor beside the collapsed body of a king in gold armour, kings recoiling as distant silhouettes, wide shot, high-contrast light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शिशुपाल का शरीर सभा के बीच गिर पड़ा। चक्र लौटकर कृष्ण की उँगली पर आ बैठा।",
+     "prompt": "The body of a young king in gold armour lying fallen on the hall floor, centre, his red-gold crown beside him; across the hall Lord Krishna, blue skin, peacock feather crown, yellow dhoti, raising his finger as the golden discus settles onto it, dust drifting in golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सब राजा हाथ जोड़े खड़े रह गए। किसी के मुँह से बोल नहीं निकला।",
+     "prompt": "Many kings in rich robes standing in rows with folded hands in stunned silence, Lord Krishna, blue skin, peacock feather crown, yellow dhoti, standing calm at the centre, an old white-bearded man in white robes nodding gravely beside him, wide shot, solemn light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण ने सौ गालियाँ इसलिए माफ़ कीं, क्योंकि एक बुआ को वचन दिया था। वचन निभा, तब न्याय हुआ।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, standing with a bowed head, large in frame at the bottom; above him in the golden air a glowing vision of a queen in a red-gold saree with folded hands smiling gently, wide shot, soft devotional glow, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जय श्री कृष्ण लिखकर इस कथा पर लाइक कीजिए। पर सबसे बड़ा चमत्कार अभी बाक़ी था।",
+     "prompt": "Lord Krishna playing a flute under a blooming kadamba tree at golden sunset, blue skin, peacock feather crown, yellow dhoti, centre; a few cows grazing far in the background; a calm green meadow, medium-wide shot, warm devotional light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "शिशुपाल की देह से एक तेज़ रोशनी उठी। सबकी नज़रें ठहर गईं।",
+     "prompt": "A brilliant golden light slowly rising from the body of a fallen young king in gold armour lying on the hall floor, centre; kings watching in awe with folded hands as distant figures; wide shot, mystical golden glow, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो रोशनी तैरती हुई कृष्ण की ओर आई, और सबके सामने उनमें समा गई।",
+     "prompt": "A stream of golden light flowing into the chest of Lord Krishna, blue skin, peacock feather crown, yellow dhoti, standing calm with closed eyes and folded hands, centre; a soft golden halo around him, medium shot, serene devotional glow, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पुराणों की मान्यता है कि शिशुपाल पहले विष्णु का द्वारपाल जय था। श्राप से उसे ये जन्म मिला। ये महाभारत की नहीं, पुराणों की बात है।",
+     "prompt": "A guard in golden armour with a mace standing at an enormous gate of a heavenly palace made of white clouds and light, centre, large in frame, the gate open behind him, wide shot, soft celestial glow, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इस कथा से एक सीख निकलती है: माफ़ी की भी सीमा होती है, पर वचन निभाया जाता है। कृष्ण का आशीर्वाद आप पर बना रहे। अगली कथा में, इसी यज्ञ के बाद दुर्योधन का वो अपमान, जिसने पासों का खेल रचवाया।",
+     "prompt": "A proud young man in royal green and gold robes with a thin moustache standing on a glittering mirror-bright palace floor between shiny pillars, his face bitter and humiliated, his clothes slightly wet at the hem, centre, medium-wide shot, dramatic light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कमेंट में जय श्री कृष्ण लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
+     "prompt": "Lord Krishna standing at the centre of a glowing sunset sky with his hand raised in blessing, blue skin, peacock feather crown, yellow dhoti, a flute tucked at his waist, golden light all around him, wide shot, devotional warm glow, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ],
+ "topic_demand": {
+  "median": 743231,
+  "hits": 9,
+  "outliers": 6,
+  "q": "shishupal vadh",
+  "matched": "7/10"
+ }
+}
