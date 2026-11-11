@@ -15,6 +15,8 @@ import torch
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "brand"))
 from brandcfg import B as BRAND  # noqa: E402  (HW_BRAND: another channel's art style)
+sys.path.insert(0, str(ROOT / "pipeline"))
+import words  # noqa: E402  (re only: safe on Kaggle)
 HF_MODEL = "stabilityai/stable-diffusion-xl-base-1.0"
 
 
@@ -34,6 +36,9 @@ def shots(script):
     pictures in its "more" list (owner, 7 Nov 2026: a new picture every ~4 s, like The Quiet Story). "paint_limit": N
     paints only the first N shots (the owner's preview before the whole episode is painted)."""
     n, limit = 0, script.get("paint_limit")
+    # "words_in_edit" (owner, 11 Nov 2026): the quoted words come out, the surfaces are painted blank and the edit
+    # sets the words (pipeline/words.py); older scripts paint as before
+    blank = (lambda p: words.lift(p)[0]) if script.get("words_in_edit") else (lambda p: p)
     for sec in script["sections"]:
         for s in sec.get("shots") or []:
             n += 1
@@ -41,9 +46,9 @@ def shots(script):
                 return
             if s.get("prompt") and not s.get("diagram") and not s.get("map"):  # maps are drawn too
                 # "seed": a repaint after a failed shot check draws a new image, not the same one (1 Nov)
-                yield f"{n:02d}", s["prompt"], s.get("negative", ""), int(s.get("seed") or 1000 + n)
+                yield f"{n:02d}", blank(s["prompt"]), s.get("negative", ""), int(s.get("seed") or 1000 + n)
                 for k, extra in enumerate(s.get("more") or [], 2):
-                    yield f"{n:02d}-{k}", extra, s.get("negative", ""), int(s.get("seed") or 1000 + n) + 100 * k
+                    yield f"{n:02d}-{k}", blank(extra), s.get("negative", ""), int(s.get("seed") or 1000 + n) + 100 * k
 
 
 def main(script_path, out_dir, part=0, parts=1):

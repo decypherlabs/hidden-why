@@ -23,6 +23,7 @@ sys.path.insert(0, str(ROOT / "brand"))
 sys.path.insert(0, str(ROOT / "pipeline"))
 import brand_kit as K  # noqa: E402
 from diagram import DIAGRAMS, OVERLAYS  # noqa: E402
+import words  # noqa: E402
 
 W, H, FPS, SR = 1920, 1080, 30, 48000
 XF = 0.4  # dissolve seconds
@@ -1239,11 +1240,17 @@ MOVES_CYCLE = ("pan_right", "pull", "pan_left", "push")
 GRADES = {"cross-process": "eq=contrast=1.1:saturation=1.08,hue=h=-12",
           "cinematic": "eq=contrast=1.08:saturation=1.0,colorbalance=rs=0.05:bs=-0.05:rh=0.04:bh=-0.04",
           "warm": "colorbalance=rs=0.06:gs=0.02:bs=-0.06"}
+WORDS = {}  # painting key ("12", "12-2") -> its words (shot "words" in the script, or the "paint_from" episode's)
+
+
 def paint_read(f):
     """A painting from disk, toned to the brand (brand.json "tone": {"saturation": 0.85}; owner, 9 Nov 2026: Logos &
     Legends' teasers and long-forms "regularly have high saturation images... adapt as per the theme"). Only the
     paintings: captions and graphics keep their own colours."""
     im = cv2.imread(str(f))
+    key = Path(str(f)).stem[len("shot-"):]
+    if WORDS.get(key):  # the painting's words, set by the edit (pipeline/words.py, owner 11 Nov 2026)
+        im = words.apply(im, WORDS[key])
     tone = K.B.get("tone") or {}
     sat, knee, con = float(tone.get("saturation") or 1), float(tone.get("knee") or 255), float(tone.get("contrast") or 1)
     if im is None or (abs(sat - 1) < 0.01 and knee >= 255 and abs(con - 1) < 0.01):
@@ -1395,6 +1402,9 @@ def load_mp3(path, seconds):
 def main(script_path, out_dir):
     global W, H, XF, FX
     script = json.loads(Path(script_path).read_text())
+    src = Path(script_path).parent.parent / str(script.get("paint_from") or "-") / "script.json"
+    WORDS.update(words.table(json.loads(src.read_text())) if src.is_file() else {})  # a Short on its episode's paintings
+    WORDS.update(words.table(script))
     short = script.get("format") == "short"
     FX = not short and bool(K.B.get("motion_fx"))
     PANEL = short and K.B.get("short_layout") == "panel"  # Logos & Legends Shorts: the landscape painting whole (8 Nov 2026)
