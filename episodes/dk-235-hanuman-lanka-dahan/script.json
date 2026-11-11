@@ -1,0 +1,437 @@
+{
+ "slug": "dk-235-hanuman-lanka-dahan",
+ "format": "long",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "हनुमान जी ने सोने की लंका क्यों जलाई, और विभीषण का घर क्यों बचा? 🔥",
+ "thumbnail": {
+  "layout": "epic",
+  "text": "रावण ने ही *जलाई* अपनी लंका!",
+  "plane": "Lord Hanuman, monkey-faced, saffron-red body, carrying a mace, LARGE in the left half of the frame with a fierce, resolute face, his tail wrapped in cloth and blazing with fire; the right half filled with the golden city of Lanka at night, its palaces and towers engulfed in roaring flames and smoke, sparks flying across a black sky, dark high-contrast cinematic light with orange glow on his face, realistic painting, no text"
+ },
+ "music": {
+  "suspense": [
+   "cold_open",
+   "ch2"
+  ],
+  "devotional": [
+   "ch1",
+   "outro"
+  ],
+  "epic": [
+   "ch3",
+   "ch4"
+  ],
+  "emotional": [
+   "ch5"
+  ]
+ },
+ "source": "वाल्मीकि रामायण, सुंदरकांड, सर्ग 51 से 55",
+ "journey_score": 7,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "पूरी सोने की लंका जल गई, पर एक घर पर एक चिंगारी भी नहीं गिरी। क्यों?",
+     "prompt": "A whole golden city burning in huge flames at night, rows of golden palaces collapsing in fire, one small plain white house in the centre with a glowing oil lamp at its door, untouched and lit by soft light, aerial wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "हनुमान जी लंका जलाने गए ही नहीं थे। वो तो सिर्फ़ माता सीता को खोजने गए थे।",
+     "prompt": "Lord Hanuman standing on a rocky shore at dawn looking across the wide ocean toward a distant island glowing gold on the horizon, red-brown monkey god, gold crown, centre, bright sunrise light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और आख़िर में, वो वजह जिससे पूरी लंका जली, पर विभीषण का घर बच गया।",
+     "prompt": "A small plain white house with a glowing oil lamp at its door standing untouched, a calm fair-skinned man in a white dhoti with folded hands standing in front of it, golden palaces burning on both sides, firelight at night, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये कथा वाल्मीकि रामायण के सुंदरकांड से है। सर्ग इक्यावन से पचपन तक।",
+     "prompt": "An old sage with a long white beard in simple orange robes writing on a palm-leaf manuscript beside an oil lamp, sitting on a mat in a forest ashram hut, warm lamp light at night, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पहले पकड़े जाना, फिर रावण का दरबार, फिर आग, और फिर लंका की राख।",
+     "prompt": "Lord Hanuman standing before a heap of grey ash and burnt ruins of golden gates and walls, red-brown monkey god, gold crown, centre, smoke rising behind him, grey dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कहानी में आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे रिसर्च, स्क्रिप्ट, आवाज़ और एडिटिंग, सब में बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है। चलिए, शुरू करते हैं।",
+     "subscribe_ask": true,
+     "prompt": "Lord Hanuman standing before a heap of grey ash and burnt ruins of golden gates and walls, red-brown monkey god, gold crown, centre, smoke rising behind him, grey dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "move": "push"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "सीता की खोज",
+   "shots": [
+    {
+     "vo": "श्रीराम की अँगूठी लेकर हनुमान जी समुद्र पार पहुँचे। सामने थी सोने की लंका।",
+     "prompt": "Lord Hanuman holding out a small gold ring on his open palm, red-brown monkey god, gold crown, standing on a seashore, a golden city of tall palaces and walls before him across the water, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "महल-महल खोजा, पर माता सीता कहीं नहीं मिलीं। रात बीतती जा रही थी।",
+     "prompt": "Lord Hanuman crouching on a palace rooftop looking down into a moonlit courtyard of a golden city, red-brown monkey god, gold crown, centre, empty rooms with lamps below, bright moonlight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आख़िर अशोक वाटिका में पेड़ के नीचे एक उदास स्त्री बैठी दिखीं। वो माता सीता थीं।",
+     "prompt": "A sad woman in a yellow saree with long black hair sitting under a big tree in a garden, hands in her lap, centre; Lord Hanuman, red-brown monkey god, small on a branch above her, lamps far off, soft moonlight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "हनुमान जी ने श्रीराम की अँगूठी माता के हाथों में रखी। माता की आँखों से आँसू बह निकले।",
+     "prompt": "Lord Hanuman, red-brown monkey god, gold crown, on the left bowing and placing a small gold ring into the open hands of Mata Sita, a woman in a yellow saree with tears on her cheeks, on the right, garden at dawn, soft light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "माता ने आशीर्वाद दिया, और निशानी में अपनी चूड़ामणि दी।",
+     "prompt": "Mata Sita, a woman in a yellow saree with long black hair, on the right, handing a glowing jewel to Lord Hanuman, red-brown monkey god, gold crown, on the left, who receives it with both hands, garden, warm golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "काम पूरा हो चुका था। पर हनुमान जी ने सोचा, रावण की ताक़त भी देख लूँ।",
+     "prompt": "Lord Hanuman holding a mace, standing among tall trees and flowering bushes in a large garden, red-brown monkey god, gold crown, centre, looking toward a distant golden palace, dusk light, medium wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने पूरी अशोक वाटिका उजाड़ दी। पेड़ उखड़ गए, फूल बिखर गए।",
+     "prompt": "Lord Hanuman pulling a huge tree out of the ground by its roots, red-brown monkey god, gold crown, centre, fallen trees, scattered flowers and broken pavilions all around him in a ruined garden, early morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राक्षस दौड़े आए, पर हनुमान जी ने सबको हरा दिया।",
+     "prompt": "Lord Hanuman swinging a stone pillar in a wrecked garden, red-brown monkey god, gold crown, centre, large; a few dark-skinned demon guards with spears knocked down on the ground around him, dust in the air, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर आया रावण का बेटा इंद्रजीत, ब्रह्मास्त्र लेकर। लेकिन तभी हनुमान जी बँध गए।",
+     "prompt": "A young dark-skinned warrior in gold armour with a bow, on the left, aiming a glowing arrow with a bright golden light at Lord Hanuman, red-brown monkey god, gold crown, standing still on the right with the light wrapped around him, dark sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "रावण का दरबार",
+   "shots": [
+    {
+     "vo": "रस्सियों में बँधे हनुमान जी को राक्षस रावण के दरबार में खींच लाए।",
+     "prompt": "Lord Hanuman bound in thick ropes around his chest and arms, red-brown monkey god, gold crown, centre, dragged forward by two dark-skinned demon guards into a huge golden court with tall pillars, torchlight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सामने सोने के सिंहासन पर रावण बैठा था। उसकी आँखों में घमंड था।",
+     "prompt": "A dark-skinned king with one face, gold crown and dark armour, sitting on a huge golden throne, proud eyes and a hard smile, centre, large, courtiers as distant silhouettes, rich torchlight, medium wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रावण गरजा, तू कौन है, और यहाँ क्यों आया?",
+     "prompt": "A dark-skinned king with one face, gold crown, on the right, pointing angrily from his golden throne at Lord Hanuman, red-brown monkey god, gold crown, bound in ropes, standing on the left, grand court, torchlight, medium wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "हनुमान जी निडर खड़े रहे। बोले, मैं श्रीराम का दूत हूँ।",
+     "prompt": "Lord Hanuman bound in ropes but standing tall with chin raised and calm eyes, red-brown monkey god, gold crown, centre, large; courtiers as small silhouettes behind him, golden court, warm torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने कहा, माता सीता को सम्मान से लौटा दो, नहीं तो लंका नहीं बचेगी।",
+     "prompt": "Lord Hanuman speaking firmly with one hand raised, red-brown monkey god, gold crown, bound in ropes, on the left; a dark-skinned king on a golden throne on the right, listening silently, golden court, warm light, medium wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रावण का चेहरा गुस्से से लाल हो गया। उसने कहा, इसे मार डालो!",
+     "prompt": "A dark-skinned king with one face, gold crown, rising from his golden throne with a raised hand and a furious red face, centre, large; demon soldiers in the court below drawing swords, dark red torchlight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तभी रावण के छोटे भाई विभीषण आगे आए।",
+     "prompt": "A calm fair-skinned man in a white dhoti and gold earrings stepping forward from a crowd of dark-skinned courtiers in a golden court, centre, large, soft torchlight, medium wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने कहा, महाराज, दूत को मारना धर्म के ख़िलाफ़ है। कोई और सज़ा दे दीजिए।",
+     "prompt": "A calm fair-skinned man in a white dhoti with folded hands, on the left, pleading before a dark-skinned king with one face and gold crown, on the right, seated on a golden throne, tense court, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रावण चुप रहा, फिर हँसा। बोला, बंदर को अपनी पूँछ सबसे प्यारी होती है।",
+     "prompt": "A dark-skinned king with one face and gold crown, sitting on his golden throne and smirking, one hand resting on the arm of the throne, centre, large, flickering torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इसकी पूँछ में आग लगा दो! रावण ने सोचा, ये सज़ा है। लेकिन तभी इसी आदेश ने उसकी लंका का भाग्य लिख दिया।",
+     "prompt": "A dark-skinned king with one face and gold crown laughing on his golden throne with an arm raised, pointing, on the right; Lord Hanuman, red-brown monkey god, gold crown, bound and calm, on the left, faint orange glow in the court, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "जलती पूँछ",
+   "shots": [
+    {
+     "vo": "राक्षसों ने हनुमान जी की पूँछ पर ढेर सारे चीथड़े लपेटे।",
+     "prompt": "Dark-skinned demon soldiers winding thick strips of cloth around the long tail of Lord Hanuman, red-brown monkey god, gold crown, bound, sitting in a courtyard, a big pile of cloth beside him, torchlight, medium wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर उस पर तेल डाला और आग लगा दी।",
+     "prompt": "A demon pouring oil from a jar onto a cloth-wrapped tail, another demon touching a burning torch to it so the tail bursts into bright flame, Lord Hanuman, red-brown monkey god, gold crown, standing bound beside them, night, orange firelight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ढोल बजे। राक्षस हँसते हुए उन्हें लंका की गलियों में घुमाने लगे।",
+     "prompt": "Lord Hanuman with a burning tail, red-brown monkey god, gold crown, led through a golden street by jeering demons beating drums, crowds of onlookers on both sides, night, orange firelight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये ख़बर अशोक वाटिका में माता सीता तक पहुँची। वो घबरा गईं।",
+     "prompt": "Mata Sita, a woman in a yellow saree with long black hair, standing anxious with her hands pressed to her chest in a garden, centre, a bright orange fire glow in the sky behind the trees, night, medium wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने हाथ जोड़कर अग्निदेव से प्रार्थना की, हनुमान के लिए शीतल हो जाओ।",
+     "prompt": "Mata Sita in a yellow saree praying with folded hands, eyes closed, tears on her face, before a small sacred fire in a clay bowl, centre, soft glow, night, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ठंडी।",
+     "prompt": "Close-up of a blazing flame on the tail of Lord Hanuman, red-brown monkey god, gold crown, his face calm and peaceful beside it, soft blue-white light around the flame, night street, medium close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पूँछ पर आग जल रही थी, पर हनुमान जी को ज़रा भी गर्मी नहीं लगी।",
+     "prompt": "Lord Hanuman looking back over his shoulder at his flaming tail with wonder, red-brown monkey god, gold crown, centre, puzzled dark-skinned demons standing around him, night street, orange firelight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्हें ऐसा लगा जैसे पूँछ पर आग नहीं, ठंडी बर्फ़ लिपटी हो।",
+     "prompt": "Close-up of Lord Hanuman's face, red-brown monkey god, gold crown, smiling gently with calm eyes, lit by a soft cool light, his tail burning behind him, dark background, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जो आग रावण ने सज़ा बनाई थी, वो हनुमान जी का हथियार बन गई। जय हनुमान लिखकर लाइक कीजिए।",
+     "prompt": "Lord Hanuman, red-brown monkey god, gold crown, holding his flaming tail up like a torch, burning with resolve in his eyes, centre, a golden street of palaces behind him, night, low-angle wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने अपने बंधन की तरफ़ देखा। लेकिन तभी हनुमान जी छोटे होते चले गए।",
+     "prompt": "Lord Hanuman, now small, standing inside coils of loose rope that sag around him, red-brown monkey god, gold crown, centre; astonished dark-skinned demon guards stepping back, night, firelight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "लंका दहन",
+   "shots": [
+    {
+     "vo": "रस्सियाँ ढीली पड़ीं और हनुमान जी बाहर निकल आए।",
+     "prompt": "Lord Hanuman stepping out of a heap of loose ropes on the ground, red-brown monkey god, gold crown, centre; dark-skinned demon guards drawing back in shock, firelight at night, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर वो पहाड़ जैसे विशाल हो गए।",
+     "prompt": "Lord Hanuman as a giant as tall as a mountain standing over a golden city, red-brown monkey god, gold crown, tail aflame, tiny palaces and tiny demons at his feet, night, low-angle wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "एक छलाँग में वो सबसे ऊँचे महल की छत पर थे।",
+     "prompt": "Lord Hanuman standing on the golden roof of the tallest palace in the city, red-brown monkey god, gold crown, centre, his burning tail swinging beside him, sparks in the night sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उनकी पूँछ की आग महलों को छूने लगी। सोने के महल एक-एक करके जल उठे।",
+     "prompt": "Golden palaces catching fire one after another along a street, flames on the nearest roofs and a burning tail trailing sparks on a rooftop where Lord Hanuman, red-brown monkey god, stands small, huge flames, night, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तेज़ हवा चली और आग गली-गली फैल गई।",
+     "prompt": "Strong wind blowing huge flames across the rooftops and golden domes of a city, towers burning, sparks flying, dark red sky, aerial wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राक्षस चिल्लाते हुए भागे। रावण की शान राख हो रही थी।",
+     "prompt": "Panicked dark-skinned demons running down a narrow burning street, collapsing golden buildings and thick smoke around them, fierce orange light, night, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर एक घर पर आग की एक चिंगारी भी नहीं पड़ी। वो विभीषण का घर था।",
+     "prompt": "A small plain white house with a glowing lamp at its door standing untouched in a street of burning golden palaces, a calm man in a white dhoti watching from the doorway, firelight on both sides, night, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सब कुछ जला, पर यही एक घर क्यों बचा? इसका जवाब कथा के आख़िर में है।",
+     "prompt": "One small plain white house glowing calmly in the centre of a sea of flames, burning golden palaces all around it, black night sky, dramatic contrast, aerial wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "विभीषण का सच बोलना सही था, या भाई का साथ देना? कमेंट में लिखिए। और ये कथा किसी ऐसे को भेजिए, जिसे हनुमान जी पर भरोसा है।",
+     "prompt": "A thoughtful man in a white dhoti and gold earrings standing alone on a quiet balcony at night, hands on the railing, looking out at a burning golden city, centre, orange glow on his face, medium wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आग धीरे-धीरे बुझने लगी। लेकिन तभी हनुमान जी के मन में एक डर उठा।",
+     "prompt": "Lord Hanuman standing on a hilltop above a smoking golden city, red-brown monkey god, gold crown, looking back with a worried face, centre, fires dying down, smoke and pale dawn glow, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "सागर किनारा",
+   "shots": [
+    {
+     "vo": "हनुमान जी समुद्र किनारे पहुँचे और अपनी पूँछ पानी में डुबो दी।",
+     "prompt": "Lord Hanuman dipping his burning tail into the sea at the shore, red-brown monkey god, gold crown, centre, steam rising from the water, the glow of a burning city far behind, pre-dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आग बुझ गई, पर मन की बेचैनी नहीं बुझी।",
+     "prompt": "Lord Hanuman sitting on a rocky shore with a troubled face, red-brown monkey god, gold crown, centre, looking back at a glowing red horizon, blue dawn light, medium wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्हें लगा, कहीं इस आग में माता सीता भी तो नहीं जल गईं?",
+     "prompt": "Lord Hanuman with his hand on his forehead and an anguished face, red-brown monkey god, gold crown, centre, standing at the sea shore, thick smoke rising over a distant island, dim light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो ख़ुद को कोसने लगे। मैंने ये क्या कर दिया!",
+     "prompt": "Lord Hanuman kneeling on the sand with his bowed head in his hands, full of regret, red-brown monkey god, gold crown, centre, waves behind him, grey dawn light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तभी आकाश से चारणों की आवाज़ आई, माता सीता सुरक्षित हैं।",
+     "prompt": "Three celestial singers in white robes with gold jewellery standing on glowing clouds in the sky above the sea, calling down, Lord Hanuman, red-brown monkey god, gold crown, small on the shore below looking up in hope, golden light breaking through clouds, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "हनुमान जी की जान में जान आई। अग्निदेव ने माता की प्रार्थना सुन ली थी।",
+     "prompt": "Lord Hanuman with folded hands and tears of relief on his face, red-brown monkey god, gold crown, centre, sunrise over the sea behind him, warm golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो फिर उड़े और लौटकर श्रीराम को पूरी कथा सुनाई।",
+     "prompt": "Lord Hanuman, red-brown monkey god, gold crown, on the left, bowing before Lord Rama, blue-skinned and beautiful, with a bow and a gold crown, on the right, in a forest camp on a hill, soft morning light, medium wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "श्रीराम ने उन्हें गले से लगा लिया।",
+     "prompt": "Lord Rama, blue-skinned and beautiful, in royal garments with a bow on his shoulder, on the left, embracing Lord Hanuman, red-brown monkey god, gold crown, on the right, warm golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "तो हनुमान जी ने सोने की लंका क्यों जलाई? जलाने तो वो गए ही नहीं थे। रावण ने ख़ुद उनकी पूँछ में आग थमा दी।",
+     "prompt": "Lord Hanuman seen from the sea at night, red-brown monkey god, gold crown, standing on a shore, a huge burning golden city across the water with a tall column of flame above it, deep red and gold light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रावण ने सज़ा दी थी, और वही सज़ा उसकी लंका पर भारी पड़ गई।",
+     "prompt": "A dark-skinned king with one face, gold crown and dark armour, standing on a palace balcony watching his golden city burn below him, despair on his face, centre, orange firelight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और विभीषण का घर क्यों बचा? क्योंकि उन्होंने भरे दरबार में धर्म की बात कही थी। हनुमान जी ने वही घर छोड़ दिया।",
+     "prompt": "A calm man in a white dhoti with gold earrings standing in front of a small untouched white house with a glowing lamp at its door, centre, burnt black ruins all around him, calm soft light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "हनुमान जी की कृपा आप सब पर बनी रहे। अगली कथा में जानिए, विभीषण श्रीराम की शरण में कैसे पहुँचे।",
+     "prompt": "Lord Hanuman seated with folded hands in prayer before a glowing oil lamp inside a stone temple, red-brown monkey god, gold crown, centre, marigold flowers at his feet, dawn, warm light, medium wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कमेंट में जय हनुमान लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
+     "prompt": "Lord Hanuman holding a mace, standing tall on a mountain peak, red-brown monkey god, gold crown, centre, golden sunrise sky with soft clouds behind him, glowing light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ],
+ "topic_demand": {
+  "median": 1222278,
+  "hits": 10,
+  "outliers": 6,
+  "q": "hanuman ji ne lanka kyon jalayi",
+  "matched": "10/10"
+ }
+}
