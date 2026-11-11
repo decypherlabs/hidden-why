@@ -59,7 +59,133 @@
      "prompt": "The rear of the last passenger coach, a large white painted \"X\" on a flat dark panel facing the camera, a red tail lamp glowing below it, the train pulling away along a long straight track, evening light, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "और आख़िर में, आख़िरी डिब्बे के पीछे बना X। वो ग़ायब दिखे, तो स्टेशन मास्टर की नींद उड़ जाती है।"
+     "caption": "और आख़िर में, आख़िरी डिब्बे के पीछे बना X। वो ग़ायब दिखे, तो स्टेशन मास्टर की नींद उड़ जाती है।",
+     "words": {
+      "04": {
+       "src": "27d3fea9c2cc",
+       "items": [
+        {
+         "text": "X",
+         "grid": [
+          [
+           [
+            444.3,
+            208.3
+           ],
+           [
+            551.3,
+            208.3
+           ],
+           [
+            660.1,
+            208.3
+           ],
+           [
+            769.0,
+            208.3
+           ],
+           [
+            876.0,
+            208.3
+           ],
+           [
+            984.9,
+            208.3
+           ],
+           [
+            1093.7,
+            208.3
+           ]
+          ],
+          [
+           [
+            444.3,
+            349.5
+           ],
+           [
+            551.3,
+            349.5
+           ],
+           [
+            660.1,
+            349.5
+           ],
+           [
+            769.0,
+            349.5
+           ],
+           [
+            876.0,
+            349.5
+           ],
+           [
+            984.9,
+            349.5
+           ],
+           [
+            1093.7,
+            349.5
+           ]
+          ],
+          [
+           [
+            444.3,
+            490.7
+           ],
+           [
+            551.3,
+            490.7
+           ],
+           [
+            660.1,
+            490.7
+           ],
+           [
+            769.0,
+            490.7
+           ],
+           [
+            876.0,
+            490.7
+           ],
+           [
+            984.9,
+            490.7
+           ],
+           [
+            1093.7,
+            490.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#b01010",
+         "corners": [
+          [
+           400,
+           168
+          ],
+          [
+           1138,
+           168
+          ],
+          [
+           1138,
+           531
+          ],
+          [
+           400,
+           531
+          ]
+         ],
+         "band": [
+          0.1,
+          0.9
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "ये कहानी रेलवे के सिग्नल नियमों, आरडीएसओ के कवच दस्तावेज़ों और रेल मंत्रालय की जानकारी पर टिकी है।",
@@ -76,9 +202,10 @@
     {
      "vo": "कहानी में आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे रिसर्च, स्क्रिप्ट, आवाज़ और एडिटिंग, सब में बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है, तो चैनल सब्सक्राइब ज़रूर करें। चलिए, शुरू करते हैं।",
      "subscribe_ask": true,
-     "prompt": "a storyteller's desk at night: handwritten script pages, a studio microphone with headphones, a laptop glowing with a video-editing timeline, warm lamp light, cosy and calm, every page and screen without readable text, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A storyteller's wooden desk at night with handwritten script pages, a studio microphone with headphones, and a laptop glowing with a video-editing timeline, plain blank wall behind, warm lamp light, every page and screen free of writing, close shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "move": "push"
+     "move": "push",
+     "seed": 8926
     }
    ]
   },
@@ -150,13 +277,140 @@
      "vo": "दो स्टेशनों के बीच के ब्लॉक में एक समय पर एक ही ट्रेन। यही पहला नियम है।",
      "prompt": "A single passenger train travelling alone on a straight track between two small stations, empty track visible ahead and behind it, a station nameboard reading \"ITARSI\" large, flat and facing the camera at the far station, golden light, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "12": {
+       "src": "ee96a379eea8",
+       "items": [
+        {
+         "text": "ITARSI",
+         "grid": [
+          [
+           [
+            587.4,
+            54.6
+           ],
+           [
+            648.9,
+            49.7
+           ],
+           [
+            711.5,
+            46.0
+           ],
+           [
+            774.0,
+            43.7
+           ],
+           [
+            835.5,
+            42.8
+           ],
+           [
+            898.0,
+            43.2
+           ],
+           [
+            960.6,
+            45.0
+           ]
+          ],
+          [
+           [
+            587.4,
+            73.3
+           ],
+           [
+            648.9,
+            74.2
+           ],
+           [
+            711.5,
+            75.0
+           ],
+           [
+            774.0,
+            75.4
+           ],
+           [
+            835.5,
+            75.7
+           ],
+           [
+            898.0,
+            75.7
+           ],
+           [
+            960.6,
+            75.4
+           ]
+          ],
+          [
+           [
+            587.4,
+            92.0
+           ],
+           [
+            648.9,
+            98.8
+           ],
+           [
+            711.5,
+            103.9
+           ],
+           [
+            774.0,
+            107.1
+           ],
+           [
+            835.5,
+            108.5
+           ],
+           [
+            898.0,
+            108.1
+           ],
+           [
+            960.6,
+            105.9
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#f2e6c0",
+         "corners": [
+          [
+           562,
+           29
+          ],
+          [
+           986,
+           29
+          ],
+          [
+           986,
+           132
+          ],
+          [
+           562,
+           132
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "ट्रेन भेजने से पहले स्टेशन मास्टर अगले स्टेशन से पूछता है: लाइन क्लियर है क्या?",
-     "prompt": "An Indian station master in a white shirt and dark cap, seen from the side, speaking into an old black telephone at a wooden desk in a small station office, a wooden block instrument with brass handles beside him, warm lamp light, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An Indian station master in a white shirt and dark cap, seen from the side, speaking into an old black telephone at a wooden desk, a wooden block instrument with brass handles beside him, he is the only person in the room, plain blank wall behind, warm lamp light, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8932
     },
     {
      "vo": "जब तक अगला स्टेशन हाँ नहीं कहता, सिग्नल लाल रहता है और ट्रेन प्लेटफ़ॉर्म पर खड़ी रहती है।",
@@ -256,9 +510,10 @@
     },
     {
      "vo": "इतने तालों के बाद भी सिग्नल की एक कमज़ोरी थी। उसे देखना और मानना ड्राइवर के हाथ में था। लेकिन तभी...",
-     "prompt": "A tired loco pilot in the cab at night seen from the side, eyes narrowed, looking ahead through a rain-streaked windscreen where a red signal glows as a soft blur, dim light, sharp focus on his face, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A tired loco pilot in the cab at night seen from the side, eyes narrowed, looking ahead through a clean rain-streaked windscreen where a red signal glows as a soft blur, dim light, glass and panels plain and free of writing, sharp focus on his face, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8948
     },
     {
      "vo": "अगर ये कहानी अब तक आपको पसंद आ रही है, तो चैनल सब्सक्राइब ज़रूर करें।",
@@ -300,9 +555,10 @@
     },
     {
      "vo": "नब्बे के दशक के आख़िर में कोंकण रेलवे ने टक्कर रोकने वाला एक उपकरण आज़माया। उसका नाम रक्षा कवच था।",
-     "prompt": "A diesel locomotive pulling a train out of a tunnel mouth along a railway line cut through green hills with coconut trees, the engine seen from the front three-quarter view, misty monsoon light, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A modern blue-and-white diesel locomotive pulling a passenger train out of a tunnel mouth along a railway line cut through green hills with coconut trees, the engine seen from the front three-quarter view, no steam and no smoke, misty monsoon light, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8954
     },
     {
      "vo": "रक्षा कवच देशभर में नहीं फैल सका।",
@@ -324,9 +580,136 @@
     },
     {
      "vo": "कवच का मतलब है ढाल। इसका काम सीधा है: ड्राइवर चूके, तो ट्रेन ख़ुद सँभाल ले।",
-     "prompt": "A technician holding a large blue signboard reading \"KAVACH\" flat and facing the camera, standing beside the blue front of a locomotive at a depot, sunny morning, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A technician holding a large white signboard with bold black letters reading \"KAVACH\" flat and facing the camera, standing beside the blue front of a diesel locomotive at a depot, sunny morning, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "39": {
+       "src": "3f35ea42ee0b",
+       "items": [
+        {
+         "text": "KAVACH",
+         "grid": [
+          [
+           [
+            433.3,
+            458.9
+           ],
+           [
+            546.5,
+            483.7
+           ],
+           [
+            664.4,
+            498.9
+           ],
+           [
+            785.1,
+            503.7
+           ],
+           [
+            906.4,
+            497.9
+           ],
+           [
+            1032.2,
+            480.9
+           ],
+           [
+            1160.6,
+            452.4
+           ]
+          ],
+          [
+           [
+            432.8,
+            507.2
+           ],
+           [
+            546.1,
+            549.0
+           ],
+           [
+            664.4,
+            575.4
+           ],
+           [
+            785.5,
+            584.7
+           ],
+           [
+            907.1,
+            576.8
+           ],
+           [
+            1033.3,
+            550.7
+           ],
+           [
+            1161.7,
+            506.0
+           ]
+          ],
+          [
+           [
+            432.3,
+            555.7
+           ],
+           [
+            545.8,
+            614.7
+           ],
+           [
+            664.4,
+            652.3
+           ],
+           [
+            785.9,
+            666.3
+           ],
+           [
+            907.9,
+            656.2
+           ],
+           [
+            1034.4,
+            621.0
+           ],
+           [
+            1162.8,
+            559.9
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#ffffff",
+         "corners": [
+          [
+           388,
+           384
+          ],
+          [
+           1212,
+           371
+          ],
+          [
+           1222,
+           809
+          ],
+          [
+           383,
+           790
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8958
     },
     {
      "vo": "पटरियों के बीच थोड़ी-थोड़ी दूरी पर छोटे आरएफ़आईडी टैग लगे होते हैं। हर टैग बताता है कि ये पटरी पर कौन-सी जगह है।",
@@ -372,9 +755,10 @@
     },
     {
      "vo": "जब ड्राइवर ने कुछ नहीं किया, तो ब्रेक अपने आप लग गए। इंजन रुकता गया।",
-     "prompt": "A locomotive seen exactly from its left side braking hard on the track, dust rising from its wheels, another engine standing far ahead on the right, bright morning light, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A modern blue diesel locomotive seen exactly from its left side braking hard on the track, dust rising from its wheels, another modern engine standing far ahead on the right, bright morning light, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8965
     },
     {
      "vo": "तीन सौ अस्सी मीटर।",
@@ -458,8 +842,8 @@
     {
      "vo": "और अगर आपने अभी तक सब्सक्राइब नहीं किया, तो अभी कर लीजिए, ये बिल्कुल फ़्री है।",
      "subscribe_mid": true,
-     "prompt": "A loco pilot's hand hovering over the brake handle in a dark cab at night, a red warning glowing on the display unit, the track rushing toward the windscreen, seen from the side, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "seed": 1700,
+     "prompt": "A smiling Indian loco pilot in a blue uniform in a diesel cab at night, one finger pointing at the camera, a single red light glowing on the plain display unit beside him, seen from the side, warm dim light, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "seed": 9619,
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "move": "pan_left"
     }
@@ -499,20 +883,398 @@
      "prompt": "The rear of the last coach of a long train standing at a platform, a large white painted \"X\" on a flat dark panel facing the camera, a red tail lamp below it, bright light, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अब वो निशान, जिसका वादा किया था। हर ट्रेन के आख़िरी डिब्बे के पीछे सफ़ेद या पीले रंग का बड़ा X बना होता है।"
+     "caption": "अब वो निशान, जिसका वादा किया था। हर ट्रेन के आख़िरी डिब्बे के पीछे सफ़ेद या पीले रंग का बड़ा X बना होता है।",
+     "words": {
+      "60": {
+       "src": "e2710e89de85",
+       "items": [
+        {
+         "text": "X",
+         "grid": [
+          [
+           [
+            547.6,
+            270.3
+           ],
+           [
+            626.5,
+            270.6
+           ],
+           [
+            706.8,
+            270.7
+           ],
+           [
+            787.0,
+            270.6
+           ],
+           [
+            865.9,
+            270.4
+           ],
+           [
+            946.1,
+            270.0
+           ],
+           [
+            1026.4,
+            269.5
+           ]
+          ],
+          [
+           [
+            547.6,
+            408.6
+           ],
+           [
+            626.5,
+            408.7
+           ],
+           [
+            706.8,
+            408.7
+           ],
+           [
+            787.0,
+            408.7
+           ],
+           [
+            865.9,
+            408.6
+           ],
+           [
+            946.1,
+            408.4
+           ],
+           [
+            1026.4,
+            408.1
+           ]
+          ],
+          [
+           [
+            547.6,
+            546.8
+           ],
+           [
+            626.5,
+            546.8
+           ],
+           [
+            706.8,
+            546.8
+           ],
+           [
+            787.0,
+            546.8
+           ],
+           [
+            865.9,
+            546.8
+           ],
+           [
+            946.1,
+            546.7
+           ],
+           [
+            1026.4,
+            546.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#b01010",
+         "corners": [
+          [
+           515,
+           232
+          ],
+          [
+           1059,
+           232
+          ],
+          [
+           1059,
+           588
+          ],
+          [
+           515,
+           588
+          ]
+         ],
+         "band": [
+          0.1,
+          0.9
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "इसे एलवी बोर्ड भी कहते हैं, यानी लास्ट वेहिकल। रात में वहाँ लाल बत्ती जलती है।",
      "prompt": "Night view of the back of the last coach, a red lamp glowing and a flat board with a white painted \"LV\" facing the camera beside it, dark track behind, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "61": {
+       "src": "0d2247aede92",
+       "items": [
+        {
+         "text": "LV",
+         "grid": [
+          [
+           [
+            413.9,
+            399.4
+           ],
+           [
+            512.7,
+            399.4
+           ],
+           [
+            613.2,
+            399.4
+           ],
+           [
+            713.7,
+            399.4
+           ],
+           [
+            812.5,
+            399.4
+           ],
+           [
+            912.9,
+            399.4
+           ],
+           [
+            1013.4,
+            399.4
+           ]
+          ],
+          [
+           [
+            411.4,
+            546.8
+           ],
+           [
+            511.4,
+            546.8
+           ],
+           [
+            613.1,
+            546.8
+           ],
+           [
+            714.7,
+            546.8
+           ],
+           [
+            814.7,
+            546.8
+           ],
+           [
+            916.3,
+            546.8
+           ],
+           [
+            1018.0,
+            546.8
+           ]
+          ],
+          [
+           [
+            408.9,
+            697.7
+           ],
+           [
+            510.0,
+            697.7
+           ],
+           [
+            612.9,
+            697.7
+           ],
+           [
+            715.8,
+            697.7
+           ],
+           [
+            816.9,
+            697.7
+           ],
+           [
+            919.8,
+            697.7
+           ],
+           [
+            1022.7,
+            697.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           375,
+           303
+          ],
+          [
+           1051,
+           303
+          ],
+          [
+           1068,
+           800
+          ],
+          [
+           365,
+           800
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "स्टेशन मास्टर हर ट्रेन के गुज़रते वक़्त आख़िरी डिब्बे पर यही एक्स ढूँढता है। एक्स दिखा, तो पूरी ट्रेन निकल गई।",
      "prompt": "A station master in uniform standing at the platform edge, seen from the side, watching the last coach of a train go past, a large white painted \"X\" on a flat panel on its back facing the camera, a green flag in his hand, golden light, sharp focus, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "स्टेशन मास्टर हर ट्रेन के गुज़रते वक़्त आख़िरी डिब्बे पर यही X ढूँढता है। X दिखा, तो पूरी ट्रेन निकल गई।"
+     "caption": "स्टेशन मास्टर हर ट्रेन के गुज़रते वक़्त आख़िरी डिब्बे पर यही X ढूँढता है। X दिखा, तो पूरी ट्रेन निकल गई।",
+     "words": {
+      "62": {
+       "src": "e14ec8f1b393",
+       "items": [
+        {
+         "text": "X",
+         "grid": [
+          [
+           [
+            533.0,
+            295.7
+           ],
+           [
+            637.0,
+            302.0
+           ],
+           [
+            742.7,
+            306.9
+           ],
+           [
+            848.5,
+            310.4
+           ],
+           [
+            952.5,
+            312.5
+           ],
+           [
+            1058.2,
+            313.2
+           ],
+           [
+            1164.0,
+            312.5
+           ]
+          ],
+          [
+           [
+            533.0,
+            485.9
+           ],
+           [
+            637.0,
+            489.4
+           ],
+           [
+            742.7,
+            492.1
+           ],
+           [
+            848.5,
+            494.1
+           ],
+           [
+            952.5,
+            495.3
+           ],
+           [
+            1058.2,
+            495.6
+           ],
+           [
+            1164.0,
+            495.2
+           ]
+          ],
+          [
+           [
+            533.0,
+            676.1
+           ],
+           [
+            637.0,
+            676.8
+           ],
+           [
+            742.7,
+            677.4
+           ],
+           [
+            848.5,
+            677.8
+           ],
+           [
+            952.5,
+            678.0
+           ],
+           [
+            1058.2,
+            678.1
+           ],
+           [
+            1164.0,
+            678.0
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#b01010",
+         "corners": [
+          [
+           490,
+           255
+          ],
+          [
+           1207,
+           255
+          ],
+          [
+           1207,
+           736
+          ],
+          [
+           490,
+           736
+          ]
+         ],
+         "band": [
+          0.1,
+          0.9
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "और कोई डिब्बा पीछे छूट गया हो, तो एक्स ग़ायब दिखेगा। तब वो सेक्शन को ख़ाली नहीं मानता, और अगले स्टेशन को फ़ौरन ख़बर करता है।",
@@ -523,9 +1285,136 @@
     },
     {
      "vo": "एक छोटा-सा निशान, और हर ट्रेन की पूरी गिनती सही। यही तसल्ली पटरी को सुरक्षित रखती है।",
-     "prompt": "The last coach of a train with a large white painted \"X\" on a flat panel facing the camera, receding along a straight track into a glowing sunset, peaceful warm light, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "The last coach of a train seen from directly behind, a large white painted \"X\" on a flat dark panel on its rear facing the camera, receding along a straight track into a glowing sunset, peaceful warm light, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "64": {
+       "src": "efbac2d91730",
+       "items": [
+        {
+         "text": "X",
+         "grid": [
+          [
+           [
+            706.0,
+            345.2
+           ],
+           [
+            785.3,
+            365.0
+           ],
+           [
+            851.8,
+            381.5
+           ],
+           [
+            907.4,
+            395.2
+           ],
+           [
+            953.9,
+            406.5
+           ],
+           [
+            994.6,
+            416.4
+           ],
+           [
+            1029.9,
+            424.8
+           ]
+          ],
+          [
+           [
+            706.0,
+            480.8
+           ],
+           [
+            785.3,
+            486.7
+           ],
+           [
+            851.8,
+            491.6
+           ],
+           [
+            907.4,
+            495.6
+           ],
+           [
+            953.9,
+            498.9
+           ],
+           [
+            994.6,
+            501.7
+           ],
+           [
+            1029.9,
+            504.1
+           ]
+          ],
+          [
+           [
+            706.0,
+            616.4
+           ],
+           [
+            785.3,
+            608.4
+           ],
+           [
+            851.8,
+            601.6
+           ],
+           [
+            907.4,
+            596.0
+           ],
+           [
+            953.9,
+            591.2
+           ],
+           [
+            994.6,
+            587.0
+           ],
+           [
+            1029.9,
+            583.4
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#b01010",
+         "corners": [
+          [
+           668,
+           302
+          ],
+          [
+           1043,
+           401
+          ],
+          [
+           1043,
+           602
+          ],
+          [
+           668,
+           657
+          ]
+         ],
+         "band": [
+          0.1,
+          0.9
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8983
     }
    ]
   },
@@ -564,5 +1453,43 @@
  },
  "framework": "2026-11-11 18:22",
  "released_at": "2026-11-11 18:22",
- "voice_requested": "voice-gk-23-indian-railways-signals-93a91f531d"
+ "voice_requested": "voice-gk-23-indian-railways-signals-93a91f531d",
+ "repaint": {
+  "shots": [
+   7,
+   13,
+   29,
+   35,
+   39,
+   46,
+   55,
+   64
+  ],
+  "thumbs": [],
+  "at": "2026-11-11 19:21"
+ },
+ "shot_qc": {
+  "checked": "2026-11-11T13:49:49Z",
+  "rounds": 1,
+  "why": {
+   "7": "A map is painted on the wall behind the desk, which the map rule fails.",
+   "13": "A second head or face appears behind the station master, which looks like a duplicated figure. A map is also on the wall.",
+   "29": "The windscreen shows painted gibberish lettering.",
+   "35": "The engine is a steam locomotive with smoke, but the line names a diesel locomotive on the Konkan line.",
+   "39": "The KAVACH text is faint and blends into the blue board, so it can't be read.",
+   "46": "The engine is an old steam locomotive, which doesn't fit the modern Telangana test the line describes.",
+   "55": "The cab display shows a map with lettering, which the map rule fails.",
+   "64": "The X is painted on the side of the coach and the rear panel is blank, but the line puts the X behind the last coach."
+  },
+  "recheck": [
+   "7",
+   "13",
+   "29",
+   "35",
+   "39",
+   "46",
+   "55",
+   "64"
+  ]
+ }
 }
