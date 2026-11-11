@@ -67,7 +67,7 @@ def main(script_path, out_dir, part=0, parts=1):
     pipe.enable_vae_slicing()
     style, neg = BRAND["art_style"], BRAND["art_negative"]
     style = script.get("art_style") or style  # a series' own look (DK ranking / Kalyug, 2 Nov 2026)
-    th = script.get("thumbnail") or {}
+    th = {} if BRAND.get("thumb_by_owner") else (script.get("thumbnail") or {})  # ChatGPT makes it (11 Nov 2026)
     # SDXL has two text encoders (77 tokens each). The second (OpenCLIP bigG) also gives the pooled
     # embedding that sets the overall composition, so it must carry the SUBJECT too: subject alone on the
     # first, subject + brand style on the second (style-only there drew generic hangar scenes, seen on

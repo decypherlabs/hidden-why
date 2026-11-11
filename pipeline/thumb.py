@@ -22,6 +22,13 @@ sys.path.insert(0, str(ROOT / "pipeline"))
 W, H = 1280, 720
 
 
+def plane(out):
+    """The thumbnail painting, or, for a channel whose thumbnails come from ChatGPT (brand "thumb_by_owner"), the
+    episode's first painting: a stand-in thumb.jpg the owner's image replaces (11 Nov 2026)."""
+    p = out / "thumb-plane.png"
+    return p if p.exists() else next(iter(sorted(out.glob("shot-*.png"))), p)
+
+
 def cover(img, w, h):
     s = max(w / img.width, h / img.height)
     img = img.resize((round(img.width * s), round(img.height * s)), Image.LANCZOS)
@@ -45,7 +52,7 @@ def ll_layout(script, out):
     ("trend"); the small crest in a corner."""
     from PIL import ImageFilter
     th = script["thumbnail"]
-    img = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
+    img = cover(Image.open(plane(out)).convert("RGB"), W, H)
     shade = Image.new("L", (W, H))
     sd = ImageDraw.Draw(shade)
     for x in range(W):
@@ -108,7 +115,7 @@ def epic_layout(script, out):
     heavy dark outline (the *starred* word in fire orange). No inset bubble."""
     from PIL import ImageFilter
     th = script["thumbnail"]
-    img = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
+    img = cover(Image.open(plane(out)).convert("RGB"), W, H)
     shade = Image.new("L", (W, H))
     sd = ImageDraw.Draw(shade)
     for x in range(W):  # the right ~45% darkens for the words; the hero on the left stays bright
@@ -172,7 +179,7 @@ def epic_layout(script, out):
 
 def face_layout(script, out):
     th = script["thumbnail"]
-    img = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
+    img = cover(Image.open(plane(out)).convert("RGB"), W, H)
     shade = Image.new("L", (W, H))
     sd = ImageDraw.Draw(shade)
     for y in range(H):  # darken the top for the words
@@ -215,7 +222,7 @@ def split_layout(script, out):
     "left_label"/"right_label" in big caps at the top of each half; with "text" the headline runs across the top
     instead and the labels sit on plaques at the bottom."""
     th = script["thumbnail"]
-    left = Image.open(out / "thumb-plane.png").convert("RGB")
+    left = Image.open(plane(out)).convert("RGB")
     right = Image.open(out / "thumb-right.png").convert("RGB") if (out / "thumb-right.png").exists() else left
     img = Image.new("RGB", (W, H), K.INK)
     img.paste(cover(left, W // 2, H), (0, 0))
@@ -432,7 +439,7 @@ def main(script_path, out_dir):
         return face_layout(script, out)
     if (script.get("thumbnail") or {}).get("layout") == "split":
         return split_layout(script, out)
-    plane = cover(Image.open(out / "thumb-plane.png").convert("RGB"), W, H)
+    plane = cover(Image.open(plane(out)).convert("RGB"), W, H)
     img = plane.copy()
     # darken the left for the words
     shade = Image.new("L", (W, H))
