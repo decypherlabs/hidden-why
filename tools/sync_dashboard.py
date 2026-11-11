@@ -230,6 +230,13 @@ def import_episode(slug, src, day, status="done"):
         # (29 Oct: rebuilds kept the old file, so QC held the same stale video every run)
         (pdir / "archive").mkdir(exist_ok=True)
         os.replace(mp4, pdir / "archive" / f"{stem}.{int(mp4.stat().st_mtime)}.mp4")
+    if not short:  # a long-form retitled since its last build gets a new name: the old render goes too (11 Nov 2026,
+        for old_mp4 in old:  # Maggi's two versions sat side by side, the old one still "held by QC")
+            if old_mp4 != mp4 and not old_mp4.name.endswith(".preview.mp4") and old_mp4.exists():
+                (pdir / "archive").mkdir(exist_ok=True)
+                t = int(old_mp4.stat().st_mtime)
+                for side in pdir.joinpath(sub).glob(f"{old_mp4.stem}.*"):
+                    os.replace(side, pdir / "archive" / f"{old_mp4.stem}.{t}{side.name[len(old_mp4.stem):]}")
     if not mp4.exists():
         os.link(src / "video.mp4", mp4)  # hard link: no second copy of a big file
     chap = (src / "chapters.txt").read_text().strip() if (src / "chapters.txt").exists() else ""
