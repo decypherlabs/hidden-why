@@ -57,9 +57,10 @@
     },
     {
      "vo": "ये कथा महाभारत के आदि पर्व और उद्योग पर्व से ली गई है।",
-     "prompt": "An old palm-leaf manuscript lying open on a wooden table beside a lit brass oil lamp, the leaves covered in plain dark lines, large in frame, warm lamp light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Two old bound palm-leaf manuscript bundles tied with cord lying on a wooden table beside a lit brass oil lamp, the leaves plain, blank and unmarked, large in frame, warm lamp light, close-up",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8923
     },
     {
      "vo": "पहले वरदान, फिर नदी, फिर वो दिन जब कर्ण को सच पता चला, और फिर वो वचन।",
@@ -366,9 +367,10 @@
     },
     {
      "vo": "कुंती ने कर्ण को गले लगा लिया। इतने सालों बाद, माँ ने बेटे को छुआ।",
-     "prompt": "A middle-aged woman in a plain white sari embracing a bronze-skinned warrior with long black hair and gold earrings, both with tears on their cheeks, on the Ganga bank, soft golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "A tall broad-shouldered man with bronze skin, short stubble, long black hair, gold armour and gold earrings embracing a middle-aged woman in a plain white sari, her arms around his back, both with tears on their cheeks, Ganga bank, soft golden light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8969
     },
     {
      "vo": "ये वचन सुनकर आँखें भर आई हों, तो जय श्री कृष्ण लिखकर लाइक कीजिए।",
@@ -432,5 +434,25 @@
  "released_at": "2026-11-11 09:31",
  "voice_requested": "voice-dk-234-karna-kunti-nadi-c03987abca",
  "voice_ok": "voice-dk-234-karna-kunti-nadi-c03987abca",
- "voice_approved_at": "2026-11-11 10:15"
+ "voice_approved_at": "2026-11-11 10:15",
+ "repaint": {
+  "shots": [
+   4,
+   50
+  ],
+  "thumbs": [],
+  "at": "2026-11-11 10:25"
+ },
+ "shot_qc": {
+  "checked": "2026-11-11T04:53:50Z",
+  "rounds": 1,
+  "why": {
+   "4": "The book has script painted on its pages. Text isn't allowed, and the tile doesn't show the line, which is about the source parvas.",
+   "50": "Kunti hugging Karna: the second figure looks like a woman with a bindi and long hair, so Karna isn't clearly shown."
+  },
+  "recheck": [
+   "4",
+   "50"
+  ]
+ }
 }
