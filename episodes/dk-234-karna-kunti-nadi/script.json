@@ -1,0 +1,432 @@
+{
+ "slug": "dk-234-karna-kunti-nadi",
+ "format": "long",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "कर्ण को कुंती ने जन्म लेते ही नदी में क्यों बहाया? 🌊",
+ "thumbnail": {
+  "layout": "epic",
+  "text": "कुंती ने *कर्ण* को बहाया",
+  "plane": "Young Queen Kunti, in a simple white and saffron sari, kneeling LARGE in the left half at a moonlit river bank, tears on her face, hands trembling as she lets go of a small waxed reed basket. In the basket a newborn baby glows with a golden armour and gold earrings. The right half shows the dark wide river under a huge pale moon, mist, and the basket drifting into the distance on silver water, dark high-contrast cinematic light, realistic painting, no text"
+ },
+ "music": {
+  "suspense": [
+   "cold_open",
+   "ch4"
+  ],
+  "devotional": [
+   "ch1",
+   "ch5",
+   "outro"
+  ],
+  "emotional": [
+   "ch2"
+  ],
+  "epic": [
+   "ch3"
+  ]
+ },
+ "source": "महाभारत, आदि पर्व (कुंती को दुर्वासा का मंत्र, कर्ण का जन्म) और उद्योग पर्व (कृष्ण-कर्ण संवाद, कुंती-कर्ण संवाद)",
+ "journey_score": 8,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "महाभारत का सबसे बड़ा योद्धा, एक माँ का छोड़ा हुआ बच्चा था। कुंती ने ऐसा क्यों किया?",
+     "prompt": "A tiny newborn baby in a golden armour breastplate and gold earrings lying in a wicker basket floating on a wide river at sunrise, the basket large in the centre, a distant young woman in a saffron sari watching from the shore, ancient India, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कर्ण सूत का बेटा नहीं था। वो पांडवों का सबसे बड़ा भाई था।",
+     "prompt": "A bronze-skinned warrior with long black hair, gold armour and gold earrings, holding a bow, standing large on the left of a battlefield at sunset, five young princes in plain royal clothes standing together small and far off on the right, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और आख़िर में, वो एक वचन जो कर्ण ने अपनी माँ को दिया। उसी ने कुंती के पाँच बेटों को बचा लिया।",
+     "prompt": "A bronze-skinned warrior with long black hair, gold armour and gold earrings, folding his hands before a middle-aged woman with grey streaks in black hair and a plain white sari, on a river bank, both facing each other, golden noon sun, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये कथा महाभारत के आदि पर्व और उद्योग पर्व से ली गई है।",
+     "prompt": "An old palm-leaf manuscript lying open on a wooden table beside a lit brass oil lamp, the leaves covered in plain dark lines, large in frame, warm lamp light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पहले वरदान, फिर नदी, फिर वो दिन जब कर्ण को सच पता चला, और फिर वो वचन।",
+     "prompt": "A long river flowing from a palace on the left bank to an army camp with tents and war chariots on the right bank, golden dusk light on the water, sharp focus, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कहानी में आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे रिसर्च, स्क्रिप्ट, आवाज़ और एडिटिंग, सब में बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है। चलिए, शुरू करते हैं।",
+     "subscribe_ask": true,
+     "prompt": "A long river flowing from a palace on the left bank to an army camp with tents and war chariots on the right bank, golden dusk light on the water, sharp focus, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "move": "push"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "वरदान",
+   "shots": [
+    {
+     "vo": "बहुत पहले की बात है। राजा कुंतिभोज की गोद ली हुई बेटी थी, कुंती।",
+     "prompt": "A young woman with fair skin, long black hair, saffron sari and gold necklace standing on the left beside an elderly king with a white beard, cream robes and gold crown on the right, a sunlit Indian palace courtyard with stone pillars, bright morning sun, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "एक दिन महल में क्रोधी ऋषि दुर्वासा आए। कुंती ने पूरे साल बिना थके उनकी सेवा की।",
+     "prompt": "An old sage with matted grey hair, rudraksha beads and orange robes seated on the right of a palace hall, a young woman with fair skin, long black hair and a saffron sari on the left handing him a brass vessel of water, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि प्रसन्न हुए। उन्होंने कुंती को एक दिव्य मंत्र दिया।",
+     "prompt": "An old sage with matted grey hair and orange robes raising his right hand in blessing over a young woman with fair skin, long black hair and a saffron sari who bows with folded hands, a soft golden glow between them, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इस मंत्र से वो जिस देवता को बुलाएँगी, उसी जैसा पुत्र उन्हें मिलेगा।",
+     "prompt": "A young woman with fair skin, long black hair and a saffron sari holding her folded hands forward, a small glowing golden ball of light floating above her palms with golden rays, quiet palace room, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुंती अभी कुँवारी थीं। उन्होंने बस मंत्र को परखने के लिए सूर्य देव को पुकारा।",
+     "prompt": "A young woman with fair skin, long black hair and a saffron sari standing on a palace terrace with both hands raised toward a huge rising sun, golden sky, bright dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आसमान में तेज़ रोशनी फैल गई। सूर्य देव उनके सामने खड़े थे।",
+     "prompt": "Lord Surya, a divinely beautiful radiant golden god with a crown of sun rays and orange dhoti, standing on the right before a young woman in a saffron sari on the left, blinding golden light on the palace terrace, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुंती डर गईं। बोलीं, मैं तो बस देखना चाहती थी। सूर्य बोले, मंत्र कभी ख़ाली नहीं जाता।",
+     "prompt": "A young woman with fair skin, long black hair and a saffron sari stepping back with raised hands and a frightened face on the left, Lord Surya, a divinely beautiful golden god with a crown of sun rays, calm on the right, palace terrace, golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सूर्य के आशीर्वाद से बालक जन्मा। सोने का कवच पहने, कानों में कुंडल।",
+     "prompt": "A young woman with fair skin, long black hair and a saffron sari holding a newborn baby wearing a golden armour breastplate and gold earrings, a soft golden halo around the baby, a palace chamber with a lit oil lamp, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लेकिन तभी कुंती के सामने सबसे बड़ा सवाल खड़ा हो गया।",
+     "prompt": "A young woman with fair skin, long black hair and a saffron sari sitting alone with a worried face, holding a baby in golden armour, in a dim palace chamber with tall pillars throwing long shadows, one lit oil lamp, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "नदी की रात",
+   "shots": [
+    {
+     "vo": "कुंती जानती थीं, कुँवारी माँ को समाज कभी माफ़ नहीं करेगा।",
+     "prompt": "A young woman with fair skin, long black hair and a saffron sari sitting on the chamber floor holding a baby in golden armour, long dark silhouettes of whispering courtiers on the wall behind her, oil lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पिता की इज़्ज़त जाएगी। पूरे परिवार का नाम मिट्टी में मिल जाएगा।",
+     "prompt": "An elderly king with a white beard, cream robes and gold crown seated on a throne with his head bowed in shame, courtiers standing silent around him in a grand Indian palace court, bright daylight from tall windows, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बहुत रोकर, काँपते दिल से, उन्होंने एक कठिन फ़ैसला लिया।",
+     "prompt": "A young woman with fair skin, long black hair and a saffron sari weeping with both hands pressed to her face, a baby in golden armour sleeping on a cloth in front of her, dim palace chamber, oil lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "एक टोकरी में मोम लगाया, और उसमें नरम बिस्तर बिछाया।",
+     "prompt": "Two hands pressing melted wax into a small reed basket, a soft folded cloth bed beside it, a young woman in a saffron sari on the left and an old nurse in a plain grey sari on the right, oil lamp light, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रात गहरी हुई। कुंती चुपचाप अश्व नदी के किनारे पहुँचीं।",
+     "prompt": "A young woman with fair skin, long black hair and a saffron sari carrying a covered reed basket, walking alone down to a river bank among tall reeds, full moon, light mist, clear night light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बेटे को आख़िरी बार देखा, और बोलीं, मुझे माफ़ करना। फिर सूर्य देव से उसकी रक्षा माँगी।",
+     "prompt": "A young woman with fair skin, long black hair and a saffron sari kneeling at a river bank, tears on her cheeks, looking down at a baby in golden armour lying in a reed basket, her hands folded in prayer, bright moonlight, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर काँपते हाथों से उन्होंने टोकरी को पानी में छोड़ दिया।",
+     "prompt": "A waxed reed basket holding a baby in golden armour floating away on dark silver water, large in the centre, a young woman in a saffron sari on the river bank with her hand stretched out, huge pale moon, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुंती सही थीं या ग़लत? कमेंट में लिखिए, ए: समाज का डर था। बी: माँ को रुकना चाहिए था।",
+     "prompt": "A young woman with fair skin, long black hair and a saffron sari standing alone on a river bank at night, arms wrapped around herself, looking at a small reed basket drifting far away on the water, bright moonlight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "caption": "कुंती सही थीं या ग़लत? कमेंट में लिखिए, A: समाज का डर था। B: माँ को रुकना चाहिए था।"
+    },
+    {
+     "vo": "टोकरी अश्व से चर्मण्वती, फिर यमुना और गंगा तक बह गई। लेकिन तभी किसी की नज़र उस पर पड़ी।",
+     "prompt": "A reed basket drifting on the wide Ganga river at first light, large in the foreground, a distant man in a white dhoti on the bank pointing toward it, golden dawn mist, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "सूत का बेटा",
+   "shots": [
+    {
+     "vo": "गंगा किनारे सारथी अधिरथ ने वो टोकरी उठाई। भीतर सोने के कवच वाला बच्चा था।",
+     "prompt": "A humble middle-aged man with a short beard and plain white dhoti lifting a reed basket from the Ganga bank, looking down at a baby in golden armour inside it with wonder, bright dawn light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अधिरथ और उनकी पत्नी राधा के कोई संतान नहीं थी। उन्होंने उसे अपना बेटा मानकर पाला। नाम रखा, वसुषेण।",
+     "prompt": "A humble middle-aged man with a short beard and plain white dhoti standing on the right smiling, a kind woman in a plain green cotton sari on the left cradling a baby in golden armour with joy, a modest village home with a clay wall, warm morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बड़ा होकर वही बालक कर्ण कहलाया। धनुष चलाने में वो अर्जुन की बराबरी करने लगा।",
+     "prompt": "A teenage boy with bronze skin, long black hair, gold armour and gold earrings drawing a great bow, arrow aimed at a small target far away, a practice field at sunrise, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "हस्तिनापुर की रंगभूमि में अर्जुन ने अपना हुनर दिखाया। तभी कर्ण आगे आया।",
+     "prompt": "A grand royal arena packed with cheering crowds, a fair-skinned young archer in a white tunic holding a bow in the centre, a bronze-skinned warrior with long black hair, gold armour and gold earrings stepping forward from the right, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृपाचार्य ने पूछा, तुम किस वंश के हो? कर्ण का सिर झुक गया। सब उसे सूत-पुत्र कहने लगे।",
+     "prompt": "A bronze-skinned warrior with long black hair, gold armour and gold earrings standing on the right with his head bowed, an old man with a white beard and white robes facing him on the left, silhouettes of crowd in the arena behind, bright daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तब दुर्योधन ने उसी पल कर्ण को अंग देश का राजा बना दिया।",
+     "prompt": "A tall stern prince with a thick moustache, dark red royal robes and gold crown placing a gold crown on the head of a bronze-skinned warrior with long black hair and gold earrings, the prince on the left, the warrior on the right, silhouettes of cheering crowd, golden evening light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उस दिन से कर्ण दुर्योधन का सबसे पक्का दोस्त बन गया। साल बीतते गए।",
+     "prompt": "A tall stern prince with a thick moustache, dark red royal robes and gold crown standing on the left, beside a bronze-skinned warrior with long black hair, gold armour and gold earrings on the right, with a hand on his shoulder, on a palace balcony above the city at sunset, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अब महायुद्ध सिर पर था। शांति की आख़िरी कोशिश के बाद, कृष्ण ने कर्ण को अपने रथ में बिठाया।",
+     "prompt": "Lord Krishna, divinely beautiful, blue skin, peacock feather crown, yellow dhoti, driving a chariot with two white horses, a bronze-skinned warrior with long black hair and gold earrings seated beside him, a dusty road at dusk, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सच।",
+     "prompt": "Extreme close-up of the stunned face of a bronze-skinned warrior with long black hair, eyes wide open, mouth slightly open, gold earrings shining, golden dusk light, sharp focus, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण बोले, कर्ण, तुम सूत-पुत्र नहीं हो। तुम कुंती के पहले बेटे हो।",
+     "prompt": "Lord Krishna, divinely beautiful, blue skin, peacock feather crown, yellow dhoti, speaking gently on the left to a stunned bronze-skinned warrior with long black hair and gold earrings on the right, both in a chariot, evening sky, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पांडव तुम्हारे छोटे भाई हैं। साथ आओ, तो तुम राजा बनोगे। लेकिन कर्ण का जवाब कोई नहीं सोच सकता था।",
+     "prompt": "Lord Krishna, divinely beautiful, blue skin, peacock feather crown, yellow dhoti, with an open palm extended toward a bronze-skinned warrior with long black hair and gold earrings who looks down at the road, a chariot on a dusty road, long shadows, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "गंगा किनारे",
+   "shots": [
+    {
+     "vo": "कर्ण बोले, दुर्योधन ने मुझे तब मान दिया, जब सबने ठुकराया था। मैं उसका साथ नहीं छोड़ूँगा।",
+     "prompt": "A bronze-skinned warrior with long black hair and gold earrings standing firm beside a chariot at a crossroads at dusk, his chin raised, Lord Krishna, blue skin, peacock feather crown, small and sad on the left, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने कृष्ण से कहा, ये राज़ अभी युधिष्ठिर को मत बताइएगा।",
+     "prompt": "A bronze-skinned warrior with long black hair and gold earrings placing a hand on his chest and speaking quietly, Lord Krishna, blue skin, peacock feather crown, yellow dhoti, listening beside him, twilight sky with first stars, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर एक दिन कुंती ख़ुद कर्ण से मिलने गंगा किनारे पहुँचीं।",
+     "prompt": "A middle-aged woman with grey streaks in black hair and a plain white sari walking alone toward a sandy Ganga river bank, bright daylight, a distant man standing in the water, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कर्ण नदी में खड़े होकर, दोनों हाथ उठाए, सूरज की पूजा कर रहे थे।",
+     "prompt": "A bronze-skinned warrior with long black hair and gold earrings standing waist-deep in the Ganga river with both arms raised toward a blazing sun, eyes closed in prayer, bright noon light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुंती उनके पीछे खड़ी रहीं। तपती धूप में उनका शरीर जलता रहा।",
+     "prompt": "A middle-aged woman with grey streaks in black hair and a plain white sari standing on hot sunlit sand, covering her head with the end of her sari against the heat, a bronze-skinned man praying in the river far ahead of her, harsh noon sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पूजा पूरी हुई। कर्ण ने पीछे मुड़कर देखा, और ठिठक गए।",
+     "prompt": "A bronze-skinned warrior with long black hair and gold earrings turning around in the river, surprise on his face, a middle-aged woman in a plain white sari standing on the bank small behind him, golden noon light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुंती बोलीं, तुम मेरे सबसे बड़े बेटे हो। अपने भाइयों के पास लौट आओ।",
+     "prompt": "A middle-aged woman with grey streaks in black hair and a plain white sari with outstretched pleading hands, tears on her cheeks, facing a bronze-skinned warrior with long black hair and gold earrings on a river bank, golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कर्ण बोले, मैं राधा का बेटा हूँ, अधिरथ का पुत्र। कहिए, आपका क्या काम है?",
+     "prompt": "A bronze-skinned warrior with long black hair, gold armour and gold earrings standing tall and still with a hard face on the right, a weeping middle-aged woman in a plain white sari on the left, golden light on the river behind, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आपने मुझे जन्म लेते ही त्याग दिया। मुझे वो मान कभी नहीं मिला जो मेरा हक़ था।",
+     "prompt": "Close-up of a bronze-skinned warrior with long black hair and gold earrings, pain in his eyes, looking at a middle-aged woman in a plain white sari who covers her mouth with her hand in grief, golden sunlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये कथा किसी ऐसे अपने को भेजिए, जो कर्ण का दर्द समझता है। लेकिन तभी… कुंती की आँखों के आँसू देखकर कर्ण का मन पिघल गया।",
+     "prompt": "A bronze-skinned warrior with long black hair and gold earrings slowly lowering his head on the right, tears running down the cheeks of a middle-aged woman in a plain white sari on the left, the Ganga glimmering behind them, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "वचन",
+   "shots": [
+    {
+     "vo": "कर्ण बोले, माँ, आपका यहाँ आना ख़ाली नहीं जाएगा।",
+     "prompt": "A bronze-skinned warrior with long black hair and gold earrings folding his hands before a middle-aged woman in a plain white sari, speaking gently, soft golden light on the river bank, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मैं अर्जुन को छोड़कर आपके किसी बेटे को नहीं मारूँगा।",
+     "prompt": "A bronze-skinned warrior with long black hair, gold armour and gold earrings holding a great bow, looking toward a distant battlefield with chariots and tents at sunset, standing large in the centre, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "युधिष्ठिर, भीम, नकुल और सहदेव मेरे हाथ आ भी जाएँ, तो भी नहीं।",
+     "prompt": "A bronze-skinned warrior with long black hair and gold earrings lowering his great bow toward the ground, a calm resolved face, four distant young princes standing small on a hill behind him, sunset sky, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "या तो मैं मरूँगा, या अर्जुन। पर आपके पाँच बेटे फिर भी बचे रहेंगे।",
+     "prompt": "A bronze-skinned warrior with long black hair and gold earrings raising one hand in a solemn vow on the right, a middle-aged woman in a plain white sari listening on the left, golden hour light on the river bank, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुंती ने कर्ण को गले लगा लिया। इतने सालों बाद, माँ ने बेटे को छुआ।",
+     "prompt": "A middle-aged woman in a plain white sari embracing a bronze-skinned warrior with long black hair and gold earrings, both with tears on their cheeks, on the Ganga bank, soft golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये वचन सुनकर आँखें भर आई हों, तो जय श्री कृष्ण लिखकर लाइक कीजिए।",
+     "prompt": "A bronze-skinned warrior with long black hair and gold earrings standing close beside a middle-aged woman in a plain white sari on a river bank, the sun glowing low over the Ganga behind them, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुंती लौट गईं। कर्ण फिर सूरज को प्रणाम करने लगे। पर क्या वो अपना वचन निभा पाएँगे?",
+     "prompt": "A bronze-skinned warrior with long black hair and gold earrings alone on a river bank folding his hands toward the setting sun, a middle-aged woman in a plain white sari walking away small in the far distance, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "कुंती ने कर्ण को जन्म लेते ही नदी में बहाया, एक कुँवारी माँ के समाज के डर से। वो डर माँ के प्यार पर भारी पड़ गया था।",
+     "prompt": "A middle-aged woman with grey streaks in black hair and a plain white sari standing on a river bank at night, looking at the empty dark water where a basket drifted away, bright moonlight, sorrowful, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और कर्ण ने अपना वचन निभाया। युद्ध में चारों पांडव उसके सामने आए, और उसने उन्हें ज़िंदा छोड़ दिया।",
+     "prompt": "A bronze-skinned warrior with long black hair, gold armour and gold earrings on a war chariot lowering his bow on the right, a young fair-skinned prince in white clothes with a bow standing alone before him on the left, a battlefield at dusk, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कर्ण दुनिया में सबसे बड़ा दानवीर कहलाया, और माँ के लिए सबसे बड़ा बेटा।",
+     "prompt": "A bronze-skinned warrior's gold armour breastplate and gold earrings resting on a stone on a quiet river bank at sunset, large in the foreground, small floating oil lamps on the Ganga behind, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अगली कथा में जानिए, कर्ण ने अपने कवच और कुंडल इंद्र को कैसे दे दिए।",
+     "prompt": "An old Brahmin in simple robes with a walking staff, standing on the left before a bronze-skinned warrior with long black hair, gold armour and gold earrings on the right, at a river bank at dawn, bright morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कमेंट में जय श्री कृष्ण लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
+     "prompt": "Lord Krishna, divinely beautiful, blue skin, peacock feather crown, yellow dhoti, playing a flute on a Ganga river bank at sunset, golden light on the water, standing in the centre, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ],
+ "topic_demand": {
+  "median": 1280448,
+  "hits": 8,
+  "outliers": 6,
+  "q": "कर्ण कुंती का पुत्र रहस्य",
+  "matched": "6/10"
+ }
+}
