@@ -6,75 +6,96 @@
  "lang": "hi",
  "approved": true,
  "paint_hold": true,
- "review": "pending",
+ "review": "auto",
  "voice_review": true,
- "title": "श्रीकृष्ण युद्ध जानते हुए भी हस्तिनापुर शांतिदूत बनकर क्यों गए? 🙏",
+ "title": "श्रीकृष्ण युद्ध जानते हुए भी शांतिदूत बनकर हस्तिनापुर क्यों गए? 🙏",
  "thumbnail": {
   "layout": "epic",
-  "text": "दरबार में *विश्वरूप*",
-  "plane": "Lord Krishna, dark blue-skinned, yellow dhoti, peacock-feather crown, calm fierce eyes, standing LARGE in the left half of the frame glowing with golden divine light, one palm raised. The right half is the grand Hastinapur royal court at night: King Duryodhana in a golden crown recoiling in shock, guards with ropes frozen mid-step, huge torch flames and carved stone pillars. Dark high-contrast cinematic light, realistic painting, no text"
+  "text": "कृष्ण का *विश्वरूप*",
+  "plane": "Lord Krishna revealing his cosmic Vishvarupa form inside the grand Kuru court of Hastinapura, LARGE in the LEFT half, one serene dark blue face with calm divine resolve, peacock feather in his golden crown, yellow silk garments, countless glowing arms fanning out holding conch, discus, mace and bow, gods and blazing light radiating from his body; the right half filled with the vast pillared royal hall, crowned kings shielding their eyes and turning away, oil lamps and flames flaring, dark high-contrast cinematic light, golden rim light, realistic Indian epic painting, no text"
  },
  "music": {
   "suspense": [
    "cold_open",
-   "ch3"
-  ],
-  "emotional": [
-   "ch1",
-   "ch5"
-  ],
-  "devotional": [
-   "ch2",
-   "outro"
+   "ch3",
+   "ch8"
   ],
   "epic": [
-   "ch4"
+   "ch1",
+   "ch6"
+  ],
+  "emotional": [
+   "ch2",
+   "ch5",
+   "ch7",
+   "ch10"
+  ],
+  "devotional": [
+   "ch4",
+   "ch9",
+   "outro"
   ]
  },
- "source": "वेदव्यास, महाभारत, उद्योग पर्व: भगवद्-यान पर्व (कृष्ण का हस्तिनापुर गमन और दरबार) तथा कर्ण-कृष्ण संवाद",
- "journey_score": 7,
+ "source": "वेदव्यास कृत महाभारत, उद्योग पर्व: संजययान उपपर्व (पाँच गाँवों की माँग) और भगवद्यान उपपर्व (कृष्ण की यात्रा, विदुर का घर, कुरु सभा, विश्वरूप, कर्ण से संवाद)",
+ "journey_score": 8.6,
  "sections": [
   {
    "id": "cold_open",
    "card": null,
    "shots": [
     {
-     "vo": "कृष्ण को पता था कि शांति नहीं होगी, फिर भी वो हस्तिनापुर क्यों गए?",
-     "prompt": "Lord Krishna riding a chariot alone along a dusty road toward the tall stone gates of a distant city, blue skin, peacock feather crown, yellow dhoti, white horses, stormy red sky at dusk, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "कार्तिक के महीने में, कृष्ण का रथ हस्तिनापुर की ओर चल पड़ा।",
+     "prompt": "Lord Krishna standing in a golden chariot pulled by four white horses, driving toward a fortified city with tall walls in the distance, dusty road, golden autumn fields, soft dawn sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "कृष्ण ने युद्ध रोकने की आख़िरी कोशिश की, और उन्हें पहले से पता था कि वो हारेगी।",
-     "prompt": "Lord Krishna standing before enormous closed carved wooden palace doors, blue skin, peacock feather crown, yellow dhoti, calm sorrowful face, long shadow behind him on the stone floor, late afternoon light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "पांडवों ने पूरा राज्य नहीं माँगा था, सिर्फ़ पाँच गाँव।",
+     "prompt": "Five small Indian villages with thatched huts, each marked by a tall red flag, spread across green plains beside a river, a few villagers walking between them, bright morning sun, sharp focus, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "पांडवों ने पूरा राज्य नहीं माँगा था। सिर्फ़ पाँच गाँव। और आख़िर में, वो एक राज़ जो कृष्ण ने कर्ण के कान में कहा।",
-     "prompt": "A fair-skinned calm young king in plain white robes with a short black beard pointing at five small clay village models on a hand-drawn cloth map spread on a low wooden table, modest tent, soft dawn light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "और दुर्योधन ने कहा, सुई की नोक जितनी ज़मीन भी नहीं दूँगा।",
+     "prompt": "A proud young king with thick black moustache, gold armour and gold crown, standing in a pillared royal court, arm stretched out, one finger pointing down at the stone floor, refusing, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "यह कथा वेदव्यास के महाभारत, उद्योग पर्व से है, जहाँ पूरा दरबार एक-एक बात के साथ लिखा गया है।",
-     "prompt": "An ancient palm-leaf manuscript lying open on a carved wooden stand in the foreground, a glowing brass oil lamp beside it, an old sage with white beard and saffron robes writing, seated smaller behind, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "दुर्योधन ने कृष्ण को बंदी बनाने की साज़िश रची।",
+     "prompt": "A proud young king with thick black moustache, gold armour and gold crown, whispering to a thin old man with a pointed grey beard and dark robes, both behind a stone pillar in a dim palace corridor, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "चलिए, पांडवों के शिविर से विदुर के घर, और वहाँ से सीधे भरे दरबार तक चलते हैं।",
-     "prompt": "Lord Krishna in a golden chariot pulled by white horses, blue skin, peacock feather crown, a young warrior in silver armour beside him, leaving a camp of tents with banners along a long road toward a distant city, sunrise, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "कृष्ण भगवान थे। उन्हें पता था कि युद्ध होकर रहेगा।",
+     "prompt": "Lord Krishna standing calmly on a hill, gazing at a wide empty battlefield below where dark storm clouds gather, two armies as tiny silhouettes far away, dramatic overcast light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "कहानी में आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे रिसर्च, स्क्रिप्ट, आवाज़ और एडिटिंग, सब में बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है, तो चैनल सब्सक्राइब ज़रूर करें। चलिए, शुरू करते हैं।",
-     "subscribe_ask": true,
-     "prompt": "Lord Krishna in a golden chariot pulled by white horses, blue skin, peacock feather crown, a young warrior in silver armour beside him, leaving a camp of tents with banners along a long road toward a distant city, sunrise, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "seed": 1500,
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "move": "push"
+     "vo": "फिर भी वो शांति माँगने ख़ुद दुश्मन के घर क्यों गए?",
+     "prompt": "A single golden chariot with white horses arriving at the huge open gates of a walled Indian city, banners on the towers, guards standing at the gate, warm evening sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और लौटते समय, रथ पर उन्होंने कर्ण से एक राज़ कहा।",
+     "prompt": "Lord Krishna on the left and a tall warrior with long black hair, golden earrings and a red cloak on the right, sitting side by side in a moving chariot, Krishna leaning toward him to whisper, sunset light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और रथ पर कर्ण ने कृष्ण से एक वचन माँगा।",
+     "prompt": "A tall warrior with long black hair, golden earrings and a red cloak, holding out his open palm toward Lord Krishna in a chariot, asking for a promise, Krishna nodding, sunset light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यह कथा है महाभारत के उद्योग पर्व से।",
+     "prompt": "An old palm-leaf manuscript with neat rows of dark handwriting lying open on a wooden stand, a brass oil lamp burning beside it, warm lamp light, sharp focus, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     }
    ]
   },
@@ -83,62 +104,86 @@
    "card": "पाँच गाँव",
    "shots": [
     {
-     "vo": "तेरह साल का वनवास पूरा हो चुका था। पांडव उपप्लव्य नगर में रुके थे। अब आगे क्या होगा?",
-     "prompt": "Five men in simple clothes sitting in a row on mats before a modest tent in a plain stone-walled camp with small banners, small figures, soft golden morning mist, bright dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "बारह साल का वनवास और एक साल का अज्ञातवास पूरा हो चुका था।",
+     "prompt": "Five brothers in plain royal robes walking out of a forest onto an open plain, seen from the side, tired but smiling, tall trees behind them, bright sunrise, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "वादा था कि लौटने पर इंद्रप्रस्थ वापस मिलेगा। लेकिन दुर्योधन ने साफ़ मना कर दिया।",
-     "prompt": "A proud broad-shouldered king with a thick black moustache, gold crown, dark red and gold robes, sitting on a golden throne, shaking his head and pushing away a rolled cloth map with his hand, a thin grey-bearded man in dark robes far off at the side, torchlit court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "पांडव मत्स्य देश के उपप्लव्य नगर में ठहरे थे। चारों ओर उनकी सेना जुट रही थी.",
+     "prompt": "An army camp of many cloth tents, soldiers sharpening swords, war chariots and banners in rows, smoke rising from cooking fires, dusty golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "पांडवों के पास सात अक्षौहिणी सेना जुट चुकी थी। फिर भी युधिष्ठिर बोले, युद्ध में अपनों का ही ख़ून बहेगा।",
-     "prompt": "A fair-skinned calm young king in plain white robes with folded hands and a sad face, standing in front of a vast army camp of thousands of tents, elephants and spears with banners, sunset light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "शर्त के अनुसार, अब उन्हें अपना इंद्रप्रस्थ वापस मिलना था।",
+     "prompt": "The shining city of Indraprastha with white palaces, domes and green gardens on a river bank, seen from a distance, clear blue sky, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "उन्होंने पूरा राज्य नहीं माँगा। बस अविस्थल, वृकस्थल, माकंदी, वारणावत और एक पाँचवाँ गाँव। इतने में भी वे संतुष्ट हो जाते।",
-     "prompt": "Five small villages of thatched mud huts with smoke rising, each in its own green field, Indian villagers in simple clothes working and waving, golden hour sun, wide landscape shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "पर हस्तिनापुर से धृतराष्ट्र ने बस अपने मंत्री संजय को भेजा।",
+     "prompt": "A middle-aged man in a white turban and white shawl stepping down from a chariot in front of a large cloth tent, a few soldiers watching, bright daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "भीम ने भी नरमी से कहा, कौरवों से झगड़ा मत बढ़ाओ। इतना ग़ुस्से वाला भाई भी शांति माँग रहा था।",
-     "prompt": "A huge muscular bare-chested man with a thick moustache and a mace resting on the ground beside him, softened gentle face, speaking with open hand to a fair-skinned young king in white seated on a mat, inside a lamp-lit tent, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "संजय ने कहा, युद्ध मत कीजिए, युद्ध में सबका नाश है। पर राज्य लौटाने की बात उसने नहीं कही।",
+     "prompt": "A middle-aged man in a white turban and shawl standing on the left with folded hands, speaking to a calm fair-skinned king with a short black beard, white robes and simple gold crown seated on the right, inside a royal tent, lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "तब श्रीकृष्ण बोले, मैं ख़ुद हस्तिनापुर जाऊँगा। सब चौंक गए, क्योंकि वहाँ दुर्योधन का राज था।",
-     "prompt": "Lord Krishna standing and speaking with calm resolve, blue skin, peacock feather crown, yellow dhoti, a fair-skinned young king in white seated before him looking up in surprise, lamp-lit council tent, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "युधिष्ठिर ने शांत होकर कहा, हम भी युद्ध नहीं चाहते।",
+     "prompt": "A calm fair-skinned king with a short black beard, white robes and simple gold crown, one hand raised palm out in peace, speaking gently, inside a lamplit royal tent, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "द्रौपदी की आँखों से आँसू बह निकले। उन्होंने खुले केश दिखाकर कहा, केशव, इन्हें भरी सभा में खींचा गया था।",
-     "prompt": "A woman in a plain red sari with long loose black hair holding out a long lock of her hair in her hand, tears on her face, facing Lord Krishna with blue skin and peacock feather crown on the right, lamp-lit tent, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "दुर्योधन से कहना, हमें बस पाँच गाँव दे दे।",
+     "prompt": "A calm fair-skinned king with a short black beard, white robes and simple gold crown, holding up one hand with five fingers spread wide, speaking to a man in a white turban, inside a lamplit royal tent, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "कृष्ण ने कहा, कौरवों की पत्नियाँ भी इसी तरह रोएँगी। द्रौपदी, तुम्हारे ये आँसू यूँ ही नहीं जाएँगे।",
-     "prompt": "Lord Krishna with blue skin, peacock feather crown and yellow dhoti, one hand raised in promise, gentle firm face, a woman in a plain red sari with long loose black hair standing left with her head bowed, warm lamp glow, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "अविस्थल, वृकस्थल, माकंदी, वारणावत, और कोई भी एक पाँचवाँ गाँव। इतने में भी हम शांति रख लेंगे।",
+     "prompt": "A hand-drawn map on aged parchment showing the Kuru plains with a river and five small villages, each marked with a tiny red flag, warm tones, sharp focus, top-down view, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "सुबह कृष्ण रथ पर सवार हुए। साथ में सात्यकि थे। पांडव दूर तक उन्हें जाते देखते रहे।",
-     "prompt": "Lord Krishna seated in a golden chariot with white horses, blue skin, peacock feather crown, a young warrior in silver armour beside him, leaving camp at sunrise, five small men with folded hands standing far behind, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "संजय लौट गया। पर हस्तिनापुर में दुर्योधन ने यह बात भी नहीं मानी।",
+     "prompt": "A chariot driven by a man in a white turban rolling away down a long dusty road toward a distant walled city, dust trailing behind the wheels, overcast daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "रास्ते के गाँवों में लोग उमड़ पड़े, पर हवा भारी थी। फिर हस्तिनापुर में कृष्ण ने वो ठुकराया, जो कोई राजा नहीं ठुकराता।",
-     "prompt": "Indian villagers in simple clothes with folded hands lining both sides of a dusty road as a golden chariot with white horses passes, dark storm clouds above, heavy grey-gold light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "तब युधिष्ठिर ने कृष्ण की ओर देखा। केशव, अब आप ही बताइए, क्या करें?",
+     "prompt": "A calm fair-skinned king in white robes on the left turning to look at Lord Krishna on the right, asking for advice with open palms, inside a lamplit royal tent, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण बोले, मैं ख़ुद हस्तिनापुर जाऊँगा। दोनों पक्षों के भले के लिए।",
+     "prompt": "Lord Krishna standing with one hand on his heart, a firm calm face, inside a lamplit royal tent, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "युधिष्ठिर घबरा गए। केशव, वहाँ के राजा आपका बुरा कर सकते हैं।",
+     "prompt": "A calm fair-skinned king with a short black beard, white robes and simple gold crown, a worried face, reaching out one hand toward someone, inside a lamplit tent, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण मुस्कुराए। अगर उन्होंने हाथ उठाया, तो मैं अकेला ही उन सब पर भारी हूँ।",
+     "prompt": "Lord Krishna smiling confidently, one palm raised, soft golden light on his face, inside a royal tent, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर एक-एक करके भाई बोले, और सबसे चौंकाने वाली बात भीम ने कही।",
+     "prompt": "A huge broad-shouldered man with thick black moustache and bare muscular chest, holding a golden mace, stepping forward into the middle of a royal tent, other men sitting around, lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     }
@@ -146,280 +191,752 @@
   },
   {
    "id": "ch2",
-   "card": "विदुर का घर",
+   "card": "द्रौपदी के केश",
    "shots": [
     {
-     "vo": "हस्तिनापुर में कृष्ण के आने की ख़बर फैल गई। पूरा नगर फूलों और तोरणों से सज गया।",
-     "prompt": "Tall stone city gates covered in marigold garlands and bright cloth banners, crowds of Indian citizens cheering on both sides, a golden chariot with white horses entering through the gate, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "धृतराष्ट्र और दुर्योधन ने रथ, हाथी और ढेर-सा धन भेंट किया। कृष्ण ने किसी चीज़ को हाथ नहीं लगाया।",
-     "prompt": "Lord Krishna with blue skin, peacock feather crown, yellow dhoti, one hand raised in polite refusal, in front of a large pile of gold ornaments, silk cloth and a gift elephant with a chariot, a servant bowing at the right, bright palace courtyard, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "दुर्योधन ने अपने महल में दावत सजवाई। उसे लगा, पकवानों से कृष्ण का मन जीत लेगा।",
-     "prompt": "A lavish royal banquet on a long carpet with golden plates of fruits, sweets and rice dishes in the foreground, a proud broad-shouldered king with a thick black moustache and gold crown standing smiling behind them, torch light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "कृष्ण ने हाथ जोड़कर कहा, मैं यह भोजन नहीं करूँगा। दुर्योधन हैरान रह गया।",
-     "prompt": "Lord Krishna with blue skin, peacock feather crown, yellow dhoti, folded hands politely declining on the left, a proud king with a thick black moustache and gold crown staring at him in surprise on the right, golden banquet plates between them, torch light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "कृष्ण बोले, भोजन प्रेम हो तो खाया जाता है, या मजबूरी हो तो। आपके मन में प्रेम नहीं, और मैं मजबूर नहीं।",
-     "prompt": "Lord Krishna with blue skin, peacock feather crown, yellow dhoti, speaking with quiet authority on the left, a proud king with a thick black moustache and gold crown looking away in shame on the right, banquet hall, torch light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "वे सीधे विदुर के छोटे-से घर पहुँचे। विदुर की आँखें भर आईं। वहीं कृष्ण ने साधारण भोजन प्रेम से खाया।",
-     "prompt": "Lord Krishna with blue skin, peacock feather crown, yellow dhoti, sitting on a simple mat eating vegetables from a clay plate, a thin old man in plain white clothes with white beard serving him with teary happy eyes, small mud-walled house, oil lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "तभी बुआ कुंती आईं। कृष्ण को देखते ही उनकी आँखें छलक गईं। बरसों से वे अपने बेटों के लिए तड़प रही थीं।",
-     "prompt": "An elderly woman in a plain white sari with grey hair, tears on her face, holding Lord Krishna's hand, blue skin and peacock feather crown, in a courtyard of a mud-walled house, dusk light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "कुंती ने कहा, मेरे बेटों से कहना, अपना अधिकार माँगना न छोड़ें। और द्रौपदी का अपमान न भूलें।",
-     "prompt": "An elderly woman in a plain white sari with grey hair and a firm sorrowful face speaking, Lord Krishna with blue skin and peacock feather crown listening with deep respect on the right, humble room, soft oil lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "विदुर ने कहा, केशव, दरबार मत जाइए। कृष्ण मुस्कुराए, मैं जाऊँगा, ताकि कोई न कहे कि मैंने कोशिश नहीं की।",
-     "prompt": "Lord Krishna with blue skin and peacock feather crown resting a hand on the shoulder of a thin old man in plain white clothes with white beard, both looking toward distant glowing palace lights, moonlit courtyard of a modest house, night, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "सुबह कृष्ण दरबार पहुँचे। लेकिन तभी आसमान से एक तेज़ रोशनी दरबार की ओर उतरने लगी।",
-     "prompt": "Lord Krishna with blue skin, peacock feather crown, yellow dhoti, walking up wide stone palace steps toward giant carved doors, a shaft of bright radiant light descending from the sky onto the palace, sunrise, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "अगर ये कहानी अब तक आपको पसंद आ रही है, तो चैनल सब्सक्राइब ज़रूर करें।",
-     "subscribe_mid": true,
-     "prompt": "Lord Krishna with blue skin, peacock feather crown, yellow dhoti, walking up wide stone palace steps toward giant carved doors, a shaft of bright radiant light descending from the sky onto the palace, sunrise, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "seed": 1700,
+     "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
+     "subscribe_ask": true,
+     "prompt": "A huge broad-shouldered man with thick black moustache and bare muscular chest, golden mace resting on the ground, eyes lowered, speaking softly, lamp light in a tent, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "seed": 1500,
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "move": "push"
+     "move": "pan_left"
+    },
+    {
+     "vo": "वही भीम, जिनका ग़ुस्सा सब जानते थे, आज धीरे बोल रहे थे।",
+     "prompt": "A huge broad-shouldered man with thick black moustache and bare muscular chest, golden mace resting on the ground, eyes lowered, speaking softly, lamp light in a tent, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "केशव, दुर्योधन से नरमी से बात करना। उसे डराना मत।",
+     "prompt": "A huge broad-shouldered man with thick black moustache and golden mace on the left, facing Lord Krishna on the right, hands folded, asking gently, lamplit tent, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भरत वंश नष्ट न हो, इसलिए मैं भी झुकने को तैयार हूँ।",
+     "prompt": "A huge broad-shouldered man with thick black moustache, head bowed slightly, golden mace held loosely at his side, a sad face, lamplit tent, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण हँस पड़े। भीम, तुम और शांति की बात? लगता है डर गए हो।",
+     "prompt": "Lord Krishna laughing playfully, one hand pointing toward a huge man with a golden mace on the right, lamplit tent, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीम तिलमिला उठे। केशव, मैं किसी से नहीं डरता। मैं बस अपनों का ख़ून नहीं चाहता।",
+     "prompt": "A huge broad-shouldered man with thick black moustache, gripping his golden mace with both hands, angry blazing eyes, chest out, firelight in a tent, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अर्जुन ने सब कृष्ण पर छोड़ दिया। सहदेव और सात्यकि ने साफ़ कहा, युद्ध ही ठीक है।",
+     "prompt": "A young fair-skinned warrior in a saffron tunic with a sword at his waist, fist clenched, standing on the left, a handsome young warrior with a great bow sitting quietly on the right, inside a royal tent, lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तभी द्रौपदी आगे आईं। उनके हाथ में उनके लंबे, खुले काले केश थे।",
+     "prompt": "A beautiful dark-skinned woman in a red sari with gold jewellery, holding her long loose black hair in one hand, held out in front of her, stepping forward in a lamplit tent, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "केशव, यही केश दुःशासन ने भरी सभा में खींचे थे।",
+     "prompt": "A beautiful dark-skinned woman in a red sari with tears in her eyes, holding up a bunch of her long loose black hair, looking at Lord Krishna on the right, lamplit tent, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "संधि की बात करते समय इन्हें याद रखना।",
+     "prompt": "Lord Krishna on the left listening gravely, a beautiful dark-skinned woman in a red sari on the right holding out her long loose black hair toward him, lamplit tent, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अगर भीम और अर्जुन शांति चाहते हैं, तो मेरे बूढ़े पिता लड़ेंगे।",
+     "prompt": "A beautiful dark-skinned woman in a red sari with long loose black hair, one hand raised, speaking fiercely, firelight behind her, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मेरे पाँच बेटे और अभिमन्यु लड़ेंगे। कहकर वो फूट-फूटकर रो पड़ीं।",
+     "prompt": "A beautiful dark-skinned woman in a red sari with long loose black hair, sitting and weeping with her face in her hands, soft lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण बोले, द्रौपदी, जल्द ही कौरवों की स्त्रियाँ भी ऐसे ही रोएँगी।",
+     "prompt": "Lord Krishna standing on the left before a beautiful dark-skinned woman in a red sari seated on the right, he speaks solemnly with one hand raised, lamplit tent, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आसमान गिर जाए, हिमालय फट जाए, पर मेरी बात झूठी नहीं होगी।",
+     "prompt": "The snow-covered Himalaya peaks under a black stormy sky, lightning striking, a huge crack in the mountain face, dramatic light, sharp focus, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अगली सुबह, कृष्ण का रथ तैयार खड़ा था।",
+     "prompt": "A golden chariot with four white horses standing ready at the gate of a large army camp, a charioteer holding the reins, banners stirring, soft dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     }
    ]
   },
   {
    "id": "ch3",
-   "card": "भरा दरबार",
+   "card": "हस्तिनापुर की राह",
    "shots": [
     {
-     "vo": "आसमान से नारद और दूसरे ऋषि उतर आए। कृष्ण के पहुँचते ही पूरी सभा खड़ी हो गई।",
-     "prompt": "A grand court hall where kings and nobles rise to their feet, Lord Krishna with blue skin and peacock feather crown entering at the centre, a sage with a veena descending in soft light from above at the right, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "कार्तिक का महीना, रेवती नक्षत्र, मैत्र मुहूर्त। कृष्ण यात्रा पर निकले।",
+     "prompt": "Lord Krishna standing in a golden chariot leaving an army camp, tents behind him, pale dawn sky with fading stars, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "कृष्ण ने धृतराष्ट्र से कहा, राजन्, यह युद्ध पूरे वंश को खा जाएगा। अपने बेटों को रोक लीजिए।",
-     "prompt": "Lord Krishna with blue skin, peacock feather crown, yellow dhoti, speaking with open hands on the left, an old blind king with white hair, closed milky eyes, cream robes and gold crown sitting on a throne on the right, torchlit court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "सारथी दारुक ने रथ हाँका। साथ में सात्यकि बैठे थे।",
+     "prompt": "A charioteer driving a golden chariot down an open road, a young fair-skinned warrior with a sword at his waist sitting beside Lord Krishna, morning sun, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "भीष्म और द्रोण ने भी दुर्योधन को समझाया। बेटा, पांडवों से संधि कर लो, इसी में भलाई है।",
-     "prompt": "An old warrior with long white beard in white robes and an old brahmin warrior with white hair in saffron robes gently urging a proud king with a thick black moustache and gold crown, court hall, torch light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "पांडव दूर तक रथ को जाते देखते रहे।",
+     "prompt": "Five brothers standing on a low hill, seen from the side, watching a small golden chariot far away on the road, morning haze, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "पर दुर्योधन ने सबके सामने कहा, सुई की नोक जितनी ज़मीन भी नहीं दूँगा। पूरी सभा सन्न रह गई।",
-     "prompt": "A proud king with a thick black moustache, gold crown and dark red and gold robes standing with a clenched fist in the middle of the court, courtiers frozen in shock as small figures around him, dramatic torch light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "रास्ते में सड़क किनारे बड़े-बड़े ऋषि खड़े मिले। उनमें परशुराम भी थे।",
+     "prompt": "Several old sages in saffron robes standing along a roadside clearing, one old sage with matted hair and an axe in front, a golden chariot stopping nearby, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "दुर्योधन ग़ुस्से में सभा छोड़कर चल दिया। धृतराष्ट्र चुपचाप बैठे रहे। पिता होकर भी उन्होंने बेटे को नहीं रोका।",
-     "prompt": "An old blind king with white hair, closed milky eyes, cream robes and gold crown sitting alone on a throne with bowed head, an empty golden seat beside him, long shadows across the court, torch light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "ऋषि बोले, केशव, हम भी कुरु सभा में आएँगे। आपकी बात सुनने।",
+     "prompt": "An old sage with matted hair and an axe on his shoulder, one hand raised in blessing toward Lord Krishna, forest roadside, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "बड़ा दोषी कौन: दुर्योधन, या चुप रहे धृतराष्ट्र? अपना जवाब कमेंट में लिखिए।",
-     "prompt": "A proud stern king with a thick black moustache and gold crown on the left, an old blind king with white hair, closed eyes and cream robes bowed and silent on the right, a single beam of light falling on the floor between them, dim hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "पहली रात कृष्ण वृकस्थल में रुके। वही वृकस्थल, जो उन पाँच गाँवों में एक था।",
+     "prompt": "A small Indian village at dusk, oil lamps glowing in thatched huts, a golden chariot resting beside a guesthouse, villagers lighting lamps, warm evening glow, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "साज़िश।",
-     "prompt": "A thin man with a sharp face, grey beard and dark robes whispering into the ear of a proud king with a thick black moustache and gold crown, dark stone chamber lit by a single torch, sharp shadows on their faces, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "उधर हस्तिनापुर में धृतराष्ट्र बेचैन थे। उन्होंने कृष्ण को भेंट देने की सोची।",
+     "prompt": "A blind old king with a white beard, closed eyes, gold crown and maroon robe, sitting on a golden throne gripping the armrests, a worried face, palace lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "दुर्योधन ने शकुनि, कर्ण और दुःशासन से सलाह की। कृष्ण को बाँध लो, तो पांडव अपने आप टूट जाएँगे।",
-     "prompt": "A proud king with a thick black moustache and gold crown holding a thick coiled rope in his hands, a tall young man with a cruel smile, dark armour and short black beard nodding beside him, dark stone chamber, torch light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "सोने से सजे सोलह रथ, हाथी, और ढेर सारा धन।",
+     "prompt": "Sixteen golden decorated chariots in a row in a palace courtyard, elephants with gold ornaments standing behind them, open chests of jewels and gold coins in front, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "सात्यकि ने यह चाल भाँप ली। वे तुरंत कृष्ण के पास पहुँचे। बाहर कृतवर्मा सेना लेकर तैयार खड़े थे।",
-     "prompt": "A young warrior in silver armour with a black moustache whispering urgently to Lord Krishna with blue skin and peacock feather crown in a palace corridor, a row of armed soldiers waiting small at the far gate, torch light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "विदुर बोले, महाराज, कृष्ण धन से नहीं ख़रीदे जा सकते। वो बस शांति चाहते हैं।",
+     "prompt": "An old thin man with white hair in a white dhoti and shawl, speaking firmly with a raised hand, facing a blind old king with white beard on a golden throne, palace hall, lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "सभा फिर बैठी। कृष्ण ने शांति से धृतराष्ट्र और विदुर से कह दिया, मुझे बाँधने की चाल चली गई है।",
-     "prompt": "Lord Krishna with blue skin, peacock feather crown, yellow dhoti, standing calm in the centre of the court, a thin old man in plain white clothes beside him, courtiers on both sides murmuring and leaning together as small figures, bright hall light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "तब दुर्योधन ने सभा में कहा, मैं कृष्ण को बंदी बना लूँगा।",
+     "prompt": "A proud young king with thick black moustache, gold armour and gold crown, standing and speaking to a council hall with a cunning smile, a finger raised, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "दुर्योधन लौट आया था। उसने हुक्म दिया, इन्हें बाँध लो। लेकिन कृष्ण अपनी जगह से हिले तक नहीं।",
-     "prompt": "A proud king with a thick black moustache and gold crown pointing a commanding finger at Lord Krishna on the right, blue skin and peacock feather crown, standing perfectly still, soldiers holding ropes stepping forward small at the far sides, court hall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "कृष्ण क़ैद हुए, तो पांडव अपने आप झुक जाएँगे।",
+     "prompt": "A proud young king with thick black moustache, gold armour and gold crown, clenching his fist in front of his chest, hard shadows, torchlight, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यह सुनते ही भीष्म उठ खड़े हुए। ऐसी पापी बात मैं नहीं सुनूँगा।",
+     "prompt": "A tall old warrior with long white beard and white hair in silver armour, rising angrily from his seat in a council hall, hand raised in refusal, kings watching, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीष्म सभा छोड़कर चले गए। और अगली दोपहर, कृष्ण हस्तिनापुर के द्वार पर थे।",
+     "prompt": "A tall old warrior with long white beard in silver armour, walking out through tall palace doors, bright sunlight flooding in, kings seated behind him, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     }
    ]
   },
   {
    "id": "ch4",
-   "card": "विश्वरूप",
+   "card": "ठुकराया भोज",
    "shots": [
     {
-     "vo": "विदुर ने दुर्योधन को डाँटा, यह पाप मत कर। धृतराष्ट्र भी घबरा उठे। पर दुर्योधन नहीं माना।",
-     "prompt": "A thin old man in plain white clothes with white beard raising a stern hand at a proud king with a thick black moustache and gold crown who glares back defiantly, an old blind king with a startled face seated far behind, torchlit court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "सैनिक आगे बढ़े। कृष्ण को चारों ओर से घेरा जाने लगा।",
-     "prompt": "Soldiers holding thick ropes closing in a circle around Lord Krishna with blue skin, peacock feather crown, yellow dhoti, standing calm in the centre with a faint smile, court hall, strong light from above, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "कृष्ण ज़ोर से हँस पड़े। हँसी में कोई डर नहीं था। बोले, दुर्योधन, तू मुझे अकेला समझ रहा है?",
-     "prompt": "Lord Krishna with blue skin and peacock feather crown laughing with his head slightly raised, golden light starting to glow around him, a proud king with a thick black moustache and gold crown on the left staring at him in confusion, court hall, close-medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "पूरा नगर कृष्ण को देखने उमड़ पड़ा। छतें और सड़कें लोगों से भर गईं।",
+     "prompt": "A crowded Indian city street, people on rooftops throwing flower petals as a golden chariot passes below, festive banners hanging, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "विश्वरूप।",
-     "prompt": "Lord Krishna with blue skin and peacock feather crown growing tall, his whole body glowing in blinding golden light, tall stone pillars casting long shadows behind him, court hall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "रास्ते में दुर्योधन ने सुंदर विश्राम-भवन बनवाए थे। कृष्ण ने उनकी ओर देखा तक नहीं।",
+     "prompt": "Ornate decorated pavilions with silk canopies and garlands along a road, empty and untouched, a golden chariot driving past them without stopping, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "उनके शरीर में देवता, ऋषि और पूरा संसार दिखने लगा। अनगिनत भुजाएँ, और हर हाथ में अलग शस्त्र।",
-     "prompt": "A colossal cosmic form of Lord Krishna, blue skin, one calm divine face, a towering golden body filling the hall, tiny gods, sages, planets and stars shown inside his body, many arms each holding a different weapon, golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "कृष्ण पहले धृतराष्ट्र के महल गए। भीष्म और द्रोण ने उनका स्वागत किया।",
+     "prompt": "Lord Krishna on the left being greeted by a tall old warrior with long white beard in silver armour on the right, hands folded, at a grand palace entrance, bright daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "ज़्यादातर राजाओं ने डर से आँखें बंद कर लीं। भीष्म, द्रोण और विदुर पहचान गए कि सामने स्वयं भगवान हैं।",
-     "prompt": "Kings in the court shielding their eyes with their arms in fear on the left, an old warrior with long white beard in white robes and a thin old man in white with folded hands looking up in reverence on the right, golden light flooding the hall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "वहाँ से वे सीधे विदुर के छोटे-से घर पहुँचे। वहीं बुआ कुंती रहती थीं।",
+     "prompt": "A small whitewashed house with a courtyard and a tulsi plant, a golden chariot stopped outside, an old thin man with white hair in a white shawl at the door, late afternoon light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "धृतराष्ट्र की आँखें नहीं थीं। वे हाथ जोड़कर बोले, केशव, मुझे आँखें दो। कृष्ण ने उन्हें दिव्य दृष्टि दी।",
-     "prompt": "An old blind king with white hair, cream robes and gold crown with folded hands, his eyes opening wide in wonder with golden light on his face, Lord Krishna with blue skin and peacock feather crown glowing in front of him, court hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "कुंती ने कृष्ण को देखा, तो उनकी आँखें छलक पड़ीं।",
+     "prompt": "An elderly queen in a plain white sari with grey hair, tears in her eyes, greeting Lord Krishna with both hands out, in a simple courtyard, soft daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "जीवन में पहली बार धृतराष्ट्र ने भगवान को देखा। वे रो पड़े। बोले, अब कुछ और देखना नहीं चाहता, यह दृष्टि वापस ले लीजिए।",
-     "prompt": "An old king with white hair, cream robes and gold crown kneeling with tears on his cheeks and looking up with open eyes at Lord Krishna glowing in golden divine light, blue skin and peacock feather crown, a shaft of golden light from above, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "बोलीं, राज्य गया, वनवास मिला, यह सब मैंने सह लिया।",
+     "prompt": "An elderly queen in a plain white sari with grey hair, speaking through tears, sitting on a simple wooden seat, soft window light, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "ईश्वर ने अपना रूप भरे दरबार को दिखाया। जय श्री कृष्ण लिखकर लाइक कीजिए।",
-     "prompt": "Lord Krishna with blue skin, peacock feather crown, yellow dhoti, a serene divine smile, one hand raised in blessing, golden glow and flower petals falling around him in a royal court hall, close-medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "पर भरी सभा में द्रौपदी का रोना, वो मुझसे सहा नहीं जाता।",
+     "prompt": "An elderly queen in a plain white sari with grey hair, covering her mouth with one hand, eyes down, grieving, dim room, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "फिर कृष्ण ने रूप समेट लिया। दुर्योधन के पास कहने को कुछ नहीं बचा। किसी ने उन्हें हाथ लगाने की हिम्मत नहीं की।",
-     "prompt": "Lord Krishna with blue skin and peacock feather crown standing calm in his normal form as the golden light fades on the left, a proud king with a thick black moustache and gold crown stunned and silent on the right, soldiers lowering their ropes small in the background, court hall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "फिर कृष्ण दुर्योधन के महल गए। वहाँ भव्य भोज सजा था।",
+     "prompt": "A palace dining hall with golden plates of rich food on long low tables, silk drapes and lamps, servants standing along the wall, warm light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "यह कथा किसी अपने को भेज दीजिए जिसे महाभारत पसंद है। कृष्ण दरबार से निकले, और कर्ण को अपने रथ पर बिठा लिया।",
-     "prompt": "Lord Krishna with blue skin and peacock feather crown on a golden chariot with white horses outside palace gates, a bare-chested warrior with golden armour and golden earrings stepping up beside him, long shadows on the stone courtyard, sunset, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "दुर्योधन बोला, केशव, भोजन कीजिए। कृष्ण ने हाथ जोड़कर मना कर दिया।",
+     "prompt": "A proud young king with thick black moustache, gold armour and gold crown, on the left gesturing toward a feast table, Lord Krishna on the right declining with folded hands, palace hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "और अगर आपने अभी तक सब्सक्राइब नहीं किया, तो अभी कर लीजिए, ये बिल्कुल फ़्री है।",
-     "subscribe_mid": true,
-     "prompt": "Lord Krishna with blue skin and peacock feather crown on a golden chariot with white horses outside palace gates, a bare-chested warrior with golden armour and golden earrings stepping up beside him, long shadows on the stone courtyard, sunset, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "seed": 1700,
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
-     "move": "pull"
+     "vo": "दूत अपना काम पूरा होने पर ही भोजन और सम्मान लेते हैं।",
+     "prompt": "Lord Krishna standing calm and firm, one palm raised, golden palace light, medium close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन ने ज़िद की। तब कृष्ण बोले, भोजन दो ही कारण से खाया जाता है।",
+     "prompt": "A proud young king with thick black moustache and gold crown, frowning and pointing at a feast table, facing Lord Krishna on the right, palace hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "या तो प्रेम से, या मजबूरी में। तुम्हारे मन में प्रेम नहीं, और मैं मजबूर नहीं।",
+     "prompt": "Lord Krishna turning away from a feast table toward the door, a proud young king in gold armour on the left standing stunned, golden plates of food on the table, palace hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण विदुर के घर लौटे, और वहीं सादा भोजन प्रेम से खाया। लोक-कथाओं में विदुर की पत्नी के केले के छिलके खिलाने की बात आती है, पर व्यास के पाठ में सादा भोजन है।",
+     "prompt": "Lord Krishna sitting on the floor eating simple food from a leaf plate, an old thin man with white hair in a white shawl serving him with a smile, small humble house, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर उसी रात, विदुर ने उन्हें दरबार जाने से रोकना चाहा।",
+     "prompt": "An old thin man with white hair in a white dhoti and shawl, standing in a dark doorway holding a clay oil lamp, a worried face, night, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     }
    ]
   },
   {
    "id": "ch5",
+   "card": "विदुर की चेतावनी",
+   "shots": [
+    {
+     "vo": "रात गहरी थी। विदुर के घर में एक दीया जल रहा था।",
+     "prompt": "A small simple room at night lit by a single clay oil lamp, Lord Krishna sitting on a mat on the left, an old thin man with white hair and white shawl beside him on the right, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "विदुर बोले, केशव, आपका यहाँ आना ठीक नहीं हुआ।",
+     "prompt": "An old thin man with white hair in a white shawl, speaking earnestly with an open palm, lamp light on his face, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन किसी की नहीं सुनता। न भीष्म की, न द्रोण की, न अपने पिता की।",
+     "prompt": "An old thin man with white hair in a white shawl, shaking his head sadly, a clay oil lamp flickering beside him, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दरबार में उसके साथी राजा बैठे हैं। सब पांडवों से बैर रखते हैं।",
+     "prompt": "A dim royal court at night with rows of empty thrones, each with a crown resting on the seat, ominous shadows, torches on the walls, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आप उनके बीच अकेले जाएँगे, यह सोचकर मेरा मन काँपता है।",
+     "prompt": "An old thin man with white hair in a white shawl, hands trembling, looking at Lord Krishna with deep worry, oil lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण ने विदुर का हाथ थामा। विदुर जी, मैं सब जानता हूँ।",
+     "prompt": "Lord Krishna's blue hand gently holding an old man's wrinkled hand, a clay oil lamp glowing beside them, warm light, sharp focus, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर कोई मित्र मुसीबत में हो, और उसे बचाने की कोशिश न हो, तो वो कठोरता है।",
+     "prompt": "Lord Krishna speaking softly with a kind face, one hand open, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मैं पूरे मन से कोशिश करूँगा। सफल न हुआ, तो भी कोई दोष नहीं।",
+     "prompt": "Lord Krishna with a calm firm gaze, lamp flame glowing in front of him, medium close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कोई ये न कहे कि कृष्ण युद्ध रोक सकते थे, पर उन्होंने कोशिश तक नहीं की।",
+     "prompt": "A vast empty battlefield at dawn with mist, broken chariot wheels and bows lying on the ground, grey light, sharp focus, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अगर ये धर्म की बात मान लें, तो लाखों लोग मरने से बच जाएँगे।",
+     "prompt": "A peaceful Indian city at night with hundreds of oil lamps glowing in the windows of houses, families sitting in doorways, warm light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "विदुर चुप हो गए। उनकी आँखों में आँसू थे।",
+     "prompt": "An old thin man with white hair in a white shawl, silent with tears running down his cheeks, oil lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सुबह होते ही दुर्योधन और शकुनि ख़ुद कृष्ण को लेने आ पहुँचे।",
+     "prompt": "A proud young king in gold armour and gold crown on the left, a thin old man with a pointed grey beard holding dice on the right, both standing at the door of a simple house at dawn, soft morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "भरा दरबार",
+   "shots": [
+    {
+     "vo": "कृष्ण विदुर और सात्यकि के साथ सभा में पहुँचे। वहाँ हज़ारों राजा बैठे थे।",
+     "prompt": "Lord Krishna walking down the central aisle of an immense pillared court filled with crowned kings seated on both sides, an old thin man in a white shawl and a young warrior with a sword following behind, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण के आते ही सब अपने आसनों से खड़े हो गए।",
+     "prompt": "Rows of crowned kings standing up from their seats in a grand pillared court, golden light from high windows, all facing the entrance, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तभी कृष्ण ने ऊपर देखा। नारद और दूसरे ऋषि आकाश में खड़े थे।",
+     "prompt": "An old sage in white robes holding a veena and other sages standing on glowing white clouds high above a palace courtyard, Lord Krishna looking up from below, bright sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण ने भीष्म से कहा, ऋषियों को आसन दीजिए। ऋषि आकर बैठ गए।",
+     "prompt": "Lord Krishna on the left gesturing toward empty cushions, a tall old warrior with white beard in silver armour on the right bowing, several sages sitting on cushions behind, grand court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर कृष्ण धृतराष्ट्र की ओर मुड़े। उनकी आवाज़ बादलों की गरज जैसी थी।",
+     "prompt": "Lord Krishna standing tall in a yellow silk dhoti, one arm raised, speaking powerfully in a grand court, kings seated before him, golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजन्, कौरव और पांडव दोनों आपके बेटे हैं। दोनों को बचा लीजिए।",
+     "prompt": "Lord Krishna on the left, hands open, speaking to a blind old king with a white beard on a golden throne on the right, grand court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पांडव आपकी सेवा को भी तैयार हैं, और युद्ध को भी। फ़ैसला आपके हाथ में है।",
+     "prompt": "A blind old king with a white beard, closed eyes and gold crown, sitting tense on a golden throne, gripping the armrest, court behind him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "परशुराम और कण्व ने भी पुरानी कथाएँ सुनाकर दुर्योधन को समझाया।",
+     "prompt": "An old sage with matted hair and an axe resting beside him, one hand raised, speaking to the court, other sages sitting beside him, grand court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीष्म बोले, बेटा, कृष्ण की बात मान लो। द्रोण ने भी यही कहा।",
+     "prompt": "A tall old warrior with long white beard in silver armour, one arm stretched out and pleading toward a young king, grand court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन बोला, मैंने कोई अपराध नहीं किया।",
+     "prompt": "A proud young king with thick black moustache, gold armour and crown, standing with arms crossed and chin up, golden mace by his side, grand court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण ने याद दिलाया, लाक्षागृह की आग, जुए का छल, और द्रौपदी का अपमान।",
+     "prompt": "A wooden palace burning at night in a forest, huge flames reaching the sky, people running out as small silhouettes, dark smoke, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन गरजा, केशव, जब तक मैं ज़िंदा हूँ, सुई की नोक जितनी ज़मीन भी नहीं दूँगा।",
+     "prompt": "A proud young king with thick black moustache, gold armour and crown, shouting in fury, golden mace raised high, torchlight, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पूरी सभा सन्न रह गई। दुर्योधन अपने भाइयों के साथ सभा छोड़कर चला गया।",
+     "prompt": "A proud young king in gold armour storming out through tall palace doors on the right, crowned kings seated in the court staring in silence, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "गांधारी",
+   "shots": [
+    {
+     "vo": "कृष्ण ने बड़ों से कहा, एक आदमी के लिए पूरा वंश मत मिटने दीजिए।",
+     "prompt": "Lord Krishna on the left speaking to a tall old warrior with long white beard in silver armour on the right, grand court, one hand open toward him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन, कर्ण, शकुनि और दुःशासन को बाँधकर पांडवों को सौंप दीजिए।",
+     "prompt": "Lord Krishna pointing toward an empty doorway at the back of the court, kings sitting in shadow, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "धृतराष्ट्र घबरा गए। उन्होंने विदुर से कहा, गांधारी को बुलाओ।",
+     "prompt": "A blind old king with a white beard and gold crown, turning anxiously toward an old thin man in a white shawl standing beside the throne, pointing at him, palace hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "गांधारी सभा में आईं। आँखों पर वही पट्टी, जो बरसों से बँधी थी।",
+     "prompt": "A queen with a white cloth blindfold tied over her eyes, maroon sari, walking into the court guided by the hand of a maidservant, kings watching, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन को फिर बुलाया गया। वो लाल आँखें लिए लौटा।",
+     "prompt": "A proud young king with thick black moustache, gold armour and crown, walking back into the court with angry red eyes and a clenched jaw, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "गांधारी बोलीं, बेटा, पिता की बात मानो, भीष्म और द्रोण की बात मानो।",
+     "prompt": "A queen with a white cloth blindfold tied over her eyes, maroon sari, speaking firmly toward a young king in gold armour, one hand raised, grand court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जो अपने मन को नहीं जीतता, वो राज्य भी नहीं सँभाल सकता।",
+     "prompt": "A queen with a white cloth blindfold tied over her eyes, a stern sorrowful face, soft light from a high window, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पांडवों को उनका हिस्सा दे दो, और भाइयों के साथ सुख से रहो।",
+     "prompt": "A queen with a white cloth blindfold tied over her eyes, maroon sari, standing with an open palm held toward a young king in gold armour on the right who looks away, grand court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "माँ की बात भी दुर्योधन ने नहीं सुनी।",
+     "prompt": "A proud young king with thick black moustache, gold armour and crown, turning his face away coldly, jaw set, torchlight, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो ग़ुस्से में फिर सभा से निकल गया। इस बार उसके मन में कुछ और था।",
+     "prompt": "A proud young king in gold armour walking out of the court into a dark corridor, his long shadow on the stone floor, torches on the wall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch8",
+   "card": "साज़िश",
+   "shots": [
+    {
+     "vo": "बाहर दुर्योधन ने कर्ण, शकुनि और दुःशासन को बुलाया।",
+     "prompt": "A proud young king with thick black moustache and gold armour on the left, a thin old man with a pointed grey beard holding dice on the right, huddled together whispering in a dim palace chamber, torchlight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बोला, कृष्ण हमें बँधवाना चाहते हैं। उससे पहले हम उन्हें बाँध लेंगे।",
+     "prompt": "A proud young king with thick black moustache, gold armour and crown, whispering with a cruel smile, a coiled rope held in one hand, flickering torchlight, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण क़ैद हुए, तो पांडवों का हौसला टूट जाएगा।",
+     "prompt": "A thin old man with a pointed grey beard in dark robes, rolling dice in his palm with a cunning smile, dark chamber, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर सात्यकि की नज़र सब पर थी। उन्होंने यह चाल भाँप ली।",
+     "prompt": "A young fair-skinned warrior in a saffron tunic with a sword at his waist, watching from behind a pillar with narrowed eyes, palace corridor, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सात्यकि ने कृतवर्मा से कहा, सेना लेकर सभा के द्वार पर तैयार रहो।",
+     "prompt": "Armed soldiers in armour forming ranks outside the gates of a great court, spears raised, a commander in front pointing at the gate, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर सात्यकि सभा में आए, और कृष्ण, धृतराष्ट्र और विदुर को सब बता दिया।",
+     "prompt": "A young fair-skinned warrior in a saffron tunic speaking urgently on the left, Lord Krishna on the right listening, in the grand court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सात्यकि बोले, ये मूर्ख कपड़े में आग बाँधना चाहते हैं।",
+     "prompt": "A young fair-skinned warrior in a saffron tunic, an angry face, hand on his sword hilt, grand court, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण शांत रहे। बोले, राजन्, इन्हें आने दीजिए।",
+     "prompt": "Lord Krishna standing perfectly calm with hands resting at his sides, court lamps glowing around him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मैं चाहूँ तो इन सबको अभी बाँध दूँ। पर मैं कोई पाप नहीं करूँगा।",
+     "prompt": "Lord Krishna with a serene powerful gaze and a faint smile, golden court light, medium close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "धृतराष्ट्र ने दुर्योधन को फिर बुलवाया। विदुर ने उसे डाँटा, यह पाप मत कर।",
+     "prompt": "An old thin man with white hair in a white shawl pointing sternly at a young king in gold armour on the right, grand court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन फिर भी अड़ा रहा। तब कृष्ण ज़ोर से हँस पड़े।",
+     "prompt": "Lord Krishna throwing his head back in laughter, soft golden light gathering around him, grand court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch9",
+   "card": "विश्वरूप",
+   "shots": [
+    {
+     "vo": "दुर्योधन, तू मुझे अकेला समझता है? तो देख।",
+     "prompt": "Lord Krishna on the left facing a young king in gold armour on the right, a soft golden glow beginning around Krishna's body, grand court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण के शरीर से तेज़ फूट पड़ा। उनके माथे पर ब्रह्मा प्रकट हुए।",
+     "prompt": "Lord Krishna in the court blazing with brilliant golden light, a glowing four-faced god shown as a radiant figure on his forehead, kings shielding their eyes, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "छाती पर रुद्र, भुजाओं पर लोकपाल, और मुख से अग्नि।",
+     "prompt": "Lord Krishna's cosmic form with a serene blue face, small glowing gods shining on his chest and arms, a river of fire flowing from his mouth, golden light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "एक ओर हल लिए बलराम दिखे, दूसरी ओर धनुष लिए अर्जुन।",
+     "prompt": "Lord Krishna's cosmic form glowing in the middle, a fair-skinned man holding a plough glowing on his left side and a brown-skinned archer holding a bow on his right side, golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "हज़ारों भुजाएँ। हाथों में शंख, चक्र, गदा, धनुष और हल।",
+     "prompt": "Lord Krishna in his cosmic form, one serene blue face, a thousand arms fanning out holding a conch, discus, mace, bow and plough, golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आँखों, नाक और कानों से आग की लपटें निकल रही थीं।",
+     "prompt": "Lord Krishna's one serene divine face in cosmic form, bright flames of golden light streaming around it, overwhelming radiance, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सारे राजाओं ने डर से आँखें बंद कर लीं।",
+     "prompt": "Rows of crowned kings in the court covering their eyes with their hands and turning away from a blinding white light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बस भीष्म, द्रोण, विदुर, संजय और ऋषि ही उस रूप को देख पाए।",
+     "prompt": "A tall old warrior with long white beard in silver armour and an old thin man in a white shawl looking up in awe with folded hands, golden light on their faces, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "धृतराष्ट्र ने हाथ जोड़कर कहा, केशव, मुझे बस अभी के लिए आँखें दे दीजिए।",
+     "prompt": "A blind old king with a white beard and gold crown, on his throne with folded hands raised toward a golden light, mouth open in wonder, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण ने उन्हें दिव्य दृष्टि दी। जन्म से अंधे राजा ने पहली बार भगवान को देखा।",
+     "prompt": "An old king with a white beard and gold crown, his eyes wide open for the first time, tears streaming down his cheeks, golden light on his face, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बोले, आपको देख लिया, अब कुछ और देखने की इच्छा नहीं।",
+     "prompt": "An old king with a white beard and gold crown, weeping with joy, hands folded, bathed in golden divine light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आसमान में नगाड़े बजे, और फूलों की वर्षा होने लगी।",
+     "prompt": "Flower petals raining down through the high open roof of a grand pillared court, beams of golden light, kings looking up, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर कृष्ण ने वो रूप समेट लिया। वे सात्यकि और कृतवर्मा का हाथ थामकर सभा से निकल गए।",
+     "prompt": "Lord Krishna walking out of a silent court with a young fair-skinned warrior in a saffron tunic at his side, kings sitting frozen in their seats, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "किसी ने उन्हें छूने की हिम्मत नहीं की।",
+     "prompt": "A tall warrior with long black hair, golden earrings and a red cloak, standing beside a golden chariot at the foot of palace steps, hands at his sides, bright daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch10",
    "card": "रथ पर कर्ण",
    "shots": [
     {
-     "vo": "रथ नगर से बाहर निकला। कृष्ण और कर्ण अकेले थे। चारों ओर बस सूनी सड़क और ढलती शाम।",
-     "prompt": "A golden chariot with white horses rolling along an empty dirt road outside tall city walls, Lord Krishna with blue skin and peacock feather crown and a bare-chested warrior with golden earrings seated together, glowing orange sky at dusk, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
-     "vo": "कृष्ण ने कर्ण के कान में धीरे से कहा, तुम कुंती के सबसे बड़े पुत्र हो। पाँचों पांडव तुम्हारे छोटे भाई हैं।",
-     "prompt": "Lord Krishna with blue skin and peacock feather crown leaning close to whisper in the ear of a bare-chested warrior with golden earrings and long black hair, the warrior's face frozen in shock, dusk light, close-medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "जाने से पहले कृष्ण ने बुआ कुंती से विदा ली। कुंती बोलीं, भीम और अर्जुन से कहना, जिस दिन के लिए क्षत्राणी बेटा जनती है, वो दिन आ गया।",
+     "prompt": "An elderly queen in a plain white sari with grey hair, blessing Lord Krishna with her hand raised, at the door of a simple house, soft daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "कृष्ण बोले, चलो मेरे साथ। तुम राजा बनोगे, और सारे पांडव तुम्हारे पीछे चलेंगे।",
-     "prompt": "Lord Krishna with blue skin and peacock feather crown gesturing with an open hand toward a distant camp glowing with many lamps, a bare-chested warrior with golden earrings and a conflicted face listening on the right, chariot on a quiet plain, dusk, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "फिर उन्होंने कर्ण को अपने रथ पर बिठा लिया, और रथ नगर से बाहर निकला।",
+     "prompt": "A golden chariot leaving the gates of a walled Indian city onto an empty road at sunset, Lord Krishna and a warrior in a red cloak seated inside, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "कर्ण ने कृष्ण को गले लगा लिया। बोला, केशव, आप मेरा भला चाहते हैं, यह मैं जानता हूँ।",
-     "prompt": "A bare-chested warrior with golden armour, golden earrings and long black hair embracing Lord Krishna with blue skin and peacock feather crown, on a chariot, warm evening light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "कृष्ण ने धीरे से कहा, कर्ण, तुम सूतपुत्र नहीं हो।",
+     "prompt": "Lord Krishna on the left leaning close to speak to a tall warrior with long black hair, golden earrings and red cloak on the right, sitting in a moving chariot, sunset light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "पर मैं दुर्योधन का साथ नहीं छोड़ूँगा। उसने मुझ पर भरोसा किया, जब किसी ने नहीं किया था।",
-     "prompt": "A bare-chested warrior with golden armour, golden earrings and long black hair standing beside a chariot with a resolute sorrowful face, hands folded, an empty field glowing red behind him, one figure, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "तुम कुंती के सबसे बड़े बेटे हो। ब्याह से पहले कुंती ने तुम्हें जन्म दिया था।",
+     "prompt": "A tall warrior with long black hair, golden earrings and a red cloak, eyes wide in shock, sunset light on his face, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "कर्ण ने कहा, इस युद्ध में बहुत ख़ून बहेगा। मुझे यह साफ़ दिख रहा है। फिर भी मैं अपना रास्ता नहीं बदलूँगा।",
-     "prompt": "A bare-chested warrior with golden earrings and long black hair looking toward a darkening horizon of red smoke-like clouds with a grave face, Lord Krishna with blue skin and peacock feather crown silent beside him, wide shot at dusk, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "धर्म से तुम पांडु के पुत्र हो। पाँचों पांडव तुम्हारे छोटे भाई हैं।",
+     "prompt": "A moving golden chariot on an open road at dusk passing green fields, long shadows, a lone tree, two figures seated inside, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "फिर कर्ण ने एक वचन माँगा। मेरे जन्म का यह राज़ अभी किसी को न बताइए, वरना युधिष्ठिर राज नहीं लेंगे।",
-     "prompt": "A bare-chested warrior with golden earrings and long black hair with folded hands pleading before Lord Krishna with blue skin and peacock feather crown, who listens with gentle sorrow, quiet road at dusk, close-medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "चलो मेरे साथ। पांडव तुम्हारे चरण छुएँगे, और तुम राजा बनोगे।",
+     "prompt": "Lord Krishna holding out an open hand toward a warrior with golden earrings in the chariot, inviting him, sunset light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "कृष्ण ने वह राज़ अपने मन में रख लिया। कर्ण लौटा, कृष्ण पांडवों की ओर चले, और दोनों के बीच बस ढलता सूरज रह गया।",
-     "prompt": "Lord Krishna with blue skin and peacock feather crown riding alone in his golden chariot toward distant camp lights under a dark red sky, a small bare-chested warrior with golden earrings walking back along the road toward a far city, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "कर्ण की आँखें भर आईं। केशव, यह बात मैं जानता हूँ।",
+     "prompt": "A tall warrior with long black hair, golden earrings and a red cloak, tears in his eyes, looking away toward the setting sun, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर कुंती ने जन्मते ही मुझे छोड़ दिया था। अधिरथ और राधा ने मुझे पाला।",
+     "prompt": "A humble charioteer couple, an old man and a woman in plain simple clothes, standing outside a small hut, holding a small basket, a river bank behind them, soft evening light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन ने तेरह साल मुझे राज्य और सम्मान दिया। मैं उसे धोखा नहीं दूँगा।",
+     "prompt": "A tall warrior with long black hair, golden earrings and a red cloak, hand pressed to his heart, a firm sorrowful face, in the chariot at dusk, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "एक वचन दीजिए। यह राज़ अभी किसी को न बताइए।",
+     "prompt": "A tall warrior with long black hair and a red cloak, holding Lord Krishna's hand in both of his, pleading, in the chariot at dusk, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "युधिष्ठिर जान गए कि मैं बड़ा भाई हूँ, तो राज्य मुझे दे देंगे।",
+     "prompt": "A calm fair-skinned king with a short black beard, white robes and simple gold crown, standing alone in a lamplit royal tent, looking toward the tent door, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और वो राज्य मैं दुर्योधन को दे दूँगा। राज्य युधिष्ठिर के पास ही रहे।",
+     "prompt": "A tall warrior with long black hair, golden earrings and a red cloak, looking down with a heavy heart, red sunset sky behind him, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृष्ण ने कहा, तो सुनो। आज से सातवें दिन अमावस्या है। उसी दिन युद्ध शुरू हो।",
+     "prompt": "A thin crescent moon fading in a darkening sky over the wide Kurukshetra plain, a golden chariot halted on the road below, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कर्ण ने कृष्ण को गले लगाया, रथ से उतरा, और अकेला लौट गया।",
+     "prompt": "A tall warrior with long black hair, golden earrings and a red cloak, walking alone toward a distant walled city on an empty road at twilight, a golden chariot standing far behind, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     }
    ]
@@ -429,38 +946,44 @@
    "card": null,
    "shots": [
     {
-     "vo": "तो श्रीकृष्ण युद्ध जानते हुए भी हस्तिनापुर क्यों गए? ताकि दुनिया देख ले, शांति का दरवाज़ा दुर्योधन ने बंद किया, पांडवों ने नहीं।",
-     "prompt": "Lord Krishna's golden chariot with white horses leaving tall city gates at golden sunset, the huge palace doors shut behind it, an empty road ahead with long shadows, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "कृष्ण उपप्लव्य लौटे, और युधिष्ठिर को सब बताया।",
+     "prompt": "Lord Krishna on the left speaking to a calm fair-skinned king with a short black beard and white robes on the right, inside a royal tent at night, lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मैंने प्रेम से समझाया, भेंट की बात की, भेद से भी समझाया। अब बस दंड बचा है।",
+     "prompt": "An army camp at night with countless campfires, tall banners and war drums standing ready, soldiers sitting around fires, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "कृष्ण ने बिना हथियार उठाए, सिर्फ़ शब्दों से हर रास्ता आज़माया। यही उनकी सबसे बड़ी कोशिश थी।",
-     "prompt": "Lord Krishna with blue skin, peacock feather crown, yellow dhoti, standing with folded hands before a glowing brass oil lamp in a quiet pillared hall, serene peaceful face, no weapons, soft golden dusk light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "vo": "अगली कथा में देखिए, कुरुक्षेत्र में अर्जुन के हाथ से गांडीव क्यों छूटा।",
+     "prompt": "A handsome young warrior with a great bow standing in a chariot on a battlefield at dawn, the bow slipping from his hand, two armies standing on both sides, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "अगली कथा में देखिए, रण से पहले अर्जुन का धनुष हाथ से क्यों छूटा।",
-     "prompt": "A fair-skinned young archer in saffron and gold armour sitting in a chariot between two vast armies on a plain, his bow slipping from his hand, Lord Krishna with blue skin and peacock feather crown holding the reins beside him, dramatic light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
-    },
-    {
      "vo": "कमेंट में जय श्री कृष्ण लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
-     "prompt": "Lord Krishna with blue skin, peacock feather crown, yellow dhoti, playing a flute under a glowing evening sky, floating flower petals, soft golden light, one figure, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "move": "pull",
+     "prompt": "Lord Krishna smiling with one hand raised in blessing, soft golden temple light, oil lamps glowing around him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     }
    ]
   }
  ],
- "topic_demand": {
-  "median": 3197987,
-  "hits": 6,
-  "outliers": 5,
-  "q": "कृष्ण शांतिदूत क्यों बने",
-  "matched": "6/10"
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "complete",
+  "points": [
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1
+  ]
  },
- "review_note": "regenerate failed, try again (Retell it under the brief above as the COMPLETE story (topic_type complete): Krishna's whole peace mission from the end of the exile to his return from Hastinapur, chapter by chapter (the demand for five villages, the journey, Vidura's house, the court, the attempt to bind him, the Vishvarupa, Krishna and Karna), not one short incident. The earlier version is only a reference for the story: do not keep its opening, its source line, its list of sections or its length. Follow the Udyoga Parva; Krishna's talk with Karna was a long conversation on the chariot, not a whisper.)"
+ "review_note": "rewritten with: Retold as the complete story of Krishna's peace mission (engine review, 12 Nov 2026)."
 }
