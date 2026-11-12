@@ -1,0 +1,482 @@
+{
+ "slug": "21-american-wood-houses",
+ "build": "github",
+ "title": "Why American Homes Are Built From Wood (But Europe Uses Brick)",
+ "thumbnail": {
+  "layout": "split",
+  "left_label": "WORLD",
+  "right_label": "USA",
+  "text": "BUILT FROM *STICKS*?",
+  "plane": "A solid red-brick two-storey European terraced house with a slate roof and white sash windows, centred and large, seen straight on, bright midday daylight, clean pale blue sky, tidy pavement, warm oil painting style, no people, no text, no logos, no signs, no brands, no numbers",
+  "right": "A new American two-storey suburban house under construction, bare pale wooden stud frame of two-by-fours and roof trusses fully exposed, centred and large, seen straight on, bright midday daylight, clean pale blue sky, fresh dirt lot, warm oil painting style, no people, no text, no logos, no signs, no brands, no numbers"
+ },
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "words_in_edit": true,
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "cause",
+  "points": [
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1
+  ]
+ },
+ "music": {
+  "reflective": [
+   "cold_open",
+   "ch1",
+   "ch2",
+   "ch3",
+   "ch6",
+   "outro"
+  ],
+  "intense": [
+   "ch4",
+   "ch5"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Knock on the wall of almost any American living room.",
+     "prompt": "Close-up of a hand knocking on a plain painted drywall in a modern American suburban living room, sofa and lamp softly blurred behind, warm evening lamplight, realistic oil painting, eye-level camera, no text, no logos, no brands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It sounds hollow, because behind the drywall is a frame of wood.",
+     "prompt": "Cutaway view of the same American living-room wall: drywall peeled back to reveal pale wooden two-by-four studs and pink insulation, warm lamplight, realistic oil painting, medium shot, no text, no logos, no brands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Knock on a wall in London or Berlin, and you hit brick.",
+     "prompt": "A hand knocking on the exposed red-brick interior wall of a London terraced house, sash window light falling across the bricks, overcast daylight, realistic oil painting, close shot, no text, no logos, no brands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The richest country on Earth builds its homes out of lumber.",
+     "prompt": "Wide aerial view of an endless American suburb of new houses under construction, rows of bare wooden frames on fresh dirt lots, bright morning sun, realistic oil painting, high wide angle, no text, no logos, no brands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "That was not an accident.",
+     "prompt": "A single bare wooden house frame standing alone on an empty lot at dusk, long shadows, dramatic orange sky, realistic oil painting, low wide angle, no text, no logos, no brands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A billion acres of trees, a cheap nail, and one city's fire in 1871.",
+     "prompt": "Triptych-style single painting: a vast untouched forest on the left, a single iron cut nail lying on a workbench in the centre, a 19th-century wooden city burning at night on the right, painterly transitions, dramatic light, realistic oil painting, no text, no numbers, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1620, English settlers stepped ashore and looked up at the trees.",
+     "prompt": "Early 17th-century English settlers in wool cloaks and hats stepping onto a rocky New England shore from a wooden rowboat, gazing up at towering old-growth white pines and oaks, cold grey morning light, realistic oil painting, low angle wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "AN ENDLESS FOREST",
+   "shots": [
+    {
+     "vo": "They had left behind a country that was running out of wood. Centuries of shipbuilding, iron-making and firewood had stripped England's forests.",
+     "prompt": "17th-century English countryside of bare rolling hills dotted with tree stumps, a distant smoking iron furnace and a half-built wooden ship in a harbour, overcast light, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So in England, ordinary families built in brick, stone and clay.",
+     "prompt": "A 17th-century English village street of brick and stone cottages, a mason laying bricks with a trowel in the foreground, soft daylight, realistic oil painting, medium shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "America was the opposite. Forests covered about a billion acres of what is now the United States, close to half the land.",
+     "prompt": "diagram (pipeline/diagram.py): outline of the contiguous United States shaded green for forest cover around 1630, label 'About 1 billion acres of forest (c. 1630)', source line 'USDA Forest Service'",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The biggest trees belonged to the King. From 1691, the tallest white pines were reserved for Royal Navy masts, marked with a broad arrow cut into the bark.",
+     "prompt": "Close shot of a colonial surveyor in a tricorn hat cutting an arrow-shaped mark into the bark of a giant white pine trunk with a hatchet, dense New England forest, shafts of sunlight, realistic oil painting, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Everything else, the colonists could cut. Brick meant clay, kilns, fuel and skilled masons. Wood needed an axe.",
+     "prompt": "A colonial settler in linen shirt swinging an axe into an oak beside a half-cleared clearing, a log pile behind, warm afternoon sun, realistic oil painting, medium shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Around 1640 in Dedham, Massachusetts, Jonathan Fairbanks built a house of heavy oak timbers.",
+     "prompt": "1640s Massachusetts: a family raising the heavy hand-hewn oak frame of a steep-roofed timber house with ropes and poles, forest edge behind, crisp spring daylight, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It is still standing, nearly four hundred years later.",
+     "prompt": "The weathered dark-shingled Fairbanks House, a 17th-century timber-frame saltbox house with a massive central chimney, among green lawns and old trees in present-day Dedham, Massachusetts, soft summer daylight, realistic oil painting, wide shot, no text, no logos, no signs",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But every beam was hand-cut and joined with wooden pegs. One small thing was simply too valuable to waste: the nail.",
+     "prompt": "Extreme close-up of a hand-cut mortise-and-tenon joint in an oak beam fastened with a wooden peg, a single hand-forged iron nail resting beside it, warm candlelight, realistic oil painting, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "THE PRICE OF A NAIL",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "subscribe_ask": true,
+     "prompt": "A colonial blacksmith in a leather apron hammering a glowing nail on an anvil, sparks flying, dark forge lit by orange coals, realistic oil painting, close shot, no text, no logos",
+     "seed": 1500,
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In colonial America, nails were hammered out one at a time by a blacksmith.",
+     "prompt": "A colonial blacksmith in a leather apron hammering a glowing nail on an anvil, sparks flying, dark forge lit by orange coals, realistic oil painting, close shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "They were so precious that in 1646, Virginia passed a law to stop people burning down their old houses to collect the nails.",
+     "prompt": "A 1640s Virginia settler raking through the smouldering ashes of a burned wooden cabin, picking blackened nails into a wooden bowl, grey smoky dawn light, realistic oil painting, medium shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1794, Thomas Jefferson set up a nailery at Monticello, worked by enslaved boys as young as ten.",
+     "prompt": "Interior of a late-18th-century Virginia nailery workshop: young Black boys in rough linen clothes hammering nails at small forges, harsh light from the forge fires, solemn mood, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then machines took over. From the 1790s, American inventors built machines that sliced nails straight from strips of iron.",
+     "prompt": "An early 19th-century iron nail-cutting machine in a brick mill, a worker feeding a flat iron strip as cut nails pour into a wooden bin, daylight through tall windows, realistic oil painting, medium shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Economist Daniel Sichel found that around 1810, making nails was about 0.4 percent of the entire US economy.",
+     "prompt": "diagram (pipeline/diagram.py): single highlighted bar or pie slice labelled 'Nail making, c. 1810: about 0.4% of US GDP', source line 'Sichel, Journal of Economic Perspectives, 2022'",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Over the next century and a half, the real price of a nail fell by roughly 90 percent.",
+     "prompt": "diagram (pipeline/diagram.py): line chart of the real price of nails from 1790 to 1950 falling steeply, annotation 'Real price down about 90%', source line 'Sichel, 2022'",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A nail stopped being treasure. It became something you dropped and never bothered to pick up.",
+     "prompt": "A handful of iron cut nails scattered on rough floorboards, one rolling away, a worn work boot stepping past without stopping, warm daylight, realistic oil painting, low close shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "And cheap nails meant a builder no longer needed giant beams or expert joinery. In a muddy frontier town, someone was about to prove it.",
+     "prompt": "A muddy 1830s frontier settlement on a flat prairie by a river mouth, a few rough wooden shacks, stacks of sawn lumber and nail kegs on the bank, low grey sky, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "THE BALLOON FRAME",
+   "shots": [
+    {
+     "vo": "In 1833, Chicago was a swampy village of about 350 people.",
+     "prompt": "1833 Chicago: a handful of log cabins and wooden shacks beside the marshy Chicago River and Lake Michigan, a small wooden fort in the distance, wet grass, cloudy light, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "That year, a carpenter named Augustine Taylor is said to have built St. Mary's Church in a new way. Historians still argue over who invented it, but Taylor usually gets the credit.",
+     "prompt": "1833 Chicago: a carpenter in waistcoat and shirtsleeves directing a few men raising a light wooden frame of a small church on a muddy lot, hammers in hand, morning light, realistic oil painting, medium shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Instead of giant beams, he used thin, sawmill-cut boards, two inches by four, nailed together.",
+     "prompt": "Close shot of two sawn pine boards being nailed together at a right angle by a carpenter's hammer, pale fresh-cut wood grain, cut nails in a keg nearby, bright daylight, realistic oil painting, no text, no numbers, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Old-school builders scoffed. A house that light, they said, would blow away like a balloon. The name stuck.",
+     "prompt": "Two older 1830s carpenters in heavy coats standing with crossed arms, smirking at a flimsy-looking tall wooden stud frame against a windy sky, realistic oil painting, medium shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It did not blow away. Two men with a saw and a keg of nails could frame a house in about a week.",
+     "prompt": "Two 1840s workmen nailing up the tall continuous studs of a two-storey balloon-frame house on the prairie, a nail keg and saw at their feet, golden afternoon light, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Chicago exploded. By 1870 it held almost 300,000 people.",
+     "prompt": "diagram (pipeline/diagram.py): line chart of Chicago population, 1833 about 350 to 1870 about 299,000, source line 'U.S. Census'",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "About two-thirds of its buildings were wood. Streets were paved with pine blocks, and wooden sidewalks ran for hundreds of miles.",
+     "prompt": "Late-1860s Chicago street of wooden houses and shops, wooden plank sidewalks, a street paved with pine blocks, horse carts and pedestrians in period dress, warm dry autumn light, realistic oil painting, wide eye-level shot, no text, no logos, blank signs",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It was a city built of kindling. And in the autumn of 1871, it had barely rained in months.",
+     "prompt": "Dry brown grass and dusty wooden fences behind a row of wooden Chicago cottages in 1871, cracked earth, hot hazy orange sky, realistic oil painting, low wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "THE CITY THAT BURNED",
+   "shots": [
+    {
+     "vo": "On the night of October 8, 1871, a fire started in a barn behind the O'Leary family's cottage.",
+     "prompt": "Night, 1871 Chicago: flames bursting from a small wooden barn behind a modest cottage, a cow tethered nearby, neighbours running with buckets, orange firelight against darkness, realistic oil painting, medium wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The blame fell on Catherine O'Leary's cow. Years later, the reporter who spread that story admitted he made it up.",
+     "prompt": "A 19th-century newspaper reporter at a cluttered wooden desk writing by oil lamp, a newspaper page in front of him with the headline \"THE COW DID IT\", dim interior, realistic oil painting, close shot, no real masthead, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Pushed by hot, dry wind, the flames leapt from roof to roof, and even crossed the Chicago River.",
+     "prompt": "Night, 1871: a wall of fire sweeping across wooden rooftops of Chicago, burning embers flying over the Chicago River, wooden bridges ablaze, intense orange and red light, realistic oil painting, high wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Crowds fled toward the lake, dragging whatever they could carry.",
+     "prompt": "Panicked crowds in 1870s clothing fleeing along a street toward Lake Michigan with bundles, trunks and children, burning buildings behind, smoke-filled orange sky, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In about two days, the fire destroyed roughly 17,500 buildings across more than three square miles.",
+     "prompt": "diagram (pipeline/diagram.py): simple outline of 1871 Chicago with the burned district shaded red, labels 'About 17,500 buildings destroyed' and '3+ square miles', source line 'Chicago History Museum'",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Around 300 people died. About 100,000, a third of the city, lost their homes.",
+     "prompt": "Morning after the 1871 Chicago fire: smoking ruins and lone chimneys stretching to the horizon, homeless families sitting among salvaged belongings in the foreground, grey ash-filled daylight, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Newspapers across the country gave one verdict: wood had killed Chicago.",
+     "prompt": "A man in an 1870s bowler hat reading a newspaper on a city street corner, the page held up toward the camera with the headline \"CHICAGO IN RUINS\", overcast daylight, realistic oil painting, medium close shot, no real masthead, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A month later, voters elected newspaper owner Joseph Medill mayor on what was called the Fireproof ticket.",
+     "prompt": "November 1871 Chicago: a crowd gathered before a temporary wooden platform, a bearded man in a dark frock coat speaking, a large banner behind him reading \"FIREPROOF TICKET\", cold grey daylight, realistic oil painting, wide shot, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "His plan was simple: no more wooden buildings in the city. That is when the people of Chicago fought back.",
+     "prompt": "A city clerk nailing a large paper notice to a charred post reading \"NO WOODEN BUILDINGS\", a group of working men in caps watching with angry faces, cold winter light, realistic oil painting, medium shot, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "THE RIOT FOR WOOD",
+   "shots": [
+    {
+     "vo": "Many of the families burned out were working people, a lot of them German and Irish immigrants who owned small lots.",
+     "prompt": "1871 Chicago: a working-class immigrant family standing on their own empty burned lot, the father in a worn cap holding a deed paper, a single surviving chimney beside them, cold grey light, realistic oil painting, medium shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Brick cost far more than wood. A total ban meant they could never afford to rebuild on their own land.",
+     "prompt": "A worried 1870s labourer and his wife at a kitchen table counting a few coins beside a stack of bricks and a small pile of pine boards, oil-lamp light, realistic oil painting, close shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "On January 15, 1872, a crowd marched on City Hall. Rocks crashed through the windows of the council chamber.",
+     "prompt": "Winter 1872 Chicago: a crowd of working men in coats and caps surging toward a temporary City Hall building, a window shattering from a thrown rock, snowy street, torches and grey light, realistic oil painting, wide dramatic shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The council backed down. Wood was banned downtown, but allowed in the outer neighbourhoods.",
+     "prompt": "1872 Chicago council chamber with broken glass on the floor, aldermen in frock coats seated at long tables, one standing to vote with raised hand, cold window light, realistic oil painting, medium wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So the workers rebuilt in wood, just past the line. In 1874, after another big fire, the limits were pushed out to cover the whole city.",
+     "prompt": "1870s Chicago edge of town: rows of small new wooden workers' cottages going up fast on muddy lots, carpenters nailing siding, brick buildings visible in the distant centre, bright spring daylight, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So builders moved out again, to the new suburbs, where land was cheap and wood was legal.",
+     "prompt": "1880s American railroad suburb: a steam train at a small wooden station, new balloon-frame houses with porches spreading across open prairie, bright summer sky, realistic oil painting, wide shot, no text, no logos, blank station sign",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Brick won the downtown. Wood won everywhere else.",
+     "prompt": "Split view in one painting: dense 1880s Chicago downtown of brick and stone buildings on the left, open suburbs of white wooden houses on the right, soft daylight, realistic oil painting, high wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The frame did change. Fire raced up those tall, open balloon-frame walls like a chimney.",
+     "prompt": "Cutaway of a two-storey balloon-frame wall interior with flames and smoke rising straight up the hollow cavity between tall studs from floor to attic, dark interior, intense orange light, realistic oil painting, close shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "By the 1940s, builders had switched to platform framing: one floor at a time, each sealed at the top.",
+     "prompt": "1940s American carpenters in overalls building a house one storey at a time, standing on a finished wooden floor platform while raising the next wall section, bright daylight, realistic oil painting, medium wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Safer, faster, and still wood. And after World War Two, America needed millions of houses at once.",
+     "prompt": "1946: young returning American servicemen in uniform with wives and babies standing in line outside a crowded rental office, worried faces, autumn daylight, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "THE HOUSE YOU OWN",
+   "shots": [
+    {
+     "vo": "In 1947, Levitt and Sons began building on potato fields on Long Island.",
+     "prompt": "1947 Long Island: flat potato fields being cleared by bulldozers, the first rows of identical small wooden house frames rising, a large roadside board reading \"LEVITTOWN\", bright clear day, realistic oil painting, wide shot, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "They built like a factory line, each crew doing one job, house after house. At their peak, they finished about 30 houses a day.",
+     "prompt": "Late-1940s aerial view of a Levittown street: crews in a line of identical houses at different stages, frames, roofs, siding, painting, trucks dropping lumber at each lot, bright daylight, realistic oil painting, high wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Levittown grew to more than 17,000 homes, almost all of them wood frame.",
+     "prompt": "Early 1950s Levittown: endless curving streets of identical small Cape Cod wooden houses with young trees and new cars, children on bicycles, soft summer light, realistic oil painting, wide shot, no text, no logos, no brands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "That model spread everywhere, and it never stopped. Today, about nine in ten new single-family homes in America are framed in wood.",
+     "prompt": "diagram (pipeline/diagram.py): ten simple house icons, nine coloured wood-brown and one grey, label 'About 9 in 10 new US single-family homes are wood framed', source line 'U.S. Census Bureau, Survey of Construction'",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In England and Germany, most new homes are still built of brick or block.",
+     "prompt": "Present-day English housing estate under construction: bricklayers laying red brick walls on scaffolding, concrete blocks on pallets, overcast daylight, realistic oil painting, medium wide shot, no text, no logos, no brands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So is the American house worse? Not exactly.",
+     "prompt": "A present-day American family standing on the porch of their wooden two-storey suburban home, looking at it thoughtfully, late golden afternoon light, realistic oil painting, medium shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Wood flexes in an earthquake, where brick can crack and fall. It is cheaper, quicker to build, and easier to rewire or extend.",
+     "prompt": "A modern California wooden home standing intact after an earthquake while an old unreinforced brick wall beside it has partly collapsed into rubble, clear daylight, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But it burns, termites love it, and you can hear your neighbour through the walls.",
+     "prompt": "Close-up of a damaged wooden stud inside an opened wall riddled with termite tunnels, a flashlight beam on it, dim interior, realistic oil painting, close shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Europe's brick house is built for the great-grandchildren. America's wooden house is built for right now, and for the next owner to change.",
+     "prompt": "Side by side in one painting: an old ivy-covered European brick farmhouse at sunset on the left, a present-day American wooden house mid-renovation with a new extension frame on the right, warm golden light, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "So why does your wall sound hollow? Because America had endless trees, nails became almost free, and Chicago's workers fought for the right to build in wood.",
+     "prompt": "Return to the modern American living room: the hand resting flat on the plain drywall, the faint ghost of the wooden stud frame visible through it, warm lamplight, realistic oil painting, close shot, no text, no logos, no brands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Next time: why so many American homes have basements, and most British homes don't.",
+     "prompt": "A dim unfinished American basement with concrete walls, a single bare bulb, wooden stairs leading up to light, realistic oil painting, medium shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Brick or wood, which would you rather live in? Tell us below, and subscribe for the next hidden why.",
+     "prompt": "A red-brick European house and a white wooden American house facing each other across a quiet street at golden hour, centred composition, realistic oil painting, wide shot, no text, no logos",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "topic_demand": {
+  "median": 79695,
+  "hits": 5,
+  "outliers": 4,
+  "q": "why don't americans build houses out of brick like europe",
+  "matched": "8/10"
+ }
+}
