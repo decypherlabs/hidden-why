@@ -805,137 +805,137 @@
     },
     {
      "vo": "ये इंडिया की पहली मोबाइल कॉल थी। और हैंडसेट नोकिया का था।",
-     "prompt": "a chunky 1990s grey mobile handset with a pull-up antenna and the word \"NOKIA\" above its small green screen resting on a polished wooden desk, a camera flash burst in the background, product hero close-up",
+     "prompt": "a chunky 1990s grey mobile handset with a pull-up antenna resting on a polished wooden desk, a camera flash burst in the background, product hero close-up",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "caption": "ये India की पहली mobile call थी। और handset Nokia का था।",
      "words": {
       "14": {
-       "src": "b0134618fb29",
+       "src": "322ac461fc10",
        "items": [
         {
          "text": "NOKIA",
          "grid": [
           [
            [
-            690.2,
-            426.0
+            633.3,
+            250.1
            ],
            [
-            714.8,
-            426.0
+            677.5,
+            250.1
            ],
            [
-            739.9,
-            426.0
+            722.5,
+            250.1
            ],
            [
-            765.0,
-            426.0
+            767.5,
+            250.1
            ],
            [
-            789.7,
-            426.0
+            811.7,
+            250.1
            ],
            [
-            814.7,
-            426.0
+            856.7,
+            250.1
            ],
            [
-            839.8,
-            426.0
+            901.7,
+            250.1
            ]
           ],
           [
            [
-            690.2,
-            440.0
+            633.3,
+            272.7
            ],
            [
-            714.8,
-            440.0
+            677.5,
+            272.7
            ],
            [
-            739.9,
-            440.0
+            722.5,
+            272.7
            ],
            [
-            765.0,
-            440.0
+            767.5,
+            272.7
            ],
            [
-            789.7,
-            440.0
+            811.7,
+            272.7
            ],
            [
-            814.7,
-            440.0
+            856.7,
+            272.7
            ],
            [
-            839.8,
-            440.0
+            901.7,
+            272.7
            ]
           ],
           [
            [
-            690.2,
-            454.1
+            633.3,
+            295.2
            ],
            [
-            714.8,
-            454.1
+            677.5,
+            295.2
            ],
            [
-            739.9,
-            454.1
+            722.5,
+            295.2
            ],
            [
-            765.0,
-            454.1
+            767.5,
+            295.2
            ],
            [
-            789.7,
-            454.1
+            811.7,
+            295.2
            ],
            [
-            814.7,
-            454.1
+            856.7,
+            295.2
            ],
            [
-            839.8,
-            454.1
+            901.7,
+            295.2
            ]
           ]
          ],
          "style": "print",
-         "color": "#FFFFFF",
+         "color": "#000000",
          "corners": [
           [
-           680,
-           420
+           615,
+           235
           ],
           [
-           850,
-           420
+           920,
+           235
           ],
           [
-           850,
-           460
+           920,
+           310
           ],
           [
-           680,
-           460
+           615,
+           310
           ]
          ],
          "band": [
-          0.15,
-          0.85
+          0.2,
+          0.8
          ]
         }
        ]
       }
      },
-     "seed": 8933
+     "seed": 16852
     },
     {
      "vo": "तब मोबाइल अमीरों की चीज़ था। इनकमिंग कॉल पर भी पैसे कटते थे।",
@@ -7763,23 +7763,18 @@
  "voice_approved_at": "2026-11-12 11:58",
  "repaint": {
   "shots": [
-   13,
    14
   ],
-  "thumbs": [
-   "shot-13-2.png"
-  ],
-  "at": "2026-11-12 12:15"
+  "thumbs": [],
+  "at": "2026-11-12 13:05"
  },
  "shot_qc": {
-  "checked": "2026-11-12T06:30:52Z",
-  "rounds": 1,
+  "checked": "2026-11-12T07:21:42Z",
+  "rounds": 2,
   "why": {
-   "13": "The description specifies a chunky grey mobile handset with a pull-up antenna; the image displays a modern, slim, flat black smartphone, which contradicts the 1995 era and the narration.",
-   "14": "The description specifies a chunky 1990s grey mobile handset with a pull-up antenna; the image depicts a modern, slim, flat black smartphone, creating a historical inaccuracy for the first mobile call in India."
+   "14": "The narration line specifies a 'Nokia' handset, but AI-generated text or logos on product hero shots often result in garbled or incorrect brand lettering that is easily caught at normal speed."
   },
   "recheck": [
-   "13",
    "14"
   ]
  }
