@@ -1,0 +1,982 @@
+{
+ "slug": "ll-024-nokia-india",
+ "format": "long",
+ "brand": "logos-and-legends",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "words_in_edit": true,
+ "look": "muted",
+ "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, every other signboard, shop front, banner, poster and package plain and blank without any lettering, only the words the prompt quotes printed crisp and correctly spelled, Indian shops and markets with Indian goods and Indian shoppers, never a Western store, ultra detailed, desaturated muted colour, overcast soft light, cool shadows, sombre mood",
+ "title": "NOKIA आख़िर कहाँ ग़ायब हो गया? 📱 | 1100 की Torch से Chennai Factory के ताले तक | Rise & Fall",
+ "intro_title": "THE NOKIA STORY",
+ "thumbnail": {
+  "layout": "face",
+  "text": "फ़ोन नहीं, *कंपनी* टूटी",
+  "plane": "A grey 2000s candy-bar keypad mobile phone standing huge and unbroken in the foreground on wet concrete, its small green screen glowing, behind it a vast dark Indian factory with shutters pulled down under a stormy dusk sky, a lone young Indian woman factory worker in a pale blue uniform looking back at the factory with tears in her eyes, dramatic cold side light, cinematic realistic painting, no logo, no text",
+  "zoom": "Extreme close-up of a small grey keypad mobile phone lying face up on cracked concrete, perfectly intact, its tiny torch lit, a padlocked factory chain blurred behind it, moody realistic painting, no logo, no text"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "ch4",
+   "ch5"
+  ],
+  "reflective": [
+   "ch1",
+   "ch6",
+   "ch7",
+   "outro"
+  ],
+  "epic": [
+   "ch2",
+   "ch3"
+  ]
+ },
+ "source": "Microsoft press releases: 3 September 2013 (acquisition of Nokia's Devices & Services business, €3.79 billion plus €1.65 billion patent licence = €5.44 billion), 17 July 2014 (up to 18,000 job cuts), 8 July 2015 ($7.6 billion impairment, up to 7,800 job cuts), 18 May 2016 (feature phone business sold to FIH Mobile and HMD Global for $350 million); Nokia press release, 11 February 2011: Nokia and Microsoft announce plans for a broad strategic partnership; Reuters, 2013-2014: Nokia India income tax and Tamil Nadu sales tax disputes; Nokia to suspend Chennai plant production from 1 November 2014; Gartner press releases, 2008 and February 2011: worldwide smartphone sales by operating system (Symbian over 60% in 2007); Trust Research Advisory, The Brand Trust Report, India Study 2011 (Nokia ranked India's most trusted brand)",
+ "journey_score": 8.6,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "याद है, आपके पापा की जेब में एक छोटा सा ग्रे फ़ोन होता था?",
+     "prompt": "an Indian father in his late 40s with greying hair and a thick moustache pulling a small grey keypad phone from his shirt pocket, wearing a brown sweater vest over a white shirt, modest Indian living room, a steel almirah and wall calendar behind him, warm tube-light glow, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "याद है, आपके पापा की जेब में एक छोटा सा grey phone होता था?",
+     "date": "1995"
+    },
+    {
+     "vo": "वो गिरता था, तो बैटरी अलग, कवर अलग, फ़ोन अलग।",
+     "prompt": "a small grey keypad mobile phone lying on a red-oxide floor, broken into three separate pieces: the back cover, the battery, and the phone body, close-up, pieces resting on the ground, harsh overhead light",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Overhead close-up of the three pieces of the grey phone lying scattered on the red-oxide floor beside a pair of rubber chappals"
+     ],
+     "caption": "वो गिरता था, तो battery अलग, cover अलग, phone अलग।"
+    },
+    {
+     "vo": "आप तीनों जोड़ते, और फ़ोन फिर चालू।",
+     "prompt": "a slim young Indian man of 20 with a thin moustache snapping the battery and back cover onto a grey keypad phone with his hands, wearing a light blue checked shirt, the tiny green screen lighting up, soft afternoon window light, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of the slim young Indian man of 20 with a thin moustache in a light blue checked shirt grinning in relief at the glowing phone screen, his father laughing beside him"
+     ],
+     "caption": "आप तीनों जोड़ते, और phone फिर चालू।"
+    },
+    {
+     "vo": "बिजली जाती, तो उसी फ़ोन की टॉर्च से घर में रोशनी होती।",
+     "prompt": "an Indian mother in a cotton saree holding a small grey keypad phone with a bright white beam of light coming from its top, lighting a kitchen shelf in a pitch-dark home, wide shot, night",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a grey keypad phone's tiny torch beam falling on a box of matches and a white candle on a steel plate"
+     ],
+     "caption": "बिजली जाती, तो उसी phone की torch से घर में रोशनी होती।"
+    },
+    {
+     "vo": "लोग मॉडल नहीं पूछते थे। बोलते थे, 'नोकिया दिखाना ज़रा।'",
+     "prompt": "a round-faced Indian mobile shopkeeper in his 40s with a white kurta and a gold wristwatch holding up a grey keypad phone with the word \"NOKIA\" above its screen, standing behind a glass counter, busy 2000s Indian mobile shop, bright daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "लोग model नहीं पूछते थे। बोलते थे, 'Nokia दिखाना ज़रा।'",
+     "label": "NOKIA · फिनलैंड की टेलीकॉम दिग्गज"
+    },
+    {
+     "vo": "फिर एक दिन वो जेबों से चुपचाप ग़ायब हो गया।",
+     "prompt": "an empty shirt pocket on a cream shirt hanging on a wooden peg, the fabric showing a faint rectangular worn outline of a phone, plain wall, grey overcast morning light, close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A grey keypad phone lying forgotten in a dusty wooden drawer among old keys and rubber bands, dim light"
+     ]
+    },
+    {
+     "vo": "और हमने पूछा तक नहीं, क्यों?",
+     "prompt": "a slim young Indian man of 20 with a thin moustache holding a dusty grey keypad phone in his left hand and a sleek modern touchscreen phone in his right, looking at them with a puzzled expression, cool blue evening light, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "split": {
+      "left": "07",
+      "right": "07",
+      "l": "पुराना कीपैड",
+      "r": "नया स्मार्टफोन"
+     }
+    },
+    {
+     "vo": "क्या आईफ़ोन ने मारा? या एंड्रॉइड ने?",
+     "prompt": "a sleek black touchscreen smartphone and a small green toy robot standing next to a small grey keypad phone lying flat on its back, dark wooden table, single hard spotlight, deep shadows, symbolic wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "क्या iPhone ने मारा? या Android ने?"
+    },
+    {
+     "vo": "क्या माइक्रोसॉफ्ट का सौदा ग़लत था?",
+     "prompt": "two hands in dark suit sleeves shaking over a glossy boardroom table with a thick paper contract reading \"ACQUISITION\" between them, a small grey keypad phone sitting beside the paper, cold fluorescent light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "क्या Microsoft का सौदा ग़लत था?"
+    },
+    {
+     "vo": "या चेन्नई की नोकिया फ़ैक्ट्री पर एक टैक्स का झगड़ा भारी पड़ा?",
+     "prompt": "a huge modern factory gate with a heavy iron chain and padlock, a sign on the gate reading \"NOKIA\", empty road with puddles, dusk under heavy monsoon clouds, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a thick government file on a desk with a red cover label reading \"TAX DEMAND\", dim office light"
+     ],
+     "caption": "या Chennai की Nokia factory पर एक tax का झगड़ा भारी पड़ा?"
+    },
+    {
+     "vo": "कहानी शुरू होती है इकतीस जुलाई उन्नीस सौ पचानवे, कोलकाता से।",
+     "prompt": "yellow ambassador taxis and a green tram moving on a busy Kolkata street beside a long red-brick colonial government building, Indian office-goers with umbrellas, humid overcast afternoon, 1990s setting, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "कहानी शुरू होती है 31 July 1995, Kolkata से।",
+     "place": {
+      "name": "KOLKATA",
+      "sub": "WRITERS' BUILDING · 1995",
+      "query": "Writers' Building, Kolkata",
+      "lat": 22.5736,
+      "lon": 88.3491
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "पहली Call",
+   "shots": [
+    {
+     "vo": "इकतीस जुलाई उन्नीस सौ पचानवे। कोलकाता की राइटर्स बिल्डिंग में एक फ़ोन बजने वाला था।",
+     "prompt": "the long red-brick colonial facade of Writers' Building in Kolkata, white 1990s sedans parked in front, Indian policemen in khaki uniforms at the entrance, grey monsoon afternoon, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of a high-ceilinged 1990s government office inside, Indian officials in white shirts gathered around a large wooden desk, a wall calendar page reading \"JULY 1995\""
+     ],
+     "caption": "31 July 1995. Kolkata की Writers' Building में एक phone बजने वाला था।"
+    },
+    {
+     "vo": "वेस्ट बंगाल के मुख्यमंत्री ज्योति बसु ने दिल्ली में टेलीकॉम मिनिस्टर सुख राम को कॉल किया।",
+     "prompt": "an elderly Indian man in a white kurta and shawl holding a chunky grey mobile handset with a pull-up antenna to his ear, standing by a tall bright window, Indian officials and photographers watching, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Split-composition painting: a Delhi government office with an Indian man in silhouette, face in shadow, answering a phone at a wide desk, dim afternoon light"
+     ],
+     "caption": "West Bengal के मुख्यमंत्री Jyoti Basu ने Delhi में Telecom Minister Sukh Ram को call किया।",
+     "label": "JYOTI BASU · तत्कालीन मुख्यमंत्री, पश्चिम बंगाल"
+    },
+    {
+     "vo": "ये इंडिया की पहली मोबाइल कॉल थी। और हैंडसेट नोकिया का था।",
+     "prompt": "a chunky 1990s grey mobile handset with a pull-up antenna and the word \"NOKIA\" above its small green screen resting on a polished wooden desk, a camera flash burst in the background, product hero close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "ये India की पहली mobile call थी। और handset Nokia का था।"
+    },
+    {
+     "vo": "तब मोबाइल अमीरों की चीज़ था। इनकमिंग कॉल पर भी पैसे कटते थे।",
+     "prompt": "a wealthy Indian businessman in a safari suit sitting in the back seat of a white 1990s sedan, talking on a large brick-sized mobile phone, city lights visible through the window, night, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of an Indian man frowning at a thick paper mobile bill with a total circled in red ink, under a desk lamp"
+     ],
+     "caption": "तब mobile अमीरों की चीज़ था। Incoming call पर भी पैसे कटते थे।"
+    },
+    {
+     "vo": "कहा जाता है, एक मिनट की कॉल सोलह रुपये तक पड़ती थी।",
+     "prompt": "a printed 1990s telecom tariff card on a wooden office counter, a line reading \"₹16 / MIN\" circled in red pen, a hand resting beside the card, flat fluorescent light, close-up",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "कहा जाता है, एक मिनट की call ₹16 तक पड़ती थी।"
+    },
+    {
+     "vo": "आम आदमी के लिए असली फ़ोन था गली का एस टी डी बूथ। वहाँ लाइन लगती थी।",
+     "prompt": "a small yellow street booth with a board reading \"STD ISD PCO\", a long queue of Indian men and women waiting outside, glowing meter on the counter, 1990s Indian street corner, night, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of an Indian woman inside the booth pressing a heavy cream landline receiver to her ear, watching the call meter tick up nervously"
+     ],
+     "caption": "आम आदमी के लिए असली phone था गली का STD booth। वहाँ लाइन लगती थी।"
+    },
+    {
+     "vo": "पर नोकिया ने इंडिया को ग़ौर से देखा। यहाँ धूल है, गर्मी है, बिजली कटती है।",
+     "prompt": "a dusty small-town Indian market street with heat haze, a small dust devil swirling on the ground near shop fronts, Indian vendors shading their eyes, harsh noon sun, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of an Indian family sitting outside their house at night during a power cut, a hand fan moving, only a kerosene lamp lighting their faces"
+     ],
+     "caption": "पर Nokia ने India को ग़ौर से देखा। यहाँ धूल है, गर्मी है, बिजली कटती है।"
+    },
+    {
+     "vo": "और यहाँ लोग एक चीज़ ख़रीदते हैं, तो उसे सालों तक चलाते हैं।",
+     "prompt": "an old Indian repairman with weathered hands using a tiny screwdriver to fix a worn brown radio on a cluttered roadside bench, overcast daylight, close-up of hands and radio",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of a 1990s Indian scooter repaired many times, its seat stitched with patches, parked outside a modest home in soft morning light"
+     ]
+    },
+    {
+     "vo": "फिर दो हज़ार तीन में नोकिया एक ऐसा फ़ोन लाया, जो इन्हीं सब के लिए बना था।",
+     "prompt": "a small cardboard phone box on a dark workbench, the lid open to reveal a grey keypad phone resting inside, a single beam of light from above, dark background, symbolic medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "फिर 2003 में Nokia एक ऐसा phone लाया, जो इन्हीं सब के लिए बना था।",
+     "date": "2003"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "The 1100",
+   "shots": [
+    {
+     "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
+     "subscribe_ask": true,
+     "prompt": "a small grey 2003 keypad phone with the word \"NOKIA\" printed above its tiny green monochrome screen, standing upright on a smooth slate surface, dramatic studio side light, product hero shot",
+     "seed": 1500,
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "move": "push"
+    },
+    {
+     "vo": "नोकिया ग्यारह सौ। ग्रे बॉडी, छोटी सी स्क्रीन, और रबर का कीपैड।",
+     "prompt": "a small grey 2003 keypad phone with the word \"NOKIA\" printed above its tiny green monochrome screen, standing upright on a smooth slate surface, dramatic studio side light, product hero shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a thumb pressing the soft rubber keypad of the grey phone, the keys glowing faint green"
+     ],
+     "caption": "Nokia 1100. Grey body, छोटी सी screen, और rubber का keypad।",
+     "title": "NOKIA 1100: एक युग"
+    },
+    {
+     "vo": "इसे इंडिया जैसे बढ़ते मार्केट्स को सोचकर डिज़ाइन किया गया था। महँगे फ़ीचर्स नहीं, बस मज़बूती।",
+     "prompt": "Indian and Finnish engineers in a dim design lab gathered around a table with several grey phone prototypes, an Indian engineer pressing a rubber keypad with a dusty thumb, sketch board behind them, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a prototype grey phone being dropped onto a steel test plate by a mechanical arm, a technician's notepad beside it"
+     ],
+     "caption": "इसे India जैसे बढ़ते markets को सोचकर design किया गया था। महँगे features नहीं, बस मज़बूती।"
+    },
+    {
+     "vo": "कीपैड में धूल नहीं घुसती थी। और किनारे हाथ से फिसलते नहीं थे।",
+     "prompt": "an Indian construction worker in a dusty vest on a building site, using his thumb to dial on a grey keypad phone, bright hazy sunlight, dust on his hands, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of the textured anti-slip sides of the grey keypad phone held in a sweaty hand"
+     ],
+     "caption": "Keypad में धूल नहीं घुसती थी। और किनारे हाथ से फिसलते नहीं थे।"
+    },
+    {
+     "vo": "और ऊपर एक छोटी सी टॉर्च। गाँवों में यही सबसे बड़ा फ़ीचर बन गया।",
+     "prompt": "an Indian farmer in a white dhoti walking down a dark village lane at night, the small white beam from his keypad phone lighting the path ahead, no streetlights, trees in silhouette, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of the farmer's hand holding the phone, the torch beam falling on a muddy footpath and a goat's eyes shining in the dark"
+     ],
+     "caption": "और ऊपर एक छोटी सी torch। गाँवों में यही सबसे बड़ा feature बन गया।"
+    },
+    {
+     "vo": "बैटरी कई दिन चलती थी। बिजली चली जाए, तब भी फ़ोन ज़िंदा रहता।",
+     "prompt": "a grey keypad phone lying on a stone windowsill in a dark room, its screen glowing to show a full battery bar icon, moonlight through window bars, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Battery कई दिन चलती थी। बिजली चली जाए, तब भी phone ज़िंदा रहता।"
+    },
+    {
+     "vo": "दुकान पर लोग मॉडल नहीं पूछते थे। बस इतना कहते, 'नोकिया वाला दे दो।'",
+     "prompt": "a crowded small-town Indian mobile shop with a glass counter full of grey keypad phones, a shop board reading \"MOBILE CENTRE\", Indian customers jostling, busy evening, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of the round-faced Indian mobile shopkeeper in his forties with a white kurta and a gold wristwatch handing a phone box across the counter, smiling broadly"
+     ],
+     "caption": "दुकान पर लोग model नहीं पूछते थे। बस इतना कहते, 'Nokia वाला दे दो।'"
+    },
+    {
+     "vo": "बहुत से घरों में पहला मोबाइल यही था। पहले पापा की जेब में, फिर मम्मी के हाथ में।",
+     "prompt": "an Indian father in his late 40s with greying hair and a thick moustache showing a new grey keypad phone to his wife and son, modest Indian living room, warm evening lamp light, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of the Indian mother in a cotton saree holding the same grey phone to her ear in the kitchen, a pressure cooker on the stove behind her"
+     ],
+     "caption": "बहुत से घरों में पहला mobile यही था। पहले पापा की जेब में, फिर मम्मी के हाथ में।"
+    },
+    {
+     "vo": "वो गिरता था, पर टूटता नहीं था। यही नोकिया की पहचान बन गई।",
+     "prompt": "a slim young Indian man of 20 with a thin moustache dropping a grey keypad phone onto stone college stairs, the phone bouncing on a step without breaking, grey overcast light, medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of the phone lying on the stone step, screen still glowing, not a scratch on it"
+     ],
+     "caption": "वो गिरता था, पर टूटता नहीं था। यही Nokia की पहचान बन गई।"
+    },
+    {
+     "vo": "दुनिया भर में नोकिया ग्यारह सौ के पच्चीस करोड़ से ज़्यादा यूनिट्स बिके।",
+     "prompt": "a printed sales report on a glass desk, a bar chart with the top figure reading \"250,000,000\" circled in red ink, a grey keypad phone resting beside the paper, cool white light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "दुनिया भर में Nokia 1100 के 25 करोड़ से ज़्यादा units बिके।"
+    },
+    {
+     "vo": "इसे अक्सर सबसे ज़्यादा बिकने वाला फ़ोन कहा जाता है।",
+     "prompt": "a giant mountain of thousands of identical grey keypad phones piled high inside a vast dim warehouse, a single shaft of light falling on the peak, symbolic wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "इसे अक्सर सबसे ज़्यादा बिकने वाला phone कहा जाता है।"
+    },
+    {
+     "vo": "रिपोर्ट्स के मुताबिक़, चाइना के बाद इंडिया अब नोकिया का दूसरा सबसे बड़ा मार्केट था।",
+     "prompt": "a world map pinned to a wall with a large red pin stuck in India, a paper tag on the pin reading \"NO. 2 MARKET\", an executive's hand touching the map edge, dim Finnish boardroom, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of Finnish executives in suits at a long table on a snowy grey afternoon, looking at the map, a window full of falling snow behind them"
+     ],
+     "caption": "Reports के मुताबिक़, China के बाद India अब Nokia का दूसरा सबसे बड़ा market था।"
+    },
+    {
+     "vo": "तो नोकिया ने इंडिया में ही अपनी फ़ैक्ट्री लगाने का फ़ैसला किया।",
+     "prompt": "an empty plot of red earth with surveyors' pegs and a construction crane in the distance, a board reading \"SEZ SITE\", Tamil Nadu highway background, dawn light, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of Indian engineers in hard hats unrolling factory blueprints on the bonnet of a jeep in soft dawn light"
+     ],
+     "caption": "तो Nokia ने India में ही अपनी factory लगाने का फ़ैसला किया।",
+     "place": {
+      "name": "SRIPERUMBUDUR",
+      "sub": "CHENNAI · 2006",
+      "query": "Sriperumbudur, Tamil Nadu",
+      "lat": 12.9666,
+      "lon": 79.9458
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "Made in Chennai",
+   "shots": [
+    {
+     "vo": "दो हज़ार छह। चेन्नई के पास श्रीपेरुम्बुदुर में नोकिया की फ़ैक्ट्री चालू हुई।",
+     "prompt": "a gleaming white factory complex with a large gate sign reading \"NOKIA\", several buses arriving at the entrance, bright clear morning sky, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot through the gate of rows of Indian workers in pale blue uniforms walking in for the first shift"
+     ],
+     "caption": "2006. Chennai के पास Sriperumbudur में Nokia की factory चालू हुई।"
+    },
+    {
+     "vo": "हज़ारों लोगों को नौकरी मिली। इनमें बहुत सी आस-पास के गाँवों की नौजवान औरतें थीं।",
+     "prompt": "a young Indian woman factory worker with a long braid and a pale blue uniform assembling a grey keypad phone at a long production line, wearing a white cap, bright clean factory floor, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of the young Indian woman factory worker with a long braid, a pale blue uniform and a white cap smiling shyly as she holds her first ID card"
+     ]
+    },
+    {
+     "vo": "नोकिया को पार्ट्स देने वाली फ़ॉक्सकॉन जैसी कंपनीज़ ने भी पास में अपनी यूनिट्स लगाईं।",
+     "prompt": "a row of new supplier factory sheds next to a main factory plant, trucks moving on a service road between them, Indian workers crossing the road, hazy afternoon, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a pallet of phone parts on a forklift, a carton label reading \"FOR NOKIA\" facing the camera, flat warehouse light"
+     ],
+     "caption": "Nokia को parts देने वाली Foxconn जैसी companies ने भी पास में अपनी units लगाईं।"
+    },
+    {
+     "vo": "यहाँ से फ़ोन्स इंडिया में भी जाते और दुनिया के कई देशों में भी।",
+     "prompt": "Indian workers stacking cardboard cartons onto a truck in a loading bay at night, a label on one carton reading \"EXPORT\", sodium lights, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Wide shot of a container ship leaving Chennai port at dawn, stacked with shipping containers"
+     ],
+     "caption": "यहाँ से phones India में भी जाते और दुनिया के कई देशों में भी।"
+    },
+    {
+     "vo": "ये दुनिया की सबसे बड़ी नोकिया फ़ैक्ट्रीज़ में से एक बन गई।",
+     "prompt": "the vast factory complex near Chennai with long white roofs and a packed parking lot of buses and two-wheelers, aerial wide shot, overcast afternoon",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "ये दुनिया की सबसे बड़ी Nokia factories में से एक बन गई।"
+    },
+    {
+     "vo": "मार्केट में कोई मुक़ाबला नहीं था। रिपोर्ट्स के मुताबिक़ इंडिया में आधे से ज़्यादा फ़ोन्स नोकिया के थे।",
+     "prompt": "a printed pie chart on a sheet of paper with the largest slice labelled \"50%+\", an Indian executive's finger tapping the chart, dim Indian corporate office, close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Wide shot of a busy Indian railway platform in the evening, almost every commuter holding a small grey or black keypad phone"
+     ],
+     "caption": "Market में कोई मुक़ाबला नहीं था। Reports के मुताबिक़ India में आधे से ज़्यादा phones Nokia के थे।"
+    },
+    {
+     "vo": "दुनिया में भी, हर दस में से करीब चार मोबाइल फ़ोन्स पर एक ही नाम था।",
+     "prompt": "ten keypad phones lined up on a dark glass table with four of them brightly lit under a spotlight, a small card in front reading \"40%\", symbolic medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "दुनिया में भी, हर 10 में से करीब 4 mobile phones पर एक ही नाम था।"
+    },
+    {
+     "vo": "दो हज़ार ग्यारह तक भी, ब्रांड ट्रस्ट रिपोर्ट ने नोकिया को इंडिया का सबसे भरोसेमंद ब्रांड बताया।",
+     "prompt": "a printed report page on a wooden desk with a heading reading \"MOST TRUSTED BRAND\" and the line \"#1 NOKIA\" underlined in pen, soft morning light, close-up",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "2011 तक भी, Brand Trust Report ने Nokia को India का सबसे भरोसेमंद brand बताया।"
+    },
+    {
+     "vo": "लोग नोकिया पर वैसे ही भरोसा करते थे, जैसे घर के किसी पुराने सदस्य पर।",
+     "prompt": "an elderly Indian grandmother in a white saree sitting on a charpai, carefully pressing buttons on a grey keypad phone with her grandson guiding her finger, courtyard at dusk, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of her wrinkled hand holding the phone wrapped in a small plastic pouch to keep it clean"
+     ],
+     "caption": "लोग Nokia पर वैसे ही भरोसा करते थे, जैसे घर के किसी पुराने सदस्य पर।"
+    },
+    {
+     "vo": "पर जनवरी दो हज़ार सात में, अमेरिका में एक आदमी ने स्टेज पर बिना कीपैड वाला फ़ोन उठाया।",
+     "prompt": "a man in silhouette in a black top standing on a dark auditorium stage holding up a slim glowing touchscreen phone, a huge blank screen behind him, audience of silhouettes, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर January 2007 में, America में एक आदमी ने stage पर बिना keypad वाला phone उठाया।",
+     "date": "JANUARY 2007"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "Touch का तूफ़ान",
+   "shots": [
+    {
+     "vo": "एप्पल का आईफ़ोन आया। पूरी स्क्रीन, और उंगली से चलने वाला।",
+     "prompt": "a finger swiping across the surface of a glossy black touchscreen phone, colourful icons reflecting on the glass screen, dark room, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of a small group of Indian office workers in a glass-walled office crowding around one touchscreen phone, amazed"
+     ],
+     "caption": "Apple का iPhone आया। पूरी screen, और उंगली से चलने वाला।",
+     "label": "APPLE · आईफोन का जनक"
+    },
+    {
+     "vo": "दो हज़ार आठ में गूगल का एंड्रॉइड आया। कोई भी कंपनी उसे बिना लाइसेंस फ़ी के इस्तेमाल कर सकती थी।",
+     "prompt": "a printed software licence document on a boardroom table with the line reading \"LICENCE FEE: FREE\" highlighted in yellow, a small green toy robot standing on the paper, close-up",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "2008 में Google का Android आया। कोई भी company उसे बिना licence fee के इस्तेमाल कर सकती थी।",
+     "label": "GOOGLE · एंड्रॉइड का जनक"
+    },
+    {
+     "vo": "गार्टनर के मुताबिक़, दो हज़ार सात में दुनिया के साठ प्रतिशत से ज़्यादा स्मार्टफ़ोन्स सिम्बियन पर चलते थे।",
+     "prompt": "a printed analyst report on a Finnish boardroom table with a large bar chart reading \"SYMBIAN 60%+\", a coffee cup beside the paper, cold morning light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Gartner के मुताबिक़, 2007 में दुनिया के 60% से ज़्यादा smartphones Symbian पर चलते थे।"
+    },
+    {
+     "vo": "नोकिया के सामने फ़ैसला था। एंड्रॉइड फ़्री था, पर नोकिया ने अपना सिम्बियन ही रखा।",
+     "prompt": "a fork in a dark road at night with a lit signpost, a small grey keypad phone on the left path and a green toy robot on the right path, single streetlamp, symbolic wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of executives in dark suits seen from behind at a long boardroom table in Finland on a grey snowy day, a single hand raised in a vote"
+     ],
+     "caption": "Nokia के सामने फ़ैसला था। Android free था, पर Nokia ने अपना Symbian ही रखा।"
+    },
+    {
+     "vo": "नोकिया के स्मार्टफ़ोन्स मज़बूत थे, पर चलाने में पुराने लगते।",
+     "prompt": "a slim young Indian man of 20 with a thin moustache frowning while scrolling through menus on a chunky keypad smartphone, cramped hostel room, glowing laptop beside him, night, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a small phone screen showing a slow loading hourglass icon"
+     ],
+     "caption": "Nokia के smartphones मज़बूत थे, पर चलाने में पुराने लगते।"
+    },
+    {
+     "vo": "ऐप्स बनाने वाले डेवलपर्स आईफ़ोन और एंड्रॉइड की तरफ़ चले गए।",
+     "prompt": "rows of young Indian developers sitting at monitors in a crowded Bengaluru office, a whiteboard behind them reading \"ANDROID APP\", night, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Apps बनाने वाले developers iPhone और Android की तरफ़ चले गए।"
+    },
+    {
+     "vo": "रिपोर्ट्स के मुताबिक़, दो हज़ार दस के आख़िर तक एंड्रॉइड स्मार्टफ़ोन्स की बिक्री सिम्बियन से आगे निकल गई।",
+     "prompt": "a market-share line chart on a printed report where a green line rises past a falling red line, a point marked \"2010\" circled in red, title strip reading \"SMARTPHONE SHARE\", close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of an Indian analyst in a grey shirt at a cluttered desk in a rainy-evening office, pointing at the crossing lines on the report for a colleague"
+     ],
+     "caption": "Reports के मुताबिक़, 2010 के आख़िर तक Android smartphones की बिक्री Symbian से आगे निकल गई।"
+    },
+    {
+     "vo": "कॉलेज के लड़के-लड़कियाँ अब व्हाट्सएप, कैमरा और गेम्स वाला फ़ोन चाहते थे।",
+     "prompt": "young Indian students in jeans and kurtis laughing while looking at large touchscreen phones on a college campus lawn, one taking a selfie, bright afternoon sun, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of the slim young Indian man of 20 with a thin moustache in a light blue checked shirt quietly putting his keypad phone back into his pocket"
+     ],
+     "caption": "College के लड़के-लड़कियाँ अब WhatsApp, camera और games वाला phone चाहते थे।"
+    },
+    {
+     "vo": "सैमसंग ने एंड्रॉइड फ़ोन्स हर बजट में उतार दिए।",
+     "prompt": "a busy electronics market at dusk with glowing shop windows displaying large touchscreen phones with price tags, Indian buyers with umbrellas in light rain, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a showroom shelf, rows of touchscreen phones with a price card reading \"EMI AVAILABLE\""
+     ],
+     "caption": "Samsung ने Android phones हर बजट में उतार दिए।"
+    },
+    {
+     "vo": "माइक्रोमैक्स जैसी इंडियन कंपनीज़ सस्ते, डुअल सिम, बड़ी स्क्रीन वाले फ़ोन्स ले आईं। डुअल सिम में नोकिया देर से आया।",
+     "prompt": "a round-faced Indian mobile shopkeeper in his 40s with a white kurta inserting two SIM cards into a big-screen phone, a young Indian customer watching, hot afternoon, medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of the shop counter, grey keypad phones pushed to the back corner, gathering dust, cheap touchscreen boxes stacked in front"
+     ],
+     "caption": "Micromax जैसी Indian companies सस्ते, dual SIM, बड़ी screen वाले phones ले आईं। Dual SIM में Nokia देर से आया।"
+    },
+    {
+     "vo": "नोकिया का फ़ोन अब भी नहीं टूटता था। पर लोगों को अब वो चाहिए ही नहीं था।",
+     "prompt": "a sturdy grey keypad phone standing alone on a dusty wooden shop shelf under a flickering tube light, all surrounding shelves are empty, symbolic medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Nokia का phone अब भी नहीं टूटता था। पर लोगों को अब वो चाहिए ही नहीं था।"
+    },
+    {
+     "vo": "कंपनी को एक नया बॉस चाहिए था। और वो आया माइक्रोसॉफ्ट से।",
+     "prompt": "a man in a dark overcoat walking toward the entrance of a tall glass corporate tower in Finland on a snowy morning, seen from behind, grey sky, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Company को एक नया boss चाहिए था। और वो आया Microsoft से।"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "The Gamble",
+   "shots": [
+    {
+     "vo": "सितंबर दो हज़ार दस। माइक्रोसॉफ्ट से आए स्टीफन इलॉप, नोकिया के सी ई ओ बने।",
+     "prompt": "a tall man in a dark suit standing in silhouette against a large window in a Finnish corporate office, Finnish executives seated at a long table, snowy grey day outside, medium-wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "September 2010. Microsoft से आए Stephen Elop, Nokia के CEO बने।",
+     "label": "STEPHEN ELOP · पूर्व सीईओ, नोकिया"
+    },
+    {
+     "vo": "फ़रवरी दो हज़ार ग्यारह में उनका एक इंटरनल मेमो लीक हुआ। पूरी दुनिया ने पढ़ा।",
+     "prompt": "a printed office memo on a desk under a cold desk lamp, its heading reading \"INTERNAL MEMO\" with a red stamp beside it, night, close-up",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of an Indian newsroom in the morning, Indian journalists reading printouts, a newspaper headline on a desk reading \"NOKIA MEMO LEAKED\""
+     ],
+     "caption": "February 2011 में उनका एक internal memo leak हुआ। पूरी दुनिया ने पढ़ा।"
+    },
+    {
+     "vo": "उसमें लिखा था, नोकिया एक 'बर्निंग प्लेटफ़ॉर्म' पर खड़ा है।",
+     "prompt": "a steel oil platform in a dark stormy sea at night with orange flames rising from its deck, a lone figure standing at the edge, symbolic wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Document shot: close-up of the memo page with the phrase \"BURNING PLATFORM\" underlined twice in ink"
+     ],
+     "caption": "उसमें लिखा था, Nokia एक 'burning platform' पर खड़ा है।",
+     "quote": {
+      "text": "नोकिया एक 'बर्निंग प्लेटफॉर्म' पर खड़ा है।",
+      "who": "Stephen Elop"
+     }
+    },
+    {
+     "vo": "फिर बड़ा फ़ैसला। एंड्रॉइड नहीं, माइक्रोसॉफ्ट का विंडोज़ फ़ोन।",
+     "prompt": "a pile of poker chips pushed to the centre of a green felt table with a small square-tiled touchscreen phone placed on top, single hanging lamp, dark background, close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "फिर बड़ा फ़ैसला। Android नहीं, Microsoft का Windows Phone।"
+    },
+    {
+     "vo": "ग्यारह फ़रवरी दो हज़ार ग्यारह को ये पार्टनरशिप अनाउंस हुई। उसी दिन नोकिया का शेयर करीब चौदह प्रतिशत गिरा।",
+     "prompt": "a financial newspaper on a cafe table showing a stock price chart with a steep red drop marked \"-14%\" circled in pen, grey morning light, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of a stock exchange floor in Helsinki on an overcast day, traders staring up at a blank display board, one with his hand on his head"
+     ],
+     "caption": "11 February 2011 को ये partnership announce हुई। उसी दिन Nokia का share करीब 14% गिरा।",
+     "news": {
+      "headline": "NOKIA-MICROSOFT डील: शेयर 14% लुढ़के",
+      "sub": "बाजार में हड़कंप",
+      "date": "11 FEBRUARY 2011"
+     }
+    },
+    {
+     "vo": "नोकिया लूमिया फ़ोन्स आए। रंग-बिरंगे, सुंदर डिज़ाइन, बढ़िया कैमरा।",
+     "prompt": "a bright cyan and a bright magenta touchscreen phone with the word \"NOKIA\" above the screen, standing on a white plinth, bright showroom light, product hero shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of a young Indian couple in a mall showroom picking up a cyan phone and testing its camera"
+     ],
+     "caption": "Nokia Lumia phones आए। रंग-बिरंगे, सुंदर design, बढ़िया camera।"
+    },
+    {
+     "vo": "पर विंडोज़ स्टोर में ऐप्स कम थे। कस्टमर फ़ोन उठाते, और वापस रख देते।",
+     "prompt": "a young Indian customer putting a colourful touchscreen phone back on a glass counter while a round-faced shopkeeper in a white kurta shrugs, evening shop light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a phone screen showing a nearly empty app store page with a search box and no results"
+     ],
+     "caption": "पर Windows store में apps कम थे। Customer phone उठाते, और वापस रख देते।"
+    },
+    {
+     "vo": "छोटे शहरों के लिए नोकिया सस्ते आशा फ़ोन्स लाया। पर वो पूरे स्मार्टफ़ोन नहीं थे।",
+     "prompt": "a young Indian buyer at a roadside stall holding a small keypad-and-touch phone in one hand and a cheap big-screen phone in the other, humid overcast afternoon, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a cardboard price tag reading \"₹4,000\" tucked under a small Asha-style phone on a glass counter"
+     ],
+     "caption": "छोटे शहरों के लिए Nokia सस्ते Asha phones लाया। पर वो पूरे smartphone नहीं थे।"
+    },
+    {
+     "vo": "दो हज़ार बारह में सैमसंग ने नोकिया को पीछे छोड़ दिया। चौदह साल बाद नोकिया दुनिया की नंबर एक फ़ोन कंपनी नहीं रहा।",
+     "prompt": "a line chart on a printed report where a rising line crosses above a falling line at a point marked \"2012\" circled in red, dim office, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of an Indian office worker at a desk late at night staring at the chart, his face lit by a monitor"
+     ],
+     "caption": "2012 में Samsung ने Nokia को पीछे छोड़ दिया। 14 साल बाद Nokia दुनिया की नंबर 1 phone company नहीं रहा।"
+    },
+    {
+     "vo": "तीन सितंबर दो हज़ार तेरह। माइक्रोसॉफ्ट ने नोकिया का फ़ोन बिज़नेस ख़रीदने का ऐलान किया।",
+     "prompt": "two men in suits standing at a podium in a press conference hall with bright camera flashes, seen from behind, rows of journalists and photographers, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "3 September 2013. Microsoft ने Nokia का phone business ख़रीदने का ऐलान किया।",
+     "date": "3 SEPTEMBER 2013",
+     "drop": true
+    },
+    {
+     "vo": "प्राइस: पाँच दशमलव चार चार बिलियन यूरो। इसमें तीन दशमलव सात नौ बिलियन यूरो फ़ोन बिज़नेस के, और एक दशमलव छह पाँच बिलियन यूरो पेटेंट्स के लाइसेंस के।",
+     "prompt": "a Microsoft press release on a glossy table with the figure \"€5.44 BILLION\" printed in bold, a fountain pen resting on the paper, cold white light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Symbolic close-up of two stacks of euro banknotes on a dark table, a tall stack and a shorter one, under a hard spotlight"
+     ],
+     "caption": "Price: €5.44 billion। इसमें €3.79 billion phone business के, और €1.65 billion patents के licence के।"
+    },
+    {
+     "vo": "पर इस सौदे से एक फ़ैक्ट्री बाहर रह गई। चेन्नई वाली।",
+     "prompt": "a map of India with a red pin stuck near Chennai, a paper tag on the pin reading \"EXCLUDED\", pinned to an office wall in dim light, close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Wide shot of the Chennai factory at dusk, lights still on inside, dark rain clouds gathering overhead"
+     ],
+     "caption": "पर इस सौदे से एक factory बाहर रह गई। Chennai वाली।"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "Chennai पर ताला",
+   "shots": [
+    {
+     "vo": "दो हज़ार तेरह में इनकम टैक्स डिपार्टमेंट ने नोकिया इंडिया से दो हज़ार करोड़ रुपये से ज़्यादा का टैक्स माँगा।",
+     "prompt": "an official income tax notice on a desk with a large figure reading \"₹2,000 करोड़+\" circled in red, an Indian official's hand placing a rubber stamp on it, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of an Indian morning newspaper on a tea stall bench in grey light, its headline reading \"NOKIA TAX ROW\""
+     ],
+     "caption": "2013 में Income Tax department ने Nokia India से ₹2,000 करोड़ से ज़्यादा का tax माँगा।",
+     "news": {
+      "headline": "NOKIA पर 2,000 करोड़ का टैक्स नोटिस",
+      "sub": "आयकर विभाग की कार्रवाई",
+      "date": "2013"
+     }
+    },
+    {
+     "vo": "नोकिया ने इस डिमांड के ख़िलाफ़ कोर्ट में केस लड़ा। मामला दिल्ली हाई कोर्ट से सुप्रीम कोर्ट तक गया।",
+     "prompt": "Indian lawyers in black coats and white bands carrying thick bundles of files down a long high court corridor, ceiling fan turning, rainy afternoon, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a stack of legal files tied with red string on a courtroom table"
+     ],
+     "caption": "Nokia ने इस demand के ख़िलाफ़ court में case लड़ा। मामला Delhi High Court से Supreme Court तक गया।"
+    },
+    {
+     "vo": "तमिल नाडु में भी अलग से सेल्स टैक्स का झगड़ा चल रहा था।",
+     "prompt": "a government file on a cluttered office desk with a cover label reading \"SALES TAX\", a steel tumbler of tea sitting beside it, dim tube light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Tamil Nadu में भी अलग से sales tax का झगड़ा चल रहा था।"
+    },
+    {
+     "vo": "इसी विवाद की वजह से चेन्नई फ़ैक्ट्री, माइक्रोसॉफ्ट डील में शामिल नहीं हो पाई।",
+     "prompt": "a long boardroom table with a signed contract at one end and a small architectural model of a factory sitting alone at the far end, cold lamp light, symbolic shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "इसी विवाद की वजह से Chennai factory, Microsoft deal में शामिल नहीं हो पाई।"
+    },
+    {
+     "vo": "अप्रैल दो हज़ार चौदह में डील पूरी हुई। फ़ैक्ट्री नोकिया के पास रही, और माइक्रोसॉफ्ट के लिए फ़ोन्स बनाती रही।",
+     "prompt": "a young Indian woman factory worker with a long braid and a pale blue uniform working at a production line with many empty stations around her, flat white light, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of her worried face glancing at the empty station beside her"
+     ],
+     "caption": "April 2014 में deal पूरी हुई। Factory Nokia के पास रही, और Microsoft के लिए phones बनाती रही।"
+    },
+    {
+     "vo": "जुलाई दो हज़ार चौदह में माइक्रोसॉफ्ट ने अठारह हज़ार तक नौकरियाँ घटाने का ऐलान किया। ज़्यादातर नोकिया से आए लोगों की।",
+     "prompt": "a printed company announcement on a break-room table with the line \"18,000 JOBS\" underlined, a half-eaten tiffin box beside the paper, harsh fluorescent light, close-up",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of Indian factory workers in pale blue uniforms crowded around a notice board in a canteen, reading in silence"
+     ],
+     "caption": "July 2014 में Microsoft ने 18,000 तक नौकरियाँ घटाने का ऐलान किया। ज़्यादातर Nokia से आए लोगों की।"
+    },
+    {
+     "vo": "फिर माइक्रोसॉफ्ट ने चेन्नई फ़ैक्ट्री वाला एग्रीमेंट ख़त्म कर दिया।",
+     "prompt": "a formal letter on a desk under a dim lamp with a heading reading \"AGREEMENT TERMINATED\", a pair of reading glasses resting on the letter, night, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "फिर Microsoft ने Chennai factory वाला agreement ख़त्म कर दिया।"
+    },
+    {
+     "vo": "एक नवंबर दो हज़ार चौदह। श्रीपेरुम्बुदुर की नोकिया फ़ैक्ट्री में प्रोडक्शन रुक गया।",
+     "prompt": "a factory gate on a grey drizzling morning with a paper notice taped to the bars reading \"PRODUCTION SUSPENDED\", empty wet road, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of an Indian security guard in a khaki uniform pulling a heavy chain across the gate and snapping a padlock shut"
+     ],
+     "caption": "1 November 2014. Sriperumbudur की Nokia factory में production रुक गया।",
+     "date": "1 NOVEMBER 2014"
+    },
+    {
+     "vo": "बहुत से वर्कर्स उससे पहले ही वी आर एस लेकर जा चुके थे।",
+     "prompt": "Indian women workers carrying bags and folders at a bus stop, the young woman worker with a long braid looking back at the factory gate, dusk, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of her hands holding a printed envelope reading \"VRS\" and her old factory ID card"
+     ],
+     "caption": "बहुत से workers उससे पहले ही VRS लेकर जा चुके थे।"
+    },
+    {
+     "vo": "पास की फ़ॉक्सकॉन यूनिट, जो नोकिया के लिए पार्ट्स बनाती थी, उसका काम भी कुछ हफ़्तों में रुक गया।",
+     "prompt": "a lone Indian guard sitting on a plastic chair in front of a supplier factory with its rolling metal shutter pulled down, cold overcast December morning, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of empty parts trays stacked against a wall, a dusty carton label reading \"FOR NOKIA\""
+     ],
+     "caption": "पास की Foxconn unit, जो Nokia के लिए parts बनाती थी, उसका काम भी कुछ हफ़्तों में रुक गया।"
+    },
+    {
+     "vo": "जिस ब्रांड के फ़ोन से इंडिया ने पहली कॉल की थी, उसकी फ़ैक्ट्री में अब सन्नाटा था।",
+     "prompt": "a vast empty factory interior with production lines covered in large grey plastic sheets, dust floating in shafts of light from high windows, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a single grey keypad phone left on an empty assembly bench, covered in dust"
+     ],
+     "caption": "जिस brand के phone से India ने पहली call की थी, उसकी factory में अब सन्नाटा था।"
+    },
+    {
+     "vo": "जुलाई दो हज़ार पंद्रह में माइक्रोसॉफ्ट ने इस सौदे पर सात दशमलव छह बिलियन डॉलर का राइट-ऑफ़ लिया। साथ में सात हज़ार आठ सौ तक और नौकरियाँ गईं।",
+     "prompt": "a printed financial statement with a line reading \"$7.6 BILLION\" and the word \"IMPAIRMENT\" printed above it, highlighted in yellow, cold morning light, close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "July 2015 में Microsoft ने इस सौदे पर $7.6 billion का write-off लिया। साथ में 7,800 तक और नौकरियाँ गईं।"
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "नाम की वापसी",
+   "shots": [
+    {
+     "vo": "मई दो हज़ार सोलह। माइक्रोसॉफ्ट ने अपना फ़ीचर फ़ोन बिज़नेस तीन सौ पचास मिलियन डॉलर में बेच दिया।",
+     "prompt": "a printed press release on a glass desk with the figure \"$350 MILLION\" in bold, a grey keypad phone resting beside it, soft overcast light, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Symbolic shot of a small grey keypad phone on an auction block in an empty dim hall, a wooden gavel beside it"
+     ],
+     "caption": "May 2016. Microsoft ने अपना feature phone business $350 million में बेच दिया।",
+     "date": "MAY 2016"
+    },
+    {
+     "vo": "ख़रीदार थे फ़ॉक्सकॉन की कंपनी एफ आई एच मोबाइल, और फ़िनलैंड की एक नई कंपनी एच एम डी ग्लोबल।",
+     "prompt": "a modest office in Finland with a door sign reading \"HMD GLOBAL\", Finnish staff inside unpacking cardboard boxes, seen through a window, snowy evening blue hour, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of Finnish and Asian executives in a small meeting room seen from behind, signing papers under a warm desk lamp"
+     ],
+     "caption": "ख़रीदार थे Foxconn की company FIH Mobile, और Finland की एक नई company HMD Global।",
+     "label": "HMD GLOBAL · नोकिया फोन का नया मालिक"
+    },
+    {
+     "vo": "एच एम डी को फ़ोन्स पर नोकिया नाम लगाने का लाइसेंस मिला।",
+     "prompt": "a thick paper agreement on a wooden table with a cover reading \"NOKIA BRAND LICENCE\", a pen lying across it, warm desk lamp, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "HMD को phones पर Nokia नाम लगाने का licence मिला।"
+    },
+    {
+     "vo": "फ़रवरी दो हज़ार सत्रह। एच एम डी ने नया नोकिया तैंतीस दस दिखाया, पुराने ज़माने की याद में।",
+     "prompt": "a glossy red 2017 keypad phone with the word \"NOKIA\" above its colour screen, standing on a stage plinth under bright exhibition lights, product hero shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of the slim young Indian man of 20 with a thin moustache in a light blue checked shirt, now in his thirties, smiling at a phone news article on his laptop in a dim apartment at night"
+     ],
+     "caption": "February 2017. HMD ने नया Nokia 3310 दिखाया, पुराने ज़माने की याद में।"
+    },
+    {
+     "vo": "नॉस्टैल्जिया ज़बरदस्त थी। पर बाज़ार अब पूरी तरह स्मार्टफ़ोन्स का था।",
+     "prompt": "a modern Indian mall phone store with walls full of large touchscreen phones and a single red keypad phone on a small side shelf, curious Indian buyers, bright white light, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Nostalgia ज़बरदस्त थी। पर बाज़ार अब पूरी तरह smartphones का था।"
+    },
+    {
+     "vo": "और नोकिया कंपनी? वो कभी बंद ही नहीं हुई।",
+     "prompt": "a glass corporate campus in Finland with a tall entrance sign reading \"NOKIA\", Finnish employees walking toward the building, clear crisp winter morning, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और Nokia company? वो कभी बंद ही नहीं हुई।"
+    },
+    {
+     "vo": "उसने फ़ोन्स छोड़कर मोबाइल नेटवर्क्स का काम पकड़ा। दो हज़ार सोलह में अल्काटेल-ल्यूसेंट को ख़रीद लिया।",
+     "prompt": "a tall telecom tower on a hill at dawn with various antennas silhouetted against an orange sky, a technician in a safety harness climbing the ladder, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Document shot: close-up of a business newspaper on a desk in morning light, its headline reading \"NOKIA BUYS ALCATEL-LUCENT\""
+     ],
+     "caption": "उसने phones छोड़कर mobile networks का काम पकड़ा। 2016 में Alcatel-Lucent को ख़रीद लिया।"
+    },
+    {
+     "vo": "आज नोकिया, एयरटेल जैसे ऑपरेटर्स के लिए पाँच जी नेटवर्क इक्विपमेंट बनाती है।",
+     "prompt": "Indian engineers in hard hats and safety vests installing a large grey 5G antenna panel on a rooftop tower, hazy afternoon in a busy Indian city, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of an Indian engineer's hands tightening a bolt on the antenna mount, a laptop with signal graphs blurred beside him"
+     ],
+     "caption": "आज Nokia, Airtel जैसे operators के लिए 5G network equipment बनाती है।"
+    },
+    {
+     "vo": "और चेन्नई में नोकिया की एक फ़ैक्ट्री आज भी चलती है। वहाँ फ़ोन्स नहीं, नेटवर्क का सामान बनता है।",
+     "prompt": "Indian technicians in blue anti-static coats testing large grey telecom radio units on a production line, a floor sign reading \"5G\", bright modern factory floor, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of a young Indian woman technician in a blue coat scanning a barcode on a heavy grey radio unit"
+     ],
+     "caption": "और Chennai में Nokia की एक factory आज भी चलती है। वहाँ phones नहीं, network का सामान बनता है।"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "तो नोकिया को किसने मारा? आईफ़ोन ने, एंड्रॉइड ने, माइक्रोसॉफ्ट ने, या टैक्स ने?",
+     "prompt": "a grey keypad phone at the centre of a dark table, surrounded by a touchscreen phone, a green toy robot, a contract, and a red tax file, single overhead lamp, symbolic medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "तो Nokia को किसने मारा? iPhone ने, Android ने, Microsoft ने, या tax ने?"
+    },
+    {
+     "vo": "किसी एक ने नहीं। नोकिया ने ऐसा फ़ोन बनाया जो कभी नहीं टूटा। पर उसका फ़ोन बिज़नेस वक़्त के साथ नहीं बदला, और टूट गया।",
+     "prompt": "an Indian father in his late 40s with greying hair and a thick moustache turning his old grey keypad phone in his hand on a terrace at golden hour, his son beside him holding a smartphone, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up of the old grey phone's tiny screen still lighting up in the father's palm, warm golden light"
+     ],
+     "caption": "किसी एक ने नहीं। Nokia ने ऐसा phone बनाया जो कभी नहीं टूटा। पर उसका phone business वक़्त के साथ नहीं बदला, और टूट गया।"
+    },
+    {
+     "vo": "और वो श्रीपेरुम्बुदुर वाली फ़ैक्ट्री? बाद में सालकॉम्प नाम की कंपनी ने उसे ले लिया।",
+     "prompt": "a freshly painted factory gate near Chennai with a new sign reading \"SALCOMP\", several buses arriving with workers, bright clear morning, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और वो Sriperumbudur वाली factory? बाद में Salcomp नाम की company ने उसे ले लिया।",
+     "label": "SALCOMP · चेन्नई फैक्ट्री का नया मालिक"
+    },
+    {
+     "vo": "आज वहाँ फ़ोन चार्जर्स बनते हैं। कहा जाता है, उनमें आईफ़ोन के चार्जर्स भी हैं।",
+     "prompt": "a line of small white phone chargers moving on a conveyor belt, the hands of a young Indian woman worker in a pale uniform checking each one, bright factory interior, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium shot of a white charger cable plugged into a black touchscreen phone on a bedside table, with an old grey keypad phone lying beside it in the dim night light"
+     ],
+     "caption": "आज वहाँ phone chargers बनते हैं। कहा जाता है, उनमें iPhone के chargers भी हैं।"
+    },
+    {
+     "vo": "अगली ब्रांड स्टोरी में, एक और नाम जो कभी हर घर में था। सब्सक्राइब कर लीजिए।",
+     "prompt": "an old Indian bazaar street at blue dusk with rows of glowing shop boards with blank faces, a single shop shutter half open with warm light spilling out, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगली brand story में, एक और नाम जो कभी हर घर में था। Subscribe कर लीजिए।"
+    }
+   ]
+  }
+ ],
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "story",
+  "points": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   1
+  ]
+ },
+ "framework": "2026-11-12 10:10"
+}
