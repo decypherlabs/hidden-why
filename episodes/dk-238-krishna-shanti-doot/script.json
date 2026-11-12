@@ -340,15 +340,17 @@
     },
     {
      "vo": "तब दुर्योधन ने सभा में कहा, मैं कृष्ण को बंदी बना लूँगा।",
-     "prompt": "A proud young king with thick black moustache, gold armour and gold crown, standing and speaking to a council hall with a cunning smile, a finger raised, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "a proud young king with thick black moustache, gold armour and gold crown, standing and speaking to a council hall with a cunning smile, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8966
     },
     {
      "vo": "कृष्ण क़ैद हुए, तो पांडव अपने आप झुक जाएँगे।",
-     "prompt": "A proud young king with thick black moustache, gold armour and gold crown, clenching his fist in front of his chest, hard shadows, torchlight, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "a proud young king with thick black moustache, gold armour and gold crown, clenching his fist in front of his chest, torchlight, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8967
     },
     {
      "vo": "यह सुनते ही भीष्म उठ खड़े हुए। ऐसी पापी बात मैं नहीं सुनूँगा।",
@@ -604,9 +606,10 @@
     },
     {
      "vo": "दुर्योधन गरजा, केशव, जब तक मैं ज़िंदा हूँ, सुई की नोक जितनी ज़मीन भी नहीं दूँगा।",
-     "prompt": "A proud young king with thick black moustache, gold armour and crown, shouting in fury, golden mace raised high, torchlight, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "a proud young king with thick black moustache, gold armour and crown, shouting in fury, golden mace raised high, torchlight, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 9007
     },
     {
      "vo": "पूरी सभा सन्न रह गई। दुर्योधन अपने भाइयों के साथ सभा छोड़कर चला गया।",
@@ -694,15 +697,17 @@
     },
     {
      "vo": "बोला, कृष्ण हमें बँधवाना चाहते हैं। उससे पहले हम उन्हें बाँध लेंगे।",
-     "prompt": "A proud young king with thick black moustache, gold armour and crown, whispering with a cruel smile, a coiled rope held in one hand, flickering torchlight, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "a proud young king with thick black moustache, gold armour and crown, whispering with a cruel smile, a coiled rope held in one hand, torchlight, close medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 9020
     },
     {
      "vo": "कृष्ण क़ैद हुए, तो पांडवों का हौसला टूट जाएगा।",
-     "prompt": "A thin old man with a pointed grey beard in dark robes, rolling dice in his palm with a cunning smile, dark chamber, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "a thin old man with a pointed grey beard in dark robes, rolling dice in his palm with a cunning smile, dark chamber, torchlight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 9021
     },
     {
      "vo": "पर सात्यकि की नज़र सब पर थी। उन्होंने यह चाल भाँप ली।",
@@ -981,5 +986,34 @@
  "review_note": "rewritten with: Retold as the complete story of Krishna's peace mission (engine review, 12 Nov 2026).",
  "framework": "2026-11-12 09:33",
  "released_at": "2026-11-12 09:33",
- "voice_requested": "voice-dk-238-krishna-shanti-doot-e93a52b65b"
+ "voice_requested": "voice-dk-238-krishna-shanti-doot-e93a52b65b",
+ "repaint": {
+  "shots": [
+   47,
+   48,
+   88,
+   101,
+   102
+  ],
+  "thumbs": [],
+  "at": "2026-11-12 11:13"
+ },
+ "shot_qc": {
+  "checked": "2026-11-12T05:33:27Z",
+  "rounds": 1,
+  "why": {
+   "47": "Text and labels appearing in the AI generation",
+   "48": "Text and labels appearing in the AI generation",
+   "88": "Text and labels appearing in the AI generation",
+   "101": "Text and labels appearing in the AI generation",
+   "102": "Text and labels appearing in the AI generation"
+  },
+  "recheck": [
+   "47",
+   "48",
+   "88",
+   "101",
+   "102"
+  ]
+ }
 }
