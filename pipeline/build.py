@@ -1429,21 +1429,32 @@ def main(script_path, out_dir):
     drops = []  # FX: music drop-outs before a twist
     mapfx = []  # (t, kind): the sounds of a map shot (zoom, fills, lines, pins)
     intro_at = None
+    # "late_intro" (script; 12 Nov 2026 engine review: no benchmark shows a logo or a card in its first minute, ours spent
+    # 0:44-0:52 on them): the cold open runs straight into chapter 1 with no card, and the title sequence plays before
+    # chapter 2 in place of that chapter's card. The chapter list for YouTube is unchanged. Scripts without it build as before.
+    late = bool(script.get("late_intro")) and not short
+    carded = 0  # chapters with a card so far
     for si, sec in enumerate(script["sections"]):
-        if FX and K.B.get("intro") == "title" and intro_at is None and si > 0 and sec.get("card"):
+        intro_now = False
+        if (FX and K.B.get("intro") == "title" and intro_at is None and si > 0 and sec.get("card")
+                and (not late or carded >= 1)):
             # the show's title sequence between the cold open and the first chapter
             name = script.get("intro_title") or script.get("title", "").split("|")[0].strip()
             name = re.sub(r"[^\w\s&'.:-]", "", name).strip()
             intro_at = t
             items.append((t, 4.0, Intro(name), None, "intro"))
             t += 4.0
+            intro_now = True
         if sec.get("sting"):
             items.append((t, 2.2, Seq(sting_frames(int(2.2 * FPS))), None, sec["id"]))
             t += 2.2
             continue
         if sec.get("card"):
+            carded += 1
             chapters.append((t, sec["card"].title()))
-            if K.B.get("chapter_style") == "numbered" and not short:  # the reference's navy numbered card
+            if late and (carded == 1 or intro_now):
+                pass  # chapter 1 follows the cold open with no card; the title sequence stands in for chapter 2's
+            elif K.B.get("chapter_style") == "numbered" and not short:  # the reference's navy numbered card
                 cards_at.append(t)
                 num = len(chapters) - (1 if chapters[0][1] == "Intro" else 0)
                 items.append((t, 3.0, Shot(numbered_card(sec["card"], num), "push"), None, sec["id"]))
