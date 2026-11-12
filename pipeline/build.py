@@ -1508,7 +1508,11 @@ def main(script_path, out_dir):
                 elif short and PANEL:  # a landscape painting kept whole in a vertical frame
                     vis, parts = Panel(img, MOVES_CYCLE[n % 4]), 1
                 else:
-                    vis = Split(img, parts) if short and parts > 1 else Shot(img, s.get("move", "push"))
+                    # "late_intro" scripts (12 Nov 2026): the cold open's pictures change twice as often, each painting then
+                    # a tighter crop on its subject, like the Shorts (the niche's winners show 16-26 pictures in the first
+                    # minute, ours 8-12); a line that has its own extra paintings keeps those instead
+                    fast = late and si == 0 and not any(out.glob(f"shot-{n:02d}-*.png"))
+                    vis = Split(img, parts) if (short or fast) and parts > 1 else Shot(img, s.get("move", "push"))
                 if short:
                     cuts += [t + d * i / parts for i in range(1, parts)]
             extras = [] if short or s.get("diagram") or s.get("map") else sorted(
