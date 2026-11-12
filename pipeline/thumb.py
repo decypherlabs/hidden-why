@@ -439,8 +439,9 @@ def main(script_path, out_dir):
         return face_layout(script, out)
     if (script.get("thumbnail") or {}).get("layout") == "split":
         return split_layout(script, out)
-    plane = cover(Image.open(plane(out)).convert("RGB"), W, H)
-    img = plane.copy()
+    # not named plane: that shadowed plane() and every default-layout long-form failed (11 Nov 2026, gk-23)
+    base = cover(Image.open(plane(out)).convert("RGB"), W, H)
+    img = base.copy()
     # darken the left for the words
     shade = Image.new("L", (W, H))
     sd = ImageDraw.Draw(shade)
