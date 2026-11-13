@@ -1,4 +1,4 @@
-"""Point of Ruin and The State Maps: a script (studio/global_longform.py format) -> the finished episode, on GitHub
+"""Story of Giants and The State Maps: a script (studio/global_longform.py format) -> the finished episode, on GitHub
 Actions (.github/workflows/kit.yml), in parallel parts (owner, 13 Nov 2026: "the whole on GitHub... in parallel as
 much as we can").
 
@@ -38,7 +38,7 @@ BIG = __import__("re").compile(r"\$\s?\d[\d,.]*(?:\s?(?:billion|million|thousand
                                r"kilometres|kilometers|km|miles|barrels|stores|ships)\b|\b(?:1[5-9]|20)\d\d\b", 2)
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"}
 LOOK = {
-    "point-of-ruin": {"name": "POINT OF RUIN", "bg": (20, 21, 24), "accent": (212, 90, 102), "tint": "#5B6770",
+    "point-of-ruin": {"name": "STORY OF GIANTS", "bg": (20, 21, 24), "accent": (212, 90, 102), "tint": "#5B6770",
                       "headfont": ("PlayfairDisplay", "Black"), "style": "por", "paper": "#E9E2D0", "hl": "#C8862B"},
     "the-state-maps": {"name": "THE STATE MAPS", "bg": (14, 19, 23), "accent": (240, 138, 36), "tint": "#3E5566",
                        "headfont": ("BarlowCondensed-Bold", None), "style": "tsm", "paper": "#E3E0D6", "hl": "#F08A24"},

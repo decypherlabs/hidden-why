@@ -1,4 +1,4 @@
-"""The edit-bible element kit (studio repo docs/channels/edit-bible.md, sections 3-4) for Point of Ruin and The State
+"""The edit-bible element kit (studio repo docs/channels/edit-bible.md, sections 3-4) for Story of Giants and The State
 Maps: plain numpy/PIL/OpenCV + ffmpeg, 1920x1080 at 30 fps. Copied from the studio's experiments/sample-edit (owner,
 12 Nov 2026 sample openings) and used by kit/build.py on GitHub Actions (kit.yml)."""
 import json
