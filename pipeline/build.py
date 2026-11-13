@@ -726,7 +726,7 @@ def subject(img):
 _WORLD = {}
 
 
-MAP_TERRAIN = os.environ.get("MAPS_TERRAIN", "1") != "0"  # real satellite/terrain base under MapShot; 0 = the flat drawing
+MAP_TERRAIN = os.environ.get("MAPSHOT_TERRAIN", "0") == "1"  # 1 = the satellite base under MapShot; off: the drawn maps the owner preferred (13 Nov 2026)
 _MAP_TER = []
 
 
