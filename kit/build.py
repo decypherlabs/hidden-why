@@ -520,7 +520,7 @@ def render_frame(ctx, fi):
     d = ImageDraw.Draw(layer)
     if it.get("big"):
         big_word(layer, it["big"], lt, it["dur"], ctx.L["accent"])
-    if it.get("vo"):
+    if it.get("vo") and it["start"] >= 60:  # no running captions in the first minute: big words there (owner, 13 Nov 2026)
         kit.captions(layer, it["vo"].split(), lt, it["dur"] - GAP, accent=ctx.L["accent"])
     if it.get("kind") in ("footage", "archive") and it.get("plate") and plate_ok(ctx, it):
         kit.label_plate(layer, (90, 110), str(it["plate"])[:48], lt)

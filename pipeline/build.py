@@ -1565,7 +1565,8 @@ def main(script_path, out_dir):
             if short:  # the very first words show at 0.0 s, not after a pause
                 caps += Captions.for_shot(s.get("caption") or s["vo"], t + (0.0 if t == 0 else 0.15), vo[f"{n:02d}"],
                                           **({"size": 6} if K.B.get("short_captions") else {}))  # small subtitles: longer phrases
-            elif not s.get("diagram"):  # diagrams carry their own labels
+            elif not s.get("diagram") and not (late and t < 60):  # diagrams carry their own labels; no running captions
+                # in a "late_intro" episode's first minute (owner, 13 Nov 2026: big titles there, as the winners do)
                 caps += Captions.for_shot(s.get("caption") or s["vo"], t + 0.15, vo[f"{n:02d}"], size=7)
             t += d
     if short:  # no end screen: Shorts loop back to the start
