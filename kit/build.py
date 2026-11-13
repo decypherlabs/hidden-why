@@ -180,11 +180,23 @@ def footage(ctx, it, t, i, n):
     rgb = ctx.clips[key].frame(i, n, drift=1 if it["n"] % 2 else -1)
     if rgb is None:
         return None
-    rgb = kit.grade(rgb, sat=0.55 if it.get("kind") == "archive" else 0.8, tint=ctx.L["tint"])
+    if it.get("kind") == "archive":
+        rgb = kit.grade(rgb, sat=0.55, tint=ctx.L["tint"])
+    else:  # footage keeps its own colour and punch (owner, 13 Nov 2026: "the background video is a still dull")
+        rgb = vivid(rgb)
     if it.get("kind") == "archive":  # duotone-ish archive treatment
         g = rgb.mean(axis=2, keepdims=True)
         rgb = np.clip(g * np.array([1.05, 0.98, 0.86]), 0, 255).astype(np.uint8)
     return rgb
+
+
+def vivid(rgb):
+    """A light grade for stock footage: full saturation plus a touch, a gentle S-curve, no lifted blacks or tint."""
+    f = rgb.astype(np.float32)
+    g = (f[..., 0] * 0.299 + f[..., 1] * 0.587 + f[..., 2] * 0.114)[..., None]
+    f = g + (f - g) * 1.12
+    f = 128 + (f - 128) * 1.08
+    return np.clip(f * 1.03, 0, 255).astype(np.uint8)
 
 
 def still(ctx, it, t, i, n):
