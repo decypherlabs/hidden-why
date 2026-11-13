@@ -78,10 +78,10 @@
     },
     {
      "vo": "It sits in pharmacies, school first-aid boxes, and village health centres across India. It costs a few rupees.",
-     "prompt": "A plain wooden shelf in a small Indian village health centre holding neat rows of small plain white sachets, an open white first-aid box with rolled bandages beside them, whitewashed wall, bright daylight, wide shot",
+     "prompt": "A plain wooden shelf in a small Indian village health centre holding neat rows of small plain white sachets, an open white first-aid box with rolled bandages beside them, bare whitewashed wall, bright daylight, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 16845
+     "seed": 24764
     },
     {
      "vo": "It looks so simple, so almost like a home remedy, that it's easy to believe it was always obvious.",
@@ -436,22 +436,19 @@
  "build": "github",
  "repaint": {
   "shots": [
-   7,
-   31
+   7
   ],
   "thumbs": [],
-  "at": "2026-11-14 04:02"
+  "at": "2026-11-14 04:30"
  },
  "shot_qc": {
-  "checked": "2026-11-13T18:57:36Z",
-  "rounds": 2,
+  "checked": "2026-11-13T22:59:20Z",
+  "rounds": 3,
   "why": {
-   "7": "Painted-in text on the red-cross sign (\"LOUR PARE\") and on the shelf items.",
-   "31": "Painted-in lettering on the sack and bag beside the drum."
+   "7": "A poster on the wall has painted-in text (garbled letters), and the edit adds its own text."
   },
   "recheck": [
-   "7",
-   "31"
+   "7"
   ]
  }
 }
