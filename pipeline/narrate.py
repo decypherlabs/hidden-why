@@ -140,7 +140,9 @@ def main(script_path, out_dir):
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     durs = {}
-    speed = script.get("voice_speed") or v.get("speed", 0.95)  # Shorts: a little faster
+    # never slower than the brand's own speed (owner, 13 Nov 2026: Shorts at the scripts' 1.05 sounded slower than the
+    # chosen George at 1.15); a script may only ask for faster
+    speed = max(float(script.get("voice_speed") or 0), float(v.get("speed", 0.95)))
     for n, text in lines(script):
         chunks = [a.numpy() if hasattr(a, "numpy") else np.asarray(a)
                   for _, _, a in tts(text, voice=v["voice"], speed=speed)]

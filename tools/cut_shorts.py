@@ -85,7 +85,7 @@ def cut(ep, count=4):
         d.mkdir(exist_ok=True)
         (d / "script.json").write_text(json.dumps({
             "slug": slug, "format": "short", "title": s["title"].replace(" #Shorts", ""), "approved": True,
-            "cut_from": ep, "voice_speed": 1.05, "music": {"intense": ["main"]},
+            "cut_from": ep, "voice_speed": 1.15, "music": {"intense": ["main"]},
             "sections": [{"id": "main", "card": None, "shots": [
                 {"vo": shots[i - 1]["vo"], "prompt": p.rstrip(". ") + STYLE, "move": "push", "negative": NEG}
                 for i, p in zip(idx, s["prompts"])]}]}, indent=1, ensure_ascii=False))
