@@ -730,7 +730,8 @@
     {
      "vo": "In April 2004, with film sales still falling, Kodak was dropped from the Dow after seventy-four years.",
      "kind": "still",
-     "prompt": "a muted documentary scene of the moment: In April 2004, with film sales still falling, Kodak was dropped from the Dow after seventy-four years."
+     "prompt": "A muted 35mm documentary photograph of a single executive in a dark suit seen from behind, standing alone at a tall office window at dusk in 2004, a single film canister resting on the windowsill beside him, a plain blank dark wall behind, one amber glow of city light as the accent, plain empty surfaces, no posters, no screens, no readable text, no logos, no signs or lettering on any storefront, screen or package",
+     "seed": 8984
     },
     {
      "vo": "And the shift worked, up to a point. By 2005, Kodak led American digital camera sales.",
@@ -1007,5 +1008,19 @@
  "visuals_checked": true,
  "approved": true,
  "review": "auto",
- "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame"
+ "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
+ "repaint": {
+  "shots": [
+   65
+  ],
+  "thumbs": [],
+  "at": "2026-11-13 21:43"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   65
+  ]
+ },
+ "auto_regen": 1
 }
