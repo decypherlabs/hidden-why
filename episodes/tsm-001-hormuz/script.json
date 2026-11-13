@@ -341,9 +341,8 @@
     },
     {
      "vo": "Tension around here has moved crude prices before.",
-     "kind": "footage",
-     "search": "oil tanker Strait of Hormuz",
-     "plate": "Strait of Hormuz"
+     "kind": "still",
+     "prompt": "Wide dusk view over the Strait of Hormuz: a large oil tanker moves slowly through calm amber water, a second tanker waits on the hazy horizon, and barren rocky hills sit along the shore. A small patrol boat is seen only as a distant silhouette. Tense, golden-orange sky, cinematic documentary still. No logos, no readable text, no people in view."
     },
     {
      "vo": "Most of it sails to China, India, Japan and South Korea.",
@@ -898,9 +897,8 @@
     },
     {
      "vo": "He returned in 1515, took the island for good and raised a fortress. Its walls still stand.",
-     "kind": "footage",
-     "search": "Portuguese fort Hormuz Island ruins",
-     "plate": "Hormuz Island, fortress of 1515"
+     "kind": "still",
+     "prompt": "A 16th-century Portuguese stone fortress on a barren island in the Persian Gulf, thick walls and bastions rising above the shore, ships at anchor in the bay, warm late-afternoon light, seen from a distance, no logos, no readable text"
     },
     {
      "vo": "From Hormuz and Goa, Portugal sold passes called cartazes, and ships trading in the waters it claimed were expected to carry one.",
@@ -1406,9 +1404,12 @@
     },
     {
      "vo": "Iran's case, made by its officials for decades: the Gulf's security belongs to the countries around it, and foreign fleets bring tension, not safety.",
-     "kind": "footage",
-     "search": "Bandar Abbas port harbour ships",
-     "plate": "Bandar Abbas"
+     "kind": "quote",
+     "quote": {
+      "text": "The Gulf's security belongs to the countries around it, and foreign fleets bring tension, not safety.",
+      "who": "Iran's officials",
+      "source": "Iran's stated position for decades"
+     }
     },
     {
      "vo": "In 2019, President Hassan Rouhani took that case to the UN, proposing a pact of the Gulf states he called the Hormuz Peace Endeavour.",
@@ -2034,7 +2035,18 @@
    ]
   }
  ],
+ "replanned": true,
+ "visuals_checked": true,
  "approved": true,
  "review": "auto",
- "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos"
+ "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos",
+ "repaint": {
+  "shots": [
+   4,
+   27
+  ],
+  "thumbs": [],
+  "at": "2026-11-13 14:27",
+  "by": "visual check"
+ }
 }
