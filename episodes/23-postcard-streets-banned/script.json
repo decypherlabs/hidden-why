@@ -1,0 +1,801 @@
+{
+ "slug": "23-postcard-streets-banned",
+ "build": "github",
+ "title": "Why America Outlawed the Streets on Its Own Postcards",
+ "thumbnail": {
+  "layout": "split",
+  "left_label": "1920",
+  "right_label": "2026",
+  "text": "WHO *BANNED* THIS?",
+  "plane": "Oil painting of a lively American small-town main street in 1920, two- and three-storey red brick buildings touching each other, shops at street level with apartments and open windows above, a corner bakery with an awning, people walking on a wide sidewalk, one vintage car, centred and large, bright midday daylight, clean blue sky, warm saturated colours, no text, no signs, no logos, no brand names",
+  "right": "Oil painting of a modern American suburban road in 2026, a wide four-lane road with a single low beige strip mall set far back behind a huge empty parking lot, one car driving, no pedestrians, centred and large, bright midday daylight, clean blue sky, same framing and scale as a street view, no text, no signs, no logos, no brand names"
+ },
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "words_in_edit": true,
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "cause",
+  "points": [
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "music": {
+  "reflective": [
+   "cold_open",
+   "ch1",
+   "ch4",
+   "ch5",
+   "outro"
+  ],
+  "intense": [
+   "ch2",
+   "ch3"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "You are standing on a Main Street where the bakery sits under the apartments, and the sidewalk is the only parking lot.",
+     "prompt": "A brick main street seen from the middle of the sidewalk, a shop window full of bread loaves under apartments with flower boxes, cars parked right on the sidewalk edge, white church steeple at the far end, golden late-afternoon light, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gc6850efcf1bae4e54ae4f3d61e9d3ee4c717a59fb1b81f4be8fda976e8067dcbe9ab7eab2ce5a295ed66e23dfe28d7e2c9324c5c5358ff526bbbbf19aa37fe6e_1280.jpg",
+      "w": 2201,
+      "h": 1132,
+      "credit": "Pixabay (12019)",
+      "page": "https://pixabay.com/photos/cedar-falls-iowa-city-town-urban-1731519/"
+     }
+    },
+    {
+     "vo": "In 1920, a bakery sat on the corner of your block.",
+     "prompt": "A small child carrying a paper-wrapped loaf of bread home from a corner shop, side view, a large flat shop board reading \"CORNER BAKERY\" turned toward the camera above the door, row of wooden houses, 1920 American street with no cars, warm morning light, medium shot, oil painting",
+     "title": "*1920* Bakery",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Today, the nearest loaf of bread is a four-lane drive away.",
+     "prompt": "A minivan backing out of a two-car garage driveway in a cul-de-sac of identical beige houses, empty road and lawns, not a single shop in view, flat bright midday light, sharp focus, wide shot from the end of the street, oil painting",
+     "title": "A *Four-Lane* Drive",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "By one common estimate, about forty percent of Manhattan's buildings could not be built today.",
+     "prompt": "A crowded sidewalk of pedestrians on a Manhattan side street lined with old five-storey brick tenements, black fire escapes zigzagging up each facade, a small corner deli on the ground floor, late-afternoon sun between buildings, low camera looking up the block, oil painting",
+     "title": "*40%* Banned",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Midtown_Manhattan_Skyline_seen_from_Wall_Street.jpg/1920px-Midtown_Manhattan_Skyline_seen_from_Wall_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3340,
+      "h": 2504,
+      "credit": "Midtown Manhattan Skyline seen from Wall Street.jpg by David Shankbone, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Midtown_Manhattan_Skyline_seen_from_Wall_Street.jpg"
+     }
+    },
+    {
+     "vo": "Nobody voted to ban the places Americans travel to see. So who did?",
+     "prompt": "Tourists photographing a historic brick street with their cameras raised, a man and a woman in front, three-quarter view, live oaks hung with Spanish moss over old brick houses, warm golden light, sharp focus, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It runs through a California realtor, a 1926 court case, and a parking space.",
+     "prompt": "A brass key, a rolled legal paper tied with red ribbon, and a short white painted parking line on a strip of asphalt, all together on a dark wooden desk, large in frame, dramatic side light, close shot, oil painting",
+     "title": "*1926* Court Case",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gedd8934d6eefbf79ad281bbb6d6cb5118bd4deb9a07e405606b3dd4ff0e3b1ec853484b6073df9d65f5c80cd0578449cf57c265074966b98ea0eeff3e3fd1c9b_1280.jpg",
+      "w": 3089,
+      "h": 2048,
+      "credit": "Pixabay (JayMantri)",
+      "page": "https://pixabay.com/photos/vw-beetle-volkswagen-classic-car-405876/"
+     }
+    },
+    {
+     "vo": "In 1916, a Berkeley realtor named Duncan McDuffie got the city to ban everything but houses from his neighbourhood.",
+     "prompt": "A man in a grey three-piece suit and straw boater hat, mustache, pointing along a quiet tree-lined street of large shingled Craftsman houses, nothing but houses on both sides, 1916 Berkeley hills, horse-drawn wagon far down the road, soft morning light, wide shot, oil painting",
+     "title": "*1916* Berkeley",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Food_Administration_-_Administrators_and_Staff_-_Duncan_McDuffie%2C_Berkeley%2C_California%2C_dealer_-_NARA_-_31480963_%28cropped%29.jpg/1920px-Food_Administration_-_Administrators_and_Staff_-_Duncan_McDuffie%2C_Berkeley%2C_California%2C_dealer_-_NARA_-_31480963_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2270,
+      "h": 3025,
+      "credit": "Food Administration - Administrators and Staff - Duncan McDuffie, Berkeley, California, dealer - NARA - 31480963 (cropped).jpg by Unknown authorUnknown author or not provided, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Food_Administration_-_Administrators_and_Staff_-_Duncan_McDuffie,_Berkeley,_California,_dealer_-_NARA_-_31480963_(cropped).jpg"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "THE REALTOR'S RULE",
+   "shots": [
+    {
+     "vo": "Berkeley in 1916 was a fast-growing college town across the bay, filling with families who had fled San Francisco after the earthquake.",
+     "prompt": "A busy 1916 downtown street with streetcars on rails, men in straw boater hats on the sidewalk, new brick buildings with scaffolding going up, hazy hills behind, bright clear daylight, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/The_Chamber_of_commerce_handbook_for_San_Francisco%2C_historical_and_descriptive%3B_a_guide_for_visitors_%281914%29_%2814589594267%29.jpg/1920px-The_Chamber_of_commerce_handbook_for_San_Francisco%2C_historical_and_descriptive%3B_a_guide_for_visitors_%281914%29_%2814589594267%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 1925,
+      "h": 3104,
+      "credit": "The Chamber of commerce handbook for San Francisco, historical and descriptive; a guide for visitors (1914) (14589594267).jpg by Todd, Frank Morton;\n\nGreater San Francisco Chamber of Commerce, NO RESTRICTIONS, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Chamber_of_commerce_handbook_for_San_Francisco,_historical_and_descriptive;_a_guide_for_visitors_(1914)_(14589594267).jpg"
+     }
+    },
+    {
+     "vo": "One of its busiest developers was Duncan McDuffie, a realtor selling big, elegant homes in new neighborhoods like Claremont.",
+     "prompt": "A man in a grey three-piece suit and straw boater hat, mustache, holding a rolled plan and standing beside a large new shingled house, small young trees on the lawn, other big houses behind, 1916 Berkeley hills, warm afternoon light, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g24e6fe384296461d1051943f9c8ffe3819bfcbb3a1d86e5fac876f25369a1adf91a0ec93750e633ae89836035d394ca7694f4a1e6cf83668e84765ffdd36c106_1280.jpg",
+      "w": 6720,
+      "h": 4480,
+      "credit": "Pixabay (ninjason)",
+      "page": "https://pixabay.com/photos/san-francisco-skyline-house-tourism-4674351/"
+     }
+    },
+    {
+     "vo": "His buyers paid a premium for quiet streets, and McDuffie knew exactly what could wreck that quiet, and those prices, almost overnight.",
+     "prompt": "A man in a grey three-piece suit and straw boater hat, mustache, gesturing to a tall window view on the left, a wealthy woman in a long cream dress and feathered hat on the right looking at the empty grand living room with a fireplace, soft window light, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gce698b7ec5b7d1409e984b6267dd9cab79aa90759e8dffe53b281fa0a314b6e6dcfbcc1c9f4a16cbffd0f795c2316e3a_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (12019)",
+      "page": "https://pixabay.com/photos/berlin-germany-urban-street-city-77787/"
+     }
+    },
+    {
+     "vo": "A shop, a boarding house or an apartment building on the next lot could drag every price on the street down with it.",
+     "prompt": "A plain three-storey wooden boarding house rising on the lot next to a fine shingled Craftsman home, carpenters on scaffolding, a well-dressed man in a grey suit on the fine home's porch watching with arms crossed, 1916 Berkeley, overcast light, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g445f7235debed69c054e7a5036943dea4ba345b4aba5bd97d1123ad37f0208a5041009dd17a09a5c7f0b5a806fdfdb4b51b0c11dcd199259d458c410e9300ea3_1280.jpg",
+      "w": 3072,
+      "h": 2041,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/apartments-architecture-balconies-1845884/"
+     }
+    },
+    {
+     "vo": "His tracts already carried private deed restrictions, including racial covenants, but deeds could expire and were slow and costly to enforce.",
+     "prompt": "A 1910s property deed lying open on a lawyer's desk, a large flat page with the heading \"DEED OF SALE\" turned toward the camera, a fountain pen and a red wax seal beside it, warm lamplight, sharp focus, close shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So McDuffie and his allies pushed for something much stronger, a city law that decided what could be built on every single lot.",
+     "prompt": "A man in a grey three-piece suit and straw boater hat, mustache, standing to speak at a long wooden table, a row of men in dark suits seated and listening, 1916 council chamber with tall windows, afternoon light, medium wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g372d93ea6971638132f2eefb5ce32a81828e81ef0a91b842cf175bd73ef26976fe76f98c34844782bc76a4f83e008ecf6bf2de89cb66ca9d770b62100fc38e98_1280.jpg",
+      "w": 2016,
+      "h": 1512,
+      "credit": "Pixabay (zschorr)",
+      "page": "https://pixabay.com/photos/easement-real-estate-dispute-egress-1683257/"
+     }
+    },
+    {
+     "vo": "That year, Berkeley created a district where the only thing allowed was one detached house for one family.",
+     "prompt": "A row of identical detached single-family houses with deep green front lawns and white picket fences, a lone gardener in overalls trimming a hedge in front, no shops anywhere, 1916 Berkeley, bright midday light, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/ge28426fcc94d31939999d11e59e612044c80127d8645d17494866676cce5fdb3b27d71b4d8b6cd864ffa522c2f6a845c6a33a452d32e82c28938a6f11ef5250f_1280.jpg",
+      "w": 4175,
+      "h": 3264,
+      "credit": "Pixabay (paulbr75)",
+      "page": "https://pixabay.com/photos/new-home-house-realtor-real-estate-2409516/"
+     }
+    },
+    {
+     "vo": "No corner store, no duplex and no apartment over a shop, the exact mix you would find on every old Main Street.",
+     "prompt": "A small wooden stake driven into an empty grass lot between two large houses, the lot overgrown and bare of any building, 1916 Berkeley street, quiet late-afternoon light, sharp focus, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It was the first single-family-only zone in America, and it was sold to the public as protecting homes from nuisances.",
+     "prompt": "A man and a woman seated reading a large newspaper by a window in a 1916 living room, the front page held open toward the camera with the headline \"HOMES PROTECTED\" in large flat print, warm evening lamplight, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But one town's rule could still be thrown out by a judge, and within a few years a town in Ohio saw its rule struck down.",
+     "prompt": "A wooden judge's bench with a gavel resting on it in an empty 1920s courtroom, an empty witness chair beside it, dust in shafts of window light, low dramatic camera, sharp focus, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "THE PARASITE RULING",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "subscribe_ask": true,
+     "prompt": "A middle-aged man in a dark suit and round glasses seen from the side, reviewing typed pages at a large desk, a second man in a suit standing beside him, tall office windows, Washington in 1922, soft daylight, medium shot, oil painting",
+     "seed": 1500,
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "By 1922, Herbert Hoover's Commerce Department had drafted a model zoning law that any state could copy.",
+     "prompt": "A middle-aged man in a dark suit and round glasses seen from the side, reviewing typed pages at a large desk, a second man in a suit standing beside him, tall office windows, Washington in 1922, soft daylight, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Pacific_service_magazine_%281924%29_%2814594944520%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 998,
+      "h": 1390,
+      "credit": "Pacific service magazine (1924) (14594944520).jpg by Internet Archive Book Images, NO RESTRICTIONS, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Pacific_service_magazine_(1924)_(14594944520).jpg"
+     }
+    },
+    {
+     "vo": "States copied it quickly, and towns across the country began drawing hard lines between houses, shops and factories.",
+     "prompt": "A clerk in sleeve garters inking long property lines on a large sheet of paper at a drafting table, side view, rolls of maps on shelves behind, 1920s town planning office, warm lamplight, close medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g9010ad884e50c621cf55087cd8904d09e9674f80332300ddf33e26ce58380130eba54b0000b35261295ceafdac27f702621d6a0a68b083703081849c173e0e24_1280.jpg",
+      "w": 3890,
+      "h": 2949,
+      "credit": "Pixabay (PublicCo)",
+      "page": "https://pixabay.com/photos/suburbs-homes-neighbors-2211335/"
+     }
+    },
+    {
+     "vo": "In Euclid, Ohio, a suburb of Cleveland, one of those lines cut straight through sixty-eight acres owned by Ambler Realty.",
+     "prompt": "A man in a flat cap with a surveyor's tripod standing in open rolling farmland beside a railroad track, a large flat wooden sign on a post reading \"AMBLER REALTY\" turned toward the camera, 1920s Ohio suburb, overcast light, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Ambler had planned to sell that land for industry, and the town's new rules cut its value to roughly a quarter.",
+     "prompt": "A 1920s businessman in a brown suit at his desk staring in dismay at papers in his hands, a tall window behind him showing factory smokestacks in the distance, cold grey light, sharp focus, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Ambler sued, and in 1924 a federal judge in Cleveland agreed that the town had taken its property without paying for it.",
+     "prompt": "A judge in black robes reading a ruling aloud from a raised bench, lawyers seated at two tables in front, spectators in hats behind, 1924 federal courtroom in Cleveland, warm window light, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The town appealed, and in 1926 the case of Euclid versus Ambler reached the United States Supreme Court.",
+     "prompt": "Nine men in black robes seated at a long raised bench, a lawyer standing before them with papers, the grand 1926 Old Senate Chamber with a domed ceiling, soft light from above, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "After hearing the case argued twice, the justices sided with the town by six votes to three.",
+     "prompt": "Nine men in black robes seated around a long table in a wood-panelled room, one in the foreground raising his hand in a vote, the others watching, 1926, warm lamplight, medium wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Hawaiian_Supreme_Court_Justices_%28PNLPC-26-08275%29.jpg/1920px-Hawaiian_Supreme_Court_Justices_%28PNLPC-26-08275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 12289,
+      "h": 9890,
+      "credit": "Hawaiian Supreme Court Justices (PNLPC-26-08275).jpg by James J. Williams, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Hawaiian_Supreme_Court_Justices_(PNLPC-26-08275).jpg"
+     }
+    },
+    {
+     "vo": "Justice George Sutherland's opinion said that an apartment building in a district of detached houses was very often 'a mere parasite'.",
+     "prompt": "An elderly man with a white beard in black robes writing with a fountain pen at a desk stacked with law books, side view, one open page in front of him, dramatic lamplight, close medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Justice_George_Sutherland_5.jpg/1920px-Justice_George_Sutherland_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3826,
+      "h": 4686,
+      "credit": "Justice George Sutherland 5.jpg by Harris &amp; Ewing, photographer., PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Justice_George_Sutherland_5.jpg"
+     }
+    },
+    {
+     "vo": "He meant apartments dropped into districts of detached houses, yet millions of Americans lived in exactly that kind of building.",
+     "prompt": "A 1920s city apartment building packed with families, a mother and children on every fire escape, children playing on the front steps, laundry lines between windows, warm afternoon light, sharp focus, wide shot from the street, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/ge1f55bed96f30e9cb69e34edc97b8d1ab4ab1f1e90dd198f46957616018117e8da915a108afdee823252c347793617535094b7081e5f44c908fbbf875d7a596b_1280.jpg",
+      "w": 3072,
+      "h": 2041,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/apartments-architecture-balconies-1845884/"
+     }
+    },
+    {
+     "vo": "After the ruling, towns everywhere took it as permission to keep apartments and shops out.",
+     "prompt": "A man in a 1926 suit sitting on a suburban porch holding a large newspaper open toward the camera, the front page headline \"ZONING UPHELD\" in large flat print, morning light, medium close shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g6585c0a43352a18ab62c2508e684c2087631bc71d0f00026c58b90712430bf1061a1bc03de391025ed45075a74e559a47815c829fae577a3dcd8051de75f243e_1280.jpg",
+      "w": 3352,
+      "h": 2286,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/house-garage-driveway-architecture-1867187/"
+     }
+    },
+    {
+     "vo": "Lawyers still call the whole American system Euclidean zoning, named after a small Ohio town most people have never heard of.",
+     "prompt": "A quiet residential street of modest detached houses with front porches, bare maple trees and fallen leaves on the lawns, late 1920s small Ohio town, soft autumn light, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Euclid_Square_Mall_Euclid%2C_OH_%2811922136013%29.jpg/1920px-Euclid_Square_Mall_Euclid%2C_OH_%2811922136013%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3256,
+      "h": 1839,
+      "credit": "Euclid Square Mall Euclid, OH (11922136013).jpg by Mike Kalasnik from Charlotte, USA, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Euclid_Square_Mall_Euclid,_OH_(11922136013).jpg"
+     }
+    },
+    {
+     "vo": "But a law only says what is allowed, and it took money from Washington to decide what actually got built.",
+     "prompt": "The white dome of the US Capitol at the end of a Washington street, men in overcoats and hats walking toward it, heavy clouds above, 1930s, dramatic overcast light, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "THE MORTGAGE RULEBOOK",
+   "shots": [
+    {
+     "vo": "In 1934, in the depths of the Depression, Congress created the Federal Housing Administration to get Americans buying homes again.",
+     "prompt": "A family of four in worn winter coats standing in front of a small house, a hand-painted card in the front window reading \"FOR SALE\" turned toward the camera, bare trees, 1934 Depression-era street, grey winter light, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The FHA insured mortgages, so banks would lend with small down payments and long, low monthly payments, but only on houses it approved.",
+     "prompt": "A young man and woman in 1930s clothes signing a paper across a polished desk from a loan officer in a grey suit, marble columns behind them, warm light, sharp focus, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g0c5b7bbad7168979edcdf324ec53c874c3504f5208d3d4cec6c6dd5e8d8ad6f4e1d6f8587f3bb91e0f21944b917cc3c75caa33109283d27e0841cad33700d83d_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Schluesseldienst)",
+      "page": "https://pixabay.com/photos/house-key-property-security-4516175/"
+     }
+    },
+    {
+     "vo": "Its 1938 Underwriting Manual told appraisers exactly which neighborhoods deserved that approval and which ones did not.",
+     "prompt": "A thick government handbook lying open on a wooden desk, its cover beside it reading \"UNDERWRITING MANUAL\" in large flat print facing the camera, a pencil and a pair of glasses resting on the page, 1938, warm lamplight, close shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "New subdivisions of detached houses, protected by zoning and deed restrictions, scored the highest marks of all.",
+     "prompt": "Rows of identical small detached houses with fresh green lawns and young trees along a curving street, a brand-new 1938 suburb, bright clear daylight, sharp focus, wide elevated shot from a hill, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g14e78eedf160d207de947fb3062e16e46aa94c2bf34861dcd794f4bf59ae382862d1526aeb6f8e129e5c3e49c0f31795d1597780696fb69adc739906f8c17cbf_1280.jpg",
+      "w": 5408,
+      "h": 3605,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/house-architecture-front-yard-1836070/"
+     }
+    },
+    {
+     "vo": "Older streets with shops, apartments and mixed neighbors were marked as risky, and their loans were often simply refused.",
+     "prompt": "A man in a fedora holding a clipboard, shaking his head, on an older city street of mixed brick shops and apartments, a few residents watching from doorways in the distance, 1938, overcast light, medium wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Saigon_Cafe_-_fmr_Great_Atlantic_%26_Pacific_Tea_Company%2C_Fanny_Farmer_Candy_Shop_et_al._-_Buffalo%2C_New_York_-_20210424.jpg/1920px-Saigon_Cafe_-_fmr_Great_Atlantic_%26_Pacific_Tea_Company%2C_Fanny_Farmer_Candy_Shop_et_al._-_Buffalo%2C_New_York_-_20210424.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3393,
+      "h": 2036,
+      "credit": "Saigon Cafe - fmr Great Atlantic & Pacific Tea Company, Fanny Farmer Candy Shop et al. - Buffalo, New York - 20210424.jpg by Andre Carrotflower, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Saigon_Cafe_-_fmr_Great_Atlantic_%26_Pacific_Tea_Company,_Fanny_Farmer_Candy_Shop_et_al._-_Buffalo,_New_York_-_20210424.jpg"
+     }
+    },
+    {
+     "vo": "The manual even recommended deed restrictions to keep out what it called 'inharmonious racial groups', in its own words.",
+     "prompt": "A Black father in a brown suit and his young daughter in a white Sunday dress standing before a shut office door, a paper notice on the door reading \"CLOSED\" in large flat print facing the camera, the father looking down the street, late 1930s, grey light, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Between 1934 and 1962, federal programs backed around 120 billion dollars in home loans, and the vast majority went to white families in new suburbs.",
+     "prompt": "A white father and mother in 1950s clothes carrying cardboard boxes from a station wagon toward a new suburban house, side view, neighbors waving from the lawn far off, bright sunny afternoon, sharp focus, medium wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g66a8a6f0f9185064c14b63d0dc2af7b97f4309478799d5eae4760d401a3a42f2fe8f7f92dd6776978f7dddb3ba47a78bfb4ed792b61cf4b2912fe84ca6a68611_1280.jpg",
+      "w": 3890,
+      "h": 2949,
+      "credit": "Pixabay (PublicCo)",
+      "page": "https://pixabay.com/photos/suburbs-homes-neighbors-2211335/"
+     }
+    },
+    {
+     "vo": "In 1947, Levittown on Long Island turned that formula into an assembly line, finishing up to thirty houses a day.",
+     "prompt": "Rows of identical half-built Cape Cod houses, carpenters on roofs and walls, a truck stacked with lumber at the curb, one finished house at the end of the row, 1947 Long Island, bright daylight, sharp focus, wide elevated shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Meanwhile, the old walkable neighborhoods were starved of loans, and many of them slowly fell apart.",
+     "prompt": "A lone elderly shopkeeper sweeping the sidewalk in front of his shop, boarded-up brick storefronts with peeling paint on both sides of him, 1950s city main street, cold grey light, sharp focus, medium wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g372e875cf90d05e29f619081bedbb7e7272eccf8eeafd38e5949594581fe055c6e85521d62152c0937ba7c6434b0ac9a331d9814bb6668bcb2dad892efc4d9df_1280.jpg",
+      "w": 6720,
+      "h": 4480,
+      "credit": "Pixabay (ninjason)",
+      "page": "https://pixabay.com/photos/san-francisco-skyline-house-tourism-4674351/"
+     }
+    },
+    {
+     "vo": "Builders learned the lesson fast: build what the FHA likes, and the buyers arrive with their financing already arranged.",
+     "prompt": "A home builder in shirt sleeves showing a model house to a line of young couples at its front door, a new suburban street behind them, 1950s, cheerful sunny light, sharp focus, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g78002b00cc82f19d08c34c0e5fd409154dbcb458e264e43a12aea934d31fa29ea97ce4012e2260c0e88f8ec26860539f2f070d531cf719fd1be1f6cdf2659964_1280.jpg",
+      "w": 4112,
+      "h": 2931,
+      "credit": "Pixabay (paulbr75)",
+      "page": "https://pixabay.com/photos/new-home-construction-build-1664284/"
+     }
+    },
+    {
+     "vo": "But the suburbs had one more rule coming, and it was about the machine now sitting in every driveway.",
+     "prompt": "A shiny 1950s two-tone sedan seen from the front three-quarter view, parked in a suburban driveway, the lit windows of a house glowing behind it, dusk, warm evening light, low camera angle, sharp focus, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g03b30e9440b77666f23b05f7ef6100350b03aa9e1dc561b1840d0fa1e9df8906734a517522324312dc2a7b1300690adcbed30ce0debe01f85a18ccc9a8dbf90d_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (opollophotography)",
+      "page": "https://pixabay.com/photos/property-house-real-estate-court-7046997/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "ONE SPACE PER CUSTOMER",
+   "shots": [
+    {
+     "vo": "In 1923, Columbus, Ohio, became one of the first cities to require off-street parking for new apartment buildings.",
+     "prompt": "A new brick apartment building with a small gravel lot behind it holding three black Model T cars, two men in flat caps standing beside them, 1923 Ohio street, clear daylight, sharp focus, medium wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gd28dd2e0ffc77be3be930db1248e632b651a51c8534cbda4d16f64cbb5bc7226b871e9cf43c8b3f17990fdc27baf9bf556739f462cfd9719ea6bd8b4123138fd_1280.jpg",
+      "w": 5760,
+      "h": 3840,
+      "credit": "Pixabay (Life-Of-Pix)",
+      "page": "https://pixabay.com/photos/house-corner-road-urban-crossing-569115/"
+     }
+    },
+    {
+     "vo": "After World War Two, almost every American city copied the idea and wrote a parking minimum for every kind of building.",
+     "prompt": "Men in short-sleeved white shirts and ties seated around a table covered in typed pages and full ashtrays, a large city map pinned on the wall behind them, 1950s planning office, bright fluorescent light, sharp focus, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Minneapolis_Parking_Ramps%2C_Garages%2C_and_Parking_Lots_in_Loop_-_DPLA_-_1252ea49ddbb7c3afc989663fa1e34f9.jpg/1920px-Minneapolis_Parking_Ramps%2C_Garages%2C_and_Parking_Lots_in_Loop_-_DPLA_-_1252ea49ddbb7c3afc989663fa1e34f9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3577,
+      "h": 4326,
+      "credit": "Minneapolis Parking Ramps, Garages, and Parking Lots in Loop - DPLA - 1252ea49ddbb7c3afc989663fa1e34f9.jpg by Shay, John W, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Minneapolis_Parking_Ramps,_Garages,_and_Parking_Lots_in_Loop_-_DPLA_-_1252ea49ddbb7c3afc989663fa1e34f9.jpg"
+     }
+    },
+    {
+     "vo": "Some codes demand ten parking spaces for every thousand square feet of a restaurant, no matter how many diners walk there.",
+     "prompt": "A small family restaurant building with a large empty parking lot wrapped around three sides of it, only two cars in the lot, painted white parking lines everywhere, bright flat midday light, sharp focus, wide elevated shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Denny%27s_%26_Truck_Parking_Lot_%40_Flying_J_in_Pasco%2C_FL.jpg/1920px-Denny%27s_%26_Truck_Parking_Lot_%40_Flying_J_in_Pasco%2C_FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3648,
+      "h": 2736,
+      "credit": "Denny's & Truck Parking Lot @ Flying J in Pasco, FL.jpg by DanTD, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Denny%27s_%26_Truck_Parking_Lot_@_Flying_J_in_Pasco,_FL.jpg"
+     }
+    },
+    {
+     "vo": "Each space, plus the lane to reach it, takes roughly three hundred square feet, about the size of a small bedroom.",
+     "prompt": "A single empty parking space on fresh black asphalt with crisp white lines, a lone shopping cart at its edge, harsh noon sun with long shadows, high camera looking straight down, sharp focus, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g3ae071e5fed8a023266690c01ac47ceea275b6bd2cb0a9ea7e825c2b3872ee7ab7680a91d556dad9ca6241437fe4e3720eb3a5a79b70055d05f2148ccfc8c059_1280.jpg",
+      "w": 4000,
+      "h": 2250,
+      "credit": "Pixabay (StockSnap)",
+      "page": "https://pixabay.com/photos/dark-night-light-aerial-field-2591439/"
+     }
+    },
+    {
+     "vo": "So a small restaurant can legally need a parking lot bigger than the restaurant itself.",
+     "prompt": "A tiny diner at the left, small beside a vast empty asphalt parking lot stretching to the horizon, one pickup truck parked far off, heat shimmer rising, bright afternoon light, sharp focus, very wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gb25db0e079a3cc4d7b53cb7a1888e6d0e5f2ccb24ec8f26a91c0f03c9d83fb00b008a9d3b8366d687b519849dcb214229e2bff254cb42a7e488278e2930002dc_1280.jpg",
+      "w": 4048,
+      "h": 2449,
+      "credit": "Pixabay (tuszynskib)",
+      "page": "https://pixabay.com/photos/diner-wyoming-west-2806440/"
+     }
+    },
+    {
+     "vo": "Now picture your old Main Street, where the buildings touch and the sidewalk does the job a parking lot would.",
+     "prompt": "Shoppers walking along a historic brick main street where the buildings share walls, a few cars parked along the curb, warm late-afternoon light, eye-level view from the sidewalk, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g8bf008402fd434b6dac294fe80fe56550489aab0298026181ef1c2e2cb4d002b51b39c7b57865cb78d542afc2838aece4a0e3d1d5ee4bc6fed85b837a97d4b13_1280.jpg",
+      "w": 2201,
+      "h": 1132,
+      "credit": "Pixabay (12019)",
+      "page": "https://pixabay.com/photos/cedar-falls-iowa-city-town-urban-1731519/"
+     }
+    },
+    {
+     "vo": "There is no room for a lot behind those buildings, so under today's rules most of them simply could not be built.",
+     "prompt": "The narrow brick back alley behind a row of old main street buildings, back doors, iron fire escapes and one delivery bike leaning on a wall, no space for any car, soft shade light, sharp focus, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Downtown_Claremore_OK_2026-05-24_13-01-02.jpg/1920px-Downtown_Claremore_OK_2026-05-24_13-01-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 7887,
+      "h": 4437,
+      "credit": "Downtown Claremore OK 2026-05-24 13-01-02.jpg by G. Edward Johnson, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Downtown_Claremore_OK_2026-05-24_13-01-02.jpg"
+     }
+    },
+    {
+     "vo": "UCLA professor Donald Shoup spent decades showing that many of these numbers were guesses, copied from one town's code to the next.",
+     "prompt": "A grey-haired professor in a tweed jacket standing at the edge of an almost empty parking structure, looking out over rows of vacant spaces, side view, cool afternoon light, sharp focus, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Strip malls and big-box stores sit behind seas of asphalt for exactly this reason: the law requires the asphalt.",
+     "prompt": "A long low strip of shops set far back behind an enormous mostly empty asphalt parking lot beside a six-lane road, rows of light poles, plain blank signboards, flat hazy sunlight, sharp focus, wide shot from the roadside, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Cranberry_Mall_parking_lots_and_buildings.jpg/1920px-Cranberry_Mall_parking_lots_and_buildings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6016,
+      "h": 4000,
+      "credit": "Cranberry Mall parking lots and buildings.jpg by Nyttend, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Cranberry_Mall_parking_lots_and_buildings.jpg"
+     }
+    },
+    {
+     "vo": "Add minimum lot sizes, deep setbacks and height limits, and the postcard street is illegal several times over.",
+     "prompt": "A single new suburban house sitting far back on a huge empty lawn behind a long driveway, no sidewalk, a wide empty street in front, bright midday light, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g0e3eddf3f2347f6c7b332bf1be35ce5414b08367dda9a2576a77780d0405421eb81794217dc6337ffbfde6c020cd201f3f184d71125fe2ce6f8018589f9a87d2_1280.jpg",
+      "w": 3089,
+      "h": 2048,
+      "credit": "Pixabay (JayMantri)",
+      "page": "https://pixabay.com/photos/vw-beetle-volkswagen-classic-car-405876/"
+     }
+    },
+    {
+     "vo": "So is America stuck with this forever, or is the rest of the world doing something different?",
+     "prompt": "A man in a jacket standing alone at the edge of a wide empty suburban road, no sidewalk under his feet, looking toward distant lights, seen from the side, cool blue dusk light, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g6c83687d1b1a1e76379a83756f94dda97a5670521183f20f2d3fcdbd3a41f259bfeb14132489f59d818dcfbfcea75bcb2b089958f5b4a9e51be3b1fdee4192a6_1280.jpg",
+      "w": 6960,
+      "h": 4640,
+      "credit": "Pixabay (Joa70)",
+      "page": "https://pixabay.com/photos/africa-growth-development-plant-9904004/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "THE WAY BACK",
+   "shots": [
+    {
+     "vo": "In Japan, zoning rules are set by the national government, and even the quietest residential zones allow a small shop built into a home.",
+     "prompt": "An elderly shopkeeper arranging vegetables outside a tiny shop built into the front of a two-storey Tokyo family house, potted plants along the quiet side street, soft morning light, sharp focus, eye-level shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "That is why a Tokyo side street can hold a noodle counter, a barber and family houses on the same short block.",
+     "prompt": "A narrow Tokyo lane in the evening with a small noodle counter and steam rising, a barber's chair visible through a window, children cycling past family houses, warm lantern light, sharp focus, medium wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gf9142e44570ca7d3ee79af3c40dd1060d01d4052a24a11af21497213bb28854b67a4834a64a21b9a3cadf5ee645578e22940061b1b9e9b82fd6dd561ceb7fbe9_1280.jpg",
+      "w": 4918,
+      "h": 3702,
+      "credit": "Pixabay (Takatoshikun)",
+      "page": "https://pixabay.com/photos/cafe-outside-japan-peaceful-cool-5899078/"
+     }
+    },
+    {
+     "vo": "Across much of Europe, apartments above shops never stopped being normal, so the corner bakery never left.",
+     "prompt": "A woman leaving a bread shop with baguettes under her arm, side view, a large flat shop board reading \"BOULANGERIE\" turned toward the camera above the door, apartments with shutters above, French town street, morning light, eye-level shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gf41ab87dee8e6085bc033f86c5d00b9eb0f75849e7944961d56bf2d63b7e3b1ceb76f0fdac4136150fbc7e31c476f05a7b8a8466cade9f5802d99ae00a9be043_1280.jpg",
+      "w": 4288,
+      "h": 2848,
+      "credit": "Pixabay (wal_172619)",
+      "page": "https://pixabay.com/photos/shopping-street-pedestrian-zone-7924559/"
+     }
+    },
+    {
+     "vo": "In America, the first big crack came in 2017, when Buffalo, New York dropped its parking minimums across the entire city.",
+     "prompt": "A new small apartment building with a café on its ground floor and no parking lot, people walking and sitting on the sidewalk in front, restored brick downtown street in Buffalo, crisp autumn daylight, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Main_Street_in_downtown_Buffalo%2C_New_York%2C_October_2012.jpg/1920px-Main_Street_in_downtown_Buffalo%2C_New_York%2C_October_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2736,
+      "h": 3648,
+      "credit": "Main Street in downtown Buffalo, New York, October 2012.jpg by Reading Tom from Reading, UK, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Main_Street_in_downtown_Buffalo,_New_York,_October_2012.jpg"
+     }
+    },
+    {
+     "vo": "In 2018, Minneapolis voted to end single-family-only zoning, allowing up to three homes on any residential lot in the city.",
+     "prompt": "Residents in a crowded council chamber holding up hand-made blank cardboard cards, council members seated at a curved wooden dais in front, Minneapolis 2018, warm interior light, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/geab8b0d71735eb7fc46be006c1e9bbb5ba894ae05546a11ba94dc5e3f13ecc3a4b8465d4fcf6e0208a695707c6705d1420358732613e3124e264944a8052d0c4_1280.jpg",
+      "w": 4899,
+      "h": 3266,
+      "credit": "Pixabay (H031175)",
+      "page": "https://pixabay.com/photos/house-homeland-architecture-7313645/"
+     }
+    },
+    {
+     "vo": "A year later, Oregon passed a state law letting duplexes go up in larger cities where single-family zoning once ruled.",
+     "prompt": "A newly built wooden duplex beside older single-family houses on a leafy street, a young mother and father on the shared porch, side view, soft overcast Pacific Northwest light, sharp focus, medium wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Simon_Abraham_Duplex_2013_-_Portland_Oregon.jpg/1920px-Simon_Abraham_Duplex_2013_-_Portland_Oregon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Simon Abraham Duplex 2013 - Portland Oregon.jpg by Ian Poellet, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Simon_Abraham_Duplex_2013_-_Portland_Oregon.jpg"
+     }
+    },
+    {
+     "vo": "Houston went its own way much earlier, cutting its minimum lot size in 1998 and getting tens of thousands of new townhouses.",
+     "prompt": "A row of new narrow three-storey townhouses side by side, palm trees along the street, a woman walking a dog on the sidewalk, Houston, hot bright afternoon light, sharp focus, wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Townhouses_-_34724971473.jpg/1920px-Townhouses_-_34724971473.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6016,
+      "h": 4000,
+      "credit": "Townhouses - 34724971473.jpg by Montgomery County Planning Commission, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Townhouses_-_34724971473.jpg"
+     }
+    },
+    {
+     "vo": "Still, in many American cities, about three quarters of residential land allows nothing but a detached single-family house.",
+     "prompt": "An endless suburb of detached houses and green lawns seen from a low hill, curving streets fading into haze, only houses, not a shop or apartment block in sight, late-afternoon light, sharp focus, very wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g911c40e2b522f758ae882852c0dfc1d9624c7e53137bb5b7e62c5beb043ea142688cac21d9c23994a42e60bd6cf787afc2075612c77022d8022a4c9a3d76d318_1280.jpg",
+      "w": 3831,
+      "h": 2565,
+      "credit": "Pixabay (paulbr75)",
+      "page": "https://pixabay.com/photos/home-for-sale-buy-sell-mortgage-1682316/"
+     }
+    },
+    {
+     "vo": "And many homeowners fight hard to keep it that way, worried about traffic, parking and the value of their homes.",
+     "prompt": "A man at a microphone gesturing firmly, rows of residents seated on folding chairs behind him, packed suburban town hall meeting, bright fluorescent light, sharp focus, medium wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g9b4e76a20e5b5e86fc94a4e7477ba5bb6c043626606b4ccedfe87fd2bc3f64da0196f44b09af4118b890464bc723f74da16ffcc60a258de6ce4f04370d95ef1d_1280.jpg",
+      "w": 4572,
+      "h": 3264,
+      "credit": "Pixabay (paulbr75)",
+      "page": "https://pixabay.com/photos/new-home-construction-site-house-2419869/"
+     }
+    },
+    {
+     "vo": "So here is a real question for you: would you trade your big yard for a bakery at the end of your street?",
+     "prompt": "A wide private backyard lawn with a swing set in the foreground, a wooden garden fence across the middle, and beyond the fence a small shop with bread loaves in its window on a lively street, golden evening light, sharp focus, medium wide shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/ge365013b6b0a9a9a89d1d85942d3c38d3ef3540d7ebeab7fad24d8829e4f3cb1e5a091bfe81fedeb9e59a3850014de8edb79803ffddc10b7453194f7ff2a0548_1280.jpg",
+      "w": 3264,
+      "h": 2417,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/bakery-breads-assorted-assortment-1868925/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "So why can't America build the streets on its own postcards? Because a realtor's rule, one Supreme Court word, federal mortgage money and parking math made them illegal.",
+     "prompt": "A vintage American main street at dusk, brick shops with lit apartment windows above, people strolling on the sidewalk, street lights just coming on, warm nostalgic light, sharp focus, wide eye-level shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g078c6b4ab7d133deae42236e5ecea460212a8204551fe10a977c8e8cfd53897cb8ed89b09e5a1555a9a92612a79a691ee46b4b772d43c0861f52c3a372aa40b1_1280.jpg",
+      "w": 2200,
+      "h": 1059,
+      "credit": "Pixabay (12019)",
+      "page": "https://pixabay.com/photos/baraboo-wisconsin-panorama-1826829/"
+     }
+    },
+    {
+     "vo": "Next time: why New York City banned the kitchen garbage disposal for decades, while most of America put one in every sink.",
+     "prompt": "A woman scraping a plate into a steel kitchen sink, side view, a window above it overlooking fire escapes and brick buildings, 1990s New York apartment kitchen, soft morning light, sharp focus, medium shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gb804fd82e9f17da3aa09ddbb940d01a7565e4d29c1cc99fb6d6e2919c772eb597eabfe8bfd7a8409ed37d63f3f3fb438fede55a6104fda5be4d2bddca3ba869d_1280.jpg",
+      "w": 4596,
+      "h": 3044,
+      "credit": "Pixabay (ClickerHappy)",
+      "page": "https://pixabay.com/photos/kitchen-home-interior-modern-room-2165756/"
+     }
+    },
+    {
+     "vo": "If you like finding the hidden reason behind everyday things, subscribe so you don't miss it.",
+     "prompt": "A baker in a white apron unlocking the door of a small corner shop with bread loaves in the window, warm light glowing onto the empty sidewalk, old American main street at dawn, sharp focus, eye-level shot, oil painting",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "photos_checked": true
+}

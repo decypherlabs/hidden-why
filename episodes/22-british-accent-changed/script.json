@@ -1,0 +1,802 @@
+{
+ "slug": "22-british-accent-changed",
+ "build": "github",
+ "title": "Who Really Lost the British Accent After 1776?",
+ "thumbnail": {
+  "layout": "split",
+  "left_label": "1776",
+  "right_label": "1926",
+  "text": "WHO DROPPED THE *R*?",
+  "plane": "A London gentleman of 1776 in a powdered wig, tricorn hat and blue frock coat, centred, large, mid-sentence with mouth open as if speaking, waist-up portrait, bright clear daylight, clean pale cream background, sharp detail, realistic painting, 50mm lens; no text, no logos, no letters",
+  "right": "An English BBC radio announcer of 1926 in a black dinner jacket and bow tie, centred, large, mid-sentence speaking into a chrome ribbon microphone on a stand, waist-up portrait, bright clear daylight, clean pale cream background, sharp detail, realistic painting, 50mm lens; no text, no logos, no letters"
+ },
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "words_in_edit": true,
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "cause",
+  "points": null
+ },
+ "music": {
+  "reflective": [
+   "cold_open",
+   "ch1",
+   "ch2",
+   "ch5",
+   "outro"
+  ],
+  "intense": [
+   "ch3",
+   "ch4"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "You're watching a British period drama, and the duke says car like cah.",
+     "prompt": "A family of three seated on a couch watching a television, seen from behind and the side, blue screen glow on their faces, a father, a mother and a child, cosy American living room at night, warm lamp light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Most Americans assume that's the original English, and we're the ones who wandered off.",
+     "prompt": "A young American man on a sofa raising one eyebrow in doubt, a bowl of popcorn in his lap, short brown hair, grey t-shirt, modern apartment, soft evening lamp light, medium close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1776, a London dockworker said car and farm with the R, like Ohio.",
+     "prompt": "A London dockworker in rough linen shirt and flat cap calling out with one hand raised to a carter beside a horse-drawn cart loaded with barrels, wooden Thames wharf, tall ships behind, grey morning light, medium shot, 1776",
+     "title": "*1776* London",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f2/St_Albans_Deptford.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1280,
+      "h": 747,
+      "credit": "St Albans Deptford.jpg by John Cleveley the Elder, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:St_Albans_Deptford.jpg"
+     }
+    },
+    {
+     "vo": "Today the King of England leaves the R off both.",
+     "prompt": "An elderly British king with white hair in a dark suit speaking at a wooden lectern, one hand raised, grand gilded palace hall, soft formal daylight from tall windows, medium shot",
+     "title": "The *King*",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Charles%2C_Prince_of_Wales_in_2021_%28cropped%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 915,
+      "h": 1159,
+      "credit": "Charles, Prince of Wales in 2021 (cropped) (3).jpg by The White House, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Charles,_Prince_of_Wales_in_2021_(cropped)_(3).jpg"
+     }
+    },
+    {
+     "vo": "So who actually changed?",
+     "prompt": "A tall wooden ship under full white sail crossing a wide grey ocean, seen from low on the water, dramatic clouds and shafts of sunlight, 1770s, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g90eab1dce947268ba1d835018fdbc21daea3b052569cf7f16bf52db81e4a3a64d4eb4e9f9d51b0dba8f3fbed71ceb5554c39ce811e692c4fb0fe2f1062770208_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (geralt)",
+      "page": "https://pixabay.com/photos/question-mark-exclamation-mark-7046730/"
+     }
+    },
+    {
+     "vo": "It involves a 1791 dictionary, a 1922 radio station, and three New York stores.",
+     "prompt": "A heavy leather-bound book lying open on a candlelit writing desk beside a quill and inkwell, blank cream pages, 1790s London, warm candle glow, close-up",
+     "title": "*1791* Dictionary",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Close_up_Samuel_Johnson_Folio_and_Abridged_dictionaries_%E2%80%93_letter_M.JPG/1920px-Close_up_Samuel_Johnson_Folio_and_Abridged_dictionaries_%E2%80%93_letter_M.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3264,
+      "h": 2448,
+      "credit": "Close up Samuel Johnson Folio and Abridged dictionaries – letter M.JPG by Jkarjalainen, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Close_up_Samuel_Johnson_Folio_and_Abridged_dictionaries_%E2%80%93_letter_M.JPG"
+     }
+    },
+    {
+     "vo": "It began in London around 1770, among people who wanted to sound expensive.",
+     "prompt": "Ladies in silk gowns and gentlemen in embroidered coats holding teacups and talking in an elegant London drawing room, crystal chandelier, tall sash windows, warm afternoon light, 1770, wide shot",
+     "title": "London *1770*",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "LONDON DROPS ITS R",
+   "shots": [
+    {
+     "vo": "When the Mayflower sailed in 1620 with 102 passengers, nearly everyone in England still pronounced the R in words like farm.",
+     "prompt": "Families in plain 1620 English clothing climbing a gangplank onto a wooden sailing ship, crates and bundles piled on the stone quay, harbour behind, overcast morning light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mayflower_II%2C_a_replica_of_the_Mayflower_which_brought_the_Pilgrims_to_Plymouth%2C_Massachusetts.jpg/1920px-Mayflower_II%2C_a_replica_of_the_Mayflower_which_brought_the_Pilgrims_to_Plymouth%2C_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3860,
+      "h": 2818,
+      "credit": "Mayflower II, a replica of the Mayflower which brought the Pilgrims to Plymouth, Massachusetts.jpg by Ltam46, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Mayflower_II,_a_replica_of_the_Mayflower_which_brought_the_Pilgrims_to_Plymouth,_Massachusetts.jpg"
+     }
+    },
+    {
+     "vo": "So did the settlers who followed them to Virginia, Massachusetts and Pennsylvania over the next hundred and fifty years.",
+     "prompt": "Colonial farmers ploughing a field behind two oxen, a log farmhouse and forest edge behind them, Pennsylvania in the 1740s, golden late-afternoon light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/James_Fort_Site%2C_Historic_Jamestowne%2C_Colonial_National_Historical_Park%2C_Jamestown%2C_Virginia_%2814445783923%29.jpg/1920px-James_Fort_Site%2C_Historic_Jamestowne%2C_Colonial_National_Historical_Park%2C_Jamestown%2C_Virginia_%2814445783923%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "James Fort Site, Historic Jamestowne, Colonial National Historical Park, Jamestown, Virginia (14445783923).jpg by Ken Lund from Reno, Nevada, USA, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:James_Fort_Site,_Historic_Jamestowne,_Colonial_National_Historical_Park,_Jamestown,_Virginia_(14445783923).jpg"
+     }
+    },
+    {
+     "vo": "Back in London, though, something was shifting in the fashionable streets around Mayfair and St James's in the late 1700s.",
+     "prompt": "Gentlemen in tricorn hats and powdered wigs walking past brick townhouses, two men carrying a sedan chair down a fashionable London street, 1780s, soft hazy morning sun, wide street-level shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/St_James%27s_Street_Walking_Sign.jpg/1920px-St_James%27s_Street_Walking_Sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5184,
+      "h": 3888,
+      "credit": "St James's Street Walking Sign.jpg by sebastiandoe5, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:St_James%27s_Street_Walking_Sign.jpg"
+     }
+    },
+    {
+     "vo": "The R after a vowel, in words like card, start and father, was slowly softening and fading from polite speech.",
+     "prompt": "Two Georgian gentlemen in powdered wigs leaning close in conversation across a card table, fanned playing cards in one man's hand, candlelit London club, 1780s, warm low light, medium close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/ga5c6028e010431cb15ba34c9b9f150fe1b07f830151bc7572bdff523aaf5595c76466c340d8f4823b7651fbded9dee3abda9c464926f90d802c33272bd5d7e9f_1280.jpg",
+      "w": 4608,
+      "h": 2592,
+      "credit": "Pixabay (Marisa_Sias)",
+      "page": "https://pixabay.com/photos/speak-mouth-lips-emotion-to-say-1526246/"
+     }
+    },
+    {
+     "vo": "To the city's elite, that softer sound felt relaxed and refined, the opposite of a farmhand's rolling burr.",
+     "prompt": "A Georgian lady in a pale silk gown laughing behind a lace fan, powdered hair, ballroom with chandeliers and dancers behind her, warm candlelight, close-up, 1780s London",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1791 an actor turned teacher named John Walker published a dictionary meant to tell Britain how to speak properly.",
+     "prompt": "An English teacher in a dark coat and white cravat seated at a desk holding up a thick book whose title page reads \"A CRITICAL PRONOUNCING DICTIONARY\", the book large and facing the camera, London study, window daylight, medium shot, 1790s",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Walker_Critical_Pronouncing_Dictionary_%28Herb%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1786,
+      "h": 488,
+      "credit": "Walker Critical Pronouncing Dictionary (Herb).png by John Walker, A critical pronouncing dictionary and expositor of the English lang, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Walker_Critical_Pronouncing_Dictionary_(Herb).png"
+     }
+    },
+    {
+     "vo": "He wrote that in London the R in lard, bard and card had nearly vanished, leaving laad, baad and caad.",
+     "prompt": "A large open 18th-century dictionary page on a wooden desk, a large printed word on the page reading \"CARD = CAAD\", facing the camera, a quill resting beside it, warm candlelight, macro close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Walker_Critical_Pronouncing_Dictionary_%28Herb%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1786,
+      "h": 488,
+      "credit": "Walker Critical Pronouncing Dictionary (Herb).png by John Walker, A critical pronouncing dictionary and expositor of the English lang, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Walker_Critical_Pronouncing_Dictionary_(Herb).png"
+     }
+    },
+    {
+     "vo": "Walker didn't fully approve, but by writing it down he proved the change was already spreading through the capital.",
+     "prompt": "Customers in coats and bonnets browsing stacked leather books on tall shelves while a clerk wraps a book in brown paper at a counter, Georgian London bookshop, 1791, soft window light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/John_Walker_by_Henry_Ashby.jpg/1920px-John_Walker_by_Henry_Ashby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2400,
+      "h": 3075,
+      "credit": "John Walker by Henry Ashby.jpg by Henry Ashby, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:John_Walker_by_Henry_Ashby.jpg"
+     }
+    },
+    {
+     "vo": "By then the colonies had already won their war, signed the peace in 1783, and taken their R's with them.",
+     "prompt": "Men in 18th-century coats and powdered wigs signing a treaty at a long table, one man bending with a quill over the paper, wax seals and inkwells, Paris townhouse, tall windows with pale daylight, 1783, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/History_of_the_city_of_New_York-_its_origin%2C_rise_and_progress_%281896%29_%2814783157973%29.jpg/1920px-History_of_the_city_of_New_York-_its_origin%2C_rise_and_progress_%281896%29_%2814783157973%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2848,
+      "h": 1892,
+      "credit": "History of the city of New York- its origin, rise and progress (1896) (14783157973).jpg by Lamb, Martha J. (Martha Joanna), 1829-1893;\n\nHarrison, Constance Cary, \"Mrs. Bur, NO RESTRICTIONS, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:History_of_the_city_of_New_York-_its_origin,_rise_and_progress_(1896)_(14783157973).jpg"
+     }
+    },
+    {
+     "vo": "So here's a question: if the colonists sailed with the R, why does London's version sound like the original today?",
+     "prompt": "An American colonial family in homespun clothes standing at the door of a clapboard farmhouse, father, mother and two children, looking out over a harvested field, golden evening light, 1780s, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g5141d89ea15e5d3398f664f36ad3627d4ff45f65511ed09d24480b493ca6ddec6719b6e6a27cd47ea810d55463abae0cefe8df68f870d0e13ed2138af46e431e_1280.jpg",
+      "w": 5423,
+      "h": 3622,
+      "credit": "Pixabay (derwiki)",
+      "page": "https://pixabay.com/photos/palace-london-parliament-big-ben-530055/"
+     }
+    },
+    {
+     "vo": "A fashion in a few rich parlours does not change a whole nation on its own; it needs a way to travel.",
+     "prompt": "A single Georgian gentleman in a long coat standing alone at a tall window, looking down on a muddy London street of carts and labourers, 1790s, cool grey daylight, over-the-shoulder medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g71ad2ac87faddc1b71b43c0333aaa62b5482a91e699d9d2c98d9d14c83df12785a9db4206cd97ac419f9f2d8b9ea6d04ab66af760f507147a6ce8c6cb6eb1473_1280.jpg",
+      "w": 4752,
+      "h": 3168,
+      "credit": "Pixabay (stux)",
+      "page": "https://pixabay.com/photos/study-room-house-georgian-library-425634/"
+     }
+    },
+    {
+     "vo": "In the 1800s Britain built exactly that machine, and it ran on boarding schools and railway tickets.",
+     "prompt": "A steam locomotive puffing white smoke at a Victorian railway platform, schoolboys in top hats and black jackets lifting trunks into a carriage, iron-and-glass roof, morning light, 1850s, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Victorian_Railways_locomotive_D324_with_mixed_train_at_Serviceton_station_%28date_1910s%29.jpg/1920px-Victorian_Railways_locomotive_D324_with_mixed_train_at_Serviceton_station_%28date_1910s%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5770,
+      "h": 3485,
+      "credit": "Victorian Railways locomotive D324 with mixed train at Serviceton station (date 1910s).jpg by Victorian Railways photographer, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Victorian_Railways_locomotive_D324_with_mixed_train_at_Serviceton_station_(date_1910s).jpg"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "SCHOOLS FOR SOUNDING RICH",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "subscribe_ask": true,
+     "prompt": "A Victorian mill owner in a frock coat and top hat with his young son in a school uniform, standing at the gate of a grand red-brick English boarding school, 1860s, crisp autumn daylight, medium-wide shot",
+     "seed": 1500,
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In the Victorian age, factory owners grew rich enough to send their sons to Eton, Harrow and Rugby.",
+     "prompt": "A Victorian mill owner in a frock coat and top hat with his young son in a school uniform, standing at the gate of a grand red-brick English boarding school, 1860s, crisp autumn daylight, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Eton_College_front_4.jpg/1920px-Eton_College_front_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4392,
+      "h": 3381,
+      "credit": "Eton College front 4.jpg by Evka W, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Eton_College_front_4.jpg"
+     }
+    },
+    {
+     "vo": "The new railways carried boys from Manchester, Leeds and Bristol to the same boarding houses for years at a time.",
+     "prompt": "Three schoolboys in tailcoats and stiff collars sitting in a Victorian railway carriage, trunks on the overhead rack, green English countryside passing the window, soft daylight, 1860s, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g0bd1ce9ecf411b64e0d875d17a46b0ee35a8343c553d286039940ac82b8cccd1e80b08bbf21c82a40d85a208622ce39fc032df68fdc249ec745772300becf623_1280.jpg",
+      "w": 3087,
+      "h": 1760,
+      "credit": "Pixabay (hpgruesen)",
+      "page": "https://pixabay.com/photos/steam-locomotive-special-trip-2361968/"
+     }
+    },
+    {
+     "vo": "Whatever accent a boy arrived with, the dormitory sanded it down until he sounded like everyone else from the right families.",
+     "prompt": "A nervous new boy holding a trunk in a long Victorian dormitory, two older boys in waistcoats standing over him, rows of iron beds, cold morning light from tall windows, 1860s, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g78c59516ec57132cd51efc6e3eaecf9d9232fa581f3448fa346c942786ff2c038e47a4b90b8eb4d93e0df9ce9339de6f595de9c56e21cb86d322b7caa77dd351_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (dimitrisvetsikas1969)",
+      "page": "https://pixabay.com/photos/auschwitz-concentration-camp-4443899/"
+     }
+    },
+    {
+     "vo": "That shared sound dropped its R's and stretched its A's, so bath and grass became bahth and grahss.",
+     "prompt": "Victorian schoolboys in white flannels lounging on a vast green lawn in front of a Gothic stone chapel, one boy reading aloud to the others, bright summer afternoon light, 1870s, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Before then, many English speakers said bath with the same flat A that most Americans still use today.",
+     "prompt": "An English mother in a stone cottage kitchen pouring hot water from a kettle into a tin bath before the hearth, a child waiting beside it, firelight and window light, 1780s, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1869 the scholar Alexander Ellis gave this accent a name: received pronunciation, the speech accepted in polite society.",
+     "prompt": "A bearded Victorian scholar in a dark suit writing at a cluttered desk, a manuscript title page in front of him reading \"RECEIVED PRONUNCIATION\", large and facing the camera, London study lined with books, gas-lamp glow, 1869, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Speaking it opened doors to the officer class, the civil service, the church and the courts across a huge empire.",
+     "prompt": "Young Victorian men in morning coats sitting in a row on wooden benches outside a tall oak door of an examination hall, shafts of daylight through high windows, London, 1880s, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g1307418317089ce38e05f7fb07bb1ebedf31a82e5c83b6e13891d638bbf4650119b2f6fe79a2cda84cc0607e22ed75bc90031f880034a12bec1008cfab973326_1280.jpg",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Pixabay (falco)",
+      "page": "https://pixabay.com/photos/england-london-united-kingdom-city-534967/"
+     }
+    },
+    {
+     "vo": "Sounding like your own county could quietly close those same doors, however clever or hardworking you happened to be.",
+     "prompt": "A young working-class man in a patched coat holding his cap in both hands, standing before a stern clerk in a black suit behind a tall wooden counter, London office, 1880s, cool window light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1917 the phonetician Daniel Jones wrote it down in a dictionary and called it Public School Pronunciation.",
+     "prompt": "An Edwardian professor in a high-collared suit and round spectacles seated in a university office, holding up a book whose cover reads \"ENGLISH PRONOUNCING DICTIONARY\", large and facing the camera, soft window light, London, 1917, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Still, in 1917 only a small slice of the country spoke it, and most Britons kept the voices they grew up with.",
+     "prompt": "Women in long coats and shawls buying vegetables from wooden stalls in a busy northern English market square, a soldier in uniform among them, plain blank stall boards, overcast daylight, 1917, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Farmers in Devon, miners in Lancashire and dockers in Glasgow still said their R's exactly as their grandparents had.",
+     "prompt": "Coal miners with blackened faces and helmet lamps walking out of a pithead, winding gear behind them, Lancashire, 1910s, low grey evening light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "What finally carried that one accent into nearly every British home was not a school, but a wooden box with a speaker.",
+     "prompt": "A 1920s wooden radio set with a horn loudspeaker standing on a lace doily, an armchair beside it, modest English parlour, warm afternoon window light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Club_holds_radio_dance_wearing_earphones_1920.jpg/1920px-Club_holds_radio_dance_wearing_earphones_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2188,
+      "h": 2418,
+      "credit": "Club holds radio dance wearing earphones 1920.jpg by Unknown authorUnknown author, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Club_holds_radio_dance_wearing_earphones_1920.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "THE BBC VOICE",
+   "shots": [
+    {
+     "vo": "On the fourteenth of November 1922, the British Broadcasting Company began daily broadcasts from a small studio in London.",
+     "prompt": "Engineers in shirtsleeves adjusting valve equipment beside a large microphone in a small curtained radio studio, a brass plaque on the wall reading \"BRITISH BROADCASTING COMPANY\", large and facing the camera, warm electric light, London, 1922, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Its general manager, a six-foot-six Scottish engineer named John Reith, wanted a voice the whole nation would trust.",
+     "prompt": "A towering stern Scotsman with a scarred cheek in a dark three-piece suit, standing at an office window looking out, London, 1920s, cool daylight, low-angle medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/INF3-49_Sir_John_Reith_Artist_Wooding.jpg/1920px-INF3-49_Sir_John_Reith_Artist_Wooding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2191,
+      "h": 3580,
+      "credit": "INF3-49 Sir John Reith Artist Wooding.jpg by ? Wooding, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:INF3-49_Sir_John_Reith_Artist_Wooding.jpg"
+     }
+    },
+    {
+     "vo": "His announcers spoke received pronunciation and read the evening news in dinner jackets, though no listener could see them.",
+     "prompt": "A radio announcer in a black dinner jacket and bow tie reading from blank paper sheets into a large microphone in a curtained studio, single warm lamp, night, 1920s, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gf0ac751044a76dcbd48c8463e19c350846ebd81a80d42ddae425efdbaa5f3ac2c35a889e088a5887c47458e9ff92318aee7f6832c9bcd14a3718fe0aa14fdef1_1280.png",
+      "w": 1999,
+      "h": 1818,
+      "credit": "Pixabay (AlLes)",
+      "page": "https://pixabay.com/photos/microphones-radio-sound-reportage-1491015/"
+     }
+    },
+    {
+     "vo": "In 1926 Reith set up an Advisory Committee on Spoken English, with George Bernard Shaw among its members, to rule how words should sound.",
+     "prompt": "Distinguished 1920s Englishmen in suits seated around a long polished table in a committee room, an elderly white-bearded man among them, papers and teacups, a card on the table reading \"SPOKEN ENGLISH\", large and facing the camera, soft daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/George_Bernard_Shaw_1936.jpg/1920px-George_Bernard_Shaw_1936.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2225,
+      "h": 3072,
+      "credit": "George Bernard Shaw 1936.jpg by Unknown authorUnknown author, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:George_Bernard_Shaw_1936.jpg"
+     }
+    },
+    {
+     "vo": "Families who had never met a duke now heard that accent every evening, reading the weather, the prices and the news.",
+     "prompt": "A working-class English family gathered around a wooden radio in a terraced-house kitchen after supper, father in braces, children on the floor, mother listening, warm lamplight, 1930s, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/BroxSistersRadioTeddyBear.jpg/1920px-BroxSistersRadioTeddyBear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4729,
+      "h": 3403,
+      "credit": "BroxSistersRadioTeddyBear.jpg by Unnamed photographer for Bain News Service, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:BroxSistersRadioTeddyBear.jpg"
+     }
+    },
+    {
+     "vo": "By 1939 Britain held nearly nine million radio licences, and children grew up believing that voice was simply how proper English sounded.",
+     "prompt": "A long row of identical brick terraced houses with a radio aerial on every chimney, children playing in the cobbled street, English town, 1939, soft evening light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Teachers corrected pupils toward it, employers favoured it, and actors trained for years to hide their home accents.",
+     "prompt": "A teacher in a tweed skirt standing beside a boy reading aloud from a book, rows of wooden desks, blank chalkboard, 1930s English classroom, window daylight, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g81572fa1b46a6e0aa63b65c6e6e077c34dd18de6bda29d99087d3ddac405bc981850815948ffce24c13e630b295e3991afa8edd5fc2e17776eed3e105c57d78f_1280.jpg",
+      "w": 5317,
+      "h": 3544,
+      "credit": "Pixabay (bairli1)",
+      "page": "https://pixabay.com/photos/classroom-old-one-room-school-510228/"
+     }
+    },
+    {
+     "vo": "People even started calling it BBC English, as if one broadcaster had come to own the whole language.",
+     "prompt": "People in hats and overcoats walking past a curved white Art Deco building at dusk, a doorway sign reading \"BROADCASTING HOUSE\", large and facing the camera, London street, soft blue evening light, 1930s, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/London_Pride_2011_BBC_Broadcasting_House_%282%29.jpg/1920px-London_Pride_2011_BBC_Broadcasting_House_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3240,
+      "h": 4320,
+      "credit": "London Pride 2011 BBC Broadcasting House (2).jpg by Gary Bembridge from London/ New York, UK, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:London_Pride_2011_BBC_Broadcasting_House_(2).jpg"
+     }
+    },
+    {
+     "vo": "So be honest: would you trust a newsreader more if they sounded like the BBC of 1930?",
+     "prompt": "An elderly English couple in 1930s clothing sitting very still in armchairs, heads tilted, listening intently to a wooden radio between them, firelight on their faces, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "That single sound, chosen by a handful of men in London, became what the world now calls the British accent.",
+     "prompt": "A crowded hall of seated 1930s townspeople in hats and coats, all looking forward, faces lit by a beam of projector light from behind, seen from the back, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gc3d8ee8774505c6fe298344fb5063500358160fe2d6ecbdf917b3a10c6a433fc482f4019e63cf1f4f25605b2e855c1d2dda5623412c8d523fc798a63466df309_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (x_OI)",
+      "page": "https://pixabay.com/photos/microphone-vintage-cromatic-mic-5340340/"
+     }
+    },
+    {
+     "vo": "Yet the dropped R was never only a British story, because some Americans had been copying London all along.",
+     "prompt": "A tall 18th-century sailing ship unloading wooden crates onto a busy wharf, merchants in fine coats inspecting cargo, colonial Boston, 1770s, bright harbour light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "AMERICA'S COPYCAT CITIES",
+   "shots": [
+    {
+     "vo": "Port cities like Boston, New York, Charleston and Savannah traded with London constantly, and their merchant families followed London fashion closely.",
+     "prompt": "A wealthy merchant family unpacking silk fabric and porcelain from a wooden shipping crate in a townhouse drawing room, tall shuttered windows, hot southern sunlight, Charleston, 1790s, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "When the R faded in London drawing rooms, it faded in Boston and Charleston drawing rooms not long after.",
+     "prompt": "Ladies and gentlemen in Federal-era dress drinking tea by a fireplace in an elegant parlour, harbour with ships visible through the window, Boston, 1800s, soft afternoon light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/ge82ae525a9563110854fc635610d6d896f56d119b1192c8d766909913cbe6bd5889ce42197405b8516737ef3eb311b7efb700858328a4f9c564e3b4413983c9b_1280.jpg",
+      "w": 4184,
+      "h": 2698,
+      "credit": "Pixabay (VinnyCiro)",
+      "page": "https://pixabay.com/photos/living-room-victorian-historic-581073/"
+     }
+    },
+    {
+     "vo": "That's why an old Boston accent says pahk the cah, while a farmer in Ohio never dropped a single R.",
+     "prompt": "An Ohio farmer in overalls and a straw hat leaning on a wooden fence beside a red barn and a cornfield, 1920s, bright midday sun, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Yard_-_Harvard_Business_School_-_DSC02995.JPG/1920px-Yard_-_Harvard_Business_School_-_DSC02995.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4320,
+      "h": 3240,
+      "credit": "Yard - Harvard Business School - DSC02995.JPG by Daderot, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Yard_-_Harvard_Business_School_-_DSC02995.JPG"
+     }
+    },
+    {
+     "vo": "Inland, settlers from Scotland, Ireland and northern England kept the old R and carried it west across the Appalachians.",
+     "prompt": "Families with covered wagons and a herd of cattle crossing a misty mountain pass, men walking beside the oxen, women in long skirts and bonnets, Appalachians, 1780s, early morning light through fog, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gd8fe14fb1cfa378d6309249e875c77aff44661546cf005a5816391deab53bd7961a8884f1d1be700aaab9b640b47dd729243f23c6033dab75fd63ebaf5db1785_1280.jpg",
+      "w": 2200,
+      "h": 1461,
+      "credit": "Pixabay (12019)",
+      "page": "https://pixabay.com/photos/north-carolina-meadow-deer-elk-1872517/"
+     }
+    },
+    {
+     "vo": "Hollywood joined in during the 1930s, when stars learned a polished, half-British voice for the screen.",
+     "prompt": "An actress in a satin evening gown and an actor in a tuxedo rehearsing lines beside a boom microphone on a film set, studio lights blazing, 1930s Hollywood, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1942 the voice teacher Edith Skinner published Speak with Distinction, a manual drama schools used to teach that R-less sound.",
+     "prompt": "A voice teacher in a tailored 1940s suit coaching young drama students in a wood-floored rehearsal room, holding up a book whose cover reads \"SPEAK WITH DISTINCTION\", large and facing the camera, window daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then, after the Second World War, America's mood changed, and sounding like London stopped sounding like money.",
+     "prompt": "American soldiers in uniform marching down a city street through falling confetti, cheering crowds on both sides, tall buildings, Manhattan, 1945, bright afternoon sun, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/New_York_City_views._LOC_gsc.5a22644.jpg/1920px-New_York_City_views._LOC_gsc.5a22644.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5987,
+      "h": 4805,
+      "credit": "New York City views. LOC gsc.5a22644.jpg by Gottscho-Schleisner Collection, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:New_York_City_views._LOC_gsc.5a22644.jpg"
+     }
+    },
+    {
+     "vo": "In 1962 a young linguist named William Labov walked into three New York department stores with one simple question.",
+     "prompt": "A young 1960s man in a narrow tie and jacket standing at a grand Fifth Avenue entrance whose awning reads \"SAKS FIFTH AVENUE\", large and facing the camera, shoppers in hats passing, bright autumn daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "At Saks, Macy's and the cheaper S. Klein, he asked clerks where to find something he knew was on the fourth floor.",
+     "prompt": "A young man in a jacket asking a saleswoman in a neat dress behind a glass counter, shelves of folded clothes and shoppers behind them, 1960s New York shop floor, bright fluorescent light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "At upscale Saks, about six in ten clerks pronounced at least some of the R's in fourth floor.",
+     "prompt": "An elegant saleswoman in pearls pointing upward toward an escalator, polished marble floor and chandeliers, luxury 1960s New York shop hall, soft warm light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Saks_Fifth_Avenue_%2848155562261%29.jpg/1920px-Saks_Fifth_Avenue_%2848155562261%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3914,
+      "h": 5115,
+      "credit": "Saks Fifth Avenue (48155562261).jpg by Ajay Suresh from New York, NY, USA, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Saks_Fifth_Avenue_(48155562261).jpg"
+     }
+    },
+    {
+     "vo": "At bargain S. Klein only about one in five did, so in New York the R had become the sound of status.",
+     "prompt": "A tired clerk pointing toward a staircase, crowded bins of cheap clothing and busy shoppers around, a large hanging card reading \"S. KLEIN\", large and facing the camera, harsh fluorescent light, New York, 1960s, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The same R that London's elite had dropped as too common was now the badge of America's own upper class.",
+     "prompt": "Wealthy New Yorkers in 1960s evening wear stepping out of a black limousine onto the sidewalk, a doorman holding the door open, glowing streetlamps, Fifth Avenue at dusk, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Saks_Fifth_Avenue%2BNew%2BYork%2BHoliday%2BWindows%2B2020%2Bxmas%2Bwindowalk_02.jpg/1920px-Saks_Fifth_Avenue%2BNew%2BYork%2BHoliday%2BWindows%2B2020%2Bxmas%2Bwindowalk_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 3024,
+      "credit": "Saks Fifth Avenue+New+York+Holiday+Windows+2020+xmas+windowalk 02.jpg by sabeen19, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Saks_Fifth_Avenue%2BNew%2BYork%2BHoliday%2BWindows%2B2020%2Bxmas%2Bwindowalk_02.jpg"
+     }
+    },
+    {
+     "vo": "So if Britain changed how it sounded, it's fair to ask what America really kept, and what it changed instead.",
+     "prompt": "A weathered 18th-century leather trunk standing open in an attic, old linens and a bundle of letters tied with string inside, dusty sunbeam from a small window, New England, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "WHAT AMERICA KEPT",
+   "shots": [
+    {
+     "vo": "Start with gotten, a word Americans use every day and many Britons hear as lazy or careless.",
+     "prompt": "A high-school student writing in a blank notebook at a sunny kitchen table, a mug of coffee beside it, pencil in hand, American home, morning light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It was ordinary English in Shakespeare's time, and it survived in the colonies long after it went out of fashion in England.",
+     "prompt": "An Elizabethan playwright in a doublet and ruff writing with a quill by candlelight at a wooden desk, timber-framed London room, 1590s, warm amber glow, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Title_page_William_Shakespeare%27s_First_Folio_1623.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 950,
+      "h": 1513,
+      "credit": "Title page William Shakespeare's First Folio 1623.jpg by Martin Droeshout, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Title_page_William_Shakespeare%27s_First_Folio_1623.jpg"
+     }
+    },
+    {
+     "vo": "Fall, for autumn, took the same path: common in England in the 1600s, it sailed west and simply stayed.",
+     "prompt": "A New England village green in autumn, a white clapboard church and maple trees blazing orange and red, leaves falling onto the grass, crisp golden afternoon light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Tenterfield_Countryside_in_Autumn-4_%288712076335%29.jpg/1920px-Tenterfield_Countryside_in_Autumn-4_%288712076335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2031,
+      "h": 1086,
+      "credit": "Tenterfield Countryside in Autumn-4 (8712076335).jpg by Sheba_Also 43,000 photos, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Tenterfield_Countryside_in_Autumn-4_(8712076335).jpg"
+     }
+    },
+    {
+     "vo": "The one thing America changed on purpose was spelling, and it took one stubborn man from Connecticut to do it.",
+     "prompt": "A stern older man with swept-back grey hair in a dark 1820s coat and high collar, writing at a cluttered desk piled with papers, Connecticut study, oil-lamp glow, medium shot, face turned toward the paper",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Noah_Webster_by_James_Herring%2C_1833%2C_oil_on_wood%2C_from_the_National_Portrait_Gallery_-_NPG-6700052A_2.jpg/1920px-Noah_Webster_by_James_Herring%2C_1833%2C_oil_on_wood%2C_from_the_National_Portrait_Gallery_-_NPG-6700052A_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6030,
+      "h": 7018,
+      "credit": "Noah Webster by James Herring, 1833, oil on wood, from the National Portrait Gallery - NPG-6700052A 2.jpg by James Herring, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Noah_Webster_by_James_Herring,_1833,_oil_on_wood,_from_the_National_Portrait_Gallery_-_NPG-6700052A_2.jpg"
+     }
+    },
+    {
+     "vo": "In 1828 Noah Webster published his American Dictionary with about seventy thousand words, dropping the U from colour and honour.",
+     "prompt": "A thick two-volume dictionary open on a wooden table, the title page reading \"AMERICAN DICTIONARY\", a large printed card beside it reading \"COLOR\", both large and facing the camera, sunlit parlour, soft window light, 1828, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/American_Dictionary_of_the_English_Language_1828.jpg/1920px-American_Dictionary_of_the_English_Language_1828.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3742,
+      "h": 2335,
+      "credit": "American Dictionary of the English Language 1828.jpg by Cullen328, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:American_Dictionary_of_the_English_Language_1828.jpg"
+     }
+    },
+    {
+     "vo": "He changed how English looked on the page, while the American sound mostly stayed where the colonists had left it.",
+     "prompt": "Children in homespun clothes reading aloud from small books while a young teacher listens, wood stove in the corner, one-room American schoolhouse, 1830s, warm window light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Noah_Webster_by_James_Herring%2C_1833%2C_oil_on_wood%2C_from_the_National_Portrait_Gallery_-_NPG-6700052A_2.jpg/1920px-Noah_Webster_by_James_Herring%2C_1833%2C_oil_on_wood%2C_from_the_National_Portrait_Gallery_-_NPG-6700052A_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6030,
+      "h": 7018,
+      "credit": "Noah Webster by James Herring, 1833, oil on wood, from the National Portrait Gallery - NPG-6700052A 2.jpg by James Herring, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Noah_Webster_by_James_Herring,_1833,_oil_on_wood,_from_the_National_Portrait_Gallery_-_NPG-6700052A_2.jpg"
+     }
+    },
+    {
+     "vo": "In 2004 Shakespeare's Globe in London staged Romeo and Juliet in the accent of the 1590s, rebuilt with the linguist David Crystal.",
+     "prompt": "Actors in Elizabethan costume performing a balcony scene on the open-air wooden stage of a round Elizabethan theatre, standing audience in the yard, bright afternoon daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/London_-_Shakespeare%27s_Globe_Theatre_Replica_1997.jpg/1920px-London_-_Shakespeare%27s_Globe_Theatre_Replica_1997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3915,
+      "h": 2592,
+      "credit": "London - Shakespeare's Globe Theatre Replica 1997.jpg by Txllxt TxllxT, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:London_-_Shakespeare%27s_Globe_Theatre_Replica_1997.jpg"
+     }
+    },
+    {
+     "vo": "Audiences heard R's in every line, and many said it sounded closer to Ireland, the West Country, or even America than modern London.",
+     "prompt": "Close-up of theatregoers standing in the yard of a round open-air theatre, faces surprised and delighted, looking up at the stage, warm afternoon sun",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Shakespeares_Globe_Romeo_and_Juliet_2019.JPG/1920px-Shakespeares_Globe_Romeo_and_Juliet_2019.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Shakespeares Globe Romeo and Juliet 2019.JPG by Jack1956, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Shakespeares_Globe_Romeo_and_Juliet_2019.JPG"
+     }
+    },
+    {
+     "vo": "Today linguists estimate only two or three percent of Britons speak received pronunciation, while Scotland, Ireland and the West Country still roll their R's.",
+     "prompt": "A Scottish farmer in a wax jacket talking with a neighbour over a stone wall, sheep grazing on green Highland hills behind, soft overcast daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Which leaves the argument you came for: who really kept the English of 1776?",
+     "prompt": "A crowd of people chatting outside a red-brick pub on a London street, a pint glass in a man's hand, golden evening light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Declaration_of_Independence_%281819%29%2C_by_John_Trumbull.jpg/1920px-Declaration_of_Independence_%281819%29%2C_by_John_Trumbull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3000,
+      "h": 1970,
+      "credit": "Declaration of Independence (1819), by John Trumbull.jpg by John Trumbull, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Declaration_of_Independence_(1819),_by_John_Trumbull.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Americans didn't lose the British accent: the colonists kept their R's, and London's elite dropped theirs after they left.",
+     "prompt": "An American family laughing together on the porch of a clapboard house, father, mother and two children, New England, warm golden sunset light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Next time: why Americans write the month before the day, when almost the whole world does it the other way.",
+     "prompt": "A paper wall calendar hanging in a sunny kitchen, its large page reading \"JULY 4\", facing the camera, a coffee mug on the counter below, soft morning light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g0ae875b9394165f8d6e96760dd6f137238afadd716dbb0c8b718f9f26f77dc10be88f5e37395ce41f07a124b5497fc3470dcf6f021c72f49f514395536232a93_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (MaeM)",
+      "page": "https://pixabay.com/photos/calendar-pay-number-year-date-2428560/"
+     }
+    },
+    {
+     "vo": "Tell us in the comments which accent sounds more proper to you, and subscribe so you don't miss the next hidden why.",
+     "prompt": "A young woman on a couch in a living room, smiling as she types on her phone, long dark hair, cream sweater, warm evening lamp light, medium close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g9f210c7c7e01550b6eaf385336c59d121629f0eb43d7dcae99caac895a7688fc23b3d3faad5163a25b323ece61fedc65e831b3f585ca8d4db2774eaa5aedeb29_1280.jpg",
+      "w": 3000,
+      "h": 2000,
+      "credit": "Pixabay (StartupStockPhotos)",
+      "page": "https://pixabay.com/photos/student-typing-keyboard-text-849825/"
+     }
+    }
+   ]
+  }
+ ],
+ "photos_checked": true
+}
