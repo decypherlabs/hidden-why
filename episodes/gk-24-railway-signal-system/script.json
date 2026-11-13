@@ -1,0 +1,845 @@
+{
+ "slug": "gk-24-railway-signal-system",
+ "format": "long",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "words_in_edit": true,
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "हरा सिग्नल मिलने से पहले अंदर क्या छिपा खेल चलता है? 🚦",
+ "thumbnail": {
+  "text": "बिना ताले *हरा* नहीं",
+  "plane": "Dramatic low-angle close-up of an Indian Railways colour-light signal glowing bright green at night, beside it a steel point switch with its tongue rail pressed tight against the stock rail and a heavy point machine clamped to it, a long passenger train's headlight blazing out of light fog behind, rails gleaming, deep blue night, cinematic rim light, photoreal painting, no text"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "ch3",
+   "ch7"
+  ],
+  "reflective": [
+   "ch1",
+   "ch2",
+   "ch4",
+   "ch5",
+   "outro"
+  ],
+  "epic": [
+   "ch6"
+  ]
+ },
+ "source": "Indian Railways General & Subsidiary Rules; Indian Railway Signal Engineering Manual (IRSEM); RDSO Kavach (TCAS) specification; Ministry of Railways Year Book",
+ "journey_score": 8.6,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सोचिए, आपकी ट्रेन रात में तेज़ रफ़्तार से दौड़ रही है।",
+     "prompt": "A young Indian passenger lying awake on a side berth of a sleeper coach, looking out of the dark window at night, young man in a grey T-shirt, rows of curtained berths behind him, dim blue night lamp, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बाहर घुप्प अंधेरा है, आगे की पटरी दिखती तक नहीं।",
+     "prompt": "Two steel rails lit by a bright headlight beam on a long straight track, seen through the windscreen of an Indian electric locomotive cab at night, only a short patch of rails visible and pure darkness beyond, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "फिर भी ड्राइवर ब्रेक नहीं लगाता, बस दूर की एक बत्ती देखता है।",
+     "prompt": "A middle-aged Indian loco pilot in a khaki uniform sitting calm at the cab controls, one hand on the throttle, eyes fixed on a tiny green light far ahead in the dark windscreen, seen from the side, medium shot, dim cab light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ट्रेन को रुकने में लगभग एक किलोमीटर लगता है।",
+     "prompt": "A long 24-coach blue Indian express train stretching far down a straight track, seen from low at the front, brake blocks glowing with orange sparks at the wheels, dusk light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "तो किसे पता है कि आगे पूरा किलोमीटर खाली है?",
+     "prompt": "A long empty straight double-line railway track running into the distance at night, one small signal glowing red far away, thin fog over the rails, wide shot, cold moonlight, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आपकी पटरी कौन चुनता है?",
+     "prompt": "A night aerial view of a large Indian junction station yard, many tracks crossing and splitting, a few trains standing on different lines, bright floodlights, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और अगर कोई गलती से गलत बटन दबा दे, तो?",
+     "prompt": "A station master's hand hovering over a row of push buttons on an old control panel with coloured track lines drawn on it, middle-aged Indian man in a white shirt, tense warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसलिए पटरी को ब्लॉक में बाँटा गया है।",
+     "prompt": "A long double-line track running through green farmland between two small Indian station buildings, one at each end of the frame, the whole stretch of track clear and visible, bright morning sun, aerial wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसलिए पटरी को block में बाँटा गया है।"
+    },
+    {
+     "vo": "और एक ब्लॉक में एक समय पर सिर्फ़ एक ट्रेन।",
+     "prompt": "One single blue Indian train alone on a long empty stretch of double-line track between two small stations, the rest of the line bare, green fields, bright daylight, aerial wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "और एक block में एक समय पर सिर्फ़ एक ट्रेन।"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "एक ब्लॉक, एक ट्रेन",
+   "shots": [
+    {
+     "vo": "वजह है स्टील के पहिये और स्टील की पटरी। दोनों चिकने, पकड़ बहुत कम।",
+     "prompt": "A steel train wheel resting on a polished steel rail, the tiny bright contact patch where wheel meets rail large in the frame, sharp focus, side light, macro close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "चौबीस डिब्बों वाली ट्रेन का वज़न एक हज़ार टन से भी ऊपर होता है।",
+     "prompt": "A long blue Indian express train of 24 coaches curving across open ground, a bold white arrow drawn along its length with the text '1000+ टन' on a flat plain label facing the camera, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दो स्टेशनों के बीच की पूरी पटरी एक ब्लॉक सेक्शन है। उसके दोनों सिरों पर एक-एक स्टेशन मास्टर का पहरा।",
+     "prompt": "A low aerial view of one straight track between two small Indian stations, the whole stretch glowing as one highlighted block with a flat label 'ब्लॉक सेक्शन', a station building at each end with a station master in white standing outside, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दो स्टेशनों के बीच की पूरी पटरी एक block section है। उसके दोनों सिरों पर एक-एक स्टेशन मास्टर का पहरा।"
+    },
+    {
+     "vo": "इसे ऐब्सल्यूट ब्लॉक सिस्टम कहते हैं। भारत की ज़्यादातर लाइनें आज भी इसी पर चलती हैं।",
+     "prompt": "A small Indian wayside station at noon, one blue train standing at the platform, a tall signal post at the platform end, a station master in white shirt standing by, bright sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसे Absolute Block System कहते हैं। भारत की ज़्यादातर लाइनें आज भी इसी पर चलती हैं।"
+    },
+    {
+     "vo": "स्टेशन ए का स्टेशन मास्टर ट्रेन भेजने से पहले अगले स्टेशन बी से पूछता है।",
+     "prompt": "A middle-aged Indian station master in a white shirt and cap with moustache, sitting at a wooden desk in a small station office, phone held to his ear, a large flat wall board facing the camera reading \"स्टेशन मास्टर\", warm lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "स्टेशन A का स्टेशन मास्टर ट्रेन भेजने से पहले अगले स्टेशन B से पूछता है।"
+    },
+    {
+     "vo": "दोनों के पास एक मशीन है, ब्लॉक इंस्ट्रूमेंट। उसकी सुई बताती है पटरी का हाल।",
+     "prompt": "A vintage brass-and-wood Indian Railways double-line block instrument on a wooden desk, a needle dial with a large flat label plate facing the camera reading \"LINE CLEAR\", sharp focus, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दोनों के पास एक मशीन है, block instrument। उसकी सुई बताती है पटरी का हाल।"
+    },
+    {
+     "vo": "बी तभी 'लाइन क्लियर' देता है जब पिछली ट्रेन पूरी उसके स्टेशन पर आ चुकी हो।",
+     "prompt": "A middle-aged Indian station master in a white shirt and cap with moustache, turning the brass handle of a block instrument on his desk, through the window behind him a blue train standing at the platform, warm light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "B तभी 'Line Clear' देता है जब पिछली ट्रेन पूरी उसके स्टेशन पर आ चुकी हो।"
+    },
+    {
+     "vo": "ट्रेन चलते ही सुई 'ट्रेन ऑन लाइन' पर जाती है। अब दूसरी ट्रेन इस ब्लॉक में नहीं घुस सकती।",
+     "prompt": "A close-up of a block instrument needle pointing into a red sector, a large flat label plate facing the camera reading \"TRAIN ON LINE\", brass and wood, warm lamp light, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ट्रेन चलते ही सुई 'Train on Line' पर जाती है। अब दूसरी ट्रेन इस block में नहीं घुस सकती।"
+    },
+    {
+     "vo": "सिंगल लाइन पर ख़तरा और बड़ा है, क्योंकि ट्रेनें आमने-सामने से आती हैं। वहाँ हाथ में एक ठोस चीज़ दी जाती है, टोकन।",
+     "prompt": "A railway staff member in a white shirt on a small Indian platform, arm stretched out handing a leather token pouch with a metal hoop to a loco pilot leaning from a slowly moving engine cab, single track, morning sun, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "single line पर ख़तरा और बड़ा है, क्योंकि ट्रेनें आमने-सामने से आती हैं। वहाँ हाथ में एक ठोस चीज़ दी जाती है, token।"
+    },
+    {
+     "vo": "दोनों स्टेशनों की टोकन मशीनें तार से जुड़ी हैं। एक बार में सिर्फ़ एक टोकन बाहर निकल सकता है। जिसके हाथ टोकन, वही ट्रेन चले।",
+     "prompt": "A tall cast-iron token instrument in an Indian station office, a middle-aged station master in a white shirt lifting a shiny metal token ball out of its slot with his hand, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दोनों स्टेशनों की token मशीनें तार से जुड़ी हैं। एक बार में सिर्फ़ एक token बाहर निकल सकता है। जिसके हाथ token, वही ट्रेन चले।"
+    },
+    {
+     "vo": "पर बी को कैसे पता कि ट्रेन पूरी आई? कोई डिब्बा रास्ते में तो नहीं छूटा?",
+     "prompt": "A middle-aged Indian station master in a white shirt standing at a platform edge, eyes following the last coach of a passing train moving away, the whole train visible along the track, daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पर B को कैसे पता कि ट्रेन पूरी आई? कोई डिब्बा रास्ते में तो नहीं छूटा?"
+    },
+    {
+     "vo": "वो आख़िरी डिब्बे पर एक ख़ास निशान ढूँढता है। इसका राज़ आख़िर में। पहले, ड्राइवर से बात कौन करता है?",
+     "prompt": "The back of a blue Indian train's last coach at dusk seen from the platform, a large yellow-and-white X painted on its rear and a red tail lamp glowing, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "चार रंगों की भाषा",
+   "shots": [
+    {
+     "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
+     "subscribe_ask": true,
+     "prompt": "An old Indian semaphore signal with a red-and-white arm raised at an angle on a tall iron post beside a small country station, golden evening light, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "move": "pan_right"
+    },
+    {
+     "vo": "ड्राइवर, यानी लोको पायलट, से बात करते हैं सिग्नल। पहले ज़्यादातर ये लोहे की बाँह वाले सेमाफ़ोर होते थे।",
+     "prompt": "An old Indian semaphore signal with a red-and-white arm raised at an angle on a tall iron post beside a small country station, golden evening light, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ड्राइवर, यानी loco pilot, से बात करते हैं सिग्नल। पहले ज़्यादातर ये लोहे की बाँह वाले semaphore होते थे।"
+    },
+    {
+     "vo": "आज कई व्यस्त रूटों पर बत्ती वाले सिग्नल हैं, और उनकी भाषा चार तरह की बत्ती।",
+     "prompt": "A tall Indian colour-light signal post beside the track with four lamps in a vertical row, a train approaching small in the distance, dusk, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "लाल का मतलब साफ़ है: यहीं रुको।",
+     "prompt": "A signal glowing bright red beside the track at night, a diesel locomotive stopped just before it with its headlight on, seen from the side, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "एक पीला कहता है: अगला सिग्नल लाल है, रुकने को तैयार रहो।",
+     "prompt": "A signal showing a single bright yellow light at dusk, the track curving ahead into the dark, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दो पीले कहते हैं: अगला सिग्नल पीला है। रफ़्तार कम करना शुरू करो।",
+     "prompt": "A signal showing two bright yellow lights, one above the other, on a misty evening beside the track, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और हरा कहता है: रास्ता खुला है, अगले सिग्नल पर रुकना नहीं पड़ेगा। पूरी रफ़्तार।",
+     "prompt": "A signal glowing bright green beside the track, a blue express train rushing past at full speed in the distance, daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसी से ड्राइवर को लाल से एक-दो किलोमीटर पहले ही पता चल जाता है।",
+     "prompt": "A low aerial view of a straight track with four signals in a row, glowing green, two yellow, yellow, red from back to front, a long train far ahead, a flat arrow along the track labelled '1-2 किमी' ending at the red signal, daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ड्राइवर हर सिग्नल का रंग ज़ोर से बोलता है, और साथ बैठा असिस्टेंट उसे दोहराता है।",
+     "prompt": "Two Indian loco pilots in khaki uniforms sitting side by side in a locomotive cab, the older one on the left pointing ahead, the younger on the right pointing too, a yellow signal glowing through the windscreen, medium shot, daylight, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ड्राइवर हर सिग्नल का रंग ज़ोर से बोलता है, और साथ बैठा assistant उसे दोहराता है।"
+    },
+    {
+     "vo": "स्टेशन के पास सिग्नलों के अपने नाम हैं। पहले आता है डिस्टेंट, जो दूर से चेतावनी देता है।",
+     "prompt": "A lone signal post standing in open green fields, far before a small Indian station whose buildings are tiny on the horizon, a single track leading to it, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "स्टेशन के पास सिग्नलों के अपने नाम हैं। पहले आता है distant, जो दूर से चेतावनी देता है।"
+    },
+    {
+     "vo": "फिर होम सिग्नल, स्टेशन का दरवाज़ा। ये लाल हो तो ट्रेन स्टेशन में नहीं घुसती।",
+     "prompt": "A blue Indian train halted at a red signal just outside a station yard, platforms and track switches visible ahead, daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "फिर home सिग्नल, स्टेशन का दरवाज़ा। ये लाल हो तो ट्रेन स्टेशन में नहीं घुसती।"
+    },
+    {
+     "vo": "फिर स्टार्टर, जो ट्रेन को प्लेटफ़ॉर्म से आगे जाने देता है।",
+     "prompt": "A signal at the far end of an Indian platform glowing green, a blue train ready to depart beside it, passengers standing on the platform, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "फिर starter, जो ट्रेन को प्लेटफ़ॉर्म से आगे जाने देता है।"
+    },
+    {
+     "vo": "और आख़िर में एडवांस्ड स्टार्टर। इसके पार होते ही ट्रेन अगले ब्लॉक में घुस जाती है।",
+     "prompt": "A blue train passing the last signal beyond the end of a station yard, the open single line stretching ahead into the countryside, the signal post large on the left, golden afternoon light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "और आख़िर में advanced starter। इसके पार होते ही ट्रेन अगले block में घुस जाती है।"
+    },
+    {
+     "vo": "इसीलिए ये तभी खुलता है जब आगे वाले स्टेशन से 'लाइन क्लियर' मिल चुका हो।",
+     "prompt": "A middle-aged Indian station master in a white shirt and cap, standing by his desk with a block instrument, looking out of the window at a distant green signal, warm light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसीलिए ये तभी खुलता है जब आगे वाले स्टेशन से 'Line Clear' मिल चुका हो।"
+    },
+    {
+     "vo": "पर व्यस्त रूटों पर हर किलोमीटर पर स्टेशन मास्टर तो बैठा नहीं। तो सिग्नल को कैसे पता कि आगे ट्रेन है?",
+     "prompt": "A single signal on a long empty stretch of track, no building or person anywhere around it, wide open flat landscape, overcast daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "पटरी में बहता करंट",
+   "shots": [
+    {
+     "vo": "जवाब पटरी में ही है। ये पटरी सिर्फ़ लोहा नहीं, एक तार भी है।",
+     "prompt": "Two parallel steel rails with thin cables bonded to their sides, a grey electrical connection box beside the track, sharp focus, bright daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये तरकीब अठारह सौ बहत्तर में अमेरिका के विलियम रॉबिन्सन ने निकाली थी।",
+     "prompt": "A 19th-century engineer in a waistcoat seen from the side, bent over a workbench examining a short length of rail wired to a glass battery jar and a brass bell, gas lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये तरकीब 1872 में अमेरिका के William Robinson ने निकाली थी।"
+    },
+    {
+     "vo": "हर टुकड़े की दोनों पटरियों में कुछ ही वोल्ट का हल्का करंट दौड़ता रहता है। इसे कहते हैं ट्रैक सर्किट।",
+     "prompt": "A short rail section with a bright glowing loop of current running down one rail, through a small relay box and back up the other rail, a flat label 'track circuit' facing the camera, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर टुकड़े की दोनों पटरियों में कुछ ही volt का हल्का करंट दौड़ता रहता है। इसे कहते हैं track circuit।"
+    },
+    {
+     "vo": "दो टुकड़ों के बीच पटरी में एक जोड़ होता है जो करंट को आगे नहीं जाने देता।",
+     "prompt": "An insulated rail joint, the two rail ends separated by a thin white insulating layer, bolted steel fishplates on both sides, bright daylight, sharp focus, extreme close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "करंट पहुँचता है एक रिले तक। रिले उठी रहे, तो मतलब पटरी खाली।",
+     "prompt": "A single railway relay inside a glass case with its metal contacts closed, a small trackside cabinet door open around it, sharp focus, even light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "करंट पहुँचता है एक relay तक। relay उठी रहे, तो मतलब पटरी खाली।"
+    },
+    {
+     "vo": "ट्रेन आती है तो उसके लोहे के पहिये और धुरा दोनों पटरियों को आपस में जोड़ देते हैं।",
+     "prompt": "A train wheelset with steel axle rolling on two rails, a glowing line of current running through the axle from one rail to the other, sharp focus, daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "करंट छोटा रास्ता पकड़ लेता है। रिले गिरती है, और पीछे का सिग्नल लाल।",
+     "prompt": "A red signal glowing at the front of a blue train's last coach as it passes, the train just beyond the signal on the track, dusk, sharp focus, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "करंट छोटा रास्ता पकड़ लेता है। relay गिरती है, और पीछे का सिग्नल लाल।"
+    },
+    {
+     "vo": "सबसे कमाल की बात: तार कटे, बिजली जाए, कुछ भी टूटे, रिले गिरती ही है।",
+     "prompt": "A thick cable snapped and dangling beside the track in heavy rain at night, a signal glowing bright red nearby, wet rails shining, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "सबसे कमाल की बात: तार कटे, बिजली जाए, कुछ भी टूटे, relay गिरती ही है।"
+    },
+    {
+     "vo": "मतलब गड़बड़ी का नतीजा हमेशा लाल। इसे कहते हैं फ़ेल-सेफ़।",
+     "prompt": "A row of signals along a track all glowing red at night, station lights dark in the background, the whole line empty, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "मतलब गड़बड़ी का नतीजा हमेशा लाल। इसे कहते हैं fail-safe।"
+    },
+    {
+     "vo": "कई जगह मशीन धुरे गिनती है, ऐक्सल काउंटर। ब्लॉक में जितने धुरे घुसे, उतने निकले, तभी ब्लॉक खाली।",
+     "prompt": "A small yellow axle counter sensor clamped to the side of a rail, a train's wheels about to pass over it, a flat label 'अंदर 96 = बाहर 96' facing the camera above, daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "कई जगह मशीन धुरे गिनती है, axle counter। block में जितने धुरे घुसे, उतने निकले, तभी block खाली।"
+    },
+    {
+     "vo": "इसी से बना ऑटोमैटिक सिग्नलिंग। दो स्टेशनों के बीच की लंबी पटरी कई छोटे टुकड़ों में बँट जाती है।",
+     "prompt": "An aerial view of a long suburban line between two stations, signals at regular intervals along it, three local trains spaced out one behind another, morning light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसी से बना automatic signalling। दो स्टेशनों के बीच की लंबी पटरी कई छोटे टुकड़ों में बँट जाती है।"
+    },
+    {
+     "vo": "हर टुकड़े में एक ट्रेन, और हर टुकड़े पर एक सिग्नल जो बिना किसी इंसान के अपने-आप बदलता है।",
+     "prompt": "A series of signals on metal gantries over a multi-track suburban line, the nearest turning red behind a passing local train, daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "मुंबई की लोकल ऐसे ही सिग्नलों पर, भीड़ के समय तीन-चार मिनट के फ़ासले पर चलती है।",
+     "map": {
+      "center": [
+       19.08,
+       72.95
+      ],
+      "span": 0.5,
+      "from_span": 3,
+      "countries": [
+       {
+        "iso": "IND",
+        "label": "भारत",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 18.9398,
+        "lon": 72.8355,
+        "label": "CSMT"
+       },
+       {
+        "lat": 19.235,
+        "lon": 73.1299,
+        "label": "कल्याण"
+       }
+      ]
+     }
+    },
+    {
+     "vo": "पर सीधी पटरी पर ट्रेनें बस एक के पीछे एक चलती हैं। कौन रुके, कौन आगे जाए, ये कौन तय करता है?",
+     "prompt": "Two trains on parallel tracks near a station seen from a footbridge, one slowing down on the left track, the other running fast on the right track, daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "कंट्रोल रूम का फ़ैसला",
+   "shots": [
+    {
+     "vo": "हर डिवीज़न के कंट्रोल रूम में सेक्शन कंट्रोलर बैठता है। उसके ज़िम्मे सौ-दो सौ किलोमीटर की पटरी होती है।",
+     "prompt": "A large Indian railway control hall with rows of controllers in headsets at long desks facing screens, a flat door sign in front reading \"नियंत्रण कक्ष\", bright office light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर division के कंट्रोल रूम में section controller बैठता है। उसके ज़िम्मे सौ-दो सौ किलोमीटर की पटरी होती है।"
+    },
+    {
+     "vo": "पहले वो बड़े काग़ज़ पर पेंसिल से हर ट्रेन की लकीर खींचता था।",
+     "prompt": "An older Indian railway controller's hand drawing diagonal pencil lines with a ruler on a large sheet of ruled paper on his desk, desk lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आज ये काम कंप्यूटर पर होता है, और कई इंजनों की जगह जी पी एस से अपने-आप आती है।",
+     "prompt": "A small grey GPS antenna box mounted on the roof of an Indian electric locomotive, overhead wires above, clear blue sky, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "आज ये काम computer पर होता है, और कई इंजनों की जगह GPS से अपने-आप आती है।"
+    },
+    {
+     "vo": "सिंगल लाइन पर दो ट्रेनें आमने-सामने आ रही हों, तो किसी एक को स्टेशन के लूप पर रुकना होगा।",
+     "prompt": "An aerial view of a small single-line station with one extra loop track, a blue train on the main line approaching from the left and another train entering the loop from the right, daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "single line पर दो ट्रेनें आमने-सामने आ रही हों, तो किसी एक को स्टेशन के loop पर रुकना होगा।"
+    },
+    {
+     "vo": "इसे क्रॉसिंग कहते हैं। कंट्रोलर तय करता है कि कौन रुके और कौन निकले।",
+     "prompt": "A section controller in a headset, middle-aged Indian man with moustache, speaking firmly into a microphone, focused eyes, a screen glowing behind him, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसे crossing कहते हैं। controller तय करता है कि कौन रुके और कौन निकले।"
+    },
+    {
+     "vo": "आम तौर पर राजधानी जैसी तेज़ ट्रेन पहले जाती है, और मालगाड़ी साइड में इंतज़ार करती है।",
+     "prompt": "A red-and-cream Rajdhani-style express speeding through a station on the main line while a long goods train waits on the loop line beside it, daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "आम तौर पर Rajdhani जैसी तेज़ ट्रेन पहले जाती है, और मालगाड़ी साइड में इंतज़ार करती है।"
+    },
+    {
+     "vo": "एक ट्रेन लेट हो, तो पूरे दिन की योजना बदलती है, क्योंकि पीछे की हर ट्रेन उसी पटरी पर है।",
+     "prompt": "Three trains waiting one behind another at signals on a long straight line at dusk, the nearest large in the frame, red signals glowing, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कंट्रोलर का फ़ैसला फ़ोन पर स्टेशन मास्टर तक जाता है: इस ट्रेन को लूप पर लो।",
+     "prompt": "A middle-aged Indian station master in a white shirt, sitting at his desk, black control phone at his ear, writing in a thick register, warm lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "controller का फ़ैसला phone पर स्टेशन मास्टर तक जाता है: इस ट्रेन को loop पर लो।"
+    },
+    {
+     "vo": "फ़ैसला हो गया। पर ट्रेन सचमुच दूसरी पटरी पर जाती कैसे है?",
+     "prompt": "A view from the front of a train approaching a station, many tracks splitting and crossing ahead, bright daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "पटरी का कांटा",
+   "shots": [
+    {
+     "vo": "स्टेशन में घुसते ही पटरियाँ बँटती हैं। रेलवे इसे पॉइंट्स कहता है, हम कहते हैं कांटा।",
+     "prompt": "A railway turnout where one track splits into two, gravel and wooden sleepers around it, early morning light, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "स्टेशन में घुसते ही पटरियाँ बँटती हैं। रेलवे इसे points कहता है, हम कहते हैं कांटा।"
+    },
+    {
+     "vo": "यहाँ पटरी के दो पतले, नुकीले हिस्से हिलते हैं। इन्हें कहते हैं टंग रेल।",
+     "prompt": "Two tapered tongue rails beside the main rails at a turnout, arrows on both tongue rails with the label 'tongue rail' and a double arrow showing their sideways movement, sharp focus, daylight, extreme close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "यहाँ पटरी के दो पतले, नुकीले हिस्से हिलते हैं। इन्हें कहते हैं tongue rail।"
+    },
+    {
+     "vo": "एक तरफ़ चिपकें तो ट्रेन सीधी जाती है। दूसरी तरफ़ चिपकें तो मुड़ जाती है।",
+     "prompt": "A top-down view of a turnout, one path straight and one curved, the curved path glowing green, sleepers and gravel, sharp focus, daylight, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पहिये के अंदर की उभरी किनारी, फ़्लैंज, इसी नुकीली पटरी के सहारे नई दिशा पकड़ती है।",
+     "prompt": "A train wheel's inner flange running along a tongue rail at a turnout, the wheel turning onto the curved track, sharp focus, side light, extreme close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पहिये के अंदर की उभरी किनारी, flange, इसी नुकीली पटरी के सहारे नई दिशा पकड़ती है।"
+    },
+    {
+     "vo": "पहले केबिन में एक आदमी भारी लीवर खींचता था।",
+     "prompt": "A cabinman in a grey shirt pulling a tall iron lever in a long row of red and black levers inside an old brick signal cabin, a flat wall board facing the camera reading \"WEST CABIN\", warm light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पहले cabin में एक आदमी भारी लीवर खींचता था।"
+    },
+    {
+     "vo": "लोहे की लंबी छड़ें सैकड़ों मीटर दूर जाकर कांटा हिलाती थीं।",
+     "prompt": "Long iron rods running along the ground on small rollers beside the tracks, stretching from a brick cabin toward a distant turnout, daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आज कांटे के बगल में बिजली की मोटर लगी होती है: पॉइंट मशीन। ये कुछ ही सेकंड में कांटा बदल देती है।",
+     "prompt": "An electric point machine bolted beside a turnout, its drive rod connected to the tongue rails, sharp focus, daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "आज कांटे के बगल में बिजली की मोटर लगी होती है: point machine। ये कुछ ही सेकंड में कांटा बदल देती है।"
+    },
+    {
+     "vo": "पर सिर्फ़ हिलना काफ़ी नहीं। टंग रेल को पटरी से पूरा चिपकना होगा।",
+     "prompt": "A tongue rail pressed perfectly flush against the stock rail with no gap, steel gleaming, sharp focus, daylight, extreme close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पर सिर्फ़ हिलना काफ़ी नहीं। tongue rail को पटरी से पूरा चिपकना होगा।"
+    },
+    {
+     "vo": "बीच में एक छोटा पत्थर भी फँस जाए, तो कांटा पूरा नहीं बैठेगा।",
+     "prompt": "A small stone of track ballast wedged between the tongue rail and the stock rail, leaving a clear gap, sharp focus, daylight, extreme close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और आधा खुला कांटा सबसे ख़तरनाक है। पहिया दोनों रास्तों के बीच फँसकर पटरी से उतर सकता है।",
+     "prompt": "A tongue rail stuck half-way between positions at a turnout, a blue train wheel approaching it on the rail, low ominous light, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसलिए पॉइंट मशीन जाँचता है कि कांटा पूरा बैठा या नहीं, और फिर उसे लॉक कर देता है।",
+     "prompt": "The lock mechanism inside an open point machine with steel bars engaged, a large padlock over the tongue rail with the flat label 'LOCK' facing the camera, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसलिए point machine जाँचता है कि कांटा पूरा बैठा या नहीं, और फिर उसे lock कर देता है।"
+    },
+    {
+     "vo": "कांटा न बैठे, तो पैनल पर ख़बर पहुँच जाती है और रास्ता बनता ही नहीं।",
+     "prompt": "A track maintainer in an orange vest crouching at a turnout, removing a stone from between the switch rails with a metal tool, daylight, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "कांटा न बैठे, तो panel पर ख़बर पहुँच जाती है और रास्ता बनता ही नहीं।"
+    },
+    {
+     "vo": "अब सोचिए, बड़े स्टेशन पर दर्जनों कांटे, दर्जनों सिग्नल। एक गलत मेल, और दो ट्रेनें एक पटरी पर।",
+     "prompt": "An aerial view of a huge Indian junction yard with many turnouts, two trains on converging tracks heading toward each other, a large red cross glowing where the paths meet, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "तो कौन पक्का करता है कि कोई कांटा और कोई सिग्नल कभी आपस में गलत न मिलें?",
+     "prompt": "A middle-aged Indian station master in a white shirt standing at a large track-diagram control panel, looking up at its many lamps and buttons, warm light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "हरे से पहले ताला",
+   "shots": [
+    {
+     "vo": "इसका जवाब है इंटरलॉकिंग। सिग्नल और कांटे आपस में ऐसे बंधे कि गलती की जगह ही न बचे।",
+     "prompt": "A wide view of an Indian station control room, a large illuminated track panel on the wall and a middle-aged station master in a white shirt seated at the desk, warm light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसका जवाब है interlocking। सिग्नल और कांटे आपस में ऐसे बंधे कि गलती की जगह ही न बचे।"
+    },
+    {
+     "vo": "ये सोच अठारह सौ छप्पन में इंग्लैंड के जॉन सैक्सबी ने दी थी, लोहे के लीवरों से।",
+     "prompt": "A Victorian English signal box interior with a row of iron levers, a bearded engineer in a frock coat seen from the side inspecting them, 19th-century window light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये सोच 1856 में इंग्लैंड के John Saxby ने दी थी, लोहे के लीवरों से।"
+    },
+    {
+     "vo": "नियम सीधा है: रास्ता पूरा तैयार और लॉक न हो, तो सिग्नल खुल ही नहीं सकता।",
+     "prompt": "A signal glowing red beside a turnout whose tongue rail is half-way between positions, sharp focus, daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "नियम सीधा है: रास्ता पूरा तैयार और lock न हो, तो सिग्नल खुल ही नहीं सकता।"
+    },
+    {
+     "vo": "मान लीजिए आपकी ट्रेन को प्लेटफ़ॉर्म तीन पर लेना है।",
+     "prompt": "A blue express train waiting at the home signal outside a station, a flat platform board far ahead facing the camera reading \"PLATFORM 3\", daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "मान लीजिए आपकी ट्रेन को प्लेटफ़ॉर्म 3 पर लेना है।"
+    },
+    {
+     "vo": "स्टेशन मास्टर पैनल पर दो बटन दबाता है: रास्ता कहाँ से शुरू, और कहाँ ख़त्म।",
+     "prompt": "A station master's two fingers pressing two buttons on a track-diagram control panel, a glowing route lighting up from the first button to the second, warm light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "स्टेशन मास्टर panel पर दो बटन दबाता है: रास्ता कहाँ से शुरू, और कहाँ ख़त्म।"
+    },
+    {
+     "vo": "सिस्टम ख़ुद जाँचता है: रास्ते के सारे कांटे सही तरफ़ हैं? सब लॉक हैं?",
+     "prompt": "A top-down view of a station yard, every turnout on one route marked with a green tick and a padlock, sharp focus, daylight, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "सिस्टम ख़ुद जाँचता है: रास्ते के सारे कांटे सही तरफ़ हैं? सब lock हैं?"
+    },
+    {
+     "vo": "पूरी पटरी खाली है? कोई डिब्बा तो खड़ा नहीं?",
+     "prompt": "An aerial view of an empty platform line in a station, the whole line glowing green with the label 'खाली', sharp focus, daylight, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और कोई दूसरा सिग्नल तो नहीं खुला, जो इसी रास्ते को काटता हो?",
+     "prompt": "An aerial view of a yard with two crossing routes, a second route crossing the first, its signal glowing red, sharp focus, daylight, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "एक भी जवाब 'नहीं', तो सिग्नल लाल ही रहेगा, कितना भी बटन दबाओ।",
+     "prompt": "A middle-aged Indian station master in a white shirt pressing a button firmly on his desk panel, through the window behind him a signal glowing red, medium shot, warm light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "सब ठीक हो, तब सिग्नल खुलता है। और ट्रेन गुज़रने तक रास्ते का कोई कांटा हिल नहीं सकता।",
+     "prompt": "A blue express train rolling over turnouts into a station under a glowing yellow signal, the train large in the frame, daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पुराने केबिन में ये काम लोहे का था। लीवर आपस में अटक जाते, गलत लीवर खिंचता ही नहीं।",
+     "prompt": "The iron interlocking bars and tappets beneath an old mechanical lever frame in a signal cabin, oiled dark iron, warm light, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पुराने cabin में ये काम लोहे का था। लीवर आपस में अटक जाते, गलत लीवर खिंचता ही नहीं।"
+    },
+    {
+     "vo": "फिर आए रिले के कमरे, जहाँ हज़ारों रिले हर रास्ते की जाँच करते हैं।",
+     "prompt": "A long aisle of relay racks in an Indian relay interlocking room, thousands of small relays, a technician in a grey uniform walking with a torch, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "फिर आए relay के कमरे, जहाँ हज़ारों relays हर रास्ते की जाँच करते हैं।"
+    },
+    {
+     "vo": "अब कुछ हज़ार स्टेशनों पर कंप्यूटर वाली इलेक्ट्रॉनिक इंटरलॉकिंग है। दो-तीन कंप्यूटर एक ही जाँच अलग-अलग करते हैं, और सबका जवाब मिले तभी हरी बत्ती।",
+     "prompt": "A clean modern equipment room with tall grey electronic interlocking cabinets, green status lights, cable trays overhead, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अब कुछ हज़ार स्टेशनों पर computer वाली Electronic Interlocking है। दो-तीन computer एक ही जाँच अलग-अलग करते हैं, और सबका जवाब मिले तभी हरी बत्ती।"
+    },
+    {
+     "vo": "इसीलिए गलत बटन से कुछ नहीं होता। पर अगर ड्राइवर ही लाल सिग्नल न देख पाए?",
+     "prompt": "The inside of a locomotive cab at night in thick winter fog, the windscreen white, one red signal barely visible ahead, the loco pilot in khaki seen from the side, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "आख़िरी पहरेदार",
+   "shots": [
+    {
+     "vo": "लाल सिग्नल पार हो जाना रेलवे के सबसे बड़े ख़तरों में से एक है। इसे स्पैड कहते हैं।",
+     "prompt": "The front of a diesel locomotive just past a red signal on a foggy morning, the red signal beside its cab, ominous grey light, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "लाल सिग्नल पार हो जाना रेलवे के सबसे बड़े ख़तरों में से एक है। इसे SPAD कहते हैं।"
+    },
+    {
+     "vo": "इंजन में एक पहरेदार पहले से है, जो ड्राइवर की सतर्कता परखता है। ड्राइवर करीब एक मिनट तक कुछ न करे, तो पहले बत्ती जलती है, फिर बज़र बजता है।",
+     "prompt": "A loco pilot's hand pressing an acknowledge button on the cab desk, a warning lamp glowing red beside it, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इंजन में एक पहरेदार पहले से है, जो ड्राइवर की सतर्कता परखता है। ड्राइवर करीब एक मिनट तक कुछ न करे, तो पहले बत्ती जलती है, फिर buzzer बजता है।"
+    },
+    {
+     "vo": "फिर भी जवाब न मिले, तो सिस्टम ख़ुद ब्रेक लगा देता है।",
+     "prompt": "A locomotive's brake blocks clamping the wheels with bright sparks as the train slows on a lonely stretch at night, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "उत्तर भारत की सर्दियों में घना कोहरा सिग्नलों को छिपा देता है।",
+     "map": {
+      "center": [
+       26.8,
+       81.0
+      ],
+      "span": 9,
+      "from_span": 25,
+      "countries": [
+       {
+        "iso": "IND",
+        "label": "भारत",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 28.6139,
+        "lon": 77.209,
+        "label": "दिल्ली"
+       },
+       {
+        "lat": 26.8467,
+        "lon": 80.9462,
+        "label": "लखनऊ"
+       },
+       {
+        "lat": 25.5941,
+        "lon": 85.1376,
+        "label": "पटना"
+       }
+      ]
+     }
+    },
+    {
+     "vo": "इसके लिए फ़ॉग सेफ़्टी डिवाइस है। ये जी पी एस से बताता है कि अगला सिग्नल कितना पास है।",
+     "prompt": "A small handheld fog safety device on a locomotive cab desk, its screen glowing, a loco pilot in khaki glancing at it, foggy night outside, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसके लिए fog safety device है। ये GPS से बताता है कि अगला सिग्नल कितना पास है।"
+    },
+    {
+     "vo": "अब सबसे बड़ा कदम है कवच, भारत में ही आर डी एस ओ का बनाया ट्रेन प्रोटेक्शन सिस्टम।",
+     "prompt": "A modern Indian electric locomotive in a shed, an equipment cabinet open in the cab with a large flat label facing the camera reading \"KAVACH\", sharp focus, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अब सबसे बड़ा कदम है Kavach, भारत में ही RDSO का बनाया train protection system।"
+    },
+    {
+     "vo": "पटरी के बीच आर एफ़ आई डी टैग्स लगे हैं, स्टेशन पर रेडियो टॉवर है, और इंजन में कंप्यूटर।",
+     "prompt": "A flat RFID tag fixed between the rails on a sleeper, a tall radio tower beside a station in the background, sharp focus, daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पटरी के बीच RFID tags लगे हैं, स्टेशन पर radio tower है, और इंजन में computer।"
+    },
+    {
+     "vo": "इंजन को हर पल पता है: आगे सिग्नल कौन-सा है, और रफ़्तार कितनी होनी चाहिए।",
+     "prompt": "A view from the cab at dusk, a yellow signal glowing ahead on the track, a flat speed arrow '110 → 60' drawn over the rails, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ड्राइवर ब्रेक न लगाए, तो कवच ख़ुद ब्रेक लगा देता है।",
+     "prompt": "A locomotive's brake gear engaging with sparks under the wheels as the train slows before a red signal, sharp focus, dusk, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ड्राइवर ब्रेक न लगाए, तो Kavach ख़ुद ब्रेक लगा देता है।"
+    },
+    {
+     "vo": "एक ही पटरी पर आमने-सामने दो कवच वाले इंजन आएँ, तो दोनों अपने-आप रुक जाते हैं।",
+     "prompt": "Two locomotives standing face to face on the same single track, stopped a safe distance apart, a bright glowing band across the gap between them, daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "एक ही पटरी पर आमने-सामने दो Kavach वाले इंजन आएँ, तो दोनों अपने-आप रुक जाते हैं।"
+    },
+    {
+     "vo": "मार्च दो हज़ार बाईस में यही टेस्ट हुआ। एक इंजन में ख़ुद रेल मंत्री बैठे थे, दूसरे में रेलवे बोर्ड के चेयरमैन, और दोनों इंजन कुछ सौ मीटर पहले रुक गए।",
+     "prompt": "Two Indian locomotives approaching each other on a single line in open countryside, a few officials in white shirts standing far off beside the track, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "मार्च 2022 में यही test हुआ। एक इंजन में ख़ुद रेल मंत्री बैठे थे, दूसरे में Railway Board के चेयरमैन, और दोनों इंजन कुछ सौ मीटर पहले रुक गए।"
+    },
+    {
+     "vo": "कवच को सेफ़्टी का सबसे ऊँचा दर्जा, एस आई एल फ़ोर, मिला है।",
+     "prompt": "Two railway engineers in white helmets seen from the side, inspecting an equipment rack inside a locomotive cab, a large flat label on the rack facing the camera reading \"KAVACH\", bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Kavach को safety का सबसे ऊँचा दर्जा, SIL-4, मिला है।"
+    },
+    {
+     "vo": "ये अभी धीरे-धीरे देश के बड़े रूटों पर लगाया जा रहा है।",
+     "prompt": "Railway workers in orange vests installing equipment beside a track, a new radio tower rising behind them, daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आगे का ब्लॉक खाली है, ये पटरी का करंट बताता है। आपकी पटरी कंट्रोलर चुनता है, और गलत बटन पर इंटरलॉकिंग सिग्नल लाल ही रखती है।",
+     "prompt": "A blue express train passing a green signal into a brightly lit station at night, the signal large on the left, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "आगे का block खाली है, ये पटरी का करंट बताता है। आपकी पटरी controller चुनता है, और गलत बटन पर interlocking सिग्नल लाल ही रखती है।"
+    },
+    {
+     "vo": "अगली बार आख़िरी डिब्बा देखिए। उस पर बड़ा-सा एक्स होगा, साथ में लाल बत्ती। इसी एक्स को देखकर स्टेशन मास्टर पक्का करता है कि ट्रेन पूरी आई।",
+     "prompt": "The rear of a blue Indian train's last coach at dusk, a large yellow-and-white X painted on it, a blinking red tail lamp, a small flat board facing the camera reading \"LV\", sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अगली बार आख़िरी डिब्बा देखिए। उस पर बड़ा-सा X होगा, साथ में लाल बत्ती। इसी X को देखकर स्टेशन मास्टर पक्का करता है कि ट्रेन पूरी आई।"
+    },
+    {
+     "vo": "अगले एपिसोड में: ट्रेन के डिब्बों पर लिखे उन अजीब नंबरों का मतलब।",
+     "prompt": "The side of a blue Indian coach with a large plain painted number panel, platform lights glowing behind it at dusk, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  }
+ ],
+ "topic_demand": {
+  "median": 57054,
+  "hits": 3,
+  "outliers": 6,
+  "q": "रेलवे सिग्नल सिस्टम",
+  "matched": "9/10"
+ },
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "system",
+  "points": [
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1
+  ]
+ }
+}
