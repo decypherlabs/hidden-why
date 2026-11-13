@@ -262,7 +262,7 @@ def frame(spec, t, dur, i=0):
     action = spec.get("action") or "locate"
     u = t / max(dur, 0.1)
     te = min(3.4, dur * 0.6)
-    if action == "locate":  # the whole region first, eased in log space toward the place
+    if True:  # every map: the whole region first, eased in log space toward the detail (owner, 13 Nov 2026)
         e = ease(t / te)
         s0 = min(150.0, span * 6)
         span_now = float(np.exp(np.log(s0) * (1 - e) + np.log(span) * e))
@@ -273,9 +273,9 @@ def frame(spec, t, dur, i=0):
     if TERRAIN:  # and a slow drift sideways
         lon0 = lon0 + 0.05 * span_now / max(np.cos(np.radians(lat0)), 0.2) * (u - 0.5)
     focus = _focus(spec)
-    img, P = base(lat0, lon0, span_now, focus, fill=ease((t - (2.0 if action == "locate" else 0.3)) / 1.0))
+    img, P = base(lat0, lon0, span_now, focus, fill=ease((t - te * 0.6) / 1.0))
     pts = [P(p["lon"], p["lat"]) for p in places]
-    t0 = 2.6 if action == "locate" else 0.4
+    t0 = te * 0.8  # routes, pins, rings once the camera is there
     reveal = ease((t - t0) / 1.2)
     taken = []
     if action in ("route", "flow") and len(pts) > 1 and reveal > 0:
@@ -330,7 +330,7 @@ def frame(spec, t, dur, i=0):
         rr = 62 + 70 * ph
         d.ellipse((qx - rr, qy - rr, qx + rr, qy + rr), outline=(*RED, int(210 * (1 - ph))), width=4)
     lab = spec.get("label")
-    la = ease((t - (3.2 if action == "locate" else 0.8)) / 0.6)
+    la = ease((t - te) / 0.6)
     if lab and la > 0:
         f = inter(40)
         tw = d.textlength(str(lab).upper(), font=f) + len(str(lab)) * 3.2 + 40
