@@ -1243,6 +1243,43 @@ GRADES = {"cross-process": "eq=contrast=1.1:saturation=1.08,hue=h=-12",
 WORDS = {}  # painting key ("12", "12-2") -> its words (shot "words" in the script, or the "paint_from" episode's)
 
 
+def photos_in(script, out):
+    """Real photographs (studio/real_pictures.py, 13 Nov 2026) become the shot's picture file before the edit: downloaded,
+    composed to 16:9 (a photo far from it sits whole on a blurred, dimmed copy of itself) and saved as shot-NN.png, so
+    every move, framing and subject crop works on them as on a painting. A failed download leaves the shot as it was."""
+    import io
+    import urllib.request
+    n = 0
+    for sec in script.get("sections") or []:
+        for s in sec.get("shots") or []:
+            n += 1
+            ph = s.get("photo") or {}
+            dest = Path(out) / f"shot-{n:02d}.png"
+            if not ph.get("src") or dest.exists():
+                continue
+            try:
+                data = urllib.request.urlopen(urllib.request.Request(
+                    ph["src"], headers={"User-Agent": "EvolveBetterStudio/1.0 (decypherlabs.io@gmail.com)"}), timeout=60).read()
+                im = Image.open(io.BytesIO(data)).convert("RGB")
+                tw, th = 2400, 1350
+                ar = im.width / im.height
+                if 1.45 <= ar <= 2.1:
+                    sc = max(tw / im.width, th / im.height)
+                    im = im.resize((int(im.width * sc) + 1, int(im.height * sc) + 1), Image.LANCZOS)
+                    x0, y0 = (im.width - tw) // 2, (im.height - th) // 2
+                    canvas = im.crop((x0, y0, x0 + tw, y0 + th))
+                else:
+                    from PIL import ImageFilter, ImageEnhance
+                    bg = im.resize((tw // 8, th // 8)).filter(ImageFilter.GaussianBlur(3)).resize((tw, th), Image.LANCZOS)
+                    canvas = ImageEnhance.Brightness(bg).enhance(0.45)
+                    sc = min(tw * 0.92 / im.width, th * 0.92 / im.height)
+                    fg = im.resize((int(im.width * sc), int(im.height * sc)), Image.LANCZOS)
+                    canvas.paste(fg, ((tw - fg.width) // 2, (th - fg.height) // 2))
+                canvas.save(dest)
+            except Exception as e:  # noqa: BLE001
+                print(f"  photo {n}: {e}", flush=True)
+
+
 def paint_read(f):
     """A painting from disk, toned to the brand (brand.json "tone": {"saturation": 0.85}; owner, 9 Nov 2026: Logos &
     Legends' teasers and long-forms "regularly have high saturation images... adapt as per the theme"). Only the
@@ -1416,6 +1453,7 @@ def main(script_path, out_dir):
         W, H, XF = 1080, 1920, 0.15
     caps = []
     out = Path(out_dir)
+    photos_in(script, out)  # real photographs into their shots' picture files (13 Nov 2026)
     vo = json.loads((out / "vo.json").read_text())
     items, n = [], 0  # (start, dur, visual, vo_file, section_id)
     cuts = []  # Shorts: every picture change (new shot or new crop), for the whoosh

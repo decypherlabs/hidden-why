@@ -80,7 +80,7 @@ def expected(script):
             n += 1
             if d.get("paint_limit") and n > d["paint_limit"]:
                 break  # the owner's preview: only the first shots (paint.py)
-            if sh.get("prompt") and not sh.get("diagram") and not sh.get("map"):  # maps are drawn too
+            if sh.get("prompt") and not sh.get("diagram") and not sh.get("map") and not sh.get("photo"):  # maps are drawn, photos real
                 names.append(f"shot-{n:02d}.png")
                 names += [f"shot-{n:02d}-{k}.png" for k in range(2, len(sh.get("more") or []) + 2)]
     th = d.get("thumbnail") or {}

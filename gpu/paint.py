@@ -44,7 +44,7 @@ def shots(script):
             n += 1
             if limit and n > limit:
                 return
-            if s.get("prompt") and not s.get("diagram") and not s.get("map"):  # maps are drawn too
+            if s.get("prompt") and not s.get("diagram") and not s.get("map") and not s.get("photo"):  # maps are drawn, photos real (13 Nov 2026)
                 # "seed": a repaint after a failed shot check draws a new image, not the same one (1 Nov)
                 yield f"{n:02d}", blank(s["prompt"]), s.get("negative", ""), int(s.get("seed") or 1000 + n)
                 for k, extra in enumerate(s.get("more") or [], 2):
