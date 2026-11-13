@@ -33,6 +33,8 @@ def niche(slug):
     (owner, 31 Oct 2026)."""
     if slug.startswith("ll-"):  # Logos & Legends episodes (owner, 7 Nov 2026)
         return "logos-and-legends"
+    if slug.startswith(("por-", "tsm-")):  # Point of Ruin, The State Maps (kit/build.py, 13 Nov 2026)
+        return "point-of-ruin" if slug.startswith("por-") else "the-state-maps"
     return "devlok-katha" if slug.startswith("dk-") else "hidden-why-hindi" if slug.endswith("-hi") or slug.startswith("gk-") \
         else "hidden-why"  # gk-*: Gazab Kyun (was The Hidden Why Hindi), 8 Nov 2026
 

@@ -1,0 +1,127 @@
+name: kit
+run-name: kit ${{ inputs.slug }}  # studio/kit_dispatch.py finds its run by this name
+# Point of Ruin and The State Maps (kit/build.py): voice, stock clips and the timeline once, then the frames in
+# parallel parts, then the join and the mix (owner, 13 Nov 2026: "the whole on GitHub... in parallel as much as we
+# can"). Stills come from Kaggle (release paint-<slug>) when the script has any; without them a still falls back to stock.
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        required: true
+      parts:
+        default: "10"
+permissions:
+  contents: write
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    outputs:
+      parts: ${{ steps.p.outputs.parts }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg > /dev/null
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            models
+          key: kit-v1
+      - name: Packages and the voice model
+        run: |
+          pip install -q kokoro-onnx soundfile numpy pillow opencv-python-headless
+          mkdir -p models
+          [ -f models/kokoro-v1.0.onnx ] || curl -sSL -o models/kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+          [ -f models/voices-v1.0.bin ] || curl -sSL -o models/voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+      - name: Paintings (if any)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "out/${{ inputs.slug }}"
+          if gh release download "paint-${{ inputs.slug }}" -R "$GITHUB_REPOSITORY" -D out 2>/dev/null; then
+            tar -xf "out/paint-${{ inputs.slug }}.tar" -C "out/${{ inputs.slug }}"; else echo "no paintings: stills use stock"; fi
+      - name: Voice, clips, timeline
+        env:
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
+          KOKORO_DIR: models
+        run: python kit/build.py prep "episodes/${{ inputs.slug }}/script.json" "out/${{ inputs.slug }}"
+      - id: p
+        run: echo "parts=$(python3 -c "import json; print(json.dumps(list(range(int('${{ inputs.parts }}')))))")" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: prep-${{ inputs.slug }}
+          path: out/${{ inputs.slug }}
+          retention-days: 2
+          compression-level: 0
+  part:
+    needs: prep
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: true
+      matrix:
+        k: ${{ fromJson(needs.prep.outputs.parts) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - run: pip install -q numpy pillow opencv-python-headless
+      - uses: actions/download-artifact@v4
+        with:
+          name: prep-${{ inputs.slug }}
+          path: out/${{ inputs.slug }}
+      - run: python kit/build.py part "out/${{ inputs.slug }}" ${{ matrix.k }} ${{ inputs.parts }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: part-${{ inputs.slug }}-${{ matrix.k }}
+          path: out/${{ inputs.slug }}/part-*.mp4
+          retention-days: 2
+          compression-level: 0
+  join:
+    needs: part
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - run: pip install -q numpy pillow opencv-python-headless
+      - uses: actions/download-artifact@v4
+        with:
+          name: prep-${{ inputs.slug }}
+          path: out/${{ inputs.slug }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: part-${{ inputs.slug }}-*
+          path: out/${{ inputs.slug }}
+          merge-multiple: true
+      - run: python kit/build.py join "out/${{ inputs.slug }}"
+      - name: Collect
+        run: |
+          mkdir -p final && cd "out/${{ inputs.slug }}"
+          cp video.mp4 chapters.txt ../../final/
+          python3 - <<'PY'
+          import json, pathlib
+          ep = pathlib.Path("../../episodes/${{ inputs.slug }}")
+          m = json.loads((ep / "meta.json").read_text())
+          ch = pathlib.Path("chapters.txt").read_text()
+          m["youtube"]["description"] = m["youtube"]["description"].replace("{CHAPTERS}", ch)
+          src = json.loads(pathlib.Path("stock/sources.json").read_text()) if pathlib.Path("stock/sources.json").exists() else {}
+          if src:  # every stock clip credited (Pixabay licence needs none; we credit anyway)
+              m["youtube"]["description"] += "\n\nFootage: Pixabay (" + ", ".join(sorted({v["user"] for v in src.values()})) + ")"
+              m["stock"] = src
+          pathlib.Path("../../final/meta.json").write_text(json.dumps(m, indent=2, ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: episode-${{ inputs.slug }}
+          path: final
+          retention-days: 14
+          compression-level: 0

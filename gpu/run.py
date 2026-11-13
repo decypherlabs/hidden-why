@@ -217,7 +217,7 @@ def main():
         os.environ["HW_BRAND"] = json.loads(script.read_text()).get("brand") or ""  # the channel's art style
         try:  # one episode's failure must not lose the others' work (31 Oct: s29's edit crash lost a whole run)
             paint(slug, script, out)
-            if json.loads(script.read_text()).get("build") == "github":
+            if json.loads(script.read_text()).get("build") in ("github", "kit"):  # "kit": Point of Ruin, The State Maps (kit.yml)
                 # Devlok Katha (owner, 31 Oct 2026): only the painting uses Kaggle's GPU hours; the paint-<slug> release
                 # goes to GitHub, where the free runner narrates (Indic Parler-TTS), edits and makes the cover
                 print(f"{slug}: painted; narration and edit run on GitHub (build.yml)", flush=True)
