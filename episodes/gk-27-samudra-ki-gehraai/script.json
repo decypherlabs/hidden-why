@@ -1,0 +1,926 @@
+{
+ "slug": "gk-27-samudra-ki-gehraai",
+ "format": "long",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "words_in_edit": true,
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "समुद्र की तली पर 11 किलोमीटर नीचे आख़िर क्या छिपा है? 🌊",
+ "thumbnail": {
+  "text": "एवरेस्ट भी *डूब* जाए",
+  "plane": "A small white deep-sea submersible with bright lights descending into a pitch-black ocean trench beside a towering rocky underwater cliff wall, a pale whitish translucent snailfish glowing in the light beam close to the camera, thin shafts of the last blue light far above, dramatic high-contrast lighting, photoreal, no text"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "ch2",
+   "ch3"
+  ],
+  "reflective": [
+   "ch1",
+   "ch5",
+   "ch6",
+   "outro"
+  ],
+  "epic": [
+   "ch4"
+  ]
+ },
+ "source": "NOAA Ocean Exploration; Woods Hole Oceanographic Institution; Smithsonian Ocean; JAMSTEC Deep-sea Debris Database; Chiba et al. 2018, Marine Policy; Jamieson et al. 2019, Royal Society Open Science; Jamieson et al. 2023 (deepest fish, 8,336 m); Seabed 2030",
+ "journey_score": 8.6,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सोचिए, आप प्रशांत महासागर में एक जहाज़ के डेक पर खड़े हैं।",
+     "prompt": "A young Indian traveller standing at the railing of a white research ship's deck, hands on the rail, looking out at endless deep blue Pacific water to the horizon, medium shot, bright tropical morning sun, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Sailors_and_Marines_hoist_a_fire_hose_over_their_heads_as_they_wash_the_flight_deck_of_the_aircraft_carrier_USS_Nimitz_%28CVN_68%29_as_the_ship_operates_in_the_Pacific_Ocean_121112-N-LP801-092.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 2662,
+      "credit": "Sailors and Marines hoist a fire hose over their heads as they wash the flight deck of the aircraft carrier USS Nimitz (CVN 68) as the ship operates in the Pacific Ocean 121112-N-LP801-092.jpg by DoD photo by Petty Officer 3rd Class Raul Moreno Jr., U.S. Navy.  (Released), PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Sailors_and_Marines_hoist_a_fire_hose_over_their_heads_as_they_wash_the_flight_deck_of_the_aircraft_carrier_USS_Nimitz_(CVN_68)_as_the_ship_operates_in_the_Pacific_Ocean_121112-N-LP801-092.jpg"
+     }
+    },
+    {
+     "vo": "पैरों के नीचे बस गहरा नीला पानी। पर ये नीचे कितना जाता है?",
+     "prompt": "Looking straight down over a ship's metal railing into very dark deep-blue ocean water, the ship's hull shadow on the surface, no bottom visible, a young Indian traveller's hands gripping the rail in the foreground, bright daylight, close shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g99068f893dce5010c07fdebaa9d969277fbb3e4326d4c8328b5e9e3fb58b90569a5d10c67df13ae6ceaf9b6100862391960bf39702c721cce4d964e2c2fc2238_1280.jpg",
+      "w": 4100,
+      "h": 2734,
+      "credit": "Pixabay (makabera)",
+      "page": "https://pixabay.com/photos/pop-up-bubble-air-sea-dolphin-9977611/"
+     }
+    },
+    {
+     "vo": "अब माउंट एवरेस्ट को उठाकर यहाँ की सबसे गहरी खाई में डाल दीजिए।",
+     "prompt": "Mount Everest's huge snowy summit pyramid being lowered tip-first into dark blue ocean water, the whole mountain enormous and unmistakable, a tiny research ship beside it for scale, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Everest%2C_Himalayas.jpg/1920px-Everest%2C_Himalayas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 2688,
+      "credit": "Everest, Himalayas.jpg by Vyacheslav Argenberg, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Everest,_Himalayas.jpg"
+     }
+    },
+    {
+     "vo": "उसकी चोटी पर भी दो किलोमीटर पानी होगा।",
+     "prompt": "A snow-capped mountain peak fully submerged in dark blue ocean water, the white summit just below the surface with a thin layer of water above it, faint sunlight from above, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उसकी चोटी पर भी 2 किलोमीटर पानी होगा।"
+    },
+    {
+     "vo": "इतनी गहराई में सूरज की रोशनी कहाँ तक जाती है?",
+     "prompt": "Bright sunbeams piercing down into deep blue ocean water from the surface, fading into blackness far below, a small diver in a black wetsuit near the top, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g1a3d32a037d59df15368355ec154a5f6cfcf967f752068a3639eb98af6471020161c600504cd1c808dcbf3c321bacd7e_1280.jpg",
+      "w": 4360,
+      "h": 2907,
+      "credit": "Pixabay (PublicDomainPictures)",
+      "page": "https://pixabay.com/photos/animal-asia-blue-dark-deep-depth-18719/"
+     }
+    },
+    {
+     "vo": "वहाँ पानी कितनी ज़ोर से दबाता है?",
+     "prompt": "A thick round steel sphere with heavy bolts and one small round window, sitting on a ship deck, water dripping down its scratched surface, a crew member's hand resting on it, overcast Pacific daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "क्या उस घुप अँधेरे में कोई ज़िंदा रहता है?",
+     "prompt": "A pale small deep-sea creature with tiny eyes sitting on soft grey silt, lit by one narrow white beam in total darkness, centre, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और इंसान वहाँ तक पहुँचा कैसे?",
+     "prompt": "A small yellow submersible hanging from a crane over the side of a white research ship, two crew in hard hats guiding it with ropes, choppy blue Pacific water below, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Deepsea_Challenger_-_Cit%C3%A9_de_la_Mer-7935.jpg/1920px-Deepsea_Challenger_-_Cit%C3%A9_de_la_Mer-7935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2876,
+      "h": 3834,
+      "credit": "Deepsea Challenger - Cité de la Mer-7935.jpg by Raimond Spekking, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Deepsea_Challenger_-_Cit%C3%A9_de_la_Mer-7935.jpg"
+     }
+    },
+    {
+     "vo": "ये खाई प्रशांत महासागर में है, गुआम नाम के छोटे टापू के पास।",
+     "map": {
+      "center": [
+       12.4,
+       143.5
+      ],
+      "span": 8,
+      "from_span": 70,
+      "countries": [
+       {
+        "iso": "GUM",
+        "label": "गुआम",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 13.444,
+        "lon": 144.794,
+        "label": "गुआम"
+       },
+       {
+        "lat": 11.373,
+        "lon": 142.591,
+        "label": "Challenger Deep"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "गड्ढा बना कैसे",
+   "shots": [
+    {
+     "vo": "इसका सबसे गहरा कोना चैलेंजर डीप कहलाता है।",
+     "prompt": "A white research ship alone on a calm deep-blue Pacific Ocean, a sonar winch and cable at its stern lowered into the water, nothing but sea to the horizon, bright tropical sky, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसका सबसे गहरा कोना Challenger Deep कहलाता है।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Challenger_Deep_EM124_Sonar_Map_and_Diving_History_101119.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1278,
+      "h": 584,
+      "credit": "Challenger Deep EM124 Sonar Map and Diving History 101119.jpg by Vlvescovo, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Challenger_Deep_EM124_Sonar_Map_and_Diving_History_101119.jpg"
+     }
+    },
+    {
+     "vo": "गहराई करीब दस हज़ार नौ सौ पैंतीस मीटर। यानी लगभग ग्यारह किलोमीटर।",
+     "prompt": "A sonar operator's hand pointing at a printed paper depth chart lying on a ship's chart table, the sheet reading \"10,935 m\", the sheet large, flat and facing the camera, ocean visible through the window behind, bright daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "गहराई करीब 10,935 मीटर। यानी लगभग 11 किलोमीटर।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/GEBCO_2019_bathymetry_Challenger_Deep_and_Sirena_Deep.jpg/1920px-GEBCO_2019_bathymetry_Challenger_Deep_and_Sirena_Deep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2128,
+      "h": 1552,
+      "credit": "GEBCO 2019 bathymetry Challenger Deep and Sirena Deep.jpg by Cassandra Bongiovanni, Heather A. Stewart and Alan J. Jamieson, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:GEBCO_2019_bathymetry_Challenger_Deep_and_Sirena_Deep.jpg"
+     }
+    },
+    {
+     "vo": "ये कोई गोल गड्ढा नहीं है। ये एक लंबी, पतली खाई है, आधे चाँद जैसी मुड़ी हुई।",
+     "prompt": "A vast curved underwater canyon shaped like a crescent moon seen from above, steep walls dropping into black depths, deep blue water around, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Pseudoliparis_swirei_in_Mariana_Trench_map.jpg/1920px-Pseudoliparis_swirei_in_Mariana_Trench_map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2008,
+      "h": 1421,
+      "credit": "Pseudoliparis swirei in Mariana Trench map.jpg by Gerringer et al. (2017), CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Pseudoliparis_swirei_in_Mariana_Trench_map.jpg"
+     }
+    },
+    {
+     "vo": "इसकी लंबाई करीब दो हज़ार पाँच सौ पचास किलोमीटर है। दिल्ली से चेन्नई की सड़क से भी लंबी।",
+     "prompt": "A long straight Indian highway stretching far to the horizon across dry land, a single painted truck seen exactly from its left side on the road, bright midday sun, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसकी लंबाई करीब 2,550 किलोमीटर है। दिल्ली से चेन्नई की सड़क से भी लंबी।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Pseudoliparis_swirei_in_Mariana_Trench_map.jpg/1920px-Pseudoliparis_swirei_in_Mariana_Trench_map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2008,
+      "h": 1421,
+      "credit": "Pseudoliparis swirei in Mariana Trench map.jpg by Gerringer et al. (2017), CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Pseudoliparis_swirei_in_Mariana_Trench_map.jpg"
+     }
+    },
+    {
+     "vo": "पर इतनी गहरी खाई बनी कैसे? जवाब धरती की परतों में है।",
+     "prompt": "A woman geologist with short dark hair kneeling on a rocky volcanic shore, tapping layered dark rock with a hammer, waves behind her, overcast daylight, medium shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Serpentinization_Process_at_Subduction_Zone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1564,
+      "h": 1103,
+      "credit": "Serpentinization Process at Subduction Zone.jpg by Aaaaaalh, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Serpentinization_Process_at_Subduction_Zone.jpg"
+     }
+    },
+    {
+     "vo": "धरती की ऊपरी सतह बड़े-बड़े टुकड़ों में बँटी है। इन्हें प्लेट्स कहते हैं।",
+     "prompt": "A huge crack splitting a dry rocky landscape into two separate slabs, one slab slightly lower than the other, aerial view, harsh daylight, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "धरती की ऊपरी सतह बड़े-बड़े टुकड़ों में बँटी है। इन्हें plates कहते हैं।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Tectonic_plates.png/1920px-Tectonic_plates.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6740,
+      "h": 4600,
+      "credit": "Tectonic plates.png by Map:USGS\nDescription:Muriel Gottrop~commonswiki, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Tectonic_plates.png"
+     }
+    },
+    {
+     "vo": "यहाँ पैसिफ़िक प्लेट धीरे-धीरे दूसरी प्लेट के नीचे घुस रही है।",
+     "map": {
+      "center": [
+       15,
+       141
+      ],
+      "span": 25,
+      "from_span": 45,
+      "countries": [
+       {
+        "iso": "PHL",
+        "label": "फ़िलीपींस",
+        "color": "white"
+       },
+       {
+        "iso": "JPN",
+        "label": "जापान",
+        "color": "white"
+       },
+       {
+        "iso": "GUM",
+        "label": "गुआम",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 11.373,
+        "lon": 142.591,
+        "label": "मरियाना ट्रेंच"
+       },
+       {
+        "lat": 18,
+        "lon": 155,
+        "label": "Pacific plate"
+       }
+      ]
+     },
+     "caption": "यहाँ Pacific plate धीरे-धीरे दूसरी plate के नीचे घुस रही है।"
+    },
+    {
+     "vo": "नीचे जाती प्लेट समुद्र की तली को अपने साथ खींच ले जाती है। वहीं बनती है ये खाई।",
+     "prompt": "A cutaway view of one slab of dark seafloor rock bending steeply downward beneath another slab, a deep V-shaped trench forming at the bend, blue water above, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "नीचे जाती plate समुद्र की तली को अपने साथ खींच ले जाती है। वहीं बनती है ये खाई।"
+    },
+    {
+     "vo": "ये चाल बहुत धीमी है, साल में कुछ सेंटीमीटर। लगभग आपके नाखून बढ़ने जितनी।",
+     "prompt": "A close-up of a young Indian woman's hand with natural fingernails resting flat on a wooden table, her fingertip nail large and clear, soft window light, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g8b598423b75c620df4dcd3e337ca150f4359d0f8aa26d08950aac453967aa06efcf2ddf80dd62fd59f5e77e5de01413b24732c49997b9f23019604cd4f870ac7_1280.jpg",
+      "w": 3204,
+      "h": 2304,
+      "credit": "Pixabay (Mounthive)",
+      "page": "https://pixabay.com/photos/nail-art-manicure-nails-nail-polish-5653459/"
+     }
+    },
+    {
+     "vo": "पर करोड़ों साल में यही धीमी चाल ग्यारह किलोमीटर गहरी खाई बना देती है।",
+     "prompt": "An immense dark underwater trench wall rising out of sight, a tiny lit yellow submersible far below it for scale, deep blue water, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पर करोड़ों साल में यही धीमी चाल 11 किलोमीटर गहरी खाई बना देती है।"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "रोशनी ख़त्म",
+   "shots": [
+    {
+     "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
+     "subscribe_ask": true,
+     "prompt": "Bright sunlit shallow ocean water with shimmering light rays and a small school of silver fish, vivid blue, centre, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "move": "pan_left"
+    },
+    {
+     "vo": "सतह के पास पानी नीला और चमकीला है। धूप अंदर तक जाती दिखती है।",
+     "prompt": "Bright sunlit shallow ocean water with shimmering light rays and a small school of silver fish, vivid blue, centre, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g2f81f1666cf6915f060b61badd5216b1ffee2cc48b046763bbe87f181205aed7485d1c80268add026b7ffdd2a7950108e8d024a1edbd5ff56101c7ecd25febc5_1280.jpg",
+      "w": 3780,
+      "h": 2126,
+      "credit": "Pixabay (008wer)",
+      "page": "https://pixabay.com/photos/seawater-blue-water-under-the-sea-1666310/"
+     }
+    },
+    {
+     "vo": "पर पानी रोशनी को खाता जाता है। सबसे पहले लाल रंग गायब होता है।",
+     "prompt": "A diver holding a red apple underwater, the apple looking dull brown-grey in the blue light, the diver's hand large in frame, medium close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gabae97d7db5adf8d306379a30dd47525692b1e0ab848469a4491a30f74178aff5bcb9372c880dc154d63870ee20c486a54a4157abd761c4808f7523f548e07e0_1280.jpg",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Pixabay (Franziska_Stier)",
+      "page": "https://pixabay.com/photos/diver-underwater-photography-ocean-10409002/"
+     }
+    },
+    {
+     "vo": "करीब दो सौ मीटर नीचे सब धुँधला नीला हो जाता है। यहीं के आसपास पौधों का खाना बनाना रुकने लगता है।",
+     "prompt": "Dim deep-blue twilight water with faint light from far above, a few drifting pale jellyfish, bare open water with no plants, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "करीब 200 मीटर नीचे सब धुँधला नीला हो जाता है। यहीं के आसपास पौधों का खाना बनाना रुकने लगता है।"
+    },
+    {
+     "vo": "एक हज़ार मीटर के बाद सूरज की एक किरण भी नहीं पहुँचती। पूरा अँधेरा।",
+     "prompt": "Pitch-black deep ocean water with only a few floating specks caught in one faint beam of light, absolute darkness all around, centre, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "1,000 मीटर के बाद सूरज की एक किरण भी नहीं पहुँचती। पूरा अँधेरा।"
+    },
+    {
+     "vo": "यहाँ जो रोशनी दिखती है, वो जीव ख़ुद बनाते हैं, जुगनू की तरह।",
+     "prompt": "A glowing blue bioluminescent jellyfish with tiny glowing blue dots around it, like fireflies, in pitch-black deep water, centre, medium shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Hatchetfish_bioluminescence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1069,
+      "h": 717,
+      "credit": "Hatchetfish bioluminescence.jpg by HulloThere, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Hatchetfish_bioluminescence.jpg"
+     }
+    },
+    {
+     "vo": "आँखें यहाँ काम नहीं आतीं। इसलिए कई जीवों की आँखें बहुत बड़ी हैं, या हैं ही नहीं।",
+     "prompt": "A deep-sea fish with huge round reflective eyes, lit by a single beam in total darkness, face filling the frame, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "करीब तीन हज़ार आठ सौ मीटर पर टाइटैनिक का मलबा पड़ा है।",
+     "prompt": "The rusted bow of the Titanic wreck lying on the dark ocean floor, hanging rust formations on its railing, lit by bright submersible lights, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "करीब 3,800 मीटर पर Titanic का मलबा पड़ा है।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Titanic_wreck_bow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1480,
+      "h": 1036,
+      "credit": "Titanic wreck bow.jpg by Courtesy of NOAA/Institute for Exploration/University of Rhode Island (NOAA/IFE/, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Titanic_wreck_bow.jpg"
+     }
+    },
+    {
+     "vo": "ये बहुत गहरा लगता है। पर हम अभी एक तिहाई रास्ता ही आए हैं।",
+     "prompt": "A small submersible with bright lights moving down past a rusty ship wreck into deeper blackness, the wreck on the left, the submersible small on the right, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पानी ठंडा भी होता जाता है। तली पर करीब एक से चार डिग्री।",
+     "prompt": "Frost-like cold mist on the outside of a thick round submersible window, dark water beyond, a pilot in a dark jacket inside with visible breath, close-up, dim cabin light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पानी ठंडा भी होता जाता है। तली पर करीब 1 से 4 डिग्री।"
+    },
+    {
+     "vo": "पर अँधेरा और ठंड सबसे बड़ी मुश्किल नहीं। असली दुश्मन है दबाव।",
+     "prompt": "A thick metal submersible hull in deep dark water, droplets and tiny bubbles squeezed against its surface, a small round window glowing, medium shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "हज़ार गुना दबाव",
+   "shots": [
+    {
+     "vo": "आपके सिर के ऊपर हवा का भी वज़न है। हम उसे महसूस नहीं करते।",
+     "prompt": "A young Indian boy standing in an open field with arms spread wide, a huge blue sky above him, a faint shimmer of air pressing down over his head, bright morning sun, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर पानी हवा से बहुत भारी है।",
+     "prompt": "A large glass jug of water being poured into a steel bucket on a scale in an Indian kitchen, the scale's needle swinging high, a woman's hands holding the jug, warm daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "हर दस मीटर नीचे, सतह की हवा जितना दबाव और जुड़ जाता है।",
+     "prompt": "A diver descending along a rope into clear blue water, one hand pinching the nose, the rope running down into deeper blue below, medium shot, bright light, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर 10 मीटर नीचे, सतह की हवा जितना दबाव और जुड़ जाता है।"
+    },
+    {
+     "vo": "चैलेंजर डीप की तली पर ये दबाव सतह से एक हज़ार गुना से भी ज़्यादा है।",
+     "prompt": "A massive thick-walled titanium sphere being lowered from a ship crane into dark ocean water, crew watching from the deck, dusk light, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Challenger Deep की तली पर ये दबाव सतह से 1,000 गुना से भी ज़्यादा है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Stalked_Anenome_on_Challenger_Deep_Dive_Dr_Dawn_Wright_and_Pilot_Victor_Vescovo_071222.jpg/1920px-Stalked_Anenome_on_Challenger_Deep_Dive_Dr_Dawn_Wright_and_Pilot_Victor_Vescovo_071222.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3024,
+      "h": 4032,
+      "credit": "Stalked Anenome on Challenger Deep Dive Dr Dawn Wright and Pilot Victor Vescovo 071222.jpg by Vlvescovo, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Stalked_Anenome_on_Challenger_Deep_Dive_Dr_Dawn_Wright_and_Pilot_Victor_Vescovo_071222.jpg"
+     }
+    },
+    {
+     "vo": "हर वर्ग सेंटीमीटर पर करीब ग्यारह सौ किलो। नाखून पर एक कार जैसा।",
+     "prompt": "A small hatchback car seen from its left side balanced on a single human fingertip, the fingertip huge in frame, dramatic studio light, plain grey background, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर वर्ग सेंटीमीटर पर करीब 1,100 किलो। नाखून पर एक कार जैसा।"
+    },
+    {
+     "vo": "वैज्ञानिक एक मज़ेदार टेस्ट करते हैं। थर्मोकोल के कप पर नाम लिखकर नीचे भेजते हैं।",
+     "prompt": "Large white styrofoam cups decorated with marker drawings on a ship deck table, one cup reading \"11 KM\", the cup large, flat and facing the camera, crew hands holding the others, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "वैज्ञानिक एक मज़ेदार test करते हैं। थर्मोकोल के कप पर नाम लिखकर नीचे भेजते हैं।"
+    },
+    {
+     "vo": "लौटते हैं तो कप छोटे गिलास जितने हो जाते हैं। अंदर की हवा निचुड़ जाती है।",
+     "prompt": "A tiny shrunken styrofoam cup standing next to a normal-size one on a ship table, same marker drawings now miniature, close-up, bright daylight, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "किसी आम पनडुब्बी को वहाँ भेजें, तो वो कागज़ की तरह पिचक जाएगी।",
+     "prompt": "A metal can crushed completely flat like paper, lying on dark ocean silt in a bright light beam, centre, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसीलिए वहाँ जाने वाली गाड़ी मोटे स्टील या टाइटेनियम के गोले में बनती है।",
+     "prompt": "Two engineers in a workshop inspecting a polished thick titanium sphere with a small round hatch, one hand resting on it, bright factory lights, medium shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसीलिए वहाँ जाने वाली गाड़ी मोटे steel या titanium के गोले में बनती है।"
+    },
+    {
+     "vo": "क्या कोई इंसान वहाँ गया?",
+     "prompt": "An empty open hatch of a deep submersible on a ship deck at dawn, ocean behind, an empty seat visible inside, medium shot, soft morning light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Dr_Dawn_Wright_and_CDR_Victor_Vescovo_Challenger_Deep_Dive_071222_Western_Pool-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1920,
+      "h": 1080,
+      "credit": "Dr Dawn Wright and CDR Victor Vescovo Challenger Deep Dive 071222 Western Pool-1.jpg by Vlvescovo, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Dr_Dawn_Wright_and_CDR_Victor_Vescovo_Challenger_Deep_Dive_071222_Western_Pool-1.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "पहली बार नीचे",
+   "shots": [
+    {
+     "vo": "हाँ। तेईस जनवरी उन्नीस सौ साठ को दो लोग नीचे उतरे।",
+     "prompt": "A 1960 newspaper front page lying on a wooden desk with the headline \"MEN REACH OCEAN BOTTOM\", the headline large, flat and facing the camera, a black and white photo of a vessel beneath it, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हाँ। 23 जनवरी 1960 को दो लोग नीचे उतरे।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bathyscaphe_Trieste_with_USS_Lewis_%28DE-535%29_over_the_Marianas_Trench_on_23_January_1960_%28USN_710619%29.jpg/1920px-Bathyscaphe_Trieste_with_USS_Lewis_%28DE-535%29_over_the_Marianas_Trench_on_23_January_1960_%28USN_710619%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5610,
+      "h": 4441,
+      "credit": "Bathyscaphe Trieste with USS Lewis (DE-535) over the Marianas Trench on 23 January 1960 (USN 710619).jpg by unknown, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bathyscaphe_Trieste_with_USS_Lewis_(DE-535)_over_the_Marianas_Trench_on_23_January_1960_(USN_710619).jpg"
+     }
+    },
+    {
+     "vo": "स्विट्ज़रलैंड के जैक पिकार्ड और अमेरिकी नेवी के डॉन वॉल्श।",
+     "prompt": "Two men in 1960s clothing standing on a small vessel deck at sea, the tall one on the left in a thick sweater, the one on the right in a navy uniform and cap, black and white photo look, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "स्विट्ज़रलैंड के Jacques Piccard और अमेरिकी नेवी के Don Walsh।"
+    },
+    {
+     "vo": "उनकी गाड़ी का नाम था ट्रिएस्टे। ऊपर पेट्रोल से भरा बड़ा टैंक, नीचे छोटा स्टील का गोला।",
+     "prompt": "The bathyscaphe seen exactly from its left side floating in the Pacific, a long grey float hull painted \"TRIESTE\", a small steel sphere underneath it, the name large and plain on the hull, 1960 period look, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उनकी गाड़ी का नाम था Trieste। ऊपर पेट्रोल से भरा बड़ा टैंक, नीचे छोटा स्टील का गोला।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Bathyscaphe_Trieste.jpg/1920px-Bathyscaphe_Trieste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5665,
+      "h": 4560,
+      "credit": "Bathyscaphe Trieste.jpg by Unknown authorUnknown author, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bathyscaphe_Trieste.jpg"
+     }
+    },
+    {
+     "vo": "दोनों उसी छोटे गोले में बैठे। जगह इतनी कम कि ठीक से हिल भी न सकें।",
+     "prompt": "Two men crammed inside a tiny steel sphere with dials and pipes, knees bent, one facing the other, a small porthole, dim yellow light, 1960 period, medium close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "नीचे पहुँचने में करीब पाँच घंटे लगे।",
+     "prompt": "A grey vessel with a small steel sphere underneath sinking slowly through black water, its single lamp lighting falling white particles, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "नीचे पहुँचने में करीब 5 घंटे लगे।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Bathyscaphe_Trieste.jpg/1920px-Bathyscaphe_Trieste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5665,
+      "h": 4560,
+      "credit": "Bathyscaphe Trieste.jpg by Unknown authorUnknown author, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bathyscaphe_Trieste.jpg"
+     }
+    },
+    {
+     "vo": "रास्ते में एक तेज़ धमाका हुआ। बाहर की एक खिड़की में दरार आ गई थी।",
+     "prompt": "A close-up of a thick acrylic window with a sharp crack running across it, dark water beyond, a man's worried face reflected faintly in it, dim cabin light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Bathyscaphe_Trieste.jpg/1920px-Bathyscaphe_Trieste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5665,
+      "h": 4560,
+      "credit": "Bathyscaphe Trieste.jpg by Unknown authorUnknown author, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bathyscaphe_Trieste.jpg"
+     }
+    },
+    {
+     "vo": "फिर भी वो रुके नहीं, और करीब दस हज़ार नौ सौ मीटर नीचे तली छू ली।",
+     "prompt": "A vintage grey bathyscaphe gently touching down on a pale silty seafloor, a cloud of silt rising around it, a lamp beam shining ahead, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "फिर भी वो रुके नहीं, और करीब 10,900 मीटर नीचे तली छू ली।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Bathyscaphe_Trieste.jpg/1920px-Bathyscaphe_Trieste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5665,
+      "h": 4560,
+      "credit": "Bathyscaphe Trieste.jpg by Unknown authorUnknown author, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bathyscaphe_Trieste.jpg"
+     }
+    },
+    {
+     "vo": "तली पर बस बीस मिनट रुके। मिट्टी उड़ी तो बाहर कुछ दिख ही नहीं रहा था।",
+     "prompt": "A view through a small round porthole into thick swirling white silt clouds lit by a lamp, nothing else visible, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "तली पर बस 20 मिनट रुके। मिट्टी उड़ी तो बाहर कुछ दिख ही नहीं रहा था।"
+    },
+    {
+     "vo": "उसके बाद बावन साल तक कोई इंसान वहाँ नहीं गया।",
+     "prompt": "An old retired bathyscaphe resting alone on a stand in a quiet museum hall, dusty light from tall windows, dust on its steel sphere, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उसके बाद 52 साल तक कोई इंसान वहाँ नहीं गया।"
+    },
+    {
+     "vo": "बीच में सिर्फ़ बिना इंसान वाले रोबोट यान नीचे गए।",
+     "prompt": "A yellow unmanned deep-sea robot vehicle with cameras and lights being lowered on a cable from a ship's stern, two crew watching from the deck, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/ROV_Kaiko_Mk-IV_P5123684.jpg/1920px-ROV_Kaiko_Mk-IV_P5123684.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2560,
+      "h": 1920,
+      "credit": "ROV Kaiko Mk-IV P5123684.jpg by Kestrel, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:ROV_Kaiko_Mk-IV_P5123684.jpg"
+     }
+    },
+    {
+     "vo": "दो हज़ार बारह में फ़िल्म टाइटैनिक बनाने वाले जेम्स कैमरून अकेले नीचे उतरे।",
+     "prompt": "A tall slim green vertical submersible with \"DEEPSEA CHALLENGER\" painted large and plain on its side, hanging from a ship crane over the Pacific, bright daylight, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "2012 में फ़िल्म Titanic बनाने वाले James Cameron अकेले नीचे उतरे।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Susan_Avery_speaking_at_a_dockside_ceremony_in_June_2013_to_celebrate_the_arrival_of_DEEPSEA_CHALLENGER_vehicle_donated_to_WHOI_by_James_Cameron.jpg/1920px-Susan_Avery_speaking_at_a_dockside_ceremony_in_June_2013_to_celebrate_the_arrival_of_DEEPSEA_CHALLENGER_vehicle_donated_to_WHOI_by_James_Cameron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2872,
+      "h": 2428,
+      "credit": "Susan Avery speaking at a dockside ceremony in June 2013 to celebrate the arrival of DEEPSEA CHALLENGER vehicle donated to WHOI by James Cameron.jpg by WHOItn, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Susan_Avery_speaking_at_a_dockside_ceremony_in_June_2013_to_celebrate_the_arrival_of_DEEPSEA_CHALLENGER_vehicle_donated_to_WHOI_by_James_Cameron.jpg"
+     }
+    },
+    {
+     "vo": "नीचे पहुँचने में ढाई घंटे लगे, और वो करीब तीन घंटे तली पर रहे।",
+     "prompt": "A slim submersible hovering just above a flat grey seafloor in total darkness, bright lights sweeping the silt, one pilot's window glowing, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "नीचे पहुँचने में ढाई घंटे लगे, और वो करीब 3 घंटे तली पर रहे।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Deepsea_Challenger_Panorama.jpg/1920px-Deepsea_Challenger_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2226,
+      "h": 803,
+      "credit": "Deepsea Challenger Panorama.jpg by Z22, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Deepsea_Challenger_Panorama.jpg"
+     }
+    },
+    {
+     "vo": "दो हज़ार उन्नीस में विक्टर वेस्कोवो ने एक ही पनडुब्बी से कई बार ये सफ़र किया।",
+     "prompt": "A white and blue modern submersible seen from its left side on a ship deck with \"LIMITING FACTOR\" painted large and plain on its side, two crew preparing it, sunny ocean behind, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "2019 में Victor Vescovo ने एक ही पनडुब्बी से कई बार ये सफ़र किया।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/2018-2022_Voyage_of_the_PD%2BLF_v3.jpg/1920px-2018-2022_Voyage_of_the_PD%2BLF_v3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2124,
+      "h": 1306,
+      "credit": "2018-2022 Voyage of the PD+LF v3.jpg by Vlvescovo, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:2018-2022_Voyage_of_the_PD%2BLF_v3.jpg"
+     }
+    },
+    {
+     "vo": "तली पर क्या दिखा? क्या वहाँ भी ज़िंदगी है?",
+     "prompt": "A submersible's light beam reaching across a dark seafloor, a small pale creature moving at the edge of the light, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "अँधेरे के जीव",
+   "shots": [
+    {
+     "vo": "हैरानी की बात: हाँ। इतने दबाव में भी जीव रहते हैं।",
+     "prompt": "Small pale translucent creatures swarming in a bright light beam over a grey deep seafloor, medium shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "तली पर झींगे जैसे छोटे जीव मिलते हैं। इन्हें एम्फ़िपॉड्स कहते हैं।",
+     "prompt": "A close-up of a pale whitish shrimp-like amphipod on grey silt, curled body and long antennae, deep-sea lamp lighting, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "तली पर झींगे जैसे छोटे जीव मिलते हैं। इन्हें amphipods कहते हैं।"
+    },
+    {
+     "vo": "ये ऊपर से गिरा मरा हुआ खाना खाते हैं। कुछ तो डूबी लकड़ी तक पचा लेते हैं।",
+     "prompt": "Dozens of pale amphipods swarming over a sunken waterlogged piece of wood on the deep seafloor, lamp light, medium shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "वहाँ समुद्री खीरे भी रेंगते हैं। ये मिट्टी छानकर खाना ढूँढते हैं।",
+     "prompt": "A translucent pinkish sea cucumber crawling slowly over soft grey sediment in darkness, lit by a lamp, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Pepino_de_mar_%28Holothuria_fuscogilva%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-28%2C_DD_119.jpg/1920px-Pepino_de_mar_%28Holothuria_fuscogilva%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-28%2C_DD_119.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5011,
+      "h": 3341,
+      "credit": "Pepino de mar (Holothuria fuscogilva), parque nacional Ras Muhammad, Egipto, 2022-03-28, DD 119.jpg by Diego Delso, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Pepino_de_mar_(Holothuria_fuscogilva),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-28,_DD_119.jpg"
+     }
+    },
+    {
+     "vo": "कुछ जीव सिर्फ़ एक कोशिका के हैं, पर आकार में दस सेंटीमीटर तक।",
+     "prompt": "A fragile lumpy single-celled xenophyophore, the size of a hand, sitting on the deep seafloor beside a hand-sized marker stick for scale, intricate texture, lamp light, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "कुछ जीव सिर्फ़ एक कोशिका के हैं, पर आकार में 10 सेंटीमीटर तक।"
+    },
+    {
+     "vo": "मछलियाँ भी हैं, पर एक हद तक। सबसे गहरी मछली आठ हज़ार तीन सौ मीटर से थोड़ा नीचे दिखी है।",
+     "prompt": "A pale fish swimming slowly beside a baited deep-sea camera frame on the dark seafloor, a small piece of bait on the frame, lamp light, medium shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "मछलियाँ भी हैं, पर एक हद तक। सबसे गहरी मछली 8,300 मीटर से थोड़ा नीचे दिखी है।"
+    },
+    {
+     "vo": "ये है स्नेलफ़िश। हल्की सफ़ेद, आर-पार दिखती सी, जेली जैसी।",
+     "prompt": "A close-up of a pale whitish translucent snailfish with a soft gelatinous body and tiny eyes, floating in a light beam, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये है snailfish। हल्की सफ़ेद, आर-पार दिखती सी, जेली जैसी।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Pseudoliparis_swirei_%2810.11646-zootaxa.4358.1.7%29_Figure_8.jpg/1920px-Pseudoliparis_swirei_%2810.11646-zootaxa.4358.1.7%29_Figure_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2008,
+      "h": 1606,
+      "credit": "Pseudoliparis swirei (10.11646-zootaxa.4358.1.7) Figure 8.jpg by Gerringer, M.E., Linley, T.D., Jamieson, A.J., Goetze, E. &amp; Drazen, J.C. 201, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Pseudoliparis_swirei_(10.11646-zootaxa.4358.1.7)_Figure_8.jpg"
+     }
+    },
+    {
+     "vo": "ये पिचकती क्यों नहीं? क्योंकि इसके अंदर हवा की कोई थैली नहीं।",
+     "prompt": "A side view of a translucent snailfish with a soft see-through body, no air bubbles inside it, glowing in a beam of light in black water, medium shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसका शरीर पानी से भरा है। अंदर-बाहर दबाव बराबर, और कोशिकाओं के टी एम ए ओ जैसे अणु भी मदद करते हैं।",
+     "prompt": "A snailfish gliding effortlessly over the deep seafloor, relaxed, its whole water-filled body softly lit, a lamp beam behind it, medium shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसका शरीर पानी से भरा है। अंदर-बाहर दबाव बराबर, और कोशिकाओं के TMAO जैसे अणु भी मदद करते हैं।"
+    },
+    {
+     "vo": "वैज्ञानिक मानते हैं कि करीब आठ हज़ार दो सौ से आठ हज़ार चार सौ मीटर के नीचे मछली का शरीर काम नहीं कर पाता।",
+     "prompt": "An empty dark seafloor below steep trench walls, no fish in sight, only a few tiny pale amphipods on the silt, wide shot, lamp light, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "वैज्ञानिक मानते हैं कि करीब 8,200 से 8,400 मीटर के नीचे मछली का शरीर काम नहीं कर पाता।"
+    },
+    {
+     "vo": "उन्नीस सौ साठ में पिकार्ड ने कहा था कि तली पर एक चपटी मछली दिखी।",
+     "prompt": "A man in 1960s clothing pressing his face near a small porthole inside a steel sphere, eyes wide, amazed, dim yellow light, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "1960 में Piccard ने कहा था कि तली पर एक चपटी मछली दिखी।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/330-ps-9873--428-gx-usn-10446612_15357890721_o.jpg/1920px-330-ps-9873--428-gx-usn-10446612_15357890721_o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2760,
+      "h": 2209,
+      "credit": "330-ps-9873--428-gx-usn-10446612 15357890721 o.jpg by unknown, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:330-ps-9873--428-gx-usn-10446612_15357890721_o.jpg"
+     }
+    },
+    {
+     "vo": "आज ज़्यादातर वैज्ञानिक मानते हैं कि वो शायद समुद्री खीरा था।",
+     "prompt": "A flat pale sea cucumber resting on silt, looking a bit like a flatfish in the murky light, lamp beam, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर तली पर सिर्फ़ जीव नहीं मिले। कुछ ऐसा भी मिला जो वहाँ नहीं होना चाहिए था।",
+     "prompt": "A submersible light beam landing on a strange smooth object half buried in deep-sea silt, centre, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "तली पर हमारा कचरा",
+   "shots": [
+    {
+     "vo": "उन्नीस सौ अट्ठानवे में एक जापानी रोबोट पनडुब्बी के कैमरे ने तली पर कुछ देखा।",
+     "prompt": "A yellow remotely operated deep-sea robot with cameras and lights hovering over a dark seafloor, seen from its left side, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "1998 में एक जापानी रोबोट पनडुब्बी के कैमरे ने तली पर कुछ देखा।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/ROV_Kaiko_Launcher_P5123681.jpg/1920px-ROV_Kaiko_Launcher_P5123681.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2560,
+      "h": 1920,
+      "credit": "ROV Kaiko Launcher P5123681.jpg by Kestrel, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:ROV_Kaiko_Launcher_P5123681.jpg"
+     }
+    },
+    {
+     "vo": "एक प्लास्टिक की थैली। दस हज़ार आठ सौ अट्ठानवे मीटर नीचे।",
+     "prompt": "A crumpled white plastic bag lying on grey deep-sea silt in a lamp beam, alone in total darkness, large in frame, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "एक प्लास्टिक की थैली। 10,898 मीटर नीचे।"
+    },
+    {
+     "vo": "दो हज़ार उन्नीस में वेस्कोवो ने भी तली के पास प्लास्टिक जैसा कचरा देखने की बात कही।",
+     "prompt": "A pilot inside a submersible looking out of a round porthole with a troubled expression, seen in three-quarter view, dark water outside, dim cabin light, medium close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "2019 में Vescovo ने भी तली के पास प्लास्टिक जैसा कचरा देखने की बात कही।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/In_Submersible_Limiting_Factor_during_Challenger_Deep_Dive_-_Dr_Dawn_Wright_and_Pilot_Victor_Vescovo_071222.jpg/1920px-In_Submersible_Limiting_Factor_during_Challenger_Deep_Dive_-_Dr_Dawn_Wright_and_Pilot_Victor_Vescovo_071222.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2640,
+      "h": 1980,
+      "credit": "In Submersible Limiting Factor during Challenger Deep Dive - Dr Dawn Wright and Pilot Victor Vescovo 071222.jpg by Vlvescovo, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:In_Submersible_Limiting_Factor_during_Challenger_Deep_Dive_-_Dr_Dawn_Wright_and_Pilot_Victor_Vescovo_071222.jpg"
+     }
+    },
+    {
+     "vo": "वैज्ञानिकों को वहाँ के एम्फ़िपॉड्स के पेट में भी प्लास्टिक के बारीक रेशे मिले।",
+     "prompt": "A scientist in a white lab coat leaning over a pale amphipod in a glass dish under a microscope lamp, tiny blue fibres visible on the amphipod, bright lab light, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "वैज्ञानिकों को वहाँ के amphipods के पेट में भी प्लास्टिक के बारीक रेशे मिले।"
+    },
+    {
+     "vo": "जहाँ इंसान मुश्किल से पहुँचा, वहाँ हमारा कचरा पहले पहुँच गया।",
+     "prompt": "Plastic bottles and bags floating on the ocean surface, a few sinking slowly into deep blue water below them, bright daylight, medium shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और सोचिए, इस तली का ज़्यादातर हिस्सा हमने ठीक से देखा भी नहीं।",
+     "prompt": "An endless black deep seafloor stretching beyond a single small lamp beam, a tiny submersible on the left, vast darkness on the right, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पूरी दुनिया की समुद्री तली का करीब एक चौथाई हिस्सा ही बारीकी से नापा गया है।",
+     "prompt": "A survey ship at sea at night with sonar equipment on its deck, two crew working under bright floodlights, dark water around, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "भारत का मत्स्य छह हज़ार भी तीन लोगों को छह हज़ार मीटर नीचे ले जाने के लिए बना है।",
+     "prompt": "Three Indian scientists and engineers standing beside a round white deep-sea submersible sphere in a workshop, an Indian tricolour flag on the wall, bright light, medium-wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "भारत का Matsya 6000 भी तीन लोगों को 6,000 मीटर नीचे ले जाने के लिए बना है।"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "अगली बार नक्शे पर गुआम के पास वो गहरी नीली, आधे चाँद जैसी लकीर ढूँढिए। वही है ये खाई।",
+     "map": {
+      "center": [
+       13,
+       144
+      ],
+      "span": 10,
+      "from_span": 30,
+      "countries": [
+       {
+        "iso": "GUM",
+        "label": "गुआम",
+        "color": "teal"
+       },
+       {
+        "iso": "MNP",
+        "label": "उत्तरी मारियाना",
+        "color": "yellow"
+       }
+      ],
+      "points": [
+       {
+        "lat": 13.444,
+        "lon": 144.794,
+        "label": "गुआम"
+       },
+       {
+        "lat": 11.373,
+        "lon": 142.591,
+        "label": "Challenger Deep"
+       }
+      ]
+     }
+    },
+    {
+     "vo": "अगले एपिसोड में: धरती में खोदा गया सबसे गहरा गड्ढा, और वहाँ खुदाई क्यों रुकी।",
+     "prompt": "A rusted metal cap welded over a narrow borehole in the ground at a cold abandoned industrial site, snow around it, overcast daylight, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/%D0%A1%D0%B0%D0%BC%D0%B0_%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D0%B0%28%D0%B7%D0%B0%D0%B2%D0%B0%D1%80%D0%B5%D0%BD%D0%B0%29%2C_%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82_2012.JPG/1920px-%D0%A1%D0%B0%D0%BC%D0%B0_%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D0%B0%28%D0%B7%D0%B0%D0%B2%D0%B0%D1%80%D0%B5%D0%BD%D0%B0%29%2C_%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2592,
+      "h": 1944,
+      "credit": "Сама скважина(заварена), август 2012.JPG by Rakot13, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%BC%D0%B0_%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D0%B0(%D0%B7%D0%B0%D0%B2%D0%B0%D1%80%D0%B5%D0%BD%D0%B0),_%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82_2012.JPG"
+     }
+    },
+    {
+     "vo": "ऐसे ही गज़ब सवालों के लिए सब्सक्राइब करें।",
+     "prompt": "A white research ship sailing into a golden sunset on the open Pacific Ocean, calm water, warm light, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  }
+ ],
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "place",
+  "points": [
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1
+  ]
+ },
+ "photos_checked": true
+}
