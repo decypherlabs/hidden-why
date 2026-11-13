@@ -118,7 +118,7 @@ def stock(shots, out):
         if not h:
             print(f"no clip for shot {x['n']} ({q})", flush=True)
             continue
-        log[str(x["n"])] = {**fetch(h, dest), "query": q}
+        log[str(x["n"])] = {**fetch(h, dest), "query": q, "tags": h.get("tags", "")}
         used.add(h["id"])
         print(f"clip {x['n']}: {q} -> {h['id']}", flush=True)
     (out / "stock" / "sources.json").write_text(json.dumps(log, indent=1))
@@ -381,6 +381,20 @@ DRAW = {"footage": footage, "archive": footage, "still": still, "stat": stat, "h
         "document": document, "quote": quote, "chart": chart, "map": mapshot, "card": card, "end": endcard}
 
 
+def plate_ok(ctx, it):
+    """A place label goes on a stock clip only when the clip's own Pixabay tags name a word of that place (13 Nov 2026:
+    a Hong Kong cruise ship came out labelled "Bandar Abbas"); a plate with no place in it (a year, a phrase) stays."""
+    if "sources" not in ctx.cache:
+        ctx.cache["sources"] = json.loads((ctx.out / "stock" / "sources.json").read_text()) if (ctx.out / "stock" / "sources.json").exists() else {}
+    tags = str((ctx.cache["sources"].get(str(it["n"])) or {}).get("tags", "")).lower()
+    words = [w.strip(".,·:;()").lower() for w in str(it["plate"]).replace("·", " ").split()]
+    names = [w for w in words if w.isalpha() and len(w) > 3 and w[0].isalpha()]
+    caps = [w for w in str(it["plate"]).replace("·", " ").split() if w[:1].isupper()]
+    if not caps:  # no proper name in the label: nothing to get wrong
+        return True
+    return any(w in tags for w in names)
+
+
 def render_frame(ctx, fi):
     t = fi / FPS
     it = ctx.item_at(t)
@@ -398,7 +412,7 @@ def render_frame(ctx, fi):
     d = ImageDraw.Draw(layer)
     if it.get("vo"):
         kit.captions(layer, it["vo"].split(), lt, it["dur"] - GAP, accent=ctx.L["accent"])
-    if it.get("kind") in ("footage", "archive") and it.get("plate"):
+    if it.get("kind") in ("footage", "archive") and it.get("plate") and plate_ok(ctx, it):
         kit.label_plate(layer, (90, 110), str(it["plate"])[:48], lt)
     if it.get("kind") in ("footage", "archive"):
         kit.source_tag(d, "Pixabay")
@@ -442,7 +456,11 @@ def join(out):
     bed = kit.load_audio(kit.MUSIC / "reflective.mp3")
     mix.music(bed, 0.0, tl["sec"], gain=0.16, duck=0.4, fade=2.0)
     mix.write(out / "mix.wav")
-    kit.mux(out / "silent.mp4", out / "mix.wav", out / "video.mp4")
+    # one real encode at the end (13 Nov 2026: the near-lossless parts concatenated made 2.5 GB for 10 minutes)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out / "silent.mp4"), "-i", str(out / "mix.wav"),
+                    "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "12M", "-bufsize", "24M",
+                    "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest",
+                    str(out / "video.mp4")], check=True)
     (out / "chapters.txt").write_text("\n".join(f"{int(s // 60):02d}:{int(s % 60):02d} {name}" for s, name in tl["chapters"]))
     print(f"video {tl['sec'] / 60:.1f} min -> {out / 'video.mp4'}", flush=True)
 
