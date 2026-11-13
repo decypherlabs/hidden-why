@@ -130,14 +130,266 @@
      "prompt": "A middle-aged Indian station master in a white shirt and cap with moustache, sitting at a wooden desk in a small station office, phone held to his ear, a large flat wall board facing the camera reading \"स्टेशन मास्टर\", warm lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "स्टेशन A का स्टेशन मास्टर ट्रेन भेजने से पहले अगले स्टेशन B से पूछता है।"
+     "caption": "स्टेशन A का स्टेशन मास्टर ट्रेन भेजने से पहले अगले स्टेशन B से पूछता है।",
+     "words": {
+      "14": {
+       "src": "bd8702a25c7f",
+       "items": [
+        {
+         "text": "स्टेशन मास्टर",
+         "grid": [
+          [
+           [
+            783.8,
+            401.9
+           ],
+           [
+            853.4,
+            384.6
+           ],
+           [
+            924.2,
+            366.4
+           ],
+           [
+            995.0,
+            347.5
+           ],
+           [
+            1064.6,
+            328.3
+           ],
+           [
+            1135.4,
+            308.1
+           ],
+           [
+            1206.2,
+            287.3
+           ]
+          ],
+          [
+           [
+            783.8,
+            437.2
+           ],
+           [
+            853.4,
+            423.8
+           ],
+           [
+            924.2,
+            409.7
+           ],
+           [
+            995.0,
+            395.1
+           ],
+           [
+            1064.6,
+            380.2
+           ],
+           [
+            1135.4,
+            364.7
+           ],
+           [
+            1206.2,
+            348.7
+           ]
+          ],
+          [
+           [
+            783.8,
+            472.5
+           ],
+           [
+            853.4,
+            463.0
+           ],
+           [
+            924.2,
+            452.9
+           ],
+           [
+            995.0,
+            442.6
+           ],
+           [
+            1064.6,
+            432.2
+           ],
+           [
+            1135.4,
+            421.4
+           ],
+           [
+            1206.2,
+            410.2
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1a2a5a",
+         "corners": [
+          [
+           755,
+           205
+          ],
+          [
+           1235,
+           205
+          ],
+          [
+           1235,
+           602
+          ],
+          [
+           755,
+           602
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "दोनों के पास एक मशीन है, ब्लॉक इंस्ट्रूमेंट। उसकी सुई बताती है पटरी का हाल।",
      "prompt": "A vintage brass-and-wood Indian Railways double-line block instrument on a wooden desk, a needle dial with a large flat label plate facing the camera reading \"LINE CLEAR\", sharp focus, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "दोनों के पास एक मशीन है, block instrument। उसकी सुई बताती है पटरी का हाल।"
+     "caption": "दोनों के पास एक मशीन है, block instrument। उसकी सुई बताती है पटरी का हाल।",
+     "words": {
+      "15": {
+       "src": "e914baf72dc9",
+       "items": [
+        {
+         "text": "LINE CLEAR",
+         "grid": [
+          [
+           [
+            579.4,
+            588.9
+           ],
+           [
+            634.0,
+            583.4
+           ],
+           [
+            692.1,
+            580.1
+           ],
+           [
+            753.1,
+            579.3
+           ],
+           [
+            816.2,
+            581.0
+           ],
+           [
+            883.7,
+            585.6
+           ],
+           [
+            955.0,
+            593.3
+           ]
+          ],
+          [
+           [
+            578.7,
+            609.1
+           ],
+           [
+            633.2,
+            607.0
+           ],
+           [
+            691.3,
+            606.4
+           ],
+           [
+            752.4,
+            607.3
+           ],
+           [
+            815.5,
+            610.0
+           ],
+           [
+            883.1,
+            614.5
+           ],
+           [
+            954.4,
+            621.1
+           ]
+          ],
+          [
+           [
+            578.1,
+            629.3
+           ],
+           [
+            632.5,
+            630.6
+           ],
+           [
+            690.6,
+            632.7
+           ],
+           [
+            751.6,
+            635.4
+           ],
+           [
+            814.7,
+            639.0
+           ],
+           [
+            882.4,
+            643.5
+           ],
+           [
+            953.8,
+            648.9
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           559,
+           548
+          ],
+          [
+           986,
+           555
+          ],
+          [
+           983,
+           698
+          ],
+          [
+           555,
+           668
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "बी तभी 'लाइन क्लियर' देता है जब पिछली ट्रेन पूरी उसके स्टेशन पर आ चुकी हो।",
@@ -151,7 +403,133 @@
      "prompt": "A close-up of a block instrument needle pointing into a red sector, a large flat label plate facing the camera reading \"TRAIN ON LINE\", brass and wood, warm lamp light, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ट्रेन चलते ही सुई 'Train on Line' पर जाती है। अब दूसरी ट्रेन इस block में नहीं घुस सकती।"
+     "caption": "ट्रेन चलते ही सुई 'Train on Line' पर जाती है। अब दूसरी ट्रेन इस block में नहीं घुस सकती।",
+     "words": {
+      "17": {
+       "src": "cd325f8f6c26",
+       "items": [
+        {
+         "text": "TRAIN ON LINE",
+         "grid": [
+          [
+           [
+            570.1,
+            570.7
+           ],
+           [
+            645.2,
+            566.6
+           ],
+           [
+            720.9,
+            563.1
+           ],
+           [
+            796.0,
+            560.5
+           ],
+           [
+            869.2,
+            558.6
+           ],
+           [
+            943.3,
+            557.4
+           ],
+           [
+            1017.0,
+            556.9
+           ]
+          ],
+          [
+           [
+            567.4,
+            594.7
+           ],
+           [
+            643.2,
+            594.1
+           ],
+           [
+            719.8,
+            594.0
+           ],
+           [
+            796.1,
+            594.3
+           ],
+           [
+            870.7,
+            595.1
+           ],
+           [
+            946.3,
+            596.3
+           ],
+           [
+            1021.6,
+            598.0
+           ]
+          ],
+          [
+           [
+            564.7,
+            619.4
+           ],
+           [
+            641.1,
+            622.5
+           ],
+           [
+            718.7,
+            625.8
+           ],
+           [
+            796.1,
+            629.3
+           ],
+           [
+            872.1,
+            632.9
+           ],
+           [
+            949.4,
+            636.8
+           ],
+           [
+            1026.5,
+            640.9
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           544,
+           531
+          ],
+          [
+           1043,
+           527
+          ],
+          [
+           1060,
+           659
+          ],
+          [
+           527,
+           666
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "सिंगल लाइन पर ख़तरा और बड़ा है, क्योंकि ट्रेनें आमने-सामने से आती हैं। वहाँ हाथ में एक ठोस चीज़ दी जाती है, टोकन।",
@@ -162,10 +540,11 @@
     },
     {
      "vo": "दोनों स्टेशनों की टोकन मशीनें तार से जुड़ी हैं। एक बार में सिर्फ़ एक टोकन बाहर निकल सकता है। जिसके हाथ टोकन, वही ट्रेन चले।",
-     "prompt": "A tall cast-iron token instrument in an Indian station office, a middle-aged station master in a white shirt lifting a shiny metal token ball out of its slot with his hand, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A middle-aged Indian station master in a white shirt lifting a shiny metal token ball out of its slot in a tall cast-iron token instrument with his right hand, the ball large and bright in his fingers, plain brass dials, warm lamp light, sharp focus, close-up, photorealistic documentary film still",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "दोनों स्टेशनों की token मशीनें तार से जुड़ी हैं। एक बार में सिर्फ़ एक token बाहर निकल सकता है। जिसके हाथ token, वही ट्रेन चले।"
+     "caption": "दोनों स्टेशनों की token मशीनें तार से जुड़ी हैं। एक बार में सिर्फ़ एक token बाहर निकल सकता है। जिसके हाथ token, वही ट्रेन चले।",
+     "seed": 8938
     },
     {
      "vo": "पर बी को कैसे पता कि ट्रेन पूरी आई? कोई डिब्बा रास्ते में तो नहीं छूटा?",
@@ -306,10 +685,11 @@
     },
     {
      "vo": "हर टुकड़े की दोनों पटरियों में कुछ ही वोल्ट का हल्का करंट दौड़ता रहता है। इसे कहते हैं ट्रैक सर्किट।",
-     "prompt": "A short rail section with a bright glowing loop of current running down one rail, through a small relay box and back up the other rail, a flat label 'track circuit' facing the camera, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A short rail section with a bright glowing loop of current running down one rail, through a small grey relay box and back up the other rail, a flat label 'track circuit' facing the camera, sharp focus, close-up, photorealistic documentary film still",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "हर टुकड़े की दोनों पटरियों में कुछ ही volt का हल्का करंट दौड़ता रहता है। इसे कहते हैं track circuit।"
+     "caption": "हर टुकड़े की दोनों पटरियों में कुछ ही volt का हल्का करंट दौड़ता रहता है। इसे कहते हैं track circuit।",
+     "seed": 8958
     },
     {
      "vo": "दो टुकड़ों के बीच पटरी में एक जोड़ होता है जो करंट को आगे नहीं जाने देता।",
@@ -418,7 +798,133 @@
      "prompt": "A large Indian railway control hall with rows of controllers in headsets at long desks facing screens, a flat door sign in front reading \"नियंत्रण कक्ष\", bright office light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "हर division के कंट्रोल रूम में section controller बैठता है। उसके ज़िम्मे सौ-दो सौ किलोमीटर की पटरी होती है।"
+     "caption": "हर division के कंट्रोल रूम में section controller बैठता है। उसके ज़िम्मे सौ-दो सौ किलोमीटर की पटरी होती है।",
+     "words": {
+      "51": {
+       "src": "534ce117cb05",
+       "items": [
+        {
+         "text": "नियंत्रण कक्ष",
+         "grid": [
+          [
+           [
+            518.9,
+            553.3
+           ],
+           [
+            598.3,
+            553.5
+           ],
+           [
+            679.2,
+            553.6
+           ],
+           [
+            760.0,
+            553.7
+           ],
+           [
+            839.5,
+            553.6
+           ],
+           [
+            920.3,
+            553.5
+           ],
+           [
+            1001.1,
+            553.3
+           ]
+          ],
+          [
+           [
+            518.9,
+            602.8
+           ],
+           [
+            598.3,
+            603.2
+           ],
+           [
+            679.2,
+            603.4
+           ],
+           [
+            760.0,
+            603.5
+           ],
+           [
+            839.5,
+            603.4
+           ],
+           [
+            920.3,
+            603.2
+           ],
+           [
+            1001.1,
+            602.8
+           ]
+          ],
+          [
+           [
+            518.9,
+            652.3
+           ],
+           [
+            598.3,
+            652.9
+           ],
+           [
+            679.2,
+            653.2
+           ],
+           [
+            760.0,
+            653.4
+           ],
+           [
+            839.5,
+            653.2
+           ],
+           [
+            920.3,
+            652.9
+           ],
+           [
+            1001.1,
+            652.3
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1a2a5a",
+         "corners": [
+          [
+           486,
+           502
+          ],
+          [
+           1034,
+           502
+          ],
+          [
+           1034,
+           702
+          ],
+          [
+           486,
+           702
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "पहले वो बड़े काग़ज़ पर पेंसिल से हर ट्रेन की लकीर खींचता था।",
@@ -511,7 +1017,133 @@
      "prompt": "A cabinman in a grey shirt pulling a tall iron lever in a long row of red and black levers inside an old brick signal cabin, a flat wall board facing the camera reading \"WEST CABIN\", warm light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पहले cabin में एक आदमी भारी लीवर खींचता था।"
+     "caption": "पहले cabin में एक आदमी भारी लीवर खींचता था।",
+     "words": {
+      "64": {
+       "src": "a5cb41aa5582",
+       "items": [
+        {
+         "text": "WEST CABIN",
+         "grid": [
+          [
+           [
+            681.3,
+            595.8
+           ],
+           [
+            735.1,
+            563.3
+           ],
+           [
+            789.8,
+            537.0
+           ],
+           [
+            844.5,
+            517.5
+           ],
+           [
+            898.3,
+            505.2
+           ],
+           [
+            953.0,
+            499.4
+           ],
+           [
+            1007.7,
+            500.6
+           ]
+          ],
+          [
+           [
+            681.3,
+            614.6
+           ],
+           [
+            735.1,
+            591.4
+           ],
+           [
+            789.8,
+            572.7
+           ],
+           [
+            844.5,
+            558.9
+           ],
+           [
+            898.3,
+            550.1
+           ],
+           [
+            953.0,
+            546.1
+           ],
+           [
+            1007.7,
+            547.0
+           ]
+          ],
+          [
+           [
+            681.3,
+            633.3
+           ],
+           [
+            735.1,
+            619.5
+           ],
+           [
+            789.8,
+            608.4
+           ],
+           [
+            844.5,
+            600.2
+           ],
+           [
+            898.3,
+            595.0
+           ],
+           [
+            953.0,
+            592.7
+           ],
+           [
+            1007.7,
+            593.4
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#2a1a10",
+         "corners": [
+          [
+           659,
+           420
+          ],
+          [
+           1030,
+           420
+          ],
+          [
+           1030,
+           666
+          ],
+          [
+           659,
+           666
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "लोहे की लंबी छड़ें सैकड़ों मीटर दूर जाकर कांटा हिलाती थीं।",
@@ -521,10 +1153,11 @@
     },
     {
      "vo": "आज कांटे के बगल में बिजली की मोटर लगी होती है: पॉइंट मशीन। ये कुछ ही सेकंड में कांटा बदल देती है।",
-     "prompt": "An electric point machine bolted beside a turnout, its drive rod connected to the tongue rails, sharp focus, daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An electric point machine, a grey steel box bolted beside a turnout, its steel drive rod clearly connected to the tongue rails, plain surfaces, daylight, sharp focus, close-up, photorealistic documentary film still",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "आज कांटे के बगल में बिजली की मोटर लगी होती है: point machine। ये कुछ ही सेकंड में कांटा बदल देती है।"
+     "caption": "आज कांटे के बगल में बिजली की मोटर लगी होती है: point machine। ये कुछ ही सेकंड में कांटा बदल देती है।",
+     "seed": 8985
     },
     {
      "vo": "पर सिर्फ़ हिलना काफ़ी नहीं। टंग रेल को पटरी से पूरा चिपकना होगा।",
@@ -603,7 +1236,133 @@
      "prompt": "A blue express train waiting at the home signal outside a station, a flat platform board far ahead facing the camera reading \"PLATFORM 3\", daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "मान लीजिए आपकी ट्रेन को प्लेटफ़ॉर्म 3 पर लेना है।"
+     "caption": "मान लीजिए आपकी ट्रेन को प्लेटफ़ॉर्म 3 पर लेना है।",
+     "words": {
+      "77": {
+       "src": "abd133ab8cb4",
+       "items": [
+        {
+         "text": "PLATFORM 3",
+         "grid": [
+          [
+           [
+            246.2,
+            372.4
+           ],
+           [
+            423.1,
+            372.4
+           ],
+           [
+            603.0,
+            372.4
+           ],
+           [
+            783.0,
+            372.4
+           ],
+           [
+            959.9,
+            372.4
+           ],
+           [
+            1139.8,
+            372.4
+           ],
+           [
+            1319.8,
+            372.4
+           ]
+          ],
+          [
+           [
+            246.2,
+            436.5
+           ],
+           [
+            423.1,
+            436.5
+           ],
+           [
+            603.0,
+            436.5
+           ],
+           [
+            783.0,
+            436.5
+           ],
+           [
+            959.9,
+            436.5
+           ],
+           [
+            1139.8,
+            436.5
+           ],
+           [
+            1319.8,
+            436.5
+           ]
+          ],
+          [
+           [
+            246.2,
+            500.6
+           ],
+           [
+            423.1,
+            500.6
+           ],
+           [
+            603.0,
+            500.6
+           ],
+           [
+            783.0,
+            500.6
+           ],
+           [
+            959.9,
+            500.6
+           ],
+           [
+            1139.8,
+            500.6
+           ],
+           [
+            1319.8,
+            500.6
+           ]
+          ]
+         ],
+         "style": "modern",
+         "color": "#111111",
+         "corners": [
+          [
+           173,
+           335
+          ],
+          [
+           1393,
+           335
+          ],
+          [
+           1393,
+           538
+          ],
+          [
+           173,
+           538
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "स्टेशन मास्टर पैनल पर दो बटन दबाता है: रास्ता कहाँ से शुरू, और कहाँ ख़त्म।",
@@ -614,16 +1373,18 @@
     },
     {
      "vo": "सिस्टम ख़ुद जाँचता है: रास्ते के सारे कांटे सही तरफ़ हैं? सब लॉक हैं?",
-     "prompt": "A top-down view of a station yard, every turnout on one route marked with a green tick and a padlock, sharp focus, daylight, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A top-down aerial view of a station yard with tracks and turnouts, every turnout on one route marked with a green tick and a small padlock, daylight, sharp focus, wide shot, photorealistic documentary film still",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "सिस्टम ख़ुद जाँचता है: रास्ते के सारे कांटे सही तरफ़ हैं? सब lock हैं?"
+     "caption": "सिस्टम ख़ुद जाँचता है: रास्ते के सारे कांटे सही तरफ़ हैं? सब lock हैं?",
+     "seed": 8998
     },
     {
      "vo": "पूरी पटरी खाली है? कोई डिब्बा तो खड़ा नहीं?",
-     "prompt": "An aerial view of an empty platform line in a station, the whole line glowing green with the label 'खाली', sharp focus, daylight, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A top-down aerial view of one empty platform line in a station, the whole line glowing green with a large flat label 'खाली' facing the camera, daylight, sharp focus, wide shot, photorealistic documentary film still",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8999
     },
     {
      "vo": "और कोई दूसरा सिग्नल तो नहीं खुला, जो इसी रास्ते को काटता हो?",
@@ -639,9 +1400,10 @@
     },
     {
      "vo": "सब ठीक हो, तब सिग्नल खुलता है। और ट्रेन गुज़रने तक रास्ते का कोई कांटा हिल नहीं सकता।",
-     "prompt": "A blue express train rolling over turnouts into a station under a glowing yellow signal, the train large in the frame, daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A blue express train rolling over turnouts into a station under a glowing green signal, plain blue sides, the train large in the frame, the route clear ahead, daylight, sharp focus, wide shot, photorealistic documentary film still",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 9002
     },
     {
      "vo": "पुराने केबिन में ये काम लोहे का था। लीवर आपस में अटक जाते, गलत लीवर खिंचता ही नहीं।",
@@ -743,7 +1505,133 @@
      "prompt": "A modern Indian electric locomotive in a shed, an equipment cabinet open in the cab with a large flat label facing the camera reading \"KAVACH\", sharp focus, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अब सबसे बड़ा कदम है Kavach, भारत में ही RDSO का बनाया train protection system।"
+     "caption": "अब सबसे बड़ा कदम है Kavach, भारत में ही RDSO का बनाया train protection system।",
+     "words": {
+      "93": {
+       "src": "87ca82afbf8b",
+       "items": [
+        {
+         "text": "KAVACH",
+         "grid": [
+          [
+           [
+            642.5,
+            393.5
+           ],
+           [
+            707.8,
+            393.1
+           ],
+           [
+            774.3,
+            392.8
+           ],
+           [
+            840.7,
+            392.7
+           ],
+           [
+            906.1,
+            392.7
+           ],
+           [
+            972.5,
+            392.8
+           ],
+           [
+            1039.0,
+            393.0
+           ]
+          ],
+          [
+           [
+            642.1,
+            454.0
+           ],
+           [
+            707.5,
+            453.9
+           ],
+           [
+            774.0,
+            453.8
+           ],
+           [
+            840.5,
+            453.7
+           ],
+           [
+            905.9,
+            453.7
+           ],
+           [
+            972.4,
+            453.8
+           ],
+           [
+            1038.9,
+            453.9
+           ]
+          ],
+          [
+           [
+            641.6,
+            514.5
+           ],
+           [
+            707.1,
+            514.7
+           ],
+           [
+            773.7,
+            514.8
+           ],
+           [
+            840.3,
+            514.9
+           ],
+           [
+            905.7,
+            514.9
+           ],
+           [
+            972.3,
+            514.9
+           ],
+           [
+            1038.9,
+            514.8
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           616,
+           328
+          ],
+          [
+           1066,
+           328
+          ],
+          [
+           1066,
+           586
+          ],
+          [
+           614,
+           586
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "पटरी के बीच आर एफ़ आई डी टैग्स लगे हैं, स्टेशन पर रेडियो टॉवर है, और इंजन में कंप्यूटर।",
@@ -767,24 +1655,152 @@
     },
     {
      "vo": "एक ही पटरी पर आमने-सामने दो कवच वाले इंजन आएँ, तो दोनों अपने-आप रुक जाते हैं।",
-     "prompt": "Two locomotives standing face to face on the same single track, stopped a safe distance apart, a bright glowing band across the gap between them, daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Two locomotives standing face to face on the same single track, one on the left facing right and one on the right facing left, stopped a safe distance apart, a bright glowing band across the gap between them, open countryside, daylight, sharp focus, wide shot, photorealistic documentary film still",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "एक ही पटरी पर आमने-सामने दो Kavach वाले इंजन आएँ, तो दोनों अपने-आप रुक जाते हैं।"
+     "caption": "एक ही पटरी पर आमने-सामने दो Kavach वाले इंजन आएँ, तो दोनों अपने-आप रुक जाते हैं।",
+     "seed": 9016
     },
     {
      "vo": "मार्च दो हज़ार बाईस में यही टेस्ट हुआ। एक इंजन में ख़ुद रेल मंत्री बैठे थे, दूसरे में रेलवे बोर्ड के चेयरमैन, और दोनों इंजन कुछ सौ मीटर पहले रुक गए।",
-     "prompt": "Two Indian locomotives approaching each other on a single line in open countryside, a few officials in white shirts standing far off beside the track, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Two Indian locomotives stopped face to face on a single line in open countryside, one on the left and one on the right, a gap of a few hundred metres between them, a few officials in white shirts standing far off beside the track, bright daylight, sharp focus, wide shot, photorealistic documentary film still",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "मार्च 2022 में यही test हुआ। एक इंजन में ख़ुद रेल मंत्री बैठे थे, दूसरे में Railway Board के चेयरमैन, और दोनों इंजन कुछ सौ मीटर पहले रुक गए।"
+     "caption": "मार्च 2022 में यही test हुआ। एक इंजन में ख़ुद रेल मंत्री बैठे थे, दूसरे में Railway Board के चेयरमैन, और दोनों इंजन कुछ सौ मीटर पहले रुक गए।",
+     "seed": 9017
     },
     {
      "vo": "कवच को सेफ़्टी का सबसे ऊँचा दर्जा, एस आई एल फ़ोर, मिला है।",
      "prompt": "Two railway engineers in white helmets seen from the side, inspecting an equipment rack inside a locomotive cab, a large flat label on the rack facing the camera reading \"KAVACH\", bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Kavach को safety का सबसे ऊँचा दर्जा, SIL-4, मिला है।"
+     "caption": "Kavach को safety का सबसे ऊँचा दर्जा, SIL-4, मिला है।",
+     "words": {
+      "99": {
+       "src": "c91ad4627243",
+       "items": [
+        {
+         "text": "KAVACH",
+         "grid": [
+          [
+           [
+            558.9,
+            396.9
+           ],
+           [
+            637.4,
+            396.9
+           ],
+           [
+            717.1,
+            396.9
+           ],
+           [
+            796.7,
+            396.9
+           ],
+           [
+            874.7,
+            396.9
+           ],
+           [
+            954.0,
+            396.9
+           ],
+           [
+            1033.1,
+            396.9
+           ]
+          ],
+          [
+           [
+            558.6,
+            462.2
+           ],
+           [
+            637.1,
+            462.2
+           ],
+           [
+            716.9,
+            462.2
+           ],
+           [
+            796.6,
+            462.2
+           ],
+           [
+            874.7,
+            462.2
+           ],
+           [
+            954.1,
+            462.2
+           ],
+           [
+            1033.3,
+            462.2
+           ]
+          ],
+          [
+           [
+            558.2,
+            527.6
+           ],
+           [
+            636.9,
+            527.6
+           ],
+           [
+            716.7,
+            527.6
+           ],
+           [
+            796.5,
+            527.6
+           ],
+           [
+            874.7,
+            527.6
+           ],
+           [
+            954.2,
+            527.6
+           ],
+           [
+            1033.5,
+            527.6
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           527,
+           299
+          ],
+          [
+           1065,
+           299
+          ],
+          [
+           1066,
+           628
+          ],
+          [
+           525,
+           630
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "ये अभी धीरे-धीरे देश के बड़े रूटों पर लगाया जा रहा है।",
@@ -810,7 +1826,133 @@
      "prompt": "The rear of a blue Indian train's last coach at dusk, a large yellow-and-white X painted on it, a blinking red tail lamp, a small flat board facing the camera reading \"LV\", sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अगली बार आख़िरी डिब्बा देखिए। उस पर बड़ा-सा X होगा, साथ में लाल बत्ती। इसी X को देखकर स्टेशन मास्टर पक्का करता है कि ट्रेन पूरी आई।"
+     "caption": "अगली बार आख़िरी डिब्बा देखिए। उस पर बड़ा-सा X होगा, साथ में लाल बत्ती। इसी X को देखकर स्टेशन मास्टर पक्का करता है कि ट्रेन पूरी आई।",
+     "words": {
+      "102": {
+       "src": "deb87e412e99",
+       "items": [
+        {
+         "text": "LV",
+         "grid": [
+          [
+           [
+            602.8,
+            482.1
+           ],
+           [
+            643.3,
+            481.9
+           ],
+           [
+            684.3,
+            481.9
+           ],
+           [
+            725.1,
+            482.2
+           ],
+           [
+            765.1,
+            482.9
+           ],
+           [
+            805.5,
+            483.8
+           ],
+           [
+            845.7,
+            485.0
+           ]
+          ],
+          [
+           [
+            602.8,
+            522.1
+           ],
+           [
+            643.3,
+            521.8
+           ],
+           [
+            684.3,
+            521.8
+           ],
+           [
+            725.1,
+            522.1
+           ],
+           [
+            765.1,
+            522.7
+           ],
+           [
+            805.5,
+            523.6
+           ],
+           [
+            845.7,
+            524.8
+           ]
+          ],
+          [
+           [
+            602.8,
+            562.1
+           ],
+           [
+            643.3,
+            561.7
+           ],
+           [
+            684.3,
+            561.7
+           ],
+           [
+            725.1,
+            562.0
+           ],
+           [
+            765.1,
+            562.6
+           ],
+           [
+            805.5,
+            563.4
+           ],
+           [
+            845.7,
+            564.6
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           586,
+           463
+          ],
+          [
+           862,
+           463
+          ],
+          [
+           862,
+           583
+          ],
+          [
+           586,
+           585
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "अगले एपिसोड में: ट्रेन के डिब्बों पर लिखे उन अजीब नंबरों का मतलब।",
@@ -845,5 +1987,43 @@
  "released_at": "2026-11-13 18:45",
  "voice_requested": "voice-gk-24-railway-signal-system-9ea233cb96",
  "voice_ok": "voice-gk-24-railway-signal-system-9ea233cb96",
- "voice_approved_at": "2026-11-13 21:00"
+ "voice_approved_at": "2026-11-13 21:00",
+ "repaint": {
+  "shots": [
+   19,
+   39,
+   66,
+   79,
+   80,
+   83,
+   97,
+   98
+  ],
+  "thumbs": [],
+  "at": "2026-11-13 21:45"
+ },
+ "shot_qc": {
+  "checked": "2026-11-13T14:32:29Z",
+  "rounds": 1,
+  "why": {
+   "19": "The big sign is painted gibberish (\"SRAR TANE\"), and the sheet shows no clear token being lifted from the machine.",
+   "39": "Shows a toy-like rail with bags and a box. It has no glowing current loop through a relay and no clear track-circuit scene.",
+   "66": "A big painted gibberish sign (\"LANOPTITK CARGE LERTISTY\") sits on the point machine, and the machine isn't clearly tied to the tongue rails.",
+   "79": "Not a top-down station yard. It's a cluttered desk-like scene with boxes and garbled painted lettering.",
+   "80": "The green label is gibberish, not 'खाली', and the scene is a platform interior rather than an aerial view of a track line.",
+   "97": "The two locomotives are on parallel tracks next to a platform, not face to face on the same single track.",
+   "98": "Only one locomotive is shown, but the line is about two approaching each other.",
+   "83": "The loco side has large painted gibberish lettering, and the picture doesn't show the 'all OK, signal opens' moment."
+  },
+  "recheck": [
+   "19",
+   "39",
+   "66",
+   "79",
+   "80",
+   "83",
+   "97",
+   "98"
+  ]
+ }
 }
