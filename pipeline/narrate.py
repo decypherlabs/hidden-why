@@ -137,6 +137,8 @@ def main(script_path, out_dir):
     from misaki.espeak import EspeakG2P
     tts = KPipeline(lang_code=v.get("lang_code", "e"), repo_id="hexgrad/Kokoro-82M")
     tts.g2p = EspeakG2P(language=v.get("lang", "en-gb"))
+    if tts.lang_code in ("a", "b"):  # lang_code a/b makes Kokoro tokenize misaki-English tokens, which EspeakG2P returns as None
+        tts.lang_code = "e"  # (the voice is picked by name, so only the phonemizer path changes)
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     durs = {}
