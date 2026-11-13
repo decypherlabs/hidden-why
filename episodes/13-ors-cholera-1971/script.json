@@ -78,10 +78,10 @@
     },
     {
      "vo": "It sits in pharmacies, school first-aid boxes, and village health centres across India. It costs a few rupees.",
-     "prompt": "Plain shelf in a small Indian village health centre holding neat rows of small plain white sachets and an open white first-aid box with bandages, whitewashed wall, bright daylight, wide shot",
+     "prompt": "A plain wooden shelf in a small Indian village health centre holding neat rows of small plain white sachets, an open white first-aid box with rolled bandages beside them, whitewashed wall, bright daylight, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8926
+     "seed": 16845
     },
     {
      "vo": "It looks so simple, so almost like a home remedy, that it's easy to believe it was always obvious.",
@@ -234,7 +234,7 @@
      "prompt": "Morning sun streaming into a tent, a thin man propped up on a mat sipping from a tin cup held by his wife, a steel drum with a ladle beside them, golden glow, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8950
+     "seed": 16869
     },
     {
      "vo": "People who had been slipping away began to sit up. Sunken eyes filled out. Children who had stopped crying began to cry again, and that was the best sound in the camp.",
@@ -436,36 +436,21 @@
  "build": "github",
  "repaint": {
   "shots": [
-   2,
-   3,
-   6,
    7,
-   10,
-   19,
    31
   ],
   "thumbs": [],
-  "at": "2026-11-14 00:03"
+  "at": "2026-11-14 04:02"
  },
  "shot_qc": {
-  "checked": "2026-11-06T20:53:16Z",
-  "rounds": 1,
+  "checked": "2026-11-13T18:57:36Z",
+  "rounds": 2,
   "why": {
-   "2": "Lettering is painted on the crate",
-   "3": "The ladle looks like a hammer or shovel head, and the drum looks like a basin",
-   "6": "Liquid is poured from a kettle. The line calls for powder from a torn sachet",
-   "7": "The sachets carry printed marks that read as text or labels",
-   "10": "A human torso is merged with intestine tentacles. The line asks for an anatomical intestine",
-   "19": "The cots are empty. The line says patients lie row after row",
-   "31": "The woman's face on the left is melted and distorted"
+   "7": "Painted-in text on the red-cross sign (\"LOUR PARE\") and on the shelf items.",
+   "31": "Painted-in lettering on the sack and bag beside the drum."
   },
   "recheck": [
-   "2",
-   "3",
-   "6",
    "7",
-   "10",
-   "19",
    "31"
   ]
  }
