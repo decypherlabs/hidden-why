@@ -34,15 +34,17 @@
     },
     {
      "vo": "The hospital saline was gone. The trucks couldn't bring more. And the doctor in charge made a call that every textbook called madness.",
-     "prompt": "Empty wooden crates of saline bottles in a dim tent, a tired Indian doctor in his thirties staring at them, 1971, lantern light, medium shot, no text, no logos",
+     "prompt": "Empty wooden crates with a few plain glass bottles lying among straw, in a dim canvas tent, a tired slim Indian doctor in his thirties, white shirt with rolled sleeves, dark hair, face in shadow, staring down at them from the right, lantern light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8921
     },
     {
      "vo": "He told people to drink. Salt, sugar, and water. If you've ever had an ORS packet, you've used his idea.",
-     "prompt": "Close-up of hands stirring a steel drum of cloudy water with a ladle, refugee camp, 1971, dim warm light, no text, no logos",
+     "prompt": "Two brown hands stirring a large steel drum of cloudy water with a long wooden-handled round steel ladle with a deep bowl, drum full to the brim, canvas tent, warm dim lantern light, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8922
     },
     {
      "vo": "But why would sugar fix a disease that drains your body in hours? The answer was hiding inside your own gut.",
@@ -69,15 +71,17 @@
     },
     {
      "vo": "You tore open a packet, stirred it into a glass, and held your nose. Nobody asked why it works.",
-     "prompt": "Close-up of a hand pouring white powder from a torn sachet into a steel glass of water, kitchen counter, soft daylight, no text, no brands",
+     "prompt": "A hand tearing open a small plain silver sachet and pouring white powder into a steel glass of water, powder streaming down in a visible stream, Indian kitchen counter, soft daylight, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8925
     },
     {
      "vo": "It sits in pharmacies, school first-aid boxes, and village health centres across India. It costs a few rupees.",
-     "prompt": "Shelf in a small Indian village health centre with neat rows of unlabelled white sachets and a worn first-aid box, warm daylight, wide shot, no text, no logos",
+     "prompt": "Plain shelf in a small Indian village health centre holding neat rows of small plain white sachets and an open white first-aid box with bandages, whitewashed wall, bright daylight, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8926
     },
     {
      "vo": "It looks so simple, so almost like a home remedy, that it's easy to believe it was always obvious.",
@@ -93,9 +97,10 @@
     },
     {
      "vo": "Cholera turns the gut into a tap. Healthy adults can lose litres of fluid in a day, sometimes a litre in an hour.",
-     "prompt": "Stylised anatomical painting of a human intestine with water streaming out like a burst pipe, dark blue palette, dramatic lighting, no text, no labels",
+     "prompt": "A realistic anatomical model of a human intestine, coiled pink tube, with a stream of clear water gushing from its open end like a burst pipe onto a table, dark blue studio background, dramatic light, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8929
     },
     {
      "vo": "Water by mouth alone could not keep up with that loss. The rescue anyone trusted was a needle, and a bottle of saline hanging from a hook.",
@@ -153,9 +158,10 @@
     },
     {
      "vo": "What he found was a nightmare. Patients lay on the ground, row after row. And the saline was running out fast.",
-     "prompt": "Rows of cholera cots in a large open tent hall, patients lying on canvas cots with holes cut in them, buckets beneath, 1971 Bengal, harsh overhead light, wide shot, no text",
+     "prompt": "Rows of patients lying on canvas cots with a hole cut in each, steel buckets beneath, long open tent hall, harsh overhead light, a nurse far off at the end, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8938
     },
     {
      "vo": "In the worst-hit places, deaths reached 20 to 30 percent, and that was with treatment where saline was available.",
@@ -225,9 +231,10 @@
     },
     {
      "vo": "But in the tents where the drums were running, something strange started to happen.",
-     "prompt": "Morning light entering a tent, a patient who was lying flat now propped up and sipping from a cup, subtle hope on faces, 1971, golden glow, no text",
+     "prompt": "Morning sun streaming into a tent, a thin man propped up on a mat sipping from a tin cup held by his wife, a steel drum with a ladle beside them, golden glow, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8950
     },
     {
      "vo": "People who had been slipping away began to sit up. Sunken eyes filled out. Children who had stopped crying began to cry again, and that was the best sound in the camp.",
@@ -426,5 +433,40 @@
   }
  ],
  "review_note": "11 Nov 2026: paint held; its Kaggle runs errored on every account (10-11 Nov), cause to find before it uses GPU again",
- "build": "github"
+ "build": "github",
+ "repaint": {
+  "shots": [
+   2,
+   3,
+   6,
+   7,
+   10,
+   19,
+   31
+  ],
+  "thumbs": [],
+  "at": "2026-11-14 00:03"
+ },
+ "shot_qc": {
+  "checked": "2026-11-06T20:53:16Z",
+  "rounds": 1,
+  "why": {
+   "2": "Lettering is painted on the crate",
+   "3": "The ladle looks like a hammer or shovel head, and the drum looks like a basin",
+   "6": "Liquid is poured from a kettle. The line calls for powder from a torn sachet",
+   "7": "The sachets carry printed marks that read as text or labels",
+   "10": "A human torso is merged with intestine tentacles. The line asks for an anatomical intestine",
+   "19": "The cots are empty. The line says patients lie row after row",
+   "31": "The woman's face on the left is melted and distorted"
+  },
+  "recheck": [
+   "2",
+   "3",
+   "6",
+   "7",
+   "10",
+   "19",
+   "31"
+  ]
+ }
 }
