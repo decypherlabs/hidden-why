@@ -698,14 +698,15 @@
     {
      "vo": "The 737 had first flown in 1967.",
      "kind": "photo",
-     "prompt": "a documentary photograph of the moment: The 737 had first flown in 1967.",
+     "prompt": "muted 35mm documentary photograph of an early 1960s-era narrow-body twin-engine jet airliner prototype parked alone on a grey airfield apron at dawn, seen from the front three-quarter angle, one accent colour: orange ground cone beside the nose wheel, no people, no readable text, no numbers, no digits, no dates, no captions, no logos, no signs or lettering on any storefront, screen, package or aircraft fuselage",
      "photo": {
       "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Lufthansa_Boeing_737-100%3B_D-ABEB%2C_April_1980_CAT_%285884282880%29.jpg/1920px-Lufthansa_Boeing_737-100%3B_D-ABEB%2C_April_1980_CAT_%285884282880%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "w": 4308,
       "h": 2950,
       "credit": "Lufthansa Boeing 737-100; D-ABEB, April 1980 CAT (5884282880).jpg by Aero Icarus from Zürich, Switzerland, CC BY-SA 2.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Lufthansa_Boeing_737-100;_D-ABEB,_April_1980_CAT_(5884282880).jpg"
-     }
+     },
+     "seed": 8963
     },
     {
      "vo": "The new engines were bigger, so they sat further forward and higher on the wing.",
@@ -1093,13 +1094,16 @@
  "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
  "repaint": {
   "shots": [
-   15,
-   53,
-   61,
-   64,
-   71
+   44
   ],
   "thumbs": [],
-  "at": "2026-11-13 22:44"
- }
+  "at": "2026-11-14 00:14"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   44
+  ]
+ },
+ "auto_regen": 1
 }
