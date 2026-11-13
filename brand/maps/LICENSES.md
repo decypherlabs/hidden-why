@@ -6,3 +6,5 @@
   (https://naturalearth.s3.amazonaws.com/50m_raster/NE1_50M_SR_W.zip). Licence: public domain, no attribution required
   (https://www.naturalearthdata.com/about/terms-of-use/). Equirectangular, WGS84, 1/30 degree per pixel.
 - It is graded at load time by `kit/maps.py` and `MapShot` in `pipeline/build.py` (MAPS_TERRAIN=0 turns the terrain off).
+
+- places.json: Natural Earth 1:50m populated places and marine polygons (public domain, naturalearthdata.com), city and sea label points.

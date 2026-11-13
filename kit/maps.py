@@ -20,6 +20,8 @@ W, H = 1920, 1080
 OCEAN, LAND, BONE, ORANGE, STEEL = (14, 19, 23), (38, 45, 52), (216, 210, 196), (240, 138, 36), (79, 127, 166)
 RED = (226, 58, 46)
 WORLD = json.loads((REPO / "brand" / "maps" / "world.json").read_text())
+_PL = REPO / "brand" / "maps" / "places.json"  # Natural Earth cities and seas (public domain): the map's other names
+PLACES = json.loads(_PL.read_text()) if _PL.exists() else {"cities": [], "seas": []}
 for c in WORLD["countries"]:
     a = np.concatenate([np.array(r) for r in c["rings"]])
     c["bbox"] = (a[:, 0].min(), a[:, 1].min(), a[:, 0].max(), a[:, 1].max())
@@ -28,7 +30,15 @@ _F = {}
 # Satellite/terrain base (12 Nov 2026): Natural Earth NE1_50M_SR_W (public domain, 10800x5400, brand/maps/LICENSES.md),
 # graded for legibility and sampled with the same projection as the outlines. TERRAIN = False (or MAPS_TERRAIN=0)
 # brings back the flat slate drawing.
-TERRAIN = os.environ.get("MAPS_TERRAIN", "1") != "0"
+TERRAIN = os.environ.get("MAPS_TERRAIN", "1") != "0"  # the modern look: plates, motion, pins (any style below)
+# the base under it (owner, 13 Nov 2026: "the first image is better... make it realistic - real color - blue for water"):
+# "terrain" = the shaded-relief raster; "atlas" / "natural" / "light" = the crisp drawn map in real colours
+STYLE = os.environ.get("MAPS_STYLE", "atlas")
+PALETTES = {  # RGB: ocean, land, coast line, border line, focus, neighbour
+    "atlas": ((70, 136, 190), (234, 224, 196), (52, 98, 140), (255, 255, 255), (232, 96, 44), (120, 160, 200)),
+    "natural": ((46, 102, 160), (190, 210, 160), (34, 74, 118), (250, 250, 240), (226, 88, 52), (232, 200, 120)),
+    "light": ((158, 198, 226), (246, 243, 236), (110, 150, 180), (170, 170, 170), (214, 48, 40), (120, 150, 190)),
+}
 _TER = []
 
 
@@ -129,6 +139,25 @@ def base(lat0, lon0, span, focus=(), fill=1.0):
     hw, hh = W / (2 * k * cosl) + 2, H / (2 * k) + 2
     vis = lambda b: not (b[2] < lon0 - hw or b[0] > lon0 + hw or b[3] < lat0 - hh or b[1] > lat0 + hh)
     shown = [c for c in WORLD["countries"] if vis(c["bbox"])]
+    if TERRAIN and STYLE in PALETTES:  # crisp drawn map in real colours, sharp at any zoom
+        ocean, land, coast, border, foc, nb = PALETTES[STYLE]
+        img = np.zeros((H, W, 3), np.uint8)
+        img[:] = ocean
+        for c in shown:  # each country a touch lighter or darker, like an atlas
+            j = (sum(map(ord, c["iso"])) % 7 - 3) * 3
+            cv2.fillPoly(img, [pts(r) for r in c["rings"]], tuple(int(np.clip(v + j, 0, 255)) for v in land), cv2.LINE_AA, shift=2)
+        if focus and fill > 0:
+            layer = img.copy()
+            for c in shown:
+                if c["iso"] in focus:
+                    cv2.fillPoly(layer, [pts(r) for r in c["rings"]], foc if c["iso"] == focus[0] else nb, cv2.LINE_AA, shift=2)
+            img = cv2.addWeighted(layer, 0.62 * fill, img, 1 - 0.62 * fill, 0)
+        for c in shown:  # the coast a darker blue, the borders a fine light line
+            cv2.polylines(img, [pts(r) for r in c["rings"]], True, coast, 2, cv2.LINE_AA, shift=2)
+        layer = img.copy()
+        for c in shown:
+            cv2.polylines(layer, [pts(r) for r in c["rings"]], True, border, 1, cv2.LINE_AA, shift=2)
+        return cv2.addWeighted(layer, 0.7, img, 0.3, 0), P
     if TERRAIN:
         img = terrain(lat0, lon0, span, cosl)
         if focus and fill > 0:
@@ -225,6 +254,9 @@ def _country_spots(shown, P, focus, limit=12):
 
 def frame(spec, t, dur, i=0):
     places = [p for p in spec.get("places") or [] if isinstance(p.get("lat"), (int, float)) and isinstance(p.get("lon"), (int, float))]
+    if TERRAIN:  # a whole country is shown by its fill and its name, not a pin in its middle (13 Nov 2026)
+        _cn = {c["name"].upper() for c in WORLD["countries"]}
+        places = [p for p in places if str(p.get("name", "")).upper() not in _cn] or places[:1]
     lat0, lon0 = (spec.get("center") or [places[0]["lat"], places[0]["lon"]] if places else [20, 0])[:2]
     span = float(spec.get("span") or 20)
     action = spec.get("action") or "locate"
@@ -307,9 +339,10 @@ def frame(spec, t, dur, i=0):
         # names: the story's places first (next to their markers), then the focus countries, then the biggest neighbours
         fP, fC = inter(30), inter(24)
         if reveal > 0:
+            cnames = {c["name"].upper() for c in WORLD["countries"]}
             for q, p in list(zip(pts, places))[:6]:
                 text = str(p.get("name", "")).upper()
-                if not text:
+                if not text or text in cnames:  # a country is named by the country labels (13 Nov 2026: IRAN twice)
                     continue
                 w, h = _tw(d, text, fP) + 22, fP.size + 14
                 cands = [(q[0] + 30, q[1] - h / 2), (q[0] - 30 - w, q[1] - h / 2), (q[0] - w / 2, q[1] - 34 - h), (q[0] - w / 2, q[1] + 34),
@@ -338,6 +371,46 @@ def frame(spec, t, dur, i=0):
                     if 10 < x and x + w < W - 10 and 10 < y and y + h < H - 10 and not _hit(r, taken) and w < mx * 8 * 1.9 + 60:
                         _plate(d, x, y, text, f, ca * (1.0 if isfocus else 0.85))
                         taken.append(r)
+                        break
+        # the other names in view (owner, 13 Nov 2026: "if the major areas visible are also mapped"): seas and gulfs on
+        # the water, then the biggest cities, as many as the zoom allows and never over another label
+        na = ease((t - 1.4) / 0.8)
+        if na > 0:
+            hwd, hhd = W / (2 * (H / span_now) * np.cos(np.radians(lat0))), span_now / 2
+            inview = lambda x: abs(x["lon"] - lon0) < hwd * 0.92 and abs(x["lat"] - lat0) < hhd * 0.9
+            told = {str(p.get("name", "")).upper() for p in places}
+            sea_rank = 1 if span_now > 60 else 3 if span_now > 20 else 6
+            for sea in sorted((x for x in PLACES["seas"] if inview(x) and x["rank"] <= sea_rank), key=lambda x: x["rank"])[:4]:
+                text = sea["name"].upper()
+                if text in told:
+                    continue
+                f = inter(26 if span_now > 20 else 22)
+                x0s, y0s = P(sea["lon"], sea["lat"])
+                w = _tw(d, text, f) + 10
+                for dx, dy in ((0, 0), (0, 40), (0, -40), (60, 20), (-60, 20), (0, 80), (0, -80), (90, 0), (-90, 0)):
+                    x, y = x0s + dx, y0s + dy
+                    r = (x - w / 2 - 6, y - 18, x + w / 2 + 6, y + 18)
+                    if 10 < r[0] and r[2] < W - 10 and 10 < r[1] and r[3] < H - 10 and not _hit(r, taken):
+                        _spaced(d, (x - w / 2, y - 14), text, f, (230, 240, 250), na * 0.85, track=0.18)
+                        taken.append(r)
+                        break
+            city_rank = 2 if span_now > 60 else 4 if span_now > 25 else 6 if span_now > 10 else 8
+            cities = sorted((x for x in PLACES["cities"] if inview(x) and x["rank"] <= city_rank and x["name"].upper() not in told),
+                            key=lambda x: (not x["capital"], x["rank"], -x["pop"]))
+            fc, n_c = inter(20), 0
+            for cty in cities:
+                if n_c >= 8:
+                    break
+                x, y = P(cty["lon"], cty["lat"])
+                text = cty["name"].upper()
+                w, h = _tw(d, text, fc) + 18, fc.size + 10
+                for lx, ly in ((x + 12, y - h / 2), (x - 12 - w, y - h / 2), (x - w / 2, y - h - 12), (x - w / 2, y + 12)):
+                    r = (min(lx, x - 8) - 4, min(ly, y - 8) - 4, max(lx + w, x + 8) + 4, max(ly + h, y + 8) + 4)
+                    if 10 < r[0] and r[2] < W - 10 and 10 < r[1] and r[3] < H - 10 and not _hit(r, taken):
+                        d.ellipse((x - 6, y - 6, x + 6, y + 6), fill=(255, 255, 255, int(255 * na)), outline=(20, 20, 20, int(255 * na)), width=2)
+                        _plate(d, lx, ly, text, fc, na * 0.9)
+                        taken.append(r)
+                        n_c += 1
                         break
     elif reveal > 0:
         for q, p in list(zip(pts, places))[:6]:
