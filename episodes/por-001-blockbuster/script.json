@@ -2,7 +2,6 @@
  "slug": "por-001-blockbuster",
  "channel": "Point of Ruin",
  "format": "long",
- "build": "kit",
  "lang": "en",
  "voice": "am_adam",
  "title": "Blockbuster, the $50 Million Netflix Offer, and the Fight After",
@@ -257,9 +256,8 @@
    "shots": [
     {
      "vo": "Bend, Oregon. The last Blockbuster store on Earth.",
-     "kind": "footage",
-     "search": "small town video store night",
-     "plate": "Bend, Oregon, 2019"
+     "kind": "still",
+     "prompt": "A small-town video rental store on a street in Bend, Oregon at night, glowing sign-less storefront windows, a lone figure seen from behind on the sidewalk, no logos, no readable text"
     },
     {
      "vo": "In September 2010, Blockbuster filed for bankruptcy, owing about 1.46 billion dollars.",
@@ -295,9 +293,8 @@
     },
     {
      "vo": "The real ruin ran through late fees, debt and a boardroom fight.",
-     "kind": "footage",
-     "search": "video store return slot",
-     "plate": ""
+     "kind": "still",
+     "prompt": "Documentary still, painted: a dim back office at night, a desk piled with unpaid invoices and a stack of overdue notices. Around a long boardroom table, silhouetted executives in suits argue, seen from behind. Cold overhead light, no logos, no readable text."
     }
    ]
   },
@@ -307,15 +304,13 @@
    "shots": [
     {
      "vo": "Blockbuster opened its first store in Dallas in 1985.",
-     "kind": "archive",
-     "search": "1980s video rental store interior",
-     "plate": "Dallas, 1985"
+     "kind": "still",
+     "prompt": "Exterior of a new 1985 video rental store in Dallas at dusk, bright windows, a few customers in silhouette entering, period cars in the lot, no logos, no readable text"
     },
     {
      "vo": "Big, bright stores, walls of tapes, open late. It spread fast, store by store.",
-     "kind": "footage",
-     "search": "vhs tapes rental shelves",
-     "plate": ""
+     "kind": "still",
+     "prompt": "Documentary still, painted: a 1990s video rental store at dusk, seen from the street. Bright glowing windows, wall-to-wall shelves of video tapes inside, a few silhouetted customers browsing from behind, an open-late glow on the pavement. Blank signage, no logos, no readable text."
     },
     {
      "vo": "In 1994, the media group Viacom agreed to buy it for 8.4 billion dollars.",
@@ -347,9 +342,8 @@
     },
     {
      "vo": "Its business ran on a simple rule: bring the tape back by the due date.",
-     "kind": "footage",
-     "search": "dvd rental counter returns",
-     "plate": ""
+     "kind": "still",
+     "prompt": "Documentary still, painted: a customer seen from behind at a rental store counter, handing a video cassette back to a clerk in silhouette. A wall calendar with no readable numbers hangs behind the counter. Warm 1990s interior, no logos, no readable text."
     },
     {
      "vo": "Miss it, and you paid a late fee on top of the rental.",
@@ -358,33 +352,31 @@
     },
     {
      "vo": "In 1997, a small California start-up called Netflix set out to rent films by mail.",
-     "kind": "footage",
-     "search": "red envelope dvd mail",
-     "plate": "California, 1997"
+     "kind": "still",
+     "prompt": "1997 small California start-up office, two people seen from behind at desks with a computer and stacks of paper envelopes holding discs, period-accurate, no logos, no readable text"
     },
     {
      "vo": "Co-founder Reed Hastings has said a forty-dollar late fee for Apollo 13 gave him the idea.",
-     "kind": "footage",
-     "search": "vhs tape on kitchen table",
-     "plate": ""
+     "kind": "still",
+     "prompt": "A man seen from behind at a kitchen table at night, a VHS tape in front of him and a bill beside it, 1990s home interior, no logos, no readable text"
     },
     {
      "vo": "His co-founder, Marc Randolph, wrote in 2019 that this is not how Netflix really began.",
-     "kind": "footage",
-     "search": "old book pages turning",
-     "plate": ""
+     "kind": "document",
+     "document": {
+      "title": "Marc Randolph, 2019 book on Netflix's founding",
+      "highlight": "this is not how Netflix really began"
+     }
     },
     {
      "vo": "Either way, in 1999 Netflix moved to a monthly subscription: no due dates, no late fees.",
-     "kind": "footage",
-     "search": "dvd sorting warehouse conveyor",
-     "plate": ""
+     "kind": "still",
+     "prompt": "Documentary still, painted: a 1999 living room at evening. A person seen from behind sits on a sofa facing a CRT television, a red DVD mailer on the coffee table, no clock and no calendar in view. Calm, free feeling, no logos, no readable text."
     },
     {
      "vo": "But by 2000, Netflix was running out of money. So it flew to Dallas.",
-     "kind": "footage",
-     "search": "airplane landing texas runway",
-     "plate": "Dallas, 2000"
+     "kind": "still",
+     "prompt": "Documentary still, painted: a small startup founder seen in silhouette from behind, standing at the window of a passenger jet, looking at a flat Texas city skyline at dusk, a worn briefcase on the seat beside them. Tense, tired mood, no logos, no readable text."
     }
    ]
   },
@@ -394,9 +386,11 @@
    "shots": [
     {
      "vo": "In 2000, the dot-com bubble burst. Investors stopped funding internet companies that lost money.",
-     "kind": "archive",
-     "search": "stock market ticker 2000 crash",
-     "plate": "2000"
+     "kind": "headline",
+     "headline": {
+      "date": "2000",
+      "text": "The dot-com bubble bursts; investors stop funding money-losing internet companies"
+     }
     },
     {
      "vo": "Netflix lost 57 million dollars that year, on revenue of about 36 million.",
@@ -410,15 +404,33 @@
     },
     {
      "vo": "It had about 292,000 subscribers.",
-     "kind": "footage",
-     "search": "dvd mailers stacked post office",
-     "plate": ""
+     "kind": "stat",
+     "stat": {
+      "value": 292000,
+      "prefix": "",
+      "suffix": "",
+      "label": "Netflix subscribers in 2000"
+     }
     },
     {
      "vo": "Hastings, Randolph and their finance chief went to Blockbuster's headquarters in Dallas.",
-     "kind": "footage",
-     "search": "dallas downtown skyscrapers",
-     "plate": "Dallas, 2000"
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       32.7767,
+       -96.797
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Dallas",
+        "lat": 32.7767,
+        "lon": -96.797
+       }
+      ],
+      "label": "Blockbuster headquarters, Dallas"
+     }
     },
     {
      "vo": "Across the table sat Blockbuster's chief executive, John Antioco, and his general counsel.",
@@ -432,9 +444,8 @@
     },
     {
      "vo": "Blockbuster, in return, would promote Netflix inside its thousands of stores.",
-     "kind": "footage",
-     "search": "busy video rental store aisle",
-     "plate": ""
+     "kind": "still",
+     "prompt": "Inside a busy early-2000s video rental store, a Netflix promotion idea shown as a customer in silhouette browsing a wall of tapes and discs, wide shot, no logos, no readable text"
     },
     {
      "vo": "Asked for a price, Hastings said fifty million dollars.",
@@ -457,15 +468,13 @@
     },
     {
      "vo": "The meeting ended there. The founders flew home without a deal.",
-     "kind": "footage",
-     "search": "empty office elevator lobby",
-     "plate": ""
+     "kind": "still",
+     "prompt": "Three businessmen seen from behind walking out of a glass corporate lobby in Dallas toward a waiting car, year 2000, muted light, no logos, no readable text"
     },
     {
      "vo": "Most of what is known about that room comes from Netflix's side of the table.",
-     "kind": "footage",
-     "search": "closed office door corridor",
-     "plate": ""
+     "kind": "still",
+     "prompt": "A closed conference room door at the end of a corporate corridor, year 2000, thin light under the door, one figure in silhouette waiting outside, no logos, no readable text"
     },
     {
      "vo": "From Blockbuster's chair, the no had reasons. It took in about five billion dollars in 2000.",
@@ -479,9 +488,13 @@
     },
     {
      "vo": "The asking price was about one percent of that, for a company losing money in a market that had stopped forgiving losses.",
-     "kind": "footage",
-     "search": "stock market newspaper pages",
-     "plate": ""
+     "kind": "stat",
+     "stat": {
+      "value": 1,
+      "prefix": "about ",
+      "suffix": "%",
+      "label": "the asking price, as a share of Blockbuster's revenue"
+     }
     },
     {
      "vo": "Blockbuster also had its own plan for the internet: a twenty-year movies-on-demand deal with Enron.",
@@ -501,9 +514,11 @@
     },
     {
      "vo": "Netflix survived. In May 2002, it went public.",
-     "kind": "footage",
-     "search": "stock exchange trading floor",
-     "plate": "New York, 2002"
+     "kind": "headline",
+     "headline": {
+      "date": "May 2002",
+      "text": "Netflix goes public"
+     }
     },
     {
      "vo": "By the end of 2004, it had about 2.6 million subscribers. The start-up Blockbuster had laughed at was now a rival.",
@@ -517,9 +532,8 @@
     },
     {
      "vo": "And Blockbuster was about to make a far bigger decision than the one in 2000.",
-     "kind": "footage",
-     "search": "corporate office window city view",
-     "plate": ""
+     "kind": "still",
+     "prompt": "A corporate executive in silhouette at a high office window looking over a city skyline at dusk, mid-2000s, no logos, no readable text"
     }
    ]
   },
@@ -547,15 +561,13 @@
     },
     {
      "vo": "Viacom, the majority shareholder, received most of it.",
-     "kind": "footage",
-     "search": "stacks of banknotes counting",
-     "plate": ""
+     "kind": "still",
+     "prompt": "Documentary still, painted: a large corporate boardroom, silhouetted executives seen from behind, a huge stack of cash bundles pushed across the long table toward the shadowed figures on one side. Heavy dramatic light, no logos, no readable text."
     },
     {
      "vo": "Blockbuster borrowed to pay it. The cash left. The debt stayed.",
-     "kind": "footage",
-     "search": "bank vault door closing",
-     "plate": ""
+     "kind": "still",
+     "prompt": "Documentary still, painted: an empty corporate vault, its door open, bare shelves, a single heavy ledger on the floor weighed down by chains. A lone silhouetted figure stands in the doorway, seen from behind. Cold blue light, no logos, no readable text."
     },
     {
      "vo": "So whatever Blockbuster chose next, it would choose as a company in debt.",
@@ -574,21 +586,18 @@
     },
     {
      "vo": "Blockbuster had two paths.",
-     "kind": "footage",
-     "search": "video store aisle fluorescent lights",
-     "plate": ""
+     "kind": "still",
+     "prompt": "A fork in the road inside a video store: two aisles under fluorescent lights diverging, a lone executive seen from behind at the split, no logos, no readable text"
     },
     {
      "vo": "One: keep the late fees, keep the stores as they were, and collect the cash while it lasted.",
-     "kind": "footage",
-     "search": "cash register drawer opening",
-     "plate": ""
+     "kind": "still",
+     "prompt": "Documentary still, painted: a row of video rental stores on a high street at dusk, unchanged and glowing. A silhouetted executive stands in the foreground seen from behind, holding a fan of cash. A late-fee stack of cassettes sits on a counter in the window. No logos, no readable text."
     },
     {
      "vo": "Two: give up fee income, and spend to beat Netflix at its own game, by mail.",
-     "kind": "footage",
-     "search": "pile of mail envelopes",
-     "plate": ""
+     "kind": "still",
+     "prompt": "A DVD-by-mail envelope slipping into a red-toned mailbox on a quiet suburban street at dusk, shot from behind a person walking away, no logos, no readable text"
     },
     {
      "vo": "The first kept cash flowing to the lenders. The second went after the customers Netflix was taking.",
@@ -602,9 +611,11 @@
     },
     {
      "vo": "The first was online. In 2004, Blockbuster launched its own rental-by-mail service.",
-     "kind": "footage",
-     "search": "dvd envelopes mail sorting",
-     "plate": "2004"
+     "kind": "headline",
+     "headline": {
+      "date": "2004",
+      "text": "Blockbuster launches its own rental-by-mail service"
+     }
     },
     {
      "vo": "The second struck at its own model: from January 2005, no more late fees on rentals.",
@@ -616,21 +627,29 @@
     },
     {
      "vo": "Keep a film a week past due, and you were charged its price, minus the rental.",
-     "kind": "footage",
-     "search": "cash register receipt printing",
-     "plate": ""
+     "kind": "still",
+     "prompt": "A stack of DVD cases on a living-room coffee table beside a calendar and a hand holding a few dollar bills, seen over the shoulder of a person in silhouette, no logos, no readable text"
     },
     {
      "vo": "The promise drew lawsuits over the advertising. Blockbuster settled with 47 states for about 630,000 dollars.",
-     "kind": "footage",
-     "search": "state courthouse exterior steps",
-     "plate": "2005"
+     "kind": "stat",
+     "stat": {
+      "value": 630000,
+      "prefix": "$",
+      "suffix": "",
+      "label": "settlement with 47 states over advertising"
+     }
     },
     {
      "vo": "Then the boardroom changed.",
      "kind": "footage",
      "search": "empty boardroom leather chairs",
-     "plate": ""
+     "plate": "",
+     "clip": {
+      "id": 1191,
+      "tags": "conference room, furniture, modern, equipment, conference, business, chair, table, interior, boardroom, workplace, board, contemporary, elegant, meetings, place, room, empty, 133411649",
+      "page": "https://pixabay.com/videos/id-1191/"
+     }
     },
     {
      "vo": "In May 2005, Carl Icahn, a major shareholder, won three board seats in a proxy fight.",
@@ -664,9 +683,8 @@
     },
     {
      "vo": "For the first time, the stores were a weapon against Netflix, not just a cost.",
-     "kind": "footage",
-     "search": "suburban video store exterior evening",
-     "plate": ""
+     "kind": "still",
+     "prompt": "An empty video-rental store at dusk seen through the glass front, rows of DVD shelves lit warmly, a lone figure in silhouette standing at the door from behind, no logos, no readable text"
     },
     {
      "vo": "Blockbuster said its online service passed two million subscribers in early 2007.",
@@ -680,9 +698,13 @@
     },
     {
      "vo": "Netflix was still ahead. It had ended 2006 with about 6.3 million.",
-     "kind": "footage",
-     "search": "warehouse shelves of dvd mailers",
-     "plate": ""
+     "kind": "stat",
+     "stat": {
+      "value": 6.3,
+      "prefix": "",
+      "suffix": " million",
+      "label": "Netflix subscribers at the end of 2006"
+     }
     },
     {
      "vo": "Antioco later put the total price at about 400 million dollars: 200 million in lost late fees, 200 million to build online.",
@@ -715,9 +737,8 @@
    "shots": [
     {
      "vo": "In Antioco's account, the board fought him over the spending, and over his pay.",
-     "kind": "footage",
-     "search": "boardroom table closed door",
-     "plate": ""
+     "kind": "still",
+     "prompt": "A tense boardroom in the mid-2000s, a lone executive standing at the head of the table seen from behind while directors sit in silhouette, no logos, no readable text"
     },
     {
      "vo": "In 2007, Antioco left. The board chose Jim Keyes, a former chief executive of 7-Eleven.",
@@ -729,9 +750,11 @@
     },
     {
      "vo": "According to Gina Keating's book Netflixed, Total Access prices then rose and its marketing was cut.",
-     "kind": "footage",
-     "search": "price tag sticker gun",
-     "plate": ""
+     "kind": "document",
+     "document": {
+      "title": "Netflixed, by Gina Keating",
+      "highlight": "Total Access prices then rose and its marketing was cut"
+     }
     },
     {
      "vo": "With Total Access cut back, the rivals had the field to themselves.",
@@ -748,15 +771,13 @@
     },
     {
      "vo": "Outside supermarkets, Redbox kiosks rented DVDs for one dollar a night.",
-     "kind": "footage",
-     "search": "dvd rental kiosk supermarket",
-     "plate": ""
+     "kind": "still",
+     "prompt": "A freestanding self-service DVD rental kiosk with a glowing screen outside a supermarket entrance at dusk, a shopper seen only from behind, no logos, no readable text"
     },
     {
      "vo": "With revenue still below its 2004 level, Keyes looked for growth elsewhere.",
-     "kind": "footage",
-     "search": "shopping mall electronics store",
-     "plate": ""
+     "kind": "still",
+     "prompt": "A lone executive in silhouette from behind at a tall office window, looking out over a city skyline at dusk, a downward-sloping paper chart on the desk, no logos, no readable text"
     },
     {
      "vo": "In April 2008, Blockbuster bid about a billion dollars for the electronics chain Circuit City.",
@@ -768,9 +789,8 @@
     },
     {
      "vo": "It walked away in July.",
-     "kind": "footage",
-     "search": "electronics store closing sale",
-     "plate": "2008"
+     "kind": "still",
+     "prompt": "A man in silhouette from behind walking out through a large glass office door into bright summer light, an empty conference table behind him, no logos, no readable text"
     },
     {
      "vo": "That December, Keyes was asked about Netflix and Redbox. His answer, word for word:",
@@ -820,9 +840,13 @@
     },
     {
      "vo": "In 2009 alone, more than a billion dollars of revenue was gone.",
-     "kind": "footage",
-     "search": "empty shopping plaza parking lot",
-     "plate": ""
+     "kind": "stat",
+     "stat": {
+      "value": 1,
+      "prefix": "more than $",
+      "suffix": " billion",
+      "label": "revenue lost in 2009 alone"
+     }
     },
     {
      "vo": "That September, Blockbuster said it would close up to 960 stores.",
@@ -860,9 +884,11 @@
     },
     {
      "vo": "On September 23, 2010, Blockbuster filed for Chapter 11.",
-     "kind": "footage",
-     "search": "federal courthouse exterior new york",
-     "plate": "New York, 2010"
+     "kind": "headline",
+     "headline": {
+      "date": "September 23, 2010",
+      "text": "Blockbuster files for Chapter 11"
+     }
     },
     {
      "vo": "It listed about 1.46 billion dollars in liabilities. Who would pay anything for what was left?",
@@ -900,9 +926,13 @@
     },
     {
      "vo": "That is less than the 400 million Antioco said he spent trying to compete.",
-     "kind": "footage",
-     "search": "auction gavel striking block",
-     "plate": ""
+     "kind": "stat",
+     "stat": {
+      "value": 400,
+      "prefix": "$",
+      "suffix": " million",
+      "label": "what Antioco said he spent trying to compete"
+     }
     },
     {
      "vo": "In November 2013, Dish said it would close its last 300 company-owned stores, affecting about 2,800 jobs.",
@@ -914,9 +944,23 @@
     },
     {
      "vo": "A few franchise stores held on, one by one, until they too closed.",
-     "kind": "footage",
-     "search": "Bend Oregon downtown street",
-     "plate": "Bend, Oregon"
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       44.0582,
+       -121.3153
+      ],
+      "span": 4,
+      "places": [
+       {
+        "name": "Bend, Oregon",
+        "lat": 44.0582,
+        "lon": -121.3153
+       }
+      ],
+      "label": "Bend, Oregon"
+     }
     },
     {
      "vo": "In 2019, after a store in Australia shut, the one in Bend, Oregon, became the last.",
@@ -952,21 +996,23 @@
     },
     {
      "vo": "Both accounts are on the record. Neither man's version is the whole story.",
-     "kind": "footage",
-     "search": "archive filing cabinet drawers",
-     "plate": ""
+     "kind": "still",
+     "prompt": "Two empty chairs facing each other across a bare table in a dim room, a single lamp between them, papers scattered on the table, no people, no logos, no readable text"
     },
     {
      "vo": "The 2000 offer was about one percent of Blockbuster's revenue that year.",
-     "kind": "footage",
-     "search": "calculator receipts on desk",
-     "plate": ""
+     "kind": "stat",
+     "stat": {
+      "value": 1,
+      "prefix": "about ",
+      "suffix": "%",
+      "label": "the 2000 offer, as a share of Blockbuster's revenue that year"
+     }
     },
     {
      "vo": "The real price came later: in fees given up, in borrowed money, and in a fight it stopped funding.",
-     "kind": "footage",
-     "search": "abandoned video store shelves",
-     "plate": ""
+     "kind": "still",
+     "prompt": "Cinematic documentary still, a lone person seen from behind sitting at a kitchen table at night, lit by a single lamp, with an unopened stack of envelopes and a calculator in front of them, a half-empty ledger beside it, and a dark window behind. Muted, somber tones. No logos, no readable text."
     }
    ]
   },
@@ -981,14 +1027,50 @@
     },
     {
      "vo": "Next: Kodak, and the digital camera its own engineer built in 1975.",
-     "kind": "archive",
-     "search": "1970s camera laboratory workbench",
-     "plate": "Rochester, 1975"
+     "kind": "still",
+     "prompt": "A 1970s engineering laboratory workbench with a bulky early digital camera prototype, wires and a small monitor, an engineer seen from behind, no logos, no readable text"
     }
    ]
   }
  ],
+ "replanned": true,
+ "visuals_checked": true,
+ "build": "kit",
  "approved": true,
  "review": "auto",
- "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos"
+ "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos",
+ "repaint": {
+  "shots": [
+   1,
+   6,
+   7,
+   8,
+   12,
+   14,
+   15,
+   17,
+   18,
+   25,
+   28,
+   29,
+   36,
+   39,
+   40,
+   43,
+   44,
+   45,
+   50,
+   57,
+   63,
+   68,
+   69,
+   71,
+   90,
+   92,
+   94
+  ],
+  "thumbs": [],
+  "at": "2026-11-13 14:26",
+  "by": "visual check"
+ }
 }
