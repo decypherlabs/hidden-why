@@ -9,6 +9,7 @@ pan over the painting (supersampled 2x, no shimmer), 0.4 s dissolves. Music by s
 in brand/music), kept low under the voice. Ends on a 6 s end screen (logo) for YouTube's end elements.
 """
 import json
+import os
 import subprocess
 import sys
 import re
@@ -27,7 +28,7 @@ import words  # noqa: E402
 
 W, H, FPS, SR = 1920, 1080, 30, 48000
 XF = 0.4  # dissolve seconds
-BREATH = 0.45
+BREATH = float(K.B.get("breath", 0.45))  # air after each line; brand.json "breath" (The Hidden Why 0.25, 13 Nov 2026 voice review)
 
 
 def bgr(img):
@@ -725,6 +726,61 @@ def subject(img):
 _WORLD = {}
 
 
+MAP_TERRAIN = os.environ.get("MAPS_TERRAIN", "1") != "0"  # real satellite/terrain base under MapShot; 0 = the flat drawing
+_MAP_TER = []
+
+
+def _map_grade(im):
+    """Natural Earth's relief is pale: more colour and contrast on land, a deeper blue sea, so labels and fills read."""
+    for y in range(0, im.shape[0], 540):
+        f = im[y:y + 540].astype(np.float32) / 255
+        r, b = f[..., 0], f[..., 2]  # RGB
+        sea = np.clip((b - r - 0.05) / 0.10, 0, 1)[..., None]
+        gray = f.mean(2, keepdims=True)
+        land = np.clip(((gray + (f - gray) * 1.55) - 0.5) * 1.25 + 0.5 - 0.08, 0, 1) ** 1.05 * np.array([0.90, 0.89, 0.78], np.float32)
+        deep = np.clip((gray + (f - gray) * 1.3) * np.array([0.38, 0.58, 0.78], np.float32), 0, 1)
+        im[y:y + 540] = (np.clip(land * (1 - sea) + deep * sea, 0, 1) * 255 + 0.5).astype(np.uint8)
+
+
+def _map_terrain_levels():
+    if not _MAP_TER:
+        im = cv2.cvtColor(cv2.imread(str(K.HERE / "maps" / "terrain_10800.jpg")), cv2.COLOR_BGR2RGB)
+        _map_grade(im)
+        _MAP_TER.append(im)
+        for _ in range(3):
+            im = cv2.resize(im, (im.shape[1] // 2, im.shape[0] // 2), interpolation=cv2.INTER_AREA)
+            _MAP_TER.append(im)
+    return _MAP_TER
+
+
+_MAP_GR = []
+
+
+def _map_grain():
+    if not _MAP_GR:
+        _MAP_GR.append(np.random.RandomState(7).randint(0, 7, (H, W, 1), np.uint8).repeat(3, 2))
+    return _MAP_GR[0]
+
+
+def map_terrain(lat0, lon0, span, cosl=None, cy=None):
+    """The raster under the view (W x H, RGB): a pure affine sample, lon/lat -> pixel is linear in this projection."""
+    lv = _map_terrain_levels()
+    cosl = np.cos(np.radians(lat0)) if cosl is None else cosl
+    k = H / span
+    L = 0
+    while L < len(lv) - 1 and 30.0 / 2 ** (L + 1) >= k * cosl * 0.9:
+        L += 1
+    ppd = 30.0 / 2 ** L
+    a, d = ppd / (cosl * k), ppd / k
+    M = np.float32([[a, 0, (lon0 + 180 - W / (2 * cosl * k)) * ppd - 0.5], [0, d, (90 - lat0 - (H / 2 if cy is None else cy) / k) * ppd - 0.5]])
+    up = a < 1 or d < 1
+    img = cv2.warpAffine(lv[L], M, (W, H), flags=(cv2.INTER_CUBIC if up else cv2.INTER_LINEAR) | cv2.WARP_INVERSE_MAP, borderMode=cv2.BORDER_REPLICATE)
+    if a < 0.5:  # several screen pixels per raster pixel: smooth the blockiness, add a fine grain so it is not mush
+        img = cv2.GaussianBlur(img, (0, 0), 1.2)
+        img = cv2.subtract(cv2.add(img, _map_grain()), 3)
+    return cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+
+
 class MapShot:
     """A real map instead of a painting (owner, 8 Nov 2026: Gazab Kyun's painted maps had "random red marks, lines";
     FLUX can't draw geography). Drawn from map data (brand/maps/world.json: Natural Earth, India's own boundary) at
@@ -767,13 +823,17 @@ class MapShot:
         lat, lon = self.s["center"]
         half_lon, half_lat = W / (2 * k * cosl) + 2, H / k + 2
         view = (lon - half_lon, lat - half_lat, lon + half_lon, lat + half_lat)
-        fr = np.zeros((H, W, 3), np.uint8)
-        fr[:] = (52, 30, 14)  # deep sea
+        if MAP_TERRAIN:  # the real earth under the overlays (Natural Earth shaded relief, brand/maps/LICENSES.md)
+            fr = map_terrain(lat, lon, H / k, cosl, H * 0.46)
+        else:
+            fr = np.zeros((H, W, 3), np.uint8)
+            fr[:] = (52, 30, 14)  # deep sea
         vis = lambda b: not (b[2] < view[0] or b[0] > view[2] or b[3] < view[1] or b[1] > view[3])
         pts = lambda r: np.int32([[x * 4, y * 4] for x, y in (P(lo, la) for lo, la in r)])
         countries = [c for c in _WORLD["countries"] if vis(c["bbox"])]
         land = [pts(r) for c in countries for r in c["rings"]]
-        cv2.fillPoly(fr, land, (78, 58, 40), cv2.LINE_AA, shift=2)
+        if not MAP_TERRAIN:
+            cv2.fillPoly(fr, land, (78, 58, 40), cv2.LINE_AA, shift=2)
         fill = fr.copy()
         labels = []
         n = 0
@@ -807,7 +867,12 @@ class MapShot:
                     else:
                         pos = (float(np.median([q[0] for q in inside])), float(np.median([q[1] for q in inside])))
                     labels.append((pos, it["label"], a, 64 if key == "areas" else 58))
-        cv2.polylines(fr, land, True, (140, 118, 96), 2, cv2.LINE_AA, shift=2)  # borders over the fills
+        if MAP_TERRAIN:  # thin white borders at ~45% over the fills
+            lay = fr.copy()
+            cv2.polylines(lay, land, True, (255, 255, 255), 1, cv2.LINE_AA, shift=2)
+            fr = cv2.addWeighted(lay, 0.45, fr, 0.55, 0)
+        else:
+            cv2.polylines(fr, land, True, (140, 118, 96), 2, cv2.LINE_AA, shift=2)  # borders over the fills
         for it in self.s.get("lines") or []:
             at = 0.5 + 0.55 * n
             n += 1
@@ -1675,6 +1740,8 @@ def main(script_path, out_dir):
     voice_rms = rms(voice[speaking > 0]) if speaking.any() else 0.1
     # long-form (owner, 7 Nov 2026: "a good faint bg music"): -18 dB under the voice, -8 dB in pauses and cards
     talk_db, pause_db, read_db = (-12, -4, -8) if short else (-18, -8, -12)
+    ml = {} if short else (K.B.get("music_long") or {})  # per channel, from its niche's winners (analysis/voice-review.md, 13 Nov 2026)
+    talk_db, pause_db, read_db = ml.get("talk", talk_db), ml.get("pause", pause_db), ml.get("read", read_db)
     under = np.full(len(gain), 10 ** (talk_db / 20))
     for a, b in explainers:  # under the explainers: a clear, curious bed while the viewer reads
         under[int(a * SR):int(b * SR)] = 10 ** (read_db / 20)
@@ -1687,6 +1754,14 @@ def main(script_path, out_dir):
         fade[a:b] *= np.clip(1 - np.arange(b - a) / (0.3 * SR), 0, 1)
         c = min(len(fade), b + int(1.5 * SR))
         fade[b:c] *= np.linspace(0, 1, c - b)
+    if ml.get("mode") == "sparse":  # no bed under the narration (The Hidden Why's winners): only the opening and a
+        # few seconds into each chapter, faded
+        keep = np.zeros(len(fade))
+        for a0, b0 in [(0.0, float(ml.get("opening", 20)))] + [(c, c + float(ml.get("chapter", 5))) for c, _ in chapters if c > 0]:
+            a1, b1 = int(a0 * SR), min(len(keep), int(b0 * SR))
+            keep[a1:b1] = 1
+        keep = np.convolve(keep, np.ones(SR) / SR, mode="same")  # 1 s fades
+        fade = fade * keep
     mix = voice + music * level * fade
     if short:
         sfx = np.zeros_like(mix)
