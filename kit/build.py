@@ -33,7 +33,7 @@ END = 8.0  # the end card (YouTube end screen elements sit on it)
 # the edit (owner, 13 Nov 2026: "the videos feel very plain going... the hooks has to be some different, edit,
 # effects"): the hook cuts every HOOK_BEAT s (each painting in wide / close / medium framings, a flash and a hit on every
 # cut, the line's number or year slammed on screen), a title slam after it, and no picture held past BODY_BEAT s after
-HOOK_BEAT, BODY_BEAT, TITLE = 1.6, 3.4, 2.6
+HOOK_BEAT, BODY_BEAT, TITLE = 3.0, 4.0, 2.6  # owner, 13 Nov 2026: 1.6 s cuts, flashes and hits read as noise
 BIG = __import__("re").compile(r"\$\s?\d[\d,.]*(?:\s?(?:billion|million|thousand|bn|m)\b)?|\b\d[\d,.]*\s?(?:%|percent|billion|million|"
                                r"kilometres|kilometers|km|miles|barrels|stores|ships)\b|\b(?:1[5-9]|20)\d\d\b", 2)
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"}
@@ -211,8 +211,6 @@ def beats(it):
     """How many pictures a still or clip line is cut into: every HOOK_BEAT s in the hook, BODY_BEAT s after."""
     if it.get("kind") in ("still", "footage", "archive"):
         return max(1, round(it["dur"] / (HOOK_BEAT if it.get("hook") else BODY_BEAT)))
-    if it.get("hook") and it.get("kind") not in ("map", "title", "card", "end"):  # hook cards punch in on the beat too
-        return max(1, round(it["dur"] / HOOK_BEAT))
     return 1
 
 
@@ -505,7 +503,7 @@ def render_frame(ctx, fi):
         rgb = backdrop(ctx.L, fi)
     import cv2
     if it.get("kind") not in ("map", "end") and li < 6:  # a snap-in on every cut: 1.06 -> 1 over 6 frames
-        z = 1.0 + 0.06 * (1 - ease_out(li / 6))
+        z = 1.0 + 0.025 * (1 - ease_out(li / 6))
         cw, ch = int(W / z), int(H / z)
         rgb = cv2.resize(rgb[(H - ch) // 2:(H - ch) // 2 + ch, (W - cw) // 2:(W - cw) // 2 + cw], (W, H), interpolation=cv2.INTER_LINEAR)
     nb = beats(it)
@@ -514,8 +512,7 @@ def render_frame(ctx, fi):
         z = 1.16 - 0.04 * min(1.0, since / max(1, n // nb))  # a card: every other beat a close punch-in, easing
         cw, ch = int(W / z), int(H / z)
         rgb = cv2.resize(rgb[(H - ch) // 2:(H - ch) // 2 + ch, (W - cw) // 2:(W - cw) // 2 + cw], (W, H), interpolation=cv2.INTER_LINEAR)
-    if it.get("hook") and since < 2:  # a short light flash on every hook cut (0.45 read as a grey glitch frame)
-        rgb = cv2.addWeighted(rgb, 1 - 0.28 * (1 - since / 2), np.full_like(rgb, 255), 0.28 * (1 - since / 2), 0)
+    # no flash on cuts (owner, 13 Nov 2026: "white booms")
     layer = kit.blank()
     d = ImageDraw.Draw(layer)
     if it.get("big"):
@@ -560,45 +557,29 @@ def join(out):
         k, at = it.get("kind"), it["start"]
         if it.get("vo"):
             mix.vo(kit.load_audio(out / f"vo-{it['n']:03d}.wav"), at)
-        if it.get("hook"):  # a hit on every hook cut, inside the line too
-            nb = max(1, round(it["dur"] / HOOK_BEAT)) if k not in ("map", "title", "card", "end") else 1
-            for j in range(nb):
-                mix.add(thud, at + j * it["dur"] / nb, 0.42)
-                if j:
-                    mix.add(whoosh, max(0, at + j * it["dur"] / nb - 0.15), 0.3)
-        if k == "title":
-            mix.add(kit.synth("riser", 1.6), max(0, at - 1.5), 0.55)
-            mix.add(thud, at, 0.95)
-            mix.add(swipe, at + TITLE - 0.35, 0.4)
-        # owner, 13 Nov 2026 ("SFX are also less"): a sound on every change of picture, and one per element
-        if prev is not None and k not in ("card", "title") and (k != prev.get("kind") or k in ("footage", "archive", "still")):
-            mix.add(whoosh, max(0, at - 0.18), 0.32)
+        if k == "title":  # one soft riser into the title, no boom (owner, 13 Nov 2026)
+            mix.add(kit.synth("riser", 1.6), max(0, at - 1.5), 0.3)
+        # sound design (owner, 13 Nov 2026: first "SFX are also less", then "unnecessary cuts, sfx"): a soft whoosh when
+        # the kind of picture changes, one quiet sound per element, nothing stacked
+        if prev is not None and k not in ("card", "title") and k != prev.get("kind"):
+            mix.add(whoosh, max(0, at - 0.18), 0.16)
         if k in ("headline", "document"):
-            mix.add(thud, at + 0.2, 0.55)
-            mix.add(page, at + 0.25, 0.55)
-            mix.add(typing[: int(kit.SR * 0.8)], at + 0.35, 0.3)
-            mix.add(swipe, at + 1.0, 0.4)
+            mix.add(page, at + 0.25, 0.35)
         elif k == "stat":
-            for j in range(8):  # the count-up ticks, then a hit
-                mix.add(tick, at + 0.05 + j * 0.09, 0.45)
-            mix.add(thud, at + 0.8, 0.5)
+            mix.add(tick, at + 0.75, 0.25)
         elif k == "chart":
-            mix.add(swipe, at + 0.1, 0.4)
-            for j in range(len((it.get("chart") or {}).get("points") or [])):
-                mix.add(tick, at + 0.15 + j * 0.12, 0.35)
+            mix.add(swipe, at + 0.1, 0.2)
         elif k == "quote":
-            mix.add(typing[: int(kit.SR * 1.5)], at + 0.1, 0.22)
+            mix.add(typing[: int(kit.SR * 1.0)], at + 0.1, 0.12)
         elif k == "map":
             act = (it.get("map") or {}).get("action") or "locate"
-            mix.add(kit.synth("riser", 2.0) if act == "locate" else whoosh, at, 0.25)
-            first = 2.6 if act == "locate" else 0.4
-            for j in range(min(6, len((it.get("map") or {}).get("places") or []))):
-                mix.add(tick, at + first + 0.25 * j, 0.5)  # each pin or ring lands
-            if act in ("route", "flow", "measure"):
-                mix.add(swipe, at + first, 0.45)
+            if act == "locate":
+                mix.add(kit.synth("riser", 2.0), at, 0.15)
+            for j2 in range(min(3, len((it.get("map") or {}).get("places") or []))):
+                mix.add(tick, at + (2.6 if act == "locate" else 0.4) + 0.25 * j2, 0.25)
         elif k == "card":
-            mix.add(kit.synth("riser", 1.4), max(0, at - 1.2), 0.45)
-            mix.add(thud, at, 0.75)
+            mix.add(kit.synth("riser", 1.4), max(0, at - 1.2), 0.25)
+            mix.add(thud, at, 0.35)
         elif k == "end":
             mix.add(kit.synth("riser", 1.6), max(0, at - 1.4), 0.3)
         prev = it
