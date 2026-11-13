@@ -48,9 +48,10 @@
    "shots": [
     {
      "vo": "Knock on the wall of almost any American living room.",
-     "prompt": "Close-up of a closed fist, knuckles rapping on a plain white painted wall of a modern American suburban living room, the arm entering from the left, a sofa and a lamp softly blurred behind, warm evening lamplight, realistic oil painting, eye-level camera, no text, no logos, no brands",
+     "prompt": "A man's closed fist knocking on a plain white wall, seen from the side with the whole forearm entering from the left, a sofa and lamp in the cozy American living room behind, warm evening lamp light, sharp focus, medium close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8920
     },
     {
      "vo": "It sounds hollow, because behind the drywall is a frame of wood.",
@@ -78,9 +79,10 @@
     },
     {
      "vo": "A billion acres of trees, a cheap nail, and one city's fire in 1871.",
-     "prompt": "One old square-cut iron nail lying on a rough wooden workbench in the foreground, large and sharp, a dense pine forest seen through the open workshop door behind it, warm low light, one single scene, no panels, no split image, realistic oil painting, eye-level camera, no text, no logos, no brands",
+     "prompt": "One old square-cut iron nail standing large on a rough wooden workbench, a dense pine forest through the open workshop door behind it and an orange glow of a burning wooden town on the far horizon, warm low light, sharp focus, one single scene, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8925
     },
     {
      "vo": "In 1620, English settlers stepped ashore and looked up at the trees.",
@@ -110,7 +112,8 @@
      "vo": "America was the opposite. Forests covered about a billion acres of what is now the United States, close to half the land.",
      "prompt": "diagram (pipeline/diagram.py): outline of the contiguous United States shaded green for forest cover around 1630, label 'About 1 billion acres of forest (c. 1630)', source line 'USDA Forest Service'",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8929
     },
     {
      "vo": "The biggest trees belonged to the King. From 1691, the tallest white pines were reserved for Royal Navy masts, marked with a broad arrow cut into the bark.",
@@ -184,13 +187,15 @@
      "vo": "Economist Daniel Sichel found that around 1810, making nails was about 0.4 percent of the entire US economy.",
      "prompt": "diagram (pipeline/diagram.py): single highlighted bar or pie slice labelled 'Nail making, c. 1810: about 0.4% of US GDP', source line 'Sichel, Journal of Economic Perspectives, 2022'",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8940
     },
     {
      "vo": "Over the next century and a half, the real price of a nail fell by roughly 90 percent.",
      "prompt": "diagram (pipeline/diagram.py): line chart of the real price of nails from 1790 to 1950 falling steeply, annotation 'Real price down about 90%', source line 'Sichel, 2022'",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8941
     },
     {
      "vo": "A nail stopped being treasure. It became something you dropped and never bothered to pick up.",
@@ -244,7 +249,8 @@
      "vo": "Chicago exploded. By 1870 it held almost 300,000 people.",
      "prompt": "diagram (pipeline/diagram.py): line chart of Chicago population, 1833 about 350 to 1870 about 299,000, source line 'U.S. Census'",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8949
     },
     {
      "vo": "About two-thirds of its buildings were wood. Streets were paved with pine blocks, and wooden sidewalks ran for hundreds of miles.",
@@ -292,7 +298,8 @@
      "vo": "In about two days, the fire destroyed roughly 17,500 buildings across more than three square miles.",
      "prompt": "diagram (pipeline/diagram.py): simple outline of 1871 Chicago with the burned district shaded red, labels 'About 17,500 buildings destroyed' and '3+ square miles', source line 'Chicago History Museum'",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8956
     },
     {
      "vo": "Around 300 people died. About 100,000, a third of the city, lost their homes.",
@@ -380,9 +387,10 @@
     },
     {
      "vo": "Safer, faster, and still wood. And after World War Two, America needed millions of houses at once.",
-     "prompt": "1946: young returning American servicemen in uniform with wives and babies standing in line outside a crowded rental office, worried faces, autumn daylight, realistic oil painting, wide shot, no text, no logos",
+     "prompt": "A long queue of young men in army uniforms with their wives outside a plain-fronted housing office, a worried couple in the foreground, 1946, autumn daylight, plain blank signboards, sharp focus, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8970
     }
    ]
   },
@@ -412,7 +420,8 @@
      "vo": "That model spread everywhere, and it never stopped. Today, about nine in ten new single-family homes in America are framed in wood.",
      "prompt": "diagram (pipeline/diagram.py): ten simple house icons, nine coloured wood-brown and one grey, label 'About 9 in 10 new US single-family homes are wood framed', source line 'U.S. Census Bureau, Survey of Construction'",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8974
     },
     {
      "vo": "In England and Germany, most new homes are still built of brick or block.",
@@ -483,5 +492,47 @@
  "voice_requested": "voice-21-american-wood-houses-a0fbab96ef",
  "voice_ok": "voice-21-american-wood-houses-a0fbab96ef",
  "voice_approved_at": "2026-11-12 18:15",
- "title_before": "Why American Homes Are Built From Wood (But Europe Uses Brick)"
+ "title_before": "Why American Homes Are Built From Wood (But Europe Uses Brick)",
+ "repaint": {
+  "shots": [
+   1,
+   6,
+   10,
+   21,
+   22,
+   30,
+   37,
+   51,
+   55
+  ],
+  "thumbs": [],
+  "at": "2026-11-13 11:40",
+  "by": "owner"
+ },
+ "shot_qc": {
+  "checked": null,
+  "rounds": 1,
+  "why": {
+   "1": "A giant hand with a single raised finger floats in the room and never touches a wall, so it doesn't show knocking on a wall. The finger and knuckles are also distorted.",
+   "6": "The tile is a three-panel collage with a black gap in the middle. The 'nail' is a modern screw lying flat, not a cheap cut nail, and the burning building is generic, not 1871 Chicago.",
+   "10": "The map's state borders are distorted and the label text is garbled ('1 billiion', 'acres ofur forest'). It shows no forest coverage, just a plain outline.",
+   "21": "A pie chart reading '140%' contradicts the line's 0.4 percent, and its text is garbled. It is shown on a screen in a modern hardware store, not an 1810 nail-making scene.",
+   "22": "The line chart has unreadable, gibberish axis labels. It shows a rising line when the price of a nail fell about 90 percent, and it sits in a modern store with scattered nails.",
+   "30": "A faint line chart with illegible gibberish axes sits in a modern shopping-mall corridor with a garbled 'CENEUR CAPS' sign. It doesn't show 1870 Chicago growing to about 300,000 people.",
+   "37": "A vague, distorted map shape with a blob of red and tiny unreadable labels. It shows no burning buildings or fire, and the setting is modern and warm-toned.",
+   "51": "The signage is gibberish ('RENL. L.L.', 'REPNT CIALIE'). The modern-looking uniformed crowd with babies has nothing to do with safer, faster wood framing or post-WWII mass housing, and the faces and hands are warped.",
+   "55": "The row of white and wooden toy houses is not a clear 9-in-10 ratio (5 white, 4 wood). The caption is garbled ('singille-family', 'Cetteasu') and the scene is set in a modern store shelf."
+  },
+  "recheck": [
+   "1",
+   "6",
+   "10",
+   "21",
+   "22",
+   "30",
+   "37",
+   "51",
+   "55"
+  ]
+ }
 }
