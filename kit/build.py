@@ -9,7 +9,7 @@ much as we can").
 Each shot's "kind" is drawn by the edit kit (kit/kit.py) or the map engine (kit/maps.py):
 footage / archive (Pixabay clip, graded, label plate, source tag), still (the Kaggle painting shot-NN.png, pushed),
 stat, headline, document, quote, chart (drawn), map (drawn). Kinetic captions on every shot, the wordmark, a chapter
-card before each chapter after the first (none in the first minute), an end card. Voice: Kokoro am_adam at 0.95.
+card before each chapter after the first (none in the first minute), an end card. Voice: Kokoro bm_george at 1.15 (owner, 13 Nov 2026).
 """
 import json
 import os
@@ -69,7 +69,7 @@ def voice(shots, out):
     for x in shots:
         dest = out / f"vo-{x['n']:03d}.wav"
         if not dest.exists():
-            a, sr = k.create(x["vo"], voice="am_adam", speed=0.95, lang="en-us")
+            a, sr = k.create(x["vo"], voice="bm_george", speed=1.15, lang="en-gb")  # owner, 13 Nov 2026: George at 1.15 on every English channel
             sf.write(dest, a, sr)
         info = sf.info(str(dest))
         durs[f"{x['n']:03d}"] = info.frames / info.samplerate
