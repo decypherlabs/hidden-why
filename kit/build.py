@@ -107,6 +107,15 @@ def stock(shots, out):
         dest = out / "stock" / f"{x['n']:03d}.mp4"
         if dest.exists():
             continue
+        if x.get("clip"):  # the clip Claude picked for this line on the Mac (studio/kit_visuals.py): exactly that one
+            try:
+                u = "https://pixabay.com/api/videos/?" + urllib.parse.urlencode({"key": os.environ.get("PIXABAY_KEY", ""), "id": x["clip"]["id"]})
+                h = json.loads(urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=30).read())["hits"][0]
+                log[str(x["n"])] = {**fetch(h, dest), "query": "picked", "tags": h.get("tags", "")}
+                used.add(h["id"])
+                continue
+            except Exception as e:  # noqa: BLE001 - falls back to a search
+                print(f"picked clip {x['clip']} for shot {x['n']}: {e}", flush=True)
         words = q.split()
         h = None
         for cut in (len(words), 3, 2, 1):
