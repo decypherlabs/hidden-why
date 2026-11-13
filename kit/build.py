@@ -95,6 +95,22 @@ def fetch(h, dest):
             "licence": "Pixabay Content License", "duration": h["duration"]}
 
 
+def photos(shots, out):
+    """The real photographs studio/kit_visuals.py picked (Wikimedia Commons / Pixabay), saved as photos/NNN.jpg."""
+    (out / "photos").mkdir(parents=True, exist_ok=True)
+    for x in shots:
+        ph = x.get("photo") or {}
+        dest = out / "photos" / f"{x['n']:03d}.jpg"
+        if x.get("kind") != "photo" or not ph.get("src") or dest.exists():
+            continue
+        try:
+            data = urllib.request.urlopen(urllib.request.Request(ph["src"], headers={"User-Agent": "EvolveBetterStudio/1.0 (decypherlabs.io@gmail.com)"}),
+                                          timeout=60).read()
+            Image.open(__import__("io").BytesIO(data)).convert("RGB").save(dest, quality=92)
+        except Exception as e:  # noqa: BLE001 - the shot falls back to its painting, else a card
+            print(f"photo {x['n']}: {e}", flush=True)
+
+
 def stock(shots, out):
     """One clip per footage/archive shot (and per still with no painting), never the same clip twice in a row; a
     search with no hit is tried again with fewer words."""
@@ -146,6 +162,7 @@ def prep(script_path, out):
     shots = shots_of(sc)
     durs = voice(shots, out)
     stock(shots, out)
+    photos(shots, out)
     t, items, chapters = 0.0, [], []
     title = str(sc.get("intro_title") or sc.get("title") or "").split(":")[0].split(",")[0].split("|")[0].strip()
     for x in shots:
@@ -193,11 +210,16 @@ def backdrop(L, i, ctx=None, it=None):
         k = ctx.items.index(it) if it in ctx.items else -1
         prev = next((x for x in reversed(ctx.items[:max(0, k)]) if x.get("kind") == "still"
                      and (ctx.out / f"shot-{x['n']:02d}.png").exists()), None)
+        ph = next((x for x in reversed(ctx.items[:max(0, k)]) if x.get("kind") == "photo"
+                   and (ctx.out / "photos" / f"{x['n']:03d}.jpg").exists()), None)
+        if ph is not None and (prev is None or ctx.items.index(ph) > ctx.items.index(prev)):
+            prev = {**ph, "_photo": True}
         if prev is not None:
-            key = ("bg", prev["n"])
+            key = ("bg", prev["n"], bool(prev.get("_photo")))
             if key not in ctx.cache:
                 import cv2
-                im = np.asarray(Image.open(ctx.out / f"shot-{prev['n']:02d}.png").convert("RGB").resize((W // 4, H // 4)))
+                src = ctx.out / ("photos" if prev.get("_photo") else "") / (f"{prev['n']:03d}.jpg" if prev.get("_photo") else f"shot-{prev['n']:02d}.png")
+                im = np.asarray(Image.open(src).convert("RGB").resize((W // 4, H // 4)))
                 im = cv2.resize(cv2.GaussianBlur(im, (0, 0), 6), (W, H), interpolation=cv2.INTER_LINEAR)
                 ctx.cache = {a: b for a, b in ctx.cache.items() if a[0] != "bg"}
                 ctx.cache[key] = (im.astype(np.float32) * 0.32 + np.array(L["bg"], np.float32) * 0.5).clip(0, 255).astype(np.uint8)
@@ -261,6 +283,47 @@ def still(ctx, it, t, i, n):
     y0 = int(np.clip(src.shape[0] * cy - ch / 2, 0, src.shape[0] - ch))
     import cv2
     return kit.grade(cv2.resize(src[y0:y0 + ch, x0:x0 + cw], (W, H), interpolation=cv2.INTER_LINEAR), tint=ctx.L["tint"])
+
+
+def photo(ctx, it, t, i, n):
+    """A real photograph: a slow push across it; a photo far from 16:9 sits whole on a blurred, dimmed copy of itself."""
+    p = ctx.out / "photos" / f"{it['n']:03d}.jpg"
+    if not p.exists():
+        return still(ctx, it, t, i, n) if (ctx.out / f"shot-{it['n']:02d}.png").exists() else None
+    import cv2
+    key = ("photo", it["n"])
+    if key not in ctx.cache:
+        im = Image.open(p).convert("RGB")
+        ar = im.width / im.height
+        if 1.45 <= ar <= 2.1:  # close to 16:9: fill the frame
+            sc = max(W * 1.1 / im.width, H * 1.1 / im.height)
+            src = np.asarray(im.resize((int(im.width * sc), int(im.height * sc)), Image.LANCZOS))
+            ctx.cache = {k: v for k, v in ctx.cache.items() if k[0] != "photo"}
+            ctx.cache[key] = ("fill", src)
+        else:
+            bg = np.asarray(im.resize((W // 4, H // 4)))
+            bg = cv2.resize(cv2.GaussianBlur(bg, (0, 0), 8), (W, H)).astype(np.float32) * 0.45
+            sc = min(W * 0.92 / im.width, H * 0.92 / im.height)
+            fg = np.asarray(im.resize((int(im.width * sc), int(im.height * sc)), Image.LANCZOS))
+            ctx.cache = {k: v for k, v in ctx.cache.items() if k[0] != "photo"}
+            ctx.cache[key] = ("fit", (bg.astype(np.uint8), fg))
+    mode, src = ctx.cache[key]
+    u = i / max(1, n - 1)
+    if mode == "fill":
+        z = 1.0 + 0.07 * (u if it["n"] % 2 else 1 - u)
+        cw, ch = min(int(W * 1.1 / z), src.shape[1]), min(int(H * 1.1 / z), src.shape[0])
+        dx = int((src.shape[1] - cw) * (0.5 + 0.25 * (u - 0.5) * (1 if it["n"] % 3 else -1)))
+        y0 = (src.shape[0] - ch) // 2
+        frame = cv2.resize(src[y0:y0 + ch, dx:dx + cw], (W, H), interpolation=cv2.INTER_LINEAR)
+    else:
+        bg, fg = src
+        frame = bg.copy()
+        z = 1.0 + 0.04 * u
+        fh, fw = int(fg.shape[0] * z), int(fg.shape[1] * z)
+        fgz = cv2.resize(fg, (min(fw, W), min(fh, H)), interpolation=cv2.INTER_LINEAR)
+        y0, x0 = (H - fgz.shape[0]) // 2, (W - fgz.shape[1]) // 2
+        frame[y0:y0 + fgz.shape[0], x0:x0 + fgz.shape[1]] = fgz
+    return kit.grade(frame, sat=0.9, tint=ctx.L["tint"])
 
 
 def stat(ctx, it, t, i, n):
@@ -469,7 +532,7 @@ def endcard(ctx, it, t, i, n):
     return kit.over(img, layer)
 
 
-DRAW = {"footage": footage, "archive": footage, "still": still, "stat": stat, "headline": headline,
+DRAW = {"footage": footage, "archive": footage, "still": still, "photo": photo, "stat": stat, "headline": headline,
         "document": document, "quote": quote, "chart": chart, "map": mapshot, "card": card, "end": endcard,
         "title": titleslam}
 
@@ -523,6 +586,8 @@ def render_frame(ctx, fi):
         kit.label_plate(layer, (90, 110), str(it["plate"])[:48], lt)
     if it.get("kind") in ("footage", "archive"):
         kit.source_tag(d, "Pixabay")
+    elif it.get("kind") == "photo" and (it.get("photo") or {}).get("credit"):
+        kit.source_tag(d, ("Photo: " + str(it["photo"]["credit"]).split(",")[0])[:70])
     if it.get("kind") not in ("card", "end", "title"):
         kit.watermark(d, ctx.L["name"])
     return kit.finish(kit.over(rgb, layer), fi)
