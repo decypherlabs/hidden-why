@@ -1,122 +1,129 @@
 {
- "name": "Devlok Katha",
- "handle": "@DevlokKatha",
- "wordmark": [
-  "DEVLOK ",
-  "KATHA"
- ],
- "colors": {
-  "ink": "#1A1210",
-  "signal_yellow": "#E8A33D",
-  "alarm_red": "#9E1B1B",
-  "bone": "#F2DFB8",
-  "deep_teal": "#1F5C57"
- },
- "voice": {
-  "engine": "parler",
-  "model": "ai4bharat/indic-parler-tts",
-  "description": "Aman speaks in a deep, bold, low-pitched and commanding documentary narrator voice, with confident, slightly dramatic expression, at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
-  "trim": true,
-  "_about": "owner, 7 Nov 2026: 'aman-bold is good. Moving forward, we'll use that for DK as well' (LL's voice; dk-aman samples)",
-  "_before": "Divya until 7 Nov 2026; scripts voiced before then carry her voice in their own \"voice\""
- },
- "art_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich natural colour, warm devotional tones, epic, ultra detailed, sharp focus, every figure modestly dressed, one head and two arms each unless the deity has more, every banner, scroll and stone plain without any lettering",
- "art_negative": "text, letters, watermark, logo, cartoon, anime, flat illustration, deformed hands, extra limbs, extra fingers, bad hands, distorted face, disfigured, ugly, blurry, low quality, nsfw, revealing clothes, blood, gore, duplicate figure, two heads, extra head, extra face, stacked figures, merged faces, clones, repeated people, bad eyes, crossed eyes, asymmetric eyes",
- "fonts": {
-  "display": "devlok-katha/fonts/Hind-Bold.ttf",
-  "body": "fonts/Inter.ttf",
-  "_about": "owner, 31 Oct 2026: Hindi captions in the banner's font family: Hind (Indian Type Foundry, OFL), the free sibling of the banner's ITF Devanagari"
- },
- "sfx": {
-  "open": "impact",
-  "reveal": "bell",
-  "_about": "owner, 6 Nov 2026: the opening hits (impact) instead of a calm bell (\"not hooking\"); the bell stays on the reveal"
- },
- "cover_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text",
- "art_style_folk": "traditional Indian Pattachitra folk painting, Odisha palm-leaf art style, bold black outlines, flat ochre deep red cream and teal colours, ornate patterned borders, decorative dotted details, intricate jewellery and textiles, flat perspective, devotional and respectful, no text",
- "model": "SG161222/RealVisXL_V5.0_Lightning",
- "vae": "madebyollin/sdxl-vae-fp16-fix",
- "steps": 8,
- "guidance": 1.5,
- "short_size": [
-  896,
-  1152
- ],
- "face_fix": true,
- "_steps_about": "owner, 1 Nov 2026: more quality; Lightning models peak around 6-8 steps",
- "video_mark": {
-  "title": "देवलोक कथा",
-  "tagline": "पौराणिक कथाएँ · हर दिन",
-  "fg": [
-   176,
-   32,
-   32
+  "name": "Devlok Katha",
+  "handle": "@DevlokKatha",
+  "wordmark": [
+    "DEVLOK ",
+    "KATHA"
   ],
-  "bg": [
-   240,
-   226,
-   196
+  "colors": {
+    "ink": "#1A1210",
+    "signal_yellow": "#E8A33D",
+    "alarm_red": "#9E1B1B",
+    "bone": "#F2DFB8",
+    "deep_teal": "#1F5C57"
+  },
+  "voice": {
+    "engine": "parler",
+    "model": "ai4bharat/indic-parler-tts",
+    "description": "Aman speaks in a deep, bold, low-pitched and commanding documentary narrator voice, with confident, slightly dramatic expression, at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
+    "trim": true,
+    "_about": "owner, 7 Nov 2026: 'aman-bold is good. Moving forward, we'll use that for DK as well' (LL's voice; dk-aman samples)",
+    "_before": "Divya until 7 Nov 2026; scripts voiced before then carry her voice in their own \"voice\""
+  },
+  "art_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich natural colour, warm devotional tones, epic, ultra detailed, sharp focus, every figure modestly dressed, one head and two arms each unless the deity has more, every banner, scroll and stone plain without any lettering",
+  "art_negative": "text, letters, watermark, logo, cartoon, anime, flat illustration, deformed hands, extra limbs, extra fingers, bad hands, distorted face, disfigured, ugly, blurry, low quality, nsfw, revealing clothes, blood, gore, duplicate figure, two heads, extra head, extra face, stacked figures, merged faces, clones, repeated people, bad eyes, crossed eyes, asymmetric eyes",
+  "fonts": {
+    "display": "devlok-katha/fonts/Hind-Bold.ttf",
+    "body": "fonts/Inter.ttf",
+    "_about": "owner, 31 Oct 2026: Hindi captions in the banner's font family: Hind (Indian Type Foundry, OFL), the free sibling of the banner's ITF Devanagari"
+  },
+  "sfx": {
+    "open": "impact",
+    "reveal": "bell",
+    "_about": "owner, 6 Nov 2026: the opening hits (impact) instead of a calm bell (\"not hooking\"); the bell stays on the reveal"
+  },
+  "cover_style": "photorealistic cinematic Indian mythology scene, realistic faces and skin, expressive emotion, dramatic volumetric light, rich saturated colour, epic, ultra detailed, sharp focus, no text",
+  "art_style_folk": "traditional Indian Pattachitra folk painting, Odisha palm-leaf art style, bold black outlines, flat ochre deep red cream and teal colours, ornate patterned borders, decorative dotted details, intricate jewellery and textiles, flat perspective, devotional and respectful, no text",
+  "model": "SG161222/RealVisXL_V5.0_Lightning",
+  "vae": "madebyollin/sdxl-vae-fp16-fix",
+  "steps": 8,
+  "guidance": 1.5,
+  "short_size": [
+    896,
+    1152
   ],
-  "ink": [
-   45,
-   28,
-   18
-  ],
-  "opacity": 0.6,
-  "_about": "owner, 1 Nov 2026: the banner's name + tagline on every DK Short, see-through, nothing blocked"
- },
- "refine": 1.5,
- "_short_size_about": "1 Nov 2026: 896x1152 is an SDXL training bucket; taller canvases tiled figures on top of each other. The build crops to 9:16.",
- "_engine_note": "owner, 7 Nov 2026: FLUX throughout for every channel ('good, clear pictures, as per the prompt and scene'); 6 Nov had rolled FLUX back for RealVisXL, whose settings stay below as the fallback",
- "long_captions": {
-  "font": "devlok-katha/fonts/TiroDevanagariHindi-Regular.ttf",
-  "size": 46,
-  "_about": "owner, 7 Nov 2026: long-form captions simpler and medium-sized, no box: warm off-white with a soft shadow over a faint bottom gradient (DK picked Tiro Devanagari, sample B)"
- },
- "thumb_style": "epic mythological digital painting, fiery glowing embers and sparks, intense saturated orange and gold against deep blue and black, dramatic rim light, volumetric god rays, divine glow around the hero, ultra detailed, sharp focus, cinematic poster composition, no text",
- "_thumb_style_about": "owner, 7 Nov 2026: like the niche's top long-form thumbnails (Divya Katha, Katha Sagar, Itihaas Raz)",
- "thumb_engine": "flux",
- "engine": "flux",
- "deity_looks": {
-  "_about": "owner, 8 Nov 2026: 'make sure that every God character is beautiful and attractive' (FLUX drew Ram as a villager, baby Krishna dark grey). gpu/paint.py adds the look to every prompt that names the deity; the first matching key wins, so the specific forms come first.",
-  "baby krishna|bal krishna|child krishna|little krishna|young krishna|infant krishna|krishna as a (?:baby|child|toddler|boy)": "adorable chubby baby Krishna with soft luminous light sky-blue skin (pale azure, never dark or grey), big sparkling eyes, sweet smile, peacock feather tied in his hair, little gold ornaments and anklets, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "krishna": "beautiful youthful Lord Krishna with soft luminous light sky-blue skin (pale azure, never dark or grey), peacock feather in an ornate golden crown, yellow silk pitambar, gold jewellery, flute, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "rama\\b|ram\\b|shri ram": "handsome Lord Rama with soft luminous light sky-blue skin (pale azure, never dark or grey), ornate golden crown, saffron-yellow silk garments, gold jewellery, great bow on his shoulder, noble bearing, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "vishnu|narayana": "majestic beautiful Lord Vishnu with soft luminous light sky-blue skin, four arms holding conch, discus, mace and lotus, tall jewelled golden crown, yellow silk, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "shiva|mahadev|mahadeva|shankar|neelkanth|bholenath": "handsome serene Lord Shiva with fair luminous ash-blue skin, matted dark hair in a high knot with the crescent moon and a stream of the Ganga, cobra around the neck, rudraksha, trident, tiger-skin garment, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "parvati|gauri|uma\\b": "beautiful Goddess Parvati, fair glowing skin, red-and-gold silk saree, gold jewellery and crown, graceful, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "lakshmi": "beautiful Goddess Lakshmi on a pink lotus, fair glowing skin, red silk saree with gold border, gold jewellery and crown, gold coins flowing from her palm, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "saraswati": "beautiful Goddess Saraswati in a white silk saree on a white lotus, fair glowing skin, holding a veena, a swan beside her, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "durga": "majestic beautiful Goddess Durga riding a lion, many arms holding weapons, red silk saree, golden crown and jewellery, fierce yet beautiful, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "kali": "majestic Goddess Kali with deep luminous blue-black skin, wild flowing hair, fierce beautiful face, gold ornaments, powerful and awe-inspiring, never grotesque, soft divine aura",
-  "sita": "beautiful Goddess Sita, fair glowing skin, simple elegant yellow or red silk saree, gold jewellery, graceful, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "radha": "beautiful Radha, fair glowing skin, colourful lehenga and veil, flowers in her hair, gold jewellery, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "ganesha|ganesh|ganapati|vinayaka": "adorable majestic Lord Ganesha with an elephant head, soft rosy-golden skin, one tusk, a jewelled golden crown, red silk dhoti, holding a modak, kind wise eyes, gentle smile, soft golden divine aura",
-  "hanuman|bajrang": "strong majestic Lord Hanuman, the monkey god, bright saffron-orange glowing skin, a noble kind face, golden crown and mace, muscular, devoted, soft golden divine aura",
-  "brahma": "majestic Lord Brahma with four bearded faces, golden skin, seated on a lotus, holding the Vedas, white and gold garments, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "indra": "handsome regal Indra, king of the gods, fair glowing skin, jewelled golden crown, riding a white elephant, thunderbolt in hand, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "surya": "radiant Surya the sun god on a chariot of seven horses, golden skin, golden crown and armour, blazing sun disc behind him, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "kartikeya|murugan|skanda": "handsome young Lord Kartikeya with a spear, riding a peacock, golden crown, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
-  "vaishno devi|mata vaishno|mata rani": "beautiful Mata Vaishno Devi, fair radiant glowing skin, red silk saree with gold border, golden crown and jewellery, riding a lion, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura"
- },
- "short_captions": {
-  "font": "devlok-katha/fonts/TiroDevanagariHindi-Regular.ttf",
-  "size": 54,
-  "color": [
-   255,
-   255,
-   255
-  ],
-  "shadow": false,
-  "y": 0.74,
-  "_about": "owner, 8 Nov 2026: DK Shorts captions small and white, Tiro Devanagari (sample A) without the black stroke"
- },
- "tone": {
-  "saturation": 0.92,
-  "knee": 160,
-  "contrast": 0.95
- },
- "_about_tone": "owner, 9 Nov 2026: paintings as the theme needs, not high-contrast and oversaturated (measured: THW 40% of pixels at max colour); toned in the edit (pipeline/build.py paint_read), covers stay bold for the click",
- "thumb_by_owner": true,
- "_about_thumb_by_owner": "owner, 11 Nov 2026: long-form thumbnails come from ChatGPT; nothing is painted for them (thumb.jpg is a stand-in from the episode's first painting)"
+  "face_fix": true,
+  "_steps_about": "owner, 1 Nov 2026: more quality; Lightning models peak around 6-8 steps",
+  "video_mark": {
+    "title": "देवलोक कथा",
+    "tagline": "पौराणिक कथाएँ · हर दिन",
+    "fg": [
+      176,
+      32,
+      32
+    ],
+    "bg": [
+      240,
+      226,
+      196
+    ],
+    "ink": [
+      45,
+      28,
+      18
+    ],
+    "opacity": 0.6,
+    "_about": "owner, 1 Nov 2026: the banner's name + tagline on every DK Short, see-through, nothing blocked"
+  },
+  "refine": 1.5,
+  "_short_size_about": "1 Nov 2026: 896x1152 is an SDXL training bucket; taller canvases tiled figures on top of each other. The build crops to 9:16.",
+  "_engine_note": "owner, 7 Nov 2026: FLUX throughout for every channel ('good, clear pictures, as per the prompt and scene'); 6 Nov had rolled FLUX back for RealVisXL, whose settings stay below as the fallback",
+  "long_captions": {
+    "font": "devlok-katha/fonts/TiroDevanagariHindi-Regular.ttf",
+    "size": 46,
+    "_about": "owner, 7 Nov 2026: long-form captions simpler and medium-sized, no box: warm off-white with a soft shadow over a faint bottom gradient (DK picked Tiro Devanagari, sample B)"
+  },
+  "thumb_style": "epic mythological digital painting, fiery glowing embers and sparks, intense saturated orange and gold against deep blue and black, dramatic rim light, volumetric god rays, divine glow around the hero, ultra detailed, sharp focus, cinematic poster composition, no text",
+  "_thumb_style_about": "owner, 7 Nov 2026: like the niche's top long-form thumbnails (Divya Katha, Katha Sagar, Itihaas Raz)",
+  "thumb_engine": "flux",
+  "engine": "flux",
+  "deity_looks": {
+    "_about": "owner, 8 Nov 2026: 'make sure that every God character is beautiful and attractive' (FLUX drew Ram as a villager, baby Krishna dark grey). gpu/paint.py adds the look to every prompt that names the deity; the first matching key wins, so the specific forms come first.",
+    "baby krishna|bal krishna|child krishna|little krishna|young krishna|infant krishna|krishna as a (?:baby|child|toddler|boy)": "adorable chubby baby Krishna with soft luminous light sky-blue skin (pale azure, never dark or grey), big sparkling eyes, sweet smile, peacock feather tied in his hair, little gold ornaments and anklets, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "krishna": "beautiful youthful Lord Krishna with soft luminous light sky-blue skin (pale azure, never dark or grey), peacock feather in an ornate golden crown, yellow silk pitambar, gold jewellery, flute, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "rama\\b|ram\\b|shri ram": "handsome Lord Rama with soft luminous light sky-blue skin (pale azure, never dark or grey), ornate golden crown, saffron-yellow silk garments, gold jewellery, great bow on his shoulder, noble bearing, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "vishnu|narayana": "majestic beautiful Lord Vishnu with soft luminous light sky-blue skin, four arms holding conch, discus, mace and lotus, tall jewelled golden crown, yellow silk, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "shiva|mahadev|mahadeva|shankar|neelkanth|bholenath": "handsome serene Lord Shiva with fair luminous ash-blue skin, matted dark hair in a high knot with the crescent moon and a stream of the Ganga, cobra around the neck, rudraksha, trident, tiger-skin garment, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "parvati|gauri|uma\\b": "beautiful Goddess Parvati, fair glowing skin, red-and-gold silk saree, gold jewellery and crown, graceful, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "lakshmi": "beautiful Goddess Lakshmi on a pink lotus, fair glowing skin, red silk saree with gold border, gold jewellery and crown, gold coins flowing from her palm, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "saraswati": "beautiful Goddess Saraswati in a white silk saree on a white lotus, fair glowing skin, holding a veena, a swan beside her, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "durga": "majestic beautiful Goddess Durga riding a lion, many arms holding weapons, red silk saree, golden crown and jewellery, fierce yet beautiful, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "kali": "majestic Goddess Kali with deep luminous blue-black skin, wild flowing hair, fierce beautiful face, gold ornaments, powerful and awe-inspiring, never grotesque, soft divine aura",
+    "sita": "beautiful Goddess Sita, fair glowing skin, simple elegant yellow or red silk saree, gold jewellery, graceful, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "radha": "beautiful Radha, fair glowing skin, colourful lehenga and veil, flowers in her hair, gold jewellery, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "ganesha|ganesh|ganapati|vinayaka": "adorable majestic Lord Ganesha with an elephant head, soft rosy-golden skin, one tusk, a jewelled golden crown, red silk dhoti, holding a modak, kind wise eyes, gentle smile, soft golden divine aura",
+    "hanuman|bajrang": "strong majestic Lord Hanuman, the monkey god, bright saffron-orange glowing skin, a noble kind face, golden crown and mace, muscular, devoted, soft golden divine aura",
+    "brahma": "majestic Lord Brahma with four bearded faces, golden skin, seated on a lotus, holding the Vedas, white and gold garments, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "indra": "handsome regal Indra, king of the gods, fair glowing skin, jewelled golden crown, riding a white elephant, thunderbolt in hand, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "surya": "radiant Surya the sun god on a chariot of seven horses, golden skin, golden crown and armour, blazing sun disc behind him, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "kartikeya|murugan|skanda": "handsome young Lord Kartikeya with a spear, riding a peacock, golden crown, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
+    "vaishno devi|mata vaishno|mata rani": "beautiful Mata Vaishno Devi, fair radiant glowing skin, red silk saree with gold border, golden crown and jewellery, riding a lion, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura"
+  },
+  "short_captions": {
+    "font": "devlok-katha/fonts/TiroDevanagariHindi-Regular.ttf",
+    "size": 54,
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "shadow": false,
+    "y": 0.74,
+    "_about": "owner, 8 Nov 2026: DK Shorts captions small and white, Tiro Devanagari (sample A) without the black stroke"
+  },
+  "tone": {
+    "saturation": 0.92,
+    "knee": 160,
+    "contrast": 0.95
+  },
+  "_about_tone": "owner, 9 Nov 2026: paintings as the theme needs, not high-contrast and oversaturated (measured: THW 40% of pixels at max colour); toned in the edit (pipeline/build.py paint_read), covers stay bold for the click",
+  "thumb_by_owner": true,
+  "_about_thumb_by_owner": "owner, 11 Nov 2026: long-form thumbnails come from ChatGPT; nothing is painted for them (thumb.jpg is a stand-in from the episode's first painting)",
+  "music_long": {
+    "talk": -27,
+    "pause": -17,
+    "read": -21
+  },
+  "breath": 0.45,
+  "_about_music_long": "13 Nov 2026 voice review (analysis/voice-review.md): music under narration matched to the niche's winners"
 }

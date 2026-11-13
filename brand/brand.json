@@ -1,74 +1,84 @@
 {
- "name": "The Hidden Why",
- "handle": "@The-Hidden-Why-4u",
- "tagline": "The real reasons behind the world you take for granted.",
- "colors": {
-  "ink": "#0A0B0F",
-  "signal_yellow": "#FFD60A",
-  "alarm_red": "#FF3B30",
-  "bone": "#F2EEE3",
-  "deep_teal": "#0F3B44"
- },
- "fonts": {
-  "display": "fonts/Anton-Regular.ttf",
-  "body": "fonts/Inter.ttf"
- },
- "voice": {
-  "engine": "kokoro",
-  "voice": "bm_george",
-  "lang": "en-gb",
-  "speed": 0.95
- },
- "music_moods": [
-  "reflective",
-  "intense",
-  "epic"
- ],
- "art_style": "photorealistic film still, real-world scene, crisp sharp focus from foreground to background, bright natural light with a warm key light, natural true-to-life colours, soft natural contrast, natural textures, one clear main subject, clean uncluttered composition, highly detailed, every sign, label, screen and package plain and blank without any lettering",
- "art_negative": "text, letters, watermark, logo, cartoon, anime, flat colors, bright pastel, blurry, low quality, deformed",
- "thumbnail": {
-  "size": [
-   1280,
-   720
+  "name": "The Hidden Why",
+  "handle": "@The-Hidden-Why-4u",
+  "tagline": "The real reasons behind the world you take for granted.",
+  "colors": {
+    "ink": "#0A0B0F",
+    "signal_yellow": "#FFD60A",
+    "alarm_red": "#FF3B30",
+    "bone": "#F2EEE3",
+    "deep_teal": "#0F3B44"
+  },
+  "fonts": {
+    "display": "fonts/Anton-Regular.ttf",
+    "body": "fonts/Inter.ttf"
+  },
+  "voice": {
+    "engine": "kokoro",
+    "voice": "bm_george",
+    "lang": "en-gb",
+    "speed": 0.95
+  },
+  "music_moods": [
+    "reflective",
+    "intense",
+    "epic"
   ],
-  "max_words": 4,
-  "text_side": "left",
-  "highlight_word_box": "alarm_red",
-  "text_color": "signal_yellow",
-  "stroke": "ink"
- },
- "signature_line": "And that is the hidden why.",
- "_about_art": "owner, 31 Oct 2026: brighter and bolder for the phone feed (was dark and moody)",
- "model": "SG161222/RealVisXL_V5.0_Lightning",
- "vae": "madebyollin/sdxl-vae-fp16-fix",
- "steps": 8,
- "guidance": 1.5,
- "short_size": [
-  896,
-  1152
- ],
- "face_fix": true,
- "refine": 1.5,
- "_art_about": "owner, 6 Nov 2026: THW painted realistic like Devlok Katha (was 'cinematic documentary digital painting' on the default model)",
- "_engine_note": "owner, 7 Nov 2026: FLUX throughout for every channel ('good, clear pictures, as per the prompt and scene'); 6 Nov had rolled FLUX back for RealVisXL, whose settings stay below as the fallback",
- "sfx": {
-  "open": "impact",
-  "_about": "owner, 6 Nov 2026: every Short opens on an impact hit"
- },
- "long_captions": {
-  "font": "fonts/Inter.ttf",
-  "size": 42,
-  "weight": 500,
-  "_about": "owner, 7 Nov 2026: long-form captions simpler and medium-sized, no box: warm off-white with a soft shadow over a faint bottom gradient (DK picked Tiro Devanagari, sample B)"
- },
- "engine": "flux",
- "_art_style_sdxl": "photorealistic cinematic film still, real-world scene, natural textures, realistic lighting, bright warm key light with teal accents, sharp focus, highly detailed, no text, no watermark",
- "tone": {
-  "saturation": 0.85,
-  "knee": 150,
-  "contrast": 0.92
- },
- "_about_tone": "owner, 9 Nov 2026: paintings as the theme needs, not high-contrast and oversaturated (measured: THW 40% of pixels at max colour); toned in the edit (pipeline/build.py paint_read), covers stay bold for the click",
- "thumb_by_owner": true,
- "_about_thumb_by_owner": "owner, 11 Nov 2026: long-form thumbnails come from ChatGPT; nothing is painted for them (thumb.jpg is a stand-in from the episode's first painting)"
+  "art_style": "photorealistic film still, real-world scene, crisp sharp focus from foreground to background, bright natural light with a warm key light, natural true-to-life colours, soft natural contrast, natural textures, one clear main subject, clean uncluttered composition, highly detailed, every sign, label, screen and package plain and blank without any lettering",
+  "art_negative": "text, letters, watermark, logo, cartoon, anime, flat colors, bright pastel, blurry, low quality, deformed",
+  "thumbnail": {
+    "size": [
+      1280,
+      720
+    ],
+    "max_words": 4,
+    "text_side": "left",
+    "highlight_word_box": "alarm_red",
+    "text_color": "signal_yellow",
+    "stroke": "ink"
+  },
+  "signature_line": "And that is the hidden why.",
+  "_about_art": "owner, 31 Oct 2026: brighter and bolder for the phone feed (was dark and moody)",
+  "model": "SG161222/RealVisXL_V5.0_Lightning",
+  "vae": "madebyollin/sdxl-vae-fp16-fix",
+  "steps": 8,
+  "guidance": 1.5,
+  "short_size": [
+    896,
+    1152
+  ],
+  "face_fix": true,
+  "refine": 1.5,
+  "_art_about": "owner, 6 Nov 2026: THW painted realistic like Devlok Katha (was 'cinematic documentary digital painting' on the default model)",
+  "_engine_note": "owner, 7 Nov 2026: FLUX throughout for every channel ('good, clear pictures, as per the prompt and scene'); 6 Nov had rolled FLUX back for RealVisXL, whose settings stay below as the fallback",
+  "sfx": {
+    "open": "impact",
+    "_about": "owner, 6 Nov 2026: every Short opens on an impact hit"
+  },
+  "long_captions": {
+    "font": "fonts/Inter.ttf",
+    "size": 42,
+    "weight": 500,
+    "_about": "owner, 7 Nov 2026: long-form captions simpler and medium-sized, no box: warm off-white with a soft shadow over a faint bottom gradient (DK picked Tiro Devanagari, sample B)"
+  },
+  "engine": "flux",
+  "_art_style_sdxl": "photorealistic cinematic film still, real-world scene, natural textures, realistic lighting, bright warm key light with teal accents, sharp focus, highly detailed, no text, no watermark",
+  "tone": {
+    "saturation": 0.85,
+    "knee": 150,
+    "contrast": 0.92
+  },
+  "_about_tone": "owner, 9 Nov 2026: paintings as the theme needs, not high-contrast and oversaturated (measured: THW 40% of pixels at max colour); toned in the edit (pipeline/build.py paint_read), covers stay bold for the click",
+  "thumb_by_owner": true,
+  "_about_thumb_by_owner": "owner, 11 Nov 2026: long-form thumbnails come from ChatGPT; nothing is painted for them (thumb.jpg is a stand-in from the episode's first painting)",
+  "music_long": {
+    "mode": "sparse",
+    "opening": 20,
+    "chapter": 5,
+    "talk": -24,
+    "pause": -20,
+    "read": -22
+  },
+  "breath": 0.25,
+  "_about_music_long": "13 Nov 2026 voice review (analysis/voice-review.md): music under narration matched to the niche's winners"
 }

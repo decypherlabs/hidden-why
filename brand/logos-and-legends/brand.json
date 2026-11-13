@@ -1,95 +1,102 @@
 {
- "name": "Logos & Legends",
- "handle": "@LogosAndLegends",
- "wordmark": [
-  "LOGOS & ",
-  "LEGENDS"
- ],
- "colors": {
-  "ink": "#101116",
-  "signal_yellow": "#E2B254",
-  "alarm_red": "#C8483C",
-  "bone": "#F4ECDC",
-  "deep_teal": "#3FA36B"
- },
- "voice": {
-  "engine": "parler",
-  "model": "ai4bharat/indic-parler-tts",
-  "description": "Aman speaks in a deep, bold, low-pitched and commanding documentary narrator voice, with confident, slightly dramatic expression, at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
-  "_about": "owner, 7 Nov 2026: Aman, bold narrator (picked from the rohit/karan/aman/vikas samples, tools/parler_sample.py SET=bold)",
-  "trim": true
- },
- "fonts": {
-  "display": "logos-and-legends/fonts/Mukta-ExtraBold.ttf",
-  "body": "logos-and-legends/fonts/Poppins-Bold.ttf",
-  "_about": "owner, 8 Nov 2026: 'use a bold font family, the text is very light weight' (Mukta ExtraBold, Poppins Bold; OFL)"
- },
- "long_captions": {
-  "font": "logos-and-legends/fonts/Mukta-Bold.ttf",
-  "size": 40,
-  "color": [
-   255,
-   255,
-   255
+  "name": "Logos & Legends",
+  "handle": "@LogosAndLegends",
+  "wordmark": [
+    "LOGOS & ",
+    "LEGENDS"
   ],
-  "shadow": true,
-  "shade": false,
-  "y": 0.9,
-  "_about": "owner, 8 Nov 2026: 'no background - just white, small text' (a faint shadow only, for bright pictures)",
-  "_before": {
-   "font": "logos-and-legends/fonts/Mukta-Bold.ttf",
-   "size": 50,
-   "style": "pill",
-   "_about": "owner, 7 Nov 2026: picked B, white text in a dark rounded pill",
-   "_bold": "owner, 8 Nov 2026: bold captions"
-  }
- },
- "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, natural light, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, every other signboard, shop front, banner, poster and package plain and blank without any lettering, only the words the prompt quotes printed crisp and correctly spelled, Indian shops and markets with Indian goods and Indian shoppers, never a Western store, ultra detailed",
- "art_negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, portrait of a real person, deformed hands, extra fingers, distorted face, blurry, low quality, cartoon, painting, illustration, cartoon, anime, 3d render, oversaturated, cluttered, busy background, surreal, distorted perspective",
- "cover_style": "photorealistic cinematic still, the product or place large, sharp and centred, dramatic light, rich saturated colour, high contrast, clear uncluttered background, no text, no logos",
- "_about": "owner, 7 Nov 2026: Logos & Legends (Hindi brand stories, long-form only). Never a real person's realistic face: products, places, anonymous figures, silhouettes.",
- "_about_art": "owner, 7 Nov 2026: realistic, clear and exactly the scene, like the benchmarks (The Quiet Story, Jayansh Insight); anonymous people only",
- "engine": "flux",
- "_engine_about": "owner, 7 Nov 2026: 'that level of shots' (The Quiet Story's Mahindra episode): every shot on FLUX, its golden-hour documentary look",
- "chapter_style": "numbered",
- "_people_about": "owner, 7 Nov 2026 review of Maruti 800: 'people paintings seem like Britishers, we need Indian people'",
- "motion_fx": true,
- "intro": "title",
- "_art_style_about": "owner, 7 Nov 2026: neutral base; each episode adds its own look (studio/ll_longform.py LOOKS) - not every video saturated",
- "date_style": "corner",
- "_art_style_text": "owner, 8 Nov 2026: English 'supermarket' signs looked British; FLUX ignores 'no text', so the style asks for blank signs and Indian shops",
- "thumbnails": "owner",
- "_thumbnails_about": "owner, 8 Nov 2026: 'Stop thumbnail production for LL': no thumbnail painting, no generated thumbnail; the owner's ChatGPT ones (set_thumbs.py) only",
- "short_layout": "teaser",
- "_short_layout_about": "owner, 8 Nov 2026: Shorts cut from the episodes (studio/ll_shorts.py) need 'good editing', not the plain panel: full-frame pictures cut every ~1.5 s, a jolt + flash + impact + punch word on every question, kinetic captions, progress bar, flash montage and the call to the full episode",
- "short_captions": {
-  "font": "logos-and-legends/fonts/Mukta-Bold.ttf",
-  "size": 60,
-  "color": [
-   255,
-   255,
-   255
-  ],
-  "shadow": true,
-  "y": 0.72,
-  "_about": "owner, 8 Nov 2026: the 6 bold styles weren't liked; small white like DK's (provisional, in the sample)"
- },
- "_art_style_brand": "owner, 8 Nov 2026: the story's brand name may be shown on its own product, gate, shop or ad (quoted in the prompt); everything else blank",
- "_logo": "owner, 8 Nov 2026: the ChatGPT Heritage Gold L&L emblem in intro and outro; the 7 Nov logo in archive/",
- "end_screen_s": 20,
- "_end_screen": "owner, 8 Nov 2026: a 20 s end screen with spaces for YouTube's next-video and subscribe elements",
- "_fonts_before": {
-  "display": "fonts/Mukta-Medium.ttf",
-  "body": "fonts/Inter.ttf",
-  "_about": "Devanagari chapter cards and captions (Mukta, OFL)"
- },
- "_date_style_before": "callout",
- "tone": {
-  "saturation": 0.85,
-  "knee": 150,
-  "contrast": 0.95
- },
- "_about_tone": "owner, 9 Nov 2026: paintings as the theme needs, not high-contrast and oversaturated (measured: THW 40% of pixels at max colour); toned in the edit (pipeline/build.py paint_read), covers stay bold for the click",
- "thumb_by_owner": true,
- "_about_thumb_by_owner": "owner, 11 Nov 2026: long-form thumbnails come from ChatGPT; nothing is painted for them (thumb.jpg is a stand-in from the episode's first painting)"
+  "colors": {
+    "ink": "#101116",
+    "signal_yellow": "#E2B254",
+    "alarm_red": "#C8483C",
+    "bone": "#F4ECDC",
+    "deep_teal": "#3FA36B"
+  },
+  "voice": {
+    "engine": "parler",
+    "model": "ai4bharat/indic-parler-tts",
+    "description": "Aman speaks in a deep, bold, low-pitched and commanding documentary narrator voice, with confident, slightly dramatic expression, at a moderate pace. The recording is very clear and close-sounding, with no background noise.",
+    "_about": "owner, 7 Nov 2026: Aman, bold narrator (picked from the rohit/karan/aman/vikas samples, tools/parler_sample.py SET=bold)",
+    "trim": true
+  },
+  "fonts": {
+    "display": "logos-and-legends/fonts/Mukta-ExtraBold.ttf",
+    "body": "logos-and-legends/fonts/Poppins-Bold.ttf",
+    "_about": "owner, 8 Nov 2026: 'use a bold font family, the text is very light weight' (Mukta ExtraBold, Poppins Bold; OFL)"
+  },
+  "long_captions": {
+    "font": "logos-and-legends/fonts/Mukta-Bold.ttf",
+    "size": 40,
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "shadow": true,
+    "shade": false,
+    "y": 0.9,
+    "_about": "owner, 8 Nov 2026: 'no background - just white, small text' (a faint shadow only, for bright pictures)",
+    "_before": {
+      "font": "logos-and-legends/fonts/Mukta-Bold.ttf",
+      "size": 50,
+      "style": "pill",
+      "_about": "owner, 7 Nov 2026: picked B, white text in a dark rounded pill",
+      "_bold": "owner, 8 Nov 2026: bold captions"
+    }
+  },
+  "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, natural light, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, every other signboard, shop front, banner, poster and package plain and blank without any lettering, only the words the prompt quotes printed crisp and correctly spelled, Indian shops and markets with Indian goods and Indian shoppers, never a Western store, ultra detailed",
+  "art_negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, portrait of a real person, deformed hands, extra fingers, distorted face, blurry, low quality, cartoon, painting, illustration, cartoon, anime, 3d render, oversaturated, cluttered, busy background, surreal, distorted perspective",
+  "cover_style": "photorealistic cinematic still, the product or place large, sharp and centred, dramatic light, rich saturated colour, high contrast, clear uncluttered background, no text, no logos",
+  "_about": "owner, 7 Nov 2026: Logos & Legends (Hindi brand stories, long-form only). Never a real person's realistic face: products, places, anonymous figures, silhouettes.",
+  "_about_art": "owner, 7 Nov 2026: realistic, clear and exactly the scene, like the benchmarks (The Quiet Story, Jayansh Insight); anonymous people only",
+  "engine": "flux",
+  "_engine_about": "owner, 7 Nov 2026: 'that level of shots' (The Quiet Story's Mahindra episode): every shot on FLUX, its golden-hour documentary look",
+  "chapter_style": "numbered",
+  "_people_about": "owner, 7 Nov 2026 review of Maruti 800: 'people paintings seem like Britishers, we need Indian people'",
+  "motion_fx": true,
+  "intro": "title",
+  "_art_style_about": "owner, 7 Nov 2026: neutral base; each episode adds its own look (studio/ll_longform.py LOOKS) - not every video saturated",
+  "date_style": "corner",
+  "_art_style_text": "owner, 8 Nov 2026: English 'supermarket' signs looked British; FLUX ignores 'no text', so the style asks for blank signs and Indian shops",
+  "thumbnails": "owner",
+  "_thumbnails_about": "owner, 8 Nov 2026: 'Stop thumbnail production for LL': no thumbnail painting, no generated thumbnail; the owner's ChatGPT ones (set_thumbs.py) only",
+  "short_layout": "teaser",
+  "_short_layout_about": "owner, 8 Nov 2026: Shorts cut from the episodes (studio/ll_shorts.py) need 'good editing', not the plain panel: full-frame pictures cut every ~1.5 s, a jolt + flash + impact + punch word on every question, kinetic captions, progress bar, flash montage and the call to the full episode",
+  "short_captions": {
+    "font": "logos-and-legends/fonts/Mukta-Bold.ttf",
+    "size": 60,
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "shadow": true,
+    "y": 0.72,
+    "_about": "owner, 8 Nov 2026: the 6 bold styles weren't liked; small white like DK's (provisional, in the sample)"
+  },
+  "_art_style_brand": "owner, 8 Nov 2026: the story's brand name may be shown on its own product, gate, shop or ad (quoted in the prompt); everything else blank",
+  "_logo": "owner, 8 Nov 2026: the ChatGPT Heritage Gold L&L emblem in intro and outro; the 7 Nov logo in archive/",
+  "end_screen_s": 20,
+  "_end_screen": "owner, 8 Nov 2026: a 20 s end screen with spaces for YouTube's next-video and subscribe elements",
+  "_fonts_before": {
+    "display": "fonts/Mukta-Medium.ttf",
+    "body": "fonts/Inter.ttf",
+    "_about": "Devanagari chapter cards and captions (Mukta, OFL)"
+  },
+  "_date_style_before": "callout",
+  "tone": {
+    "saturation": 0.85,
+    "knee": 150,
+    "contrast": 0.95
+  },
+  "_about_tone": "owner, 9 Nov 2026: paintings as the theme needs, not high-contrast and oversaturated (measured: THW 40% of pixels at max colour); toned in the edit (pipeline/build.py paint_read), covers stay bold for the click",
+  "thumb_by_owner": true,
+  "_about_thumb_by_owner": "owner, 11 Nov 2026: long-form thumbnails come from ChatGPT; nothing is painted for them (thumb.jpg is a stand-in from the episode's first painting)",
+  "music_long": {
+    "talk": -23,
+    "pause": -13,
+    "read": -17
+  },
+  "breath": 0.45,
+  "_about_music_long": "13 Nov 2026 voice review (analysis/voice-review.md): music under narration matched to the niche's winners"
 }
