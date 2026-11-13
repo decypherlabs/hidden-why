@@ -421,6 +421,7 @@ def part(out, k, n):
 
 # ---------------------------------------------------------------- join
 def join(out):
+    out = out.resolve()  # ffmpeg runs inside out/: every path absolute (13 Nov 2026: the first join looked in out/out/)
     tl = json.loads((out / "timeline.json").read_text())
     parts = sorted(out.glob("part-*.mp4"))
     (out / "parts.txt").write_text("".join(f"file '{p.name}'\n" for p in parts))
