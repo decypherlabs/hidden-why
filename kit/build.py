@@ -30,6 +30,12 @@ from kit import FPS, H, W, ease_out  # noqa: E402
 GAP = 0.25  # seconds of air after each line
 CARD = 2.2  # a chapter card
 END = 8.0  # the end card (YouTube end screen elements sit on it)
+# the edit (owner, 13 Nov 2026: "the videos feel very plain going... the hooks has to be some different, edit,
+# effects"): the hook cuts every HOOK_BEAT s (each painting in wide / close / medium framings, a flash and a hit on every
+# cut, the line's number or year slammed on screen), a title slam after it, and no picture held past BODY_BEAT s after
+HOOK_BEAT, BODY_BEAT, TITLE = 1.6, 3.4, 2.6
+BIG = __import__("re").compile(r"\$\s?\d[\d,.]*(?:\s?(?:billion|million|thousand|bn|m)\b)?|\b\d[\d,.]*\s?(?:%|percent|billion|million|"
+                               r"kilometres|kilometers|km|miles|barrels|stores|ships)\b|\b(?:1[5-9]|20)\d\d\b", 2)
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"}
 LOOK = {
     "point-of-ruin": {"name": "POINT OF RUIN", "bg": (20, 21, 24), "accent": (212, 90, 102), "tint": "#5B6770",
@@ -141,14 +147,20 @@ def prep(script_path, out):
     durs = voice(shots, out)
     stock(shots, out)
     t, items, chapters = 0.0, [], []
+    title = str(sc.get("intro_title") or sc.get("title") or "").split(":")[0].split(",")[0].split("|")[0].strip()
     for x in shots:
+        if x["si"] == 1 and x["first"] and title:  # the title slam closes the hook, before chapter 1
+            items.append({"kind": "title", "text": title[:40], "start": t, "dur": TITLE, "section": "title"})
+            t += TITLE
         if x["card"] and x["si"] >= 2:  # a chapter card from the second chapter on (nothing in the first minute)
             items.append({"kind": "card", "text": x["card"], "start": t, "dur": CARD})
             t += CARD
         if x["first"] and x["card"]:
             chapters.append((t, x["card"].title()))
         d = durs[f"{x['n']:03d}"] + GAP
-        items.append({**x, "start": t, "dur": d})
+        hook = x["si"] == 0
+        big = x.get("title") or (BIG.search(x.get("vo") or "") or [None])[0] if hook and x.get("kind") in ("still", "footage", "archive") else None
+        items.append({**x, "start": t, "dur": d, **({"hook": True} if hook else {}), **({"big": str(big).replace("*", "").upper()} if big else {})})
         t += d
     items.append({"kind": "end", "start": t, "dur": END})
     t += END
@@ -174,10 +186,37 @@ class Ctx:
         return self.items[-1]
 
 
-def backdrop(L, i):
+def backdrop(L, i, ctx=None, it=None):
+    """Behind a card: the last painting before it, blurred and dimmed (13 Nov 2026: cards on flat black read as plain);
+    flat ground when there is none."""
+    if ctx is not None and it is not None:
+        k = ctx.items.index(it) if it in ctx.items else -1
+        prev = next((x for x in reversed(ctx.items[:max(0, k)]) if x.get("kind") == "still"
+                     and (ctx.out / f"shot-{x['n']:02d}.png").exists()), None)
+        if prev is not None:
+            key = ("bg", prev["n"])
+            if key not in ctx.cache:
+                import cv2
+                im = np.asarray(Image.open(ctx.out / f"shot-{prev['n']:02d}.png").convert("RGB").resize((W // 4, H // 4)))
+                im = cv2.resize(cv2.GaussianBlur(im, (0, 0), 6), (W, H), interpolation=cv2.INTER_LINEAR)
+                ctx.cache = {a: b for a, b in ctx.cache.items() if a[0] != "bg"}
+                ctx.cache[key] = (im.astype(np.float32) * 0.32 + np.array(L["bg"], np.float32) * 0.5).clip(0, 255).astype(np.uint8)
+            return ctx.cache[key].copy()
     img = np.zeros((H, W, 3), np.uint8)
     img[:] = L["bg"]
     return img
+
+
+def beats(it):
+    """How many pictures a still or clip line is cut into: every HOOK_BEAT s in the hook, BODY_BEAT s after."""
+    if it.get("kind") in ("still", "footage", "archive"):
+        return max(1, round(it["dur"] / (HOOK_BEAT if it.get("hook") else BODY_BEAT)))
+    if it.get("hook") and it.get("kind") not in ("map", "title", "card", "end"):  # hook cards punch in on the beat too
+        return max(1, round(it["dur"] / HOOK_BEAT))
+    return 1
+
+
+FRAMES = [(1.0, 0.5, 0.5), (1.38, 0.42, 0.45), (1.18, 0.6, 0.5), (1.5, 0.55, 0.4), (1.12, 0.38, 0.55)]  # zoom, cx, cy
 
 
 def footage(ctx, it, t, i, n):
@@ -190,6 +229,11 @@ def footage(ctx, it, t, i, n):
     rgb = ctx.clips[key].frame(i, n, drift=1 if it["n"] % 2 else -1)
     if rgb is None:
         return None
+    nb = beats(it)
+    if nb > 1 and int(i * nb / max(1, n)) % 2:  # every other beat a punch-in on the same clip
+        import cv2
+        cw, ch = int(W / 1.22), int(H / 1.22)
+        rgb = cv2.resize(rgb[(H - ch) // 2:(H - ch) // 2 + ch, (W - cw) // 2:(W - cw) // 2 + cw], (W, H), interpolation=cv2.INTER_LINEAR)
     rgb = kit.grade(rgb, sat=0.55 if it.get("kind") == "archive" else 0.8, tint=ctx.L["tint"])
     if it.get("kind") == "archive":  # duotone-ish archive treatment
         g = rgb.mean(axis=2, keepdims=True)
@@ -207,18 +251,23 @@ def still(ctx, it, t, i, n):
         ctx.cache = {k: v for k, v in ctx.cache.items() if k[0] != "still"}
         ctx.cache[("still", it["n"])] = np.asarray(im)
     src = ctx.cache[("still", it["n"])]
-    u = i / max(1, n - 1)
-    z = 1.0 + 0.06 * u
+    nb = beats(it)  # the painting in turn as wide, close and medium shots, each with its own move
+    b = min(nb - 1, int(i * nb / max(1, n)))
+    bn = max(1, n // nb)
+    u = (i - b * bn) / max(1, bn - 1)
+    z0, cx, cy = FRAMES[(b + it["n"]) % len(FRAMES)] if nb > 1 else (1.0, 0.5, 0.5)
+    move = 0.10 if it.get("hook") else 0.07
+    z = z0 * (1.0 + move * (u if (b + it["n"]) % 2 == 0 else 1 - u))  # push in, then pull out on the next
     cw, ch = int(W * 1.08 / z), int(H * 1.08 / z)
-    x0 = (src.shape[1] - cw) // 2
-    y0 = (src.shape[0] - ch) // 2
+    x0 = int(np.clip(src.shape[1] * cx - cw / 2, 0, src.shape[1] - cw))
+    y0 = int(np.clip(src.shape[0] * cy - ch / 2, 0, src.shape[0] - ch))
     import cv2
     return kit.grade(cv2.resize(src[y0:y0 + ch, x0:x0 + cw], (W, H), interpolation=cv2.INTER_LINEAR), tint=ctx.L["tint"])
 
 
 def stat(ctx, it, t, i, n):
     s = it.get("stat") or {}
-    img = backdrop(ctx.L, i)
+    img = backdrop(ctx.L, i, ctx, it)
     layer = kit.blank()
     d = ImageDraw.Draw(layer)
     v = s.get("value")
@@ -254,7 +303,7 @@ def paper_card(ctx, it, t, key, dateline, headline, hl):
         ctx.cache[(key, it["n"])] = kit.Clipping(dateline, headline, hl, paper=ctx.L["paper"], accent=ctx.L["hl"],
                                                  style=ctx.L["style"], seed=it["n"])
     c = ctx.cache[(key, it["n"])]
-    img = backdrop(ctx.L, 0)
+    img = backdrop(ctx.L, 0, ctx, it)
     layer = kit.blank()
     p = kit.back_out(t / (10 / FPS))
     kit.place(layer, c.render(t), (W / 2, H / 2 + (1 - p) * 300), -2 + 2 * (it["n"] % 3), (1.06 - 0.06 * min(1, t / 0.4)) * (1 + 0.02 * t / max(it["dur"], 1)))
@@ -292,7 +341,7 @@ def wrap(d, text, f, maxw):
 
 def quote(ctx, it, t, i, n):
     q = it.get("quote") or {}
-    img = backdrop(ctx.L, i)
+    img = backdrop(ctx.L, i, ctx, it)
     layer = kit.blank()
     d = ImageDraw.Draw(layer)
     text = f"“{q.get('text') or it.get('vo')}”"
@@ -317,7 +366,7 @@ def chart(ctx, it, t, i, n):
     c = it.get("chart") or {}
     pts = [(str(p[0]), float(p[1])) for p in c.get("points") or [] if isinstance(p, (list, tuple)) and len(p) == 2
            and isinstance(p[1], (int, float))]
-    img = backdrop(ctx.L, i)
+    img = backdrop(ctx.L, i, ctx, it)
     layer = kit.blank()
     d = ImageDraw.Draw(layer)
     kit.spaced(d, (180, 120), str(c.get("title") or "").upper(), kit.font("Inter", 46), (*BONE, 255))
@@ -359,7 +408,7 @@ def mapshot(ctx, it, t, i, n):
 
 
 def card(ctx, it, t, i, n):
-    img = backdrop(ctx.L, i)
+    img = backdrop(ctx.L, i, ctx, it)
     layer = kit.blank()
     d = ImageDraw.Draw(layer)
     a = ease_out(t / 0.3) * (1 - ease_out((t - it["dur"] + 0.3) / 0.3))
@@ -373,8 +422,43 @@ def card(ctx, it, t, i, n):
     return kit.over(img, layer)
 
 
+def titleslam(ctx, it, t, i, n):
+    """The episode's name slammed in after the hook: scale 1.5 -> 1 in 0.25 s with a shake, the channel above it."""
+    img = backdrop(ctx.L, i, ctx, it)
+    layer = kit.blank()
+    d = ImageDraw.Draw(layer)
+    name, var = ctx.L["headfont"]
+    txt = str(it["text"]).upper()
+    size = 150
+    while size > 70 and d.textlength(txt, font=kit.font(name, size, var)) > W - 240:
+        size -= 8
+    sc = 1.0 + 0.5 * (1 - ease_out(t / 0.25))
+    f = kit.font(name, int(size * sc), var)
+    sh = (np.random.default_rng(i).normal(0, 9, 2) * max(0.0, 1 - t / 0.45)).astype(int)
+    tw = d.textlength(txt, font=f)
+    a = min(1.0, t / 0.12) * (1 - ease_out((t - it["dur"] + 0.25) / 0.25))
+    d.text((W / 2 - tw / 2 + sh[0], H / 2 - size * sc * 0.62 + sh[1]), txt, font=f, fill=(*BONE, int(255 * a)),
+           stroke_width=3, stroke_fill=(0, 0, 0, int(200 * a)))
+    kit.spaced(d, (W / 2 - 170, H / 2 - size * 0.62 - 70), ctx.L["name"], kit.font("Inter", 30), (*ctx.L["accent"], int(255 * a)))
+    rw = 240 * ease_out((t - 0.15) / 0.4)
+    d.line([(W / 2 - rw, H / 2 + size * 0.62), (W / 2 + rw, H / 2 + size * 0.62)], fill=(*ctx.L["accent"], int(255 * a)), width=5)
+    return kit.over(img, layer)
+
+
+def big_word(layer, text, t, dur, accent):
+    """The hook line's number or year, huge, popping in (back-out) with a black outline, gone before the next beat."""
+    if t < 0.12 or t > min(dur, 1.9):
+        return
+    d = ImageDraw.Draw(layer)
+    sc = kit.back_out((t - 0.12) / 0.22)
+    f = kit.font("BarlowCondensed-Bold", max(20, int(260 * (0.6 + 0.4 * sc))))
+    a = int(255 * min(1.0, (min(dur, 1.9) - t) / 0.2))
+    tw = d.textlength(text, font=f)
+    d.text((W / 2 - tw / 2, H * 0.30), text, font=f, fill=(*accent, a), stroke_width=8, stroke_fill=(0, 0, 0, a))
+
+
 def endcard(ctx, it, t, i, n):
-    img = backdrop(ctx.L, i)
+    img = backdrop(ctx.L, i, ctx, it)
     layer = kit.blank()
     d = ImageDraw.Draw(layer)
     a = ease_out(t / 0.5)
@@ -388,7 +472,8 @@ def endcard(ctx, it, t, i, n):
 
 
 DRAW = {"footage": footage, "archive": footage, "still": still, "stat": stat, "headline": headline,
-        "document": document, "quote": quote, "chart": chart, "map": mapshot, "card": card, "end": endcard}
+        "document": document, "quote": quote, "chart": chart, "map": mapshot, "card": card, "end": endcard,
+        "title": titleslam}
 
 
 def plate_ok(ctx, it):
@@ -418,15 +503,30 @@ def render_frame(ctx, fi):
         rgb = None
     if rgb is None:
         rgb = backdrop(ctx.L, fi)
+    import cv2
+    if it.get("kind") not in ("map", "end") and li < 6:  # a snap-in on every cut: 1.06 -> 1 over 6 frames
+        z = 1.0 + 0.06 * (1 - ease_out(li / 6))
+        cw, ch = int(W / z), int(H / z)
+        rgb = cv2.resize(rgb[(H - ch) // 2:(H - ch) // 2 + ch, (W - cw) // 2:(W - cw) // 2 + cw], (W, H), interpolation=cv2.INTER_LINEAR)
+    nb = beats(it)
+    since = li % max(1, n // nb) if nb > 1 else li
+    if nb > 1 and it.get("kind") not in ("still", "footage", "archive") and int(li * nb / max(1, n)) % 2:
+        z = 1.16 - 0.04 * min(1.0, since / max(1, n // nb))  # a card: every other beat a close punch-in, easing
+        cw, ch = int(W / z), int(H / z)
+        rgb = cv2.resize(rgb[(H - ch) // 2:(H - ch) // 2 + ch, (W - cw) // 2:(W - cw) // 2 + cw], (W, H), interpolation=cv2.INTER_LINEAR)
+    if it.get("hook") and since < 2:  # a short light flash on every hook cut (0.45 read as a grey glitch frame)
+        rgb = cv2.addWeighted(rgb, 1 - 0.28 * (1 - since / 2), np.full_like(rgb, 255), 0.28 * (1 - since / 2), 0)
     layer = kit.blank()
     d = ImageDraw.Draw(layer)
+    if it.get("big"):
+        big_word(layer, it["big"], lt, it["dur"], ctx.L["accent"])
     if it.get("vo"):
         kit.captions(layer, it["vo"].split(), lt, it["dur"] - GAP, accent=ctx.L["accent"])
     if it.get("kind") in ("footage", "archive") and it.get("plate") and plate_ok(ctx, it):
         kit.label_plate(layer, (90, 110), str(it["plate"])[:48], lt)
     if it.get("kind") in ("footage", "archive"):
         kit.source_tag(d, "Pixabay")
-    if it.get("kind") not in ("card", "end"):
+    if it.get("kind") not in ("card", "end", "title"):
         kit.watermark(d, ctx.L["name"])
     return kit.finish(kit.over(rgb, layer), fi)
 
@@ -460,8 +560,18 @@ def join(out):
         k, at = it.get("kind"), it["start"]
         if it.get("vo"):
             mix.vo(kit.load_audio(out / f"vo-{it['n']:03d}.wav"), at)
+        if it.get("hook"):  # a hit on every hook cut, inside the line too
+            nb = max(1, round(it["dur"] / HOOK_BEAT)) if k not in ("map", "title", "card", "end") else 1
+            for j in range(nb):
+                mix.add(thud, at + j * it["dur"] / nb, 0.42)
+                if j:
+                    mix.add(whoosh, max(0, at + j * it["dur"] / nb - 0.15), 0.3)
+        if k == "title":
+            mix.add(kit.synth("riser", 1.6), max(0, at - 1.5), 0.55)
+            mix.add(thud, at, 0.95)
+            mix.add(swipe, at + TITLE - 0.35, 0.4)
         # owner, 13 Nov 2026 ("SFX are also less"): a sound on every change of picture, and one per element
-        if prev is not None and k != "card" and (k != prev.get("kind") or k in ("footage", "archive", "still")):
+        if prev is not None and k not in ("card", "title") and (k != prev.get("kind") or k in ("footage", "archive", "still")):
             mix.add(whoosh, max(0, at - 0.18), 0.32)
         if k in ("headline", "document"):
             mix.add(thud, at + 0.2, 0.55)
@@ -500,14 +610,14 @@ def join(out):
     spans, cur = [], None
     for it in items:
         sec = it.get("section") or ("_end" if it.get("kind") == "end" else cur)
-        if it.get("kind") == "card":
+        if it.get("kind") in ("card", "title"):
             sec = f"_card{it['start']}"
         if not spans or spans[-1][0] != sec:
             spans.append([sec, it["start"], it["start"] + it["dur"]])
         else:
             spans[-1][2] = it["start"] + it["dur"]
         cur = it.get("section") or cur
-    drops = [(it["start"] - 0.6, it["start"]) for it in items if it.get("kind") == "card"]
+    drops = [(it["start"] - 0.6, it["start"]) for it in items if it.get("kind") in ("card", "title")]
     k = 0
     for sec, a0, a1 in spans:
         if str(sec).startswith("_card"):
