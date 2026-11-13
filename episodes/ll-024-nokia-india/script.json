@@ -72,17 +72,18 @@
     },
     {
      "vo": "बिजली जाती, तो उसी फ़ोन की टॉर्च से घर में रोशनी होती।",
-     "prompt": "an Indian mother in a cotton saree holding a small grey keypad phone with a bright white beam of light coming from its top, lighting a kitchen shelf in a pitch-dark home, wide shot, night",
+     "prompt": "an Indian mother in a cotton saree holding a small grey keypad phone up, a bright white beam of light shining from its top onto a kitchen shelf with steel utensils, the rest of the home pitch dark, medium shot, night",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of a grey keypad phone's tiny torch beam falling on a box of matches and a white candle on a steel plate"
      ],
-     "caption": "बिजली जाती, तो उसी phone की torch से घर में रोशनी होती।"
+     "caption": "बिजली जाती, तो उसी phone की torch से घर में रोशनी होती।",
+     "seed": 8923
     },
     {
      "vo": "लोग मॉडल नहीं पूछते थे। बोलते थे, 'नोकिया दिखाना ज़रा।'",
-     "prompt": "a round-faced Indian mobile shopkeeper in his 40s with a white kurta and a gold wristwatch holding up a grey keypad phone with the word \"NOKIA\" above its screen, standing behind a glass counter, busy 2000s Indian mobile shop, bright daylight, medium shot",
+     "prompt": "a round-faced Indian mobile shopkeeper in his 40s holding up a grey keypad phone toward a customer, white kurta, gold wristwatch, the word \"NOKIA\" above its screen, glass counter with phones in front of him, busy Indian mobile shop, bright daylight, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "caption": "लोग model नहीं पूछते थे। बोलते थे, 'Nokia दिखाना ज़रा।'",
@@ -212,7 +213,8 @@
         }
        ]
       }
-     }
+     },
+     "seed": 8924
     },
     {
      "vo": "फिर एक दिन वो जेबों से चुपचाप ग़ायब हो गया।",
@@ -793,7 +795,7 @@
     },
     {
      "vo": "वेस्ट बंगाल के मुख्यमंत्री ज्योति बसु ने दिल्ली में टेलीकॉम मिनिस्टर सुख राम को कॉल किया।",
-     "prompt": "an elderly Indian man in a white kurta and shawl seen from behind, his face not visible, holding a chunky 1990s grey mobile handset with a pull-up antenna to his ear, standing by a tall bright window, Indian officials and photographers watching, medium shot",
+     "prompt": "an elderly Indian man in a white kurta and shawl seen from the side, face bowed in shadow, pressing a chunky 1990s grey mobile handset with a pull-up antenna to his ear, a tall bright window beside him, Indian officials and photographers watching from the right, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -801,11 +803,11 @@
      ],
      "caption": "West Bengal के मुख्यमंत्री Jyoti Basu ने Delhi में Telecom Minister Sukh Ram को call किया।",
      "label": "JYOTI BASU · तत्कालीन मुख्यमंत्री, पश्चिम बंगाल",
-     "seed": 8932
+     "seed": 16851
     },
     {
      "vo": "ये इंडिया की पहली मोबाइल कॉल थी। और हैंडसेट नोकिया का था।",
-     "prompt": "a chunky grey 1990s brick-shaped mobile handset with a short stubby antenna on top and no cord, standing upright on a polished wooden desk, a bright camera flash glowing in the plain dark background, close-up",
+     "prompt": "a chunky grey 1990s brick-shaped mobile handset with a short stubby antenna, standing upright on a polished wooden desk in the centre, photographers' bright camera flashes glowing in the dark background, close-up",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "caption": "ये India की पहली mobile call थी। और handset Nokia का था।",
@@ -935,7 +937,7 @@
        ]
       }
      },
-     "seed": 24771
+     "seed": 32690
     },
     {
      "vo": "तब मोबाइल अमीरों की चीज़ था। इनकमिंग कॉल पर भी पैसे कटते थे।",
@@ -7763,16 +7765,32 @@
  "voice_approved_at": "2026-11-12 11:58",
  "repaint": {
   "shots": [
+   4,
+   5,
+   13,
    14
   ],
-  "thumbs": [],
-  "at": "2026-11-12 13:30"
+  "thumbs": [
+   "shot-04-2.png",
+   "shot-13-2.png"
+  ],
+  "at": "2026-11-13 11:36",
+  "by": "owner"
  },
  "shot_qc": {
   "checked": "2026-11-12T08:27:07Z",
-  "rounds": 3,
-  "left": [
-   14
+  "rounds": 2,
+  "why": {
+   "4": "the owner marked it as garbled or wrong",
+   "5": "the owner marked it as garbled or wrong",
+   "13": "the owner marked it as garbled or wrong",
+   "14": "the owner marked it as garbled or wrong"
+  },
+  "recheck": [
+   "4",
+   "5",
+   "13",
+   "14"
   ]
  }
 }
