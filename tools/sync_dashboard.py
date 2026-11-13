@@ -87,7 +87,9 @@ TITLE_TAGS = ["#science", "#facts", "#didyouknow"]  # owner, 1 Nov 2026: popular
 def thw_title(title, short):
     """The Hidden Why's title + its hashtags (#Shorts first on a Short), as many as fit YouTube's 100 chars."""
     base = re.sub(r"\s*#\w+", "", title).strip()
-    tags = (["#Shorts"] if short else []) + TITLE_TAGS
+    if not short:  # a long-form's title carries no hashtags (13 Nov 2026 breakout calibration; they stay in the description)
+        return base
+    tags = ["#Shorts"] + TITLE_TAGS
     while tags and len(f"{base} {' '.join(tags)}") > 100:
         tags.pop()
     return f"{base} {' '.join(tags)}".strip()
