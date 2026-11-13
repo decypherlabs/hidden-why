@@ -22,7 +22,8 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))
 import kit  # noqa: E402
 from kit import FPS, H, W, ease_out  # noqa: E402
 
@@ -180,23 +181,11 @@ def footage(ctx, it, t, i, n):
     rgb = ctx.clips[key].frame(i, n, drift=1 if it["n"] % 2 else -1)
     if rgb is None:
         return None
-    if it.get("kind") == "archive":
-        rgb = kit.grade(rgb, sat=0.55, tint=ctx.L["tint"])
-    else:  # footage keeps its own colour and punch (owner, 13 Nov 2026: "the background video is a still dull")
-        rgb = vivid(rgb)
+    rgb = kit.grade(rgb, sat=0.55 if it.get("kind") == "archive" else 0.8, tint=ctx.L["tint"])
     if it.get("kind") == "archive":  # duotone-ish archive treatment
         g = rgb.mean(axis=2, keepdims=True)
         rgb = np.clip(g * np.array([1.05, 0.98, 0.86]), 0, 255).astype(np.uint8)
     return rgb
-
-
-def vivid(rgb):
-    """A light grade for stock footage: full saturation plus a touch, a gentle S-curve, no lifted blacks or tint."""
-    f = rgb.astype(np.float32)
-    g = (f[..., 0] * 0.299 + f[..., 1] * 0.587 + f[..., 2] * 0.114)[..., None]
-    f = g + (f - g) * 1.12
-    f = 128 + (f - 128) * 1.08
-    return np.clip(f * 1.03, 0, 255).astype(np.uint8)
 
 
 def still(ctx, it, t, i, n):
@@ -454,19 +443,72 @@ def join(out):
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(out / "parts.txt"), "-c", "copy",
                     str(out / "silent.mp4")], check=True, cwd=out)
     mix = kit.Mix(tl["sec"])
-    for it in tl["items"]:
+    items = tl["items"]
+    whoosh, tick, thud, swipe = kit.synth("whoosh"), kit.synth("tick"), kit.synth("thud"), kit.synth("swipe")
+    page, typing = kit.sfx("page"), kit.sfx("typing")
+    prev = None
+    for it in items:
+        k, at = it.get("kind"), it["start"]
         if it.get("vo"):
-            mix.vo(kit.load_audio(out / f"vo-{it['n']:03d}.wav"), it["start"])
-        if it.get("kind") in ("headline", "document"):
-            mix.add(kit.synth("thud"), it["start"] + 0.2, 0.45)
-            mix.add(kit.sfx("page"), it["start"] + 0.25, 0.5)
-        elif it.get("kind") == "stat":
-            mix.add(kit.synth("tick"), it["start"] + 0.1, 0.6)
-        elif it.get("kind") == "card":
-            mix.add(kit.synth("riser", 1.2), max(0, it["start"] - 1.0), 0.35)
-            mix.add(kit.synth("thud"), it["start"], 0.6)
-    bed = kit.load_audio(kit.MUSIC / "reflective.mp3")
-    mix.music(bed, 0.0, tl["sec"], gain=0.16, duck=0.4, fade=2.0)
+            mix.vo(kit.load_audio(out / f"vo-{it['n']:03d}.wav"), at)
+        # owner, 13 Nov 2026 ("SFX are also less"): a sound on every change of picture, and one per element
+        if prev is not None and k != "card" and (k != prev.get("kind") or k in ("footage", "archive", "still")):
+            mix.add(whoosh, max(0, at - 0.18), 0.32)
+        if k in ("headline", "document"):
+            mix.add(thud, at + 0.2, 0.55)
+            mix.add(page, at + 0.25, 0.55)
+            mix.add(typing[: int(kit.SR * 0.8)], at + 0.35, 0.3)
+            mix.add(swipe, at + 1.0, 0.4)
+        elif k == "stat":
+            for j in range(8):  # the count-up ticks, then a hit
+                mix.add(tick, at + 0.05 + j * 0.09, 0.45)
+            mix.add(thud, at + 0.8, 0.5)
+        elif k == "chart":
+            mix.add(swipe, at + 0.1, 0.4)
+            for j in range(len((it.get("chart") or {}).get("points") or [])):
+                mix.add(tick, at + 0.15 + j * 0.12, 0.35)
+        elif k == "quote":
+            mix.add(typing[: int(kit.SR * 1.5)], at + 0.1, 0.22)
+        elif k == "map":
+            act = (it.get("map") or {}).get("action") or "locate"
+            mix.add(kit.synth("riser", 2.0) if act == "locate" else whoosh, at, 0.25)
+            first = 2.6 if act == "locate" else 0.4
+            for j in range(min(6, len((it.get("map") or {}).get("places") or []))):
+                mix.add(tick, at + first + 0.25 * j, 0.5)  # each pin or ring lands
+            if act in ("route", "flow", "measure"):
+                mix.add(swipe, at + first, 0.45)
+        elif k == "card":
+            mix.add(kit.synth("riser", 1.4), max(0, at - 1.2), 0.45)
+            mix.add(thud, at, 0.75)
+        elif k == "end":
+            mix.add(kit.synth("riser", 1.6), max(0, at - 1.4), 0.3)
+        prev = it
+    # music by section (owner, 13 Nov 2026: the one reflective bed all through was "not suiting"): tension under the
+    # cold open, a different licensed bed per chapter, each faded in and out, levelled to one loudness, a short drop
+    # of silence before every chapter card
+    beds = ["quiz-suspense", "mixkit-silent-descent-614", "mixkit-river-flow-594", "mixkit-skyline-601",
+            "mixkit-epical-drums-04-679"]
+    spans, cur = [], None
+    for it in items:
+        sec = it.get("section") or ("_end" if it.get("kind") == "end" else cur)
+        if it.get("kind") == "card":
+            sec = f"_card{it['start']}"
+        if not spans or spans[-1][0] != sec:
+            spans.append([sec, it["start"], it["start"] + it["dur"]])
+        else:
+            spans[-1][2] = it["start"] + it["dur"]
+        cur = it.get("section") or cur
+    drops = [(it["start"] - 0.6, it["start"]) for it in items if it.get("kind") == "card"]
+    k = 0
+    for sec, a0, a1 in spans:
+        if str(sec).startswith("_card"):
+            continue
+        name = beds[0] if sec == "cold_open" else "mixkit-silent-descent-614" if sec in ("outro", "_end") else beds[1 + k % 4]
+        if sec not in ("cold_open", "outro", "_end"):
+            k += 1
+        bed = kit.load_audio(HERE / "music" / f"{name}.mp3")
+        rms = float(np.sqrt(np.mean(bed ** 2))) or 0.1
+        mix.music(bed * (0.12 / rms), a0, a1, gain=0.24, duck=0.38, fade=1.2, silence=drops)
     mix.write(out / "mix.wav")
     # one real encode at the end (13 Nov 2026: the near-lossless parts concatenated made 2.5 GB for 10 minutes)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out / "silent.mp4"), "-i", str(out / "mix.wav"),
