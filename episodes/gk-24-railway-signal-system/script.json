@@ -540,11 +540,11 @@
     },
     {
      "vo": "दोनों स्टेशनों की टोकन मशीनें तार से जुड़ी हैं। एक बार में सिर्फ़ एक टोकन बाहर निकल सकता है। जिसके हाथ टोकन, वही ट्रेन चले।",
-     "prompt": "A middle-aged Indian station master in a white shirt, seen from the side, his right hand pulling a shiny metal token ball out of the slot of a tall cast-iron token instrument with brass dials, the ball large and bright in his fingers, his eyes on the ball, plain surfaces, bare shirt, warm lamp light, close-up",
+     "prompt": "A middle-aged Indian station master in a white shirt, seen from the side, his right hand pulling a shiny metal token ball out of a tall cast-iron token instrument with brass dials, the ball large and bright in his fingers, plain surfaces, bare shirt, warm lamp light, close-up, photorealistic documentary film still",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "दोनों स्टेशनों की token मशीनें तार से जुड़ी हैं। एक बार में सिर्फ़ एक token बाहर निकल सकता है। जिसके हाथ token, वही ट्रेन चले।",
-     "seed": 16857
+     "seed": 24776
     },
     {
      "vo": "पर बी को कैसे पता कि ट्रेन पूरी आई? कोई डिब्बा रास्ते में तो नहीं छूटा?",
@@ -1381,10 +1381,10 @@
     },
     {
      "vo": "पूरी पटरी खाली है? कोई डिब्बा तो खड़ा नहीं?",
-     "prompt": "A top-down aerial view of one empty rail line in a station, the whole line glowing green with a large flat label 'खाली' facing the camera, open sky, daylight, sharp focus, wide shot",
+     "prompt": "A top-down aerial view looking straight down at one empty rail line in a station, the whole line glowing bright green along its length, a large flat label 'खाली' facing the camera beside it, daylight, sharp focus, wide shot",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 16918
+     "seed": 24837
     },
     {
      "vo": "और कोई दूसरा सिग्नल तो नहीं खुला, जो इसी रास्ते को काटता हो?",
@@ -1655,11 +1655,11 @@
     },
     {
      "vo": "एक ही पटरी पर आमने-सामने दो कवच वाले इंजन आएँ, तो दोनों अपने-आप रुक जाते हैं।",
-     "prompt": "Two Indian locomotives standing face to face on the same single track, one on the left facing right and one on the right facing left, stopped a safe distance apart, a bright glowing band across the gap between them, open countryside, daylight, sharp focus, wide shot",
+     "prompt": "Two Indian locomotives standing face to face on the same single track, one on the left facing right and one on the right facing left, stopped a safe distance apart, a wide bright glowing band of light across the gap between them, plain unmarked sides, open countryside, daylight, sharp focus, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "एक ही पटरी पर आमने-सामने दो Kavach वाले इंजन आएँ, तो दोनों अपने-आप रुक जाते हैं।",
-     "seed": 16935
+     "seed": 24854
     },
     {
      "vo": "मार्च दो हज़ार बाईस में यही टेस्ट हुआ। एक इंजन में ख़ुद रेल मंत्री बैठे थे, दूसरे में रेलवे बोर्ड के चेयरमैन, और दोनों इंजन कुछ सौ मीटर पहले रुक गए।",
@@ -1991,31 +1991,22 @@
  "repaint": {
   "shots": [
    19,
-   39,
-   66,
-   79,
    80,
    97
   ],
   "thumbs": [],
-  "at": "2026-11-13 22:38"
+  "at": "2026-11-13 23:30"
  },
  "shot_qc": {
-  "checked": "2026-11-13T17:06:55Z",
-  "rounds": 2,
+  "checked": "2026-11-13T17:58:08Z",
+  "rounds": 3,
   "why": {
-   "19": "Station master holds the ball in one hand but is not working a token instrument. The instrument is just a bell on a wall, and he's looking at the camera. There's a garbled 'altinn' logo on his shirt and a book in his lap.",
-   "39": "The glowing current is a messy orange cable, not a loop through a relay box. The tiny 'track circuit' text is on the box and a signboard, so it isn't a flat readable label. The scene is a workshop.",
-   "66": "The box has a horn or speaker on its side instead of a drive rod connected to the tongue rails. There's no turnout, and the scene looks nothing like a point machine at a switch. There's garbled lettering on the box.",
-   "79": "The view is not a clear station yard with ticked, padlocked turnouts. There are blank white rectangles and no green ticks or padlocks. A map and papers sit in the corner, which breaks the no-map rule.",
-   "80": "This is an underground metro platform seen at ground level. It is not a top-down view of a rail line glowing green. The green bar is a plain rectangle and not a flat label. Two screens glow.",
-   "97": "These are steam locomotives and coaches, not Kavach-equipped engines. They are not face to face on one track. There is no clear gap with a glowing band between them, and they sit on separate parallel tracks."
+   "19": "Painted gibberish lettering ('MATTER' and signboards) is big enough to notice.",
+   "80": "The label shows Chinese-looking characters, not 'खाली'. It isn't a top-down view and the line isn't glowing green.",
+   "97": "Gibberish lettering ('GATTANCITER') is painted on both locomotives. No clear glowing band shows across the gap."
   },
   "recheck": [
    "19",
-   "39",
-   "66",
-   "79",
    "80",
    "97"
   ]
