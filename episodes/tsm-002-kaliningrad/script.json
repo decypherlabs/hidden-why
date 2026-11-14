@@ -291,7 +291,8 @@
         "lon": 20.4522
        }
       ],
-      "label": "15,125 km² · no land link to Russia"
+      "label": "15,125 km² · no land link to Russia",
+      "globe": true
      }
     },
     {
@@ -913,8 +914,33 @@
     },
     {
      "vo": "Moment one came in January 1758, during the Seven Years' War, when Russian troops entered the city.",
-     "kind": "still",
-     "prompt": "Duotone archival plate, dark slate and one muted orange: eighteenth-century cavalry riding through a snowy city gate under a brick tower, crowds of townspeople at a distance, no faces in close-up, no readable text, no signs or lettering on any storefront, screen or package"
+     "kind": "timeline",
+     "timeline": {
+      "title": "Königsberg before 1945",
+      "events": [
+       [
+        "1255",
+        "Teutonic Knights found Königsberg"
+       ],
+       [
+        "1525",
+        "Capital of Duchy of Prussia"
+       ],
+       [
+        "1701",
+        "Prussia's first king crowned"
+       ],
+       [
+        "1758",
+        "Russian troops enter city"
+       ],
+       [
+        "1762",
+        "Peter III hands it back"
+       ]
+      ],
+      "mark": "1758"
+     }
     },
     {
      "vo": "East Prussia was governed from St Petersburg for four years, and its people swore allegiance to Empress Elizabeth.",
@@ -1135,8 +1161,33 @@
     },
     {
      "vo": "By 1948 the remaining German residents had been deported to Germany, and settlers from across the Soviet Union replaced them.",
-     "kind": "still",
-     "prompt": "Duotone archival plate, dark slate and one muted orange: a long freight train at a provincial railway platform in the late 1940s, figures with suitcases seen from a distance, no faces in close-up, no readable text, no signs or lettering on any storefront, screen or package"
+     "kind": "timeline",
+     "timeline": {
+      "title": "Königsberg becomes Soviet",
+      "events": [
+       [
+        "1944",
+        "British bombers hit old centre"
+       ],
+       [
+        "1945",
+        "German garrison surrenders"
+       ],
+       [
+        "1945",
+        "Potsdam agrees transfer in principle"
+       ],
+       [
+        "1946",
+        "Renamed Kaliningrad"
+       ],
+       [
+        "1948",
+        "German residents deported"
+       ]
+      ],
+      "mark": "1948"
+     }
     },
     {
      "vo": "Inside the Soviet Union, the separation hardly mattered: Lithuania was a Soviet republic too, and the region lay inside one country.",
@@ -1523,10 +1574,28 @@
     },
     {
      "vo": "On 13 July 2022, the European Commission said sanctioned goods could cross by rail but not by road, and military goods not at all.",
-     "kind": "headline",
-     "headline": {
-      "date": "13 July 2022",
-      "text": "Brussels clears sanctioned rail freight to Kaliningrad, not by road"
+     "kind": "timeline",
+     "timeline": {
+      "title": "Transit dispute, 2002-2022",
+      "events": [
+       [
+        "2002",
+        "Russia-EU transit deal agreed"
+       ],
+       [
+        "18 Jun 2022",
+        "Lithuania stops sanctioned rail goods"
+       ],
+       [
+        "13 Jul 2022",
+        "Commission allows rail, not road"
+       ],
+       [
+        "17 Sep 2022",
+        "Poland opens its own canal"
+       ]
+      ],
+      "mark": "18 Jun 2022"
      }
     },
     {
@@ -1596,27 +1665,24 @@
     },
     {
      "vo": "And NATO figures show Poland's defence spending rose from under 2 per cent of its economy in 2014 to almost 4.5 per cent in 2025.",
-     "kind": "chart",
-     "chart": {
-      "type": "bar",
-      "title": "Poland more than doubled",
-      "unit": "% of GDP",
-      "points": [
-       [
-        "2014",
-        1.85
-       ],
-       [
-        "2024",
-        4.12
-       ],
-       [
-        "2025 (est.)",
-        4.48
-       ]
-      ],
-      "mark": "2025 (est.)",
-      "source": "NATO, Defence Expenditure of NATO Countries, June 2025"
+     "kind": "compare",
+     "compare": {
+      "title": "Poland's defence spending",
+      "left": {
+       "name": "2014",
+       "value": 2,
+       "prefix": "<",
+       "suffix": "%",
+       "label": "of economy, under 2 per cent"
+      },
+      "right": {
+       "name": "2025",
+       "value": 4.5,
+       "prefix": "~",
+       "suffix": "%",
+       "label": "of economy, almost 4.5 per cent"
+      },
+      "winner": "right"
      }
     },
     {
@@ -2086,12 +2152,13 @@
  "replanned": true,
  "visuals_checked": true,
  "photos_checked": true,
+ "templates_checked": true,
  "approved": true,
  "review": "auto",
  "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos",
  "repaint": {
   "shots": [],
   "thumbs": [],
-  "at": "2026-11-13 22:53"
+  "at": "2026-11-14 06:21"
  }
 }
