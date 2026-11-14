@@ -1576,7 +1576,10 @@ def main(script_path, out_dir):
         for s in sec.get("shots") or []:
             n += 1
             d = vo[f"{n:02d}"] + BREATH
-            if s.get("diagram"):
+            if s.get("diagram") and s["diagram"] not in DIAGRAMS:  # a diagram this builder doesn't have (old scripts,
+                # 14 Nov 2026: ep 13's "gut_two_doors" failed the build): its line shown as a card instead
+                vis = Still(card(s.get("title") or " ".join(s["vo"].split()[:5])))
+            elif s.get("diagram"):
                 vis = Shot(bgr(DIAGRAMS[s["diagram"]]()), "push")
                 explainers.append((t, t + d))
             elif s.get("map"):  # a real map, never a painted one (Gazab Kyun, owner 8 Nov 2026)
