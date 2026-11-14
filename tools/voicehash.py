@@ -21,7 +21,8 @@ def voice(script):
 
 
 def of(script):
-    lines = [s["vo"] for sec in script["sections"] for s in sec.get("shots") or []]
+    # a marked shloka is recited differently (14 Nov 2026): only shots that carry one change their fingerprint
+    lines = [s["vo"] + (f"|shloka:{s['shloka']}" if s.get("shloka") else "") for sec in script["sections"] for s in sec.get("shots") or []]
     v = {k: x for k, x in voice(script).items() if not k.startswith("_")}
     return hashlib.sha1(json.dumps([lines, v], ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:10]
 

@@ -58,6 +58,39 @@ def lines(script):
             yield n, s["vo"]
 
 
+def shlokas(script):
+    """{line number: the Sanskrit verse inside it}, from each shot's "shloka" (the writer marks it, 14 Nov 2026)."""
+    n, out = 0, {}
+    for sec in script["sections"]:
+        for s in sec.get("shots") or []:
+            n += 1
+            if s.get("shloka") and s["shloka"] in s["vo"]:
+                out[n] = s["shloka"]
+    return out
+
+
+def pieces(text, verse, conf):
+    """A line cut where a narrator breathes (owner, 14 Nov 2026: "pauses are missing... majorly the shloks"): every
+    sentence on its own, and a shloka recited half-verse by half-verse, slower, with air around it. Parler reads a
+    whole line in one breath and runs straight through a "।". [(text, is_verse, silence after)]."""
+    import re
+    say = lambda t: [x for x in re.split(r"(?<=[।?!])\s+", t.strip()) if x.strip()]
+    gap, around, pada = float(conf.get("sentence_pause", 0)), float(conf.get("verse_pause", 0.5)), float(conf.get("pada_pause", 0.4))
+    if not gap and not verse:
+        return [(text, False, 0.0)]
+    before, after = text.split(verse, 1) if verse else (text, "")
+    out = [(t, False, gap) for t in (say(before) if gap else [before.strip()] if before.strip() else [])]
+    if verse:
+        if out:
+            out[-1] = (out[-1][0], False, around)
+        out += [(t, True, pada) for t in re.split(r"(?<=[,।॥;])\s*", verse.strip()) if t.strip()]
+        out[-1] = (out[-1][0], True, around)
+    out += [(t, False, gap) for t in (say(after) if gap else [after.strip()] if after.strip() else [])]
+    if not out[-1][1]:
+        out[-1] = (out[-1][0], False, 0.0)  # the edit's own breath follows the line (a verse keeps its air too)
+    return out
+
+
 def trim(x, pad=0.06):
     """Parler pads a line with silence at both ends (owner, 7 Nov 2026: "a lot of pauses in the voiceover"): cut it
     to `pad` seconds, so the pause between lines is the edit's own breath, not the model's. Pauses inside a line
@@ -83,16 +116,33 @@ def parler(script, out, v):
     durs, check = {}, {}
     ear = checker() if v.get("check", True) else None
     floor = float(v.get("check_floor", 0.55))
+    conf = BRAND.get("narration") or {}  # pauses: outside "voice", so older narrations keep their fingerprint
+    verses = shlokas(script)
+
+    def say(text, seed, slow=None, cut=False):
+        torch.manual_seed(seed)
+        p = tok(text, return_tensors="pt")
+        a = model.generate(input_ids=d.input_ids, attention_mask=d.attention_mask,
+                           prompt_input_ids=p.input_ids, prompt_attention_mask=p.attention_mask).cpu().float().squeeze()
+        x = AF.resample(a.unsqueeze(0), model.config.sampling_rate, SR).squeeze().numpy()
+        x = trim(x) if v.get("trim") or cut else x  # a piece of a line is always cut: the pauses are ours
+        if slow:  # a shloka is recited, not read: slower, same voice (time-stretch keeps the pitch)
+            r = subprocess.run(["ffmpeg", "-v", "error", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "pipe:0",
+                                "-af", f"atempo={slow}", "-f", "f32le", "pipe:1"], input=x.astype(np.float32).tobytes(),
+                               capture_output=True, check=True)
+            x = np.frombuffer(r.stdout, np.float32)
+        return x
+
     for n, text in lines(script):
         best = None
+        parts = pieces(text, verses.get(n), conf)
         for seed in SEEDS:  # the usual take; another only when it isn't heard right (pace, Whisper)
-            torch.manual_seed(seed)
-            p = tok(text, return_tensors="pt")
-            a = model.generate(input_ids=d.input_ids, attention_mask=d.attention_mask,
-                               prompt_input_ids=p.input_ids, prompt_attention_mask=p.attention_mask).cpu().float().squeeze()
-            x = AF.resample(a.unsqueeze(0), model.config.sampling_rate, SR).squeeze().numpy()
-            if v.get("trim"):
-                x = trim(x)
+            if len(parts) == 1:
+                x = say(text, seed)
+            else:
+                x = np.concatenate([np.concatenate([say(t, seed, float(conf.get("verse_tempo", 0.85)) if verse else None, cut=True),
+                                                    np.zeros(int(pause * SR), np.float32)])
+                                    for t, verse, pause in parts]).astype(np.float32)
             score, got = 1.0, ""
             if ear is not None:
                 try:

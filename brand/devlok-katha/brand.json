@@ -148,5 +148,12 @@
     "kartikeya|murugan|skanda": "handsome young Lord Kartikeya with a spear, riding a peacock, golden crown, radiant flawless glowing skin, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura",
     "vaishno devi|mata vaishno|mata rani": "beautiful Mata Vaishno Devi, fair radiant glowing skin, red silk saree with gold border, golden crown and jewellery, riding a lion, divinely beautiful serene face, large kind lotus eyes, gentle smile, soft golden divine aura"
   },
-  "_art_style_about": "14 Nov 2026: live-action serial look (the winners' frames, analysis/devlok-katha/edit-refs); FLUX has no negative prompt, so realism is in the positive words"
+  "_art_style_about": "14 Nov 2026: live-action serial look (the winners' frames, analysis/devlok-katha/edit-refs); FLUX has no negative prompt, so realism is in the positive words",
+  "narration": {
+    "sentence_pause": 0.3,
+    "verse_pause": 0.5,
+    "pada_pause": 0.4,
+    "verse_tempo": 0.85,
+    "_about": "owner, 14 Nov 2026: 'pauses are missing... majorly the shloks': a breath at every sentence, shlokas recited half-verse by half-verse, slower (pipeline/narrate.py); outside 'voice' so older narrations keep their fingerprint"
+  }
 }
