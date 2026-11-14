@@ -82,7 +82,133 @@
      "prompt": "A 1950s mechanical adding machine on an accountant's desk, a thick open ledger and a fountain pen beside it, a wall calendar above with a page reading \"1954\", warm desk lamp light, other papers plain blank, medium shot",
      "title": "*1954* tax rule",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "05": {
+       "src": "0aa5bb969d74",
+       "items": [
+        {
+         "text": "1954",
+         "grid": [
+          [
+           [
+            686.0,
+            60.6
+           ],
+           [
+            741.7,
+            60.6
+           ],
+           [
+            798.4,
+            60.6
+           ],
+           [
+            855.0,
+            60.6
+           ],
+           [
+            910.7,
+            60.6
+           ],
+           [
+            967.3,
+            60.6
+           ],
+           [
+            1024.0,
+            60.6
+           ]
+          ],
+          [
+           [
+            686.0,
+            76.4
+           ],
+           [
+            741.7,
+            76.4
+           ],
+           [
+            798.4,
+            76.4
+           ],
+           [
+            855.0,
+            76.4
+           ],
+           [
+            910.7,
+            76.4
+           ],
+           [
+            967.3,
+            76.4
+           ],
+           [
+            1024.0,
+            76.4
+           ]
+          ],
+          [
+           [
+            686.0,
+            92.2
+           ],
+           [
+            741.7,
+            92.2
+           ],
+           [
+            798.4,
+            92.2
+           ],
+           [
+            855.0,
+            92.2
+           ],
+           [
+            910.7,
+            92.2
+           ],
+           [
+            967.3,
+            92.2
+           ],
+           [
+            1024.0,
+            92.2
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#2a1a10",
+         "corners": [
+          [
+           663,
+           51
+          ],
+          [
+           1047,
+           51
+          ],
+          [
+           1047,
+           367
+          ],
+          [
+           663,
+           367
+          ]
+         ],
+         "band": [
+          0.03,
+          0.13
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "Blame Congress, a Viennese architect, and the year 1986.",
@@ -113,9 +239,10 @@
    "shots": [
     {
      "vo": "On August 16, 1954, President Eisenhower signed the Internal Revenue Code, a top-to-bottom rewrite of American taxes.",
-     "prompt": "A man in a grey suit signing a thick bound document at a large wooden desk, fountain pen touching the page, officials in suits standing behind him, a flag in the corner, 1950s formal office, soft window light, medium shot",
+     "prompt": "A man in a grey suit signing a thick bound document at a large wooden desk, fountain pen touching the page, officials in suits standing behind him, a flag in the corner, 1950s formal wood-panelled office, bare desk with only paper and pen, soft window light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8927
     },
     {
      "vo": "Buried inside was a small change about depreciation, the way a business deducts the slow wearing-out of a building.",
@@ -132,9 +259,136 @@
     },
     {
      "vo": "Before 1954, a store building was written off evenly, a little each year, over about forty years.",
-     "prompt": "An older shopkeeper sweeping the doorway of a small-town brick store, a large flat shop board above the door reading \"HARDWARE\", early 1950s main street, calm afternoon light, wide shot",
+     "prompt": "An older shopkeeper in an apron sweeping the doorway of a small-town brick store, a large flat shop board above the door reading \"HARDWARE\", early 1950s main street with old rounded-fender cars parked, brick buildings and wooden utility poles, calm afternoon light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "10": {
+       "src": "59aa5a969643",
+       "items": [
+        {
+         "text": "HARDWARE",
+         "grid": [
+          [
+           [
+            841.8,
+            93.5
+           ],
+           [
+            916.4,
+            91.4
+           ],
+           [
+            992.2,
+            89.8
+           ],
+           [
+            1068.0,
+            88.8
+           ],
+           [
+            1142.5,
+            88.2
+           ],
+           [
+            1218.3,
+            88.3
+           ],
+           [
+            1294.2,
+            88.8
+           ]
+          ],
+          [
+           [
+            841.8,
+            156.0
+           ],
+           [
+            916.4,
+            154.6
+           ],
+           [
+            992.2,
+            153.4
+           ],
+           [
+            1068.0,
+            152.4
+           ],
+           [
+            1142.5,
+            151.6
+           ],
+           [
+            1218.3,
+            151.1
+           ],
+           [
+            1294.2,
+            150.7
+           ]
+          ],
+          [
+           [
+            841.8,
+            218.5
+           ],
+           [
+            916.4,
+            217.8
+           ],
+           [
+            992.2,
+            217.0
+           ],
+           [
+            1068.0,
+            216.0
+           ],
+           [
+            1142.5,
+            215.0
+           ],
+           [
+            1218.3,
+            213.9
+           ],
+           [
+            1294.2,
+            212.6
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#5a1d14",
+         "corners": [
+          [
+           811,
+           51
+          ],
+          [
+           1325,
+           51
+          ],
+          [
+           1325,
+           248
+          ],
+          [
+           811,
+           248
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8929
     },
     {
      "vo": "The new rule let owners of brand-new buildings claim up to twice as much in the early years.",
@@ -360,9 +614,10 @@
     },
     {
      "vo": "He found the boom tracked the tax rule more closely than it tracked where people were actually moving.",
-     "prompt": "A half-built 1960s American suburb, a few new houses on a bare street in the foreground, a large finished shopping center beyond them, flat midday light, wide shot",
+     "prompt": "A half-built 1960s American suburb, a few new houses on a bare dirt street in the foreground, a large finished low shopping center with plain blank walls beyond them, flat midday light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8950
     },
     {
      "vo": "Developers put malls in cornfields at highway exits, sometimes years before there were enough homes to fill them.",
@@ -412,9 +667,10 @@
     },
     {
      "vo": "A mall wasn't just a place to shop anymore; for its owners it was a machine for not paying taxes.",
-     "prompt": "A wealthy 1960s investor in a dark suit standing on a balcony overlooking a busy mall court, shoppers tiny below, hands on the railing, dramatic overhead light, plain blank signs, medium-wide shot",
+     "prompt": "A wealthy 1960s investor in a dark suit standing on a balcony overlooking a busy mall court, shoppers tiny below, hands on the railing, dramatic overhead light, plain blank railings and walls, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8956
     },
     {
      "vo": "Between 1956 and 2005, America built roughly fifteen hundred enclosed malls, about one every twelve days.",
@@ -498,9 +754,10 @@
     },
     {
      "vo": "And America was already building more space than it could ever fill.",
-     "prompt": "A row of three faded mall storefronts in a small American town, empty dusty windows, a lone pigeon on the sidewalk, flat overcast light, plain blank signboards, wide shot",
+     "prompt": "A row of three faded mall storefronts in a small American town, empty dusty windows, plain blank signboards above them, a lone pigeon on the sidewalk, flat overcast light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8964
     },
     {
      "vo": "By 2017, analysts estimated America had about twenty-three square feet of shopping space for every person.",
@@ -523,9 +780,10 @@
     },
     {
      "vo": "Victor Gruen saw it coming, and in a 1978 speech in London he disowned what his idea had become.",
-     "prompt": "An elderly man with white hair and glasses speaking at a wooden lectern in a 1970s lecture hall, audience as dark silhouettes, a single spotlight, medium shot",
+     "prompt": "An elderly man with white hair and glasses speaking at a wooden lectern on a small stage in a 1970s lecture hall, microphone in front of him, rows of audience seats as dark silhouettes, a single spotlight on him, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8967
     },
     {
      "vo": "He refused, he said, to pay alimony for those bastard developments, the malls built without the town.",
@@ -569,7 +827,133 @@
      "vo": "Commercial buildings now had to be written off slowly over thirty-one and a half years, the same every year.",
      "prompt": "A 1980s accountant in a cardigan at a desk with a big desk calculator printing a long paper roll, a wall calendar page reading \"1987\", office window light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "52": {
+       "src": "918e85517a07",
+       "items": [
+        {
+         "text": "1987",
+         "grid": [
+          [
+           [
+            32.0,
+            136.5
+           ],
+           [
+            105.1,
+            143.5
+           ],
+           [
+            173.6,
+            150.1
+           ],
+           [
+            236.9,
+            156.1
+           ],
+           [
+            294.7,
+            161.6
+           ],
+           [
+            349.3,
+            166.9
+           ],
+           [
+            400.3,
+            171.7
+           ]
+          ],
+          [
+           [
+            32.0,
+            151.7
+           ],
+           [
+            105.1,
+            159.7
+           ],
+           [
+            173.6,
+            167.2
+           ],
+           [
+            236.9,
+            174.1
+           ],
+           [
+            294.7,
+            180.5
+           ],
+           [
+            349.3,
+            186.4
+           ],
+           [
+            400.3,
+            192.0
+           ]
+          ],
+          [
+           [
+            32.0,
+            166.8
+           ],
+           [
+            105.1,
+            175.8
+           ],
+           [
+            173.6,
+            184.3
+           ],
+           [
+            236.9,
+            192.1
+           ],
+           [
+            294.7,
+            199.3
+           ],
+           [
+            349.3,
+            206.0
+           ],
+           [
+            400.3,
+            212.3
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a2e",
+         "corners": [
+          [
+           0,
+           6
+          ],
+          [
+           420,
+           92
+          ],
+          [
+           420,
+           582
+          ],
+          [
+           0,
+           640
+          ]
+         ],
+         "band": [
+          0.02,
+          0.13
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "New limits also stopped most investors from using paper losses on property to cancel out their other income.",
@@ -618,9 +1002,10 @@
     },
     {
      "vo": "Some are finding a second life the way Gruen imagined, with homes, clinics and schools moving in.",
-     "prompt": "A former mall converted into a medical clinic and community college, people walking in under a modern glass canopy, trees planted in the old parking lot, bright spring day, plain blank signs, wide shot",
+     "prompt": "A former mall converted into a medical clinic with a nurse in scrubs and a family walking in under a glass canopy, apartment balconies with laundry and plants on the upper floors, students with backpacks on the lawn where the parking lot was, bright spring day, plain blank walls, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8976
     },
     {
      "vo": "In Providence, Rhode Island, America's oldest mall, the Arcade from 1828, now rents tiny apartments above its shops.",
@@ -705,5 +1090,40 @@
  "photos_checked": true,
  "released_at": "2026-11-15 00:40",
  "voice_ok": "voice-25-tax-rule-malls-2afe38c625",
- "voice_approved_at": "2026-11-15 00:40"
+ "voice_approved_at": "2026-11-15 00:40",
+ "repaint": {
+  "shots": [
+   8,
+   10,
+   31,
+   37,
+   45,
+   48,
+   57
+  ],
+  "thumbs": [],
+  "at": "2026-11-15 01:40"
+ },
+ "shot_qc": {
+  "checked": "2026-11-14T20:09:05Z",
+  "rounds": 1,
+  "why": {
+   "8": "Modern smartphone and a flat-screen monitor on the desk in a 1954 signing scene.",
+   "10": "Painted gibberish street sign ('CALMERIA TREANS') and a modern-looking street, not an early-1950s main street.",
+   "31": "Large painted gibberish lettering ('CUPSTAN IEERS') on the shopping center.",
+   "37": "Large painted gibberish sign ('Sitorvice') in the foreground, and the investor is pushed to the edge of the frame.",
+   "45": "Painted gibberish sign ('MALL CAIR') on a storefront.",
+   "48": "The picture shows a courtroom or hearing with a tiny man, not an elderly man speaking at a lectern in a spotlight.",
+   "57": "Painted gibberish sign ('Sumface') on the right, and nothing shows homes, clinics or schools moving in."
+  },
+  "recheck": [
+   "8",
+   "10",
+   "31",
+   "37",
+   "45",
+   "48",
+   "57"
+  ]
+ }
 }
