@@ -1625,6 +1625,7 @@ def main(script_path, out_dir):
                               None, sec["id"]))
                 t += 3.0
             else:
+                cards_at.append(t)  # its page turn (14 Nov 2026: Devlok Katha's chapters had no sound)
                 items.append((t, 2.4, Still(card(sec["card"])), None, sec["id"]))
                 t += 2.4
         elif not chapters:
@@ -1920,6 +1921,16 @@ def main(script_path, out_dir):
             for i in range(14):  # the digits tick as they count up, slowing down, then a hit
                 put(tick(seed=40 + i), t0 + 1.1 * (1 - (1 - i / 14) ** 0.5), -27)
             put(load_sfx("impact"), t0 + 1.15, -20)
+        mix = mix + sfx
+    elif not short and cards_at and K.asset("sfx/page.wav").exists():
+        # every channel's chapter cards turn a page, motion effects or not (owner, 14 Nov 2026: "the chapters in DK is
+        # missing the page turn SFX"); the Mixkit "Paper slide" picked on 7 Nov
+        pg = load_sfx("page")
+        sfx = np.zeros_like(mix)
+        for c in cards_at:
+            i = int((c + 0.05) * SR)
+            if 0 <= i < len(sfx):
+                sfx[i:i + len(pg)] += pg[:len(sfx) - i] * voice_rms * 10 ** (-14 / 20) / rms(pg)
         mix = mix + sfx
     mix = mix / (np.abs(mix).max() + 1e-9) * 0.95
     mix = np.clip(mix, -1, 1)
