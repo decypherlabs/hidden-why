@@ -296,7 +296,8 @@
      "headline": {
       "date": "13 March 2019",
       "text": "US orders every Boeing 737 MAX out of the sky"
-     }
+     },
+     "title": "*Grounded*"
     },
     {
      "vo": "Two crashes in under five months had killed 346 people.",
@@ -306,45 +307,92 @@
       "prefix": "",
       "suffix": "lives",
       "label": "lost on Lion Air 610 and Ethiopian 302, Oct 2018 - Mar 2019"
-     }
+     },
+     "title": "*346*"
     },
     {
-     "vo": "Twenty-two years earlier, Boeing agreed to buy McDonnell Douglas for $13.3 billion.",
-     "kind": "headline",
+     "vo": "Twenty-two years earlier, Boeing agreed to buy McDonnell Douglas for $13.3 billion in stock.",
+     "kind": "document",
      "headline": {
       "date": "15 December 1996",
       "text": "Boeing to absorb McDonnell Douglas in $13.3 billion share deal"
-     }
+     },
+     "title": "$13.3 *billion*",
+     "document": {
+      "style": "tilted page",
+      "header": "Boeing / McDonnell Douglas merger agreement",
+      "date": "15 December 1996",
+      "logos": [
+       "Boeing",
+       "McDonnell Douglas"
+      ],
+      "highlight": "$13.3 billion share deal"
+     },
+     "prompt": "muted 35mm documentary photograph, close on a 1996 merger agreement lying tilted on a dark wooden boardroom table, fountain pen beside it, warm desk lamp light, one accent colour: a yellow highlighter stripe across one line, surfaces left blank for text, no readable text, no logos, no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "Seattle soon had a joke: McDonnell Douglas bought Boeing with Boeing's money.",
      "kind": "still",
-     "prompt": "Seattle in the 1990s, rainy street at dusk with office workers talking in small groups, seen only from behind or in silhouette, aircraft factory buildings faintly visible in the grey distance, period-accurate, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+     "prompt": "Seattle in the late 1990s, rainy evening outside an aircraft factory gate, three engineers in raincoats sharing a wry laugh under a streetlight, seen from behind and in silhouette, the factory hangar looming grey behind them, period-accurate, no logos, no readable text, no signs or lettering on any storefront, screen or package",
+     "title": "*Seattle*"
     },
     {
-     "vo": "Everything turns on one decision in August 2011.",
-     "kind": "still",
-     "prompt": "muted 35mm documentary photograph of an empty corporate boardroom at dusk, long table, chairs pushed back, one accent colour: a single red folder, no people, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+     "vo": "The MAX wasn't decided in 2011. Its path was set in 1997.",
+     "kind": "explainer",
+     "prompt": "muted 35mm documentary photograph of an empty corporate boardroom at dusk, long table, chairs pushed back, one accent colour: a single red folder, no people, no readable text, no logos, no signs or lettering on any storefront, screen or package",
+     "title": "*1997*",
+     "explainer": {
+      "type": "timeline",
+      "style": "house",
+      "points": [
+       {
+        "year": "1997",
+        "label": "Boeing and McDonnell Douglas merge"
+       },
+       {
+        "year": "2011",
+        "label": "737 MAX launched"
+       },
+       {
+        "year": "2019",
+        "label": "737 MAX grounded"
+       }
+      ],
+      "highlight": "1997"
+     }
     },
     {
-     "vo": "It was the choice to re-engine the 737 instead of designing a new jet. Congress's investigators found the crashes were not a single failure.",
-     "kind": "quote",
+     "vo": "In 2011 Boeing chose to re-engine the 737, not design a new jet. Congress's investigators found the crashes were no single failure.",
+     "kind": "document",
      "quote": {
       "text": "The MAX crashes were not the result of a singular failure, technical mistake, or mismanaged event.",
       "who": "US House Transportation and Infrastructure Committee",
       "source": "Final Committee Report on the Boeing 737 MAX, 16 Sept 2020"
-     }
+     },
+     "title": "*Congress* 2020",
+     "document": {
+      "style": "tilted page",
+      "header": "Final Committee Report on the Boeing 737 MAX",
+      "source": "US House Transportation and Infrastructure Committee, 16 Sept 2020",
+      "highlight": "The MAX crashes were not the result of a singular failure, technical mistake, or mismanaged event."
+     },
+     "prompt": "muted 35mm documentary photograph of a thick bound congressional report lying open and tilted on a committee-room desk, a microphone and water glass beside it, cool overhead light, one accent colour: a yellow highlighter stripe across one paragraph, page surfaces left blank for text, no readable text, no logos, no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "It starts in 1995, with Boeing at the top of its game.",
      "kind": "photo",
-     "prompt": "muted 35mm documentary photograph of a vast aircraft assembly hall in the mid-1990s, a gleaming new wide-body jet on the floor, workers in silhouette looking up at it, one accent colour: white fuselage under work lights, no readable text, no logos, no signs or lettering on any storefront, screen or package",
+     "prompt": "muted 35mm documentary photograph of a vast aircraft assembly hall in 1995, a brand-new 777 wide-body on the floor under work lights, workers in silhouette looking up at it, one accent colour: white fuselage under work lights, no readable text, no logos, no signs or lettering on any storefront, screen or package",
      "photo": {
       "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Air_China_777-300ER_%289155299038%29.jpg/1920px-Air_China_777-300ER_%289155299038%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "w": 3264,
       "h": 2448,
       "credit": "Air China 777-300ER (9155299038).jpg by DearEdward from New York, NY, USA, CC BY 2.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Air_China_777-300ER_(9155299038).jpg"
+     },
+     "title": "*1995*",
+     "pre_beat": {
+      "black_s": 1,
+      "silence": true
      }
     }
    ]
@@ -1190,13 +1238,14 @@
  "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
  "repaint": {
   "shots": [
+   3,
    4,
-   5,
-   53,
-   61,
-   71
+   6,
+   7
   ],
   "thumbs": [],
-  "at": "2026-11-14 06:20"
- }
+  "at": "2026-11-14 06:37"
+ },
+ "breakout_round": 1,
+ "late_intro": true
 }
