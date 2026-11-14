@@ -773,10 +773,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
     },
     {
-     "vo": "छह कांड, और उसके बाद उत्तर कांड।",
+     "vo": "छः काण्ड, और उसके बाद उत्तर काण्ड।",
      "prompt": "Seven neat bundles of palm-leaf manuscripts tied with red cloth on a wooden shelf, warm lamp light, plain blank leaves, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "caption": "छह कांड, और उसके बाद उत्तर कांड।"
     },
     {
      "vo": "फिर उन्होंने सोचा, इस कथा को संसार तक कौन पहुँचाएगा?",
@@ -1036,5 +1037,11 @@
  },
  "series": "ramayan",
  "series_ep": 1,
- "voice_requested": "voice-dk-239-ramayan-ep1-pehla-shlok-1aab45af7d"
+ "voice_requested": "voice-dk-239-ramayan-ep1-pehla-shlok-1aab45af7d",
+ "voice_fixed": {
+  "lines": [
+   113
+  ],
+  "at": "2026-11-14 19:20"
+ }
 }
