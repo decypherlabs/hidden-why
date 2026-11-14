@@ -279,11 +279,32 @@
     },
     {
      "vo": "Management's reaction, he later recalled: cute, but don't tell anyone.",
-     "kind": "quote",
-     "quote": {
-      "text": "That's cute — but don't tell anyone about it.",
-      "who": "Management's reaction, as recalled by engineer Steven Sasson",
-      "source": "The New York Times, 2 May 2008"
+     "kind": "timeline",
+     "timeline": {
+      "title": "Digital camera warnings",
+      "events": [
+       [
+        "1975",
+        "First digital camera built"
+       ],
+       [
+        "1978",
+        "Patent granted"
+       ],
+       [
+        "1979",
+        "Executive report on digital switch"
+       ],
+       [
+        "1981",
+        "Research gives ten-year deadline"
+       ],
+       [
+        "1991",
+        "DCS professional camera"
+       ]
+      ],
+      "mark": "1981"
      }
     },
     {
@@ -382,11 +403,24 @@
     },
     {
      "vo": "By 1976, Kodak accounted for ninety percent of the film sold in America.",
-     "kind": "stat",
-     "stat": {
-      "value": 90,
-      "suffix": "%",
-      "label": "Kodak's share of US film sales, 1976"
+     "kind": "compare",
+     "compare": {
+      "title": "Kodak's US market share, 1976",
+      "left": {
+       "name": "Film sold",
+       "value": 90,
+       "prefix": "",
+       "suffix": "%",
+       "label": "of US film"
+      },
+      "right": {
+       "name": "Cameras sold",
+       "value": 85,
+       "prefix": "",
+       "suffix": "%",
+       "label": "of US cameras"
+      },
+      "winner": "left"
      }
     },
     {
@@ -712,14 +746,24 @@
     },
     {
      "vo": "And film was paying. By The Economist's count, Kodak's profit peaked at two and a half billion dollars in 1999.",
-     "kind": "photo",
-     "prompt": "a documentary photograph of the moment: And film was paying. By The Economist's count, Kodak's profit peaked at two and a half billion dollars in 1999.",
-     "photo": {
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Kodak_Tower_Rochester_NY.jpg/1920px-Kodak_Tower_Rochester_NY.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "w": 2592,
-      "h": 3888,
-      "credit": "Kodak Tower Rochester NY.jpg by Luxhunter68, CC BY-SA 3.0, Wikimedia Commons",
-      "page": "https://commons.wikimedia.org/wiki/File:Kodak_Tower_Rochester_NY.jpg"
+     "kind": "compare",
+     "compare": {
+      "title": "Kodak revenue vs profit",
+      "left": {
+       "name": "Peak revenue, 1996",
+       "value": 16,
+       "prefix": "$",
+       "suffix": "B",
+       "label": "nearly"
+      },
+      "right": {
+       "name": "Peak profit, 1999",
+       "value": 2.5,
+       "prefix": "$",
+       "suffix": "B",
+       "label": "per The Economist"
+      },
+      "winner": "left"
      }
     },
     {
@@ -829,8 +873,7 @@
       }
      },
      "kind": "still",
-     "prompt": "A muted 35mm documentary photograph of a single executive seen from behind, waist-up, seated at a plain wooden desk in a 1990s office, close over-the-shoulder framing. On the desk are a thick budget folder with a plain blank cover, a calculator, a neat stack of plain white paper and one red accent folder. Behind the desk is a smooth, plain, empty beige plaster wall, softly out of focus, and a window with closed pale blinds at the edge of the frame. Shallow depth of field, soft side light from the window, quiet and uncluttered, one figure only.",
-     "seed": 24814
+     "prompt": "a documentary photograph of the moment: Mui puts the cost of developing and launching it at more than five hundred million dollars., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "Business writer Chunka Mui, drawing on Barabba's account, gives the decade a verdict.",
@@ -894,10 +937,36 @@
     },
     {
      "vo": "So, in September 2003, Kodak cut its dividend by seventy-two percent to fund a shift to digital.",
-     "kind": "headline",
-     "headline": {
-      "date": "25 September 2003",
-      "text": "Kodak slashes dividend 72% to fund its move to digital"
+     "kind": "timeline",
+     "timeline": {
+      "title": "Kodak's slow decline",
+      "events": [
+       [
+        "2003",
+        "Dividend cut 72 percent"
+       ],
+       [
+        "2004",
+        "Dropped from the Dow"
+       ],
+       [
+        "2007",
+        "iPhone introduced"
+       ],
+       [
+        "2009",
+        "Kodachrome retired"
+       ],
+       [
+        "2011",
+        "Restructuring lawyers hired"
+       ],
+       [
+        "2012",
+        "Bankruptcy filing"
+       ]
+      ],
+      "mark": "2012"
      }
     },
     {
@@ -968,7 +1037,7 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: So Kodak sold its Health Group to Onex for up to two point five five billion dollars, to raise cash."
+     "prompt": "a documentary photograph of the moment: So Kodak sold its Health Group to Onex for up to two point five five billion dollars, to raise cash., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "With film fading, even Kodachrome, its best-known film, sold almost nothing by 2009.",
@@ -1082,7 +1151,7 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: To keep operating, Kodak took nine hundred and fifty million dollars of financing from Citigroup."
+     "prompt": "a documentary photograph of the moment: To keep operating, Kodak took nine hundred and fifty million dollars of financing from Citigroup., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "It sold Kodak Gallery, its photo-sharing site, to Shutterfly for twenty-three point eight million dollars.",
@@ -1135,8 +1204,27 @@
        "label": "UK Kodak Pension Plan deal creating Kodak Alaris, 2013"
       }
      },
-     "kind": "still",
-     "prompt": "a documentary photograph of the moment: Film, paper and kiosks went to Kodak's UK pension plan for six hundred and fifty million dollars, as Kodak Alaris."
+     "kind": "flow",
+     "flow": {
+      "title": "Kodak's bankruptcy breakup",
+      "nodes": [
+       "Kodak",
+       "Pension plan",
+       "Patent buyers"
+      ],
+      "links": [
+       [
+        "Kodak",
+        "Pension plan",
+        "$650M"
+       ],
+       [
+        "Kodak",
+        "Patent buyers",
+        "$525M"
+       ]
+      ]
+     }
     },
     {
      "vo": "What remained left bankruptcy in September 2013, as a commercial printing company.",
@@ -1148,14 +1236,24 @@
     },
     {
      "vo": "In 1988, Kodak employed a hundred and forty-five thousand people. At the filing, about seventeen thousand.",
-     "kind": "photo",
-     "prompt": "a documentary photograph of the moment: In 1988, Kodak employed a hundred and forty-five thousand people. At the filing, about seventeen thousand.",
-     "photo": {
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Kodak_Building%2C_State_Street%2C_Brown_Square%2C_Rochester%2C_NY_%2854419044522%29.jpg/1920px-Kodak_Building%2C_State_Street%2C_Brown_Square%2C_Rochester%2C_NY_%2854419044522%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "w": 4032,
-      "h": 3024,
-      "credit": "Kodak Building, State Street, Brown Square, Rochester, NY (54419044522).jpg by Warren LeMay from Chicago, IL, United States, CC BY-SA 2.0, Wikimedia Commons",
-      "page": "https://commons.wikimedia.org/wiki/File:Kodak_Building,_State_Street,_Brown_Square,_Rochester,_NY_(54419044522).jpg"
+     "kind": "compare",
+     "compare": {
+      "title": "Kodak employees",
+      "left": {
+       "name": "1988",
+       "value": 145000,
+       "prefix": "",
+       "suffix": "",
+       "label": "employees"
+      },
+      "right": {
+       "name": "At filing",
+       "value": 17000,
+       "prefix": "",
+       "suffix": "",
+       "label": "employees"
+      },
+      "winner": "left"
      }
     },
     {
@@ -1240,21 +1338,17 @@
  "replanned": true,
  "visuals_checked": true,
  "photos_checked": true,
+ "templates_checked": true,
  "approved": true,
  "review": "auto",
  "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
  "repaint": {
   "shots": [
-   57
+   57,
+   70,
+   79
   ],
   "thumbs": [],
-  "at": "2026-11-13 23:45"
- },
- "shot_qc": {
-  "rounds": 1,
-  "recheck": [
-   57
-  ]
- },
- "auto_regen": 3
+  "at": "2026-11-14 06:21"
+ }
 }
