@@ -1,0 +1,515 @@
+{
+ "slug": "26-american-cars-bigger",
+ "build": "github",
+ "title": "Why Are American Cars Getting So Huge? (The Rest of the World Isn't)",
+ "thumbnail": {
+  "layout": "split",
+  "left_label": "1985",
+  "right_label": "2026",
+  "text": "A 1975 *LOOPHOLE*",
+  "plane": "A compact boxy 1985 family sedan in pale blue, front three-quarter view, centred and large, an adult man standing beside its front with the hood reaching only his waist, empty suburban street, bright midday daylight, clean plain background, realistic painting, no badges, no logos, no license plate text, no text",
+  "right": "A huge 2026 full-size pickup truck in dark grey with a tall flat chrome grille, front three-quarter view, centred and large, the same adult man standing beside its front with the hood reaching his chest, same empty suburban street, bright midday daylight, clean plain background, realistic painting, no badges, no logos, no license plate text, no text"
+ },
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "words_in_edit": true,
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "cause",
+  "points": [
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "music": {
+  "reflective": [
+   "cold_open",
+   "ch1",
+   "ch2",
+   "ch3",
+   "outro"
+  ],
+  "intense": [
+   "ch4",
+   "ch5"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "At the grocery store, the pickup parked beside you blocks out the sun.",
+     "prompt": "A large dark full-size pickup truck parked right beside a small silver sedan, its tall body throwing a wide shadow over the sedan, seen from the sedan's side, open paved lot with shopping carts, late afternoon sun, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Its hood comes up to your chest; a 1985 sedan's barely reached your waist.",
+     "prompt": "A woman in a blue jacket holding two shopping bags, standing at the front of a tall modern pickup truck, its flat hood as high as her chest, truck seen exactly from its left side, bright daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 2024, Europe's best-selling car was a small hatchback.",
+     "prompt": "A small compact hatchback parked neatly in a tight space between old stone buildings on a narrow European cobbled street, seen from the front three-quarter view, soft morning light, wide shot",
+     "title": "*2024* Europe's Pick",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Here, a full-size pickup has topped the sales charts for over forty years.",
+     "prompt": "A long row of identical new full-size pickup trucks lined up on a huge open paved lot under a wide blue sky, seen from low angle, golden afternoon light, wide shot",
+     "title": "*40* Years On Top",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "And four in five new vehicles sold here count as trucks.",
+     "prompt": "An aerial view of a busy American suburban highway, nearly every vehicle a tall SUV or pickup truck, one small sedan among them, sharp focus, midday light, wide shot",
+     "title": "*4 in 5* Are Trucks",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So who made American cars this big?",
+     "prompt": "A small child in a red jacket standing in front of the tall blunt grille of a modern pickup truck, the grille towering above the child's head, truck seen from the front, overcast daylight, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The answer runs through a tax on chicken, a fuel-law loophole and a minivan.",
+     "prompt": "A boxy 1980s minivan parked beside a suburban garage on the left, an old farm truck loaded with crates of white chickens driving past on the street on the right, warm evening light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It began in October 1973, when Arab oil producers halted shipments to the United States, crude prices roughly quadrupled, and gas lines stretched for blocks.",
+     "prompt": "A long line of 1970s sedans waiting bumper to bumper at a gas station pump, a large hand-painted board on the pump reading \"NO GAS\", winter, grey overcast light, wide shot",
+     "title": "*October 1973*",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "THE TRUCK LOOPHOLE",
+   "shots": [
+    {
+     "vo": "Drivers waited hours at the pump, and some stations simply hung signs saying they had run dry.",
+     "prompt": "A tired man in a 1970s winter coat leaning on his sedan in a gas line, a large cardboard sign on the station pump reading \"OUT OF GAS\", cold morning light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Washington's answer arrived two years later, signed by President Gerald Ford on December 22, 1975.",
+     "prompt": "A man in a 1970s suit signing a bill at a wooden desk, aides standing behind him, a large wall calendar page reading \"DECEMBER 1975\" on the wall behind, warm lamplight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The Energy Policy and Conservation Act told carmakers to roughly double their fleet's fuel economy within ten years.",
+     "prompt": "A 1970s car factory assembly line with long heavy sedans moving down the line, workers in overalls bolting on engines, harsh industrial light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "For passenger cars, the target was 27.5 miles per gallon by 1985, with fines for missing it.",
+     "prompt": "A 1975 engineer in a white shirt and tie standing beside a long sedan in a test garage, holding a clipboard with a large page reading \"27.5 MPG\" turned toward the camera, fluorescent light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But farmers, builders and tradesmen needed pickups, and lawmakers didn't want to punish people who worked with them.",
+     "prompt": "A 1970s farmer in overalls lifting a hay bale into the bed of a dusty pickup truck, stacked bales around him, truck seen from its left side, golden harvest light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So light trucks got their own category, with a looser fuel target set separately by regulators, starting with the 1979 model year.",
+     "prompt": "Two 1970s officials in shirts and ties at a desk, a photograph of a pickup truck and a photograph of a sedan pinned side by side on a corkboard behind them, afternoon window light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1975, trucks were only about one in five new vehicles sold, so the gap hardly seemed to matter.",
+     "prompt": "A 1975 American main street lined with parked long sedans and one pickup truck among them, shoppers on the pavement, sunny afternoon, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The rules also decided what counted as a truck, and that definition turned out to be surprisingly generous.",
+     "prompt": "A 1970s official in a grey suit reading a very thick bound rulebook at a desk piled with stacks of paper, close focus on the book and his face, warm lamplight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A vehicle could qualify if it rode high enough to go off-road, or if its seats came out for cargo.",
+     "prompt": "The open rear of a 1970s utility vehicle with its back seats lifted out and leaning beside it, a flat empty cargo floor, tall wheels on a gravel road, seen from behind three-quarter view, daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Detroit's engineers spotted the gap, and they started asking a very profitable question.",
+     "prompt": "Four car engineers in short-sleeved shirts and ties pointing at a large car sketch on a drafting table, cigarette smoke in the air, 1970s design studio, overhead light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "What if a family car could be built so that, on paper, it counted as a truck?",
+     "prompt": "A designer studying a full-size clay model of a tall boxy family vehicle on a turntable, seen from its left side, 1970s design studio, dramatic side light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "A TAX ON CHICKEN",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "subscribe_ask": true,
+     "prompt": "Rows of white chickens in a huge poultry barn, a farmer carrying a crate of chickens in the foreground, warm dusty light through windows, wide shot",
+     "seed": 1500,
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "There was a second reason trucks looked so tempting, and it had started years earlier with a fight over chickens.",
+     "prompt": "Rows of white chickens in a huge poultry barn, a farmer carrying a crate of chickens in the foreground, warm dusty light through windows, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In the early 1960s, cheap American frozen chicken poured into West Germany and France, and European farmers protested.",
+     "prompt": "A crowded 1962 butcher shop, a cold counter piled with frozen whole chickens, a large price card reading \"AMERICAN CHICKEN\" turned toward the camera, housewives in coats waiting, daylight, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Europe raised its tariffs on American chicken, and U.S. poultry sales to the continent fell sharply.",
+     "prompt": "Tall stacks of unsold boxed frozen chickens in a cold dockside warehouse, a worker in a coat standing small beside them looking up, dim blue light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In December 1963, President Lyndon Johnson proclaimed a 25 percent tariff on imported light trucks, which took effect in January 1964.",
+     "prompt": "A tall man in a dark 1960s suit signing a proclamation at a desk, a large wall calendar page reading \"DECEMBER 1963\" on the wall behind him, warm lamplight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Imported cars paid just 2.5 percent at the border, so a foreign pickup now paid ten times as much.",
+     "prompt": "A customs officer with a clipboard inspecting a small imported pickup truck on a busy 1960s dock, a large paper tag on its windshield reading \"25% DUTY\" turned toward the camera, cargo ship behind, daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The tariff hit Volkswagen's little imported pickups hardest, and they soon all but vanished from American roads.",
+     "prompt": "A small 1960s flatbed van-pickup parked alone and dusty behind a rural garage, weeds around its tires, seen from its left side, late afternoon light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Six decades later, the chicken tax is still on the books, and it still shields the American pickup.",
+     "prompt": "A modern port dock with rows of small imported cars lined up, a car carrier ship behind, no pickup trucks among them, bright daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Foreign makers who want to sell big trucks here mostly build them inside American factories instead.",
+     "prompt": "Workers assembling full-size pickup trucks on a long assembly line inside a huge modern factory, bright overhead lights, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "With so little cheap competition, Detroit could charge more for a truck than for a car of similar size.",
+     "prompt": "A salesman in a wide-tie 1980s suit showing a shiny pickup truck to a couple in a car showroom, a large window sticker reading \"$11,995\" on the truck's side window, warm showroom light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Trucks became the most profitable vehicles the American companies made, often earning thousands more per sale.",
+     "prompt": "Six executives in 1980s suits around a boardroom table, a new pickup truck on a display lawn visible through a large window behind them, afternoon light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "All Detroit needed now was a truck that an ordinary family would actually want to drive.",
+     "prompt": "A family of four in an early-1980s driveway looking across at a long station wagon, a pickup truck parked across the street, evening light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "THE MINIVAN TRICK",
+   "shots": [
+    {
+     "vo": "Chrysler needed that idea more than anyone, because in 1979 the company had nearly gone bankrupt.",
+     "prompt": "An empty silent 1979 car factory floor with idle assembly lines, a few workers in coats walking toward the exit, cold grey light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Congress backed $1.5 billion in loan guarantees to save it, and its new boss, Lee Iacocca, desperately needed a hit.",
+     "prompt": "A confident silver-haired executive in a dark 1980s suit standing on a car factory floor with arms crossed, workers small behind him, dramatic industrial light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In late 1983, Chrysler launched the Dodge Caravan and Plymouth Voyager, 1984 models and the first modern American minivans.",
+     "prompt": "A boxy 1984 minivan with wood-grain side panels on a rotating stage at a crowded auto show, a large stage banner reading \"CARAVAN\" behind it, spotlights, seen from the front three-quarter view, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "They drove like cars, fit in a normal garage, and carried seven people with every seat in place.",
+     "prompt": "A 1980s mother loading five children into a boxy minivan in a suburban garage, sliding door open, seats full of children, warm morning light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But with the rear seats out and a flat floor, the government classified them as light trucks.",
+     "prompt": "The open sliding door of a 1984 minivan with its rear bench seat lifted out and resting on the driveway beside it, a flat empty cargo floor visible, daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Suddenly the family car was no longer a long sedan or wagon, but a tall, boxy van.",
+     "prompt": "A long line of new boxy minivans rolling off a 1984 assembly line, workers checking them, bright factory light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Suburban parents loved them, and the station wagon, the big family car of the 1970s, began to disappear.",
+     "prompt": "An old wood-paneled station wagon parked on a suburban lawn, a large sign in its window reading \"FOR SALE\" turned toward the camera, a boxy minivan in the driveway behind, 1980s afternoon light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then in 1990, Ford went further and launched the Explorer, a 1991 model and a family vehicle built on a pickup truck's frame.",
+     "prompt": "A rugged 1990 two-tone sport utility vehicle parked on a mountain overlook, a family of four unloading camping gear from its back, seen from the front three-quarter view, golden light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It rode high, looked rugged, and by the late 1990s Ford was selling more than 400,000 a year.",
+     "prompt": "Rows of identical 1990s sport utility vehicles filling a huge dealership lot, colourful balloons tied to their mirrors, high angle, bright summer day, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Industry researchers found buyers loved sitting high above traffic, because it made them feel safe and in control.",
+     "prompt": "A woman driving a tall SUV looking down through the side window at a small sedan beside her in traffic, view from inside her cab, afternoon light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "For the people inside, it was often true, but mostly because everyone around them was smaller.",
+     "prompt": "A tall SUV standing beside a low compact car at a red light, the SUV's bumper level with the compact car's windows, both seen from the side, overcast daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "And as more neighbors bought SUVs, the families still driving sedans started to feel very small.",
+     "prompt": "A suburban cul-de-sac with a large SUV in every driveway except one small sedan, a father standing beside the sedan looking around at the SUVs, evening light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "BIGGER IS EASIER",
+   "shots": [
+    {
+     "vo": "In 2003, Congress poured fuel on the fire with a tax break meant to help small businesses buy equipment.",
+     "prompt": "Lawmakers in dark suits walking down the wide stone steps of a domed government building, bright spring daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A business owner could write off up to $100,000 for a vehicle weighing over 6,000 pounds fully loaded.",
+     "prompt": "A real estate agent in a business suit standing proudly beside a massive square military-style SUV outside a suburban office, SUV seen from the front three-quarter view, bright daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "People called it the Hummer loophole, and some dealers advertised the tax savings right on their windshields.",
+     "prompt": "A huge boxy SUV on a dealership lot with a large card on its windshield reading \"TAX WRITE-OFF\" turned toward the camera, a salesman pointing to the card, sunny day, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Congress cut the SUV break to $25,000 a year later, but heavy trucks kept special treatment in the tax code.",
+     "prompt": "An accountant at a cluttered desk with a tax form and calculator, a framed photo of a pickup truck on the wall behind him, lamplight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then the fuel rules themselves were rewritten, and the new version quietly rewarded size itself.",
+     "prompt": "Government engineers in shirtsleeves pulling a long tape measure along the side of a pickup truck in a bright test garage, truck seen from its left side, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "From 2011, each new vehicle's fuel target depended on its footprint, the area between its four wheels.",
+     "prompt": "A top-down view of a pickup truck parked on a clean concrete test pad, white chalk lines drawn on the floor joining its four wheels into a rectangle, flat daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A bigger footprint meant an easier target, so stretching a vehicle could make it easier to pass.",
+     "prompt": "Two pickup trucks parked side by side in a test garage, the left one clearly longer and wider than the right, two engineers with tape measures comparing them, bright overhead light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Ford stopped selling its compact Ranger here in 2011, and it came back in 2019 as a larger midsize truck.",
+     "prompt": "A small compact pickup truck on the left parked next to a much bigger midsize pickup truck on the right in a driveway, both seen exactly from their left sides, the size difference clear, bright daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Gas stayed cheap compared with Europe, where heavy fuel taxes nudge drivers toward small cars every time they fill up.",
+     "prompt": "A driver filling a small hatchback at a European gas station pump, a large price board reading \"€1.89\" turned toward the camera, dusk, cool evening light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then on April 25, 2018, Ford announced it would stop selling almost every car in North America.",
+     "prompt": "A newspaper lying open on a kitchen table, a large headline reading \"FORD DROPS SEDANS\" across the top, a cup of coffee beside it, morning light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Within a few years, the Fiesta, Focus, Fusion and Taurus were gone, and only the Mustang remained.",
+     "prompt": "A car showroom floor filled with pickup trucks, one corner holding a few leftover small sedans and a single red sports coupe, a lone salesman watching, fluorescent light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But all that extra height had a cost, and it was paid by people outside the vehicle.",
+     "prompt": "A woman stepping off the curb at an American crosswalk in front of a towering pickup truck, its blunt grille and headlights glaring above her, dusk, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "WHO PAYS THE PRICE",
+   "shots": [
+    {
+     "vo": "In 2022, about 7,500 pedestrians were killed on American roads, the highest number since 1981.",
+     "prompt": "A quiet roadside memorial of flowers and lit candles at the edge of a suburban crosswalk, a faded white crosswalk stripes beside it, streetlight glow at night, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 2010, that number had been about 4,300, so it rose by roughly three quarters in twelve years.",
+     "prompt": "A lone pedestrian waiting at a faded crosswalk on a wide multi-lane suburban road while tall SUVs rush past, dusk light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 2023, the Insurance Institute for Highway Safety studied how a vehicle's front end changes who survives.",
+     "prompt": "Safety researchers in lab coats holding a tall measuring rod beside the hood of a pickup truck in a bright crash-test facility, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Vehicles with a hood edge over 40 inches high were about 45 percent more likely to kill a pedestrian than those with lower, sloped hoods of 30 inches or less.",
+     "prompt": "A crash-test dummy standing upright in front of a tall blunt pickup truck, the hood edge level with the dummy's chest, truck seen from the front, cold white light in a test hall, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A low car tends to strike an adult's legs, while a tall, blunt hood hits the chest and head.",
+     "prompt": "A low sedan on the left and a tall pickup truck on the right in a crash-test hall, each with a crash-test dummy standing at its front, the sedan's hood at the dummy's legs and the pickup's hood at the dummy's chest, white light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "And from a tall driver's seat, a small child standing right in front of the bumper can disappear completely.",
+     "prompt": "View from a high pickup driver's seat looking over a long flat hood at a driveway, only the top of a small child's head just visible beyond the hood's edge, bright daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Drivers of small cars are at risk too, because a heavy truck carries far more force into a crash.",
+     "prompt": "A small hatchback with a crumpled side door on the left beside a full-size pickup truck on the right with barely a scratch, at an intersection, police lights reflecting, overcast day, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So families buy bigger vehicles to feel safe, which pushes the next family to buy bigger still.",
+     "prompt": "A young couple in a dealership standing between a small sedan on the left and a huge pickup truck on the right, looking up at the truck, bright showroom light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Safety researchers call it an arms race, and no single family can win it by buying smaller.",
+     "prompt": "A packed highway at rush hour seen from a footbridge, tall SUVs and pickups bumper to bumper, one small car squeezed between them, golden haze, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Meanwhile, Europe tests how new cars treat pedestrians, and many of its cars are built with lower, softer fronts.",
+     "prompt": "A busy European city square where small low-nosed cars stop at a crosswalk as pedestrians cross close in front of them, soft morning light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So, would you trade your truck for a small hatchback, or does the size make you feel safer?",
+     "prompt": "A man in a work jacket leaning on the tailgate of his pickup truck in a parking lot, a small hatchback parked next to it, thoughtful expression, golden evening light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "American cars got bigger because a 1975 law gave trucks an easier fuel target, and Detroit built family cars to qualify.",
+     "prompt": "A boxy 1985 sedan on the left and a huge 2026 full-size pickup truck on the right parked nose to nose on an empty suburban street, both seen from their sides, sunset, long shadows, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A chicken tariff protected them, tax breaks rewarded weight, and every bigger truck made the next buyer want one.",
+     "prompt": "A line of vehicles parked along a suburban curb, growing taller from left to right, from a small 1980s sedan to a giant modern pickup, seen from low angle, golden evening light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Next time: why most of the world dries its laundry in the sun, and some American neighborhoods ban it.",
+     "prompt": "White sheets drying on a clothesline in a sunny backyard, a neighbor watching over the fence with arms folded, bright summer daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "If you want the next hidden why, subscribe, and tell us below: big truck or small car?",
+     "prompt": "A quiet suburban street at dusk, one pickup truck in the driveway on the left and one small car in the driveway on the right, porch lights coming on, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "framework": "2026-11-15 01:09"
+}
