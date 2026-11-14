@@ -2015,10 +2015,10 @@
     },
     {
      "vo": "From 2011, each new vehicle's fuel target depended on its footprint, the area between its four wheels.",
-     "prompt": "A top-down view of a pickup truck parked on a clean concrete test pad, bold white chalk lines on the floor running from wheel to wheel along all four sides, joining its four wheels into one large rectangle, flat daylight, wide shot",
+     "prompt": "A single pickup truck seen from the front three-quarter view on a clean concrete test floor, bold white chalk lines running on the floor from tire to tire along all four sides, joining its four wheels into one large rectangle, flat daylight, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 16887
+     "seed": 24806
     },
     {
      "vo": "A bigger footprint meant an easier target, so stretching a vehicle could make it easier to pass.",
@@ -2377,10 +2377,10 @@
     },
     {
      "vo": "A low car tends to strike an adult's legs, while a tall, blunt hood hits the chest and head.",
-     "prompt": "A low sedan on the left and a tall pickup truck on the right, both undamaged and seen from the front, each with a yellow crash-test dummy standing at its front, the sedan's hood edge at the dummy's knees and the pickup's hood edge at the dummy's chest, white light in a test hall, wide shot",
+     "prompt": "A low sedan on the left and a tall pickup truck on the right, both undamaged and seen from the front, each with an upright yellow crash-test dummy standing at its front, the sedan's hood edge at its dummy's knees and the pickup's hood edge at its dummy's chest, white light in a test hall, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 16898
+     "seed": 24817
     },
     {
      "vo": "And from a tall driver's seat, a small child standing right in front of the bumper can disappear completely.",
@@ -2508,23 +2508,20 @@
  "repaint": {
   "shots": [
    49,
-   55,
    60
   ],
   "thumbs": [],
-  "at": "2026-11-15 02:38"
+  "at": "2026-11-15 03:09"
  },
  "shot_qc": {
-  "checked": "2026-11-14T21:07:09Z",
-  "rounds": 2,
+  "checked": "2026-11-14T21:38:27Z",
+  "rounds": 3,
   "why": {
-   "49": "The chalk lines are two vertical lines beside the truck. They don't join the four wheels into a rectangle, which is the line's defining element.",
-   "55": "The vehicle is a heavy semi-truck, not a pickup. The sign has painted gibberish text ('AMERRIC'S RAIELS').",
-   "60": "Only one figure, and it looks like a real person, not a crash-test dummy at each vehicle. Both vehicles are already crashed, and the hood-height-to-body-part comparison isn't clear."
+   "49": "The top-down truck is built wrong: it looks like a box with detached blocks for wheels, and a second truck cuts in at the top. The chalk rectangle joining the four wheels isn't shown.",
+   "60": "The scene doesn't match the line. Only one yellow dummy is standing, in front of the sedan, and the other is a crumpled heap by the pickup. The hood heights against the dummies' knees and chest aren't shown."
   },
   "recheck": [
    "49",
-   "55",
    "60"
   ]
  }
