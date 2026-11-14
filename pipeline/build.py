@@ -1115,6 +1115,61 @@ def video_mark():
     return cv2.cvtColor(a[..., :3], cv2.COLOR_RGB2BGR).astype(np.float32), a[..., 3:4] / 255.0 * float(m.get("opacity", 0.6))
 
 
+class Footage:
+    """A stock clip as the shot's picture (14 Nov 2026: the winners of THW, Gazab Kyun and Logos & Legends cut through real
+    footage): read in order as the shot plays, cover-cropped to the frame, a slow 4% push, looped if short."""
+
+    def __init__(self, path, dur):
+        self.path, self.dur = str(path), dur
+        self.cap = cv2.VideoCapture(self.path)
+        self.fps = self.cap.get(cv2.CAP_PROP_FPS) or 30
+        self.n = max(1, int(self.cap.get(cv2.CAP_PROP_FRAME_COUNT) or 1))
+        self.start = max(0, int((self.n - dur * self.fps) / 3))  # a little in: clips often open on a fade
+        self.idx, self.last = -1, None
+
+    def frame(self, u):
+        target = (self.start + int(u * self.dur * self.fps)) % self.n
+        if target < self.idx:  # looped: from the top again
+            self.cap.release()
+            self.cap, self.idx = cv2.VideoCapture(self.path), -1
+        while self.idx < target:
+            ok, f = self.cap.read()
+            self.idx += 1
+            if not ok:
+                break
+            self.last = f
+        f = self.last if self.last is not None else np.zeros((H, W, 3), np.uint8)
+        h, w = f.shape[:2]
+        z = 1.0 + 0.04 * u
+        sc = max(W / w, H / h) * z
+        r = cv2.resize(f, (int(w * sc) + 1, int(h * sc) + 1), interpolation=cv2.INTER_LINEAR)
+        y0, x0 = (r.shape[0] - H) // 2, (r.shape[1] - W) // 2
+        return r[y0:y0 + H, x0:x0 + W]
+
+
+def clips_in(script, out):
+    """The stock clips studio/real_pictures.py picked (Pixabay ids, by eye), downloaded as clips/NN.mp4."""
+    import urllib.parse
+    import urllib.request
+    key = os.environ.get("PIXABAY_KEY", "")
+    n = 0
+    for sec in script.get("sections") or []:
+        for s in sec.get("shots") or []:
+            n += 1
+            cid = (s.get("clip") or {}).get("id")
+            dest = Path(out) / "clips" / f"{n:02d}.mp4"
+            if not cid or dest.exists() or not key:
+                continue
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            try:
+                u = "https://pixabay.com/api/videos/?" + urllib.parse.urlencode({"key": key, "id": cid})
+                h = json.loads(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"}), timeout=30).read())["hits"][0]
+                v = h["videos"].get("large") if (h["videos"].get("large") or {}).get("url") else h["videos"].get("medium")
+                dest.write_bytes(urllib.request.urlopen(urllib.request.Request(v["url"], headers={"User-Agent": "Mozilla/5.0"}), timeout=120).read())
+            except Exception as e:  # noqa: BLE001 - the shot falls back to a card
+                print(f"  clip {n}: {e}", flush=True)
+
+
 class Still:
     def __init__(self, img):
         self.img = img
@@ -1519,6 +1574,7 @@ def main(script_path, out_dir):
     caps = []
     out = Path(out_dir)
     photos_in(script, out)  # real photographs into their shots' picture files (13 Nov 2026)
+    clips_in(script, out)  # stock clips picked by eye (14 Nov 2026)
     vo = json.loads((out / "vo.json").read_text())
     items, n = [], 0  # (start, dur, visual, vo_file, section_id)
     cuts = []  # Shorts: every picture change (new shot or new crop), for the whoosh
@@ -1576,7 +1632,10 @@ def main(script_path, out_dir):
         for s in sec.get("shots") or []:
             n += 1
             d = vo[f"{n:02d}"] + BREATH
-            if s.get("diagram") and s["diagram"] not in DIAGRAMS:  # a diagram this builder doesn't have (old scripts,
+            if s.get("clip") and not short:  # a stock clip picked for this line; a failed download shows the line as a card
+                cp = out / "clips" / f"{n:02d}.mp4"
+                vis = Footage(cp, d) if cp.exists() else Still(card(s.get("title") or " ".join(s["vo"].split()[:5])))
+            elif s.get("diagram") and s["diagram"] not in DIAGRAMS:  # a diagram this builder doesn't have (old scripts,
                 # 14 Nov 2026: ep 13's "gut_two_doors" failed the build): its line shown as a card instead
                 vis = Still(card(s.get("title") or " ".join(s["vo"].split()[:5])))
             elif s.get("diagram"):

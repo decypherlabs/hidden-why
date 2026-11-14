@@ -78,6 +78,8 @@ jobs:
             python pipeline/narrate.py "$EP/script.json" "out/${{ inputs.slug }}"
           fi
       - name: Edit
+        env:
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}  # stock clips picked by eye (studio/real_pictures.py)
         run: |
           python pipeline/build.py "$EP/script.json" "out/${{ inputs.slug }}"
       - name: Thumbnail
