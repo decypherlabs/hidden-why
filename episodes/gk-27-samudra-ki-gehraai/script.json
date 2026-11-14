@@ -77,10 +77,11 @@
     },
     {
      "vo": "उसकी चोटी पर भी दो किलोमीटर पानी होगा।",
-     "prompt": "A snow-capped mountain peak fully submerged in dark blue ocean water, the white summit just below the surface with a thin layer of water above it, faint sunlight from above, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Looking up from underwater at a snow-white mountain peak fully submerged, the summit far below the surface with a thick layer of deep blue water above it, the bright water surface high overhead, faint sunbeams, wide shot, photorealistic documentary film still, natural colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "उसकी चोटी पर भी 2 किलोमीटर पानी होगा।"
+     "caption": "उसकी चोटी पर भी 2 किलोमीटर पानी होगा।",
+     "seed": 8923
     },
     {
      "vo": "इतनी गहराई में सूरज की रोशनी कहाँ तक जाती है?",
@@ -281,10 +282,11 @@
     },
     {
      "vo": "नीचे जाती प्लेट समुद्र की तली को अपने साथ खींच ले जाती है। वहीं बनती है ये खाई।",
-     "prompt": "A cutaway view of one slab of dark seafloor rock bending steeply downward beneath another slab, a deep V-shaped trench forming at the bend, blue water above, wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A cutaway side view of one slab of dark seafloor rock bending steeply downward beneath another slab, a deep V-shaped trench forming at the bend, blue water above, wide shot, photorealistic documentary film still, natural colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "नीचे जाती plate समुद्र की तली को अपने साथ खींच ले जाती है। वहीं बनती है ये खाई।"
+     "caption": "नीचे जाती plate समुद्र की तली को अपने साथ खींच ले जाती है। वहीं बनती है ये खाई।",
+     "seed": 8936
     },
     {
      "vo": "ये चाल बहुत धीमी है, साल में कुछ सेंटीमीटर। लगभग आपके नाखून बढ़ने जितनी।",
@@ -375,9 +377,10 @@
     },
     {
      "vo": "आँखें यहाँ काम नहीं आतीं। इसलिए कई जीवों की आँखें बहुत बड़ी हैं, या हैं ही नहीं।",
-     "prompt": "A deep-sea fish with huge round reflective eyes, lit by a single beam in total darkness, face filling the frame, close-up, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A dark deep-sea fish with two huge round eyes on its face, filling the frame, lit by a single beam, surrounded by plain black deep ocean water, close-up, photorealistic documentary film still, natural colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8945
     },
     {
      "vo": "करीब तीन हज़ार आठ सौ मीटर पर टाइटैनिक का मलबा पड़ा है।",
@@ -463,13 +466,140 @@
      "prompt": "Large white styrofoam cups decorated with marker drawings on a ship deck table, one cup reading \"11 KM\", the cup large, flat and facing the camera, crew hands holding the others, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "वैज्ञानिक एक मज़ेदार test करते हैं। थर्मोकोल के कप पर नाम लिखकर नीचे भेजते हैं।"
+     "caption": "वैज्ञानिक एक मज़ेदार test करते हैं। थर्मोकोल के कप पर नाम लिखकर नीचे भेजते हैं।",
+     "words": {
+      "36": {
+       "src": "35120ae68438",
+       "items": [
+        {
+         "text": "11 KM",
+         "grid": [
+          [
+           [
+            706.2,
+            498.3
+           ],
+           [
+            734.4,
+            494.1
+           ],
+           [
+            763.5,
+            488.6
+           ],
+           [
+            793.2,
+            481.9
+           ],
+           [
+            823.0,
+            474.1
+           ],
+           [
+            854.3,
+            464.7
+           ],
+           [
+            886.8,
+            453.8
+           ]
+          ],
+          [
+           [
+            717.2,
+            566.0
+           ],
+           [
+            741.7,
+            558.4
+           ],
+           [
+            767.3,
+            549.8
+           ],
+           [
+            793.8,
+            540.2
+           ],
+           [
+            820.9,
+            529.8
+           ],
+           [
+            849.5,
+            518.0
+           ],
+           [
+            879.6,
+            504.9
+           ]
+          ],
+          [
+           [
+            725.8,
+            619.5
+           ],
+           [
+            747.4,
+            609.9
+           ],
+           [
+            770.4,
+            599.4
+           ],
+           [
+            794.3,
+            588.1
+           ],
+           [
+            819.1,
+            576.0
+           ],
+           [
+            845.5,
+            562.7
+           ],
+           [
+            873.5,
+            548.3
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           680,
+           420
+          ],
+          [
+           905,
+           420
+          ],
+          [
+           868,
+           650
+          ],
+          [
+           722,
+           650
+          ]
+         ],
+         "band": [
+          0.25,
+          0.65
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "लौटते हैं तो कप छोटे गिलास जितने हो जाते हैं। अंदर की हवा निचुड़ जाती है।",
-     "prompt": "A tiny shrunken styrofoam cup standing next to a normal-size one on a ship table, same marker drawings now miniature, close-up, bright daylight, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A tiny shrunken styrofoam cup standing next to a normal-size one on a plain ship table, the same marker drawings now miniature, plain blank wall behind, close-up, bright daylight, photorealistic documentary film still, natural colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8956
     },
     {
      "vo": "किसी आम पनडुब्बी को वहाँ भेजें, तो वो कागज़ की तरह पिचक जाएगी।",
@@ -734,17 +864,19 @@
     },
     {
      "vo": "इसका शरीर पानी से भरा है। अंदर-बाहर दबाव बराबर, और कोशिकाओं के टी एम ए ओ जैसे अणु भी मदद करते हैं।",
-     "prompt": "A snailfish gliding effortlessly over the deep seafloor, relaxed, its whole water-filled body softly lit, a lamp beam behind it, medium shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A pale translucent tadpole-shaped snailfish with a soft jelly body and a tapering tail fin, gliding calmly just above the deep seafloor, a lamp beam behind it, no shell, medium shot, photorealistic documentary film still, natural colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इसका शरीर पानी से भरा है। अंदर-बाहर दबाव बराबर, और कोशिकाओं के TMAO जैसे अणु भी मदद करते हैं।"
+     "caption": "इसका शरीर पानी से भरा है। अंदर-बाहर दबाव बराबर, और कोशिकाओं के TMAO जैसे अणु भी मदद करते हैं।",
+     "seed": 8982
     },
     {
      "vo": "वैज्ञानिक मानते हैं कि करीब आठ हज़ार दो सौ से आठ हज़ार चार सौ मीटर के नीचे मछली का शरीर काम नहीं कर पाता।",
-     "prompt": "An empty dark seafloor below steep trench walls, no fish in sight, only a few tiny pale amphipods on the silt, wide shot, lamp light, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An empty dark flat seafloor below steep trench walls with only a few tiny pale amphipods on the silt, open black water above, lamp light, wide shot, photorealistic documentary film still, natural colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "वैज्ञानिक मानते हैं कि करीब 8,200 से 8,400 मीटर के नीचे मछली का शरीर काम नहीं कर पाता।"
+     "caption": "वैज्ञानिक मानते हैं कि करीब 8,200 से 8,400 मीटर के नीचे मछली का शरीर काम नहीं कर पाता।",
+     "seed": 8983
     },
     {
      "vo": "उन्नीस सौ साठ में पिकार्ड ने कहा था कि तली पर एक चपटी मछली दिखी।",
@@ -840,10 +972,11 @@
     },
     {
      "vo": "भारत का मत्स्य छह हज़ार भी तीन लोगों को छह हज़ार मीटर नीचे ले जाने के लिए बना है।",
-     "prompt": "Three Indian scientists and engineers standing beside a round white deep-sea submersible sphere in a workshop, an Indian tricolour flag on the wall, bright light, medium-wide shot, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Three Indian scientists and engineers standing beside a round white deep-sea submersible sphere in a workshop, an Indian tricolour flag on the plain wall, bright light, medium-wide shot, photorealistic documentary film still, natural colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "भारत का Matsya 6000 भी तीन लोगों को 6,000 मीटर नीचे ले जाने के लिए बना है।"
+     "caption": "भारत का Matsya 6000 भी तीन लोगों को 6,000 मीटर नीचे ले जाने के लिए बना है।",
+     "seed": 8994
     }
    ]
   },
@@ -926,5 +1059,40 @@
  "released_at": "2026-11-14 15:35",
  "voice_requested": "voice-gk-27-samudra-ki-gehraai-0adae1ecb5",
  "voice_ok": "voice-gk-27-samudra-ki-gehraai-0adae1ecb5",
- "voice_approved_at": "2026-11-14 16:42"
+ "voice_approved_at": "2026-11-14 16:42",
+ "repaint": {
+  "shots": [
+   4,
+   17,
+   26,
+   37,
+   63,
+   64,
+   75
+  ],
+  "thumbs": [],
+  "at": "2026-11-14 20:33"
+ },
+ "shot_qc": {
+  "checked": "2026-11-14T15:01:46Z",
+  "rounds": 1,
+  "why": {
+   "4": "The summit is above the surface as an island. The line says it is under 2 km of water.",
+   "17": "It shows a raised ridge, not one slab bending down into a V-shaped trench.",
+   "26": "The fish has goggle-like eyes, and the background is a room with posters and papers instead of dark deep water.",
+   "37": "A map is painted on the wall, and there is gibberish lettering on the signs.",
+   "63": "The creature is a snail fused with a fish, not a snailfish.",
+   "64": "Several fish are visible on the seafloor, but the line says none live there.",
+   "75": "A world map hangs on the wall in the background."
+  },
+  "recheck": [
+   "4",
+   "17",
+   "26",
+   "37",
+   "63",
+   "64",
+   "75"
+  ]
+ }
 }
