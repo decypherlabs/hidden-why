@@ -123,6 +123,7 @@ def _countries_of(places):
 
 
 _CACHE = {}
+GLOBE = 2.4  # seconds of globe before a flagged map's flat zoom
 _LAYOUT, _REC = {}, None  # the labels of a shot, placed once at its final view (frame -> _record)
 
 
@@ -263,7 +264,65 @@ def _country_spots(shown, P, focus, limit=12):
     return out[:limit]
 
 
+def globe(lat_c, lon_c, R, style=None):
+    """An orthographic Earth of radius R px centred on (lat_c, lon_c): ocean disc, countries in the atlas colours, a soft
+    atmosphere ring, on a dark sky. Points behind the horizon are pulled onto the rim."""
+    ocean, land, coast, border, _, _ = PALETTES.get(style or STYLE, PALETTES["atlas"])
+    img = np.zeros((H, W, 3), np.float32)
+    yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+    img[:] = np.array((10, 14, 22), np.float32) + 18 * (1 - np.clip(np.hypot(xx - W / 2, yy - H / 2) / (W * 0.7), 0, 1))[..., None]
+    img = img.astype(np.uint8)
+    cx, cy = W / 2, H / 2
+    rr = np.hypot(xx - cx, yy - cy)
+    glow = np.clip(1 - np.abs(rr - R) / 26, 0, 1)[..., None] * np.array((120, 170, 230), np.float32) * 0.5
+    cv2.circle(img, (int(cx), int(cy)), int(R), ocean, -1, cv2.LINE_AA)
+    la0, lo0 = np.radians(lat_c), np.radians(lon_c)
+
+    def proj(ring):
+        a = np.radians(np.array(ring, np.float64))
+        lo, la = a[:, 0], a[:, 1]
+        cosc = np.sin(la0) * np.sin(la) + np.cos(la0) * np.cos(la) * np.cos(lo - lo0)
+        x = np.cos(la) * np.sin(lo - lo0)
+        y = np.cos(la0) * np.sin(la) - np.sin(la0) * np.cos(la) * np.cos(lo - lo0)
+        back = cosc < 0
+        nrm = np.hypot(x, y) + 1e-9
+        x = np.where(back, x / nrm, x)
+        y = np.where(back, y / nrm, y)
+        return np.int32(np.stack([cx + R * x, cy - R * y], 1) * 4), back.all()
+
+    for c in WORLD["countries"]:
+        polys = []
+        for r in c["rings"]:
+            pts, hidden = proj(r)
+            if not hidden:
+                polys.append(pts)
+        if polys:
+            j = (sum(map(ord, c["iso"])) % 7 - 3) * 3
+            cv2.fillPoly(img, polys, tuple(int(np.clip(v + j, 0, 255)) for v in land), cv2.LINE_AA, shift=2)
+            cv2.polylines(img, polys, True, coast, 1, cv2.LINE_AA, shift=2)
+    mask = np.zeros((H, W), np.uint8)
+    cv2.circle(mask, (int(cx), int(cy)), int(R), 255, -1, cv2.LINE_AA)
+    sky = img.copy()
+    sky[mask > 0] = 0
+    out = np.where(mask[..., None] > 0, img, sky).astype(np.float32) + glow
+    return np.clip(out, 0, 255).astype(np.uint8)
+
+
 def frame(spec, t, dur, i=0):
+    if spec.get("globe") and TERRAIN and STYLE in PALETTES and t < GLOBE + 0.4 and not spec.get("_flat"):
+        # a State Maps opening (13 Nov 2026): the Earth spins to the region and grows, then hands over to the flat map
+        c = spec.get("center") or [(spec.get("places") or [{"lat": 20, "lon": 0}])[0].get("lat", 20),
+                                   (spec.get("places") or [{"lat": 20, "lon": 0}])[0].get("lon", 0)]
+        e = ease(min(1.0, t / GLOBE))
+        g = globe(c[0] * e, c[1] - 70 * (1 - e), 360 + 260 * e)
+        if t < GLOBE:
+            return g
+        flat = frame({**spec, "_flat": True}, 0.0, dur, i)
+        a = (t - GLOBE) / 0.4
+        return cv2.addWeighted(flat, a, g, 1 - a, 0)
+    if spec.get("globe") and not spec.get("_flat") and TERRAIN and STYLE in PALETTES:
+        t = max(0.0, t - GLOBE - 0.4)  # the flat map's own wide-to-detail zoom runs after the globe
+        dur = max(1.0, dur - GLOBE - 0.4)
     places = [p for p in spec.get("places") or [] if isinstance(p.get("lat"), (int, float)) and isinstance(p.get("lon"), (int, float))]
     if TERRAIN:  # a whole country is shown by its fill and its name, not a pin in its middle (13 Nov 2026)
         _cn = {c["name"].upper() for c in WORLD["countries"]}
