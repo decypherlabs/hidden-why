@@ -19,11 +19,13 @@
     },
     {
      "vo": "Vishnu rests on the serpent Shesha.",
-     "prompt": "Lord Vishnu reclines on the coiled serpent Shesha, its many hooded heads spread above him like a canopy, floating on a calm cosmic ocean under a starlit sky, Goddess Lakshmi in a red silk saree sits at his feet, soft golden light"
+     "prompt": "Lord Vishnu reclining on a giant coiled white serpent Shesha whose five separate cobra heads with hoods spread wide rise above him like a canopy, divinely beautiful blue-skinned god in yellow dhoti with gold crown, one hand resting on his side, on a calm ocean under a starry sky; Goddess Lakshmi, a fair-skinned woman in a red saree, sitting small at his feet on the right, soft golden light, wide shot",
+     "seed": 8921
     },
     {
      "vo": "Hanuman lifts the mountain.",
-     "prompt": "Lord Hanuman flies through a stormy night sky holding an entire green mountain on his raised right palm, his mace in the other hand, his face determined, lightning behind him, the forested mountain lit by a soft divine glow"
+     "prompt": "Lord Hanuman flying through a night sky with an entire green forested mountain resting on his raised right palm high above his head, monkey god with a furry reddish face, long tail, gold crown and gold armlets, a golden mace held in his left hand, lightning clouds behind him, stars, wide shot",
+     "seed": 8922
     },
     {
      "vo": "Shiva meditates on Kailash.",
@@ -31,5 +33,25 @@
     }
    ]
   }
- ]
+ ],
+ "repaint": {
+  "shots": [
+   2,
+   3
+  ],
+  "thumbs": [],
+  "at": "2026-11-15 00:01"
+ },
+ "shot_qc": {
+  "checked": "2026-11-14T14:17:32Z",
+  "rounds": 1,
+  "why": {
+   "2": "Vishnu and Lakshmi are merged into one body, with blue legs coming out of a red-saree woman holding a trident and a lotus. The serpent shows no hooded heads, only a coiled body.",
+   "3": "The figure is a bearded human with no vanara features, so it doesn't read as Hanuman. The mountain is a mossy blob held against his back, not lifted on his palm, and he carries a ring-topped staff instead of a mace."
+  },
+  "recheck": [
+   "2",
+   "3"
+  ]
+ }
 }
