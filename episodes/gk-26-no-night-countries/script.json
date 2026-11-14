@@ -94,9 +94,10 @@
     },
     {
      "vo": "जो हिस्सा सूरज की तरफ़ होता है, वहाँ दिन, बाकी पर रात।",
-     "prompt": "A hand holding a large orange in a dark room, a single lamp lighting one half of the orange brightly while the other half is in shadow, a sharp line between light and dark, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A hand holding a large orange in a dark room, a single lamp lighting one half of the orange brightly while the other half is in shadow, a sharp line between light and dark, plain dark wall behind, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8928
     },
     {
      "vo": "अगर धरती बिल्कुल सीधी खड़ी होती, तो हर जगह बारह घंटे दिन होता।",
@@ -185,15 +186,17 @@
     },
     {
      "vo": "एक ही धरती, एक ही सूरज, फिर इतना फ़र्क़ कौन बनाता है?",
-     "prompt": "A young Indian girl in a school uniform with her hand raised, curious, in an Indian classroom, a lamp and an orange on the teacher's desk in front of her, afternoon light through the windows, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A young Indian girl in a school uniform with her hand raised, curious, in an Indian classroom with plain walls, an orange and a lamp on the teacher's desk in front of her, afternoon light through the windows, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8937
     },
     {
      "vo": "जवाब छिपा है एक छोटे से झुकाव में।",
-     "prompt": "An Indian woman teacher in a green saree with hair in a bun, her hand tilting an orange on a knitting needle to one side next to a glowing desk lamp, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An Indian woman teacher in a green saree with hair in a bun, her hand tilting an orange on a knitting needle to one side next to a glowing desk lamp, plain wall behind, close-up",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8938
     }
    ]
   },
@@ -207,14 +210,147 @@
      "prompt": "An orange on a knitting needle tilted to one side held by an Indian woman teacher in a green saree with hair in a bun, next to a glowing desk lamp, a blackboard behind reading \"23.4°\", students watching, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "seed": 1500,
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "move": "pan_left"
+     "move": "pan_left",
+     "words": {
+      "20": {
+       "src": "a4f522313682",
+       "items": [
+        {
+         "text": "23.4°",
+         "grid": [
+          [
+           [
+            881.8,
+            138.2
+           ],
+           [
+            939.2,
+            149.9
+           ],
+           [
+            997.6,
+            161.8
+           ],
+           [
+            1056.0,
+            173.7
+           ],
+           [
+            1113.4,
+            185.3
+           ],
+           [
+            1171.8,
+            197.2
+           ],
+           [
+            1230.2,
+            209.1
+           ]
+          ],
+          [
+           [
+            881.8,
+            217.1
+           ],
+           [
+            939.2,
+            227.0
+           ],
+           [
+            997.6,
+            237.0
+           ],
+           [
+            1056.0,
+            247.1
+           ],
+           [
+            1113.4,
+            257.0
+           ],
+           [
+            1171.8,
+            267.1
+           ],
+           [
+            1230.2,
+            277.2
+           ]
+          ],
+          [
+           [
+            881.8,
+            295.9
+           ],
+           [
+            939.2,
+            304.0
+           ],
+           [
+            997.6,
+            312.3
+           ],
+           [
+            1056.0,
+            320.6
+           ],
+           [
+            1113.4,
+            328.7
+           ],
+           [
+            1171.8,
+            337.0
+           ],
+           [
+            1230.2,
+            345.3
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#f0f0ea",
+         "corners": [
+          [
+           858,
+           102
+          ],
+          [
+           1254,
+           102
+          ],
+          [
+           1254,
+           448
+          ],
+          [
+           858,
+           448
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "धरती सीधी नहीं घूमती। उसकी धुरी करीब तेईस दशमलव चार डिग्री झुकी हुई है।",
-     "prompt": "An orange on a knitting needle tilted to one side held by an Indian woman teacher in a green saree with hair in a bun, next to a glowing desk lamp, a blackboard behind reading \"23.4°\", students watching, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An orange on a knitting needle tilted to one side held by an Indian woman teacher in a green saree with hair in a bun, next to a glowing desk lamp, a large flat blackboard behind reading \"23.4°\", students watching, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "धरती सीधी नहीं घूमती। उसकी धुरी करीब 23.4 डिग्री झुकी हुई है।"
+     "caption": "धरती सीधी नहीं घूमती। उसकी धुरी करीब 23.4 डिग्री झुकी हुई है।",
+     "words": {
+      "21": {
+       "src": "023fa0d6ef38",
+       "items": []
+      }
+     },
+     "seed": 8940
     },
     {
      "vo": "और ये झुकाव पूरे साल एक ही दिशा में टिका रहता है।",
@@ -242,9 +378,10 @@
     },
     {
      "vo": "और दिसंबर में वही हिस्सा सूरज से दूर हो जाता है।",
-     "prompt": "An orange on the far side of a glowing lamp with its top leaning away from the light, the upper part in shadow, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A single orange standing on the far side of a glowing lamp with its top leaning away from the light, the upper part in shadow, one orange only, plain dark background, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8945
     },
     {
      "vo": "मज़े की बात, धरती सूरज के सबसे पास जनवरी की शुरुआत में होती है।",
@@ -260,30 +397,284 @@
     },
     {
      "vo": "अब असली गणित। जून में रोशनी ध्रुव के पार भी तेईस दशमलव चार डिग्री तक पहुँचती है।",
-     "prompt": "An orange leaning towards a glowing lamp, the lit area spilling over the top of the orange past the needle onto the far side, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A single orange on a knitting needle leaning towards a glowing lamp, the light spilling over the top of the orange past the needle onto its far side, plain dark background, close-up",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अब असली गणित। जून में रोशनी ध्रुव के पार भी 23.4 डिग्री तक पहुँचती है।"
+     "caption": "अब असली गणित। जून में रोशनी ध्रुव के पार भी 23.4 डिग्री तक पहुँचती है।",
+     "seed": 8948
     },
     {
      "vo": "पूरा चक्कर घूमकर भी ध्रुव के पास वाला हिस्सा उजाले में ही रहता है।",
-     "prompt": "An Indian woman teacher in a green saree twirling a tilted orange on its needle beside a lamp, a small bright patch around the top of the needle staying lit, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An Indian woman teacher in a green saree twirling a tilted orange on its needle between her fingers beside a glowing lamp, a small bright patch around the top of the needle staying lit, plain wall behind, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8949
     },
     {
      "vo": "ध्रुव नब्बे डिग्री पर है। नब्बे में से तेईस दशमलव चार घटाइए।",
      "prompt": "An Indian woman teacher in a green saree with hair in a bun writing on a classroom blackboard in chalk, the board reading \"90 − 23.4\", chalk dust in the light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ध्रुव 90 डिग्री पर है। 90 में से 23.4 घटाइए।"
+     "caption": "ध्रुव 90 डिग्री पर है। 90 में से 23.4 घटाइए।",
+     "words": {
+      "31": {
+       "src": "a98986b341e0",
+       "items": [
+        {
+         "text": "90 − 23.4",
+         "grid": [
+          [
+           [
+            84.8,
+            118.4
+           ],
+           [
+            166.4,
+            121.9
+           ],
+           [
+            249.5,
+            125.5
+           ],
+           [
+            332.5,
+            129.2
+           ],
+           [
+            414.1,
+            132.7
+           ],
+           [
+            497.2,
+            136.3
+           ],
+           [
+            580.2,
+            139.9
+           ]
+          ],
+          [
+           [
+            84.8,
+            170.0
+           ],
+           [
+            166.4,
+            172.3
+           ],
+           [
+            249.5,
+            174.5
+           ],
+           [
+            332.5,
+            176.8
+           ],
+           [
+            414.1,
+            179.0
+           ],
+           [
+            497.2,
+            181.2
+           ],
+           [
+            580.2,
+            183.5
+           ]
+          ],
+          [
+           [
+            84.8,
+            221.7
+           ],
+           [
+            166.4,
+            222.6
+           ],
+           [
+            249.5,
+            223.5
+           ],
+           [
+            332.5,
+            224.4
+           ],
+           [
+            414.1,
+            225.3
+           ],
+           [
+            497.2,
+            226.2
+           ],
+           [
+            580.2,
+            227.1
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#f0f0ea",
+         "corners": [
+          [
+           51,
+           90
+          ],
+          [
+           614,
+           90
+          ],
+          [
+           614,
+           256
+          ],
+          [
+           51,
+           256
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "बचता है करीब छासठ दशमलव छह डिग्री। इसी रेखा का नाम है आर्कटिक सर्कल।",
      "prompt": "A blackboard with the answer underlined in chalk, reading \"= 66.6°\", the Indian woman teacher's hand in a green sleeve holding the chalk, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "बचता है करीब 66.6 डिग्री। इसी रेखा का नाम है आर्कटिक सर्कल।"
+     "caption": "बचता है करीब 66.6 डिग्री। इसी रेखा का नाम है आर्कटिक सर्कल।",
+     "words": {
+      "32": {
+       "src": "c8fd0c6858cb",
+       "items": [
+        {
+         "text": "= 66.6°",
+         "grid": [
+          [
+           [
+            147.4,
+            311.0
+           ],
+           [
+            262.0,
+            310.7
+           ],
+           [
+            378.5,
+            310.5
+           ],
+           [
+            495.0,
+            310.5
+           ],
+           [
+            609.5,
+            310.6
+           ],
+           [
+            726.1,
+            310.8
+           ],
+           [
+            842.6,
+            311.1
+           ]
+          ],
+          [
+           [
+            147.4,
+            423.1
+           ],
+           [
+            262.0,
+            420.2
+           ],
+           [
+            378.5,
+            418.6
+           ],
+           [
+            495.0,
+            418.2
+           ],
+           [
+            609.5,
+            419.1
+           ],
+           [
+            726.1,
+            421.3
+           ],
+           [
+            842.6,
+            424.8
+           ]
+          ],
+          [
+           [
+            147.4,
+            535.2
+           ],
+           [
+            262.0,
+            529.8
+           ],
+           [
+            378.5,
+            526.6
+           ],
+           [
+            495.0,
+            525.9
+           ],
+           [
+            609.5,
+            527.7
+           ],
+           [
+            726.1,
+            531.9
+           ],
+           [
+            842.6,
+            538.5
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#f0f0ea",
+         "corners": [
+          [
+           100,
+           330
+          ],
+          [
+           890,
+           330
+          ],
+          [
+           890,
+           540
+          ],
+          [
+           100,
+           540
+          ]
+         ],
+         "band": [
+          0.05,
+          0.95
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "इस रेखा के ऊपर, जून में कम से कम एक दिन सूरज नहीं डूबता।",
@@ -313,7 +704,133 @@
      "vo": "और नॉर्वे का करीब एक तिहाई हिस्सा इसी रेखा के ऊपर है।",
      "prompt": "A large roadside sign on a bare mountain plateau in Norway reading \"POLARSIRKELEN\", stone cairns around it, a car parked nearby, low golden sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "34": {
+       "src": "6fe313ba94e5",
+       "items": [
+        {
+         "text": "POLARSIRKELEN",
+         "grid": [
+          [
+           [
+            220.7,
+            306.1
+           ],
+           [
+            287.4,
+            311.7
+           ],
+           [
+            349.5,
+            318.0
+           ],
+           [
+            406.6,
+            324.8
+           ],
+           [
+            458.5,
+            331.9
+           ],
+           [
+            507.3,
+            339.5
+           ],
+           [
+            552.6,
+            347.5
+           ]
+          ],
+          [
+           [
+            218.4,
+            347.9
+           ],
+           [
+            285.3,
+            350.8
+           ],
+           [
+            347.7,
+            355.3
+           ],
+           [
+            405.0,
+            361.1
+           ],
+           [
+            456.9,
+            368.0
+           ],
+           [
+            505.8,
+            376.0
+           ],
+           [
+            551.1,
+            384.9
+           ]
+          ],
+          [
+           [
+            216.1,
+            389.8
+           ],
+           [
+            283.3,
+            390.1
+           ],
+           [
+            345.9,
+            392.8
+           ],
+           [
+            403.4,
+            397.6
+           ],
+           [
+            455.4,
+            404.2
+           ],
+           [
+            504.4,
+            412.5
+           ],
+           [
+            549.7,
+            422.4
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#111111",
+         "corners": [
+          [
+           195,
+           237
+          ],
+          [
+           572,
+           298
+          ],
+          [
+           566,
+           461
+          ],
+          [
+           183,
+           451
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     }
     }
    ]
   },
@@ -433,9 +950,10 @@
     },
     {
      "vo": "देखने में जादू। पर अब सोचिए, इस उजाले में नींद आए कैसे?",
-     "prompt": "A tired tourist with short brown hair lying awake in a hotel bed at night, eyes open, sunlight streaming through a thin curtain onto the pillow, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A tired tourist with short brown hair lying awake in a hotel bed, eyes wide open, staring at the ceiling, bright sunlight streaming through a thin curtain onto the pillow, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8966
     }
    ]
   },
@@ -493,16 +1011,143 @@
     },
     {
      "vo": "कोई आधी रात को मछली पकड़ता है, कोई गोल्फ़ खेलता है।",
-     "prompt": "An old man in a blue jacket fishing from a wooden pier at midnight, a golfer swinging on a green course in the distance, low sun over the sea, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An old man in a blue jacket fishing from a wooden pier at midnight, low golden sun glowing over the sea behind him, bright golden sky, a golfer far off on a green, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8975
     },
     {
      "vo": "ट्रॉम्सो में हर जून एक दौड़ होती है, मिडनाइट सन मैराथन।",
      "prompt": "Runners crowding a start line on a city street, a large banner across the road reading \"MIDNIGHT SUN MARATHON\", spectators along the barriers, evening sunlight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ट्रॉम्सो में हर जून एक दौड़ होती है, Midnight Sun Marathon।"
+     "caption": "ट्रॉम्सो में हर जून एक दौड़ होती है, Midnight Sun Marathon।",
+     "words": {
+      "57": {
+       "src": "458a00fb8e4c",
+       "items": [
+        {
+         "text": "MIDNIGHT SUN MARATHON",
+         "grid": [
+          [
+           [
+            300.5,
+            358.0
+           ],
+           [
+            450.7,
+            360.2
+           ],
+           [
+            604.0,
+            362.3
+           ],
+           [
+            757.8,
+            364.2
+           ],
+           [
+            909.4,
+            365.9
+           ],
+           [
+            1064.1,
+            367.6
+           ],
+           [
+            1219.2,
+            369.1
+           ]
+          ],
+          [
+           [
+            301.9,
+            390.2
+           ],
+           [
+            451.7,
+            394.1
+           ],
+           [
+            604.5,
+            397.5
+           ],
+           [
+            757.7,
+            400.2
+           ],
+           [
+            908.7,
+            402.3
+           ],
+           [
+            1062.8,
+            403.8
+           ],
+           [
+            1217.4,
+            404.6
+           ]
+          ],
+          [
+           [
+            303.3,
+            422.1
+           ],
+           [
+            452.7,
+            427.7
+           ],
+           [
+            604.9,
+            432.4
+           ],
+           [
+            757.5,
+            436.0
+           ],
+           [
+            908.0,
+            438.4
+           ],
+           [
+            1061.5,
+            439.7
+           ],
+           [
+            1215.5,
+            440.0
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#b01c1c",
+         "corners": [
+          [
+           237,
+           329
+          ],
+          [
+           1284,
+           343
+          ],
+          [
+           1277,
+           463
+          ],
+          [
+           243,
+           448
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "धावक रात में भी धूप में ही फ़िनिश लाइन पार करते हैं।",
@@ -545,7 +1190,133 @@
      "prompt": "A Norwegian kitchen wall with a paper calendar page reading \"DESEMBER\", candles on the table, deep blue darkness outside the window at midday, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ट्रॉम्सो में करीब 27 नवंबर से 15 जनवरी तक सूरज उगता ही नहीं।"
+     "caption": "ट्रॉम्सो में करीब 27 नवंबर से 15 जनवरी तक सूरज उगता ही नहीं।",
+     "words": {
+      "63": {
+       "src": "dd402e1dc2b2",
+       "items": [
+        {
+         "text": "DESEMBER",
+         "grid": [
+          [
+           [
+            657.0,
+            425.1
+           ],
+           [
+            698.2,
+            424.2
+           ],
+           [
+            740.1,
+            424.0
+           ],
+           [
+            782.0,
+            424.5
+           ],
+           [
+            823.2,
+            425.8
+           ],
+           [
+            865.1,
+            427.8
+           ],
+           [
+            907.0,
+            430.5
+           ]
+          ],
+          [
+           [
+            657.0,
+            440.4
+           ],
+           [
+            698.2,
+            438.8
+           ],
+           [
+            740.1,
+            437.6
+           ],
+           [
+            782.0,
+            436.7
+           ],
+           [
+            823.2,
+            436.3
+           ],
+           [
+            865.1,
+            436.3
+           ],
+           [
+            907.0,
+            436.7
+           ]
+          ],
+          [
+           [
+            657.0,
+            455.8
+           ],
+           [
+            698.2,
+            453.4
+           ],
+           [
+            740.1,
+            451.1
+           ],
+           [
+            782.0,
+            448.9
+           ],
+           [
+            823.2,
+            446.8
+           ],
+           [
+            865.1,
+            444.8
+           ],
+           [
+            907.0,
+            442.8
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1f2a3a",
+         "corners": [
+          [
+           640,
+           425
+          ],
+          [
+           924,
+           425
+          ],
+          [
+           924,
+           452
+          ],
+          [
+           640,
+           452
+          ]
+         ],
+         "band": [
+          0.1,
+          0.9
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "नॉर्वे के लोग इस मौसम को कहते हैं मॉर्केटीड, यानी अंधेरे का वक़्त।",
@@ -653,10 +1424,137 @@
     },
     {
      "vo": "धरती का झुकाव करीब इकतालीस हज़ार साल में बाईस दशमलव एक से चौबीस दशमलव पाँच डिग्री के बीच झूलता है।",
-     "prompt": "A blackboard covered in chalk notes reading \"22.1° — 24.5°\", an Indian woman teacher in a green saree pointing at it, a tilted orange on the desk, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A large flat blackboard covered in chalk notes reading \"22.1° — 24.5°\", an Indian woman teacher in a green saree pointing at it, a tilted orange on the desk, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "धरती का झुकाव करीब 41,000 साल में 22.1 से 24.5 डिग्री के बीच झूलता है।"
+     "caption": "धरती का झुकाव करीब 41,000 साल में 22.1 से 24.5 डिग्री के बीच झूलता है।",
+     "words": {
+      "77": {
+       "src": "f10f980d6338",
+       "items": [
+        {
+         "text": "22.1° — 24.5°",
+         "grid": [
+          [
+           [
+            712.8,
+            337.4
+           ],
+           [
+            825.9,
+            352.7
+           ],
+           [
+            941.0,
+            368.3
+           ],
+           [
+            1056.0,
+            384.0
+           ],
+           [
+            1169.1,
+            399.3
+           ],
+           [
+            1284.2,
+            414.9
+           ],
+           [
+            1399.2,
+            430.5
+           ]
+          ],
+          [
+           [
+            712.8,
+            401.0
+           ],
+           [
+            825.9,
+            413.5
+           ],
+           [
+            941.0,
+            426.2
+           ],
+           [
+            1056.0,
+            438.9
+           ],
+           [
+            1169.1,
+            451.3
+           ],
+           [
+            1284.2,
+            464.0
+           ],
+           [
+            1399.2,
+            476.7
+           ]
+          ],
+          [
+           [
+            712.8,
+            464.6
+           ],
+           [
+            825.9,
+            474.2
+           ],
+           [
+            941.0,
+            484.0
+           ],
+           [
+            1056.0,
+            493.8
+           ],
+           [
+            1169.1,
+            503.3
+           ],
+           [
+            1284.2,
+            513.1
+           ],
+           [
+            1399.2,
+            522.9
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#f0f0ea",
+         "corners": [
+          [
+           666,
+           294
+          ],
+          [
+           1446,
+           294
+          ],
+          [
+           1446,
+           614
+          ],
+          [
+           666,
+           614
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8996
     },
     {
      "vo": "आजकल ये झुकाव बहुत धीरे-धीरे कम हो रहा है।",
@@ -821,5 +1719,49 @@
  "released_at": "2026-11-14 15:35",
  "voice_requested": "voice-gk-26-no-night-countries-bb5911b3c8",
  "voice_ok": "voice-gk-26-no-night-countries-bb5911b3c8",
- "voice_approved_at": "2026-11-14 16:46"
+ "voice_approved_at": "2026-11-14 16:46",
+ "repaint": {
+  "shots": [
+   9,
+   18,
+   19,
+   21,
+   26,
+   29,
+   30,
+   47,
+   56,
+   77
+  ],
+  "thumbs": [],
+  "at": "2026-11-14 20:34"
+ },
+ "shot_qc": {
+  "checked": "2026-11-14T15:01:27Z",
+  "rounds": 1,
+  "why": {
+   "9": "Map posters on the wall behind the orange.",
+   "18": "Maps visible on the board and walls of the classroom.",
+   "19": "A world map is clearly visible on the wall behind the teacher.",
+   "26": "The orange is doubled, with two oranges stacked on each other.",
+   "29": "Shows an orange on paper in an office or shop, not the lit-area-over-the-pole idea. Also has a flag and chart poster.",
+   "30": "A large map hangs on the wall. The teacher is not twirling the orange on a needle.",
+   "47": "The man is asleep with his eyes closed. The line says he lies awake with his eyes open.",
+   "56": "A dark moonlit night, but the line is about the midnight sun, so the setting is wrong.",
+   "77": "Painted gibberish chalk text on the board, not the line's '22.1° — 24.5°'.",
+   "21": "no blank surface for its words"
+  },
+  "recheck": [
+   "9",
+   "18",
+   "19",
+   "21",
+   "26",
+   "29",
+   "30",
+   "47",
+   "56",
+   "77"
+  ]
+ }
 }
