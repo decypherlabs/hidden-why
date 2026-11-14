@@ -264,120 +264,120 @@
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
      "words": {
       "10": {
-       "src": "59aa5a969643",
+       "src": "a4dc47656eff",
        "items": [
         {
          "text": "HARDWARE",
          "grid": [
           [
            [
-            841.8,
-            93.5
+            591.6,
+            119.4
            ],
            [
-            916.4,
-            91.4
+            655.8,
+            119.6
            ],
            [
-            992.2,
-            89.8
+            721.2,
+            120.1
            ],
            [
-            1068.0,
-            88.8
+            786.5,
+            120.8
            ],
            [
-            1142.5,
-            88.2
+            850.7,
+            121.8
            ],
            [
-            1218.3,
-            88.3
+            916.1,
+            123.1
            ],
            [
-            1294.2,
-            88.8
+            981.4,
+            124.7
            ]
           ],
           [
            [
-            841.8,
-            156.0
+            591.6,
+            161.4
            ],
            [
-            916.4,
-            154.6
+            655.8,
+            161.8
            ],
            [
-            992.2,
-            153.4
+            721.2,
+            162.4
            ],
            [
-            1068.0,
-            152.4
+            786.5,
+            163.2
            ],
            [
-            1142.5,
-            151.6
+            850.7,
+            164.2
            ],
            [
-            1218.3,
-            151.1
+            916.1,
+            165.3
            ],
            [
-            1294.2,
-            150.7
+            981.4,
+            166.7
            ]
           ],
           [
            [
-            841.8,
-            218.5
+            591.6,
+            203.4
            ],
            [
-            916.4,
-            217.8
+            655.8,
+            204.0
            ],
            [
-            992.2,
-            217.0
+            721.2,
+            204.8
            ],
            [
-            1068.0,
-            216.0
+            786.5,
+            205.6
            ],
            [
-            1142.5,
-            215.0
+            850.7,
+            206.5
            ],
            [
-            1218.3,
-            213.9
+            916.1,
+            207.6
            ],
            [
-            1294.2,
-            212.6
+            981.4,
+            208.7
            ]
           ]
          ],
          "style": "sign",
-         "color": "#5a1d14",
+         "color": "#1f2a44",
          "corners": [
           [
-           811,
-           51
+           565,
+           95
           ],
           [
-           1325,
-           51
+           1008,
+           95
           ],
           [
-           1325,
-           248
+           1008,
+           232
           ],
           [
-           811,
-           248
+           565,
+           232
           ]
          ],
          "band": [
@@ -667,10 +667,10 @@
     },
     {
      "vo": "A mall wasn't just a place to shop anymore; for its owners it was a machine for not paying taxes.",
-     "prompt": "A wealthy 1960s investor in a dark suit standing on a balcony overlooking a busy mall court, shoppers tiny below, hands on the railing, dramatic overhead light, plain blank railings and walls, medium-wide shot",
+     "prompt": "A wealthy 1960s investor in a dark suit seen from the side and three-quarter, leaning on a balcony railing, a thick stack of banknotes in his hand, a busy mall court with tiny shoppers below, warm light, plain blank walls, medium-wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8956
+     "seed": 16875
     },
     {
      "vo": "Between 1956 and 2005, America built roughly fifteen hundred enclosed malls, about one every twelve days.",
@@ -1093,37 +1093,19 @@
  "voice_approved_at": "2026-11-15 00:40",
  "repaint": {
   "shots": [
-   8,
-   10,
-   31,
-   37,
-   45,
-   48,
-   57
+   37
   ],
   "thumbs": [],
-  "at": "2026-11-15 01:40"
+  "at": "2026-11-15 02:54"
  },
  "shot_qc": {
-  "checked": "2026-11-14T20:09:05Z",
-  "rounds": 1,
+  "checked": "2026-11-14T21:23:32Z",
+  "rounds": 2,
   "why": {
-   "8": "Modern smartphone and a flat-screen monitor on the desk in a 1954 signing scene.",
-   "10": "Painted gibberish street sign ('CALMERIA TREANS') and a modern-looking street, not an early-1950s main street.",
-   "31": "Large painted gibberish lettering ('CUPSTAN IEERS') on the shopping center.",
-   "37": "Large painted gibberish sign ('Sitorvice') in the foreground, and the investor is pushed to the edge of the frame.",
-   "45": "Painted gibberish sign ('MALL CAIR') on a storefront.",
-   "48": "The picture shows a courtroom or hearing with a tiny man, not an elderly man speaking at a lectern in a spotlight.",
-   "57": "Painted gibberish sign ('Sumface') on the right, and nothing shows homes, clinics or schools moving in."
+   "37": "Painted gibberish lettering (\"EPLANNER UMSTART\" and other garbled signs) is big enough to notice. The investor is also seen from behind in a modern-looking mall."
   },
   "recheck": [
-   "8",
-   "10",
-   "31",
-   "37",
-   "45",
-   "48",
-   "57"
+   "37"
   ]
  }
 }
