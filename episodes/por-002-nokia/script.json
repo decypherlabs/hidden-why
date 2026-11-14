@@ -753,14 +753,15 @@
     {
      "vo": "Nokia also owned a map company, Navteq, bought in 2008 for 8.1 billion dollars.",
      "kind": "photo",
-     "prompt": "a documentary photograph of the moment: Nokia also owned a map company, Navteq, bought in 2008 for 8.1 billion dollars.",
+     "prompt": "A single wooden desk in a quiet map-making office, a large printed road map spread flat across it with a magnifying glass resting on top, a cartographer seen from behind at the window, muted 35mm documentary photograph, soft daylight, one accent colour: a red pin on the map, no logos, no readable text, no newspaper, no cards, no captions, no signs or lettering on any storefront, screen or package",
      "photo": {
       "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/NAVTEQ_car.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "w": 1600,
       "h": 1200,
       "credit": "NAVTEQ car.JPG by Trackinfo, CC BY-SA 3.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:NAVTEQ_car.JPG"
-     }
+     },
+     "seed": 8963
     },
     {
      "vo": "Under a Microsoft deal, those maps would sit at the centre of Microsoft's own.",
@@ -1362,11 +1363,16 @@
  "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
  "repaint": {
   "shots": [
-   34,
-   46,
-   78
+   44
   ],
   "thumbs": [],
-  "at": "2026-11-14 06:20"
- }
+  "at": "2026-11-15 03:32"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   44
+  ]
+ },
+ "auto_regen": 1
 }
