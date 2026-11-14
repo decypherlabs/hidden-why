@@ -11,6 +11,7 @@
   "right": "Close-up of a modern American sedan's centre console seen from the driver's seat, a plain automatic gear selector lever centred and large, two pedals visible in the footwell below, bright daylight through the windshield, clean light-grey interior, photoreal, 35mm lens, no logos, no text, no brands"
  },
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "words_in_edit": true,
@@ -49,14 +50,28 @@
      "vo": "Walk onto any car lot in America and look down at the floor.",
      "prompt": "A car's open driver door showing a footwell with exactly two pedals, a wide brake pedal and a narrow accelerator, large in frame, rows of new sedans on a sunny American car lot behind, midday sun, low camera, sharp focus, close shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g2ef65f58bfb165a45569c8f353511167441fc0df73091ee159a60319064a65819ddf45dc7ff81fd0b48f6ce9e08bcd36dbc3f5bfd67d14239432ea30c6aca022_1280.jpg",
+      "w": 5472,
+      "h": 3648,
+      "credit": "Pixabay (Didgeman)",
+      "page": "https://pixabay.com/photos/cars-autotransport-new-car-3631086/"
+     }
     },
     {
      "vo": "Fewer than two in every hundred new American cars still have a clutch pedal.",
      "prompt": "Close-up of a car footwell with only two pedals, a narrow accelerator and a wide brake pedal, empty space on the left where a third pedal would be, plain grey carpet, modern American car, soft daylight, sharp focus",
      "title": "Under *2%* Manual",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/geab16ab7c37eb51d11569ebcdc8b49cf7703fc99a44b0e889fd580dafe7df2310fd609dccc3cc8068f67277cfc0614299e857a25f09300fdf5fbfaa16b9432bf_1280.jpg",
+      "w": 3872,
+      "h": 2592,
+      "credit": "Pixabay (Sauerlaender)",
+      "page": "https://pixabay.com/photos/accelerator-clutch-pedal-clutch-397481/"
+     }
     },
     {
      "vo": "Rent a car in Italy or France, and the cheap one comes with three.",
@@ -89,7 +104,14 @@
      "prompt": "A 1939 car showroom with polished dark sedans on a shiny floor, three men in hats and long coats looking at the nearest car, tall windows, warm afternoon light, wide shot",
      "title": "*1939* Oldsmobile",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/SLNSW_12480_Opening_of_General_Motors_works_at_Pagewood_Section_of_the_showroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1400,
+      "h": 1047,
+      "credit": "SLNSW 12480 Opening of General Motors works at Pagewood Section of the showroom.jpg by Sam Hood, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:SLNSW_12480_Opening_of_General_Motors_works_at_Pagewood_Section_of_the_showroom.jpg"
+     }
     }
    ]
   },
@@ -101,13 +123,27 @@
      "vo": "Oldsmobile's new 1940 models offered something no mass-market car had sold before: a gearbox that shifted itself.",
      "prompt": "A 1940 sedan on a showroom turntable, a large standing placard reading \"HYDRA-MATIC DRIVE\" turned toward the camera beside it, a crowd of men in hats and women in dresses admiring it, warm spotlight, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/1940_Oldsmobile_Series_70_business_coupe_025_N.jpg/1920px-1940_Oldsmobile_Series_70_business_coupe_025_N.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2256,
+      "h": 1496,
+      "credit": "1940 Oldsmobile Series 70 business coupe 025 N.jpg by Joe Ross, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1940_Oldsmobile_Series_70_business_coupe_025_N.jpg"
+     }
     },
     {
      "vo": "It was called Hydra-Matic, and it cost an extra fifty-seven dollars, about two months' rent for a typical family.",
      "prompt": "A salesman in a 1940 suit handing a large price card reading \"$57\" to a couple, man on the left in a suit, woman on the right in a dress, polished sedan behind them, warm interior light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/1953_Hydra-Matic_Transmission_Tag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1625,
+      "h": 551,
+      "credit": "1953 Hydra-Matic Transmission Tag.jpg by Hymn62, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1953_Hydra-Matic_Transmission_Tag.jpg"
+     }
     },
     {
      "vo": "The man behind it was Earl Thompson, a General Motors engineer who had already made shifting easier once.",
@@ -125,13 +161,27 @@
      "vo": "Before that, every shift meant pumping the clutch twice with perfect timing, or hearing a scream of metal.",
      "prompt": "A nervous 1920s driver in a cap and goggles gripping a tall gear lever with both hands in an open car, wincing, a dusty dirt road ahead, harsh midday sun, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g3ed1c95a6240cfd0e6433b97c3d2a3878f9d77a75d3e8771edfa1034278b2a4d2d7c8d07d063e0f17bebcad9372a4a58fb8df3ef9e1ce05efd93b68b6a9c98b4_1280.jpg",
+      "w": 6016,
+      "h": 4000,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/automobile-automotive-car-1839560/"
+     }
     },
     {
      "vo": "Thompson's new idea went further: no clutch pedal at all, just a lever and fluid doing the work.",
      "prompt": "A cutaway transmission casing on a 1939 engineering bench, steel gears and a round fluid coupling clearly exposed in the centre, drafting tools beside it, warm lamp light, macro close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Ypsilanti_Automotive_Heritage_Museum_May_2015_053_%281956-64_Hydra-Matic_315_transmission%29.jpg/1920px-Ypsilanti_Automotive_Heritage_Museum_May_2015_053_%281956-64_Hydra-Matic_315_transmission%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Ypsilanti Automotive Heritage Museum May 2015 053 (1956-64 Hydra-Matic 315 transmission).jpg by Michael Barera, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ypsilanti_Automotive_Heritage_Museum_May_2015_053_(1956-64_Hydra-Matic_315_transmission).jpg"
+     }
     },
     {
      "vo": "Buyers who had stalled on steep hills their whole lives could now simply press the gas and go.",
@@ -149,13 +199,27 @@
      "vo": "Hydra-Matic went into M5 Stuart tanks, where thousands of young soldiers learned to drive without a clutch.",
      "prompt": "A young American soldier in a helmet at the controls inside an M5 Stuart light tank, hatch open above him, hands on two steering levers, daylight on his face, training ground behind, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Char_M5_Stuart_%28Colmar%29.jpg/1920px-Char_M5_Stuart_%28Colmar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4200,
+      "h": 3500,
+      "credit": "Char M5 Stuart (Colmar).jpg by Gzen92, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Char_M5_Stuart_(Colmar).jpg"
+     }
     },
     {
      "vo": "When civilian cars returned in 1946, the self-shifting gearbox came home with a reputation earned in combat.",
      "prompt": "A crowd of returning veterans in uniform admiring a new 1946 sedan in a dealership, a large banner reading \"NEW 1946 CARS\" turned toward the camera above them, spring daylight, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/1946_Oldsmobile_Ace_Series_66_Sedan_%288516992145%29.jpg/1920px-1946_Oldsmobile_Ace_Series_66_Sedan_%288516992145%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3456,
+      "h": 2592,
+      "credit": "1946 Oldsmobile Ace Series 66 Sedan (8516992145).jpg by Sicnag, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1946_Oldsmobile_Ace_Series_66_Sedan_(8516992145).jpg"
+     }
     }
    ]
   },
@@ -187,13 +251,27 @@
      "vo": "In America that hardly mattered, because a gallon of gasoline cost about twenty-seven cents at the pump.",
      "prompt": "A 1950s roadside gas station, a large flat price card reading \"27¢\" turned toward the camera on the pump, an attendant in a cap wiping a car windshield, bright sun, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/WorldsLargestRedwoodTreeServiceStation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1024,
+      "h": 768,
+      "credit": "WorldsLargestRedwoodTreeServiceStation.jpg by Binksternet at English Wikipedia, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:WorldsLargestRedwoodTreeServiceStation.jpg"
+     }
     },
     {
      "vo": "Detroit answered the lost power with bigger engines, and by the late fifties a V8 was ordinary family equipment.",
      "prompt": "A father and a teenage son leaning over an open hood of a 1958 American sedan, a large chrome V8 engine filling the frame between them, driveway, summer daylight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/1955_Chevrolet_Bel_Air_-_15728112890.jpg/1920px-1955_Chevrolet_Bel_Air_-_15728112890.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2400,
+      "h": 1800,
+      "credit": "1955 Chevrolet Bel Air - 15728112890.jpg by CapCase, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1955_Chevrolet_Bel_Air_-_15728112890.jpg"
+     }
     },
     {
      "vo": "In 1956 the Suez Crisis choked Britain's oil supply, and the government handed out petrol ration coupons.",
@@ -205,7 +283,14 @@
      "vo": "Drivers queued at empty pumps, and tiny bubble cars from Germany suddenly filled British streets.",
      "prompt": "A queue of small cars and tiny egg-shaped bubble cars waiting outside a British petrol station in winter, a large board reading \"NO PETROL\" turned toward the camera on the pumps, overcast light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Oldtimer-2013_Messerschmitt_KR175_20130309_142448.JPG/1920px-Oldtimer-2013_Messerschmitt_KR175_20130309_142448.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4288,
+      "h": 2848,
+      "credit": "Oldtimer-2013 Messerschmitt KR175 20130309 142448.JPG by Svetlov Artem, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Oldtimer-2013_Messerschmitt_KR175_20130309_142448.JPG"
+     }
     },
     {
      "vo": "The head of the British Motor Corporation, Leonard Lord, ordered his engineer Alec Issigonis to build something smaller.",
@@ -217,19 +302,40 @@
      "vo": "In 1959 Issigonis delivered the Mini, with an 848cc engine making just thirty-four horsepower.",
      "prompt": "A tiny new 1959 two-door British car parked on a London street, a gentleman in a tweed suit standing on its left, looking at it, bright spring light, sharp focus, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Morris_Mini-Minor_1959_%28621_AOK%29.jpg/1920px-Morris_Mini-Minor_1959_%28621_AOK%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 1924,
+      "h": 1204,
+      "credit": "Morris Mini-Minor 1959 (621 AOK).jpg by DeFacto, CC BY-SA 2.5, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Morris_Mini-Minor_1959_(621_AOK).jpg"
+     }
     },
     {
      "vo": "With that little power an automatic would have swallowed too much of it, so Europeans kept shifting by hand.",
      "prompt": "A driver's hand on a thin manual gear lever inside a tiny 1960 British car, a green village lane through the windshield, daylight, sharp focus, close shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/1969_Morris_Mini_1100_Saloon.jpg/1920px-1969_Morris_Mini_1100_Saloon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5184,
+      "h": 3456,
+      "credit": "1969 Morris Mini 1100 Saloon.jpg by Cars Down Under, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1969_Morris_Mini_1100_Saloon.jpg"
+     }
     },
     {
      "vo": "Heavy fuel taxes kept European petrol expensive for decades, and nearly every small car kept its third pedal.",
      "prompt": "A 1960s Italian petrol station with small cars lined up, a large flat price card reading \"LIRE 110\" turned toward the camera on the pump, warm Mediterranean light, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g02140035ff4db86aec981d9d4e954ab0802e84ebaca477f450d8686d17d66baa4953b93ca061a3d04f105842a11105a2d09ac5c2eb8d4021203c1bcff79ef673_1280.jpg",
+      "w": 4608,
+      "h": 3072,
+      "credit": "Pixabay (652234)",
+      "page": "https://pixabay.com/photos/gas-pump-petrol-stations-petrol-gas-1914310/"
+     }
     },
     {
      "vo": "Then, in the 1970s, America got its own taste of empty pumps, and the clutch staged a comeback.",
@@ -259,19 +365,40 @@
      "vo": "A second shock hit in 1979, and Americans started buying small Japanese cars in enormous numbers.",
      "prompt": "A 1979 American car lot filled with small compact hatchbacks, buyers in casual clothes walking between them, bright daylight, sharp focus, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/1979-1981_Toyota_Corolla_Sedan_GT.jpg/1920px-1979-1981_Toyota_Corolla_Sedan_GT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5725,
+      "h": 2725,
+      "credit": "1979-1981 Toyota Corolla Sedan GT.jpg by TTTNIS, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1979-1981_Toyota_Corolla_Sedan_GT.jpg"
+     }
     },
     {
      "vo": "Those little cars usually came with a manual gearbox, because it squeezed more miles from every gallon of gas.",
      "prompt": "A young woman shifting a short manual gear lever inside a small compact car, California freeway through the windshield, sunlight, sharp focus, medium close shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gac87faf9af069aaf7f79000d2cfb58ac231ced58e7218f25195b2e1e38316f0f015d5515253b9feb15ccb266b966b002acf0b90c3b197bfc7c3a2337b77cf2e2_1280.jpg",
+      "w": 4132,
+      "h": 2755,
+      "credit": "Pixabay (webandi)",
+      "page": "https://pixabay.com/photos/audi-gear-lever-circuit-gear-shift-1214054/"
+     }
     },
     {
      "vo": "By around 1980, roughly one in three new cars sold in America had a clutch pedal again.",
      "prompt": "Three new 1980 cars parked side by side in a showroom, the middle car's door open showing three pedals in the footwell, bright fluorescent light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g6f06c2d5a1a7fecf7dfad8fc3b2988e71e87ffa5d4b53d34309f41b17d01a2e9e62c141d939140552fa59f1bf6296c5da76d175cc466fbe80901e61a4243f96f_1280.jpg",
+      "w": 3872,
+      "h": 2592,
+      "credit": "Pixabay (Sauerlaender)",
+      "page": "https://pixabay.com/photos/accelerator-clutch-pedal-clutch-397481/"
+     }
     },
     {
      "vo": "President Gerald Ford had signed fuel economy rules in 1975 that forced every carmaker to stretch each gallon further.",
@@ -283,13 +410,27 @@
      "vo": "Automatics gained an overdrive gear and a lock-up clutch inside, which stopped the fuel-wasting slip at highway speed.",
      "prompt": "A disassembled 1980s automatic transmission laid out on a clean workbench, a round steel torque converter large in the centre, lamp light, macro close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Bauma_2007_ZF_Getriebe_2.jpg/1920px-Bauma_2007_ZF_Getriebe_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2304,
+      "h": 3072,
+      "credit": "Bauma 2007 ZF Getriebe 2.jpg by Aconcagua, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bauma_2007_ZF_Getriebe_2.jpg"
+     }
     },
     {
      "vo": "The fuel economy gap shrank year after year, and gasoline got cheap again in the mid-1980s.",
      "prompt": "A big station wagon cruising on an American highway at sunset past a gas station, a large flat price card reading \"89¢\" turned toward the camera on its sign, warm light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g94f9b1fb337819159777d10ec8e1c19b2e9a804e3f528270d14a6134dfa42049c2e232d488d97ff238cb23233a3067c33eba168af16df787602ca5b9b14ba249_1280.jpg",
+      "w": 4745,
+      "h": 3143,
+      "credit": "Pixabay (paulbr75)",
+      "page": "https://pixabay.com/photos/gas-price-sign-fuel-unleaded-1744734/"
+     }
     },
     {
      "vo": "So the manual's last real advantage in America was being cheaper, and that only mattered if you could drive one.",
@@ -313,7 +454,14 @@
      "vo": "Pass it, and the license lets you drive any car on the road, three pedals or two, no questions asked.",
      "prompt": "A smiling teenager holding up a plain blank plastic card in one hand, standing outside a low brick government office, bright daylight, sharp focus, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/1937_Indianan_driver%27s_license.jpg/1920px-1937_Indianan_driver%27s_license.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2309,
+      "h": 1350,
+      "credit": "1937 Indianan driver's license.jpg by Frank Finney, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1937_Indianan_driver%27s_license.jpg"
+     }
     },
     {
      "vo": "Britain has tested drivers since 1935, and today its rule is strict about exactly which car you pass in.",
@@ -325,7 +473,14 @@
      "vo": "Pass your test in an automatic in the UK, and your licence says automatic only, so you cannot legally drive a manual.",
      "prompt": "A young British woman at a kitchen table reading a paper letter with a large heading \"AUTOMATIC ONLY\" turned toward the camera, rainy window light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gbb5405c3adfcc2bbd8b802a76a47f7c2938317343829e589fc1a9f2c676736809fcadd84176af085183c4be3f6f96ba139ab8b0a9e2604aab29cce8809a997f3_1280.jpg",
+      "w": 6382,
+      "h": 4255,
+      "credit": "Pixabay (rolfvandewal)",
+      "page": "https://pixabay.com/photos/gearstick-car-vehicle-auto-fast-7740670/"
+     }
     },
     {
      "vo": "Much of Europe works the same way, so families pushed learners onto manuals to keep every option open.",
@@ -337,13 +492,27 @@
      "vo": "In America nothing pushed back, so each generation learned on automatics and wanted automatics when they bought.",
      "prompt": "An American father on the right seat teaching his teenage daughter behind the wheel of an automatic sedan in an empty mall parking lot, golden hour, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g6ae2e87246cd822bcc6a30652a1802c8cbe788890130981b2af485b956c9867ebfdf10574b1bca6028359f221563ce93f29b1ca32436ea0967128b2be9aa48fe_1280.jpg",
+      "w": 6382,
+      "h": 4255,
+      "credit": "Pixabay (rolfvandewal)",
+      "page": "https://pixabay.com/photos/gearstick-car-vehicle-auto-fast-7740670/"
+     }
     },
     {
      "vo": "Dealers noticed and stocked fewer manual cars, because a car most buyers cannot test-drive sits on the lot for months.",
      "prompt": "A dusty manual sports car parked alone at the back of an American car lot, a large card reading \"MANUAL\" turned toward the camera in its windshield, late afternoon light, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g7543b940ead4a162d331c859432a543c2275b28118d17db370bcc0d349e17aa0495cd43eae5cd1470de6fe5d2332a3097c0062b2aa3833c26ba57135feae9a9e_1280.jpg",
+      "w": 5472,
+      "h": 3648,
+      "credit": "Pixabay (Didgeman)",
+      "page": "https://pixabay.com/photos/cars-autotransport-new-car-3631086/"
+     }
     },
     {
      "vo": "Fewer manuals on lots meant fewer people learning on them, and that loop tightened every single year.",
@@ -355,19 +524,40 @@
      "vo": "By the 2000s, rental companies and big fleets across America had almost completely stopped ordering them.",
      "prompt": "A rental car return lane at an American airport full of identical sedans, attendants in vests checking them, bright daylight, sharp focus, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Aeroporto_di_Firenze_-_Parking_lot_for_rental_cars.jpg/1920px-Aeroporto_di_Firenze_-_Parking_lot_for_rental_cars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3072,
+      "h": 2304,
+      "credit": "Aeroporto di Firenze - Parking lot for rental cars.jpg by User:Mattes, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Aeroporto_di_Firenze_-_Parking_lot_for_rental_cars.jpg"
+     }
     },
     {
      "vo": "Owners even joked that a stick shift was the best anti-theft device, because few thieves could drive one.",
      "prompt": "A hooded figure peering through the window of a parked manual car at night, the gear lever large in the foreground lit by a streetlight, American city street, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g80fcb381e3cb5e0cf6b0b459084eea4aabec4a94d163a4f276dc333765faa8e1550f1e8f6700deefcc730deabd2954c2b0a9ec4aa12794d67b9d550cf5c6a451_1280.jpg",
+      "w": 4000,
+      "h": 2248,
+      "credit": "Pixabay (Pix-And-Sounds)",
+      "page": "https://pixabay.com/photos/gear-switch-corridor-circuit-4821870/"
+     }
     },
     {
      "vo": "Still, enthusiasts insisted a manual was faster and thriftier, until the machines quietly took those arguments away too.",
      "prompt": "A driver's hand gripping a manual gear lever in a sports car on a winding mountain road, curves ahead through the windshield, crisp morning light, sharp focus, close shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gd3707822114e9592df7325ff240256cc9b549896ccb5a34f9a997395318ac519821b087a2ef7acc1766c1041e949a36205a189b411ff605c35fb701ffac290cc_1280.jpg",
+      "w": 5456,
+      "h": 3632,
+      "credit": "Pixabay (RoonzNL)",
+      "page": "https://pixabay.com/photos/car-vehicle-motor-transport-3046424/"
+     }
     }
    ]
   },
@@ -379,31 +569,66 @@
      "vo": "In the 1980s Porsche raced a gearbox with two clutches, which swapped gears faster than any human hand could.",
      "prompt": "A 1980s endurance race car speeding past a grandstand full of spectators at dusk, headlights glowing, sharp focus, telephoto wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Porsche_962C_Obermaier.jpg/1920px-Porsche_962C_Obermaier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4736,
+      "h": 3149,
+      "credit": "Porsche 962C Obermaier.jpg by David Merrett, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Porsche_962C_Obermaier.jpg"
+     }
     },
     {
      "vo": "In 2008 that idea reached Porsche road cars as PDK, and the self-shifting versions beat the manuals around the track.",
      "prompt": "A silver sports car taking a corner on a racetrack, a thin trail of tyre smoke behind it, grandstand in the distance, bright afternoon light, sharp focus, telephoto shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Porsche_Cayman_R_%285226639145%29.jpg/1920px-Porsche_Cayman_R_%285226639145%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3456,
+      "h": 2304,
+      "credit": "Porsche Cayman R (5226639145).jpg by Christian Flores from Carlsbad / Encinitas, United States of America, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Porsche_Cayman_R_(5226639145).jpg"
+     }
     },
     {
      "vo": "Meanwhile the 2007 Lexus LS 460 became the first production car with an eight-speed automatic gearbox.",
      "prompt": "A dark luxury sedan parked outside a glass office building in 2007, evening light gleaming on the paint, sharp focus, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Lexus_LS_460_L_USF41_2012_%281%29.jpg/1920px-Lexus_LS_460_L_USF41_2012_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4090,
+      "h": 3068,
+      "credit": "Lexus LS 460 L USF41 2012 (1).jpg by Ethan Llamas, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Lexus_LS_460_L_USF41_2012_(1).jpg"
+     }
     },
     {
      "vo": "More gears let the engine sit at its most efficient speed, while computers chose the right gear in milliseconds.",
      "prompt": "A modern car cruising on an empty desert highway in Nevada at sunrise, long shadows, mountains in the distance, sharp focus, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Graziano_transmission.jpg/1920px-Graziano_transmission.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2580,
+      "h": 1719,
+      "credit": "Graziano transmission.jpg by Stratos L, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Graziano_transmission.jpg"
+     }
     },
     {
      "vo": "In 2017 the Ford F-150, America's best-selling vehicle, switched to a ten-speed automatic developed together with GM.",
      "prompt": "A full-size American pickup truck towing a boat trailer down a Texas highway, bright midday sun, sharp focus, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/15-17_Ford_F-150_Lariat_Sport_Crew_Cab.png/1920px-15-17_Ford_F-150_Lariat_Sport_Crew_Cab.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2438,
+      "h": 920,
+      "credit": "15-17 Ford F-150 Lariat Sport Crew Cab.png by MercurySable99, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:15-17_Ford_F-150_Lariat_Sport_Crew_Cab.png"
+     }
     },
     {
      "vo": "Government fuel tests began showing many automatics beating the same model's manual, the opposite of the 1950s.",
@@ -421,31 +646,66 @@
      "vo": "By the early 2020s, about one new car in every hundred sold in America still had a clutch pedal.",
      "prompt": "A single manual hatchback with its door open, a third pedal visible inside, among hundreds of parked cars on a large port lot, overcast light, aerial wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gfc8910c7d393579d1c71bb7f2bb39ff307adbd5e1b87216062f920d20f5dcbef5527b5e6fb7184d68477c43c155f355b32f6497fe7b62f639be7bb7853b008d0_1280.jpg",
+      "w": 3872,
+      "h": 2592,
+      "credit": "Pixabay (Sauerlaender)",
+      "page": "https://pixabay.com/photos/accelerator-clutch-pedal-clutch-397481/"
+     }
     },
     {
      "vo": "Then came a car that does not need gears at all, and it changed Europe as well as America.",
      "prompt": "A sleek modern electric car silently pulling away from a charging post with a cable beside it, dusk, soft blue light, sharp focus, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cologne_Germany_Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg/1920px-Cologne_Germany_Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2718,
+      "h": 1680,
+      "credit": "Cologne Germany Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg by CEphoto, Uwe Aranas, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Cologne_Germany_Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg"
+     }
     },
     {
      "vo": "Tesla's Model 3 arrived in 2017 with a single-speed drive, like almost every electric car built since.",
      "prompt": "A white compact electric sedan driving on a California coastal road, blue ocean behind, bright sunlight, sharp focus, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Tesla_Model_3_in_M%C3%BCnchen_geparkt.jpg/1920px-Tesla_Model_3_in_M%C3%BCnchen_geparkt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 7312,
+      "h": 4984,
+      "credit": "Tesla Model 3 in München geparkt.jpg by AuHaidhausen, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3_in_M%C3%BCnchen_geparkt.jpg"
+     }
     },
     {
      "vo": "An electric motor pulls hard from a standstill all the way to highway speed, so there is nothing left to shift.",
      "prompt": "Interior of a minimalist electric car, a flat empty console with no gear lever, a driver's hand resting on the steering wheel, city lights through the windshield, sharp focus, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Tesla_Plaid_dual_motor_02.jpg/1920px-Tesla_Plaid_dual_motor_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3443,
+      "h": 1924,
+      "credit": "Tesla Plaid dual motor 02.jpg by Votpuske, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Tesla_Plaid_dual_motor_02.jpg"
+     }
     },
     {
      "vo": "As electric and hybrid cars spread across Europe, two-pedal cars have become the majority of new sales there too.",
      "prompt": "A row of electric cars plugged into charging posts along a modern Oslo street, cyclists passing, crisp winter daylight, sharp focus, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g1434f0afb61a60932440fb1fe9bb2cf554ddc6aeb09b628cbcbf7405e051dbd2bbe648706552cb099bd4a2c802157c6d7442f15eeedfde8e00599abe2869d406_1280.jpg",
+      "w": 5142,
+      "h": 3428,
+      "credit": "Pixabay (AKrebs60)",
+      "page": "https://pixabay.com/photos/charging-station-e-mobility-5212924/"
+     }
     }
    ]
   },
@@ -457,30 +717,56 @@
      "vo": "So America lost its clutch to a $57 option, cheap gas, and a driving test that never asked.",
      "prompt": "An old manual car half covered by a dust sheet in an American garage, sunlight through a small window, sharp focus, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gc14a2f29787fee0141ce2136a32dd61e9d62112c0750cd369ed6de9280207870536393ef9fe15db208144fdef3aaab046db6b7272dadf60e7f8073face425aa5_1280.jpg",
+      "w": 3872,
+      "h": 2592,
+      "credit": "Pixabay (Sauerlaender)",
+      "page": "https://pixabay.com/photos/accelerator-clutch-pedal-clutch-397481/"
+     }
     },
     {
      "vo": "Europe held on longer because of expensive fuel and strict licences, and now electric motors are finishing the job.",
      "prompt": "An old manual hatchback parked beside a new electric car on a European village street, cobblestones, soft evening light, sharp focus, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Zero_Rally_2011_%285807413041%29.jpg/1920px-Zero_Rally_2011_%285807413041%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5616,
+      "h": 3744,
+      "credit": "Zero Rally 2011 (5807413041).jpg by Zero Emission Resource Organisation, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Zero_Rally_2011_(5807413041).jpg"
+     }
     },
     {
      "vo": "So would you still buy a manual if you could, or is the clutch pedal a relic now?",
      "prompt": "A driver's hand hovering over a manual gear lever, a sunlit open country road through the windshield, sharp focus, close shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g5f9a7b7356c6840dd31f7543b32882033d06f51aa89db1e8a084da98bed5ee7a06834d030c67ada8722bfe84d16bb8dc40fd6e98d22d266f845d3a45639e2b39_1280.jpg",
+      "w": 3872,
+      "h": 2592,
+      "credit": "Pixabay (Sauerlaender)",
+      "page": "https://pixabay.com/photos/accelerator-clutch-pedal-clutch-397481/"
+     }
     },
     {
      "vo": "Next time: why American kitchen sinks have a garbage disposal when most of the world doesn't. Subscribe so you catch it.",
      "prompt": "A bright American kitchen with a stainless steel sink under a window, a plain wall switch beside it on the backsplash, morning light, sharp focus, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Garbage_disposal_top_view.jpg/1920px-Garbage_disposal_top_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3369,
+      "h": 2759,
+      "credit": "Garbage disposal top view.jpg by Oleg Alexandrov, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Garbage_disposal_top_view.jpg"
+     }
     }
    ]
   }
  ],
- "framework": "2026-11-15 04:11",
- "released_at": "2026-11-15 04:11",
- "voice_requested": "voice-27-stick-shift-america-c63366d7b8"
+ "photos_checked": true
 }
