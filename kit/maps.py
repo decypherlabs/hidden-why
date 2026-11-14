@@ -123,6 +123,17 @@ def _countries_of(places):
 
 
 _CACHE = {}
+_LAYOUT, _REC = {}, None  # the labels of a shot, placed once at its final view (frame -> _record)
+
+
+def _record(spec, dur, i):
+    global _REC
+    _REC = []
+    try:
+        frame(spec, dur * 0.97, dur, i)
+        _LAYOUT[json.dumps(spec, sort_keys=True) + f"|{dur:.2f}"] = _REC
+    finally:
+        _REC = None
 
 
 def _focus(spec):
@@ -277,6 +288,7 @@ def frame(spec, t, dur, i=0):
     pts = [P(p["lon"], p["lat"]) for p in places]
     t0 = te * 0.8  # routes, pins, rings once the camera is there
     reveal = ease((t - t0) / 1.2)
+    na_ = ease((t - 1.4) / 0.8)
     taken = []
     if action in ("route", "flow") and len(pts) > 1 and reveal > 0:
         seg = [math.hypot(b[0] - a[0], b[1] - a[1]) for a, b in zip(pts, pts[1:])]
@@ -336,82 +348,115 @@ def frame(spec, t, dur, i=0):
         tw = d.textlength(str(lab).upper(), font=f) + len(str(lab)) * 3.2 + 40
         taken.append((90, 120, 90 + tw, 192))
     if TERRAIN:
-        # names: the story's places first (next to their markers), then the focus countries, then the biggest neighbours
-        fP, fC = inter(30), inter(24)
-        if reveal > 0:
-            cnames = {c["name"].upper() for c in WORLD["countries"]}
-            for q, p in list(zip(pts, places))[:6]:
-                text = str(p.get("name", "")).upper()
-                if not text or text in cnames:  # a country is named by the country labels (13 Nov 2026: IRAN twice)
+        # every label's place is worked out once per shot, at the final view, and pinned to its spot on the map, so the
+        # names ride with the zoom instead of hopping between spots (owner, 13 Nov 2026: "the labels dance")
+        lkey = json.dumps(spec, sort_keys=True) + f"|{dur:.2f}"
+        cosl0, k0 = np.cos(np.radians(lat0)), H / span_now
+
+        def _L(kind, cls, d, x, y, text, f, a, **kw):
+            if _REC is not None:
+                _REC.append({"kind": kind, "cls": cls, "lon": lon0 + (x - W / 2) / (cosl0 * k0), "lat": lat0 - (y - H / 2) / k0,
+                             "text": text, "size": f.size if f else 0, "kw": kw})
+            if kind == "plate":
+                _plate(d, x, y, text, f, a)
+            elif kind == "spaced":
+                _spaced(d, (x, y), text, f, kw["fill"], a, track=kw.get("track", 0.08))
+            else:
+                d.ellipse((x - 6, y - 6, x + 6, y + 6), fill=(255, 255, 255, int(255 * a)), outline=(20, 20, 20, int(255 * a)), width=2)
+        if _REC is None and lkey not in _LAYOUT:
+            _record(spec, dur, i)
+        if _REC is None and lkey in _LAYOUT:
+            arrive = ease((t - te * 0.85) / 0.5)  # names appear as the camera arrives, not over the wide view
+            alpha = {"place": reveal, "country": ease((t - 1.0) / 0.8), "sea": na_ * 0.85, "city": na_ * 0.9}
+            for lb in _LAYOUT[lkey]:
+                x, y = P(lb["lon"], lb["lat"])
+                a = arrive * (alpha.get(lb["cls"], 1.0) if lb["cls"] != "country" else alpha["country"] * lb["kw"].get("k", 1.0))
+                if a <= 0:
                     continue
-                w, h = _tw(d, text, fP) + 22, fP.size + 14
-                cands = [(q[0] + 30, q[1] - h / 2), (q[0] - 30 - w, q[1] - h / 2), (q[0] - w / 2, q[1] - 34 - h), (q[0] - w / 2, q[1] + 34),
-                         (q[0] + 30, q[1] - h - 20), (q[0] + 30, q[1] + 20), (q[0] - 30 - w, q[1] - h - 20), (q[0] - 30 - w, q[1] + 20),
-                         (q[0] - w / 2, q[1] - 90 - h), (q[0] - w / 2, q[1] + 90)]
-                for x, y in cands:
-                    r = (x - 6, y - 6, x + w + 6, y + h + 6)
-                    if 10 < x and x + w < W - 10 and 10 < y and y + h < H - 10 and not _hit(r, taken):
-                        break
+                f = inter(lb["size"]) if lb["size"] else None
+                if lb["kind"] == "plate":
+                    _plate(d, x, y, lb["text"], f, a)
+                elif lb["kind"] == "spaced":
+                    _spaced(d, (x, y), lb["text"], f, lb["kw"]["fill"], a, track=lb["kw"].get("track", 0.08))
                 else:
-                    x, y = cands[0]
-                    r = (x - 6, y - 6, x + w + 6, y + h + 6)
-                _plate(d, x, y, text, fP, reveal)
-                taken.append(r)
-        ca = ease((t - 1.0) / 0.8) * ease((120 - span_now) / 30)
-        if ca > 0:
-            hwd, hhd = W / (2 * (H / span_now) * np.cos(np.radians(lat0))) + 2, span_now / 2 + 2
-            shown = [c for c in WORLD["countries"] if not (c["bbox"][2] < lon0 - hwd or c["bbox"][0] > lon0 + hwd or c["bbox"][3] < lat0 - hhd or c["bbox"][1] > lat0 + hhd)]
-            for isfocus, mx, c, (cx, cy) in _country_spots(shown, P, focus):
-                f = inter(30) if isfocus else fC
-                text = c["name"].upper()
-                w, h = _tw(d, text, f) + 22, f.size + 14
-                for dx, dy in ((0, 0), (0, h + 10), (0, -h - 10), (w * 0.3, 0), (-w * 0.3, 0), (0, 2 * (h + 10)), (0, -2 * (h + 10))):
-                    x, y = cx - w / 2 + dx, cy - h / 2 + dy
-                    r = (x - 6, y - 6, x + w + 6, y + h + 6)
-                    if 10 < x and x + w < W - 10 and 10 < y and y + h < H - 10 and not _hit(r, taken) and w < mx * 8 * 1.9 + 60:
-                        _plate(d, x, y, text, f, ca * (1.0 if isfocus else 0.85))
-                        taken.append(r)
+                    d.ellipse((x - 6, y - 6, x + 6, y + 6), fill=(255, 255, 255, int(255 * a)), outline=(20, 20, 20, int(255 * a)), width=2)
+        else:
+            # names: the story's places first (next to their markers), then the focus countries, then the biggest neighbours
+            fP, fC = inter(30), inter(24)
+            if reveal > 0:
+                cnames = {c["name"].upper() for c in WORLD["countries"]}
+                for q, p in list(zip(pts, places))[:6]:
+                    text = str(p.get("name", "")).upper()
+                    if not text or text in cnames:  # a country is named by the country labels (13 Nov 2026: IRAN twice)
+                        continue
+                    w, h = _tw(d, text, fP) + 22, fP.size + 14
+                    cands = [(q[0] + 30, q[1] - h / 2), (q[0] - 30 - w, q[1] - h / 2), (q[0] - w / 2, q[1] - 34 - h), (q[0] - w / 2, q[1] + 34),
+                             (q[0] + 30, q[1] - h - 20), (q[0] + 30, q[1] + 20), (q[0] - 30 - w, q[1] - h - 20), (q[0] - 30 - w, q[1] + 20),
+                             (q[0] - w / 2, q[1] - 90 - h), (q[0] - w / 2, q[1] + 90)]
+                    for x, y in cands:
+                        r = (x - 6, y - 6, x + w + 6, y + h + 6)
+                        if 10 < x and x + w < W - 10 and 10 < y and y + h < H - 10 and not _hit(r, taken):
+                            break
+                    else:
+                        x, y = cands[0]
+                        r = (x - 6, y - 6, x + w + 6, y + h + 6)
+                    _L('plate', 'place', d, x, y, text, fP, reveal)
+                    taken.append(r)
+            ca = ease((t - 1.0) / 0.8) * ease((120 - span_now) / 30)
+            if ca > 0:
+                hwd, hhd = W / (2 * (H / span_now) * np.cos(np.radians(lat0))) + 2, span_now / 2 + 2
+                shown = [c for c in WORLD["countries"] if not (c["bbox"][2] < lon0 - hwd or c["bbox"][0] > lon0 + hwd or c["bbox"][3] < lat0 - hhd or c["bbox"][1] > lat0 + hhd)]
+                for isfocus, mx, c, (cx, cy) in _country_spots(shown, P, focus):
+                    f = inter(30) if isfocus else fC
+                    text = c["name"].upper()
+                    w, h = _tw(d, text, f) + 22, f.size + 14
+                    for dx, dy in ((0, 0), (0, h + 10), (0, -h - 10), (w * 0.3, 0), (-w * 0.3, 0), (0, 2 * (h + 10)), (0, -2 * (h + 10))):
+                        x, y = cx - w / 2 + dx, cy - h / 2 + dy
+                        r = (x - 6, y - 6, x + w + 6, y + h + 6)
+                        if 10 < x and x + w < W - 10 and 10 < y and y + h < H - 10 and not _hit(r, taken) and w < mx * 8 * 1.9 + 60:
+                            _L('plate', 'country', d, x, y, text, f, ca * (1.0 if isfocus else 0.85), k=1.0 if isfocus else 0.85)
+                            taken.append(r)
+                            break
+            # the other names in view (owner, 13 Nov 2026: "if the major areas visible are also mapped"): seas and gulfs on
+            # the water, then the biggest cities, as many as the zoom allows and never over another label
+            na = ease((t - 1.4) / 0.8)
+            if na > 0:
+                hwd, hhd = W / (2 * (H / span_now) * np.cos(np.radians(lat0))), span_now / 2
+                inview = lambda x: abs(x["lon"] - lon0) < hwd * 0.92 and abs(x["lat"] - lat0) < hhd * 0.9
+                told = {str(p.get("name", "")).upper() for p in places}
+                sea_rank = 1 if span_now > 60 else 3 if span_now > 20 else 6
+                for sea in sorted((x for x in PLACES["seas"] if inview(x) and x["rank"] <= sea_rank), key=lambda x: x["rank"])[:4]:
+                    text = sea["name"].upper()
+                    if text in told:
+                        continue
+                    f = inter(26 if span_now > 20 else 22)
+                    x0s, y0s = P(sea["lon"], sea["lat"])
+                    w = _tw(d, text, f) + 10
+                    for dx, dy in ((0, 0), (0, 40), (0, -40), (60, 20), (-60, 20), (0, 80), (0, -80), (90, 0), (-90, 0)):
+                        x, y = x0s + dx, y0s + dy
+                        r = (x - w / 2 - 6, y - 18, x + w / 2 + 6, y + 18)
+                        if 10 < r[0] and r[2] < W - 10 and 10 < r[1] and r[3] < H - 10 and not _hit(r, taken):
+                            _L('spaced', 'sea', d, x - w / 2, y - 14, text, f, na * 0.85, fill=(230, 240, 250), track=0.18)
+                            taken.append(r)
+                            break
+                city_rank = 2 if span_now > 60 else 4 if span_now > 25 else 6 if span_now > 10 else 8
+                cities = sorted((x for x in PLACES["cities"] if inview(x) and x["rank"] <= city_rank and x["name"].upper() not in told),
+                                key=lambda x: (not x["capital"], x["rank"], -x["pop"]))
+                fc, n_c = inter(20), 0
+                for cty in cities:
+                    if n_c >= 8:
                         break
-        # the other names in view (owner, 13 Nov 2026: "if the major areas visible are also mapped"): seas and gulfs on
-        # the water, then the biggest cities, as many as the zoom allows and never over another label
-        na = ease((t - 1.4) / 0.8)
-        if na > 0:
-            hwd, hhd = W / (2 * (H / span_now) * np.cos(np.radians(lat0))), span_now / 2
-            inview = lambda x: abs(x["lon"] - lon0) < hwd * 0.92 and abs(x["lat"] - lat0) < hhd * 0.9
-            told = {str(p.get("name", "")).upper() for p in places}
-            sea_rank = 1 if span_now > 60 else 3 if span_now > 20 else 6
-            for sea in sorted((x for x in PLACES["seas"] if inview(x) and x["rank"] <= sea_rank), key=lambda x: x["rank"])[:4]:
-                text = sea["name"].upper()
-                if text in told:
-                    continue
-                f = inter(26 if span_now > 20 else 22)
-                x0s, y0s = P(sea["lon"], sea["lat"])
-                w = _tw(d, text, f) + 10
-                for dx, dy in ((0, 0), (0, 40), (0, -40), (60, 20), (-60, 20), (0, 80), (0, -80), (90, 0), (-90, 0)):
-                    x, y = x0s + dx, y0s + dy
-                    r = (x - w / 2 - 6, y - 18, x + w / 2 + 6, y + 18)
-                    if 10 < r[0] and r[2] < W - 10 and 10 < r[1] and r[3] < H - 10 and not _hit(r, taken):
-                        _spaced(d, (x - w / 2, y - 14), text, f, (230, 240, 250), na * 0.85, track=0.18)
-                        taken.append(r)
-                        break
-            city_rank = 2 if span_now > 60 else 4 if span_now > 25 else 6 if span_now > 10 else 8
-            cities = sorted((x for x in PLACES["cities"] if inview(x) and x["rank"] <= city_rank and x["name"].upper() not in told),
-                            key=lambda x: (not x["capital"], x["rank"], -x["pop"]))
-            fc, n_c = inter(20), 0
-            for cty in cities:
-                if n_c >= 8:
-                    break
-                x, y = P(cty["lon"], cty["lat"])
-                text = cty["name"].upper()
-                w, h = _tw(d, text, fc) + 18, fc.size + 10
-                for lx, ly in ((x + 12, y - h / 2), (x - 12 - w, y - h / 2), (x - w / 2, y - h - 12), (x - w / 2, y + 12)):
-                    r = (min(lx, x - 8) - 4, min(ly, y - 8) - 4, max(lx + w, x + 8) + 4, max(ly + h, y + 8) + 4)
-                    if 10 < r[0] and r[2] < W - 10 and 10 < r[1] and r[3] < H - 10 and not _hit(r, taken):
-                        d.ellipse((x - 6, y - 6, x + 6, y + 6), fill=(255, 255, 255, int(255 * na)), outline=(20, 20, 20, int(255 * na)), width=2)
-                        _plate(d, lx, ly, text, fc, na * 0.9)
-                        taken.append(r)
-                        n_c += 1
-                        break
+                    x, y = P(cty["lon"], cty["lat"])
+                    text = cty["name"].upper()
+                    w, h = _tw(d, text, fc) + 18, fc.size + 10
+                    for lx, ly in ((x + 12, y - h / 2), (x - 12 - w, y - h / 2), (x - w / 2, y - h - 12), (x - w / 2, y + 12)):
+                        r = (min(lx, x - 8) - 4, min(ly, y - 8) - 4, max(lx + w, x + 8) + 4, max(ly + h, y + 8) + 4)
+                        if 10 < r[0] and r[2] < W - 10 and 10 < r[1] and r[3] < H - 10 and not _hit(r, taken):
+                            _L('dot', 'city', d, x, y, '', None, na)
+                            _L('plate', 'city', d, lx, ly, text, fc, na * 0.9)
+                            taken.append(r)
+                            n_c += 1
+                            break
     elif reveal > 0:
         for q, p in list(zip(pts, places))[:6]:
             _spaced(d, (q[0] + 26, q[1] - 16), str(p.get("name", "")).upper(), inter(26), BONE, reveal)
