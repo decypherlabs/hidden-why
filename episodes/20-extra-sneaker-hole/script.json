@@ -33,41 +33,47 @@
    "card": null,
    "shots": [
     {
-     "vo": "That extra hole at the top of your sneakers isn't a spare. The top hole was probably never used for its real job.",
-     "prompt": "Dramatic extreme close-up of a running sneaker's empty top eyelet beside a runner's foot with a dark purple-black big toenail, hard side light, shallow depth of field, no logos, no text.",
+     "vo": "That extra hole at the top of your sneakers isn't a spare. It was probably never used for its real job.",
+     "prompt": "Dramatic extreme close-up of the empty top eyelet on a running sneaker, laces stopping one hole short, hard side light, shallow depth of field, no logos, no text.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "title": "The *top* hole"
     },
     {
-     "vo": "That one hole is a fix for blistered heels and black toenails, hiding in plain sight. Look down at your shoes right now and find it.",
-     "prompt": "A runner's bare foot on a wooden bench showing a blistered red heel and a dark bruised big toenail, harsh side light, close crop, no text.",
+     "vo": "Look down at your shoes right now and find it. Most running and hiking shoes have it.",
+     "prompt": "Overhead close shot of a person's feet in laced running shoes on a trail, a finger pointing at the unused top eyelet, daylight, no logos, no text.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "title": "*Running* + hiking"
     },
     {
-     "vo": "I'm drawing on running-shoe fitting guides, hiking lacing guides and medical notes on toe injuries. First, what the hole is. Then the hidden why, and what it saves you.",
-     "prompt": "A tidy desk with a running shoe, a hiking boot, and open printed guides, warm lamp light, overhead medium shot, pages painted blank, no logos.",
+     "vo": "Many casual sneakers and canvas shoes don't. So why does yours come with a hole it never tells you to use?",
+     "prompt": "Side-by-side close-up of a plain canvas sneaker with no extra eyelet next to a running shoe with the extra top eyelet, soft daylight, no logos, no text.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "title": "*Canvas*: none"
     },
     {
-     "vo": "Most running and hiking shoes have it. Many casual sneakers and canvas shoes don't. If yours does, that hole has been waiting for a job.",
-     "prompt": "A row of shoes on a shelf in daylight: a running shoe, a hiking shoe and a canvas sneaker, the running and hiking shoes showing an extra top eyelet, medium shot, soft light, no logos, no text.",
+     "vo": "Running-shoe fitting guides and hiking lacing guides give that hole a job. Leave it empty, and runners and hikers pay for it.",
+     "prompt": "Low close-up of a runner mid-stride, the heel lifting out of a loosely laced running shoe, the top eyelet empty, motion in the laces, morning light, no logos, no text.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "title": "*Empty* hole"
     },
     {
-     "vo": "And at the end, the coin-sized loop that makes it work. So why does your shoe come with a hole it never tells you to use?",
-     "prompt": "Wide shot of a person sitting on a park bench looking down at their own laced sneakers with a puzzled face, late afternoon golden light, no logos, no text.",
+     "vo": "Blistered heels. Black toenails.",
+     "prompt": "Close crop of a runner's bare foot on a wooden bench: a raw red blister on the heel and a dark purple-black big toenail, harsh side light, no text.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "title": "*Black* toenails"
     },
     {
-     "vo": "Before we go on, one thing: every episode like this takes research, scripting, voiceover and editing, but subscribing to the channel is free, so do subscribe. Let's begin.",
+     "vo": "The fix was hiding in plain sight: one coin-sized loop through that top hole.",
      "subscribe_ask": true,
-     "prompt": "a storyteller's desk at night: handwritten script pages, a studio microphone with headphones, a laptop glowing with a video-editing timeline, warm lamp light, cosy and calm, every page and screen without readable text",
+     "prompt": "Extreme close-up of hands pulling a lace through a running shoe's top eyelet to form a small coin-sized loop, the heel sitting snug in the shoe, warm side light, no logos, no text.",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "title": "*Coin*-sized loop"
     }
    ]
   },
@@ -925,11 +931,15 @@
  "voice_approved_at": "2026-11-14 05:33",
  "repaint": {
   "shots": [
-   51,
-   53
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
   ],
   "thumbs": [],
-  "at": "2026-11-11 19:45"
+  "at": "2026-11-14 06:19"
  },
  "shot_qc": {
   "checked": "2026-11-11T14:14:20Z",
@@ -942,5 +952,7 @@
    "51",
    "53"
   ]
- }
+ },
+ "breakout_round": 1,
+ "late_intro": true
 }
