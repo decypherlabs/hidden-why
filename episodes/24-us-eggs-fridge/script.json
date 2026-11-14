@@ -51,9 +51,16 @@
     },
     {
      "vo": "In a London supermarket, eggs sit on a warm shelf beside the bread.",
-     "prompt": "Boxes of brown eggs stacked on an ordinary open shelf right beside loaves of bread, a card reading \"FREE RANGE EGGS\" large and flat facing the camera, plain English supermarket aisle, warm overhead light, sharp focus, medium shot",
+     "prompt": "Boxes of brown eggs stacked on an open shelf right beside loaves of bread, a card reading \"FREE RANGE EGGS\" large and flat facing the camera, plain English shop aisle, warm overhead light, sharp focus, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "02": {
+       "src": "901db2a86888",
+       "items": []
+      }
+     },
+     "seed": 8921
     },
     {
      "vo": "Leave a US egg out for two hours, and the USDA says toss it.",
@@ -185,7 +192,133 @@
      "vo": "Through the 1960s, outbreaks traced to cracked and dirty eggs pushed Washington to set one national standard.",
      "prompt": "A food inspector in a white coat sorting cracked and dirty eggs from a tray onto a steel table, a clipboard page reading \"REJECTED\" large and flat facing the camera, 1960s American inspection room, cool light, sharp focus, medium close shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "14": {
+       "src": "f1a070ae8d2a",
+       "items": [
+        {
+         "text": "REJECTED",
+         "grid": [
+          [
+           [
+            690.5,
+            467.8
+           ],
+           [
+            727.7,
+            489.7
+           ],
+           [
+            773.7,
+            510.7
+           ],
+           [
+            827.9,
+            529.9
+           ],
+           [
+            889.2,
+            546.7
+           ],
+           [
+            959.5,
+            561.2
+           ],
+           [
+            1037.0,
+            572.9
+           ]
+          ],
+          [
+           [
+            632.2,
+            493.9
+           ],
+           [
+            671.0,
+            516.7
+           ],
+           [
+            718.0,
+            539.0
+           ],
+           [
+            772.8,
+            559.9
+           ],
+           [
+            834.2,
+            578.9
+           ],
+           [
+            904.3,
+            596.2
+           ],
+           [
+            981.7,
+            611.1
+           ]
+          ],
+          [
+           [
+            569.0,
+            522.2
+           ],
+           [
+            609.4,
+            546.0
+           ],
+           [
+            657.5,
+            569.7
+           ],
+           [
+            712.7,
+            592.7
+           ],
+           [
+            774.0,
+            614.1
+           ],
+           [
+            843.6,
+            634.7
+           ],
+           [
+            920.4,
+            653.5
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#b01c1c",
+         "corners": [
+          [
+           804,
+           403
+          ],
+          [
+           1165,
+           509
+          ],
+          [
+           783,
+           783
+          ],
+          [
+           374,
+           591
+          ]
+         ],
+         "band": [
+          0.35,
+          0.65
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "On December 29, 1970, President Richard Nixon signed the Egg Products Inspection Act into law.",
@@ -217,13 +350,140 @@
      "vo": "The wash water must be at least 90 degrees and 20 degrees warmer than the egg itself.",
      "prompt": "A plant worker holding a dial thermometer over a steaming wash tank full of white eggs, a card on the tank reading \"90°F\" large and flat facing the camera, 1970s American egg packing room, sharp focus, close shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "17": {
+       "src": "b5734ef0cd05",
+       "items": [
+        {
+         "text": "90°F",
+         "grid": [
+          [
+           [
+            640.7,
+            308.3
+           ],
+           [
+            687.3,
+            306.3
+           ],
+           [
+            734.7,
+            304.2
+           ],
+           [
+            782.2,
+            302.2
+           ],
+           [
+            828.8,
+            300.2
+           ],
+           [
+            876.3,
+            298.1
+           ],
+           [
+            923.7,
+            296.1
+           ]
+          ],
+          [
+           [
+            641.6,
+            380.0
+           ],
+           [
+            688.5,
+            378.0
+           ],
+           [
+            736.3,
+            376.0
+           ],
+           [
+            784.0,
+            374.0
+           ],
+           [
+            831.0,
+            372.0
+           ],
+           [
+            878.8,
+            370.0
+           ],
+           [
+            926.7,
+            368.1
+           ]
+          ],
+          [
+           [
+            642.4,
+            452.7
+           ],
+           [
+            689.7,
+            450.8
+           ],
+           [
+            737.8,
+            448.9
+           ],
+           [
+            785.9,
+            446.9
+           ],
+           [
+            833.3,
+            445.0
+           ],
+           [
+            881.4,
+            443.0
+           ],
+           [
+            929.6,
+            441.1
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           621,
+           260
+          ],
+          [
+           941,
+           247
+          ],
+          [
+           950,
+           458
+          ],
+          [
+           623,
+           471
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "That warmth matters, because cold water would make the egg shrink and suck dirty water in through its shell.",
-     "prompt": "A single white egg half submerged in clear water inside a glass laboratory beaker, tiny bubbles on the shell, plain white background, soft studio light, sharp focus, macro shot",
+     "prompt": "A whole smooth white egg half submerged in clear water inside a tall glass laboratory beaker, the upper half above the waterline, tiny bubbles on the shell, plain white background, soft studio light, sharp focus, macro shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8937
     },
     {
      "vo": "And an eggshell is not solid: it has as many as 17,000 tiny pores, so the chick inside can breathe.",
@@ -253,9 +513,10 @@
     },
     {
      "vo": "The scrubbing that made American eggs look spotless also stripped away most of that natural seal.",
-     "prompt": "Two eggs held side by side in one open hand, the left one dull and matte, the right one glossy and freshly washed, bright packing plant light, sharp focus, close shot",
+     "prompt": "One open palm holding two eggs, fingers curled around them, the left egg dull and matte, the right egg glossy and freshly washed, bright packing plant light, plain blank background, sharp focus, close shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8940
     },
     {
      "vo": "Nobody worried, because a clean egg looked like a safe egg, until spotless eggs began making people sick.",
@@ -358,7 +619,133 @@
      "vo": "No amount of washing could reach that, but cold could, because Salmonella barely grows below 45 degrees.",
      "prompt": "Pallets of egg cartons inside a walk-in cold room with frost on the walls, a card on the door reading \"45°F\" large and flat facing the camera, blue light, sharp focus, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "31": {
+       "src": "3ef4c2278887",
+       "items": [
+        {
+         "text": "45°F",
+         "grid": [
+          [
+           [
+            698.6,
+            407.6
+           ],
+           [
+            726.8,
+            407.6
+           ],
+           [
+            755.4,
+            407.6
+           ],
+           [
+            784.0,
+            407.6
+           ],
+           [
+            812.1,
+            407.6
+           ],
+           [
+            840.7,
+            407.6
+           ],
+           [
+            869.4,
+            407.6
+           ]
+          ],
+          [
+           [
+            698.6,
+            449.0
+           ],
+           [
+            726.8,
+            449.0
+           ],
+           [
+            755.4,
+            449.0
+           ],
+           [
+            784.0,
+            449.0
+           ],
+           [
+            812.1,
+            449.0
+           ],
+           [
+            840.7,
+            449.0
+           ],
+           [
+            869.4,
+            449.0
+           ]
+          ],
+          [
+           [
+            698.6,
+            490.5
+           ],
+           [
+            726.8,
+            490.5
+           ],
+           [
+            755.4,
+            490.5
+           ],
+           [
+            784.0,
+            490.5
+           ],
+           [
+            812.1,
+            490.5
+           ],
+           [
+            840.7,
+            490.5
+           ],
+           [
+            869.4,
+            490.5
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#f5f5f5",
+         "corners": [
+          [
+           687,
+           380
+          ],
+          [
+           881,
+           380
+          ],
+          [
+           881,
+           518
+          ],
+          [
+           687,
+           518
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "In 1991, Congress amended the egg law and wrote that number in: 45 degrees Fahrenheit, from the packing plant onward.",
@@ -454,7 +841,14 @@
      "vo": "Overnight, British shoppers stopped buying eggs, and sales fell by around half within weeks.",
      "prompt": "Shelves of unsold egg boxes with no customers in a small shop, a card reading \"EGGS HALF PRICE\" large and flat facing the camera, 1988 British grocery, grey winter light, sharp focus, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "39": {
+       "src": "ec6d092b28b4",
+       "items": []
+      }
+     },
+     "seed": 8958
     },
     {
      "vo": "Farmers were furious, lawsuits were threatened, and on December 16, Currie resigned from the government.",
@@ -680,7 +1074,133 @@
      "vo": "Health officials linked the outbreak to around 1,900 reported illnesses across the country.",
      "prompt": "A store worker pulling egg cartons off a refrigerated shelf into a cart, a paper notice on the cooler reading \"EGG RECALL\" large and flat facing the camera, American retail aisle in 2010, bright light, sharp focus, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "57": {
+       "src": "ffd1dbc6dead",
+       "items": [
+        {
+         "text": "EGG RECALL",
+         "grid": [
+          [
+           [
+            115.1,
+            520.3
+           ],
+           [
+            125.6,
+            519.2
+           ],
+           [
+            135.7,
+            518.2
+           ],
+           [
+            145.3,
+            517.3
+           ],
+           [
+            154.3,
+            516.4
+           ],
+           [
+            163.1,
+            515.5
+           ],
+           [
+            171.4,
+            514.7
+           ]
+          ],
+          [
+           [
+            121.7,
+            554.0
+           ],
+           [
+            132.2,
+            551.1
+           ],
+           [
+            142.3,
+            548.3
+           ],
+           [
+            151.9,
+            545.6
+           ],
+           [
+            160.8,
+            543.1
+           ],
+           [
+            169.4,
+            540.7
+           ],
+           [
+            177.6,
+            538.4
+           ]
+          ],
+          [
+           [
+            128.9,
+            590.5
+           ],
+           [
+            139.3,
+            585.4
+           ],
+           [
+            149.4,
+            580.5
+           ],
+           [
+            158.8,
+            575.9
+           ],
+           [
+            167.6,
+            571.6
+           ],
+           [
+            176.1,
+            567.4
+           ],
+           [
+            184.2,
+            563.5
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#b01c1c",
+         "corners": [
+          [
+           109,
+           512
+          ],
+          [
+           173,
+           508
+          ],
+          [
+           195,
+           591
+          ],
+          [
+           128,
+           612
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "Inspectors at the Iowa barns found rodents, live and dead flies, and manure piled up to eight feet high.",
@@ -786,5 +1306,31 @@
  "released_at": "2026-11-15 00:32",
  "voice_requested": "voice-24-us-eggs-fridge-76bd5023e1",
  "voice_ok": "voice-24-us-eggs-fridge-76bd5023e1",
- "voice_approved_at": "2026-11-15 00:40"
+ "voice_approved_at": "2026-11-15 00:40",
+ "repaint": {
+  "shots": [
+   2,
+   18,
+   21,
+   39
+  ],
+  "thumbs": [],
+  "at": "2026-11-15 01:40"
+ },
+ "shot_qc": {
+  "checked": "2026-11-14T20:08:48Z",
+  "rounds": 1,
+  "why": {
+   "18": "The egg in the beaker looks like a broken shell fragment, not a whole egg half submerged in water.",
+   "21": "The glossy egg floats beside the hand instead of being held in it, and the blurred box labels read as gibberish.",
+   "39": "no blank surface for its words",
+   "2": "no blank surface for its words"
+  },
+  "recheck": [
+   "2",
+   "18",
+   "21",
+   "39"
+  ]
+ }
 }
