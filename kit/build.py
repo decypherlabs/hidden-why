@@ -33,7 +33,8 @@ END = 8.0  # the end card (YouTube end screen elements sit on it)
 # the edit (owner, 13 Nov 2026: "the videos feel very plain going... the hooks has to be some different, edit,
 # effects"): the hook cuts every HOOK_BEAT s (each painting in wide / close / medium framings, a flash and a hit on every
 # cut, the line's number or year slammed on screen), a title slam after it, and no picture held past BODY_BEAT s after
-HOOK_BEAT, BODY_BEAT, TITLE = 3.0, 4.0, 2.6  # owner, 13 Nov 2026: 1.6 s cuts, flashes and hits read as noise
+HOOK_BEAT, BODY_BEAT, TITLE = 3.0, 4.0, 2.6
+XF = 8  # frames of crossfade on every scene change (owner, 13 Nov 2026: "no transitions during scene change")  # owner, 13 Nov 2026: 1.6 s cuts, flashes and hits read as noise
 BIG = __import__("re").compile(r"\$\s?\d[\d,.]*(?:\s?(?:billion|million|thousand|bn|m)\b)?|\b\d[\d,.]*\s?(?:%|percent|billion|million|"
                                r"kilometres|kilometers|km|miles|barrels|stores|ships)\b|\b(?:1[5-9]|20)\d\d\b", 2)
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"}
@@ -285,45 +286,77 @@ def still(ctx, it, t, i, n):
     return kit.grade(cv2.resize(src[y0:y0 + ch, x0:x0 + cw], (W, H), interpolation=cv2.INTER_LINEAR), tint=ctx.L["tint"])
 
 
+def _desk(ctx, key):
+    """A dark desk under prints and clippings: the channel ground, a soft light from the top-left, film grain."""
+    if key not in ctx.cache:
+        yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+        light = 1.0 - 0.55 * np.clip(np.hypot((xx - W * 0.3) / W, (yy - H * 0.25) / H), 0, 1)
+        g = np.array(ctx.L["bg"], np.float32) * 1.6
+        img = np.clip(g[None, None, :] * light[..., None] + np.random.default_rng(3).normal(0, 4, (H, W, 1)), 0, 255)
+        ctx.cache = {k: v for k, v in ctx.cache.items() if k[0] != "desk"}
+        ctx.cache[key] = img.astype(np.uint8)
+    return ctx.cache[key].copy()
+
+
+def _print_card(im, style, caption, paper):
+    """The photo as an object: a newspaper clipping (newsprint, the photo toned, a caption, a torn bottom edge) or a
+    white-bordered print. Returns RGBA with a soft shadow."""
+    from PIL import ImageFilter, ImageOps
+    tw = 1180
+    ph = im.copy()
+    ph.thumbnail((tw, 720), Image.LANCZOS)
+    if style == "clip":
+        g = ImageOps.grayscale(ph).convert("RGB")
+        ph = Image.blend(ph, g, 0.55)  # newsprint: most of the colour gone
+        pad, capf = 34, kit.font("SourceSerif4", 34)
+        d0 = ImageDraw.Draw(Image.new("RGB", (1, 1)))
+        lines = wrap(d0, caption, capf, ph.width)[:2]
+        cw, chh = ph.width + 2 * pad, ph.height + 2 * pad + 46 * len(lines) + 30
+        card = Image.new("RGBA", (cw, chh), (*kit.hexrgb(paper), 255))
+        card.paste(ph, (pad, pad))
+        dd = ImageDraw.Draw(card)
+        y = pad + ph.height + 18
+        for ln in lines:
+            dd.text((pad, y), ln, font=capf, fill=(40, 36, 30, 255))
+            y += 46
+        rng = np.random.default_rng(len(caption))  # a torn bottom edge
+        edge = [(x, chh - 6 - int(rng.integers(0, 10))) for x in range(0, cw + 12, 12)]
+        mask = Image.new("L", card.size, 255)
+        ImageDraw.Draw(mask).polygon([(0, chh)] + edge + [(cw, chh)], fill=0)
+        card.putalpha(mask)
+    else:
+        b = 22
+        card = Image.new("RGBA", (ph.width + 2 * b, ph.height + 2 * b), (246, 244, 238, 255))
+        card.paste(ph, (b, b))
+    sh = Image.new("RGBA", (card.width + 60, card.height + 60), (0, 0, 0, 0))
+    sh.paste((0, 0, 0, 150), (36, 40, 36 + card.width, 40 + card.height), card.split()[3])
+    sh = sh.filter(ImageFilter.GaussianBlur(14))
+    sh.alpha_composite(card, (24, 24))
+    return sh
+
+
 def photo(ctx, it, t, i, n):
-    """A real photograph: a slow push across it; a photo far from 16:9 sits whole on a blurred, dimmed copy of itself."""
+    """A real photograph presented as an object on a desk (owner, 13 Nov 2026: full-screen photos and stock read as
+    "very raw"; the winners show prints and clippings): newspaper clippings and white-bordered prints in turn, sliding
+    in with a slight tilt, then a slow push."""
     p = ctx.out / "photos" / f"{it['n']:03d}.jpg"
     if not p.exists():
         return still(ctx, it, t, i, n) if (ctx.out / f"shot-{it['n']:02d}.png").exists() else None
-    import cv2
-    key = ("photo", it["n"])
+    key = ("card", it["n"])
     if key not in ctx.cache:
-        im = Image.open(p).convert("RGB")
-        ar = im.width / im.height
-        if 1.45 <= ar <= 2.1:  # close to 16:9: fill the frame
-            sc = max(W * 1.1 / im.width, H * 1.1 / im.height)
-            src = np.asarray(im.resize((int(im.width * sc), int(im.height * sc)), Image.LANCZOS))
-            ctx.cache = {k: v for k, v in ctx.cache.items() if k[0] != "photo"}
-            ctx.cache[key] = ("fill", src)
-        else:
-            bg = np.asarray(im.resize((W // 4, H // 4)))
-            bg = cv2.resize(cv2.GaussianBlur(bg, (0, 0), 8), (W, H)).astype(np.float32) * 0.45
-            sc = min(W * 0.92 / im.width, H * 0.92 / im.height)
-            fg = np.asarray(im.resize((int(im.width * sc), int(im.height * sc)), Image.LANCZOS))
-            ctx.cache = {k: v for k, v in ctx.cache.items() if k[0] != "photo"}
-            ctx.cache[key] = ("fit", (bg.astype(np.uint8), fg))
-    mode, src = ctx.cache[key]
-    u = i / max(1, n - 1)
-    if mode == "fill":
-        z = 1.0 + 0.07 * (u if it["n"] % 2 else 1 - u)
-        cw, ch = min(int(W * 1.1 / z), src.shape[1]), min(int(H * 1.1 / z), src.shape[0])
-        dx = int((src.shape[1] - cw) * (0.5 + 0.25 * (u - 0.5) * (1 if it["n"] % 3 else -1)))
-        y0 = (src.shape[0] - ch) // 2
-        frame = cv2.resize(src[y0:y0 + ch, dx:dx + cw], (W, H), interpolation=cv2.INTER_LINEAR)
-    else:
-        bg, fg = src
-        frame = bg.copy()
-        z = 1.0 + 0.04 * u
-        fh, fw = int(fg.shape[0] * z), int(fg.shape[1] * z)
-        fgz = cv2.resize(fg, (min(fw, W), min(fh, H)), interpolation=cv2.INTER_LINEAR)
-        y0, x0 = (H - fgz.shape[0]) // 2, (W - fgz.shape[1]) // 2
-        frame[y0:y0 + fgz.shape[0], x0:x0 + fgz.shape[1]] = fgz
-    return kit.grade(frame, sat=0.9, tint=ctx.L["tint"])
+        style = "clip" if it["n"] % 3 != 2 else "print"
+        words = str(it.get("vo") or "").split()
+        caption = " ".join(words[:14]) + ("…" if len(words) > 14 else "")
+        ctx.cache = {k: v for k, v in ctx.cache.items() if k[0] != "card"}
+        ctx.cache[key] = _print_card(Image.open(p).convert("RGB"), style, caption, ctx.L["paper"])
+    card = ctx.cache[key]
+    img = _desk(ctx, ("desk", 0))
+    layer = kit.blank()
+    s_in = kit.back_out(t / (12 / FPS))
+    sc = min(1.0, (W * 0.78) / card.width, (H * 0.86) / card.height) * (0.94 + 0.08 * (i / max(1, n - 1)))
+    ang = (-2.2, 1.6, -1.0, 2.4)[it["n"] % 4]
+    kit.place(layer, card, (W / 2 + (1 - s_in) * 260 * (1 if it["n"] % 2 else -1), H / 2 + 10), ang * (0.6 + 0.4 * s_in), sc)
+    return kit.over(img, layer)
 
 
 def stat(ctx, it, t, i, n):
@@ -565,6 +598,22 @@ def render_frame(ctx, fi):
     if rgb is None:
         rgb = backdrop(ctx.L, fi)
     import cv2
+    k_i = ctx.items.index(it)
+    if k_i and li < XF and it.get("kind") not in ("card", "title", "end"):  # a short crossfade on every scene change
+        prev = ctx.items[k_i - 1]
+        pk = ("prevframe", k_i)
+        if pk not in ctx.cache:
+            pn = max(1, int(round(prev["dur"] * FPS)))
+            try:
+                pr = DRAW.get(prev.get("kind"), stat)(ctx, prev, prev["dur"] - 1 / FPS, pn - 1, pn)
+            except Exception:  # noqa: BLE001
+                pr = None
+            ctx.cache = {k: v for k, v in ctx.cache.items() if k[0] != "prevframe"}
+            ctx.cache[pk] = pr
+        pr = ctx.cache[pk]
+        if pr is not None:
+            a = ease_out(li / XF)
+            rgb = cv2.addWeighted(rgb, a, pr, 1 - a, 0)
     if it.get("kind") not in ("map", "end") and li < 6:  # a snap-in on every cut: 1.06 -> 1 over 6 frames
         z = 1.0 + 0.025 * (1 - ease_out(li / 6))
         cw, ch = int(W / z), int(H / z)
@@ -626,10 +675,14 @@ def join(out):
             mix.add(kit.synth("riser", 1.6), max(0, at - 1.5), 0.3)
         # sound design (owner, 13 Nov 2026: first "SFX are also less", then "unnecessary cuts, sfx"): a soft whoosh when
         # the kind of picture changes, one quiet sound per element, nothing stacked
-        if prev is not None and k not in ("card", "title") and k != prev.get("kind"):
-            mix.add(whoosh, max(0, at - 0.18), 0.16)
+        if prev is not None and k not in ("card", "title", "end"):  # one simple sound on every scene change (owner, 13 Nov
+            # 2026: "a mouse click or page turn"): a page turn onto paper, a soft click onto anything else
+            if k in ("headline", "document", "quote", "photo"):
+                mix.add(page, max(0, at - 0.05), 0.28)
+            else:
+                mix.add(tick, max(0, at - 0.02), 0.3)
         if k in ("headline", "document"):
-            mix.add(page, at + 0.25, 0.35)
+            pass  # the page turn on the cut is its sound
         elif k == "stat":
             mix.add(tick, at + 0.75, 0.25)
         elif k == "chart":
@@ -667,6 +720,8 @@ def join(out):
     k = 0
     for sec, a0, a1 in spans:
         if str(sec).startswith("_card"):
+            continue
+        if sec != "cold_open":  # no bed under the narration after the hook (owner, 13 Nov 2026: the beds read as sad)
             continue
         name = beds[0] if sec == "cold_open" else "mixkit-silent-descent-614" if sec in ("outro", "_end") else beds[1 + k % 4]
         if sec not in ("cold_open", "outro", "_end"):
