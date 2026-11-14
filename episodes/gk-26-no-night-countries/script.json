@@ -94,10 +94,10 @@
     },
     {
      "vo": "जो हिस्सा सूरज की तरफ़ होता है, वहाँ दिन, बाकी पर रात।",
-     "prompt": "A hand holding a large orange in a dark room, a single lamp lighting one half of the orange brightly while the other half is in shadow, a sharp line between light and dark, plain dark wall behind, close-up",
+     "prompt": "A hand holding a large orange in a dark room, a single lamp close on the right lighting the right half of the orange brightly, the left half dark, a sharp line between light and dark, plain dark wall behind, close-up",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 8928
+     "seed": 16847
     },
     {
      "vo": "अगर धरती बिल्कुल सीधी खड़ी होती, तो हर जगह बारह घंटे दिन होता।",
@@ -346,8 +346,128 @@
      "caption": "धरती सीधी नहीं घूमती। उसकी धुरी करीब 23.4 डिग्री झुकी हुई है।",
      "words": {
       "21": {
-       "src": "023fa0d6ef38",
-       "items": []
+       "src": "272c91f42f8f",
+       "items": [
+        {
+         "text": "23.4°",
+         "grid": [
+          [
+           [
+            754.6,
+            286.1
+           ],
+           [
+            845.5,
+            221.6
+           ],
+           [
+            938.0,
+            176.3
+           ],
+           [
+            1030.5,
+            151.2
+           ],
+           [
+            1121.4,
+            146.5
+           ],
+           [
+            1213.9,
+            161.8
+           ],
+           [
+            1306.4,
+            197.5
+           ]
+          ],
+          [
+           [
+            754.6,
+            369.0
+           ],
+           [
+            845.5,
+            320.4
+           ],
+           [
+            938.0,
+            285.9
+           ],
+           [
+            1030.5,
+            266.6
+           ],
+           [
+            1121.4,
+            262.2
+           ],
+           [
+            1213.9,
+            272.8
+           ],
+           [
+            1306.4,
+            298.4
+           ]
+          ],
+          [
+           [
+            754.6,
+            451.9
+           ],
+           [
+            845.5,
+            419.2
+           ],
+           [
+            938.0,
+            395.6
+           ],
+           [
+            1030.5,
+            381.9
+           ],
+           [
+            1121.4,
+            378.0
+           ],
+           [
+            1213.9,
+            383.8
+           ],
+           [
+            1306.4,
+            399.4
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#f2f2ea",
+         "corners": [
+          [
+           717,
+           40
+          ],
+          [
+           1344,
+           40
+          ],
+          [
+           1344,
+           600
+          ],
+          [
+           717,
+           600
+          ]
+         ],
+         "band": [
+          0.2,
+          0.6
+         ]
+        }
+       ]
       }
      },
      "seed": 8940
@@ -1011,10 +1131,10 @@
     },
     {
      "vo": "कोई आधी रात को मछली पकड़ता है, कोई गोल्फ़ खेलता है।",
-     "prompt": "An old man in a blue jacket fishing from a wooden pier at midnight, low golden sun glowing over the sea behind him, bright golden sky, a golfer far off on a green, wide shot",
+     "prompt": "An old man in a blue jacket fishing with a rod from a wooden pier at midnight, low golden sun over the sea behind him, on the far right a small golfer swinging a club on a green lawn, wide shot",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 8975
+     "seed": 16894
     },
     {
      "vo": "ट्रॉम्सो में हर जून एक दौड़ होती है, मिडनाइट सन मैराथन।",
@@ -1424,126 +1544,126 @@
     },
     {
      "vo": "धरती का झुकाव करीब इकतालीस हज़ार साल में बाईस दशमलव एक से चौबीस दशमलव पाँच डिग्री के बीच झूलता है।",
-     "prompt": "A large flat blackboard covered in chalk notes reading \"22.1° — 24.5°\", an Indian woman teacher in a green saree pointing at it, a tilted orange on the desk, medium shot",
+     "prompt": "A large flat blackboard with a single line of chalk reading \"22.1° — 24.5°\", plain black elsewhere, an Indian woman teacher in a green saree pointing at it, a tilted orange on the desk, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "धरती का झुकाव करीब 41,000 साल में 22.1 से 24.5 डिग्री के बीच झूलता है।",
      "words": {
       "77": {
-       "src": "f10f980d6338",
+       "src": "0497e0733010",
        "items": [
         {
          "text": "22.1° — 24.5°",
          "grid": [
           [
            [
-            712.8,
-            337.4
+            362.3,
+            201.9
            ],
            [
-            825.9,
-            352.7
+            496.0,
+            189.2
            ],
            [
-            941.0,
-            368.3
+            632.0,
+            181.0
            ],
            [
-            1056.0,
-            384.0
+            768.0,
+            177.5
            ],
            [
-            1169.1,
-            399.3
+            901.7,
+            178.6
            ],
            [
-            1284.2,
-            414.9
+            1037.7,
+            184.3
            ],
            [
-            1399.2,
-            430.5
+            1173.7,
+            194.8
            ]
           ],
           [
            [
-            712.8,
-            401.0
+            362.3,
+            292.5
            ],
            [
-            825.9,
-            413.5
+            496.0,
+            278.4
            ],
            [
-            941.0,
-            426.2
+            632.0,
+            267.4
            ],
            [
-            1056.0,
-            438.9
+            768.0,
+            259.7
            ],
            [
-            1169.1,
-            451.3
+            901.7,
+            255.4
            ],
            [
-            1284.2,
-            464.0
+            1037.7,
+            254.4
            ],
            [
-            1399.2,
-            476.7
+            1173.7,
+            256.8
            ]
           ],
           [
            [
-            712.8,
-            464.6
+            362.3,
+            383.1
            ],
            [
-            825.9,
-            474.2
+            496.0,
+            367.6
            ],
            [
-            941.0,
-            484.0
+            632.0,
+            353.8
            ],
            [
-            1056.0,
-            493.8
+            768.0,
+            342.0
            ],
            [
-            1169.1,
-            503.3
+            901.7,
+            332.3
            ],
            [
-            1284.2,
-            513.1
+            1037.7,
+            324.5
            ],
            [
-            1399.2,
-            522.9
+            1173.7,
+            318.7
            ]
           ]
          ],
          "style": "hand",
-         "color": "#f0f0ea",
+         "color": "#f2f2ea",
          "corners": [
           [
-           666,
-           294
+           307,
+           115
           ],
           [
-           1446,
-           294
+           1229,
+           115
           ],
           [
-           1446,
-           614
+           1229,
+           486
           ],
           [
-           666,
-           614
+           307,
+           486
           ]
          ],
          "band": [
@@ -1554,7 +1674,7 @@
        ]
       }
      },
-     "seed": 8996
+     "seed": 16915
     },
     {
      "vo": "आजकल ये झुकाव बहुत धीरे-धीरे कम हो रहा है।",
@@ -1723,43 +1843,22 @@
  "repaint": {
   "shots": [
    9,
-   18,
-   19,
-   21,
-   26,
-   29,
-   30,
-   47,
    56,
    77
   ],
   "thumbs": [],
-  "at": "2026-11-14 20:34"
+  "at": "2026-11-14 21:29"
  },
  "shot_qc": {
-  "checked": "2026-11-14T15:01:27Z",
-  "rounds": 1,
+  "checked": "2026-11-14T15:56:43Z",
+  "rounds": 2,
   "why": {
-   "9": "Map posters on the wall behind the orange.",
-   "18": "Maps visible on the board and walls of the classroom.",
-   "19": "A world map is clearly visible on the wall behind the teacher.",
-   "26": "The orange is doubled, with two oranges stacked on each other.",
-   "29": "Shows an orange on paper in an office or shop, not the lit-area-over-the-pole idea. Also has a flag and chart poster.",
-   "30": "A large map hangs on the wall. The teacher is not twirling the orange on a needle.",
-   "47": "The man is asleep with his eyes closed. The line says he lies awake with his eyes open.",
-   "56": "A dark moonlit night, but the line is about the midnight sun, so the setting is wrong.",
-   "77": "Painted gibberish chalk text on the board, not the line's '22.1° — 24.5°'.",
-   "21": "no blank surface for its words"
+   "9": "The orange is almost entirely in shadow, so there is no clear lit half and dark half. Garbled lettering is visible on the box at the bottom.",
+   "56": "A strange floating white-blue panel stands on the pier, and there is no clear golfer or green, so a defining element of the line is missing.",
+   "77": "The blackboard is covered in large painted gibberish chalk notes, which are readable-sized and not real words."
   },
   "recheck": [
    "9",
-   "18",
-   "19",
-   "21",
-   "26",
-   "29",
-   "30",
-   "47",
    "56",
    "77"
   ]
