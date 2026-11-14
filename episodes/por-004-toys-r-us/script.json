@@ -367,12 +367,25 @@
     },
     {
      "vo": "Ten years, exclusive. Toys R Us would pay Amazon $50 million a year, plus a share of sales.",
-     "kind": "stat",
-     "stat": {
-      "value": 50,
-      "prefix": "$",
-      "suffix": "million",
-      "label": "yearly fee Toys R Us paid Amazon, 2000 deal"
+     "kind": "flow",
+     "flow": {
+      "title": "Amazon exclusive deal",
+      "nodes": [
+       "Toys R Us",
+       "Amazon"
+      ],
+      "links": [
+       [
+        "Toys R Us",
+        "Amazon",
+        "$50 million a year"
+       ],
+       [
+        "Toys R Us",
+        "Amazon",
+        "Share of sales"
+       ]
+      ]
      }
     },
     {
@@ -460,10 +473,28 @@
     },
     {
      "vo": "Shareholders voted yes in June. On July 21, 2005, the deal closed and the stock left the market.",
-     "kind": "document",
-     "document": {
-      "title": "Toys R Us Form 8-K, July 21, 2005",
-      "highlight": "The merger was completed and the company's shares ceased trading."
+     "kind": "timeline",
+     "timeline": {
+      "title": "Road to the buyout",
+      "events": [
+       [
+        "Aug 2004",
+        "Board reviews its options"
+       ],
+       [
+        "Mar 2005",
+        "Board agrees $6.6B deal"
+       ],
+       [
+        "Jun 2005",
+        "Shareholders vote yes"
+       ],
+       [
+        "Jul 2005",
+        "Deal closes, stock delisted"
+       ]
+      ],
+      "mark": "Jul 2005"
      }
     },
     {
@@ -487,8 +518,27 @@
        "label": "borrowed to fund the Toys R Us buyout, 2005"
       }
      },
-     "kind": "still",
-     "prompt": "a documentary photograph of the moment: The rest is borrowed. Here, about $5.3 billion."
+     "kind": "flow",
+     "flow": {
+      "title": "Who paid for the buyout",
+      "nodes": [
+       "Buyers",
+       "Lenders",
+       "Toys R Us"
+      ],
+      "links": [
+       [
+        "Buyers",
+        "Toys R Us",
+        "$1.3 billion"
+       ],
+       [
+        "Lenders",
+        "Toys R Us",
+        "$5.3 billion"
+       ]
+      ]
+     }
     },
     {
      "vo": "And the borrower isn't the buyers. It's the company being bought.",
@@ -660,35 +710,24 @@
     },
     {
      "vo": "The sales tell the rest. $11.1 billion in 2004. $11.5 billion in 2016.",
-     "kind": "chart",
-     "chart": {
-      "type": "line",
-      "title": "Twelve years, going nowhere",
-      "unit": "$ billion net sales",
-      "points": [
-       [
-        "FY2004",
-        11.1
-       ],
-       [
-        "FY2007",
-        13.8
-       ],
-       [
-        "FY2010",
-        13.9
-       ],
-       [
-        "FY2013",
-        12.5
-       ],
-       [
-        "FY2016",
-        11.5
-       ]
-      ],
-      "mark": "FY2016",
-      "source": "Toys R Us Form 10-K filings, fiscal 2004-2016"
+     "kind": "compare",
+     "compare": {
+      "title": "Sales barely moved",
+      "left": {
+       "name": "2004",
+       "value": 11.1,
+       "prefix": "$",
+       "suffix": " billion",
+       "label": "Annual sales"
+      },
+      "right": {
+       "name": "2016",
+       "value": 11.5,
+       "prefix": "$",
+       "suffix": " billion",
+       "label": "Annual sales"
+      },
+      "winner": "right"
      }
     },
     {
@@ -792,10 +831,28 @@
     },
     {
      "vo": "On March 15, 2018, the company said it would close or sell every store in the United States.",
-     "kind": "headline",
-     "headline": {
-      "date": "March 15, 2018",
-      "text": "Toys R Us to close or sell all US stores"
+     "kind": "timeline",
+     "timeline": {
+      "title": "The final year",
+      "events": [
+       [
+        "Sep 2017",
+        "Bankruptcy reports spread"
+       ],
+       [
+        "Sep 18, 2017",
+        "Files for Chapter 11"
+       ],
+       [
+        "Mar 15, 2018",
+        "Announces all US stores closing"
+       ],
+       [
+        "Jun 2018",
+        "Last American doors locked"
+       ]
+      ],
+      "mark": "Mar 15, 2018"
      }
     },
     {
@@ -877,7 +934,7 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: In November 2018, after former workers campaigned, Bain and KKR set up a fund for them."
+     "prompt": "a documentary photograph of the moment: In November 2018, after former workers campaigned, Bain and KKR set up a fund for them., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "Vornado, the third owner, did not join it.",
@@ -994,16 +1051,15 @@
  "replanned": true,
  "visuals_checked": true,
  "photos_checked": true,
+ "templates_checked": true,
  "approved": true,
  "review": "auto",
  "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
  "repaint": {
   "shots": [
-   29,
-   62,
-   67
+   62
   ],
   "thumbs": [],
-  "at": "2026-11-13 22:48"
+  "at": "2026-11-14 06:20"
  }
 }
