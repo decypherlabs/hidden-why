@@ -304,7 +304,8 @@
         "lon": 120.96
        }
       ],
-      "label": "TAIWAN · 92% (2019)"
+      "label": "TAIWAN · 92% (2019)",
+      "globe": true
      },
      "title": "92% of *Chips*"
     },
@@ -1152,10 +1153,32 @@
     },
     {
      "vo": "In the 1951 peace treaty, Japan renounced 'all right, title and claim to Formosa', without saying to whom.",
-     "kind": "document",
-     "document": {
-      "title": "Treaty of Peace with Japan, Article 2(b), 8 September 1951",
-      "highlight": "Japan renounces all right, title and claim to Formosa and the Pescadores."
+     "kind": "timeline",
+     "timeline": {
+      "title": "Who owns Formosa?",
+      "events": [
+       [
+        "1895",
+        "Qing cedes Formosa to Japan"
+       ],
+       [
+        "1943",
+        "Cairo: restore to Republic of China"
+       ],
+       [
+        "1945",
+        "Republic of China takes over administration"
+       ],
+       [
+        "1949",
+        "Chiang's government moves to Taipei"
+       ],
+       [
+        "1951",
+        "Japan renounces Formosa, names no one"
+       ]
+      ],
+      "mark": "1951"
      }
     },
     {
@@ -1361,10 +1384,28 @@
     },
     {
      "vo": "On 1 January 1979, Washington recognised Beijing and cut formal ties with Taipei.",
-     "kind": "headline",
-     "headline": {
-      "date": "1 January 1979",
-      "text": "US switches recognition from Taipei to Beijing"
+     "kind": "timeline",
+     "timeline": {
+      "title": "Recognition shifts to Beijing",
+      "events": [
+       [
+        "1971",
+        "UN seat goes to Beijing"
+       ],
+       [
+        "1972",
+        "US acknowledges one-China claim"
+       ],
+       [
+        "1979",
+        "Washington recognises Beijing"
+       ],
+       [
+        "1979",
+        "Congress passes Taiwan Relations Act"
+       ]
+      ],
+      "mark": "1979"
      }
     },
     {
@@ -1633,7 +1674,7 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: Its Anti-Secession Law of 2005 allows 'non-peaceful means' if peaceful reunification is 'completely exhausted'."
+     "prompt": "a documentary photograph of the moment: Its Anti-Secession Law of 2005 allows 'non-peaceful means' if peaceful reunification is 'completely exhausted'., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "In 2022, Xi Jinping said Beijing will strive for peaceful reunification, 'but we will never promise to renounce the use of force'.",
@@ -1709,31 +1750,24 @@
     },
     {
      "vo": "Polls by National Chengchi University show the share calling themselves only Taiwanese rose from 17.6 percent in 1992 to 64.3 percent in 2024.",
-     "kind": "chart",
-     "chart": {
-      "type": "line",
-      "title": "An identity that grew",
-      "unit": "% who call themselves only Taiwanese",
-      "points": [
-       [
-        "1992",
-        17.6
-       ],
-       [
-        "2008",
-        48.4
-       ],
-       [
-        "2016",
-        58.2
-       ],
-       [
-        "2024",
-        64.3
-       ]
-      ],
-      "mark": "2024",
-      "source": "Election Study Center, National Chengchi University"
+     "kind": "compare",
+     "compare": {
+      "title": "Identity: only Taiwanese",
+      "left": {
+       "name": "1992",
+       "value": 17.6,
+       "prefix": "",
+       "suffix": "%",
+       "label": "Call themselves only Taiwanese"
+      },
+      "right": {
+       "name": "2024",
+       "value": 64.3,
+       "prefix": "",
+       "suffix": "%",
+       "label": "Call themselves only Taiwanese"
+      },
+      "winner": "right"
      }
     },
     {
@@ -1935,10 +1969,28 @@
     },
     {
      "vo": "Days after Lai took office in May 2024 came drills Beijing named Joint Sword-2024A.",
-     "kind": "headline",
-     "headline": {
-      "date": "23 May 2024",
-      "text": "Beijing launches 'Joint Sword-2024A' around Taiwan"
+     "kind": "timeline",
+     "timeline": {
+      "title": "Chinese drills escalate",
+      "events": [
+       [
+        "Aug 2022",
+        "Six exercise zones declared"
+       ],
+       [
+        "May 2024",
+        "Joint Sword-2024A drills"
+       ],
+       [
+        "Oct 2024",
+        "Record 153 aircraft in one day"
+       ],
+       [
+        "Apr 2025",
+        "Strait Thunder-2025A blockade drill"
+       ]
+      ],
+      "mark": "Apr 2025"
      }
     },
     {
@@ -1960,23 +2012,24 @@
     },
     {
      "vo": "The budgets are not close. China's official 2025 defence budget is about $249 billion; Taiwan planned about $20 billion.",
-     "kind": "chart",
-     "chart": {
-      "type": "bar",
-      "title": "Twelve to one",
-      "unit": "US$ billion, 2025 budgets",
-      "points": [
-       [
-        "China (official)",
-        249
-       ],
-       [
-        "Taiwan (planned)",
-        20
-       ]
-      ],
-      "mark": "China (official)",
-      "source": "PRC Ministry of Finance, Mar 2025; Taiwan Executive Yuan, Aug 2024"
+     "kind": "compare",
+     "compare": {
+      "title": "Defence budgets, 2025",
+      "left": {
+       "name": "China",
+       "value": 249,
+       "prefix": "$",
+       "suffix": " billion",
+       "label": "Official defence budget"
+      },
+      "right": {
+       "name": "Taiwan",
+       "value": 20,
+       "prefix": "$",
+       "suffix": " billion",
+       "label": "Planned defence budget"
+      },
+      "winner": "left"
      }
     },
     {
@@ -1989,7 +2042,7 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: Sources disagree on China's figure: SIPRI estimated $314 billion for 2024, and the Pentagon also puts it above the official number."
+     "prompt": "a documentary photograph of the moment: Sources disagree on China's figure: SIPRI estimated $314 billion for 2024, and the Pentagon also puts it above the official number., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "Each side says it wants peace. Each says it is preparing for the moment deterrence fails. What would that moment look like on the map?",
@@ -2201,7 +2254,7 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: A 2023 CSIS wargame ran an invasion 24 times. In most runs it failed, at high cost to every side."
+     "prompt": "a documentary photograph of the moment: A 2023 CSIS wargame ran an invasion 24 times. In most runs it failed, at high cost to every side., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "On the map, the stake is the first island chain: held, or with a new gap in its middle.",
@@ -2493,6 +2546,7 @@
  "replanned": true,
  "visuals_checked": true,
  "photos_checked": true,
+ "templates_checked": true,
  "approved": true,
  "review": "auto",
  "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos",
@@ -2503,6 +2557,6 @@
    90
   ],
   "thumbs": [],
-  "at": "2026-11-13 22:53"
+  "at": "2026-11-14 06:21"
  }
 }
