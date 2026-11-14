@@ -1,0 +1,485 @@
+{
+ "slug": "27-stick-shift-america",
+ "build": "github",
+ "title": "Why America Gave Up the Stick Shift (Europe Didn't)",
+ "thumbnail": {
+  "layout": "split",
+  "left_label": "EUROPE",
+  "right_label": "USA",
+  "text": "ONLY *2%* LEFT",
+  "plane": "Close-up of a modern European hatchback's centre console seen from the driver's seat, a chrome-topped H-pattern manual gear lever centred and large, three pedals visible in the footwell below, bright daylight through the windshield, clean light-grey interior, photoreal, 35mm lens, no logos, no text, no brands",
+  "right": "Close-up of a modern American sedan's centre console seen from the driver's seat, a plain automatic gear selector lever centred and large, two pedals visible in the footwell below, bright daylight through the windshield, clean light-grey interior, photoreal, 35mm lens, no logos, no text, no brands"
+ },
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "words_in_edit": true,
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "cause",
+  "points": [
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "music": {
+  "reflective": [
+   "cold_open",
+   "ch1",
+   "ch2",
+   "ch4",
+   "outro"
+  ],
+  "intense": [
+   "ch3",
+   "ch5"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Walk onto any car lot in America and look down at the floor.",
+     "prompt": "A car's open driver door showing a footwell with exactly two pedals, a wide brake pedal and a narrow accelerator, large in frame, rows of new sedans on a sunny American car lot behind, midday sun, low camera, sharp focus, close shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Fewer than two in every hundred new American cars still have a clutch pedal.",
+     "prompt": "Close-up of a car footwell with only two pedals, a narrow accelerator and a wide brake pedal, empty space on the left where a third pedal would be, plain grey carpet, modern American car, soft daylight, sharp focus",
+     "title": "Under *2%* Manual",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Rent a car in Italy or France, and the cheap one comes with three.",
+     "prompt": "A small European hatchback with its driver door open, three pedals clearly visible in the footwell, parked on a narrow cobbled Italian street between stone houses, warm morning sun, medium shot",
+     "title": "Italy and *France*",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Until recently, most new cars across Europe still made you shift by hand.",
+     "prompt": "A man's hand gripping a gear lever with an H-shaped shift pattern, a busy Paris street with old stone buildings visible through the windshield, daylight, sharp focus from lever to street, close shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So why did America let go first?",
+     "prompt": "One old manual pickup truck parked alone at the far edge of a huge American parking lot filled with rows of modern cars, late afternoon sun, sharp focus, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Blame a $57 option, twenty-seven-cent gasoline, and a driving test that never asked.",
+     "prompt": "A big finned 1950s sedan at a gas pump, a large flat price card reading \"27¢\" turned toward the camera on the pump, attendant in a cap beside it, dusk, warm sodium light, medium-wide shot",
+     "title": "A *$57* Option",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It began in the fall of 1939, on the showroom floors of Oldsmobile.",
+     "prompt": "A 1939 car showroom with polished dark sedans on a shiny floor, three men in hats and long coats looking at the nearest car, tall windows, warm afternoon light, wide shot",
+     "title": "*1939* Oldsmobile",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "THE $57 OPTION",
+   "shots": [
+    {
+     "vo": "Oldsmobile's new 1940 models offered something no mass-market car had sold before: a gearbox that shifted itself.",
+     "prompt": "A 1940 sedan on a showroom turntable, a large standing placard reading \"HYDRA-MATIC DRIVE\" turned toward the camera beside it, a crowd of men in hats and women in dresses admiring it, warm spotlight, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It was called Hydra-Matic, and it cost an extra fifty-seven dollars, about two months' rent for a typical family.",
+     "prompt": "A salesman in a 1940 suit handing a large price card reading \"$57\" to a couple, man on the left in a suit, woman on the right in a dress, polished sedan behind them, warm interior light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The man behind it was Earl Thompson, a General Motors engineer who had already made shifting easier once.",
+     "prompt": "A 1930s American engineer in a white shirt and tie, short dark hair, leaning over a disassembled gearbox full of steel gears on a workshop bench, window light, sharp focus, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1928 his synchromesh gears let Cadillac drivers change gear without the grinding crunch that frightened beginners.",
+     "prompt": "A gloved hand pushing a long floor gear lever inside a 1928 luxury sedan, the shining steel gear lever large in frame, tree-lined American street through the window, soft daylight, close shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Before that, every shift meant pumping the clutch twice with perfect timing, or hearing a scream of metal.",
+     "prompt": "A nervous 1920s driver in a cap and goggles gripping a tall gear lever with both hands in an open car, wincing, a dusty dirt road ahead, harsh midday sun, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Thompson's new idea went further: no clutch pedal at all, just a lever and fluid doing the work.",
+     "prompt": "A cutaway transmission casing on a 1939 engineering bench, steel gears and a round fluid coupling clearly exposed in the centre, drafting tools beside it, warm lamp light, macro close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Buyers who had stalled on steep hills their whole lives could now simply press the gas and go.",
+     "prompt": "A smiling woman driver in a 1940 sedan at the top of a steep San Francisco street, hands on the wheel, foot on the accelerator, car pointing uphill, houses lining both sides, bright afternoon light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then, barely two years later, Detroit stopped building family cars and started building weapons for the war.",
+     "prompt": "A 1942 Detroit factory floor with rows of green tank hulls, workers in overalls welding them, high windows, hazy light, sharp focus throughout, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Hydra-Matic went into M5 Stuart tanks, where thousands of young soldiers learned to drive without a clutch.",
+     "prompt": "A young American soldier in a helmet at the controls inside an M5 Stuart light tank, hatch open above him, hands on two steering levers, daylight on his face, training ground behind, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "When civilian cars returned in 1946, the self-shifting gearbox came home with a reputation earned in combat.",
+     "prompt": "A crowd of returning veterans in uniform admiring a new 1946 sedan in a dealership, a large banner reading \"NEW 1946 CARS\" turned toward the camera above them, spring daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "CHEAP GAS, BIG ENGINES",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "subscribe_ask": true,
+     "prompt": "A working-class American family of four, father, mother, a boy and a girl, standing proudly beside a new 1950 sedan in front of a small suburban house, bright Sunday light, wide shot",
+     "seed": 1500,
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1950 Chevrolet, the brand for working families, put an automatic called Powerglide on its everyday cars.",
+     "prompt": "A working-class American family of four, father, mother, a boy and a girl, standing proudly beside a new 1950 sedan in front of a small suburban house, bright Sunday light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Early automatics wasted power slipping through their fluid, so they burned noticeably more gas than a manual did.",
+     "prompt": "The exhaust pipe of a 1950 sedan puffing thick grey smoke in cold morning air on a suburban driveway, soft golden light, sharp focus, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In America that hardly mattered, because a gallon of gasoline cost about twenty-seven cents at the pump.",
+     "prompt": "A 1950s roadside gas station, a large flat price card reading \"27¢\" turned toward the camera on the pump, an attendant in a cap wiping a car windshield, bright sun, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Detroit answered the lost power with bigger engines, and by the late fifties a V8 was ordinary family equipment.",
+     "prompt": "A father and a teenage son leaning over an open hood of a 1958 American sedan, a large chrome V8 engine filling the frame between them, driveway, summer daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1956 the Suez Crisis choked Britain's oil supply, and the government handed out petrol ration coupons.",
+     "prompt": "A British clerk in a 1956 suit handing a ration book across a post office counter to a man in a flat cap, a large card reading \"PETROL RATIONING\" turned toward the camera on the counter, window light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Drivers queued at empty pumps, and tiny bubble cars from Germany suddenly filled British streets.",
+     "prompt": "A queue of small cars and tiny egg-shaped bubble cars waiting outside a British petrol station in winter, a large board reading \"NO PETROL\" turned toward the camera on the pumps, overcast light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The head of the British Motor Corporation, Leonard Lord, ordered his engineer Alec Issigonis to build something smaller.",
+     "prompt": "Two 1950s British businessmen in suits in a wood-panelled office, the older one on the left pointing at a small car model on the desk, the younger one on the right holding rolled drawings, window light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1959 Issigonis delivered the Mini, with an 848cc engine making just thirty-four horsepower.",
+     "prompt": "A tiny new 1959 two-door British car parked on a London street, a gentleman in a tweed suit standing on its left, looking at it, bright spring light, sharp focus, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "With that little power an automatic would have swallowed too much of it, so Europeans kept shifting by hand.",
+     "prompt": "A driver's hand on a thin manual gear lever inside a tiny 1960 British car, a green village lane through the windshield, daylight, sharp focus, close shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Heavy fuel taxes kept European petrol expensive for decades, and nearly every small car kept its third pedal.",
+     "prompt": "A 1960s Italian petrol station with small cars lined up, a large flat price card reading \"LIRE 110\" turned toward the camera on the pump, warm Mediterranean light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then, in the 1970s, America got its own taste of empty pumps, and the clutch staged a comeback.",
+     "prompt": "A closed American gas station in 1973, a large hand-painted board reading \"SORRY NO GAS\" turned toward the camera on the pump, empty forecourt, grey winter light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "THE CLUTCH COMEBACK",
+   "shots": [
+    {
+     "vo": "In October 1973 Arab oil producers cut off sales to the United States, and pump lines stretched around the block.",
+     "prompt": "A long line of big 1973 American sedans wrapped around a city block toward a gas station, drivers waiting, winter afternoon, sharp focus, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Drivers waited for hours, and some states only let you fill up on odd or even days by license plate.",
+     "prompt": "A large gas station sign reading \"ODD DAYS ONLY\" turned toward the camera, a line of 1974 cars queued behind it, overcast American suburb, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A second shock hit in 1979, and Americans started buying small Japanese cars in enormous numbers.",
+     "prompt": "A 1979 American car lot filled with small compact hatchbacks, buyers in casual clothes walking between them, bright daylight, sharp focus, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Those little cars usually came with a manual gearbox, because it squeezed more miles from every gallon of gas.",
+     "prompt": "A young woman shifting a short manual gear lever inside a small compact car, California freeway through the windshield, sunlight, sharp focus, medium close shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "By around 1980, roughly one in three new cars sold in America had a clutch pedal again.",
+     "prompt": "Three new 1980 cars parked side by side in a showroom, the middle car's door open showing three pedals in the footwell, bright fluorescent light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "President Gerald Ford had signed fuel economy rules in 1975 that forced every carmaker to stretch each gallon further.",
+     "prompt": "An American president in a dark suit signing a document at a large wooden desk, a pen in his hand, three officials standing behind him, soft window light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Automatics gained an overdrive gear and a lock-up clutch inside, which stopped the fuel-wasting slip at highway speed.",
+     "prompt": "A disassembled 1980s automatic transmission laid out on a clean workbench, a round steel torque converter large in the centre, lamp light, macro close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The fuel economy gap shrank year after year, and gasoline got cheap again in the mid-1980s.",
+     "prompt": "A big station wagon cruising on an American highway at sunset past a gas station, a large flat price card reading \"89¢\" turned toward the camera on its sign, warm light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So the manual's last real advantage in America was being cheaper, and that only mattered if you could drive one.",
+     "prompt": "A young man in 1988 sitting in a manual car stopped at a green traffic light, hands gripping the wheel, frustrated face, cars lined up behind him, afternoon light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "THE TEST THAT NEVER ASKED",
+   "shots": [
+    {
+     "vo": "In most US states, a teenager takes the road test in whatever car the family owns, usually an automatic.",
+     "prompt": "A family minivan parked at a suburban test lane, a teenager on the left and a parent on the right standing beside it, a large sign reading \"ROAD TEST\" turned toward the camera, morning light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Pass it, and the license lets you drive any car on the road, three pedals or two, no questions asked.",
+     "prompt": "A smiling teenager holding up a plain blank plastic card in one hand, standing outside a low brick government office, bright daylight, sharp focus, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Britain has tested drivers since 1935, and today its rule is strict about exactly which car you pass in.",
+     "prompt": "A British driving examiner in a dark coat holding a clipboard beside a small learner car, a plain square plate on the bonnet, suburban street, grey daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Pass your test in an automatic in the UK, and your licence says automatic only, so you cannot legally drive a manual.",
+     "prompt": "A young British woman at a kitchen table reading a paper letter with a large heading \"AUTOMATIC ONLY\" turned toward the camera, rainy window light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Much of Europe works the same way, so families pushed learners onto manuals to keep every option open.",
+     "prompt": "A German driving instructor on the right seat coaching a teenager on the left who grips a manual gear lever in a small car, quiet town street through the windshield, daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In America nothing pushed back, so each generation learned on automatics and wanted automatics when they bought.",
+     "prompt": "An American father on the right seat teaching his teenage daughter behind the wheel of an automatic sedan in an empty mall parking lot, golden hour, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Dealers noticed and stocked fewer manual cars, because a car most buyers cannot test-drive sits on the lot for months.",
+     "prompt": "A dusty manual sports car parked alone at the back of an American car lot, a large card reading \"MANUAL\" turned toward the camera in its windshield, late afternoon light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Fewer manuals on lots meant fewer people learning on them, and that loop tightened every single year.",
+     "prompt": "Rows of identical white SUVs filling a huge American car lot, seen from high above, midday sun, sharp focus, aerial wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "By the 2000s, rental companies and big fleets across America had almost completely stopped ordering them.",
+     "prompt": "A rental car return lane at an American airport full of identical sedans, attendants in vests checking them, bright daylight, sharp focus, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Owners even joked that a stick shift was the best anti-theft device, because few thieves could drive one.",
+     "prompt": "A hooded figure peering through the window of a parked manual car at night, the gear lever large in the foreground lit by a streetlight, American city street, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Still, enthusiasts insisted a manual was faster and thriftier, until the machines quietly took those arguments away too.",
+     "prompt": "A driver's hand gripping a manual gear lever in a sports car on a winding mountain road, curves ahead through the windshield, crisp morning light, sharp focus, close shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "SMARTER THAN YOUR FOOT",
+   "shots": [
+    {
+     "vo": "In the 1980s Porsche raced a gearbox with two clutches, which swapped gears faster than any human hand could.",
+     "prompt": "A 1980s endurance race car speeding past a grandstand full of spectators at dusk, headlights glowing, sharp focus, telephoto wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 2008 that idea reached Porsche road cars as PDK, and the self-shifting versions beat the manuals around the track.",
+     "prompt": "A silver sports car taking a corner on a racetrack, a thin trail of tyre smoke behind it, grandstand in the distance, bright afternoon light, sharp focus, telephoto shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Meanwhile the 2007 Lexus LS 460 became the first production car with an eight-speed automatic gearbox.",
+     "prompt": "A dark luxury sedan parked outside a glass office building in 2007, evening light gleaming on the paint, sharp focus, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "More gears let the engine sit at its most efficient speed, while computers chose the right gear in milliseconds.",
+     "prompt": "A modern car cruising on an empty desert highway in Nevada at sunrise, long shadows, mountains in the distance, sharp focus, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 2017 the Ford F-150, America's best-selling vehicle, switched to a ten-speed automatic developed together with GM.",
+     "prompt": "A full-size American pickup truck towing a boat trailer down a Texas highway, bright midday sun, sharp focus, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Government fuel tests began showing many automatics beating the same model's manual, the opposite of the 1950s.",
+     "prompt": "A car on rollers in a clean test laboratory, a technician in a white coat holding a clipboard beside it, a pipe fitted to the exhaust, cool fluorescent light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "With the fuel and speed arguments gone, carmakers dropped manual versions that only a sliver of buyers ever chose.",
+     "prompt": "A factory line of identical modern sedans under bright industrial light, orange robot arms welding the bodies, sharp focus, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "By the early 2020s, about one new car in every hundred sold in America still had a clutch pedal.",
+     "prompt": "A single manual hatchback with its door open, a third pedal visible inside, among hundreds of parked cars on a large port lot, overcast light, aerial wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then came a car that does not need gears at all, and it changed Europe as well as America.",
+     "prompt": "A sleek modern electric car silently pulling away from a charging post with a cable beside it, dusk, soft blue light, sharp focus, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Tesla's Model 3 arrived in 2017 with a single-speed drive, like almost every electric car built since.",
+     "prompt": "A white compact electric sedan driving on a California coastal road, blue ocean behind, bright sunlight, sharp focus, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "An electric motor pulls hard from a standstill all the way to highway speed, so there is nothing left to shift.",
+     "prompt": "Interior of a minimalist electric car, a flat empty console with no gear lever, a driver's hand resting on the steering wheel, city lights through the windshield, sharp focus, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "As electric and hybrid cars spread across Europe, two-pedal cars have become the majority of new sales there too.",
+     "prompt": "A row of electric cars plugged into charging posts along a modern Oslo street, cyclists passing, crisp winter daylight, sharp focus, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "So America lost its clutch to a $57 option, cheap gas, and a driving test that never asked.",
+     "prompt": "An old manual car half covered by a dust sheet in an American garage, sunlight through a small window, sharp focus, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Europe held on longer because of expensive fuel and strict licences, and now electric motors are finishing the job.",
+     "prompt": "An old manual hatchback parked beside a new electric car on a European village street, cobblestones, soft evening light, sharp focus, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So would you still buy a manual if you could, or is the clutch pedal a relic now?",
+     "prompt": "A driver's hand hovering over a manual gear lever, a sunlit open country road through the windshield, sharp focus, close shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Next time: why American kitchen sinks have a garbage disposal when most of the world doesn't. Subscribe so you catch it.",
+     "prompt": "A bright American kitchen with a stainless steel sink under a window, a plain wall switch beside it on the backsplash, morning light, sharp focus, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "framework": "2026-11-15 04:11"
+}
