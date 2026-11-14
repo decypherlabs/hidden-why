@@ -94,10 +94,10 @@
     },
     {
      "vo": "जो हिस्सा सूरज की तरफ़ होता है, वहाँ दिन, बाकी पर रात।",
-     "prompt": "A hand holding a large orange in a dark room, a single lamp close on the right lighting the right half of the orange brightly, the left half dark, a sharp line between light and dark, plain dark wall behind, close-up",
+     "prompt": "A hand holding a large orange in a dark room, a small lamp bulb close on the right lighting the right half of the orange brightly, the left half in dark shadow, a sharp line between light and dark, plain dark wall behind, close-up",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 16847
+     "seed": 24766
     },
     {
      "vo": "अगर धरती बिल्कुल सीधी खड़ी होती, तो हर जगह बारह घंटे दिन होता।",
@@ -1550,125 +1550,125 @@
      "caption": "धरती का झुकाव करीब 41,000 साल में 22.1 से 24.5 डिग्री के बीच झूलता है।",
      "words": {
       "77": {
-       "src": "0497e0733010",
+       "src": "9753f72a10ae",
        "items": [
         {
          "text": "22.1° — 24.5°",
          "grid": [
           [
            [
-            362.3,
-            201.9
+            133.0,
+            297.1
            ],
            [
-            496.0,
-            189.2
+            268.5,
+            294.6
            ],
            [
-            632.0,
-            181.0
+            406.2,
+            294.2
            ],
            [
-            768.0,
-            177.5
+            544.0,
+            295.9
            ],
            [
-            901.7,
-            178.6
+            679.4,
+            299.7
            ],
            [
-            1037.7,
-            184.3
+            817.2,
+            305.7
            ],
            [
-            1173.7,
-            194.8
+            955.0,
+            313.8
            ]
           ],
           [
            [
-            362.3,
-            292.5
+            133.0,
+            367.4
            ],
            [
-            496.0,
-            278.4
+            268.5,
+            367.9
            ],
            [
-            632.0,
-            267.4
+            406.2,
+            368.7
            ],
            [
-            768.0,
-            259.7
+            544.0,
+            369.6
            ],
            [
-            901.7,
-            255.4
+            679.4,
+            370.8
            ],
            [
-            1037.7,
-            254.4
+            817.2,
+            372.2
            ],
            [
-            1173.7,
-            256.8
+            955.0,
+            373.8
            ]
           ],
           [
            [
-            362.3,
-            383.1
+            133.0,
+            437.7
            ],
            [
-            496.0,
-            367.6
+            268.5,
+            441.3
            ],
            [
-            632.0,
-            353.8
+            406.2,
+            443.2
            ],
            [
-            768.0,
-            342.0
+            544.0,
+            443.4
            ],
            [
-            901.7,
-            332.3
+            679.4,
+            441.9
            ],
            [
-            1037.7,
-            324.5
+            817.2,
+            438.7
            ],
            [
-            1173.7,
-            318.7
+            955.0,
+            433.8
            ]
           ]
          ],
          "style": "hand",
-         "color": "#f2f2ea",
+         "color": "#e8ecef",
          "corners": [
           [
-           307,
-           115
+           77,
+           256
           ],
           [
-           1229,
-           115
+           1011,
+           262
           ],
           [
-           1229,
+           1011,
            486
           ],
           [
-           307,
-           486
+           77,
+           480
           ]
          ],
          "band": [
-          0.3,
-          0.7
+          0.25,
+          0.75
          ]
         }
        ]
@@ -1842,25 +1842,19 @@
  "voice_approved_at": "2026-11-14 16:46",
  "repaint": {
   "shots": [
-   9,
-   56,
-   77
+   9
   ],
   "thumbs": [],
-  "at": "2026-11-14 21:29"
+  "at": "2026-11-14 22:05"
  },
  "shot_qc": {
-  "checked": "2026-11-14T15:56:43Z",
-  "rounds": 2,
+  "checked": "2026-11-14T16:30:38Z",
+  "rounds": 3,
   "why": {
-   "9": "The orange is almost entirely in shadow, so there is no clear lit half and dark half. Garbled lettering is visible on the box at the bottom.",
-   "56": "A strange floating white-blue panel stands on the pier, and there is no clear golfer or green, so a defining element of the line is missing.",
-   "77": "The blackboard is covered in large painted gibberish chalk notes, which are readable-sized and not real words."
+   "9": "A wall poster or map with lettering shows on the left edge, which the rules fail. The lamp is a big disc and doesn't clearly light the right half of the orange."
   },
   "recheck": [
-   "9",
-   "56",
-   "77"
+   "9"
   ]
  }
 }
