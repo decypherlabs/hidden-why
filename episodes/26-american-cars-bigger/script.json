@@ -11,6 +11,7 @@
   "right": "A huge 2026 full-size pickup truck in dark grey with a tall flat chrome grille, front three-quarter view, centred and large, the same adult man standing beside its front with the hood reaching his chest, same empty suburban street, bright midday daylight, clean plain background, realistic painting, no badges, no logos, no license plate text, no text"
  },
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "words_in_edit": true,
@@ -55,21 +56,42 @@
      "vo": "Its hood comes up to your chest; a 1985 sedan's barely reached your waist.",
      "prompt": "A woman in a blue jacket holding two shopping bags, standing at the front of a tall modern pickup truck, its flat hood as high as her chest, truck seen exactly from its left side, bright daylight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Ford_F-150_Platinum_front_%2821031930262%29.jpg/1920px-Ford_F-150_Platinum_front_%2821031930262%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2592,
+      "h": 1944,
+      "credit": "Ford F-150 Platinum front (21031930262).jpg by Zytonits, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_F-150_Platinum_front_(21031930262).jpg"
+     }
     },
     {
      "vo": "In 2024, Europe's best-selling car was a small hatchback.",
      "prompt": "A small compact hatchback parked neatly in a tight space between old stone buildings on a narrow European cobbled street, seen from the front three-quarter view, soft morning light, wide shot",
      "title": "*2024* Europe's Pick",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Volkswagen_Golf_VIII_GTI_Clubsport_45_IMG_4884.jpg/1920px-Volkswagen_Golf_VIII_GTI_Clubsport_45_IMG_4884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4453,
+      "h": 2312,
+      "credit": "Volkswagen Golf VIII GTI Clubsport 45 IMG 4884.jpg by Alexander Migl, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Volkswagen_Golf_VIII_GTI_Clubsport_45_IMG_4884.jpg"
+     }
     },
     {
      "vo": "Here, a full-size pickup has topped the sales charts for over forty years.",
      "prompt": "A long row of identical new full-size pickup trucks lined up on a huge open paved lot under a wide blue sky, seen from low angle, golden afternoon light, wide shot",
      "title": "*40* Years On Top",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/1963_Ford_F-Series_pickup_truck%2C_Golden_Super_Cruise_2026-09-05.jpg/1920px-1963_Ford_F-Series_pickup_truck%2C_Golden_Super_Cruise_2026-09-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3536,
+      "h": 2302,
+      "credit": "1963 Ford F-Series pickup truck, Golden Super Cruise 2026-09-05.jpg by Xnatedawgx, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1963_Ford_F-Series_pickup_truck,_Golden_Super_Cruise_2026-09-05.jpg"
+     }
     },
     {
      "vo": "And four in five new vehicles sold here count as trucks.",
@@ -95,7 +117,14 @@
      "prompt": "A long line of 1970s sedans waiting bumper to bumper at a gas station pump, a large hand-painted board on the pump reading \"NO GAS\", winter, grey overcast light, wide shot",
      "title": "*October 1973*",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gb63ad2f9507a6ecf97e85827579aca1a2a6a91fdf068c84cde6dae525448081487117bbda0732c10324a0f1c18ecef27cbf2714c5219733fd0a1783e7128f865_1280.jpg",
+      "w": 4608,
+      "h": 3072,
+      "credit": "Pixabay (652234)",
+      "page": "https://pixabay.com/photos/gas-pump-petrol-stations-petrol-gas-1914310/"
+     }
     }
    ]
   },
@@ -107,13 +136,27 @@
      "vo": "Drivers waited hours at the pump, and some stations simply hung signs saying they had run dry.",
      "prompt": "A tired man in a 1970s winter coat leaning on his sedan in a gas line, a large cardboard sign on the station pump reading \"OUT OF GAS\", cold morning light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gcf7fcff8bc1ec9e7dff2eebcac0bef1b967ad1c6b7f80963a855b46c54734c0efd748a4432738e487b98d3e79b47e49ad32cce361e0dc5167825a39ed6994e25_1280.jpg",
+      "w": 8577,
+      "h": 5718,
+      "credit": "Pixabay (photoeightyeight)",
+      "page": "https://pixabay.com/photos/old-petrol-pump-automotive-7908694/"
+     }
     },
     {
      "vo": "Washington's answer arrived two years later, signed by President Gerald Ford on December 22, 1975.",
      "prompt": "A man in a 1970s suit signing a bill at a wooden desk, aides standing behind him, a large wall calendar page reading \"DECEMBER 1975\" on the wall behind, warm lamplight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/President_Gerald_R._Ford_Making_a_Statement_in_the_White_House_Press_Briefing_Room_Upon_Signing_S._622%2C_the_Energy_Policy_and_Conservation_Act_-_NARA_-_23898561.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3724,
+      "h": 2400,
+      "credit": "President Gerald R. Ford Making a Statement in the White House Press Briefing Room Upon Signing S. 622, the Energy Policy and Conservation Act - NARA - 23898561.jpg by Unknown authorUnknown author or not provided, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:President_Gerald_R._Ford_Making_a_Statement_in_the_White_House_Press_Briefing_Room_Upon_Signing_S._622,_the_Energy_Policy_and_Conservation_Act_-_NARA_-_23898561.jpg"
+     }
     },
     {
      "vo": "The Energy Policy and Conservation Act told carmakers to roughly double their fleet's fuel economy within ten years.",
@@ -125,25 +168,53 @@
      "vo": "For passenger cars, the target was 27.5 miles per gallon by 1985, with fines for missing it.",
      "prompt": "A 1975 engineer in a white shirt and tie standing beside a long sedan in a test garage, holding a clipboard with a large page reading \"27.5 MPG\" turned toward the camera, fluorescent light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/81-90_Chevrolet_Caprice.jpg/1920px-81-90_Chevrolet_Caprice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2236,
+      "h": 1028,
+      "credit": "81-90 Chevrolet Caprice.jpg by IFCAR, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:81-90_Chevrolet_Caprice.jpg"
+     }
     },
     {
      "vo": "But farmers, builders and tradesmen needed pickups, and lawmakers didn't want to punish people who worked with them.",
      "prompt": "A 1970s farmer in overalls lifting a hay bale into the bed of a dusty pickup truck, stacked bales around him, truck seen from its left side, golden harvest light, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gf07e697fd4b712a2db978ec44a2134f3742f7cb44f50403d4a01a671b5cf9dc50cfe0e2ba42bdf62373d6badf32843d2a8ba797c32cf6f820cdf4bc8b31c01d8_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (HunterProducciones)",
+      "page": "https://pixabay.com/photos/farming-colombian-coffee-colombia-6959638/"
+     }
     },
     {
      "vo": "So light trucks got their own category, with a looser fuel target set separately by regulators, starting with the 1979 model year.",
      "prompt": "Two 1970s officials in shirts and ties at a desk, a photograph of a pickup truck and a photograph of a sedan pinned side by side on a corkboard behind them, afternoon window light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/1979_Chevrolet_C10_Scottsdale_6.5%27_Fleetside_with_Sport_Package%2C_front_right_%28Cruisin%27_the_River_Lowellville_Car_Show%2C_June_19th%2C_2023%29.jpg/1920px-1979_Chevrolet_C10_Scottsdale_6.5%27_Fleetside_with_Sport_Package%2C_front_right_%28Cruisin%27_the_River_Lowellville_Car_Show%2C_June_19th%2C_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4750,
+      "h": 2968,
+      "credit": "1979 Chevrolet C10 Scottsdale 6.5' Fleetside with Sport Package, front right (Cruisin' the River Lowellville Car Show, June 19th, 2023).jpg by MercurySable99, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1979_Chevrolet_C10_Scottsdale_6.5%27_Fleetside_with_Sport_Package,_front_right_(Cruisin%27_the_River_Lowellville_Car_Show,_June_19th,_2023).jpg"
+     }
     },
     {
      "vo": "In 1975, trucks were only about one in five new vehicles sold, so the gap hardly seemed to matter.",
      "prompt": "A 1975 American main street lined with parked long sedans and one pickup truck among them, shoppers on the pavement, sunny afternoon, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Ford_F-150_1975-77_%281%29.jpg/1920px-Ford_F-150_1975-77_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3696,
+      "h": 2772,
+      "credit": "Ford F-150 1975-77 (1).jpg by Ethan Llamas, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_F-150_1975-77_(1).jpg"
+     }
     },
     {
      "vo": "The rules also decided what counted as a truck, and that definition turned out to be surprisingly generous.",
@@ -155,19 +226,40 @@
      "vo": "A vehicle could qualify if it rode high enough to go off-road, or if its seats came out for cargo.",
      "prompt": "The open rear of a 1970s utility vehicle with its back seats lifted out and leaning beside it, a flat empty cargo floor, tall wheels on a gravel road, seen from behind three-quarter view, daylight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g49148c4c0f1b56aff5fa5c2ed86c13fcccde2e94dcde565c383f5aa24875249c6310d4fc016b2969e01a3a56ef684b76979330a958879ad2228d68b74d3deb82_1280.jpg",
+      "w": 4674,
+      "h": 3934,
+      "credit": "Pixabay (lqiuz)",
+      "page": "https://pixabay.com/photos/seat-cushion-auto-accessories-1099622/"
+     }
     },
     {
      "vo": "Detroit's engineers spotted the gap, and they started asking a very profitable question.",
      "prompt": "Four car engineers in short-sleeved shirts and ties pointing at a large car sketch on a drafting table, cigarette smoke in the air, 1970s design studio, overhead light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/1984_Plymouth_Voyager_Minivan_by_Chrysler_-_The_Henry_Ford_-_Engines_Exposed_Exhibit_2-22-2016_%281%29_%2831310790014%29.jpg/1920px-1984_Plymouth_Voyager_Minivan_by_Chrysler_-_The_Henry_Ford_-_Engines_Exposed_Exhibit_2-22-2016_%281%29_%2831310790014%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2047,
+      "h": 1356,
+      "credit": "1984 Plymouth Voyager Minivan by Chrysler - The Henry Ford - Engines Exposed Exhibit 2-22-2016 (1) (31310790014).jpg by Joe Ross from Lansing, Michigan, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1984_Plymouth_Voyager_Minivan_by_Chrysler_-_The_Henry_Ford_-_Engines_Exposed_Exhibit_2-22-2016_(1)_(31310790014).jpg"
+     }
     },
     {
      "vo": "What if a family car could be built so that, on paper, it counted as a truck?",
      "prompt": "A designer studying a full-size clay model of a tall boxy family vehicle on a turntable, seen from its left side, 1970s design studio, dramatic side light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gbb90fb1fb703b5e099306f5b29f91b463914d0248658cb1cfacfb0102877e416a6ebe68668d2f2dfd45d11ed824f741c455483c49e754d30ceb23cdc2404ed84_1280.jpg",
+      "w": 4109,
+      "h": 2429,
+      "credit": "Pixabay (chdtodlehitaxi)",
+      "page": "https://pixabay.com/photos/car-vehicle-parking-transport-6926052/"
+     }
     }
    ]
   },
@@ -187,37 +279,79 @@
      "vo": "There was a second reason trucks looked so tempting, and it had started years earlier with a fight over chickens.",
      "prompt": "Rows of white chickens in a huge poultry barn, a farmer carrying a crate of chickens in the foreground, warm dusty light through windows, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gc96b98de84a82d1aa7b5e65b6d84da4e0571cc8fa96311f4acc2f19165e575ef0a50d2b3f9a33054208ab77243a20b68bc9a4097f5865632b40271324f55922f_1280.jpg",
+      "w": 4272,
+      "h": 2848,
+      "credit": "Pixabay (onefox)",
+      "page": "https://pixabay.com/photos/bird-chicks-baby-chicken-young-bird-349026/"
+     }
     },
     {
      "vo": "In the early 1960s, cheap American frozen chicken poured into West Germany and France, and European farmers protested.",
      "prompt": "A crowded 1962 butcher shop, a cold counter piled with frozen whole chickens, a large price card reading \"AMERICAN CHICKEN\" turned toward the camera, housewives in coats waiting, daylight, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gccda2b1eef17967dd88d7512237b6390c40996cc087e7c12b7c01acaf9bb460f39c4fc1aec79d7fcecf968da277d09ca7c8f7f74db818bbf1c9369f3f4f61548_1280.jpg",
+      "w": 6001,
+      "h": 4000,
+      "credit": "Pixabay (WFranz)",
+      "page": "https://pixabay.com/photos/tractor-cornfield-agriculture-6608040/"
+     }
     },
     {
      "vo": "Europe raised its tariffs on American chicken, and U.S. poultry sales to the continent fell sharply.",
      "prompt": "Tall stacks of unsold boxed frozen chickens in a cold dockside warehouse, a worker in a coat standing small beside them looking up, dim blue light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g596339f40c4a03a83b209d05b53156dbf16bc4ac1a8b754a9acfe05539c6bcc36ee8d383a357c88c566f24fb4b5ca984ef629c9e4d0224629ebdc482d4339f7c_1280.jpg",
+      "w": 5417,
+      "h": 3611,
+      "credit": "Pixabay (dendoktoor)",
+      "page": "https://pixabay.com/photos/container-ship-container-transport-6631117/"
+     }
     },
     {
      "vo": "In December 1963, President Lyndon Johnson proclaimed a 25 percent tariff on imported light trucks, which took effect in January 1964.",
      "prompt": "A tall man in a dark 1960s suit signing a proclamation at a desk, a large wall calendar page reading \"DECEMBER 1963\" on the wall behind him, warm lamplight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/LBJ_Potrait_Oval_Office_1963_in_colour.jpg/1920px-LBJ_Potrait_Oval_Office_1963_in_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2432,
+      "h": 3016,
+      "credit": "LBJ Potrait Oval Office 1963 in colour.jpg by Not provided, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:LBJ_Potrait_Oval_Office_1963_in_colour.jpg"
+     }
     },
     {
      "vo": "Imported cars paid just 2.5 percent at the border, so a foreign pickup now paid ten times as much.",
      "prompt": "A customs officer with a clipboard inspecting a small imported pickup truck on a busy 1960s dock, a large paper tag on its windshield reading \"25% DUTY\" turned toward the camera, cargo ship behind, daylight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g52f220739dea975fadd52a94f8d0b243d4882aee1314b43e0d69dfc91c7209fa32accffeaa8049bcd215ea09d34107abea8bc20a8e158cf0cf4195af83820ca3_1280.jpg",
+      "w": 5417,
+      "h": 3611,
+      "credit": "Pixabay (dendoktoor)",
+      "page": "https://pixabay.com/photos/container-ship-container-transport-6631117/"
+     }
     },
     {
      "vo": "The tariff hit Volkswagen's little imported pickups hardest, and they soon all but vanished from American roads.",
      "prompt": "A small 1960s flatbed van-pickup parked alone and dusty behind a rural garage, weeds around its tires, seen from its left side, late afternoon light, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Volkswagen_Type_2_Pickup_Truck_%284972591434%29.jpg/1920px-Volkswagen_Type_2_Pickup_Truck_%284972591434%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3412,
+      "h": 2559,
+      "credit": "Volkswagen Type 2 Pickup Truck (4972591434).jpg by dave_7 from Lethbridge, Canada, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Volkswagen_Type_2_Pickup_Truck_(4972591434).jpg"
+     }
     },
     {
      "vo": "Six decades later, the chicken tax is still on the books, and it still shields the American pickup.",
@@ -227,27 +361,50 @@
     },
     {
      "vo": "Foreign makers who want to sell big trucks here mostly build them inside American factories instead.",
-     "prompt": "Workers assembling full-size pickup trucks on a long assembly line inside a huge modern factory, bright overhead lights, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "clip": {
+      "id": 40054,
+      "tags": "industry, factory, steel, iron, iron bars, workers, hard work, work, engineer, assembly, helmet, tool, hard",
+      "page": "https://pixabay.com/videos/id-40054/"
+     }
     },
     {
      "vo": "With so little cheap competition, Detroit could charge more for a truck than for a car of similar size.",
      "prompt": "A salesman in a wide-tie 1980s suit showing a shiny pickup truck to a couple in a car showroom, a large window sticker reading \"$11,995\" on the truck's side window, warm showroom light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g67e9a1e6189d51a522cdec86320118c421505b78ea4375c562a82580fae062844f6eb49df9e317316054bb8c0ab1843b810cc09de204e1d8c23bb4f172180fd1_1280.jpg",
+      "w": 7952,
+      "h": 5304,
+      "credit": "Pixabay (RonaldPlett)",
+      "page": "https://pixabay.com/photos/truck-pickup-chevrolet-cheve-s10-8497705/"
+     }
     },
     {
      "vo": "Trucks became the most profitable vehicles the American companies made, often earning thousands more per sale.",
      "prompt": "Six executives in 1980s suits around a boardroom table, a new pickup truck on a display lawn visible through a large window behind them, afternoon light, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/2011-01-30_1-866-GET-A-FORD_F150_XL.jpg/1920px-2011-01-30_1-866-GET-A-FORD_F150_XL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3720,
+      "h": 2480,
+      "credit": "2011-01-30 1-866-GET-A-FORD F150 XL.jpg by Ildar Sagdejev (Specious), CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:2011-01-30_1-866-GET-A-FORD_F150_XL.jpg"
+     }
     },
     {
      "vo": "All Detroit needed now was a truck that an ordinary family would actually want to drive.",
      "prompt": "A family of four in an early-1980s driveway looking across at a long station wagon, a pickup truck parked across the street, evening light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gdd96eeb502314ee5235f177abd6de0166909a1fa5b14a10fe6bb90db4546315b2ae5916e573b2b7ffc88a46cd4197afbd98c8c12a2aab3287c3b2fbb324d2418_1280.jpg",
+      "w": 7952,
+      "h": 5304,
+      "credit": "Pixabay (RonaldPlett)",
+      "page": "https://pixabay.com/photos/truck-pickup-chevrolet-cheve-s10-8497705/"
+     }
     }
    ]
   },
@@ -265,43 +422,92 @@
      "vo": "Congress backed $1.5 billion in loan guarantees to save it, and its new boss, Lee Iacocca, desperately needed a hit.",
      "prompt": "A confident silver-haired executive in a dark 1980s suit standing on a car factory floor with arms crossed, workers small behind him, dramatic industrial light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Lee_A._Iacocca_%28Chrysler%29%2C_1980.jpg/1920px-Lee_A._Iacocca_%28Chrysler%29%2C_1980.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4661,
+      "h": 3200,
+      "credit": "Lee A. Iacocca (Chrysler), 1980.jpg by Gotfryd, Bernard, photographer, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Lee_A._Iacocca_(Chrysler),_1980.jpg"
+     }
     },
     {
      "vo": "In late 1983, Chrysler launched the Dodge Caravan and Plymouth Voyager, 1984 models and the first modern American minivans.",
      "prompt": "A boxy 1984 minivan with wood-grain side panels on a rotating stage at a crowded auto show, a large stage banner reading \"CARAVAN\" behind it, spotlights, seen from the front three-quarter view, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/1984_Dodge_Caravan_LE_%2831402563930%29_%28cropped%29.jpg/1920px-1984_Dodge_Caravan_LE_%2831402563930%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4906,
+      "h": 3206,
+      "credit": "1984 Dodge Caravan LE (31402563930) (cropped).jpg by Greg Gjerdingen from Willmar, USA, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1984_Dodge_Caravan_LE_(31402563930)_(cropped).jpg"
+     }
     },
     {
      "vo": "They drove like cars, fit in a normal garage, and carried seven people with every seat in place.",
      "prompt": "A 1980s mother loading five children into a boxy minivan in a suburban garage, sliding door open, seats full of children, warm morning light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/1984_Plymouth_Voyager_LE_%2830965894313%29.jpg/1920px-1984_Plymouth_Voyager_LE_%2830965894313%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6000,
+      "h": 4000,
+      "credit": "1984 Plymouth Voyager LE (30965894313).jpg by Greg Gjerdingen from Willmar, USA, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1984_Plymouth_Voyager_LE_(30965894313).jpg"
+     }
     },
     {
      "vo": "But with the rear seats out and a flat floor, the government classified them as light trucks.",
      "prompt": "The open sliding door of a 1984 minivan with its rear bench seat lifted out and resting on the driveway beside it, a flat empty cargo floor visible, daylight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Dodge_Grand_Caravan_%28RT%29_with_4x8_foot_plywood_inside.jpg/1920px-Dodge_Grand_Caravan_%28RT%29_with_4x8_foot_plywood_inside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 3024,
+      "credit": "Dodge Grand Caravan (RT) with 4x8 foot plywood inside.jpg by CZmarlin — Christopher Ziemnowicz, a photo credit would be appreciated if this i, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Dodge_Grand_Caravan_(RT)_with_4x8_foot_plywood_inside.jpg"
+     }
     },
     {
      "vo": "Suddenly the family car was no longer a long sedan or wagon, but a tall, boxy van.",
      "prompt": "A long line of new boxy minivans rolling off a 1984 assembly line, workers checking them, bright factory light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Plymouth_Voyager_%28S%29_in_the_Henry_Ford_Museum.jpg/1920px-Plymouth_Voyager_%28S%29_in_the_Henry_Ford_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 3024,
+      "credit": "Plymouth Voyager (S) in the Henry Ford Museum.jpg by SuperDalio, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Plymouth_Voyager_(S)_in_the_Henry_Ford_Museum.jpg"
+     }
     },
     {
      "vo": "Suburban parents loved them, and the station wagon, the big family car of the 1970s, began to disappear.",
      "prompt": "An old wood-paneled station wagon parked on a suburban lawn, a large sign in its window reading \"FOR SALE\" turned toward the camera, a boxy minivan in the driveway behind, 1980s afternoon light, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gb0cc3146f0143efdb143a9cb3a799fa08289ba170e291c2eb773d4e59e17a00bf69c6468bbd7f28a3a96829174d5bb1342b66bfd602fecd69a4b366bca18e9c9_1280.png",
+      "w": 3000,
+      "h": 1555,
+      "credit": "Pixabay (Emslichter)",
+      "page": "https://pixabay.com/photos/volvo-66-gl-station-wagon-4332471/"
+     }
     },
     {
      "vo": "Then in 1990, Ford went further and launched the Explorer, a 1991 model and a family vehicle built on a pickup truck's frame.",
      "prompt": "A rugged 1990 two-tone sport utility vehicle parked on a mountain overlook, a family of four unloading camping gear from its back, seen from the front three-quarter view, golden light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/1991-1994_Ford_Explorer%2C_Front_right.png/1920px-1991-1994_Ford_Explorer%2C_Front_right.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4592,
+      "h": 2688,
+      "credit": "1991-1994 Ford Explorer, Front right.png by LukaCali, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1991-1994_Ford_Explorer,_Front_right.png"
+     }
     },
     {
      "vo": "It rode high, looked rugged, and by the late 1990s Ford was selling more than 400,000 a year.",
@@ -313,19 +519,40 @@
      "vo": "Industry researchers found buyers loved sitting high above traffic, because it made them feel safe and in control.",
      "prompt": "A woman driving a tall SUV looking down through the side window at a small sedan beside her in traffic, view from inside her cab, afternoon light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/ga261093f4cd3b5971b770fd380f26bee7cfb9b8901655b58d7b094fdb2f64ad875bfcd2c29b8f9e0f3def144d3825e9df047457909465ae8b7bb74338899aeb3_1280.jpg",
+      "w": 3600,
+      "h": 2400,
+      "credit": "Pixabay (Whitechappel79)",
+      "page": "https://pixabay.com/photos/driver-car-street-man-smoking-5678711/"
+     }
     },
     {
      "vo": "For the people inside, it was often true, but mostly because everyone around them was smaller.",
      "prompt": "A tall SUV standing beside a low compact car at a red light, the SUV's bumper level with the compact car's windows, both seen from the side, overcast daylight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g42ff1927d58f941b0a2906c6c57e333a323ef4da54268aa1375ee69e3b94f540b93b02b0bba136683fa305161408cbf463060aefca50bd1756e0f2f9af3b03c4_1280.jpg",
+      "w": 3000,
+      "h": 2000,
+      "credit": "Pixabay (Riedelmeier)",
+      "page": "https://pixabay.com/photos/bmw-suv-auto-fog-autumn-1216469/"
+     }
     },
     {
      "vo": "And as more neighbors bought SUVs, the families still driving sedans started to feel very small.",
      "prompt": "A suburban cul-de-sac with a large SUV in every driveway except one small sedan, a father standing beside the sedan looking around at the SUVs, evening light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gb7cb203bc620a5d5d733139d9cdd654dac1ed4f6b6ce1d6288942b9c64bfa6c67976c12ae79efc69d7f57a81770d444a52d03dca1e0a88c3328c0e0fb0a779ac_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (opollophotography)",
+      "page": "https://pixabay.com/photos/property-house-real-estate-court-7046997/"
+     }
     }
    ]
   },
@@ -337,31 +564,66 @@
      "vo": "In 2003, Congress poured fuel on the fire with a tax break meant to help small businesses buy equipment.",
      "prompt": "Lawmakers in dark suits walking down the wide stone steps of a domed government building, bright spring daylight, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Capitol_Building_Full_View.jpg/1920px-Capitol_Building_Full_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 7168,
+      "h": 3072,
+      "credit": "Capitol Building Full View.jpg by Noclip, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Capitol_Building_Full_View.jpg"
+     }
     },
     {
      "vo": "A business owner could write off up to $100,000 for a vehicle weighing over 6,000 pounds fully loaded.",
      "prompt": "A real estate agent in a business suit standing proudly beside a massive square military-style SUV outside a suburban office, SUV seen from the front three-quarter view, bright daylight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Hummer_H2_1040746.jpg/1920px-Hummer_H2_1040746.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3456,
+      "credit": "Hummer H2 1040746.jpg by Ermell, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Hummer_H2_1040746.jpg"
+     }
     },
     {
      "vo": "People called it the Hummer loophole, and some dealers advertised the tax savings right on their windshields.",
      "prompt": "A huge boxy SUV on a dealership lot with a large card on its windshield reading \"TAX WRITE-OFF\" turned toward the camera, a salesman pointing to the card, sunny day, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/3wayhummer.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1024,
+      "h": 683,
+      "credit": "3wayhummer.png by 7 Bates, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:3wayhummer.png"
+     }
     },
     {
      "vo": "Congress cut the SUV break to $25,000 a year later, but heavy trucks kept special treatment in the tax code.",
      "prompt": "An accountant at a cluttered desk with a tax form and calculator, a framed photo of a pickup truck on the wall behind him, lamplight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Chevrolet_Suburban_LT_GMT900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1560,
+      "h": 816,
+      "credit": "Chevrolet Suburban LT GMT900.jpg by IFCAR, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Suburban_LT_GMT900.jpg"
+     }
     },
     {
      "vo": "Then the fuel rules themselves were rewritten, and the new version quietly rewarded size itself.",
      "prompt": "Government engineers in shirtsleeves pulling a long tape measure along the side of a pickup truck in a bright test garage, truck seen from its left side, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g7ae277ea229fa74f8eb13870facdee44cf9425593bf04c99bfb82cabfa3cd0c5cd8842ef66769cde9ab37b437b3d2f580be55f6d013c75aacfeedf91d1ecb49e_1280.jpg",
+      "w": 6240,
+      "h": 4160,
+      "credit": "Pixabay (u_ieeicob7xz)",
+      "page": "https://pixabay.com/photos/fuel-gauge-thermometer-10151313/"
+     }
     },
     {
      "vo": "From 2011, each new vehicle's fuel target depended on its footprint, the area between its four wheels.",
@@ -379,7 +641,14 @@
      "vo": "Ford stopped selling its compact Ranger here in 2011, and it came back in 2019 as a larger midsize truck.",
      "prompt": "A small compact pickup truck on the left parked next to a much bigger midsize pickup truck on the right in a driveway, both seen exactly from their left sides, the size difference clear, bright daylight, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/2011_Ford_Ranger_XL_Regular_Cab_4x2%2C_front_left%2C_04-04-2023.jpg/1920px-2011_Ford_Ranger_XL_Regular_Cab_4x2%2C_front_left%2C_04-04-2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4083,
+      "h": 2245,
+      "credit": "2011 Ford Ranger XL Regular Cab 4x2, front left, 04-04-2023.jpg by MercurySable99, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:2011_Ford_Ranger_XL_Regular_Cab_4x2,_front_left,_04-04-2023.jpg"
+     }
     },
     {
      "vo": "Gas stayed cheap compared with Europe, where heavy fuel taxes nudge drivers toward small cars every time they fill up.",
@@ -391,13 +660,27 @@
      "vo": "Then on April 25, 2018, Ford announced it would stop selling almost every car in North America.",
      "prompt": "A newspaper lying open on a kitchen table, a large headline reading \"FORD DROPS SEDANS\" across the top, a cup of coffee beside it, morning light, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/FordGlassHouse.jpg/1920px-FordGlassHouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2497,
+      "h": 1901,
+      "credit": "FordGlassHouse.jpg by Dave Parker, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:FordGlassHouse.jpg"
+     }
     },
     {
      "vo": "Within a few years, the Fiesta, Focus, Fusion and Taurus were gone, and only the Mustang remained.",
      "prompt": "A car showroom floor filled with pickup trucks, one corner holding a few leftover small sedans and a single red sports coupe, a lone salesman watching, fluorescent light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Ford_Mustang_VII_Convertible_Autofr%C3%BChling_Ulm_IMG_9339.jpg/1920px-Ford_Mustang_VII_Convertible_Autofr%C3%BChling_Ulm_IMG_9339.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4695,
+      "h": 2628,
+      "credit": "Ford Mustang VII Convertible Autofrühling Ulm IMG 9339.jpg by Alexander-93, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_Mustang_VII_Convertible_Autofr%C3%BChling_Ulm_IMG_9339.jpg"
+     }
     },
     {
      "vo": "But all that extra height had a cost, and it was paid by people outside the vehicle.",
@@ -415,7 +698,14 @@
      "vo": "In 2022, about 7,500 pedestrians were killed on American roads, the highest number since 1981.",
      "prompt": "A quiet roadside memorial of flowers and lit candles at the edge of a suburban crosswalk, a faded white crosswalk stripes beside it, streetlight glow at night, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g0fc1e640dd818627f574f7ff02f855d818a4ec378aa50a6206bf518409e7ca2fe19c2f1e5f57a8f900fffda4e81332fa03c8371162b2c8ab97b44e4cd09305ee_1280.jpg",
+      "w": 4715,
+      "h": 3014,
+      "credit": "Pixabay (wal_172619)",
+      "page": "https://pixabay.com/photos/crossing-crosswalk-transition-road-4860035/"
+     }
     },
     {
      "vo": "In 2010, that number had been about 4,300, so it rose by roughly three quarters in twelve years.",
@@ -427,7 +717,14 @@
      "vo": "In 2023, the Insurance Institute for Highway Safety studied how a vehicle's front end changes who survives.",
      "prompt": "Safety researchers in lab coats holding a tall measuring rod beside the hood of a pickup truck in a bright crash-test facility, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/2010_Hyundai_Tucson_GLS_IIHS.jpg/1920px-2010_Hyundai_Tucson_GLS_IIHS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2820,
+      "h": 1720,
+      "credit": "2010 Hyundai Tucson GLS IIHS.jpg by Brady Holt, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:2010_Hyundai_Tucson_GLS_IIHS.jpg"
+     }
     },
     {
      "vo": "Vehicles with a hood edge over 40 inches high were about 45 percent more likely to kill a pedestrian than those with lower, sloped hoods of 30 inches or less.",
@@ -445,7 +742,14 @@
      "vo": "And from a tall driver's seat, a small child standing right in front of the bumper can disappear completely.",
      "prompt": "View from a high pickup driver's seat looking over a long flat hood at a driveway, only the top of a small child's head just visible beyond the hood's edge, bright daylight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g3884403d68158d15d9d57a856563e36fb4b5403e488c813957bc82d4a76f074551618fb477dc964721e3155ee389a0b196d29cffb901ed4c3709c1ca423ca0fc_1280.jpg",
+      "w": 7952,
+      "h": 5304,
+      "credit": "Pixabay (RonaldPlett)",
+      "page": "https://pixabay.com/photos/truck-pickup-chevrolet-cheve-s10-8497705/"
+     }
     },
     {
      "vo": "Drivers of small cars are at risk too, because a heavy truck carries far more force into a crash.",
@@ -463,19 +767,40 @@
      "vo": "Safety researchers call it an arms race, and no single family can win it by buying smaller.",
      "prompt": "A packed highway at rush hour seen from a footbridge, tall SUVs and pickups bumper to bumper, one small car squeezed between them, golden haze, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/ga52b1ebd317010d7647da19e47d873b70badf754f27a702fa408f89267e6b6bf8efe9a9b270c7c6ff8743b6300cd46bd5788881f44c243cc05baf905a5862ba1_1280.jpg",
+      "w": 3000,
+      "h": 2000,
+      "credit": "Pixabay (Riedelmeier)",
+      "page": "https://pixabay.com/photos/bmw-suv-auto-fog-autumn-1216469/"
+     }
     },
     {
      "vo": "Meanwhile, Europe tests how new cars treat pedestrians, and many of its cars are built with lower, softer fronts.",
      "prompt": "A busy European city square where small low-nosed cars stop at a crosswalk as pedestrians cross close in front of them, soft morning light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g2a3d51c875680f5a567a756c60fb2fdaf458eaf5a684f0427dcdaa1ff7c82ca92dc8e3c7e891684a301f233d2c0f9fa7fc5d2ad5c4f947ddd745893992a2c8bf_1280.jpg",
+      "w": 4096,
+      "h": 2731,
+      "credit": "Pixabay (StockSnap)",
+      "page": "https://pixabay.com/photos/car-auto-street-old-timer-2596344/"
+     }
     },
     {
      "vo": "So, would you trade your truck for a small hatchback, or does the size make you feel safer?",
      "prompt": "A man in a work jacket leaning on the tailgate of his pickup truck in a parking lot, a small hatchback parked next to it, thoughtful expression, golden evening light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/2015-2017_Honda_Fit_Hybrid_F_Package.jpg/1920px-2015-2017_Honda_Fit_Hybrid_F_Package.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4663,
+      "h": 2268,
+      "credit": "2015-2017 Honda Fit Hybrid F Package.jpg by TTTNIS, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:2015-2017_Honda_Fit_Hybrid_F_Package.jpg"
+     }
     }
    ]
   },
@@ -487,19 +812,40 @@
      "vo": "American cars got bigger because a 1975 law gave trucks an easier fuel target, and Detroit built family cars to qualify.",
      "prompt": "A boxy 1985 sedan on the left and a huge 2026 full-size pickup truck on the right parked nose to nose on an empty suburban street, both seen from their sides, sunset, long shadows, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g957d8a4499bbb663aeb4c47f6604ffbc33fca0accbe2322a0eb3f364292bcdaca2e3bf8460a18f9f0ce33a42a11683999a52b8c28661f68482bb47d2605c224c_1280.jpg",
+      "w": 3000,
+      "h": 2000,
+      "credit": "Pixabay (JOEBU-ART)",
+      "page": "https://pixabay.com/photos/auto-car-cadillac-oldtimer-788747/"
+     }
     },
     {
      "vo": "A chicken tariff protected them, tax breaks rewarded weight, and every bigger truck made the next buyer want one.",
      "prompt": "A line of vehicles parked along a suburban curb, growing taller from left to right, from a small 1980s sedan to a giant modern pickup, seen from low angle, golden evening light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g811989ebb7eb9438147df3adae9f102fe2a28c4ebdc827837956be05be9f9d690176d1006812a7a9e0f9a877f054e4ee4cd98237271509a5c5760544ea5df2a2_1280.jpg",
+      "w": 7952,
+      "h": 5304,
+      "credit": "Pixabay (RonaldPlett)",
+      "page": "https://pixabay.com/photos/truck-pickup-chevrolet-cheve-s10-8497705/"
+     }
     },
     {
      "vo": "Next time: why most of the world dries its laundry in the sun, and some American neighborhoods ban it.",
      "prompt": "White sheets drying on a clothesline in a sunny backyard, a neighbor watching over the fence with arms folded, bright summer daylight, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g8ea9df6c17eefe0a62d120d93d7cf03b871ccaea61d558d077161dd40b2e7e7e1677fbe0421b55c2555439141372213a64e16548596219cd45a57d9095c525eb_1280.jpg",
+      "w": 5412,
+      "h": 3608,
+      "credit": "Pixabay (Kranich17)",
+      "page": "https://pixabay.com/photos/houses-laundry-window-7702757/"
+     }
     },
     {
      "vo": "If you want the next hidden why, subscribe, and tell us below: big truck or small car?",
@@ -510,7 +856,5 @@
    ]
   }
  ],
- "framework": "2026-11-15 01:09",
- "released_at": "2026-11-15 01:09",
- "voice_requested": "voice-26-american-cars-bigger-87c184dd23"
+ "photos_checked": true
 }
