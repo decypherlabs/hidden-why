@@ -1,0 +1,773 @@
+{
+ "slug": "gk-28-jet-engine-kaise-banta",
+ "format": "long",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "words_in_edit": true,
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "₹300 करोड़ के जेट इंजन का छोटा सा ब्लेड इतना ख़ास क्यों? ✈️",
+ "thumbnail": {
+  "text": "पिघलने से *ज़्यादा* गर्मी",
+  "plane": "Extreme close-up of a single nickel superalloy jet turbine blade standing upright, its curved golden-grey airfoil dotted with tiny cooling holes, roaring orange-white flame and heat shimmer wrapping around it from behind, the blade edge glowing faintly red, dark engine interior around, dramatic rim light, photoreal, shallow depth of field"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "ch2",
+   "ch5"
+  ],
+  "reflective": [
+   "ch1",
+   "ch4",
+   "ch6",
+   "ch7",
+   "outro"
+  ],
+  "epic": [
+   "ch3"
+  ]
+ },
+ "source": "Rolls-Royce और GE Aerospace की तकनीकी जानकारी; NASA Glenn Research Center; USGS Mineral Commodity Summaries (Rhenium); PIB/DRDO प्रेस रिलीज़ (DMRL, 2023); Roger C. Reed, The Superalloys (Cambridge University Press)",
+ "journey_score": 8.6,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सोचिए, आप फ्लाइट में खिड़की वाली सीट पर हैं, बगल में इंजन।",
+     "prompt": "A young Indian woman in a window seat looking out at a huge round jet engine hanging under the wing, black hair, green kurta, three-quarter view, dusk sky glowing orange outside, soft cabin light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "उस इंजन के अंदर की गर्मी उसी धातु के पिघलने से ज़्यादा है,",
+     "prompt": "Roaring orange-white flame rushing past a ring of metal turbine blades inside a jet engine combustion zone, blades glowing hot at their edges, intense heat shimmer, bright flame light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "जिससे उसके ब्लेड बने हैं।",
+     "prompt": "A single golden-grey turbine blade held upright between gloved fingers, flame reflections on its curved surface, plain dark background, sharp focus, macro close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अंदर की आग करीब सोलह सौ डिग्री की, धातु की हद से कई सौ डिग्री ज़्यादा।",
+     "prompt": "A jet engine roaring in a night test cell with a white-orange exhaust glow, two Indian engineers in white helmets behind thick glass, a large flat white card taped on the glass reading \"1,600°C\", wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अंदर की आग करीब 1,600 डिग्री की, धातु की हद से कई सौ डिग्री ज़्यादा।"
+    },
+    {
+     "vo": "तो ब्लेड पिघलता क्यों नहीं?",
+     "prompt": "A single turbine blade standing upright and completely intact in front of a wall of orange flame, dramatic backlight, plain dark floor, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "हथेली से छोटा ये ब्लेड बनाने में महीने क्यों लगते हैं?",
+     "prompt": "An Indian engineer's open palm holding a small turbine blade shorter than the palm, brown skin, blue overalls, a rack of identical unfinished blades on a shelf behind, bright factory light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और आग में रहकर भी ब्लेड के अंदर ठंडी हवा कैसे घूमती है?",
+     "prompt": "An Indian engineer in a white coverall and mask walking through a sealed clean-room door, a large flat sign on the door turned toward the camera reading \"AUTHORISED ONLY\", bright white light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पहला काम: बड़े इंजनों का पंखा हर सेकंड एक टन से ज़्यादा हवा खींचता है।",
+     "prompt": "A giant airliner jet engine seen straight from the front on a runway, wide fan blades spiralling toward a dark centre, air streaks rushing in, bright morning sun, close shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "इंजन के अंदर",
+   "shots": [
+    {
+     "vo": "काम बस तीन हैं: हवा खींचो, उसे दबाओ, और उसमें आग लगाओ।",
+     "prompt": "A cutaway training model of a jet engine on a display stand, Indian students in white shirts gathered around, two large flat placard cards reading \"COMPRESSOR\" and \"TURBINE\" at the two sections, bright classroom light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "सबसे बड़े इंजनों में ये पंखा तीन मीटर से भी चौड़ा होता है।",
+     "prompt": "The huge front fan of a jet engine in a hangar, wide curved blades towering over a tiny Indian technician in blue overalls standing beside it, bright overhead light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पंखे की ज़्यादातर हवा इंजन के बाहर-बाहर से घूमकर सीधे पीछे निकल जाती है।",
+     "prompt": "Side view of a large turbofan engine with its outer cowling open, the wide outer air passage around the narrow inner core clearly visible, arrows of air flowing past the outside, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बड़े इंजनों का ज़्यादातर धक्का इसी हवा से आता है।",
+     "prompt": "An airliner accelerating down an Indian runway at full power seen exactly from its left side, nose on the right, dust and haze blown back behind its engines, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बाकी हवा बीच के रास्ते से इंजन के दिल में जाती है। वहाँ है कंप्रेसर.",
+     "prompt": "The narrow inner core opening behind the fan of an opened jet engine, rows of small metal blades visible inside, the outer passage beside it, bright workshop light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "बाकी हवा बीच के रास्ते से इंजन के दिल में जाती है। वहाँ है compressor."
+    },
+    {
+     "vo": "कंप्रेसर छोटे पंखों की कई कतारें हैं, हर कतार पिछली से छोटी।",
+     "prompt": "A compressor drum on a workshop stand with many rows of small metal blades, each row smaller than the last, sharp focus along its length, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "compressor छोटे पंखों की कई कतारें हैं, हर कतार पिछली से छोटी।"
+    },
+    {
+     "vo": "ये हवा को करीब चालीस गुना या उससे ज़्यादा तक दबा देता है।",
+     "prompt": "An Indian technician in blue overalls on the left pointing a torch at the narrowing stages of compressor blade rows inside an opened engine, bright hangar light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये हवा को करीब 40 गुना या उससे ज़्यादा तक दबा देता है।"
+    },
+    {
+     "vo": "दबने से हवा ख़ुद गर्म हो जाती है, जैसे साइकिल में हवा भरते हुए पंप गरम होता है।",
+     "prompt": "An Indian boy pumping a bicycle tyre on a street, touching the warm pump barrel with his hand, curious face, school uniform, bicycle seen from its left side, bright morning sun, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "फिर आता है कंबशन चेंबर. उस गर्म, दबी हवा में ईंधन छिड़ककर आग लगाई जाती है।",
+     "prompt": "A ring-shaped combustion chamber of a jet engine with fuel nozzles, blue-orange flame burning inside it, test cell lighting, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "फिर आता है combustion chamber. उस गर्म, दबी हवा में ईंधन छिड़ककर आग लगाई जाती है।"
+    },
+    {
+     "vo": "जलती गैस तेज़ी से पीछे भागती है। रास्ते में मिलता है टरबाइन.",
+     "prompt": "Hot gas flowing as an orange glow from a combustion ring into a row of turbine blades, engine cutaway, arrows of glow pointing backward, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "जलती गैस तेज़ी से पीछे भागती है। रास्ते में मिलता है turbine."
+    },
+    {
+     "vo": "टरबाइन भी पंखों की कतार है। गैस इसे पवनचक्की की तरह घुमाती है।",
+     "prompt": "A turbine disc with a ring of closely packed blades being turned by a stream of hot orange gas like a windmill, mounted on a shaft in a workshop, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "turbine भी पंखों की कतार है। गैस इसे पवनचक्की की तरह घुमाती है।"
+    },
+    {
+     "vo": "यही टरबाइन एक लंबी शाफ़्ट से आगे का फ़ैन और कंप्रेसर चलाता है। इंजन अपनी आग से अपना पंखा घुमाता है।",
+     "prompt": "A long engine shaft laid on a stand, the turbine disc at one end and the fan hub at the other, two Indian engineers in blue overalls inspecting it, bright workshop light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "यही turbine एक लंबी shaft से आगे का fan और compressor चलाता है। इंजन अपनी आग से अपना पंखा घुमाता है।"
+    },
+    {
+     "vo": "आग के सबसे क़रीब वाली पहली कतार में करीब साठ से नब्बे ब्लेड होते हैं। पर इन ब्लेडों के साथ दिक़्क़त क्या है?",
+     "prompt": "A first-stage high-pressure turbine disc, dozens of small blades in a tight ring right beside a glowing orange flame, warm metallic sheen, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "आग के सबसे क़रीब वाली पहली कतार में करीब 60 से 90 ब्लेड होते हैं। पर इन ब्लेडों के साथ दिक़्क़त क्या है?"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "आग में खड़ा ब्लेड",
+   "shots": [
+    {
+     "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
+     "subscribe_ask": true,
+     "prompt": "A 1930s English workshop, engineers in tweed and overalls around an early bulky jet engine on a test bench, a large flat wall calendar page reading \"1937\", warm lamp light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "move": "pan_right"
+    },
+    {
+     "vo": "उन्नीस सौ सैंतीस में इंग्लैंड में फ़्रैंक व्हिटल का बनाया जेट इंजन पहली बार चला।",
+     "prompt": "A 1930s English workshop, engineers in tweed and overalls around an early bulky jet engine on a test bench, a large flat wall calendar page reading \"1937\", warm lamp light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "1937 में इंग्लैंड में Frank Whittle का बनाया जेट इंजन पहली बार चला।"
+    },
+    {
+     "vo": "तभी से इंजीनियरों की सबसे बड़ी लड़ाई इन्हीं ब्लेडों से रही है।",
+     "prompt": "A 1940s engineer in an apron at a wooden bench examining a warped, scorched turbine blade under a desk lamp, the blade large in his hand, warm lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "लोहा करीब पंद्रह सौ डिग्री पर ही पिघल जाता है। यहाँ लोहे का ब्लेड पानी की तरह बह जाता।",
+     "prompt": "Molten iron pouring from a ladle in an Indian steel plant, glowing orange-white, workers in silver heat suits at a distance, a pool of liquid metal flowing like water, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "लोहा करीब 1,500 डिग्री पर ही पिघल जाता है। यहाँ लोहे का ब्लेड पानी की तरह बह जाता।"
+    },
+    {
+     "vo": "इसलिए ब्लेड निकल की ख़ास मिश्र धातु से बनते हैं, जिसे सुपरअलॉय कहते हैं।",
+     "prompt": "Silver-grey nickel superalloy ingots stacked on a pallet in a metals store, a large flat label on the stack reading \"NICKEL SUPERALLOY\", bright warehouse light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसलिए ब्लेड nickel की ख़ास मिश्र धातु से बनते हैं, जिसे superalloy कहते हैं।"
+    },
+    {
+     "vo": "ऐसी एक शुरुआती धातु उन्नीस सौ इकतालीस में ब्रिटेन में व्हिटल के इंजनों के लिए ही बनी थी।",
+     "prompt": "A 1940s British metallurgy lab, a scientist in a white coat lifting a small cast alloy bar glowing orange from a furnace with tongs, warm furnace light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ऐसी एक शुरुआती धातु 1941 में ब्रिटेन में Whittle के इंजनों के लिए ही बनी थी।"
+    },
+    {
+     "vo": "पर सुपरअलॉय भी करीब तेरह सौ डिग्री के आसपास पिघलने लगता है, यानी गैस से कई सौ डिग्री नीचे।",
+     "prompt": "A superalloy sample softening and glowing white-orange inside a laboratory furnace, drooping slightly, viewed through the open door, intense glow, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पर superalloy भी करीब 1,300 डिग्री के आसपास पिघलने लगता है, यानी गैस से कई सौ डिग्री नीचे।"
+    },
+    {
+     "vo": "मुसीबत सिर्फ़ गर्मी नहीं। ये ब्लेड मिनट में दस हज़ार से ज़्यादा चक्कर लगाते हैं।",
+     "prompt": "A turbine disc spinning so fast its blades blur into a solid ring, motion streaks, on a test rig in a steel test chamber, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इतनी रफ़्तार में हथेली से छोटा हर ब्लेड बाहर की ओर खिंचता है, कई टन के ज़ोर से।",
+     "prompt": "A small turbine blade clamped in a heavy materials-testing machine, steel grips pulling it apart, an Indian engineer on the left watching closely, bright lab light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ऐसे में धातु टूटती नहीं, धीरे-धीरे खिंचने लगती है। इसे क्रीप कहते हैं।",
+     "prompt": "Two turbine blades side by side on a lab bench, the left one visibly stretched and longer, a steel ruler laid beside them showing the difference, bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ऐसे में धातु टूटती नहीं, धीरे-धीरे खिंचने लगती है। इसे creep कहते हैं।"
+    },
+    {
+     "vo": "जैसे गरम मोमबत्ती अपने ही वज़न से धीरे-धीरे झुक जाती है।",
+     "prompt": "A tall wax candle on a sunny windowsill in an Indian home, bent over to one side under its own weight, bright afternoon sun, plain wall, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ब्लेड ज़रा सा भी लंबा हुआ, तो इंजन की दीवार से रगड़ खा सकता है।",
+     "prompt": "A turbine blade tip almost touching the engine's inner metal casing, a hairline gap between them, bright light, macro close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दूसरे विश्व युद्ध में जर्मनी के जेट फाइटर मी दो सौ बासठ के इंजन दस से पच्चीस घंटे में बदलने पड़ते थे।",
+     "prompt": "A 1940s wartime German airfield, mechanics in overalls hoisting a worn engine off an early twin-engine jet fighter with no insignia, grey sky, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दूसरे विश्व युद्ध में जर्मनी के जेट फाइटर Me 262 के इंजन 10 से 25 घंटे में बदलने पड़ते थे।"
+    },
+    {
+     "vo": "आज का इंजन बिना बड़ी मरम्मत के हज़ारों घंटे उड़ता है। तो फ़र्क़ धातु के अंदर कहाँ छिपा है?",
+     "prompt": "A scientist in a white coat leaning over a microscope in a metallurgy lab, a polished metal sample on the stage, bright lab light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "एक क्रिस्टल का जादू",
+   "shots": [
+    {
+     "vo": "आम धातु को माइक्रोस्कोप में देखें, तो वो छोटे-छोटे दानों से बनी दिखती है।",
+     "prompt": "A polished and etched metal surface under magnification, irregular grains like a mosaic of patches, sharp focus across the frame, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इन दानों को ग्रेन कहते हैं। ये ऐसे जुड़े होते हैं, जैसे दीवार में ईंटें।",
+     "prompt": "An old brick wall in an Indian lane, bricks of uneven shapes joined with grey mortar, bright morning sun, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इन दानों को grain कहते हैं। ये ऐसे जुड़े होते हैं, जैसे दीवार में ईंटें।"
+    },
+    {
+     "vo": "दो दानों के बीच की जोड़ वाली लाइन सबसे कमज़ोर जगह होती है।",
+     "prompt": "A cracked brick wall where the crack runs exactly along the mortar lines between bricks, Indian lane, overcast daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "तेज़ गर्मी और खिंचाव में दाने इन्हीं लाइनों पर फिसलते हैं। क्रीप यहीं से शुरू होता है।",
+     "prompt": "A failed turbine blade on a lab bench, a fine crack running along its grain lines, a large magnifying glass above it, bright lab light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "तेज़ गर्मी और खिंचाव में दाने इन्हीं लाइनों पर फिसलते हैं। creep यहीं से शुरू होता है।"
+    },
+    {
+     "vo": "उन्नीस सौ साठ के दशक में अमेरिकी कंपनी प्रैट एंड व्हिटनी के इंजीनियरों ने सोचा,",
+     "prompt": "A 1960s American aerospace lab, engineers in short-sleeved shirts and ties around a table of cast blades, one man holding a blade up to the light, bright fluorescent light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "1960 के दशक में अमेरिकी कंपनी Pratt & Whitney के इंजीनियरों ने सोचा,"
+    },
+    {
+     "vo": "अगर ब्लेड में ये जोड़ ही न हों, तो फिसलेगा क्या?",
+     "prompt": "An engineer's hand turning a turbine blade under a lamp, its grain pattern catching the light, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पहले उन्होंने दानों को लंबी सीधी पट्टियों में जमाया, ब्लेड की लंबाई के साथ।",
+     "prompt": "An etched turbine blade with long straight grains running from root to tip like wood grain, lying on a lab bench, bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "फिर अगला क़दम: पूरा ब्लेड एक ही दाने का, यानी एक ही क्रिस्टल. इसे सिंगल क्रिस्टल ब्लेड कहते हैं।",
+     "prompt": "Two blades on a bench: on the left an older etched blade with visible grains, on the right a single-crystal blade with one smooth uniform surface, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "फिर अगला क़दम: पूरा ब्लेड एक ही दाने का, यानी एक ही crystal. इसे single crystal blade कहते हैं।"
+    },
+    {
+     "vo": "उन्नीस सौ अस्सी के दशक से ऐसे ब्लेड हवाई जहाज़ों में लगने लगे। आज लगभग हर बड़े इंजन की पहली कतार में यही हैं।",
+     "prompt": "A 1980s widebody airliner seen from its left side, nose on the right, parked on a runway at dusk, engines glowing faintly, period airport, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "1980 के दशक से ऐसे ब्लेड हवाई जहाज़ों में लगने लगे। आज लगभग हर बड़े इंजन की पहली कतार में यही हैं।"
+    },
+    {
+     "vo": "पर पिघली धातु हर तरफ़ से, एक साथ, कई दानों में जमना चाहती है।",
+     "prompt": "Cooling metal inside a ceramic mould with many frost-like crystals growing from the edges inward, glowing orange, close-up cutaway, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसलिए साँचे को गरम भट्टी से बहुत धीरे नीचे खींचते हैं, घंटे में बस कुछ सेंटीमीटर।",
+     "prompt": "A tall vacuum casting furnace, a ceramic mould slowly lowering out of its glowing hot zone on a chilled plate, two Indian operators in heat suits watching, warm glow, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "धातु नीचे से ऊपर की तरफ़ जमती है, एक ही दिशा में।",
+     "prompt": "A cutaway of a ceramic mould with solid grey metal at the bottom and glowing molten orange metal at the top, an arrow pointing upward, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "साँचे के नीचे सुअर की पूँछ जैसा घुमावदार स्पाइरल होता है। उसमें कई दाने बढ़ते हैं, पर मोड़ों से बस एक निकल पाता है।",
+     "prompt": "A freshly cast blade with a small corkscrew-shaped spiral of metal attached at its base, etched so a single grain is visible winding up through its turns, bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "साँचे के नीचे सुअर की पूँछ जैसा घुमावदार spiral होता है। उसमें कई दाने बढ़ते हैं, पर मोड़ों से बस एक निकल पाता है।"
+    },
+    {
+     "vo": "वही एक दाना बढ़कर पूरा ब्लेड बनता है। इसीलिए एक ब्लेड को जमने में ही घंटों लगते हैं।",
+     "prompt": "A finished single-crystal blade rising from the spiral at its base, smooth and uniform, lit softly, plain dark background, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "मोम से धातु तक",
+   "shots": [
+    {
+     "vo": "सबसे पहले ब्लेड का हूबहू पुतला मोम से बनाया जाता है।",
+     "prompt": "An Indian worker lifting a pale wax turbine blade out of a precision metal die, factory bench, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये तरीका नया नहीं। मोहनजोदड़ो की 'डांसिंग गर्ल' भी ऐसे ही ढली थी।",
+     "prompt": "The small bronze Dancing Girl statuette from Mohenjo-daro in a glass museum case, soft spotlight, a large flat museum label beside it reading \"DANCING GIRL\", medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "करीब साढ़े चार हज़ार साल पहले। बस्तर के ढोकरा कारीगर आज भी यही करते हैं।",
+     "prompt": "A Dhokra artisan, an Indian man in a white dhoti, pouring molten brass into a clay mould in a Bastar village, small wax figures laid out on a mat beside him, evening light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "करीब 4,500 साल पहले। बस्तर के ढोकरा कारीगर आज भी यही करते हैं।"
+    },
+    {
+     "vo": "पर ब्लेड अंदर से खोखला चाहिए, हवा के टेढ़े-मेढ़े रास्तों के साथ।",
+     "prompt": "A turbine blade sliced lengthwise on a lab bench, showing winding hollow channels inside, bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसके लिए सिरेमिक की पतली, नाज़ुक कोर बनती है, उन्हीं रास्तों के आकार की।",
+     "prompt": "A delicate white ceramic core shaped like a blade's inner channels, held with tweezers in a gloved hand, bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसके लिए ceramic की पतली, नाज़ुक core बनती है, उन्हीं रास्तों के आकार की।"
+    },
+    {
+     "vo": "कोर को साँचे में रखकर उसके चारों ओर मोम ढाला जाता है।",
+     "prompt": "A ceramic core placed inside an open die, hot wax flowing around it, factory bench, bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "core को साँचे में रखकर उसके चारों ओर मोम ढाला जाता है।"
+    },
+    {
+     "vo": "फिर कई मोम के ब्लेड एक पेड़ की तरह जोड़े जाते हैं।",
+     "prompt": "A cluster of wax turbine blades attached to a central wax stem like branches of a tree, on a shelf with a large flat label reading \"WAX PATTERNS\", bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इस पेड़ को सिरेमिक के गाढ़े घोल में डुबाते हैं, फिर बारीक रेत छिड़कते हैं।",
+     "prompt": "A robot arm dipping a wax tree of blades into a vat of creamy ceramic slurry, a stream of fine sand falling on it, bright factory light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इस पेड़ को ceramic के गाढ़े घोल में डुबाते हैं, फिर बारीक रेत छिड़कते हैं।"
+    },
+    {
+     "vo": "एक परत सूखती है, फिर अगली। ऐसी कई परतें, कई दिनों में।",
+     "prompt": "Rows of grey ceramic-coated moulds hanging to dry in a humidity-controlled room, bright even light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "फिर भाप से मोम पिघलाकर बाहर निकाल देते हैं। बचता है ब्लेड के आकार का खोखला साँचा।",
+     "prompt": "A steam autoclave opening, melted wax dripping out of ceramic shells into a tray, white steam, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "साँचा भट्टी में पकाया जाता है, ताकि वो पत्थर जैसा मज़बूत हो जाए।",
+     "prompt": "Ceramic moulds glowing orange inside a firing kiln, an Indian worker in heat gloves and apron at the open door, orange glow, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अब पिघली सुपरअलॉय डाली जाती है, वैक्यूम में। ऑक्सीजन धातु को ख़राब कर देती।",
+     "prompt": "Molten alloy pouring from a crucible into a mould inside a vacuum furnace, viewed through a thick round window, bright orange glow, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अब पिघली superalloy डाली जाती है, vacuum में। ऑक्सीजन धातु को ख़राब कर देती।"
+    },
+    {
+     "vo": "धातु जमने के बाद सिरेमिक खोल तोड़ा जाता है। अंदर की कोर गरम केमिकल में घोलकर निकलती है।",
+     "prompt": "An Indian worker knocking off a cracked ceramic shell from a metal blade with a hammer, shining blades underneath, a steaming chemical tank behind him, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "धातु जमने के बाद ceramic खोल तोड़ा जाता है। अंदर की core गरम केमिकल में घोलकर निकलती है।"
+    },
+    {
+     "vo": "अब हाथ में है धातु का ब्लेड। पर ये अब भी आग में नहीं टिकेगा।",
+     "prompt": "A raw cast metal blade in a gloved hand, dull grey surface, orange flame reflected faintly behind it, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "हवा की ढाल",
+   "shots": [
+    {
+     "vo": "तो ब्लेड बचे कैसे?",
+     "prompt": "A single turbine blade surrounded by orange flame, its surface still intact, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "जवाब है, ब्लेड को अंदर से ठंडा रखना।",
+     "prompt": "A sliced blade on a lab table showing its hollow cooling channels clearly, bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कंप्रेसर से हवा का एक हिस्सा अलग निकाला जाता है, आग से बचाकर।",
+     "prompt": "An engine cutaway showing a side duct branching from the compressor and curving around the combustion chamber, arrows showing air flow, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "compressor से हवा का एक हिस्सा अलग निकाला जाता है, आग से बचाकर।"
+    },
+    {
+     "vo": "ये हवा भी कई सौ डिग्री गर्म होती है, पर आग के आगे ठंडी है।",
+     "prompt": "A metal duct glowing dull red next to a brilliant white flame inside an engine test model, clear contrast between the two, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये ब्लेड के अंदर के उन्हीं टेढ़े रास्तों से गुज़रती है, जो कोर ने बनाए थे।",
+     "prompt": "A transparent model of a turbine blade on a display stand with visible winding inner passages, blue arrows showing air inside, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये ब्लेड के अंदर के उन्हीं टेढ़े रास्तों से गुज़रती है, जो core ने बनाए थे।"
+    },
+    {
+     "vo": "फिर ब्लेड की सतह के बारीक छेदों से बाहर निकलती है।",
+     "prompt": "A turbine blade surface covered in rows of tiny round holes, thin streams of air flowing out of them, macro close-up, bright light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये छेद लेज़र या बिजली की चिंगारी से बनते हैं। हर छेद करीब आधा मिलीमीटर।",
+     "prompt": "A laser drilling machine shooting a bright beam at a turbine blade, small sparks, a flat card on the machine reading \"0.5 mm\", bright workshop light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये छेद laser या बिजली की चिंगारी से बनते हैं। हर छेद करीब आधा मिलीमीटर।"
+    },
+    {
+     "vo": "एक ब्लेड पर सैकड़ों तक छेद हो सकते हैं, हर एक सही कोण पर।",
+     "prompt": "An Indian inspector in a white coat holding a magnifier over rows of angled cooling holes along a blade's edge, bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बाहर निकली हवा ब्लेड पर पतली परत बना लेती है। आग सीधे छू नहीं पाती।",
+     "prompt": "A blade in orange flame with a thin cool layer of blue air hugging its surface, the flame held just off the metal, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ऊपर से सिरेमिक की कोटिंग चढ़ती है, एक मिलीमीटर से भी पतली।",
+     "prompt": "A blade inside a coating chamber, a fine white ceramic layer being sprayed onto it, blue glow, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ऊपर से ceramic की कोटिंग चढ़ती है, एक मिलीमीटर से भी पतली।"
+    },
+    {
+     "vo": "ये कोटिंग धातु तक पहुँचने वाली गर्मी सौ डिग्री या उससे भी ज़्यादा घटा देती है।",
+     "prompt": "Two blades side by side on a bench, the left one bare grey metal, the right one with a smooth off-white ceramic coat, bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर इस ठंडक का भी दाम है। जो हवा ब्लेड बचाती है, वो आग में जलकर धक्का नहीं देती।",
+     "prompt": "An Indian engineer at a desk comparing two cooled turbine blades with different hole patterns, test reports spread beside them, warm desk lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "जाँच और कीमत",
+   "shots": [
+    {
+     "vo": "अब हर ब्लेड का एक्स-रे होता है, कि अंदर कोई बुलबुला या बाल जितनी दरार भी न हो।",
+     "prompt": "A turbine blade on an X-ray inspection turntable inside a lead-lined booth, an Indian technician outside the window watching a screen, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अब हर ब्लेड का X-ray होता है, कि अंदर कोई बुलबुला या बाल जितनी दरार भी न हो।"
+    },
+    {
+     "vo": "एचिंग करके देखा जाता है कि पूरा ब्लेड सच में एक ही क्रिस्टल है।",
+     "prompt": "A metallurgist, an Indian woman in a white coat, holding an etched blade under a bright lamp, examining its surface for grain lines, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "etching करके देखा जाता है कि पूरा ब्लेड सच में एक ही crystal है।"
+    },
+    {
+     "vo": "एक भी गड़बड़, तो ब्लेड रिजेक्ट। कई ब्लेड इसी जाँच में बाहर हो जाते हैं।",
+     "prompt": "A bin full of rejected turbine blades beside an inspection desk, a large flat label on the bin reading \"REJECT\", bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पास होने वालों का हीट ट्रीटमेंट, जड़ की बारीक मशीनिंग, और फिर दोबारा जाँच।",
+     "prompt": "A CNC grinding machine shaping the root of a turbine blade, coolant spray, an Indian operator in safety glasses beside it, bright workshop light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पास होने वालों का heat treatment, जड़ की बारीक machining, और फिर दोबारा जाँच।"
+    },
+    {
+     "vo": "मोम के पुतले से तैयार ब्लेड तक, ये सफ़र कई हफ़्तों से महीनों तक चलता है।",
+     "prompt": "A long factory corridor of stations with wax, ceramic, furnace and inspection areas, a single blade on a tray moving along a conveyor in the foreground, bright light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "धातु भी सस्ती नहीं। इसमें रेनियम मिलाया जाता है, जो क्रीप को और रोकता है।",
+     "prompt": "Small silvery rhenium pellets in a glass dish on a lab balance, a flat label on the dish reading \"RHENIUM\", bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "धातु भी सस्ती नहीं। इसमें रेनियम मिलाया जाता है, जो creep को और रोकता है।"
+    },
+    {
+     "vo": "पूरी दुनिया में हर साल बस करीब साठ टन रेनियम निकलता है।",
+     "prompt": "A small heap of grey rhenium powder in a steel tray inside a refinery, a worker in a mask weighing it on a scale, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पूरी दुनिया में हर साल बस करीब 60 टन रेनियम निकलता है।"
+    },
+    {
+     "vo": "इसका सबसे बड़ा हिस्सा चिली की ताँबे-मॉलिब्डेनम खदानों के उप-उत्पाद से निकलता है।",
+     "prompt": "A huge open-pit copper mine in Chile's Atacama desert, terraced walls, giant haul trucks looking tiny on the winding roads, bright desert sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "रेनियम और पूरी प्रक्रिया की वजह से एक ब्लेड की कीमत लाखों रुपये तक पहुँच जाती है।",
+     "prompt": "A single turbine blade resting in a foam-lined protective case like jewellery, soft spotlight, plain dark background, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और एक बड़ा जेट इंजन करीब तीन सौ करोड़ रुपये तक का होता है।",
+     "prompt": "A giant jet engine on a transport stand being moved in a hangar, workers dwarfed beside it, a large flat price card on the stand reading \"₹300 करोड़\", bright light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "और एक बड़ा जेट इंजन करीब 300 करोड़ रुपये तक का होता है।"
+    },
+    {
+     "vo": "आज ये ब्लेड अमेरिका, ब्रिटेन, फ़्रांस, रूस जैसे गिने-चुने देशों में बनते हैं।",
+     "map": {
+      "center": [
+       50,
+       -20
+      ],
+      "span": 90,
+      "from_span": 140,
+      "countries": [
+       {
+        "iso": "USA",
+        "label": "अमेरिका",
+        "color": "teal"
+       },
+       {
+        "iso": "GBR",
+        "label": "ब्रिटेन",
+        "color": "teal"
+       },
+       {
+        "iso": "FRA",
+        "label": "फ़्रांस",
+        "color": "teal"
+       },
+       {
+        "iso": "RUS",
+        "label": "रूस",
+        "color": "teal"
+       }
+      ]
+     }
+    },
+    {
+     "vo": "ये तकनीक कोई देश आसानी से नहीं बाँटता। इसे सालों की नाकामी से सीखना पड़ता है। तो भारत ने ये सबक कैसे सीखा?",
+     "prompt": "Indian engineers in a quiet research lab late at night, notebooks and failed blade castings on the table, warm lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "भारत की दौड़",
+   "shots": [
+    {
+     "vo": "उन्नीस सौ छियासी में बेंगलुरु की डी आर डी ओ लैब जी टी आर ई ने कावेरी इंजन पर काम शुरू किया।",
+     "prompt": "The gate of a government engine research establishment in Bengaluru, Indian engineers walking in, a large flat gate board turned toward the camera reading \"GTRE\", bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "1986 में बेंगलुरु की DRDO लैब GTRE ने कावेरी इंजन पर काम शुरू किया।"
+    },
+    {
+     "vo": "मक़सद था, भारत के अपने फाइटर जेट तेजस को अपना इंजन देना।",
+     "prompt": "An Indian Tejas light fighter jet seen exactly from its left side, nose on the right, parked on a tarmac, ground crew walking around it, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर कावेरी उतना धक्का नहीं दे पाया, जितना तेजस को चाहिए था।",
+     "prompt": "A jet engine running on an Indian test bed, two Indian engineers behind glass looking at each other with tired faces, bright test cell light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "सबसे मुश्किल हिस्से वही गर्म हिस्से थे, जहाँ टरबाइन और उसके ब्लेड हैं।",
+     "prompt": "Indian engineers in a workshop examining a heat-discoloured turbine section removed from a test engine, blue-brown burn marks on the blades, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "सबसे मुश्किल हिस्से वही गर्म हिस्से थे, जहाँ turbine और उसके ब्लेड हैं।"
+    },
+    {
+     "vo": "इसलिए आज तेजस में अमेरिकी कंपनी जी ई का एफ़ चार सौ चार इंजन लगा है।",
+     "prompt": "A jet engine being slid into the rear of a Tejas fighter in an Indian hangar, two technicians guiding it, bright hangar light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसलिए आज तेजस में अमेरिकी कंपनी GE का F404 इंजन लगा है।"
+    },
+    {
+     "vo": "पर काम रुका नहीं। हैदराबाद की डी आर डी ओ लैब डी एम आर एल ब्लेड पर जुटी रही।",
+     "prompt": "The gate of a government research laboratory in Hyderabad, Indian scientists walking in, a large flat gate board turned toward the camera reading \"DMRL\", bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पर काम रुका नहीं। हैदराबाद की DRDO लैब DMRL ब्लेड पर जुटी रही।"
+    },
+    {
+     "vo": "दो हज़ार तेईस में डी एम आर एल ने हेलिकॉप्टर इंजन के लिए सिंगल क्रिस्टल ब्लेड बनाकर दिए।",
+     "prompt": "Indian scientists in white lab coats holding up finished single-crystal turbine blades, proud faces, lab background, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "2023 में DMRL ने हेलिकॉप्टर इंजन के लिए single crystal ब्लेड बनाकर दिए।"
+    },
+    {
+     "vo": "अलग से, जून दो हज़ार तेईस में जी ई और एच ए एल ने भारत में एफ़ चार सौ चौदह इंजन बनाने का एम ओ यू किया।",
+     "prompt": "An Indian factory gate with engineers in safety vests walking past, a large flat gate board turned toward the camera reading \"HAL\", bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अलग से, जून 2023 में GE और HAL ने भारत में F414 इंजन बनाने का MoU किया।"
+    },
+    {
+     "vo": "अगला सपना है, अपने फाइटर जेट का पूरा इंजन, ख़ुद भारत में।",
+     "prompt": "An Indian fighter jet seen from its left side, nose on the right, taking off at sunrise, afterburner glowing orange, ground crew watching from a distance, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "अगली बार एयरपोर्ट पर इंजन के पीछे हवा काँपती दिखेगी। उसी इंजन के अंदर ये ब्लेड आग से लड़ रहे हैं।",
+     "prompt": "An Indian airport runway at dusk, a jet waiting to take off, heat haze visibly rippling behind its engine, view from the terminal window, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अगले एपिसोड में: हवाई जहाज़ सीधे की जगह घुमावदार रास्ते से क्यों उड़ते हैं?",
+     "prompt": "An airliner seen from its left side high above the clouds at sunset, a contrail curving gently behind it, orange sky, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ऐसे ही गज़ब सवालों के लिए सब्सक्राइब करें।",
+     "prompt": "The fan of a jet engine at night under hangar lights, calm and gleaming, sharp focus on the blades, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  }
+ ],
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "system",
+  "points": [
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "framework": "2026-11-14 18:15"
+}
