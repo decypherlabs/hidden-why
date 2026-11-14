@@ -959,16 +959,136 @@
     },
     {
      "vo": "Overnight, British shoppers stopped buying eggs, and sales fell by around half within weeks.",
-     "prompt": "A card reading \"EGGS HALF PRICE\" large, flat and facing the camera in the foreground, behind it shelves of unsold egg boxes and no customers in a small shop, 1988 British grocery, grey winter light, medium shot",
+     "prompt": "A card reading \"EGGS HALF PRICE\" large, flat and facing the camera in the foreground, behind it shelves of unsold egg boxes and no customers in a small old-fashioned shop, plain bare walls with no other signs, 1988 British grocery, dim grey winter light through a dusty window, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
      "words": {
       "39": {
-       "src": "36fa6130f1eb",
-       "items": []
+       "src": "f9ccc1895686",
+       "items": [
+        {
+         "text": "EGGS HALF PRICE",
+         "grid": [
+          [
+           [
+            478.4,
+            400.5
+           ],
+           [
+            568.4,
+            401.9
+           ],
+           [
+            660.3,
+            403.0
+           ],
+           [
+            752.5,
+            403.8
+           ],
+           [
+            843.4,
+            404.2
+           ],
+           [
+            936.1,
+            404.4
+           ],
+           [
+            1029.1,
+            404.2
+           ]
+          ],
+          [
+           [
+            475.0,
+            510.3
+           ],
+           [
+            567.4,
+            512.3
+           ],
+           [
+            661.6,
+            513.8
+           ],
+           [
+            756.2,
+            514.8
+           ],
+           [
+            849.4,
+            515.2
+           ],
+           [
+            944.5,
+            515.0
+           ],
+           [
+            1039.8,
+            514.3
+           ]
+          ],
+          [
+           [
+            471.5,
+            625.9
+           ],
+           [
+            566.2,
+            628.6
+           ],
+           [
+            663.0,
+            630.5
+           ],
+           [
+            760.0,
+            631.7
+           ],
+           [
+            855.7,
+            632.0
+           ],
+           [
+            953.3,
+            631.5
+           ],
+           [
+            1051.0,
+            630.2
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#c01818",
+         "corners": [
+          [
+           444,
+           329
+          ],
+          [
+           1059,
+           329
+          ],
+          [
+           1100,
+           716
+          ],
+          [
+           429,
+           712
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
       }
      },
-     "seed": 16877
+     "seed": 24796
     },
     {
      "vo": "Farmers were furious, lawsuits were threatened, and on December 16, Currie resigned from the government.",
@@ -1432,13 +1552,13 @@
    39
   ],
   "thumbs": [],
-  "at": "2026-11-15 02:54"
+  "at": "2026-11-15 03:24"
  },
  "shot_qc": {
-  "checked": "2026-11-14T21:23:17Z",
-  "rounds": 2,
+  "checked": "2026-11-14T21:52:31Z",
+  "rounds": 3,
   "why": {
-   "39": "no blank surface for its words"
+   "39": "The painted sign on the back wall reads \"Stglert\", which is gibberish lettering big enough to notice. The shop also looks modern and brightly lit, not like a grey-light 1988 grocery."
   },
   "recheck": [
    "39"
