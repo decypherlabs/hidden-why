@@ -1,0 +1,466 @@
+{
+ "slug": "25-tax-rule-malls",
+ "build": "github",
+ "title": "Why America Built 1,500 Malls Just to Let Them Die",
+ "thumbnail": {
+  "layout": "split",
+  "left_label": "1966",
+  "right_label": "2026",
+  "text": "WASHINGTON *PAID* FOR THIS",
+  "plane": "Realistic painting, interior of a two-level enclosed American shopping mall in 1966, bright daylight pouring through a large skylight, a crowded central fountain court, shoppers in 1960s clothes, lit storefronts, potted palms, centred and large, clean composition, no text, no logos, no brands, no signage",
+  "right": "Realistic painting, the same two-level enclosed American shopping mall in 2026, bright daylight through a cracked skylight, the central fountain dry and empty, dark storefronts with bare windows, a stopped escalator, not a single person, centred and large, clean composition, no text, no logos, no brands, no signage"
+ },
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "words_in_edit": true,
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "cause",
+  "points": null
+ },
+ "music": {
+  "reflective": [
+   "cold_open",
+   "ch1",
+   "ch2",
+   "ch5",
+   "outro"
+  ],
+  "intense": [
+   "ch3",
+   "ch4"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "You're standing in a mall food court, and half the counters are dark.",
+     "prompt": "A nearly empty American mall food court with half the counters shut behind metal grilles, a lone janitor with a mop far off, rows of empty tables in the foreground, flat fluorescent light, plain blank signboards, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1985, you waited twenty minutes just to find a table here.",
+     "prompt": "A crowded 1985 American mall food court with every table full, teenagers with big hair and denim jackets eating from trays, a few people standing and searching for a seat, all counters open, warm bright light, plain blank signboards, wide shot",
+     "title": "In *1985*",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Today the fountain is dry, and the escalator hasn't moved in years.",
+     "prompt": "A dry tiled fountain basin with dusty scattered coins in the centre, a stopped escalator rising behind it, empty enclosed American mall, grey daylight from a dirty skylight, sharp focus, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But here's what nobody told you: Washington paid to build them.",
+     "prompt": "The United States Capitol dome seen from the National Mall at dusk, warm lights in its windows, deep blue sky, a few tiny silhouettes walking on the lawn, wide shot",
+     "title": "*Washington* paid",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A 1954 tax rule made a new mall cheaper than a full old one.",
+     "prompt": "A 1950s mechanical adding machine on an accountant's desk, a thick open ledger and a fountain pen beside it, a wall calendar above with a page reading \"1954\", warm desk lamp light, other papers plain blank, medium shot",
+     "title": "*1954* tax rule",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Blame Congress, a Viennese architect, and the year 1986.",
+     "prompt": "A 1950s architect in a suit and round glasses leaning over a drafting table spread with blank building plans, a window behind him showing open snowy farmland, a small scale model of a long low building on the table, soft daylight, medium shot",
+     "title": "Year *1986*",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It started in Washington, in the summer of 1954.",
+     "prompt": "A 1950s Washington street in summer, men in hats and light suits walking past large white government buildings with columns, a few 1950s cars parked at the curb, bright hazy sunlight, plain blank signs, wide shot",
+     "title": "Summer of *1954*",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "THE 1954 LOOPHOLE",
+   "shots": [
+    {
+     "vo": "On August 16, 1954, President Eisenhower signed the Internal Revenue Code, a top-to-bottom rewrite of American taxes.",
+     "prompt": "A man in a grey suit signing a thick bound document at a large wooden desk, fountain pen touching the page, officials in suits standing behind him, a flag in the corner, 1950s formal office, soft window light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Buried inside was a small change about depreciation, the way a business deducts the slow wearing-out of a building.",
+     "prompt": "A hand marking a page with a pencil in a thick bound 1950s law book open on a library table, a drawing of a small building beside it, reading lamp, dust in the light, pages plain blank, close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Before 1954, a store building was written off evenly, a little each year, over about forty years.",
+     "prompt": "An older shopkeeper sweeping the doorway of a small-town brick store, a large flat shop board above the door reading \"HARDWARE\", early 1950s main street, calm afternoon light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The new rule let owners of brand-new buildings claim up to twice as much in the early years.",
+     "prompt": "A brand-new 1950s commercial building of fresh concrete and glass, construction workers in hard hats pulling away the last scaffolding poles, a stack of coins on a sign-free ledge in the foreground, bright morning sun, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The idea was to help factories buy modern machines and keep the postwar economy humming.",
+     "prompt": "Workers in overalls and caps tending new gleaming machines on a 1950s American factory floor, sparks and steam rising, shafts of light from high windows, one machine large in the foreground, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But the rule covered any new commercial building, and it only worked for new ones, never for old ones.",
+     "prompt": "An old weathered brick store on the left beside a shiny newly built glass-and-steel store on the right, two 1950s buildings side by side on a town street, midday sun, plain blank signboards, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A developer could build a mall and show the tax office a loss in the very first year.",
+     "prompt": "A 1950s developer in a sharp suit and hat standing on a muddy construction site, steel frame of a large low building rising behind him, cranes, a rolled blueprint in his hand, late afternoon light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "That meant a building could show a loss on paper while it was actually making its owner money.",
+     "prompt": "A man in a suit counting thick stacks of dollar bills at a desk, an open blank ledger beside him, a small model of a building on the desk, 1950s office, venetian blind shadows, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "And that paper loss could be subtracted from other income, so doctors and dentists suddenly wanted in.",
+     "prompt": "A 1950s doctor in a white coat sitting at his office desk, leaning toward a man in a suit who holds out a folder, framed diploma on the wall, warm light, papers plain blank, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Would you have bought a slice of a shopping center to pay less tax? Thousands of investors did.",
+     "prompt": "Men in 1950s suits around a table in a wood-panelled room, all leaning over a large architectural model of a low shopping center, cigarette smoke, warm lamp light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "There was just one problem: nobody had yet built the building all this money would fall in love with.",
+     "prompt": "An empty snowy field at the edge of a 1950s Minnesota town, a single wooden surveyor's stake with a red ribbon large in the foreground, distant houses, grey winter sky, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "GRUEN'S TOWN SQUARE",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "subscribe_ask": true,
+     "prompt": "A young European man in a worn overcoat holding one small suitcase, standing on a New York pier in 1938, a big ocean liner behind him, cold morning light, medium shot",
+     "seed": 1500,
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Victor Gruen had fled Vienna in 1938, arriving in New York with eight dollars and an architect's degree.",
+     "prompt": "A young European man in a worn overcoat holding one small suitcase, standing on a New York pier in 1938, a big ocean liner behind him, cold morning light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "He missed the old European squares, where people shopped, sat at cafés and ran into neighbors all day long.",
+     "prompt": "A 1930s Vienna town square with café tables under awnings, people chatting and sipping coffee, a stone fountain in the middle, a church spire behind, golden afternoon light, plain blank awnings, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In Edina, Minnesota, a suburb with long, brutal winters, he saw a chance to build one indoors.",
+     "prompt": "A 1950s Minnesota suburban street in deep winter, snow piled high along the road, people bundled in heavy coats leaning into the wind, bare trees, pale low sun, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Gruen counted just 126 ideal shopping days a year there, so he put the whole square under one roof.",
+     "prompt": "An architect at a drafting table in a 1950s studio sketching a large roofed courtyard building, the drawing large in front of him, frosted window behind, lamp light, drawings with no lettering, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "On October 8, 1956, Southdale opened, the first fully enclosed, climate-controlled shopping mall in America.",
+     "prompt": "The exterior of a large modern 1956 mall building on open land, a big sign on the building reading \"SOUTHDALE\", crowds walking in from a packed parking lot of 1950s cars, crisp autumn day, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Inside, a garden court stayed spring all year round, with a goldfish pond, sculptures and a giant birdcage.",
+     "prompt": "The garden court inside a 1956 enclosed mall, a tall ornate birdcage with colourful birds large at the centre, a goldfish pond in front, tropical plants, families in 1950s clothes, skylight daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Crowds packed it from the first morning, and developers flew in from across the country to copy it.",
+     "prompt": "Men in 1950s suits and hats holding notebooks, looking up at two-level balconies inside a busy mall court, shoppers around them, bright interior light, notebooks plain blank, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But Gruen's plan was bigger: apartments, schools, a medical center, offices and a park would ring the mall.",
+     "prompt": "A large 1950s architectural model on a table showing a mall ringed by apartment blocks, a school, a hospital and a park with a lake, an architect's hand pointing at it, soft studio light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Those were never built, and almost none of the copies included them either, only the stores and the parking.",
+     "prompt": "Aerial view of a 1960s American mall standing alone in farmland, surrounded only by a huge parking lot full of cars, no houses nearby, bright summer day, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Why build half a town? Because the tax rule paid best for one thing, and it wasn't a neighborhood.",
+     "prompt": "A 1960s developer in a suit standing at the edge of a massive parking lot looking at his low mall, empty fields beyond, long evening shadows, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "BUILT FOR THE WRITE-OFF",
+   "shots": [
+    {
+     "vo": "In 1996, historian Thomas Hanchett published a study asking why America built shopping centers so fast after 1954.",
+     "prompt": "A historian in a 1990s university archive reading old bound records at a long table, boxes of files stacked around him, green desk lamp, pages plain blank, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "He found the boom tracked the tax rule more closely than it tracked where people were actually moving.",
+     "prompt": "A half-built 1960s American suburb, a few new houses on a bare street in the foreground, a large finished shopping center beyond them, flat midday light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Developers put malls in cornfields at highway exits, sometimes years before there were enough homes to fill them.",
+     "prompt": "A new 1960s mall rising beside a cornfield at a highway exit, bulldozers in the mud, corn stalks in the foreground, no houses around, late summer light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The Interstate Highway Act of 1956 handed them forty-one thousand miles of new roads and exits to choose from.",
+     "prompt": "A freshly built 1950s interstate highway cutting through open countryside, a new cloverleaf exit, a few 1950s cars, wide blue sky, plain blank road signs, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Here's the catch: the big deductions came in the first years, then shrank to almost nothing.",
+     "prompt": "A tired 1960s accountant in shirtsleeves loosening his tie at a desk piled with folders, an ashtray full beside him, dusk light through blinds, papers plain blank, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So after about seven years, an owner made more by selling the mall, or building a newer one nearby.",
+     "prompt": "Two businessmen in 1960s suits shaking hands in front of a mall entrance, a paper sign on the glass door reading \"FOR SALE\", bright afternoon, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Fixing up an old mall earned a small write-off, while a brand-new mall down the road earned a big one.",
+     "prompt": "A worn 1960s mall with faded paint on the left, and across a highway a gleaming new mall under construction with cranes on the right, evening light, plain blank signboards, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A mall wasn't just a place to shop anymore; for its owners it was a machine for not paying taxes.",
+     "prompt": "A wealthy 1960s investor in a dark suit standing on a balcony overlooking a busy mall court, shoppers tiny below, hands on the railing, dramatic overhead light, plain blank signs, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Between 1956 and 2005, America built roughly fifteen hundred enclosed malls, about one every twelve days.",
+     "prompt": "Aerial view of a sprawling American suburb with three large malls at different highway exits, rooftops and parking lots stretching to the horizon, hazy summer light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "And every new one was built to pull shoppers away from the one that opened ten years before.",
+     "prompt": "A 1970s family loading shopping bags into a station wagon outside a shiny new mall, an older mall faintly visible down the highway, golden hour, plain blank signboards, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "THE MALL NEXT DOOR",
+   "shots": [
+    {
+     "vo": "In Harvey, Illinois, Dixie Square Mall opened in 1966 and drew shoppers from all over Chicago's south suburbs.",
+     "prompt": "A busy 1966 suburban Illinois mall exterior, a big sign on the building reading \"DIXIE SQUARE\", families with shopping bags, 1960s cars in the lot, sunny day, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Newer malls opened around it, shoppers drifted away, and by 1978 the whole place had closed.",
+     "prompt": "A late-1970s mall entrance with glass doors wrapped in a heavy chain and padlock, a paper notice taped to the door reading \"CLOSED\", leaves blowing across an empty lot, grey sky, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A year later, a movie crew drove police cars straight through its empty halls for The Blues Brothers.",
+     "prompt": "Two 1970s police cars driving through an abandoned mall corridor with glass flying, a film crew with a large camera standing at the side, dramatic light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Dixie Square sat abandoned for more than thirty years before it was finally torn down in 2012.",
+     "prompt": "A ruined abandoned mall interior with collapsed ceiling tiles, vines on bare walls, puddles reflecting light from holes in the roof, an excavator at the far end, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Shoppers didn't vanish; they just followed the newest mall a few exits further down the highway.",
+     "prompt": "A line of 1980s cars on a highway exit ramp heading toward a big new mall, its lights glowing, sunset behind, plain blank road signs, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "And America was already building more space than it could ever fill.",
+     "prompt": "A row of three faded mall storefronts in a small American town, empty dusty windows, a lone pigeon on the sidewalk, flat overcast light, plain blank signboards, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "By 2017, analysts estimated America had about twenty-three square feet of shopping space for every person.",
+     "prompt": "An enormous empty parking lot stretching to the horizon in front of a huge low mall, rows of light poles, a single parked car, wide sky, midday sun, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Australia had about eleven, and Britain under five, so why does America need so much more?",
+     "prompt": "A narrow British high street with small shops under apartments, people walking on the pavement, a red post box in the foreground, soft daylight, plain blank shop boards, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Victor Gruen saw it coming, and in a 1978 speech in London he disowned what his idea had become.",
+     "prompt": "An elderly man with white hair and glasses speaking at a wooden lectern in a 1970s lecture hall, audience as dark silhouettes, a single spotlight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "He refused, he said, to pay alimony for those bastard developments, the malls built without the town.",
+     "prompt": "Close-up of an elderly man's stern and sad face, one hand raised mid-sentence, white hair, glasses, warm stage light against a dark background",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then, eight years later, Washington finally changed the rule that had kept the whole machine running.",
+     "prompt": "The United States Capitol dome at night, lights on in the windows, a light rain falling on the wide steps, a few tiny silhouettes with umbrellas, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "1986 PULLS THE PLUG",
+   "shots": [
+    {
+     "vo": "On October 22, 1986, President Reagan signed the Tax Reform Act, and the fast write-off for buildings ended.",
+     "prompt": "A man in a dark suit signing a bill on a podium with a banner reading \"TAX REFORM\", lawmakers standing behind him on a White House lawn, bright autumn sunshine, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Commercial buildings now had to be written off slowly over thirty-one and a half years, the same every year.",
+     "prompt": "A 1980s accountant in a cardigan at a desk with a big desk calculator printing a long paper roll, a wall calendar page reading \"1987\", office window light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "New limits also stopped most investors from using paper losses on property to cancel out their other income.",
+     "prompt": "A 1980s doctor at his desk frowning at a letter in his hands, reading glasses pushed up on his forehead, a framed family photo beside him, lamp light, letter plain blank, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Mall building slowed, but America was already left with far more stores than its shoppers could ever fill.",
+     "prompt": "A 1990s American mall corridor with half the shops lit and half dark behind metal grilles, a few shoppers walking, fluorescent light, plain blank signboards, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then came big-box stores, the 2008 crash and online shopping, each hitting malls that were already too many.",
+     "prompt": "A delivery driver carrying cardboard boxes to a front porch of a suburban American house, a delivery van parked in the driveway, a closed mall visible on the hill behind, autumn afternoon, boxes plain, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 2017, analysts at Credit Suisse predicted that one in four American malls could close within five years.",
+     "prompt": "Workers on a cherry picker lift pulling the letters off a tall sign above a shuttered mall entrance, the sign face plain and mostly bare, grey winter sky, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Some are finding a second life the way Gruen imagined, with homes, clinics and schools moving in.",
+     "prompt": "A former mall converted into a medical clinic and community college, people walking in under a modern glass canopy, trees planted in the old parking lot, bright spring day, plain blank signs, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In Providence, Rhode Island, America's oldest mall, the Arcade from 1828, now rents tiny apartments above its shops.",
+     "prompt": "Interior of a 19th-century Greek Revival shopping arcade with a long glass roof, cast-iron railings on upper balconies lined with apartment doors, a resident carrying groceries up the central walkway, soft daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Gruen's town square was meant to grow old with its neighborhood, not be thrown away after seven years.",
+     "prompt": "An elderly couple sitting on a bench in a quiet sunlit indoor mall court full of plants, a child playing nearby, warm skylight glow, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Would you live in a converted mall, or should the old ones be torn down for good?",
+     "prompt": "A young woman standing at the window of a loft apartment built inside a former mall, looking down at the old atrium below with its balconies and plants, evening light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "So why are America's malls dying? Not only because of online shopping, but because a 1954 tax rule paid owners to build new instead of keeping the old ones full.",
+     "prompt": "A dusk view of an abandoned American mall with a dark empty parking lot in the foreground, and on the horizon the lights of a newer shopping center glowing, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "If your hometown mall died, tell us its name in the comments; next time, why so many American homes have a front lawn nobody uses.",
+     "prompt": "A wide green front lawn of an American suburban house on a sunny morning, a sprinkler running, a quiet street, nobody on the grass, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Subscribe so you never miss the next hidden why.",
+     "prompt": "The restored garden court of an old enclosed mall at golden hour, sunlight through the skylight onto a running fountain, a few people walking, plants and benches, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  }
+ ],
+ "framework": "2026-11-15 00:32"
+}
