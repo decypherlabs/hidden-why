@@ -297,9 +297,10 @@
     },
     {
      "vo": "द्रौपदी लज्जित होकर बोलीं, हे माधव, पात्र में तो एक दाना भी नहीं बचा।",
-     "prompt": "Draupadi bowing her head, a woman with dark hair, before Lord Krishna, blue-skinned man, hut interior, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Draupadi, a woman with long dark hair in a plain cream sari, on the left, bowing her head in shame and holding an empty copper pot toward Lord Krishna, blue skin, peacock feather crown, yellow dhoti, on the right, who looks kindly at her, hut interior, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8959
     },
     {
      "vo": "यह कथा उस प्रियजन को शेयर कीजिए जो हर संकट में ईश्वर पर भरोसा रखता है।",
@@ -309,9 +310,10 @@
     },
     {
      "vo": "लेकिन तभी श्रीकृष्ण ने वह ताँबे का पात्र स्वयं अपने हाथों में उठा लिया।",
-     "prompt": "Lord Krishna, blue-skinned man, lifting a copper vessel, Draupadi watching, a woman with dark hair, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, lifting a shining copper pot with both hands to chest height, centre, smiling, Draupadi, a woman in a cream sari, small and far behind him watching, hut interior, warm light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8961
     }
    ]
   },
@@ -339,9 +341,10 @@
     },
     {
      "vo": "वे बोले, इससे समस्त यज्ञों के भोक्ता और जगत के आत्मा हरि तृप्त हों।",
-     "prompt": "Lord Krishna, blue-skinned man, with a hand raised in blessing, golden waves of light radiating through the forest, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, holding a copper pot in both hands with eyes closed in prayer, golden waves of light radiating from the pot through the forest, centre, glowing air, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8965
     },
     {
      "vo": "उधर नदी के तट पर स्नान कर रहे दुर्वासा और उनके शिष्यों के पेट एकाएक भर गए।",
@@ -399,9 +402,10 @@
     },
     {
      "vo": "श्रद्धा सच्ची हो, तो परमात्मा सबसे छोटी भेंट से भी पूरी सृष्टि को तृप्त कर देते हैं।",
-     "prompt": "Draupadi and the Pandavas bowing before Lord Krishna, blue-skinned man, in a forest at night, starlight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, standing in the centre with a hand raised in blessing, Draupadi, a woman in a cream sari, and five bearded men in bark-cloth bowing in a line before him as small figures, forest at night, starlight and golden glow, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8974
     },
     {
      "vo": "अगली कथा में जानिए कि महादानी कर्ण ने अपने अभेद्य कवच और कुंडल क्यों दान कर दिए।",
@@ -421,5 +425,32 @@
  "voice_requested": "voice-dk-220-draupadi-akshaya-patra-8800f3a599",
  "voice_ok": "voice-dk-220-draupadi-akshaya-patra-8800f3a599",
  "voice_approved_at": "2026-11-08 08:15",
- "released_at": "2026-11-08 08:15"
+ "released_at": "2026-11-08 08:15",
+ "repaint": {
+  "shots": [
+   40,
+   42,
+   46,
+   55
+  ],
+  "thumbs": [],
+  "at": "2026-11-14 16:33",
+  "by": "owner"
+ },
+ "shot_qc": {
+  "checked": null,
+  "rounds": 1,
+  "why": {
+   "40": "Krishna is duplicated: a blue-skinned Krishna with a flute stands in the background and a second blue, crowned figure in the foreground faces Draupadi, and the hands and flute are tangled. The scene has no copper pot or empty-vessel moment.",
+   "42": "Krishna appears twice, once in the foreground and once as a second blue crowned face behind him. His arm bends oddly over his head, his hands are tangled around a flute, and the copper pot is a muddled blob. He should be lifting the pot with both hands, not playing a flute.",
+   "46": "The close-up shows Krishna holding a flute and raising a palm with garbled lines and fingers. It doesn't match the line, where he speaks a blessing over a vessel or offering, and no offering or pot is shown. The hands are also malformed.",
+   "55": "Krishna is playing a flute, with his hands and flute fused together, among a crowd of merged, overlapping devotees with garbled faces and hands. Nothing shows the small offering or the satisfied cosmos the line describes."
+  },
+  "recheck": [
+   "40",
+   "42",
+   "46",
+   "55"
+  ]
+ }
 }
