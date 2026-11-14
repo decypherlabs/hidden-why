@@ -362,6 +362,29 @@ def photo(ctx, it, t, i, n):
 def stat(ctx, it, t, i, n):
     s = it.get("stat") or {}
     img = backdrop(ctx.L, i, ctx, it)
+    k_i = ctx.items.index(it) if it in ctx.items else 0
+    run = []  # the numbers just before this one stay on screen, small (14 Nov 2026: four stat cards in a row read as a slideshow)
+    for prev in reversed(ctx.items[max(0, k_i - 3):k_i]):
+        if prev.get("kind") != "stat":
+            break
+        run.insert(0, prev.get("stat") or {})
+    if run:
+        lay0 = kit.blank()
+        d0 = ImageDraw.Draw(lay0)
+        f0, l0 = kit.font("BarlowCondensed-Bold", 84), kit.font("Inter", 24)
+        for j, ps in enumerate(run):
+            y0 = 300 + j * 170
+            pv = str(ps.get("value", ""))
+            try:
+                pv = f"{float(ps.get('value')):,.4g}"
+            except (TypeError, ValueError):
+                pass
+            sf = str(ps.get("suffix") or "")
+            pv = str(ps.get("prefix") or "") + pv + ((" " + sf) if sf[:1].isalpha() else sf)
+            d0.text((140, y0), pv, font=f0, fill=(*BONE, 150))
+            d0.text((140, y0 + 92), str(ps.get("label") or "").upper()[:48], font=l0, fill=(150, 156, 160, 160))
+        img = kit.over(img, lay0)
+    cx = W * 0.62 if run else W / 2
     layer = kit.blank()
     d = ImageDraw.Draw(layer)
     v = s.get("value")
@@ -379,14 +402,14 @@ def stat(ctx, it, t, i, n):
     f = kit.font("BarlowCondensed-Bold", 230)
     tw = d.textlength(txt, font=f)
     a = ease_out(t / 0.25)
-    d.text((W / 2 - tw / 2, H / 2 - 210), txt, font=f, fill=(*ctx.L["accent"], int(255 * a)))
+    d.text((cx - tw / 2, H / 2 - 210), txt, font=f, fill=(*ctx.L["accent"], int(255 * a)))
     lab = str(s.get("label") or "").upper()
     lf = kit.font("Inter", 40)
-    d.line([(W / 2 - 300 * c, H / 2 + 70), (W / 2 + 300 * c, H / 2 + 70)], fill=(*ctx.L["accent"], int(255 * a)), width=3)
+    d.line([(cx - 300 * c, H / 2 + 70), (cx + 300 * c, H / 2 + 70)], fill=(*ctx.L["accent"], int(255 * a)), width=3)
     y = H / 2 + 100
-    for ln in wrap(d, lab, lf, W - 400)[:3]:  # a long label wraps instead of running off the frame
+    for ln in wrap(d, lab, lf, min(W - 400, 2 * (W - cx) - 160))[:3]:  # a long label wraps instead of running off the frame
         lw = sum(d.textlength(ch, font=lf) + 40 * 0.08 for ch in ln)
-        kit.spaced(d, (W / 2 - lw / 2, y), ln, lf, (*BONE, int(255 * ease_out((t - 0.3) / 0.4))))
+        kit.spaced(d, (cx - lw / 2, y), ln, lf, (*BONE, int(255 * ease_out((t - 0.3) / 0.4))))
         y += 56
     return kit.over(img, layer)
 
@@ -523,7 +546,11 @@ def timeline(ctx, it, t, i, n):
     dur = max(1.0, it["dur"] - 0.6)
     p = ease_out(t / (dur * 0.85))
     d.line([(x0, y), (x0 + (x1 - x0) * p, y)], fill=(*BONE, 220), width=7)
-    yf, lf = kit.font("BarlowCondensed-Bold", 120), kit.font("Inter", 40)
+    slot = (x1 - x0) / len(ev) - 24
+    ys = 120
+    while ys > 48 and max(d.textlength(yr, font=kit.font("BarlowCondensed-Bold", ys)) for yr, _ in ev) > slot:
+        ys -= 6  # long dates ("Oct 2008") and six events shrink to fit (14 Nov 2026: labels overlapped)
+    yf, lf = kit.font("BarlowCondensed-Bold", ys), kit.font("Inter", 40 if len(ev) <= 4 else 32)
     whens = [(k + 0.5) / len(ev) * dur * 0.85 for k in range(len(ev))]
     latest = sum(w <= t for w in whens) - 1  # the event just reached
     for k, (yr, what) in enumerate(ev):
@@ -539,7 +566,7 @@ def timeline(ctx, it, t, i, n):
             rr = 46 + 8 * np.sin(t * 4)
             d.ellipse((x - rr, y - rr, x + rr, y + rr), outline=(226, 58, 46, int(220 * a)), width=4)
         tw = d.textlength(yr, font=yf)
-        d.text((x - tw / 2, y - 190 - 20 * (1 - a)), yr, font=yf, fill=(*col, int(255 * a)))
+        d.text((x - tw / 2, y - ys - 70 - 20 * (1 - a)), yr, font=yf, fill=(*col, int(255 * a)))
         yy = y + 50
         for ln in wrap(d, what, lf, (x1 - x0) / len(ev) - 30)[:3]:
             lw = d.textlength(ln, font=lf)
