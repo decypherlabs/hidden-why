@@ -11,6 +11,7 @@
   "right": "Realistic painting, the same two-level enclosed American shopping mall in 2026, bright daylight through a cracked skylight, the central fountain dry and empty, dark storefronts with bare windows, a stopped escalator, not a single person, centred and large, clean composition, no text, no logos, no brands, no signage"
  },
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "words_in_edit": true,
@@ -41,14 +42,28 @@
      "vo": "You're standing in a mall food court, and half the counters are dark.",
      "prompt": "A nearly empty American mall food court with half the counters shut behind metal grilles, a lone janitor with a mop far off, rows of empty tables in the foreground, flat fluorescent light, plain blank signboards, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g87b287c4f1c27cb2f8b7d4dcc579bab92380abcfa45176ba670b71876f739a018e026da1a3c597405f7d2b49e0e363950de65349f3ebd67b6c944d55a66a815e_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (HarryJBurgess)",
+      "page": "https://pixabay.com/photos/hallway-corridor-building-lobby-3341001/"
+     }
     },
     {
      "vo": "In 1985, you waited twenty minutes just to find a table here.",
      "prompt": "A crowded 1985 American mall food court with every table full, teenagers with big hair and denim jackets eating from trays, a few people standing and searching for a seat, all counters open, warm bright light, plain blank signboards, wide shot",
      "title": "In *1985*",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gdefa778369430044d5d3eedaccf6171604260e74bcd4ccaee4fc7b8882f412ae22ac01792b84f7cef1725beeb95980d007e42c0fa9e024cc6726941ffe79cdab_1280.jpg",
+      "w": 3456,
+      "h": 2304,
+      "credit": "Pixabay (Goodfreephotos_com)",
+      "page": "https://pixabay.com/photos/dining-court-shopping-mall-corridor-347314/"
+     }
     },
     {
      "vo": "Today the fountain is dry, and the escalator hasn't moved in years.",
@@ -82,7 +97,14 @@
      "prompt": "A 1950s Washington street in summer, men in hats and light suits walking past large white government buildings with columns, a few 1950s cars parked at the curb, bright hazy sunlight, plain blank signs, wide shot",
      "title": "Summer of *1954*",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Syngman_Rhee_addresses_a_joint_session_of_Congress%2C_1954.jpg/1920px-Syngman_Rhee_addresses_a_joint_session_of_Congress%2C_1954.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2450,
+      "h": 2015,
+      "credit": "Syngman Rhee addresses a joint session of Congress, 1954.jpg by Associated Press Wirephoto, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Syngman_Rhee_addresses_a_joint_session_of_Congress,_1954.jpg"
+     }
     }
    ]
   },
@@ -100,7 +122,14 @@
      "vo": "Buried inside was a small change about depreciation, the way a business deducts the slow wearing-out of a building.",
      "prompt": "A hand marking a page with a pencil in a thick bound 1950s law book open on a library table, a drawing of a small building beside it, reading lamp, dust in the light, pages plain blank, close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g4dbc79c60fea2a3f9d01c83d02c2163266f2fab0aee27cf8d078053bc3fb9c2fadcf3e25a28ef21825b94aa74ababd13f2235ef298f4409b0310c1fe412d903e_1280.jpg",
+      "w": 5472,
+      "h": 3648,
+      "credit": "Pixabay (stevepb)",
+      "page": "https://pixabay.com/photos/income-tax-calculator-accounting-4097292/"
+     }
     },
     {
      "vo": "Before 1954, a store building was written off evenly, a little each year, over about forty years.",
@@ -110,39 +139,76 @@
     },
     {
      "vo": "The new rule let owners of brand-new buildings claim up to twice as much in the early years.",
-     "prompt": "A brand-new 1950s commercial building of fresh concrete and glass, construction workers in hard hats pulling away the last scaffolding poles, a stack of coins on a sign-free ledge in the foreground, bright morning sun, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "clip": {
+      "id": 42923,
+      "tags": "construction site, construction workers, construction, worker, site, builder, build, job, truck, man, housebuilding, skyscraper, Vietnam, Phu Tho, Vinh Phuc",
+      "page": "https://pixabay.com/videos/id-42923/"
+     }
     },
     {
      "vo": "The idea was to help factories buy modern machines and keep the postwar economy humming.",
      "prompt": "Workers in overalls and caps tending new gleaming machines on a 1950s American factory floor, sparks and steam rising, shafts of light from high windows, one machine large in the foreground, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g4c9f77ca3849bf185f6292777ad988e5f8f73f5428550be52e0a81db821f021555b4426900a3acde4395b0e9e8c583eaf46a854cc6ba4b270ece87538b4c5e95_1280.jpg",
+      "w": 3488,
+      "h": 2616,
+      "credit": "Pixabay (marcin049)",
+      "page": "https://pixabay.com/photos/company-factory-production-186980/"
+     }
     },
     {
      "vo": "But the rule covered any new commercial building, and it only worked for new ones, never for old ones.",
      "prompt": "An old weathered brick store on the left beside a shiny newly built glass-and-steel store on the right, two 1950s buildings side by side on a town street, midday sun, plain blank signboards, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g635db363328418117acbc2e9984a601a8c13eebe1b6747a84a3bc3ff2ce89162397340d8f7562509124b863a42cf7f4e85ded0ac042f4e7569f8dc5f3305e6bf_1280.jpg",
+      "w": 5281,
+      "h": 4000,
+      "credit": "Pixabay (Anemone123)",
+      "page": "https://pixabay.com/photos/glass-facade-modern-architecture-2512525/"
+     }
     },
     {
      "vo": "A developer could build a mall and show the tax office a loss in the very first year.",
      "prompt": "A 1950s developer in a sharp suit and hat standing on a muddy construction site, steel frame of a large low building rising behind him, cranes, a rolled blueprint in his hand, late afternoon light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/ge6856eeacee4c5a4af8fc8035afcfab1a8abf113963709dfa12db2dd748c31386d602b666cea063dad03f9a64a195953d3a5b31f6217a3aadbcc0552385158b4_1280.jpg",
+      "w": 5472,
+      "h": 3648,
+      "credit": "Pixabay (stevepb)",
+      "page": "https://pixabay.com/photos/income-tax-calculator-accounting-4097292/"
+     }
     },
     {
      "vo": "That meant a building could show a loss on paper while it was actually making its owner money.",
      "prompt": "A man in a suit counting thick stacks of dollar bills at a desk, an open blank ledger beside him, a small model of a building on the desk, 1950s office, venetian blind shadows, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g5fb2042368dbd140f6b87e653a745d85bed2dec1ab20324fae04814a535ee4d9289821c1b188c2320aaef109460d49b654bf4f4981c7232def80b2059b0b924e_1280.jpg",
+      "w": 3008,
+      "h": 2327,
+      "credit": "Pixabay (Tumisu)",
+      "page": "https://pixabay.com/photos/audit-accounting-ledger-figures-4190945/"
+     }
     },
     {
      "vo": "And that paper loss could be subtracted from other income, so doctors and dentists suddenly wanted in.",
      "prompt": "A 1950s doctor in a white coat sitting at his office desk, leaning toward a man in a suit who holds out a folder, framed diploma on the wall, warm light, papers plain blank, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gff82fddaa184f622524a5c39d848b24c3003d8c2465dba9ab6510467ac55a3c859c3b6198e9c608c130b51111164f78b7e375946353139ab77012cf5a9550b55_1280.jpg",
+      "w": 4928,
+      "h": 3264,
+      "credit": "Pixabay (Movidagrafica)",
+      "page": "https://pixabay.com/photos/dentist-operation-teeth-lamp-4373290/"
+     }
     },
     {
      "vo": "Would you have bought a slice of a shopping center to pay less tax? Thousands of investors did.",
@@ -152,9 +218,11 @@
     },
     {
      "vo": "There was just one problem: nobody had yet built the building all this money would fall in love with.",
-     "prompt": "An empty snowy field at the edge of a 1950s Minnesota town, a single wooden surveyor's stake with a red ribbon large in the foreground, distant houses, grey winter sky, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "clip": {
+      "id": 121409,
+      "tags": "construction, site, excavator, house, new house, development, aerial, drone, building site",
+      "page": "https://pixabay.com/videos/id-121409/"
+     }
     }
    ]
   },
@@ -180,37 +248,79 @@
      "vo": "He missed the old European squares, where people shopped, sat at cafés and ran into neighbors all day long.",
      "prompt": "A 1930s Vienna town square with café tables under awnings, people chatting and sipping coffee, a stone fountain in the middle, a church spire behind, golden afternoon light, plain blank awnings, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g9fbb3fcb96585f8b1a3692ccbd811dece2dad069747a436817198bb0eda70436bc80944ffeff36440b4555de790287db99d6058c414164d8e1d21c1cab02839a_1280.jpg",
+      "w": 2672,
+      "h": 1503,
+      "credit": "Pixabay (26089)",
+      "page": "https://pixabay.com/photos/perspective-above-gastronomy-people-208342/"
+     }
     },
     {
      "vo": "In Edina, Minnesota, a suburb with long, brutal winters, he saw a chance to build one indoors.",
      "prompt": "A 1950s Minnesota suburban street in deep winter, snow piled high along the road, people bundled in heavy coats leaning into the wind, bare trees, pale low sun, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g049f079aab41d144d09f2f7645c4590b8007ec24cdff18e62a285b2ed82642b5124b412298e36baeb19b2eb84f661291dffde6489524ca7e7cef738f23e5758d_1280.jpg",
+      "w": 4378,
+      "h": 2961,
+      "credit": "Pixabay (AriaFilm)",
+      "page": "https://pixabay.com/photos/town-village-winter-season-city-6818441/"
+     }
     },
     {
      "vo": "Gruen counted just 126 ideal shopping days a year there, so he put the whole square under one roof.",
      "prompt": "An architect at a drafting table in a 1950s studio sketching a large roofed courtyard building, the drawing large in front of him, frosted window behind, lamp light, drawings with no lettering, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g08654cbaf47c0bdebb613833a1235b7003ccc1740d734521bb80ba31e481587eb1ddaf584337eb396f7b6731ba40a012a0de7fe98bc8c49bfa61dc1120714f6f_1280.jpg",
+      "w": 4288,
+      "h": 2848,
+      "credit": "Pixabay (wal_172619)",
+      "page": "https://pixabay.com/photos/shopping-street-pedestrian-zone-7924559/"
+     }
     },
     {
      "vo": "On October 8, 1956, Southdale opened, the first fully enclosed, climate-controlled shopping mall in America.",
      "prompt": "The exterior of a large modern 1956 mall building on open land, a big sign on the building reading \"SOUTHDALE\", crowds walking in from a packed parking lot of 1950s cars, crisp autumn day, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g836b7b9b19f59acda118bf0f3083c1822e6e6f8342f5b2389064e44bdf889566b16f042d1c894fb1007ed5abb32df3026fda976ce5996a80b7d6bba90cc7abfc_1280.jpg",
+      "w": 6217,
+      "h": 4145,
+      "credit": "Pixabay (AntiM_photography)",
+      "page": "https://pixabay.com/photos/shopping-mall-shopping-center-mall-7340181/"
+     }
     },
     {
      "vo": "Inside, a garden court stayed spring all year round, with a goldfish pond, sculptures and a giant birdcage.",
      "prompt": "The garden court inside a 1956 enclosed mall, a tall ornate birdcage with colourful birds large at the centre, a goldfish pond in front, tropical plants, families in 1950s clothes, skylight daylight, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Garden_Court%2C_Southdale_Shopping_Center_-_DPLA_-_7efdd551273e827e867985d63d37d009.jpg/1920px-Garden_Court%2C_Southdale_Shopping_Center_-_DPLA_-_7efdd551273e827e867985d63d37d009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2193,
+      "h": 2803,
+      "credit": "Garden Court, Southdale Shopping Center - DPLA - 7efdd551273e827e867985d63d37d009.jpg by Colourpicture Publishers, Inc. (Boston, Mass.), PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Garden_Court,_Southdale_Shopping_Center_-_DPLA_-_7efdd551273e827e867985d63d37d009.jpg"
+     }
     },
     {
      "vo": "Crowds packed it from the first morning, and developers flew in from across the country to copy it.",
      "prompt": "Men in 1950s suits and hats holding notebooks, looking up at two-level balconies inside a busy mall court, shoppers around them, bright interior light, notebooks plain blank, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g19387012524f1d47842cd7cc08723b516a6ff2894e699bdbe118550543ec9d5d1c8bee374c2a1805766d861f9bb50bc5d9336fd6be5d1929edc825f8b9ef4437_1280.jpg",
+      "w": 4272,
+      "h": 2848,
+      "credit": "Pixabay (StockSnap)",
+      "page": "https://pixabay.com/photos/mall-shop-establishment-mountain-2595002/"
+     }
     },
     {
      "vo": "But Gruen's plan was bigger: apartments, schools, a medical center, offices and a park would ring the mall.",
@@ -222,7 +332,14 @@
      "vo": "Those were never built, and almost none of the copies included them either, only the stores and the parking.",
      "prompt": "Aerial view of a 1960s American mall standing alone in farmland, surrounded only by a huge parking lot full of cars, no houses nearby, bright summer day, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Southdale_Shopping_Center%2C_Minneapolis%2C_Minnesota_-_DPLA_-_1d965cd9bd4d4b638e4477cd6ca10f3f.jpg/1920px-Southdale_Shopping_Center%2C_Minneapolis%2C_Minnesota_-_DPLA_-_1d965cd9bd4d4b638e4477cd6ca10f3f.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2180,
+      "h": 2709,
+      "credit": "Southdale Shopping Center, Minneapolis, Minnesota - DPLA - 1d965cd9bd4d4b638e4477cd6ca10f3f.jpg by Colourpicture Publishers, Inc. (Boston, Mass.), PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Southdale_Shopping_Center,_Minneapolis,_Minnesota_-_DPLA_-_1d965cd9bd4d4b638e4477cd6ca10f3f.jpg"
+     }
     },
     {
      "vo": "Why build half a town? Because the tax rule paid best for one thing, and it wasn't a neighborhood.",
@@ -258,19 +375,35 @@
      "vo": "The Interstate Highway Act of 1956 handed them forty-one thousand miles of new roads and exits to choose from.",
      "prompt": "A freshly built 1950s interstate highway cutting through open countryside, a new cloverleaf exit, a few 1950s cars, wide blue sky, plain blank road signs, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Interstate_75%2C_Pontiac%2C_Michigan_%2821096930484%29.jpg/1920px-Interstate_75%2C_Pontiac%2C_Michigan_%2821096930484%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Interstate 75, Pontiac, Michigan (21096930484).jpg by Ken Lund from Reno, Nevada, USA, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Interstate_75,_Pontiac,_Michigan_(21096930484).jpg"
+     }
     },
     {
      "vo": "Here's the catch: the big deductions came in the first years, then shrank to almost nothing.",
      "prompt": "A tired 1960s accountant in shirtsleeves loosening his tie at a desk piled with folders, an ashtray full beside him, dusk light through blinds, papers plain blank, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g7f1159a2f793aa0e405626c5447566a0d92212662913f763620a6eac5029da08da2494237bf6111bbe3c86cfb22e89c46774efbe205b81a05d8395fce9217872_1280.jpg",
+      "w": 5472,
+      "h": 3648,
+      "credit": "Pixabay (stevepb)",
+      "page": "https://pixabay.com/photos/income-tax-calculator-accounting-4097292/"
+     }
     },
     {
      "vo": "So after about seven years, an owner made more by selling the mall, or building a newer one nearby.",
-     "prompt": "Two businessmen in 1960s suits shaking hands in front of a mall entrance, a paper sign on the glass door reading \"FOR SALE\", bright afternoon, medium shot",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "clip": {
+      "id": 52438,
+      "tags": "business, street, city, view, aerial, travel, industry, mall, evening, urban, transportation, transport, asphalt, architecture",
+      "page": "https://pixabay.com/videos/id-52438/"
+     }
     },
     {
      "vo": "Fixing up an old mall earned a small write-off, while a brand-new mall down the road earned a big one.",
@@ -286,15 +419,24 @@
     },
     {
      "vo": "Between 1956 and 2005, America built roughly fifteen hundred enclosed malls, about one every twelve days.",
-     "prompt": "Aerial view of a sprawling American suburb with three large malls at different highway exits, rooftops and parking lots stretching to the horizon, hazy summer light, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "clip": {
+      "id": 12876,
+      "tags": "shopping center, escalators, modern, shopping, consumption, department store, shopping mall, stairs, escalator, passenger transport, rise, purchasing, to buy",
+      "page": "https://pixabay.com/videos/id-12876/"
+     }
     },
     {
      "vo": "And every new one was built to pull shoppers away from the one that opened ten years before.",
      "prompt": "A 1970s family loading shopping bags into a station wagon outside a shiny new mall, an older mall faintly visible down the highway, golden hour, plain blank signboards, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/ga91060adc1dc02f4bf61584eb4c4e549671aedda46f53de7df7c2836d96f0387256b50cbae9879073d836cef06397e3f22d8a415587ec84c8082b8f0352878cb_1280.jpg",
+      "w": 3000,
+      "h": 2226,
+      "credit": "Pixabay (Eu_eugen)",
+      "page": "https://pixabay.com/photos/lockdown-quarantine-isolation-empty-4984859/"
+     }
     }
    ]
   },
@@ -306,13 +448,27 @@
      "vo": "In Harvey, Illinois, Dixie Square Mall opened in 1966 and drew shoppers from all over Chicago's south suburbs.",
      "prompt": "A busy 1966 suburban Illinois mall exterior, a big sign on the building reading \"DIXIE SQUARE\", families with shopping bags, 1960s cars in the lot, sunny day, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Dixie_Square_Penneys_Building.jpg/1920px-Dixie_Square_Penneys_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2592,
+      "h": 1944,
+      "credit": "Dixie Square Penneys Building.jpg by Zol87 from Chicago, Illinois, USA, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Dixie_Square_Penneys_Building.jpg"
+     }
     },
     {
      "vo": "Newer malls opened around it, shoppers drifted away, and by 1978 the whole place had closed.",
      "prompt": "A late-1970s mall entrance with glass doors wrapped in a heavy chain and padlock, a paper notice taped to the door reading \"CLOSED\", leaves blowing across an empty lot, grey sky, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Dixie_Square_Hardy_Shoes.jpg/1920px-Dixie_Square_Hardy_Shoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2592,
+      "h": 1944,
+      "credit": "Dixie Square Hardy Shoes.jpg by Zol87 from Chicago, Illinois, USA, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Dixie_Square_Hardy_Shoes.jpg"
+     }
     },
     {
      "vo": "A year later, a movie crew drove police cars straight through its empty halls for The Blues Brothers.",
@@ -324,13 +480,22 @@
      "vo": "Dixie Square sat abandoned for more than thirty years before it was finally torn down in 2012.",
      "prompt": "A ruined abandoned mall interior with collapsed ceiling tiles, vines on bare walls, puddles reflecting light from holes in the roof, an excavator at the far end, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/May_17%2C_2012_-_Dixie_Square_demolition_complete.jpg/1920px-May_17%2C_2012_-_Dixie_Square_demolition_complete.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5184,
+      "h": 3456,
+      "credit": "May 17, 2012 - Dixie Square demolition complete.jpg by Rickdrew, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:May_17,_2012_-_Dixie_Square_demolition_complete.jpg"
+     }
     },
     {
      "vo": "Shoppers didn't vanish; they just followed the newest mall a few exits further down the highway.",
-     "prompt": "A line of 1980s cars on a highway exit ramp heading toward a big new mall, its lights glowing, sunset behind, plain blank road signs, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "clip": {
+      "id": 6387,
+      "tags": "people, commerce, shop, busy, mall, walking",
+      "page": "https://pixabay.com/videos/id-6387/"
+     }
     },
     {
      "vo": "And America was already building more space than it could ever fill.",
@@ -342,7 +507,14 @@
      "vo": "By 2017, analysts estimated America had about twenty-three square feet of shopping space for every person.",
      "prompt": "An enormous empty parking lot stretching to the horizon in front of a huge low mall, rows of light poles, a single parked car, wide sky, midday sun, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g67cf8eb773f07fd63604fa7efcad6dcd3add7f121c312cf3d603b70907d8e3bb3dcfd05416369806235b3572c37af1b2bdc5d9460c7b3b2ed400c67843076dc8_1280.jpg",
+      "w": 3750,
+      "h": 2104,
+      "credit": "Pixabay (hpgruesen)",
+      "page": "https://pixabay.com/photos/mall-shopping-arcade-retail-trade-3245949/"
+     }
     },
     {
      "vo": "Australia had about eleven, and Britain under five, so why does America need so much more?",
@@ -366,7 +538,14 @@
      "vo": "Then, eight years later, Washington finally changed the rule that had kept the whole machine running.",
      "prompt": "The United States Capitol dome at night, lights on in the windows, a light rain falling on the wide steps, a few tiny silhouettes with umbrellas, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/United_States_Capitol_-_House_Chamber_-_Josh_Harder_3.27.20.jpg/1920px-United_States_Capitol_-_House_Chamber_-_Josh_Harder_3.27.20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3024,
+      "h": 4032,
+      "credit": "United States Capitol - House Chamber - Josh Harder 3.27.20.jpg by Josh Harder, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_House_Chamber_-_Josh_Harder_3.27.20.jpg"
+     }
     }
    ]
   },
@@ -378,7 +557,14 @@
      "vo": "On October 22, 1986, President Reagan signed the Tax Reform Act, and the fast write-off for buildings ended.",
      "prompt": "A man in a dark suit signing a bill on a podium with a banner reading \"TAX REFORM\", lawmakers standing behind him on a White House lawn, bright autumn sunshine, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Signing_Ceremony_for_Tax_Reform_Act_of_1986_with_Bob_Dole_Dan_Rostenkowski_on_South_Lawn_-_DPLA_-_21fafbed08a425472462cfeae40c359a.jpg/1920px-Signing_Ceremony_for_Tax_Reform_Act_of_1986_with_Bob_Dole_Dan_Rostenkowski_on_South_Lawn_-_DPLA_-_21fafbed08a425472462cfeae40c359a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 2656,
+      "credit": "Signing Ceremony for Tax Reform Act of 1986 with Bob Dole Dan Rostenkowski on South Lawn - DPLA - 21fafbed08a425472462cfeae40c359a.jpg by President (1981-1989 : Reagan). White House Photographic Office. 1981-1989, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Signing_Ceremony_for_Tax_Reform_Act_of_1986_with_Bob_Dole_Dan_Rostenkowski_on_South_Lawn_-_DPLA_-_21fafbed08a425472462cfeae40c359a.jpg"
+     }
     },
     {
      "vo": "Commercial buildings now had to be written off slowly over thirty-one and a half years, the same every year.",
@@ -396,19 +582,40 @@
      "vo": "Mall building slowed, but America was already left with far more stores than its shoppers could ever fill.",
      "prompt": "A 1990s American mall corridor with half the shops lit and half dark behind metal grilles, a few shoppers walking, fluorescent light, plain blank signboards, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g2a1856faddf858f69eb34c36a8fe02a27671d0b6ed3b6bcf7f76b88ead92a5681fcaaa2d342b09877c851cbd4ca2a19558cf86cda88a8ebcec38d32fef84fc6d_1280.jpg",
+      "w": 3000,
+      "h": 2226,
+      "credit": "Pixabay (Eu_eugen)",
+      "page": "https://pixabay.com/photos/lockdown-quarantine-isolation-empty-4984859/"
+     }
     },
     {
      "vo": "Then came big-box stores, the 2008 crash and online shopping, each hitting malls that were already too many.",
      "prompt": "A delivery driver carrying cardboard boxes to a front porch of a suburban American house, a delivery van parked in the driveway, a closed mall visible on the hill behind, autumn afternoon, boxes plain, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/SUPERCENTER-TRIAL.Teine01.JPG/1920px-SUPERCENTER-TRIAL.Teine01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2048,
+      "h": 1536,
+      "credit": "SUPERCENTER-TRIAL.Teine01.JPG by RJD, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:SUPERCENTER-TRIAL.Teine01.JPG"
+     }
     },
     {
      "vo": "In 2017, analysts at Credit Suisse predicted that one in four American malls could close within five years.",
      "prompt": "Workers on a cherry picker lift pulling the letters off a tall sign above a shuttered mall entrance, the sign face plain and mostly bare, grey winter sky, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Credit_Suisse_Z%C3%BCrich.jpg/1920px-Credit_Suisse_Z%C3%BCrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4831,
+      "h": 3277,
+      "credit": "Credit Suisse Zürich.jpg by Thomas Wolf, www.foto-tw.de, CC BY-SA 3.0 DE, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Credit_Suisse_Z%C3%BCrich.jpg"
+     }
     },
     {
      "vo": "Some are finding a second life the way Gruen imagined, with homes, clinics and schools moving in.",
@@ -420,19 +627,40 @@
      "vo": "In Providence, Rhode Island, America's oldest mall, the Arcade from 1828, now rents tiny apartments above its shops.",
      "prompt": "Interior of a 19th-century Greek Revival shopping arcade with a long glass roof, cast-iron railings on upper balconies lined with apartment doors, a resident carrying groceries up the central walkway, soft daylight, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Westminster_Arcade_%2862464%29.jpg/1920px-Westminster_Arcade_%2862464%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3456,
+      "credit": "Westminster Arcade (62464).jpg by Rhododendrites, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Westminster_Arcade_(62464).jpg"
+     }
     },
     {
      "vo": "Gruen's town square was meant to grow old with its neighborhood, not be thrown away after seven years.",
      "prompt": "An elderly couple sitting on a bench in a quiet sunlit indoor mall court full of plants, a child playing nearby, warm skylight glow, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/2009-0611-004-Southdale.jpg/1920px-2009-0611-004-Southdale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3598,
+      "h": 2670,
+      "credit": "2009-0611-004-Southdale.jpg by Bobak Ha'Eri, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:2009-0611-004-Southdale.jpg"
+     }
     },
     {
      "vo": "Would you live in a converted mall, or should the old ones be torn down for good?",
      "prompt": "A young woman standing at the window of a loft apartment built inside a former mall, looking down at the old atrium below with its balconies and plants, evening light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Westminster_Arcade_%2862471%29.jpg/1920px-Westminster_Arcade_%2862471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4208,
+      "h": 3296,
+      "credit": "Westminster Arcade (62471).jpg by Rhododendrites, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Westminster_Arcade_(62471).jpg"
+     }
     }
    ]
   },
@@ -444,13 +672,27 @@
      "vo": "So why are America's malls dying? Not only because of online shopping, but because a 1954 tax rule paid owners to build new instead of keeping the old ones full.",
      "prompt": "A dusk view of an abandoned American mall with a dark empty parking lot in the foreground, and on the horizon the lights of a newer shopping center glowing, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Former_Waldenbooks_at_the_Blue_Hen_Corporate_Center_and_Mall.jpg/1920px-Former_Waldenbooks_at_the_Blue_Hen_Corporate_Center_and_Mall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2048,
+      "h": 1536,
+      "credit": "Former Waldenbooks at the Blue Hen Corporate Center and Mall.jpg by SteveBDel, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Former_Waldenbooks_at_the_Blue_Hen_Corporate_Center_and_Mall.jpg"
+     }
     },
     {
      "vo": "If your hometown mall died, tell us its name in the comments; next time, why so many American homes have a front lawn nobody uses.",
      "prompt": "A wide green front lawn of an American suburban house on a sunny morning, a sprinkler running, a quiet street, nobody on the grass, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g2ac720f99338e0f5e534544a6c2ffcf8af4a0356317d887ef0967c59709b62196619a4ba81684adecb7e9ef50392ffe146a38f4023cec4a3f43148f4f800bc42_1280.jpg",
+      "w": 3072,
+      "h": 1728,
+      "credit": "Pixabay (radesigns)",
+      "page": "https://pixabay.com/photos/shopping-mall-mall-vancouver-346434/"
+     }
     },
     {
      "vo": "Subscribe so you never miss the next hidden why.",
@@ -461,7 +703,5 @@
    ]
   }
  ],
- "framework": "2026-11-15 00:32",
- "released_at": "2026-11-15 00:32",
- "voice_requested": "voice-25-tax-rule-malls-2afe38c625"
+ "photos_checked": true
 }
