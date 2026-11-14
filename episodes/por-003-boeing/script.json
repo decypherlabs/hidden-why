@@ -296,8 +296,7 @@
      "headline": {
       "date": "13 March 2019",
       "text": "US orders every Boeing 737 MAX out of the sky"
-     },
-     "title": "13 March *2019*"
+     }
     },
     {
      "vo": "Two crashes in under five months had killed 346 people.",
@@ -307,8 +306,7 @@
       "prefix": "",
       "suffix": "lives",
       "label": "lost on Lion Air 610 and Ethiopian 302, Oct 2018 - Mar 2019"
-     },
-     "title": "*346* lives"
+     }
     },
     {
      "vo": "Twenty-two years earlier, Boeing agreed to buy McDonnell Douglas for $13.3 billion.",
@@ -316,31 +314,20 @@
      "headline": {
       "date": "15 December 1996",
       "text": "Boeing to absorb McDonnell Douglas in $13.3 billion share deal"
-     },
-     "title": "*$13.3 billion*"
+     }
     },
     {
      "vo": "Seattle soon had a joke: McDonnell Douglas bought Boeing with Boeing's money.",
-     "kind": "quote",
-     "prompt": "Seattle in the 1990s, rainy street at dusk with office workers talking in small groups, seen only from behind or in silhouette, aircraft factory buildings faintly visible in the grey distance, period-accurate, no logos, no readable text, no signs or lettering on any storefront, screen or package",
-     "quote": {
-      "text": "McDonnell Douglas bought Boeing with Boeing's money.",
-      "who": "Seattle saying",
-      "source": "after the Boeing-McDonnell Douglas merger closed, 1997"
-     }
+     "kind": "still",
+     "prompt": "Seattle in the 1990s, rainy street at dusk with office workers talking in small groups, seen only from behind or in silhouette, aircraft factory buildings faintly visible in the grey distance, period-accurate, no logos, no readable text, no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "Everything turns on one decision in August 2011.",
-     "kind": "headline",
-     "prompt": "muted 35mm documentary photograph of an empty corporate boardroom at dusk, long table, chairs pushed back, one accent colour: a single red folder, no people, no readable text, no logos, no signs or lettering on any storefront, screen or package",
-     "title": "August *2011*",
-     "headline": {
-      "date": "30 August 2011",
-      "text": "Boeing launches re-engined 737 instead of an all-new jet"
-     }
+     "kind": "still",
+     "prompt": "muted 35mm documentary photograph of an empty corporate boardroom at dusk, long table, chairs pushed back, one accent colour: a single red folder, no people, no readable text, no logos, no signs or lettering on any storefront, screen or package"
     },
     {
-     "vo": "The choice to re-engine the 737, not design a new jet. Congress's investigators found the crashes were no single failure.",
+     "vo": "It was the choice to re-engine the 737 instead of designing a new jet. Congress's investigators found the crashes were not a single failure.",
      "kind": "quote",
      "quote": {
       "text": "The MAX crashes were not the result of a singular failure, technical mistake, or mismanaged event.",
@@ -351,15 +338,14 @@
     {
      "vo": "It starts in 1995, with Boeing at the top of its game.",
      "kind": "photo",
-     "prompt": "muted 35mm documentary photograph of a vast Boeing assembly hall in 1995, a brand-new white Boeing 777 wide-body on the factory floor under work lights, workers in mid-1990s clothes seen from behind looking up at it, one accent colour: white fuselage, no readable text, no logos, no signs or lettering on any storefront, screen or package",
+     "prompt": "muted 35mm documentary photograph of a vast aircraft assembly hall in the mid-1990s, a gleaming new wide-body jet on the floor, workers in silhouette looking up at it, one accent colour: white fuselage under work lights, no readable text, no logos, no signs or lettering on any storefront, screen or package",
      "photo": {
       "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Air_China_777-300ER_%289155299038%29.jpg/1920px-Air_China_777-300ER_%289155299038%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "w": 3264,
       "h": 2448,
       "credit": "Air China 777-300ER (9155299038).jpg by DearEdward from New York, NY, USA, CC BY 2.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Air_China_777-300ER_(9155299038).jpg"
-     },
-     "title": "*1995*"
+     }
     }
    ]
   },
@@ -503,10 +489,20 @@
     },
     {
      "vo": "On 15 December 1996 they announced it: an all-stock deal worth $13.3 billion.",
-     "kind": "document",
-     "document": {
-      "title": "Boeing and McDonnell Douglas joint merger announcement, 15 December 1996",
-      "highlight": "Each share of McDonnell Douglas stock will be exchanged for 0.65 shares of Boeing stock."
+     "kind": "flow",
+     "flow": {
+      "title": "Boeing buys McDonnell Douglas",
+      "nodes": [
+       "Boeing",
+       "McDonnell Douglas"
+      ],
+      "links": [
+       [
+        "Boeing",
+        "McDonnell Douglas",
+        "$13.3 billion"
+       ]
+      ]
      }
     },
     {
@@ -636,10 +632,32 @@
    "shots": [
     {
      "vo": "In 2005 Boeing sold its Wichita fuselage plant. It became a supplier, Spirit AeroSystems.",
-     "kind": "headline",
-     "headline": {
-      "date": "June 2005",
-      "text": "Boeing sells Wichita plant; Spirit AeroSystems is born"
+     "kind": "timeline",
+     "timeline": {
+      "title": "After the merger",
+      "events": [
+       [
+        "1997",
+        "Merger closes"
+       ],
+       [
+        "1997",
+        "Boeing loses $178 million"
+       ],
+       [
+        "2000",
+        "17,000 workers strike"
+       ],
+       [
+        "2001",
+        "Head office moves to Chicago"
+       ],
+       [
+        "2005",
+        "Wichita plant sold"
+       ]
+      ],
+      "mark": "2005"
      }
     },
     {
@@ -703,24 +721,41 @@
     },
     {
      "vo": "On 30 August 2011 it chose the engines, and launched the 737 MAX.",
-     "kind": "document",
-     "document": {
-      "title": "Boeing press release, 30 August 2011",
-      "highlight": "Boeing Launches 737 New Engine Family with Commitments for 496 Airplanes from Five Airlines"
+     "kind": "timeline",
+     "timeline": {
+      "title": "The 737 MAX decision",
+      "events": [
+       [
+        "2009",
+        "787 first flight"
+       ],
+       [
+        "Jul 2011",
+        "Giant order split with Airbus"
+       ],
+       [
+        "Aug 2011",
+        "737 MAX launched"
+       ],
+       [
+        "Sep 2011",
+        "787 first delivery"
+       ]
+      ],
+      "mark": "2011"
      }
     },
     {
      "vo": "The 737 had first flown in 1967.",
      "kind": "photo",
-     "prompt": "muted 35mm documentary photograph of an early 1960s-era narrow-body twin-engine jet airliner prototype parked alone on a grey airfield apron at dawn, seen from the front three-quarter angle, one accent colour: orange ground cone beside the nose wheel, no people, no readable text, no numbers, no digits, no dates, no captions, no logos, no signs or lettering on any storefront, screen, package or aircraft fuselage",
+     "prompt": "a documentary photograph of the moment: The 737 had first flown in 1967.",
      "photo": {
       "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Lufthansa_Boeing_737-100%3B_D-ABEB%2C_April_1980_CAT_%285884282880%29.jpg/1920px-Lufthansa_Boeing_737-100%3B_D-ABEB%2C_April_1980_CAT_%285884282880%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "w": 4308,
       "h": 2950,
       "credit": "Lufthansa Boeing 737-100; D-ABEB, April 1980 CAT (5884282880).jpg by Aero Icarus from Zürich, Switzerland, CC BY-SA 2.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Lufthansa_Boeing_737-100;_D-ABEB,_April_1980_CAT_(5884282880).jpg"
-     },
-     "seed": 8963
+     }
     },
     {
      "vo": "The new engines were bigger, so they sat further forward and higher on the wing.",
@@ -812,12 +847,33 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: On 10 March 2019, Ethiopian Airlines Flight 302 crashed six minutes after leaving Addis Ababa. All 157 people aboard died."
+     "prompt": "a documentary photograph of the moment: On 10 March 2019, Ethiopian Airlines Flight 302 crashed six minutes after leaving Addis Ababa. All 157 people aboard died., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "China grounded the MAX the next day. The United States, where it was built, followed two days later.",
-     "kind": "still",
-     "prompt": "muted 35mm documentary photograph, aerial view of rows of parked narrow-body jets on a desert apron, engines covered, one accent colour: red engine covers, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+     "kind": "timeline",
+     "timeline": {
+      "title": "Two crashes, one grounding",
+      "events": [
+       [
+        "29 Oct 2018",
+        "Lion Air 610 crashes"
+       ],
+       [
+        "10 Mar 2019",
+        "Ethiopian 302 crashes"
+       ],
+       [
+        "11 Mar 2019",
+        "China grounds MAX"
+       ],
+       [
+        "13 Mar 2019",
+        "US grounds MAX"
+       ]
+      ],
+      "mark": "2019"
+     }
     },
     {
      "vo": "Profit turned to loss, year after year.",
@@ -932,7 +988,7 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: Of that, $500 million went to a fund for the families of the people who died."
+     "prompt": "a documentary photograph of the moment: Of that, $500 million went to a fund for the families of the people who died., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "Boeing agreed to plead guilty in July 2024. That December, a federal judge rejected the deal.",
@@ -969,8 +1025,25 @@
        "label": "Airbus deliveries in 2019, against Boeing's 380"
       }
      },
-     "kind": "still",
-     "prompt": "a documentary photograph of the moment: Meanwhile, the customers went elsewhere. In 2019 Airbus delivered 863 jets. Boeing delivered 380."
+     "kind": "compare",
+     "compare": {
+      "title": "Jets delivered in 2019",
+      "left": {
+       "name": "Airbus",
+       "value": 863,
+       "prefix": "",
+       "suffix": "",
+       "label": "jets delivered"
+      },
+      "right": {
+       "name": "Boeing",
+       "value": 380,
+       "prefix": "",
+       "suffix": "",
+       "label": "jets delivered"
+      },
+      "winner": "left"
+     }
     },
     {
      "vo": "On 5 January 2024 a door plug blew out of an Alaska Airlines MAX 9 at about 16,000 feet. No one died.",
@@ -1015,12 +1088,20 @@
     },
     {
      "vo": "Where did the money go before that? From 2013 to 2019, about $43 billion went to buying back Boeing's own shares.",
-     "kind": "footage",
-     "search": "stock ticker",
-     "clip": {
-      "id": 204306,
-      "tags": "market, values, stock, exchange, financial, graphics, silver, currency, company, economy, banking, bank, euro, payment, bitcoin",
-      "page": "https://pixabay.com/videos/id-204306/"
+     "kind": "flow",
+     "flow": {
+      "title": "Where the money went",
+      "nodes": [
+       "Boeing",
+       "Its own shares"
+      ],
+      "links": [
+       [
+        "Boeing",
+        "Its own shares",
+        "$43 billion"
+       ]
+      ]
      }
     },
     {
@@ -1047,7 +1128,7 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: The record prices the one it built: more than $20 billion in direct costs from the grounding alone."
+     "prompt": "a documentary photograph of the moment: The record prices the one it built: more than $20 billion in direct costs from the grounding alone., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "And 346 people who boarded two ordinary flights did not come home.",
@@ -1103,23 +1184,19 @@
  "replanned": true,
  "visuals_checked": true,
  "photos_checked": true,
+ "templates_checked": true,
  "approved": true,
  "review": "auto",
  "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
  "repaint": {
   "shots": [
-   7
+   4,
+   5,
+   53,
+   61,
+   71
   ],
   "thumbs": [],
-  "at": "2026-11-14 04:07"
- },
- "shot_qc": {
-  "rounds": 1,
-  "recheck": [
-   44
-  ]
- },
- "auto_regen": 1,
- "breakout_round": 1,
- "late_intro": true
+  "at": "2026-11-14 06:20"
+ }
 }
