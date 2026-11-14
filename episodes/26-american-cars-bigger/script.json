@@ -2015,10 +2015,10 @@
     },
     {
      "vo": "From 2011, each new vehicle's fuel target depended on its footprint, the area between its four wheels.",
-     "prompt": "A top-down view of a pickup truck parked on a clean concrete test pad, white chalk lines drawn on the floor joining its four wheels into a rectangle, flat daylight, wide shot",
+     "prompt": "A top-down view of a pickup truck parked on a clean concrete test pad, bold white chalk lines on the floor running from wheel to wheel along all four sides, joining its four wheels into one large rectangle, flat daylight, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8968
+     "seed": 16887
     },
     {
      "vo": "A bigger footprint meant an easier target, so stretching a vehicle could make it easier to pass.",
@@ -2326,10 +2326,10 @@
     },
     {
      "vo": "But all that extra height had a cost, and it was paid by people outside the vehicle.",
-     "prompt": "A woman stepping off the curb at an American crosswalk in front of a towering pickup truck, its blunt grille and headlights glaring above her, dusk, wide shot",
+     "prompt": "A woman in a beige coat stepping off the curb at an American crosswalk, a tall pickup truck stopped right in front of her with its blunt grille and headlights towering above her head, plain road, dusk, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8974
+     "seed": 16893
     }
    ]
   },
@@ -2377,10 +2377,10 @@
     },
     {
      "vo": "A low car tends to strike an adult's legs, while a tall, blunt hood hits the chest and head.",
-     "prompt": "A low sedan on the left and a tall pickup truck on the right in a crash-test hall, each with a crash-test dummy standing at its front, the sedan's hood at the dummy's legs and the pickup's hood at the dummy's chest, white light, wide shot",
+     "prompt": "A low sedan on the left and a tall pickup truck on the right, both undamaged and seen from the front, each with a yellow crash-test dummy standing at its front, the sedan's hood edge at the dummy's knees and the pickup's hood edge at the dummy's chest, white light in a test hall, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
-     "seed": 8979
+     "seed": 16898
     },
     {
      "vo": "And from a tall driver's seat, a small child standing right in front of the bumper can disappear completely.",
@@ -2507,40 +2507,25 @@
  "voice_approved_at": "2026-11-15 01:20",
  "repaint": {
   "shots": [
-   1,
-   25,
-   35,
    49,
-   53,
    55,
-   60,
-   61
+   60
   ],
   "thumbs": [],
-  "at": "2026-11-15 02:07"
+  "at": "2026-11-15 02:38"
  },
  "shot_qc": {
-  "checked": "2026-11-14T20:34:21Z",
-  "rounds": 1,
+  "checked": "2026-11-14T21:07:09Z",
+  "rounds": 2,
   "why": {
-   "1": "The pickup overlaps the sedan, so the two vehicles look merged, and the shot doesn't read as the pickup's shadow falling on the sedan.",
-   "25": "The officer is turned away with a box on his back, and the vehicle is a car hood, not a small imported pickup.",
-   "35": "Children sit in the open cargo area, not being loaded through a minivan's sliding door, and the bag has painted gibberish lettering.",
-   "49": "The top-down vehicle is odd and tan with a grid on it and doesn't read as a pickup. The chalk lines are also a plain rectangle, not lines joining the four wheels.",
-   "53": "The newspaper masthead above the headline is painted gibberish.",
-   "55": "A big semi truck is shown, not a pickup.",
-   "60": "A sedan and a pickup are shown crashed together, with no crash-test dummies at their fronts and no hood-height comparison.",
-   "61": "The view is from a convertible, not a high pickup cab. There is no long hood, and a child sits in the driver's seat."
+   "49": "The chalk lines are two vertical lines beside the truck. They don't join the four wheels into a rectangle, which is the line's defining element.",
+   "55": "The vehicle is a heavy semi-truck, not a pickup. The sign has painted gibberish text ('AMERRIC'S RAIELS').",
+   "60": "Only one figure, and it looks like a real person, not a crash-test dummy at each vehicle. Both vehicles are already crashed, and the hood-height-to-body-part comparison isn't clear."
   },
   "recheck": [
-   "1",
-   "25",
-   "35",
    "49",
-   "53",
    "55",
-   "60",
-   "61"
+   "60"
   ]
  }
 }
