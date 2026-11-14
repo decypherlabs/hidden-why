@@ -109,9 +109,13 @@ def track_scripts(released):
         if slug in released or discarded(slug) or slug.startswith("preview-"):  # sample frames for the owner, never a project on a channel
             continue
         sc = json.loads(sp.read_text())
-        if sc.get("voice_review") and not sc.get("voice_ok") and not project_dir(slug):
+        if sc.get("rejected") and not project_dir(slug):  # a rejected script never gets a card
+            continue
+        voicing = sc.get("voice_review") and not sc.get("voice_ok")
+        if voicing and sc.get("format") != "long" and not project_dir(slug):
             # waiting for the owner's voiceover: it lives on the Scripts page only (owner, 8 Nov 2026: 22 teaser
-            # Short scripts showed up as project cards "made on Kaggle... on GitHub", read as builds running)
+            # Short scripts showed up as project cards "made on Kaggle... on GitHub", read as builds running).
+            # Long-forms get their card at once (owner, 14 Nov 2026: Ramayan / Gita Episode 1 "dont see on UI")
             continue
         shots = [x for sec in sc.get("sections") or [] for x in sec.get("shots") or []]
         mins = sum(len(x.get("vo", "").split()) for x in shots) / 150
@@ -121,6 +125,8 @@ def track_scripts(released):
         elif slug in (run.get("episodes") or []) and run.get("status") in ("error", "collect-failed"):
             status, step = "failed", f"The Kaggle run failed ({about}); Claude is fixing it"
             err = "see dashboard/data/thw_kaggle.last.log"
+        elif voicing and sc.get("approved"):
+            status, step, err = "script", f"Script written: the voiceover is made next, then the paintings ({about})", None
         elif sc.get("approved"):
             where = ("on GitHub (no GPU: the English paintings are reused)" if slug.endswith("-hi")
                      else f"on GitHub from {sc['paint_from']}'s paintings (no GPU)" if sc.get("paint_from")
