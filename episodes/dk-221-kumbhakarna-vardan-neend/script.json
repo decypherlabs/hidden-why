@@ -45,9 +45,10 @@
     },
     {
      "vo": "अगर आप सोचते हैं कि कुंभकर्ण बस एक आलसी राक्षस था, तो आप ग़लत हैं।",
-     "prompt": "A giant dark-skinned demon with gold earrings lying fast asleep on a vast stone floor, chest rising, calm face, tall carved pillars, torch-lit hall, warm lamp light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "One single giant dark-skinned demon with gold earrings lying asleep on his back on a stone floor, one head, eyes closed, calm face, chest rising, arms resting at his sides, tall stone pillars, warm lamp light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8921
     },
     {
      "vo": "वो वीर था, समझदार था, और भाई को सच कहने की हिम्मत रखता था।",
@@ -273,9 +274,10 @@
     },
     {
      "vo": "तब रावण को भाई की याद आई। नगाड़े बजे, शंख गूँजे, और उस पर पानी के घड़े उँडेले गए।",
-     "prompt": "Two servants beating huge drums beside a sleeping giant dark-skinned demon, two others pouring water from big clay pots over him, torch-lit hall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Two servants beating huge drums on the left and two others pouring water from big clay pots on the right over one single huge sleeping dark-skinned demon lying flat on his back with one head, torch-lit hall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8956
     },
     {
      "vo": "तब जाकर उसकी आँख खुली। उसने भरपेट खाया, फिर पूछा: भैया, मुझे क्यों जगाया?",
@@ -400,9 +402,10 @@
     },
     {
      "vo": "फिर उसके पाँव भी कट गए। फिर भी वो राम की ओर झुकता रहा।",
-     "prompt": "A giant dark-skinned demon lying on the ground on his side, raising his head with fierce determination, blue-skinned Lord Rama small and calm with bow in the distance, golden dust, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "A giant dark-skinned demon with gold earrings, both legs cut off, sitting on the ground propped on his hands and leaning forward with fierce determination, a tiny distant archer with a bow far away, golden dust, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8975
     },
     {
      "vo": "तब राम ने ऐंद्र बाण उठाया। पूरा आसमान उसकी चमक से भर गया।",
@@ -470,5 +473,29 @@
  "voice_requested": "voice-dk-221-kumbhakarna-vardan-neend-2a7520419e",
  "voice_ok": "voice-dk-221-kumbhakarna-vardan-neend-2a7520419e",
  "voice_approved_at": "2026-11-08 08:14",
- "released_at": "2026-11-08 08:14"
+ "released_at": "2026-11-08 08:14",
+ "repaint": {
+  "shots": [
+   2,
+   37,
+   56
+  ],
+  "thumbs": [],
+  "at": "2026-11-14 16:31",
+  "by": "owner"
+ },
+ "shot_qc": {
+  "checked": null,
+  "rounds": 1,
+  "why": {
+   "2": "Two bodies are merged: a horned demon figure and a sleeping human lie fused together, with tangled limbs and a second head, instead of one giant sleeping Kumbhakarna.",
+   "37": "Kumbhakarna's body is built wrong, with a human head and a horned head merged at the pillow and the torso and limbs fused. The drums and water pouring are also muddled instead of a clear scene of drums, conches and water pots.",
+   "56": "Two blue-skinned crowned figures are tangled together, with a crowned demon leaning over a reclining Rama-like figure and extra arms and hands showing. It doesn't show a single giant Kumbhakarna with severed legs leaning toward Rama."
+  },
+  "recheck": [
+   "2",
+   "37",
+   "56"
+  ]
+ }
 }
