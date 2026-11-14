@@ -1,0 +1,2822 @@
+{
+ "slug": "tsm-005-americas-geography-wealth",
+ "channel": "The State Maps",
+ "format": "long",
+ "build": "kit",
+ "lang": "en",
+ "voice": "am_adam",
+ "title": "The Mississippi vs Latin America: A River Map and a $72,000 Gap",
+ "thumbnail": {
+  "text": "NATURE'S *HIGHWAY*",
+  "idea": "Full-frame relief map of the Americas: the Mississippi basin glowing green with its blue river network converging on one bold arrow at New Orleans, which is circled; Latin America in brown relief with the Andes ridge and Amazon forest shaded dark, no rivers lit."
+ },
+ "sources": [
+  {
+   "claim": "The Mississippi river system drains 41 percent of the lower 48 states",
+   "source": "US EPA, Mississippi River/Gulf of Mexico Hypoxia Task Force, 'The Mississippi/Atchafalaya River Basin' (accessed 2024)"
+  },
+  {
+   "claim": "The basin covers about 1.2 million square miles, 31 states and two Canadian provinces; fourth largest watershed on Earth",
+   "source": "US National Park Service, Mississippi National River and Recreation Area, 'Mississippi River Facts'"
+  },
+  {
+   "claim": "Barges work about 1,800 river miles of the main stem from Minneapolis to the Gulf",
+   "source": "US Army Corps of Engineers: Upper Mississippi 9-Foot Channel Project (St. Paul District) and Lower Mississippi, 953.8 miles Cairo to Head of Passes (Mississippi Valley Division)"
+  },
+  {
+   "claim": "The Ohio adds 981 navigable miles from Pittsburgh",
+   "source": "US Army Corps of Engineers, Great Lakes and Ohio River Division, Ohio River navigation"
+  },
+  {
+   "claim": "The Missouri has a 735-mile navigation channel from Sioux City, Iowa",
+   "source": "US Army Corps of Engineers, Northwestern Division, Missouri River Bank Stabilization and Navigation Project"
+  },
+  {
+   "claim": "The Mississippi, Ohio and Missouri routes alone, about 3,500 miles, all lead to the lower river between Baton Rouge and the Gulf",
+   "source": "Sum of the US Army Corps of Engineers figures above: about 1,800 + 981 + 735 miles; all three join the main stem above Baton Rouge"
+  },
+  {
+   "claim": "The United States is the world's largest corn producer",
+   "source": "USDA Foreign Agricultural Service, Grain: World Markets and Trade, 2024"
+  },
+  {
+   "claim": "St. Louis stands less than 150 metres above sea level, over 1,000 river miles from the sea",
+   "source": "USGS Geographic Names Information System (St. Louis, about 142 m); USACE river miles (St. Louis about 180 miles above the Ohio confluence, plus 953.8 to Head of Passes)"
+  },
+  {
+   "claim": "A gallon of fuel moves a ton of cargo 647 miles by barge, 477 by rail and 145 by truck",
+   "source": "Texas A&M Transportation Institute, 'A Modal Comparison of Domestic Freight Transportation Effects on the General Public', 2017"
+  },
+  {
+   "claim": "One 15-barge tow carries as much as about 1,050 semi trucks",
+   "source": "Iowa Department of Transportation, 'Barge, rail and truck cargo capacity comparison', citing Texas A&M Transportation Institute"
+  },
+  {
+   "claim": "About 12,000 miles of commercial inland waterways maintained by the Army Corps",
+   "source": "US Army Corps of Engineers, Inland Waterways Users Board annual report, 2023"
+  },
+  {
+   "claim": "Ocean ships sail about 230 river miles up to Baton Rouge",
+   "source": "US Army Corps of Engineers, New Orleans District, Mississippi River Ship Channel, Gulf to Baton Rouge"
+  },
+  {
+   "claim": "About six in ten US grain exports leave from the Mississippi Gulf ports",
+   "source": "USDA Agricultural Marketing Service, 'The Importance of Inland Waterways to U.S. Agriculture', 2019"
+  },
+  {
+   "claim": "Stratfor wrote in 2011 that the Greater Mississippi basin has more navigable waterways than the rest of the world combined",
+   "source": "Stratfor, 'The Geopolitics of the United States, Part 1', 2011"
+  },
+  {
+   "claim": "China counts about 128,000 km of navigable inland waterways",
+   "source": "Ministry of Transport of the People's Republic of China, Statistical Bulletin on Transport Industry Development, 2023"
+  },
+  {
+   "claim": "The Amazon carries about one fifth of the fresh water rivers deliver to the oceans",
+   "source": "Encyclopaedia Britannica, 'Amazon River'"
+  },
+  {
+   "claim": "Ocean ships reach Iquitos, about 3,700 km upriver; Iquitos has no road link to Lima",
+   "source": "Encyclopaedia Britannica, 'Amazon River' and 'Iquitos'"
+  },
+  {
+   "claim": "The Río de la Plata basin covers about 3.1 million square kilometres across Argentina, Brazil, Paraguay, Uruguay and Bolivia",
+   "source": "Encyclopaedia Britannica, 'Río de la Plata'"
+  },
+  {
+   "claim": "Mexico City 2,240 m, Bogotá 2,640 m, Quito 2,850 m",
+   "source": "Encyclopaedia Britannica city entries"
+  },
+  {
+   "claim": "São Paulo stands about 760 metres up, about 65 km from Santos, behind the Serra do Mar",
+   "source": "Encyclopaedia Britannica, 'São Paulo' and 'Santos'"
+  },
+  {
+   "claim": "Mexico about $568 per person in 1700 vs $527 in the future US; 1820: US $1,257, Mexico $759; 1913: US $5,301, Argentina $3,797, Mexico $1,732 (1990 international dollars, estimates)",
+   "source": "Angus Maddison, 'The World Economy: A Millennial Perspective', OECD, 2001"
+  },
+  {
+   "claim": "Potosí lies over 4,000 metres up; its silver went by mule to Arica, by sea to Callao, across Panama and on to Spain",
+   "source": "Encyclopaedia Britannica, 'Potosí'; Peter Bakewell, 'Miners of the Red Mountain', 1984"
+  },
+  {
+   "claim": "The Casa de Contratación in Seville was set up in 1503",
+   "source": "Encyclopaedia Britannica, 'Casa de Contratación'"
+  },
+  {
+   "claim": "Buenos Aires was kept off legal trade routes for most of the colonial era; viceroyalty capital in 1776; trade rules loosened in 1778",
+   "source": "Encyclopaedia Britannica, 'Viceroyalty of the Río de la Plata' and 'Buenos Aires'"
+  },
+  {
+   "claim": "The 1795 Pinckney Treaty gave Americans navigation and the right of deposit at New Orleans",
+   "source": "US Department of State, Office of the Historian, 'Pinckney's Treaty, 1795'"
+  },
+  {
+   "claim": "In 1800 Spain secretly agreed to pass Louisiana back to France (Treaty of San Ildefonso; transfer took effect 1802-03); Spain suspended the right of deposit in October 1802",
+   "source": "US Department of State, Office of the Historian, 'Louisiana Purchase, 1803'"
+  },
+  {
+   "claim": "Jefferson: 'There is on the globe one single spot, the possessor of which is our natural and habitual enemy. It is New Orleans...'",
+   "source": "Thomas Jefferson to Robert R. Livingston, 18 April 1802, Founders Online, US National Archives"
+  },
+  {
+   "claim": "Louisiana bought for $15 million, about 828,000 square miles, roughly doubling the country; New Orleans and the river's mouth passed to the US, while the east bank above the Isle of Orleans stayed Spanish until 1810-1812",
+   "source": "US National Archives, 'Louisiana Purchase Treaty (1803)'; Encyclopaedia Britannica, 'West Florida Controversy'"
+  },
+  {
+   "claim": "In 1811 the first steamboat on these rivers left Pittsburgh for New Orleans; practical upstream steamboating followed within a few years (Enterprise, 1815)",
+   "source": "National Park Service; Smithsonian National Museum of American History, 'The New Orleans' steamboat; Louis C. Hunter, 'Steamboats on the Western Rivers', 1949"
+  },
+  {
+   "claim": "Erie Canal opened 1825; Illinois and Michigan Canal joined Lake Michigan to the Mississippi system in 1848",
+   "source": "New York State Canal Corporation; National Park Service, Illinois and Michigan Canal National Heritage Corridor"
+  },
+  {
+   "claim": "Spanish America won independence between 1810 and the mid-1820s; Gran Colombia 1819-1831, splitting into Venezuela, Ecuador and New Granada (which included Panama); Federal Republic of Central America 1823-1841",
+   "source": "Encyclopaedia Britannica, 'Latin American wars of independence', 'Gran Colombia', 'United Provinces of Central America'"
+  },
+  {
+   "claim": "Paraguay fought Argentina, Brazil and Uruguay from 1864 to 1870; causes debated, river access among them",
+   "source": "Encyclopaedia Britannica, 'Paraguayan War'"
+  },
+  {
+   "claim": "Geography camp: Peter Zeihan (2014), Tim Marshall (2015)",
+   "source": "Peter Zeihan, 'The Accidental Superpower', 2014; Tim Marshall, 'Prisoners of Geography', 2015"
+  },
+  {
+   "claim": "2024 economics Nobel to Acemoglu, Johnson and Robinson 'for studies of how institutions are formed and affect prosperity'",
+   "source": "NobelPrize.org, Royal Swedish Academy of Sciences announcement, 14 October 2024"
+  },
+  {
+   "claim": "Why Nations Fail opens in Nogales, split by the US-Mexico border",
+   "source": "Daron Acemoglu and James Robinson, 'Why Nations Fail', 2012, chapter 1"
+  },
+  {
+   "claim": "Colonies richest around 1500 tend to be poorer today",
+   "source": "Acemoglu, Johnson and Robinson, 'Reversal of Fortune', Quarterly Journal of Economics 117(4), 2002"
+  },
+  {
+   "claim": "Soils and crops shaped the Americas through inequality: sugar and plantation colonies concentrated land in few hands, wheat and family-farm colonies spread it among many",
+   "source": "Stanley Engerman and Kenneth Sokoloff, 'Factor Endowments, Institutions, and Differential Paths of Growth Among New World Economies', in Haber (ed.), 'How Latin America Fell Behind', 1997"
+  },
+  {
+   "claim": "The institutions camp cites Argentina as a case where institutions, not resources, held growth back",
+   "source": "Daron Acemoglu and James Robinson, 'Why Nations Fail', 2012"
+  },
+  {
+   "claim": "Argentina fell behind across the twentieth century",
+   "source": "Maddison Project Database, 2023 release"
+  },
+  {
+   "claim": "Brazil is the world's largest soybean exporter",
+   "source": "USDA Foreign Agricultural Service, Oilseeds: World Markets and Trade, 2024"
+  },
+  {
+   "claim": "Trucks drive about 2,000 km from Sorriso to Santos; soy also moves north via the Tapajós to ports near the Amazon mouth",
+   "source": "USDA Agricultural Marketing Service, Brazil Soybean Transportation report, 2024"
+  },
+  {
+   "claim": "Paraguay's shipowners say it runs the world's third largest barge fleet",
+   "source": "Reuters, reporting on low water on the Paraná, 2021, citing Paraguay's river shipowners' association (CAFyM)"
+  },
+  {
+   "claim": "The Paraná-Paraguay waterway runs about 3,442 km from Cáceres to Nueva Palmira",
+   "source": "Comité Intergubernamental de la Hidrovía Paraguay-Paraná (CIH)"
+  },
+  {
+   "claim": "Chancay port opened 14 November 2024; COSCO holds 60 percent, Volcan 40; first phase about $1.3 billion",
+   "source": "Reuters, 14 November 2024"
+  },
+  {
+   "claim": "Peru's government calls Chancay a regional hub; US officials have voiced concern about Chinese control of strategic ports",
+   "source": "Reuters, November 2024"
+  },
+  {
+   "claim": "Some shippers and officials have pointed to Chancay as a route to Asia that avoids the Panama Canal",
+   "source": "Reuters, November 2024, reporting on Chancay's opening and South American exporters' plans to ship to Asia through it"
+  },
+  {
+   "claim": "US GDP per person about $82,800; Latin America and the Caribbean a little over $10,000 (2023); a gap of about $72,000 per person",
+   "source": "World Bank, World Development Indicators, GDP per capita (current US$), 2023; gap computed from these two figures"
+  },
+  {
+   "claim": "Record low on the Mississippi at Memphis, October 2022",
+   "source": "National Weather Service, Memphis, October 2022"
+  },
+  {
+   "claim": "Record spot barge rates at St. Louis in October 2022",
+   "source": "USDA Agricultural Marketing Service, Grain Transportation Report, October 2022"
+  },
+  {
+   "claim": "29 locks and dams on the Upper Mississippi, mostly built in the 1930s, many past their 50-year design life",
+   "source": "US Army Corps of Engineers, Navigation and Ecosystem Sustainability Program (NESP)"
+  },
+  {
+   "claim": "Inland waterways graded D+",
+   "source": "American Society of Civil Engineers, 2021 Report Card for America's Infrastructure"
+  },
+  {
+   "claim": "Engineers have long warned of the Mississippi shifting into the Atchafalaya at Old River; the Atchafalaya reaches the Gulf in about 140 miles vs roughly 300 on the Mississippi's path; a breakthrough could leave Baton Rouge and New Orleans on a saltwater channel",
+   "source": "John McPhee, 'The Control of Nature', 1989; US Army Corps of Engineers, New Orleans District"
+  },
+  {
+   "claim": "Old River Control Structure in place since 1963, passing about 30 percent of the flow to the Atchafalaya",
+   "source": "US Army Corps of Engineers, New Orleans District, Old River Control Complex"
+  },
+  {
+   "claim": "Paraná dredging concession held since 1995 expired in 2021; Argentina has been trying to award a new one since",
+   "source": "Reuters, April 2021 and 2025"
+  },
+  {
+   "claim": "Panama Canal daily transits cut to about 24 from roughly 36 in late 2023 due to drought",
+   "source": "Panama Canal Authority, advisories to shipping, November 2023"
+  },
+  {
+   "claim": "Mexico became the largest US trading partner in 2023, about $798 billion in goods",
+   "source": "US Census Bureau, US International Trade in Goods and Services, February 2024"
+  },
+  {
+   "claim": "Singapore, at the tip of the Malacca Strait, founded as a British trading post in 1819, now has higher output per person than the UK",
+   "source": "Encyclopaedia Britannica, 'Singapore'; World Bank, World Development Indicators, 2023"
+  }
+ ],
+ "playbook": {
+  "topic_type": "place",
+  "points": [
+   1,
+   1,
+   0,
+   1,
+   1,
+   0,
+   1,
+   1
+  ],
+  "minor": [
+   "Serra do Mar line: 'every load of coffee, and later soy, had to cross' overstates it. The script itself says soy now also goes north via the Tapajós, and Paranaguá is reached by another route. Use 'most coffee, and much of the soy'.",
+   "Panama Canal: daily transits were cut stepwise from about 36 through late 2023 into early 2024 (about 24 around the turn of the year, then lower). 'In late 2023 ... to about 24' is close, but 'by the turn of 2024' is safer.",
+   "Gran Colombia 'formed in 1819' with today's Colombia, Venezuela, Ecuador and Panama: Panama (1821) and Ecuador (1822) joined after the 1819 founding. Wording could be 'by 1822 included'.",
+   "Gallup, Sachs and Mellinger line: the 'even after controlling for institutions' claim fits Sachs's 2003 follow-up better than the 1999 paper, and the line gives no year. The line is attributed, but add the paper and year.",
+   "Argentine dredging: 'has been trying to award a new one since' needs a status check against the latest tender news before publishing, given the sources are 2021 and 2025.",
+   "'Ocean ships sail about 230 river miles up from the mouth': the Corps figure is measured from Head of Passes, not the Gulf bar, so the real distance from the sea is a little more. Say 'about 230 river miles above Head of Passes'.",
+   "The (quote) shot on the Nobel line contains no quotation. Either use the Academy's wording ('for studies of how institutions are formed and affect prosperity') or retag it as a document or headline.",
+   "'Months earlier, Jefferson had written': the letter is 18 April 1802, about six months before the October closure. This is accurate, but name the month."
+  ]
+ },
+ "stats": {
+  "words": 2079,
+  "cold_open_words": 87,
+  "shots": 104,
+  "minutes": 14.6,
+  "kinds": {
+   "chart": 1,
+   "compare": 5,
+   "document": 3,
+   "flow": 1,
+   "headline": 3,
+   "map": 85,
+   "quote": 1,
+   "stat": 3,
+   "still": 1,
+   "timeline": 1
+  }
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "The Mississippi river system drains 41 percent of the lower 48 states.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       38.5,
+       -93.0
+      ],
+      "span": 26,
+      "places": [
+       {
+        "name": "Mississippi basin",
+        "lat": 38.5,
+        "lon": -93.0
+       }
+      ],
+      "label": "41% of the lower 48",
+      "globe": true
+     }
+    },
+    {
+     "vo": "Its barges carry Midwest grain to one exit: New Orleans.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       36.0,
+       -90.0
+      ],
+      "span": 20,
+      "places": [
+       {
+        "name": "St. Louis",
+        "lat": 38.63,
+        "lon": -90.2
+       },
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       }
+      ],
+      "label": "One exit"
+     }
+    },
+    {
+     "vo": "Jefferson named New Orleans the one spot whose owner was America's enemy.",
+     "kind": "document",
+     "document": {
+      "title": "Thomas Jefferson to Robert R. Livingston, 18 April 1802",
+      "highlight": "There is on the globe one single spot, the possessor of which is our natural and habitual enemy. It is New Orleans."
+     }
+    },
+    {
+     "vo": "The US makes 82,800 a person; Latin America and the Caribbean, just over 10,000.",
+     "kind": "compare",
+     "compare": {
+      "title": "Two halves, two incomes",
+      "left": {
+       "name": "United States",
+       "value": 82800,
+       "prefix": "$",
+       "suffix": "",
+       "label": "GDP per person, 2023"
+      },
+      "right": {
+       "name": "Latin America & Caribbean",
+       "value": 10000,
+       "prefix": "$",
+       "suffix": "+",
+       "label": "GDP per person, 2023"
+      },
+      "winner": "left"
+     }
+    },
+    {
+     "vo": "That is a gap of about 72,000 dollars for every person.",
+     "kind": "stat",
+     "stat": {
+      "value": 72000,
+      "prefix": "$",
+      "suffix": "",
+      "label": "Gap in GDP per person, US vs Latin America, 2023 (World Bank)"
+     }
+    },
+    {
+     "vo": "When that river runs low, barge rates spike.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       20.0,
+       -60.0
+      ],
+      "span": 70,
+      "places": [
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       },
+       {
+        "name": "Rotterdam",
+        "lat": 51.92,
+        "lon": 4.48
+       },
+       {
+        "name": "Veracruz",
+        "lat": 19.17,
+        "lon": -96.13
+       }
+      ],
+      "label": "Grain out of the Gulf"
+     }
+    },
+    {
+     "vo": "So did a river decide who got rich, or did people?",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       10.0,
+       -80.0
+      ],
+      "span": 100,
+      "places": [
+       {
+        "name": "Mississippi",
+        "lat": 38.5,
+        "lon": -90.5
+       },
+       {
+        "name": "Andes",
+        "lat": -15.0,
+        "lon": -70.0
+       }
+      ],
+      "label": "North and South"
+     }
+    },
+    {
+     "vo": "In 1700, Mexico was richer than British North America.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       28.0,
+       -88.0
+      ],
+      "span": 40,
+      "places": [
+       {
+        "name": "Mexico City",
+        "lat": 19.43,
+        "lon": -99.13
+       },
+       {
+        "name": "Boston",
+        "lat": 42.36,
+        "lon": -71.06
+       }
+      ],
+      "label": "1700"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "NATURE BUILT THE HIGHWAY",
+   "shots": [
+    {
+     "vo": "The basin covers about 1.2 million square miles, from the Rockies to the Appalachians, draining 31 states.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       40.0,
+       -95.0
+      ],
+      "span": 28,
+      "places": [
+       {
+        "name": "Rocky Mountains",
+        "lat": 43.0,
+        "lon": -110.0
+       },
+       {
+        "name": "Appalachians",
+        "lat": 38.0,
+        "lon": -80.0
+       }
+      ],
+      "label": "1.2 million sq mi"
+     }
+    },
+    {
+     "vo": "Two Canadian provinces drain into it too, and the National Park Service ranks it the fourth largest watershed on Earth.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       45.0,
+       -98.0
+      ],
+      "span": 30,
+      "places": [
+       {
+        "name": "Alberta",
+        "lat": 49.5,
+        "lon": -111.0
+       },
+       {
+        "name": "Saskatchewan",
+        "lat": 49.5,
+        "lon": -105.0
+       }
+      ],
+      "label": "4th largest watershed"
+     }
+    },
+    {
+     "vo": "Barges can work the main stem for about 1,800 river miles, from Minneapolis all the way down to the Gulf of Mexico.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       37.0,
+       -91.0
+      ],
+      "span": 22,
+      "places": [
+       {
+        "name": "Minneapolis",
+        "lat": 44.98,
+        "lon": -93.27
+       },
+       {
+        "name": "Head of Passes",
+        "lat": 29.15,
+        "lon": -89.25
+       }
+      ],
+      "label": "≈1,800 river miles"
+     }
+    },
+    {
+     "vo": "The Ohio adds 981 more miles, starting at Pittsburgh, where the coal and steel of the old industrial east were loaded.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       39.0,
+       -84.5
+      ],
+      "span": 10,
+      "places": [
+       {
+        "name": "Pittsburgh",
+        "lat": 40.44,
+        "lon": -80.0
+       },
+       {
+        "name": "Cairo",
+        "lat": 37.0,
+        "lon": -89.18
+       }
+      ],
+      "label": "Ohio: 981 miles"
+     }
+    },
+    {
+     "vo": "The Missouri adds a 735-mile channel from Sioux City, Iowa, reaching west into the farm country of the Plains.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       40.5,
+       -94.0
+      ],
+      "span": 9,
+      "places": [
+       {
+        "name": "Sioux City",
+        "lat": 42.5,
+        "lon": -96.4
+       },
+       {
+        "name": "St. Louis",
+        "lat": 38.63,
+        "lon": -90.2
+       }
+      ],
+      "label": "Missouri: 735 miles"
+     }
+    },
+    {
+     "vo": "Between those rivers lies the Corn Belt, and by USDA figures the United States is the world's largest corn producer.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       41.0,
+       -91.0
+      ],
+      "span": 10,
+      "places": [
+       {
+        "name": "Iowa",
+        "lat": 42.0,
+        "lon": -93.5
+       },
+       {
+        "name": "Illinois",
+        "lat": 40.0,
+        "lon": -89.2
+       }
+      ],
+      "label": "Corn Belt"
+     }
+    },
+    {
+     "vo": "The land is so low that St. Louis, over 1,000 river miles from the sea, stands less than 150 metres above it.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       34.0,
+       -90.0
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "St. Louis",
+        "lat": 38.63,
+        "lon": -90.2
+       }
+      ],
+      "label": "Under 150 m"
+     }
+    },
+    {
+     "vo": "On water this flat, one gallon of fuel moves a ton of cargo 647 miles by barge, and only 145 by truck.",
+     "kind": "compare",
+     "compare": {
+      "title": "Water wins on fuel",
+      "left": {
+       "name": "Barge",
+       "value": 647,
+       "prefix": "",
+       "suffix": " mi",
+       "label": "ton-miles per gallon (TTI, 2017)"
+      },
+      "right": {
+       "name": "Truck",
+       "value": 145,
+       "prefix": "",
+       "suffix": " mi",
+       "label": "ton-miles per gallon (TTI, 2017)"
+      },
+      "winner": "left"
+     }
+    },
+    {
+     "vo": "One standard tow of 15 barges carries what it would take about 1,050 semi trucks to haul by road.",
+     "kind": "stat",
+     "stat": {
+      "value": 1050,
+      "prefix": "",
+      "suffix": " trucks",
+      "label": "Cargo of one 15-barge tow (Iowa DOT)"
+     }
+    },
+    {
+     "vo": "In all, the Army Corps of Engineers maintains about 12,000 miles of commercial inland waterways across the country.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       39.0,
+       -96.0
+      ],
+      "span": 30,
+      "places": [
+       {
+        "name": "United States",
+        "lat": 39.0,
+        "lon": -96.0
+       }
+      ],
+      "label": "≈12,000 miles nationwide"
+     }
+    },
+    {
+     "vo": "The Mississippi, Ohio and Missouri routes alone, about 3,500 miles, all lead to the lower river between Baton Rouge and the Gulf.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       33.0,
+       -90.0
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Baton Rouge",
+        "lat": 30.45,
+        "lon": -91.19
+       },
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       }
+      ],
+      "label": "≈3,500 miles, one door"
+     }
+    },
+    {
+     "vo": "Ocean ships sail about 230 river miles up from the mouth to Baton Rouge, where barges hand cargo straight to them.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       29.9,
+       -90.3
+      ],
+      "span": 2.5,
+      "places": [
+       {
+        "name": "Baton Rouge",
+        "lat": 30.45,
+        "lon": -91.19
+       },
+       {
+        "name": "Head of Passes",
+        "lat": 29.15,
+        "lon": -89.25
+       }
+      ],
+      "label": "≈230 miles for ocean ships"
+     }
+    },
+    {
+     "vo": "About six in ten American grain exports leave through these Gulf ports, according to the US Agriculture Department.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       25.0,
+       -60.0
+      ],
+      "span": 60,
+      "places": [
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       },
+       {
+        "name": "Panama Canal",
+        "lat": 9.08,
+        "lon": -79.68
+       },
+       {
+        "name": "Strait of Gibraltar",
+        "lat": 35.97,
+        "lon": -5.6
+       }
+      ],
+      "label": "≈60% of US grain exports"
+     }
+    },
+    {
+     "vo": "The forecasting firm Stratfor wrote in 2011 that this basin had more navigable river than the rest of the world combined.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       30.0,
+       -20.0
+      ],
+      "span": 120,
+      "places": [
+       {
+        "name": "Mississippi basin",
+        "lat": 38.5,
+        "lon": -93.0
+       }
+      ],
+      "label": "Stratfor's 2011 claim"
+     }
+    },
+    {
+     "vo": "China's own statistics disagree: its transport ministry counts about 128,000 kilometres of navigable inland waterways at home.",
+     "kind": "compare",
+     "compare": {
+      "title": "Sources disagree",
+      "left": {
+       "name": "US inland waterways",
+       "value": 19300,
+       "prefix": "",
+       "suffix": " km",
+       "label": "≈12,000 miles (USACE)"
+      },
+      "right": {
+       "name": "China inland waterways",
+       "value": 128000,
+       "prefix": "",
+       "suffix": " km",
+       "label": "Ministry of Transport, 2023"
+      },
+      "winner": "right"
+     }
+    },
+    {
+     "vo": "Definitions differ, but what is rare is the shape: one connected tree of rivers, under one flag, emptying through a single door.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       38.0,
+       -91.0
+      ],
+      "span": 22,
+      "places": [
+       {
+        "name": "Pittsburgh",
+        "lat": 40.44,
+        "lon": -80.0
+       },
+       {
+        "name": "Sioux City",
+        "lat": 42.5,
+        "lon": -96.4
+       },
+       {
+        "name": "Minneapolis",
+        "lat": 44.98,
+        "lon": -93.27
+       },
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       }
+      ],
+      "label": "One tree, one door"
+     }
+    },
+    {
+     "vo": "Now look south, where one continent holds the largest river on Earth and a second basin almost the Mississippi's size.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       -15.0,
+       -60.0
+      ],
+      "span": 60,
+      "places": [
+       {
+        "name": "Amazon",
+        "lat": -3.0,
+        "lon": -60.0
+       },
+       {
+        "name": "Río de la Plata",
+        "lat": -34.5,
+        "lon": -57.5
+       }
+      ],
+      "label": "South America"
+     }
+    },
+    {
+     "vo": "The Amazon carries about one fifth of all the fresh water that rivers pour into the oceans, Britannica estimates.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -5.0,
+       -62.0
+      ],
+      "span": 25,
+      "places": [
+       {
+        "name": "Amazon mouth",
+        "lat": 0.0,
+        "lon": -50.0
+       }
+      ],
+      "label": "≈1/5 of river water to the sea"
+     }
+    },
+    {
+     "vo": "Ocean ships can sail about 3,700 kilometres up it to Iquitos, Peru, a city with no road link to Lima.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       -3.0,
+       -61.0
+      ],
+      "span": 18,
+      "places": [
+       {
+        "name": "Belém",
+        "lat": -1.46,
+        "lon": -48.5
+       },
+       {
+        "name": "Iquitos",
+        "lat": -3.75,
+        "lon": -73.25
+       }
+      ],
+      "label": "≈3,700 km for ocean ships"
+     }
+    },
+    {
+     "vo": "But it runs through rainforest and flooded lowland, far from the coasts and highlands where most South Americans have always lived.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -12.0,
+       -60.0
+      ],
+      "span": 45,
+      "places": [
+       {
+        "name": "Lima",
+        "lat": -12.05,
+        "lon": -77.04
+       },
+       {
+        "name": "São Paulo",
+        "lat": -23.55,
+        "lon": -46.63
+       }
+      ],
+      "label": "Forest inland, people on the edges"
+     }
+    },
+    {
+     "vo": "The closer match is the Río de la Plata basin: about 3.1 million square kilometres of plains, swamps and rivers.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -24.0,
+       -58.0
+      ],
+      "span": 26,
+      "places": [
+       {
+        "name": "Paraná",
+        "lat": -27.0,
+        "lon": -56.0
+       },
+       {
+        "name": "Paraguay River",
+        "lat": -22.0,
+        "lon": -57.9
+       }
+      ],
+      "label": "3.1 million km²"
+     }
+    },
+    {
+     "vo": "But its rivers cross five countries, Argentina, Brazil, Paraguay, Uruguay and Bolivia, before they ever reach the sea.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -24.0,
+       -59.0
+      ],
+      "span": 28,
+      "places": [
+       {
+        "name": "Argentina",
+        "lat": -32.0,
+        "lon": -63.0
+       },
+       {
+        "name": "Brazil",
+        "lat": -18.0,
+        "lon": -50.0
+       },
+       {
+        "name": "Paraguay",
+        "lat": -23.4,
+        "lon": -58.4
+       },
+       {
+        "name": "Uruguay",
+        "lat": -32.5,
+        "lon": -56.0
+       },
+       {
+        "name": "Bolivia",
+        "lat": -17.0,
+        "lon": -64.0
+       }
+      ],
+      "label": "Five flags on one basin"
+     }
+    },
+    {
+     "vo": "Elsewhere the great cities sit high, with Mexico City at 2,240 metres, Bogotá at 2,640 and Quito at 2,850.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       8.0,
+       -85.0
+      ],
+      "span": 35,
+      "places": [
+       {
+        "name": "Mexico City",
+        "lat": 19.43,
+        "lon": -99.13
+       },
+       {
+        "name": "Bogotá",
+        "lat": 4.71,
+        "lon": -74.07
+       },
+       {
+        "name": "Quito",
+        "lat": -0.18,
+        "lon": -78.47
+       }
+      ],
+      "label": "2,240 m · 2,640 m · 2,850 m"
+     }
+    },
+    {
+     "vo": "Brazil's largest city, São Paulo, stands about 760 metres up, only 65 kilometres from its port at Santos.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       -23.75,
+       -46.5
+      ],
+      "span": 1.2,
+      "places": [
+       {
+        "name": "São Paulo",
+        "lat": -23.55,
+        "lon": -46.63
+       },
+       {
+        "name": "Santos",
+        "lat": -23.96,
+        "lon": -46.33
+       }
+      ],
+      "label": "65 km, 760 m up"
+     }
+    },
+    {
+     "vo": "Between them rises the Serra do Mar, a coastal wall that every load of coffee, and later soy, had to cross.",
+     "kind": "footage",
+     "search": "coastal mountain range aerial",
+     "clip": {
+      "id": 191354,
+      "tags": "volcano, mountain, jungle, aerial, drone, forest, palm trees, island, exotic, bali, nature, indonesia",
+      "page": "https://pixabay.com/videos/id-191354/"
+     }
+    },
+    {
+     "vo": "So the north got one funnel, and the south got mountains, forests and borders. Yet in 1700, none of it seemed to matter.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       10.0,
+       -80.0
+      ],
+      "span": 100,
+      "places": [
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       },
+       {
+        "name": "Andes",
+        "lat": -15.0,
+        "lon": -70.0
+       }
+      ],
+      "label": "Funnel vs walls"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "SILVER UP, GRAIN DOWN",
+   "shots": [
+    {
+     "vo": "By Angus Maddison's estimates, in 1990 dollars, Mexico produced about 568 dollars per person in 1700, against 527 in the colonies that became the US.",
+     "kind": "compare",
+     "compare": {
+      "title": "Mexico ahead in 1700",
+      "left": {
+       "name": "Mexico",
+       "value": 568,
+       "prefix": "$",
+       "suffix": "",
+       "label": "GDP per person, 1700 (Maddison, 1990 $)"
+      },
+      "right": {
+       "name": "Future US",
+       "value": 527,
+       "prefix": "$",
+       "suffix": "",
+       "label": "GDP per person, 1700 (Maddison, 1990 $)"
+      },
+      "winner": "left"
+     }
+    },
+    {
+     "vo": "Spain's wealth was not in river valleys but in silver, much of it from Potosí, over 4,000 metres up in the Andes.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -19.0,
+       -66.0
+      ],
+      "span": 10,
+      "places": [
+       {
+        "name": "Potosí",
+        "lat": -19.58,
+        "lon": -65.75
+       }
+      ],
+      "label": "Potosí, 4,000+ m"
+     }
+    },
+    {
+     "vo": "Mule trains carried that silver down to the Pacific at Arica, then ships took it north to Callao, the port of Lima.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -15.5,
+       -71.0
+      ],
+      "span": 12,
+      "places": [
+       {
+        "name": "Potosí",
+        "lat": -19.58,
+        "lon": -65.75
+       },
+       {
+        "name": "Arica",
+        "lat": -18.48,
+        "lon": -70.31
+       },
+       {
+        "name": "Callao",
+        "lat": -12.05,
+        "lon": -77.15
+       }
+      ],
+      "label": "Silver road to the Pacific"
+     }
+    },
+    {
+     "vo": "From there it sailed to Panama, crossed the isthmus overland to Portobelo, and was loaded onto the fleets bound for Spain.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       0.0,
+       -78.0
+      ],
+      "span": 26,
+      "places": [
+       {
+        "name": "Callao",
+        "lat": -12.05,
+        "lon": -77.15
+       },
+       {
+        "name": "Panama City",
+        "lat": 8.98,
+        "lon": -79.52
+       },
+       {
+        "name": "Portobelo",
+        "lat": 9.55,
+        "lon": -79.65
+       }
+      ],
+      "label": "Across the isthmus"
+     }
+    },
+    {
+     "vo": "By law the fleets answered to one office in Seville, the Casa de Contratación, which Spain set up in 1503.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       25.0,
+       -42.0
+      ],
+      "span": 50,
+      "places": [
+       {
+        "name": "Portobelo",
+        "lat": 9.55,
+        "lon": -79.65
+       },
+       {
+        "name": "Havana",
+        "lat": 23.11,
+        "lon": -82.37
+       },
+       {
+        "name": "Seville",
+        "lat": 37.39,
+        "lon": -5.98
+       }
+      ],
+      "label": "Seville, 1503"
+     }
+    },
+    {
+     "vo": "Buenos Aires, at the mouth of the south's great river system, was kept off the legal trade routes for most of the colonial era.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -30.0,
+       -58.0
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Buenos Aires",
+        "lat": -34.6,
+        "lon": -58.38
+       }
+      ],
+      "label": "Closed door"
+     }
+    },
+    {
+     "vo": "Only in 1776 did Spain make Buenos Aires a viceroyalty's capital, and only in 1778 did it loosen the rules on trade.",
+     "kind": "timeline",
+     "timeline": {
+      "title": "Spain's southern door",
+      "events": [
+       [
+        "1503",
+        "Seville trade office founded"
+       ],
+       [
+        "1545",
+        "Potosí silver found"
+       ],
+       [
+        "1580",
+        "Buenos Aires refounded"
+       ],
+       [
+        "1776",
+        "Viceroyalty of Río de la Plata"
+       ],
+       [
+        "1778",
+        "Trade rules loosened"
+       ]
+      ],
+      "mark": "1776"
+     }
+    },
+    {
+     "vo": "The line drawn: in Spanish America, the roads ran from mines in the mountains to a few licensed ports, not along the rivers.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -8.0,
+       -72.0
+      ],
+      "span": 40,
+      "places": [
+       {
+        "name": "Potosí",
+        "lat": -19.58,
+        "lon": -65.75
+       },
+       {
+        "name": "Mexico City",
+        "lat": 19.43,
+        "lon": -99.13
+       },
+       {
+        "name": "Veracruz",
+        "lat": 19.17,
+        "lon": -96.13
+       },
+       {
+        "name": "Callao",
+        "lat": -12.05,
+        "lon": -77.15
+       }
+      ],
+      "label": "Mines to licensed ports"
+     }
+    },
+    {
+     "vo": "In the north, the British colonies hugged the Atlantic coast, and the Appalachians stood between them and the interior.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       39.0,
+       -78.0
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Philadelphia",
+        "lat": 39.95,
+        "lon": -75.17
+       },
+       {
+        "name": "Appalachians",
+        "lat": 38.0,
+        "lon": -80.0
+       }
+      ],
+      "label": "Thirteen colonies"
+     }
+    },
+    {
+     "vo": "When American settlers crossed into the Ohio Valley, the only cheap way to sell their crops was downriver to New Orleans.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       35.0,
+       -86.0
+      ],
+      "span": 18,
+      "places": [
+       {
+        "name": "Pittsburgh",
+        "lat": 40.44,
+        "lon": -80.0
+       },
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       }
+      ],
+      "label": "Downriver to market"
+     }
+    },
+    {
+     "vo": "And New Orleans was Spanish: in 1795 the Pinckney Treaty gave Americans the right to ship through it and store goods there.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       30.5,
+       -90.0
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       }
+      ],
+      "label": "Spanish port, 1795 treaty"
+     }
+    },
+    {
+     "vo": "In 1800 Spain secretly agreed to pass Louisiana back to France, and in October 1802 its officials closed the port's warehouses to Americans.",
+     "kind": "headline",
+     "headline": {
+      "date": "October 1802",
+      "text": "Spain suspends Americans' right to store goods at New Orleans"
+     }
+    },
+    {
+     "vo": "Months earlier, Jefferson had written that three-eighths of American territory had to send its produce to market through that one port.",
+     "kind": "document",
+     "document": {
+      "title": "Thomas Jefferson to Robert R. Livingston, 18 April 1802",
+      "highlight": "It is New Orleans, through which the produce of three-eighths of our territory must pass to market."
+     }
+    },
+    {
+     "vo": "In 1803 the United States bought Louisiana from France for 15 million dollars, about 828,000 square miles of land.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       40.0,
+       -97.0
+      ],
+      "span": 30,
+      "places": [
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       }
+      ],
+      "label": "Louisiana Purchase: $15 million",
+      "years": [
+       1803
+      ]
+     }
+    },
+    {
+     "vo": "The country roughly doubled in size, and New Orleans, at the river's mouth, now answered to one government.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       29.8,
+       -89.8
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       },
+       {
+        "name": "Head of Passes",
+        "lat": 29.15,
+        "lon": -89.25
+       }
+      ],
+      "label": "The mouth under one flag"
+     }
+    },
+    {
+     "vo": "In 1811 the first steamboat on these rivers left Pittsburgh for New Orleans, and steam power began to make upstream trips possible.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       35.0,
+       -86.0
+      ],
+      "span": 18,
+      "places": [
+       {
+        "name": "Pittsburgh",
+        "lat": 40.44,
+        "lon": -80.0
+       },
+       {
+        "name": "Louisville",
+        "lat": 38.25,
+        "lon": -85.76
+       },
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       }
+      ],
+      "label": "1811: steam arrives"
+     }
+    },
+    {
+     "vo": "In 1825 the Erie Canal linked the Great Lakes to New York, and in 1848 another canal joined Lake Michigan to the Mississippi system.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       42.0,
+       -82.0
+      ],
+      "span": 12,
+      "places": [
+       {
+        "name": "Buffalo",
+        "lat": 42.89,
+        "lon": -78.88
+       },
+       {
+        "name": "Albany",
+        "lat": 42.65,
+        "lon": -73.75
+       },
+       {
+        "name": "Chicago",
+        "lat": 41.88,
+        "lon": -87.63
+       }
+      ],
+      "label": "1825 · 1848"
+     }
+    },
+    {
+     "vo": "By Maddison's estimates the order had flipped by 1820: about 1,257 dollars per person in the US, against 759 in Mexico.",
+     "kind": "compare",
+     "compare": {
+      "title": "The order flips",
+      "left": {
+       "name": "United States",
+       "value": 1257,
+       "prefix": "$",
+       "suffix": "",
+       "label": "GDP per person, 1820 (Maddison, 1990 $)"
+      },
+      "right": {
+       "name": "Mexico",
+       "value": 759,
+       "prefix": "$",
+       "suffix": "",
+       "label": "GDP per person, 1820 (Maddison, 1990 $)"
+      },
+      "winner": "left"
+     }
+    },
+    {
+     "vo": "Economic historians treat those figures as rough, but the line drawn is clear: one basin, one market, and a door the country owned.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       38.0,
+       -90.0
+      ],
+      "span": 26,
+      "places": [
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       }
+      ],
+      "label": "One basin, one market"
+     }
+    },
+    {
+     "vo": "Spanish America won its independence between 1810 and the mid-1820s, but the empire's pieces did not stay together.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       0.0,
+       -75.0
+      ],
+      "span": 80,
+      "places": [
+       {
+        "name": "Caracas",
+        "lat": 10.48,
+        "lon": -66.9
+       },
+       {
+        "name": "Buenos Aires",
+        "lat": -34.6,
+        "lon": -58.38
+       }
+      ],
+      "label": "Independence",
+      "years": [
+       1810,
+       1825
+      ]
+     }
+    },
+    {
+     "vo": "Gran Colombia, formed in 1819, put today's Colombia, Venezuela, Ecuador and Panama under a single government in Bogotá.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       4.0,
+       -72.0
+      ],
+      "span": 22,
+      "places": [
+       {
+        "name": "Bogotá",
+        "lat": 4.71,
+        "lon": -74.07
+       },
+       {
+        "name": "Caracas",
+        "lat": 10.48,
+        "lon": -66.9
+       },
+       {
+        "name": "Quito",
+        "lat": -0.18,
+        "lon": -78.47
+       },
+       {
+        "name": "Panama City",
+        "lat": 8.98,
+        "lon": -79.52
+       }
+      ],
+      "label": "Gran Colombia, 1819"
+     }
+    },
+    {
+     "vo": "It broke apart in 1831, after barely a decade, into Venezuela, Ecuador and New Granada, which included Panama.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       4.0,
+       -72.0
+      ],
+      "span": 22,
+      "places": [
+       {
+        "name": "Caracas",
+        "lat": 10.48,
+        "lon": -66.9
+       },
+       {
+        "name": "Quito",
+        "lat": -0.18,
+        "lon": -78.47
+       },
+       {
+        "name": "Bogotá",
+        "lat": 4.71,
+        "lon": -74.07
+       }
+      ],
+      "label": "One state, then three",
+      "years": [
+       1819,
+       1831
+      ]
+     }
+    },
+    {
+     "vo": "The Federal Republic of Central America lasted from 1823 to 1841 before it split into five separate states.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       13.5,
+       -87.0
+      ],
+      "span": 9,
+      "places": [
+       {
+        "name": "Guatemala City",
+        "lat": 14.63,
+        "lon": -90.51
+       },
+       {
+        "name": "San José",
+        "lat": 9.93,
+        "lon": -84.08
+       }
+      ],
+      "label": "One republic, then five",
+      "years": [
+       1823,
+       1841
+      ]
+     }
+    },
+    {
+     "vo": "And the Plata basin, the south's one great river funnel, ended up divided between five countries with five capitals.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -24.0,
+       -59.0
+      ],
+      "span": 26,
+      "places": [
+       {
+        "name": "Buenos Aires",
+        "lat": -34.6,
+        "lon": -58.38
+       },
+       {
+        "name": "Asunción",
+        "lat": -25.26,
+        "lon": -57.58
+       },
+       {
+        "name": "Montevideo",
+        "lat": -34.9,
+        "lon": -56.16
+       },
+       {
+        "name": "Brasília",
+        "lat": -15.79,
+        "lon": -47.88
+       },
+       {
+        "name": "Sucre",
+        "lat": -19.04,
+        "lon": -65.26
+       }
+      ],
+      "label": "Five capitals, one basin"
+     }
+    },
+    {
+     "vo": "From 1864 to 1870, Paraguay fought Argentina, Brazil and Uruguay; historians still debate the causes, and river access is among them.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -27.0,
+       -57.5
+      ],
+      "span": 12,
+      "places": [
+       {
+        "name": "Asunción",
+        "lat": -25.26,
+        "lon": -57.58
+       },
+       {
+        "name": "Humaitá",
+        "lat": -27.07,
+        "lon": -58.5
+       }
+      ],
+      "label": "War on the rivers, 1864-1870"
+     }
+    },
+    {
+     "vo": "The line drawn: the south's best river map was cut by borders, and each stretch of water answered to a different capital.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -26.0,
+       -58.0
+      ],
+      "span": 20,
+      "places": [
+       {
+        "name": "Cáceres",
+        "lat": -16.07,
+        "lon": -57.68
+       },
+       {
+        "name": "Asunción",
+        "lat": -25.26,
+        "lon": -57.58
+       },
+       {
+        "name": "Rosario",
+        "lat": -32.95,
+        "lon": -60.65
+       },
+       {
+        "name": "Buenos Aires",
+        "lat": -34.6,
+        "lon": -58.38
+       }
+      ],
+      "label": "One river, many borders"
+     }
+    },
+    {
+     "vo": "Yet by 1913, on Maddison's estimates, Argentina, sitting on that very basin, had pulled far ahead of Mexico, at 3,797 dollars per person.",
+     "kind": "chart",
+     "chart": {
+      "type": "bar",
+      "title": "Argentina's river boom",
+      "unit": "GDP per person, 1990 international $",
+      "points": [
+       [
+        "United States",
+        5301
+       ],
+       [
+        "Argentina",
+        3797
+       ],
+       [
+        "Mexico",
+        1732
+       ]
+      ],
+      "mark": "Argentina",
+      "source": "Maddison, The World Economy: A Millennial Perspective, OECD, 2001"
+     }
+    },
+    {
+     "vo": "Which raises the hardest question for the map: if rivers made America rich, why did they not keep Argentina rich?",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -33.5,
+       -59.5
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Buenos Aires",
+        "lat": -34.6,
+        "lon": -58.38
+       },
+       {
+        "name": "Rosario",
+        "lat": -32.95,
+        "lon": -60.65
+       }
+      ],
+      "label": "Rich in 1913"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "THE MAP ON TRIAL",
+   "shots": [
+    {
+     "vo": "Two camps answer that question, and both deserve a hearing.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       5.0,
+       -78.0
+      ],
+      "span": 95,
+      "places": [
+       {
+        "name": "United States",
+        "lat": 39.0,
+        "lon": -98.0
+       },
+       {
+        "name": "Argentina",
+        "lat": -34.0,
+        "lon": -64.0
+       }
+      ],
+      "label": "Land or rules?"
+     }
+    },
+    {
+     "vo": "The geography camp, writers like Peter Zeihan in 2014 and Tim Marshall in 2015, argue that cheap transport shaped where wealth gathered.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       37.0,
+       -91.0
+      ],
+      "span": 20,
+      "places": [
+       {
+        "name": "Minneapolis",
+        "lat": 44.98,
+        "lon": -93.27
+       },
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       }
+      ],
+      "label": "The geography case"
+     }
+    },
+    {
+     "vo": "In that view, a farmer who can ship cheaply keeps more of each harvest, and the surplus builds banks, towns and factories.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       40.0,
+       -88.0
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "Iowa farms",
+        "lat": 42.0,
+        "lon": -93.5
+       },
+       {
+        "name": "Chicago",
+        "lat": 41.88,
+        "lon": -87.63
+       },
+       {
+        "name": "St. Louis",
+        "lat": 38.63,
+        "lon": -90.2
+       }
+      ],
+      "label": "Cheap freight, kept surplus"
+     }
+    },
+    {
+     "vo": "The institutions camp won the economics Nobel in 2024: Daron Acemoglu, Simon Johnson and James Robinson.",
+     "kind": "quote",
+     "quote": {
+      "text": "for studies of how institutions are formed and affect prosperity",
+      "who": "Royal Swedish Academy of Sciences, on Acemoglu, Johnson and Robinson",
+      "source": "NobelPrize.org, 14 October 2024"
+     }
+    },
+    {
+     "vo": "Acemoglu and Robinson's book Why Nations Fail opens in Nogales, a city split in two by the US-Mexico border.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       31.33,
+       -110.94
+      ],
+      "span": 0.15,
+      "places": [
+       {
+        "name": "Nogales, Arizona",
+        "lat": 31.34,
+        "lon": -110.94
+       },
+       {
+        "name": "Nogales, Sonora",
+        "lat": 31.31,
+        "lon": -110.94
+       }
+      ],
+      "label": "One city, two countries"
+     }
+    },
+    {
+     "vo": "Same land and same climate on both sides of the fence, so the income gap, they argue, comes from the rules each side lives under.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       31.33,
+       -110.94
+      ],
+      "span": 0.06,
+      "places": [
+       {
+        "name": "Border fence",
+        "lat": 31.333,
+        "lon": -110.94
+       }
+      ],
+      "label": "Same land, different rules"
+     }
+    },
+    {
+     "vo": "In a 2002 paper, the three argued that the colonies richest around 1500 tend to be the poorer ones today.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       5.0,
+       -80.0
+      ],
+      "span": 70,
+      "places": [
+       {
+        "name": "Valley of Mexico",
+        "lat": 19.43,
+        "lon": -99.13
+       },
+       {
+        "name": "Cusco",
+        "lat": -13.53,
+        "lon": -71.97
+       }
+      ],
+      "label": "A reversal of fortune"
+     }
+    },
+    {
+     "vo": "Where Spain found silver and dense populations to tax, they argue, it built rules to extract wealth rather than spread it.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -5.0,
+       -78.0
+      ],
+      "span": 50,
+      "places": [
+       {
+        "name": "Potosí",
+        "lat": -19.58,
+        "lon": -65.75
+       },
+       {
+        "name": "Mexico City",
+        "lat": 19.43,
+        "lon": -99.13
+       }
+      ],
+      "label": "Built to extract"
+     }
+    },
+    {
+     "vo": "In 1997, economists Stanley Engerman and Kenneth Sokoloff argued that soils and crops did shape the Americas, through inequality.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       10.0,
+       -60.0
+      ],
+      "span": 40,
+      "places": [
+       {
+        "name": "Caribbean sugar islands",
+        "lat": 18.0,
+        "lon": -72.0
+       },
+       {
+        "name": "Northeast Brazil",
+        "lat": -8.0,
+        "lon": -36.0
+       }
+      ],
+      "label": "Sugar and plantations: few owners"
+     }
+    },
+    {
+     "vo": "Sugar and plantation colonies, they wrote, put land in few hands, while wheat-farm colonies spread it among many families.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       42.0,
+       -76.0
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "New England",
+        "lat": 43.0,
+        "lon": -71.5
+       },
+       {
+        "name": "Pennsylvania",
+        "lat": 40.9,
+        "lon": -77.8
+       }
+      ],
+      "label": "Family farms: many owners"
+     }
+    },
+    {
+     "vo": "Which do you find more convincing, the river or the rules?",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       10.0,
+       -80.0
+      ],
+      "span": 100,
+      "places": [
+       {
+        "name": "Mississippi",
+        "lat": 38.5,
+        "lon": -90.5
+       },
+       {
+        "name": "Plata",
+        "lat": -30.0,
+        "lon": -58.0
+       }
+      ],
+      "label": "River or rules?"
+     }
+    },
+    {
+     "vo": "To the institutions camp, Argentina is a case in point: it had the Plata's rivers and plains, and still fell behind across the twentieth century.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -34.0,
+       -62.0
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "Pampas",
+        "lat": -35.0,
+        "lon": -62.0
+       }
+      ],
+      "label": "Rivers, yet behind"
+     }
+    },
+    {
+     "vo": "Geography writers Gallup, Sachs and Mellinger argue that coastal and navigable-river economies are richer worldwide, even after controlling for institutions, though the institutions camp disputes this.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       37.0,
+       -91.0
+      ],
+      "span": 22,
+      "places": [
+       {
+        "name": "Mississippi basin",
+        "lat": 38.5,
+        "lon": -93.0
+       }
+      ],
+      "label": "One river, one government"
+     }
+    },
+    {
+     "vo": "The rivalry is not only academic; it runs straight through the world's soybean trade today.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       5.0,
+       -70.0
+      ],
+      "span": 90,
+      "places": [
+       {
+        "name": "US Midwest",
+        "lat": 42.0,
+        "lon": -92.0
+       },
+       {
+        "name": "Mato Grosso",
+        "lat": -13.0,
+        "lon": -56.0
+       }
+      ],
+      "label": "Soy rivals"
+     }
+    },
+    {
+     "vo": "By USDA figures, Brazil is now the world's largest soybean exporter, competing head-on with the American Midwest for buyers.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       0.0,
+       0.0
+      ],
+      "span": 120,
+      "places": [
+       {
+        "name": "Santos",
+        "lat": -23.96,
+        "lon": -46.33
+       },
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       },
+       {
+        "name": "Shanghai",
+        "lat": 31.23,
+        "lon": 121.47
+       }
+      ],
+      "label": "Two soy exits to Asia"
+     }
+    },
+    {
+     "vo": "But Brazil's soy belt sits deep inland, and from Sorriso in Mato Grosso, trucks drive about 2,000 kilometres to Santos.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       -18.0,
+       -51.0
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Sorriso",
+        "lat": -12.55,
+        "lon": -55.71
+       },
+       {
+        "name": "Santos",
+        "lat": -23.96,
+        "lon": -46.33
+       }
+      ],
+      "label": "≈2,000 km by truck"
+     }
+    },
+    {
+     "vo": "So soy has been pushed north as well, by truck to Amazon tributaries like the Tapajós, then by barge to ports near the river's mouth.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -6.0,
+       -53.0
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Sorriso",
+        "lat": -12.55,
+        "lon": -55.71
+       },
+       {
+        "name": "Miritituba",
+        "lat": -4.29,
+        "lon": -55.98
+       },
+       {
+        "name": "Barcarena",
+        "lat": -1.51,
+        "lon": -48.62
+       }
+      ],
+      "label": "The northern route"
+     }
+    },
+    {
+     "vo": "Paraguay, with no coast at all, ships its grain down the Paraguay and Paraná rivers, and its shipowners say it runs the world's third largest barge fleet.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -25.0,
+       -58.0
+      ],
+      "span": 10,
+      "places": [
+       {
+        "name": "Asunción",
+        "lat": -25.26,
+        "lon": -57.58
+       }
+      ],
+      "label": "Landlocked, by barge"
+     }
+    },
+    {
+     "vo": "That route, the Paraná-Paraguay waterway, runs about 3,442 kilometres, from Cáceres in Brazil down to Nueva Palmira in Uruguay.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       -25.0,
+       -58.0
+      ],
+      "span": 22,
+      "places": [
+       {
+        "name": "Cáceres",
+        "lat": -16.07,
+        "lon": -57.68
+       },
+       {
+        "name": "Nueva Palmira",
+        "lat": -33.88,
+        "lon": -58.42
+       }
+      ],
+      "label": "3,442 km waterway"
+     }
+    },
+    {
+     "vo": "It is the south's nearest thing to a Mississippi, but its channel answers to several governments, not one.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -26.0,
+       -58.0
+      ],
+      "span": 20,
+      "places": [
+       {
+        "name": "Brazil",
+        "lat": -18.0,
+        "lon": -55.0
+       },
+       {
+        "name": "Paraguay",
+        "lat": -23.4,
+        "lon": -58.4
+       },
+       {
+        "name": "Argentina",
+        "lat": -30.0,
+        "lon": -60.0
+       },
+       {
+        "name": "Uruguay",
+        "lat": -33.0,
+        "lon": -57.0
+       }
+      ],
+      "label": "Several governments, one channel"
+     }
+    },
+    {
+     "vo": "And in November 2024 a new deep-water port opened at Chancay, north of Lima, majority owned by China's state shipping group COSCO.",
+     "kind": "headline",
+     "headline": {
+      "date": "14 November 2024",
+      "text": "Chinese-majority megaport opens at Chancay, north of Lima"
+     }
+    },
+    {
+     "vo": "COSCO holds 60 percent and the Peruvian miner Volcan 40, and the first phase cost about 1.3 billion dollars.",
+     "kind": "flow",
+     "flow": {
+      "title": "Who owns Chancay",
+      "nodes": [
+       "COSCO Shipping",
+       "Volcan",
+       "Chancay port"
+      ],
+      "links": [
+       [
+        "COSCO Shipping",
+        "Chancay port",
+        "60%"
+       ],
+       [
+        "Volcan",
+        "Chancay port",
+        "40%"
+       ]
+      ]
+     }
+    },
+    {
+     "vo": "Peru's government calls it a hub for the whole region, while US officials have said they worry about Chinese control of strategic ports.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       10.0,
+       -150.0
+      ],
+      "span": 90,
+      "places": [
+       {
+        "name": "Chancay",
+        "lat": -11.57,
+        "lon": -77.27
+       },
+       {
+        "name": "Shanghai",
+        "lat": 31.23,
+        "lon": 121.47
+       }
+      ],
+      "label": "Straight across the Pacific"
+     }
+    },
+    {
+     "vo": "For the US, the question is whether its great funnel keeps its edge, and the river itself has been showing strain.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       36.0,
+       -90.0
+      ],
+      "span": 20,
+      "places": [
+       {
+        "name": "Memphis",
+        "lat": 35.15,
+        "lon": -90.05
+       }
+      ],
+      "label": "Strain on the funnel"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "WATER HAS THE LAST WORD",
+   "shots": [
+    {
+     "vo": "In October 2022 the Mississippi hit a record low at Memphis, and barges carried lighter loads to avoid running aground.",
+     "kind": "headline",
+     "headline": {
+      "date": "October 2022",
+      "text": "Mississippi falls to record low at Memphis; barges lighten loads"
+     }
+    },
+    {
+     "vo": "That month the USDA's weekly barge report showed record spot rates for barges loading at St. Louis.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       37.0,
+       -90.1
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Memphis",
+        "lat": 35.15,
+        "lon": -90.05
+       },
+       {
+        "name": "St. Louis",
+        "lat": 38.63,
+        "lon": -90.2
+       }
+      ],
+      "label": "Record barge rates, Oct 2022"
+     }
+    },
+    {
+     "vo": "Upstream, the Upper Mississippi's 29 locks and dams were mostly built in the 1930s, and many are past their 50-year design life.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       42.0,
+       -91.0
+      ],
+      "span": 8,
+      "places": [
+       {
+        "name": "Lock and Dam 19, Keokuk",
+        "lat": 40.4,
+        "lon": -91.37
+       },
+       {
+        "name": "Lock and Dam 15, Rock Island",
+        "lat": 41.52,
+        "lon": -90.57
+       }
+      ],
+      "label": "29 locks, mostly 1930s"
+     }
+    },
+    {
+     "vo": "In its 2021 report card, the American Society of Civil Engineers gave the nation's inland waterways a grade of D-plus.",
+     "kind": "document",
+     "document": {
+      "title": "ASCE 2021 Report Card for America's Infrastructure: Inland Waterways",
+      "highlight": "Inland Waterways: D+"
+     }
+    },
+    {
+     "vo": "If a major lock failed, cargo above it would have to move by rail and road instead, at a higher fuel cost per ton.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       41.0,
+       -90.5
+      ],
+      "span": 8,
+      "places": [
+       {
+        "name": "Rock Island",
+        "lat": 41.51,
+        "lon": -90.58
+       },
+       {
+        "name": "Chicago",
+        "lat": 41.88,
+        "lon": -87.63
+       }
+      ],
+      "label": "Barge to rail"
+     }
+    },
+    {
+     "vo": "Engineers have long warned of a bigger risk at Old River, Louisiana, where the Mississippi tends to shift into the shorter, steeper Atchafalaya.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       31.07,
+       -91.6
+      ],
+      "span": 2,
+      "places": [
+       {
+        "name": "Old River",
+        "lat": 31.07,
+        "lon": -91.6
+       }
+      ],
+      "label": "Old River, Louisiana"
+     }
+    },
+    {
+     "vo": "The Atchafalaya reaches the Gulf in about 140 miles, against roughly 300 on the Mississippi's present path, John McPhee wrote.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       30.3,
+       -90.8
+      ],
+      "span": 3.5,
+      "places": [
+       {
+        "name": "Old River",
+        "lat": 31.07,
+        "lon": -91.6
+       },
+       {
+        "name": "Morgan City",
+        "lat": 29.7,
+        "lon": -91.21
+       },
+       {
+        "name": "Head of Passes",
+        "lat": 29.15,
+        "lon": -89.25
+       }
+      ],
+      "label": "≈140 vs ≈300 miles"
+     }
+    },
+    {
+     "vo": "Since 1963 the Army Corps has held it in place with the Old River Control Structure, letting about 30 percent of the flow go west.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       31.0,
+       -91.6
+      ],
+      "span": 0.8,
+      "places": [
+       {
+        "name": "Old River Control Structure",
+        "lat": 31.08,
+        "lon": -91.6
+       }
+      ],
+      "label": "30% west, 70% south"
+     }
+    },
+    {
+     "vo": "If the river ever broke through, McPhee wrote, Baton Rouge and New Orleans could be left on a saltwater channel.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       30.3,
+       -91.0
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Baton Rouge",
+        "lat": 30.45,
+        "lon": -91.19
+       },
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       },
+       {
+        "name": "Morgan City",
+        "lat": 29.7,
+        "lon": -91.21
+       }
+      ],
+      "label": "The door could move"
+     }
+    },
+    {
+     "vo": "In the south, the Paraná's private dredging concession, held since 1995, expired in 2021, and Argentina has been trying to award a new one since.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -32.5,
+       -59.5
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Santa Fe",
+        "lat": -31.63,
+        "lon": -60.7
+       },
+       {
+        "name": "Rosario",
+        "lat": -32.95,
+        "lon": -60.65
+       },
+       {
+        "name": "Buenos Aires",
+        "lat": -34.6,
+        "lon": -58.38
+       }
+      ],
+      "label": "Concession: 1995-2021"
+     }
+    },
+    {
+     "vo": "If the waterway were deepened and run as one system, the Plata could carry far more grain to sea, with Rosario as its New Orleans.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -27.0,
+       -59.0
+      ],
+      "span": 18,
+      "places": [
+       {
+        "name": "Rosario",
+        "lat": -32.95,
+        "lon": -60.65
+       }
+      ],
+      "label": "A southern funnel?"
+     }
+    },
+    {
+     "vo": "The region's one great water shortcut, the Panama Canal, depends on rain, and in late 2023 drought cut daily transits to about 24, from roughly 36.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       9.2,
+       -79.8
+      ],
+      "span": 1.2,
+      "places": [
+       {
+        "name": "Gatun Lake",
+        "lat": 9.2,
+        "lon": -79.9
+       }
+      ],
+      "label": "≈36 → ≈24 a day, 2023"
+     }
+    },
+    {
+     "vo": "Some shippers and officials have pointed to routes that avoid it, like Chancay to the west, Reuters reported in 2024.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       0.0,
+       -78.0
+      ],
+      "span": 30,
+      "places": [
+       {
+        "name": "Panama Canal",
+        "lat": 9.08,
+        "lon": -79.68
+       },
+       {
+        "name": "Chancay",
+        "lat": -11.57,
+        "lon": -77.27
+       }
+      ],
+      "label": "A way around the canal"
+     }
+    },
+    {
+     "vo": "And Mexico, with almost no navigable rivers, became America's largest trading partner in 2023, with about 798 billion dollars in goods.",
+     "kind": "stat",
+     "stat": {
+      "value": 798,
+      "prefix": "$",
+      "suffix": " billion",
+      "label": "US-Mexico goods trade, 2023 (US Census Bureau)"
+     }
+    },
+    {
+     "vo": "That trade moves by rail and truck through crossings like Laredo, a line on the map that runs north to south, not down a river.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       25.0,
+       -99.0
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "Monterrey",
+        "lat": 25.69,
+        "lon": -100.32
+       },
+       {
+        "name": "Laredo",
+        "lat": 27.51,
+        "lon": -99.51
+       },
+       {
+        "name": "San Antonio",
+        "lat": 29.42,
+        "lon": -98.49
+       }
+      ],
+      "label": "Rail and road, north-south"
+     }
+    },
+    {
+     "vo": "If that keeps growing, the line that matters most in the Americas may no longer be one that water drew.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       25.0,
+       -95.0
+      ],
+      "span": 30,
+      "places": [
+       {
+        "name": "Laredo",
+        "lat": 27.51,
+        "lon": -99.51
+       },
+       {
+        "name": "New Orleans",
+        "lat": 29.95,
+        "lon": -90.07
+       }
+      ],
+      "label": "Water line or trade line?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Whichever camp is right, the map helped set the price of moving a harvest, and the north's rivers gave it unusually cheap transport, by the figures above.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       10.0,
+       -80.0
+      ],
+      "span": 100,
+      "places": [
+       {
+        "name": "Mississippi basin",
+        "lat": 38.5,
+        "lon": -93.0
+       },
+       {
+        "name": "Plata basin",
+        "lat": -24.0,
+        "lon": -58.0
+       }
+      ],
+      "label": "The price of moving a harvest"
+     }
+    },
+    {
+     "vo": "Next, the Strait of Malacca, and how the city at its tip came to out-earn the country that founded it.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       2.5,
+       101.5
+      ],
+      "span": 10,
+      "places": [
+       {
+        "name": "Strait of Malacca",
+        "lat": 2.5,
+        "lon": 101.0
+       },
+       {
+        "name": "Singapore",
+        "lat": 1.29,
+        "lon": 103.85
+       }
+      ],
+      "label": "Next: Malacca"
+     }
+    }
+   ]
+  }
+ ],
+ "restocked": true,
+ "replanned": true,
+ "templates_checked": true,
+ "photos_checked": true,
+ "visuals_checked": true,
+ "approved": true,
+ "review": "auto",
+ "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos"
+}
