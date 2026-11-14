@@ -496,6 +496,155 @@ def chart(ctx, it, t, i, n):
     return kit.over(img, layer)
 
 
+# ---------------------------------------------------------------- animated explainers (owner, 13 Nov 2026: "we still
+# don't match their level in visuals": the winners build an animated graphic for each key moment)
+def _ground(ctx, it, i):
+    """Behind an explainer: the blurred last picture if there is one, else the channel ground, with a faint grid."""
+    img = backdrop(ctx.L, i, ctx, it).astype(np.float32)
+    g = np.zeros_like(img)
+    g[::90, :, :] = 10
+    g[:, ::90, :] = 10
+    return np.clip(img * 0.8 + g, 0, 255).astype(np.uint8)
+
+
+def timeline(ctx, it, t, i, n):
+    """Years on a line: the line draws itself left to right, each event pops in on its turn (year above, what happened
+    below), the latest one in the accent colour; the marked year gets a ring."""
+    tl = it.get("timeline") or {}
+    ev = [(str(e[0]), str(e[1])) for e in tl.get("events") or [] if isinstance(e, (list, tuple)) and len(e) >= 2][:6]
+    img = _ground(ctx, it, i)
+    layer = kit.blank()
+    d = ImageDraw.Draw(layer)
+    if tl.get("title"):
+        kit.spaced(d, (160, 120), str(tl["title"]).upper(), kit.font("Inter", 40), (*BONE, int(255 * ease_out(t / 0.4))))
+    if not ev:
+        return kit.over(img, layer)
+    x0, x1, y = 150, W - 150, H / 2 + 20
+    dur = max(1.0, it["dur"] - 0.6)
+    p = ease_out(t / (dur * 0.85))
+    d.line([(x0, y), (x0 + (x1 - x0) * p, y)], fill=(*BONE, 220), width=7)
+    yf, lf = kit.font("BarlowCondensed-Bold", 120), kit.font("Inter", 40)
+    whens = [(k + 0.5) / len(ev) * dur * 0.85 for k in range(len(ev))]
+    latest = sum(w <= t for w in whens) - 1  # the event just reached
+    for k, (yr, what) in enumerate(ev):
+        x = x0 + (x1 - x0) * (k + 0.5) / len(ev)
+        a = ease_out((t - whens[k]) / 0.35)
+        if a <= 0:
+            continue
+        cur = k == latest
+        col = ctx.L["accent"] if cur else BONE
+        r = 18 + 8 * (1 - a) + (6 if cur else 0)
+        d.ellipse((x - r, y - r, x + r, y + r), fill=(*col, int(255 * a)))
+        if yr == str(tl.get("mark", "")):
+            rr = 46 + 8 * np.sin(t * 4)
+            d.ellipse((x - rr, y - rr, x + rr, y + rr), outline=(226, 58, 46, int(220 * a)), width=4)
+        tw = d.textlength(yr, font=yf)
+        d.text((x - tw / 2, y - 190 - 20 * (1 - a)), yr, font=yf, fill=(*col, int(255 * a)))
+        yy = y + 50
+        for ln in wrap(d, what, lf, (x1 - x0) / len(ev) - 30)[:3]:
+            lw = d.textlength(ln, font=lf)
+            d.text((x - lw / 2, yy), ln, font=lf, fill=(*BONE, int(235 * a)))
+            yy += 52
+    return kit.over(img, layer)
+
+
+def flow(ctx, it, t, i, n):
+    """Money or control moving between parties: boxes left to right, each arrow draws itself in turn with dots
+    travelling along it, the amount popping onto it."""
+    fl = it.get("flow") or {}
+    nodes = [str(x) for x in fl.get("nodes") or []][:4]
+    links = [l for l in fl.get("links") or [] if isinstance(l, (list, tuple)) and len(l) >= 2][:4]
+    img = _ground(ctx, it, i)
+    layer = kit.blank()
+    d = ImageDraw.Draw(layer)
+    if fl.get("title"):
+        kit.spaced(d, (160, 120), str(fl["title"]).upper(), kit.font("Inter", 40), (*BONE, int(255 * ease_out(t / 0.4))))
+    if len(nodes) < 2:
+        return kit.over(img, layer)
+    nf, af = kit.font("Inter", 48), kit.font("BarlowCondensed-Bold", 96)
+    pos = {}
+    for k, nm in enumerate(nodes):
+        cx = 280 + (W - 560) * k / (len(nodes) - 1)
+        cy = H / 2 + 60 + (90 if k % 2 else -40) * (len(nodes) > 2)
+        a = ease_out((t - 0.15 * k) / 0.35)
+        bw = min(440, max(280, d.textlength(nm.upper(), font=nf) + 70))
+        d.rounded_rectangle((cx - bw / 2, cy - 70, cx + bw / 2, cy + 70), radius=18, fill=(16, 18, 22, int(235 * a)),
+                            outline=(*BONE, int(220 * a)), width=4)
+        tw = d.textlength(nm.upper(), font=nf)
+        d.text((cx - tw / 2, cy - 30), nm.upper(), font=nf, fill=(*BONE, int(255 * a)))
+        pos[nm] = (cx, cy, bw)
+    dur = max(1.0, it["dur"] - 0.5)
+    for k, l in enumerate(links):
+        if str(l[0]) not in pos or str(l[1]) not in pos:
+            continue
+        (ax, ay, aw), (bx, by, bw2) = pos[str(l[0])], pos[str(l[1])]
+        sx, ex = ax + (aw / 2 + 14) * (1 if bx > ax else -1), bx - (bw2 / 2 + 14) * (1 if bx > ax else -1)
+        start = 0.6 + k * (dur - 0.6) / max(1, len(links))
+        p = ease_out((t - start) / 0.9)
+        if p <= 0:
+            continue
+        mx, my = sx + (ex - sx) * p, ay + (by - ay) * p
+        d.line([(sx, ay), (mx, my)], fill=(*ctx.L["accent"], 255), width=9)
+        if p >= 1:  # the head and travelling dots
+            ang = np.arctan2(by - ay, ex - sx)
+            hx, hy = ex, by
+            d.polygon([(hx, hy), (hx - 26 * np.cos(ang - 0.45), hy - 26 * np.sin(ang - 0.45)),
+                       (hx - 26 * np.cos(ang + 0.45), hy - 26 * np.sin(ang + 0.45))], fill=(*ctx.L["accent"], 255))
+            for j in range(3):
+                q = ((t * 0.7 + j / 3) % 1.0)
+                qx, qy = sx + (ex - sx) * q, ay + (by - ay) * q
+                d.ellipse((qx - 7, qy - 7, qx + 7, qy + 7), fill=(255, 255, 255, 220))
+        if len(l) > 2 and p > 0.5:
+            lab = str(l[2])
+            a = ease_out((p - 0.5) / 0.5)
+            tw = d.textlength(lab, font=af)
+            lx, ly = (sx + ex) / 2 - tw / 2, min(ay, by) - 70 - 140  # clear above both boxes
+            d.rounded_rectangle((lx - 18, ly - 6, lx + tw + 18, ly + 110), radius=12, fill=(0, 0, 0, int(210 * a)))
+            d.text((lx, ly), lab, font=af, fill=(*ctx.L["accent"], int(255 * a)))
+    return kit.over(img, layer)
+
+
+def compare(ctx, it, t, i, n):
+    """Two sides side by side: names on top, the numbers counting up, bars growing to scale, the winner in the accent
+    colour, the other in grey."""
+    c = it.get("compare") or {}
+    sides = [c.get("left") or {}, c.get("right") or {}]
+    img = _ground(ctx, it, i)
+    layer = kit.blank()
+    d = ImageDraw.Draw(layer)
+    if c.get("title"):
+        tf = kit.font("Inter", 40)
+        tt = str(c["title"]).upper()
+        kit.spaced(d, (W / 2 - d.textlength(tt, font=tf) / 2 - 20, 110), tt, tf, (*BONE, int(255 * ease_out(t / 0.4))))
+    vals = []
+    for sd in sides:
+        try:
+            vals.append(float(sd.get("value")))
+        except (TypeError, ValueError):
+            vals.append(0.0)
+    hi = max(vals) or 1
+    win = c.get("winner") or ("left" if vals[0] >= vals[1] else "right")
+    nf, vf, lf = kit.font("Inter", 52), kit.font("BarlowCondensed-Bold", 170), kit.font("Inter", 36)
+    d.line([(W / 2, 220), (W / 2, H - 140)], fill=(*BONE, 90), width=2)
+    for k, sd in enumerate(sides):
+        cx = W * (0.27 if k == 0 else 0.73)
+        a = ease_out((t - 0.2 * k) / 0.4)
+        nm = str(sd.get("name") or "").upper()
+        d.text((cx - d.textlength(nm, font=nf) / 2, 210), nm, font=nf, fill=(*BONE, int(255 * a)))
+        cnt = ease_out((t - 0.4) / 1.2)
+        v = vals[k] * cnt
+        dec = 0 if abs(vals[k]) >= 100 or float(vals[k]).is_integer() else 1
+        txt = str(sd.get("prefix") or "") + f"{v:,.{dec}f}" + str(sd.get("suffix") or "")
+        col = ctx.L["accent"] if (win == ("left" if k == 0 else "right")) else (150, 156, 160)
+        d.text((cx - d.textlength(txt, font=vf) / 2, 300), txt, font=vf, fill=(*col, int(255 * a)))
+        bh = 330 * (vals[k] / hi) * cnt  # under the number, never into it
+        d.rectangle((cx - 150, H - 200 - bh, cx + 150, H - 200), fill=(*col, int(230 * a)))
+        lab = str(sd.get("label") or "")
+        for j, ln in enumerate(wrap(d, lab, lf, 560)[:2]):
+            d.text((cx - d.textlength(ln, font=lf) / 2, H - 180 + 44 * j), ln, font=lf, fill=(*BONE, int(220 * a)))
+    return kit.over(img, layer)
+
+
 def mapshot(ctx, it, t, i, n):
     import maps
     return maps.frame(it.get("map") or {}, t, it["dur"], i)
@@ -567,6 +716,7 @@ def endcard(ctx, it, t, i, n):
 
 DRAW = {"footage": footage, "archive": footage, "still": still, "photo": photo, "stat": stat, "headline": headline,
         "document": document, "quote": quote, "chart": chart, "map": mapshot, "card": card, "end": endcard,
+        "timeline": timeline, "flow": flow, "compare": compare,
         "title": titleslam}
 
 
@@ -687,6 +837,16 @@ def join(out):
             mix.add(tick, at + 0.75, 0.25)
         elif k == "chart":
             mix.add(swipe, at + 0.1, 0.2)
+        elif k == "timeline":
+            evs = len((it.get("timeline") or {}).get("events") or [])
+            for j in range(min(6, evs)):
+                mix.add(tick, at + (j + 0.5) / max(1, evs) * max(1.0, it["dur"] - 0.6) * 0.85, 0.3)
+        elif k == "flow":
+            nl = len((it.get("flow") or {}).get("links") or [])
+            for j in range(min(4, nl)):
+                mix.add(swipe, at + 0.6 + j * (max(1.0, it["dur"] - 0.5) - 0.6) / max(1, nl), 0.2)
+        elif k == "compare":
+            mix.add(tick, at + 1.6, 0.3)
         elif k == "quote":
             mix.add(typing[: int(kit.SR * 1.0)], at + 0.1, 0.12)
         elif k == "map":
