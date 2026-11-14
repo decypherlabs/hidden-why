@@ -72,149 +72,149 @@
     },
     {
      "vo": "बिजली जाती, तो उसी फ़ोन की टॉर्च से घर में रोशनी होती।",
-     "prompt": "an Indian mother in a cotton saree holding a small grey keypad phone up, a bright white beam of light shining from its top onto a kitchen shelf with steel utensils, the rest of the home pitch dark, medium shot, night",
+     "prompt": "a bright white beam of light shining from a small grey keypad phone held up by an Indian mother in a cotton saree, the beam lighting a kitchen shelf of steel utensils, everything else in the dark kitchen pitch black, night, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of a grey keypad phone's tiny torch beam falling on a box of matches and a white candle on a steel plate"
      ],
      "caption": "बिजली जाती, तो उसी phone की torch से घर में रोशनी होती।",
-     "seed": 8923
+     "seed": 16842
     },
     {
      "vo": "लोग मॉडल नहीं पूछते थे। बोलते थे, 'नोकिया दिखाना ज़रा।'",
-     "prompt": "a round-faced Indian mobile shopkeeper in his 40s holding up a grey keypad phone toward a customer, white kurta, gold wristwatch, the word \"NOKIA\" above its screen, glass counter with phones in front of him, busy Indian mobile shop, bright daylight, medium shot",
+     "prompt": "a round-faced Indian shopkeeper in his 40s, white kurta, holding up a small grey keypad phone with the word \"NOKIA\" above its screen toward a customer, glass counter of old keypad phones in front, Indian mobile shop, bright daylight, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "caption": "लोग model नहीं पूछते थे। बोलते थे, 'Nokia दिखाना ज़रा।'",
      "label": "NOKIA · फिनलैंड की टेलीकॉम दिग्गज",
      "words": {
       "05": {
-       "src": "17e1b0198814",
+       "src": "f5b45a56dc0a",
        "items": [
         {
          "text": "NOKIA",
          "grid": [
           [
            [
-            655.4,
-            484.9
+            466.5,
+            236.0
            ],
            [
-            668.5,
-            483.4
+            487.4,
+            237.1
            ],
            [
-            681.7,
-            482.2
+            508.6,
+            238.3
            ],
            [
-            695.0,
-            481.5
+            529.9,
+            239.5
            ],
            [
-            708.0,
-            481.1
+            550.7,
+            240.6
            ],
            [
-            721.3,
-            481.1
+            571.8,
+            241.8
            ],
            [
-            734.6,
-            481.5
+            593.0,
+            242.9
            ]
           ],
           [
            [
-            655.4,
-            495.1
+            466.5,
+            255.8
            ],
            [
-            668.5,
-            495.0
+            487.3,
+            257.0
            ],
            [
-            681.7,
-            494.9
+            508.5,
+            258.1
            ],
            [
-            695.0,
-            494.9
+            529.7,
+            259.3
            ],
            [
-            708.0,
-            494.9
+            550.5,
+            260.4
            ],
            [
-            721.3,
-            494.9
+            571.6,
+            261.6
            ],
            [
-            734.6,
-            494.9
+            592.7,
+            262.7
            ]
           ],
           [
            [
-            655.4,
-            505.3
+            466.4,
+            275.6
            ],
            [
-            668.5,
-            506.6
+            487.2,
+            276.7
            ],
            [
-            681.7,
-            507.7
+            508.4,
+            277.9
            ],
            [
-            695.0,
-            508.3
+            529.5,
+            279.0
            ],
            [
-            708.0,
-            508.7
+            550.3,
+            280.1
            ],
            [
-            721.3,
-            508.7
+            571.4,
+            281.3
            ],
            [
-            734.6,
-            508.3
+            592.5,
+            282.4
            ]
           ]
          ],
          "style": "print",
-         "color": "#000000",
+         "color": "#e6e6e6",
          "corners": [
           [
-           650,
-           480
+           458,
+           207
           ],
           [
-           740,
-           480
+           602,
+           215
           ],
           [
-           740,
-           510
+           598,
+           493
           ],
           [
-           650,
-           510
+           457,
+           486
           ]
          ],
          "band": [
-          0.15,
-          0.85
+          0.1,
+          0.24
          ]
         }
        ]
       }
      },
-     "seed": 8924
+     "seed": 16843
     },
     {
      "vo": "फिर एक दिन वो जेबों से चुपचाप ग़ायब हो गया।",
@@ -7766,31 +7766,23 @@
  "repaint": {
   "shots": [
    4,
-   5,
-   13,
-   14
+   5
   ],
   "thumbs": [
-   "shot-04-2.png",
-   "shot-13-2.png"
+   "shot-04-2.png"
   ],
-  "at": "2026-11-13 11:36",
-  "by": "owner"
+  "at": "2026-11-14 06:04"
  },
  "shot_qc": {
-  "checked": "2026-11-12T08:27:07Z",
-  "rounds": 2,
+  "checked": "2026-11-13T06:51:59Z",
+  "rounds": 3,
   "why": {
-   "4": "the owner marked it as garbled or wrong",
-   "5": "the owner marked it as garbled or wrong",
-   "13": "the owner marked it as garbled or wrong",
-   "14": "the owner marked it as garbled or wrong"
+   "4": "The line says the phone's torch lights the dark home. The painting shows no bright beam from the phone onto the shelf, and the scene looks like a shop rather than a pitch-dark home.",
+   "5": "The shopkeeper holds a modern slab smartphone, not a grey keypad Nokia. No 'NOKIA' word is visible above a screen."
   },
   "recheck": [
    "4",
-   "5",
-   "13",
-   "14"
+   "5"
   ]
  }
 }
