@@ -60,7 +60,7 @@
     },
     {
      "vo": "Fewer than two in every hundred new American cars still have a clutch pedal.",
-     "prompt": "Close-up of a car footwell with only two pedals, a narrow accelerator and a wide brake pedal, empty space on the left where a third pedal would be, plain grey carpet, modern American car, soft daylight, sharp focus",
+     "prompt": "Two foot pedals only, a narrow accelerator on the right and a wide brake pedal beside it, bare flat grey carpet on the left where no third pedal exists, inside a modern American car, soft daylight, sharp focus, close-up",
      "title": "Under *2%* Manual",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
@@ -70,20 +70,23 @@
       "h": 2592,
       "credit": "Pixabay (Sauerlaender)",
       "page": "https://pixabay.com/photos/accelerator-clutch-pedal-clutch-397481/"
-     }
+     },
+     "seed": 8921
     },
     {
      "vo": "Rent a car in Italy or France, and the cheap one comes with three.",
-     "prompt": "A small European hatchback with its driver door open, three pedals clearly visible in the footwell, parked on a narrow cobbled Italian street between stone houses, warm morning sun, medium shot",
+     "prompt": "Three pedals side by side in the footwell of a small European hatchback, clutch, brake and accelerator, large in frame, the driver door open beside them, narrow cobbled Italian street and stone houses behind, warm morning sun, low camera, close shot",
      "title": "Italy and *France*",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8922
     },
     {
      "vo": "Until recently, most new cars across Europe still made you shift by hand.",
-     "prompt": "A man's hand gripping a gear lever with an H-shaped shift pattern, a busy Paris street with old stone buildings visible through the windshield, daylight, sharp focus from lever to street, close shot",
+     "prompt": "A man's hand gripping a tall black gear lever with one round knob in an old 1960s car, his arm and the lever large in frame, a busy Paris street with old stone buildings through the windshield, daylight, sharp focus, close shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8923
     },
     {
      "vo": "So why did America let go first?",
@@ -96,7 +99,133 @@
      "prompt": "A big finned 1950s sedan at a gas pump, a large flat price card reading \"27¢\" turned toward the camera on the pump, attendant in a cap beside it, dusk, warm sodium light, medium-wide shot",
      "title": "A *$57* Option",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "06": {
+       "src": "cfe6afa8e8e0",
+       "items": [
+        {
+         "text": "27¢",
+         "grid": [
+          [
+           [
+            830.7,
+            442.8
+           ],
+           [
+            883.1,
+            444.7
+           ],
+           [
+            939.0,
+            446.9
+           ],
+           [
+            997.5,
+            449.2
+           ],
+           [
+            1057.9,
+            451.8
+           ],
+           [
+            1122.5,
+            454.6
+           ],
+           [
+            1190.5,
+            457.7
+           ]
+          ],
+          [
+           [
+            810.6,
+            512.0
+           ],
+           [
+            863.6,
+            515.3
+           ],
+           [
+            920.1,
+            518.8
+           ],
+           [
+            979.4,
+            522.6
+           ],
+           [
+            1040.6,
+            526.6
+           ],
+           [
+            1106.1,
+            530.9
+           ],
+           [
+            1175.1,
+            535.5
+           ]
+          ],
+          [
+           [
+            789.8,
+            583.7
+           ],
+           [
+            843.4,
+            588.4
+           ],
+           [
+            900.5,
+            593.4
+           ],
+           [
+            960.5,
+            598.7
+           ],
+           [
+            1022.6,
+            604.2
+           ],
+           [
+            1089.0,
+            610.2
+           ],
+           [
+            1159.1,
+            616.5
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           823,
+           397
+          ],
+          [
+           1231,
+           397
+          ],
+          [
+           1175,
+           691
+          ],
+          [
+           750,
+           644
+          ]
+         ],
+         "band": [
+          0.22,
+          0.78
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "It began in the fall of 1939, on the showroom floors of Oldsmobile.",
@@ -129,11 +258,137 @@
       "h": 1496,
       "credit": "1940 Oldsmobile Series 70 business coupe 025 N.jpg by Joe Ross, CC BY-SA 2.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:1940_Oldsmobile_Series_70_business_coupe_025_N.jpg"
+     },
+     "words": {
+      "08": {
+       "src": "8371ebe32a36",
+       "items": [
+        {
+         "text": "HYDRA-MATIC DRIVE",
+         "grid": [
+          [
+           [
+            791.7,
+            316.1
+           ],
+           [
+            842.7,
+            323.3
+           ],
+           [
+            895.4,
+            330.7
+           ],
+           [
+            949.0,
+            338.2
+           ],
+           [
+            1002.7,
+            345.8
+           ],
+           [
+            1058.2,
+            353.6
+           ],
+           [
+            1114.6,
+            361.5
+           ]
+          ],
+          [
+           [
+            776.1,
+            426.8
+           ],
+           [
+            826.6,
+            435.8
+           ],
+           [
+            878.9,
+            445.1
+           ],
+           [
+            932.0,
+            454.6
+           ],
+           [
+            985.2,
+            463.9
+           ],
+           [
+            1040.2,
+            473.6
+           ],
+           [
+            1096.2,
+            483.4
+           ]
+          ],
+          [
+           [
+            760.6,
+            536.6
+           ],
+           [
+            810.6,
+            547.6
+           ],
+           [
+            862.4,
+            558.8
+           ],
+           [
+            915.1,
+            570.1
+           ],
+           [
+            967.8,
+            581.2
+           ],
+           [
+            1022.3,
+            592.7
+           ],
+           [
+            1077.8,
+            604.3
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#5a1010",
+         "corners": [
+          [
+           783,
+           227
+          ],
+          [
+           1149,
+           292
+          ],
+          [
+           1078,
+           758
+          ],
+          [
+           721,
+           668
+          ]
+         ],
+         "band": [
+          0.2,
+          0.7
+         ]
+        }
+       ]
+      }
      }
     },
     {
      "vo": "It was called Hydra-Matic, and it cost an extra fifty-seven dollars, about two months' rent for a typical family.",
-     "prompt": "A salesman in a 1940 suit handing a large price card reading \"$57\" to a couple, man on the left in a suit, woman on the right in a dress, polished sedan behind them, warm interior light, medium shot",
+     "prompt": "A salesman in a 1940 suit handing a large price card reading \"$57\" to a couple, man on the left in a grey suit and hat, woman on the right in a floral dress with empty hands clasped, polished 1940 sedan behind them, warm showroom light, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
      "photo": {
@@ -142,7 +397,134 @@
       "h": 551,
       "credit": "1953 Hydra-Matic Transmission Tag.jpg by Hymn62, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:1953_Hydra-Matic_Transmission_Tag.jpg"
-     }
+     },
+     "words": {
+      "09": {
+       "src": "30cf7cb79e83",
+       "items": [
+        {
+         "text": "$57",
+         "grid": [
+          [
+           [
+            355.7,
+            391.2
+           ],
+           [
+            408.1,
+            388.2
+           ],
+           [
+            461.4,
+            386.4
+           ],
+           [
+            514.8,
+            385.9
+           ],
+           [
+            567.2,
+            386.6
+           ],
+           [
+            620.5,
+            388.6
+           ],
+           [
+            673.9,
+            391.8
+           ]
+          ],
+          [
+           [
+            355.7,
+            449.0
+           ],
+           [
+            408.3,
+            442.8
+           ],
+           [
+            461.7,
+            439.6
+           ],
+           [
+            515.1,
+            439.4
+           ],
+           [
+            567.7,
+            442.1
+           ],
+           [
+            621.2,
+            448.0
+           ],
+           [
+            674.8,
+            457.0
+           ]
+          ],
+          [
+           [
+            355.8,
+            507.2
+           ],
+           [
+            408.4,
+            497.7
+           ],
+           [
+            462.0,
+            492.9
+           ],
+           [
+            515.5,
+            493.0
+           ],
+           [
+            568.2,
+            497.9
+           ],
+           [
+            621.9,
+            507.8
+           ],
+           [
+            675.6,
+            522.6
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           334,
+           348
+          ],
+          [
+           695,
+           348
+          ],
+          [
+           698,
+           563
+          ],
+          [
+           334,
+           563
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8928
     },
     {
      "vo": "The man behind it was Earl Thompson, a General Motors engineer who had already made shifting easier once.",
@@ -152,9 +534,10 @@
     },
     {
      "vo": "In 1928 his synchromesh gears let Cadillac drivers change gear without the grinding crunch that frightened beginners.",
-     "prompt": "A gloved hand pushing a long floor gear lever inside a 1928 luxury sedan, the shining steel gear lever large in frame, tree-lined American street through the window, soft daylight, close shot",
+     "prompt": "A gloved hand pushing a single tall chrome gear lever with one round knob on the floor of a 1928 luxury sedan, the lever large in frame, tree-lined American street through the window, soft daylight, sharp focus, close shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8930
     },
     {
      "vo": "Before that, every shift meant pumping the clutch twice with perfect timing, or hearing a scream of metal.",
@@ -218,6 +601,132 @@
       "h": 2592,
       "credit": "1946 Oldsmobile Ace Series 66 Sedan (8516992145).jpg by Sicnag, CC BY 2.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:1946_Oldsmobile_Ace_Series_66_Sedan_(8516992145).jpg"
+     },
+     "words": {
+      "17": {
+       "src": "9adafbd3ceea",
+       "items": [
+        {
+         "text": "NEW 1946 CARS",
+         "grid": [
+          [
+           [
+            470.3,
+            128.8
+           ],
+           [
+            568.5,
+            135.8
+           ],
+           [
+            669.1,
+            140.2
+           ],
+           [
+            770.4,
+            141.9
+           ],
+           [
+            870.8,
+            140.8
+           ],
+           [
+            973.8,
+            136.8
+           ],
+           [
+            1077.8,
+            130.0
+           ]
+          ],
+          [
+           [
+            471.2,
+            206.6
+           ],
+           [
+            568.8,
+            213.3
+           ],
+           [
+            668.7,
+            217.3
+           ],
+           [
+            769.3,
+            218.6
+           ],
+           [
+            869.0,
+            217.2
+           ],
+           [
+            971.4,
+            213.0
+           ],
+           [
+            1074.7,
+            205.9
+           ]
+          ],
+          [
+           [
+            472.1,
+            283.4
+           ],
+           [
+            569.0,
+            289.7
+           ],
+           [
+            668.2,
+            293.4
+           ],
+           [
+            768.2,
+            294.4
+           ],
+           [
+            867.3,
+            292.7
+           ],
+           [
+            969.0,
+            288.1
+           ],
+           [
+            1071.7,
+            280.8
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#8a1515",
+         "corners": [
+          [
+           429,
+           70
+          ],
+          [
+           1123,
+           67
+          ],
+          [
+           1111,
+           339
+          ],
+          [
+           433,
+           335
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
      }
     }
    ]
@@ -236,9 +745,10 @@
     },
     {
      "vo": "In 1950 Chevrolet, the brand for working families, put an automatic called Powerglide on its everyday cars.",
-     "prompt": "A working-class American family of four, father, mother, a boy and a girl, standing proudly beside a new 1950 sedan in front of a small suburban house, bright Sunday light, wide shot",
+     "prompt": "A working-class American family of four standing proudly beside a new 1950 Chevrolet sedan in front of a small suburban house, a father in a work shirt on the left, a mother in a dress on the right, a young boy and a young girl between them, bright Sunday light, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8938
     },
     {
      "vo": "Early automatics wasted power slipping through their fluid, so they burned noticeably more gas than a manual did.",
@@ -257,6 +767,132 @@
       "h": 768,
       "credit": "WorldsLargestRedwoodTreeServiceStation.jpg by Binksternet at English Wikipedia, PUBLIC DOMAIN, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:WorldsLargestRedwoodTreeServiceStation.jpg"
+     },
+     "words": {
+      "21": {
+       "src": "936fc9025057",
+       "items": [
+        {
+         "text": "27¢",
+         "grid": [
+          [
+           [
+            352.8,
+            325.8
+           ],
+           [
+            406.0,
+            336.2
+           ],
+           [
+            457.9,
+            344.1
+           ],
+           [
+            507.5,
+            349.4
+           ],
+           [
+            554.4,
+            352.3
+           ],
+           [
+            600.0,
+            353.1
+           ],
+           [
+            643.9,
+            351.8
+           ]
+          ],
+          [
+           [
+            347.8,
+            409.5
+           ],
+           [
+            401.5,
+            417.2
+           ],
+           [
+            453.8,
+            423.2
+           ],
+           [
+            503.9,
+            427.4
+           ],
+           [
+            551.0,
+            429.9
+           ],
+           [
+            597.0,
+            431.0
+           ],
+           [
+            641.1,
+            430.6
+           ]
+          ],
+          [
+           [
+            342.7,
+            494.3
+           ],
+           [
+            397.0,
+            499.3
+           ],
+           [
+            449.8,
+            503.3
+           ],
+           [
+            500.2,
+            506.4
+           ],
+           [
+            547.7,
+            508.5
+           ],
+           [
+            593.9,
+            509.9
+           ],
+           [
+            638.2,
+            510.4
+           ]
+          ]
+         ],
+         "style": "modern",
+         "color": "#c01818",
+         "corners": [
+          [
+           335,
+           241
+          ],
+          [
+           663,
+           297
+          ],
+          [
+           653,
+           591
+          ],
+          [
+           314,
+           582
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -276,11 +912,137 @@
      "vo": "In 1956 the Suez Crisis choked Britain's oil supply, and the government handed out petrol ration coupons.",
      "prompt": "A British clerk in a 1956 suit handing a ration book across a post office counter to a man in a flat cap, a large card reading \"PETROL RATIONING\" turned toward the camera on the counter, window light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "23": {
+       "src": "208858f090d8",
+       "items": [
+        {
+         "text": "PETROL RATIONING",
+         "grid": [
+          [
+           [
+            232.9,
+            499.1
+           ],
+           [
+            307.7,
+            494.3
+           ],
+           [
+            381.4,
+            490.8
+           ],
+           [
+            452.6,
+            488.7
+           ],
+           [
+            520.5,
+            487.8
+           ],
+           [
+            587.4,
+            488.2
+           ],
+           [
+            652.3,
+            489.8
+           ]
+          ],
+          [
+           [
+            237.7,
+            555.9
+           ],
+           [
+            312.6,
+            547.3
+           ],
+           [
+            386.3,
+            541.3
+           ],
+           [
+            457.7,
+            538.0
+           ],
+           [
+            525.8,
+            537.2
+           ],
+           [
+            593.1,
+            538.8
+           ],
+           [
+            658.6,
+            542.8
+           ]
+          ],
+          [
+           [
+            242.6,
+            613.3
+           ],
+           [
+            317.4,
+            600.7
+           ],
+           [
+            391.2,
+            592.1
+           ],
+           [
+            462.7,
+            587.6
+           ],
+           [
+            531.1,
+            586.9
+           ],
+           [
+            598.8,
+            589.8
+           ],
+           [
+            664.9,
+            596.2
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           196,
+           439
+          ],
+          [
+           672,
+           439
+          ],
+          [
+           703,
+           698
+          ],
+          [
+           220,
+           730
+          ]
+         ],
+         "band": [
+          0.2,
+          0.6
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "Drivers queued at empty pumps, and tiny bubble cars from Germany suddenly filled British streets.",
-     "prompt": "A queue of small cars and tiny egg-shaped bubble cars waiting outside a British petrol station in winter, a large board reading \"NO PETROL\" turned toward the camera on the pumps, overcast light, wide shot",
+     "prompt": "A queue of small 1950s cars and tiny egg-shaped bubble cars waiting outside a British petrol station in winter, rounded 1950s shapes only, no modern cars, a large board reading \"NO PETROL\" turned toward the camera on the pumps, overcast light, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
      "photo": {
@@ -289,7 +1051,134 @@
       "h": 2848,
       "credit": "Oldtimer-2013 Messerschmitt KR175 20130309 142448.JPG by Svetlov Artem, CC BY 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Oldtimer-2013_Messerschmitt_KR175_20130309_142448.JPG"
-     }
+     },
+     "words": {
+      "24": {
+       "src": "4e8b57a87dea",
+       "items": [
+        {
+         "text": "NO PETROL",
+         "grid": [
+          [
+           [
+            415.8,
+            290.1
+           ],
+           [
+            461.2,
+            296.3
+           ],
+           [
+            507.3,
+            299.1
+           ],
+           [
+            553.5,
+            298.5
+           ],
+           [
+            598.9,
+            294.6
+           ],
+           [
+            645.1,
+            287.1
+           ],
+           [
+            691.2,
+            276.1
+           ]
+          ],
+          [
+           [
+            415.8,
+            340.2
+           ],
+           [
+            461.2,
+            345.1
+           ],
+           [
+            507.3,
+            347.5
+           ],
+           [
+            553.5,
+            347.6
+           ],
+           [
+            598.9,
+            345.2
+           ],
+           [
+            645.1,
+            340.4
+           ],
+           [
+            691.2,
+            333.1
+           ]
+          ],
+          [
+           [
+            415.8,
+            390.4
+           ],
+           [
+            461.2,
+            393.8
+           ],
+           [
+            507.3,
+            395.9
+           ],
+           [
+            553.5,
+            396.6
+           ],
+           [
+            598.9,
+            395.9
+           ],
+           [
+            645.1,
+            393.7
+           ],
+           [
+            691.2,
+            390.1
+           ]
+          ]
+         ],
+         "style": "modern",
+         "color": "#b01010",
+         "corners": [
+          [
+           397,
+           262
+          ],
+          [
+           710,
+           262
+          ],
+          [
+           710,
+           435
+          ],
+          [
+           397,
+           435
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8943
     },
     {
      "vo": "The head of the British Motor Corporation, Leonard Lord, ordered his engineer Alec Issigonis to build something smaller.",
@@ -334,13 +1223,265 @@
       "h": 3072,
       "credit": "Pixabay (652234)",
       "page": "https://pixabay.com/photos/gas-pump-petrol-stations-petrol-gas-1914310/"
+     },
+     "words": {
+      "28": {
+       "src": "6aba584cc73e",
+       "items": [
+        {
+         "text": "LIRE 110",
+         "grid": [
+          [
+           [
+            681.4,
+            365.0
+           ],
+           [
+            758.2,
+            366.8
+           ],
+           [
+            837.6,
+            367.4
+           ],
+           [
+            918.4,
+            366.8
+           ],
+           [
+            999.2,
+            364.8
+           ],
+           [
+            1082.8,
+            361.5
+           ],
+           [
+            1167.9,
+            356.9
+           ]
+          ],
+          [
+           [
+            681.4,
+            439.4
+           ],
+           [
+            758.2,
+            440.3
+           ],
+           [
+            837.6,
+            440.7
+           ],
+           [
+            918.4,
+            440.4
+           ],
+           [
+            999.2,
+            439.5
+           ],
+           [
+            1082.8,
+            437.9
+           ],
+           [
+            1167.9,
+            435.7
+           ]
+          ],
+          [
+           [
+            681.4,
+            513.8
+           ],
+           [
+            758.2,
+            513.8
+           ],
+           [
+            837.6,
+            513.9
+           ],
+           [
+            918.4,
+            514.0
+           ],
+           [
+            999.2,
+            514.2
+           ],
+           [
+            1082.8,
+            514.3
+           ],
+           [
+            1167.9,
+            514.6
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#a01515",
+         "corners": [
+          [
+           650,
+           251
+          ],
+          [
+           1203,
+           234
+          ],
+          [
+           1203,
+           637
+          ],
+          [
+           650,
+           631
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
      }
     },
     {
      "vo": "Then, in the 1970s, America got its own taste of empty pumps, and the clutch staged a comeback.",
      "prompt": "A closed American gas station in 1973, a large hand-painted board reading \"SORRY NO GAS\" turned toward the camera on the pump, empty forecourt, grey winter light, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "29": {
+       "src": "0369cddb44da",
+       "items": [
+        {
+         "text": "SORRY NO GAS",
+         "grid": [
+          [
+           [
+            645.4,
+            395.0
+           ],
+           [
+            704.4,
+            394.4
+           ],
+           [
+            764.5,
+            394.3
+           ],
+           [
+            824.5,
+            394.6
+           ],
+           [
+            883.5,
+            395.4
+           ],
+           [
+            943.5,
+            396.5
+           ],
+           [
+            1003.6,
+            398.2
+           ]
+          ],
+          [
+           [
+            645.4,
+            536.4
+           ],
+           [
+            704.4,
+            536.3
+           ],
+           [
+            764.5,
+            536.4
+           ],
+           [
+            824.5,
+            536.6
+           ],
+           [
+            883.5,
+            537.0
+           ],
+           [
+            943.5,
+            537.6
+           ],
+           [
+            1003.6,
+            538.3
+           ]
+          ],
+          [
+           [
+            645.4,
+            677.8
+           ],
+           [
+            704.4,
+            678.2
+           ],
+           [
+            764.5,
+            678.5
+           ],
+           [
+            824.5,
+            678.6
+           ],
+           [
+            883.5,
+            678.7
+           ],
+           [
+            943.5,
+            678.6
+           ],
+           [
+            1003.6,
+            678.4
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#7a1010",
+         "corners": [
+          [
+           621,
+           326
+          ],
+          [
+           1028,
+           326
+          ],
+          [
+           1028,
+           746
+          ],
+          [
+           621,
+           746
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     }
     }
    ]
   },
@@ -356,9 +1497,136 @@
     },
     {
      "vo": "Drivers waited for hours, and some states only let you fill up on odd or even days by license plate.",
-     "prompt": "A large gas station sign reading \"ODD DAYS ONLY\" turned toward the camera, a line of 1974 cars queued behind it, overcast American suburb, medium-wide shot",
+     "prompt": "A large gas station sign reading \"ODD DAYS ONLY\" turned toward the camera, a line of boxy 1974 American sedans with chrome bumpers queued behind it, no modern cars, overcast American suburb, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "31": {
+       "src": "522e0874dfed",
+       "items": [
+        {
+         "text": "ODD DAYS ONLY",
+         "grid": [
+          [
+           [
+            180.5,
+            295.6
+           ],
+           [
+            237.2,
+            295.1
+           ],
+           [
+            294.8,
+            294.7
+           ],
+           [
+            352.5,
+            294.2
+           ],
+           [
+            409.2,
+            293.8
+           ],
+           [
+            466.9,
+            293.3
+           ],
+           [
+            524.5,
+            292.8
+           ]
+          ],
+          [
+           [
+            180.5,
+            353.4
+           ],
+           [
+            237.2,
+            353.0
+           ],
+           [
+            294.8,
+            352.7
+           ],
+           [
+            352.5,
+            352.3
+           ],
+           [
+            409.2,
+            351.9
+           ],
+           [
+            466.9,
+            351.5
+           ],
+           [
+            524.5,
+            351.1
+           ]
+          ],
+          [
+           [
+            180.5,
+            411.3
+           ],
+           [
+            237.2,
+            411.0
+           ],
+           [
+            294.8,
+            410.6
+           ],
+           [
+            352.5,
+            410.3
+           ],
+           [
+            409.2,
+            410.0
+           ],
+           [
+            466.9,
+            409.7
+           ],
+           [
+            524.5,
+            409.4
+           ]
+          ]
+         ],
+         "style": "modern",
+         "color": "#1a2a6a",
+         "corners": [
+          [
+           157,
+           264
+          ],
+          [
+           548,
+           264
+          ],
+          [
+           548,
+           442
+          ],
+          [
+           157,
+           442
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8950
     },
     {
      "vo": "A second shock hit in 1979, and Americans started buying small Japanese cars in enormous numbers.",
@@ -429,6 +1697,132 @@
       "h": 3143,
       "credit": "Pixabay (paulbr75)",
       "page": "https://pixabay.com/photos/gas-price-sign-fuel-unleaded-1744734/"
+     },
+     "words": {
+      "37": {
+       "src": "a13bf0cf5c3d",
+       "items": [
+        {
+         "text": "89¢",
+         "grid": [
+          [
+           [
+            397.4,
+            484.5
+           ],
+           [
+            447.4,
+            481.1
+           ],
+           [
+            497.8,
+            477.5
+           ],
+           [
+            548.0,
+            474.0
+           ],
+           [
+            596.9,
+            470.6
+           ],
+           [
+            646.3,
+            467.1
+           ],
+           [
+            695.5,
+            463.6
+           ]
+          ],
+          [
+           [
+            408.2,
+            546.5
+           ],
+           [
+            458.2,
+            542.8
+           ],
+           [
+            508.7,
+            539.1
+           ],
+           [
+            558.9,
+            535.4
+           ],
+           [
+            607.9,
+            531.7
+           ],
+           [
+            657.4,
+            528.0
+           ],
+           [
+            706.5,
+            524.2
+           ]
+          ],
+          [
+           [
+            419.0,
+            608.6
+           ],
+           [
+            469.1,
+            604.8
+           ],
+           [
+            519.7,
+            600.9
+           ],
+           [
+            569.9,
+            597.0
+           ],
+           [
+            618.9,
+            593.1
+           ],
+           [
+            668.4,
+            589.1
+           ],
+           [
+            717.6,
+            585.1
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           369,
+           442
+          ],
+          [
+           708,
+           422
+          ],
+          [
+           746,
+           630
+          ],
+          [
+           406,
+           655
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -447,7 +1841,134 @@
      "vo": "In most US states, a teenager takes the road test in whatever car the family owns, usually an automatic.",
      "prompt": "A family minivan parked at a suburban test lane, a teenager on the left and a parent on the right standing beside it, a large sign reading \"ROAD TEST\" turned toward the camera, morning light, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "words": {
+      "39": {
+       "src": "4930fea5be16",
+       "items": [
+        {
+         "text": "ROAD TEST",
+         "grid": [
+          [
+           [
+            648.2,
+            166.4
+           ],
+           [
+            711.6,
+            162.5
+           ],
+           [
+            776.0,
+            166.4
+           ],
+           [
+            840.5,
+            178.4
+           ],
+           [
+            903.9,
+            198.0
+           ],
+           [
+            968.3,
+            225.9
+           ],
+           [
+            1032.8,
+            261.8
+           ]
+          ],
+          [
+           [
+            648.2,
+            186.6
+           ],
+           [
+            711.6,
+            194.4
+           ],
+           [
+            776.0,
+            207.7
+           ],
+           [
+            840.5,
+            226.4
+           ],
+           [
+            903.9,
+            249.9
+           ],
+           [
+            968.3,
+            279.2
+           ],
+           [
+            1032.8,
+            313.8
+           ]
+          ],
+          [
+           [
+            648.2,
+            206.7
+           ],
+           [
+            711.6,
+            226.4
+           ],
+           [
+            776.0,
+            249.0
+           ],
+           [
+            840.5,
+            274.4
+           ],
+           [
+            903.9,
+            301.9
+           ],
+           [
+            968.3,
+            332.5
+           ],
+           [
+            1032.8,
+            365.8
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           622,
+           132
+          ],
+          [
+           1059,
+           132
+          ],
+          [
+           1059,
+           393
+          ],
+          [
+           622,
+           393
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8958
     },
     {
      "vo": "Pass it, and the license lets you drive any car on the road, three pedals or two, no questions asked.",
@@ -479,6 +2000,132 @@
       "h": 4255,
       "credit": "Pixabay (rolfvandewal)",
       "page": "https://pixabay.com/photos/gearstick-car-vehicle-auto-fast-7740670/"
+     },
+     "words": {
+      "42": {
+       "src": "bc58c3d36a5a",
+       "items": [
+        {
+         "text": "AUTOMATIC ONLY",
+         "grid": [
+          [
+           [
+            858.4,
+            351.0
+           ],
+           [
+            885.8,
+            407.0
+           ],
+           [
+            908.6,
+            453.6
+           ],
+           [
+            927.5,
+            492.4
+           ],
+           [
+            943.2,
+            524.6
+           ],
+           [
+            956.9,
+            552.6
+           ],
+           [
+            968.8,
+            576.9
+           ]
+          ],
+          [
+           [
+            827.2,
+            414.6
+           ],
+           [
+            859.7,
+            452.8
+           ],
+           [
+            887.7,
+            485.8
+           ],
+           [
+            911.7,
+            514.2
+           ],
+           [
+            932.3,
+            538.4
+           ],
+           [
+            950.6,
+            560.0
+           ],
+           [
+            966.8,
+            579.1
+           ]
+          ],
+          [
+           [
+            801.0,
+            468.1
+           ],
+           [
+            836.8,
+            492.8
+           ],
+           [
+            868.8,
+            514.9
+           ],
+           [
+            897.1,
+            534.5
+           ],
+           [
+            921.9,
+            551.6
+           ],
+           [
+            944.5,
+            567.2
+           ],
+           [
+            964.8,
+            581.2
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           806,
+           410
+          ],
+          [
+           1130,
+           420
+          ],
+          [
+           922,
+           640
+          ],
+          [
+           691,
+           662
+          ]
+         ],
+         "band": [
+          0.05,
+          0.3
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -489,7 +2136,7 @@
     },
     {
      "vo": "In America nothing pushed back, so each generation learned on automatics and wanted automatics when they bought.",
-     "prompt": "An American father on the right seat teaching his teenage daughter behind the wheel of an automatic sedan in an empty mall parking lot, golden hour, medium shot",
+     "prompt": "A teenage daughter in the driver's seat on the left gripping the wheel of an automatic sedan, her father in the passenger seat on the right pointing ahead and teaching her, empty mall parking lot, golden hour, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
      "photo": {
@@ -498,7 +2145,8 @@
       "h": 4255,
       "credit": "Pixabay (rolfvandewal)",
       "page": "https://pixabay.com/photos/gearstick-car-vehicle-auto-fast-7740670/"
-     }
+     },
+     "seed": 8963
     },
     {
      "vo": "Dealers noticed and stocked fewer manual cars, because a car most buyers cannot test-drive sits on the lot for months.",
@@ -511,6 +2159,132 @@
       "h": 3648,
       "credit": "Pixabay (Didgeman)",
       "page": "https://pixabay.com/photos/cars-autotransport-new-car-3631086/"
+     },
+     "words": {
+      "45": {
+       "src": "baacf61d7603",
+       "items": [
+        {
+         "text": "MANUAL",
+         "grid": [
+          [
+           [
+            676.7,
+            437.8
+           ],
+           [
+            709.9,
+            438.1
+           ],
+           [
+            743.7,
+            438.2
+           ],
+           [
+            777.5,
+            438.1
+           ],
+           [
+            810.7,
+            437.8
+           ],
+           [
+            844.5,
+            437.3
+           ],
+           [
+            878.3,
+            436.6
+           ]
+          ],
+          [
+           [
+            676.7,
+            472.1
+           ],
+           [
+            709.9,
+            472.1
+           ],
+           [
+            743.7,
+            472.0
+           ],
+           [
+            777.5,
+            471.7
+           ],
+           [
+            810.7,
+            471.2
+           ],
+           [
+            844.5,
+            470.5
+           ],
+           [
+            878.3,
+            469.7
+           ]
+          ],
+          [
+           [
+            676.7,
+            506.4
+           ],
+           [
+            709.9,
+            506.2
+           ],
+           [
+            743.7,
+            505.8
+           ],
+           [
+            777.5,
+            505.3
+           ],
+           [
+            810.7,
+            504.6
+           ],
+           [
+            844.5,
+            503.8
+           ],
+           [
+            878.3,
+            502.8
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           663,
+           387
+          ],
+          [
+           892,
+           387
+          ],
+          [
+           892,
+           586
+          ],
+          [
+           663,
+           586
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -547,7 +2321,7 @@
     },
     {
      "vo": "Still, enthusiasts insisted a manual was faster and thriftier, until the machines quietly took those arguments away too.",
-     "prompt": "A driver's hand gripping a manual gear lever in a sports car on a winding mountain road, curves ahead through the windshield, crisp morning light, sharp focus, close shot",
+     "prompt": "A driver's hand gripping a tall manual gear lever with a round knob in a sports car, the lever and hand large in frame, a winding mountain road through the windshield, crisp morning light, sharp focus, close shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
      "photo": {
@@ -556,7 +2330,8 @@
       "h": 3632,
       "credit": "Pixabay (RoonzNL)",
       "page": "https://pixabay.com/photos/car-vehicle-motor-transport-3046424/"
-     }
+     },
+     "seed": 8968
     }
    ]
   },
@@ -770,5 +2545,52 @@
  "photos_checked": true,
  "released_at": "2026-11-15 04:27",
  "voice_ok": "voice-27-stick-shift-america-c63366d7b8",
- "voice_approved_at": "2026-11-15 04:27"
+ "voice_approved_at": "2026-11-15 04:27",
+ "repaint": {
+  "shots": [
+   2,
+   3,
+   4,
+   9,
+   11,
+   19,
+   24,
+   31,
+   39,
+   44,
+   49
+  ],
+  "thumbs": [],
+  "at": "2026-11-15 05:02"
+ },
+ "shot_qc": {
+  "checked": "2026-11-14T23:30:43Z",
+  "rounds": 1,
+  "why": {
+   "2": "Odd floating flat shape above the pedals. The pedals look malformed.",
+   "3": "The three pedals aren't visible. The tile shows a hatchback with its rear hatch open.",
+   "4": "There is no H-pattern gear lever. The hand holds a small odd object in a modern car.",
+   "9": "The woman holds a tablet, which is anachronistic for 1940. The interior looks modern.",
+   "11": "The gear lever is double-knobbed and malformed, and a paper floats beside it.",
+   "19": "The line says a family of four, but the tile shows two men and three kids with no mother.",
+   "24": "Modern cars fill a 1956 scene and there are no bubble cars.",
+   "31": "Modern cars appear in 1974, and the painted signage is gibberish.",
+   "39": "The sign reads 'TET TEST', which is gibberish.",
+   "44": "The father is in the driver's seat and the daughter sits in the passenger seat. The line says he teaches her to drive.",
+   "49": "The hand is on the wheel or dash, not on a manual gear lever."
+  },
+  "recheck": [
+   "2",
+   "3",
+   "4",
+   "9",
+   "11",
+   "19",
+   "24",
+   "31",
+   "39",
+   "44",
+   "49"
+  ]
+ }
 }
