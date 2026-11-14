@@ -376,10 +376,32 @@
     },
     {
      "vo": "By 1998, it had become the world's biggest maker of mobile phones.",
-     "kind": "headline",
-     "headline": {
-      "date": "1998",
-      "text": "Finland's Nokia becomes the world's largest phone maker"
+     "kind": "timeline",
+     "timeline": {
+      "title": "Paper mill to phone giant",
+      "events": [
+       [
+        "1865",
+        "Nokia begins as paper mill"
+       ],
+       [
+        "1998",
+        "Becomes biggest phone maker"
+       ],
+       [
+        "2007",
+        "Apple's first iPhone on sale"
+       ],
+       [
+        "Oct 2008",
+        "First Android phone on sale"
+       ],
+       [
+        "Sep 2010",
+        "First outside-Finland CEO hired"
+       ]
+      ],
+      "mark": "1998"
      }
     },
     {
@@ -530,12 +552,24 @@
     },
     {
      "vo": "Symbian: 31 million. For the first time, Nokia's system was not number one.",
-     "kind": "stat",
-     "stat": {
-      "value": 31.0,
-      "prefix": "",
-      "suffix": "million",
-      "label": "Symbian smartphones shipped, Q4 2010 (Canalys)"
+     "kind": "compare",
+     "compare": {
+      "title": "Last quarter of 2010",
+      "left": {
+       "name": "Android",
+       "value": 32.9,
+       "prefix": "",
+       "suffix": "M",
+       "label": "phones shipped"
+      },
+      "right": {
+       "name": "Symbian",
+       "value": 31,
+       "prefix": "",
+       "suffix": "M",
+       "label": "phones shipped"
+      },
+      "winner": "left"
      }
     },
     {
@@ -625,7 +659,7 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: And Nokia had made it worse itself."
+     "prompt": "a documentary photograph of the moment: And Nokia had made it worse itself., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "The memo named the fire. It did not name the way out.",
@@ -746,7 +780,7 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: And Microsoft would pay. The chief executive told reporters the value to Nokia ran into billions."
+     "prompt": "a documentary photograph of the moment: And Microsoft would pay. The chief executive told reporters the value to Nokia ran into billions., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "On Android, Nokia would be one maker among many. With Microsoft, it would help steer the system itself.",
@@ -854,8 +888,33 @@
     },
     {
      "vo": "In April 2011, Nokia handed Symbian development to the consultancy Accenture, with about 3,000 staff.",
-     "kind": "still",
-     "prompt": "a muted documentary scene of the moment: In April 2011, Nokia handed Symbian development to the consultancy Accenture, with about 3,000 staff., no signs or lettering on any storefront, screen or package"
+     "kind": "timeline",
+     "timeline": {
+      "title": "The eight-month gap",
+      "events": [
+       [
+        "Feb 2011",
+        "Microsoft deal announced"
+       ],
+       [
+        "Apr 2011",
+        "Symbian handed to Accenture"
+       ],
+       [
+        "Jun 2011",
+        "MeeGo N9 unveiled"
+       ],
+       [
+        "Oct 2011",
+        "First Lumia shown"
+       ],
+       [
+        "2012",
+        "Samsung passes Nokia"
+       ]
+      ],
+      "mark": "Apr 2011"
+     }
     },
     {
      "vo": "About 4,000 more jobs would go by the end of 2012.",
@@ -960,14 +1019,24 @@
     },
     {
      "vo": "For 2012, the net loss nearly tripled: 3.1 billion euros.",
-     "kind": "photo",
-     "prompt": "a documentary photograph of the moment: For 2012, the net loss nearly tripled: 3.1 billion euros.",
-     "photo": {
-      "src": "https://pixabay.com/get/gf34cfabf28fdf34cf847d8c8625ee8808247538757dd60685d2744f017119f8a610699a05122187b11debb24a6997ee390ce7a73060f48f6d13429c20eda2cbc_1280.jpg",
-      "w": 4928,
-      "h": 3264,
-      "credit": "Pixabay (ds_30)",
-      "page": "https://pixabay.com/photos/monetary-denominations-schedule-5073834/"
+     "kind": "compare",
+     "compare": {
+      "title": "Nokia's net loss",
+      "left": {
+       "name": "2011",
+       "value": 1.16,
+       "prefix": "€",
+       "suffix": "B",
+       "label": "net loss"
+      },
+      "right": {
+       "name": "2012",
+       "value": 3.1,
+       "prefix": "€",
+       "suffix": "B",
+       "label": "net loss"
+      },
+      "winner": "right"
      }
     },
     {
@@ -1027,8 +1096,26 @@
        "highlight": "Microsoft to acquire Nokia's devices & services business"
       }
      },
-     "kind": "still",
-     "prompt": "a documentary photograph of the moment: On 3 September 2013, Microsoft agreed to buy Nokia's phone business."
+     "kind": "flow",
+     "flow": {
+      "title": "Microsoft buys Nokia phones",
+      "nodes": [
+       "Microsoft",
+       "Nokia"
+      ],
+      "links": [
+       [
+        "Microsoft",
+        "Nokia",
+        "€3.79 billion for the phones"
+       ],
+       [
+        "Microsoft",
+        "Nokia",
+        "€1.65 billion for patent license"
+       ]
+      ]
+     }
     },
     {
      "vo": "3.79 billion euros for the phones.",
@@ -1105,7 +1192,7 @@
       }
      },
      "kind": "still",
-     "prompt": "a documentary photograph of the moment: Up to 7,800 jobs went with it."
+     "prompt": "a documentary photograph of the moment: Up to 7,800 jobs went with it., no signs or lettering on any storefront, screen or package"
     },
     {
      "vo": "In 2016, Microsoft sold the basic-phone business for 350 million dollars. A new Finnish firm, HMD, licensed the Nokia name.",
@@ -1162,8 +1249,27 @@
        "label": "Google's price for Motorola Mobility, Aug 2011"
       }
      },
-     "kind": "still",
-     "prompt": "a documentary photograph of the moment: Motorola chose Android. In 2011, Google agreed to buy it for 12.5 billion dollars."
+     "kind": "flow",
+     "flow": {
+      "title": "Motorola changes hands",
+      "nodes": [
+       "Google",
+       "Motorola",
+       "Lenovo"
+      ],
+      "links": [
+       [
+        "Google",
+        "Motorola",
+        "$12.5 billion (2011)"
+       ],
+       [
+        "Lenovo",
+        "Google",
+        "about $2.91 billion (2014)"
+       ]
+      ]
+     }
     },
     {
      "vo": "In 2014, Google sold it to Lenovo for about 2.91 billion, keeping most of the patents.",
@@ -1250,6 +1356,7 @@
  "replanned": true,
  "visuals_checked": true,
  "photos_checked": true,
+ "templates_checked": true,
  "approved": true,
  "review": "auto",
  "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
@@ -1257,16 +1364,9 @@
   "shots": [
    34,
    46,
-   57,
-   65,
-   71,
-   76,
-   78,
-   80,
-   82,
-   84
+   78
   ],
   "thumbs": [],
-  "at": "2026-11-13 22:38"
+  "at": "2026-11-14 06:20"
  }
 }
