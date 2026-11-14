@@ -1,0 +1,665 @@
+{
+ "slug": "29-milk-at-the-back",
+ "build": "github",
+ "title": "Why Is Milk Always at the Back of the Store? (Since 1916)",
+ "thumbnail": {
+  "layout": "split",
+  "left_label": "1915",
+  "right_label": "TODAY",
+  "text": "A *PATENTED* TRAP",
+  "plane": "A smiling grocery clerk in a white apron behind a wooden counter, holding out one glass bottle of milk toward the camera, shelves of goods behind him out of reach, small 1915 American grocery, centered, large, bright daylight from a front window, clean simple background, oil painting, no text, no logos, no brands, no lettering",
+  "right": "A long bright modern American supermarket aisle seen from the entrance, shelves of colorful unbranded packages on both sides, one glowing white dairy cooler tiny and far away at the very end, centered, bright even daylight lighting, clean composition, oil painting, no text, no logos, no brands, no lettering"
+ },
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "words_in_edit": true,
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "cause",
+  "points": [
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "music": {
+  "reflective": [
+   "cold_open",
+   "ch1",
+   "ch3",
+   "ch4",
+   "ch6",
+   "outro"
+  ],
+  "intense": [
+   "ch2",
+   "ch5"
+  ]
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "You need one gallon of milk, and it's sitting at the very back.",
+     "prompt": "A shopper with an empty wire basket looking down a very long grocery aisle toward a glowing white dairy cooler far at the back, woman in a green coat, centre, wide aisles with plain blank shelves of colourful packages, bright overhead light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gf37091cdad1647dbc6d9d303d2fcc1f15638a1d2e28ad3813b9ebfa3b83d7a92a43cf38846323749437d14879ae3614b0cb4ffd3ca98f838ff9d561dd0ba02fc_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Squirrel_photos)",
+      "page": "https://pixabay.com/photos/supermarket-shelf-blur-yogurt-milk-4052658/"
+     }
+    },
+    {
+     "vo": "In 1915, a clerk handed you the milk from behind a counter in seconds.",
+     "prompt": "A clerk in a white apron handing a glass milk bottle across a wooden counter to a woman in a long brown coat and hat, 1915 small American grocery, shelves of plain tins behind him, warm window light, medium shot",
+     "title": "In *1915*",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Today you walk past thirty thousand products to reach it.",
+     "prompt": "A lone shopper in a blue jacket, small in frame, walking between towering shelves packed with thousands of colourful plain packages stretching to the horizon, present-day American grocery hall, even overhead light, wide low-angle shot",
+     "title": "*30,000* Products",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g984342fe90b4f56f83d74ac4f49e786ce65806b1f06d45b4cc5d43a7b55cb7a527922cc898945b9a25b36af81230aa37f28dfe7a508ea1026173504c2f3a8642_1280.jpg",
+      "w": 4928,
+      "h": 3264,
+      "credit": "Pixabay (ElasticComputeFarm)",
+      "page": "https://pixabay.com/photos/supermarket-stalls-coolers-market-949913/"
+     }
+    },
+    {
+     "vo": "Nobody put it there by accident.",
+     "prompt": "A hand reaching into an open glowing dairy cooler to grasp a plain white gallon jug of milk, rows of identical jugs behind it, cold mist, bright cooler light, sharp close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g92965badf349d40597441e847b3eee14c0fd478af1865889ae943f4d531df2acdfe8f8920774930792e1c85f49cf5cfd1c55b6ed02587cc3d8ea96725cc5134f_1280.jpg",
+      "w": 3872,
+      "h": 2592,
+      "credit": "Pixabay (larsen9236)",
+      "page": "https://pixabay.com/photos/supermarket-grocery-store-shopping-732281/"
+     }
+    },
+    {
+     "vo": "In September 1916, in Memphis, Clarence Saunders opened a store with no shortcut out.",
+     "prompt": "A brick storefront in 1916 with a large flat wooden shop board reading \"PIGGLY WIGGLY\" turned toward the camera, men in hats and women in long dresses gathering at the open door, bright late-summer sun, wide street-level shot",
+     "title": "*Memphis*, 1916",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Piggly_Wiggly_store%2C_1918.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1080,
+      "h": 770,
+      "credit": "Piggly Wiggly store, 1918.png by Clarence Saunders, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Piggly_Wiggly_store,_1918.png"
+     }
+    },
+    {
+     "vo": "A Memphis grocer, patent 1,242,872 and a 1923 Wall Street bet explain it.",
+     "prompt": "A man in a grey three-piece suit with a bow tie holding a thick patent paper beside a brass stock ticker machine, side view, 1923 wooden office, a small model of a grocery turnstile on the desk, warm lamp light, medium shot",
+     "title": "Patent *1,242,872*",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Interior_view_of_a_Piggly_Wiggly_self-service_grocery_store_showing_check_out_counter_with_cash_registers_LCCN92520726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1536,
+      "h": 1142,
+      "credit": "Interior view of a Piggly Wiggly self-service grocery store showing check out counter with cash registers LCCN92520726.jpg by Poland, Clifford H., photographer, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Interior_view_of_a_Piggly_Wiggly_self-service_grocery_store_showing_check_out_counter_with_cash_registers_LCCN92520726.jpg"
+     }
+    },
+    {
+     "vo": "He called it Piggly Wiggly, and shoppers had never seen anything like it.",
+     "prompt": "A man in his thirties, grey three-piece suit, bow tie, slicked dark hair, standing proudly in the doorway of his new grocery with open shelves, three-quarter view, curious shoppers in hats peering in behind him, Memphis 1916, warm daylight, medium shot",
+     "title": "Piggly *Wiggly*",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Piggly_Wiggly_VA1.jpg/1920px-Piggly_Wiggly_VA1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5378,
+      "h": 3399,
+      "credit": "Piggly Wiggly VA1.jpg by Acroterion, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Piggly_Wiggly_VA1.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "THE TURNSTILE",
+   "shots": [
+    {
+     "vo": "Before Saunders, shopping meant standing at a counter while a clerk fetched every single item from shelves you could not touch.",
+     "prompt": "Customers in 1915 clothes waiting in a line at a long wooden counter while two clerks in aprons climb ladders to reach tins and sacks on tall shelves behind the counter, dusty window light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "It was slow, and Saunders saw that the clerk's wages were baked into the price of every can of beans.",
+     "prompt": "A shopkeeper in an apron counting coins beside a brass cash register on a wooden counter, a tired woman in a long coat and hat waiting with a paper list, a tall pile of canned beans between them, 1915 grocery, warm lamp light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Inside Piggly Wiggly, you took a basket, pushed through a wooden turnstile, and served yourself for the first time.",
+     "prompt": "A woman in a 1916 long dress and hat pushing through a wooden turnstile with a woven basket on her arm, open shelves of tins ahead of her, Memphis grocery, soft daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Interior_of_Piggly_Wiggly_store%2C_Tenn.%2C_showing_entrance_turnstile_with_small_wicker_shopping_baskets%2C_and_check-out_counter%3B_1st_self-service_grocery_store_in_U.S._LCCN2004676518.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1536,
+      "h": 1231,
+      "credit": "Interior of Piggly Wiggly store, Tenn., showing entrance turnstile with small wicker shopping baskets, and check-out counter; 1st self-service grocery store in U.S. LCCN2004676518.jpg by Miscellaneous Items in High Demand, PPOC, Library of Congress, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Interior_of_Piggly_Wiggly_store,_Tenn.,_showing_entrance_turnstile_with_small_wicker_shopping_baskets,_and_check-out_counter;_1st_self-service_grocery_store_in_U.S._LCCN2004676518.jpg"
+     }
+    },
+    {
+     "vo": "There was no shortcut: the aisles ran in one winding path past every shelf before you reached the exit.",
+     "prompt": "High overhead view of a 1916 grocery interior, narrow aisles of wooden shelves forming one long zigzag path from the entrance turnstile to the checkout, a few shoppers in hats following it, warm light, overhead wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Every item wore its own price, so for once you could compare and choose without asking a clerk.",
+     "prompt": "A wooden grocery shelf of neat tins and boxes with a white price card propped in front of one tin reading \"10¢\", the card large, flat and facing the camera, 1916 grocery, soft daylight, sharp close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Asked where the odd name came from, Saunders gave a different answer almost every time.",
+     "prompt": "A man in his thirties, grey three-piece suit and bow tie, laughing with a reporter in a bowler hat who holds a notebook, both seen from the side outside a grocery doorway, Memphis 1918, bright afternoon light, medium two-shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1917 he was granted patent number 1,242,872 for his self-serving store, winding path and all.",
+     "prompt": "A man in a grey three-piece suit seen from the side at a wooden desk, holding up a large official certificate sheet with a red wax seal reading \"PATENT 1,242,872\", the sheet flat and facing the camera, 1917 office, window light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Shoppers loved it, and within seven years there were more than twelve hundred Piggly Wiggly stores across America.",
+     "prompt": "A busy small-town American main street in the early 1920s, a grocery with a wide open door, shoppers carrying brown paper bags out, black Model T cars parked along the kerb, bright afternoon sun, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Then in 1923 Saunders took on Wall Street, and the man who invented the long walk lost everything.",
+     "prompt": "A man in a grey three-piece suit alone in a dim 1923 office at night, seen from the side, staring at a long ribbon of ticker tape spilling from a brass ticker machine onto the floor, single lamp light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Joseph_Pennell%2C_New_York_Stock_Exchange%2C_1923%2C_NGA_9575.jpg/1920px-Joseph_Pennell%2C_New_York_Stock_Exchange%2C_1923%2C_NGA_9575.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3283,
+      "h": 4000,
+      "credit": "Joseph Pennell, New York Stock Exchange, 1923, NGA 9575.jpg by Joseph Pennell, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Joseph_Pennell,_New_York_Stock_Exchange,_1923,_NGA_9575.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "WALL STREET STRIKES",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "subscribe_ask": true,
+     "prompt": "A packed 1923 stock exchange floor, men in dark suits shouting and waving papers, one man in a grey three-piece suit in the centre clutching a stack of papers, light pouring through tall windows, wide high-angle shot",
+     "seed": 1500,
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Traders in New York were betting his stock would fall, so Saunders borrowed millions and bought nearly every share himself.",
+     "prompt": "A packed 1923 stock exchange floor, men in dark suits shouting and waving papers, one man in a grey three-piece suit in the centre clutching a stack of papers, light pouring through tall windows, wide high-angle shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The price shot past a hundred and twenty dollars, and the exchange suspended trading and changed the rules on him.",
+     "prompt": "A stern official in a dark suit nailing a large white notice reading \"TRADING SUSPENDED\" to a wooden board, the notice flat and facing the camera, a crowd of brokers in suits behind him, 1923, hard daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Crowds_gathering_outside_New_York_Stock_Exchange_%282%29.jpg/1920px-Crowds_gathering_outside_New_York_Stock_Exchange_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3000,
+      "h": 2323,
+      "credit": "Crowds gathering outside New York Stock Exchange (2).jpg by Associated Press, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Crowds_gathering_outside_New_York_Stock_Exchange_(2).jpg"
+     }
+    },
+    {
+     "vo": "By 1924 he was bankrupt and out of his own company, and his pink marble mansion stood unfinished in Memphis.",
+     "prompt": "An unfinished pink marble mansion on a hill in Memphis, bare scaffolding on its walls, empty wheelbarrows and stacked stone blocks in front, no workers, overcast sky, 1924, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But losing his company did not stop him from trying to reinvent the store.",
+     "prompt": "A man in a grey three-piece suit seen from the side, sitting at a drafting table sketching a grocery floor plan with a pencil, a rolled blueprint and a pink marble mansion model beside him, afternoon window light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Clarence_Saunders_LCCN2014715807.jpg/1920px-Clarence_Saunders_LCCN2014715807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3734,
+      "h": 5072,
+      "credit": "Clarence Saunders LCCN2014715807.jpg by Bain News Service, publisher, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Clarence_Saunders_LCCN2014715807.jpg"
+     }
+    },
+    {
+     "vo": "In 1937 he tried to replace his own long walk with an automatic store he called the Keedoozle.",
+     "prompt": "A 1937 grocery interior lined with rows of glass display cases, each case holding a single sample can or box, a woman in a hat and a man in a suit looking in, cool electric light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The name was a pun on 'key does all', because shoppers never had to touch a shelf.",
+     "prompt": "A woman's gloved hand inserting a small metal key into a slot beside a glass display case holding one can of peaches, 1937, soft electric light, sharp close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "You saw one sample of each item behind glass, turned your key, and the groceries rode a conveyor to the checkout.",
+     "prompt": "A moving conveyor belt carrying cans and boxes out of a wall opening toward a 1937 checkout counter where a clerk in an apron waits, belts and gears visible behind the opening, electric light, medium wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "The machinery jammed and ran too slowly for busy days, and the Keedoozle closed within a few years.",
+     "prompt": "A mechanic in overalls crouched beside a stalled conveyor belt, cans piled up and spilled across the floor, two frustrated shoppers in hats waiting behind him, 1938, harsh electric light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "But by then grocers everywhere were copying his first idea, the one-way walk past every shelf.",
+     "prompt": "Two grocers in aprons pushing a wooden shelf into place to form a long straight aisle in an empty small-town grocery, rows of aisles already built behind them, 1930s, sunlight through dusty windows, medium wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "What they still needed was a store big enough to make that walk really long.",
+     "prompt": "A small cramped 1920s grocery with only three short aisles, a woman in a coat reaching the back wall after a few steps, narrow wooden shelves of tins, dim light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g8f559fa12d1ad153ca389b5e2fc064e211507569f04aaf336dbac3bf8346188d18d9f42920f0344b460706d6f0af545c5cfec36e38754966b628b6b6f385a042_1280.jpg",
+      "w": 4928,
+      "h": 3264,
+      "credit": "Pixabay (ElasticComputeFarm)",
+      "page": "https://pixabay.com/photos/supermarket-stalls-coolers-market-949913/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "THE GIANT AND THE CART",
+   "shots": [
+    {
+     "vo": "In 1930 a grocery manager named Michael Cullen opened a huge self-service store in a garage in Queens.",
+     "prompt": "A huge converted garage building in Queens, 1930, a large flat board across the front reading \"KING KULLEN\" turned toward the camera, crowds of shoppers in hats lining up outside, bright summer sun, wide street shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "He had pitched the idea to his bosses at Kroger first, and they never even answered his letter.",
+     "prompt": "A man in a 1929 suit sitting at a kitchen table at night writing a long letter by hand, a stamped envelope beside him, seen from the side, single lamp light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "He sold three hundred items at cost, gave shoppers room to park, and drew them in from miles away.",
+     "prompt": "Shoppers in 1930s clothes carrying armfuls of groceries through wide aisles piled high with canned goods and fresh produce, huge warehouse-like hall, overhead bulbs, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Within six years he ran seventeen King Kullen stores, and the American supermarket was born.",
+     "prompt": "A busy 1930s parking lot full of black cars outside a large low brick building, families in hats and dresses walking toward its wide doors, bright afternoon sun, wide high-angle shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/King_Kullen_St_James_0819.JPG/1920px-King_Kullen_St_James_0819.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3648,
+      "h": 2736,
+      "credit": "King Kullen St James 0819.JPG by Gryffindor, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:King_Kullen_St_James_0819.JPG"
+     }
+    },
+    {
+     "vo": "But there was a limit, because shoppers stopped buying the moment their wire basket got too heavy to carry.",
+     "prompt": "A woman in a 1930s dress setting down an overflowing wire basket full of cans in a grocery aisle and rubbing her sore arm, cans stacked on shelves around her, warm light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "In 1937 Sylvan Goldman, who owned the Humpty Dumpty stores in Oklahoma City, watched that happen every single day.",
+     "prompt": "A thoughtful man in a 1930s suit and hat standing at the end of a grocery aisle in Oklahoma City, side view, watching tired women in dresses carrying heavy wire baskets, afternoon light through windows, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So he put two baskets on a folding chair, added four wheels, and invented the shopping cart.",
+     "prompt": "A wooden folding chair fitted with four small wheels and two wire baskets stacked on its frame, a man in shirtsleeves seen from the side tightening a wheel with a wrench, 1937 back room, workshop light, medium close shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "At first nobody touched it; men said it felt unmanly, and women said it was like pushing a baby carriage.",
+     "prompt": "A row of new wheeled wire shopping carts standing untouched by a 1937 grocery entrance, shoppers in hats walking past carrying hand baskets, a man in a suit glancing at the carts with distaste, daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So Goldman hired models to push carts around his stores until shoppers copied them, and soon every grocer wanted one.",
+     "prompt": "A smartly dressed young woman on the left and a young man on the right cheerfully pushing early wire shopping carts down a 1937 grocery aisle, other shoppers watching from the side, bright warm light, medium wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Now a shopper could carry far more than two arms could hold, so it paid to make the walk longer.",
+     "prompt": "A shopper in 1940s clothes pushing a wire cart piled high with groceries down a long aisle, seen from the side, shelves stretching far ahead, bright light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g559c7c4ceba564680520bd64aab1f40c7706c080c0f6fff793faf805839dc935c9c14c0fadf32178b319607b7edc91c6201b27539ec824216f4c9c6bfb3615a2_1280.jpg",
+      "w": 4928,
+      "h": 3264,
+      "credit": "Pixabay (ElasticComputeFarm)",
+      "page": "https://pixabay.com/photos/supermarket-stalls-coolers-market-949913/"
+     }
+    },
+    {
+     "vo": "Only the milk was still stuck in a small icebox, wherever a block of ice could keep it cold.",
+     "prompt": "A small wooden icebox in the corner of a 1930s grocery, its door open, a few glass milk bottles resting on a block of melting ice, a puddle on the floor, dim light, close medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "THE COLD WALL",
+   "shots": [
+    {
+     "vo": "After the war, electric refrigerated cases replaced the icebox, and that finally decided where milk would live.",
+     "prompt": "A 1950s grocery dairy section with a long gleaming refrigerated case full of glass milk bottles and butter, a woman in a full skirt reaching in, bright cheerful light, medium wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gcd40c1620705e4cc747d629b06eb66b3f16aa0b292d511d8e95c762b8bd9255d05cd1896a4f7ca9bba68dda91d6c026d6f0b7e997dbec7b0352618293155d76d_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Squirrel_photos)",
+      "page": "https://pixabay.com/photos/supermarket-shelf-blur-yogurt-milk-4052658/"
+     }
+    },
+    {
+     "vo": "Those cases worked best backed by a walk-in cold room, so staff could restock them from behind, never crossing the floor.",
+     "prompt": "View from inside a walk-in cold room, a stock boy in a 1950s cap sliding milk cartons onto the back of a dairy case shelf, frost on the walls, cold blue light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "And the cold room had to sit beside the loading dock, because milk arrives heavy, often, and must never warm up.",
+     "prompt": "Workers in caps carrying wooden crates of milk bottles from a 1950s delivery truck straight through a back door into a cold room, early morning, cold breath in the air, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gb5b2ea3ad0f16491923d955e470dfb49856df68a8f3669a8f701b2e14114454724a9d713b10888dff356b1ea548d17f45732c0118a6103e8622980602fc05244_1280.jpg",
+      "w": 5464,
+      "h": 3640,
+      "credit": "Pixabay (marcinjozwiak)",
+      "page": "https://pixabay.com/photos/production-facility-logistic-4408573/"
+     }
+    },
+    {
+     "vo": "Meanwhile the milkman was vanishing: in 1963 he still brought nearly thirty percent of America's milk to the door.",
+     "prompt": "A milkman in a white uniform setting glass bottles on a suburban American porch at dawn, his white delivery truck parked at the kerb behind him, 1963, soft pink morning light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "By 1975 it was under seven percent, so milk became the item every family now drove out to buy.",
+     "prompt": "An empty suburban porch with a dusty empty wire milk crate left by the front door, a car parked in the driveway behind, 1975, quiet afternoon light, close medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g9af74a78fa44c0f4f70a753e86d1d73da24ca2ee15c197414a9be1dc9c4d67cad319a52821d93e452041953563c09b3e82955f5feb6931024888760ed2c5fc6e_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Squirrel_photos)",
+      "page": "https://pixabay.com/photos/supermarket-shelf-blur-yogurt-milk-4052658/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "THE LONG WALK",
+   "shots": [
+    {
+     "vo": "Milk, eggs and bread ended up in the far corners, so you cross the whole building to collect them.",
+     "prompt": "Overhead view of a large American grocery floor, shoppers spread out walking long routes to far corners marked by a dairy cooler, egg shelves and a bread rack, even bright light, high wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g50763b0d1c03ac5a47785cbf4b4d43bae64620f927c85c496798596130027124c121671adcec5b0f798ee2fa37c07fed0a9128abbb65fc828b9dd4775e83c561_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Squirrel_photos)",
+      "page": "https://pixabay.com/photos/supermarket-shelf-blur-yogurt-milk-4052658/"
+     }
+    },
+    {
+     "vo": "On the way you pass the chips, the cookies, the sale displays, and things you never planned to buy.",
+     "prompt": "A shopper in a red sweater pushing a cart down a snack aisle, reaching for a bright plain bag of chips from an end-of-aisle display stacked with cookies, present day, warm light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g9b03e8a657115c04b21ebf4aafeacd2619cc3593ef836ce66a3f0d8b69bd62e1a8904f02b862196ddf7f69f9186995bef778d1d25c34e2c73a4bffabc63ea9d3_1280.jpg",
+      "w": 5472,
+      "h": 3648,
+      "credit": "Pixabay (stevepb)",
+      "page": "https://pixabay.com/photos/grocery-shopping-supermarket-1232944/"
+     }
+    },
+    {
+     "vo": "A 2012 shopper study found seventy-six percent of buying decisions are made inside the store, not at home.",
+     "prompt": "A handwritten paper list with three items lying in a cart overflowing with groceries, snacks and cookies piled on top, soft light, top-down close shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g11302784413cb4e52081e6314cf3eb98cf83e06afdc2f2024b0eb048931974a833657f36c20a2ec4d651fc1400605acee7c0a88fbb12084c5d6928d0915ada29_1280.jpg",
+      "w": 5472,
+      "h": 3648,
+      "credit": "Pixabay (stevepb)",
+      "page": "https://pixabay.com/photos/grocery-shopping-supermarket-1232944/"
+     }
+    },
+    {
+     "vo": "Grocers insist milk is at the back for the cooler and the dock, and they are telling the truth, just not all of it.",
+     "prompt": "A manager in a polo shirt standing with arms folded in front of a long glowing dairy wall, calm expression, present day, bright light, medium portrait shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "A typical supermarket keeps only one to three cents of profit from every dollar you spend, so every impulse buy counts.",
+     "prompt": "A cashier's hand placing a few small coins into a nearly empty register drawer at a checkout, a full cart of groceries waiting beside it, present day, warm light, sharp close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g7371aee0aba768d327283e9f76057c45a834cc4e7e139718cd5eb6dd981c05a088ef73243be00c4c5453b24e13749d1189bd5e9363fff21a2c0d9e830bbb34d2_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (maabsnco0)",
+      "page": "https://pixabay.com/photos/grocery-shopping-food-retail-1830230/"
+     }
+    },
+    {
+     "vo": "If milk sat by the front door, millions of people would grab it, pay, and leave, which stores cannot afford.",
+     "prompt": "A man walking out through automatic glass doors carrying only a single gallon of milk, a full parking lot behind him, present day, bright afternoon sun, medium wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "So be honest with yourself: when did you last walk in for milk and walk out with only milk?",
+     "prompt": "A woman at a checkout belt with one gallon of milk surrounded by a dozen other unplanned items, chips, cookies, flowers, a wry smile on her face, present day, warm light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g7ac58f47f95f8a0110a7cbcf256483c27e77c93f72cd826b8aadaf6192c23f3a772843948dbf6a363a6d6cabeb78713ff67256f4812051174a8cd7ac6cc2e55b_1280.jpg",
+      "w": 4680,
+      "h": 2937,
+      "credit": "Pixabay (congerdesign)",
+      "page": "https://pixabay.com/photos/drink-milk-healthy-glass-calcium-7016918/"
+     }
+    },
+    {
+     "vo": "One grocery chain looked at that Saunders walk and decided to shrink it to almost nothing.",
+     "prompt": "A compact grocery building with a large flat board over the entrance reading \"ALDI\" turned toward the camera, small parking lot, American suburb, bright daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "THE SHORTCUT STORE",
+   "shots": [
+    {
+     "vo": "Aldi grew from their mother's small shop in Essen, Germany, which brothers Karl and Theo Albrecht took over in 1946.",
+     "prompt": "Two young men in plain 1940s work clothes standing behind the counter of a small corner grocery in a German town, a few sacks and tins on the shelves, grey postwar daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Grab_Theo_Albrecht.jpg/1920px-Grab_Theo_Albrecht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Grab Theo Albrecht.jpg by Harvey Kneeslapper, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Grab_Theo_Albrecht.jpg"
+     }
+    },
+    {
+     "vo": "It reached America in 1976 with a small store in Iowa City, and it kept the store small on purpose.",
+     "prompt": "A small modest grocery on an Iowa City street in 1976, shoppers with paper bags walking out, a large flat board above the door reading \"ALDI\" turned toward the camera, golden afternoon light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Instead of thirty thousand products, Aldi stocks under two thousand, mostly its own brand, in a store a fraction of the size.",
+     "prompt": "A short simple grocery aisle with goods displayed in open cardboard shipping boxes on plain shelves, only a few aisles visible end to end, a single shopper in the middle, present day, bright even light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/New_Aldi_Miami_FL_November_2023_-_Interior_1.jpg/1920px-New_Aldi_Miami_FL_November_2023_-_Interior_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 3024,
+      "credit": "New Aldi Miami FL November 2023 - Interior 1.jpg by Phillip Pessar, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:New_Aldi_Miami_FL_November_2023_-_Interior_1.jpg"
+     }
+    },
+    {
+     "vo": "With a handful of aisles, the walk from the front door to the milk takes about a minute.",
+     "prompt": "A shopper walking from a small shop's entrance straight toward a dairy cooler a few steps away, the whole small room visible in one glance, bright daylight through front windows, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Shoppers pay for that with less choice, a quarter for the cart, and bagging their own groceries at the end.",
+     "prompt": "A hand pushing a coin into the lock on a row of chained shopping carts outside a grocery, present day, overcast daylight, sharp macro shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g31601718f61bee3d9287dbdaad683d21b0d7acffc4462aeca2425f61e764380f8e1a72d46b6a4a4e2957c97c29c5eb361b4c7a8f323c30e10559747b86fd1f78_1280.jpg",
+      "w": 4608,
+      "h": 3456,
+      "credit": "Pixabay (652234)",
+      "page": "https://pixabay.com/photos/shopping-carts-grocery-shopping-1275480/"
+     }
+    },
+    {
+     "vo": "And Americans keep choosing it: Aldi now runs more than 2,400 American stores, and it is still opening more.",
+     "prompt": "A young family loading a few bags of groceries into the open trunk of a car in a small parking lot, smiling, present day, warm evening light, medium wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Aldi_grocery_store.jpg/1920px-Aldi_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 2884,
+      "credit": "Aldi grocery store.jpg by Wikideas1, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Aldi_grocery_store.jpg"
+     }
+    },
+    {
+     "vo": "Theo Albrecht's half of the family even bought Trader Joe's in 1979, another small store with a short walk.",
+     "prompt": "A cozy small grocery with a large flat board over the entrance reading \"TRADER JOE'S\" turned toward the camera, shoppers with paper bags outside, American suburb, bright daylight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Trader_Joe%27s_in_Rockridge.jpg/1920px-Trader_Joe%27s_in_Rockridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3454,
+      "h": 1945,
+      "credit": "Trader Joe's in Rockridge.jpg by Mx. Granger, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Trader_Joe%27s_in_Rockridge.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "So milk sits at the back for the dock and the cold room, and since Saunders, every step you take pays.",
+     "prompt": "A lone shopper in a blue jacket walking down a long aisle toward a glowing dairy wall at the far end, an empty basket swinging at her side, seen from the side, present day, warm light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+    },
+    {
+     "vo": "Next time: why American grocery stores spray water on the vegetables, and what it really does to the price.",
+     "prompt": "A fine mist spraying over neat rows of green lettuce and broccoli in a produce case, water droplets catching the light, present day, sharp close-up",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/g178dc133c5abbe9bfcf5c4aecd82401624b39264b419aa070b24438dcf6395078c056570dcb656486c9360361a15ef9912f86bc85d65f0fc8d94e692e87e6054_1280.jpg",
+      "w": 4928,
+      "h": 3264,
+      "credit": "Pixabay (ElasticComputeFarm)",
+      "page": "https://pixabay.com/photos/supermarket-stalls-coolers-market-949913/"
+     }
+    },
+    {
+     "vo": "Subscribe, and tell us in the comments: would you trade a giant store for a one-minute walk to the milk?",
+     "prompt": "A gallon of milk standing alone on a checkout counter, sharp focus, a few coins and a paper receipt beside it, present day, warm light, close shot",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "photo": {
+      "src": "https://pixabay.com/get/gbc995568da34e34b98fa62f9f627b21c9fa9d9277cf50ebd67c68bb42c324cb9826f29b884d85389c469dd6c02bcf841bc7b7dcde335538cc7c9479a06cfb48f_1280.jpg",
+      "w": 3648,
+      "h": 2736,
+      "credit": "Pixabay (ccipeggy)",
+      "page": "https://pixabay.com/photos/grocery-store-supermarket-retail-2619380/"
+     }
+    }
+   ]
+  }
+ ],
+ "photos_checked": true
+}
