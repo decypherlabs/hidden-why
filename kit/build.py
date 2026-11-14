@@ -776,7 +776,10 @@ def render_frame(ctx, fi):
         rgb = backdrop(ctx.L, fi)
     import cv2
     k_i = ctx.items.index(it)
-    if k_i and li < XF and it.get("kind") not in ("card", "title", "end"):  # a short crossfade on every scene change
+    if k_i and li < XF and it.get("kind") not in ("card", "title", "end", "headline", "document", "quote", "stat",
+                                                    "timeline", "flow", "compare"):
+        # a crossfade between pictures (photos, stills, footage, maps); paper and graphics slide in on their own
+        # (14 Nov 2026: a headline dissolving over a photo read as a double exposure)
         prev = ctx.items[k_i - 1]
         pk = ("prevframe", k_i)
         if pk not in ctx.cache:

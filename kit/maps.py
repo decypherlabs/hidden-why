@@ -138,9 +138,17 @@ def _record(spec, dur, i):
 
 
 def _focus(spec):
+    """The story's countries, the one under the map's centre (the story's own place) first: it gets the main colour,
+    the others the neighbour colour (14 Nov 2026: Poland came out orange and Kaliningrad a sliver)."""
     key = json.dumps(spec, sort_keys=True)
     if key not in _CACHE:
-        _CACHE[key] = _countries_of(spec.get("places"))
+        out = _countries_of(spec.get("places"))
+        c = spec.get("center")
+        if c:
+            main = _countries_of([{"lat": c[0], "lon": c[1]}])
+            if main:
+                out = main + [x for x in out if x != main[0]]
+        _CACHE[key] = out
     return _CACHE[key]
 
 
@@ -331,7 +339,7 @@ def frame(spec, t, dur, i=0):
     span = float(spec.get("span") or 20)
     action = spec.get("action") or "locate"
     u = t / max(dur, 0.1)
-    te = min(3.4, dur * 0.6)
+    te = min(2.2, dur * 0.45)  # the wide view, then the detail: quicker (14 Nov 2026: bare maps during long zooms)
     if True:  # every map: the whole region first, eased in log space toward the detail (owner, 13 Nov 2026)
         e = ease(t / te)
         s0 = min(150.0, span * 6)
@@ -425,7 +433,7 @@ def frame(spec, t, dur, i=0):
         if _REC is None and lkey not in _LAYOUT:
             _record(spec, dur, i)
         if _REC is None and lkey in _LAYOUT:
-            arrive = ease((t - te * 0.85) / 0.5)  # names appear as the camera arrives, not over the wide view
+            arrive = ease((t - te * 0.4) / 0.5)  # names come in during the zoom, pinned to their places
             alpha = {"place": reveal, "country": ease((t - 1.0) / 0.8), "sea": na_ * 0.85, "city": na_ * 0.9}
             for lb in _LAYOUT[lkey]:
                 x, y = P(lb["lon"], lb["lat"])
