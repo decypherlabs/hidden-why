@@ -77,11 +77,11 @@
     },
     {
      "vo": "उसकी चोटी पर भी दो किलोमीटर पानी होगा।",
-     "prompt": "Looking up from underwater at a snow-white mountain peak fully submerged, the summit far below the surface with a thick layer of deep blue water above it, the bright water surface high overhead, faint sunbeams, wide shot, photorealistic documentary film still, natural colour, sharp detail",
+     "prompt": "A snow-white mountain peak fully submerged deep underwater, seen from the side, large and unmistakable, a thick layer of deep blue water above its summit, the bright surface far overhead with faint sunbeams, plain open water, wide shot, sharp focus, photorealistic documentary film still, natural colour",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "उसकी चोटी पर भी 2 किलोमीटर पानी होगा।",
-     "seed": 8923
+     "seed": 16842
     },
     {
      "vo": "इतनी गहराई में सूरज की रोशनी कहाँ तक जाती है?",
@@ -377,10 +377,10 @@
     },
     {
      "vo": "आँखें यहाँ काम नहीं आतीं। इसलिए कई जीवों की आँखें बहुत बड़ी हैं, या हैं ही नहीं।",
-     "prompt": "A dark deep-sea fish with two huge round eyes on its face, filling the frame, lit by a single beam, surrounded by plain black deep ocean water, close-up, photorealistic documentary film still, natural colour, sharp detail",
+     "prompt": "A dark deep-sea fish seen from the front, two huge round eyes clearly visible side by side on its face, mouth closed, filling the frame, lit by a single beam, plain black water all around, close-up, sharp focus, photorealistic documentary film still, natural colour",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 8945
+     "seed": 16864
     },
     {
      "vo": "करीब तीन हज़ार आठ सौ मीटर पर टाइटैनिक का मलबा पड़ा है।",
@@ -596,10 +596,10 @@
     },
     {
      "vo": "लौटते हैं तो कप छोटे गिलास जितने हो जाते हैं। अंदर की हवा निचुड़ जाती है।",
-     "prompt": "A tiny shrunken styrofoam cup standing next to a normal-size one on a plain ship table, the same marker drawings now miniature, plain blank wall behind, close-up, bright daylight, photorealistic documentary film still, natural colour, sharp detail",
+     "prompt": "Two styrofoam cups side by side on a plain table, a normal-size white cup on the left and a tiny shrunken cup on the right, both with the same marker drawings, plain blank wall behind, close-up, bright daylight, sharp focus, photorealistic documentary film still, natural colour",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 8956
+     "seed": 16875
     },
     {
      "vo": "किसी आम पनडुब्बी को वहाँ भेजें, तो वो कागज़ की तरह पिचक जाएगी।",
@@ -1063,36 +1063,24 @@
  "repaint": {
   "shots": [
    4,
-   17,
    26,
-   37,
-   63,
-   64,
-   75
+   37
   ],
   "thumbs": [],
-  "at": "2026-11-14 20:33"
+  "at": "2026-11-14 21:29"
  },
  "shot_qc": {
-  "checked": "2026-11-14T15:01:46Z",
-  "rounds": 1,
+  "checked": "2026-11-14T15:55:48Z",
+  "rounds": 2,
   "why": {
-   "4": "The summit is above the surface as an island. The line says it is under 2 km of water.",
-   "17": "It shows a raised ridge, not one slab bending down into a V-shaped trench.",
-   "26": "The fish has goggle-like eyes, and the background is a room with posters and papers instead of dark deep water.",
-   "37": "A map is painted on the wall, and there is gibberish lettering on the signs.",
-   "63": "The creature is a snail fused with a fish, not a snailfish.",
-   "64": "Several fish are visible on the seafloor, but the line says none live there.",
-   "75": "A world map hangs on the wall in the background."
+   "4": "The line needs a snow-white submerged mountain peak, and there isn't one. The tile shows signs with gibberish lettering underwater.",
+   "26": "The fish's face is distorted, with only one clear eye. Papers and a wrapped package sit in the foreground and don't belong in the deep-sea scene.",
+   "37": "Only one cup is shown, so there is no shrunken cup beside a normal-size one. Maps hang on the wall, which is a fail condition."
   },
   "recheck": [
    "4",
-   "17",
    "26",
-   "37",
-   "63",
-   "64",
-   "75"
+   "37"
   ]
  }
 }
