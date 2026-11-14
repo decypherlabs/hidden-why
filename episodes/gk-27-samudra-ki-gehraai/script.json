@@ -77,11 +77,11 @@
     },
     {
      "vo": "उसकी चोटी पर भी दो किलोमीटर पानी होगा।",
-     "prompt": "A snow-white mountain peak fully submerged deep underwater, seen from the side, large and unmistakable, a thick layer of deep blue water above its summit, the bright surface far overhead with faint sunbeams, plain open water, wide shot, sharp focus, photorealistic documentary film still, natural colour",
+     "prompt": "A snow-capped rocky mountain peak standing fully underwater, its white summit deep below the surface with a thick band of deep blue water above it, the flat open sea surface with faint sunbeams far overhead, dark rocky slopes dropping to a dark seabed, seen from the side, wide shot, sharp focus, photorealistic documentary film still, natural colour",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "उसकी चोटी पर भी 2 किलोमीटर पानी होगा।",
-     "seed": 16842
+     "seed": 24761
     },
     {
      "vo": "इतनी गहराई में सूरज की रोशनी कहाँ तक जाती है?",
@@ -377,10 +377,10 @@
     },
     {
      "vo": "आँखें यहाँ काम नहीं आतीं। इसलिए कई जीवों की आँखें बहुत बड़ी हैं, या हैं ही नहीं।",
-     "prompt": "A dark deep-sea fish seen from the front, two huge round eyes clearly visible side by side on its face, mouth closed, filling the frame, lit by a single beam, plain black water all around, close-up, sharp focus, photorealistic documentary film still, natural colour",
+     "prompt": "Two huge round shiny eyes on the face of a dark deep-sea fish seen from the front, the eyes large and clearly visible side by side, mouth closed, the fish filling the frame, lit by a single white beam, only plain black water all around, close-up, sharp focus, photorealistic documentary film still, natural colour",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 16864
+     "seed": 24783
     },
     {
      "vo": "करीब तीन हज़ार आठ सौ मीटर पर टाइटैनिक का मलबा पड़ा है।",
@@ -1063,24 +1063,21 @@
  "repaint": {
   "shots": [
    4,
-   26,
-   37
+   26
   ],
   "thumbs": [],
-  "at": "2026-11-14 21:29"
+  "at": "2026-11-14 22:05"
  },
  "shot_qc": {
-  "checked": "2026-11-14T15:55:48Z",
-  "rounds": 2,
+  "checked": "2026-11-14T16:30:58Z",
+  "rounds": 3,
   "why": {
-   "4": "The line needs a snow-white submerged mountain peak, and there isn't one. The tile shows signs with gibberish lettering underwater.",
-   "26": "The fish's face is distorted, with only one clear eye. Papers and a wrapped package sit in the foreground and don't belong in the deep-sea scene.",
-   "37": "Only one cup is shown, so there is no shrunken cup beside a normal-size one. Maps hang on the wall, which is a fail condition."
+   "4": "Shows an iceberg hanging from the surface, not a snow-white mountain peak fully submerged under deep water. The top of the peak isn't covered by a thick layer of water.",
+   "26": "The fish has no visible eyes, so the huge-eyes element is missing. The scene is a dark room with magazines, packets and a poster, not plain black water. The painted lettering on the magazine is gibberish."
   },
   "recheck": [
    "4",
-   "26",
-   "37"
+   "26"
   ]
  }
 }
