@@ -184,6 +184,7 @@ def main(script_path, out_dir):
         out.mkdir(parents=True, exist_ok=True)
         return parler(script, out, v)
     from kokoro import KPipeline
+    import spoken  # English figures as words (owner, 15 Nov 2026: "17000 is narrated as 17, zero zero zero")
     from misaki.espeak import EspeakG2P
     tts = KPipeline(lang_code=v.get("lang_code", "e"), repo_id="hexgrad/Kokoro-82M")
     tts.g2p = EspeakG2P(language=v.get("lang", "en-gb"))
@@ -197,7 +198,7 @@ def main(script_path, out_dir):
     speed = max(float(script.get("voice_speed") or 0), float(v.get("speed", 0.95)))
     for n, text in lines(script):
         chunks = [a.numpy() if hasattr(a, "numpy") else np.asarray(a)
-                  for _, _, a in tts(text, voice=v["voice"], speed=speed)]
+                  for _, _, a in tts(spoken.say(text) if v.get("lang", "en").startswith("en") else text, voice=v["voice"], speed=speed)]
         x = np.concatenate(chunks) if chunks else np.zeros(SR // 2)
         sf.write(out / f"vo-{n:02d}.wav", x, SR)
         durs[f"{n:02d}"] = round(len(x) / SR, 3)

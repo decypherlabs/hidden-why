@@ -63,6 +63,8 @@ def look_of(sc):
 # ---------------------------------------------------------------- prep
 def voice(shots, out):
     from kokoro_onnx import Kokoro
+    sys.path.insert(0, str(HERE.parent / "pipeline"))
+    import spoken
     m = Path(os.environ.get("KOKORO_DIR", "models"))
     k = Kokoro(str(m / "kokoro-v1.0.onnx"), str(m / "voices-v1.0.bin"))
     import soundfile as sf
@@ -70,7 +72,7 @@ def voice(shots, out):
     for x in shots:
         dest = out / f"vo-{x['n']:03d}.wav"
         if not dest.exists():
-            a, sr = k.create(x["vo"], voice="am_michael", speed=1.15, lang="en-us")  # owner, 13 Nov 2026: Michael at 1.15 on every English channel
+            a, sr = k.create(spoken.say(x["vo"]), voice="am_michael", speed=1.15, lang="en-us")  # numbers as words (15 Nov 2026)  # owner, 13 Nov 2026: Michael at 1.15 on every English channel
             sf.write(dest, a, sr)
         info = sf.info(str(dest))
         durs[f"{x['n']:03d}"] = info.frames / info.samplerate
