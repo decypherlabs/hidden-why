@@ -319,99 +319,99 @@
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
      "words": {
       "14": {
-       "src": "d55a3504b38b",
+       "src": "5c01ec50b77c",
        "items": [
         {
          "text": "PATENT 1,242,872",
          "grid": [
           [
            [
-            482.8,
-            347.7
+            646.3,
+            485.9
            ],
            [
-            566.7,
-            340.2
+            710.6,
+            480.0
            ],
            [
-            651.6,
-            332.7
+            775.9,
+            473.9
            ],
            [
-            736.2,
-            325.2
+            841.2,
+            467.7
            ],
            [
-            819.0,
-            317.8
+            905.5,
+            461.5
            ],
            [
-            902.8,
-            310.4
+            970.8,
+            455.1
            ],
            [
-            986.2,
-            303.0
+            1036.1,
+            448.5
            ]
           ],
           [
            [
-            484.9,
-            387.6
+            646.8,
+            497.3
            ],
            [
-            568.9,
-            381.7
+            711.9,
+            505.8
            ],
            [
-            653.9,
-            375.8
+            777.9,
+            510.6
            ],
            [
-            738.5,
-            369.9
+            843.7,
+            511.5
            ],
            [
-            821.3,
-            364.1
+            908.3,
+            508.6
            ],
            [
-            905.2,
-            358.2
+            973.7,
+            501.7
            ],
            [
-            988.7,
-            352.4
+            1038.9,
+            490.9
            ]
           ],
           [
            [
-            487.0,
-            427.5
+            647.4,
+            508.6
            ],
            [
-            571.0,
-            423.2
+            713.2,
+            531.6
            ],
            [
-            656.1,
-            418.9
+            779.8,
+            547.4
            ],
            [
-            740.8,
-            414.5
+            846.2,
+            555.4
            ],
            [
-            823.7,
-            410.3
+            911.1,
+            555.8
            ],
            [
-            907.6,
-            406.0
+            976.6,
+            548.5
            ],
            [
-            991.1,
-            401.7
+            1041.7,
+            533.5
            ]
           ]
          ],
@@ -419,25 +419,25 @@
          "color": "#1a1a1a",
          "corners": [
           [
-           444,
-           275
+           614,
+           365
           ],
           [
-           1018,
-           260
+           1056,
+           346
           ],
           [
-           1034,
-           579
+           1079,
+           691
           ],
           [
-           461,
-           599
+           630,
+           710
           ]
          ],
          "band": [
-          0.12,
-          0.45
+          0.34,
+          0.58
          ]
         }
        ]
@@ -1313,17 +1313,11 @@
   "at": "2026-11-16 01:28"
  },
  "shot_qc": {
-  "checked": "2026-11-15T19:57:10Z",
+  "checked": "2026-11-15T20:21:44Z",
   "rounds": 3,
-  "why": {
-   "14": "The man is painted from behind, but the patent sheet faces the viewer. The paper can't be held that way, and the patent is hidden from the man's side.",
-   "35": "The carts are modern, with purple trim, and a whole row of shoppers is pushing them. That doesn't fit 1937 or the line about nobody touching the carts.",
-   "42": "The van is a modern boxy one, which is wrong for 1963. The milkman is barely visible."
-  },
-  "recheck": [
-   "14",
-   "35",
-   "42"
+  "left": [
+   14,
+   35
   ]
  },
  "auto_regen": 3
