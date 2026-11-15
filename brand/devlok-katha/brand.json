@@ -155,5 +155,6 @@
     "pada_pause": 0.4,
     "verse_tempo": 0.85,
     "_about": "owner, 14 Nov 2026: 'pauses are missing... majorly the shloks': a breath at every sentence, shlokas recited half-verse by half-verse, slower (pipeline/narrate.py); outside 'voice' so older narrations keep their fingerprint"
-  }
+  },
+  "voice_fx": {"lanes": ["rahasya"], "_about": "owner, 15 Nov 2026: the heavy voice (1-aman-now-heavy) for the Rahasya lane; null lanes = every DK episode (pipeline/voicefx.py)"}
 }

@@ -32,7 +32,16 @@ def main(script_path, out_dir):
             if sr != SR:
                 x = np.interp(np.arange(int(len(x) * SR / sr)) * sr / SR, np.arange(len(x)), x).astype(np.float32)
             parts += [np.zeros(int(0.15 * SR), np.float32), x, np.zeros(int(BREATH * SR), np.float32)]
-    sf.write(out / "preview.wav", np.concatenate(parts), SR)
+    y = np.concatenate(parts)
+    try:  # the narrator treatment the build adds (pipeline/voicefx.py), so the owner hears what viewers will
+        root = Path(__file__).resolve().parent.parent
+        sys.path[:0] = [str(root / "pipeline"), str(root / "brand")]
+        import voicefx
+        from brandcfg import B
+        y = voicefx.apply(y, SR, B, script)
+    except Exception as e:  # noqa: BLE001 - the plain preview still serves
+        print(f"preview: no voice treatment ({e})")
+    sf.write(out / "preview.wav", y, SR)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out / "preview.wav"), "-af", "loudnorm=I=-16:TP=-1.5",
                     "-b:a", "96k", str(out / "preview.mp3")], check=True)
     (out / "preview.wav").unlink()

@@ -1774,6 +1774,8 @@ def main(script_path, out_dir):
         x = np.interp(np.arange(int(len(x) * SR / sr)) * sr / SR, np.arange(len(x)), x).astype(np.float32)
         i = int((start + (0.0 if short and start == 0 else 0.15)) * SR)  # Shorts: the voice starts at once
         voice[i:i + len(x)] += x[:len(voice) - i]
+    import voicefx  # the brand's narrator treatment (DK's heavy voice, 15 Nov 2026), on the whole voice track
+    voice = voicefx.apply(voice, SR, K.B, script)
     mood_of = {sid: mood for mood, sids in (script.get("music") or {}).items() for sid in sids}
     if script.get("music"):  # every section has music (11 Nov 2026: a rewrite renamed "ch1" to "chapter_1" and
         # Lijjat's and Ambassador's chapters played silent): an unplanned id takes its number's mood, else reflective
