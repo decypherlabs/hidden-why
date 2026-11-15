@@ -6,6 +6,7 @@ Writes shot-NN.png (1344x768, SDXL's 16:9 bucket), thumb-plane.png and thumb-zoo
 existing files are kept, so a rerun after a Colab disconnect continues where it stopped.
 """
 import json
+import re
 import os
 import sys
 from pathlib import Path
@@ -38,7 +39,11 @@ def shots(script):
     n, limit = 0, script.get("paint_limit")
     # "words_in_edit" (owner, 11 Nov 2026): the quoted words come out, the surfaces are painted blank and the edit
     # sets the words (pipeline/words.py); older scripts paint as before
-    blank = (lambda p: words.lift(p)[0]) if script.get("words_in_edit") else (lambda p: p)
+    lift = (lambda p: words.lift(p)[0]) if script.get("words_in_edit") else (lambda p: p)
+    # a person "in a deer-skin" came out with deer antlers on his head in 25 of Rishyashringa's 50 shots (owner,
+    # 15 Nov 2026): the hide is painted as plain bark-cloth
+    hide = re.compile(r"\b(deer|antelope|stag|doe)[- ]?(skin|hide)s?\b|\bdeerskins?\b", re.I)
+    blank = lambda p: lift(hide.sub("plain brown bark-cloth", p))
     for sec in script["sections"]:
         for s in sec.get("shots") or []:
             n += 1
