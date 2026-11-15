@@ -181,9 +181,10 @@
     },
     {
      "vo": "Asked where the odd name came from, Saunders gave a different answer almost every time.",
-     "prompt": "A man in his thirties, grey three-piece suit and bow tie, laughing with a reporter in a bowler hat who holds a notebook, both seen from the side outside a grocery doorway, Memphis 1918, bright afternoon light, medium two-shot",
+     "prompt": "A man in his thirties in a grey three-piece suit and bow tie on the left, laughing, and a reporter in a bowler hat holding a notebook on the right, standing side by side with clear space between them, both facing the viewer, waist-up, in front of a plain unmarked brick wall and a blank wooden grocery doorway with no signs, no boards and no lettering anywhere, Memphis 1918, bright afternoon light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8932
     },
     {
      "vo": "In 1917 he was granted patent number 1,242,872 for his self-serving store, winding path and all.",
@@ -666,5 +667,19 @@
  "released_at": "2026-11-15 12:20",
  "voice_requested": "voice-29-milk-at-the-back-7f67a47676",
  "voice_ok": "voice-29-milk-at-the-back-7f67a47676",
- "voice_approved_at": "2026-11-15 12:42"
+ "voice_approved_at": "2026-11-15 12:42",
+ "repaint": {
+  "shots": [
+   13
+  ],
+  "thumbs": [],
+  "at": "2026-11-16 00:20"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   13
+  ]
+ },
+ "auto_regen": 1
 }
