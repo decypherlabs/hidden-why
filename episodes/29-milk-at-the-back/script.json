@@ -314,7 +314,7 @@
     },
     {
      "vo": "In 1917 he was granted patent number 1,242,872 for his self-serving store, winding path and all.",
-     "prompt": "A man in a grey three-piece suit seen from the side at a wooden desk, holding up a large official certificate sheet with a red wax seal reading \"PATENT 1,242,872\", the sheet flat and facing the camera, 1917 office, window light, medium shot",
+     "prompt": "A man in a grey three-piece suit seen from the side at a wooden desk, holding up a large official certificate sheet with a red wax seal reading \"PATENT 1,242,872\" in front of his chest, the sheet flat, large and facing the camera with nothing covering it, face turned toward it, 1917 office, window light, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
      "words": {
@@ -442,13 +442,15 @@
         }
        ]
       }
-     }
+     },
+     "seed": 8933
     },
     {
      "vo": "Shoppers loved it, and within seven years there were more than twelve hundred Piggly Wiggly stores across America.",
-     "prompt": "A busy small-town American main street in the early 1920s, a grocery with a wide open door, shoppers carrying brown paper bags out, black Model T cars parked along the kerb, bright afternoon sun, wide shot",
+     "prompt": "A busy small-town American main street in the early 1920s, shoppers carrying brown paper bags out of a grocery with a wide open door, black Model T cars parked along the kerb, plain blank signboards, bright afternoon sun, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8934
     },
     {
      "vo": "Then in 1923 Saunders took on Wall Street, and the man who invented the long walk lost everything.",
@@ -523,9 +525,10 @@
     },
     {
      "vo": "The name was a pun on 'key does all', because shoppers never had to touch a shelf.",
-     "prompt": "A woman's gloved hand inserting a small metal key into a slot beside a glass display case holding one can of peaches, 1937, soft electric light, sharp close-up",
+     "prompt": "A woman's gloved hand inserting a small metal key into a slot beside a glass display case holding one can of peaches, case front plain and unmarked, 1937, soft electric light, sharp close-up",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8942
     },
     {
      "vo": "You saw one sample of each item behind glass, turned your key, and the groceries rode a conveyor to the checkout.",
@@ -741,9 +744,10 @@
     },
     {
      "vo": "At first nobody touched it; men said it felt unmanly, and women said it was like pushing a baby carriage.",
-     "prompt": "A row of new wheeled wire shopping carts standing untouched by a 1937 grocery entrance, shoppers in hats walking past carrying hand baskets, a man in a suit glancing at the carts with distaste, daylight, wide shot",
+     "prompt": "A row of plain silver wire shopping carts standing untouched by a 1937 grocery entrance, shoppers in hats walking past carrying hand baskets, a man in a suit on the right glancing at the carts with distaste, plain blank signboards, daylight, wide shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8954
     },
     {
      "vo": "So Goldman hired models to push carts around his stores until shoppers copied them, and soon every grocer wanted one.",
@@ -810,9 +814,10 @@
     },
     {
      "vo": "Meanwhile the milkman was vanishing: in 1963 he still brought nearly thirty percent of America's milk to the door.",
-     "prompt": "A milkman in a white uniform setting glass bottles on a suburban American porch at dawn, his white delivery truck parked at the kerb behind him, 1963, soft pink morning light, medium shot",
+     "prompt": "A milkman in a white uniform and cap setting glass milk bottles on a suburban American porch at dawn, seen from the side, an old-style white delivery van parked at the kerb behind him, 1963, soft pink morning light, medium shot",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing"
+     "negative": "text, letters, words, numbers, logo, watermark, brand name, signs, lettering, writing",
+     "seed": 8961
     },
     {
      "vo": "By 1975 it was under seven percent, so milk became the item every family now drove out to buy.",
@@ -1300,15 +1305,32 @@
  "voice_approved_at": "2026-11-15 12:42",
  "repaint": {
   "shots": [
-   13
+   14,
+   15,
+   23,
+   35,
+   42
   ],
   "thumbs": [],
-  "at": "2026-11-16 00:40"
+  "at": "2026-11-16 01:03"
  },
  "shot_qc": {
-  "checked": "2026-11-15T19:12:13Z",
-  "rounds": 1,
-  "left": []
+  "checked": "2026-11-15T19:32:32Z",
+  "rounds": 2,
+  "why": {
+   "14": "Patent text runs behind his arm and is cut off at the edge, and he is painted from behind.",
+   "15": "Large painted gibberish sign ('HOT BY PRCKERY') on the street.",
+   "23": "Painted gibberish lettering ('Cesures') on the sign above the display case.",
+   "35": "Painted gibberish sign ('Cth-ORIEEY'), and the red modern-style carts don't fit a 1937 store.",
+   "42": "The line is about the milkman, but no milkman is shown. Only bottles and a modern box truck appear."
+  },
+  "recheck": [
+   "14",
+   "15",
+   "23",
+   "35",
+   "42"
+  ]
  },
  "auto_regen": 3
 }
