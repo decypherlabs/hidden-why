@@ -108,6 +108,24 @@ def ll_layout(script, out):
     print(out / "thumb.jpg")
 
 
+SERIES_NAME = {"ramayan": "रामायण", "gita": "भगवद गीता"}  # config/dk_series.json "name"
+
+
+def series_badge(img, script, cx):
+    """A series episode's number on a saffron plaque above the words (owner, 15 Nov 2026: "the thumbnail and title
+    should have the episode number"): "रामायण • EPISODE 1", so the next one is easy to spot in a feed."""
+    d = ImageDraw.Draw(img)
+    text = f"{SERIES_NAME.get(script['series'], script['series'])}  •  EPISODE {script['series_ep']}"
+    f = K.display(40)
+    tw = d.textlength(text, font=f)
+    px, py = 22, 10
+    x0, y0 = cx - tw / 2 - px, 28
+    box = (x0, y0, x0 + tw + 2 * px, y0 + 40 + 2 * py)
+    d.rounded_rectangle((box[0] + 6, box[1] + 6, box[2] + 4, box[3] + 6), 12, fill=(10, 6, 4))  # shadow
+    d.rounded_rectangle(box, 12, fill=(245, 140, 30), outline=(20, 10, 4), width=4)
+    d.text(((box[0] + box[2]) / 2, (box[1] + box[3]) / 2), text, font=f, anchor="mm", fill=(25, 12, 4))
+
+
 def epic_layout(script, out):
     """Mythology long-form (owner, 7 Nov 2026: "DK's long-form thumbnail not at all good"; after the niche's top
     painted thumbnails: Divya Katha's सती कथा, Katha Sagar's लंका दहन): the iconic moment fills the frame with the
@@ -127,15 +145,16 @@ def epic_layout(script, out):
     lines = [raw[:half], raw[half:]] if len(raw) > 1 else [raw]
     d = ImageDraw.Draw(img)
     box_w = W * 0.5
+    top = 100 if script.get("series") and script.get("series_ep") else 0  # room for the episode plaque
     size = 210
     while size > 80:
         f = K.display(size)
         if max(d.textlength(" ".join(w.replace("*", "") for w in ln), font=f) for ln in lines) <= box_w and \
-                len(lines) * size * 1.08 <= H * 0.8:
+                len(lines) * size * 1.08 <= (H - top) * 0.8:
             break
         size -= 6
     f = K.display(size)
-    cx, y0 = W * 0.73, (H - len(lines) * size * 1.08) / 2 + size * 0.5
+    cx, y0 = W * 0.73, top + (H - top - len(lines) * size * 1.08) / 2 + size * 0.5
     glow = Image.new("L", (W, H), 0)
     gd = ImageDraw.Draw(glow)
     for i, ln in enumerate(lines):
@@ -173,6 +192,8 @@ def epic_layout(script, out):
             img.paste(Image.new("RGB", (W, H), (255, 250, 225)), mask=band.point(lambda v: int(v * 0.7)))
             d = ImageDraw.Draw(img)
             x += d.textlength(t + " ", font=f)
+    if script.get("series") and script.get("series_ep"):
+        series_badge(img, script, cx)
     K.grain(img).save(out / "thumb.jpg", quality=95)
     print(out / "thumb.jpg")
 
