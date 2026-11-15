@@ -941,19 +941,22 @@ def join(out):
             mix.add(kit.synth("riser", 1.6), max(0, at - 1.5), 0.3)
         # sound design (owner, 13 Nov 2026: first "SFX are also less", then "unnecessary cuts, sfx"): a soft whoosh when
         # the kind of picture changes, one quiet sound per element, nothing stacked
-        if prev is not None and k not in ("card", "title", "end"):  # one simple sound on every scene change (owner, 13 Nov
+        if prev is not None and k not in ("card", "title", "end") and not it.get("over"):  # an "over" has its own  # one simple sound on every scene change (owner, 13 Nov
             # 2026: "a mouse click or page turn"): a page turn onto paper, a soft click onto anything else
             if k in ("headline", "document", "quote", "photo"):
                 mix.add(page, max(0, at - 0.05), 0.28)
             else:
                 mix.add(tick, max(0, at - 0.02), 0.3)
+        # every detail on a picture enters with its own light sound (owner, 15 Nov 2026: "subtle, light but noticeable")
         if it.get("over") in ("headline", "document") or (it.get("over") == "stat" and typed_stat(it)):
-            # the words typing out on the picture: keys for as long as they type (owner, 15 Nov 2026)
+            mix.add(tick, at + 0.05, 0.22)  # the dateline
             secs = min(len(typed_text(it)) / 32, it["dur"] - 0.4, len(typing) / kit.SR)
-            if secs > 0.2:
-                mix.add(typing[: int(kit.SR * secs)], at + 0.25, 0.16)
+            if secs > 0.2:  # keys for as long as the words type
+                mix.add(typing[: int(kit.SR * secs)], at + 0.25, 0.18)
         elif it.get("over") == "stat":
-            mix.add(tick, at + 0.75, 0.25)
+            mix.add(swipe, at, 0.2)  # the panel glides in
+            mix.add(tick, at + 0.8, 0.3)  # the count lands
+            mix.add(tick, at + 0.55, 0.16)  # the label
         elif k in ("headline", "document"):
             pass  # the page turn on the cut is its sound
         elif k == "stat":

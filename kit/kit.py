@@ -347,6 +347,8 @@ def stat_panel(layer, t, value, unit, fmt="{:,.0f}", prefix="", suffix="", box=(
         return
     d = ImageDraw.Draw(layer)
     a = ease_out(t / (8 / FPS))
+    slide = int(-36 * (1 - ease_out(t / (10 / FPS))))  # the panel glides in from the left (owner, 15 Nov 2026: animated)
+    box = (box[0] + slide, box[1], box[2] + slide, box[3])
     x0, y0, x1, y1 = box
     d.rectangle(box, fill=(*base, int(235 * a)))
     d.line([(x0, y0), (x1, y0)], fill=(*accent, int(255 * a)), width=3)
@@ -369,7 +371,8 @@ def stat_panel(layer, t, value, unit, fmt="{:,.0f}", prefix="", suffix="", box=(
             d.text((bx1 + 22, (by0 + by1) / 2), "→", font=af, anchor="lm", fill=(216, 210, 196, int(255 * a2)))
             gx = bx1 + 22 + d.textlength("→", font=af) + 18
             d.text((gx, y0 + 14), label2, font=nf, fill=(226, 58, 46, int(255 * a2)))
-    spaced(d, (x0 + 30, rule_y + 12), unit.upper(), font("Inter", 30), (216, 210, 196, int(255 * a)), track=0.1)
+    au = ease_out((t - 16 / FPS) / (8 / FPS))  # the label after the number, lifting into place
+    spaced(d, (x0 + 30, rule_y + 12 + int(10 * (1 - au))), unit.upper(), font("Inter", 30), (216, 210, 196, int(255 * au)), track=0.1)
     if source:
         d.text((x0 + 30, y1 - 32), source.upper(), font=font("IBMPlexMono-Regular", 15), fill=(216, 210, 196, int(140 * a)))
 
