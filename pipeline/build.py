@@ -670,6 +670,9 @@ class Shot:
         self.focus = focus  # (x, y) 0-1: the zoom drifts toward the subject, not the centre (owner, 6 Nov 2026)
 
     def frame(self, u):
+        # eased: the move starts and ends at rest, so a picture doesn't lurch into motion after the dissolve
+        # (it dissolves in still) or reverse sharply into the next one's zoom (owner, 15 Nov 2026: "looks sudden")
+        u = 0.5 - 0.5 * np.cos(np.pi * min(1.0, max(0.0, u)))
         h, w = self.src.shape[:2]
         CW, CH = W * SS, H * SS
         s0 = max(CW / w, CH / h) * 1.02
@@ -946,6 +949,7 @@ class Panel:
     def frame(self, u):
         h, w = self.src.shape[:2]
         cw, ch = self.pw * SS, self.ph * SS
+        u = 0.5 - 0.5 * np.cos(np.pi * min(1.0, max(0.0, u)))  # eased, like Shot
         z = {"push": 1.0 + 0.10 * u, "pull": 1.10 - 0.10 * u}.get(self.move, 1.04)
         s0 = max(cw / w, ch / h) * 1.02 * z
         hw, hh = cw / (2 * s0), ch / (2 * s0)
@@ -977,12 +981,20 @@ class Split:
         # showed chariot wheels, not the person or the mountain the line was about): 0.64/0.5 -> 0.8/0.66
         crop = around(fx, fy, 0.8)
         face = around(faces[0], faces[1], 0.66) if faces else around(fx, fy - 0.1, 0.66)  # the upper body, not the feet
-        self.parts = [Shot(img, "push", (fx, fy)), Shot(crop, "pull"), Shot(face, "push")][:parts]
+        # every part pushes in, one after another (owner, 15 Nov 2026: a hard cut into a crop zooming out looked sudden)
+        self.parts = [Shot(img, "push", (fx, fy)), Shot(crop, "push"), Shot(face, "push")][:parts]
+
+    MIX = 0.12  # the end of each part dissolves into the next
 
     def frame(self, u):
         n = len(self.parts)
         i = min(n - 1, int(u * n))
-        return self.parts[i].frame(u * n - i)
+        v = u * n - i
+        fr = self.parts[i].frame(v)
+        if i + 1 < n and v > 1 - self.MIX:
+            p = (v - (1 - self.MIX)) / self.MIX
+            fr = cv2.addWeighted(fr, 1 - p, self.parts[i + 1].frame(0.0), p, 0)
+        return fr
 
 
 def hook_card(text):
