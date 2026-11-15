@@ -1,0 +1,43 @@
+name: voice-samples
+run-name: voice samples ${{ inputs.slug }}
+# Candidate narrator voices on an episode's first lines (tools/voice_samples.py), as a run artifact (owner, 15 Nov 2026).
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        required: true
+      lines:
+        default: "5"
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg > /dev/null
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: hiddenwhy-v1
+      - name: Python packages
+        run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q -r requirements.txt
+          pip install -q git+https://github.com/huggingface/parler-tts.git
+          pip install -q torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          pip install -q sentencepiece==0.2.2
+      - name: Samples
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          export HW_BRAND=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1])).get('brand') or '')" "episodes/${{ inputs.slug }}/script.json")
+          python tools/voice_samples.py "episodes/${{ inputs.slug }}/script.json" samples "${{ inputs.lines }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voice-samples
+          path: samples/*.wav
