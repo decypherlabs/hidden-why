@@ -1,0 +1,1112 @@
+{
+ "slug": "dk-241-ramayan-ep3-rishyashringa",
+ "format": "long",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "रामायण Episode 3: राजा दशरथ के यज्ञ के लिए वन से कौन आया? 🙏",
+ "thumbnail": {
+  "layout": "epic",
+  "text": "श्रृंगी ऋषि का *आगमन*",
+  "plane": "Sage Rishyashringa, a young forest ascetic with matted hair tied high, wearing deer-skin and a simple saffron cloth, LARGE in the LEFT half, arms raised to the sky in calm wonder as heavy monsoon rain begins to pour on him, face lit with serene power; the RIGHT half shows the parched, cracked fields and dry palace towers of the ancient kingdom of Anga as dark storm clouds burst open and lightning splits the sky, rain sweeping across the dusty city, crowds far in the background raising their hands in joy, dark high-contrast cinematic light, realistic Indian devotional painting, no text"
+ },
+ "music": {
+  "suspense": [
+   "cold_open",
+   "ch1",
+   "ch3",
+   "ch4",
+   "ch5",
+   "ch6"
+  ],
+  "emotional": [
+   "ch2"
+  ],
+  "epic": [
+   "ch7",
+   "ch12"
+  ],
+  "devotional": [
+   "ch8",
+   "ch9",
+   "ch10",
+   "ch11",
+   "outro"
+  ]
+ },
+ "source": "वाल्मीकि रामायण, बालकाण्ड, सर्ग 9-12 (गीता प्रेस संस्करण)",
+ "journey_score": 8.6,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "अयोध्या के महल में एकांत था।",
+     "prompt": "King Dasharatha sitting alone on a cushioned seat beside a single brass oil lamp, an aging king with grey beard, golden crown, maroon silk robe, empty private chamber with carved stone pillars, warm lamp light at evening, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सुमंत्र राजा के पास आए और धीमी आवाज़ में बोले,",
+     "prompt": "Sumantra, an elderly man with white hair in a white dhoti and white shawl, walking softly toward King Dasharatha on the right, the aging king with grey beard, golden crown and maroon silk robe seated beside a brass lamp, warm lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "महाराज, मैंने एक पुरानी कथा सुनी है।",
+     "prompt": "Sumantra, an elderly man with white hair in a white dhoti and white shawl, leaning forward and speaking softly with one hand raised, King Dasharatha with grey beard, golden crown and maroon robe listening beside a brass oil lamp, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उस कथा में आपके पुत्रों की बात है।",
+     "prompt": "Close-up of King Dasharatha's face, an aging king with grey beard and golden crown, eyes wide and eyebrows raised with sudden hope, soft smile beginning, warm lamp light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और उस ऋषि की, जो आपका यज्ञ कराएँगे।",
+     "prompt": "A slim young ascetic with matted black hair and a deer-skin over his shoulder standing small in front of a thatched leaf hermitage beside a stream, tall green forest around, soft mist at dawn, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "एक ऐसे ऋषि, जिन्होंने पिता के सिवा कभी कोई मनुष्य नहीं देखा।",
+     "prompt": "A slim young ascetic with matted black hair and a deer-skin over his shoulder, bare chest, sitting alone by a small sacred fire in a dense green forest, wide curious eyes, no other person anywhere, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो घने वन से एक राजमहल तक कैसे पहुँचे?",
+     "prompt": "A forest path winding out of dense green trees toward the tall palace towers of an ancient Indian city far ahead, a slim young ascetic with matted hair and deer-skin small on the path, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और उनके आते ही सूखे अंग देश के आसमान में क्या हुआ?",
+     "prompt": "A dry cracked brown field with withered trees and a dry empty riverbed under a pale burning sky, a few villagers in simple clothes looking up at the sky, Indian village, harsh midday sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वाल्मीकि रामायण, बालकाण्ड।",
+     "prompt": "An ancient palm-leaf manuscript with brown leaves and a cord through them, open on a carved wooden stand beside a brass oil lamp, plain unmarked leaves, warm golden light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "सुमंत्र का राज़",
+   "shots": [
+    {
+     "vo": "सुमंत्र बोले, ये कथा यज्ञ कराने वाले ऋत्विजों ने सुनाई थी।",
+     "prompt": "Sumantra, an elderly man with white hair in a white dhoti and white shawl, speaking earnestly with an open hand, King Dasharatha with grey beard, golden crown and maroon robe listening closely on the right, lamp-lit palace chamber, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बहुत पहले भगवान सनत्कुमार ने इसे ऋषियों की सभा में कहा था।",
+     "prompt": "A radiant boy-sage with a glowing calm face in a plain white cloth, seated at the centre, in front of a circle of old bearded sages in saffron sitting on grass, forest clearing, soft golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सनत्कुमार ने कहा था, महर्षि कश्यप के एक पुत्र हैं, विभांडक।",
+     "prompt": "A stern old ascetic with long white matted hair and beard, orange robe and a wooden staff, standing in front of a small leaf hermitage in a forest, centre, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और विभांडक के पुत्र होंगे ऋष्यश्रृंग। लोग उन्हें प्यार से श्रृंगी ऋषि कहते हैं।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin, bare chest, gathering wild fruits into a basket beside a leaf hermitage, a stern old white-bearded ascetic in orange standing far behind him, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋष्यश्रृंग वन में ही पले-बढ़े, पिता के छोटे से आश्रम में।",
+     "prompt": "A small hermitage of leaves and bamboo in a deep green forest with a small stream beside it, a slim young ascetic with matted hair and deer-skin sitting at its door, a few deer grazing far away, soft daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो सदा पिता के पीछे-पीछे चलते, उन्हीं की सेवा करते।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin carrying a clay water pot, walking a few steps behind a stern old ascetic with long white hair and orange robe, on a forest path, side view, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रोज़ अग्नि में आहुति देते, वेद पढ़ते, और तप करते।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin pouring ghee from a ladle into a blazing sacred fire, a stern old white-haired ascetic in orange sitting far behind him reading, smoke rising through trees, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सनत्कुमार ने कहा, वो सदा ब्रह्मचर्य के नियम में रहेंगे।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin sitting cross-legged with closed eyes and folded hands under a huge banyan tree, calm face, sunbeams through leaves, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पिता के सिवा उन्होंने किसी मनुष्य को देखा ही नहीं था।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin standing at the forest edge, looking along an empty dirt path that leads away between the trees, his stern old father in orange tiny in the distance behind, soft daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ना कोई नगर, ना कोई गाँव, ना कोई स्त्री।",
+     "prompt": "An endless dense green forest seen from a hilltop at sunrise, no houses or roads, one thin line of smoke rising from a tiny leaf hermitage far below, bright sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सनत्कुमार ने आगे कहा, उसी समय एक राज्य बड़े संकट में होगा।",
+     "prompt": "A radiant boy-sage in a plain white cloth raising one hand while speaking to a circle of old bearded sages in saffron seated on grass, grave faces, soft glowing forest light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और वो राज्य था, अंग देश।",
+     "prompt": "A dusty plain under a harsh white sun with the palace towers of an ancient Indian city in the distance, dry brown ground, dead trees along a dusty road, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "अंग का अकाल",
+   "shots": [
+    {
+     "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
+     "subscribe_ask": true,
+     "prompt": "King Romapada, a middle-aged king with black moustache, jeweled gold crown and green silk robe, standing proud on his palace terrace overlooking a dry kingdom, strong sun, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "move": "pan_right"
+    },
+    {
+     "vo": "अंग देश के राजा थे रोमपाद, बड़े प्रतापी और बलवान।",
+     "prompt": "King Romapada, a middle-aged king with black moustache, jeweled gold crown and green silk robe, standing proud on his palace terrace overlooking a dry kingdom, strong sun, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर एक दिन राजा से धर्म के विरुद्ध एक भूल हो गई।",
+     "prompt": "King Romapada, a middle-aged king with black moustache, jeweled gold crown and green silk robe, sitting alone on his throne in a dim palace hall, head bowed, hand over his brow, troubled face, one shaft of light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वाल्मीकि जी उस भूल का विस्तार नहीं बताते। बस उसका फल बताते हैं।",
+     "prompt": "An empty golden royal throne in a shadowed palace hall, a single beam of harsh light falling across the seat, a green silk robe and a crown lying on it, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अंग देश में बारिश बंद हो गई। भयानक सूखा पड़ा।",
+     "prompt": "A clear blazing sky with no clouds over dry farm fields, a farmer in a white dhoti looking up, dust blown by dry wind across the ground, harsh sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "खेत फट गए, कुएँ सूख गए, नदियों में रेत उड़ने लगी।",
+     "prompt": "A farm field split with deep cracks, an empty dry well with a bucket on a rope, a dried riverbed with sand and stranded wooden boats, withered crops, Indian village, harsh sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "प्रजा भूख-प्यास से बेहाल हो गई। हर ओर डर फैल गया।",
+     "prompt": "Thin villagers in simple Indian clothes sitting around a dry well with empty clay pots, a mother holding a hungry child, weary faces, dry village huts behind, harsh sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुखी राजा ने वेद जानने वाले विद्वान ब्राह्मणों को बुलाया।",
+     "prompt": "King Romapada, a middle-aged king with black moustache, jeweled gold crown and green silk robe, seated on the left, facing a group of learned Brahmins in white dhotis and sacred threads sitting on the floor on the right, palace court, daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने हाथ जोड़कर पूछा, बताइए, इस भूल का प्रायश्चित क्या है?",
+     "prompt": "King Romapada with black moustache, gold crown and green silk robe standing with folded hands in front of an elderly white-bearded Brahmin in a white dhoti, palace court, humble pleading face, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ब्राह्मणों ने सोचकर कहा, महाराज, एक उपाय है।",
+     "prompt": "An elderly Brahmin with a tilak on his forehead and white beard, white dhoti and sacred thread, rising from the floor with one hand lifted to speak, other Brahmins seated behind, royal court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "विभांडक के पुत्र ऋष्यश्रृंग को किसी भी तरह यहाँ ले आइए।",
+     "prompt": "An elderly white-bearded Brahmin with a tilak pointing through a large window toward a dark line of distant forest, King Romapada with gold crown and green robe listening on the left, palace hall, daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्हें पूरे आदर और सत्कार के साथ अपने देश में रखिए।",
+     "prompt": "An elderly white-bearded Brahmin with a tilak, palm raised in advice, facing King Romapada with gold crown and green silk robe, palace court lit by oil lamps, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा ने ठान लिया, ऋषि को अंग देश लाना ही होगा।",
+     "prompt": "King Romapada, black moustache, jeweled gold crown and green silk robe, rising from his throne with a firm jaw and a clenched fist, palace hall, determined face, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "मंत्रियों का उपाय",
+   "shots": [
+    {
+     "vo": "राजा ने मंत्रियों से कहा, जाओ, ऋषि को आदर से ले आओ।",
+     "prompt": "King Romapada with black moustache, gold crown and green silk robe giving an order with an outstretched hand toward a row of ministers in white court robes, palace court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर मंत्री सिर झुकाकर बोले, महाराज, हम विभांडक मुनि से डरते हैं।",
+     "prompt": "A row of ministers in white court robes and turbans bowing their heads with fearful faces before an empty throne, palace court, daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "हम वहाँ नहीं जा सकेंगे। पर ऋषि को लाने का कोई और उपाय सोचेंगे।",
+     "prompt": "An elderly minister in a white court robe and turban bowing respectfully with folded hands to King Romapada in gold crown and green robe, other ministers standing behind him, palace court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर राजपुरोहित और मंत्री साथ बैठकर सोचने लगे।",
+     "prompt": "The royal priest in white with a tilak and an old minister in a white turban sitting side by side beside a stone pillar in a dim hall, heads close together, thinking, lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने कहा, ऋषि वन में पले हैं। स्त्रियों को उन्होंने कभी देखा नहीं।",
+     "prompt": "The royal priest in white with a tilak speaking quietly to an old minister, pointing with one hand through a window toward a green forest in the distance, dim hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "नगर की चुनी हुई गायिकाएँ और नर्तकियाँ वन में भेजी जाएँ।",
+     "prompt": "A group of young women singers and dancers in silk saris in yellow, pink and green, holding veenas and small drums, gathered in a palace courtyard, modest dress, flowers in hair, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो मधुर गीतों से ऋषि का मन मोहकर उन्हें यहाँ ले आएँगी।",
+     "prompt": "A group of women in silk saris carrying veenas and small drums walking out of a stone city gate onto a road leading to a green forest far ahead, morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा ने ये उपाय मान लिया।",
+     "prompt": "King Romapada with black moustache, gold crown and green silk robe nodding slowly on his throne, the royal priest in white bowing before him, palace hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अयोध्या में सुमंत्र ने पहले ये कथा थोड़े में सुनाई थी।",
+     "prompt": "Sumantra, an elderly man with white hair in a white dhoti and white shawl, speaking to King Dasharatha with grey beard, golden crown and maroon robe, beside a brass oil lamp in the Ayodhya palace chamber, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर राजा दशरथ बोले, सुमंत्र, पूरी बात विस्तार से सुनाओ।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe leaning forward on his seat with an eager searching face, one hand raised toward Sumantra in white, brass lamp, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वन के वो ऋषि अंग देश लाए कैसे गए?",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe standing at a carved stone palace window, looking out at a night sky full of stars, thoughtful face, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सुमंत्र बोले, महाराज, मंत्रियों के साथ ध्यान से सुनिए।",
+     "prompt": "Sumantra, an elderly man with white hair in white dhoti, standing with folded hands before King Dasharatha with grey beard and golden crown, three ministers in white seated at the edge of the lamp-lit chamber, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "वन में संगीत",
+   "shots": [
+    {
+     "vo": "वो स्त्रियाँ घने वन में ऋषि के आश्रम के पास पहुँचीं।",
+     "prompt": "A group of women in silk saris carrying veenas and small drums arriving at a forest clearing, a small leaf hermitage visible far among the trees, bright morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर आश्रम के भीतर नहीं गईं। विभांडक मुनि का डर था।",
+     "prompt": "A group of women in silk saris holding veenas stopping at the edge of the trees, peeking nervously toward a small leaf hermitage far ahead, clear forest daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो कुछ दूर ठहर गईं, और ऋषिकुमार की राह देखने लगीं।",
+     "prompt": "A group of women in silk saris with veenas sitting quietly under flowering forest trees, looking along a path toward a small leaf hermitage in the distance, soft daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋष्यश्रृंग तो सदा पिता के आश्रम में ही संतुष्ट रहते थे।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin sweeping the earth courtyard of his leaf hermitage with a broom of twigs, peaceful smile, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "एक दिन घूमते-घूमते वो संयोग से उसी जगह आ पहुँचे।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin walking alone between tall trees toward a sunlit clearing, side view, bright morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "स्त्रियों ने उन्हें देखा, और मधुर स्वर में गाने लगीं।",
+     "prompt": "Women in yellow and pink silk saris singing and playing veena and flute under flowering forest trees, mouths open in song, soft golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि ने पहली बार सुंदर वस्त्रों में स्त्रियों को देखा।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin standing between two trees on the left, wide eyes and open mouth in wonder, women in bright silk saris standing in the sunlit clearing on the right, forest, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो चकित खड़े रह गए। मन में उनके लिए स्नेह जागा।",
+     "prompt": "Close-up of a slim young ascetic's puzzled innocent face framed by matted black hair, wide eyes, dappled forest light, medium close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "स्त्रियाँ पास आईं और पूछा, आप कौन हैं? क्या करते हैं?",
+     "prompt": "A woman in a blue silk sari with flowers in her hair speaking politely with open hands, a few steps from a slim young ascetic with matted hair and deer-skin, forest clearing, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इस सूने वन में अकेले क्यों घूमते हैं?",
+     "prompt": "A woman in a blue silk sari waving her hand toward the vast empty forest around them, a slim young ascetic with matted hair and deer-skin listening, tall trees, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि ने भोलेपन से कहा, मेरे पिता विभांडक हैं, मैं उनका पुत्र ऋष्यश्रृंग।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin standing with folded hands and a gentle smile at the edge of a forest clearing, women in silk saris listening in front of him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पास ही मेरा आश्रम है। आइए, मैं विधि से आपकी पूजा करूँ।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin pointing warmly toward a small leaf hermitage visible through the trees, inviting smile, women beside him, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "मीठे फल",
+   "shots": [
+    {
+     "vo": "स्त्रियाँ आश्रम चलीं। ऋषि आगे-आगे रास्ता दिखाते रहे।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin leading the way along a narrow forest path, women in silk saris following a few steps behind, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आश्रम में उन्होंने अतिथियों को आदर से आसन दिया।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin spreading grass mats on the ground in front of his leaf hermitage, women in silk saris standing near, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अर्घ्य दिया, और पैर धोने के लिए जल दिया।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin pouring water from a clay pot into the cupped hands of a seated woman in a silk sari, women seated on grass mats, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर प्रेम से कंद, मूल और वन के फल परोसे।",
+     "prompt": "Banana leaves on the ground laid with forest fruits, roots and berries, a slim young ascetic with matted hair and deer-skin serving the food with both hands to seated women, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर स्त्रियाँ विभांडक मुनि से डरी हुई थीं।",
+     "prompt": "Women in silk saris glancing anxiously over their shoulders toward a dark forest path behind a leaf hermitage, tense faces, afternoon light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो जल्दी से जल्दी वहाँ से लौट जाना चाहती थीं।",
+     "prompt": "Two women in silk saris on the left exchanging a worried look while picking up their veenas, the leaf hermitage behind them, forest daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जाने से पहले उन्होंने ऋषि को तरह-तरह की मिठाइयाँ और पकवान दिए।",
+     "prompt": "A woman in a saffron silk sari holding out a leaf plate heaped with round sweets and sugared delicacies toward a slim young ascetic with matted hair and deer-skin, forest hermitage, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और कहा, ये हमारे आश्रम के फल हैं, खाइए।",
+     "prompt": "A leaf plate piled with round golden sweets and delicacies held out by a woman's hands in front of a leaf hermitage, bright daylight, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि ने उन्हें फल ही समझा, और बड़े चाव से खाया।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin sitting by his hermitage tasting a round sweet, eyes wide with delight, more sweets on a leaf plate in his hand, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर स्त्रियाँ बोलीं, हमारा व्रत है, अब हमें जाना होगा।",
+     "prompt": "Women in silk saris standing up and gathering their veenas and drums, preparing to leave, a slim young ascetic with deer-skin sitting on the ground watching, forest clearing, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और वो जल्दी से वन में ओझल हो गईं।",
+     "prompt": "Women in silk saris hurrying away along a forest path, glancing back, trees closing in behind them, a tiny leaf hermitage far behind, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उनके जाते ही ऋषि का मन अस्थिर हो गया। वो दुखी और बेचैन रहने लगे।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin sitting alone beside a cold ash-covered fire pit at night, sad restless face, staring at the dark forest, moonlight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "वन से विदा",
+   "shots": [
+    {
+     "vo": "अगले दिन ऋषि फिर उसी जगह पहुँचे, जहाँ स्त्रियाँ मिली थीं।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin walking through misty trees at dawn toward a forest clearing, hopeful face, soft light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "स्त्रियाँ वहीं थीं। ऋषि को आता देख वो प्रसन्न हुईं।",
+     "prompt": "Women in silk saris waiting in a misty forest clearing, smiling and looking toward a slim young ascetic with deer-skin approaching through the trees in the distance, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पास आकर बोलीं, ऋषिकुमार, आज आप हमारे आश्रम चलिए।",
+     "prompt": "A woman in a blue silk sari smiling and pointing down a path that leads out of the forest, a slim young ascetic with matted hair and deer-skin listening, other women behind, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वहाँ तरह-तरह के फल हैं, और आपका ख़ास सत्कार होगा।",
+     "prompt": "A woman in a blue silk sari describing with open hands, a slim young ascetic with matted hair and deer-skin listening with an eager innocent face, forest, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भोले ऋषि ने बात मान ली, और उनके साथ चल पड़े।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin nodding and stepping onto a forest path, women in silk saris a few steps ahead of him, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पीछे पिता का आश्रम छूट गया। आगे खुला मैदान था।",
+     "prompt": "A tiny leaf hermitage far behind among dense trees, the forest edge opening onto a wide sunlit plain ahead, a slim young ascetic with deer-skin seen from the side stepping toward it, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "धूल भरा रास्ता सीधा अंग देश की ओर जाता था।",
+     "prompt": "A slim young ascetic with matted hair and deer-skin walking along a dusty road toward the distant towers of a dry kingdom, women in silk saris a few steps ahead, hot sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वहाँ की सूखी धरती बहुत समय से बादलों की राह देख रही थी।",
+     "prompt": "Dry brown fields under a white sky, dead trees and a cracked dry pond, a lone farmer looking up, Indian countryside, harsh light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और फिर ऋषि के क़दम अंग की सीमा पर पड़े।",
+     "prompt": "Bare feet of a young ascetic stepping onto cracked dry earth, a wide dark cloud shadow sweeping across the ground, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "बरसात",
+   "shots": [
+    {
+     "vo": "उसी क्षण इंद्र देव ने अचानक वर्षा कर दी।",
+     "prompt": "A slim young ascetic with matted hair and deer-skin standing at the border of a dry kingdom, black storm clouds rolling in over dry fields behind him, dramatic sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "काले बादल गरजे, और झमाझम पानी बरसने लगा।",
+     "prompt": "Heavy monsoon rain pouring over cracked fields and tiled rooftops of an Indian kingdom, lightning in black clouds, villagers' huts, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सूखी धरती की प्यास बुझी। नदियाँ फिर बहने लगीं।",
+     "prompt": "Rainwater rushing into a dry riverbed, wooden boats on the sand beginning to float, rain falling, wet green banks, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "प्रजा ख़ुशी से भर उठी।",
+     "prompt": "Villagers in simple Indian clothes raising their hands to the sky in joy, laughing in the rain, wet glistening earth, huts behind, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा रोमपाद समझ गए, ऋषि आ पहुँचे हैं।",
+     "prompt": "King Romapada with black moustache, gold crown and green silk robe standing on a palace terrace in the rain, looking toward a road with joy, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो स्वयं नगर से निकलकर ऋषि की अगवानी को आए।",
+     "prompt": "King Romapada with gold crown and green silk robe walking out of a city gate in the rain, attendants holding parasols behind him, a slim young ascetic with deer-skin waiting far ahead, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने सिर झुकाकर प्रणाम किया, और अर्घ्य दिया।",
+     "prompt": "King Romapada with gold crown and green silk robe bowing with folded hands, offering water in a golden vessel to a slim young ascetic with matted hair and deer-skin, rain around them, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर विनती की, आपके पिता का क्रोध हम पर न आए, ऐसी कृपा कीजिए।",
+     "prompt": "King Romapada with black moustache, gold crown and green silk robe with folded hands and a humble pleading face, facing a calm young ascetic with matted hair and deer-skin, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि को बड़े सम्मान से अंतःपुर में ले जाया गया।",
+     "prompt": "A slim young ascetic with matted hair and deer-skin led through the doorway of a palace hall decorated with lamps and marigold garlands by King Romapada in green robe, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वहाँ राजा ने विधि से अपनी बेटी शांता का विवाह उनसे किया।",
+     "prompt": "A slim young ascetic with matted black hair and deer-skin on the left and a graceful young woman in a red sari with gold border and veil on the right, sitting in wedding attire before a sacred fire, marigold flowers scattered, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वाल्मीकि के पाठ में शांता रोमपाद की पुत्री हैं।",
+     "prompt": "A graceful young woman in a red sari with gold border and a long black braid standing quietly in a palace corridor, soft lamp light on her face, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुछ परंपराएँ उन्हें दशरथ की पुत्री मानती हैं, जिन्हें रोमपाद ने गोद लिया।",
+     "prompt": "An old palm-leaf manuscript and a folded silk cloth lying beside a brass lamp in a palace alcove, soft warm light, plain unmarked leaves, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि पत्नी शांता के साथ अंग देश में आदर से रहने लगे।",
+     "prompt": "A slim young ascetic with matted hair and deer-skin on the left and a graceful young woman in a red sari with gold border on the right, standing on a palace terrace, green fields behind them, peaceful evening, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सुमंत्र बोले, महाराज, सनत्कुमार की बात यहीं ख़त्म नहीं होती।",
+     "prompt": "Sumantra, an elderly man with white hair in white dhoti, speaking earnestly to King Dasharatha with grey beard, golden crown and maroon robe, a brass oil lamp between them in the Ayodhya chamber, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch8",
+   "card": "भविष्यवाणी",
+   "shots": [
+    {
+     "vo": "सनत्कुमार ने कहा था, इक्ष्वाकु वंश में दशरथ नाम के राजा होंगे।",
+     "prompt": "A radiant boy-sage in white speaking to old sages in a forest, above the clouds a glowing vision of a golden city with towers and palaces, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "धर्मात्मा, यशस्वी, और अपने वचन के पक्के।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon silk robe sitting on a golden throne in a grand court, kind dignified face, courtiers standing at the sides, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अंग के राजा रोमपाद से उनकी गहरी मित्रता होगी।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe on the left embracing King Romapada with black moustache, gold crown and green robe on the right, palace courtyard, warm light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "एक दिन दशरथ अंग जाकर अपने मित्र से कहेंगे,",
+     "prompt": "A hazy dreamlike vision of King Dasharatha with grey beard and maroon robe speaking to King Romapada with green robe in a palace hall, glowing soft edges, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मैं पुत्रहीन हूँ। शांता के पति मेरा यज्ञ कराएँ।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe with folded hands and a sorrowful face, facing King Romapada in green robe, palace hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रोमपाद मन ही मन सोचेंगे, फिर ऋषि को शांता के साथ भेज देंगे।",
+     "prompt": "King Romapada with black moustache, gold crown and green silk robe thoughtful with a hand on his chin, then a gentle nod, palace hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि को पाकर दशरथ प्रसन्न होंगे, और यज्ञ करेंगे।",
+     "prompt": "A tall sacred fire altar blazing on a river bank, smoke rising to the sky, priests in white standing around it, King Dasharatha in maroon robe watching with joy, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्हें चार पुत्र होंगे, अपार पराक्रमी, वंश को आगे बढ़ाने वाले।",
+     "prompt": "Four radiant princely children with golden crowns and glowing faces floating in soft clouds above a golden city with towers, divine light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उनका यश सब लोकों में फैलेगा।",
+     "prompt": "Golden light spreading across the sky over green earth, a small golden city of towers far below, rays reaching the horizon, epic wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये सुनते ही राजा दशरथ का मन आनंद से भर गया।",
+     "prompt": "Close-up of King Dasharatha's face, an aging king with grey beard and golden crown, bright joyful eyes with tears of hope, warm lamp light, medium close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सुमंत्र ने कहा, महाराज, आप स्वयं सेना और सवारी के साथ जाइए।",
+     "prompt": "Sumantra in white with a bow of the head gesturing toward the palace doors, King Dasharatha with grey beard, golden crown and maroon robe rising from his seat, palace chamber, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और श्रृंगी ऋषि को पूरे आदर से अयोध्या ले आइए।",
+     "prompt": "Royal chariots with horses being readied in a palace courtyard in front of tall gates, soldiers in armour and grooms, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch9",
+   "card": "अंग की यात्रा",
+   "shots": [
+    {
+     "vo": "राजा ने सुमंत्र की बात मानी, और गुरु वसिष्ठ से आज्ञा ली।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe bowing before Sage Vasishtha, an old sage with long white beard, white robe and rudraksha beads, in a sacred hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर रानियों और मंत्रियों के साथ अंग देश की ओर चल पड़े।",
+     "prompt": "King Dasharatha's royal chariot leading a procession of covered palanquins and soldiers with banners through green countryside, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रास्ते में कई वन आए, कई नदियाँ आईं।",
+     "prompt": "A royal procession of chariots and palanquins crossing a wide shallow river beside a dense forest, banners flying, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "धीरे-धीरे राजा उस देश में पहुँचे, जहाँ ऋषि रहते थे।",
+     "prompt": "A royal procession arriving at the wet green gates of a city at dusk, chariots and banners, fresh rain on the road, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा रोमपाद के पास ऋषि बैठे थे, जलती अग्नि की तरह तेजस्वी।",
+     "prompt": "A slim young ascetic with matted hair and deer-skin sitting on a seat of kusha grass in a palace hall, glowing with a bright radiant light like a flame, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मित्र को देखकर रोमपाद बहुत प्रसन्न हुए।",
+     "prompt": "King Romapada with black moustache, gold crown and green silk robe welcoming King Dasharatha with grey beard, golden crown and maroon robe at a palace door, holding a flower garland, folded hands, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने विधि से दशरथ का स्वागत और पूजा की।",
+     "prompt": "King Romapada in green robe offering a brass aarti plate with lit lamps to King Dasharatha in maroon robe, decorated hall, warm lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर ऋषि को बताया, ये मेरे परम मित्र, अयोध्या के राजा हैं।",
+     "prompt": "King Romapada in green robe with an open hand introducing King Dasharatha in maroon robe on the right to a slim young ascetic with deer-skin seated on the left, palace hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि ने भी राजा दशरथ का आदर किया।",
+     "prompt": "A slim young ascetic with matted hair and deer-skin raising a hand in blessing, King Dasharatha with grey beard and maroon robe bowing with folded hands in front of him, palace hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दशरथ सात-आठ दिन अपने मित्र के यहाँ रहे।",
+     "prompt": "King Dasharatha in maroon robe and King Romapada in green robe walking side by side in a palace garden with flowering trees, friendly faces, daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर बोले, मित्र, तुम्हारी बेटी शांता अपने पति के साथ मेरे नगर चलें।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe speaking earnestly with an open palm to King Romapada in green robe on a palace balcony at sunset, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वहाँ एक बहुत बड़ा काम होना है।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe gazing toward the glowing western horizon at sunset from a palace balcony, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रोमपाद ने कहा, ठीक है। फिर ऋषि से बोले, आप पत्नी के साथ जाइए।",
+     "prompt": "King Romapada in green robe with folded hands speaking to a slim young ascetic with deer-skin who listens calmly, palace hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि ने हामी भरी। दोनों राजा गले मिले, और विदा हुए।",
+     "prompt": "A slim young ascetic with deer-skin on the left and a graceful young woman in a red sari with gold border on the right sitting in a decorated chariot starting to move out of a palace gate, two kings waving behind, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch10",
+   "card": "अयोध्या में स्वागत",
+   "shots": [
+    {
+     "vo": "राजा ने आगे तेज़ दूत भेजे, नगर को सजाने के लिए।",
+     "prompt": "Two messengers in white dhotis and turbans running along a royal road toward the distant towers of a golden city, dust rising behind them, bright sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सड़कें धुलीं, सुगंध छिड़की गई, घर-घर पर झंडे लगे।",
+     "prompt": "Citizens of an Indian city sprinkling water on a wide royal road from brass pots and tying flags and flower garlands over house doors, bright morning, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा के लौटने की ख़बर सुनकर नगरवासी ख़ुश हो गए।",
+     "prompt": "Townspeople on balconies and rooftops of an Indian city holding flower petals with happy faces, flags hanging between houses, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शंख और नगाड़ों की आवाज़ के बीच राजा नगर में आए।",
+     "prompt": "A golden city gate hung with flags and garlands, men blowing conch shells on both sides, a royal chariot entering the gate, crowd cheering, epic wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "श्रृंगी ऋषि को उन्होंने सबसे आगे रखा।",
+     "prompt": "A slim young ascetic with matted hair and deer-skin walking at the front of a procession on a flower-strewn royal road, King Dasharatha with grey beard and maroon robe a few steps behind him, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जैसे स्वर्ग में इंद्र देव कश्यप-पुत्र का सत्कार करते हैं, वैसा ही सत्कार हुआ।",
+     "prompt": "Flower petals falling like rain over a grand procession on a royal road in a golden city, golden light streaming down from the sky, cheering crowd, epic wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा उन्हें अंतःपुर में ले गए, और विधि से पूजा की।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe washing the feet of a seated slim young ascetic with deer-skin using water from a golden vessel, inner palace, lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा को लगा, आज मेरा जीवन सफल हो गया।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe standing with folded hands and closed eyes in gratitude, soft smile, warm light, medium close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रनिवास की रानियों ने बड़ी-बड़ी आँखों वाली शांता को आते देखा।",
+     "prompt": "A graceful young woman in a red sari with gold border and a long black braid entering an inner palace courtyard with rows of oil lamps on the floor, queens waiting at the far side, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सबका मन ख़ुशी से भर गया। उन्होंने शांता का प्रेम से सत्कार किया।",
+     "prompt": "A queen in a modest royal silk sari with gold jewellery welcoming a graceful young woman in a red sari, holding out a brass aarti plate with lit lamps, warm lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शांता अपने पति के साथ कुछ समय वहीं सुख से रहीं।",
+     "prompt": "A slim young ascetic with deer-skin on the left and a graceful young woman in a red sari on the right sitting peacefully on a stone bench in a palace garden beside a lotus pond, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch11",
+   "card": "वसंत का संकल्प",
+   "shots": [
+    {
+     "vo": "कई ऋतुएँ बीतीं। फिर एक सुहाना वसंत आया।",
+     "prompt": "A palace garden full of spring blossoms, mango blossoms and flowering trees beside a wide river, soft morning light, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ततः काले बहुतिथे कस्मिंश्चित् सुमनोहरे, वसन्ते समनुप्राप्ते राज्ञो यष्टुं मनोऽभवत्॥",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe standing in a blossoming palace garden looking toward a river, resolute devotional face, spring flowers, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यानी, सुहाने वसंत में राजा के मन में यज्ञ की इच्छा जागी।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe walking along a flower-lined palace path toward a stone hall, determined face, spring light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने श्रृंगी ऋषि को सिर झुकाकर प्रणाम किया।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe bowing low with folded hands before a slim young ascetic with deer-skin sitting serenely in a simple hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और विनती की, मेरे वंश के लिए आप यज्ञ कराइए।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe with folded hands and pleading eyes, a slim young ascetic with deer-skin listening calmly, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषि ने कहा, ऐसा ही होगा। सामग्री जुटाइए, और यज्ञ का घोड़ा छोड़िए।",
+     "prompt": "A slim young ascetic with matted hair and deer-skin raising one hand in blessing with a gentle smile toward King Dasharatha in maroon robe, soft divine light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा ने सुमंत्र से कहा, वेद जानने वाले सब ऋषियों को बुलाओ।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe giving an order with a raised hand to Sumantra in white who bows, royal court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सुयज्ञ, वामदेव, जाबालि, कश्यप, और कुलगुरु वसिष्ठ, सब आए।",
+     "prompt": "A procession of old bearded sages in saffron and white holding wooden staffs and water pots, entering a grand palace hall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा ने उनकी पूजा की, और नम्रता से अपने मन की बात कही।",
+     "prompt": "King Dasharatha with grey beard and maroon robe placing flowers at the feet of a row of seated old sages, palace hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पुत्र के बिना मैं भीतर ही भीतर जल रहा हूँ। मुझे कोई सुख नहीं।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe standing before seated sages with a sorrowful face, one hand on his heart, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इसलिए मैंने अश्वमेध यज्ञ करने का निश्चय किया है।",
+     "prompt": "King Dasharatha with grey beard and maroon robe speaking firmly in the royal hall, a sacred fire burning in a brass vessel beside him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऋषिपुत्र की कृपा से मेरी मनोकामना पूरी होगी।",
+     "prompt": "King Dasharatha with grey beard and maroon robe turning with folded hands toward a slim young ascetic with deer-skin seated calmly among old sages, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वसिष्ठ आदि ब्राह्मणों ने राजा की बहुत प्रशंसा की।",
+     "prompt": "Sage Vasishtha, an old sage with long white beard, white robe and rudraksha beads, raising a hand in blessing toward King Dasharatha in maroon robe, other sages nodding behind, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बोले, सरयू के उत्तरी तट पर यज्ञ की भूमि बनाइए।",
+     "prompt": "Sage Vasishtha with long white beard and rudraksha beads pointing through a stone arch toward a wide river, King Dasharatha in maroon robe listening beside him, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आपके मन में ऐसी धर्म की बात आई है। आपको मनचाहे पुत्र ज़रूर मिलेंगे।",
+     "prompt": "King Dasharatha with grey beard and golden crown bowing to Sage Vasishtha with long white beard, face lit with hope, warm golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch12",
+   "card": "यज्ञ की तैयारी",
+   "shots": [
+    {
+     "vo": "राजा प्रसन्न हुए, और मंत्रियों को आज्ञा दी।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe standing in front of a row of ministers in white court robes, raised hand giving commands, royal court, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "गुरुओं के कहे अनुसार यज्ञ की सारी सामग्री जुटाओ।",
+     "prompt": "Attendants carrying brass vessels of ghee, sacks of grain and bundles of sacred wood across a palace courtyard, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वीर योद्धाओं की रक्षा में, उपाध्याय के साथ घोड़ा छोड़ो।",
+     "prompt": "A white royal horse with a golden cloth standing ready at a city gate, armed warriors and a priest in white waiting a few steps away, bright morning, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सरयू के उत्तरी तट पर यज्ञ भूमि तैयार करो।",
+     "prompt": "A vast sacred ground on a river bank with altars, tall wooden pillars and cloth canopies being built, workers and a shining river beside, epic wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "विघ्न दूर करने वाले शांति कर्म भी विधि से करो।",
+     "prompt": "Priests in white chanting around a small fire altar at the edge of a large ground, smoke rising, daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "राजा ने सावधान किया, इस यज्ञ में ज़रा-सी भी भूल न हो।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe with a stern careful face raising one finger in warning to ministers in white, palace court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ब्रह्मराक्षस यज्ञ में कमी ही ढूँढते रहते हैं।",
+     "prompt": "Dark shadowy shapes with glowing eyes lurking among trees at night beyond the edge of a sacred fire ground, firelight on the ground, ominous, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भूल वाला यज्ञ, करने वाले का ही नाश कर देता है।",
+     "prompt": "A sacred fire flickering in strong wind inside a brass fire pit under a stormy night sky, sparks flying sideways, tense mood, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मंत्रियों ने वैसा ही किया। और यज्ञ का घोड़ा छोड़ दिया गया।",
+     "prompt": "A white royal horse with a golden cloth galloping freely across open plains, a few warriors on foot far behind, bright sun, epic wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ब्राह्मण राजा को आशीर्वाद देकर अपने-अपने स्थान लौट गए।",
+     "prompt": "Old sages in saffron walking out of palace gates in evening light, King Dasharatha with grey beard and maroon robe bowing with folded hands at the doorway, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर राजा महल में गए, और रानियों से बोले, यज्ञ की दीक्षा लीजिए।",
+     "prompt": "King Dasharatha with grey beard and maroon robe speaking gently in an inner palace, three queens in modest royal silk saris with folded hands listening, lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रानियों के मुख वैसे खिल उठे, जैसे सर्दी के बाद कमल खिलते हैं।",
+     "prompt": "Three queens in royal silk saris with radiant smiling faces in a palace courtyard, a lotus pond in full bloom beside them, soft morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "घोड़ा दूर-दूर तक घूमने निकल गया। अयोध्या प्रतीक्षा करने लगी।",
+     "prompt": "A white horse with a golden cloth small on a far horizon at sunset, the towers of a golden city large in the foreground, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पूरे एक साल बाद घोड़ा लौटेगा। तब सरयू के तट पर क्या होगा?",
+     "prompt": "An empty sacred ground on a river bank with altars and pillars under a vast starry sky, one sacred fire burning, the river glowing in moonlight, epic wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "क्या सनत्कुमार की भविष्यवाणी पूरी होगी? अगले एपिसोड में, अश्वमेध यज्ञ।",
+     "prompt": "King Dasharatha with grey beard, golden crown and maroon robe alone on a palace balcony at night, looking toward a distant glowing sacred ground, hopeful face, moonlight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कमेंट में जय श्री राम लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
+     "prompt": "Lord Rama, divinely beautiful blue-skinned god holding a bow, golden crown, yellow dhoti, in a serene blessing pose with raised palm above a river at dawn, golden divine light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ],
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "complete",
+  "points": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0
+  ]
+ },
+ "series": "ramayan",
+ "series_ep": 3
+}
