@@ -86,7 +86,7 @@ jobs:
         run: |
           # a ready-made thumbnail the owner chose (episodes/<slug>/thumb-custom.jpg) wins over the generated one
           if [ -f "$EP/thumb-custom.jpg" ]; then cp "$EP/thumb-custom.jpg" "out/${{ inputs.slug }}/thumb.jpg"
-          elif [ -n "$HW_BRAND" ] && grep -q '"thumbnails": "owner"' "brand/$HW_BRAND/brand.json"; then
+          elif grep -q '"thumbnails": "owner"' "brand/${HW_BRAND:+$HW_BRAND/}brand.json"; then  # THW: brand/brand.json
             echo "the owner makes this channel's thumbnails (ChatGPT): none generated"
           else python pipeline/thumb.py "$EP/script.json" "out/${{ inputs.slug }}"; fi
       - name: Collect

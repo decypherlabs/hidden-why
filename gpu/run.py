@@ -86,7 +86,7 @@ def expected(script):
     th = d.get("thumbnail") or {}
     cover = ["cover.png"] if (d.get("cover") or {}).get("prompt") else []
     brand = os.environ.get("HW_BRAND")
-    owner = brand and json.loads((ROOT / "brand" / brand / "brand.json").read_text()).get("thumbnails") == "owner"
+    owner = json.loads((ROOT / "brand" / (brand or "") / "brand.json").read_text()).get("thumbnails") == "owner"  # THW: brand/brand.json
     return names + cover + ([] if owner else [f for f, k in (("thumb-plane.png", "plane"), ("thumb-zoom.png", "zoom")) if th.get(k)])
 
 
