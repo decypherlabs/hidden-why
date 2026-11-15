@@ -177,7 +177,11 @@ def prep(script_path, out):
             chapters.append((t, x["card"].title()))
         d = durs[f"{x['n']:03d}"] + GAP
         hook = x["si"] == 0
-        big = x.get("title") or (BIG.search(x.get("vo") or "") or [None])[0] if hook and x.get("kind") in ("still", "footage", "archive") else None
+        if x.get("kind") in ("stat", "headline", "document") and (out / f"shot-{x['n']:02d}.png").exists():
+            # its own painting under it: the number or words in bold on the picture, not a clipping or a blurred card
+            # (owner, 15 Nov 2026: "the same newspaper style again and again looks boring")
+            x = {**x, "kind": "still", "over": x["kind"]}
+        big = x.get("title") or (BIG.search(x.get("vo") or "") or [None])[0] if hook and x.get("kind") in ("still", "footage", "archive") and not x.get("over") else None
         items.append({**x, "start": t, "dur": d, **({"hook": True} if hook else {}), **({"big": str(big).replace("*", "").upper()} if big else {})})
         t += d
     items.append({"kind": "end", "start": t, "dur": END})
@@ -727,6 +731,86 @@ def big_word(layer, text, t, dur, accent):
     d.text((W / 2 - tw / 2, H * 0.30), text, font=f, fill=(*accent, a), stroke_width=8, stroke_fill=(0, 0, 0, a))
 
 
+def on_top(ctx, it, t, rgb, layer):
+    """A stat, headline or document over its own painting (owner, 15 Nov 2026): the top of the picture darkens a
+    little, then the number counts up in the corner panel at the top-left, or the words type out in bold across the
+    top. Returns the shaded picture; draws on layer."""
+    g = np.linspace(0.62, 0.0, int(H * 0.5), dtype=np.float32)[:, None, None]
+    rgb = rgb.copy()
+    rgb[:len(g)] = (rgb[:len(g)].astype(np.float32) * (1 - g)).astype(np.uint8)
+    d = ImageDraw.Draw(layer)
+    if it["over"] == "stat":
+        s = it.get("stat") or {}
+        try:
+            v = float(s.get("value"))
+        except (TypeError, ValueError):
+            v = None
+        pre, suf = str(s.get("prefix") or ""), str(s.get("suffix") or "")
+        suf = (" " + suf) if suf[:1].isalpha() else suf
+        if v is None:  # a value that isn't a number: typed, not counted
+            typewriter(d, typed_text(it), str(s.get("label") or ""), t, ctx)
+            return rgb
+        fmt = "{:,.0f}" if abs(v) >= 100 or v.is_integer() else "{:,.2f}" if abs(v) < 10 and round(v, 2) != round(v, 1) else "{:,.1f}"
+        nf = kit.font("BarlowCondensed-Bold", 120)
+        unit = str(s.get("label") or "")
+        unit = unit if len(unit) <= 56 else unit[:56].rsplit(" ", 1)[0].rstrip(",;:")
+        uf = kit.font("Inter", 30)
+        w = max(d.textlength(pre + fmt.format(v) + suf, font=nf),
+                sum(d.textlength(ch, font=uf) + 30 * 0.1 for ch in unit.upper())) + 80
+        kit.stat_panel(layer, t, v, unit, fmt=fmt, prefix=pre, suffix=suf, box=(90, 70, 90 + int(w), 300),
+                       numcolor=tuple(ctx.L["accent"]), accent=tuple(ctx.L["accent"]))
+        return rgb
+    h = it.get("headline") or it.get("document") or {}
+    top = str(h.get("date") or "") if it["over"] == "headline" else str(h.get("title") or "")
+    typewriter(d, typed_text(it), top, t, ctx)
+    return rgb
+
+
+def typed_stat(it):
+    try:
+        float((it.get("stat") or {}).get("value"))
+        return False
+    except (TypeError, ValueError):
+        return True
+
+
+def typed_text(it):
+    """The words a stat, headline or document types out on its picture."""
+    if it.get("over") == "stat":
+        s = it.get("stat") or {}
+        suf = str(s.get("suffix") or "")
+        return str(s.get("value", "")) + ((" " + suf) if suf[:1].isalpha() else suf)
+    h = it.get("headline") or it.get("document") or {}
+    return str(h.get("text") or h.get("highlight") or it.get("vo") or "")
+
+
+def typewriter(d, text, small, t, ctx):
+    """Bold words across the top of the picture, typed out (~32 characters a second), a small dateline above."""
+    f = kit.font(ctx.L["headfont"][0], 66, ctx.L["headfont"][1])
+    lines = wrap(d, text, f, W - 240)[:3]
+    shown = int(max(0.0, t - 0.25) * 32)
+    y = 96
+    if small:
+        sm = small if len(small) <= 70 else small[:68].rsplit(" ", 1)[0] + "…"
+        sf = kit.font("IBMPlexMono-Regular", 30)
+        a = int(255 * ease_out(t / 0.3))
+        for ox, oy in ((-2, 0), (2, 0), (0, -2), (0, 2)):  # a dark halo: the dateline reads on any picture
+            kit.spaced(d, (120 + ox, y + oy), sm.upper(), sf, (10, 10, 10, int(a * 0.8)))
+        kit.spaced(d, (120, y), sm.upper(), sf, (*ctx.L["accent"], a))
+        y += 56
+    for ln in lines:
+        part = ln[:max(0, shown)]
+        if part:
+            d.text((120, y), part, font=f, fill=(250, 246, 236, 255), stroke_width=3, stroke_fill=(10, 10, 10, 200))
+        if 0 <= shown < len(ln):  # the line being typed: a blinking cursor after the last letter
+            if int(t * 3) % 2 == 0:
+                cx = 120 + d.textlength(part, font=f) + 6
+                d.rectangle((cx, y + 10, cx + 5, y + 74), fill=(*ctx.L["accent"], 255))
+            break
+        shown -= len(ln)
+        y += 82
+
+
 def endcard(ctx, it, t, i, n):
     img = backdrop(ctx.L, i, ctx, it)
     layer = kit.blank()
@@ -809,7 +893,9 @@ def render_frame(ctx, fi):
     d = ImageDraw.Draw(layer)
     if it.get("big"):
         big_word(layer, it["big"], lt, it["dur"], ctx.L["accent"])
-    if it.get("vo") and it["start"] >= 60:  # no running captions in the first minute: big words there (owner, 13 Nov 2026)
+    if it.get("over"):
+        rgb = on_top(ctx, it, lt, rgb, layer)
+    if it.get("vo"):  # captions from the first second (owner, 15 Nov 2026; were held back for the first minute)
         kit.captions(layer, it["vo"].split(), lt, it["dur"] - GAP, accent=ctx.L["accent"])
     if it.get("kind") in ("footage", "archive") and it.get("plate") and plate_ok(ctx, it):
         kit.label_plate(layer, (90, 110), str(it["plate"])[:48], lt)
@@ -861,7 +947,14 @@ def join(out):
                 mix.add(page, max(0, at - 0.05), 0.28)
             else:
                 mix.add(tick, max(0, at - 0.02), 0.3)
-        if k in ("headline", "document"):
+        if it.get("over") in ("headline", "document") or (it.get("over") == "stat" and typed_stat(it)):
+            # the words typing out on the picture: keys for as long as they type (owner, 15 Nov 2026)
+            secs = min(len(typed_text(it)) / 32, it["dur"] - 0.4, len(typing) / kit.SR)
+            if secs > 0.2:
+                mix.add(typing[: int(kit.SR * secs)], at + 0.25, 0.16)
+        elif it.get("over") == "stat":
+            mix.add(tick, at + 0.75, 0.25)
+        elif k in ("headline", "document"):
             pass  # the page turn on the cut is its sound
         elif k == "stat":
             mix.add(tick, at + 0.75, 0.25)
