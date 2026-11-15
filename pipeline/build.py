@@ -1564,8 +1564,15 @@ def load_mp3(path, seconds):
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
                          capture_output=True, check=True).stdout
     x = np.frombuffer(raw, np.float32)
-    reps = int(np.ceil(seconds * SR / max(1, len(x))))
-    return np.tile(x, reps)[:int(seconds * SR)]
+    need, xf = int(seconds * SR), int(3 * SR)
+    if len(x) >= need or len(x) <= 2 * xf:
+        reps = int(np.ceil(need / max(1, len(x))))
+        return np.tile(x, reps)[:need]
+    # a 25-minute Rahasya over one 3-minute bed (15 Nov 2026): each repeat crossfades 3 s into the next, no jump
+    out, fade = x.copy(), np.linspace(0, 1, xf, dtype=np.float32)
+    while len(out) < need:
+        out = np.concatenate([out[:-xf], out[-xf:] * (1 - fade) + x[:xf] * fade, x[xf:]])
+    return out[:need]
 
 
 def main(script_path, out_dir):
@@ -1786,6 +1793,9 @@ def main(script_path, out_dir):
                 mood_of[sid] = by_num.get(num(sid)) or "reflective"
                 print(f"  music: section {sid} wasn't in the plan, plays {mood_of[sid]}", flush=True)
     # a mood without a track falls back to reflective (31 Oct: "playful" has no track; s29-s31 crashed every run)
+    lane_bed = (K.B.get("lane_music") or {}).get(script.get("lane") or "")  # one bed under the whole video (DK Rahasya)
+    if lane_bed:
+        mood_of = {k: lane_bed for k in mood_of}
     track = lambda m: K.asset(f"music/{m}.mp3") if K.asset(f"music/{m}.mp3").exists() else K.asset("music/reflective.mp3")
     tracks = {m: load_mp3(track(m), total + 1) for m in set(mood_of.values())}
     # each section's track, loudness-matched (RMS, not peak: a soft bed with a few hits would vanish),

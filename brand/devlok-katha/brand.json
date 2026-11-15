@@ -156,5 +156,7 @@
     "verse_tempo": 0.85,
     "_about": "owner, 14 Nov 2026: 'pauses are missing... majorly the shloks': a breath at every sentence, shlokas recited half-verse by half-verse, slower (pipeline/narrate.py); outside 'voice' so older narrations keep their fingerprint"
   },
-  "voice_fx": {"lanes": ["rahasya"], "_about": "owner, 15 Nov 2026: the heavy voice (1-aman-now-heavy) for the Rahasya lane; null lanes = every DK episode (pipeline/voicefx.py)"}
+  "voice_fx": {"lanes": ["rahasya"], "_about": "owner, 15 Nov 2026: the heavy voice (1-aman-now-heavy) for the Rahasya lane; null lanes = every DK episode (pipeline/voicefx.py)"},
+  "lane_music": {"rahasya": "rahasya-suspense"},
+  "_about_lane_music": "owner, 15 Nov 2026: the Rahasya lane plays one suspense bed throughout (music/rahasya-suspense.mp3: Pixabay, \"suspense\" by sub_clair, 628719, Pixabay Content License); looped with 3 s crossfades"
 }
