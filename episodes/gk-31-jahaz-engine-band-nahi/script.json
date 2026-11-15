@@ -6,6 +6,7 @@
  "lang": "hi",
  "words_in_edit": true,
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "title": "जहाज़ का इंजन पूरे सफ़र में बंद क्यों नहीं होता? 🚢",
@@ -40,13 +41,27 @@
      "vo": "सोचिए, आप मुंबई बंदरगाह पर हैं, सामने विशाल जहाज़ की चिमनी धुआँ छोड़ रही है।",
      "prompt": "A young Indian man in a blue shirt standing on a quay looking up at a huge container ship with a thin plume of smoke rising from its tall funnel, seen from the side, gantry cranes behind, bright warm evening sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mumbai_container_terminal_from_Elephanta_Island.jpg/1920px-Mumbai_container_terminal_from_Elephanta_Island.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2563,
+      "h": 1245,
+      "credit": "Mumbai container terminal from Elephanta Island.jpg by Asands, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Mumbai_container_terminal_from_Elephanta_Island.jpg"
+     }
     },
     {
      "vo": "उसके पेट में, पानी की सतह से नीचे, एक विशाल इंजन धड़कता है।",
      "prompt": "A giant container ship's stern seen exactly from its left side, the hull below the waterline opened to reveal an enormous engine inside, engine room lights glowing, calm sea, bright daylight, wide cutaway shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Virginia_V_%28ship%2C_1922%29_engine_room_02.jpg/1920px-Virginia_V_%28ship%2C_1922%29_engine_room_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4288,
+      "h": 2848,
+      "credit": "Virginia V (ship, 1922) engine room 02.jpg by Joe Mabel, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Virginia_V_(ship,_1922)_engine_room_02.jpg"
+     }
     },
     {
      "vo": "सबसे बड़े जहाज़ी इंजनों में से एक का सिलेंडर इतना बड़ा कि आदमी खड़ा हो जाए।",
@@ -65,25 +80,53 @@
      "vo": "इसमें चाबी नहीं, तो इसे स्टार्ट कौन करता है?",
      "prompt": "A close view of an engineer's gloved hand gripping a large steel engine control lever in a ship's engine control room, panels with plain blank dials behind, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Nieuw_Statendam_-_engine_control_room.jpg/1920px-Nieuw_Statendam_-_engine_control_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3264,
+      "h": 2448,
+      "credit": "Nieuw Statendam - engine control room.jpg by Akela NDE, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Nieuw_Statendam_-_engine_control_room.jpg"
+     }
     },
     {
      "vo": "इसका ईंधन डामर जैसा गाढ़ा है, फिर ये जलता कैसे है?",
      "prompt": "Thick black heavy fuel oil dripping slowly off a steel ladle like tar, glossy black surface, plain steel drum behind, bright workshop light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Residual_fuel_oil.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1865,
+      "h": 2773,
+      "credit": "Residual fuel oil.JPG by Glasbruch2007, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Residual_fuel_oil.JPG"
+     }
     },
     {
      "vo": "बीच समंदर में ये बिगड़ जाए, तो मैकेनिक कहाँ से आएगा?",
      "prompt": "A lone container ship in the middle of a vast empty grey ocean, seen from the left side, no land to the horizon, overcast daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Ship_wake_at_sea_NOAA_image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1324,
+      "h": 746,
+      "credit": "Ship wake at sea NOAA image.jpg by NOAA, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ship_wake_at_sea_NOAA_image.jpg"
+     }
     },
     {
      "vo": "नीचे इंजन रूम में, गरम पानी इंजन के अंदर घूमने लगता है।",
      "prompt": "An engineer in a white boiler suit opening a valve on insulated hot water pipes that run into the side of a giant silent marine engine, faint heat shimmer around the pipes, bright engine room light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Virginia_V_%28ship%2C_1922%29_engine_room_02.jpg/1920px-Virginia_V_%28ship%2C_1922%29_engine_room_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4288,
+      "h": 2848,
+      "credit": "Virginia V (ship, 1922) engine room 02.jpg by Joe Mabel, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Virginia_V_(ship,_1922)_engine_room_02.jpg"
+     }
     }
    ]
   },
@@ -96,13 +139,27 @@
      "prompt": "A giant engine block stretching along a dim engine room with warm water pipes running along its full length, faint steam at one joint, an engineer in a white boiler suit resting his palm on the steel, warm light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ये पानी लगभग 60 डिग्री तक गरम होता है। धीरे-धीरे पूरा इंजन, हर तरफ़ से एक साथ गरम होता है।"
+     "caption": "ये पानी लगभग 60 डिग्री तक गरम होता है। धीरे-धीरे पूरा इंजन, हर तरफ़ से एक साथ गरम होता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g6eb27d7fadab2022a7d9cd131d99f0b4dc2c5a0296c279dc64e2d28f47b03497588654e072d2437c4d0d11c54a0ca1f9365be3b26318ecf64fc03e62763352be_1280.jpg",
+      "w": 3600,
+      "h": 2400,
+      "credit": "Pixabay (rob791)",
+      "page": "https://pixabay.com/photos/gauge-commercial-machine-industry-2113400/"
+     }
     },
     {
      "vo": "ठंडे इंजन में सीधे आग लगाना, ठंडे गिलास में खौलता पानी डालने जैसा है। मोटा लोहा भी चटक सकता है।",
      "prompt": "Boiling water being poured from a kettle into a cold glass tumbler on a kitchen counter, a long crack running up the glass, steam rising, bright daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gd845d99d087396504854b0a51bd3bc0d0703a6af062d016ce068b7554a301e0e068097dab1d99e7fcdea74e8d612fa5eb36907c3c98af575c4df037a0086737d_1280.jpg",
+      "w": 3713,
+      "h": 2771,
+      "credit": "Pixabay (cocoparisienne)",
+      "page": "https://pixabay.com/photos/water-glass-liquid-wet-refreshment-3853492/"
+     }
     },
     {
      "vo": "फिर बिजली की एक मोटर इंजन को धीरे-धीरे घुमाती है, बिना ईंधन के। इसे टर्निंग गियर कहते हैं।",
@@ -115,64 +172,134 @@
      "vo": "हर सिलेंडर के ऊपर छोटे वाल्व खोले जाते हैं, और अंदर से हवा फूँकी जाती है।",
      "prompt": "A row of small open valves on top of a giant engine's cylinder heads, puffs of air and fine mist blowing out of each one, bright engine room light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g1a41e898bbcb905b0f4567143345dd0b6f31060e944332a2610821e60fb0e9f121fc9adbd7de6bccb215cebe1fd997028c807f5ebee8ddf28fa879dca05fa3e0_1280.jpg",
+      "w": 3543,
+      "h": 1772,
+      "credit": "Pixabay (hansbenn)",
+      "page": "https://pixabay.com/photos/engine-valves-feathers-1544811/"
+     }
     },
     {
      "vo": "अंदर कहीं पानी या तेल जमा हो, तो वो इन्हीं वाल्वों से बाहर उड़ जाता है।",
      "prompt": "A spray of water droplets shooting out of an open valve on a massive engine cylinder head, steel surfaces wet, bright engine room light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g516b5e9c31a061db8e62aaaa35223ce9095977f9de32b6dae3e0b777af71f78de757c2e9fc43f192fa768dea0b134c7670ade06f980b16a8014b4dd181de4b89_1280.jpg",
+      "w": 3504,
+      "h": 2336,
+      "credit": "Pixabay (Life-Of-Pix)",
+      "page": "https://pixabay.com/photos/cylinders-engine-oil-machine-569151/"
+     }
     },
     {
      "vo": "ये ज़रूरी है, क्योंकि पानी दबता नहीं। अंदर रह गया, तो पिस्टन की छड़ मुड़ या टूट सकती है।",
      "prompt": "A bent heavy steel piston rod lying on an engine room workshop floor, two engineers in orange overalls looking down at it, one on the left and one on the right, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Bent_connecting_rod_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1200,
+      "h": 1600,
+      "credit": "Bent connecting rod 1.JPG by MichaelXXLF, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bent_connecting_rod_1.JPG"
+     }
     },
     {
      "vo": "अब असली सवाल: इतने भारी इंजन को घुमाएगा कौन? कार की बैटरी वाली मोटर यहाँ खिलौना है।",
      "prompt": "A small car battery and a tiny starter motor sitting on the steel floor at the foot of a colossal marine engine that towers above them, an engineer in orange overalls standing beside, bright engine room light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/USS_Cavalla_-_diesel_engine_2.jpg/1920px-USS_Cavalla_-_diesel_engine_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 2268,
+      "credit": "USS Cavalla - diesel engine 2.jpg by Eric Polk, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:USS_Cavalla_-_diesel_engine_2.jpg"
+     }
     },
     {
      "vo": "यहाँ इंजन स्टार्ट होता है दबाई हुई हवा से, बड़ी लाल बोतलों में भरी हवा।",
      "prompt": "Two large red steel air bottles standing side by side in an engine room, thick steel pipes leading from their tops, plain blank red surfaces, bright engine room light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g5f8f71be2aa35f734578617aa153e6aa5de73c41aea597d18d0f49d5cd6f78a095819c60b1146da891ab37090f35a3df06450783e96cbd8eadb512c15959c4e6_1280.jpg",
+      "w": 5906,
+      "h": 3937,
+      "credit": "Pixabay (Kollinger)",
+      "page": "https://pixabay.com/photos/valve-compressed-air-bottle-5298757/"
+     }
     },
     {
      "vo": "तीस बार की हवा, यानी कार के टायर से लगभग चौदह गुना दबाव।",
      "prompt": "A thick steel air pipe running from large red air bottles toward the engine, a car tyre lying on the floor beside the pipe for comparison, bright engine room light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "30 bar की हवा, यानी कार के टायर से लगभग चौदह गुना दबाव।"
+     "caption": "30 bar की हवा, यानी कार के टायर से लगभग चौदह गुना दबाव।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Contents_Gauge_on_Siebe_Gorman_Self-Contained_Compressed_Air_Diving_Apparatus_%28SCCADA%29.jpg/1920px-Contents_Gauge_on_Siebe_Gorman_Self-Contained_Compressed_Air_Diving_Apparatus_%28SCCADA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Contents Gauge on Siebe Gorman Self-Contained Compressed Air Diving Apparatus (SCCADA).jpg by Tim Sheerman-Chase, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Contents_Gauge_on_Siebe_Gorman_Self-Contained_Compressed_Air_Diving_Apparatus_(SCCADA).jpg"
+     }
     },
     {
      "vo": "ये हवा सही क्रम में पिस्टनों को धक्का देती है। और दो हज़ार तीन सौ टन का इंजन घूमने लगता है।",
      "prompt": "A huge piston pushed down inside a giant engine cylinder shown in cutaway, the crankshaft below beginning to turn, bright industrial light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ये हवा सही क्रम में पिस्टनों को धक्का देती है। और 2,300 टन का इंजन घूमने लगता है।"
+     "caption": "ये हवा सही क्रम में पिस्टनों को धक्का देती है। और 2,300 टन का इंजन घूमने लगता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/USS_Cavalla_-_diesel_engine_1.jpg/1920px-USS_Cavalla_-_diesel_engine_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 2268,
+      "credit": "USS Cavalla - diesel engine 1.jpg by Eric Polk, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:USS_Cavalla_-_diesel_engine_1.jpg"
+     }
     },
     {
      "vo": "कुछ ही चक्करों में रफ़्तार बनती है, तब ईंधन छिड़का जाता है। और पहला धमाका।",
      "prompt": "A fuel injector inside an engine cylinder spraying a fine mist that bursts into an orange flash of combustion, dark cutaway interior, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Frigate_France_I_-_Spark_plugs.jpg/1920px-Frigate_France_I_-_Spark_plugs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3456,
+      "h": 2304,
+      "credit": "Frigate France I - Spark plugs.jpg by Rémi Kaupp, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Frigate_France_I_-_Spark_plugs.jpg"
+     }
     },
     {
      "vo": "हवा ख़त्म हो गई तो? इसलिए नियम है: बिना दोबारा भरे, कम से कम बारह बार स्टार्ट हो सके।",
      "prompt": "An engineer in a white boiler suit writing in an open thick logbook on a steel desk, two large red air bottles behind him, bright engine room light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "हवा ख़त्म हो गई तो? इसलिए नियम है: बिना दोबारा भरे, कम से कम 12 बार स्टार्ट हो सके।"
+     "caption": "हवा ख़त्म हो गई तो? इसलिए नियम है: बिना दोबारा भरे, कम से कम 12 बार स्टार्ट हो सके।",
+     "photo": {
+      "src": "https://pixabay.com/get/g64c7d5936147103034299b73224043199e8102d356849322f78bad87677b29a52f1475728031cf87c5e369811e61e50c788b6a94793d9a1f67d8cd5858d090d4_1280.jpg",
+      "w": 5906,
+      "h": 3937,
+      "credit": "Pixabay (Kollinger)",
+      "page": "https://pixabay.com/photos/valve-compressed-air-bottle-5298757/"
+     }
     },
     {
      "vo": "ऊपर चिमनी से धुएँ का पहला गुबार उठता है। इंजन जाग चुका है। पर ये जागा किस तेल पर?",
      "prompt": "A burst of dark exhaust smoke rising from a container ship's tall funnel above a port at dawn, gantry cranes in the background, ship seen from the left side, soft morning light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Crystal_Symphony_Funnel_Port_Side_Pier_26_Port_of_Tallinn_7_August_2024.jpg/1920px-Crystal_Symphony_Funnel_Port_Side_Pier_26_Port_of_Tallinn_7_August_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2592,
+      "h": 1944,
+      "credit": "Crystal Symphony Funnel Port Side Pier 26 Port of Tallinn 7 August 2024.jpg by Pjotr Mahhonin, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Crystal_Symphony_Funnel_Port_Side_Pier_26_Port_of_Tallinn_7_August_2024.jpg"
+     }
     }
    ]
   },
@@ -192,39 +319,81 @@
      "vo": "बड़े जहाज़ पेट्रोल या आम डीज़ल नहीं जलाते।",
      "prompt": "A petrol pump nozzle lying on the left of a dock beside a massive black ship fuel hose on the right, the hose far thicker than the nozzle, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/MAERSK_HANOI_Container_Ship_%28Port_Koper_SIKOP%2C_2023%29.jpg/1920px-MAERSK_HANOI_Container_Ship_%28Port_Koper_SIKOP%2C_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5280,
+      "h": 3956,
+      "credit": "MAERSK HANOI Container Ship (Port Koper SIKOP, 2023).jpg by Petar Milošević, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:MAERSK_HANOI_Container_Ship_(Port_Koper_SIKOP,_2023).jpg"
+     }
     },
     {
      "vo": "बहुत से जहाज़ जलाते हैं हैवी फ़्यूल ऑयल। रिफ़ाइनरी में पेट्रोल-डीज़ल निकलने के बाद बचा भारी तेल।",
      "prompt": "An oil refinery with tall towers and silver pipes at dusk, a large dark storage tank in the foreground, black heavy oil visible pouring into it, warm dusk light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "बहुत से जहाज़ जलाते हैं heavy fuel oil। रिफ़ाइनरी में पेट्रोल-डीज़ल निकलने के बाद बचा भारी तेल।"
+     "caption": "बहुत से जहाज़ जलाते हैं heavy fuel oil। रिफ़ाइनरी में पेट्रोल-डीज़ल निकलने के बाद बचा भारी तेल।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Anacortes_Refinery_31911.JPG/1920px-Anacortes_Refinery_31911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2527,
+      "h": 1875,
+      "credit": "Anacortes Refinery 31911.JPG by Walter Siegmund (talk), CC BY 2.5, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Anacortes_Refinery_31911.JPG"
+     }
     },
     {
      "vo": "ठंडा होने पर ये लगभग डामर जितना गाढ़ा हो जाता है। बाल्टी उलटिए, तो भी मुश्किल से बहे।",
      "prompt": "A steel bucket of cold black heavy fuel oil tipped sideways, the thick oil barely moving at the rim, thick like road tar, held by a worker in gloves, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/McKittrick_Tar_Seep_North_of_Highway_58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1347,
+      "h": 749,
+      "credit": "McKittrick Tar Seep North of Highway 58.jpg by Lldenke, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:McKittrick_Tar_Seep_North_of_Highway_58.jpg"
+     }
     },
     {
      "vo": "फिर इसे जलाते क्यों हैं? क्योंकि ये सस्ता है, और इतना बड़ा, धीमा इंजन इसे पचा लेता है।",
      "prompt": "A giant engine running in a bright engine room, engineers in orange overalls on its catwalks, fuel pipes feeding into the cylinder tops, bright light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/ga219b31b446a894736bf1eed6186a04ee686fc51e9096daa231d01aaac26e4beb237e6716b3eaa86ee799a945426a0b3b0fad488053ce20efd204938b50f96f5_1280.jpg",
+      "w": 5558,
+      "h": 3376,
+      "credit": "Pixabay (scholty1970)",
+      "page": "https://pixabay.com/photos/submarine-machine-room-cables-tube-3998842/"
+     }
     },
     {
      "vo": "पर इसमें सल्फ़र बहुत होता है, और इसका धुआँ हवा को गंदा करता है। समुद्र किनारे के शहरों तक ये धुआँ पहुँचता है।",
      "prompt": "Thick dark smoke trailing from a ship's funnel drifting toward a coastal Indian city skyline of apartment towers, hazy yellow sky, ship seen from the side, late afternoon light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g7c5065678e8f32fcdc5fc7263b875f9d117cfb499923a855b136a2c380a5327665a7d07f3d526ae199189dde6872a6562249ec2309373b9d32fa5d171dc8edd7_1280.jpg",
+      "w": 3150,
+      "h": 2100,
+      "credit": "Pixabay (Kanenori)",
+      "page": "https://pixabay.com/photos/climate-change-issue-7575216/"
+     }
     },
     {
      "vo": "इसलिए एक जनवरी दो हज़ार बीस से नियम कड़ा हुआ। जहाज़ी तेल में सल्फ़र की सीमा साढ़े तीन प्रतिशत से घटकर आधा प्रतिशत हो गई।",
      "prompt": "A newspaper lying on a ship's mess table with the headline \"SULPHUR CAP 0.5%\", the newspaper large, flat and facing the camera, a steaming mug of tea beside it, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इसलिए 1 जनवरी 2020 से नियम कड़ा हुआ। जहाज़ी तेल में सल्फ़र की सीमा 3.5% से घटकर 0.5% हो गई।"
+     "caption": "इसलिए 1 जनवरी 2020 से नियम कड़ा हुआ। जहाज़ी तेल में सल्फ़र की सीमा 3.5% से घटकर 0.5% हो गई।",
+     "photo": {
+      "src": "https://pixabay.com/get/gdff5f0125819d12c1e28e408cc0016c6ff358cf242d85049c8a13c9252e616962024a2122e934da3697cfc48dd1450ee74f1db755ddb30229a046d75bf7b5ce8_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Nils_1977)",
+      "page": "https://pixabay.com/photos/ship-sea-container-ship-elbe-7667574/"
+     }
     },
     {
      "vo": "अब कई जहाज़ कम सल्फ़र वाला तेल जलाते हैं। कुछ चिमनी में स्क्रबर लगाकर धुएँ को पानी से धोते हैं।",
@@ -238,14 +407,28 @@
      "prompt": "A bunker barge alongside a container ship, a thick black hose stretching up into the ship's side, crew in orange overalls watching from the deck, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ये ईंधन बंदरगाह पर बार्ज से भरा जाता है, इसे bunkering कहते हैं। और टैंकों में इसे लगातार गरम रखा जाता है।"
+     "caption": "ये ईंधन बंदरगाह पर बार्ज से भरा जाता है, इसे bunkering कहते हैं। और टैंकों में इसे लगातार गरम रखा जाता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/City_tour%2C_Nacka_%28_1090785%29.jpg/1920px-City_tour%2C_Nacka_%28_1090785%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3864,
+      "h": 2576,
+      "credit": "City tour, Nacka ( 1090785).jpg by Matti Blume, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:City_tour,_Nacka_(_1090785).jpg"
+     }
     },
     {
      "vo": "इंजन तक पहुँचने से पहले इसे और गरम करते हैं। भारी तेल को अक्सर एक सौ तीस डिग्री के आसपास, तेल के हिसाब से कम-ज़्यादा।",
      "prompt": "A row of insulated fuel heaters and pipes in an engine room, faint heat shimmer above them, a large steel tank behind with a plain blank label, an engineer in a white boiler suit beside, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इंजन तक पहुँचने से पहले इसे और गरम करते हैं। भारी तेल को अक्सर 130 डिग्री के आसपास, तेल के हिसाब से कम-ज़्यादा।"
+     "caption": "इंजन तक पहुँचने से पहले इसे और गरम करते हैं। भारी तेल को अक्सर 130 डिग्री के आसपास, तेल के हिसाब से कम-ज़्यादा।",
+     "photo": {
+      "src": "https://pixabay.com/get/g3710e61ee244593dafc838a77ce746da2e646bcba72225f0365dfdf88852c69e37fd93914049252b59e7629722d4529f8958ea884b9b028d63938c59a9353fc5_1280.jpg",
+      "w": 2997,
+      "h": 1960,
+      "credit": "Pixabay (jogi031)",
+      "page": "https://pixabay.com/photos/machine-room-u-boat-engine-2186283/"
+     }
     },
     {
      "vo": "तब ये इतना पतला होता है कि बारीक फुहार बन सके। गाढ़ा तेल मोटी बूँदें बनाता है, और पूरा नहीं जलता।",
@@ -257,14 +440,22 @@
      "vo": "पर इस तेल में पानी, मिट्टी और कचरा भी होता है।",
      "prompt": "A glass jar of fuel sample with dark sludge settled at the bottom and water droplets, held up to the light by an engineer's gloved hand, bright window light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g8acf3f2e58ea8a2134993abaef02eba79975640de659d21880223fc4ec92fe178362f56bf2a84a350a5beea8f49f821bbb4c8527ff291cf5717173d0de258782_1280.jpg",
+      "w": 3500,
+      "h": 2333,
+      "credit": "Pixabay (A_Different_Perspective)",
+      "page": "https://pixabay.com/photos/abstract-oil-water-oil-in-water-1438382/"
+     }
     },
     {
      "vo": "इसे साफ़ करता है प्योरिफ़ायर, जो आम तौर पर मिनट में हज़ारों चक्कर घूमता है। बिल्कुल वॉशिंग मशीन के स्पिन की तरह।",
-     "prompt": "A row of compact steel centrifugal purifier machines in a ship's purifier room, an engineer in a white boiler suit standing beside them, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इसे साफ़ करता है purifier, जो आम तौर पर मिनट में हज़ारों चक्कर घूमता है। बिल्कुल washing machine के spin की तरह।"
+     "clip": {
+      "id": 30704,
+      "tags": "laundry, washing machine, cleaning clothes, clean clothes, water, iron, hairdryer, refrigerator, clean",
+      "page": "https://pixabay.com/videos/id-30704/"
+     }
     },
     {
      "vo": "भारी कचरा किनारे की ओर छिटक जाता है, और साफ़ तेल आगे इंजन तक जाता है।",
@@ -277,7 +468,14 @@
      "prompt": "A single large Indian road fuel tanker truck seen exactly from its left side parked on a dock, dwarfed by a giant container ship beside it, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "और ये इंजन पूरी ताक़त पर हर घंटे लगभग 13 टन ईंधन पीता है।"
+     "caption": "और ये इंजन पूरी ताक़त पर हर घंटे लगभग 13 टन ईंधन पीता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g3f7d55416a09c0c6d43ceedb2b5bddff2c0436cd52e3b8258ff109d8c628f6400827f379140226e2be17f09bde4a9e4102c5cc5529e8f4d35ae792068071d296_1280.jpg",
+      "w": 2997,
+      "h": 1960,
+      "credit": "Pixabay (jogi031)",
+      "page": "https://pixabay.com/photos/machine-room-u-boat-engine-2186283/"
+     }
     }
    ]
   },
@@ -289,26 +487,54 @@
      "vo": "इतना ईंधन, फिर भी ये दुनिया के सबसे किफ़ायती इंजनों में गिना जाता है।",
      "prompt": "A giant marine engine glowing under engine room lights, two engineers in orange overalls walking its catwalks, calm and steady, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gb3dc90708c8c55058600cdc358e84ac0411a76d4a67133c205372e6c8407a771ecd0908e9f072c0ed469719c0a3e88edfb0ddcf08cfd51a268baab97bf620440_1280.jpg",
+      "w": 2997,
+      "h": 1960,
+      "credit": "Pixabay (jogi031)",
+      "page": "https://pixabay.com/photos/machine-room-u-boat-engine-2186283/"
+     }
     },
     {
      "vo": "इसके ईंधन की आधी से ज़्यादा ताक़त सीधे काम में आती है। आम कार का इंजन लगभग एक तिहाई ही काम में ला पाता है।",
      "prompt": "An ordinary car engine under an open bonnet on an Indian street, heat haze rising off the engine, an Indian man in a checked shirt looking down at it, bright sun, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gd22bff3fc837aaa73e7c286a74ac51511f4e2a13da0fe389c4fff51542bf3026c5a71517c1ebce66c26cdab7bcf2f13c0c2f60d89a944782069b88f25ca6da9f_1280.jpg",
+      "w": 4288,
+      "h": 2848,
+      "credit": "Pixabay (andreas160578)",
+      "page": "https://pixabay.com/photos/engine-engine-block-metal-machine-2138981/"
+     }
     },
     {
      "vo": "इसका राज़ है धीमी चाल। आपकी बाइक का इंजन एक मिनट में हज़ारों चक्कर लगाता है।",
      "prompt": "A motorbike seen exactly from its left side, front wheel on the right, parked on an Indian city road, its engine large and clear in the centre, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g55a437341aae7fb99c5d4a1096da6f5c1631ac36f2a25f8d1374ba877fbccc0f12844728d9640bb844cfd228bddc4a6a8b2e23bc1ed94bbcc1b0494474d60184_1280.jpg",
+      "w": 5930,
+      "h": 3937,
+      "credit": "Pixabay (Ralphs_Fotos)",
+      "page": "https://pixabay.com/photos/motorcycle-custom-bike-machine-4629696/"
+     }
     },
     {
      "vo": "ये विशाल इंजन पूरी ताक़त पर भी बस एक सौ दो चक्कर। यानी एक सेकंड में दो से भी कम।",
      "prompt": "A giant flywheel turning slowly with each spoke clearly visible, an engineer in orange overalls standing beside it, bright engine room light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ये विशाल इंजन पूरी ताक़त पर भी बस 102 चक्कर। यानी एक सेकंड में दो से भी कम।"
+     "caption": "ये विशाल इंजन पूरी ताक़त पर भी बस 102 चक्कर। यानी एक सेकंड में दो से भी कम।",
+     "photo": {
+      "src": "https://pixabay.com/get/g035de76592f24f4775c812c0c76344cea0ff67605658af3030ecb39745e311186ed30c342ff8a2302b7362d2b074dc0bc7d2dcd4e693d21b0fe1105f232a65c0_1280.jpg",
+      "w": 1920,
+      "h": 1287,
+      "credit": "Pixabay (GregoryButler)",
+      "page": "https://pixabay.com/photos/battleship-engine-room-historic-war-389274/"
+     }
     },
     {
      "vo": "पर हर चक्कर में पिस्टन ढाई मीटर नीचे जाता है, फिर ढाई मीटर ऊपर। एक आदमी की लंबाई से भी ज़्यादा।",
@@ -320,41 +546,83 @@
      "vo": "और हर चक्कर में हर सिलेंडर एक बार धमाका करता है। आपकी बाइक में ये दो चक्कर में एक बार होता है।",
      "prompt": "A cutaway of a row of giant cylinders, each with an orange flash of combustion above its piston, dark interior, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g4646b1229a01503c17a191f2c5ba5411faf11bb03c04bcf9f0758e8e8fb163215258ec770cb6f405cb965762fc4f9913d6185ec33a44018eae76f0c9bef36977_1280.jpg",
+      "w": 5832,
+      "h": 3751,
+      "credit": "Pixabay (2427999)",
+      "page": "https://pixabay.com/photos/pratt-whitney-r-4360-wasp-major-3308237/"
+     }
     },
     {
      "vo": "ऐसे चौदह सिलेंडर एक लाइन में खड़े हैं। पूरा इंजन चार मंज़िला इमारत जितना ऊँचा, और लगभग सत्ताईस मीटर लंबा।",
      "prompt": "An enormous fourteen-cylinder marine diesel engine in an assembly hall, as tall as a four-storey building, small workers on catwalks at several levels, bright hall light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ऐसे 14 सिलेंडर एक लाइन में खड़े हैं। पूरा इंजन चार मंज़िला इमारत जितना ऊँचा, और लगभग 27 मीटर लंबा।"
+     "caption": "ऐसे 14 सिलेंडर एक लाइन में खड़े हैं। पूरा इंजन चार मंज़िला इमारत जितना ऊँचा, और लगभग 27 मीटर लंबा।",
+     "photo": {
+      "src": "https://pixabay.com/get/g03449aa39982d32ecff11ea38ef5ec497785a6d14ac3503552e495fed58ba68797e09f62ee508dee79b46b22df3102edf096c6b8360dd6f9f02913219b86032d_1280.jpg",
+      "w": 5627,
+      "h": 3751,
+      "credit": "Pixabay (SeppH)",
+      "page": "https://pixabay.com/photos/machine-train-locomotive-railroad-1715424/"
+     }
     },
     {
      "vo": "चिमनी तक जाने से पहले गरम धुआँ एक पंखा घुमाता है, जिसे टर्बोचार्जर कहते हैं। ये पंखा और ज़्यादा हवा इंजन में ठूँसता है।",
      "prompt": "A huge turbocharger opened for inspection on top of a marine engine, its curved turbine blades exposed, an engineer in orange overalls beside it, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "चिमनी तक जाने से पहले गरम धुआँ एक पंखा घुमाता है, जिसे turbocharger कहते हैं। ये पंखा और ज़्यादा हवा इंजन में ठूँसता है।"
+     "caption": "चिमनी तक जाने से पहले गरम धुआँ एक पंखा घुमाता है, जिसे turbocharger कहते हैं। ये पंखा और ज़्यादा हवा इंजन में ठूँसता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Abgasturbolader_15.JPG/1920px-Abgasturbolader_15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2048,
+      "h": 1536,
+      "credit": "Abgasturbolader 15.JPG by Dr. Karl-Heinz Hochhaus, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Abgasturbolader_15.JPG"
+     }
     },
     {
      "vo": "मिलकर बनती है लगभग एक लाख नौ हज़ार हॉर्सपावर। एक आम कार से हज़ार गुना से भी ज़्यादा।",
      "prompt": "A wide view along the tops of fourteen cylinder heads of a giant marine engine stretching far into the distance, a tiny engineer on the catwalk, bright light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gb0dadf736aab34075b5e36b101bfc0f80bbcf896214d9fd8d22126111bfe7d175336a85bf316bd71a6dc8576a6648a89fa55dfac053d181d6c89ace4de6c3885_1280.jpg",
+      "w": 2997,
+      "h": 1960,
+      "credit": "Pixabay (jogi031)",
+      "page": "https://pixabay.com/photos/machine-room-u-boat-engine-2186283/"
+     }
     },
     {
      "vo": "ये ताक़त जाती है क्रैंकशाफ़्ट में, जिसका वज़न अकेले लगभग तीन सौ टन है। ये कई हिस्से जोड़कर बनता है।",
      "prompt": "A massive crankshaft lifted by a giant overhead crane in a factory hall, tiny workers in orange overalls below it, bright hall light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ये ताक़त जाती है crankshaft में, जिसका वज़न अकेले लगभग 300 टन है। ये कई हिस्से जोड़कर बनता है।"
+     "caption": "ये ताक़त जाती है crankshaft में, जिसका वज़न अकेले लगभग 300 टन है। ये कई हिस्से जोड़कर बनता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Industries_of_War_-_Machinery_-_Engines_-_Marine_engines_manufacturing_by_the_Sterling_Engine_Co.%2C_Buffalo%2C_New_York._Crankshaft_of_model_%22F%22%2C_8-cyclinder_motor_showing_method_of_co_-_DPLA_-_b0ca139c860289f87374aec06438b067.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 9182,
+      "h": 6302,
+      "credit": "Industries of War - Machinery - Engines - Marine engines manufacturing by the Sterling Engine Co., Buffalo, New York. Crankshaft of model \"F\", 8-cyclinder motor showing method of co - DPLA - b0ca139c860289f87374aec06438b067.jpg by War Department. 1789-9/18/1947, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Industries_of_War_-_Machinery_-_Engines_-_Marine_engines_manufacturing_by_the_Sterling_Engine_Co.,_Buffalo,_New_York._Crankshaft_of_model_%22F%22,_8-cyclinder_motor_showing_method_of_co_-_DPLA_-_b0ca139c860289f87374aec06438b067.jpg"
+     }
     },
     {
      "vo": "और यहाँ कोई गियरबॉक्स नहीं। क्रैंकशाफ़्ट एक लंबे शाफ़्ट से सीधा प्रोपेलर तक जुड़ा है।",
      "prompt": "A long polished propeller shaft running straight from the engine through a narrow tunnel toward the stern, support bearings along it, bright tunnel light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "और यहाँ कोई gearbox नहीं। Crankshaft एक लंबे शाफ़्ट से सीधा propeller तक जुड़ा है।"
+     "caption": "और यहाँ कोई gearbox नहीं। Crankshaft एक लंबे शाफ़्ट से सीधा propeller तक जुड़ा है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Screw_propeller_%26_shaft%28Right%29_of_JS_FUJI%28AGB-5001%29_at_Port_of_Nagoya_May_30%2C_2015.jpg/1920px-Screw_propeller_%26_shaft%28Right%29_of_JS_FUJI%28AGB-5001%29_at_Port_of_Nagoya_May_30%2C_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6000,
+      "h": 3376,
+      "credit": "Screw propeller & shaft(Right) of JS FUJI(AGB-5001) at Port of Nagoya May 30, 2015.jpg by Hunini, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Screw_propeller_%26_shaft(Right)_of_JS_FUJI(AGB-5001)_at_Port_of_Nagoya_May_30,_2015.jpg"
+     }
     },
     {
      "vo": "यानी इंजन जितनी बार घूमे, प्रोपेलर भी उतनी ही बार। ऐसे जहाज़ का प्रोपेलर लगभग दस मीटर चौड़ा, एक सौ तीस टन भारी।",
@@ -368,13 +636,27 @@
      "prompt": "An underwater view of a giant ship propeller slowly turning behind the hull, a broad stream of bubbles pushed backward, clear blue water, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "धीमा, बड़ा propeller कम मेहनत में ज़्यादा पानी पीछे धकेलता है। इसीलिए यहाँ धीमा ही किफ़ायती है।"
+     "caption": "धीमा, बड़ा propeller कम मेहनत में ज़्यादा पानी पीछे धकेलता है। इसीलिए यहाँ धीमा ही किफ़ायती है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Ship-propeller_2000.jpg/1920px-Ship-propeller_2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2000,
+      "h": 1500,
+      "credit": "Ship-propeller 2000.jpg by US gov, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ship-propeller_2000.jpg"
+     }
     },
     {
      "vo": "पर ऐसे दैत्य को सबसे ज़्यादा पसंद है एक ही रफ़्तार।",
      "prompt": "A container ship seen from the side leaving a harbour mouth into open blue sea, the coast falling behind, a steady white wake, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g00b05409166f0b25bbccf55e335c9512092e777f8954445224a7d66bbe79177bb5c759f904acef80900b9cbb95d4b579624f8558ce1f738418b89e374b02ce67_1280.jpg",
+      "w": 5417,
+      "h": 3611,
+      "credit": "Pixabay (dendoktoor)",
+      "page": "https://pixabay.com/photos/container-ship-container-transport-6631117/"
+     }
     }
    ]
   },
@@ -387,7 +669,14 @@
      "prompt": "The bow of a gigantic light-blue container ship at sea, stacked containers towering behind, plain blank hull, bright daylight, front three-quarter view, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ऐसा 14 सिलेंडर वाला इंजन 2006 में Emma Maersk नाम के जहाज़ में लगा। वो लगभग 400 मीटर लंबा था, चार फ़ुटबॉल मैदानों जितना।"
+     "caption": "ऐसा 14 सिलेंडर वाला इंजन 2006 में Emma Maersk नाम के जहाज़ में लगा। वो लगभग 400 मीटर लंबा था, चार फ़ुटबॉल मैदानों जितना।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Emma_Maersk_%28ship%2C_2006%29_IMO_9321483_Schelde_Port_of_Antwerp_pic5.JPG/1920px-Emma_Maersk_%28ship%2C_2006%29_IMO_9321483_Schelde_Port_of_Antwerp_pic5.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3456,
+      "credit": "Emma Maersk (ship, 2006) IMO 9321483 Schelde Port of Antwerp pic5.JPG by Alf van Beem, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Emma_Maersk_(ship,_2006)_IMO_9321483_Schelde_Port_of_Antwerp_pic5.JPG"
+     }
     },
     {
      "vo": "ऐसे जहाज़ चलते हैं चीन के शंघाई से यूरोप के रॉटरडैम तक।",
@@ -438,25 +727,53 @@
      "vo": "रास्ता श्रीलंका के दक्षिण से, फिर स्वेज़ नहर से होकर। लगभग बीस हज़ार किलोमीटर, और लगभग एक महीना।",
      "prompt": "A giant container ship passing through the narrow Suez Canal, desert sand on both banks, ship seen from the front, bright sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Container_Ship_%27Ever_Given%27_stuck_in_the_Suez_Canal%2C_Egypt_-_March_24th%2C_2021_cropped.jpg/1920px-Container_Ship_%27Ever_Given%27_stuck_in_the_Suez_Canal%2C_Egypt_-_March_24th%2C_2021_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2661,
+      "h": 1766,
+      "credit": "Container Ship 'Ever Given' stuck in the Suez Canal, Egypt - March 24th, 2021 cropped.jpg by Contains modified Copernicus Sentinel data [2021], processed by Pierre Markuse, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Container_Ship_%27Ever_Given%27_stuck_in_the_Suez_Canal,_Egypt_-_March_24th,_2021_cropped.jpg"
+     }
     },
     {
      "vo": "इस पूरे वक़्त इंजन लगभग एक ही रफ़्तार पर चलता रहता है। इसकी तीन बड़ी वजहें हैं।",
      "prompt": "A giant marine engine running steadily, an engineer in a white boiler suit walking past on the catwalk, calm even light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gc926201236cded5e377d7f98b27de68cdaa4df0bb65443ac7fb8ea9dcac491b162667843675a83c3dc4ce934ba7d897ddf1d6c38db46b3f91fb03272ebeaeee9_1280.jpg",
+      "w": 5464,
+      "h": 3640,
+      "credit": "Pixabay (Shihab93)",
+      "page": "https://pixabay.com/photos/ship-vessel-sea-waves-transport-8263464/"
+     }
     },
     {
      "vo": "पहली: बार-बार गरम-ठंडा होना इंजन के घिसने की एक बड़ी वजह है।",
      "prompt": "Worn engine parts laid out on a workshop bench in a ship, an engineer in a white boiler suit examining a worn piston ring, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g2879d94cf112aa0ab46dad34561992d7fc3100d2204d155f52a78b7200b022c8592dc9c7ff584114798f2ecc1d8c33f119eca38829658c7340123c52749162a6_1280.jpg",
+      "w": 1920,
+      "h": 1287,
+      "credit": "Pixabay (GregoryButler)",
+      "page": "https://pixabay.com/photos/battleship-engine-room-historic-war-389274/"
+     }
     },
     {
      "vo": "गरम होने पर लोहा फैलता है, ठंडा होने पर सिकुड़ता है। हर बार रुकने-चलने पर यही खिंचाव।",
      "prompt": "A red-hot thick steel part glowing orange in a dark workshop, heat shimmer above it, sharp detail, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/ge96c86f4221cf48f7ee1d78a46b5d8e48d8c739d6c8bd7fd0f829c779902f434a15c26e46328494e95868fac35ee05d74f951884d8b3468f7325a86b7c3064ec_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Martinelle)",
+      "page": "https://pixabay.com/photos/bloom-rolling-rail-hot-product-1568604/"
+     }
     },
     {
      "vo": "बार-बार ऐसा हो, तो मोटे पुर्ज़ों में भी बारीक दरारें आ सकती हैं। इसलिए समंदर में इंजन बेवजह रोका नहीं जाता।",
@@ -468,7 +785,14 @@
      "vo": "दूसरी: पैसा। जहाज़ चलाने का सबसे बड़ा ख़र्च अक्सर ईंधन ही होता है।",
      "prompt": "A manager at a desk in a shipping company office in Mumbai holding a printed fuel bill, ships visible through the large window behind him, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g19d20b459c5f76bca0634fdb0cc8c2f3549c82fb7c1735d95cdce3ab0c45887e27c1ca250deb1cc1912bae86a4512a201a38fa6f12b129125f4fdd439757e3ca_1280.jpg",
+      "w": 3840,
+      "h": 2160,
+      "credit": "Pixabay (vschoenpos)",
+      "page": "https://pixabay.com/photos/ship-sea-sunset-clouds-water-981597/"
+     }
     },
     {
      "vo": "और रफ़्तार बढ़ाने पर ईंधन बहुत तेज़ी से बढ़ता है। मोटे हिसाब से, दस प्रतिशत धीमे चलिए, तो हर घंटे का ईंधन लगभग एक चौथाई कम।",
@@ -482,19 +806,40 @@
      "prompt": "Several container ships seen from the side sailing slowly in a line across a calm sea at sunset, warm orange light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इसीलिए 2008 की मंदी के बाद कई कंपनियों ने जहाज़ जानबूझकर धीमे कर दिए। इसे slow steaming कहते हैं।"
+     "caption": "इसीलिए 2008 की मंदी के बाद कई कंपनियों ने जहाज़ जानबूझकर धीमे कर दिए। इसे slow steaming कहते हैं।",
+     "photo": {
+      "src": "https://pixabay.com/get/ga3ce7a5c008cedb5c4dd75da021782b4a3aefa86919ed80a366dd2a098e5f121701274a82597b9a58b6a576d44fa4f92d659b272db7f8c8de465c0602dcec936_1280.jpg",
+      "w": 5417,
+      "h": 3611,
+      "credit": "Pixabay (dendoktoor)",
+      "page": "https://pixabay.com/photos/container-ship-container-transport-6631117/"
+     }
     },
     {
      "vo": "तीसरी: टाइमटेबल। हर बंदरगाह पर जहाज़ का घाट और क्रेनें पहले से बुक होती हैं।",
      "prompt": "An empty container berth at a busy port with tall gantry cranes waiting and stacks of containers ready on the quay, bright morning light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Container-Terminal_Bremerhaven_02.jpg/1920px-Container-Terminal_Bremerhaven_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4687,
+      "h": 3898,
+      "credit": "Container-Terminal Bremerhaven 02.jpg by H. Zell, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Container-Terminal_Bremerhaven_02.jpg"
+     }
     },
     {
      "vo": "तय रफ़्तार पर चले, तो जहाज़ ठीक वक़्त पर पहुँचता है। तेज़ भागे तो ईंधन बर्बाद, देर हुई तो कतार में इंतज़ार।",
      "prompt": "A line of container ships anchored and waiting outside a port, harbour cranes visible in the distance, overcast daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/MSC_HARMONY_III_%28container_ship%2C_2006%29_in_Port_Koper_%28SIKOP%2C_2024%29.jpg/1920px-MSC_HARMONY_III_%28container_ship%2C_2006%29_in_Port_Koper_%28SIKOP%2C_2024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5212,
+      "h": 3426,
+      "credit": "MSC HARMONY III (container ship, 2006) in Port Koper (SIKOP, 2024).jpg by Petar Milošević, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:MSC_HARMONY_III_(container_ship,_2006)_in_Port_Koper_(SIKOP,_2024).jpg"
+     }
     },
     {
      "vo": "भारत का लगभग पचानवे प्रतिशत व्यापार, सामान के हिसाब से, ऐसे ही जहाज़ों से होता है।",
@@ -541,7 +886,14 @@
      "vo": "पर महीने भर नॉन-स्टॉप चलते इंजन की देखभाल कौन करता है?",
      "prompt": "A narrow steel staircase leading down into a hot, brightly lit engine room, a giant engine visible below, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Virginia_V_%28ship%2C_1922%29_engine_room_01.jpg/1920px-Virginia_V_%28ship%2C_1922%29_engine_room_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4288,
+      "h": 2848,
+      "credit": "Virginia V (ship, 1922) engine room 01.jpg by Joe Mabel, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Virginia_V_(ship,_1922)_engine_room_01.jpg"
+     }
     }
    ]
   },
@@ -553,25 +905,53 @@
      "vo": "बीच समंदर इंजन बंद होना सिर्फ़ देरी नहीं, ख़तरा भी है। नज़दीकी मैकेनिक हज़ारों किलोमीटर दूर हो सकता है।",
      "prompt": "A container ship alone on a dark ocean under heavy storm clouds, seen from the left side, no land or other ship in sight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g9b7fc239e689b06fec4433aad7b81af5532cc45b8294af7b34c1310e7555e6aaa52a5923fa14ccc13365e4b860fb49382603a3f136f936bac8a920329f57ba61_1280.jpg",
+      "w": 4821,
+      "h": 3209,
+      "credit": "Pixabay (ClickerHappy)",
+      "page": "https://pixabay.com/photos/container-ship-sky-clouds-dark-1044721/"
+     }
     },
     {
      "vo": "पतवार तभी अच्छे से काम करती है, जब उसके पास से पानी तेज़ी से बहे।",
      "prompt": "An underwater view of a huge ship rudder behind the propeller, water rushing past it in streaks of bubbles, clear water, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Rudder_and_propeller_Beached_fishing_vessel_N%C3%B8rre_Vorup%C3%B8r_Denmark_2017-04-14.jpg/1920px-Rudder_and_propeller_Beached_fishing_vessel_N%C3%B8rre_Vorup%C3%B8r_Denmark_2017-04-14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4621,
+      "h": 3340,
+      "credit": "Rudder and propeller Beached fishing vessel Nørre Vorupør Denmark 2017-04-14.jpg by Kim Hansen, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Rudder_and_propeller_Beached_fishing_vessel_N%C3%B8rre_Vorup%C3%B8r_Denmark_2017-04-14.jpg"
+     }
     },
     {
      "vo": "बिना इंजन जहाज़ ठीक से मुड़ नहीं पाता। तूफ़ान में वो हवा और लहरों के साथ बहने लगता है।",
      "prompt": "A large ship lying sideways to big storm waves, spray breaking over its deck, seen from the side, dark sky, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/USS_Stormes_%28DD-780%29_underway_in_heavy_seas%2C_17_November_1948_%28NH_102748%29.jpg/1920px-USS_Stormes_%28DD-780%29_underway_in_heavy_seas%2C_17_November_1948_%28NH_102748%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5677,
+      "h": 4521,
+      "credit": "USS Stormes (DD-780) underway in heavy seas, 17 November 1948 (NH 102748).jpg by unknown, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:USS_Stormes_(DD-780)_underway_in_heavy_seas,_17_November_1948_(NH_102748).jpg"
+     }
     },
     {
      "vo": "इसलिए इंजन के पास हमेशा कोई जागता है: मरीन इंजीनियर। इनमें बहुत से भारतीय हैं।",
      "prompt": "Four Indian marine engineers in white boiler suits and hard hats standing in a row in a ship's engine room, smiling, giant engine behind them, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Engineer%27s_console_in_Fireboat_Firefighter_%27s_Engine_Room%2C_used_to_control_almost_the_entirety_of_the_ship..jpg/1920px-Engineer%27s_console_in_Fireboat_Firefighter_%27s_Engine_Room%2C_used_to_control_almost_the_entirety_of_the_ship..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3456,
+      "h": 2304,
+      "credit": "Engineer's console in Fireboat Firefighter 's Engine Room, used to control almost the entirety of the ship..jpg by Kaylee La Spisa, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Engineer%27s_console_in_Fireboat_Firefighter_%27s_Engine_Room,_used_to_control_almost_the_entirety_of_the_ship..jpg"
+     }
     },
     {
      "vo": "उन्नीस सौ बारह में टाइटैनिक पर लगभग ढाई सौ लोग सिर्फ़ कोयले के काम में थे। वो दिन-रात भट्ठियों में कोयला झोंकते थे।",
@@ -585,39 +965,81 @@
      "prompt": "An early 1912 motor ship seen from the left side at sea with no smokestack plumes, plain black hull, calm grey sea, overcast daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "उसी साल डेनमार्क का Selandia डीज़ल इंजन से समंदर पार करने लगा। आज बड़े जहाज़ का पूरा crew बस 20 से 25 लोग।"
+     "caption": "उसी साल डेनमार्क का Selandia डीज़ल इंजन से समंदर पार करने लगा। आज बड़े जहाज़ का पूरा crew बस 20 से 25 लोग।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Selandia_LCCN2014691629.jpg/1920px-Selandia_LCCN2014691629.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5785,
+      "h": 4223,
+      "credit": "Selandia LCCN2014691629.jpg by Bain News Service, publisher, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Selandia_LCCN2014691629.jpg"
+     }
     },
     {
      "vo": "इंजन रूम में चार घंटे ड्यूटी, फिर आठ घंटे आराम, दिन-रात यही। इसे वॉच कहते हैं।",
      "prompt": "Two engineers in the engine control room, the one on the left handing a clipboard to the one on the right, plain blank door behind, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इंजन रूम में चार घंटे ड्यूटी, फिर आठ घंटे आराम, दिन-रात यही। इसे watch कहते हैं।"
+     "caption": "इंजन रूम में चार घंटे ड्यूटी, फिर आठ घंटे आराम, दिन-रात यही। इसे watch कहते हैं।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Engine_control_room%2C_Explorer_of_the_Seas_03.jpg/1920px-Engine_control_room%2C_Explorer_of_the_Seas_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2999,
+      "h": 2249,
+      "credit": "Engine control room, Explorer of the Seas 03.jpg by Mitch Ames, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Engine_control_room,_Explorer_of_the_Seas_03.jpg"
+     }
     },
     {
      "vo": "गर्मी अक्सर चालीस डिग्री से ऊपर, और शोर इतना कि कान ढकने पड़ें।",
      "prompt": "An Indian engineer wearing ear defenders, sweat on his face, standing beside a giant roaring engine, three-quarter view, bright engine room light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "गर्मी अक्सर 40 डिग्री से ऊपर, और शोर इतना कि कान ढकने पड़ें।"
+     "caption": "गर्मी अक्सर 40 डिग्री से ऊपर, और शोर इतना कि कान ढकने पड़ें।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Virginia_V_%28ship%2C_1922%29_engine_room_03.jpg/1920px-Virginia_V_%28ship%2C_1922%29_engine_room_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4288,
+      "h": 2848,
+      "credit": "Virginia V (ship, 1922) engine room 03.jpg by Joe Mabel, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Virginia_V_(ship,_1922)_engine_room_03.jpg"
+     }
     },
     {
      "vo": "वो दबाव, तापमान और हर अजीब आवाज़ पर नज़र रखते हैं। कभी लंबा पेचकस कान से लगाकर इंजन की धड़कन सुनते हैं।",
      "prompt": "An engineer pressing a long screwdriver to an engine block with his ear against the handle, listening, eyes closed, side view, bright engine room light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Marine_Engineer_%281923%29_%2814591508737%29.jpg/1920px-Marine_Engineer_%281923%29_%2814591508737%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2928,
+      "h": 990,
+      "credit": "Marine Engineer (1923) (14591508737).jpg by Internet Archive Book Images, NO RESTRICTIONS, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Marine_Engineer_(1923)_(14591508737).jpg"
+     }
     },
     {
      "vo": "ज़रूरी हर पंप के साथ उसका एक जुड़वाँ पंप भी होता है। एक रुका, तो दूसरा अपने आप चालू।",
      "prompt": "Two identical large blue pumps side by side on an engine room floor, an engineer in a white boiler suit watching the second pump, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Angoumois_-_Engine_room_4_-_Pumps.jpg/1920px-Angoumois_-_Engine_room_4_-_Pumps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3456,
+      "h": 2304,
+      "credit": "Angoumois - Engine room 4 - Pumps.jpg by Rémi Kaupp, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Angoumois_-_Engine_room_4_-_Pumps.jpg"
+     }
     },
     {
      "vo": "रात को कई जहाज़ों में इंजन रूम खाली छोड़ा जाता है। गड़बड़ हुई, तो अलार्म सीधे इंजीनियर के केबिन में बजता है।",
      "prompt": "An Indian engineer in a bunk in a small ship cabin sitting up as a red alarm lamp flashes on the wall, warm lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gae79c1ec12b5b1cbc928c670cb5625de6622b6be9b2216ca406109df2a54e993353d8378cc582e05417897676f1a07cac3e9a9c758b593f5708ad8e13d9f1f17_1280.jpg",
+      "w": 1920,
+      "h": 1287,
+      "credit": "Pixabay (GregoryButler)",
+      "page": "https://pixabay.com/photos/battleship-engine-room-historic-war-389274/"
+     }
     },
     {
      "vo": "इंजन की बची गर्मी से समंदर का पानी पीने लायक बनता है। कम दबाव में खारा पानी लगभग पचास डिग्री पर ही उबल जाता है।",
@@ -630,13 +1052,27 @@
      "vo": "भाप ठंडी होकर मीठा पानी बनती है, और नमक पीछे छूट जाता है। रोज़ कई टन पानी, बिना अलग ईंधन जलाए।",
      "prompt": "A compact fresh water generator unit in an engine room, an engineer in a white boiler suit filling a glass from a tap on it, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Fresh_Water_Generator.jpg/1920px-Fresh_Water_Generator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2304,
+      "h": 3072,
+      "credit": "Fresh Water Generator.jpg by Marcusroos, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Fresh_Water_Generator.jpg"
+     }
     },
     {
      "vo": "पर कभी तो पिस्टन बदलने होंगे। वो काम कब होता है?",
      "prompt": "A spare giant piston resting on a stand in an engine room, taller than the engineer in orange overalls standing beside it, bright light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Doxford_marine_engine%2C_Beamish_TWM_store%2C_12_July_2008_%2803%29.jpg/1920px-Doxford_marine_engine%2C_Beamish_TWM_store%2C_12_July_2008_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3072,
+      "h": 2304,
+      "credit": "Doxford marine engine, Beamish TWM store, 12 July 2008 (03).jpg by Terry Whalebone from Bolton, UK, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Doxford_marine_engine,_Beamish_TWM_store,_12_July_2008_(03).jpg"
+     }
     }
    ]
   },
@@ -656,46 +1092,95 @@
      "prompt": "A giant container ship seen from the front three-quarter view approaching a European port at dusk, rows of cranes and wind turbines along the shore, warm dusk light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "यूरोप के बंदरगाह में खड़े जहाज़ 0.1% से ज़्यादा सल्फ़र वाला तेल नहीं जला सकते। और रुकने पर गाढ़ा तेल पाइपों में जम भी सकता है।"
+     "caption": "यूरोप के बंदरगाह में खड़े जहाज़ 0.1% से ज़्यादा सल्फ़र वाला तेल नहीं जला सकते। और रुकने पर गाढ़ा तेल पाइपों में जम भी सकता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/YM_Worth_%28ship%2C_2015%29_IMO_9704635_Port_of_Rotterdam_pic2.jpg/1920px-YM_Worth_%28ship%2C_2015%29_IMO_9704635_Port_of_Rotterdam_pic2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4579,
+      "h": 3435,
+      "credit": "YM Worth (ship, 2015) IMO 9704635 Port of Rotterdam pic2.jpg by Alf van Beem, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:YM_Worth_(ship,_2015)_IMO_9704635_Port_of_Rotterdam_pic2.jpg"
+     }
     },
     {
      "vo": "फिर आता है पायलट, जो इस बंदरगाह का हर कोना जानता है।",
      "prompt": "A harbour pilot in a dark jacket climbing a rope ladder up the side of a huge container ship from a small pilot boat below, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "फिर आता है pilot, जो इस बंदरगाह का हर कोना जानता है।"
+     "caption": "फिर आता है pilot, जो इस बंदरगाह का हर कोना जानता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g4863ee89e5bbf812e415d901cad3e0d05d393bc3fcf9c9ab0a19bd5494743820c8af320fe1d6e3c3e382ab2528cd3fc9b712739ecd139ad2da7095d5ce3d50f5_1280.jpg",
+      "w": 3276,
+      "h": 2265,
+      "credit": "Pixabay (analogicus)",
+      "page": "https://pixabay.com/photos/harbor-freighter-ship-shipping-3493887/"
+     }
     },
     {
      "vo": "टगबोट धक्का देती हैं, और जहाज़ को घाट तक आगे-पीछे करना पड़ता है।",
      "prompt": "Two tugboats pushing a giant container ship toward a crowded harbour berth, water churning at the stern, seen from the side, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g1e06b5c5457786899c284b79a076f1eef719968acc6473f9f83e1ffe47dd3f4c0b439f72d5e7789d944320ef24acd47900173c672ed6e19981abb7273814aa14_1280.jpg",
+      "w": 4665,
+      "h": 3109,
+      "credit": "Pixabay (Peter_Lindenau)",
+      "page": "https://pixabay.com/photos/ship-container-ship-tractor-6794508/"
+     }
     },
     {
      "vo": "पर रिवर्स गियर तो है ही नहीं। इंजन रोका जाता है, और उल्टी दिशा में दोबारा स्टार्ट।",
      "prompt": "An engineer in a white boiler suit pulling an engine control lever back in the engine control room, focused face, side view, warm light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पर reverse gear तो है ही नहीं। इंजन रोका जाता है, और उल्टी दिशा में दोबारा स्टार्ट।"
+     "caption": "पर reverse gear तो है ही नहीं। इंजन रोका जाता है, और उल्टी दिशा में दोबारा स्टार्ट।",
+     "photo": {
+      "src": "https://pixabay.com/get/gdb37739c0caab81d8ba15be2b178d73e11bc2e3e507bfebcdca323fabdd431f9a30eda86f7aecdc595716eacce07c35e40c371b0a43c5bb78a7411ea0ea29056_1280.jpg",
+      "w": 4752,
+      "h": 3168,
+      "credit": "Pixabay (stux)",
+      "page": "https://pixabay.com/photos/boiler-telegraph-kommunilation-193096/"
+     }
     },
     {
      "vo": "जहाज़ घाट से बँधता है, और हफ़्तों बाद इंजन पहली बार शांत होता है।",
      "prompt": "Thick mooring ropes tightening on steel bollards as a giant container ship settles at its berth at dusk, warm light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Container_ship_Maersk_Surabaya_in_Fremantle_Harbour%2C_July_2021_03.jpg/1920px-Container_ship_Maersk_Surabaya_in_Fremantle_Harbour%2C_July_2021_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3264,
+      "h": 2448,
+      "credit": "Container ship Maersk Surabaya in Fremantle Harbour, July 2021 03.jpg by Calistemon, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Container_ship_Maersk_Surabaya_in_Fremantle_Harbour,_July_2021_03.jpg"
+     }
     },
     {
      "vo": "पर जहाज़ पूरी तरह नहीं सोता। छोटे जनरेटर दिन-रात चलते हैं, बत्ती, पंप और फ्रिज वाले कंटेनरों के लिए।",
      "prompt": "A row of three diesel generator sets in an engine room, the middle one running, an engineer in a white boiler suit checking it, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पर जहाज़ पूरी तरह नहीं सोता। छोटे जनरेटर दिन-रात चलते हैं, बत्ती, पंप और फ्रिज वाले containers के लिए।"
+     "caption": "पर जहाज़ पूरी तरह नहीं सोता। छोटे जनरेटर दिन-रात चलते हैं, बत्ती, पंप और फ्रिज वाले containers के लिए।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Container_Ship_Dole_Maya.jpg/1920px-Container_Ship_Dole_Maya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Container Ship Dole Maya.jpg by GuavaTrain, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Container_Ship_Dole_Maya.jpg"
+     }
     },
     {
      "vo": "इसीलिए खड़े जहाज़ की चिमनी से भी हल्का धुआँ उठता रहता है। कुछ बंदरगाहों में जहाज़ किनारे की बिजली से भी जुड़ जाते हैं।",
      "prompt": "A moored container ship seen from the left side with a thin wisp of exhaust rising from its funnel into a clear sky, a thick shore power cable running from the quay to the hull, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Viking_XPRS_Smoke_over_Funnel_Starboard_Side_Quay_13_Port_of_Tallinn_17_July_2026.jpg/1920px-Viking_XPRS_Smoke_over_Funnel_Starboard_Side_Quay_13_Port_of_Tallinn_17_July_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2592,
+      "h": 1944,
+      "credit": "Viking XPRS Smoke over Funnel Starboard Side Quay 13 Port of Tallinn 17 July 2026.jpg by Pjotr Mahhonin, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Viking_XPRS_Smoke_over_Funnel_Starboard_Side_Quay_13_Port_of_Tallinn_17_July_2026.jpg"
+     }
     },
     {
      "vo": "मुख्य इंजन को भी गरम पानी से गरम रखा जाता है। ताकि अगले सफ़र पर वो फिर आसानी से जागे।",
@@ -714,14 +1199,28 @@
      "prompt": "A giant container ship standing in an empty dry dock seen from the front, its hull and propeller fully out of the water, small workers below, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "हर कुछ साल में जहाज़ dry dock जाता है। पूरा पानी से बाहर, नीचे से जाँच के लिए।"
+     "caption": "हर कुछ साल में जहाज़ dry dock जाता है। पूरा पानी से बाहर, नीचे से जाँच के लिए।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Tank_Barge_GM_11105_in_Dry_Dock.jpg/1920px-Tank_Barge_GM_11105_in_Dry_Dock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Tank Barge GM 11105 in Dry Dock.jpg by GuavaTrain, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Tank_Barge_GM_11105_in_Dry_Dock.jpg"
+     }
     },
     {
      "vo": "ऐसा इंजन लगभग पच्चीस साल यही सफ़र दोहराता है। फिर बहुत से जहाज़ आख़िरी बार आते हैं गुजरात के अलंग।",
      "prompt": "An old rusted container ship beached on a wide muddy shore at low tide in Gujarat, small workers beside its hull, hazy sunset, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ऐसा इंजन लगभग 25 साल यही सफ़र दोहराता है। फिर बहुत से जहाज़ आख़िरी बार आते हैं गुजरात के अलंग।"
+     "caption": "ऐसा इंजन लगभग 25 साल यही सफ़र दोहराता है। फिर बहुत से जहाज़ आख़िरी बार आते हैं गुजरात के अलंग।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Alang_Ship_Buster_-_panoramio.jpg/1920px-Alang_Ship_Buster_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2048,
+      "h": 1536,
+      "credit": "Alang Ship Buster - panoramio.jpg by anil c patel, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Alang_Ship_Buster_-_panoramio.jpg"
+     }
     },
     {
      "vo": "अलंग दुनिया के सबसे बड़े शिप-ब्रेकिंग यार्ड में से एक है। वहाँ यही इंजन काटकर फिर से लोहा बनता है।",
@@ -759,19 +1258,40 @@
      "vo": "तो इंजन रुकता क्यों नहीं? क्योंकि एक रफ़्तार पर वो कम घिसता है, कम पीता है, वक़्त पर पहुँचता है।",
      "prompt": "A giant marine engine running steadily, a row of fourteen cylinder heads stretching away, warm light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Baudouin_marine_propulsion_diesel_engine_model_6M26.3_%2801%29.jpg/1920px-Baudouin_marine_propulsion_diesel_engine_model_6M26.3_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3264,
+      "h": 2448,
+      "credit": "Baudouin marine propulsion diesel engine model 6M26.3 (01).jpg by S.J. de Waard, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Baudouin_marine_propulsion_diesel_engine_model_6M26.3_(01).jpg"
+     }
     },
     {
      "vo": "अगली बार खड़े जहाज़ की चिमनी देखिए: हल्का धुआँ मतलब अंदर जनरेटर जाग रहे हैं।",
      "prompt": "A young Indian woman on a harbour promenade pointing at a moored ship's funnel with a thin wisp of exhaust, three-quarter view, the ship large behind her, bright morning sun, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g9c0b46080fc787c9ded302a583606567134e8b2f07bf92c9037af18ed5484abd4ce3cf7003a30691f1aff125ff57419b88b371f08e9fc279b490322b5140b51d_1280.jpg",
+      "w": 3872,
+      "h": 2592,
+      "credit": "Pixabay (ed2456)",
+      "page": "https://pixabay.com/photos/ferry-boat-ship-ocean-ferry-123059/"
+     }
     },
     {
      "vo": "अगले एपिसोड में: इतना भारी लोहे का जहाज़ पानी पर तैरता कैसे है?",
      "prompt": "A massive steel ship hull floating high on calm water, seen low from the waterline, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Container_ship_Express_Black_Sea_in_Fremantle_Harbour%2C_April_2026_02.jpg/1920px-Container_ship_Express_Black_Sea_in_Fremantle_Harbour%2C_April_2026_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3456,
+      "credit": "Container ship Express Black Sea in Fremantle Harbour, April 2026 02.jpg by Calistemon, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Container_ship_Express_Black_Sea_in_Fremantle_Harbour,_April_2026_02.jpg"
+     }
     },
     {
      "vo": "ऐसे ही गज़ब सवालों के लिए सब्सक्राइब करें।",
@@ -795,7 +1315,5 @@
    1
   ]
  },
- "framework": "2026-11-15 18:26",
- "released_at": "2026-11-15 18:26",
- "voice_requested": "voice-gk-31-jahaz-engine-band-nahi-d763e62afd"
+ "photos_checked": true
 }
