@@ -189,8 +189,8 @@
     {
      "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
      "subscribe_ask": true,
-     "prompt": "An elderly king with a white beard, golden crown and red and gold robes, a small lonely figure walking through a vast silent palace courtyard at twilight, empty stone floor and tall pillars, purple evening sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
-     "seed": 1500,
+     "prompt": "A gentle old storyteller in a white dhoti holding out both open palms toward the viewer with a warm smile, a lit brass lamp beside him, temple courtyard with stone pillars, soft morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "seed": 9419,
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
      "move": "pan_left"
     },
@@ -346,9 +346,10 @@
     },
     {
      "vo": "अब उन्होंने मंत्रियों को आदेश दिए। पर उन आदेशों के बीच, एक कड़ी चेतावनी भी छिपी थी।",
-     "prompt": "An elderly king with a white beard and golden crown turning toward a row of ministers in white robes, his face joyful but serious, long shadows from oil lamps on the floor, council hall, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "An elderly king, white beard, gold crown, turning toward a row of ministers in white robes with one stern finger raised, a serious face, long shadows from oil lamps on the floor, council hall, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8968
     }
    ]
   },
@@ -486,5 +487,26 @@
  "voice_requested": "voice-dk-242-ramayan-ep2-ayodhya-dasharath-cc08180aaf",
  "released_at": "2026-11-15 15:20",
  "voice_ok": "voice-dk-242-ramayan-ep2-ayodhya-dasharath-cc08180aaf",
- "voice_approved_at": "2026-11-15 15:20"
+ "voice_approved_at": "2026-11-15 15:20",
+ "repaint": {
+  "shots": [
+   24,
+   49
+  ],
+  "thumbs": [],
+  "at": "2026-11-15 17:28",
+  "by": "owner"
+ },
+ "shot_qc": {
+  "checked": null,
+  "rounds": 1,
+  "why": {
+   "24": "Photoreal, generic crowned king in a red cape looking away. Nothing shows the 'subscribe is free' line (no address to viewers or request), the distant figure is tiny and unclear, and the style is not the folk-art painting.",
+   "49": "Two near-identical bearded crowned kings with overlapping, merged faces and bodies. It shows a smiling pair in front of rows of white-robed ministers, not a king giving orders with a stern hidden warning, so the mood and action don't match the line."
+  },
+  "recheck": [
+   "24",
+   "49"
+  ]
+ }
 }
