@@ -247,9 +247,10 @@
     },
     {
      "vo": "महाभारत के अनुसार, कुरु वंश के राजा कुरु ने यहाँ ख़ुद हल चलाया था।",
-     "prompt": "Ancient King Kuru guiding a wooden plough pulled by two oxen across a wide field, crowned man in simple white garments, bare chest, sweating, gripping the plough handles, bright sun, Kurukshetra, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Ancient King Kuru ploughing a field himself, crowned man in simple white garments, bare chest, gripping both plough handles and walking behind a wooden plough, two oxen side by side in front with one straight wooden yoke across both necks and a single beam running back to the plough, bright sun, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8952
     },
     {
      "vo": "इंद्र ने वरदान दिया: यहाँ तप करते या युद्ध में प्राण छोड़ने वाला स्वर्ग जाएगा।",
@@ -381,9 +382,10 @@
     },
     {
      "vo": "पहला नाम भीम का। महाभारत के अनुसार, बचपन के खेलों में भीम सब कौरव भाइयों पर भारी पड़ता था।",
-     "prompt": "A strong young boy Bhima lifting a heavy stone above his head in a palace courtyard, other boys lying scattered on the ground behind him, one angry young boy in royal silks watching from the side, warm daylight, ancient Hastinapur, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "A strong stocky boy Bhima standing with arms crossed and a proud grin, three smaller boys in royal silks sitting on the ground rubbing their elbows, on the right; one angry boy in red silks watching from the left, sandstone pillars, warm daylight, ancient Hastinapur courtyard, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8972
     },
     {
      "vo": "यहीं से दुर्योधन के मन में जलन जागी थी।",
@@ -447,9 +449,10 @@
     },
     {
      "vo": "श्रीकृष्ण अभी चुप थे। उनकी वाणी अभी आनी थी।",
-     "prompt": "Lord Krishna sitting calmly on the front of a chariot, holding the reins, peacock feather crown, yellow dhoti, gentle closed-lip smile, soft divine light around him, silent army behind, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Lord Krishna sitting calmly at the front of a chariot with both hands holding the reins, blue skin, peacock feather crown, yellow dhoti, gentle closed-lip smile, soft divine light around him, a silent army far behind, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8983
     },
     {
      "vo": "युद्ध अभी शुरू नहीं हुआ था। पर शब्दों की लड़ाई शुरू हो चुकी थी।",
@@ -561,9 +564,10 @@
     },
     {
      "vo": "गीता की अगली कड़ी में: दुर्योधन अपनी सेना के बारे में क्या कहेगा, और पितामह भीष्म अचानक शंख क्यों बजा देंगे?",
-     "prompt": "Bhishma raising a great white conch shell to his lips on his chariot, tall old warrior, long white beard, silver armour, white garments, rows of soldiers behind him, dramatic dawn sky, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "prompt": "Bhishma blowing a great white conch shell with its tip held at his lips by both hands, tall old warrior, long white beard, silver armour, white garments, standing on his chariot, rows of soldiers far behind him, dramatic dawn sky, medium close-up shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 9000
     },
     {
      "vo": "कमेंट में जय श्री कृष्ण लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
@@ -592,5 +596,32 @@
  "voice_requested": "voice-dk-240-gita-ep1-pehla-sawal-358fec60d5",
  "released_at": "2026-11-14 18:26",
  "voice_ok": "voice-dk-240-gita-ep1-pehla-sawal-358fec60d5",
- "voice_approved_at": "2026-11-14 21:41"
+ "voice_approved_at": "2026-11-14 21:41",
+ "repaint": {
+  "shots": [
+   33,
+   53,
+   64,
+   81
+  ],
+  "thumbs": [],
+  "at": "2026-11-15 07:12",
+  "by": "owner"
+ },
+ "shot_qc": {
+  "checked": null,
+  "rounds": 1,
+  "why": {
+   "33": "The plough and oxen are built wrong. The yoke and plough beam are tangled with the bulls, one bull's head is merged into the beam, and the plough doesn't connect to the animals. The king's pose is also stiff, so it doesn't read as Kuru ploughing the field himself.",
+   "53": "The child Bhima holds a huge boulder overhead, which doesn't match the line about playing with his Kaurava cousins. The boys on the ground have tangled, merged limbs and bodies. The courtyard also has blank white doorways.",
+   "64": "Krishna's hands and flute are garbled: the fingers are fused and the flute is held at an odd angle. A second crowned figure beside him is half-merged with his body, and the chariot and horse at the bottom are an unclear blob. He is playing the flute, but the line says he is silent.",
+   "81": "The line is about Bhishma blowing the conch, but the conch is a huge, oddly shaped white horn held in front of his face, with no mouth contact. His raised hand is distorted, and the chariot and horse at the bottom are a merged, unclear mass. The scene doesn't read as the narrator teasing the next episode."
+  },
+  "recheck": [
+   "33",
+   "53",
+   "64",
+   "81"
+  ]
+ }
 }
