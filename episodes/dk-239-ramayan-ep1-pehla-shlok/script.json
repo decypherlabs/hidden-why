@@ -391,7 +391,8 @@
      "vo": "सुग्रीव ने वाली की ताक़त बताई। तब राम जी ने दुंदुभि का कंकाल पैर से दस योजन दूर उछाल दिया।",
      "prompt": "Lord Rama kicking a giant dry skeleton of a buffalo high into the air, blue skin, bark cloth, bow, on the left; Sugriva, monkey-faced with a gold crown, watching amazed on the right, rocky hillside, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 8973
     },
     {
      "vo": "और एक ही बाण से सात साल के पेड़, एक पर्वत और धरती तक भेद दी।",
@@ -692,7 +693,8 @@
      "vo": "वाल्मीकि जी ने निश्चय किया: पूरी रामायण ऐसे ही श्लोकों में रचूँगा।",
      "prompt": "Sage Valmiki holding a bundle of palm leaves to his chest with a resolved expression, elderly sage with long white beard, saffron bark cloth, hermitage behind, warm light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 9019
     },
     {
      "vo": "वो कुशा के आसन पर बैठे, जिसकी नोकें पूर्व की ओर थीं।",
@@ -728,13 +730,15 @@
      "vo": "ग्रंथ कहता है, जैसे हथेली पर रखा आँवला साफ़ दिखता है, वैसे।",
      "prompt": "An aged sage's open palm holding a single green amla fruit, clear and sharp, a faint reflection of a city on its surface, soft light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 9025
     },
     {
      "vo": "राम जी का जन्म, विश्वामित्र के साथ वन जाना, शिव धनुष तोड़ना, और सीता जी से विवाह।",
      "prompt": "A golden mist vision of Lord Rama, blue skin, yellow dhoti, lifting and breaking a giant divine bow in a royal hall, glowing above the meditating Valmiki in saffron bark cloth, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 9026
     },
     {
      "vo": "वन के कष्ट, सीता जी का हरण, और लंका का युद्ध।",
@@ -903,7 +907,8 @@
      "vo": "प्रशंसा पाकर दोनों भाई गाते हुए आगे बढ़े।",
      "prompt": "Two boys in saffron bark cloth walking along a country road carrying veenas, villagers in modest clothes stopping to listen from the fields, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "seed": 9052
     },
     {
      "vo": "और एक दिन वो गाते-गाते पहुँच गए, अयोध्या की गलियों में।",
@@ -1046,5 +1051,35 @@
  },
  "released_at": "2026-11-14 22:24",
  "voice_ok": "voice-dk-239-ramayan-ep1-pehla-shlok-0b9ae3742c",
- "voice_approved_at": "2026-11-14 22:24"
+ "voice_approved_at": "2026-11-14 22:24",
+ "repaint": {
+  "shots": [
+   54,
+   100,
+   106,
+   107,
+   133
+  ],
+  "thumbs": [],
+  "at": "2026-11-15 07:08",
+  "by": "owner"
+ },
+ "shot_qc": {
+  "checked": null,
+  "rounds": 1,
+  "why": {
+   "54": "Rama is not kicking the skeleton. He stands drawing a bow while the skeleton is fused with a strange horned creature, and an extra horned figure in orange stands between Rama and Sugriva. The skeleton is built wrong and the kick or throw is missing.",
+   "100": "Valmiki holds a bundle of palm fronds and sticks, not a clear manuscript or a verse-composing scene. The hands are tangled in the leaves, so the fingers and the object are garbled.",
+   "106": "The amla is drawn as a small green lime or apple on a hand that is out of focus. The sage's face is blurred and the background is blocky, unrecognisable shapes. The palm and fingers look odd.",
+   "107": "A glowing Rama with a huge bow sits oddly beside a cross-legged sage, whose body merges with Rama's legs and blue skin. The bow is built wrong and floats, and the scene is a generic hall. It doesn't show the story of his birth, the forest, the Shiva bow and the marriage.",
+   "133": "The boys look like modern children on a paved road, and the bystanders wear modern clothes. The instruments are guitar-like lutes instead of a veena or tanpura, and the boys' hands and strings are garbled. The setting doesn't match the era."
+  },
+  "recheck": [
+   "54",
+   "100",
+   "106",
+   "107",
+   "133"
+  ]
+ }
 }
