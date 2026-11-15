@@ -9,6 +9,8 @@ person with an extreme emotion filling the frame, a 2-4 word statement in heavy 
 (the *word* in yellow), and the zoom bubble, if any, small at the bottom right.
 """
 import json
+
+import numpy as np
 import sys
 from pathlib import Path
 
@@ -237,6 +239,48 @@ def face_layout(script, out):
     print(out / "thumb.jpg")
 
 
+def hero_layout(script, out):
+    """One hero + a red circle (owner, 15 Nov 2026: "I don't like the comparison/split pattern"): the painting fills
+    the frame, 2-4 huge words across the top (the *starred* one yellow), and a thick red circle with an arrow on the
+    one strange detail, which the painting prompt places at "mark" (x, y in 0-1; default the right-centre)."""
+    th = script["thumbnail"]
+    img = cover(Image.open(plane(out)).convert("RGB"), W, H)
+    shade = Image.new("L", (W, H))
+    sd = ImageDraw.Draw(shade)
+    for y in range(H):  # darken the top for the words
+        sd.line((0, y, W, y), fill=int(200 * max(0.0, 1 - y / (H * 0.4)) ** 1.6))
+    img.paste(Image.new("RGB", (W, H), K.INK), mask=shade)
+    d = ImageDraw.Draw(img)
+    words = th.get("text", "").replace("|", " ").split()
+    f = K.display(150)
+    sp = lambda f: d.textlength(" ", font=f)
+    total = lambda f: sum(d.textlength(w.replace("*", "").upper(), font=f) for w in words) + sp(f) * (len(words) - 1)
+    while words and total(f) > W - 80 and f.size > 70:
+        f = K.display(f.size - 6)
+    x, y = (W - total(f)) / 2, 28 + f.size * 0.55
+    for w in words:
+        t = w.replace("*", "").upper()
+        d.text((x, y), t, font=f, anchor="lm", fill=K.YEL if "*" in w else K.BONE, stroke_width=10, stroke_fill=K.INK)
+        x += d.textlength(t, font=f) + sp(f)
+    mx, my = th.get("mark") or (0.66, 0.6)
+    cx, cy, r = W * float(mx), H * float(my), 92
+    for col, wd in ((K.INK, 18), ((230, 30, 30), 10)):  # a dark rim under the red, so it reads on any colour
+        d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=col, width=wd)
+    # the arrow comes in from the emptier side, its head stopping at the circle
+    side = -1 if cx > W / 2 else 1
+    ax0, ay0 = cx + side * (r + 210), cy + 150
+    ang = np.arctan2(cy - ay0, cx - ax0)
+    ax1, ay1 = cx - np.cos(ang) * (r + 12), cy - np.sin(ang) * (r + 12)
+    head = [(ax1, ay1), (ax1 - 48 * np.cos(ang - 0.5), ay1 - 48 * np.sin(ang - 0.5)),
+            (ax1 - 48 * np.cos(ang + 0.5), ay1 - 48 * np.sin(ang + 0.5))]
+    for col, wd, grow in ((K.INK, 26, 6), ((230, 30, 30), 16, 0)):
+        d.line((ax0, ay0, ax1 - 30 * np.cos(ang), ay1 - 30 * np.sin(ang)), fill=col, width=wd)
+        hx = [(px + grow * np.cos(ang), py + grow * np.sin(ang)) for px, py in head]
+        d.polygon(hx, fill=col)
+    K.grain(img).save(out / "thumb.jpg", quality=95)
+    print(out / "thumb.jpg")
+
+
 def split_layout(script, out):
     """Two halves, THEN | NOW or WORLD | USA (11 Nov 2026: Hidden America's 1.5M "What REALLY Killed the American Brick
     House?" and 1.1M "Why Americans Don't Dry Clothes Outside" covers): thumb-plane.png left, thumb-right.png right.
@@ -458,6 +502,8 @@ def main(script_path, out_dir):
         return epic_layout(script, out)
     if (script.get("thumbnail") or {}).get("layout") == "face":
         return face_layout(script, out)
+    if (script.get("thumbnail") or {}).get("layout") == "hero":
+        return hero_layout(script, out)
     if (script.get("thumbnail") or {}).get("layout") == "split":
         return split_layout(script, out)
     # not named plane: that shadowed plane() and every default-layout long-form failed (11 Nov 2026, gk-23)
