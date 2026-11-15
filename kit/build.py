@@ -235,8 +235,11 @@ def backdrop(L, i, ctx=None, it=None):
 
 
 def beats(it):
-    """How many pictures a still or clip line is cut into: every HOOK_BEAT s in the hook, BODY_BEAT s after."""
-    if it.get("kind") in ("still", "footage", "archive"):
+    """How many pictures a still or clip line is cut into: every HOOK_BEAT s in the hook, BODY_BEAT s after. A painting
+    is never cut: one shot, one move (owner, 15 Nov 2026: "we won't zoom in and zoom-out it")."""
+    if it.get("kind") == "still":
+        return 1
+    if it.get("kind") in ("footage", "archive"):
         return max(1, round(it["dur"] / (HOOK_BEAT if it.get("hook") else BODY_BEAT)))
     return 1
 
