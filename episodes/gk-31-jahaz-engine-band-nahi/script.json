@@ -204,7 +204,8 @@
       "h": 1600,
       "credit": "Bent connecting rod 1.JPG by MichaelXXLF, CC BY-SA 3.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Bent_connecting_rod_1.JPG"
-     }
+     },
+     "seed": 8933
     },
     {
      "vo": "अब असली सवाल: इतने भारी इंजन को घुमाएगा कौन? कार की बैटरी वाली मोटर यहाँ खिलौना है।",
@@ -244,7 +245,8 @@
       "h": 3456,
       "credit": "Contents Gauge on Siebe Gorman Self-Contained Compressed Air Diving Apparatus (SCCADA).jpg by Tim Sheerman-Chase, CC BY 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Contents_Gauge_on_Siebe_Gorman_Self-Contained_Compressed_Air_Diving_Apparatus_(SCCADA).jpg"
-     }
+     },
+     "seed": 8936
     },
     {
      "vo": "ये हवा सही क्रम में पिस्टनों को धक्का देती है। और दो हज़ार तीन सौ टन का इंजन घूमने लगता है।",
@@ -285,7 +287,8 @@
       "h": 3937,
       "credit": "Pixabay (Kollinger)",
       "page": "https://pixabay.com/photos/valve-compressed-air-bottle-5298757/"
-     }
+     },
+     "seed": 8939
     },
     {
      "vo": "ऊपर चिमनी से धुएँ का पहला गुबार उठता है। इंजन जाग चुका है। पर ये जागा किस तेल पर?",
@@ -392,7 +395,14 @@
       "h": 4000,
       "credit": "Pixabay (Nils_1977)",
       "page": "https://pixabay.com/photos/ship-sea-container-ship-elbe-7667574/"
-     }
+     },
+     "words": {
+      "28": {
+       "src": "cb89874dba3c",
+       "items": []
+      }
+     },
+     "seed": 8947
     },
     {
      "vo": "अब कई जहाज़ कम सल्फ़र वाला तेल जलाते हैं। कुछ चिमनी में स्क्रबर लगाकर धुएँ को पानी से धोते हैं।",
@@ -1058,7 +1068,8 @@
       "h": 3072,
       "credit": "Fresh Water Generator.jpg by Marcusroos, CC BY-SA 3.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Fresh_Water_Generator.jpg"
-     }
+     },
+     "seed": 8996
     },
     {
      "vo": "पर कभी तो पिस्टन बदलने होंगे। वो काम कब होता है?",
@@ -1112,7 +1123,8 @@
       "h": 2265,
       "credit": "Pixabay (analogicus)",
       "page": "https://pixabay.com/photos/harbor-freighter-ship-shipping-3493887/"
-     }
+     },
+     "seed": 9000
     },
     {
      "vo": "टगबोट धक्का देती हैं, और जहाज़ को घाट तक आगे-पीछे करना पड़ता है।",
@@ -1139,7 +1151,8 @@
       "h": 3168,
       "credit": "Pixabay (stux)",
       "page": "https://pixabay.com/photos/boiler-telegraph-kommunilation-193096/"
-     }
+     },
+     "seed": 9002
     },
     {
      "vo": "जहाज़ घाट से बँधता है, और हफ़्तों बाद इंजन पहली बार शांत होता है।",
@@ -1205,7 +1218,8 @@
       "h": 3000,
       "credit": "Tank Barge GM 11105 in Dry Dock.jpg by GuavaTrain, CC0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Tank_Barge_GM_11105_in_Dry_Dock.jpg"
-     }
+     },
+     "seed": 9008
     },
     {
      "vo": "ऐसा इंजन लगभग पच्चीस साल यही सफ़र दोहराता है। फिर बहुत से जहाज़ आख़िरी बार आते हैं गुजरात के अलंग।",
@@ -1317,5 +1331,43 @@
  "photos_checked": true,
  "framework": "2026-11-15 18:37",
  "released_at": "2026-11-15 18:37",
- "voice_requested": "voice-gk-31-jahaz-engine-band-nahi-d763e62afd"
+ "voice_requested": "voice-gk-31-jahaz-engine-band-nahi-d763e62afd",
+ "repaint": {
+  "shots": [
+   14,
+   17,
+   20,
+   28,
+   77,
+   81,
+   83,
+   89
+  ],
+  "thumbs": [],
+  "at": "2026-11-15 19:30"
+ },
+ "shot_qc": {
+  "checked": "2026-11-15T13:58:21Z",
+  "rounds": 1,
+  "why": {
+   "14": "Map on the back wall, and the piston rod is straight, not bent",
+   "17": "Large screens show maps",
+   "20": "Map with lettering on the wall",
+   "28": "Headline is garbled, not 'SULPHUR CAP 0.5%', and a map hangs on the wall",
+   "77": "A screen shows a map",
+   "83": "Screens show maps",
+   "81": "Painted gibberish lettering ('CKLUWEN') on the containers",
+   "89": "Large gibberish lettering ('SRATERS RTUAENC') on the gantry"
+  },
+  "recheck": [
+   "14",
+   "17",
+   "20",
+   "28",
+   "77",
+   "81",
+   "83",
+   "89"
+  ]
+ }
 }
