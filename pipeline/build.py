@@ -1601,6 +1601,7 @@ def main(script_path, out_dir):
     t = 0.0
     chapters = []
     labels = []  # (t0, t1, text): lower-thirds
+    ref_at = -99.0  # the series source lower-third, at most once in 45 s
     titles = []  # (t0, t1, text): big phrases over the picture
     counters, years_seen, cards_at, last_counter = [], set(), [], -99.0  # FX: counting amounts, auto date labels
     gfx = []  # (t0, kind, payload): date callouts, stamps, keywords, typed cards, logos, merge graphics, story beats
@@ -1724,6 +1725,12 @@ def main(script_path, out_dir):
                     lab_txt = " · ".join(str(v) for v in (lab_txt.get("name"), lab_txt.get("role")) if v)
                 labels.append((t + 0.3, t + min(d, 4.3), lab_txt))
                 years_seen.update(YEAR.findall(lab_txt))
+            # the episode's source when the narration names it (owner, 15 Nov 2026: "whatever adhyay in script, that
+            # should add text in lower third"): "वाल्मीकि रामायण · बालकाण्ड, सर्ग 9–12", also over a recited shloka
+            if script.get("source_ref") and not short and not s.get("label") and t - ref_at > 45 \
+                    and (s.get("shloka") or re.search(r"काण्ड|कांड|अध्याय|सर्ग|श्लोक", s["vo"])):
+                labels.append((t + 0.3, t + min(d, 4.5), script["source_ref"]))
+                ref_at = t
             line = s.get("caption") or s["vo"]
             if FX and s.get("date"):
                 gfx.append((t + 0.2, "date", s["date"]))
