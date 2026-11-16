@@ -1,0 +1,730 @@
+{
+ "slug": "gk-32-no-night-countries",
+ "format": "long",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "words_in_edit": true,
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "आर्कटिक सर्कल में रात क्यों नहीं होती? फिर सूरज ग़ायब कहाँ होता है? 🌍",
+ "thumbnail": {
+  "text": "65 दिन *अँधेरा*",
+  "plane": "A small Arctic town in Alaska at 12 noon in deep winter, the whole sky a deep glowing blue with no sun, orange streetlights burning over a snowy street, a lone child in a red parka with a glowing reflective strip walking to school, wooden houses half buried in snow, faint green aurora at the top of the sky, dramatic cold light, big and close, photoreal painting, no text"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "ch4"
+  ],
+  "reflective": [
+   "ch1",
+   "ch3",
+   "ch5",
+   "ch6",
+   "outro"
+  ],
+  "epic": [
+   "ch2"
+  ]
+ },
+ "source": "NASA (Earth's axial tilt and seasons); timeanddate.com sunrise/sunset data for Tromsø, Nordkapp, Longyearbyen, Utqiagvik, Delhi; NOAA; Visit Svalbard (Solfestuka); Stokkan et al. 2013, Proc. R. Soc. B (reindeer tapetum colour change); Lu et al. 2010, Current Biology (reindeer circadian clock); Furrer et al. 2024, Current Biology (reindeer sleep while ruminating)",
+ "journey_score": 7.1,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सोचिए, रात के बारह बजे हैं और खिड़की के बाहर धूप खिली है।",
+     "prompt": "Inside a cosy Scandinavian bedroom, a large wall clock showing exactly twelve, bright golden sunlight pouring through the window onto the bed, a sea and mountains visible outside, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बच्चे पार्क में खेल रहे हैं, लोग समुद्र किनारे मछली पकड़ रहे हैं।",
+     "prompt": "Norwegian harbour town at midnight in summer, children playing on swings in a park, men fishing from a wooden pier, low golden sun over the sea, long shadows, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आर्कटिक सर्कल के देशों में गर्मियों में रात क्यों नहीं होती?",
+     "prompt": "Wide view of a fjord with steep green mountains and red wooden houses, the sun hanging just above the northern horizon at midnight, sky glowing orange and pink, calm water reflecting it, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "सूरज डूबना आख़िर कौन भूल जाता है?",
+     "prompt": "A Norwegian fisherman sitting on an overturned boat at midnight, shading his eyes and looking at a sun that refuses to set over the sea, warm light on his weathered face, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और यही जगह सर्दियों में अँधेरे में क्यों डूब जाती है?",
+     "prompt": "The same fjord town in deep winter, snow everywhere, the sky dark blue at midday, house windows glowing yellow, streetlights on, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अलास्का के एक शहर में सूरज करीब 65 दिन उगता ही नहीं।",
+     "prompt": "A small snowy Arctic town in Alaska under a dark blue sky, wooden houses on stilts, snowmobiles parked outside, streetlights glowing, no sun anywhere, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "वहाँ लोग सोते कब हैं? बच्चे स्कूल कैसे जाते हैं?",
+     "prompt": "Children in thick parkas with glowing reflective strips walking in a line to a school building in winter darkness, the school windows bright, snow falling, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और जानवरों को कैसे पता चलता है कि अब दिन है या रात?",
+     "prompt": "A herd of reindeer standing in deep snow on an open tundra under a deep blue twilight sky, breath steaming, one reindeer looking straight at the camera, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "नक्शे की लाइन",
+   "shots": [
+    {
+     "vo": "फ़िनलैंड के रोवानिएमी शहर में ज़मीन पर एक सफ़ेद लाइन खिंची है। लोग उस पर खड़े होकर फ़ोटो खिंचवाते हैं।",
+     "prompt": "Tourists in colourful winter jackets standing on a white line painted across a snowy plaza in Rovaniemi, Finland, a large wooden sign above the line reading \"NAPAPIIRI ARCTIC CIRCLE\", pine forest and wooden buildings behind, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये है आर्कटिक सर्कल। पृथ्वी के ऊपर, करीब साढ़े छियासठ डिग्री उत्तर पर खिंचा एक घेरा।",
+     "map": {
+      "center": [
+       70,
+       20
+      ],
+      "span": 40,
+      "from_span": 100,
+      "countries": [],
+      "points": [
+       {
+        "lat": 66.5,
+        "lon": 25.73,
+        "label": "रोवानिएमी"
+       }
+      ],
+      "lines": [
+       {
+        "lat": 66.56,
+        "label": "आर्कटिक सर्कल 66.5°"
+       }
+      ],
+      "circles": []
+     }
+    },
+    {
+     "vo": "ये कोई दीवार या बाड़ नहीं है। ज़मीन पर इसे बस कुछ बोर्ड और निशान दिखाते हैं।",
+     "prompt": "A lonely highway through snowy mountain tundra in northern Norway, a large roadside sign reading \"POLARSIRKELEN\", a stone cairn beside it, grey sky, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर इस घेरे के अंदर पूरे-पूरे शहर बसे हैं। रूस के मुरमान्स्क में करीब पौने तीन लाख लोग रहते हैं।",
+     "prompt": "Murmansk, Russia, rows of Soviet apartment blocks climbing snowy hills above a busy port with cranes and ships, smoke from chimneys, low winter light, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इस घेरे के अंदर कुल आठ देशों की ज़मीन आती है।",
+     "prompt": "Eight national flags of Norway, Sweden, Finland, Russia, the United States, Canada, Denmark and Iceland on tall poles in a row in front of a snowy building, flags flying in the wind, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ज़्यादातर ज़मीन बर्फ़, जंगल और टुंड्रा है, जहाँ पेड़ भी छोटे रह जाते हैं।",
+     "prompt": "Vast Arctic tundra with stunted knee-high birch trees, patches of snow, a frozen river winding through, low sun, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "यूरोप की तरफ़ नॉर्वे, स्वीडन, फ़िनलैंड और रूस का उत्तरी हिस्सा इसके ऊपर है।",
+     "map": {
+      "center": [
+       68,
+       25
+      ],
+      "span": 22,
+      "from_span": 45,
+      "countries": [
+       {
+        "iso": "NOR",
+        "label": "नॉर्वे",
+        "color": "teal"
+       },
+       {
+        "iso": "SWE",
+        "label": "स्वीडन",
+        "color": "yellow"
+       },
+       {
+        "iso": "FIN",
+        "label": "फ़िनलैंड",
+        "color": "white"
+       },
+       {
+        "iso": "RUS",
+        "label": "रूस",
+        "color": "red"
+       }
+      ],
+      "points": [
+       {
+        "lat": 68.97,
+        "lon": 33.08,
+        "label": "मुरमान्स्क"
+       }
+      ],
+      "lines": [
+       {
+        "lat": 66.56,
+        "label": "आर्कटिक सर्कल"
+       }
+      ],
+      "circles": []
+     }
+    },
+    {
+     "vo": "उधर अमेरिका का अलास्का, कनाडा और ग्रीनलैंड। और आइसलैंड का बस एक छोटा द्वीप, ग्रिम्सी।",
+     "prompt": "Grímsey island, Iceland, green grassy cliffs dropping into a grey sea, puffins sitting on the cliff edge, a small lighthouse, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "मज़ेदार बात, ये लाइन टिकी हुई नहीं है। ये हर साल करीब 15 मीटर उत्तर खिसक रही है।",
+     "prompt": "A surveyor in a red jacket measuring with a tape across a grassy field on a windswept island, a white wooden marker post in the ground, sea behind, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसीलिए ग्रिम्सी पर लाइन दिखाने वाला कंक्रीट का एक बड़ा गोला समय-समय पर खिसकाया जाता है।",
+     "prompt": "A huge round concrete sphere about three metres wide sitting on green grass on Grímsey island, a few hikers standing next to it for scale, sea and cliffs behind, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर ये लाइन ठीक इसी जगह क्यों है? इसका जवाब नक्शे पर नहीं, अंतरिक्ष में है।",
+     "prompt": "Night sky over a snowy Arctic plain, countless stars and the Milky Way, a lone wooden cabin with a lit window in the foreground, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "पृथ्वी का झुकाव",
+   "shots": [
+    {
+     "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
+     "subscribe_ask": true,
+     "prompt": "View from orbit looking at the curved edge of the Earth, the line between day and night crossing the Arctic ice, sunlight on one side and darkness on the other, thin blue atmosphere, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "move": "pan_left"
+    },
+    {
+     "vo": "अंतरिक्ष से देखिए, पृथ्वी सीधी खड़ी होकर नहीं घूमती।",
+     "prompt": "View from orbit looking at the curved edge of the Earth, the line between day and night crossing the Arctic ice, sunlight on one side and darkness on the other, thin blue atmosphere, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "उसकी धुरी करीब 23.4 डिग्री झुकी हुई है। जैसे कोई लट्टू तिरछा होकर घूम रहा हो।",
+     "prompt": "A wooden spinning top (lattu) spinning tilted on a smooth stone courtyard floor in India, a child's hand pulling back the string, motion blur on the top, warm afternoon light, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और ये झुकाव पूरे साल एक ही दिशा में रहता है, ध्रुव तारे की तरफ़।",
+     "prompt": "Long-exposure star trails circling around the Pole Star above snowy mountains, the bright Pole Star at the centre of the circles, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "एक अँधेरे कमरे में टॉर्च और तिरछी सुई में फँसा संतरा सोचिए। जून में ऊपर वाला हिस्सा टॉर्च की तरफ़ झुका है।",
+     "prompt": "A dark room, a torch shining a strong beam on an orange pierced by a tilted knitting needle, the top of the orange leaning towards the light and fully lit, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "संतरे को घुमाइए। ऊपर का छोटा हिस्सा घूमता रहता है, पर अँधेरे में जाता ही नहीं।",
+     "prompt": "Close-up of the same orange on the tilted needle being turned by fingers in torchlight, the top cap around the needle always bright while the lower side falls into shadow, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये रोशनी ध्रुव से 23.4 डिग्री आगे तक पहुँचती है। 90 में से 23.4 घटाइए, बचता है करीब साढ़े छियासठ।",
+     "map": {
+      "center": [
+       75,
+       10
+      ],
+      "span": 30,
+      "from_span": 60,
+      "countries": [],
+      "points": [
+       {
+        "lat": 89.9,
+        "lon": 10,
+        "label": "नॉर्थ पोल 90°"
+       }
+      ],
+      "lines": [
+       {
+        "lat": 66.56,
+        "label": "90° − 23.4° = 66.5°"
+       }
+      ],
+      "circles": []
+     }
+    },
+    {
+     "vo": "दिसंबर में उल्टा होता है। उत्तर का हिस्सा सूरज से दूर झुक जाता है।",
+     "prompt": "The same orange on the tilted needle in the dark room, now leaning away from the torch, the top cap in total darkness and only the lower half lit, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बहुत लोग सोचते हैं कि गर्मी इसलिए आती है, क्योंकि पृथ्वी सूरज के पास आ जाती है।",
+     "prompt": "A hot Delhi street in June, people shading themselves with umbrellas and dupattas, a sugarcane juice cart, heat haze over the road, harsh sunlight, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर सच उल्टा है। पृथ्वी सूरज के सबसे पास जनवरी की शुरुआत में होती है, जब दिल्ली ठंड से काँपती है।",
+     "prompt": "A foggy Delhi morning, people in shawls warming hands around a bonfire beside a tea stall, a wall calendar page on the stall wall reading \"JANUARY\", photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "मौसम दूरी से नहीं, झुकाव से बनते हैं। दिल्ली में जून का सबसे लंबा दिन करीब 14 घंटे का होता है।",
+     "prompt": "India Gate in Delhi in a long June evening, families walking on the lawns, ice-cream carts, the sun still high and bright late in the day, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और दिसंबर का सबसे छोटा दिन, करीब सवा दस घंटे का। उत्तर की तरफ़ जाएँ, तो ये फ़र्क़ बढ़ता ही जाता है।",
+     "prompt": "A Delhi market at 5:30 in a December evening, already dark, shop lights on, people in sweaters and monkey caps buying vegetables, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और एक जगह आकर सूरज डूबना ही भूल जाता है।",
+     "prompt": "Lofoten islands, Norway, jagged peaks over a calm bay at midnight, the sun hovering just above the sea, the sky orange, a red fishing cabin in front, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "आधी रात का सूरज",
+   "shots": [
+    {
+     "vo": "नॉर्वे का ट्रोम्सो शहर। यहाँ करीब 20 मई से 22 जुलाई तक सूरज डूबता ही नहीं।",
+     "prompt": "Tromsø, Norway, colourful wooden houses along the harbour and a white triangular church across the water, bright low sunlight at midnight, boats in the harbour, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "यहाँ सूरज ऊपर उठकर नीचे नहीं गिरता। वो आसमान में चारों तरफ़ गोल चक्कर काटता है।",
+     "prompt": "A wide Arctic sea horizon with mountains, the sun shown as a row of many suns in a multiple-exposure photograph sweeping low across the sky without ever touching the sea, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आधी रात को वो उत्तर में क्षितिज के पास आता है, लगभग छूता है, और फिर से ऊपर चढ़ने लगता है।",
+     "prompt": "Close view of the midnight sun almost touching a calm sea horizon, a golden path of light on the water, a small rocky island silhouetted, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ठीक आर्कटिक सर्कल पर ये बस 21 जून के आसपास होता है। ऊपर नॉर्थ केप पर करीब ढाई महीने।",
+     "map": {
+      "center": [
+       72,
+       22
+      ],
+      "span": 16,
+      "from_span": 35,
+      "countries": [
+       {
+        "iso": "NOR",
+        "label": "नॉर्वे",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 66.5,
+        "lon": 25.73,
+        "label": "रोवानिएमी"
+       },
+       {
+        "lat": 69.65,
+        "lon": 18.96,
+        "label": "ट्रोम्सो"
+       },
+       {
+        "lat": 71.17,
+        "lon": 25.78,
+        "label": "नॉर्थ केप"
+       },
+       {
+        "lat": 78.22,
+        "lon": 15.65,
+        "label": "लॉन्गइयरबायन"
+       }
+      ],
+      "lines": [
+       {
+        "lat": 66.56,
+        "label": "आर्कटिक सर्कल"
+       }
+      ],
+      "circles": []
+     }
+    },
+    {
+     "vo": "स्वालबार्ड के लॉन्गइयरबायन में करीब चार महीने। और नॉर्थ पोल पर? छह महीने का एक लंबा दिन।",
+     "prompt": "Longyearbyen, Svalbard, rows of colourful wooden houses at the foot of bare brown mountains, bright sunlight at night, snow patches on the peaks, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "यहाँ लोग रात ग्यारह बजे धूप में पहाड़ चढ़ने निकलते हैं।",
+     "prompt": "Hikers with backpacks climbing a rocky ridge above Tromsø in golden late-night sunlight, the city and fjord far below, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आधी रात को बच्चे बाहर फ़ुटबॉल खेलते हैं, और लोग समुद्र में नाव चलाते हैं।",
+     "prompt": "Children playing football on a small pitch beside a fjord in bright midnight sunlight, a kayaker paddling on the calm water behind, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर सोना कैसे? घरों में मोटे काले पर्दे लगते हैं, जिन्हें ब्लैकआउट कर्टन कहते हैं।",
+     "prompt": "A woman pulling thick black blackout curtains across a bedroom window, a thin line of bright sunlight still slipping in at the edge, the room turning dark, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कई लोग आँखों पर मास्क बाँधकर सोते हैं। क्योंकि रोशनी दिमाग़ को बताती है कि अभी दिन है।",
+     "prompt": "A man asleep in bed wearing a black eye mask, sunlight glowing behind the curtains, a bedside clock, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "रोशनी में नींद का हॉर्मोन मेलाटोनिन कम बनता है। इसलिए गर्मियों में यहाँ बहुत लोगों की नींद छोटी हो जाती है।",
+     "prompt": "A tired young woman sitting awake on her bed late at night, bright sunlight on her face from the window, a mug of tea in her hands, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर ये सौदा मुफ़्त नहीं। जितनी लंबी धूप गर्मी में मिली, उतनी लंबी रात सर्दी में लौटती है।",
+     "prompt": "Tromsø harbour in deep winter, the same colourful houses now covered in snow under a dark blue sky, harbour lights reflecting on black water, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "जब सूरज नहीं उगता",
+   "shots": [
+    {
+     "vo": "अलास्का का सबसे उत्तरी शहर, उत्कियागविक। पहले इसे बैरो कहा जाता था।",
+     "map": {
+      "center": [
+       71.29,
+       -156.79
+      ],
+      "span": 14,
+      "from_span": 60,
+      "countries": [
+       {
+        "iso": "USA",
+        "label": "अलास्का (अमेरिका)",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 71.29,
+        "lon": -156.79,
+        "label": "उत्कियागविक"
+       }
+      ],
+      "lines": [
+       {
+        "lat": 66.56,
+        "label": "आर्कटिक सर्कल"
+       }
+      ],
+      "circles": []
+     }
+    },
+    {
+     "vo": "यहाँ करीब 18 नवंबर को सूरज डूबता है। और 22 जनवरी के आसपास ही दोबारा दिखता है।",
+     "prompt": "Utqiagvik, Alaska, a snowy street of low wooden houses and pickup trucks at what is midday, the sky dark blue with a faint glow on the southern horizon, streetlights on, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "यानी करीब 65 दिन, बिना एक बार सूरज देखे।",
+     "prompt": "A kitchen in an Arctic home, a wall calendar page reading \"DECEMBER\" next to a window showing only darkness and snow outside at noon, a kettle steaming on the stove, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर ये घुप अँधेरा नहीं होता। दोपहर में कुछ घंटे आसमान गहरा नीला चमकता है।",
+     "prompt": "A snowy Arctic landscape at noon in polar night, the whole sky and snow glowing deep blue, a faint pink band along the horizon, a lone cabin, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "सूरज क्षितिज के ठीक नीचे होता है। उसकी रोशनी ऊपर आसमान से बिखरकर नीचे आती है।",
+     "prompt": "A frozen fjord at midday in winter, mountain peaks faintly lit pink from below the horizon while the valley stays blue, no sun visible, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "नॉर्वे में इस मौसम को 'मोर्केटिड' कहते हैं, यानी अँधेरे का समय।",
+     "prompt": "Tromsø city centre at noon in winter, people in winter coats walking on a snowy pedestrian street, shop windows lit, dark blue sky above, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "जितना उत्तर जाएँ, उतना गहरा अँधेरा। स्वालबार्ड में दिसंबर की दोपहर को भी तारे दिख सकते हैं।",
+     "prompt": "Longyearbyen, Svalbard, in December, snow-covered houses under a black sky full of stars, a few windows lit, mountains as dark shapes, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और इसी अँधेरे में आसमान पर हरी रोशनी नाचती है, नॉर्दर्न लाइट्स।",
+     "prompt": "Bright green northern lights swirling across the sky over a snowy fjord, reflected in the water, a red wooden cabin in the foreground, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये सूरज से आए कणों के हवा से टकराने से बनती है। अँधेरा जितना लंबा, देखने का मौक़ा उतना ज़्यादा।",
+     "prompt": "Close view of green and violet aurora curtains rippling high above snowy pine trees, stars visible through the light, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दुनिया भर से लोग इसे देखने यहीं आते हैं।",
+     "prompt": "A group of tourists, including an Indian family in borrowed snow suits, standing on snow with phones raised towards green northern lights, a tour van behind, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर दो महीने बिना धूप के, इंसान का शरीर आख़िर क्या करता है?",
+     "prompt": "A man standing at a window in a dark Arctic home at midday, looking out at the blue darkness, his face lit only by a lamp, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "ऐसे जीते हैं लोग",
+   "shots": [
+    {
+     "vo": "हमारे शरीर के अंदर एक घड़ी चलती है। और उसे चाबी रोशनी से मिलती है।",
+     "prompt": "A young woman waking up and stretching in bed as soft morning light falls on her face, a plant on the windowsill, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "धूप न मिले, तो ये घड़ी गड़बड़ाने लगती है। नींद, भूख और मूड, सब पर असर पड़ता है।",
+     "prompt": "An office worker in a Nordic office slumped tiredly at a desk at 2 pm, the window behind showing dark blue sky, desk lamp on, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कई लोगों को सर्दियों में उदासी और थकान घेर लेती है। डॉक्टर इसे सीज़नल अफ़ेक्टिव डिसऑर्डर कहते हैं।",
+     "prompt": "A person sitting alone on a sofa wrapped in a blanket in a dim room, snowy darkness outside the window, a cup of coffee going cold, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसलिए कई घरों और दफ़्तरों में ख़ास तेज़ रोशनी वाले लैंप होते हैं। लोग सुबह उनके सामने बैठकर नाश्ता करते हैं।",
+     "prompt": "A Norwegian family at a breakfast table in winter darkness, a large flat white light-therapy lamp glowing brightly on the table beside bread and coffee, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "खिड़कियों में छोटे लैंप और मोमबत्तियाँ पूरे दिन जलती रहती हैं।",
+     "prompt": "Snowy street of wooden houses at noon in Arctic winter, every window with a small glowing lamp or candles, warm yellow against blue darkness, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "धूप कम हो, तो त्वचा में विटामिन D भी कम बनता है। इसलिए नॉर्वे में मछली के तेल की परंपरा पुरानी है।",
+     "prompt": "A Norwegian mother giving a spoon of cod liver oil to a grimacing child at a kitchen table, a large bottle with a label reading \"TRAN\" beside them, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बच्चे अँधेरे में स्कूल जाते हैं, चमकने वाली पट्टियों वाली जैकेट पहनकर।",
+     "prompt": "Schoolchildren in bright jackets with reflective strips walking on a snowy pavement in morning darkness, car headlights making the strips glow, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "स्वालबार्ड में अँधेरे का एक और ख़तरा है, ध्रुवीय भालू। शहर से बाहर लोग राइफ़ल लेकर निकलते हैं।",
+     "prompt": "A large triangular red-bordered warning sign with a polar bear silhouette at the edge of Longyearbyen, a flat sign plate below it reading \"GJELDER HELE SVALBARD\", a man with a rifle on his shoulder walking past on snow, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और फिर आता है वो दिन, जिसका सब इंतज़ार करते हैं।",
+     "prompt": "Arctic mountains at dawn in late winter, the first pink and gold light touching the snowy peaks after months, a small town still in shadow below, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "लॉन्गइयरबायन में करीब 8 मार्च को धूप पहली बार पुराने अस्पताल की सीढ़ियों तक पहुँचती है। लोग वहाँ जमा होकर जश्न मनाते हैं।",
+     "prompt": "A crowd of people in winter clothes gathered on old wooden steps in Longyearbyen, faces turned up and smiling as the first sunlight falls on them, children holding paper suns, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इंसानों के पास लैंप, पर्दे और त्योहार हैं। पर जानवरों के पास क्या है?",
+     "prompt": "A reindeer standing alone on a snowy ridge at twilight, silhouetted against a blue sky, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "रेनडियर की घड़ी",
+   "shots": [
+    {
+     "vo": "आर्कटिक का सबसे जाना-माना जानवर है रेनडियर। ये दोनों तरह के मौसम झेलता है, धूप भी और अँधेरा भी।",
+     "prompt": "A large herd of reindeer moving across snowy tundra, a Sámi herder on a snowmobile alongside, low pink winter light, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "गर्मियों में रेनडियर की आँख के पीछे की परत सुनहरी होती है।",
+     "prompt": "Extreme close-up of a reindeer's eye reflecting a golden shine in summer light, green tundra blurred behind, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और सर्दियों में वही परत गहरी नीली हो जाती है।",
+     "prompt": "Extreme close-up of a reindeer's eye glowing deep blue in dim winter twilight, frost on its eyelashes, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "नीली परत कम रोशनी में आँख को ज़्यादा तेज़ बना देती है। अँधेरे में भी उसे खाना और ख़तरा दिख जाता है।",
+     "prompt": "A reindeer digging through snow with its hoof to reach lichen in blue polar-night darkness, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये खोज नॉर्वे की ट्रोम्सो यूनिवर्सिटी के वैज्ञानिकों ने की थी।",
+     "prompt": "Scientists in a university lab in Norway examining reindeer eye samples under a microscope, notebooks and lab equipment on the bench, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और उसकी अंदरूनी घड़ी? वैज्ञानिकों ने पाया कि रेनडियर में दिन-रात वाली घड़ी बहुत कमज़ोर चलती है।",
+     "prompt": "Reindeer grazing calmly on green tundra under bright midnight sun, some lying down, some eating, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "वो घड़ी देखकर नहीं, पेट देखकर जीते हैं। दिन हो या रात, भूख लगी तो खा लिया।",
+     "prompt": "A reindeer chewing lichen in a snowy forest, close-up of its mouth and nose covered in frost, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "2024 में छपी एक रिसर्च के मुताबिक़, रेनडियर जुगाली करते-करते भी हल्की नींद ले लेते हैं।",
+     "prompt": "A reindeer lying in the snow with half-closed eyes, jaw mid-chew while ruminating, snowflakes on its antlers, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और एक छोटी चिड़िया, आर्कटिक टर्न, आर्कटिक की गर्मी के बाद अंटार्कटिका की गर्मी पकड़ने उड़ जाती है।",
+     "prompt": "An Arctic tern in flight with wings spread wide over a sunlit icy sea, red beak and black cap, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "यानी साल में दो गर्मियाँ। शायद धरती के किसी भी जीव से ज़्यादा दिन की रोशनी।",
+     "prompt": "A flock of Arctic terns flying over Antarctic icebergs under a bright low sun, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "तो रात इसलिए नहीं होती, क्योंकि झुकी हुई पृथ्वी का ऊपरी हिस्सा महीनों तक सूरज की तरफ़ ही घूमता रहता है।",
+     "prompt": "Midnight sun glowing over a calm Arctic fjord, a small red cabin and a rowing boat on the shore, golden light, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "उत्तर भारत में हैं, तो 21 जून की दोपहर अपनी परछाई देखिए। दोपहर की सबसे छोटी परछाई मिलेगी।",
+     "prompt": "An Indian boy standing on a sunny rooftop at noon looking down at a very short shadow right under his feet, harsh overhead sunlight, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अगले एपिसोड में: अंटार्कटिका किसी एक देश का क्यों नहीं, फिर भी वहाँ इतने देशों के झंडे क्यों?",
+     "prompt": "A row of national flags flapping on poles at a research station on the Antarctic ice, red station buildings behind, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ऐसे ही गज़ब सवालों के लिए सब्सक्राइब करें।",
+     "prompt": "Green northern lights over a snowy valley with a lone lit cabin, stars above, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  }
+ ],
+ "topic_demand": {
+  "median": 1535501,
+  "hits": 8,
+  "outliers": 5,
+  "q": "jahan raat nahi hoti wahan log kaise rehte hain",
+  "matched": "5/10"
+ },
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "place",
+  "points": [
+   0,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "framework": "2026-11-16 20:41"
+}
