@@ -694,7 +694,7 @@
      "prompt": "A whole orange on a tilted knitting needle in a dark room, leaning away from a torch on the left, the top cap in total darkness and only the lower half lit by the beam, sharp focus, photoreal, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 8946
+     "seed": 16865
     },
     {
      "vo": "बहुत लोग सोचते हैं कि गर्मी इसलिए आती है, क्योंकि पृथ्वी सूरज के पास आ जाती है।",
@@ -1955,31 +1955,19 @@
  "voice_approved_at": "2026-11-16 21:21",
  "repaint": {
   "shots": [
-   13,
-   25,
-   27,
-   34,
-   46
+   27
   ],
   "thumbs": [],
-  "at": "2026-11-16 21:36"
+  "at": "2026-11-16 22:00"
  },
  "shot_qc": {
-  "checked": "2026-11-16T16:04:28Z",
-  "rounds": 1,
+  "checked": "2026-11-16T16:28:59Z",
+  "rounds": 2,
   "why": {
-   "13": "Only six flags are shown, not the eight in the line. Russia, the US and Denmark are missing, and one flag looks like an English cross.",
-   "25": "It shows an orange knob on a dial, not an orange on a needle being turned in torchlight.",
-   "27": "It shows a glowing lamp or gauge, not an orange leaning away from the torch.",
-   "34": "It shows a single sun on the horizon, not the row of suns sweeping around the sky that the line describes.",
-   "46": "The window shows bright snow, not the darkness at noon that the line describes."
+   "27": "The orange has no knitting needle and isn't tilted. The scene shows a map on a wall with lettering and a poster, which the rules fail. The line's defining element, the top cap in darkness, is missing."
   },
   "recheck": [
-   "13",
-   "25",
-   "27",
-   "34",
-   "46"
+   "27"
   ]
  }
 }
