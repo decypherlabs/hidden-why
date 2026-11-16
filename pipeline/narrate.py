@@ -7,6 +7,7 @@ Writes vo-NN.wav per shot (24 kHz mono) and vo.json ({"NN": seconds}). English p
 espeak-ng: misaki's default English G2P loads spaCy, which crashes on load on these runners.
 """
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -51,11 +52,15 @@ def pace_ok(x, text):
 
 
 def lines(script):
+    """Every line, or this runner's share of them (SHARD="i/n": narrate.yml voices a long script on n runners at once,
+    16 Nov 2026: Jagannath's 188 Parler lines needed ~7 h, past GitHub's 6 h job limit)."""
+    i, k = (int(x) for x in os.environ.get("SHARD", "0/1").split("/"))
     n = 0
     for sec in script["sections"]:
         for s in sec.get("shots") or []:
             n += 1
-            yield n, s["vo"]
+            if n % k == i:
+                yield n, s["vo"]
 
 
 def shlokas(script):
