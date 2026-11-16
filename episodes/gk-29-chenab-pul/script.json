@@ -58,7 +58,7 @@
     },
     {
      "vo": "ये पुल एफ़िल टावर से भी ऊँचा है।",
-     "prompt": "The Eiffel Tower standing in a Himalayan gorge beside a huge red steel arch bridge, the bridge deck clearly higher than the tower's tip, both at the same scale, green river below, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A very tall red steel arch bridge towering over a deep Himalayan gorge filling the frame, and far off on the left ridge a small separate grey Eiffel Tower silhouette standing alone for comparison, well below the bridge deck, green river below, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "photo": {
@@ -67,7 +67,8 @@
       "h": 2567,
       "credit": "Pixabay (nuno_lopes)",
       "page": "https://pixabay.com/photos/eiffel-tower-france-paris-landscape-975004/"
-     }
+     },
+     "seed": 8922
     },
     {
      "vo": "पर इतनी गहरी खाई के ऊपर पहला लोहा पहुँचा कैसे?",
@@ -1084,5 +1085,23 @@
  "released_at": "2026-11-14 23:55",
  "voice_requested": "voice-gk-29-chenab-pul-f1d0e0edaf",
  "voice_ok": "voice-gk-29-chenab-pul-f1d0e0edaf",
- "voice_approved_at": "2026-11-15 00:32"
+ "voice_approved_at": "2026-11-15 00:32",
+ "repaint": {
+  "shots": [
+   3
+  ],
+  "thumbs": [],
+  "at": "2026-11-16 07:05",
+  "by": "owner"
+ },
+ "shot_qc": {
+  "checked": null,
+  "rounds": 1,
+  "why": {
+   "3": "The Eiffel Tower and the bridge are merged into one structure. The tower stands inside the bridge's arch and its base overlaps the bridge deck, so neither object is built correctly. The scale also does not show the bridge as taller than the tower. Paint the bridge alone, as a tall bridge over a deep gorge, with a small, separate Eiffel Tower silhouette set apart for comparison."
+  },
+  "recheck": [
+   "3"
+  ]
+ }
 }
