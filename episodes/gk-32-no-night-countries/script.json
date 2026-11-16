@@ -167,6 +167,132 @@
       "credit": "Arctic Circle marker Santa Claus Village Rovaniemi 2022-09-15 01.jpg by Leonhard Lenz, CC0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Arctic_Circle_marker_Santa_Claus_Village_Rovaniemi_2022-09-15_01.jpg",
       "card": 0.72
+     },
+     "words": {
+      "09": {
+       "src": "a73a499261ba",
+       "items": [
+        {
+         "text": "NAPAPIIRI ARCTIC CIRCLE",
+         "grid": [
+          [
+           [
+            431.3,
+            166.6
+           ],
+           [
+            548.0,
+            166.6
+           ],
+           [
+            666.8,
+            166.6
+           ],
+           [
+            785.5,
+            166.6
+           ],
+           [
+            902.2,
+            166.6
+           ],
+           [
+            1021.0,
+            166.6
+           ],
+           [
+            1139.7,
+            166.6
+           ]
+          ],
+          [
+           [
+            431.3,
+            211.9
+           ],
+           [
+            548.0,
+            211.9
+           ],
+           [
+            666.8,
+            211.9
+           ],
+           [
+            785.5,
+            211.9
+           ],
+           [
+            902.2,
+            211.9
+           ],
+           [
+            1021.0,
+            211.9
+           ],
+           [
+            1139.7,
+            211.9
+           ]
+          ],
+          [
+           [
+            431.3,
+            257.2
+           ],
+           [
+            548.0,
+            257.2
+           ],
+           [
+            666.8,
+            257.2
+           ],
+           [
+            785.5,
+            257.2
+           ],
+           [
+            902.2,
+            257.2
+           ],
+           [
+            1021.0,
+            257.2
+           ],
+           [
+            1139.7,
+            257.2
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#e8e0d0",
+         "corners": [
+          [
+           383,
+           147
+          ],
+          [
+           1188,
+           147
+          ],
+          [
+           1188,
+           275
+          ],
+          [
+           383,
+           275
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -207,6 +333,132 @@
       "credit": "Arctic Circle sign.jpg by Ixfd64, PUBLIC DOMAIN, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Arctic_Circle_sign.jpg",
       "card": 0.72
+     },
+     "words": {
+      "11": {
+       "src": "ad375d4f21f3",
+       "items": [
+        {
+         "text": "POLARSIRKELEN",
+         "grid": [
+          [
+           [
+            966.4,
+            329.6
+           ],
+           [
+            1022.9,
+            329.2
+           ],
+           [
+            1080.3,
+            328.5
+           ],
+           [
+            1137.8,
+            327.5
+           ],
+           [
+            1194.3,
+            326.3
+           ],
+           [
+            1251.7,
+            324.7
+           ],
+           [
+            1309.2,
+            322.7
+           ]
+          ],
+          [
+           [
+            966.4,
+            372.7
+           ],
+           [
+            1022.9,
+            372.6
+           ],
+           [
+            1080.5,
+            372.1
+           ],
+           [
+            1138.0,
+            371.1
+           ],
+           [
+            1194.5,
+            369.8
+           ],
+           [
+            1252.0,
+            367.9
+           ],
+           [
+            1309.6,
+            365.7
+           ]
+          ],
+          [
+           [
+            966.4,
+            415.8
+           ],
+           [
+            1023.0,
+            416.1
+           ],
+           [
+            1080.6,
+            415.7
+           ],
+           [
+            1138.2,
+            414.8
+           ],
+           [
+            1194.8,
+            413.3
+           ],
+           [
+            1252.4,
+            411.3
+           ],
+           [
+            1309.9,
+            408.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1c2a44",
+         "corners": [
+          [
+           943,
+           262
+          ],
+          [
+           1332,
+           260
+          ],
+          [
+           1334,
+           482
+          ],
+          [
+           943,
+           484
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -225,7 +477,7 @@
     },
     {
      "vo": "इस घेरे के अंदर कुल आठ देशों की ज़मीन आती है।",
-     "prompt": "Eight national flags of Norway, Sweden, Finland, Russia, the United States, Canada, Denmark and Iceland on tall poles in a row in front of a snowy building, flags flying in the wind, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Eight tall flagpoles in a straight row in front of a snowy building, four on the left and four on the right, each with a different national flag, Nordic cross flags among them, flags flying in the wind, bright daylight, sharp focus, photoreal, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "photo": {
@@ -235,7 +487,8 @@
       "credit": "Map of the Arctic Circle (46844065865).jpg by USFWSAlaska, PUBLIC DOMAIN, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Map_of_the_Arctic_Circle_(46844065865).jpg",
       "card": 0.72
-     }
+     },
+     "seed": 8932
     },
     {
      "vo": "ज़्यादातर ज़मीन बर्फ़, जंगल और टुंड्रा है, जहाँ पेड़ भी छोटे रह जाते हैं।",
@@ -404,9 +657,10 @@
     },
     {
      "vo": "संतरे को घुमाइए। ऊपर का छोटा हिस्सा घूमता रहता है, पर अँधेरे में जाता ही नहीं।",
-     "prompt": "Close-up of the same orange on the tilted needle being turned by fingers in torchlight, the top cap around the needle always bright while the lower side falls into shadow, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Fingers turning a whole orange pierced by a tilted knitting needle in torchlight, the top cap around the needle always bright while the lower side falls into shadow, dark room, sharp focus, photoreal, close-up",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8944
     },
     {
      "vo": "ये रोशनी ध्रुव से तेईस दशमलव चार डिग्री आगे तक पहुँचती है। नब्बे में से तेईस दशमलव चार घटाइए, बचता है करीब साढ़े छियासठ।",
@@ -437,9 +691,10 @@
     },
     {
      "vo": "दिसंबर में उल्टा होता है। उत्तर का हिस्सा सूरज से दूर झुक जाता है।",
-     "prompt": "The same orange on the tilted needle in the dark room, now leaning away from the torch, the top cap in total darkness and only the lower half lit, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A whole orange on a tilted knitting needle in a dark room, leaning away from a torch on the left, the top cap in total darkness and only the lower half lit by the beam, sharp focus, photoreal, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8946
     },
     {
      "vo": "बहुत लोग सोचते हैं कि गर्मी इसलिए आती है, क्योंकि पृथ्वी सूरज के पास आ जाती है।",
@@ -467,6 +722,132 @@
       "credit": "Approach to Humayun's tomb.jpg by Sudipta Maulik, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Approach_to_Humayun%27s_tomb.jpg",
       "card": 0.72
+     },
+     "words": {
+      "29": {
+       "src": "e6414b09b40b",
+       "items": [
+        {
+         "text": "JANUARY",
+         "grid": [
+          [
+           [
+            651.9,
+            342.3
+           ],
+           [
+            688.6,
+            341.8
+           ],
+           [
+            727.1,
+            341.2
+           ],
+           [
+            766.8,
+            340.6
+           ],
+           [
+            807.0,
+            340.0
+           ],
+           [
+            849.2,
+            339.3
+           ],
+           [
+            892.8,
+            338.6
+           ]
+          ],
+          [
+           [
+            651.9,
+            356.2
+           ],
+           [
+            688.6,
+            355.8
+           ],
+           [
+            727.1,
+            355.4
+           ],
+           [
+            766.8,
+            355.1
+           ],
+           [
+            806.9,
+            354.7
+           ],
+           [
+            849.1,
+            354.3
+           ],
+           [
+            892.6,
+            353.8
+           ]
+          ],
+          [
+           [
+            651.9,
+            370.0
+           ],
+           [
+            688.6,
+            369.8
+           ],
+           [
+            727.0,
+            369.7
+           ],
+           [
+            766.7,
+            369.5
+           ],
+           [
+            806.8,
+            369.4
+           ],
+           [
+            849.0,
+            369.2
+           ],
+           [
+            892.5,
+            369.0
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#222222",
+         "corners": [
+          [
+           637,
+           335
+          ],
+          [
+           911,
+           330
+          ],
+          [
+           908,
+           605
+          ],
+          [
+           637,
+           583
+          ]
+         ],
+         "band": [
+          0.03,
+          0.14
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -519,7 +900,7 @@
     },
     {
      "vo": "यहाँ सूरज ऊपर उठकर नीचे नहीं गिरता। वो आसमान में चारों तरफ़ गोल चक्कर काटता है।",
-     "prompt": "A wide Arctic sea horizon with mountains, the sun shown as a row of many suns in a multiple-exposure photograph sweeping low across the sky without ever touching the sea, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A row of many suns across the sky in a multiple-exposure photograph, sweeping in a low arc over an Arctic sea with mountains, never touching the water, sharp focus, photoreal, wide shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "photo": {
@@ -529,7 +910,8 @@
       "credit": "Pixabay (highflyer100)",
       "page": "https://pixabay.com/photos/midnight-sun-fjord-greenland-4775412/",
       "card": 0.72
-     }
+     },
+     "seed": 8953
     },
     {
      "vo": "आधी रात को वो उत्तर में क्षितिज के पास आता है, लगभग छूता है, और फिर से ऊपर चढ़ने लगता है।",
@@ -746,7 +1128,7 @@
     },
     {
      "vo": "यानी करीब पैंसठ दिन, बिना एक बार सूरज देखे।",
-     "prompt": "A kitchen in an Arctic home, a wall calendar page reading \"DECEMBER\" next to a window showing only darkness and snow outside at noon, a kettle steaming on the stove, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A kitchen in an Arctic home, a wall calendar page reading \"DECEMBER\" facing the camera next to a window showing only darkness and snow outside at noon, a kettle steaming on the stove, warm lamp light, sharp focus, photoreal, medium shot",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "यानी करीब 65 दिन, बिना एक बार सूरज देखे।",
@@ -757,7 +1139,134 @@
       "credit": "High Moon in Adventdalen, Svalbard 2009.jpg by PaterMcFly, CC BY 3.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:High_Moon_in_Adventdalen,_Svalbard_2009.jpg",
       "card": 0.72
-     }
+     },
+     "words": {
+      "46": {
+       "src": "04d64bdf3205",
+       "items": [
+        {
+         "text": "DECEMBER",
+         "grid": [
+          [
+           [
+            253.2,
+            387.0
+           ],
+           [
+            279.7,
+            379.5
+           ],
+           [
+            306.6,
+            371.9
+           ],
+           [
+            333.3,
+            364.4
+           ],
+           [
+            359.5,
+            357.0
+           ],
+           [
+            386.0,
+            349.5
+           ],
+           [
+            412.3,
+            342.1
+           ]
+          ],
+          [
+           [
+            253.0,
+            402.2
+           ],
+           [
+            279.6,
+            395.1
+           ],
+           [
+            306.5,
+            387.8
+           ],
+           [
+            333.2,
+            380.6
+           ],
+           [
+            359.4,
+            373.6
+           ],
+           [
+            385.9,
+            366.4
+           ],
+           [
+            412.3,
+            359.3
+           ]
+          ],
+          [
+           [
+            252.8,
+            417.5
+           ],
+           [
+            279.4,
+            410.6
+           ],
+           [
+            306.3,
+            403.7
+           ],
+           [
+            333.1,
+            396.9
+           ],
+           [
+            359.3,
+            390.2
+           ],
+           [
+            385.9,
+            383.4
+           ],
+           [
+            412.3,
+            376.6
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#2a2a2a",
+         "corners": [
+          [
+           243,
+           326
+          ],
+          [
+           423,
+           326
+          ],
+          [
+           423,
+           623
+          ],
+          [
+           239,
+           627
+          ]
+         ],
+         "band": [
+          0.03,
+          0.17
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8965
     },
     {
      "vo": "पर ये घुप अँधेरा नहीं होता। दोपहर में कुछ घंटे आसमान गहरा नीला चमकता है।",
@@ -944,6 +1453,132 @@
       "credit": "Meny supermarket shelves Tønsberg Norway Möllers tran cod liver oil 2017-09-20.jpg by Wolfmann, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Meny_supermarket_shelves_T%C3%B8nsberg_Norway_M%C3%B6llers_tran_cod_liver_oil_2017-09-20.jpg",
       "card": 0.72
+     },
+     "words": {
+      "60": {
+       "src": "04c0698a98a2",
+       "items": [
+        {
+         "text": "TRAN",
+         "grid": [
+          [
+           [
+            163.0,
+            555.8
+           ],
+           [
+            189.7,
+            556.4
+           ],
+           [
+            216.9,
+            556.7
+           ],
+           [
+            244.0,
+            556.8
+           ],
+           [
+            270.7,
+            556.7
+           ],
+           [
+            297.8,
+            556.4
+           ],
+           [
+            325.0,
+            555.8
+           ]
+          ],
+          [
+           [
+            163.0,
+            601.9
+           ],
+           [
+            189.7,
+            602.2
+           ],
+           [
+            216.9,
+            602.4
+           ],
+           [
+            244.0,
+            602.5
+           ],
+           [
+            270.7,
+            602.4
+           ],
+           [
+            297.8,
+            602.2
+           ],
+           [
+            325.0,
+            601.9
+           ]
+          ],
+          [
+           [
+            163.0,
+            648.0
+           ],
+           [
+            189.7,
+            648.0
+           ],
+           [
+            216.9,
+            648.1
+           ],
+           [
+            244.0,
+            648.1
+           ],
+           [
+            270.7,
+            648.1
+           ],
+           [
+            297.8,
+            648.0
+           ],
+           [
+            325.0,
+            648.0
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#222222",
+         "corners": [
+          [
+           152,
+           510
+          ],
+          [
+           336,
+           510
+          ],
+          [
+           336,
+           694
+          ],
+          [
+           152,
+           694
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -964,6 +1599,132 @@
       "credit": "Polar Bear AdF.jpg by Arturo de Frias Marques, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Polar_Bear_AdF.jpg",
       "card": 0.72
+     },
+     "words": {
+      "62": {
+       "src": "2b156724a457",
+       "items": [
+        {
+         "text": "GJELDER HELE SVALBARD",
+         "grid": [
+          [
+           [
+            624.9,
+            546.4
+           ],
+           [
+            675.5,
+            549.4
+           ],
+           [
+            727.0,
+            550.7
+           ],
+           [
+            778.5,
+            550.1
+           ],
+           [
+            829.1,
+            547.8
+           ],
+           [
+            880.6,
+            543.5
+           ],
+           [
+            932.1,
+            537.4
+           ]
+          ],
+          [
+           [
+            624.9,
+            603.0
+           ],
+           [
+            675.5,
+            606.6
+           ],
+           [
+            727.0,
+            608.1
+           ],
+           [
+            778.5,
+            607.4
+           ],
+           [
+            829.1,
+            604.4
+           ],
+           [
+            880.6,
+            599.2
+           ],
+           [
+            932.1,
+            591.7
+           ]
+          ],
+          [
+           [
+            624.9,
+            659.6
+           ],
+           [
+            675.5,
+            663.9
+           ],
+           [
+            727.0,
+            665.6
+           ],
+           [
+            778.5,
+            664.6
+           ],
+           [
+            829.1,
+            661.1
+           ],
+           [
+            880.6,
+            654.9
+           ],
+           [
+            932.1,
+            646.0
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#111111",
+         "corners": [
+          [
+           604,
+           511
+          ],
+          [
+           953,
+           511
+          ],
+          [
+           953,
+           700
+          ],
+          [
+           604,
+           700
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -1191,5 +1952,34 @@
  "released_at": "2026-11-16 20:54",
  "voice_requested": "voice-gk-32-no-night-countries-555331342a",
  "voice_ok": "voice-gk-32-no-night-countries-555331342a",
- "voice_approved_at": "2026-11-16 21:21"
+ "voice_approved_at": "2026-11-16 21:21",
+ "repaint": {
+  "shots": [
+   13,
+   25,
+   27,
+   34,
+   46
+  ],
+  "thumbs": [],
+  "at": "2026-11-16 21:36"
+ },
+ "shot_qc": {
+  "checked": "2026-11-16T16:04:28Z",
+  "rounds": 1,
+  "why": {
+   "13": "Only six flags are shown, not the eight in the line. Russia, the US and Denmark are missing, and one flag looks like an English cross.",
+   "25": "It shows an orange knob on a dial, not an orange on a needle being turned in torchlight.",
+   "27": "It shows a glowing lamp or gauge, not an orange leaning away from the torch.",
+   "34": "It shows a single sun on the horizon, not the row of suns sweeping around the sky that the line describes.",
+   "46": "The window shows bright snow, not the darkness at noon that the line describes."
+  },
+  "recheck": [
+   "13",
+   "25",
+   "27",
+   "34",
+   "46"
+  ]
+ }
 }
