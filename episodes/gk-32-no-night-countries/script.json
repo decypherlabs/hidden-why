@@ -6,7 +6,6 @@
  "lang": "hi",
  "words_in_edit": true,
  "approved": true,
- "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "title": "आर्कटिक सर्कल में रात क्यों नहीं होती? फिर सूरज ग़ायब कहाँ होता है? 🌍",
@@ -68,10 +67,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "अलास्का के एक शहर में सूरज करीब 65 दिन उगता ही नहीं।",
+     "vo": "अलास्का के एक शहर में सूरज करीब पैंसठ दिन उगता ही नहीं।",
      "prompt": "A small snowy Arctic town in Alaska under a dark blue sky, wooden houses on stilts, snowmobiles parked outside, streetlights glowing, no sun anywhere, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अलास्का के एक शहर में सूरज करीब 65 दिन उगता ही नहीं।"
     },
     {
      "vo": "वहाँ लोग सोते कब हैं? बच्चे स्कूल कैसे जाते हैं?",
@@ -201,10 +201,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "मज़ेदार बात, ये लाइन टिकी हुई नहीं है। ये हर साल करीब 15 मीटर उत्तर खिसक रही है।",
+     "vo": "मज़ेदार बात, ये लाइन टिकी हुई नहीं है। ये हर साल करीब पंद्रह मीटर उत्तर खिसक रही है।",
      "prompt": "A surveyor in a red jacket measuring with a tape across a grassy field on a windswept island, a white wooden marker post in the ground, sea behind, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "मज़ेदार बात, ये लाइन टिकी हुई नहीं है। ये हर साल करीब 15 मीटर उत्तर खिसक रही है।"
     },
     {
      "vo": "इसीलिए ग्रिम्सी पर लाइन दिखाने वाला कंक्रीट का एक बड़ा गोला समय-समय पर खिसकाया जाता है।",
@@ -239,10 +240,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "उसकी धुरी करीब 23.4 डिग्री झुकी हुई है। जैसे कोई लट्टू तिरछा होकर घूम रहा हो।",
+     "vo": "उसकी धुरी करीब तेईस दशमलव चार डिग्री झुकी हुई है। जैसे कोई लट्टू तिरछा होकर घूम रहा हो।",
      "prompt": "A wooden spinning top (lattu) spinning tilted on a smooth stone courtyard floor in India, a child's hand pulling back the string, motion blur on the top, warm afternoon light, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उसकी धुरी करीब 23.4 डिग्री झुकी हुई है। जैसे कोई लट्टू तिरछा होकर घूम रहा हो।"
     },
     {
      "vo": "और ये झुकाव पूरे साल एक ही दिशा में रहता है, ध्रुव तारे की तरफ़।",
@@ -263,7 +265,7 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "ये रोशनी ध्रुव से 23.4 डिग्री आगे तक पहुँचती है। 90 में से 23.4 घटाइए, बचता है करीब साढ़े छियासठ।",
+     "vo": "ये रोशनी ध्रुव से तेईस दशमलव चार डिग्री आगे तक पहुँचती है। नब्बे में से तेईस दशमलव चार घटाइए, बचता है करीब साढ़े छियासठ।",
      "map": {
       "center": [
        75,
@@ -286,7 +288,8 @@
        }
       ],
       "circles": []
-     }
+     },
+     "caption": "ये रोशनी ध्रुव से 23.4 डिग्री आगे तक पहुँचती है। 90 में से 23.4 घटाइए, बचता है करीब साढ़े छियासठ।"
     },
     {
      "vo": "दिसंबर में उल्टा होता है। उत्तर का हिस्सा सूरज से दूर झुक जाता है।",
@@ -307,10 +310,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "मौसम दूरी से नहीं, झुकाव से बनते हैं। दिल्ली में जून का सबसे लंबा दिन करीब 14 घंटे का होता है।",
+     "vo": "मौसम दूरी से नहीं, झुकाव से बनते हैं। दिल्ली में जून का सबसे लंबा दिन करीब चौदह घंटे का होता है।",
      "prompt": "India Gate in Delhi in a long June evening, families walking on the lawns, ice-cream carts, the sun still high and bright late in the day, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "मौसम दूरी से नहीं, झुकाव से बनते हैं। दिल्ली में जून का सबसे लंबा दिन करीब 14 घंटे का होता है।"
     },
     {
      "vo": "और दिसंबर का सबसे छोटा दिन, करीब सवा दस घंटे का। उत्तर की तरफ़ जाएँ, तो ये फ़र्क़ बढ़ता ही जाता है।",
@@ -331,10 +335,11 @@
    "card": "आधी रात का सूरज",
    "shots": [
     {
-     "vo": "नॉर्वे का ट्रोम्सो शहर। यहाँ करीब 20 मई से 22 जुलाई तक सूरज डूबता ही नहीं।",
+     "vo": "नॉर्वे का ट्रोम्सो शहर। यहाँ करीब बीस मई से बाईस जुलाई तक सूरज डूबता ही नहीं।",
      "prompt": "Tromsø, Norway, colourful wooden houses along the harbour and a white triangular church across the water, bright low sunlight at midnight, boats in the harbour, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "नॉर्वे का ट्रोम्सो शहर। यहाँ करीब 20 मई से 22 जुलाई तक सूरज डूबता ही नहीं।"
     },
     {
      "vo": "यहाँ सूरज ऊपर उठकर नीचे नहीं गिरता। वो आसमान में चारों तरफ़ गोल चक्कर काटता है।",
@@ -349,7 +354,7 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "ठीक आर्कटिक सर्कल पर ये बस 21 जून के आसपास होता है। ऊपर नॉर्थ केप पर करीब ढाई महीने।",
+     "vo": "ठीक आर्कटिक सर्कल पर ये बस इक्कीस जून के आसपास होता है। ऊपर नॉर्थ केप पर करीब ढाई महीने।",
      "map": {
       "center": [
        72,
@@ -393,7 +398,8 @@
        }
       ],
       "circles": []
-     }
+     },
+     "caption": "ठीक आर्कटिक सर्कल पर ये बस 21 जून के आसपास होता है। ऊपर नॉर्थ केप पर करीब ढाई महीने।"
     },
     {
      "vo": "स्वालबार्ड के लॉन्गइयरबायन में करीब चार महीने। और नॉर्थ पोल पर? छह महीने का एक लंबा दिन।",
@@ -476,16 +482,18 @@
      }
     },
     {
-     "vo": "यहाँ करीब 18 नवंबर को सूरज डूबता है। और 22 जनवरी के आसपास ही दोबारा दिखता है।",
+     "vo": "यहाँ करीब अट्ठारह नवंबर को सूरज डूबता है। और बाईस जनवरी के आसपास ही दोबारा दिखता है।",
      "prompt": "Utqiagvik, Alaska, a snowy street of low wooden houses and pickup trucks at what is midday, the sky dark blue with a faint glow on the southern horizon, streetlights on, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "यहाँ करीब 18 नवंबर को सूरज डूबता है। और 22 जनवरी के आसपास ही दोबारा दिखता है।"
     },
     {
-     "vo": "यानी करीब 65 दिन, बिना एक बार सूरज देखे।",
+     "vo": "यानी करीब पैंसठ दिन, बिना एक बार सूरज देखे।",
      "prompt": "A kitchen in an Arctic home, a wall calendar page reading \"DECEMBER\" next to a window showing only darkness and snow outside at noon, a kettle steaming on the stove, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "यानी करीब 65 दिन, बिना एक बार सूरज देखे।"
     },
     {
      "vo": "पर ये घुप अँधेरा नहीं होता। दोपहर में कुछ घंटे आसमान गहरा नीला चमकता है।",
@@ -572,10 +580,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "धूप कम हो, तो त्वचा में विटामिन D भी कम बनता है। इसलिए नॉर्वे में मछली के तेल की परंपरा पुरानी है।",
+     "vo": "धूप कम हो, तो त्वचा में विटामिन डी भी कम बनता है। इसलिए नॉर्वे में मछली के तेल की परंपरा पुरानी है।",
      "prompt": "A Norwegian mother giving a spoon of cod liver oil to a grimacing child at a kitchen table, a large bottle with a label reading \"TRAN\" beside them, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "धूप कम हो, तो त्वचा में विटामिन D भी कम बनता है। इसलिए नॉर्वे में मछली के तेल की परंपरा पुरानी है।"
     },
     {
      "vo": "बच्चे अँधेरे में स्कूल जाते हैं, चमकने वाली पट्टियों वाली जैकेट पहनकर।",
@@ -596,10 +605,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "लॉन्गइयरबायन में करीब 8 मार्च को धूप पहली बार पुराने अस्पताल की सीढ़ियों तक पहुँचती है। लोग वहाँ जमा होकर जश्न मनाते हैं।",
+     "vo": "लॉन्गइयरबायन में करीब आठ मार्च को धूप पहली बार पुराने अस्पताल की सीढ़ियों तक पहुँचती है। लोग वहाँ जमा होकर जश्न मनाते हैं।",
      "prompt": "A crowd of people in winter clothes gathered on old wooden steps in Longyearbyen, faces turned up and smiling as the first sunlight falls on them, children holding paper suns, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "लॉन्गइयरबायन में करीब 8 मार्च को धूप पहली बार पुराने अस्पताल की सीढ़ियों तक पहुँचती है। लोग वहाँ जमा होकर जश्न मनाते हैं।"
     },
     {
      "vo": "इंसानों के पास लैंप, पर्दे और त्योहार हैं। पर जानवरों के पास क्या है?",
@@ -656,10 +666,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "2024 में छपी एक रिसर्च के मुताबिक़, रेनडियर जुगाली करते-करते भी हल्की नींद ले लेते हैं।",
+     "vo": "दो हज़ार चौबीस में छपी एक रिसर्च के मुताबिक़, रेनडियर जुगाली करते-करते भी हल्की नींद ले लेते हैं।",
      "prompt": "A reindeer lying in the snow with half-closed eyes, jaw mid-chew while ruminating, snowflakes on its antlers, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "2024 में छपी एक रिसर्च के मुताबिक़, रेनडियर जुगाली करते-करते भी हल्की नींद ले लेते हैं।"
     },
     {
      "vo": "और एक छोटी चिड़िया, आर्कटिक टर्न, आर्कटिक की गर्मी के बाद अंटार्कटिका की गर्मी पकड़ने उड़ जाती है।",
@@ -686,10 +697,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "उत्तर भारत में हैं, तो 21 जून की दोपहर अपनी परछाई देखिए। दोपहर की सबसे छोटी परछाई मिलेगी।",
+     "vo": "उत्तर भारत में हैं, तो इक्कीस जून की दोपहर अपनी परछाई देखिए। दोपहर की सबसे छोटी परछाई मिलेगी।",
      "prompt": "An Indian boy standing on a sunny rooftop at noon looking down at a very short shadow right under his feet, harsh overhead sunlight, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उत्तर भारत में हैं, तो 21 जून की दोपहर अपनी परछाई देखिए। दोपहर की सबसे छोटी परछाई मिलेगी।"
     },
     {
      "vo": "अगले एपिसोड में: अंटार्कटिका किसी एक देश का क्यों नहीं, फिर भी वहाँ इतने देशों के झंडे क्यों?",
@@ -726,5 +738,6 @@
    1
   ]
  },
- "framework": "2026-11-16 20:41"
+ "released_at": "2026-11-16 20:42",
+ "voice_requested": "voice-gk-32-no-night-countries-555331342a"
 }
