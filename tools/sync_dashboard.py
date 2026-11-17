@@ -137,9 +137,11 @@ def track_scripts(released):
         pdir = project_dir(slug) or videos(slug) / time.strftime("%Y-%m-%d") / slug
         pj = pdir / "project.json"
         old = json.loads(pj.read_text()) if pj.exists() else {}
-        if old.get("status") == "done" or (old.get("status"), old.get("step"), old.get("title")) == (status, step, sc["title"]) \
+        if old.get("status") in ("done", "qc") or (old.get("status"), old.get("step"), old.get("title")) == (status, step, sc["title"]) \
                 or (old.get("status") == "awaiting_review" and status == "script"):  # QC-held stays held (no rebuild loop)
-            continue
+            continue  # "qc": built, QC waits for the channel's hours (17 Nov 2026: gk-32's card was reset to a script)
+        if old.get("items") and any(pdir.glob("long/*.mp4")):
+            continue  # a built video is never turned back into a script card
         pdir.mkdir(parents=True, exist_ok=True)
         now = time.strftime("%Y-%m-%dT%H:%M:%S")
         pj.write_text(json.dumps({
