@@ -181,7 +181,8 @@ def import_promo(slug, par, src, day):
     """A promo Short goes into its full episode's project, beside the long-form (owner, 8 Nov 2026: "for LL, the
     promotional shorts should be part of same project"); named by its slug, so two promos never share a file
     (ll-019's two teasers were both amul.mp4). The episode's status and title stay its own."""
-    meta = json.loads((src / "meta.json").read_text())
+    mf = src / "meta.json" if (src / "meta.json").exists() else ROOT / "episodes" / slug / "meta.json"  # a build that ran
+    meta = json.loads(mf.read_text())  # before the writer's meta.json was pushed ships none (17 Nov 2026, gk-30)
     title = meta["youtube"]["title"]
     pdir = project_dir(par) or videos(par) / day / par
     (pdir / "shorts").mkdir(parents=True, exist_ok=True)
@@ -222,7 +223,8 @@ def import_episode(slug, src, day, status="done"):
     par = parent_of(slug)
     if par:
         return import_promo(slug, par, src, day)
-    meta = json.loads((src / "meta.json").read_text())
+    mf = src / "meta.json" if (src / "meta.json").exists() else ROOT / "episodes" / slug / "meta.json"  # a build that ran
+    meta = json.loads(mf.read_text())  # before the writer's meta.json was pushed ships none (17 Nov 2026, gk-30)
     title = meta["youtube"]["title"]
     pdir = project_dir(slug) or videos(slug) / day / slug  # the script's card becomes the episode
     sc = ROOT / "episodes" / slug / "script.json"
