@@ -48,7 +48,14 @@
       "credit": "Pixabay (Fuzz)",
       "page": "https://pixabay.com/photos/airplane-adventure-travel-221526/",
       "card": 0.72
-     }
+     },
+     "words": {
+      "01": {
+       "src": "19ccec5bc398",
+       "items": []
+      }
+     },
+     "seed": 8920
     },
     {
      "vo": "नीचे बादल हैं, और उसी आसमान में सैकड़ों जहाज़ और उड़ रहे हैं।",
@@ -174,7 +181,134 @@
       "credit": "Pixabay (bernswaelz)",
       "page": "https://pixabay.com/photos/tower-aviation-airport-1379715/",
       "card": 0.72
-     }
+     },
+     "words": {
+      "11": {
+       "src": "5861f28e3e5e",
+       "items": [
+        {
+         "text": "AIRPORTS AUTHORITY OF INDIA",
+         "grid": [
+          [
+           [
+            42.1,
+            439.0
+           ],
+           [
+            112.5,
+            419.1
+           ],
+           [
+            184.2,
+            406.2
+           ],
+           [
+            255.8,
+            400.7
+           ],
+           [
+            326.2,
+            402.4
+           ],
+           [
+            397.8,
+            411.6
+           ],
+           [
+            469.3,
+            428.2
+           ]
+          ],
+          [
+           [
+            42.1,
+            487.7
+           ],
+           [
+            112.4,
+            474.1
+           ],
+           [
+            184.0,
+            465.3
+           ],
+           [
+            255.6,
+            461.7
+           ],
+           [
+            325.9,
+            463.1
+           ],
+           [
+            397.5,
+            469.6
+           ],
+           [
+            468.9,
+            481.3
+           ]
+          ],
+          [
+           [
+            42.1,
+            536.4
+           ],
+           [
+            112.4,
+            529.0
+           ],
+           [
+            183.9,
+            524.4
+           ],
+           [
+            255.4,
+            522.6
+           ],
+           [
+            325.6,
+            523.6
+           ],
+           [
+            397.1,
+            527.5
+           ],
+           [
+            468.6,
+            534.3
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1a2a5a",
+         "corners": [
+          [
+           13,
+           352
+          ],
+          [
+           499,
+           352
+          ],
+          [
+           497,
+           618
+          ],
+          [
+           13,
+           618
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8930
     },
     {
      "vo": "भारत का आसमान चार बड़े हिस्सों में बँटा है: दिल्ली, मुंबई, कोलकाता और चेन्नई। इनमें समुद्र के ऊपर का बड़ा आसमान भी शामिल है।",
@@ -244,6 +378,132 @@
       "credit": "Pixabay (sabinurce)",
       "page": "https://pixabay.com/photos/plane-clock-indicators-controls-85519/",
       "card": 0.72
+     },
+     "words": {
+      "14": {
+       "src": "6dc09da5a52b",
+       "items": [
+        {
+         "text": "SQUAWK 4521",
+         "grid": [
+          [
+           [
+            412.9,
+            561.6
+           ],
+           [
+            481.3,
+            542.0
+           ],
+           [
+            545.9,
+            523.4
+           ],
+           [
+            605.7,
+            506.1
+           ],
+           [
+            660.5,
+            490.2
+           ],
+           [
+            712.6,
+            475.0
+           ],
+           [
+            761.2,
+            460.8
+           ]
+          ],
+          [
+           [
+            448.0,
+            596.7
+           ],
+           [
+            515.8,
+            577.2
+           ],
+           [
+            579.6,
+            558.7
+           ],
+           [
+            638.9,
+            541.4
+           ],
+           [
+            693.0,
+            525.6
+           ],
+           [
+            744.5,
+            510.4
+           ],
+           [
+            792.5,
+            496.2
+           ]
+          ],
+          [
+           [
+            482.4,
+            631.2
+           ],
+           [
+            549.6,
+            611.8
+           ],
+           [
+            612.8,
+            593.4
+           ],
+           [
+            671.4,
+            576.2
+           ],
+           [
+            725.0,
+            560.3
+           ],
+           [
+            775.8,
+            545.2
+           ],
+           [
+            823.3,
+            530.9
+           ]
+          ]
+         ],
+         "style": "type",
+         "color": "#111111",
+         "corners": [
+          [
+           314,
+           502
+          ],
+          [
+           742,
+           412
+          ],
+          [
+           881,
+           570
+          ],
+          [
+           512,
+           698
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -290,7 +550,133 @@
      "prompt": "A pilot's quick reference card clipped in a cockpit, the card reading \"7700 EMERGENCY\" large and clear, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "कुछ code ख़ास हैं। 7700 मतलब emergency, 7600 मतलब रेडियो ख़राब, 7500 मतलब hijack।"
+     "caption": "कुछ code ख़ास हैं। 7700 मतलब emergency, 7600 मतलब रेडियो ख़राब, 7500 मतलब hijack।",
+     "words": {
+      "19": {
+       "src": "c0a7a7c35c17",
+       "items": [
+        {
+         "text": "7700 EMERGENCY",
+         "grid": [
+          [
+           [
+            666.9,
+            376.7
+           ],
+           [
+            728.1,
+            362.4
+           ],
+           [
+            794.2,
+            364.0
+           ],
+           [
+            864.4,
+            383.4
+           ],
+           [
+            937.7,
+            421.2
+           ],
+           [
+            1017.0,
+            480.5
+           ],
+           [
+            1101.6,
+            562.8
+           ]
+          ],
+          [
+           [
+            668.1,
+            453.1
+           ],
+           [
+            729.4,
+            444.6
+           ],
+           [
+            795.5,
+            446.8
+           ],
+           [
+            865.6,
+            460.8
+           ],
+           [
+            938.7,
+            487.2
+           ],
+           [
+            1017.7,
+            528.0
+           ],
+           [
+            1101.9,
+            584.2
+           ]
+          ],
+          [
+           [
+            669.3,
+            529.4
+           ],
+           [
+            730.7,
+            526.7
+           ],
+           [
+            796.8,
+            529.4
+           ],
+           [
+            866.7,
+            538.1
+           ],
+           [
+            939.6,
+            553.1
+           ],
+           [
+            1018.4,
+            575.5
+           ],
+           [
+            1102.1,
+            605.6
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#b00000",
+         "corners": [
+          [
+           641,
+           294
+          ],
+          [
+           1133,
+           261
+          ],
+          [
+           1138,
+           636
+          ],
+          [
+           646,
+           602
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "अंतरराष्ट्रीय उड़ानों में ए टी सी की भाषा अंग्रेज़ी है। भारत में घरेलू उड़ानों पर भी बात अंग्रेज़ी में ही होती है।",
@@ -312,6 +698,132 @@
       "credit": "NATO phonetic alphabet on Free Download.jpg by AlanCristArt, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:NATO_phonetic_alphabet_on_Free_Download.jpg",
       "card": 0.72
+     },
+     "words": {
+      "21": {
+       "src": "fe013a392573",
+       "items": [
+        {
+         "text": "B = BRAVO",
+         "grid": [
+          [
+           [
+            361.6,
+            350.3
+           ],
+           [
+            475.6,
+            352.8
+           ],
+           [
+            589.9,
+            354.7
+           ],
+           [
+            702.6,
+            355.8
+           ],
+           [
+            811.8,
+            356.4
+           ],
+           [
+            921.4,
+            356.3
+           ],
+           [
+            1029.5,
+            355.6
+           ]
+          ],
+          [
+           [
+            361.6,
+            432.4
+           ],
+           [
+            475.6,
+            433.7
+           ],
+           [
+            589.9,
+            434.7
+           ],
+           [
+            702.6,
+            435.3
+           ],
+           [
+            811.8,
+            435.5
+           ],
+           [
+            921.4,
+            435.4
+           ],
+           [
+            1029.5,
+            434.9
+           ]
+          ],
+          [
+           [
+            361.6,
+            514.4
+           ],
+           [
+            475.6,
+            514.7
+           ],
+           [
+            589.9,
+            514.8
+           ],
+           [
+            702.6,
+            514.8
+           ],
+           [
+            811.8,
+            514.7
+           ],
+           [
+            921.4,
+            514.5
+           ],
+           [
+            1029.5,
+            514.1
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a2a5a",
+         "corners": [
+          [
+           314,
+           260
+          ],
+          [
+           1073,
+           273
+          ],
+          [
+           1073,
+           599
+          ],
+          [
+           314,
+           602
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -332,7 +844,7 @@
      "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
      "subscribe_ask": true,
      "prompt": "A pushback tug pushing an airliner back from the gate at morning, ground crew with headset walking beside the nose wheel, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "seed": 1500,
+     "seed": 9419,
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "move": "pull"
     },
@@ -394,6 +906,132 @@
       "credit": "Ben Gurion International Airport taxiway sign with traffic or security camera.jpg by McKaby, CC0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Ben_Gurion_International_Airport_taxiway_sign_with_traffic_or_security_camera.jpg",
       "card": 0.72
+     },
+     "words": {
+      "28": {
+       "src": "197cfc2ef692",
+       "items": [
+        {
+         "text": "B4",
+         "grid": [
+          [
+           [
+            685.4,
+            354.6
+           ],
+           [
+            732.2,
+            354.8
+           ],
+           [
+            779.9,
+            354.9
+           ],
+           [
+            827.5,
+            354.9
+           ],
+           [
+            874.3,
+            354.8
+           ],
+           [
+            922.0,
+            354.6
+           ],
+           [
+            969.6,
+            354.3
+           ]
+          ],
+          [
+           [
+            685.4,
+            433.2
+           ],
+           [
+            732.2,
+            433.3
+           ],
+           [
+            779.9,
+            433.4
+           ],
+           [
+            827.5,
+            433.4
+           ],
+           [
+            874.3,
+            433.3
+           ],
+           [
+            922.0,
+            433.2
+           ],
+           [
+            969.6,
+            433.0
+           ]
+          ],
+          [
+           [
+            685.4,
+            511.8
+           ],
+           [
+            732.2,
+            511.8
+           ],
+           [
+            779.9,
+            511.8
+           ],
+           [
+            827.5,
+            511.8
+           ],
+           [
+            874.3,
+            511.8
+           ],
+           [
+            922.0,
+            511.8
+           ],
+           [
+            969.6,
+            511.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#111111",
+         "corners": [
+          [
+           666,
+           320
+          ],
+          [
+           989,
+           320
+          ],
+          [
+           989,
+           547
+          ],
+          [
+           666,
+           547
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -423,7 +1061,8 @@
      "prompt": "Airliner nose wheel stopped just behind a glowing red stop bar on a taxiway, the runway beyond empty, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ये stop bar है। लाल जल रही है, तो जहाज़ उसे पार नहीं करता। बिना इजाज़त रनवे में घुसना सबसे ख़तरनाक गलतियों में गिना जाता है।"
+     "caption": "ये stop bar है। लाल जल रही है, तो जहाज़ उसे पार नहीं करता। बिना इजाज़त रनवे में घुसना सबसे ख़तरनाक गलतियों में गिना जाता है।",
+     "seed": 8950
     },
     {
      "vo": "अब कमान टावर के हाथ में है, जहाँ से रनवे आँखों से भी दिखता है।",
@@ -453,7 +1092,8 @@
       "credit": "Archie W. League in Uniform.jpg by My uncle Daniel League gave me this picture, but he is now deceased., CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Archie_W._League_in_Uniform.jpg",
       "card": 0.72
-     }
+     },
+     "seed": 8953
     },
     {
      "vo": "आज भी आम नियम सीधा है: एक रनवे पर, एक समय में, एक ही जहाज़।",
@@ -534,7 +1174,8 @@
       "credit": "Air traffic control at Beijing Daxing International Airport.jpg by Benlisquare, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Air_traffic_control_at_Beijing_Daxing_International_Airport.jpg",
       "card": 0.72
-     }
+     },
+     "seed": 8959
     },
     {
      "vo": "फिर एरिया कंट्रोल के पास। यहाँ एक कंट्रोलर सैकड़ों किलोमीटर लंबा आसमान का एक टुकड़ा अकेले संभालता है।",
@@ -549,7 +1190,8 @@
       "credit": "Pixabay (WayneJackson)",
       "page": "https://pixabay.com/photos/airport-radar-airport-radar-tower-6599449/",
       "card": 0.72
-     }
+     },
+     "seed": 8960
     },
     {
      "vo": "दिल्ली से मुंबई के करीब ग्यारह सौ पचास किलोमीटर में आप ऐसे कई कंट्रोलर्स से गुज़रते हैं।",
@@ -587,14 +1229,141 @@
      "prompt": "Close-up of a controller's hand passing a printed flight strip reading \"AI 865\" to the next controller's hand, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "एक टुकड़ा ख़त्म होते ही controller कहता है: अब इस frequency पर बात कीजिए। इसे handoff कहते हैं, और अगला controller पहले से तैयार रहता है।"
+     "caption": "एक टुकड़ा ख़त्म होते ही controller कहता है: अब इस frequency पर बात कीजिए। इसे handoff कहते हैं, और अगला controller पहले से तैयार रहता है।",
+     "words": {
+      "43": {
+       "src": "76ca57615460",
+       "items": [
+        {
+         "text": "AI 865",
+         "grid": [
+          [
+           [
+            544.3,
+            371.1
+           ],
+           [
+            618.8,
+            336.6
+           ],
+           [
+            692.1,
+            302.7
+           ],
+           [
+            763.0,
+            269.9
+           ],
+           [
+            830.4,
+            238.7
+           ],
+           [
+            896.9,
+            208.0
+           ],
+           [
+            961.2,
+            178.2
+           ]
+          ],
+          [
+           [
+            561.7,
+            408.0
+           ],
+           [
+            636.7,
+            372.6
+           ],
+           [
+            710.4,
+            337.7
+           ],
+           [
+            781.7,
+            304.0
+           ],
+           [
+            849.5,
+            271.9
+           ],
+           [
+            916.3,
+            240.4
+           ],
+           [
+            981.0,
+            209.8
+           ]
+          ],
+          [
+           [
+            579.4,
+            445.7
+           ],
+           [
+            654.9,
+            409.3
+           ],
+           [
+            729.1,
+            373.4
+           ],
+           [
+            800.8,
+            338.8
+           ],
+           [
+            869.0,
+            305.8
+           ],
+           [
+            936.1,
+            273.4
+           ],
+           [
+            1001.1,
+            242.0
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           506,
+           371
+          ],
+          [
+           979,
+           154
+          ],
+          [
+           1148,
+           420
+          ],
+          [
+           653,
+           691
+          ]
+         ],
+         "band": [
+          0.05,
+          0.3
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "अब वो नियम, जिससे टक्कर नहीं होती: हर दो जहाज़ों के बीच तय फ़ासला। इसे सेपरेशन कहते हैं।",
      "prompt": "Senior controller standing behind a seated colleague, both watching intently, room lit low, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अब वो नियम, जिससे टक्कर नहीं होती: हर दो जहाज़ों के बीच तय फ़ासला। इसे separation कहते हैं।"
+     "caption": "अब वो नियम, जिससे टक्कर नहीं होती: हर दो जहाज़ों के बीच तय फ़ासला। इसे separation कहते हैं।",
+     "seed": 8963
     },
     {
      "vo": "रडार वाले आसमान में, एक ही ऊँचाई पर आम तौर पर कम से कम पाँच नॉटिकल मील, यानी करीब नौ किलोमीटर।",
@@ -668,7 +1437,8 @@
       "credit": "Pixabay (tookapic)",
       "page": "https://pixabay.com/photos/condensation-trails-contrails-931834/",
       "card": 0.72
-     }
+     },
+     "seed": 8968
     },
     {
      "vo": "पर अगर कोई जहाज़ अपनी ऊँचाई छोड़ दे, तो? भारत ने इसकी क़ीमत एक बार चुकाई है।",
@@ -695,7 +1465,133 @@
      "prompt": "Mustard and wheat fields in rural Haryana at dusk, a village lamp lit, a wall calendar inside a house reading \"1996\", photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "12 नवंबर 1996। दिल्ली के पास, शाम के करीब पौने सात बजे थे।"
+     "caption": "12 नवंबर 1996। दिल्ली के पास, शाम के करीब पौने सात बजे थे।",
+     "words": {
+      "51": {
+       "src": "1543fe5b6b0f",
+       "items": [
+        {
+         "text": "1996",
+         "grid": [
+          [
+           [
+            951.3,
+            380.2
+           ],
+           [
+            980.4,
+            381.7
+           ],
+           [
+            1010.0,
+            382.7
+           ],
+           [
+            1039.6,
+            383.2
+           ],
+           [
+            1068.9,
+            383.2
+           ],
+           [
+            1098.7,
+            382.7
+           ],
+           [
+            1128.6,
+            381.7
+           ]
+          ],
+          [
+           [
+            952.3,
+            423.0
+           ],
+           [
+            981.4,
+            425.9
+           ],
+           [
+            1011.1,
+            428.0
+           ],
+           [
+            1040.8,
+            429.2
+           ],
+           [
+            1070.1,
+            429.5
+           ],
+           [
+            1100.0,
+            428.9
+           ],
+           [
+            1129.9,
+            427.4
+           ]
+          ],
+          [
+           [
+            953.3,
+            465.9
+           ],
+           [
+            982.5,
+            470.2
+           ],
+           [
+            1012.2,
+            473.4
+           ],
+           [
+            1042.0,
+            475.3
+           ],
+           [
+            1071.4,
+            475.9
+           ],
+           [
+            1101.3,
+            475.2
+           ],
+           [
+            1131.2,
+            473.2
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#222222",
+         "corners": [
+          [
+           938,
+           321
+          ],
+          [
+           1139,
+           321
+          ],
+          [
+           1148,
+           630
+          ],
+          [
+           945,
+           627
+          ]
+         ],
+         "band": [
+          0.2,
+          0.5
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "जगह थी हरियाणा का चरखी दादरी, दिल्ली एयरपोर्ट से करीब अस्सी किलोमीटर पश्चिम।",
@@ -792,7 +1688,133 @@
      "prompt": "Morning after in Haryana fields, villagers standing silently near scattered aircraft wreckage, smoke, a Hindi newspaper in a man's hand with headline \"आसमान में टक्कर\", photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "दोनों जहाज़ हवा में टकराए। Saudi के 312 और Kazakh के 37, सभी 349 लोगों की जान गई।"
+     "caption": "दोनों जहाज़ हवा में टकराए। Saudi के 312 और Kazakh के 37, सभी 349 लोगों की जान गई।",
+     "words": {
+      "58": {
+       "src": "267951a5b12a",
+       "items": [
+        {
+         "text": "आसमान में टक्कर",
+         "grid": [
+          [
+           [
+            722.6,
+            415.4
+           ],
+           [
+            769.7,
+            405.0
+           ],
+           [
+            818.5,
+            394.3
+           ],
+           [
+            868.2,
+            383.4
+           ],
+           [
+            918.0,
+            372.4
+           ],
+           [
+            969.6,
+            361.0
+           ],
+           [
+            1022.1,
+            349.5
+           ]
+          ],
+          [
+           [
+            731.4,
+            467.6
+           ],
+           [
+            778.9,
+            457.6
+           ],
+           [
+            828.2,
+            447.3
+           ],
+           [
+            878.5,
+            436.7
+           ],
+           [
+            928.8,
+            426.2
+           ],
+           [
+            980.9,
+            415.3
+           ],
+           [
+            1034.1,
+            404.1
+           ]
+          ],
+          [
+           [
+            740.2,
+            520.7
+           ],
+           [
+            788.3,
+            511.1
+           ],
+           [
+            838.1,
+            501.2
+           ],
+           [
+            888.9,
+            491.1
+           ],
+           [
+            939.7,
+            480.9
+           ],
+           [
+            992.4,
+            470.4
+           ],
+           [
+            1046.2,
+            459.7
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           700,
+           399
+          ],
+          [
+           1039,
+           323
+          ],
+          [
+           1142,
+           787
+          ],
+          [
+           772,
+           838
+          ]
+         ],
+         "band": [
+          0.05,
+          0.3
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "ये आज भी दुनिया की सबसे जानलेवा हवाई टक्कर है।",
@@ -805,7 +1827,133 @@
      "prompt": "A 1990s Indian government inquiry room, a judge at a wooden bench reading thick files, a folder on the bench reading \"जाँच आयोग\", photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "जस्टिस आर. सी. लाहोटी के जाँच आयोग ने गलती Kazakh crew की मानी।"
+     "caption": "जस्टिस आर. सी. लाहोटी के जाँच आयोग ने गलती Kazakh crew की मानी।",
+     "words": {
+      "60": {
+       "src": "b6bc0028bb54",
+       "items": [
+        {
+         "text": "जाँच आयोग",
+         "grid": [
+          [
+           [
+            402.7,
+            575.1
+           ],
+           [
+            456.8,
+            532.5
+           ],
+           [
+            507.7,
+            502.4
+           ],
+           [
+            555.7,
+            483.4
+           ],
+           [
+            601.0,
+            473.9
+           ],
+           [
+            646.1,
+            472.5
+           ],
+           [
+            690.8,
+            478.6
+           ]
+          ],
+          [
+           [
+            405.4,
+            594.7
+           ],
+           [
+            460.7,
+            555.4
+           ],
+           [
+            512.7,
+            527.3
+           ],
+           [
+            561.6,
+            509.2
+           ],
+           [
+            607.7,
+            499.7
+           ],
+           [
+            653.3,
+            497.7
+           ],
+           [
+            698.2,
+            502.4
+           ]
+          ],
+          [
+           [
+            408.1,
+            614.7
+           ],
+           [
+            464.7,
+            578.8
+           ],
+           [
+            517.9,
+            552.8
+           ],
+           [
+            567.8,
+            535.7
+           ],
+           [
+            614.7,
+            526.4
+           ],
+           [
+            660.7,
+            523.6
+           ],
+           [
+            705.9,
+            527.0
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           362,
+           461
+          ],
+          [
+           701,
+           458
+          ],
+          [
+           758,
+           636
+          ],
+          [
+           390,
+           689
+          ]
+         ],
+         "band": [
+          0.1,
+          0.4
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "जाँच में ये भी निकला कि क्रू में सिर्फ़ रेडियो ऑपरेटर अंग्रेज़ी समझता था, और क्रू अपनी ऊँचाई ठीक से संभाल नहीं पाया।",
@@ -862,7 +2010,133 @@
      "prompt": "Technician in an aircraft avionics bay installing a black electronic box, a label on the box reading \"TCAS\", photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "उस मशीन का नाम है TCAS। भारत ने हर बड़े यात्री जहाज़ में इसे ज़रूरी कर दिया, दुनिया के कई देशों से पहले।"
+     "caption": "उस मशीन का नाम है TCAS। भारत ने हर बड़े यात्री जहाज़ में इसे ज़रूरी कर दिया, दुनिया के कई देशों से पहले।",
+     "words": {
+      "65": {
+       "src": "0e490013d713",
+       "items": [
+        {
+         "text": "TCAS",
+         "grid": [
+          [
+           [
+            694.6,
+            387.1
+           ],
+           [
+            737.7,
+            384.6
+           ],
+           [
+            781.4,
+            382.1
+           ],
+           [
+            825.0,
+            379.6
+           ],
+           [
+            867.8,
+            377.2
+           ],
+           [
+            911.1,
+            374.7
+           ],
+           [
+            954.3,
+            372.2
+           ]
+          ],
+          [
+           [
+            696.5,
+            441.6
+           ],
+           [
+            740.0,
+            439.2
+           ],
+           [
+            784.1,
+            436.8
+           ],
+           [
+            828.1,
+            434.3
+           ],
+           [
+            871.3,
+            431.8
+           ],
+           [
+            915.0,
+            429.2
+           ],
+           [
+            958.6,
+            426.7
+           ]
+          ],
+          [
+           [
+            698.4,
+            497.2
+           ],
+           [
+            742.3,
+            494.8
+           ],
+           [
+            786.8,
+            492.4
+           ],
+           [
+            831.3,
+            490.0
+           ],
+           [
+            874.8,
+            487.5
+           ],
+           [
+            919.0,
+            484.8
+           ],
+           [
+            963.0,
+            482.2
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           676,
+           364
+          ],
+          [
+           970,
+           348
+          ],
+          [
+           983,
+           507
+          ],
+          [
+           681,
+           525
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "टी कैस आसपास के जहाज़ों के ट्रांसपोंडर से सीधे बात करता है, ज़मीन से पूछे बिना।",
@@ -1102,7 +2376,8 @@
       "credit": "ILA 2008 Airbus A380 body.jpg by Jochen Teufel, CC BY-SA 3.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:ILA_2008_Airbus_A380_body.jpg",
       "card": 0.72
-     }
+     },
+     "seed": 9005
     },
     {
      "vo": "आख़िरी हिस्से में ज़मीन से दो रेडियो किरणें रास्ता दिखाती हैं: एक दाएँ-बाएँ, दूसरी ऊपर-नीचे। इसे आई एल एस कहते हैं।",
@@ -1117,6 +2392,132 @@
       "credit": "London Heathrow Instrument Landing System (ILS), October 2023 03.jpg by DaHuzyBru, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:London_Heathrow_Instrument_Landing_System_(ILS),_October_2023_03.jpg",
       "card": 0.72
+     },
+     "words": {
+      "87": {
+       "src": "705cd9192ef0",
+       "items": [
+        {
+         "text": "ILS",
+         "grid": [
+          [
+           [
+            614.4,
+            371.2
+           ],
+           [
+            654.2,
+            371.2
+           ],
+           [
+            694.6,
+            371.2
+           ],
+           [
+            735.0,
+            371.3
+           ],
+           [
+            774.7,
+            371.3
+           ],
+           [
+            815.1,
+            371.4
+           ],
+           [
+            855.6,
+            371.5
+           ]
+          ],
+          [
+           [
+            614.4,
+            414.7
+           ],
+           [
+            654.2,
+            414.8
+           ],
+           [
+            694.6,
+            414.9
+           ],
+           [
+            735.0,
+            415.0
+           ],
+           [
+            774.7,
+            415.2
+           ],
+           [
+            815.1,
+            415.4
+           ],
+           [
+            855.6,
+            415.7
+           ]
+          ],
+          [
+           [
+            614.4,
+            458.3
+           ],
+           [
+            654.2,
+            458.4
+           ],
+           [
+            694.6,
+            458.6
+           ],
+           [
+            735.0,
+            458.8
+           ],
+           [
+            774.7,
+            459.1
+           ],
+           [
+            815.1,
+            459.5
+           ],
+           [
+            855.6,
+            459.9
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1a2a5a",
+         "corners": [
+          [
+           598,
+           369
+          ],
+          [
+           872,
+           369
+          ],
+          [
+           872,
+           479
+          ],
+          [
+           598,
+           479
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -1185,7 +2586,8 @@
      "vo": "ऐसे ही गज़ब सवालों के लिए सब्सक्राइब करें।",
      "prompt": "Young Indian passenger smiling at the window as the plane taxis to the gate at sunrise, a marshaller with glowing wands outside, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 9013
     }
    ]
   }
@@ -1215,5 +2617,55 @@
  "released_at": "2026-11-17 21:46",
  "voice_requested": "voice-gk-34-atc-tower-inside-d3620d2341",
  "voice_ok": "voice-gk-34-atc-tower-inside-d3620d2341",
- "voice_approved_at": "2026-11-17 22:10"
+ "voice_approved_at": "2026-11-17 22:10",
+ "repaint": {
+  "shots": [
+   1,
+   11,
+   18,
+   23,
+   31,
+   34,
+   40,
+   41,
+   44,
+   49,
+   86,
+   94
+  ],
+  "thumbs": [],
+  "at": "2026-11-18 00:02"
+ },
+ "shot_qc": {
+  "checked": "2026-11-17T18:29:32Z",
+  "rounds": 1,
+  "why": {
+   "11": "Wall board has garbled lettering (AIR THE SUILDING / STAFIC) next to the correct AAI board",
+   "18": "Wall chart with lettering and labels; the line is about the controller seeing the plane's name and altitude",
+   "23": "Aircraft body is malformed: tail and wing don't fit together",
+   "31": "No stop bar visible; only a red glow behind the nose wheel",
+   "34": "Checkered flag missing; he holds two red flags",
+   "40": "World map shown on the screens",
+   "41": "World map on the large wall screen",
+   "44": "World map on a screen; the line is about separation between aircraft",
+   "49": "Two airliners fused into one long body, not two jets passing at different heights",
+   "86": "Small turboprop sits directly under the big jet's nose and looks fused with it; the line says far behind",
+   "94": "Marshaller with wands sits inside the cabin in a window seat wearing a headset; the line is a passenger smiling as the plane taxis, and the card text is gibberish",
+   "1": "no blank surface for its words"
+  },
+  "recheck": [
+   "1",
+   "11",
+   "18",
+   "23",
+   "31",
+   "34",
+   "40",
+   "41",
+   "44",
+   "49",
+   "86",
+   "94"
+  ]
+ }
 }
