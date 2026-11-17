@@ -48,7 +48,133 @@
      "prompt": "Worried Indian relatives sitting on a bench in a small district hospital corridor at night, a large wall board above a ward door reading \"सर्पदंश उपचार\", worn green walls, tube light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "भारत में साँप के काटने से हर साल करीब 58,000 लोग मरते हैं।"
+     "caption": "भारत में साँप के काटने से हर साल करीब 58,000 लोग मरते हैं।",
+     "words": {
+      "02": {
+       "src": "810b1ca2645b",
+       "items": [
+        {
+         "text": "सर्पदंश उपचार",
+         "grid": [
+          [
+           [
+            546.1,
+            62.8
+           ],
+           [
+            618.9,
+            67.6
+           ],
+           [
+            693.0,
+            72.4
+           ],
+           [
+            767.0,
+            77.0
+           ],
+           [
+            839.8,
+            81.3
+           ],
+           [
+            913.8,
+            85.6
+           ],
+           [
+            987.9,
+            89.6
+           ]
+          ],
+          [
+           [
+            546.1,
+            131.1
+           ],
+           [
+            618.9,
+            134.0
+           ],
+           [
+            693.0,
+            136.5
+           ],
+           [
+            767.0,
+            138.3
+           ],
+           [
+            839.8,
+            139.5
+           ],
+           [
+            913.8,
+            140.1
+           ],
+           [
+            987.9,
+            140.2
+           ]
+          ],
+          [
+           [
+            546.1,
+            199.4
+           ],
+           [
+            618.9,
+            200.4
+           ],
+           [
+            693.0,
+            200.5
+           ],
+           [
+            767.0,
+            199.6
+           ],
+           [
+            839.8,
+            197.7
+           ],
+           [
+            913.8,
+            194.7
+           ],
+           [
+            987.9,
+            190.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           516,
+           36
+          ],
+          [
+           1018,
+           36
+          ],
+          [
+           1018,
+           228
+          ],
+          [
+           516,
+           228
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "पर एक छोटा काला जानवर उसी कोबरा पर टूट पड़ता है।",
@@ -106,23 +232,26 @@
     },
     {
      "vo": "गर्दन के आसपास ये करीब छह मिलीमीटर तक मोटी होती है।",
-     "prompt": "Side close-up of a black honey badger's neck and shoulders, thick folds of loose skin visible under the coarse fur, natural overcast daylight, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Side view of a black honey badger with a silver-white back stripe, its neck and shoulders showing thick folds of loose skin under flat coarse fur, standing on plain red sand, natural overcast daylight, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "गर्दन के आसपास ये करीब 6 मिलीमीटर तक मोटी होती है।"
+     "caption": "गर्दन के आसपास ये करीब 6 मिलीमीटर तक मोटी होती है।",
+     "seed": 8930
     },
     {
      "vo": "ये आपकी बाँह की खाल से कुछ गुना मोटी है।",
-     "prompt": "A bare human forearm resting beside the thick furry shoulder of a sedated honey badger on a steel vet's table, the skin thickness contrast clear, bright clinic light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A bare human forearm resting beside the thick skin fold on the shoulder of a sedated black honey badger with a silver-white back stripe, on a steel vet's table, plain white clinic wall, bright clinic light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8931
     },
     {
      "vo": "जबकि जानवर ख़ुद छोटा है। नर करीब नौ से सोलह किलो, मादा पाँच से दस किलो।",
-     "prompt": "A large male honey badger on the left and a smaller female on the right standing side by side on red sand, full bodies visible, afternoon light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A larger male honey badger on the left and a smaller female on the right standing side by side on red sand, both black with a broad silver-white stripe along the back, full bodies visible, empty open desert behind, afternoon light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "जबकि जानवर ख़ुद छोटा है। नर करीब 9 से 16 किलो, मादा 5 से 10 किलो।"
+     "caption": "जबकि जानवर ख़ुद छोटा है। नर करीब 9 से 16 किलो, मादा 5 से 10 किलो।",
+     "seed": 8932
     },
     {
      "vo": "ये अफ्रीका से अरब और ईरान होते हुए भारत तक मिलता है।",
@@ -171,19 +300,147 @@
      "vo": "भारत में ये ज़्यादातर रात में निकलता है, इसलिए बहुत कम लोगों ने इसे देखा है।",
      "prompt": "A black honey badger with a silver-white back stripe sniffing the ground beside a forest track, a large wooden roadside board beside the track reading \"वन क्षेत्र\", dry Indian forest, moonlight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "15": {
+       "src": "c9a961d3d6f4",
+       "items": [
+        {
+         "text": "वन क्षेत्र",
+         "grid": [
+          [
+           [
+            984.2,
+            305.7
+           ],
+           [
+            1051.4,
+            263.4
+           ],
+           [
+            1121.9,
+            229.2
+           ],
+           [
+            1194.9,
+            204.4
+           ],
+           [
+            1269.2,
+            189.8
+           ],
+           [
+            1347.7,
+            185.5
+           ],
+           [
+            1429.3,
+            192.6
+           ]
+          ],
+          [
+           [
+            983.6,
+            316.2
+           ],
+           [
+            1050.0,
+            292.2
+           ],
+           [
+            1119.8,
+            276.6
+           ],
+           [
+            1192.1,
+            270.5
+           ],
+           [
+            1265.8,
+            274.4
+           ],
+           [
+            1343.8,
+            289.0
+           ],
+           [
+            1425.2,
+            315.2
+           ]
+          ],
+          [
+           [
+            983.1,
+            326.7
+           ],
+           [
+            1048.6,
+            321.1
+           ],
+           [
+            1117.6,
+            324.2
+           ],
+           [
+            1189.2,
+            337.0
+           ],
+           [
+            1262.4,
+            359.5
+           ],
+           [
+            1340.0,
+            393.3
+           ],
+           [
+            1421.0,
+            439.0
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#f2e8d0",
+         "corners": [
+          [
+           966,
+           151
+          ],
+          [
+           1466,
+           124
+          ],
+          [
+           1453,
+           525
+          ],
+          [
+           948,
+           497
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "और इसकी खाल ढीली भी है, जैसे किसी ने बड़े साइज़ का कोट पहन लिया हो।",
-     "prompt": "A black honey badger with a silver-white back stripe turning sharply, its loose skin bunching and sliding over its body like an oversized coat, red sand, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A black honey badger with a silver-white back stripe turning sharply, its loose skin bunching and sliding over its body like an oversized coat, plain red sand, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8935
     },
     {
      "vo": "कोई तेंदुआ इसे गर्दन से पकड़ ले, तो ये खाल के अंदर ही घूम जाता है।",
-     "prompt": "A leopard on the right gripping a honey badger by the scruff of its neck, the badger twisting its whole body inside its loose skin to face the leopard, dry grass, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A black honey badger with a silver-white back stripe hanging from the neck scruff in a leopard's jaws on the right, the badger twisted around inside its loose skin facing the leopard, badger on the left clearly separate in colour, dry grass, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8936
     },
     {
      "vo": "और पलटकर पकड़ने वाले की नाक पर ही काट लेता है।",
@@ -195,7 +452,133 @@
      "vo": "इसी वजह से कई किताबों में इसे दुनिया का सबसे निडर जानवर लिखा गया।",
      "prompt": "An open wildlife encyclopedia on a wooden table, a full-page photo of a snarling honey badger, a large chapter heading across the page reading \"MOST FEARLESS\", bright window light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "19": {
+       "src": "d4174e719fd8",
+       "items": [
+        {
+         "text": "MOST FEARLESS",
+         "grid": [
+          [
+           [
+            805.0,
+            258.8
+           ],
+           [
+            870.2,
+            267.2
+           ],
+           [
+            938.7,
+            276.2
+           ],
+           [
+            1009.6,
+            285.5
+           ],
+           [
+            1081.8,
+            294.9
+           ],
+           [
+            1157.9,
+            305.0
+           ],
+           [
+            1236.8,
+            315.4
+           ]
+          ],
+          [
+           [
+            808.0,
+            297.0
+           ],
+           [
+            875.0,
+            304.7
+           ],
+           [
+            945.4,
+            312.9
+           ],
+           [
+            1018.2,
+            321.4
+           ],
+           [
+            1092.1,
+            330.2
+           ],
+           [
+            1170.0,
+            339.6
+           ],
+           [
+            1250.7,
+            349.5
+           ]
+          ],
+          [
+           [
+            811.2,
+            337.6
+           ],
+           [
+            880.2,
+            344.4
+           ],
+           [
+            952.6,
+            351.7
+           ],
+           [
+            1027.2,
+            359.5
+           ],
+           [
+            1103.1,
+            367.6
+           ],
+           [
+            1182.8,
+            376.3
+           ],
+           [
+            1265.4,
+            385.5
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           778,
+           243
+          ],
+          [
+           1231,
+           230
+          ],
+          [
+           1408,
+           640
+          ],
+          [
+           800,
+           627
+          ]
+         ],
+         "band": [
+          0.05,
+          0.3
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "मधुमक्खी के छत्ते पर हमले में कहा जाता है कि बहुत से डंक इसी खाल पर रुक जाते हैं।",
@@ -217,9 +600,10 @@
     },
     {
      "vo": "वहाँ खाल पतली है, और दाँत आराम से अंदर चले जाते हैं। तो जब ज़हर सच में खून में पहुँचे, तब क्या होता है?",
-     "prompt": "Macro view of two small puncture marks on the bare skin of a honey badger's snout, a bead of blood on one, bright light, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Close-up of the face of a black honey badger with a silver-white forehead stripe, two small puncture marks with a bead of blood on its dark nose-side skin, both eyes normal and dark, bright light, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8942
     }
    ]
   },
@@ -230,16 +614,17 @@
     {
      "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
      "subscribe_ask": true,
-     "prompt": "A spectacled cobra with its hood spread, a single beam of light falling on it in a dark room, eyes catching the light, medium close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "seed": 1500,
+     "prompt": "A black honey badger with a silver-white back stripe standing alert on a rock in Indian scrubland, head raised, calm and confident, plain evening sky behind, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "seed": 9419,
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "move": "pan_left"
     },
     {
      "vo": "कोबरा का ज़हर सीधे नस और मांसपेशी के बीच के संदेश पर वार करता है।",
-     "prompt": "A spectacled cobra with its hood spread, a single beam of light falling on it in a dark room, eyes catching the light, medium close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A spectacled cobra with its hood spread and a drop of venom at the tip of its fang, plain dark background lit by a single beam of light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8944
     },
     {
      "vo": "आपका हर हिलना-डुलना एक छोटे से संदेश से शुरू होता है।",
@@ -285,7 +670,133 @@
      "prompt": "A glass vial of pale yellow cobra venom on a lab bench, a large label on the vial reading \"COBRA VENOM\", bright lab light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अब आता है कोबरा का ज़हर। इसमें ऐसे प्रोटीन होते हैं, जिन्हें neurotoxin कहते हैं।"
+     "caption": "अब आता है कोबरा का ज़हर। इसमें ऐसे प्रोटीन होते हैं, जिन्हें neurotoxin कहते हैं।",
+     "words": {
+      "32": {
+       "src": "1f885c9f19f6",
+       "items": [
+        {
+         "text": "COBRA VENOM",
+         "grid": [
+          [
+           [
+            660.6,
+            400.0
+           ],
+           [
+            686.1,
+            407.9
+           ],
+           [
+            712.0,
+            415.9
+           ],
+           [
+            738.0,
+            423.9
+           ],
+           [
+            763.5,
+            431.8
+           ],
+           [
+            789.5,
+            439.8
+           ],
+           [
+            815.4,
+            447.9
+           ]
+          ],
+          [
+           [
+            660.6,
+            442.0
+           ],
+           [
+            686.1,
+            447.0
+           ],
+           [
+            712.0,
+            452.1
+           ],
+           [
+            738.0,
+            457.2
+           ],
+           [
+            763.5,
+            462.2
+           ],
+           [
+            789.5,
+            467.2
+           ],
+           [
+            815.4,
+            472.3
+           ]
+          ],
+          [
+           [
+            660.6,
+            484.0
+           ],
+           [
+            686.1,
+            486.1
+           ],
+           [
+            712.0,
+            488.3
+           ],
+           [
+            738.0,
+            490.4
+           ],
+           [
+            763.5,
+            492.5
+           ],
+           [
+            789.5,
+            494.6
+           ],
+           [
+            815.4,
+            496.8
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           650,
+           389
+          ],
+          [
+           826,
+           389
+          ],
+          [
+           826,
+           518
+          ],
+          [
+           650,
+           518
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "ये उसी ताले में घुसकर बैठ जाते हैं, और आसानी से हटते नहीं।",
@@ -317,7 +828,14 @@
      "prompt": "An Indian hospital ICU bed with a patient on a ventilator, a nurse drawing antivenom from a small vial whose large label reads \"ANTIVENOM\", bright clinic light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अस्पताल में इसका इलाज antivenom है, और ज़रूरत पड़े तो साँस के लिए ventilator।"
+     "caption": "अस्पताल में इसका इलाज antivenom है, और ज़रूरत पड़े तो साँस के लिए ventilator।",
+     "words": {
+      "37": {
+       "src": "a06fb52abd34",
+       "items": []
+      }
+     },
+     "seed": 8956
     },
     {
      "vo": "भारत में ये एंटीवेनम घोड़ों के खून से बनाया जाता है। पर ये ज़रूरत कितनी बड़ी है?",
@@ -337,7 +855,133 @@
      "prompt": "A thick printed research report lying on a wooden office desk, its large cover reading \"MILLION DEATH STUDY\", reading glasses beside it, window light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इसका जवाब 2020 में आई एक बड़ी भारतीय स्टडी में है, नाम है Million Death Study।"
+     "caption": "इसका जवाब 2020 में आई एक बड़ी भारतीय स्टडी में है, नाम है Million Death Study।",
+     "words": {
+      "39": {
+       "src": "11b5e2342871",
+       "items": [
+        {
+         "text": "MILLION DEATH STUDY",
+         "grid": [
+          [
+           [
+            723.5,
+            307.2
+           ],
+           [
+            805.9,
+            325.8
+           ],
+           [
+            897.5,
+            346.5
+           ],
+           [
+            998.1,
+            369.2
+           ],
+           [
+            1107.1,
+            393.8
+           ],
+           [
+            1229.9,
+            421.5
+           ],
+           [
+            1366.8,
+            452.4
+           ]
+          ],
+          [
+           [
+            657.6,
+            318.2
+           ],
+           [
+            740.2,
+            338.8
+           ],
+           [
+            832.7,
+            361.8
+           ],
+           [
+            935.3,
+            387.4
+           ],
+           [
+            1047.7,
+            415.4
+           ],
+           [
+            1175.7,
+            447.3
+           ],
+           [
+            1320.4,
+            483.3
+           ]
+          ],
+          [
+           [
+            583.7,
+            330.6
+           ],
+           [
+            665.8,
+            353.5
+           ],
+           [
+            758.7,
+            379.4
+           ],
+           [
+            862.9,
+            408.4
+           ],
+           [
+            978.3,
+            440.6
+           ],
+           [
+            1111.6,
+            477.8
+           ],
+           [
+            1264.6,
+            520.4
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           768,
+           288
+          ],
+          [
+           1450,
+           448
+          ],
+          [
+           954,
+           838
+          ],
+          [
+           90,
+           394
+          ]
+         ],
+         "band": [
+          0.08,
+          0.4
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "नतीजा चौंकाने वाला था। दो हज़ार से दो हज़ार उन्नीस के बीच, करीब बारह लाख लोग साँप के काटने से मरे।",
@@ -360,9 +1004,10 @@
     },
     {
      "vo": "उसके तालों में आख़िर अलग क्या है?",
-     "prompt": "Close-up of a black honey badger's face with a silver-white forehead stripe at night, eyes catching moonlight, calm and alert, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Close-up of a black honey badger's face with a silver-white forehead stripe at night, eyes catching moonlight, calm and alert, plain dark background, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8962
     }
    ]
   },
@@ -375,14 +1020,267 @@
      "prompt": "Three researchers in white coats around a bench with sample tubes in a university biology lab, a large stone sign outside the window reading \"UNIVERSITY OF MINNESOTA\", bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "2015 में अमेरिका की University of Minnesota में Danielle Drabeck की टीम ने यही सवाल उठाया।"
+     "caption": "2015 में अमेरिका की University of Minnesota में Danielle Drabeck की टीम ने यही सवाल उठाया।",
+     "words": {
+      "44": {
+       "src": "c7416a4c97ff",
+       "items": [
+        {
+         "text": "UNIVERSITY OF MINNESOTA",
+         "grid": [
+          [
+           [
+            550.6,
+            326.7
+           ],
+           [
+            619.6,
+            328.6
+           ],
+           [
+            689.8,
+            328.4
+           ],
+           [
+            760.0,
+            326.0
+           ],
+           [
+            829.0,
+            321.6
+           ],
+           [
+            899.2,
+            314.9
+           ],
+           [
+            969.4,
+            306.1
+           ]
+          ],
+          [
+           [
+            550.6,
+            380.2
+           ],
+           [
+            619.6,
+            383.7
+           ],
+           [
+            689.8,
+            383.7
+           ],
+           [
+            760.0,
+            380.1
+           ],
+           [
+            829.0,
+            373.0
+           ],
+           [
+            899.2,
+            362.0
+           ],
+           [
+            969.4,
+            347.5
+           ]
+          ],
+          [
+           [
+            550.6,
+            433.6
+           ],
+           [
+            619.6,
+            438.9
+           ],
+           [
+            689.8,
+            439.1
+           ],
+           [
+            760.0,
+            434.2
+           ],
+           [
+            829.0,
+            424.3
+           ],
+           [
+            899.2,
+            409.1
+           ],
+           [
+            969.4,
+            388.8
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#3a3a3a",
+         "corners": [
+          [
+           522,
+           241
+          ],
+          [
+           998,
+           241
+          ],
+          [
+           998,
+           522
+          ],
+          [
+           522,
+           522
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "उनके रिसर्च पेपर का नाम एक मज़ाकिया वायरल वीडियो से लिया गया: व्हाई द हनी बैजर डोंट केयर।",
-     "prompt": "A printed science journal page on a lab desk, a large title across the top reading \"WHY THE HONEY BADGER DON'T CARE\", bright light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A printed science journal page on a lab desk, a large title across the top reading \"WHY THE HONEY BADGER DON'T CARE\", bright light, close-up, plain wall behind, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "उनके रिसर्च पेपर का नाम एक मज़ाकिया वायरल वीडियो से लिया गया: Why the honey badger don't care।"
+     "caption": "उनके रिसर्च पेपर का नाम एक मज़ाकिया वायरल वीडियो से लिया गया: Why the honey badger don't care।",
+     "words": {
+      "45": {
+       "src": "f81f3e7e5f9c",
+       "items": [
+        {
+         "text": "WHY THE HONEY BADGER DON'T CARE",
+         "grid": [
+          [
+           [
+            427.1,
+            268.1
+           ],
+           [
+            533.5,
+            269.8
+           ],
+           [
+            641.1,
+            271.5
+           ],
+           [
+            748.2,
+            273.1
+           ],
+           [
+            852.9,
+            274.5
+           ],
+           [
+            958.7,
+            275.9
+           ],
+           [
+            1064.0,
+            277.1
+           ]
+          ],
+          [
+           [
+            413.5,
+            322.2
+           ],
+           [
+            524.9,
+            325.3
+           ],
+           [
+            637.8,
+            328.0
+           ],
+           [
+            750.4,
+            330.2
+           ],
+           [
+            860.4,
+            331.8
+           ],
+           [
+            971.6,
+            332.9
+           ],
+           [
+            1082.0,
+            333.5
+           ]
+          ],
+          [
+           [
+            398.6,
+            381.8
+           ],
+           [
+            515.4,
+            386.6
+           ],
+           [
+            634.2,
+            390.5
+           ],
+           [
+            752.7,
+            393.3
+           ],
+           [
+            868.7,
+            395.2
+           ],
+           [
+            985.9,
+            396.0
+           ],
+           [
+            1101.9,
+            395.8
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           388,
+           250
+          ],
+          [
+           1101,
+           262
+          ],
+          [
+           1261,
+           710
+          ],
+          [
+           256,
+           704
+          ]
+         ],
+         "band": [
+          0.05,
+          0.4
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8964
     },
     {
      "vo": "दो हज़ार ग्यारह में हनी बैजर पर बना वो वीडियो इंटरनेट पर करोड़ों बार देखा गया था।",
@@ -396,7 +1294,133 @@
      "prompt": "A gloved hand placing a small sample tube into a rack, a large printed label on the rack reading \"HONEY BADGER DNA\", other racks behind, bright lab light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "टीम ने हनी बैजर के उसी receptor का DNA पढ़ा, और कई दूसरे जानवरों से तुलना की।"
+     "caption": "टीम ने हनी बैजर के उसी receptor का DNA पढ़ा, और कई दूसरे जानवरों से तुलना की।",
+     "words": {
+      "47": {
+       "src": "4ac3bf211047",
+       "items": [
+        {
+         "text": "HONEY BADGER DNA",
+         "grid": [
+          [
+           [
+            526.0,
+            745.9
+           ],
+           [
+            581.7,
+            746.1
+           ],
+           [
+            638.4,
+            746.2
+           ],
+           [
+            695.0,
+            746.4
+           ],
+           [
+            750.7,
+            746.6
+           ],
+           [
+            807.3,
+            746.7
+           ],
+           [
+            864.0,
+            746.9
+           ]
+          ],
+          [
+           [
+            526.0,
+            770.1
+           ],
+           [
+            581.7,
+            771.3
+           ],
+           [
+            638.4,
+            772.5
+           ],
+           [
+            695.0,
+            773.7
+           ],
+           [
+            750.7,
+            774.8
+           ],
+           [
+            807.3,
+            776.0
+           ],
+           [
+            864.0,
+            777.2
+           ]
+          ],
+          [
+           [
+            526.0,
+            794.3
+           ],
+           [
+            581.7,
+            796.5
+           ],
+           [
+            638.4,
+            798.7
+           ],
+           [
+            695.0,
+            800.9
+           ],
+           [
+            750.7,
+            803.1
+           ],
+           [
+            807.3,
+            805.3
+           ],
+           [
+            864.0,
+            807.5
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           503,
+           720
+          ],
+          [
+           887,
+           720
+          ],
+          [
+           887,
+           820
+          ],
+          [
+           503,
+           820
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "पता चला, ताले के मुँह पर कुछ हिस्से बदले हुए हैं।",
@@ -406,15 +1430,17 @@
     },
     {
      "vo": "ठीक उसी जगह, जहाँ कोबरा का ज़हर चिपकता है।",
-     "prompt": "Macro view of a dark neurotoxin molecule hovering just above the reshaped rim of a receptor, unable to settle, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Macro view of a dark neurotoxin molecule hovering just above the reshaped rim of a receptor, unable to settle, plain dark background, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8968
     },
     {
      "vo": "ये बदलाव बहुत छोटे हैं। प्रोटीन की सैकड़ों कड़ियों में से बस कुछ कड़ियाँ।",
-     "prompt": "A long protein chain like a string of hundreds of coloured beads, two beads glowing a different colour from the rest, sharp focus, soft light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A long protein chain like a string of hundreds of coloured beads, two beads glowing a different colour from the rest, plain dark background, sharp focus, soft light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8969
     },
     {
      "vo": "पर इनसे ताले का आकार इतना बदलता है कि ज़हर ठीक से बैठ नहीं पाता।",
@@ -508,7 +1534,133 @@
      "prompt": "Two researchers in khaki walking behind a honey badger across red Kalahari dunes at dawn, one holding an open field notebook whose cover reads \"HONEY BADGER\", wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "यहाँ Colleen और Keith Begg नाम के दो वैज्ञानिक सालों तक जंगली हनी बैजर के पीछे पैदल चले।"
+     "caption": "यहाँ Colleen और Keith Begg नाम के दो वैज्ञानिक सालों तक जंगली हनी बैजर के पीछे पैदल चले।",
+     "words": {
+      "60": {
+       "src": "073b5d8a68c5",
+       "items": [
+        {
+         "text": "HONEY BADGER",
+         "grid": [
+          [
+           [
+            354.5,
+            392.1
+           ],
+           [
+            366.0,
+            391.5
+           ],
+           [
+            377.7,
+            390.9
+           ],
+           [
+            389.4,
+            390.3
+           ],
+           [
+            400.8,
+            389.7
+           ],
+           [
+            412.5,
+            389.1
+           ],
+           [
+            424.2,
+            388.5
+           ]
+          ],
+          [
+           [
+            360.2,
+            412.1
+           ],
+           [
+            371.7,
+            411.5
+           ],
+           [
+            383.5,
+            410.9
+           ],
+           [
+            395.2,
+            410.4
+           ],
+           [
+            406.7,
+            409.8
+           ],
+           [
+            418.4,
+            409.2
+           ],
+           [
+            430.2,
+            408.6
+           ]
+          ],
+          [
+           [
+            366.0,
+            432.3
+           ],
+           [
+            377.5,
+            431.7
+           ],
+           [
+            389.3,
+            431.1
+           ],
+           [
+            401.1,
+            430.6
+           ],
+           [
+            412.6,
+            430.0
+           ],
+           [
+            424.4,
+            429.4
+           ],
+           [
+            436.2,
+            428.8
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           346,
+           379
+          ],
+          [
+           425,
+           375
+          ],
+          [
+           445,
+           442
+          ],
+          [
+           365,
+           446
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "उन्होंने देखा, ये रोज़ घंटों ज़मीन खोदकर शिकार निकालता है।",
@@ -537,10 +1689,11 @@
     },
     {
      "vo": "फिर वैज्ञानिकों ने एक सीन देखा। एक हनी बैजर पफ़ एडर खा रहा था, तभी साँप ने उसे काट लिया।",
-     "prompt": "A puff adder with a thick patterned body biting the cheek of a honey badger that is chewing the snake's body, desert grass, bright daylight, close medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A thick-bodied puff adder with a chevron pattern biting the cheek of a black honey badger with a silver-white back stripe, the badger chewing the snake's tail end, badger on the left, desert grass, bright daylight, close medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "फिर वैज्ञानिकों ने एक सीन देखा। एक हनी बैजर puff adder खा रहा था, तभी साँप ने उसे काट लिया।"
+     "caption": "फिर वैज्ञानिकों ने एक सीन देखा। एक हनी बैजर puff adder खा रहा था, तभी साँप ने उसे काट लिया।",
+     "seed": 8984
     },
     {
      "vo": "कुछ ही देर में वो लड़खड़ाया, और ज़मीन पर गिर पड़ा। देखने वालों को लगा, खेल ख़त्म।",
@@ -556,9 +1709,10 @@
     },
     {
      "vo": "फिर अचानक उठा, और बचा हुआ साँप खाने लगा।",
-     "prompt": "A black honey badger standing up and shaking its head, a half-eaten puff adder on the ground in front of it, dry grass, golden light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A black honey badger with a silver-white back stripe standing up and shaking its head, a half-eaten puff adder on the ground in front of it, dry grass, golden light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8987
     },
     {
      "vo": "यानी ज़हर असर करता है, बस अक्सर उसे मार नहीं पाता।",
@@ -667,7 +1821,134 @@
      "vo": "आज भारत में ये क़ानून से पूरी तरह संरक्षित है। इसे पकड़ना या मारना अपराध है।",
      "prompt": "A forest department notice board at the edge of an Indian sanctuary, large letters reading \"वन्यजीव संरक्षित\", a forest guard in khaki standing beside it, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "80": {
+       "src": "b73523a6ed59",
+       "items": [
+        {
+         "text": "वन्यजीव संरक्षित",
+         "grid": [
+          [
+           [
+            59.2,
+            460.5
+           ],
+           [
+            170.9,
+            460.2
+           ],
+           [
+            284.4,
+            459.5
+           ],
+           [
+            398.0,
+            458.6
+           ],
+           [
+            509.6,
+            457.5
+           ],
+           [
+            623.2,
+            456.1
+           ],
+           [
+            736.8,
+            454.4
+           ]
+          ],
+          [
+           [
+            59.2,
+            608.6
+           ],
+           [
+            170.9,
+            607.9
+           ],
+           [
+            284.4,
+            606.8
+           ],
+           [
+            398.0,
+            605.1
+           ],
+           [
+            509.6,
+            602.9
+           ],
+           [
+            623.2,
+            600.2
+           ],
+           [
+            736.8,
+            597.0
+           ]
+          ],
+          [
+           [
+            59.2,
+            756.7
+           ],
+           [
+            170.9,
+            755.7
+           ],
+           [
+            284.4,
+            754.0
+           ],
+           [
+            398.0,
+            751.5
+           ],
+           [
+            509.6,
+            748.4
+           ],
+           [
+            623.2,
+            744.4
+           ],
+           [
+            736.8,
+            739.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#14573f",
+         "corners": [
+          [
+           13,
+           356
+          ],
+          [
+           783,
+           356
+          ],
+          [
+           783,
+           845
+          ],
+          [
+           13,
+           845
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8999
     },
     {
      "vo": "पर हमारे गाँवों में साँप से लड़ने वाला सबसे जाना-पहचाना योद्धा कोई और है।",
@@ -705,7 +1986,133 @@
      "prompt": "Scientists at a bench in a biology lab, a large sign on the lab door reading \"WEIZMANN INSTITUTE\", bright lab light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "1992 में इज़रायल के Weizmann Institute के वैज्ञानिकों ने नेवले का यही ताला पढ़ा।"
+     "caption": "1992 में इज़रायल के Weizmann Institute के वैज्ञानिकों ने नेवले का यही ताला पढ़ा।",
+     "words": {
+      "85": {
+       "src": "ff0e5a239eca",
+       "items": [
+        {
+         "text": "WEIZMANN INSTITUTE",
+         "grid": [
+          [
+           [
+            691.4,
+            319.0
+           ],
+           [
+            723.9,
+            309.2
+           ],
+           [
+            757.0,
+            303.3
+           ],
+           [
+            790.0,
+            301.4
+           ],
+           [
+            822.5,
+            303.4
+           ],
+           [
+            855.5,
+            309.5
+           ],
+           [
+            888.6,
+            319.6
+           ]
+          ],
+          [
+           [
+            691.4,
+            354.0
+           ],
+           [
+            723.9,
+            351.7
+           ],
+           [
+            757.0,
+            350.4
+           ],
+           [
+            790.0,
+            350.2
+           ],
+           [
+            822.5,
+            350.9
+           ],
+           [
+            855.5,
+            352.8
+           ],
+           [
+            888.6,
+            355.7
+           ]
+          ],
+          [
+           [
+            691.4,
+            389.1
+           ],
+           [
+            723.9,
+            394.2
+           ],
+           [
+            757.0,
+            397.6
+           ],
+           [
+            790.0,
+            399.0
+           ],
+           [
+            822.5,
+            398.5
+           ],
+           [
+            855.5,
+            396.1
+           ],
+           [
+            888.6,
+            391.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#12305e",
+         "corners": [
+          [
+           678,
+           265
+          ],
+          [
+           902,
+           265
+          ],
+          [
+           902,
+           493
+          ],
+          [
+           678,
+           493
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "उसके ताले के मुँह पर शक्कर का एक छोटा अणु चिपका रहता है।",
@@ -715,15 +2122,17 @@
     },
     {
      "vo": "ये ढक्कन की तरह ज़हर को अंदर बैठने से रोकता है।",
-     "prompt": "Macro view of a neurotoxin molecule pressed against a sugar-capped receptor, blocked, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Macro view of a neurotoxin molecule pressed against a sugar-capped receptor, blocked, plain dark background, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 9006
     },
     {
      "vo": "ख़ुद कोबरा के ताले पर भी ऐसा ही ढक्कन मिला है। इसलिए उसका अपना ज़हर उस पर कम असर करता है।",
-     "prompt": "A cobra coiled calmly in a sunlit clay pot in an Indian village yard, hood relaxed, forked tongue out, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A cobra coiled calmly in a sunlit plain clay pot in an Indian village yard, hood relaxed, forked tongue out, bare mud wall behind, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 9007
     },
     {
      "vo": "दो हज़ार पंद्रह की उसी रिसर्च में दो और नाम मिले: हेजहॉग, यानी काँटों वाला छोटा जानवर, और सूअर।",
@@ -746,16 +2155,143 @@
     },
     {
      "vo": "हनी बैजर में ताले का आकार बदला, नेवले में ताले पर ढक्कन लगा। रास्ते अलग, नतीजा एक।",
-     "prompt": "A mongoose on the left and a honey badger on the right, each facing its own rearing cobra with the same fearless stance, dry ground, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A small brown-grey mongoose on the left and a larger black honey badger with a broad silver-white back stripe on the right, each facing its own rearing cobra with the same fearless stance, dry ground, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 9011
     },
     {
      "vo": "वैज्ञानिक इसे कन्वर्जेंट इवोल्यूशन कहते हैं। मतलब, एक जैसी मुश्किल ने अलग जानवरों को एक जैसा हल दिया।",
      "prompt": "An Indian woman biology professor in a saree standing before a large chalkboard reading \"CONVERGENT EVOLUTION\", college classroom, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "वैज्ञानिक इसे convergent evolution कहते हैं। मतलब, एक जैसी मुश्किल ने अलग जानवरों को एक जैसा हल दिया।"
+     "caption": "वैज्ञानिक इसे convergent evolution कहते हैं। मतलब, एक जैसी मुश्किल ने अलग जानवरों को एक जैसा हल दिया।",
+     "words": {
+      "93": {
+       "src": "f6d2bcbc7f29",
+       "items": [
+        {
+         "text": "CONVERGENT EVOLUTION",
+         "grid": [
+          [
+           [
+            236.7,
+            102.0
+           ],
+           [
+            414.7,
+            102.0
+           ],
+           [
+            595.9,
+            102.0
+           ],
+           [
+            777.0,
+            102.0
+           ],
+           [
+            955.1,
+            102.0
+           ],
+           [
+            1136.2,
+            102.0
+           ],
+           [
+            1317.3,
+            102.0
+           ]
+          ],
+          [
+           [
+            236.7,
+            178.5
+           ],
+           [
+            414.7,
+            178.5
+           ],
+           [
+            595.9,
+            178.5
+           ],
+           [
+            777.0,
+            178.5
+           ],
+           [
+            955.1,
+            178.5
+           ],
+           [
+            1136.2,
+            178.5
+           ],
+           [
+            1317.3,
+            178.5
+           ]
+          ],
+          [
+           [
+            236.7,
+            255.1
+           ],
+           [
+            414.7,
+            255.1
+           ],
+           [
+            595.9,
+            255.1
+           ],
+           [
+            777.0,
+            255.1
+           ],
+           [
+            955.1,
+            255.1
+           ],
+           [
+            1136.2,
+            255.1
+           ],
+           [
+            1317.3,
+            255.1
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#f5f5f0",
+         "corners": [
+          [
+           163,
+           61
+          ],
+          [
+           1391,
+           61
+          ],
+          [
+           1391,
+           570
+          ],
+          [
+           163,
+           570
+          ]
+         ],
+         "band": [
+          0.08,
+          0.38
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "और मुश्किल थी, साँपों के बीच रहना, और साँप खाना।",
@@ -767,7 +2303,133 @@
      "vo": "आज वैज्ञानिक इन तालों को पढ़कर साँप के ज़हर को और गहराई से समझ रहे हैं।",
      "prompt": "A scientist in a white coat pipetting venom into a sample plate in a modern Indian research lab, a large label on the fridge door reading \"VENOM SAMPLES\", bright lab light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "95": {
+       "src": "50ecde8bfc1f",
+       "items": [
+        {
+         "text": "VENOM SAMPLES",
+         "grid": [
+          [
+           [
+            627.9,
+            236.4
+           ],
+           [
+            690.6,
+            236.9
+           ],
+           [
+            754.3,
+            237.5
+           ],
+           [
+            818.0,
+            238.3
+           ],
+           [
+            880.6,
+            239.1
+           ],
+           [
+            944.4,
+            240.1
+           ],
+           [
+            1008.1,
+            241.3
+           ]
+          ],
+          [
+           [
+            627.9,
+            276.2
+           ],
+           [
+            690.6,
+            274.9
+           ],
+           [
+            754.3,
+            273.6
+           ],
+           [
+            818.0,
+            272.5
+           ],
+           [
+            880.6,
+            271.5
+           ],
+           [
+            944.4,
+            270.6
+           ],
+           [
+            1008.1,
+            269.8
+           ]
+          ],
+          [
+           [
+            627.9,
+            316.0
+           ],
+           [
+            690.6,
+            312.8
+           ],
+           [
+            754.3,
+            309.7
+           ],
+           [
+            818.0,
+            306.7
+           ],
+           [
+            880.6,
+            303.8
+           ],
+           [
+            944.4,
+            301.0
+           ],
+           [
+            1008.1,
+            298.3
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#b3121a",
+         "corners": [
+          [
+           602,
+           224
+          ],
+          [
+           1034,
+           224
+          ],
+          [
+           1034,
+           518
+          ],
+          [
+           602,
+           518
+          ]
+         ],
+         "band": [
+          0.05,
+          0.35
+         ]
+        }
+       ]
+      }
+     }
     }
    ]
   },
@@ -783,9 +2445,10 @@
     },
     {
      "vo": "अगली बार नेवले-साँप का वीडियो देखें, तो देखिए कि साँप का वार चेहरे पर पड़ता है या खाल पर।",
-     "prompt": "A mongoose standing still in an Indian village courtyard after the cobra has fled, chest heaving, fur still bristled, sunlight on its face, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A mongoose standing still in an Indian village courtyard after the cobra has fled, chest heaving, fur still bristled, sunlight on its face, bare mud wall behind, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 9016
     }
    ]
   }
@@ -816,5 +2479,79 @@
  "voice_ok": "voice-gk-33-honey-badger-fearless-b433ed1941",
  "voice_approved_at": "2026-11-17 20:36",
  "rejected": true,
- "reviewed_at": "2026-11-17 21:08"
+ "reviewed_at": "2026-11-17 21:08",
+ "repaint": {
+  "shots": [
+   11,
+   12,
+   13,
+   16,
+   17,
+   23,
+   24,
+   25,
+   37,
+   43,
+   45,
+   49,
+   50,
+   65,
+   68,
+   80,
+   87,
+   88,
+   92,
+   97
+  ],
+  "thumbs": [],
+  "at": "2026-11-17 21:19"
+ },
+ "shot_qc": {
+  "checked": "2026-11-17T15:44:54Z",
+  "rounds": 1,
+  "why": {
+   "11": "map on the wall and gibberish lettering; the animal looks like a porcupine",
+   "12": "maps on the wall behind the table",
+   "13": "badgers are brown with no silver-white stripe, and there are boards in the background",
+   "16": "paper map sign with lettering at the left",
+   "17": "leopard and badger merge into a confused mass, and the badger has no stripe",
+   "23": "snout macro looks like a pig, and the eyes are odd",
+   "24": "papers with gibberish writing on the wall; not a clean scene",
+   "25": "map on the wall at right",
+   "43": "map and gibberish chart behind the badger",
+   "45": "world maps on the wall and a TV screen",
+   "49": "molecule sits on a printed map",
+   "50": "map on the wall at left",
+   "65": "two snakes biting each other, no honey badger",
+   "68": "no puff adder and no bite; badger with cubs and a blank board instead",
+   "80": "painted gibberish lettering on the sign",
+   "87": "gibberish text and a poster in the background",
+   "88": "gibberish label on the pot",
+   "92": "both animals look like mongooses; no honey badger",
+   "97": "map-style sign with gibberish text",
+   "37": "no blank surface for its words"
+  },
+  "recheck": [
+   "11",
+   "12",
+   "13",
+   "16",
+   "17",
+   "23",
+   "24",
+   "25",
+   "37",
+   "43",
+   "45",
+   "49",
+   "50",
+   "65",
+   "68",
+   "80",
+   "87",
+   "88",
+   "92",
+   "97"
+  ]
+ }
 }
