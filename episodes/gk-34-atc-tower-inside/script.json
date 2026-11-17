@@ -6,6 +6,7 @@
  "lang": "hi",
  "words_in_edit": true,
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "title": "ATC टावर का छिपा सिस्टम: हज़ारों उड़ानें टकराती क्यों नहीं? ✈️",
@@ -40,13 +41,29 @@
      "vo": "सोचिए, आप दिल्ली से मुंबई की फ़्लाइट में खिड़की वाली सीट पर हैं।",
      "prompt": "A young Indian passenger in a window seat of a passenger jet, face lit by daylight, looking out at white clouds below, a boarding pass on the tray table reading \"DEL → BOM\", photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g72f8f14fb4cf17f54fc7d89bdb58b8062833a302b032bd06ce442d0c8346318cd47ac5618ee3c11762fcc7659a5205cc6128329e9a530e636a68c683be1114c4_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (Fuzz)",
+      "page": "https://pixabay.com/photos/airplane-adventure-travel-221526/",
+      "card": 0.72
+     }
     },
     {
      "vo": "नीचे बादल हैं, और उसी आसमान में सैकड़ों जहाज़ और उड़ रहे हैं।",
      "prompt": "View from an airliner window over a sea of clouds, several other passenger jets visible at different heights far away, thin contrails crossing the sky, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g56d8c5f48647b04810317b07797b24ba07af65ab2de73b253343bcc6a15523d10ebc380f2a47b5332f50010a36131fb4e6c6f2112b1f4e63310ddc1c7e18a844_1280.jpg",
+      "w": 5000,
+      "h": 3333,
+      "credit": "Pixabay (Leonhard_Niederwimmer)",
+      "page": "https://pixabay.com/photos/plane-flying-aviator-travel-8508636/",
+      "card": 0.72
+     }
     },
     {
      "vo": "आपके पायलट को कौन बताता है कि किस ऊँचाई पर उड़ना है?",
@@ -58,19 +75,43 @@
      "vo": "ज़मीन पर किसे पता है कि इस पल आप कहाँ हैं?",
      "prompt": "A boy on a village rooftop in north India at night looking up at the blinking lights of an airliner crossing the starry sky, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g7e87a8199e3287211679ec61d96d529819aa1bf3b51f12fb90ee7f910200e8b85c7d472f080e96cf1b9e00a51e49972bf20162d9c90763f0ff0eea3705935ed7_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (16301694)",
+      "page": "https://pixabay.com/photos/sky-radar-tower-antenna-radio-5120030/",
+      "card": 0.72
+     }
     },
     {
      "vo": "सामने से आता जहाज़ अँधेरे में किसे दिखता है?",
      "prompt": "Night sky from a cockpit windshield, only the tiny red and green lights of another airliner far ahead in darkness, instrument glow on the pilots' hands, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g9c8ecc6fa53b4c893cda4069506d1862ebe52b1e155ee611c2f01ef58ab84ad304d3da5ff0461e57e9461d1ad22f45267043d0658ea426157ff1d9947aad9e6d_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (viiksi)",
+      "page": "https://pixabay.com/photos/machine-take-away-rise-night-1722766/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और रनवे पर उतरने की बारी कौन तय करता है?",
      "prompt": "A line of landing lights of several airliners stacked in the dusk sky approaching one long runway, runway lights glowing, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g846bc9cbc78348d51daff8f560c756093716fca82eead55ef83c1a2287dce950844c7b568c2e4aa95bd4b24f87a2c08537952ce876b672f80d550b70122f6cd7_1280.jpg",
+      "w": 7008,
+      "h": 4672,
+      "credit": "Pixabay (JFK_Photography)",
+      "page": "https://pixabay.com/photos/plane-airport-transportation-engine-7013022/",
+      "card": 0.72
+     }
     },
     {
      "vo": "दुनिया में रोज़ करीब एक लाख उड़ानें, पर आसमान में टक्कर लगभग कभी नहीं।",
@@ -83,7 +124,15 @@
      "prompt": "An empty airport departure gate before sunrise, rows of empty seats, an airliner parked outside the big window in blue morning light, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "बोर्डिंग से घंटों पहले एयरलाइन आपकी उड़ान का flight plan Air Traffic Control, यानी ATC को भेज चुकी होती है।"
+     "caption": "बोर्डिंग से घंटों पहले एयरलाइन आपकी उड़ान का flight plan Air Traffic Control, यानी ATC को भेज चुकी होती है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g0d280dba0ec1c50a1e9564feca201058a8bc224710252c904ad4f965fc7b43c4530a4a8770db2eaa8822f636f6fb0dfc01796c656be0c22d3966d97eb3f42fd8_1280.jpg",
+      "w": 5782,
+      "h": 3707,
+      "credit": "Pixabay (JoshuaWoroniecki)",
+      "page": "https://pixabay.com/photos/merry-christmas-boarding-pass-travel-5219496/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -103,14 +152,30 @@
      "prompt": "A dim air traffic control room, Indian controllers with headsets at long desks, one picking up a printed paper strip, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ये plan हर उस control room तक पहुँचता है, जिसके आसमान से आप गुज़रेंगे। यानी आपके उड़ने से पहले ही सबको पता है कि आप आ रहे हैं।"
+     "caption": "ये plan हर उस control room तक पहुँचता है, जिसके आसमान से आप गुज़रेंगे। यानी आपके उड़ने से पहले ही सबको पता है कि आप आ रहे हैं।",
+     "photo": {
+      "src": "https://pixabay.com/get/gd02d37568114543ec300b9b85a926983f219e08a8cc5b3576d75edc7c3b492b05e2d5aa80b4e3e0486afd0223bf80377db0229b804c65d7e3ceadeff6e3dffb5_1280.jpg",
+      "w": 6026,
+      "h": 4018,
+      "credit": "Pixabay (Bergadder)",
+      "page": "https://pixabay.com/photos/power-plant-conducting-electronic-344231/",
+      "card": 0.72
+     }
     },
     {
      "vo": "भारत में ये पूरा सिस्टम एयरपोर्ट्स अथॉरिटी ऑफ़ इंडिया, यानी ए ए आई चलाती है।",
      "prompt": "Entrance of an Indian air traffic services building, a large wall board reading \"AIRPORTS AUTHORITY OF INDIA\", staff walking in, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "भारत में ये पूरा सिस्टम Airports Authority of India, यानी AAI चलाती है।"
+     "caption": "भारत में ये पूरा सिस्टम Airports Authority of India, यानी AAI चलाती है।",
+     "photo": {
+      "src": "https://pixabay.com/get/gc6cb314c1483db2e9302b5ed59c5a46febeee2c599ba6c44c62ee2c5c0b6fcade893044c9bdc03bf6cb671b072967e52f40c81c84c28a37bfff3bf5a53784082_1280.jpg",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Pixabay (bernswaelz)",
+      "page": "https://pixabay.com/photos/tower-aviation-airport-1379715/",
+      "card": 0.72
+     }
     },
     {
      "vo": "भारत का आसमान चार बड़े हिस्सों में बँटा है: दिल्ली, मुंबई, कोलकाता और चेन्नई। इनमें समुद्र के ऊपर का बड़ा आसमान भी शामिल है।",
@@ -157,41 +222,69 @@
      "prompt": "Captain in the cockpit of a parked airliner speaking into a boom microphone, the aerobridge visible through the side window, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "गेट पर खड़े जहाज़ से पायलट सबसे पहले रेडियो पर clearance माँगता है। उसके बाद ही pushback और engine start की इजाज़त मिलती है।"
+     "caption": "गेट पर खड़े जहाज़ से पायलट सबसे पहले रेडियो पर clearance माँगता है। उसके बाद ही pushback और engine start की इजाज़त मिलती है।",
+     "photo": {
+      "src": "https://pixabay.com/get/gfe2bf31dd3afc541515fc83b148757045214a02a26006fcd116dcd1ca033d50f59964fa6645fb3cd15bc44197b6ea2a28f07748723bc8375568514715124bb1a_1280.jpg",
+      "w": 5897,
+      "h": 3931,
+      "credit": "Pixabay (dmncwndrlch)",
+      "page": "https://pixabay.com/photos/airplane-aircraft-airport-travel-4885803/",
+      "card": 0.72
+     }
     },
     {
      "vo": "ए टी सी जवाब देता है: रास्ता, पहली ऊँचाई, और चार अंकों का एक कोड।",
      "prompt": "An Indian clearance controller with a headset at a tower desk speaking, a paper strip on the desk reading \"SQUAWK 4521\", photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ATC जवाब देता है: रास्ता, पहली ऊँचाई, और चार अंकों का एक code।"
+     "caption": "ATC जवाब देता है: रास्ता, पहली ऊँचाई, और चार अंकों का एक code।",
+     "photo": {
+      "src": "https://pixabay.com/get/ge14fe9128859396505089bc92eaa69dfe841c6fc493609124ae2b406fd63b06cf0fddfa18200dac3954034535863f0f0_1280.jpg",
+      "w": 3456,
+      "h": 2592,
+      "credit": "Pixabay (sabinurce)",
+      "page": "https://pixabay.com/photos/plane-clock-indicators-controls-85519/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पायलट ये कोड जहाज़ के ट्रांसपोंडर में डालता है। इसे स्क्वॉक कहते हैं।",
-     "prompt": "Close-up of a pilot's finger turning knobs on a transponder panel in a cockpit center console, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पायलट ये code जहाज़ के transponder में डालता है। इसे squawk कहते हैं।"
+     "clip": {
+      "id": 242,
+      "tags": "cockpit, airplane, pilots, co-pilot, landing, night, light, radar, radio contact, nasa, navigation, flight control, flying, flight, technology, approach, vehicle, people, overhead display, gauges, monitors, monitoring, control, navigate",
+      "page": "https://pixabay.com/videos/id-242/"
+     }
     },
     {
      "vo": "ज़मीन का रडार हर कुछ सेकंड में जहाज़ से पूछता है: तुम कौन हो?",
-     "prompt": "A large rotating radar antenna on a tall tower next to an airport at dusk, a jet taking off in the distance, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "clip": {
+      "id": 2420,
+      "tags": "radar, sonar, ping, scan, submarine, marine, navigation, nautical, green, display",
+      "page": "https://pixabay.com/videos/id-2420/"
+     }
     },
     {
      "vo": "ट्रांसपोंडर तुरंत जवाब देता है: मेरा कोड ये है, मेरी ऊँचाई ये है।",
      "prompt": "Underside of an airliner in flight, small antennas on its belly catching the sunlight, close and detailed, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Transponder तुरंत जवाब देता है: मेरा code ये है, मेरी ऊँचाई ये है।"
+     "caption": "Transponder तुरंत जवाब देता है: मेरा code ये है, मेरी ऊँचाई ये है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Comanche_instrum.jpg/1920px-Comanche_instrum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2272,
+      "h": 1704,
+      "credit": "Comanche instrum.jpg by No machine-readable author provided. Pyrame assumed (based on copyright claims)., PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Comanche_instrum.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "इसी जवाब से कंट्रोलर आपके जहाज़ को उसके नाम और ऊँचाई के साथ देखता है।",
-     "prompt": "Indian radar controller leaning forward with a headset, face lit by a soft green glow from below, eyes focused, no screen visible, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इसी जवाब से controller आपके जहाज़ को उसके नाम और ऊँचाई के साथ देखता है।"
+     "clip": {
+      "id": 4511,
+      "tags": "radar, radar screen, rotation, circles, monitoring, swing, beautiful wallpaper, template, move, lines, abstract, background, structure, location, locate, artmatic",
+      "page": "https://pixabay.com/videos/id-4511/"
+     }
     },
     {
      "vo": "कुछ कोड ख़ास हैं। सात हज़ार सात सौ मतलब इमरजेंसी, सात हज़ार छह सौ मतलब रेडियो ख़राब, सात हज़ार पाँच सौ मतलब हाईजैक।",
@@ -212,14 +305,23 @@
      "prompt": "A training room wall in an Indian aviation academy with a large poster reading \"B = BRAVO\", a trainee pilot in uniform reading it, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अक्षर और अंक भी तय तरीक़े से बोले जाते हैं: B मतलब Bravo, 9 मतलब niner।"
+     "caption": "अक्षर और अंक भी तय तरीक़े से बोले जाते हैं: B मतलब Bravo, 9 मतलब niner।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NATO_phonetic_alphabet_on_Free_Download.jpg/1920px-NATO_phonetic_alphabet_on_Free_Download.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4044,
+      "h": 5830,
+      "credit": "NATO phonetic alphabet on Free Download.jpg by AlanCristArt, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:NATO_phonetic_alphabet_on_Free_Download.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "पायलट हर निर्देश दोहराता है, इसे रीडबैक कहते हैं।",
-     "prompt": "First officer reading back from a notepad into the microphone, the captain checking along with a finger on the page, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पायलट हर निर्देश दोहराता है, इसे readback कहते हैं।"
+     "clip": {
+      "id": 51016,
+      "tags": "cockpit, pilot, steering wheel, aircraft, flying, airport, aviation, jet, travel, traffic, panorama, nature",
+      "page": "https://pixabay.com/videos/id-51016/"
+     }
     }
    ]
   },
@@ -240,21 +342,38 @@
      "prompt": "A pushback tug pushing an airliner back from the gate at morning, ground crew with headset walking beside the nose wheel, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Pushback के बाद पायलट frequency बदलता है, और बात करता है Ground controller से।"
+     "caption": "Pushback के बाद पायलट frequency बदलता है, और बात करता है Ground controller से।",
+     "photo": {
+      "src": "https://pixabay.com/get/g8a895fc96e83a84e2daf487ffdc792b6017ef9928a3ee86d6da6c91a6a7867314bd6c4f0f8ed60e5b1cc68aee840d3970dc7c926bad5165dc747a2fdafe8b702_1280.jpg",
+      "w": 3216,
+      "h": 2136,
+      "credit": "Pixabay (Picudio)",
+      "page": "https://pixabay.com/photos/airport-aeroplane-airplane-travel-1639336/",
+      "card": 0.72
+     }
     },
     {
      "vo": "ग्राउंड का काम है ज़मीन पर चलती हर चीज़: जहाज़, फ़्यूल ट्रक, बसें और टग।",
-     "prompt": "Busy airport apron, a fuel truck, a passenger bus and a pushback tug passing near an airliner's nose, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Ground का काम है ज़मीन पर चलती हर चीज़: जहाज़, fuel truck, बसें और tug।"
+     "clip": {
+      "id": 4732,
+      "tags": "airplane, boarding, gateway, airport, airfield, take-off, transport, flight, aircraft, travel, vehicle, transportation, aviation, plane, aerospace, tourists, jet, flying",
+      "page": "https://pixabay.com/videos/id-4732/"
+     }
     },
     {
      "vo": "भारत के सबसे व्यस्त, दिल्ली एयरपोर्ट के अब चार रनवे हैं, और रोज़ बारह सौ से ज़्यादा उड़ानें।",
      "prompt": "Aerial view of Delhi airport at golden hour, long parallel runways stretching into the haze, airliners lined up on taxiways, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "भारत के सबसे व्यस्त, दिल्ली एयरपोर्ट के अब चार रनवे हैं, और रोज़ 1,200 से ज़्यादा उड़ानें।"
+     "caption": "भारत के सबसे व्यस्त, दिल्ली एयरपोर्ट के अब चार रनवे हैं, और रोज़ 1,200 से ज़्यादा उड़ानें।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Sculpture_of_hasta_mudras_at_Indira_Gandhi_International_Airport.jpg/1920px-Sculpture_of_hasta_mudras_at_Indira_Gandhi_International_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4640,
+      "h": 2610,
+      "credit": "Sculpture of hasta mudras at Indira Gandhi International Airport.jpg by Bharatahs, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Sculpture_of_hasta_mudras_at_Indira_Gandhi_International_Airport.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "यहाँ दो हज़ार चौबीस में एक टैक्सीवे सड़क के ऊपर पुल पर बना, ताकि जहाज़ों का चक्कर छोटा हो।",
@@ -268,14 +387,30 @@
      "prompt": "A bright yellow taxiway sign beside the grass reading \"B4\", an airliner's nose wheel rolling past it, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Taxiway के भी नाम होते हैं, जैसे सड़कों के: Alpha, Bravo, B4।"
+     "caption": "Taxiway के भी नाम होते हैं, जैसे सड़कों के: Alpha, Bravo, B4।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Ben_Gurion_International_Airport_taxiway_sign_with_traffic_or_security_camera.jpg/1280px-Ben_Gurion_International_Airport_taxiway_sign_with_traffic_or_security_camera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 1848,
+      "h": 4000,
+      "credit": "Ben Gurion International Airport taxiway sign with traffic or security camera.jpg by McKaby, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ben_Gurion_International_Airport_taxiway_sign_with_traffic_or_security_camera.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "ग्राउंड बताता है: किस टैक्सीवे से जाना है, और कहाँ रुकना है।",
      "prompt": "Ground controller in the tower cab pointing out of the glass toward a taxiing jet while speaking into a headset, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Ground बताता है: किस taxiway से जाना है, और कहाँ रुकना है।"
+     "caption": "Ground बताता है: किस taxiway से जाना है, और कहाँ रुकना है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g46d8e56a3e6b55452caaa306380f8df35c3fec0c229d23d71c927532683571d52f9565516a55c056af0ce1d7172bf6676aaba7e7d46b359ae97898d8c225214a_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (huynhkimdaihuu30051999)",
+      "page": "https://pixabay.com/photos/airplane-takeoff-beautiful-plane-4381157/",
+      "card": 0.72
+     }
     },
     {
      "vo": "रनवे से कुछ पहले, टैक्सीवे पर ज़मीन में लाल बत्तियों की एक कतार जलती है।",
@@ -293,10 +428,11 @@
     },
     {
      "vo": "अब कमान टावर के हाथ में है, जहाँ से रनवे आँखों से भी दिखता है।",
-     "prompt": "Tower controller standing at the glass with binoculars watching the runway, a jet lined up below, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अब कमान Tower के हाथ में है, जहाँ से रनवे आँखों से भी दिखता है।"
+     "clip": {
+      "id": 204999,
+      "tags": "control tower, transportation, singapore changi airport, asia, travel, landmark, aviation, singapore",
+      "page": "https://pixabay.com/videos/id-204999/"
+     }
     },
     {
      "vo": "ये काम उन्नीस सौ उनतीस में अमेरिका के सेंट लुइस हवाई अड्डे पर शुरू हुआ था।",
@@ -310,20 +446,37 @@
      "prompt": "A young man in a 1929 cap and jacket standing on a grass airfield, holding a red flag in one hand and a black-and-white checkered flag in the other, a biplane waiting nearby, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पहले controller थे Archie League। वो रनवे के पास खड़े होकर झंडे दिखाते थे: लाल मतलब रुको, चेकदार मतलब जाओ।"
+     "caption": "पहले controller थे Archie League। वो रनवे के पास खड़े होकर झंडे दिखाते थे: लाल मतलब रुको, चेकदार मतलब जाओ।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Archie_W._League_in_Uniform.jpg/1920px-Archie_W._League_in_Uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3264,
+      "h": 2448,
+      "credit": "Archie W. League in Uniform.jpg by My uncle Daniel League gave me this picture, but he is now deceased., CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Archie_W._League_in_Uniform.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "आज भी आम नियम सीधा है: एक रनवे पर, एक समय में, एक ही जहाज़।",
      "prompt": "A single airliner lined up alone at the start of a long empty runway, runway centre lights stretching ahead, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g53509fb18cfea9340257cf5b068d86c8353ddf7889514d94c9e7052d6a3340dbde6564c339d1a618581e3746f0c59766d08dc2f1467cd2131728ec206d59ba9b_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (huynhkimdaihuu30051999)",
+      "page": "https://pixabay.com/photos/airplane-takeoff-beautiful-plane-4381157/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पिछला जहाज़ उड़कर दूर निकले, तभी टावर कहता है: क्लीयर्ड फ़ॉर टेकऑफ़। इंजन गरजते हैं, और करीब दो सौ साठ किलोमीटर प्रति घंटे पर पहिए ज़मीन छोड़ देते हैं।",
-     "prompt": "Airliner lifting off the runway, nose up, main wheels just leaving the ground, engines roaring, another jet climbing far ahead, side view, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पिछला जहाज़ उड़कर दूर निकले, तभी Tower कहता है: cleared for takeoff। इंजन गरजते हैं, और करीब 260 किलोमीटर प्रति घंटे पर पहिए ज़मीन छोड़ देते हैं।"
+     "clip": {
+      "id": 176930,
+      "tags": "airplane, takeoff, airport, sunset, runway, aviation, aircraft, departure",
+      "page": "https://pixabay.com/videos/id-176930/"
+     }
     }
    ]
   },
@@ -333,37 +486,71 @@
    "shots": [
     {
      "vo": "आसमान खुला दिखता है, पर जहाज़ मनमर्ज़ी से नहीं उड़ते।",
-     "prompt": "Wide open blue sky above clouds with one airliner cruising alone, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "clip": {
+      "id": 35780,
+      "tags": "fly, plane, airplane, aviation, flight, sky, aeroplane, travel, flying, transport, planes",
+      "page": "https://pixabay.com/videos/id-35780/"
+     }
     },
     {
      "vo": "ऊपर तय रास्ते हैं, जिन्हें एयरवेज़ कहते हैं, बिल्कुल हाईवे की तरह।",
      "prompt": "Several contrails in the sky running in neat parallel lines like lanes of a highway, seen from a mountain top, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ऊपर तय रास्ते हैं, जिन्हें airways कहते हैं, बिल्कुल हाईवे की तरह।"
+     "caption": "ऊपर तय रास्ते हैं, जिन्हें airways कहते हैं, बिल्कुल हाईवे की तरह।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Sectional_aeronautical_charts_-_%28United_States%29._LOC_2009582532-39.jpg/1920px-Sectional_aeronautical_charts_-_%28United_States%29._LOC_2009582532-39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 16827,
+      "h": 9334,
+      "credit": "Sectional aeronautical charts - (United States). LOC 2009582532-39.jpg by U.S. Coast And Geodetic Survey; United States. Federal Aviation Administration; , PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Sectional_aeronautical_charts_-_(United_States)._LOC_2009582532-39.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "इन सड़कों पर मील के पत्थर नहीं, ज़मीन के रेडियो बीकन और जी पी एस के पॉइंट्स हैं। हर पॉइंट का पाँच अक्षरों का नाम होता है।",
      "prompt": "A white radio navigation beacon station standing in a field in rural India, a farmer walking past, a jet high overhead, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इन सड़कों पर मील के पत्थर नहीं, ज़मीन के radio beacon और GPS के points हैं। हर point का पाँच अक्षरों का नाम होता है।"
+     "caption": "इन सड़कों पर मील के पत्थर नहीं, ज़मीन के radio beacon और GPS के points हैं। हर point का पाँच अक्षरों का नाम होता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/VOR_DME_KRH_01.JPG/1920px-VOR_DME_KRH_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2560,
+      "h": 1920,
+      "credit": "VOR DME KRH 01.JPG by Hans-Peter Scholz Ulenspiegel, CC BY-SA 2.0 DE, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:VOR_DME_KRH_01.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "उड़ान भरते ही आप टावर से निकलकर डिपार्चर कंट्रोलर के पास जाते हैं।",
      "prompt": "Dark radar room, an Indian controller with a headset leaning forward, face lit by soft glow, focused, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "उड़ान भरते ही आप Tower से निकलकर Departure controller के पास जाते हैं।"
+     "caption": "उड़ान भरते ही आप Tower से निकलकर Departure controller के पास जाते हैं।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Air_traffic_control_at_Beijing_Daxing_International_Airport.jpg/1920px-Air_traffic_control_at_Beijing_Daxing_International_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5910,
+      "h": 3940,
+      "credit": "Air traffic control at Beijing Daxing International Airport.jpg by Benlisquare, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Air_traffic_control_at_Beijing_Daxing_International_Airport.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "फिर एरिया कंट्रोल के पास। यहाँ एक कंट्रोलर सैकड़ों किलोमीटर लंबा आसमान का एक टुकड़ा अकेले संभालता है।",
      "prompt": "Large dim area control centre hall, rows of controllers with headsets at long desks, soft light, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "फिर Area Control के पास। यहाँ एक controller सैकड़ों किलोमीटर लंबा आसमान का एक टुकड़ा अकेले संभालता है।"
+     "caption": "फिर Area Control के पास। यहाँ एक controller सैकड़ों किलोमीटर लंबा आसमान का एक टुकड़ा अकेले संभालता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g1fd2214280cfa9091fa13763f2bf9f8944feabe407130b81cb9f792d2004a4b5c92ddab681597aa20116568fccd3cc953047867decb47a28b9e583ba20bff4b1_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (WayneJackson)",
+      "page": "https://pixabay.com/photos/airport-radar-airport-radar-tower-6599449/",
+      "card": 0.72
+     }
     },
     {
      "vo": "दिल्ली से मुंबई के करीब ग्यारह सौ पचास किलोमीटर में आप ऐसे कई कंट्रोलर्स से गुज़रते हैं।",
@@ -415,40 +602,88 @@
      "prompt": "Two airliners at the same height far apart in a clear sky, side view across a wide cloud layer, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "रडार वाले आसमान में, एक ही ऊँचाई पर आम तौर पर कम से कम 5 नॉटिकल मील, यानी करीब 9 किलोमीटर।"
+     "caption": "रडार वाले आसमान में, एक ही ऊँचाई पर आम तौर पर कम से कम 5 नॉटिकल मील, यानी करीब 9 किलोमीटर।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Air_traffic_control_radar_and_antenna_at_HAL_Museum_7831.JPG/1920px-Air_traffic_control_radar_and_antenna_at_HAL_Museum_7831.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3648,
+      "h": 2736,
+      "credit": "Air traffic control radar and antenna at HAL Museum 7831.JPG by Rameshng, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Air_traffic_control_radar_and_antenna_at_HAL_Museum_7831.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "ऊपर-नीचे हों, तो कम से कम एक हज़ार फ़ुट, यानी करीब तीन सौ मीटर। आपकी खिड़की से दिखता जहाज़ इतना पास भी हो सकता है।",
      "prompt": "Two airliners at cruising height, one flying directly above the other, a small gap of blue sky between them, seen from the side, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ऊपर-नीचे हों, तो कम से कम 1,000 फ़ुट, यानी करीब 300 मीटर। आपकी खिड़की से दिखता जहाज़ इतना पास भी हो सकता है।"
+     "caption": "ऊपर-नीचे हों, तो कम से कम 1,000 फ़ुट, यानी करीब 300 मीटर। आपकी खिड़की से दिखता जहाज़ इतना पास भी हो सकता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g29486ff642ab53f5ae794eb45f5600e07845bc5d860503aeeb5e05ceaf57bb3e69a6ff1ca37856a737aabaf82d31b0560b3941deb3383aaa7d63cf7d365ea29e_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (annekroiss)",
+      "page": "https://pixabay.com/photos/sky-aviation-airplane-aircraft-6768714/",
+      "card": 0.72
+     }
     },
     {
      "vo": "दो हज़ार तीन तक ऊँचे आसमान में ये फ़ासला दो हज़ार फ़ुट था। बेहतर अल्टीमीटर आए, तो भारत ने इसे आधा कर दिया।",
      "prompt": "Close-up of a modern cockpit altimeter instrument with a pilot's gloved finger beside it, morning light, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "2003 तक ऊँचे आसमान में ये फ़ासला 2,000 फ़ुट था। बेहतर altimeter आए, तो भारत ने इसे आधा कर दिया।"
+     "caption": "2003 तक ऊँचे आसमान में ये फ़ासला 2,000 फ़ुट था। बेहतर altimeter आए, तो भारत ने इसे आधा कर दिया।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Fighter_aircraft_altimeter_Bulova_B-11.JPG/1920px-Fighter_aircraft_altimeter_Bulova_B-11.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2687,
+      "h": 2646,
+      "credit": "Fighter aircraft altimeter Bulova B-11.JPG by Łukasz Karolewski (Dozymetr), CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Fighter_aircraft_altimeter_Bulova_B-11.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "इससे उसी आसमान में छह नई ऊँचाइयाँ मिल गईं, यानी ज़्यादा जहाज़, उतनी ही सुरक्षा।",
      "prompt": "Several airliners cruising at neatly stacked different heights above a cloud layer, seen from far to the side, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g8e0855425b4822ef3efce91bc71c6811dfa8574aa90afb488996de94d563924e5507a9069b2e6ba3165fd7a8717d9c700610d195c708dd994679ebf7b399fbab_1280.jpg",
+      "w": 6000,
+      "h": 3376,
+      "credit": "Pixabay (Mylene2401)",
+      "page": "https://pixabay.com/photos/plane-contrails-blue-sky-kerosene-8616271/",
+      "card": 0.72
+     }
     },
     {
      "vo": "दिशा का भी नियम है: पूरब वाले इकतीस हज़ार या तैंतीस हज़ार फ़ुट जैसी ऊँचाई पर, पश्चिम वाले बत्तीस हज़ार या चौंतीस हज़ार पर। यानी आमने-सामने दो जहाज़ नियम से कभी एक ऊँचाई पर नहीं।",
      "prompt": "Two airliners passing each other in opposite directions at clearly different heights, one lit by the rising sun, high blue sky, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "दिशा का भी नियम है: पूरब वाले 31,000 या 33,000 फ़ुट जैसी ऊँचाई पर, पश्चिम वाले 32,000 या 34,000 पर। यानी आमने-सामने दो जहाज़ नियम से कभी एक ऊँचाई पर नहीं।"
+     "caption": "दिशा का भी नियम है: पूरब वाले 31,000 या 33,000 फ़ुट जैसी ऊँचाई पर, पश्चिम वाले 32,000 या 34,000 पर। यानी आमने-सामने दो जहाज़ नियम से कभी एक ऊँचाई पर नहीं।",
+     "photo": {
+      "src": "https://pixabay.com/get/gd8b25f2433c7ad80e607a83adb3fb2bda90248151e75390d59b6bdad83351135950307b24b32adf5751eb1d0b145860702bb6e4f3e7e3238bd1835ec160c9aac_1280.jpg",
+      "w": 3872,
+      "h": 2592,
+      "credit": "Pixabay (tookapic)",
+      "page": "https://pixabay.com/photos/condensation-trails-contrails-931834/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर अगर कोई जहाज़ अपनी ऊँचाई छोड़ दे, तो? भारत ने इसकी क़ीमत एक बार चुकाई है।",
      "prompt": "Dark evening sky over Haryana fields, a single airliner's lights in the distance, ominous mood, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g2bf481da4b352fb51507b5b2eaabb648bb8b918ce33ea0750a712f54e82f62db3c887f93f97048250da4751bff37adb81cd641cba0415fe642db6e88cd83dfe6_1280.jpg",
+      "w": 4000,
+      "h": 2523,
+      "credit": "Pixabay (garten-gg)",
+      "page": "https://pixabay.com/photos/aircraft-sunset-silhouette-clouds-1362586/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -499,14 +734,30 @@
      "prompt": "A Boeing 747 climbing away from an airport at dusk, landing gear retracting, lights on, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Saudi Arabian Airlines की फ़्लाइट 763, एक Boeing 747, दिल्ली से सऊदी अरब के लिए ऊपर चढ़ रही थी।"
+     "caption": "Saudi Arabian Airlines की फ़्लाइट 763, एक Boeing 747, दिल्ली से सऊदी अरब के लिए ऊपर चढ़ रही थी।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/LONDON_HEATHROW_MARCH_1986_SAUDIA_BOEING_747_HZ-AIH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1500,
+      "h": 1000,
+      "credit": "LONDON HEATHROW MARCH 1986 SAUDIA BOEING 747 HZ-AIH.jpg by simon butler, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:LONDON_HEATHROW_MARCH_1986_SAUDIA_BOEING_747_HZ-AIH.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "उधर कज़ाख़स्तान एयरलाइंस की फ़्लाइट उन्नीस सौ सात, एक इल्यूशिन आई एल छिहत्तर, दिल्ली उतरने आ रही थी।",
      "prompt": "A large four-engine Ilyushin Il-76 jet descending through thin clouds at dusk, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "उधर Kazakhstan Airlines की फ़्लाइट 1907, एक Ilyushin Il-76, दिल्ली उतरने आ रही थी।"
+     "caption": "उधर Kazakhstan Airlines की फ़्लाइट 1907, एक Ilyushin Il-76, दिल्ली उतरने आ रही थी।",
+     "photo": {
+      "src": "https://pixabay.com/get/g70f906ecbbb2196a14a21f9fe80fe6c6704e3387f1ef4ffdaf81c46f39e2752fed7bec6fca4ff2123b016d9f308c1bf33e26e90ffcdf5cb1c14df210f3a2b07f_1280.jpg",
+      "w": 4896,
+      "h": 3264,
+      "credit": "Pixabay (fotostart)",
+      "page": "https://pixabay.com/photos/plane-sky-flight-clouds-aviation-4837711/",
+      "card": 0.72
+     }
     },
     {
      "vo": "सऊदी को चौदह हज़ार फ़ुट तक जाने को कहा गया था, कज़ाख़ को पंद्रह हज़ार पर रुकने को।",
@@ -527,7 +778,15 @@
      "prompt": "Inside a dim 1990s cockpit, a pilot's hand easing the control column forward, tense faces, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "लेकिन Kazakh जहाज़ अपनी तय ऊँचाई से नीचे उतरता चला गया।"
+     "caption": "लेकिन Kazakh जहाज़ अपनी तय ऊँचाई से नीचे उतरता चला गया।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Il-76MD-90A_maneuvering.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1200,
+      "h": 799,
+      "credit": "Il-76MD-90A maneuvering.jpg by Ministry of Defence (Russia), CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Il-76MD-90A_maneuvering.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "दोनों जहाज़ हवा में टकराए। सऊदी के तीन सौ बारह और कज़ाख़ के सैंतीस, सभी तीन सौ उनचास लोगों की जान गई।",
@@ -554,13 +813,23 @@
      "prompt": "A 1990s cockpit crew of four in a dim Ilyushin cockpit, only the radio operator wearing a headset and speaking, the others looking at him, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "जाँच में ये भी निकला कि crew में सिर्फ़ radio operator अंग्रेज़ी समझता था, और crew अपनी ऊँचाई ठीक से संभाल नहीं पाया।"
+     "caption": "जाँच में ये भी निकला कि crew में सिर्फ़ radio operator अंग्रेज़ी समझता था, और crew अपनी ऊँचाई ठीक से संभाल नहीं पाया।",
+     "photo": {
+      "src": "https://pixabay.com/get/g2f8cc66fef25086ef830f9f883489361cf8fd6049d6376e9442c9660a95127d5c74f278432421d7bfc9bcc2c1936c93ced8db0b39cccdbd73161aaf66253db93_1280.jpg",
+      "w": 5906,
+      "h": 3718,
+      "credit": "Pixabay (moinzon)",
+      "page": "https://pixabay.com/photos/cockpit-airplane-jet-aviation-6381367/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर दिल्ली का सिस्टम भी कमज़ोर था। तब वहाँ के रडार पर जहाज़ों की ऊँचाई दिखती ही नहीं थी।",
-     "prompt": "An old 1990s radar antenna beside Delhi airport at dusk, paint peeling, a jet passing in the distance, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "clip": {
+      "id": 2420,
+      "tags": "radar, sonar, ping, scan, submarine, marine, navigation, nautical, green, display",
+      "page": "https://pixabay.com/videos/id-2420/"
+     }
     },
     {
      "vo": "कंट्रोलर पायलट की बताई ऊँचाई पर भरोसा करता था। और आने-जाने वाले जहाज़ एक ही हवाई गलियारे से गुज़रते थे।",
@@ -573,7 +842,15 @@
      "vo": "इसके बाद दिल्ली को नया रडार मिला, आने-जाने के अलग रास्ते बने, और एक मशीन ज़रूरी हुई।",
      "prompt": "A modern radar antenna on a tower at Delhi airport at sunrise, an airliner climbing behind it, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Vitino%2C_Air_traffic_control_radar%2C_Crimea.jpg/1920px-Vitino%2C_Air_traffic_control_radar%2C_Crimea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3072,
+      "h": 2048,
+      "credit": "Vitino, Air traffic control radar, Crimea.jpg by Vyacheslav Argenberg, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Vitino,_Air_traffic_control_radar,_Crimea.jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -590,10 +867,11 @@
     },
     {
      "vo": "टी कैस आसपास के जहाज़ों के ट्रांसपोंडर से सीधे बात करता है, ज़मीन से पूछे बिना।",
-     "prompt": "Two airliners at night far apart in a dark sky, both with blinking lights, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "TCAS आसपास के जहाज़ों के transponder से सीधे बात करता है, ज़मीन से पूछे बिना।"
+     "clip": {
+      "id": 242,
+      "tags": "cockpit, airplane, pilots, co-pilot, landing, night, light, radar, radio contact, nasa, navigation, flight control, flying, flight, technology, approach, vehicle, people, overhead display, gauges, monitors, monitoring, control, navigate",
+      "page": "https://pixabay.com/videos/id-242/"
+     }
     },
     {
      "vo": "ये लगातार हिसाब लगाता है: कौन कितना पास है, और कितनी तेज़ी से पास आ रहा है।",
@@ -660,7 +938,15 @@
      "prompt": "Night sky over a dark lake with small town lights below, two airliners' lights converging from different directions at the same height, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "रात में एक रूसी यात्री जहाज़ और एक DHL cargo जहाज़ एक ही ऊँचाई पर पास आ रहे थे।"
+     "caption": "रात में एक रूसी यात्री जहाज़ और एक DHL cargo जहाज़ एक ही ऊँचाई पर पास आ रहे थे।",
+     "photo": {
+      "src": "https://pixabay.com/get/g25757ce3e54d7d7ef471e0a7bf3ecd9566041d8d87bf061d1f72e72925ec0e19a89dbd209fa5d585bff017c29def9fbc9500ab47fd0adad225427f4ab1138ef5_1280.jpg",
+      "w": 5800,
+      "h": 3803,
+      "credit": "Pixabay (12019)",
+      "page": "https://pixabay.com/photos/plane-aircraft-airbase-jet-170272/",
+      "card": 0.72
+     }
     },
     {
      "vo": "रूसी जहाज़ में टी कैस ने कहा क्लाइंब, पर कंट्रोलर ने कहा डिसेंड। पायलटों ने कंट्रोलर की मानी।",
@@ -681,14 +967,30 @@
      "prompt": "A memorial in a German meadow by a lake at dusk, flowers and candles beside a broken string of large pearls sculpture, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "71 लोगों की जान गई, और रूसी जहाज़ के ज़्यादातर यात्री स्कूल के बच्चे थे।"
+     "caption": "71 लोगों की जान गई, और रूसी जहाज़ के ज़्यादातर यात्री स्कूल के बच्चे थे।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Gedenkst%C3%A4tte_Flugzeugabsturz_%C3%9Cberlingen.jpg/1920px-Gedenkst%C3%A4tte_Flugzeugabsturz_%C3%9Cberlingen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2048,
+      "h": 1536,
+      "credit": "Gedenkstätte Flugzeugabsturz Überlingen.jpg by World24, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Gedenkst%C3%A4tte_Flugzeugabsturz_%C3%9Cberlingen.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "तब से नियम पक्का है: टी कैस और कंट्रोलर की बात अलग हो, तो पायलट टी कैस की सुनता है।",
      "prompt": "Captain in cockpit glancing at the first officer with a firm nod, both hands on the controls, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "तब से नियम पक्का है: TCAS और controller की बात अलग हो, तो पायलट TCAS की सुनता है।"
+     "caption": "तब से नियम पक्का है: TCAS और controller की बात अलग हो, तो पायलट TCAS की सुनता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/gb8f336b1f1cfc06f0eaab2daa86c88dc56880a62be40763da8c104c9ea11c590fa3dbabe1a652a6fa5b972e883bc3c2419294e52b1f6dc4a53a8f28a739d730c_1280.jpg",
+      "w": 3888,
+      "h": 2592,
+      "credit": "Pixabay (12019)",
+      "page": "https://pixabay.com/photos/cockpit-plane-airplane-jet-100624/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -701,26 +1003,58 @@
      "prompt": "Approach controller in Mumbai with headset, speaking with calm concentration, low warm light, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "मुंबई के पास आते ही आपका जहाज़ Approach controller के हाथ में है।"
+     "caption": "मुंबई के पास आते ही आपका जहाज़ Approach controller के हाथ में है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g6fd5444d0402278d411583f77c9501cf11779ed781f490bd9fb8ec09fc7a943e1909be355d9536519d9e06d8f835c057b9242a8e2b4851ee4c3c86b378a42305_1280.jpg",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Pixabay (bernswaelz)",
+      "page": "https://pixabay.com/photos/tower-aviation-airport-1379715/",
+      "card": 0.72
+     }
     },
     {
      "vo": "मुंबई के दो रनवे एक-दूसरे को काटते हैं, इसलिए ज़्यादातर समय एक ही रनवे से काम चलता है।",
      "prompt": "Aerial view of Mumbai airport at dusk, two runways crossing each other in an X, surrounded by dense city, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/CSIA_International_Terminal_%289693839958%29.jpg/1920px-CSIA_International_Terminal_%289693839958%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3490,
+      "h": 2327,
+      "credit": "CSIA International Terminal (9693839958).jpg by Kurush Pawar from Dubai, United Arab Emirates, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:CSIA_International_Terminal_(9693839958).jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "उसी समय चारों तरफ़ से और जहाज़ भी उसी रनवे की ओर आ रहे हैं।",
      "prompt": "Dusk sky over the Arabian Sea with airliners at different points converging toward the Mumbai shore, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/VT-JGC_%287942469670%29.jpg/1920px-VT-JGC_%287942469670%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3644,
+      "h": 2404,
+      "credit": "VT-JGC (7942469670).jpg by Kurush Pawar from Dubai, United Arab Emirates, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:VT-JGC_(7942469670).jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "कंट्रोलर उन्हें मोतियों की माला की तरह एक कतार में पिरोता है। किसी को धीमा करता है, किसी को थोड़ा घुमाकर लाता है।",
      "prompt": "A long line of landing lights of airliners one behind another over the sea at night, perfectly spaced, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Controller उन्हें मोतियों की माला की तरह एक कतार में पिरोता है। किसी को धीमा करता है, किसी को थोड़ा घुमाकर लाता है।"
+     "caption": "Controller उन्हें मोतियों की माला की तरह एक कतार में पिरोता है। किसी को धीमा करता है, किसी को थोड़ा घुमाकर लाता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/ge0c00d7ef1fd166ab700c63b20e0003c5417d18ca6e4986109d6af0a4f0cf7e2f989abe6685f5c65e94a79b92b91c43b6e224a674fd24717e358590c45b41038_1280.jpg",
+      "w": 2000,
+      "h": 1333,
+      "credit": "Pixabay (ThePixelman)",
+      "page": "https://pixabay.com/photos/plane-flight-sunset-sun-sunlight-513641/",
+      "card": 0.72
+     }
     },
     {
      "vo": "भीड़ ज़्यादा हो, तो जहाज़ किसी तय पॉइंट के ऊपर गोल चक्कर लगाते हैं। इसे होल्डिंग कहते हैं।",
@@ -746,28 +1080,60 @@
      "vo": "बड़े जहाज़ के पंखों के पीछे हवा में तेज़ भँवर बनते हैं, जो छोटे जहाज़ को बेक़ाबू कर सकते हैं।",
      "prompt": "Large jet flying through low mist, swirling vortex trails curling off its wingtips, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Airplane_vortex_edit.jpg/1920px-Airplane_vortex_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2976,
+      "h": 2420,
+      "credit": "Airplane vortex edit.jpg by NASA Langley Research Center (NASA-LaRC), Edited by Fir0002, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Airplane_vortex_edit.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "इसलिए बड़े के पीछे छोटे को आम तौर पर पाँच से छह नॉटिकल मील दूर रखते हैं। ए तीन सौ अस्सी के पीछे तो आठ तक।",
      "prompt": "A huge double-deck jet landing with a small turboprop far behind it on approach, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इसलिए बड़े के पीछे छोटे को आम तौर पर 5 से 6 नॉटिकल मील दूर रखते हैं। A380 के पीछे तो 8 तक।"
+     "caption": "इसलिए बड़े के पीछे छोटे को आम तौर पर 5 से 6 नॉटिकल मील दूर रखते हैं। A380 के पीछे तो 8 तक।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/ILA_2008_Airbus_A380_body.jpg/1920px-ILA_2008_Airbus_A380_body.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3813,
+      "h": 2542,
+      "credit": "ILA 2008 Airbus A380 body.jpg by Jochen Teufel, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:ILA_2008_Airbus_A380_body.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "आख़िरी हिस्से में ज़मीन से दो रेडियो किरणें रास्ता दिखाती हैं: एक दाएँ-बाएँ, दूसरी ऊपर-नीचे। इसे आई एल एस कहते हैं।",
      "prompt": "Small antenna hut beside a runway with a sign reading \"ILS\", a row of antennas beyond, jet passing low overhead, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "आख़िरी हिस्से में ज़मीन से दो radio किरणें रास्ता दिखाती हैं: एक दाएँ-बाएँ, दूसरी ऊपर-नीचे। इसे ILS कहते हैं।"
+     "caption": "आख़िरी हिस्से में ज़मीन से दो radio किरणें रास्ता दिखाती हैं: एक दाएँ-बाएँ, दूसरी ऊपर-नीचे। इसे ILS कहते हैं।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/London_Heathrow_Instrument_Landing_System_%28ILS%29%2C_October_2023_03.jpg/1920px-London_Heathrow_Instrument_Landing_System_%28ILS%29%2C_October_2023_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 3024,
+      "credit": "London Heathrow Instrument Landing System (ILS), October 2023 03.jpg by DaHuzyBru, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:London_Heathrow_Instrument_Landing_System_(ILS),_October_2023_03.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "जहाज़ तीन डिग्री की हल्की ढलान पर उतरता है, जैसे एक अदृश्य फिसलपट्टी।",
      "prompt": "Airliner on final approach in a long gentle descent toward a runway, side view, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "जहाज़ 3 डिग्री की हल्की ढलान पर उतरता है, जैसे एक अदृश्य फिसलपट्टी।"
+     "caption": "जहाज़ 3 डिग्री की हल्की ढलान पर उतरता है, जैसे एक अदृश्य फिसलपट्टी।",
+     "photo": {
+      "src": "https://pixabay.com/get/gbe7c84b0e92c2e9c3c3693aa67cd07ce7f687c3e03a7bd8bbe2205cdb9ef57e9484fc35fb8e01288fa91f3d295636c0957bddb63db021ef3cf2a670dba45fa5b_1280.jpg",
+      "w": 5976,
+      "h": 3616,
+      "credit": "Pixabay (rauschenberger)",
+      "page": "https://pixabay.com/photos/transport-plane-flight-sky-cloud-5207942/",
+      "card": 0.72
+     }
     },
     {
      "vo": "दिल्ली की सर्दियों की धुंध में कैट थ्री आई एल एस से पचास मीटर की विज़िबिलिटी में भी जहाज़ उतर जाते हैं। शर्त ये कि पायलट और जहाज़ दोनों इसके लिए तैयार हों।",
@@ -788,7 +1154,15 @@
      "prompt": "Close view of main wheels touching the runway with a puff of tyre smoke, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "रनवे ख़ाली हुआ, Tower बोला, और आपके पहिए ज़मीन छू गए। फिर वही Ground controller, और गेट तक का रास्ता।"
+     "caption": "रनवे ख़ाली हुआ, Tower बोला, और आपके पहिए ज़मीन छू गए। फिर वही Ground controller, और गेट तक का रास्ता।",
+     "photo": {
+      "src": "https://pixabay.com/get/g7a336fadebe7c96b6ac5ab95bd91a12f91a25609ef91cca10aee4ce2aedf2911c6746a719a59370386de850c209df02980d57d3753e9abfd1cc855065f22c9f4_1280.jpg",
+      "w": 4592,
+      "h": 3448,
+      "credit": "Pixabay (InsightPhotography)",
+      "page": "https://pixabay.com/photos/cockpit-aircraft-runway-flying-4598188/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -837,7 +1211,5 @@
    1
   ]
  },
- "framework": "2026-11-17 21:35",
- "released_at": "2026-11-17 21:36",
- "voice_requested": "voice-gk-34-atc-tower-inside-d3620d2341"
+ "photos_checked": true
 }
