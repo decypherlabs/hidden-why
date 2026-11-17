@@ -1,0 +1,2118 @@
+{
+ "slug": "tsm-006-australia-coast",
+ "channel": "The State Maps",
+ "format": "long",
+ "build": "kit",
+ "lang": "en",
+ "voice": "am_adam",
+ "title": "Australia Is Nearly the Size of the US. Why Do 85% Hug the Coast?",
+ "thumbnail": {
+  "text": "THE EMPTY *MIDDLE*",
+  "idea": "Full-frame night map of Australia: a bright, dense ribbon of city lights around the coast, the whole interior dark; a thick red circle around the empty centre with one red arrow pointing into it from the glowing southeast rim."
+ },
+ "sources": [
+  {
+   "claim": "85 percent of Australians live within 50 kilometres of the sea",
+   "source": "Australian Bureau of Statistics, Year Book Australia 2004, 'How many people live in Australia's coastal areas?' (2001 Census)"
+  },
+  {
+   "claim": "Australia covers 7.7 million square kilometres",
+   "source": "Geoscience Australia, 'Area of Australia - States and Territories' (7,688,287 km2)"
+  },
+  {
+   "claim": "The lower 48 US states cover about 8.1 million square kilometres",
+   "source": "US Census Bureau, State Area Measurements (contiguous US 8,080,464 km2), 2010"
+  },
+  {
+   "claim": "The Northern Territory covers 1.35 million square kilometres with about 250,000 people",
+   "source": "Geoscience Australia, Area of Australia; ABS National, state and territory population, 2024"
+  },
+  {
+   "claim": "Over a third of world iron ore comes from the Pilbara: in 2023 Australia mined about 960 million tonnes, about 38 percent of the world total and the most of any country, almost all of it in the Pilbara, Western Australia",
+   "source": "US Geological Survey, Mineral Commodity Summaries 2024, Iron Ore (world 2,500 Mt); Geoscience Australia, Australia's Identified Mineral Resources 2023 (Pilbara share of iron ore output)"
+  },
+  {
+   "claim": "Australia has roughly 27 million people",
+   "source": "ABS, National, state and territory population, June 2024 (27.2 million)"
+  },
+  {
+   "claim": "Two in three Australians live in the eight capital cities",
+   "source": "ABS, Regional population 2022-23, released March 2024 (about 67 percent in Greater Capital Cities)"
+  },
+  {
+   "claim": "Seven of those eight capitals sit beside the sea; Canberra is the only inland capital",
+   "source": "ABS, Australian Statistical Geography Standard, Greater Capital City Statistical Areas; locations from coordinates: Sydney, Melbourne, Brisbane, Perth, Adelaide, Hobart and Darwin lie on the coast or a tidal estuary, Canberra about 100 km from the nearest coast"
+  },
+  {
+   "claim": "Sydney about 5.45 million, Melbourne about 5.21 million, Brisbane 2.71 million, Perth 2.31 million, Adelaide 1.45 million in 2023; Sydney and Melbourne together about 40 percent",
+   "source": "ABS, Regional population 2022-23 (Greater Capital City Statistical Areas, June 2023; national total 26.6 million)"
+  },
+  {
+   "claim": "Darwin has about 150,000 people",
+   "source": "ABS, Regional population 2022-23 (Greater Darwin)"
+  },
+  {
+   "claim": "Sydney to Perth about 3,300 km; Perth to Adelaide about 2,100 km; Darwin closer to Jakarta than to Sydney",
+   "source": "Great-circle distances computed from city coordinates (Sydney-Perth 3,290 km; Perth-Adelaide 2,130 km; Darwin-Jakarta 2,700 km; Darwin-Sydney 3,150 km)"
+  },
+  {
+   "claim": "The Great Dividing Range runs more than 3,500 kilometres",
+   "source": "Geoscience Australia, 'Mountains' (Landforms), accessed 2026"
+  },
+  {
+   "claim": "Mount Kosciuszko is 2,228 metres",
+   "source": "Geoscience Australia, 'Highest Mountains'"
+  },
+  {
+   "claim": "About half of Australia gets less than 300 mm of rain a year",
+   "source": "Bureau of Meteorology / Geoscience Australia, 'Climate of Australia' (50 percent of the continent under 300 mm)"
+  },
+  {
+   "claim": "Sydney averages about 1,213 mm of rain a year; Alice Springs about 283 mm",
+   "source": "Bureau of Meteorology, climate statistics: Sydney Observatory Hill (066062) and Alice Springs Airport (015590)"
+  },
+  {
+   "claim": "Alice Springs is roughly 1,500 km by road from both Adelaide and Darwin",
+   "source": "Northern Territory Government / Stuart Highway road distances (Alice-Darwin about 1,500 km; Alice-Adelaide about 1,530 km)"
+  },
+  {
+   "claim": "About 35 percent of the continent gets so little rain it is effectively desert",
+   "source": "Geoscience Australia, 'Deserts'"
+  },
+  {
+   "claim": "Kati Thanda-Lake Eyre lies about 15 metres below sea level, with no outlet to the sea",
+   "source": "Geoscience Australia, 'Highest and lowest points'; Lake Eyre Basin Ministerial Forum"
+  },
+  {
+   "claim": "The Great Artesian Basin underlies about 22 percent of Australia",
+   "source": "Geoscience Australia, 'Great Artesian Basin' (about 1.7 million km2)"
+  },
+  {
+   "claim": "The Murray-Darling Basin covers about a million square kilometres, produces over a third of Australia's food and is home to about 2.3 million people",
+   "source": "Murray-Darling Basin Authority, 'Discover the Basin', accessed 2026"
+  },
+  {
+   "claim": "Many mine crews work fly-in, fly-out from coastal cities such as Perth",
+   "source": "Parliament of Western Australia, Education and Health Standing Committee, 'The impact of FIFO work practices on mental health', June 2015"
+  },
+  {
+   "claim": "About 2 in 100 Australians live in remote or very remote areas",
+   "source": "ABS, 2021 Census, Remoteness Areas"
+  },
+  {
+   "claim": "About 3.5 people per square kilometre in Australia; about 36 in the United States",
+   "source": "Derived from ABS 2024 population and Geoscience Australia area; US Census Bureau 2020 Census (93.8 per sq mile)"
+  },
+  {
+   "claim": "Aboriginal people have lived here for at least 65,000 years by the dating of Madjedbebe",
+   "source": "Clarkson et al., 'Human occupation of northern Australia by 65,000 years ago', Nature, July 2017"
+  },
+  {
+   "claim": "Other researchers argue the evidence points closer to 50,000 years",
+   "source": "O'Connell et al., 'When did Homo sapiens first reach Southeast Asia and Sahul?', PNAS, August 2018"
+  },
+  {
+   "claim": "More than 250 languages were spoken before 1788",
+   "source": "AIATSIS, Map of Indigenous Australia and 'Indigenous Australian languages'"
+  },
+  {
+   "claim": "Estimates of the 1788 population range from about 315,000 to more than one million",
+   "source": "ABS, Year Book Australia 2002, 'Aboriginal and Torres Strait Islander population'"
+  },
+  {
+   "claim": "On 26 January 1788 the First Fleet's eleven ships anchored at Sydney Cove with about 1,400 to 1,500 people, the first European settlement",
+   "source": "State Library of New South Wales, First Fleet collection; National Museum of Australia, 'Defining Moments: Arrival of the First Fleet'"
+  },
+  {
+   "claim": "About 50 kilometres west of Sydney Cove, the sandstone cliffs of the Blue Mountains",
+   "source": "Great-circle distance computed from coordinates: Sydney Cove (-33.859, 151.211) to the foot of the Blue Mountains escarpment near Emu Plains-Glenbrook (-33.75, 150.64), about 53 km; NSW National Parks and Wildlife Service, 'Blue Mountains National Park' (sandstone escarpment)"
+  },
+  {
+   "claim": "The Blue Mountains held the colony to the coastal plain for 25 years; crossed in May 1813 by Blaxland, Lawson and Wentworth",
+   "source": "National Museum of Australia, 'Defining Moments: Crossing the Blue Mountains'"
+  },
+  {
+   "claim": "A road reached Bathurst in 1815, roughly 150 to 160 km west of Sydney in a straight line",
+   "source": "NSW State Archives, Cox's Road (completed January 1815); straight-line distance computed from coordinates: Sydney CBD (-33.869, 151.209) to Bathurst (-33.419, 149.578) about 159 km, less from Sydney's western edge"
+  },
+  {
+   "claim": "In 1844 Charles Sturt set out from Adelaide hoping to find an inland sea; his expedition reached the stony desert now named Sturt Stony Desert",
+   "source": "State Library of South Australia, 'Charles Sturt's Central Australian Expedition 1844-46'"
+  },
+  {
+   "claim": "In 1865 surveyor-general George Goyder mapped a line marking where rainfall was reliable enough to farm",
+   "source": "State Library of South Australia, 'Goyder's Line'; D. W. Meinig, On the Margins of the Good Earth, 1962"
+  },
+  {
+   "claim": "Land beyond the line was opened to wheat farming in the wetter 1870s; many farms were abandoned in the drier 1880s",
+   "source": "D. W. Meinig, On the Margins of the Good Earth, 1962; SA History Hub, 'Goyder's Line'"
+  },
+  {
+   "claim": "Goyder's Line still roughly marks where cropping gives way to grazing in South Australia",
+   "source": "Primary Industries and Regions SA (PIRSA); SA History Hub, 'Goyder's Line'"
+  },
+  {
+   "claim": "The Overland Telegraph Line, completed in 1872, ran about 3,200 km from Adelaide to Darwin through Alice Springs",
+   "source": "National Archives of Australia, 'Overland Telegraph Line' (completed 22 August 1872)"
+  },
+  {
+   "claim": "The Trans-Australian Railway was completed in 1917 with a 478 km straight across the Nullarbor",
+   "source": "Australian Rail Track Corporation; National Museum of Australia (completed 17 October 1917)"
+  },
+  {
+   "claim": "The Adelaide-Darwin railway reached Darwin in 2004",
+   "source": "AustralAsia Railway Corporation; first freight train arrived in Darwin January 2004"
+  },
+  {
+   "claim": "On 1 January 1901 six colonies federated into one country under a new Constitution",
+   "source": "Commonwealth of Australia Constitution Act 1900 (UK), in force 1 January 1901 by Queen's proclamation; National Archives of Australia, 'Commonwealth of Australia Constitution Act'"
+  },
+  {
+   "claim": "Section 125 places the seat of government in New South Wales, not less than 100 miles from Sydney",
+   "source": "Commonwealth of Australia Constitution Act 1900, section 125"
+  },
+  {
+   "claim": "Canberra was chosen in 1908, about 250 km southwest of Sydney and about 100 km from the sea",
+   "source": "Seat of Government Act 1908; distances computed from coordinates (Sydney-Canberra about 247 km; Canberra-Batemans Bay coast about 105 km)"
+  },
+  {
+   "claim": "The ACT holds about 470,000 people; Canberra is the largest inland city",
+   "source": "ABS, National, state and territory population, 2023-24"
+  },
+  {
+   "claim": "In 1973 Albury-Wodonga was chosen as a national growth centre aiming for about 300,000 people by 2000",
+   "source": "Albury-Wodonga Development Act 1973; National Archives of Australia, Department of Urban and Regional Development records"
+  },
+  {
+   "claim": "The 2021 census counted fewer than 100,000 people in Albury-Wodonga",
+   "source": "ABS, 2021 Census QuickStats, Albury-Wodonga Significant Urban Area"
+  },
+  {
+   "claim": "The Regional Australia Institute aims for 11 million people in regional Australia by 2032",
+   "source": "Regional Australia Institute, 'Regionalisation Ambition 2032', 2022"
+  },
+  {
+   "claim": "In 2020-21 capital cities lost a net 43,000 people to the regions through internal migration, a record",
+   "source": "ABS, Regional population 2020-21, released March 2022"
+  },
+  {
+   "claim": "0.2 percent of Australia's land produces about 80 percent of its economic activity",
+   "source": "Grattan Institute, 'Mapping Australia's economy: cities as engines of prosperity', July 2014"
+  },
+  {
+   "claim": "Perth draws close to half its drinking water from two desalination plants",
+   "source": "Water Corporation (WA), 'Desalination', accessed 2026"
+  },
+  {
+   "claim": "The Snowy Mountains Scheme was built 1949-1974 by more than 100,000 people from over 30 countries",
+   "source": "Snowy Hydro Limited, 'Our history'"
+  },
+  {
+   "claim": "The scheme releases on average about 2,100 GL a year to the Murray and Murrumbidgee",
+   "source": "Snowy Hydro Limited, 'Water' (average annual releases)"
+  },
+  {
+   "claim": "Snowy water generates hydropower on the way, then supplies irrigation in the south-east's Murray and Murrumbidgee valleys",
+   "source": "Snowy Hydro Limited, 'Our history' and 'Water'; Murray-Darling Basin Authority, 'Snowy Mountains Scheme'"
+  },
+  {
+   "claim": "The north covers about 40 percent of the land and holds about 1.3 million people, about five percent",
+   "source": "Australian Government, 'Our North, Our Future: White Paper on Developing Northern Australia', June 2015"
+  },
+  {
+   "claim": "Darwin averages about 1,700 mm of rain, nearly all in the wet season",
+   "source": "Bureau of Meteorology, climate statistics, Darwin Airport (014015)"
+  },
+  {
+   "claim": "The Ord River scheme dammed Lake Argyle in 1971",
+   "source": "Water Corporation WA / Government of Western Australia, 'Ord River Dam' (completed 1971)"
+  },
+  {
+   "claim": "NAIF set up in 2016 with $5 billion, raised to $7 billion in 2021",
+   "source": "Northern Australia Infrastructure Facility Act 2016; NAIF Amendment Act 2021"
+  },
+  {
+   "claim": "A 2009 federal report put between 157,000 and 247,600 existing homes at risk under a 1.1 m sea-level rise, a high-end scenario for 2100",
+   "source": "Department of Climate Change, 'Climate Change Risks to Australia's Coast', 2009"
+  }
+ ],
+ "playbook": {
+  "topic_type": "place",
+  "points": [
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "minor": [
+   "The 85 percent within 50 km figure comes from the 2001 Census (ABS Year Book 2004). The title and opening state it in the present tense, so a short 'by the 2001 census' or 'about' would be safer.",
+   "'Over a third of world iron ore comes from the Pilbara' is a slight rounding down. The source gives 38 percent for all of Australia, almost all of it from the Pilbara.",
+   "Canberra: 1908 is the Seat of Government Act (Yass-Canberra district). The Canberra site itself was fixed a year later, so 'the site chosen in 1908' is slightly loose.",
+   "'The range wrings much of the rain from Pacific air' and 'stone ruins still stand' (abandoned farms north of Goyder's Line) are true in general but have no listed source.",
+   "'Later lines crossed the whole interior' comes after the 1880s farm collapse, but the Overland Telegraph (1872) predates it. Read as 'later than Goyder in 1865' it works, but the order could confuse.",
+   "Kosciuszko is the highest point on the Australian mainland and in the Great Dividing Range. 'Its highest point' is correct, but it is not the highest in Australia (Heard Island is higher).",
+   "The First Fleet reached Botany Bay on 18-20 January and moved to Sydney Cove on 26 January. The script's 'anchored at Sydney Cove on 26 January' is fine, but the Botany Bay stop is skipped."
+  ]
+ },
+ "stats": {
+  "words": 1616,
+  "cold_open_words": 91,
+  "shots": 91,
+  "minutes": 11.5,
+  "kinds": {
+   "chart": 2,
+   "compare": 3,
+   "document": 1,
+   "flow": 1,
+   "footage": 3,
+   "map": 63,
+   "stat": 10,
+   "still": 7,
+   "timeline": 1
+  }
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Eighty-five percent of Australians live within 50 kilometres of the sea.",
+     "kind": "stat",
+     "title": "*85%* Live Coastal",
+     "stat": {
+      "value": 85,
+      "prefix": "",
+      "suffix": "%",
+      "label": "of Australians live within 50 km of the sea"
+     },
+     "prompt": "Duotone archival plate in dark slate and a single muted orange: a wide view of a curving Australian coastal shoreline at dusk, a long crescent beach with a thin ribbon of low houses, jetties and small fishing boats hugging the water's edge, a few tiny silhouetted figures seen from behind walking along the sand, faint orange glow along the waterline and in the windows, the dry interior beyond fading into empty dark slate. The top third of the frame is a dark, plain, unbroken slate sky with soft shadow and no detail, left clear for words. The subject sits in the middle and lower half, period-accurate mid-century documentary photograph feel, fine film grain, no faces visible, no readable text, no logos., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Australia covers 7.7 million square kilometres, almost the size of the lower 48 US states.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -25.5,
+       134.0
+      ],
+      "span": 40,
+      "places": [
+       {
+        "name": "Australia",
+        "lat": -25.5,
+        "lon": 134.0
+       }
+      ],
+      "label": "7.7 million km²",
+      "globe": true
+     },
+     "title": "*7.7M* km²"
+    },
+    {
+     "vo": "The Northern Territory alone is 1.35 million square kilometres, home to about 250,000 people.",
+     "kind": "footage",
+     "search": "australian outback aerial",
+     "clip": {
+      "id": 317982,
+      "tags": "australia, outback, rocks, cliff face, nature, landscape, bush, rock, scenic, scrubland, aerial view, drone photography, aerial, outdoors",
+      "page": "https://pixabay.com/videos/id-317982/"
+     }
+    },
+    {
+     "vo": "Yet over a third of world iron ore comes from the dry Pilbara.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -22.0,
+       119.0
+      ],
+      "span": 12,
+      "places": [
+       {
+        "name": "Pilbara",
+        "lat": -22.69,
+        "lon": 117.79
+       },
+       {
+        "name": "Port Hedland",
+        "lat": -20.3106,
+        "lon": 118.6067
+       }
+      ],
+      "label": "Pilbara: 38% of world iron ore"
+     },
+     "title": "*Third* Of Iron Ore"
+    },
+    {
+     "vo": "It becomes the steel in cars, ships and buildings far beyond Australia.",
+     "kind": "still",
+     "prompt": "Painting of a steelworks at dusk, a glowing orange stream of molten steel pouring from a furnace, workers seen only as silhouettes, with steel beams and a half-built ship hull in the background, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "So why do most Australians live on the coast, leaving the middle empty?",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -27.0,
+       134.0
+      ],
+      "span": 38,
+      "places": [],
+      "label": "Why the rim?"
+     }
+    },
+    {
+     "vo": "The answer starts in 1788, on a small cove on the Pacific coast.",
+     "kind": "still",
+     "prompt": "Wooden sailing ships at anchor in a quiet wooded harbour cove at dawn, seen from a low headland; duotone archival plate, dark slate and one muted orange, no faces, no text, no signs or lettering on any storefront, screen or package",
+     "title": "*1788*"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "A NATION ON THE RIM",
+   "shots": [
+    {
+     "vo": "Draw a band 50 kilometres in from the shoreline, and it holds most of Australia's roughly 27 million people.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -27.0,
+       134.0
+      ],
+      "span": 40,
+      "places": [],
+      "label": "50 km from the sea: 85% of people"
+     }
+    },
+    {
+     "vo": "Two in three Australians live in the eight capital cities, and seven of those eight sit beside the sea.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -27.0,
+       134.0
+      ],
+      "span": 40,
+      "places": [
+       {
+        "name": "Sydney",
+        "lat": -33.8688,
+        "lon": 151.2093
+       },
+       {
+        "name": "Melbourne",
+        "lat": -37.8136,
+        "lon": 144.9631
+       },
+       {
+        "name": "Brisbane",
+        "lat": -27.4698,
+        "lon": 153.0251
+       },
+       {
+        "name": "Perth",
+        "lat": -31.9523,
+        "lon": 115.8613
+       },
+       {
+        "name": "Adelaide",
+        "lat": -34.9285,
+        "lon": 138.6007
+       },
+       {
+        "name": "Hobart",
+        "lat": -42.8821,
+        "lon": 147.3272
+       },
+       {
+        "name": "Darwin",
+        "lat": -12.4634,
+        "lon": 130.8456
+       },
+       {
+        "name": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+       }
+      ],
+      "label": "8 capitals, 7 on the sea"
+     }
+    },
+    {
+     "vo": "Sydney counted about 5.45 million people in 2023, and Melbourne about 5.21 million, together 40 percent of Australia.",
+     "kind": "chart",
+     "chart": {
+      "type": "bar",
+      "title": "Two cities dominate",
+      "unit": "million people",
+      "points": [
+       [
+        "Sydney",
+        5.45
+       ],
+       [
+        "Melbourne",
+        5.21
+       ],
+       [
+        "Brisbane",
+        2.71
+       ],
+       [
+        "Perth",
+        2.31
+       ],
+       [
+        "Adelaide",
+        1.45
+       ]
+      ],
+      "mark": "Sydney",
+      "source": "ABS, Regional population 2022-23"
+     }
+    },
+    {
+     "vo": "Sydney and Perth face each other across about 3,300 kilometres, most of it dry country with few towns.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       -31.0,
+       134.0
+      ],
+      "span": 30,
+      "places": [
+       {
+        "name": "Sydney",
+        "lat": -33.8688,
+        "lon": 151.2093
+       },
+       {
+        "name": "Perth",
+        "lat": -31.9523,
+        "lon": 115.8613
+       }
+      ],
+      "label": "3,300 km"
+     }
+    },
+    {
+     "vo": "Perth, home to about 2.3 million people, is roughly 2,100 kilometres from Adelaide, the next capital to the east.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       -33.0,
+       127.0
+      ],
+      "span": 20,
+      "places": [
+       {
+        "name": "Perth",
+        "lat": -31.9523,
+        "lon": 115.8613
+       },
+       {
+        "name": "Adelaide",
+        "lat": -34.9285,
+        "lon": 138.6007
+       }
+      ],
+      "label": "2,100 km to the next capital"
+     }
+    },
+    {
+     "vo": "Darwin, the northern capital with about 150,000 people, sits closer to Jakarta than it does to Sydney.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       -20.0,
+       128.0
+      ],
+      "span": 40,
+      "places": [
+       {
+        "name": "Darwin",
+        "lat": -12.4634,
+        "lon": 130.8456
+       },
+       {
+        "name": "Jakarta",
+        "lat": -6.2088,
+        "lon": 106.8456
+       },
+       {
+        "name": "Sydney",
+        "lat": -33.8688,
+        "lon": 151.2093
+       }
+      ],
+      "label": "Jakarta 2,700 km / Sydney 3,150 km"
+     }
+    },
+    {
+     "vo": "Behind the east coast runs the Great Dividing Range, more than 3,500 kilometres of hills and plateaus.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       -28.0,
+       146.0
+      ],
+      "span": 30,
+      "places": [
+       {
+        "name": "Great Dividing Range",
+        "lat": -28.0,
+        "lon": 151.0
+       }
+      ],
+      "label": "Great Dividing Range: 3,500+ km"
+     }
+    },
+    {
+     "vo": "Its highest point, Mount Kosciuszko, is only 2,228 metres, yet the range wrings much of the rain from Pacific air.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -36.0,
+       148.5
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Mount Kosciuszko",
+        "lat": -36.4559,
+        "lon": 148.2637
+       }
+      ],
+      "label": "2,228 m"
+     }
+    },
+    {
+     "vo": "About half of Australia gets less than 300 millimetres of rain a year, a quarter of Sydney's average.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -26.0,
+       134.0
+      ],
+      "span": 40,
+      "places": [],
+      "label": "Under 300 mm of rain a year"
+     }
+    },
+    {
+     "vo": "Sydney's long-term average is about 1,213 millimetres a year, while Alice Springs, in the centre, gets about 283.",
+     "kind": "compare",
+     "compare": {
+      "title": "Rain on the rim",
+      "left": {
+       "name": "Sydney",
+       "value": 1213,
+       "prefix": "",
+       "suffix": " mm",
+       "label": "average rain a year (BoM)"
+      },
+      "right": {
+       "name": "Alice Springs",
+       "value": 283,
+       "prefix": "",
+       "suffix": " mm",
+       "label": "average rain a year (BoM)"
+      },
+      "winner": "left"
+     }
+    },
+    {
+     "vo": "Alice Springs, the main town of the centre, is roughly 1,500 kilometres by road from both Adelaide and Darwin.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -24.0,
+       134.0
+      ],
+      "span": 26,
+      "places": [
+       {
+        "name": "Darwin",
+        "lat": -12.4634,
+        "lon": 130.8456
+       },
+       {
+        "name": "Alice Springs",
+        "lat": -23.698,
+        "lon": 133.8807
+       },
+       {
+        "name": "Adelaide",
+        "lat": -34.9285,
+        "lon": 138.6007
+       }
+      ],
+      "label": "1,500 km each way"
+     }
+    },
+    {
+     "vo": "Geoscience Australia counts about 35 percent of the continent as getting so little rain that it is effectively desert.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -25.5,
+       131.0
+      ],
+      "span": 36,
+      "places": [],
+      "label": "Effectively desert: about 35%"
+     }
+    },
+    {
+     "vo": "Inland rivers drain toward Kati Thanda–Lake Eyre, about 15 metres below sea level, with no outlet to the sea.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       -27.0,
+       138.0
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Kati Thanda–Lake Eyre",
+        "lat": -28.37,
+        "lon": 137.36
+       }
+      ],
+      "label": "-15 m, no outlet"
+     }
+    },
+    {
+     "vo": "Beneath the dry inland lies the Great Artesian Basin, spreading under about 22 percent of Australia.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -25.0,
+       142.0
+      ],
+      "span": 26,
+      "places": [
+       {
+        "name": "Great Artesian Basin",
+        "lat": -25.0,
+        "lon": 143.0
+       }
+      ],
+      "label": "Great Artesian Basin: 22%"
+     }
+    },
+    {
+     "vo": "The great exception is the Murray–Darling Basin, about a million square kilometres of the southeast fed by rivers.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -32.0,
+       145.5
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Murray–Darling Basin",
+        "lat": -32.0,
+        "lon": 145.0
+       }
+      ],
+      "label": "1 million km²"
+     }
+    },
+    {
+     "vo": "It produces over a third of Australia's food, and about 2.3 million people live inside it.",
+     "kind": "footage",
+     "search": "farmland crops aerial",
+     "clip": {
+      "id": 315063,
+      "tags": "field, farmland, drone footage, freshly plowed field, crop rows, agricultural landscape, young crops, early growth stage, aerial view, rural scenery, countryside, green field, textured ground, patterns in soil, agriculture from above",
+      "page": "https://pixabay.com/videos/id-315063/"
+     }
+    },
+    {
+     "vo": "Far to the northwest, the Pilbara's iron ore travels by rail to ports such as Port Hedland.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -21.5,
+       118.5
+      ],
+      "span": 8,
+      "places": [
+       {
+        "name": "Tom Price",
+        "lat": -22.69,
+        "lon": 117.79
+       },
+       {
+        "name": "Port Hedland",
+        "lat": -20.3106,
+        "lon": 118.6067
+       }
+      ],
+      "label": "Mine to port by rail"
+     }
+    },
+    {
+     "vo": "US Geological Survey figures put Australia's 2023 output at about 960 million tonnes, the largest of any country.",
+     "kind": "stat",
+     "stat": {
+      "value": 960,
+      "prefix": "",
+      "suffix": " million t",
+      "label": "iron ore mined in Australia, 2023 (USGS)"
+     },
+     "prompt": "Huge terraced open-pit mine of red earth with tiny haul trucks on its benches; top third plain dark slate sky; duotone archival plate, dark slate and muted orange"
+    },
+    {
+     "vo": "Many mine crews work fly-in, fly-out, living in coastal cities such as Perth and commuting by air.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       -26.0,
+       117.5
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "Perth",
+        "lat": -31.9523,
+        "lon": 115.8613
+       },
+       {
+        "name": "Pilbara",
+        "lat": -22.69,
+        "lon": 117.79
+       }
+      ],
+      "label": "Fly-in, fly-out"
+     }
+    },
+    {
+     "vo": "At the 2021 census, only about 2 in every 100 Australians lived in areas classed as remote or very remote.",
+     "kind": "footage",
+     "search": "remote outback road",
+     "clip": {
+      "id": 317977,
+      "tags": "aerial view, nature, rocks, red earth, australia, outback, dry",
+      "page": "https://pixabay.com/videos/id-317977/"
+     }
+    },
+    {
+     "vo": "That leaves an average of about 3.5 people per square kilometre, against roughly 36 in the United States.",
+     "kind": "compare",
+     "compare": {
+      "title": "Room to spare",
+      "left": {
+       "name": "Australia",
+       "value": 3.5,
+       "prefix": "",
+       "suffix": "",
+       "label": "people per km²"
+      },
+      "right": {
+       "name": "United States",
+       "value": 36,
+       "prefix": "",
+       "suffix": "",
+       "label": "people per km² (2020 Census)"
+      },
+      "winner": "right"
+     }
+    },
+    {
+     "vo": "Was the centre always this empty, or did someone draw the lines that hold Australians at the rim?",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -26.0,
+       134.0
+      ],
+      "span": 40,
+      "places": [],
+      "label": "Who drew the rim?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "LINES THE RAIN DREW",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "subscribe_ask": true,
+     "prompt": "Sandstone rock shelter overhang above a floodplain, a shallow excavation trench marked with string in the floor; duotone archival plate, dark slate and one muted orange, no faces, no text, no signs or lettering on any storefront, screen or package",
+     "seed": 1500,
+     "kind": "still"
+    },
+    {
+     "vo": "Aboriginal people have lived on this continent for at least 65,000 years, by the dating of Madjedbebe rock shelter.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -13.0,
+       132.5
+      ],
+      "span": 8,
+      "places": [
+       {
+        "name": "Madjedbebe (approx.)",
+        "lat": -12.5,
+        "lon": 132.88
+       }
+      ],
+      "label": "65,000 years"
+     }
+    },
+    {
+     "vo": "That date comes from a 2017 study in Nature; other researchers argue the evidence points closer to 50,000 years.",
+     "kind": "still",
+     "prompt": "Sandstone rock shelter overhang above a floodplain, a shallow excavation trench marked with string in the floor; duotone archival plate, dark slate and one muted orange, no faces, no text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Their nations covered the whole continent, desert included, speaking more than 250 languages before 1788.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -26.0,
+       134.0
+      ],
+      "span": 40,
+      "places": [],
+      "label": "250+ languages"
+     }
+    },
+    {
+     "vo": "How many people lived here in 1788 is still debated, and the published estimates sit very far apart.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -26.0,
+       134.0
+      ],
+      "span": 40,
+      "places": [],
+      "label": "1788 population: estimates differ"
+     }
+    },
+    {
+     "vo": "The ABS Year Book records estimates ranging from about 315,000 people to more than one million.",
+     "kind": "chart",
+     "chart": {
+      "type": "bar",
+      "title": "Estimates far apart",
+      "unit": "people in 1788",
+      "points": [
+       [
+        "Low estimate",
+        315000
+       ],
+       [
+        "High estimate",
+        1000000
+       ]
+      ],
+      "mark": "High estimate",
+      "source": "ABS, Year Book Australia 2002"
+     }
+    },
+    {
+     "vo": "On 26 January 1788, eleven ships with about 1,400 to 1,500 people anchored at Sydney Cove, and the first European settlement is pinned on the coast.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -33.86,
+       151.21
+      ],
+      "span": 0.4,
+      "places": [
+       {
+        "name": "Sydney Cove",
+        "lat": -33.8587,
+        "lon": 151.2108
+       }
+      ],
+      "label": "26 Jan 1788: first European settlement"
+     }
+    },
+    {
+     "vo": "About 50 kilometres west, the sandstone cliffs of the Blue Mountains held the new colony to the coastal plain.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       -33.8,
+       150.9
+      ],
+      "span": 1.2,
+      "places": [
+       {
+        "name": "Sydney Cove",
+        "lat": -33.8587,
+        "lon": 151.2108
+       },
+       {
+        "name": "Blue Mountains escarpment",
+        "lat": -33.75,
+        "lon": 150.64
+       }
+      ],
+      "label": "About 50 km: the first wall"
+     }
+    },
+    {
+     "vo": "For 25 years, settlers farmed the narrow strip between the ocean and those cliffs.",
+     "kind": "footage",
+     "search": "coastal cliffs farmland",
+     "clip": {
+      "id": 1890,
+      "tags": "cliff, island, aerial view, nature, landscape, ocean, sea, waves",
+      "page": "https://pixabay.com/videos/id-1890/"
+     }
+    },
+    {
+     "vo": "On the colony's maps, everything west of those cliffs stayed blank, unmapped by Europeans.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -33.5,
+       149.0
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Blue Mountains escarpment",
+        "lat": -33.75,
+        "lon": 150.64
+       }
+      ],
+      "label": "West of the wall: unmapped by Europeans"
+     }
+    },
+    {
+     "vo": "In May 1813, Gregory Blaxland, William Lawson and William Wentworth found a way across by following the ridges.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -33.7,
+       150.3
+      ],
+      "span": 1.5,
+      "places": [
+       {
+        "name": "Emu Plains",
+        "lat": -33.75,
+        "lon": 150.67
+       },
+       {
+        "name": "Mount Blaxland",
+        "lat": -33.6,
+        "lon": 150.0
+       }
+      ],
+      "label": "May 1813: the ridge route"
+     }
+    },
+    {
+     "vo": "A road followed in 1815 to the new inland town of Bathurst, roughly 150 to 160 kilometres west of Sydney.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -33.6,
+       150.4
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Sydney",
+        "lat": -33.8688,
+        "lon": 151.2093
+       },
+       {
+        "name": "Bathurst",
+        "lat": -33.4193,
+        "lon": 149.5775
+       }
+      ],
+      "label": "1815: first road inland"
+     }
+    },
+    {
+     "vo": "In 1844 Charles Sturt set out north from Adelaide hoping to find an inland sea.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -30.5,
+       139.5
+      ],
+      "span": 10,
+      "places": [
+       {
+        "name": "Adelaide",
+        "lat": -34.9285,
+        "lon": 138.6007
+       },
+       {
+        "name": "Sturt Stony Desert",
+        "lat": -27.8,
+        "lon": 140.5
+       }
+      ],
+      "label": "1844: looking for an inland sea"
+     }
+    },
+    {
+     "vo": "And his route stops at a stony desert, which is marked on the map where the settled edge ends.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -29.5,
+       139.5
+      ],
+      "span": 10,
+      "places": [
+       {
+        "name": "Sturt Stony Desert",
+        "lat": -27.8,
+        "lon": 140.5
+       },
+       {
+        "name": "Adelaide",
+        "lat": -34.9285,
+        "lon": 138.6007
+       }
+      ],
+      "label": "Stony desert: the settled edge ends"
+     }
+    },
+    {
+     "vo": "In 1865, after a severe drought, South Australia's surveyor-general George Goyder rode north to map where it had struck.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -33.0,
+       138.5
+      ],
+      "span": 5,
+      "places": [
+       {
+        "name": "Orroroo",
+        "lat": -32.73,
+        "lon": 138.61
+       },
+       {
+        "name": "Adelaide",
+        "lat": -34.9285,
+        "lon": 138.6007
+       }
+      ],
+      "label": "1865 survey"
+     }
+    },
+    {
+     "vo": "He drew a line across the map, marking where rainfall seemed reliable enough to farm, and where it was not.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       -33.0,
+       138.5
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Goyder's Line (approx.)",
+        "lat": -32.8,
+        "lon": 138.7
+       }
+      ],
+      "label": "Goyder's Line",
+      "years": [
+       1865
+      ]
+     }
+    },
+    {
+     "vo": "In the wetter 1870s, the government opened land beyond Goyder's Line to wheat farming.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       -32.5,
+       138.5
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Goyder's Line (approx.)",
+        "lat": -32.8,
+        "lon": 138.7
+       },
+       {
+        "name": "Orroroo",
+        "lat": -32.73,
+        "lon": 138.61
+       }
+      ],
+      "label": "1870s: farms push past the line"
+     }
+    },
+    {
+     "vo": "Wheat farmers followed with horse-drawn ploughs, pushing north into country Goyder had marked as unreliable.",
+     "kind": "still",
+     "prompt": "Horse-drawn ploughs turning dry soil on a wide plain under a rare rain cloud, a new stone cottage behind; duotone archival plate, dark slate and one muted orange, no faces, no text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "When drier years returned in the 1880s, many of those farms were abandoned, and their stone ruins still stand.",
+     "kind": "still",
+     "prompt": "Ruins of an abandoned 19th-century stone farmhouse on a dry, sun-baked Australian plain, crumbling walls and empty window openings, dry grass and scrub, late afternoon light, no people, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Goyder's Line still roughly marks where cropping gives way to grazing in South Australia today.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -33.0,
+       138.5
+      ],
+      "span": 6,
+      "places": [],
+      "label": "Crops south, grazing north"
+     }
+    },
+    {
+     "vo": "Later lines crossed the whole interior, but they carried messages, freight and passengers rather than new settlers.",
+     "kind": "timeline",
+     "timeline": {
+      "title": "Lines across nowhere",
+      "events": [
+       [
+        "1813",
+        "Blue Mountains crossed"
+       ],
+       [
+        "1865",
+        "Goyder's Line drawn"
+       ],
+       [
+        "1872",
+        "Overland Telegraph finished"
+       ],
+       [
+        "1917",
+        "Nullarbor railway opens"
+       ],
+       [
+        "2004",
+        "Railway reaches Darwin"
+       ]
+      ],
+      "mark": "1865"
+     }
+    },
+    {
+     "vo": "In 1872 the Overland Telegraph Line ran about 3,200 kilometres from Adelaide to Darwin, through Alice Springs.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -24.0,
+       134.0
+      ],
+      "span": 26,
+      "places": [
+       {
+        "name": "Adelaide",
+        "lat": -34.9285,
+        "lon": 138.6007
+       },
+       {
+        "name": "Alice Springs",
+        "lat": -23.698,
+        "lon": 133.8807
+       },
+       {
+        "name": "Darwin",
+        "lat": -12.4634,
+        "lon": 130.8456
+       }
+      ],
+      "label": "1872: 3,200 km of wire"
+     }
+    },
+    {
+     "vo": "In 1917 the Trans-Australian Railway crossed the Nullarbor Plain, including one dead-straight stretch of 478 kilometres.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -31.0,
+       129.5
+      ],
+      "span": 12,
+      "places": [
+       {
+        "name": "Port Augusta",
+        "lat": -32.4936,
+        "lon": 137.7653
+       },
+       {
+        "name": "Ooldea",
+        "lat": -30.45,
+        "lon": 131.83
+       },
+       {
+        "name": "Loongana",
+        "lat": -30.95,
+        "lon": 127.03
+       },
+       {
+        "name": "Kalgoorlie",
+        "lat": -30.7489,
+        "lon": 121.4658
+       }
+      ],
+      "label": "478 km dead straight"
+     }
+    },
+    {
+     "vo": "The railway from Adelaide only reached Darwin in 2004, linking the south and north coasts by rail for the first time.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -24.0,
+       134.0
+      ],
+      "span": 26,
+      "places": [
+       {
+        "name": "Adelaide",
+        "lat": -34.9285,
+        "lon": 138.6007
+       },
+       {
+        "name": "Alice Springs",
+        "lat": -23.698,
+        "lon": 133.8807
+       },
+       {
+        "name": "Darwin",
+        "lat": -12.4634,
+        "lon": 130.8456
+       }
+      ],
+      "label": "2004: rail to Darwin"
+     }
+    },
+    {
+     "vo": "Back on 1 January 1901, six colonies federated into one country under a new Constitution.",
+     "kind": "still",
+     "prompt": "Grand exhibition hall interior with rows of empty chairs and bunting, light falling through tall windows; duotone archival plate, dark slate and one muted orange, no faces, no text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "That Constitution had already written a distance from Sydney into law, and the rule still stands today.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       -33.87,
+       151.21
+      ],
+      "span": 5,
+      "places": [
+       {
+        "name": "Sydney",
+        "lat": -33.8688,
+        "lon": 151.2093
+       }
+      ],
+      "label": "A distance written into law"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "CITY AGAINST BUSH",
+   "shots": [
+    {
+     "vo": "Section 125 places the seat of government in New South Wales, at least 100 miles, about 160 kilometres, from Sydney.",
+     "kind": "document",
+     "document": {
+      "title": "Commonwealth of Australia Constitution Act 1900, section 125",
+      "highlight": "distant not less than one hundred miles from Sydney"
+     },
+     "prompt": "Old parchment pages and a quill on a dark desk beside a folded survey map; top third plain dark; duotone archival plate, dark slate and muted orange"
+    },
+    {
+     "vo": "The site chosen in 1908, Canberra, lies about 250 kilometres southwest of Sydney and about 100 kilometres from the sea.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       -34.6,
+       150.0
+      ],
+      "span": 4,
+      "places": [
+       {
+        "name": "Sydney",
+        "lat": -33.8688,
+        "lon": 151.2093
+       },
+       {
+        "name": "Canberra",
+        "lat": -35.2809,
+        "lon": 149.13
+       },
+       {
+        "name": "Batemans Bay",
+        "lat": -35.708,
+        "lon": 150.174
+       }
+      ],
+      "label": "250 km from Sydney, about 100 km from the sea"
+     }
+    },
+    {
+     "vo": "Today the ACT holds about 470,000 people, which makes Canberra the largest inland city in Australia.",
+     "kind": "stat",
+     "stat": {
+      "value": 470000,
+      "prefix": "",
+      "suffix": " people",
+      "label": "Australian Capital Territory (ABS, 2024)"
+     },
+     "prompt": "A planned city of low buildings around a still lake ringed by wooded hills, seen from a hilltop; top third plain dark slate sky; duotone archival plate, dark slate and muted orange"
+    },
+    {
+     "vo": "In 1973 the federal government chose Albury–Wodonga, on the Murray River, as a planned national growth centre.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -36.1,
+       146.9
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Albury",
+        "lat": -36.0737,
+        "lon": 146.9135
+       },
+       {
+        "name": "Wodonga",
+        "lat": -36.1218,
+        "lon": 146.888
+       }
+      ],
+      "label": "1973 growth centre"
+     }
+    },
+    {
+     "vo": "The plan aimed for about 300,000 residents by 2000; the 2021 census counted fewer than 100,000.",
+     "kind": "compare",
+     "compare": {
+      "title": "Plan versus census",
+      "left": {
+       "name": "Target for 2000",
+       "value": 300000,
+       "prefix": "",
+       "suffix": "",
+       "label": "people planned (1973)"
+      },
+      "right": {
+       "name": "2021 Census",
+       "value": 100000,
+       "prefix": "under ",
+       "suffix": "",
+       "label": "people counted"
+      },
+      "winner": "left"
+     }
+    },
+    {
+     "vo": "So today the argument splits the same map two ways: spread Australians out, or let the coastal cities keep growing.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -27.0,
+       134.0
+      ],
+      "span": 40,
+      "places": [],
+      "label": "Spread out, or grow the rim?"
+     }
+    },
+    {
+     "vo": "The Regional Australia Institute has set a goal of 11 million people living in regional Australia by 2032.",
+     "kind": "stat",
+     "stat": {
+      "value": 11,
+      "prefix": "",
+      "suffix": " million",
+      "label": "regional population goal for 2032 (Regional Australia Institute)"
+     },
+     "prompt": "Main street of a country town with a grain silo and a water tower at the end, empty footpaths; top third plain dark slate sky; duotone archival plate, dark slate and muted orange"
+    },
+    {
+     "vo": "Its supporters point to coastal house prices, long commutes, and country towns that need workers for schools and hospitals.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -34.0,
+       148.0
+      ],
+      "span": 10,
+      "places": [
+       {
+        "name": "Sydney",
+        "lat": -33.8688,
+        "lon": 151.2093
+       },
+       {
+        "name": "Wagga Wagga",
+        "lat": -35.1082,
+        "lon": 147.3598
+       },
+       {
+        "name": "Dubbo",
+        "lat": -32.2569,
+        "lon": 148.6011
+       },
+       {
+        "name": "Orange",
+        "lat": -33.2835,
+        "lon": 149.1012
+       }
+      ],
+      "label": "Towns that need workers"
+     }
+    },
+    {
+     "vo": "Would you move 300 kilometres inland for a cheaper house, if your job could come with you?",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       -34.0,
+       149.5
+      ],
+      "span": 8,
+      "places": [
+       {
+        "name": "Sydney",
+        "lat": -33.8688,
+        "lon": 151.2093
+       }
+      ],
+      "label": "300 km ring"
+     }
+    },
+    {
+     "vo": "In 2020–21, Australia's capital cities lost a net 43,000 people to the regions through moves within the country.",
+     "kind": "flow",
+     "flow": {
+      "title": "The pandemic drift",
+      "nodes": [
+       "Capital cities",
+       "Regional Australia"
+      ],
+      "links": [
+       [
+        "Capital cities",
+        "Regional Australia",
+        "net 43,000 people"
+       ]
+      ]
+     }
+    },
+    {
+     "vo": "The ABS called it a record, and supporters of regional growth read it as proof that people will move.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       -30.0,
+       145.0
+      ],
+      "span": 22,
+      "places": [
+       {
+        "name": "Sydney",
+        "lat": -33.8688,
+        "lon": 151.2093
+       },
+       {
+        "name": "Melbourne",
+        "lat": -37.8136,
+        "lon": 144.9631
+       },
+       {
+        "name": "Brisbane",
+        "lat": -27.4698,
+        "lon": 153.0251
+       }
+      ],
+      "label": "Record net loss, 2020–21"
+     }
+    },
+    {
+     "vo": "The other side's case, in its strongest form, starts with where the country's money is actually made.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -33.87,
+       151.2
+      ],
+      "span": 0.6,
+      "places": [
+       {
+        "name": "Sydney CBD",
+        "lat": -33.8688,
+        "lon": 151.2093
+       }
+      ],
+      "label": "Where the money is"
+     }
+    },
+    {
+     "vo": "A 2014 Grattan Institute study found that just 0.2 percent of Australia's land produces about 80 percent of its economic activity.",
+     "kind": "stat",
+     "stat": {
+      "value": 80,
+      "prefix": "",
+      "suffix": "%",
+      "label": "of economic activity on 0.2% of the land (Grattan Institute, 2014)"
+     },
+     "prompt": "Dense city towers on a harbour at dusk with lit windows, ferries crossing below; top third plain dark slate sky; duotone archival plate, dark slate and muted orange"
+    },
+    {
+     "vo": "Its authors argued that dense cities let firms and workers find each other, something small towns struggle to match.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -37.81,
+       144.96
+      ],
+      "span": 0.6,
+      "places": [
+       {
+        "name": "Melbourne CBD",
+        "lat": -37.8136,
+        "lon": 144.9631
+       }
+      ],
+      "label": "Density"
+     }
+    },
+    {
+     "vo": "Others add the water limit: beyond the wet rim and the Murray–Darling, rainfall is low and unreliable for big cities.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -26.0,
+       134.0
+      ],
+      "span": 40,
+      "places": [],
+      "label": "The water limit"
+     }
+    },
+    {
+     "vo": "Even coastal Perth now draws close to half its drinking water from the ocean, through two desalination plants.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -32.6,
+       115.8
+      ],
+      "span": 2.5,
+      "places": [
+       {
+        "name": "Perth",
+        "lat": -31.9523,
+        "lon": 115.8613
+       },
+       {
+        "name": "Kwinana plant",
+        "lat": -32.198,
+        "lon": 115.771
+       },
+       {
+        "name": "Binningup plant",
+        "lat": -33.157,
+        "lon": 115.693
+       }
+      ],
+      "label": "Water from the sea"
+     }
+    },
+    {
+     "vo": "Australia has moved water on a very large scale before, for example through the Snowy Mountains Scheme, built between 1949 and 1974.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       -36.0,
+       148.3
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Jindabyne",
+        "lat": -36.416,
+        "lon": 148.62
+       },
+       {
+        "name": "Khancoban",
+        "lat": -36.22,
+        "lon": 148.13
+       },
+       {
+        "name": "Tumut",
+        "lat": -35.3,
+        "lon": 148.22
+       }
+      ],
+      "label": "Snowy Scheme, 1949–1974"
+     }
+    },
+    {
+     "vo": "More than 100,000 people from over 30 countries built its dams, tunnels and power stations.",
+     "kind": "still",
+     "prompt": "A curved concrete dam wall in a steep alpine valley under construction, cranes and scaffolding, small distant figures; duotone archival plate, dark slate and one muted orange, no faces, no text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "On average it releases about 2,100 gigalitres a year west through the mountains into the Murray and Murrumbidgee rivers.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       -35.8,
+       147.5
+      ],
+      "span": 4,
+      "places": [
+       {
+        "name": "Snowy Mountains",
+        "lat": -36.2,
+        "lon": 148.4
+       },
+       {
+        "name": "Murray River (Khancoban)",
+        "lat": -36.22,
+        "lon": 148.13
+       },
+       {
+        "name": "Murrumbidgee River (Tumut)",
+        "lat": -35.3,
+        "lon": 148.22
+       }
+      ],
+      "label": "About 2,100 GL a year, turned west"
+     }
+    },
+    {
+     "vo": "That water generates hydropower on the way, then irrigates existing farms in the south-east, not the dry centre.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -34.8,
+       145.5
+      ],
+      "span": 8,
+      "places": [
+       {
+        "name": "Griffith",
+        "lat": -34.2886,
+        "lon": 146.0567
+       },
+       {
+        "name": "Leeton",
+        "lat": -34.5507,
+        "lon": 146.4045
+       },
+       {
+        "name": "Deniliquin",
+        "lat": -35.5317,
+        "lon": 144.9595
+       }
+      ],
+      "label": "Power, then south-east farms, not the centre"
+     }
+    },
+    {
+     "vo": "Which case wins depends partly on what happens next, and three possible changes can already be drawn on the map.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -26.0,
+       134.0
+      ],
+      "span": 40,
+      "places": [],
+      "label": "Three changes"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "THREE WAYS IT SHIFTS",
+   "shots": [
+    {
+     "vo": "The first is the north, which a 2015 federal White Paper put at about 40 percent of Australia's land.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -18.0,
+       134.0
+      ],
+      "span": 22,
+      "places": [],
+      "label": "The north: about 40% of the land"
+     }
+    },
+    {
+     "vo": "The same paper counted about 1.3 million people there, or roughly five percent of the national population.",
+     "kind": "stat",
+     "stat": {
+      "value": 1.3,
+      "prefix": "",
+      "suffix": " million",
+      "label": "people in northern Australia (White Paper, 2015)"
+     },
+     "prompt": "Tropical savanna with termite mounds and a broad river under towering wet-season clouds; top third plain dark slate sky; duotone archival plate, dark slate and muted orange"
+    },
+    {
+     "vo": "The north is not dry: Darwin averages about 1,700 millimetres of rain, nearly all of it in the wet season.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -13.0,
+       131.5
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Darwin",
+        "lat": -12.4634,
+        "lon": 130.8456
+       }
+      ],
+      "label": "1,700 mm, mostly Nov–Apr"
+     }
+    },
+    {
+     "vo": "The Ord River scheme dammed Lake Argyle in 1971 to store that seasonal water for farms around Kununurra.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -16.0,
+       128.7
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Lake Argyle",
+        "lat": -16.11,
+        "lon": 128.74
+       },
+       {
+        "name": "Kununurra",
+        "lat": -15.77,
+        "lon": 128.74
+       }
+      ],
+      "label": "Ord River Dam, 1971"
+     }
+    },
+    {
+     "vo": "In 2016 Canberra set up the Northern Australia Infrastructure Facility with $5 billion, raised to $7 billion in 2021.",
+     "kind": "stat",
+     "stat": {
+      "value": 7,
+      "prefix": "A$",
+      "suffix": " billion",
+      "label": "Northern Australia Infrastructure Facility, since 2021"
+     },
+     "prompt": "A new sealed road running straight through red tropical scrub toward low hills, a road crew's machinery parked at the edge; top third plain dark slate sky; duotone archival plate, dark slate and muted orange"
+    },
+    {
+     "vo": "If such projects work, towns could grow along the tropical rivers; if they stall, the north stays thinly settled.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -16.0,
+       134.0
+      ],
+      "span": 18,
+      "places": [
+       {
+        "name": "Kununurra",
+        "lat": -15.77,
+        "lon": 128.74
+       },
+       {
+        "name": "Katherine",
+        "lat": -14.4652,
+        "lon": 132.2635
+       },
+       {
+        "name": "Townsville",
+        "lat": -19.259,
+        "lon": 146.8169
+       }
+      ],
+      "label": "Scenario 1: the north"
+     }
+    },
+    {
+     "vo": "The second change comes from the sea itself, pressing on the rim where most Australians already live.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -30.0,
+       140.0
+      ],
+      "span": 30,
+      "places": [],
+      "label": "Scenario 2: the sea"
+     }
+    },
+    {
+     "vo": "A 2009 federal report put between 157,000 and 247,600 existing homes at risk under a 1.1-metre sea-level rise.",
+     "kind": "stat",
+     "stat": {
+      "value": 247600,
+      "prefix": "up to ",
+      "suffix": " homes",
+      "label": "at risk under a 1.1 m sea-level rise (Dept of Climate Change, 2009)"
+     },
+     "prompt": "Low beachfront houses behind a narrow dune with a high tide washing close, grey sky; top third plain dark slate sky; duotone archival plate, dark slate and muted orange"
+    },
+    {
+     "vo": "It used 1.1 metres as a high-end scenario for 2100; how fast the sea will actually rise remains a projection.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       -33.95,
+       151.15
+      ],
+      "span": 0.8,
+      "places": [
+       {
+        "name": "Botany Bay",
+        "lat": -34.0,
+        "lon": 151.2
+       }
+      ],
+      "label": "1.1 m: high-end scenario"
+     }
+    },
+    {
+     "vo": "If the water does rise, the shoreline could shift inland in low-lying suburbs, while the cities stay by the sea.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       -33.95,
+       151.15
+      ],
+      "span": 0.8,
+      "places": [],
+      "label": "Shoreline, today and 2100 scenario",
+      "years": [
+       2009,
+       2100
+      ]
+     }
+    },
+    {
+     "vo": "The third change is quieter: whether the 2020–21 drift to the regions turns out to be a trend or a blip.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       -34.0,
+       147.0
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "Melbourne",
+        "lat": -37.8136,
+        "lon": 144.9631
+       },
+       {
+        "name": "Geelong",
+        "lat": -38.1499,
+        "lon": 144.3617
+       },
+       {
+        "name": "Sydney",
+        "lat": -33.8688,
+        "lon": 151.2093
+       },
+       {
+        "name": "Newcastle",
+        "lat": -32.9283,
+        "lon": 151.7817
+       }
+      ],
+      "label": "Scenario 3: the regions"
+     }
+    },
+    {
+     "vo": "If it lasts, the coastal band may thicken into a second ring of regional towns, rather than reach the centre.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -30.0,
+       140.0
+      ],
+      "span": 30,
+      "places": [],
+      "label": "A second ring"
+     }
+    },
+    {
+     "vo": "Notice that none of the three scenarios points people at the dry centre itself, and the rain map offers one reason why.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       -25.0,
+       134.0
+      ],
+      "span": 30,
+      "places": [
+       {
+        "name": "Alice Springs",
+        "lat": -23.698,
+        "lon": 133.8807
+       }
+      ],
+      "label": "The centre"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Australia's population map closely follows its rainfall map, with history and economics adding to the pattern.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       -26.0,
+       134.0
+      ],
+      "span": 40,
+      "places": [],
+      "label": "Rain, history, economics"
+     }
+    },
+    {
+     "vo": "Next, a country whose people crowd not along a coast but along a border: Canada, beside the United States.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       52.0,
+       -96.0
+      ],
+      "span": 30,
+      "places": [
+       {
+        "name": "Toronto",
+        "lat": 43.6532,
+        "lon": -79.3832
+       },
+       {
+        "name": "Vancouver",
+        "lat": 49.2827,
+        "lon": -123.1207
+       },
+       {
+        "name": "Montreal",
+        "lat": 45.5019,
+        "lon": -73.5674
+       }
+      ],
+      "label": "Next: Canada"
+     }
+    }
+   ]
+  }
+ ],
+ "restocked": true,
+ "replanned": true,
+ "templates_checked": true,
+ "painted_cards": true,
+ "photos_checked": true,
+ "visuals_checked": true,
+ "approved": true,
+ "review": "auto",
+ "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos"
+}
