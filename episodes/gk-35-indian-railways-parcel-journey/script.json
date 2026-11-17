@@ -67,7 +67,7 @@
     },
     {
      "vo": "आपको पता भी नहीं चलता, आगे इंजन में ड्राइवर बदल चुका है।",
-     "prompt": "A loco pilot in grey uniform stepping down the ladder of an Indian electric locomotive while a second pilot with a bag climbs up beside him, platform lamps at night, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A second loco pilot with a bag climbing the ladder of an Indian electric locomotive on the right while the first pilot in grey uniform steps down on the left, platform lamps at night, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "photo": {
@@ -77,7 +77,8 @@
       "credit": "Pixabay (TheoRivierenlaan)",
       "page": "https://pixabay.com/photos/railbus-goes-launceston-train-2745136/",
       "card": 0.72
-     }
+     },
+     "seed": 8922
     },
     {
      "vo": "कभी-कभी तो ड्राइवर नहीं, ट्रेन का पूरा इंजन ही बदल जाता है।",
@@ -137,7 +138,133 @@
      "vo": "ट्रेन आने से एक-दो घंटे पहले, एक छोटे कमरे में, ड्राइवर मशीन में ज़ोर से फूँक मारता है।",
      "prompt": "A small railway office building at the end of an Indian station platform, a large plain board above the lit doorway reading \"CREW LOBBY\", board flat and facing the camera, night, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "09": {
+       "src": "1c215bf975fa",
+       "items": [
+        {
+         "text": "CREW LOBBY",
+         "grid": [
+          [
+           [
+            565.5,
+            246.0
+           ],
+           [
+            631.9,
+            242.8
+           ],
+           [
+            699.4,
+            239.8
+           ],
+           [
+            767.0,
+            236.9
+           ],
+           [
+            833.4,
+            234.4
+           ],
+           [
+            901.0,
+            232.0
+           ],
+           [
+            968.5,
+            229.8
+           ]
+          ],
+          [
+           [
+            565.5,
+            283.5
+           ],
+           [
+            631.9,
+            278.2
+           ],
+           [
+            699.4,
+            273.0
+           ],
+           [
+            767.0,
+            267.9
+           ],
+           [
+            833.4,
+            263.0
+           ],
+           [
+            901.0,
+            258.1
+           ],
+           [
+            968.5,
+            253.4
+           ]
+          ],
+          [
+           [
+            565.5,
+            321.0
+           ],
+           [
+            631.9,
+            313.6
+           ],
+           [
+            699.4,
+            306.2
+           ],
+           [
+            767.0,
+            298.8
+           ],
+           [
+            833.4,
+            291.5
+           ],
+           [
+            901.0,
+            284.3
+           ],
+           [
+            968.5,
+            277.0
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1c2a44",
+         "corners": [
+          [
+           538,
+           212
+          ],
+          [
+           996,
+           212
+          ],
+          [
+           996,
+           335
+          ],
+          [
+           538,
+           335
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "इस कमरे को कहते हैं क्रू लॉबी।",
@@ -153,7 +280,7 @@
    "shots": [
     {
      "vo": "हर बड़े जंक्शन पर ऐसा एक कमरा होता है।",
-     "prompt": "Inside an Indian railway crew lobby, loco pilots in grey uniform with bags at a counter, a large wall board reading \"CREW LOBBY\" flat and facing the camera, warm indoor light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Inside an Indian railway crew lobby, loco pilots in grey uniform with bags at a counter, a large plain wall board reading \"CREW LOBBY\" flat and facing the camera, plain walls, warm indoor light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "photo": {
@@ -163,7 +290,134 @@
       "credit": "Tiruchirappalli Junction railway station (26387).jpg by Manukrishnan80, CC BY-SA 3.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Tiruchirappalli_Junction_railway_station_(26387).jpg",
       "card": 0.72
-     }
+     },
+     "words": {
+      "11": {
+       "src": "6064d640df88",
+       "items": [
+        {
+         "text": "CREW LOBBY",
+         "grid": [
+          [
+           [
+            329.8,
+            524.6
+           ],
+           [
+            466.9,
+            524.4
+           ],
+           [
+            606.5,
+            524.3
+           ],
+           [
+            746.0,
+            524.1
+           ],
+           [
+            883.2,
+            523.9
+           ],
+           [
+            1022.7,
+            523.7
+           ],
+           [
+            1162.2,
+            523.5
+           ]
+          ],
+          [
+           [
+            329.8,
+            583.6
+           ],
+           [
+            466.9,
+            583.6
+           ],
+           [
+            606.5,
+            583.7
+           ],
+           [
+            746.0,
+            583.8
+           ],
+           [
+            883.2,
+            583.9
+           ],
+           [
+            1022.7,
+            584.0
+           ],
+           [
+            1162.2,
+            584.1
+           ]
+          ],
+          [
+           [
+            329.8,
+            642.5
+           ],
+           [
+            466.9,
+            642.8
+           ],
+           [
+            606.5,
+            643.2
+           ],
+           [
+            746.0,
+            643.6
+           ],
+           [
+            883.2,
+            643.9
+           ],
+           [
+            1022.7,
+            644.3
+           ],
+           [
+            1162.2,
+            644.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1c2a44",
+         "corners": [
+          [
+           273,
+           461
+          ],
+          [
+           1219,
+           461
+          ],
+          [
+           1219,
+           710
+          ],
+          [
+           273,
+           710
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8930
     },
     {
      "vo": "यहाँ आने वाले को लोको पायलट कहते हैं, यानी ट्रेन चलाने वाला ड्राइवर।",
@@ -208,7 +462,133 @@
      "prompt": "Rows of Indian railway crew members in uniform signing in at kiosks in a lobby, a large wall sign reading \"CREW MANAGEMENT SYSTEM\" flat and facing the camera, bright indoor light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "एक कंप्यूटर सिस्टम, Crew Management System, जिसे रेलवे की अपनी संस्था CRIS ने बनाया।"
+     "caption": "एक कंप्यूटर सिस्टम, Crew Management System, जिसे रेलवे की अपनी संस्था CRIS ने बनाया।",
+     "words": {
+      "17": {
+       "src": "2347f14873f5",
+       "items": [
+        {
+         "text": "CREW MANAGEMENT SYSTEM",
+         "grid": [
+          [
+           [
+            577.0,
+            377.3
+           ],
+           [
+            649.5,
+            377.5
+           ],
+           [
+            723.2,
+            377.6
+           ],
+           [
+            797.0,
+            377.5
+           ],
+           [
+            869.5,
+            377.3
+           ],
+           [
+            943.2,
+            376.9
+           ],
+           [
+            1017.0,
+            376.3
+           ]
+          ],
+          [
+           [
+            577.0,
+            457.9
+           ],
+           [
+            649.5,
+            458.1
+           ],
+           [
+            723.2,
+            458.1
+           ],
+           [
+            797.0,
+            458.0
+           ],
+           [
+            869.5,
+            457.8
+           ],
+           [
+            943.2,
+            457.4
+           ],
+           [
+            1017.0,
+            456.8
+           ]
+          ],
+          [
+           [
+            577.0,
+            538.5
+           ],
+           [
+            649.5,
+            538.7
+           ],
+           [
+            723.2,
+            538.7
+           ],
+           [
+            797.0,
+            538.6
+           ],
+           [
+            869.5,
+            538.3
+           ],
+           [
+            943.2,
+            537.9
+           ],
+           [
+            1017.0,
+            537.3
+           ]
+          ]
+         ],
+         "style": "modern",
+         "color": "#12306b",
+         "corners": [
+          [
+           547,
+           253
+          ],
+          [
+           1047,
+           253
+          ],
+          [
+           1047,
+           663
+          ],
+          [
+           547,
+           663
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "ये पूरे देश के लोको पायलटों और ट्रेन मैनेजरों का हिसाब एक जगह रखता है।",
@@ -256,6 +636,132 @@
       "credit": "Pixabay (miguelrd68)",
       "page": "https://pixabay.com/photos/proof-breathalyzer-driver-337369/",
       "card": 0.72
+     },
+     "words": {
+      "23": {
+       "src": "a7661baa34ba",
+       "items": [
+        {
+         "text": "BREATH ANALYSER",
+         "grid": [
+          [
+           [
+            690.6,
+            661.3
+           ],
+           [
+            750.1,
+            635.8
+           ],
+           [
+            810.3,
+            615.6
+           ],
+           [
+            870.4,
+            601.3
+           ],
+           [
+            929.3,
+            593.0
+           ],
+           [
+            988.9,
+            590.2
+           ],
+           [
+            1048.2,
+            593.3
+           ]
+          ],
+          [
+           [
+            690.6,
+            695.8
+           ],
+           [
+            749.9,
+            676.1
+           ],
+           [
+            810.1,
+            660.6
+           ],
+           [
+            870.1,
+            649.7
+           ],
+           [
+            928.9,
+            643.3
+           ],
+           [
+            988.4,
+            641.4
+           ],
+           [
+            1047.6,
+            643.9
+           ]
+          ],
+          [
+           [
+            690.6,
+            730.2
+           ],
+           [
+            749.8,
+            716.3
+           ],
+           [
+            809.9,
+            705.5
+           ],
+           [
+            869.8,
+            697.9
+           ],
+           [
+            928.5,
+            693.6
+           ],
+           [
+            987.9,
+            692.3
+           ],
+           [
+            1047.0,
+            694.3
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#222222",
+         "corners": [
+          [
+           666,
+           544
+          ],
+          [
+           1073,
+           538
+          ],
+          [
+           1070,
+           772
+          ],
+          [
+           666,
+           781
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -284,14 +790,266 @@
      "prompt": "A clerk handing a printed sheet across a counter to an Indian loco pilot, the sheet headed \"CAUTION ORDER\" flat and facing the camera, crew lobby, warm light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "seed": 1500,
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "move": "push"
+     "move": "push",
+     "words": {
+      "25": {
+       "src": "7bdbc5d9ed9a",
+       "items": [
+        {
+         "text": "CAUTION ORDER",
+         "grid": [
+          [
+           [
+            687.1,
+            499.9
+           ],
+           [
+            714.1,
+            496.9
+           ],
+           [
+            747.9,
+            500.8
+           ],
+           [
+            786.7,
+            511.5
+           ],
+           [
+            827.9,
+            527.8
+           ],
+           [
+            871.3,
+            549.1
+           ],
+           [
+            914.6,
+            574.0
+           ]
+          ],
+          [
+           [
+            713.8,
+            527.4
+           ],
+           [
+            741.6,
+            526.9
+           ],
+           [
+            773.7,
+            530.7
+           ],
+           [
+            808.6,
+            538.6
+           ],
+           [
+            844.7,
+            550.0
+           ],
+           [
+            882.3,
+            564.8
+           ],
+           [
+            919.9,
+            582.2
+           ]
+          ],
+          [
+           [
+            737.9,
+            552.2
+           ],
+           [
+            766.3,
+            553.8
+           ],
+           [
+            796.8,
+            557.5
+           ],
+           [
+            828.3,
+            563.1
+           ],
+           [
+            860.1,
+            570.5
+           ],
+           [
+            892.6,
+            579.6
+           ],
+           [
+            925.1,
+            590.2
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           643,
+           468
+          ],
+          [
+           883,
+           506
+          ],
+          [
+           986,
+           672
+          ],
+          [
+           829,
+           655
+          ]
+         ],
+         "band": [
+          0.08,
+          0.35
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "लॉबी में उसे एक ज़रूरी काग़ज़ मिलता है, जिसे कॉशन ऑर्डर कहते हैं।",
      "prompt": "A clerk handing a printed sheet across a counter to an Indian loco pilot, the sheet headed \"CAUTION ORDER\" flat and facing the camera, crew lobby, warm light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "लॉबी में उसे एक ज़रूरी काग़ज़ मिलता है, जिसे caution order कहते हैं।"
+     "caption": "लॉबी में उसे एक ज़रूरी काग़ज़ मिलता है, जिसे caution order कहते हैं।",
+     "words": {
+      "26": {
+       "src": "f46fc31a38f4",
+       "items": [
+        {
+         "text": "CAUTION ORDER",
+         "grid": [
+          [
+           [
+            593.2,
+            393.0
+           ],
+           [
+            637.0,
+            397.3
+           ],
+           [
+            681.5,
+            401.3
+           ],
+           [
+            725.7,
+            404.9
+           ],
+           [
+            769.0,
+            408.0
+           ],
+           [
+            812.8,
+            410.8
+           ],
+           [
+            856.5,
+            413.2
+           ]
+          ],
+          [
+           [
+            593.4,
+            415.7
+           ],
+           [
+            637.5,
+            419.7
+           ],
+           [
+            682.2,
+            423.8
+           ],
+           [
+            726.7,
+            427.7
+           ],
+           [
+            770.2,
+            431.4
+           ],
+           [
+            814.4,
+            435.0
+           ],
+           [
+            858.4,
+            438.6
+           ]
+          ],
+          [
+           [
+            593.7,
+            438.6
+           ],
+           [
+            638.0,
+            442.4
+           ],
+           [
+            682.9,
+            446.5
+           ],
+           [
+            727.6,
+            450.7
+           ],
+           [
+            771.5,
+            455.0
+           ],
+           [
+            816.0,
+            459.6
+           ],
+           [
+            860.3,
+            464.3
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           575,
+           381
+          ],
+          [
+           873,
+           399
+          ],
+          [
+           888,
+           589
+          ],
+          [
+           576,
+           573
+          ]
+         ],
+         "band": [
+          0.08,
+          0.35
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "इसमें लिखा होता है कि किस किलोमीटर पर कितनी स्पीड से आगे जाना है।",
@@ -303,13 +1061,140 @@
      "vo": "जैसे किसी पुल या पटरी पर काम चल रहा है, तो वहाँ धीरे चलना है।",
      "prompt": "Indian railway track workers in orange vests repairing rails on a bridge, a large yellow speed board beside the track reading \"30\" flat and facing the camera, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "28": {
+       "src": "a4fb6c60d36c",
+       "items": [
+        {
+         "text": "30",
+         "grid": [
+          [
+           [
+            1013.6,
+            269.6
+           ],
+           [
+            1076.9,
+            271.8
+           ],
+           [
+            1144.8,
+            274.2
+           ],
+           [
+            1216.5,
+            277.0
+           ],
+           [
+            1291.1,
+            280.1
+           ],
+           [
+            1371.5,
+            283.6
+           ],
+           [
+            1456.8,
+            287.5
+           ]
+          ],
+          [
+           [
+            1007.4,
+            415.2
+           ],
+           [
+            1071.1,
+            423.9
+           ],
+           [
+            1139.4,
+            433.1
+           ],
+           [
+            1211.8,
+            442.4
+           ],
+           [
+            1287.0,
+            451.9
+           ],
+           [
+            1368.2,
+            461.9
+           ],
+           [
+            1454.6,
+            472.2
+           ]
+          ],
+          [
+           [
+            1001.0,
+            563.7
+           ],
+           [
+            1065.1,
+            579.4
+           ],
+           [
+            1133.9,
+            595.4
+           ],
+           [
+            1206.9,
+            611.7
+           ],
+           [
+            1282.9,
+            628.0
+           ],
+           [
+            1364.9,
+            644.7
+           ],
+           [
+            1452.3,
+            661.8
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#111111",
+         "corners": [
+          [
+           992,
+           188
+          ],
+          [
+           1494,
+           188
+          ],
+          [
+           1488,
+           815
+          ],
+          [
+           969,
+           702
+          ]
+         ],
+         "band": [
+          0.15,
+          0.7
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "ये पाबंदियाँ लगभग रोज़ बदलती हैं, इसलिए हर सफ़र के लिए नया पर्चा बनता है।",
-     "prompt": "A stack of freshly printed caution order sheets on a crew lobby counter beside a printer, bright morning light from a window, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A stack of freshly printed caution order sheets on a crew lobby counter beside a printer, plain white wall behind, bright morning light from a window, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8948
     },
     {
      "vo": "ड्राइवर इसे ध्यान से पढ़ता है और साइन करता है कि उसने समझ लिया।",
@@ -378,7 +1263,7 @@
     },
     {
      "vo": "और उसका ध्यान एक पल भी न भटके, इसके लिए इंजन में एक पहरेदार मशीन है।",
-     "prompt": "A locomotive control desk in the cab, a loco pilot's hand resting near a large red push button, instrument lights glowing, night, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A loco pilot's hand resting on a large red push button on a locomotive control desk, instrument lights glowing, night, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "photo": {
@@ -388,7 +1273,8 @@
       "credit": "Pixabay (Tama66)",
       "page": "https://pixabay.com/photos/rail-control-desk-transport-3112109/",
       "card": 0.72
-     }
+     },
+     "seed": 8954
     },
     {
      "vo": "करीब हर मिनट ड्राइवर को कोई कंट्रोल छूना पड़ता है, वरना घंटी बजने लगती है।",
@@ -506,10 +1392,17 @@
     },
     {
      "vo": "रेलवे के पास एक अंदरूनी किताब होती है, जिसका नाम है वर्किंग टाइम टेबल।",
-     "prompt": "A thick railway book lying open on a control office desk, its cover reading \"WORKING TIME TABLE\" flat and facing the camera, pages of tiny numbers, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A thick railway book lying open on a control office desk, its cover reading \"WORKING TIME TABLE\" flat and facing the camera, pages of tiny numbers, plain desk, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "रेलवे के पास एक अंदरूनी किताब होती है, जिसका नाम है Working Time Table।"
+     "caption": "रेलवे के पास एक अंदरूनी किताब होती है, जिसका नाम है Working Time Table।",
+     "words": {
+      "44": {
+       "src": "2ab94e5825a3",
+       "items": []
+      }
+     },
+     "seed": 8963
     },
     {
      "vo": "इसमें हर ट्रेन का मिनट-मिनट का हिसाब है, उन स्टेशनों का भी जहाँ वो रुकती नहीं।",
@@ -543,7 +1436,7 @@
     },
     {
      "vo": "यहाँ क्रू बदलता है, इंजन बदलता है, या डिब्बों की टंकियों में पानी भरा जाता है।",
-     "prompt": "A railway worker on a platform at night filling the roof water tank of an Indian coach with a long hose, two crew members in uniform walking toward the engine far behind, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A railway worker on a platform at night standing on a step and filling the roof water tank of an Indian coach with a long hose, two crew members in uniform walking toward the engine far behind, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "photo": {
@@ -553,7 +1446,8 @@
       "credit": "Pixabay (wal_172619)",
       "page": "https://pixabay.com/photos/train-railroad-station-passengers-7859021/",
       "card": 0.72
-     }
+     },
+     "seed": 8967
     },
     {
      "vo": "अब देखिए, डिब्रूगढ़ से कन्याकुमारी वाली विवेक एक्सप्रेस चार हज़ार किलोमीटर से ज़्यादा चलती है।",
@@ -676,14 +1570,21 @@
     },
     {
      "vo": "कोई गड़बड़ हो, तो वो इंजन की रिपेयर बुक में लिख दी जाती है।",
-     "prompt": "A loco pilot writing in a hardbound register on the cab desk, its cover reading \"REPAIR BOOK\" flat and facing the camera, daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A loco pilot writing in a hardbound register on the cab desk, its plain cover reading \"REPAIR BOOK\" flat and facing the camera, daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "कोई गड़बड़ हो, तो वो इंजन की repair book में लिख दी जाती है।"
+     "caption": "कोई गड़बड़ हो, तो वो इंजन की repair book में लिख दी जाती है।",
+     "words": {
+      "57": {
+       "src": "2ba96f4a4fdd",
+       "items": []
+      }
+     },
+     "seed": 8976
     },
     {
      "vo": "नया ड्राइवर ब्रेक, हॉर्न, हेडलाइट और सारे मीटर ख़ुद एक बार जाँचता है।",
-     "prompt": "An incoming loco pilot in the cab pointing a finger at the round gauges on the control desk, headlight beam visible through the windscreen, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An incoming loco pilot in the cab pointing a finger at the round gauges on the control desk, headlight beam visible through the windscreen, plain dark cab screen, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "photo": {
@@ -693,7 +1594,8 @@
       "credit": "Pixabay (Tama66)",
       "page": "https://pixabay.com/photos/loc-switcher-fitting-drivers-cab-4716381/",
       "card": 0.72
-     }
+     },
+     "seed": 8977
     },
     {
      "vo": "फिर अपना कॉशन ऑर्डर देखता है, और सामने वाला सिग्नल।",
@@ -741,7 +1643,7 @@
     },
     {
      "vo": "आप वापस बर्थ पर बैठे, और ट्रेन की कमान किसी और के हाथ में।",
-     "prompt": "A passenger settling back on a sleeper berth holding a cup of tea, the platform sliding past the window as the train starts moving, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A passenger settling back on a sleeper berth holding a cup of tea, the platform sliding past the plain window as the train starts moving, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "photo": {
@@ -751,11 +1653,12 @@
       "credit": "The window berth-3tier coach-Indian Railways-India458.JPG by தகவலுழவன், CC BY-SA 3.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:The_window_berth-3tier_coach-Indian_Railways-India458.JPG",
       "card": 0.72
-     }
+     },
+     "seed": 8982
     },
     {
      "vo": "पर कुछ स्टेशनों पर सिर्फ़ ड्राइवर नहीं, पूरा इंजन बदलता है। क्यों?",
-     "prompt": "A locomotive standing on a parallel track beside a halted passenger train at a junction, waiting to be attached, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A modern Indian electric locomotive standing on a parallel track beside a halted passenger train at a junction, waiting to be attached, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "photo": {
@@ -765,7 +1668,8 @@
       "credit": "Indian Railways Locomotive WDG-4G of Roza Diesel Loco Shed (ROZD) spotted in Alipurduar Dist., West Bengal, India 05.jpg by Kingshuk Mondal, CC BY 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Indian_Railways_Locomotive_WDG-4G_of_Roza_Diesel_Loco_Shed_(ROZD)_spotted_in_Alipurduar_Dist.,_West_Bengal,_India_05.jpg",
       "card": 0.72
-     }
+     },
+     "seed": 8983
     }
    ]
   },
@@ -845,7 +1749,8 @@
      "prompt": "A modern Indian electric locomotive hauling an express through the green Western Ghats, monsoon clouds, overhead wires, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "करीब दस साल पहले ये लाइनें भी AC बिजली पर आ गईं, और वहाँ इंजन बदलना बंद हुआ।"
+     "caption": "करीब दस साल पहले ये लाइनें भी AC बिजली पर आ गईं, और वहाँ इंजन बदलना बंद हुआ।",
+     "seed": 8989
     },
     {
      "vo": "आज भारत की लगभग सारी बड़ी लाइनें बिजली वाली हैं, तो ये बदलाव बहुत कम रह गया।",
@@ -863,13 +1768,14 @@
     },
     {
      "vo": "दूसरी वजह, जहाँ पटरी आगे ख़त्म हो, वहाँ इंजन को ट्रेन के दूसरे सिरे पर आना पड़ता है।",
-     "prompt": "The end of the tracks at a terminal Indian station, buffer stops in the foreground, a halted train behind them with a locomotive coupled at the far end, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Two heavy steel buffer stops at the very end of the tracks in the foreground, a halted Indian train behind them with a locomotive coupled at the far end, a bare wall beyond, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8991
     },
     {
      "vo": "तीसरी वजह, पहाड़ की चढ़ाई। मुंबई-पुणे के बीच भोर घाट पर ट्रेन के पीछे एक्स्ट्रा इंजन लगते हैं।",
-     "prompt": "Two extra locomotives being coupled to the rear of a passenger train at a station at the foot of green ghat hills, misty mountains behind, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Two extra Indian locomotives coupled to the rear of a passenger train at a station at the foot of green ghat hills, both facing the same way as the train, misty mountains behind, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "तीसरी वजह, पहाड़ की चढ़ाई। मुंबई-पुणे के बीच भोर घाट पर ट्रेन के पीछे extra इंजन लगते हैं।",
@@ -880,7 +1786,8 @@
       "credit": "Pixabay (sarangib)",
       "page": "https://pixabay.com/photos/railroad-mountains-western-ghats-179278/",
       "card": 0.72
-     }
+     },
+     "seed": 8992
     },
     {
      "vo": "इन्हें बैंकर कहते हैं, ये पीछे से धक्का देकर भारी ट्रेन को ऊपर चढ़ाते हैं।",
@@ -1097,10 +2004,137 @@
     },
     {
      "vo": "अगर वो घर से दूर है, तो उसे जाना है रनिंग रूम।",
-     "prompt": "A simple railway rest building near an Indian station, a large plain board above the entrance reading \"RUNNING ROOM\" flat and facing the camera, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A simple railway rest building near an Indian station, a plain board above the entrance reading \"RUNNING ROOM\" flat and facing the camera, the building fully visible around it, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अगर वो घर से दूर है, तो उसे जाना है running room।"
+     "caption": "अगर वो घर से दूर है, तो उसे जाना है running room।",
+     "words": {
+      "92": {
+       "src": "6eb42fb5b080",
+       "items": [
+        {
+         "text": "RUNNING ROOM",
+         "grid": [
+          [
+           [
+            355.0,
+            443.1
+           ],
+           [
+            455.5,
+            443.1
+           ],
+           [
+            557.5,
+            443.0
+           ],
+           [
+            659.5,
+            443.0
+           ],
+           [
+            759.7,
+            443.0
+           ],
+           [
+            861.5,
+            442.9
+           ],
+           [
+            963.3,
+            442.9
+           ]
+          ],
+          [
+           [
+            352.9,
+            513.5
+           ],
+           [
+            453.9,
+            513.4
+           ],
+           [
+            556.6,
+            513.3
+           ],
+           [
+            659.2,
+            513.3
+           ],
+           [
+            760.0,
+            513.2
+           ],
+           [
+            862.5,
+            513.1
+           ],
+           [
+            964.8,
+            513.1
+           ]
+          ],
+          [
+           [
+            350.7,
+            584.7
+           ],
+           [
+            452.4,
+            584.6
+           ],
+           [
+            555.7,
+            584.5
+           ],
+           [
+            658.9,
+            584.4
+           ],
+           [
+            760.4,
+            584.3
+           ],
+           [
+            863.4,
+            584.2
+           ],
+           [
+            966.4,
+            584.1
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1c2a44",
+         "corners": [
+          [
+           317,
+           339
+          ],
+          [
+           1002,
+           339
+          ],
+          [
+           1011,
+           691
+          ],
+          [
+           305,
+           692
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 9011
     },
     {
      "vo": "ये क्रू का अपना छोटा सा हॉस्टल है: बिस्तर, खाना और शांति।",
@@ -1231,7 +2265,133 @@
      "vo": "अगले एपिसोड में: डिब्बों पर लिखे छोटे कोड असल में क्या बताते हैं।",
      "prompt": "The side of an Indian railway coach with a large painted code reading \"B3\" flat and facing the camera, platform behind, bright daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "103": {
+       "src": "f4d0e9e8eb11",
+       "items": [
+        {
+         "text": "B3",
+         "grid": [
+          [
+           [
+            423.3,
+            286.3
+           ],
+           [
+            518.3,
+            285.7
+           ],
+           [
+            614.9,
+            285.3
+           ],
+           [
+            711.5,
+            285.0
+           ],
+           [
+            806.5,
+            284.9
+           ],
+           [
+            903.1,
+            285.0
+           ],
+           [
+            999.7,
+            285.2
+           ]
+          ],
+          [
+           [
+            423.3,
+            391.9
+           ],
+           [
+            518.3,
+            392.0
+           ],
+           [
+            614.9,
+            392.1
+           ],
+           [
+            711.5,
+            392.4
+           ],
+           [
+            806.5,
+            392.7
+           ],
+           [
+            903.1,
+            393.0
+           ],
+           [
+            999.7,
+            393.4
+           ]
+          ],
+          [
+           [
+            423.3,
+            497.4
+           ],
+           [
+            518.3,
+            498.2
+           ],
+           [
+            614.9,
+            499.0
+           ],
+           [
+            711.5,
+            499.8
+           ],
+           [
+            806.5,
+            500.4
+           ],
+           [
+            903.1,
+            501.1
+           ],
+           [
+            999.7,
+            501.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           384,
+           250
+          ],
+          [
+           1039,
+           250
+          ],
+          [
+           1039,
+           535
+          ],
+          [
+           384,
+           535
+          ]
+         ],
+         "band": [
+          0.1,
+          0.9
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "ऐसे ही गज़ब सवालों के लिए सब्सक्राइब करें।",
@@ -1259,5 +2419,64 @@
  "released_at": "2026-11-17 22:27",
  "voice_requested": "voice-gk-35-indian-railways-parcel-journey-68f32c2517",
  "voice_ok": "voice-gk-35-indian-railways-parcel-journey-68f32c2517",
- "voice_approved_at": "2026-11-17 22:45"
+ "voice_approved_at": "2026-11-17 22:45",
+ "repaint": {
+  "shots": [
+   3,
+   11,
+   29,
+   35,
+   44,
+   48,
+   57,
+   58,
+   63,
+   64,
+   70,
+   72,
+   73,
+   92,
+   97
+  ],
+  "thumbs": [],
+  "at": "2026-11-17 23:33"
+ },
+ "shot_qc": {
+  "checked": "2026-11-17T18:00:43Z",
+  "rounds": 1,
+  "why": {
+   "3": "Only one pilot, stepping out of a coach door. The line needs a second pilot with a bag climbing up beside him on an electric locomotive.",
+   "11": "Maps are on the wall boards.",
+   "29": "A world map is on a screen in the background.",
+   "35": "A map with lines is shown on the cab screen.",
+   "44": "A globe or map is shown on a screen.",
+   "48": "No worker is filling a coach roof tank with a hose. It shows a loco and two men walking.",
+   "58": "A map is displayed on the cab screen.",
+   "63": "Large painted gibberish lettering on the window.",
+   "64": "A steam locomotive in a modern station is the wrong era and not the line's engine swap.",
+   "70": "A brown band across the bottom of the frame looks like a rendering fault.",
+   "72": "No buffer stops or end of track. The tracks run on to the horizon.",
+   "73": "No extra locomotives coupled to the rear of a train. Two locos face each other, with gibberish text.",
+   "92": "A big white board hides the building, and gibberish lettering is painted behind it.",
+   "97": "The seated man has no head, only a hood.",
+   "57": "no blank surface for its words"
+  },
+  "recheck": [
+   "3",
+   "11",
+   "29",
+   "35",
+   "44",
+   "48",
+   "57",
+   "58",
+   "63",
+   "64",
+   "70",
+   "72",
+   "73",
+   "92",
+   "97"
+  ]
+ }
 }
