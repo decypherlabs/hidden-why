@@ -6,6 +6,7 @@
  "lang": "hi",
  "words_in_edit": true,
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "title": "लोको पायलट हर मिनट क्या दबाता है? इंजन केबिन का छिपा सिस्टम 🚆",
@@ -49,47 +50,47 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "पर आगे पटरी खाली है, ये किसे पता है?",
-     "prompt": "View through an Indian locomotive cab windscreen, headlight beam lighting a short stretch of rails that vanish into total darkness ahead, night, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "पर आगे पटरी खाली है, ये किसे पता है?"
     },
     {
-     "vo": "लाल सिग्नल धुंध में छिपा हो, तो उसे कौन देखेगा?",
-     "prompt": "A single red railway signal lamp glowing on a tall mast beside an Indian railway track, thick white winter fog around it, night, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "लाल सिग्नल धुंध में छिपा हो, तो उसे कौन देखेगा?"
     },
     {
-     "vo": "ब्रेक लगे, तो इतनी भारी ट्रेन रुकती कहाँ जाकर है?",
-     "prompt": "Sparks flying from steel locomotive wheels braking on a rail, a very long straight track stretching far ahead into the dark, night, low wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "ब्रेक लगे, तो इतनी भारी ट्रेन रुकती कहाँ जाकर है?"
     },
     {
      "vo": "और अगर ड्राइवर की आँख एक पल को लग जाए, तो?",
      "prompt": "A tired Indian loco pilot in grey uniform with heavy eyelids almost closed, head slightly drooping, centre, dark cab lit by faint amber glow of the control desk, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
-    },
-    {
-     "vo": "इंजन केबिन में बैठा लोको पायलट ये सब अकेले कैसे संभालता है?",
-     "prompt": "Two loco pilots in grey uniform seated at the driving desk of an Indian electric locomotive cab, hands on the controls, glowing signal lights far ahead through the windscreen, night, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
-    },
-    {
-     "vo": "रात दस बजे, क्रू लॉबी में एक आदमी मशीन में फूँक मार रहा है।",
-     "prompt": "A loco pilot in grey uniform on the left blowing into a handheld breath analyser held by a supervisor on the right, tube-lit Indian railway crew lobby, a round wall clock behind them showing ten, other crew waiting, night, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "रात दस बजे, crew lobby में एक आदमी मशीन में फूँक मार रहा है।"
+     "photo": {
+      "src": "https://pixabay.com/get/g9d794d9a631d11b70c9401e6ec11d5d1fceed56997aa583682c1ca9e74c41e206fa4cb1fdeee25516a5e1c141808fab70e88a63ddab6427c20194a154a51af22_1280.jpg",
+      "w": 5500,
+      "h": 3661,
+      "credit": "Pixabay (pisauikan)",
+      "page": "https://pixabay.com/photos/asleep-sleepy-man-asian-guy-tired-5500058/",
+      "card": 0.72
+     }
+    },
+    {
+     "vo": "इंजन केबिन में बैठा लोको पायलट ये सब अकेले कैसे संभालता है?"
+    },
+    {
+     "vo": "रात दस बजे, क्रू लॉबी में एक आदमी मशीन में फूँक मार रहा है।"
     },
     {
      "vo": "ट्रेन अभी स्टेशन पर भी नहीं आई।",
      "prompt": "An Indian railway platform at night under yellow lamps, a few passengers sitting with suitcases and bundles, the empty dark track beside them, no train, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gc21de4269ce5e2bc85eab263f1287eda57f07c2a811c59a3b64637f19d60bcb9f132055ec1b85647085e5a3f273dba373e6f3d99bc74e67bd8b93237a51be525_1280.jpg",
+      "w": 4265,
+      "h": 2954,
+      "credit": "Pixabay (652234)",
+      "page": "https://pixabay.com/photos/platform-fog-station-lonely-4784604/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -111,11 +112,7 @@
      "caption": "वो मशीन breath analyser है। शराब का ज़रा सा असर मिला, तो ड्यूटी नहीं मिलेगी। और ड्यूटी ख़त्म होने पर यही टेस्ट दोबारा होता है।"
     },
     {
-     "vo": "टेस्ट पास, तो रजिस्टर में हाज़िरी लगती है। इसे साइन-ऑन कहते हैं।",
-     "prompt": "A loco pilot in grey uniform signing a thick register at a wooden counter while a clerk watches, a counter board reading \"SIGN ON\" large and facing the camera, crew lobby, tube light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "टेस्ट पास, तो रजिस्टर में हाज़िरी लगती है। इसे sign-on कहते हैं।"
+     "vo": "टेस्ट पास, तो रजिस्टर में हाज़िरी लगती है। इसे साइन-ऑन कहते हैं।"
     },
     {
      "vo": "फिर हाथ में आता है एक काग़ज़, जिसे कॉशन ऑर्डर कहते हैं।",
@@ -125,10 +122,7 @@
      "caption": "फिर हाथ में आता है एक काग़ज़, जिसे caution order कहते हैं।"
     },
     {
-     "vo": "इसमें लिखा होता है कि रास्ते में कहाँ पटरी पर काम चल रहा है। और वहाँ कितनी रफ़्तार रखनी है।",
-     "prompt": "Indian railway track workers in orange vests repairing a section of track, new concrete sleepers and tools beside the rails, one worker tightening a bolt, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "इसमें लिखा होता है कि रास्ते में कहाँ पटरी पर काम चल रहा है। और वहाँ कितनी रफ़्तार रखनी है।"
     },
     {
      "vo": "मान लीजिए किसी पुल पर मरम्मत चल रही है। वहाँ सौ नहीं, तीस की रफ़्तार से निकलना होगा।",
@@ -137,10 +131,7 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "रास्ते में बोर्ड भी लगे होते हैं, पर पायलट ये सब पहले से याद रखकर चलता है।",
-     "prompt": "A loco pilot in grey uniform sitting at a table in the crew lobby, reading a printed form closely, his finger moving down the lines, focused face, warm tube light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "रास्ते में बोर्ड भी लगे होते हैं, पर पायलट ये सब पहले से याद रखकर चलता है।"
     },
     {
      "vo": "शुरुआत असिस्टेंट लोको पायलट बनकर होती है।",
@@ -149,10 +140,7 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "सालों बाद मालगाड़ी मिलती है, फिर पैसेंजर, और सबसे आख़िर में मेल-एक्सप्रेस।",
-     "prompt": "A long loaded Indian goods train of freight wagons hauled by an electric locomotive through dry countryside, the loco pilot visible at the cab window, afternoon sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "सालों बाद मालगाड़ी मिलती है, फिर पैसेंजर, और सबसे आख़िर में मेल-एक्सप्रेस।"
     },
     {
      "vo": "आज भी साथ में एक असिस्टेंट होता है। दोनों इंजन पर चढ़ते हैं।",
@@ -165,14 +153,18 @@
      "prompt": "A red and white Indian electric locomotive seen from the front three-quarter view standing at a night platform, headlights on, pantograph raised to the overhead wire, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ये WAP-7 है, भारत में बना बिजली का इंजन। छह हज़ार से ज़्यादा हॉर्सपावर, और 140 तक की रफ़्तार।"
+     "caption": "ये WAP-7 है, भारत में बना बिजली का इंजन। छह हज़ार से ज़्यादा हॉर्सपावर, और 140 तक की रफ़्तार।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/SDAH_based_WAP-7_39207_pulling_13147_Sealdah%E2%80%93Bamanhat_Uttar_Banga_Express_04.jpg/1920px-SDAH_based_WAP-7_39207_pulling_13147_Sealdah%E2%80%93Bamanhat_Uttar_Banga_Express_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5609,
+      "h": 3739,
+      "credit": "SDAH based WAP-7 39207 pulling 13147 Sealdah–Bamanhat Uttar Banga Express 04.jpg by Kingshuk Mondal, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:SDAH_based_WAP-7_39207_pulling_13147_Sealdah%E2%80%93Bamanhat_Uttar_Banga_Express_04.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "सामने एक ड्राइविंग डेस्क। एक हैंडल रफ़्तार बढ़ाता है, जिसे थ्रॉटल कहते हैं। दो हैंडल ब्रेक के हैं, एक पूरी ट्रेन का, एक सिर्फ़ इंजन का।",
-     "prompt": "A loco pilot's hands on the grey driving desk of an Indian electric locomotive, one hand on the throttle lever, the other near two brake handles, glowing gauges, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "सामने एक ड्राइविंग डेस्क। एक हैंडल रफ़्तार बढ़ाता है, जिसे throttle कहते हैं। दो हैंडल ब्रेक के हैं, एक पूरी ट्रेन का, एक सिर्फ़ इंजन का।"
+     "vo": "सामने एक ड्राइविंग डेस्क। एक हैंडल रफ़्तार बढ़ाता है, जिसे थ्रॉटल कहते हैं। दो हैंडल ब्रेक के हैं, एक पूरी ट्रेन का, एक सिर्फ़ इंजन का।"
     },
     {
      "vo": "ट्रेन चलते ही पायलट हल्का सा ब्रेक लगाकर देखता है। रफ़्तार ठीक से गिरी, तो ब्रेक पीछे के डिब्बों तक पहुँच रहा है। इसे ब्रेक फ़ील टेस्ट कहते हैं।",
@@ -202,16 +194,10 @@
      "move": "pan_left"
     },
     {
-     "vo": "जवाब है, पटरी किनारे खड़े ये रंगीन सिग्नल। हर सिग्नल एक छोटा सा संदेश है।",
-     "prompt": "A row of Indian colour-light railway signals on tall masts beside parallel tracks, each lamp glowing a different colour, red, yellow and green, night, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "जवाब है, पटरी किनारे खड़े ये रंगीन सिग्नल। हर सिग्नल एक छोटा सा संदेश है।"
     },
     {
-     "vo": "हरा मतलब, आगे का रास्ता खुला है। पूरी तय रफ़्तार से चलो।",
-     "prompt": "A bright green railway signal glowing on a mast beside the track, an Indian train approaching at speed with headlight on, evening light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "हरा मतलब, आगे का रास्ता खुला है। पूरी तय रफ़्तार से चलो।"
     },
     {
      "vo": "दो पीली बत्तियाँ मतलब, ध्यान दो। अगला सिग्नल पीला मिल सकता है।",
@@ -220,22 +206,13 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "एक पीली बत्ती मतलब, तैयार रहो। अगला सिग्नल लाल है, वहाँ रुकना पड़ेगा।",
-     "prompt": "A single yellow railway signal lamp glowing on a mast beside the track, the train's headlight beam reaching toward it, night, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "एक पीली बत्ती मतलब, तैयार रहो। अगला सिग्नल लाल है, वहाँ रुकना पड़ेगा।"
     },
     {
-     "vo": "और लाल मतलब, यहीं रुको। सिग्नल के आगे एक इंच भी नहीं।",
-     "prompt": "An Indian electric locomotive seen exactly from its left side stopped just before a glowing red signal post, nose a few metres short of it, night, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "और लाल मतलब, यहीं रुको। सिग्नल के आगे एक इंच भी नहीं।"
     },
     {
-     "vo": "ख़तरे के लिए लाल ही क्यों? क्योंकि धुंध और धूल में भी लाल रोशनी सबसे दूर तक दिखती है।",
-     "prompt": "A red railway signal glowing clearly on a mast through hazy dusty evening air beside an Indian track, soft haze in the distance, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "ख़तरे के लिए लाल ही क्यों? क्योंकि धुंध और धूल में भी लाल रोशनी सबसे दूर तक दिखती है।"
     },
     {
      "vo": "यानी पायलट एक सिग्नल नहीं, पूरी लाइन पढ़ता है।",
@@ -261,7 +238,15 @@
      "prompt": "A locomotive nose standing just past a red railway signal post, red light falling on the cab front, night, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "लाल सिग्नल पार कर जाना यहाँ सबसे बड़ी ग़लती मानी जाती है। इसका नाम है SPAD।"
+     "caption": "लाल सिग्नल पार कर जाना यहाँ सबसे बड़ी ग़लती मानी जाती है। इसका नाम है SPAD।",
+     "photo": {
+      "src": "https://pixabay.com/get/gbce6334a86ce964b433360146f78b34d77e790444ff7fd1d8b9eb47a3198b9ffd3aef2214b0f8c43172217ec061d5a43ad442bef8013c1cb79ab43544d880ef2_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (GoranH)",
+      "page": "https://pixabay.com/photos/railroad-signal-cables-red-signal-5990492/",
+      "card": 0.72
+     }
     },
     {
      "vo": "यानी सिग्नल पास्ड एट डेंजर। इसके बाद पायलट को ड्यूटी से हटाकर जाँच होती है।",
@@ -280,7 +265,15 @@
      "vo": "दिक़्क़त ये है कि ट्रेन कार नहीं है।",
      "prompt": "A small white car stopped at a level crossing gate while a huge long goods train passes in front of it, dust in the air, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gf0d1e6ec37b456292ba8e870cdad3327b874fb59e70470695a86743120fd9b6c053a27eac99205484b26552fe8c5572f7987aaab86da98c7ee5b6747f7678930_1280.jpg",
+      "w": 3949,
+      "h": 2506,
+      "credit": "Pixabay (hpgruesen)",
+      "page": "https://pixabay.com/photos/intercity-train-visit-2145915/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -289,10 +282,7 @@
    "card": "एक किलोमीटर का खेल",
    "shots": [
     {
-     "vo": "एक कार सौ की रफ़्तार से कुछ ही सेकंड में रुक जाती है। पर ट्रेन का वज़न सोचिए।",
-     "prompt": "A long Indian passenger train of 24 coaches seen from above stretching across green fields, the locomotive at the front, bright daylight, wide aerial shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "एक कार सौ की रफ़्तार से कुछ ही सेकंड में रुक जाती है। पर ट्रेन का वज़न सोचिए।"
     },
     {
      "vo": "चौबीस डिब्बों वाली पैसेंजर ट्रेन का वज़न हज़ार टन से भी ज़्यादा होता है।",
@@ -301,16 +291,10 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "और लोहे का पहिया लोहे की पटरी पर चलता है। दोनों के बीच पकड़ बहुत कम होती है।",
-     "prompt": "A polished steel train wheel resting on a shiny steel rail, the tiny contact point catching the light, bright light, macro close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "और लोहे का पहिया लोहे की पटरी पर चलता है। दोनों के बीच पकड़ बहुत कम होती है।"
     },
     {
-     "vo": "ज़्यादा ज़ोर से ब्रेक दबाओ, तो पहिया घूमना छोड़कर फिसलने लगता है।",
-     "prompt": "A locomotive wheel locked and sliding on the rail with sparks and smoke at the contact point, close-up, dusk light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "ज़्यादा ज़ोर से ब्रेक दबाओ, तो पहिया घूमना छोड़कर फिसलने लगता है।"
     },
     {
      "vo": "इसलिए सौ की रफ़्तार से रुकने में क़रीब एक किलोमीटर लग सकता है। चार-पाँच हज़ार टन की भरी मालगाड़ी को इससे भी ज़्यादा।",
@@ -322,19 +306,43 @@
      "vo": "सौ की रफ़्तार पर ट्रेन हर सेकंड अट्ठाईस मीटर चलती है।",
      "prompt": "Railway sleepers and gravel blurring past beside a speeding train wheel, ground-level view, bright daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/geef117dbc8eed409203632654de764d608c4ae7fcff805f2770ac5a6ef6de9a07af2523d79fdd7e3ffc83f9106f06adf1427bb61e6d6acb0d8959205147432cc_1280.jpg",
+      "w": 2796,
+      "h": 1832,
+      "credit": "Pixabay (Shutterbug26)",
+      "page": "https://pixabay.com/photos/blur-commute-commuting-locomotive-1239439/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पायलट को लाल दिखा और सोचने में सिर्फ़ दो सेकंड लगे। छप्पन मीटर तो वहीं निकल गए।",
      "prompt": "A loco pilot's face wide-eyed in alarm, looking ahead through the windscreen, red light falling on his face, cab at night, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gfeed57b03ac40e15d97466b15a03d64f983f34a1170d053c1fb3958caa373c9ab6be6ae36b51188b2651afdc22998a2e950871762a3b17fa5bc8a4b5456d6d11_1280.jpg",
+      "w": 5010,
+      "h": 3340,
+      "credit": "Pixabay (Carola68)",
+      "page": "https://pixabay.com/photos/station-solingen-central-station-4916689/",
+      "card": 0.72
+     }
     },
     {
      "vo": "इसीलिए पीला सिग्नल लाल से पहले आता है। वो पायलट को रुकने की दूरी देता है।",
      "prompt": "A yellow railway signal large in the foreground beside the track, and far beyond it down the straight line a small red signal glowing, dusk light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g8b03205252750fc545e859578ded64567020292c7fbbb5326598ef190f393d1379c96af5786112269e581a41b87b2397d5b2767d3f4d2d20cd29953178702ac7_1280.jpg",
+      "w": 5077,
+      "h": 3385,
+      "credit": "Pixabay (Alexei_other)",
+      "page": "https://pixabay.com/photos/railway-traffic-light-yellow-4507577/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पीले और लाल के बीच इतनी जगह रखी जाती है कि भरी ट्रेन भी आराम से रुक सके।",
@@ -349,10 +357,7 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "ढलान हो तो और पहले, बारिश में पटरी गीली हो तो और भी पहले।",
-     "prompt": "An Indian train seen from its left side descending a slope through a rainy ghat section, wet shining rails, mist over green hills, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "ढलान हो तो और पहले, बारिश में पटरी गीली हो तो और भी पहले।"
     },
     {
      "vo": "यानी असली ड्राइविंग आँख से कम, आगे के अंदाज़े से ज़्यादा होती है।",
@@ -379,11 +384,7 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "डिब्बों के बीच मोटे रबर के पाइप जुड़े आपने देखे होंगे। वही है ब्रेक पाइप। इसमें पाँच किलो प्रति वर्ग सेंटीमीटर के दबाव पर हवा भरी रहती है।",
-     "prompt": "Thick black rubber air hoses coupled between two Indian railway coaches, a railway worker's gloved hand on the coupling, bright daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "डिब्बों के बीच मोटे रबर के पाइप जुड़े आपने देखे होंगे। वही है brake pipe। इसमें पाँच किलो प्रति वर्ग सेंटीमीटर के दबाव पर हवा भरी रहती है।"
+     "vo": "डिब्बों के बीच मोटे रबर के पाइप जुड़े आपने देखे होंगे। वही है ब्रेक पाइप। इसमें पाँच किलो प्रति वर्ग सेंटीमीटर के दबाव पर हवा भरी रहती है।"
     },
     {
      "vo": "अब उल्टी बात सुनिए। पाइप में हवा भरी है, तो ब्रेक खुले रहते हैं।",
@@ -414,21 +415,21 @@
      "prompt": "A vintage 1870s American steam locomotive and wooden passenger cars on an old track, brass air brake equipment under the cars, sepia-toned period scene, no modern vehicles, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ये तरकीब 1869 में अमेरिका के जॉर्ज वेस्टिंगहाउस ने निकाली थी। आज भी दुनिया की ज़्यादातर ट्रेनें इसी उसूल पर रुकती हैं।"
+     "caption": "ये तरकीब 1869 में अमेरिका के जॉर्ज वेस्टिंगहाउस ने निकाली थी। आज भी दुनिया की ज़्यादातर ट्रेनें इसी उसूल पर रुकती हैं।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/George_westinghouse_portrait_1906.jpg/1920px-George_westinghouse_portrait_1906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2934,
+      "h": 3484,
+      "credit": "George westinghouse portrait 1906.jpg by Joseph Gaylord Gessford, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:George_westinghouse_portrait_1906.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "डिब्बे की अलार्म चेन भी यही करती है। खींचते ही उस डिब्बे से पाइप की हवा निकलने लगती है।",
-     "prompt": "A passenger's hand pulling the red alarm chain handle near the ceiling of an Indian sleeper coach, two other passengers looking up startled, medium shot, warm light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "डिब्बे की alarm chain भी यही करती है। खींचते ही उस डिब्बे से पाइप की हवा निकलने लगती है।"
+     "vo": "डिब्बे की अलार्म चेन भी यही करती है। खींचते ही उस डिब्बे से पाइप की हवा निकलने लगती है।"
     },
     {
-     "vo": "इंजन में गेज की सुई गिरती है, और पायलट समझ जाता है कि पीछे किसी ने चेन खींची है।",
-     "prompt": "A round pressure gauge on a locomotive driving desk with its needle dropping, the loco pilot's alert face reflected in the glass, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इंजन में गेज की सुई गिरती है, और पायलट समझ जाता है कि पीछे किसी ने chain खींची है।"
+     "vo": "इंजन में गेज की सुई गिरती है, और पायलट समझ जाता है कि पीछे किसी ने चेन खींची है।"
     },
     {
      "vo": "अगर चलती ट्रेन के दो डिब्बे अलग हो जाएँ?",
@@ -469,16 +470,10 @@
    "card": "जगाने वाला बटन",
    "shots": [
     {
-     "vo": "रात के तीन बजे, लंबा सीधा ट्रैक, और इंजन की एक जैसी आवाज़।",
-     "prompt": "An Indian electric locomotive seen from the front three-quarter view on a long straight track across empty plains, starry sky, only the headlight cutting the dark, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "रात के तीन बजे, लंबा सीधा ट्रैक, और इंजन की एक जैसी आवाज़।"
     },
     {
-     "vo": "ऐसे में सबसे मज़बूत आदमी की आँख भी भारी होने लगती है।",
-     "prompt": "A loco pilot rubbing his eyes with one hand while the other rests on the throttle, dim cab light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "ऐसे में सबसे मज़बूत आदमी की आँख भी भारी होने लगती है।"
     },
     {
      "vo": "इसी डर से एक पुरानी तरकीब बनी थी, डेड-मैन्स हैंडल।",
@@ -488,10 +483,7 @@
      "caption": "इसी डर से एक पुरानी तरकीब बनी थी, dead-man's handle।"
     },
     {
-     "vo": "पायलट को एक पैडल दबाए रखना होता था।",
-     "prompt": "A loco pilot's boot pressing down a floor pedal in an older locomotive cab, close-up, warm light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "पायलट को एक पैडल दबाए रखना होता था।"
     },
     {
      "vo": "पायलट बेहोश हो जाए और पैर हट जाए, तो ट्रेन अपने आप ब्रेक लगा देती।",
@@ -526,10 +518,7 @@
      "caption": "साठ सेकंड में कोई काम करना होता है। बटन दबाना, हॉर्न बजाना, या throttle और ब्रेक चलाना।"
     },
     {
-     "vo": "कुछ नहीं किया, तो केबिन में बत्ती चमकती है और बज़र बजने लगता है।",
-     "prompt": "A flashing amber warning lamp lighting the whole driving desk of a locomotive cab at night, the driver's seat empty, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "कुछ नहीं किया, तो केबिन में बत्ती चमकती है और बज़र बजने लगता है।"
     },
     {
      "vo": "फिर भी आठ सेकंड तक जवाब नहीं, तो इंजन ख़ुद पूरी ट्रेन में ब्रेक लगा देता है।",
@@ -538,23 +527,35 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "और हर इंजन में स्पीड रिकॉर्डर भी होता है। हर पल की रफ़्तार दर्ज होती है, जिसे बाद में अफ़सर जाँचते हैं।",
-     "prompt": "A railway officer in an office studying a long printed speed chart from a locomotive, a pen marking one point on the graph paper, desk lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "और हर इंजन में speed recorder भी होता है। हर पल की रफ़्तार दर्ज होती है, जिसे बाद में अफ़सर जाँचते हैं।"
+     "vo": "और हर इंजन में स्पीड रिकॉर्डर भी होता है। हर पल की रफ़्तार दर्ज होती है, जिसे बाद में अफ़सर जाँचते हैं।"
     },
     {
      "vo": "यानी ये बटन पायलट को रोकता नहीं, उसकी रखवाली करता है।",
      "prompt": "A loco pilot sitting upright and alert in the cab, hand resting near the amber button, calm determined face, first light of dawn through the windscreen, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gfc9a13a5420c55f3ac67f455b364eee0d8d789f6a68468e27daf761c6191b6aa0117971b2de160e08d0ca67503b44bfca1bf93e10531ea9cf8b9d12865f119ad_1280.jpg",
+      "w": 3264,
+      "h": 2448,
+      "credit": "Pixabay (TheoRivierenlaan)",
+      "page": "https://pixabay.com/photos/rack-cog-railway-train-cabin-snow-2749072/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर एक ख़तरा अब भी बचता है। पायलट जाग रहा हो, पर सिग्नल दिखे ही नहीं, तो?",
      "prompt": "View through a locomotive windscreen into a wall of white fog, only a few metres of track visible, medium-wide shot, grey light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g593bd3410996c2c954e8b8241d6c1e4633e79bc8d6d42f6a2e343808a5976e02c0830e845cd4cdb4c92750810568d6b582c73c7e96f947e2a8c410fe2f305300_1280.jpg",
+      "w": 4928,
+      "h": 3264,
+      "credit": "Pixabay (fotolehrling)",
+      "page": "https://pixabay.com/photos/railway-station-freight-trains-1363771/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -615,7 +616,15 @@
      "prompt": "A small rugged electronic box with an antenna on the driving desk of an Indian locomotive, the loco pilot leaning toward it, foggy windscreen behind with a faint signal glow, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "आज पायलट के पास एक छोटा डिब्बा भी होता है, fog safe device। ये GPS से जानता है कि ट्रेन कहाँ है, और अगला सिग्नल पास आते ही बोलकर बता देता है।"
+     "caption": "आज पायलट के पास एक छोटा डिब्बा भी होता है, fog safe device। ये GPS से जानता है कि ट्रेन कहाँ है, और अगला सिग्नल पास आते ही बोलकर बता देता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g65109f36e5d7c24e9377410ef4e56652e5a0391247baa047b440376d66da366d3fd131f3b4c943f57b625d757601661c9c158fbc5c74247f7166eeb8b8c5345f_1280.jpg",
+      "w": 3150,
+      "h": 2100,
+      "credit": "Pixabay (Kanenori)",
+      "page": "https://pixabay.com/photos/train-snowstorm-snow-winter-6907884/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर भारत ने इससे बड़ा पहरेदार भी बनाया है। उसका नाम है कवच।",
@@ -624,17 +633,10 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "पटरी के बीच कुछ-कुछ दूरी पर छोटे आर एफ़ आई डी टैग लगे होते हैं। इंजन उन्हें पढ़कर जानता है कि वो ठीक कहाँ है।",
-     "prompt": "A small flat grey tag box fixed on a concrete sleeper between the rails of an Indian railway track, gravel around it, bright daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पटरी के बीच कुछ-कुछ दूरी पर छोटे RFID टैग लगे होते हैं। इंजन उन्हें पढ़कर जानता है कि वो ठीक कहाँ है।"
+     "vo": "पटरी के बीच कुछ-कुछ दूरी पर छोटे आर एफ़ आई डी टैग लगे होते हैं। इंजन उन्हें पढ़कर जानता है कि वो ठीक कहाँ है।"
     },
     {
-     "vo": "स्टेशन का टावर रेडियो से आगे के सिग्नल का हाल सीधे इंजन तक भेज देता है।",
-     "prompt": "A tall steel radio tower beside a small Indian railway station at dusk, a train passing beside it, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "स्टेशन का टावर रेडियो से आगे के सिग्नल का हाल सीधे इंजन तक भेज देता है।"
     },
     {
      "vo": "सिग्नल लाल हो और पायलट रफ़्तार न घटाए, तो कवच पहले चेताता है। फिर ख़ुद ब्रेक लगा देता है।",
@@ -694,16 +696,10 @@
      "caption": "कवच ने इंजन को सामने वाले से क़रीब 380 मीटर पहले रोक दिया।"
     },
     {
-     "vo": "आज कवच कुछ रूट्स पर लगा है, और धीरे-धीरे पूरे देश में फैलाया जा रहा है।",
-     "prompt": "Railway workers installing a grey equipment cabinet beside an Indian track, cable drums on the ground, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "आज कवच कुछ रूट्स पर लगा है, और धीरे-धीरे पूरे देश में फैलाया जा रहा है।"
     },
     {
-     "vo": "फिर भी आख़िरी फ़ैसला केबिन में बैठी दो आँखों का होता है। मशीन बस उनका साथ देती है।",
-     "prompt": "A loco pilot and his assistant in the cab at dawn, both looking ahead, a green signal glowing through the windscreen, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "vo": "फिर भी आख़िरी फ़ैसला केबिन में बैठी दो आँखों का होता है। मशीन बस उनका साथ देती है।"
     }
    ]
   },
@@ -754,7 +750,5 @@
    1
   ]
  },
- "framework": "2026-11-18 19:00",
- "released_at": "2026-11-18 19:00",
- "voice_requested": "voice-gk-36-railway-loco-pilot-day-8b51651e85"
+ "photos_checked": true
 }
