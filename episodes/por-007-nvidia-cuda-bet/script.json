@@ -1,0 +1,981 @@
+{
+ "slug": "por-007-nvidia-cuda-bet",
+ "channel": "Story of Giants",
+ "format": "long",
+ "build": "kit",
+ "lang": "en",
+ "voice": "am_adam",
+ "title": "Nvidia's CUDA Bet: The Feature Gamers Ignored for Ten Years",
+ "thumbnail": {
+  "text": "NOBODY *USED* IT",
+  "idea": "One full-frame close-up of a 2006-era green-and-black graphics card on a dark desk, the bare chip in the middle circled in thick red, a red arrow from the circle up to a blank plate in the top third where the words go"
+ },
+ "sources": [
+  {
+   "claim": "On 29 October 2025 Nvidia became the first company worth five trillion dollars",
+   "source": "Reuters, 29 Oct 2025"
+  },
+  {
+   "claim": "Founded in April 1993 by three engineers who planned it at a Denny's in San Jose",
+   "source": "Nvidia corporate history page; Tae Kim, The Nvidia Way (W. W. Norton, Dec 2024)"
+  },
+  {
+   "claim": "Fiscal 2007 revenue just over $3.07 billion, net income $449 million",
+   "source": "Nvidia Form 10-K, fiscal year ended 28 Jan 2007"
+  },
+  {
+   "claim": "AMD agreed to buy ATI for $5.4 billion in 2006",
+   "source": "AMD press release, 24 Jul 2006"
+  },
+  {
+   "claim": "Ian Buck built the Brook language for GPUs at Stanford",
+   "source": "Buck et al., 'Brook for GPUs', SIGGRAPH 2004"
+  },
+  {
+   "claim": "Buck joined Nvidia in 2004",
+   "source": "Nvidia executive biography of Ian Buck"
+  },
+  {
+   "claim": "GeForce 8800 GTX and CUDA announced 8 November 2006; launch price $599; fastest card of its day",
+   "source": "Nvidia press release, 8 Nov 2006; AnandTech review, 8 Nov 2006"
+  },
+  {
+   "claim": "681 million transistors, 128 stream processors, unified architecture replacing separate fixed units",
+   "source": "Nvidia GeForce 8800 Technical Brief, Nov 2006"
+  },
+  {
+   "claim": "G80 die about 484 square millimetres",
+   "source": "AnandTech GeForce 8800 review, 8 Nov 2006"
+  },
+  {
+   "claim": "CUDA lets programmers write C code for the GPU",
+   "source": "Nvidia CUDA Programming Guide 1.0, Jun 2007"
+  },
+  {
+   "claim": "First public CUDA toolkit February 2007; version 1.0 June 2007",
+   "source": "Nvidia CUDA release notes, Feb 2007 and Jun 2007"
+  },
+  {
+   "claim": "Tesla cards for scientists launched in 2007",
+   "source": "Nvidia press release, 20 Jun 2007"
+  },
+  {
+   "claim": "CUDA kept on every GeForce card from the 8 series on; Huang's account of the reasoning (installed base, developers follow hardware people own) and of investor questions",
+   "source": "Jensen Huang, Acquired podcast interview, Oct 2023; Stratechery interview, Mar 2022; Tae Kim, The Nvidia Way, 2024"
+  },
+  {
+   "claim": "Cost of CUDA carried by Nvidia through larger chips and engineering effort on tools",
+   "source": "Tae Kim, The Nvidia Way, Dec 2024"
+  },
+  {
+   "claim": "University of Illinois named the first CUDA Center of Excellence in 2008",
+   "source": "University of Illinois / Nvidia announcement, 2008"
+  },
+  {
+   "claim": "ATI showed its own low-level GPU route, Close to Metal, in 2006",
+   "source": "ATI announcement of CTM, 2006"
+  },
+  {
+   "claim": "OpenCL 1.0 published December 2008, proposed by Apple through the Khronos Group",
+   "source": "Khronos Group press release, 8 Dec 2008"
+  },
+  {
+   "claim": "Nvidia also supported OpenCL",
+   "source": "Nvidia OpenCL driver release, 2009"
+  },
+  {
+   "claim": "July 2008: Nvidia said some laptop chips were failing and took a charge of $150-200 million",
+   "source": "Nvidia Form 8-K and press release, 2 Jul 2008"
+  },
+  {
+   "claim": "Shares fell about 30 percent the next day after the charge and a lowered forecast",
+   "source": "Reuters, 3 Jul 2008"
+  },
+  {
+   "claim": "September 2008: about 360 jobs cut, roughly 6.5 percent of the workforce",
+   "source": "Reuters, 18 Sep 2008"
+  },
+  {
+   "claim": "Net income: FY2008 $798M, FY2009 loss $30M, FY2010 loss $68M, FY2011 $253M",
+   "source": "Nvidia Form 10-K filings, fiscal 2008-2011"
+  },
+  {
+   "claim": "Share price fell more than 80 percent from its 2007 high to late 2008",
+   "source": "Nasdaq historical prices, Oct 2007 to Nov 2008"
+  },
+  {
+   "claim": "Intel described Larrabee in 2008 and in December 2009 said it would not ship as a consumer product",
+   "source": "Seiler et al., SIGGRAPH 2008; Intel statement, 4 Dec 2009"
+  },
+  {
+   "claim": "Tianhe-1A, with 7,168 Nvidia GPUs, world's fastest in November 2010",
+   "source": "TOP500 list, Nov 2010"
+  },
+  {
+   "claim": "Titan at Oak Ridge used 18,688 Nvidia GPUs and topped the list in November 2012",
+   "source": "TOP500 list, Nov 2012; Oak Ridge National Laboratory"
+  },
+  {
+   "claim": "AlexNet trained on two GTX 580 cards in five to six days, programmed with CUDA",
+   "source": "Krizhevsky, Sutskever, Hinton, 'ImageNet Classification with Deep Convolutional Neural Networks', NIPS 2012"
+  },
+  {
+   "claim": "GTX 580 launched at $499",
+   "source": "Nvidia launch announcement, 9 Nov 2010"
+  },
+  {
+   "claim": "Top-5 error 15.3 percent versus 26.2 percent for the next best entry",
+   "source": "ILSVRC 2012 results; Krizhevsky et al., NIPS 2012"
+  },
+  {
+   "claim": "'All of our experiments suggest that our results can be improved simply by waiting for faster GPUs and bigger datasets to become available.'",
+   "source": "Krizhevsky et al., NIPS 2012, Section 1"
+  },
+  {
+   "claim": "Google's 2012 network used 1,000 machines with 16,000 cores; Stanford matched it with three GPU machines",
+   "source": "Le et al., ICML 2012; Coates et al., 'Deep learning with COTS HPC systems', ICML 2013"
+  },
+  {
+   "claim": "cuDNN released in 2014 and adopted by the main deep learning frameworks",
+   "source": "Nvidia developer blog, Sep 2014; Chetlur et al., arXiv, Oct 2014"
+  },
+  {
+   "claim": "DGX-1 unveiled April 2016 at $129,000",
+   "source": "Nvidia GTC press release, 5 Apr 2016"
+  },
+  {
+   "claim": "Huang hand-delivered the first DGX-1 to OpenAI in August 2016; inscription 'To the future of computing and humanity'",
+   "source": "Nvidia blog, Aug 2016; photo of the signed unit, Aug 2016"
+  },
+  {
+   "claim": "Data-centre revenue $339M in FY2016, $1.93B FY2018, $2.98B FY2020, $10.61B FY2022, $47.5B FY2024, $115.2B FY2025",
+   "source": "Nvidia Form 10-K filings, fiscal 2016-2025"
+  },
+  {
+   "claim": "ChatGPT launched November 2022; trained on a Microsoft supercomputer of tens of thousands of Nvidia GPUs",
+   "source": "OpenAI, 30 Nov 2022; Microsoft blog, 13 Mar 2023"
+  },
+  {
+   "claim": "Passed Intel in market value July 2020; $1T May 2023; $2T Feb 2024; $4T July 2025; $5T October 2025",
+   "source": "Reuters, 8 Jul 2020, 30 May 2023, 23 Feb 2024, 9 Jul 2025, 29 Oct 2025"
+  },
+  {
+   "claim": "More than four million developers use CUDA",
+   "source": "Nvidia, Computex keynote, May 2023"
+  },
+  {
+   "claim": "AMD is building its own GPU software, ROCm, to compete",
+   "source": "AMD ROCm documentation and announcements, 2016-2025"
+  }
+ ],
+ "playbook": {
+  "topic_type": "rise",
+  "points": [
+   1,
+   1,
+   1,
+   0,
+   1,
+   0,
+   1,
+   1
+  ],
+  "minor": [
+   "'free to download' for the February 2007 toolkit is not in the listed source (the CUDA release notes). Drop 'free' or add a source.",
+   "'a group led by Apple published OpenCL': the source says Apple proposed it and the Khronos Group published it. Say 'Apple proposed, and the Khronos Group published'.",
+   "'through bigger chips and extra testing': the source gives bigger chips and engineering effort on tools. 'Extra testing' is not in it. Use 'tools and engineering'.",
+   "'Huang's reasoning was that cutting it would undo the whole bet': the sources give his installed-base logic, not a 2008-09 decision about stripping CUDA. Word it as his general reasoning, not a moment he faced.",
+   "'Then the crash cut demand for graphics cards, so the extra cost fell on a shrinking business' is the script's own inference. No listed source supports it, so soften it or add a source.",
+   "'(quote)' shots in the DK-style data: the 'That August, Huang delivered...' shot carries no quote, and the inscription 'To the future of computing and humanity' is sourced but unused. Either use it or retag the shot.",
+   "The title says 'Ten Years', but the AlexNet payoff comes about six years after launch. The ten-year span only holds if you count to the 2016 DGX-1 / OpenAI delivery, so the outro's 'for a decade' should be tied to that date."
+  ]
+ },
+ "stats": {
+  "words": 1477,
+  "cold_open_words": 101,
+  "shots": 81,
+  "minutes": 10.5,
+  "kinds": {
+   "chart": 2,
+   "compare": 4,
+   "document": 1,
+   "flow": 1,
+   "footage": 10,
+   "headline": 2,
+   "quote": 2,
+   "stat": 9,
+   "still": 48,
+   "timeline": 2
+  }
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "On 29 October 2025, a chipmaker became the first company worth five trillion dollars.",
+     "kind": "still",
+     "prompt": "A news headline card in the style of a Reuters article, reading exactly: 'Nvidia becomes first $5 trillion company', dated 29 Oct 2025, clean typography on a plain background, no signs or lettering on any storefront, screen or package",
+     "title": "*29* October 2025"
+    },
+    {
+     "vo": "That company was Nvidia, a name most people once knew only from gaming cards.",
+     "kind": "stat",
+     "stat": {
+      "value": 5,
+      "prefix": "$",
+      "suffix": "trillion",
+      "label": "Nvidia market value, 29 Oct 2025"
+     },
+     "prompt": "Muted 35mm documentary photograph of a bare circuit board under a desk lamp, green accent on the chip, top third dark and plain",
+     "title": "*Nvidia*"
+    },
+    {
+     "vo": "Nineteen years earlier, it began putting one feature into every new GeForce from the 8 series on.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, 2006 factory line of identical graphics cards on a conveyor, green accent light on one card, workers in silhouette, no readable text, no logos, no signs or lettering on any storefront, screen or package",
+     "title": "*19* Years Earlier"
+    },
+    {
+     "vo": "Most gamers had no reason to use it, and it cost Nvidia money for years.",
+     "kind": "still",
+     "prompt": "A teenage gamer seen from behind at a desk in a dark bedroom, glowing PC monitor showing a fast action game, graphics card fans lit inside the case, mid-2000s era, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "The feature was CUDA, and investors kept asking why it existed, for years.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a 2000s boardroom with figures in silhouette around a table, one green-shaded lamp, no readable text, no logos, no signs or lettering on any storefront, screen or package",
+     "title": "*CUDA*"
+    },
+    {
+     "vo": "The popular story says Nvidia simply got lucky with AI. That story is incomplete.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, two old gaming cards on a lab bench beside a tangle of cables, green accent glow, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "So how did Nvidia's CUDA bet turn a gaming chip company into AI's engine?",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a vast dark server hall, one aisle lit green, a single engineer seen from behind walking away, no readable text, no logos, no signs or lettering on any storefront, screen or package",
+     "title": "Nvidia's CUDA *Bet*"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "KING OF A SMALL HILL",
+   "shots": [
+    {
+     "vo": "In April 1993, three engineers met at a Denny's in San Jose and planned a company to draw 3D graphics.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, early-1990s roadside diner booth at night, three men seen from behind over coffee and napkin sketches, green neon accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "By the mid-2000s its GeForce chips were the graphics cards that serious PC gamers saved up to buy.",
+     "kind": "still",
+     "prompt": "Silhouette of a young PC gamer seen from behind, sitting at a desk in a dark room, a large glowing gaming monitor showing a vivid 3D game world, a tower PC with a lit graphics card beside them, mid-2000s CRT-era setting, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "In the year ending January 2007, Nvidia sold just over three billion dollars of chips and kept 449 million as profit.",
+     "kind": "stat",
+     "stat": {
+      "value": 3.07,
+      "prefix": "$",
+      "suffix": "billion",
+      "label": "Nvidia revenue, fiscal year to Jan 2007"
+     },
+     "prompt": "Muted 35mm documentary photograph, stacked boxed graphics cards in a 2006 warehouse, green accent, top third dark and plain"
+    },
+    {
+     "vo": "Its main rival moved that same year, when AMD agreed to buy the graphics maker ATI for 5.4 billion dollars.",
+     "kind": "flow",
+     "flow": {
+      "title": "The rival is sold",
+      "nodes": [
+       "AMD",
+       "ATI"
+      ],
+      "links": [
+       [
+        "AMD",
+        "ATI",
+        "$5.4 billion"
+       ]
+      ]
+     }
+    },
+    {
+     "vo": "But a graphics chip does one narrow thing: it colours millions of pixels at the same time, again and again.",
+     "kind": "stat",
+     "stat": {
+      "value": 1000000,
+      "prefix": "",
+      "suffix": "+",
+      "label": "pixels coloured at the same time, again and again"
+     },
+     "prompt": "Muted 35mm documentary photograph of a dim late-1990s computer lab seen from behind: a lone silhouetted technician stands at a workstation in the lower half of the frame, a CRT monitor in front of them glowing with a dense mosaic of tiny teal-green coloured squares, rows of identical beige towers and cables receding into shadow. The top third of the frame is a dark, plain, unlit concrete wall with soft shadow and nothing on it. Desaturated greys and warm black, one teal-green accent colour only from the screen glow. Fine film grain, natural light, no readable text, no logos., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Each pixel is a small, simple sum, so a graphics chip runs many small cores side by side.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, extreme close-up of a bare silicon die under a microscope lamp, a grid of identical cells, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Some scientists noticed that the same trick could speed up physics, medicine and weather models, not just games.",
+     "kind": "footage",
+     "search": "scientist working laboratory computer",
+     "clip": {
+      "id": 192281,
+      "tags": "scientist, laboratory, research, space, science, technology, discussion",
+      "page": "https://pixabay.com/videos/id-192281/"
+     }
+    },
+    {
+     "vo": "But to use a graphics card for science, they had to disguise their maths as pictures of triangles and textures.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a whiteboard covered in blurred equations beside a wireframe triangle sketch, green marker accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "At Stanford, a graduate student named Ian Buck built a language called Brook to make that disguise unnecessary.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, early-2000s campus computer room, a student in silhouette at a CRT monitor late at night, green accent glow, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "In 2004 he joined Nvidia, and his idea went with him.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a 2004 Silicon Valley office corridor with glass meeting rooms, one figure from behind carrying a box, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Should a profitable gaming company spend its own silicon on a market that barely existed?",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a wafer of chips held in gloved hands in a cleanroom, green accent light, faces unseen, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "THE BET ON EVERY CARD",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "subscribe_ask": true,
+     "prompt": "Muted 35mm documentary photograph, a long black graphics card on a dark bench, green accent, top third dark and plain, no signs or lettering on any storefront, screen or package",
+     "seed": 1500,
+     "kind": "still"
+    },
+    {
+     "vo": "Nvidia's answer arrived on 8 November 2006, inside a new flagship gaming card called the GeForce 8800 GTX.",
+     "kind": "headline",
+     "headline": {
+      "date": "8 November 2006",
+      "text": "Nvidia opens its graphics chips to programmers with CUDA"
+     },
+     "prompt": "Muted 35mm documentary photograph, a long black graphics card on a dark bench, green accent, top third dark and plain"
+    },
+    {
+     "vo": "It launched at 599 dollars, and for gamers it was simply the fastest card they could buy that winter.",
+     "kind": "stat",
+     "stat": {
+      "value": 599,
+      "prefix": "$",
+      "suffix": "",
+      "label": "GeForce 8800 GTX launch price, Nov 2006"
+     },
+     "prompt": "Muted 35mm documentary photograph, a computer shop shelf in 2006 with plain unbranded boxes, a buyer from behind, green accent, top third dark and plain"
+    },
+    {
+     "vo": "Older graphics chips had separate fixed units for separate drawing jobs, which made them awkward to program for anything else.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, an older circuit board with distinct separate chip blocks under raking light, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "The new chip replaced them with one pool of identical processors, which is exactly the shape scientific code wants.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, macro of a chip die showing a regular grid of identical blocks, green accent light, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Inside sat 681 million transistors in 128 small processors, built to run general programs as well as graphics.",
+     "kind": "stat",
+     "stat": {
+      "value": 681,
+      "prefix": "",
+      "suffix": "million",
+      "label": "Transistors in the GeForce 8800 GTX, 2006"
+     },
+     "prompt": "Muted 35mm documentary photograph, a silicon die under a microscope, green accent, top third dark and plain"
+    },
+    {
+     "vo": "CUDA let a programmer write ordinary C code and send it to the graphics card, with no triangles and no disguise.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a programmer seen from behind at a 2007 monitor full of blurred code, green accent desk lamp, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "The real decision was where to put CUDA: not in one special science card, but in every card Nvidia made.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, hundreds of identical graphics cards in anti-static trays, one row lit green, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "That meant the cheapest GeForce in a teenager's bedroom carried the same programmable engine as a card in a lab.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a teenager's bedroom at night, a desktop PC with its side open glowing green, the teen seen from behind, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Huang has said the logic was reach: developers write software for hardware millions already own.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a conference stage seen from the back of a dark hall, a speaker in silhouette, green accent light, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "The cost showed up first in the silicon, because the chip measured about 484 square millimetres, a very large consumer chip.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a large bare chip held between tweezers against a ruler with no numbers visible, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "So who was going to pay for all that extra engineering, in a product bought mostly to play games?",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, an empty office at night with a calculator and stacked binders, green desk lamp, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "The answer, for years, was Nvidia itself, through bigger chips and extra testing.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a test lab with racks of graphics cards wired to meters, an engineer from behind, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "The first public CUDA toolkit came out in February 2007, free to download, and a finished version 1.0 followed that June.",
+     "kind": "timeline",
+     "timeline": {
+      "title": "From side project to platform",
+      "events": [
+       [
+        "2004",
+        "Brook paper; Buck joins Nvidia"
+       ],
+       [
+        "2006",
+        "8800 GTX ships with CUDA"
+       ],
+       [
+        "2007",
+        "Free CUDA toolkit released"
+       ],
+       [
+        "2008",
+        "First CUDA teaching centre"
+       ]
+      ],
+      "mark": "2006"
+     }
+    },
+    {
+     "vo": "In 2007 Nvidia also launched Tesla, cards meant for scientists, yet it kept CUDA switched on in its cheap gaming cards too.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a plain metal workstation in a physics lab beside a cheap home PC on a desk, green accent on both, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "In 2008 it named the University of Illinois its first CUDA Center of Excellence, backing the teaching of its way of programming.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a Midwestern university lecture hall in autumn, students seen from behind facing a blank projector screen, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "A student who learned CUDA in class would carry that skill into labs and companies long after graduating.",
+     "kind": "still",
+     "prompt": "A university computer lab, students seen from behind at rows of desktop computers, a lecturer at a whiteboard covered in blurry diagrams, warm afternoon light, 2000s era, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Rivals had other ideas: ATI showed its own route, called Close to Metal, which exposed the chip at the level of assembly language.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a printout of dense machine code on a desk under a lamp, blurred and unreadable, red accent pen, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "In December 2008, a group led by Apple published OpenCL, a free standard meant to run on every maker's chips.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a standards meeting room with figures in silhouette around a long table, one green water glass as accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "On paper, OpenCL looked like the smarter road: one language for every chip, and no single company in control.",
+     "kind": "compare",
+     "compare": {
+      "title": "Closed versus open",
+      "left": {
+       "name": "CUDA",
+       "value": 1,
+       "prefix": "",
+       "suffix": " maker",
+       "label": "Runs on Nvidia chips only"
+      },
+      "right": {
+       "name": "OpenCL",
+       "value": 3,
+       "prefix": "",
+       "suffix": "+ makers",
+       "label": "Meant for every chip"
+      },
+      "winner": "right"
+     }
+    },
+    {
+     "vo": "Nvidia supported OpenCL too, but it kept pouring its own effort into CUDA's libraries, debuggers and documentation.",
+     "kind": "footage",
+     "search": "programmers coding laptops office",
+     "clip": {
+      "id": 27920,
+      "tags": "code, coding, programming, computer, technology, digital, data, programmer, internet, software, html, hacker, laptop, developer, screen, development, matrix, web, www, hacking, binary, css, network, information, office",
+      "page": "https://pixabay.com/videos/id-27920/"
+     }
+    },
+    {
+     "vo": "Would a free standard that everyone shared beat a closed platform that only worked on one company's cards?",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, two roads splitting in fog at dawn, one lit faintly green, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "For a gamer comparing benchmarks, none of this showed. For Nvidia's accountants, all of it did.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, an accountant's desk with ledgers and a 2007 desktop screen, figure from behind, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Investors kept asking what the spending was for, Huang has recalled, and for years the honest answer was: not much yet.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, an earnings call room with a speakerphone on a long table, empty chairs, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "The bet's cost was about to meet a downturn.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a stack of returned laptops in a repair bay, one screen glowing, red accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "PAYING FOR NOTHING",
+   "shots": [
+    {
+     "vo": "On 2 July 2008, Nvidia said some of its laptop chips were failing, and set aside up to 200 million dollars to fix them.",
+     "kind": "stat",
+     "stat": {
+      "value": 200,
+      "prefix": "$",
+      "suffix": "million",
+      "label": "Top of Nvidia's laptop chip charge, Jul 2008"
+     },
+     "prompt": "Muted 35mm documentary photograph, an opened laptop motherboard on a repair mat, red accent, top third dark and plain"
+    },
+    {
+     "vo": "The next day its shares fell about 30 percent, as investors weighed the repair bill and a lower sales forecast.",
+     "kind": "stat",
+     "stat": {
+      "value": 30,
+      "prefix": "-",
+      "suffix": "%",
+      "label": "Nvidia shares fell the next day"
+     },
+     "prompt": "Muted 35mm documentary photograph of an empty stock trading floor at dusk in the early 2000s, seen from behind: a single silhouetted trader stands in the lower half of the frame facing a wall of dark ticker screens, with scattered paper slips on the floor and abandoned desks around. A faint red glow from one screen is the only accent colour. The top third of the frame is a dark, plain, shadowed ceiling and wall with nothing on it. Desaturated greys and browns, fine film grain, natural low light, no readable text, no logos., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Then the crash cut demand for graphics cards, so the extra cost of CUDA on every chip fell on a shrinking business.",
+     "kind": "still",
+     "prompt": "A dim electronics retail shelf with a few graphics card boxes left, blank unbranded packaging and a sparse, half-empty aisle. A lone shopper is seen from behind. Muted colours, no logos, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "In September 2008, Nvidia cut about 360 jobs, roughly six and a half percent of its workforce.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, an office parking lot at dusk, a person from behind carrying a cardboard box to a car, red accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Nvidia's profit swung from a record 798 million dollars to losses in each of the next two fiscal years.",
+     "kind": "chart",
+     "chart": {
+      "type": "bar",
+      "title": "Record profit to losses",
+      "unit": "$ million",
+      "points": [
+       [
+        "FY2007",
+        449
+       ],
+       [
+        "FY2008",
+        798
+       ],
+       [
+        "FY2009",
+        -30
+       ],
+       [
+        "FY2010",
+        -68
+       ],
+       [
+        "FY2011",
+        253
+       ]
+      ],
+      "mark": "FY2010",
+      "source": "Nvidia Form 10-K filings, fiscal 2007-2011"
+     }
+    },
+    {
+     "vo": "From its 2007 high to late 2008, Nvidia's share price fell by more than 80 percent.",
+     "kind": "stat",
+     "stat": {
+      "value": 80,
+      "prefix": "",
+      "suffix": "%+",
+      "label": "Fall in Nvidia shares, 2007 high to late 2008"
+     },
+     "prompt": "Muted 35mm documentary photograph, an empty trading desk with dark monitors, red accent, top third dark and plain"
+    },
+    {
+     "vo": "And all through this, every GeForce card still carried CUDA, a feature almost nobody buying it was paying to get.",
+     "kind": "footage",
+     "search": "gaming pc rgb lights",
+     "clip": {
+      "id": 8064,
+      "tags": "fan, computer, cooling, pc, air, case fan, technology, electronics, shining, hardware, edp, casing, red, glow, led, lighting, gaming",
+      "page": "https://pixabay.com/videos/id-8064/"
+     }
+    },
+    {
+     "vo": "With profits gone and shares crushed, why not strip CUDA out and sell cheaper, simpler gaming chips?",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a pair of hands holding a graphics card over an open bin, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Huang's reasoning was that cutting it would undo the whole bet, which depended on CUDA being on every card.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, an executive in silhouette at a window overlooking a car park at night, green accent from a desk lamp, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Meanwhile Intel, the world's largest chipmaker, described its own many-core chip, Larrabee, aimed at the same kind of work.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a vast semiconductor fab corridor with workers in white suits seen from behind, blue accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "In December 2009, Intel said Larrabee would not ship as a consumer graphics product, and one giant rival stepped back.",
+     "kind": "headline",
+     "headline": {
+      "date": "4 December 2009",
+      "text": "Intel shelves Larrabee as a consumer graphics chip"
+     },
+     "prompt": "Muted 35mm documentary photograph, an empty cleanroom bench with a single wafer left behind, blue accent, top third dark and plain"
+    },
+    {
+     "vo": "Supercomputers began to notice, and in 2010 China's Tianhe-1A, built with 7,168 Nvidia GPUs, became the world's fastest.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       39.0,
+       117.2
+      ],
+      "span": 12.0,
+      "places": [
+       {
+        "name": "Tianjin, home of Tianhe-1A",
+        "lat": 39.0842,
+        "lon": 117.2009
+       }
+      ],
+      "label": "Tianhe-1A, 2010: 7,168 Nvidia GPUs, world's fastest supercomputer"
+     }
+    },
+    {
+     "vo": "In 2012, America's Titan at Oak Ridge used 18,688 Nvidia GPUs and topped the world's supercomputer list.",
+     "was": {
+      "kind": "stat",
+      "stat": {
+       "value": 18688,
+       "prefix": "",
+       "suffix": " GPUs",
+       "label": "Nvidia chips in Titan, world's fastest, Nov 2012"
+      },
+      "prompt": "Muted 35mm documentary photograph, long rows of black supercomputer cabinets in a cold hall, green accent, top third dark and plain"
+     },
+     "kind": "still",
+     "prompt": "a documentary photograph of the moment: In 2012, America's Titan at Oak Ridge used 18,688 Nvidia GPUs and topped the world's supercomputer list."
+    },
+    {
+     "vo": "But supercomputers were a niche of a niche, and gaming still paid most of Nvidia's bills.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a crowded LAN party hall of gamers seen from behind, screens glowing, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Then a result from Toronto turned that niche into the biggest market the company would ever see.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a snowy Toronto street at night outside a university building, one window lit green, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "TWO GAMING CARDS WON",
+   "shots": [
+    {
+     "vo": "In 2012, two graduate students and their professor at the University of Toronto entered an image-recognition contest called ImageNet.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a cramped university office with two desktop towers and a whiteboard, three figures from behind, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "They trained their neural network not on a supercomputer, but on two GeForce GTX 580 gaming cards that launched at 499 dollars each.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, an ordinary desktop tower open on a desk, two graphics cards side by side glowing green, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Their own paper says the network took between five and six days to train on those two cards.",
+     "kind": "quote",
+     "quote": {
+      "text": "Our network takes between five and six days to train on two GTX 580 3GB GPUs.",
+      "who": "Krizhevsky, Sutskever and Hinton",
+      "source": "NIPS 2012 paper"
+     }
+    },
+    {
+     "vo": "Their system's top-five error rate was 15.3 percent, while the next best entry managed only 26.2 percent.",
+     "kind": "compare",
+     "compare": {
+      "title": "A gap, not a step",
+      "left": {
+       "name": "Toronto, GPUs",
+       "value": 15.3,
+       "prefix": "",
+       "suffix": "%",
+       "label": "Top-5 error, ImageNet 2012"
+      },
+      "right": {
+       "name": "Next best",
+       "value": 26.2,
+       "prefix": "",
+       "suffix": "%",
+       "label": "Top-5 error, ImageNet 2012"
+      },
+      "winner": "left"
+     }
+    },
+    {
+     "vo": "They programmed those cards with CUDA, the feature that had shipped in every new GeForce from the 8 series on.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a late-night monitor of blurred code beside a mug, a researcher from behind, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "And the paper's introduction carried a line that read like an order form for Nvidia's next chips.",
+     "kind": "document",
+     "document": {
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks, NIPS 2012",
+      "highlight": "All of our experiments suggest that our results can be improved simply by waiting for faster GPUs and bigger datasets to become available."
+     },
+     "prompt": "Muted 35mm documentary photograph, a printed academic paper on a wooden desk under a lamp, green accent, top third dark and plain"
+    },
+    {
+     "vo": "A year later, Stanford researchers matched a Google network that had needed 16,000 processor cores, using just three GPU machines.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, three plain server boxes on a lab shelf, cables neat, green status lights, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "One thousand machines against three: for AI researchers, the cost of an experiment had just collapsed.",
+     "kind": "compare",
+     "compare": {
+      "title": "The cost collapses",
+      "left": {
+       "name": "Google, 2012",
+       "value": 1000,
+       "prefix": "",
+       "suffix": " machines",
+       "label": "16,000 CPU cores"
+      },
+      "right": {
+       "name": "Stanford, 2013",
+       "value": 3,
+       "prefix": "",
+       "suffix": " machines",
+       "label": "GPU servers"
+      },
+      "winner": "right"
+     }
+    },
+    {
+     "vo": "And because CUDA ran on every Nvidia card, any student could start on the gaming card already under their desk.",
+     "kind": "still",
+     "prompt": "A student seen from behind at a small dorm desk, coding on a tower PC with a gaming graphics card visible through the side panel glowing, evening lamp light, 2000s era, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Rival chips existed, but the tools, the libraries and years of tutorials had all been written for CUDA.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a library table piled with worn programming books and printouts, blurred, green bookmark accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "In 2014 Nvidia released cuDNN, a free CUDA library built for neural networks, and the main AI frameworks adopted it.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a quiet open-plan office of engineers seen from behind at monitors, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "In April 2016 Nvidia unveiled the DGX-1, a single AI server priced at 129,000 dollars.",
+     "was": {
+      "kind": "stat",
+      "stat": {
+       "value": 129000,
+       "prefix": "$",
+       "suffix": "",
+       "label": "Price of the DGX-1 AI server, Apr 2016"
+      },
+      "prompt": "Muted 35mm documentary photograph, a sealed server crate on a loading dock, green accent, top third dark and plain"
+     },
+     "kind": "still",
+     "prompt": "a documentary photograph of the moment: In April 2016 Nvidia unveiled the DGX-1, a single AI server priced at 129,000 dollars."
+    },
+    {
+     "vo": "That August, Huang delivered the first one by hand to a small San Francisco lab called OpenAI.",
+     "kind": "quote",
+     "quote": {
+      "text": "To the future of computing and humanity.",
+      "who": "Jensen Huang, Nvidia CEO, signed on the first DGX-1",
+      "source": "Nvidia blog, Aug 2016"
+     }
+    },
+    {
+     "vo": "Nvidia's data-centre sales grew from 339 million dollars in fiscal 2016 to 115 billion dollars in fiscal 2025.",
+     "kind": "chart",
+     "chart": {
+      "type": "bar",
+      "title": "The side job took over",
+      "unit": "$ billion",
+      "points": [
+       [
+        "FY2016",
+        0.34
+       ],
+       [
+        "FY2018",
+        1.93
+       ],
+       [
+        "FY2020",
+        2.98
+       ],
+       [
+        "FY2022",
+        10.61
+       ],
+       [
+        "FY2024",
+        47.5
+       ],
+       [
+        "FY2025",
+        115.2
+       ]
+      ],
+      "mark": "FY2025",
+      "source": "Nvidia Form 10-K filings, fiscal 2016-2025"
+     }
+    },
+    {
+     "vo": "When ChatGPT launched in November 2022, Microsoft said it was trained on a supercomputer of tens of thousands of Nvidia GPUs.",
+     "kind": "footage",
+     "search": "data center server aisle",
+     "clip": {
+      "id": 14900,
+      "tags": "network, internet, data, switch, router, cabinet, ethernet, equipment, connection, server, cable, rack, networking, lan, technology",
+      "page": "https://pixabay.com/videos/id-14900/"
+     }
+    },
+    {
+     "vo": "Then the market caught up: one trillion dollars in May 2023, four trillion in July 2025, and five that October.",
+     "kind": "timeline",
+     "timeline": {
+      "title": "The market catches up",
+      "events": [
+       [
+        "2020",
+        "Passes Intel in value"
+       ],
+       [
+        "2023",
+        "Worth $1 trillion"
+       ],
+       [
+        "2024",
+        "Worth $2 trillion"
+       ],
+       [
+        "2025",
+        "Worth $4 trillion, then $5 trillion"
+       ]
+      ],
+      "mark": "2025"
+     }
+    },
+    {
+     "vo": "Nvidia says more than four million developers now write for CUDA, a head start AMD is still working to close with its own software.",
+     "kind": "footage",
+     "search": "developers working open office",
+     "clip": {
+      "id": 10822,
+      "tags": "keyboard, typing, writing, notebook, computer, technology, laptop, business, internet, work, office, person, hand, communication, working, using, connection, pc, information, desktop, web, workplace",
+      "page": "https://pixabay.com/videos/id-10822/"
+     }
+    },
+    {
+     "vo": "The data-centre business alone now sells about 37 times what the whole company sold the year CUDA launched.",
+     "kind": "compare",
+     "compare": {
+      "title": "Thirty-seven times over",
+      "left": {
+       "name": "Whole company, FY2007",
+       "value": 3.07,
+       "prefix": "$",
+       "suffix": "B",
+       "label": "Total revenue"
+      },
+      "right": {
+       "name": "Data centre, FY2025",
+       "value": 115.2,
+       "prefix": "$",
+       "suffix": "B",
+       "label": "One division's revenue"
+      },
+      "winner": "right"
+     }
+    },
+    {
+     "vo": "Had CUDA lived only on special science cards, would those Toronto students ever have owned one?",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a locked glass cabinet holding a single expensive workstation card, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Nobody can know for sure, but the result that changed AI ran on two cards sold for playing games.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, two worn graphics cards resting on a game controller on a desk, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "The principle: put the future feature into the product people already buy, and keep paying for it while nobody cares.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a single graphics card on a bare wooden table in morning light, green accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Nvidia paid for a decade, and the money came back from a market that barely existed in 2006.",
+     "kind": "still",
+     "prompt": "Wide view of a vast modern data center, rows of server racks with glowing indicator lights stretching into the distance, a single engineer seen only from behind in silhouette walking down the aisle, cool blue tones, no logos, no readable text, cinematic documentary still., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Next: Xerox, which built the modern personal computer in its own lab, and watched others sell it.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph, a 1970s research lab with a boxy early computer and a mouse on a desk, figure from behind, amber accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+    }
+   ]
+  }
+ ],
+ "restocked": true,
+ "replanned": true,
+ "templates_checked": true,
+ "painted_cards": true,
+ "photos_checked": true,
+ "visuals_checked": true,
+ "approved": true,
+ "review": "auto",
+ "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame"
+}
