@@ -1,0 +1,799 @@
+{
+ "slug": "gk-37-metro-control-room",
+ "format": "long",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "words_in_edit": true,
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "दिल्ली मेट्रो का छिपा कंट्रोल रूम सैकड़ों ट्रेनें कैसे संभालता है? 🚇",
+ "thumbnail": {
+  "text": "ट्रेन में *ड्राइवर* नहीं",
+  "plane": "Photoreal painting, close and low: a modern Delhi Metro train bursting out of a dark underground tunnel straight toward the camera, twin headlights blazing, the front cab window empty with no one at the controls, cold blue tunnel light behind, warm platform light catching the steel nose, rails gleaming, faint motion haze, dramatic cinematic contrast, no text"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "ch2",
+   "ch4"
+  ],
+  "epic": [
+   "ch1",
+   "ch6"
+  ],
+  "reflective": [
+   "ch3",
+   "ch5",
+   "outro"
+  ]
+ },
+ "source": "DMRC official website and press releases (driverless operation: Magenta line 28 Dec 2020, Pink line 25 Nov 2021); IEEE 1474 CBTC standard; IEC 62290 Grades of Automation; William Robinson's closed track circuit (1872); TransLink SkyTrain history (1985)",
+ "journey_score": 7.1,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सोचिए, सुबह नौ बजे आप दिल्ली मेट्रो में राजीव चौक पर खड़े हैं।",
+     "prompt": "Commuters waiting on a packed underground Delhi Metro platform at morning rush, office-goers and students with backpacks standing behind the yellow line, a large flat station name board on the wall facing the camera reading \"RAJIV CHOWK\", bright white platform lights, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "एक ट्रेन सुरंग में गई, और कुछ ही देर में अगली आ गई।",
+     "prompt": "A Delhi Metro train's red tail lights vanishing into a dark tunnel mouth, a second train's bright headlights glowing in the tunnel behind it, a few commuters on the platform in the foreground turning to look, bright platform light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "उसी पटरी पर, उसी सुरंग में। फिर ये टकराती क्यों नहीं?",
+     "prompt": "Two metro trains one behind the other on one single pair of rails entering a dark tunnel mouth, the first train's red tail lights deep inside, the second train's nose just entering, seen from the front, rails large in the foreground, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आगे वाली ट्रेन कहाँ है, ये पीछे वाली को कैसे पता?",
+     "prompt": "A long curved dark metro tunnel with rails running ahead, a faint red glow of a train's tail lights far in the distance, the beam of a headlight lighting the rails in the foreground, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "सुरंग के अंधेरे में ड्राइवर को आगे बस कुछ मीटर दिखता है।",
+     "prompt": "A Delhi Metro train driver in uniform, side view, both hands on the controller, through the windscreen a short pool of headlight on the rails ending in total darkness, dim cab light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और पूरी रफ़्तार पर ट्रेन रुकने में क़रीब दो सौ मीटर लेती है।",
+     "prompt": "A Delhi Metro train braking hard on an elevated viaduct, seen exactly from its left side, bright sparks at the wheels, long straight track ahead into the distance, bright morning sun, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "तो अंधेरे में ब्रेक कब लगे, ये कौन तय करता है?",
+     "prompt": "A close-up of a metro train's steel wheel and brake unit pressed against a polished rail inside a dark tunnel, one lamp lighting the steel, sharp focus, macro shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और जिस ट्रेन में ड्राइवर ही न हो, उसे कौन रोके?",
+     "prompt": "A magenta-striped Delhi Metro train gliding into an elevated station seen from the front three-quarter view, the front cab window empty with no one inside, passengers on the platform staring at it, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "भोर में पहली ट्रेन डिपो से निकलकर लाइन पर उतरती है।",
+     "prompt": "The first Delhi Metro train of the day rolling out of a floodlit depot onto an elevated line, seen exactly from its left side, deep blue sky turning orange at dawn, mist over the tracks, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "उसी पल मेट्रो भवन की एक दीवार पर उसकी निशानी जल उठती है।",
+     "prompt": "Controllers in white shirts seated at desks in a dim metro control hall, side view, facing a huge video wall of plain glowing lines with one small new light just appearing, blue glow on their faces, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "मेट्रो का दिमाग़",
+   "shots": [
+    {
+     "vo": "ये दीवार दिल्ली के बीचों-बीच है, बाराखंभा रोड की एक ऊँची इमारत में।",
+     "prompt": "A tall modern office building on a busy central Delhi road, a large flat sign above the entrance facing the camera reading \"METRO BHAWAN\", auto-rickshaws and cars passing in front, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इमारत का नाम है मेट्रो भवन। इसके अंदर है मेट्रो का कंट्रोल रूम, ऑपरेशन्स कंट्रोल सेंटर, यानी ओ सी सी।",
+     "prompt": "A security glass door opening into a dark control hall, a large flat door plate on it facing the camera reading \"OCC\", the blue glow of a long video wall spilling into a quiet corridor, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इमारत का नाम है मेट्रो भवन। इसके अंदर है मेट्रो का कंट्रोल रूम, Operations Control Centre, यानी OCC।"
+    },
+    {
+     "vo": "दिल्ली मेट्रो की पहली लाइन दिसंबर दो हज़ार दो में खुली थी। शाहदरा से तीस हज़ारी तक, बस छह स्टेशन।",
+     "prompt": "Excited crowds on a brand-new elevated metro platform in winter 2002, people in sweaters and shawls, a man in the centre holding up a large Hindi newspaper facing the camera with the headline \"मेट्रो चल पड़ी\", bright winter sun, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दिल्ली मेट्रो की पहली लाइन दिसंबर 2002 में खुली थी। Shahdara से Tis Hazari तक, बस छह स्टेशन।"
+    },
+    {
+     "vo": "उसे बनाने वाली टीम के मुखिया थे ई. श्रीधरन, जिन्हें लोग आज भी मेट्रो मैन कहते हैं।",
+     "prompt": "An elderly Indian engineer in a white shirt and helmet, three-quarter view, pointing up at a half-built elevated metro viaduct, workers in helmets and cranes behind him, no cars or modern signage, hazy Delhi sky, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उसे बनाने वाली टीम के मुखिया थे E. Sreedharan, जिन्हें लोग आज भी Metro Man कहते हैं।"
+    },
+    {
+     "vo": "आज यही जाल क़रीब तीन सौ नब्बे किलोमीटर तक फैल चुका है, दिल्ली से नोएडा और गुरुग्राम तक।",
+     "map": {
+      "center": [
+       28.58,
+       77.2
+      ],
+      "span": 0.6,
+      "from_span": 6,
+      "countries": [
+       {
+        "iso": "IND",
+        "label": "दिल्ली",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 28.6328,
+        "lon": 77.2197,
+        "label": "राजीव चौक"
+       },
+       {
+        "lat": 28.6289,
+        "lon": 77.3757,
+        "label": "नोएडा"
+       },
+       {
+        "lat": 28.4593,
+        "lon": 77.0726,
+        "label": "गुरुग्राम"
+       }
+      ]
+     },
+     "caption": "आज यही जाल क़रीब 390 किलोमीटर तक फैल चुका है, दिल्ली से Noida और Gurugram तक।"
+    },
+    {
+     "vo": "हर लाइन के लिए यहाँ अलग कंट्रोल डेस्क है। रेड, ब्लू, येलो, मैजेंटा, सबकी अपनी टीम।",
+     "prompt": "A large dim control hall with separate desk clusters, each with its own team of controllers at screens, coloured strips along the desk edges in red, blue, yellow and magenta, wide shot, soft light from the screens, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर लाइन के लिए यहाँ अलग control desk है। Red, Blue, Yellow, Magenta, सबकी अपनी टीम।"
+    },
+    {
+     "vo": "सामने बड़ी दीवार पर हर लाइन एक लंबी पट्टी जैसी दिखती है। हर ट्रेन उस पर एक छोटी चलती निशानी है।",
+     "prompt": "Controllers seated side by side before a huge curved video wall with long glowing lines and small moving dots, faces lit blue and green, the wall plain and wordless, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ट्रैफ़िक कंट्रोलर इन निशानियों पर नज़र रखता है, और ड्राइवरों से रेडियो पर बात करता है।",
+     "prompt": "A controller in a Delhi Metro uniform, side view, wearing a headset and speaking into a desk microphone, eyes on a glowing wall of lines ahead, dim control room, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Traffic controller इन निशानियों पर नज़र रखता है, और ड्राइवरों से रेडियो पर बात करता है।"
+    },
+    {
+     "vo": "पावर कंट्रोलर ऊपर के तार की बिजली संभालता है। ज़्यादातर लाइनों पर उसमें पच्चीस हज़ार वोल्ट होते हैं।",
+     "prompt": "A Delhi Metro train's pantograph pressed against the overhead wire with a small blue spark at the contact point, the train roof below, clear dawn sky, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Power controller ऊपर के तार की बिजली संभालता है। ज़्यादातर लाइनों पर उसमें 25,000 वोल्ट होते हैं।"
+    },
+    {
+     "vo": "ज़रूरत पड़े, तो वो इस तार का बस एक सेक्शन बंद कर सकता है। बाक़ी लाइन चलती रहती है।",
+     "prompt": "A controller's finger pressing a large red switch on a console, the clear plastic safety cover flipped open above it, rows of small lights behind, close-up, warm console light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "रात को ट्रेनें रुकती हैं, पर ये कमरा नहीं। मरम्मत वाली टीमों को पटरी यहीं से सौंपी जाती है।",
+     "prompt": "The control room late at night, two controllers on duty, one speaking on a phone, the glow of a huge video wall in an otherwise dark hall, side view, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "एक कंप्यूटर सिस्टम हर ट्रेन को टाइमटेबल से मिलाता रहता है। इसका नाम है ए टी एस।",
+     "prompt": "Rows of tall server racks in a cool server room, small green status lights, an engineer in a polo shirt checking cables, three-quarter view, bright white light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "एक कंप्यूटर सिस्टम हर ट्रेन को timetable से मिलाता रहता है। इसका नाम है ATS।"
+    },
+    {
+     "vo": "कोई ट्रेन देर से चले, तो उसे स्टेशन पर कुछ सेकंड कम रोका जाता है। जल्दी हो, तो थोड़ा ज़्यादा, ताकि सबके बीच बराबर दूरी रहे।",
+     "prompt": "A Delhi Metro train standing at a platform with its doors closing, passengers stepping in just in time, an empty track and a second train far ahead, bright station light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर टक्कर से असली बचाव यहाँ नहीं, पटरी और ट्रेन के अंदर होता है। पहला सवाल, आगे वाली ट्रेन कहाँ है?",
+     "prompt": "A low view along metro rails inside a tunnel, the rails leading to the rear of a train ahead with its red tail lights glowing, a long gap of empty track between, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "पटरी के टुकड़े",
+   "shots": [
+    {
+     "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
+     "subscribe_ask": true,
+     "prompt": "A straight elevated Delhi Metro track seen from above, the rails divided into long sections marked by small insulated joints, stretching over the city, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "move": "push"
+    },
+    {
+     "vo": "पुरानी लाइनों पर, जैसे ब्लू और येलो, ये बात पटरी बताती है। पटरी टुकड़ों में बँटी है।",
+     "prompt": "A straight elevated Delhi Metro track seen from above, the rails divided into long sections marked by small insulated joints, stretching over the city, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पुरानी लाइनों पर, जैसे Blue और Yellow, ये बात पटरी बताती है। पटरी टुकड़ों में बँटी है।"
+    },
+    {
+     "vo": "इन टुकड़ों को ब्लॉक कहते हैं। नियम सिर्फ़ एक है: एक ब्लॉक में एक ही ट्रेन।",
+     "prompt": "A single Delhi Metro train sitting alone on one long section of elevated track, a long empty stretch of rail before and behind it, bright daylight, seen exactly from its left side, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इन टुकड़ों को block कहते हैं। नियम सिर्फ़ एक है: एक block में एक ही ट्रेन।"
+    },
+    {
+     "vo": "हर ब्लॉक की पटरी में हल्का सा बिजली का सिग्नल लगातार दौड़ता रहता है।",
+     "prompt": "A close-up of a steel rail with a thick cable bonded to its side and a small insulated joint cut in the rail, morning sun, sharp focus, macro shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर block की पटरी में हल्का सा बिजली का signal लगातार दौड़ता रहता है।"
+    },
+    {
+     "vo": "ये सिग्नल ब्लॉक के दूसरे सिरे पर एक रिले तक जाता है, यानी बिजली से चलने वाला स्विच।",
+     "prompt": "A small grey trackside equipment box beside metro rails, its door open showing neat rows of relays, thin cables running from it down into the rail, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये signal block के दूसरे सिरे पर एक relay तक जाता है, यानी बिजली से चलने वाला स्विच।"
+    },
+    {
+     "vo": "जब तक सिग्नल पहुँचे, रिले उठा रहता है। मतलब, ब्लॉक ख़ाली है।",
+     "prompt": "A long empty stretch of metro track in clear morning light, no train in sight, a grey equipment box with an open door at the edge in the foreground, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "जब तक signal पहुँचे, relay उठा रहता है। मतलब, block ख़ाली है।"
+    },
+    {
+     "vo": "ट्रेन आती है, तो उसके लोहे के पहिये और धुरी दोनों पटरियों को जोड़ देते हैं।",
+     "prompt": "A close-up of a metro train's steel wheels and axle resting on both rails, the axle spanning from rail to rail joining them, bright daylight, sharp focus, low angle, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बिजली इस छोटे रास्ते से लौट जाती है। रिले तक कुछ नहीं पहुँचता, और वो गिर जाता है।",
+     "prompt": "A train's steel wheel rolling over the rail joint, the rails gleaming, the equipment box beside the track, clear daylight, close-up, low angle, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "बिजली इस छोटे रास्ते से लौट जाती है। Relay तक कुछ नहीं पहुँचता, और वो गिर जाता है।"
+    },
+    {
+     "vo": "सिस्टम समझ जाता है, इस ब्लॉक में ट्रेन है। पीछे वाली ट्रेन को अंदर आने की इजाज़त नहीं।",
+     "prompt": "A metro train halted on the track far behind another train, both on the same line, a long empty gap of rails between them, the front train small in the distance, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "सिस्टम समझ जाता है, इस block में ट्रेन है। पीछे वाली ट्रेन को अंदर आने की इजाज़त नहीं।"
+    },
+    {
+     "vo": "ये तरीक़ा अठारह सौ बहत्तर में अमेरिका के विलियम रॉबिन्सन ने बनाया था। डेढ़ सौ साल बाद भी यही चलता है।",
+     "prompt": "A 19th-century American engineer in a long coat, three-quarter view, bending over a wooden workshop bench where a short piece of rail is wired to glass batteries and a brass relay, a large sheet of paper on the bench facing the camera reading \"1872\", warm lamp light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये तरीक़ा 1872 में अमेरिका के William Robinson ने बनाया था। डेढ़ सौ साल बाद भी यही चलता है।"
+    },
+    {
+     "vo": "इसकी असली चालाकी ये है। तार कट जाए या बिजली चली जाए, तब भी रिले गिरता है।",
+     "prompt": "A close-up of a cut cable beside a metro rail, its copper ends exposed and frayed, a grey relay box next to it, bright daylight, sharp focus, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसकी असली चालाकी ये है। तार कट जाए या बिजली चली जाए, तब भी relay गिरता है।"
+    },
+    {
+     "vo": "यानी ख़राबी में भी सिस्टम मानता है कि आगे ट्रेन है। ग़लती हमेशा सुरक्षित तरफ़।",
+     "prompt": "A metro train standing on an empty track ahead, a second train far behind it, a train operator in the cab seen from the side looking through the windscreen, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ड्राइवर को ये जानकारी केबिन के अंदर मिलती है। स्क्रीन बताती है, अभी कितनी रफ़्तार तक चल सकते हो।",
+     "prompt": "A train operator in a Delhi Metro cab seen from the side, the console with a small glowing instrument panel in front of them, the tunnel ahead through the windscreen, dim cab light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ड्राइवर को ये जानकारी cabin के अंदर मिलती है। स्क्रीन बताती है, अभी कितनी रफ़्तार तक चल सकते हो।"
+    },
+    {
+     "vo": "पर इसमें एक कमी है। आगे की ट्रेन ब्लॉक के बिल्कुल आख़िर में हो, तो भी पूरा ब्लॉक बंद माना जाता है।",
+     "prompt": "A train standing at the far end of a long track section, a vast empty length of rail stretching back behind it, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पर इसमें एक कमी है। आगे की ट्रेन block के बिल्कुल आख़िर में हो, तो भी पूरा block बंद माना जाता है।"
+    },
+    {
+     "vo": "बीच में बेकार ख़ाली पटरी छूटती है, और भीड़ में हर मिनट क़ीमती है। इसलिए नई लाइनों ने ये टुकड़े ही हटा दिए।",
+     "prompt": "An overcrowded Delhi Metro platform at peak hour, people pressing toward the edge as a train arrives, faces of office-goers close together, bright station light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "चलता सुरक्षा घेरा",
+   "shots": [
+    {
+     "vo": "मैजेंटा और पिंक लाइन पर एक नई तकनीक चलती है। नाम है सी बी टी सी।",
+     "map": {
+      "center": [
+       28.64,
+       77.2
+      ],
+      "span": 0.3,
+      "from_span": 0.8,
+      "countries": [
+       {
+        "iso": "IND",
+        "label": "दिल्ली",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 28.6295,
+        "lon": 77.0779,
+        "label": "जनकपुरी वेस्ट"
+       },
+       {
+        "lat": 28.5641,
+        "lon": 77.3343,
+        "label": "बॉटनिकल गार्डन"
+       },
+       {
+        "lat": 28.7245,
+        "lon": 77.181,
+        "label": "मजलिस पार्क"
+       },
+       {
+        "lat": 28.716,
+        "lon": 77.2895,
+        "label": "शिव विहार"
+       }
+      ]
+     },
+     "caption": "Magenta और Pink लाइन पर एक नई तकनीक चलती है। नाम है CBTC।"
+    },
+    {
+     "vo": "पूरा नाम कम्युनिकेशन बेस्ड ट्रेन कंट्रोल। यानी ट्रेन और ज़मीन की लगातार बातचीत।",
+     "prompt": "A sleek Delhi Metro train on the Magenta line crossing a viaduct, seen exactly from its left side, a small antenna on its roof, clear sky, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पूरा नाम Communication Based Train Control। यानी ट्रेन और ज़मीन की लगातार बातचीत।"
+    },
+    {
+     "vo": "यहाँ पटरी नहीं बताती कि ट्रेन कहाँ है। ट्रेन ख़ुद बताती है।",
+     "prompt": "The underside of a metro train's front coach close to the track, small sensors and an antenna box mounted beneath, the rails below, bright light, low angle close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पटरी के बीच थोड़ी-थोड़ी दूरी पर छोटे चपटे डिब्बे लगे हैं। इन्हें बालिस कहते हैं।",
+     "prompt": "A small flat grey box fixed on the concrete sleeper between two metro rails, clean track bed around it, bright daylight, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पटरी के बीच थोड़ी-थोड़ी दूरी पर छोटे चपटे डिब्बे लगे हैं। इन्हें balise कहते हैं।"
+    },
+    {
+     "vo": "इनमें कोई बैटरी नहीं होती। ट्रेन ऊपर से गुज़रती है, तो उसी की तरंग से जागकर अपना पता बता देते हैं।",
+     "prompt": "A train's front bogie passing directly over a small flat box between the rails, low angle, the box large in the foreground, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दो बालिस के बीच ट्रेन अपने पहियों के चक्कर गिनकर दूरी जोड़ती रहती है।",
+     "prompt": "A close-up of a spinning metro wheel with a small speed sensor mounted near the axle end, bright daylight, sharp focus, macro shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दो balise के बीच ट्रेन अपने पहियों के चक्कर गिनकर दूरी जोड़ती रहती है।"
+    },
+    {
+     "vo": "पहिया ज़रा फिसले, तो गिनती बिगड़ सकती है। अगला बालिस उस ग़लती को फिर से ठीक कर देता है।",
+     "prompt": "A metro wheel on a rain-wet rail, a thin film of water on the steel, a small flat box between the rails a few metres ahead, overcast daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पहिया ज़रा फिसले, तो गिनती बिगड़ सकती है। अगला balise उस ग़लती को फिर से ठीक कर देता है।"
+    },
+    {
+     "vo": "फिर ट्रेन रेडियो से अपनी जगह और रफ़्तार ज़मीन पर भेजती है। एक सेकंड में कई बार।",
+     "prompt": "A metro train in a tunnel passing a wall-mounted radio antenna unit, the train's lights reflecting on the tunnel wall, seen exactly from its left side, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पटरी किनारे लगे एंटीना ये मैसेज एक बड़े कंप्यूटर तक पहुँचाते हैं।",
+     "prompt": "A row of radio antenna units on poles along an elevated metro track, evenly spaced into the distance, clear morning sky, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पटरी किनारे लगे antenna ये मैसेज एक बड़े कंप्यूटर तक पहुँचाते हैं।"
+    },
+    {
+     "vo": "वो कंप्यूटर हर ट्रेन से कहता है: तुम यहाँ तक जा सकती हो, इसके आगे नहीं।",
+     "prompt": "Two metro trains on the same elevated track, one following the other at a safe distance with a long empty gap, Delhi skyline behind, bright daylight, seen exactly from the left side, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आगे वाली ट्रेन बढ़ी, तो पीछे वाली की सीमा भी आगे खिसक गई। इसे मूविंग ब्लॉक कहते हैं।",
+     "prompt": "A front metro train pulling away from a station while a rear train follows into the vacated stretch of track, a long gap between them, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "आगे वाली ट्रेन बढ़ी, तो पीछे वाली की सीमा भी आगे खिसक गई। इसे moving block कहते हैं।"
+    },
+    {
+     "vo": "ये तरीक़ा नया नहीं है। उन्नीस सौ पचासी में कनाडा के वैंकूवर की स्काईट्रेन इसी तरह, बिना ड्राइवर चलने लगी थी।",
+     "prompt": "A small boxy 1980s automated light-metro train on an elevated guideway, seen exactly from its left side, mountains and evergreen trees behind, overcast sky, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये तरीक़ा नया नहीं है। 1985 में कनाडा के Vancouver की SkyTrain इसी तरह, बिना ड्राइवर चलने लगी थी।"
+    },
+    {
+     "vo": "बेकार ख़ाली पटरी ख़त्म। ट्रेनें सुरक्षित दूरी रखकर भी पास-पास चल सकती हैं, इसलिए ये लाइनें हर नब्बे सेकंड पर एक ट्रेन के लायक़ बनी हैं।",
+     "prompt": "A pink-striped Delhi Metro station platform, a large round wall clock facing the camera, one train departing on the right as the next train approaches on the left, bright light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "बेकार ख़ाली पटरी ख़त्म। ट्रेनें सुरक्षित दूरी रखकर भी पास-पास चल सकती हैं, इसलिए ये लाइनें हर 90 सेकंड पर एक ट्रेन के लायक़ बनी हैं।"
+    },
+    {
+     "vo": "पर सीमा बता देना काफ़ी नहीं। अंधेरे में ब्रेक कब लगे, ये पक्का कौन करता है?",
+     "prompt": "A train's headlights rushing toward the camera along a dark tunnel track, rails glinting, the train centred and large, wide shot, harsh light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "ब्रेक कौन दबाता है",
+   "shots": [
+    {
+     "vo": "हर ट्रेन के अंदर एक कंप्यूटर बैठा है, नाम है ए टी पी। पूरा नाम ऑटोमैटिक ट्रेन प्रोटेक्शन।",
+     "prompt": "An open equipment cabinet inside a metro train cab, neat rows of electronic modules with small green lights, a technician's hand pointing at one, bright light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर ट्रेन के अंदर एक कंप्यूटर बैठा है, नाम है ATP। पूरा नाम Automatic Train Protection।"
+    },
+    {
+     "vo": "समझिए, ये ट्रेन का पहरेदार है। ये ड्राइवर की ग़लती का इंतज़ार नहीं करता।",
+     "prompt": "A train operator in uniform seated in the cab, side view, a cabinet of electronics beside them, the track ahead visible through the windscreen, calm light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये हर पल हिसाब लगाता है: इस रफ़्तार पर रुकने के लिए कितनी पटरी चाहिए?",
+     "prompt": "A metro train speeding along an elevated straight track, seen exactly from its left side, long track ahead, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अस्सी किलोमीटर प्रति घंटा पर ये दूरी क़रीब दो सौ मीटर है। रफ़्तार आधी हो, तो दूरी क़रीब चौथाई रह जाती है।",
+     "prompt": "A long stretch of metro rail seen from track level, receding far into the distance in clear light, evenly spaced sleepers, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "80 km/h पर ये दूरी क़रीब दो सौ मीटर है। रफ़्तार आधी हो, तो दूरी क़रीब चौथाई रह जाती है।"
+    },
+    {
+     "vo": "रफ़्तार हर पल बदलती है, इसलिए ये हिसाब एक सेकंड में कई बार दोहराया जाता है।",
+     "prompt": "A close-up of train electronics modules with tiny status lights blinking, a faint reflection in the cab glass, sharp focus, dim light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "सीमा जितनी पास, उतनी कम रफ़्तार की इजाज़त। ये केबिन की स्क्रीन पर दिखता है।",
+     "prompt": "A train operator's hand easing the master controller back, the instrument panel glowing in front, side view, close-up, dim cab light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "सीमा जितनी पास, उतनी कम रफ़्तार की इजाज़त। ये cabin की स्क्रीन पर दिखता है।"
+    },
+    {
+     "vo": "मान लीजिए ट्रेन सीमा के पास पहुँची, और ड्राइवर ने धीमा नहीं किया।",
+     "prompt": "A tired-looking train operator in uniform glancing away from the windscreen, side view, the track ahead through the glass, a train close to a stop signal, cab light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पहले केबिन में चेतावनी बजती है। फिर भी कुछ न हो, तो ए टी पी ख़ुद ब्रेक लगा देता है।",
+     "prompt": "A metro train braking firmly, inside the coach passengers gripping poles and handles, leaning slightly forward, bright interior light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पहले cabin में चेतावनी बजती है। फिर भी कुछ न हो, तो ATP ख़ुद ब्रेक लगा देता है।"
+    },
+    {
+     "vo": "और ये ब्रेक ट्रेन रुकने तक लगा रहता है। ड्राइवर उसे बीच में नहीं हटा सकता।",
+     "prompt": "A metro train standing still on a viaduct after an emergency stop, seen exactly from its left side, the operator in the cab sitting back from the controls with hands in lap, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ज़्यादातर वक़्त ट्रेन चलाता भी कंप्यूटर ही है। उसका नाम है ए टी ओ, ऑटोमैटिक ट्रेन ऑपरेशन।",
+     "prompt": "A train cab where the operator sits calmly with hands resting in their lap, side view, the train moving smoothly along track visible through the windscreen, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ज़्यादातर वक़्त ट्रेन चलाता भी कंप्यूटर ही है। उसका नाम है ATO, Automatic Train Operation।"
+    },
+    {
+     "vo": "ए टी ओ रफ़्तार बढ़ाता है, घटाता है, और ट्रेन को प्लेटफ़ॉर्म पर ठीक निशान पर रोकता है।",
+     "prompt": "A metro train stopping exactly at a painted stop mark on the platform edge, a large flat station board on the wall facing the camera reading \"HAUZ KHAS\", bright station light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ATO रफ़्तार बढ़ाता है, घटाता है, और ट्रेन को प्लेटफ़ॉर्म पर ठीक निशान पर रोकता है।"
+    },
+    {
+     "vo": "स्टेशन पर ट्रेन आम तौर पर बीस से तीस सेकंड रुकती है। राजीव चौक जैसे बड़े स्टेशनों पर ज़्यादा।",
+     "prompt": "Passengers streaming in and out of open metro doors at a crowded interchange platform, a large flat station board on the wall facing the camera reading \"RAJIV CHOWK\", bright station light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर अगर इन्हीं में से कुछ बिगड़ जाए, तब क्या?",
+     "prompt": "A metro train stopped in a dim tunnel, its interior lights on, passengers seated and standing looking around, side view through the open doors, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "जब कुछ बिगड़े",
+   "shots": [
+    {
+     "vo": "मान लीजिए, किसी ट्रेन का रेडियो अचानक चुप हो गया।",
+     "prompt": "A lone metro train on an elevated curve at dusk, seen exactly from its left side, grey cloudy sky, the train still and its headlights on, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "सिस्टम ये नहीं मानता कि सब ठीक है। वो उल्टा सोचता है।",
+     "prompt": "Controllers in a control room turning in their chairs to look at the same glowing wall, faces alert, side view, one pointing, wide shot, blue light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "जिस ट्रेन की ख़बर न मिले, उसकी इजाज़त ख़त्म। वो ख़ुद रुक जाती है।",
+     "prompt": "A metro train coming to a gentle full stop on a viaduct, its headlights still on, front three-quarter view, soft evening light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "उसके आसपास की पटरी बंद मान ली जाती है। कोई दूसरी ट्रेन पास नहीं आती।",
+     "prompt": "A stopped metro train small in the distance on a viaduct, a second train halted far back on the same track in the foreground, waiting, long empty track between them, wide shot, evening light, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "फिर ओ सी सी से बात करके ड्राइवर धीमी रफ़्तार पर, आँखों से देखते हुए आगे बढ़ता है।",
+     "prompt": "A train operator speaking into a cab radio handset, leaning forward to watch the track ahead through the windscreen, side view, dim cab light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "फिर OCC से बात करके ड्राइवर धीमी रफ़्तार पर, आँखों से देखते हुए आगे बढ़ता है।"
+    },
+    {
+     "vo": "बिजली पूरी चली जाए, तब भी यही होता है। ट्रेन के ब्रेक अपने-आप लग जाते हैं।",
+     "prompt": "A metro coach with its main lights out and dim emergency lights on, calm passengers seated, the train standing still in a tunnel, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पूरे सिस्टम का सबसे बड़ा उसूल यही है: शक हो, तो रुको। वही जो अठारह सौ बहत्तर वाले रिले में था।",
+     "prompt": "An old brass relay on a wooden bench beside a modern grey trackside relay box, both in the same warm evening light, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पूरे सिस्टम का सबसे बड़ा उसूल यही है: शक हो, तो रुको। वही जो 1872 वाले relay में था।"
+    },
+    {
+     "vo": "अब पटरी के मोड़। जहाँ एक पटरी दूसरी में मुड़ती है, वहाँ पॉइंट लगे होते हैं।",
+     "prompt": "A metro track switch, the movable steel blades of the points lying against the rail at a junction near a depot, bright daylight, low angle, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अब पटरी के मोड़। जहाँ एक पटरी दूसरी में मुड़ती है, वहाँ point लगे होते हैं।"
+    },
+    {
+     "vo": "ग़लत सेट पॉइंट ट्रेन को किसी दूसरी ट्रेन के रास्ते में भेज सकता है।",
+     "prompt": "Two metro tracks converging at a junction, a train approaching on each, seen from high above, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ग़लत सेट point ट्रेन को किसी दूसरी ट्रेन के रास्ते में भेज सकता है।"
+    },
+    {
+     "vo": "इसलिए कंप्यूटर तभी आगे जाने देता है, जब पॉइंट पूरी तरह सेट और लॉक हो।",
+     "prompt": "A point machine beside the rail, a heavy steel locking rod pushing the switch blade firmly in place, bright daylight, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसलिए कंप्यूटर तभी आगे जाने देता है, जब point पूरी तरह सेट और लॉक हो।"
+    },
+    {
+     "vo": "इसे इंटरलॉकिंग कहते हैं। आपस में काटते दो रास्ते एक साथ खुल ही नहीं सकते।",
+     "prompt": "A junction where two metro tracks cross, one train waiting on the left while another crosses ahead of it on the right, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसे interlocking कहते हैं। आपस में काटते दो रास्ते एक साथ खुल ही नहीं सकते।"
+    },
+    {
+     "vo": "कंट्रोलर ग़लती से भी ग़लत रास्ता खोलना चाहे, तो मशीन मना कर देती है।",
+     "prompt": "A controller in uniform frowning at the console, side view, hand paused over a button, the control hall glowing behind, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Controller ग़लती से भी ग़लत रास्ता खोलना चाहे, तो मशीन मना कर देती है।"
+    },
+    {
+     "vo": "कोई ट्रेन ख़राब होकर रुक जाए, तो ओ सी सी बाक़ी ट्रेनों को बीच के स्टेशनों से ही लौटाने लगता है, ताकि बाक़ी लाइन चलती रहे।",
+     "prompt": "A metro train reversing direction at a mid-line station, passengers on the platform watching, a second track beside it empty, bright light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "कोई ट्रेन ख़राब होकर रुक जाए, तो OCC बाक़ी ट्रेनों को बीच के स्टेशनों से ही लौटाने लगता है, ताकि बाक़ी लाइन चलती रहे।"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "बिना ड्राइवर की ट्रेन",
+   "shots": [
+    {
+     "vo": "मैजेंटा लाइन दिसंबर दो हज़ार सत्रह में खुलनी शुरू हुई, सी बी टी सी के साथ। तीन साल ड्राइवर के साथ चली।",
+     "prompt": "A new magenta-striped Delhi Metro train on a fresh elevated line, seen exactly from its left side, an operator visible in the cab, clear winter sky, bright sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Magenta लाइन दिसंबर 2017 में खुलनी शुरू हुई, CBTC के साथ। तीन साल ड्राइवर के साथ चली।"
+    },
+    {
+     "vo": "फिर अट्ठाईस दिसंबर दो हज़ार बीस को उस पर दिल्ली मेट्रो की पहली बिना ड्राइवर वाली ट्रेन चली।",
+     "prompt": "A decorated elevated Magenta line station, marigold flowers along the platform, a large wall calendar page facing the camera on the station office wall reading \"28 DEC 2020\", bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "फिर 28 दिसंबर 2020 को उस पर दिल्ली मेट्रो की पहली बिना ड्राइवर वाली ट्रेन चली।"
+    },
+    {
+     "vo": "पच्चीस नवंबर दो हज़ार इक्कीस से पिंक लाइन पर भी। दोनों मिलाकर क़रीब सत्तानवे किलोमीटर का बिना ड्राइवर वाला रास्ता।",
+     "prompt": "A pink-striped Delhi Metro train arriving at a station, front three-quarter view, its front cab window empty, excited passengers on the platform filming it on phones, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "25 नवंबर 2021 से Pink लाइन पर भी। दोनों मिलाकर क़रीब 97 किलोमीटर का बिना ड्राइवर वाला रास्ता।"
+    },
+    {
+     "vo": "इसे ग्रेड ऑफ़ ऑटोमेशन चार कहते हैं। यानी ट्रेन में किसी स्टाफ़ का होना ज़रूरी नहीं।",
+     "prompt": "The inside of a driverless Delhi Metro coach, passengers seated and standing, the closed door to the empty cab at the front end, bright interior light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसे Grade of Automation 4 कहते हैं। यानी ट्रेन में किसी स्टाफ़ का होना ज़रूरी नहीं।"
+    },
+    {
+     "vo": "ऐसी ट्रेनें सुबह ओ सी सी से ही जगाई जाती हैं। लाइटें जलती हैं, ब्रेक जाँचे जाते हैं, फिर ट्रेन ख़ुद डिपो से निकलती है।",
+     "prompt": "A row of driverless metro trains in a depot at dawn, their lights switching on one by one, nobody on board, seen from the front, blue morning sky, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ऐसी ट्रेनें सुबह OCC से ही जगाई जाती हैं। लाइटें जलती हैं, ब्रेक जाँचे जाते हैं, फिर ट्रेन ख़ुद डिपो से निकलती है।"
+    },
+    {
+     "vo": "रात को वहीं से सुलाई भी जाती हैं। किसी को अंदर चढ़ना नहीं पड़ता।",
+     "prompt": "A driverless metro train parked in a quiet depot at night, its lights dimming, floodlights overhead, seen exactly from its left side, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दरवाज़े भी कंप्यूटर खोलता है। इसीलिए इन लाइनों के भूमिगत स्टेशनों पर प्लेटफ़ॉर्म के किनारे शीशे के दरवाज़े लगे हैं।",
+     "prompt": "A Magenta line underground platform with a full row of glass platform doors along the edge, commuters waiting behind them, bright station light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ट्रेन रुकते ही दोनों दरवाज़े साथ-साथ खुलते हैं। पटरी पर गिरने का ख़तरा बहुत कम हो जाता है।",
+     "prompt": "Train doors and glass platform doors sliding open together, perfectly lined up, passengers stepping out, bright station light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "डिब्बों के अंदर कैमरे लगे हैं, जिन्हें ओ सी सी में बैठे लोग देख सकते हैं।",
+     "prompt": "A small dome camera on the ceiling of a metro coach, passengers below holding grab handles, bright interior light, close-up, low angle, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "डिब्बों के अंदर कैमरे लगे हैं, जिन्हें OCC में बैठे लोग देख सकते हैं।"
+    },
+    {
+     "vo": "हर डिब्बे में इमरजेंसी बटन और इंटरकॉम है। मुसीबत में आप सीधे ओ सी सी से बात कर सकते हैं।",
+     "prompt": "A red emergency intercom panel beside the door inside a Delhi Metro coach, a passenger's hand reaching toward it, bright interior light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर डिब्बे में emergency बटन और इंटरकॉम है। मुसीबत में आप सीधे OCC से बात कर सकते हैं।"
+    },
+    {
+     "vo": "दुनिया में सिंगापुर और दुबई जैसे शहर पहले से ऐसी ट्रेनें चला रहे हैं।",
+     "prompt": "A driverless metro train on an elevated track in Dubai, seen exactly from its left side, glass towers behind, bright desert sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दुनिया में Singapore और Dubai जैसे शहर पहले से ऐसी ट्रेनें चला रहे हैं।"
+    },
+    {
+     "vo": "इंसान को किसी ख़तरे पर हाथ चलाने में क़रीब एक सेकंड लगता है। अस्सी किलोमीटर प्रति घंटा पर ट्रेन उतने में बाईस मीटर निकल जाती है।",
+     "prompt": "A metro train rushing along an elevated track, seen exactly from its left side, long straight track ahead, bright daylight, wide shot, with a train operator's hand reaching for the console in the cab, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इंसान को किसी ख़तरे पर हाथ चलाने में क़रीब एक सेकंड लगता है। 80 km/h पर ट्रेन उतने में 22 मीटर निकल जाती है।"
+    },
+    {
+     "vo": "इंसान अब भी हैं। पर वो ट्रेन नहीं चलाते, पूरे सिस्टम पर पहरा देते हैं।",
+     "prompt": "Controllers in a control hall at dawn, calm and attentive, seated side by side facing a long glowing wall, side view, soft morning light through the windows, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इंसान थक सकता है, पल भर चूक सकता है। कंप्यूटर का पहरा कभी नहीं सोता।",
+     "prompt": "A single controller at a desk in the control room at night, side view, watching a glowing wall, a train passing on a viaduct beyond the dark window, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "अगली बार मैजेंटा या पिंक लाइन के किसी भूमिगत स्टेशन पर प्लेटफ़ॉर्म के शीशे के दरवाज़े देखिए। ट्रेन के दरवाज़े ठीक उनके सामने आकर रुकते हैं।",
+     "prompt": "A young passenger on a Magenta line platform, side view, watching a train glide in, its doors stopping exactly behind the glass platform doors, bright station light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अगली बार Magenta या Pink लाइन के किसी भूमिगत स्टेशन पर प्लेटफ़ॉर्म के शीशे के दरवाज़े देखिए। ट्रेन के दरवाज़े ठीक उनके सामने आकर रुकते हैं।"
+    },
+    {
+     "vo": "अगले एपिसोड में: मेट्रो के ऊपर का तार इतनी तेज़ ट्रेन को बिना टूटे बिजली कैसे देता है?",
+     "prompt": "A metro pantograph sliding along the overhead wire at speed, a faint blue spark at the contact, evening sky, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ऐसे ही गज़ब सवालों के लिए सब्सक्राइब करें।",
+     "prompt": "A Delhi Metro train disappearing into a tunnel mouth at night, seen from behind with its red tail lights glowing, dark rails, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  }
+ ],
+ "topic_demand": {
+  "median": 77897,
+  "hits": 3,
+  "outliers": 4,
+  "q": "दिल्ली मेट्रो ट्रेन कैसे चलती है",
+  "matched": "3/8"
+ },
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "system",
+  "points": [
+   0,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "framework": "2026-11-18 19:45"
+}
