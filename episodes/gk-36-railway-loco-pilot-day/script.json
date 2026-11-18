@@ -811,10 +811,10 @@
     },
     {
      "vo": "अगर चलती ट्रेन के दो डिब्बे अलग हो जाएँ?",
-     "prompt": "Two coaches of a train separated on a straight track with a widening gap between them, seen exactly from the side, coupling hanging loose, bright daylight, wide shot, photorealistic documentary film still",
+     "prompt": "A train split in two on one single straight track with one line of rails, the front coaches on the left and the rear coaches on the right, a wide gap of empty rail between them, the coupling hanging loose from the front coach, seen exactly from the side, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 8979
+     "seed": 16898
     },
     {
      "vo": "पाइप टूटेगा, सारी हवा निकलेगी, और दोनों हिस्सों में अपने आप ब्रेक लग जाएँगे।",
@@ -1071,11 +1071,11 @@
     },
     {
      "vo": "कवच ने इंजन को सामने वाले से क़रीब तीन सौ अस्सी मीटर पहले रोक दिया।",
-     "prompt": "Two locomotives stopped facing each other on one single track, nose to nose in one straight line with a long gap of empty rail between them, railway officials standing beside the track, daylight, wide shot, photorealistic documentary film still",
+     "prompt": "Two locomotives stopped facing each other on one single track with only one pair of rails, nose to nose in one straight line, a long gap of empty rail between them, no other tracks, railway officials standing beside the track, daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "कवच ने इंजन को सामने वाले से क़रीब 380 मीटर पहले रोक दिया।",
-     "seed": 9009
+     "seed": 16928
     },
     {
      "vo": "आज कवच कुछ रूट्स पर लगा है, और धीरे-धीरे पूरे देश में फैलाया जा रहा है।"
@@ -1141,40 +1141,22 @@
  "voice_approved_at": "2026-11-18 19:43",
  "repaint": {
   "shots": [
-   5,
-   26,
-   34,
    60,
-   72,
-   86,
-   90,
-   93
+   90
   ],
   "thumbs": [],
-  "at": "2026-11-18 20:25"
+  "at": "2026-11-18 23:02"
  },
  "shot_qc": {
-  "checked": "2026-11-18T14:53:22Z",
-  "rounds": 1,
+  "checked": "2026-11-18T16:27:21Z",
+  "rounds": 2,
   "why": {
-   "5": "A glowing line of sparks runs along an empty track with no train. The line is about where a heavy train stops.",
-   "26": "The painted sign above the green signal is gibberish lettering (\"HAD THLINAL HELLARNARY NET HND\").",
-   "34": "Shows a steam locomotive. The line is about a modern Indian loco pilot passing a red signal (SPAD).",
-   "60": "The coaches are joined in one continuous train. The line needs two coaches split apart with a gap.",
-   "72": "The lamp is a kerosene lantern in an aircraft-style cockpit, not an amber vigilance lamp on a loco desk.",
-   "86": "Shows a steam locomotive. The line is about Kavach braking a modern train.",
-   "90": "The two locos stand side by side on parallel tracks, not facing each other on one track with a gap.",
-   "93": "The board shows \"W/\" with no clear L, but the line names the 'W/L' whistle board."
+   "60": "Shows two trains running parallel on adjacent tracks, not two coaches of one train split apart on a single track. The side view and the loose coupling are missing.",
+   "90": "The locomotives sit on two separate parallel tracks, with a freight train on the left. They are not nose to nose on one single track with a gap between them."
   },
   "recheck": [
-   "5",
-   "26",
-   "34",
    "60",
-   "72",
-   "86",
-   "90",
-   "93"
+   "90"
   ]
  }
 }
