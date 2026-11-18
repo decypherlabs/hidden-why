@@ -6,6 +6,7 @@
  "lang": "hi",
  "words_in_edit": true,
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "title": "रिफाइनरी का छिपा टावर: कच्चे तेल से पेट्रोल, डीज़ल, LPG कैसे? 🛢️",
@@ -40,59 +41,119 @@
      "vo": "सोचिए, आप पेट्रोल पंप पर खड़े हैं और टंकी भर रही है।",
      "prompt": "An attendant in a blue uniform filling a motorbike's petrol tank with a nozzle, the rider standing beside it waiting, Indian petrol pump at dusk, a large flat pump board reading \"PETROL\" facing the camera, warm canopy lights, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gb83e9c3c5349a48651bcdb2a4297f2543bb077dbd22ee406920c104724032c35ce3430265668025450af22b78b0ad59fb90301a4578dfdac4e7ecbded8863fcc_1280.jpg",
+      "w": 4368,
+      "h": 2084,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/filling-station-gas-gas-station-1839760/",
+      "card": 0.72
+     }
     },
     {
      "vo": "कुछ समय पहले यही पेट्रोल ज़मीन के नीचे काला, गाढ़ा तेल था।",
      "prompt": "Thick jet-black crude oil pouring from a steel sample valve into a glass beaker held by a gloved hand, glossy and heavy, refinery pipes behind in sharp focus, bright work light, close-up, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/MUL_Erd%C3%B6lsample_B25.jpg/1920px-MUL_Erd%C3%B6lsample_B25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4176,
+      "h": 3304,
+      "credit": "MUL Erdölsample B25.jpg by Best Tech Nick 25, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:MUL_Erd%C3%B6lsample_B25.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "तो इस काले तेल से साफ़, हल्का पेट्रोल बना कैसे?",
      "prompt": "Two glass laboratory flasks side by side on a steel bench, the left one full of opaque black crude oil, the right one with clear pale golden petrol, backlit so the difference glows, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Anacortes_Refinery_31911.JPG/1920px-Anacortes_Refinery_31911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2527,
+      "h": 1875,
+      "credit": "Anacortes Refinery 31911.JPG by Walter Siegmund (talk), CC BY 2.5, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Anacortes_Refinery_31911.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "ट्रक का डीज़ल और रसोई की एल पी जी भी उसी तेल से?",
      "prompt": "A mother in a simple cotton saree stirring a pot on a steel gas stove with a blue flame, a red gas cylinder beside it with a large flat label reading \"LPG\" facing the camera, Indian home kitchen, bright morning light, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ट्रक का डीज़ल और रसोई की LPG भी उसी तेल से?"
+     "caption": "ट्रक का डीज़ल और रसोई की LPG भी उसी तेल से?",
+     "photo": {
+      "src": "https://pixabay.com/get/g8c937e8155aec0361ed50c1c9437356a1c05dee3c93af487814af5319ebe1e4eacd68bff3cf2277579acdf784814fa35_1280.jpg",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Pixabay (LoggaWiggler)",
+      "page": "https://pixabay.com/photos/gas-station-truck-vehicle-43253/",
+      "card": 0.72
+     }
     },
     {
      "vo": "कच्चे तेल से पेट्रोल, डीज़ल और एल पी जी आख़िर अलग कैसे होते हैं?",
      "prompt": "A vast Indian oil refinery at night, hundreds of lights on towers, pipes and round storage tanks, a flare burning, steam rising into a dark sky, sharp focus throughout, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "कच्चे तेल से पेट्रोल, डीज़ल और LPG आख़िर अलग कैसे होते हैं?"
+     "caption": "कच्चे तेल से पेट्रोल, डीज़ल और LPG आख़िर अलग कैसे होते हैं?",
+     "photo": {
+      "src": "https://pixabay.com/get/g6d4b20da95f821748d7a114b34038ae70e049a86782585aa3256235f7a23a58f8c269a40bf22cc8ffd3881444eb6e9414c9c21821c85391338d4a13e647cb8d0_1280.jpg",
+      "w": 6048,
+      "h": 4024,
+      "credit": "Pixabay (yamabon)",
+      "page": "https://pixabay.com/photos/factory-industrial-production-7026489/",
+      "card": 0.72
+     }
     },
     {
      "vo": "जवाब है रिफाइनरी का एक ऊँचा टावर।",
-     "prompt": "A tall steel crude distillation column rising into the sky at an Indian refinery, ladders and platforms wrapping it, a tiny worker in a hard hat at its base for scale, bright daylight, extreme low-angle shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "clip": {
+      "id": 67364,
+      "tags": "oil refinery, gasoline, petroleum, industrial, petrol, pipeline, energy, fuel, pollution, environment, production, chemistry, petrochemical, oil, refinery, climate change, sustainability, clean energy, renewable energy, environmental",
+      "page": "https://pixabay.com/videos/id-67364/"
+     }
     },
     {
      "vo": "उसके पैर के पास भट्टी में लगभग तीन सौ पचास डिग्री की गर्मी है।",
      "prompt": "A worker in a silver heat suit and face shield looking into an open furnace inspection port full of roaring orange flames, a large flat metal tag on the pipe beside it reading \"350°C\" facing the camera, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "उसके पैर के पास भट्टी में लगभग 350 डिग्री की गर्मी है।"
+     "caption": "उसके पैर के पास भट्टी में लगभग 350 डिग्री की गर्मी है।",
+     "photo": {
+      "src": "https://pixabay.com/get/gd96dac64724d0845ea357d338c573200ccd74a258e8bca54422331f14b88bbd5eb4bcddf4a7b8060c3d1fdab86a76bf51bc54453a658fd79010bb7fde26cc2b0_1280.jpg",
+      "w": 1920,
+      "h": 1080,
+      "credit": "Pixabay (zephylwer0)",
+      "page": "https://pixabay.com/photos/industry-stole-iron-blast-furnace-647413/",
+      "card": 0.72
+     }
     },
     {
      "vo": "भारत अपनी ज़रूरत का पचासी प्रतिशत से ज़्यादा कच्चा तेल बाहर से मँगाता है।",
      "prompt": "A giant crude oil tanker with a red hull and long deck sailing across the Arabian Sea, calm golden water, sunrise light, sharp focus, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "भारत अपनी ज़रूरत का 85 प्रतिशत से ज़्यादा कच्चा तेल बाहर से मँगाता है।"
+     "caption": "भारत अपनी ज़रूरत का 85 प्रतिशत से ज़्यादा कच्चा तेल बाहर से मँगाता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g2d2625f9ad0298aaee3cfe1952037d029b5c5c3aab6f0a308915a5878a9bb6b78bc8607d1e43eae62a9cb8cf9489d37a59dbd0ae96252270e1d71e7f47593d1a_1280.jpg",
+      "w": 3000,
+      "h": 1688,
+      "credit": "Pixabay (Canadian-Nature-Visions)",
+      "page": "https://pixabay.com/photos/energy-patriot-tanker-ship-sea-7043480/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और वो समुद्र में खड़े एक विशाल जहाज़ से उतरता है।",
-     "prompt": "A huge crude oil tanker moored offshore, thick black hoses connected to its side, workers in orange coveralls on the deck, calm sea, bright morning light, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "clip": {
+      "id": 7338,
+      "tags": "ship, freight ship, tanker, river, ocean, istanbul, bosphorus, sea, nature, vessel, boat",
+      "page": "https://pixabay.com/videos/id-7338/"
+     }
     }
    ]
   },
@@ -145,7 +206,15 @@
      "prompt": "A very large crude oil tanker seen from directly above, its whole long deck with pipes running from end to end, tiny crew figures on deck for scale, deep blue water, bright daylight, aerial shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "एक बड़ा tanker एक बार में लगभग 20 लाख बैरल तेल ला सकता है। ये लगभग 330 मीटर लंबा होता है, यानी तीन फ़ुटबॉल मैदान।"
+     "caption": "एक बड़ा tanker एक बार में लगभग 20 लाख बैरल तेल ला सकता है। ये लगभग 330 मीटर लंबा होता है, यानी तीन फ़ुटबॉल मैदान।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Hellespont_Alhambra-223713_v2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 973,
+      "h": 787,
+      "credit": "Hellespont Alhambra-223713 v2.jpg by PA2 Dan Tremper, USCG. Cropped by User:Ultra7, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Hellespont_Alhambra-223713_v2.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "एक बैरल में एक सौ उनसठ लीटर होते हैं। यानी एक जहाज़ में लगभग बत्तीस करोड़ लीटर तेल।",
@@ -159,26 +228,58 @@
      "prompt": "Workers in 1860s clothes rolling a wooden barrel onto a horse cart, rows of wooden barrels stacked beside early wooden derricks, muddy oil field, overcast daylight, wide shot, realistic painting, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "बैरल का ये नाप 1860 के दशक में अमेरिका से आया, जब तेल लकड़ी के पीपों में ढोया जाता था।"
+     "caption": "बैरल का ये नाप 1860 के दशक में अमेरिका से आया, जब तेल लकड़ी के पीपों में ढोया जाता था।",
+     "photo": {
+      "src": "https://pixabay.com/get/gd84472a67d53eb9685e8718e4a600f19efefe258dc61e0f7517d4285c4e48defa01d588bf65fbc8163e1d9a1441704880b863a7aa71f4e9f333136a508a9c387_1280.jpg",
+      "w": 5472,
+      "h": 3648,
+      "credit": "Pixabay (stevepb)",
+      "page": "https://pixabay.com/photos/beer-barrel-keg-cask-oak-barrel-956322/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर इतना बड़ा जहाज़ अक्सर किनारे तक आ ही नहीं पाता।",
      "prompt": "A very large crude tanker anchored far out at sea, the flat coastline and refinery tanks only a thin line on the horizon, hazy daylight, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gea49286fca9904f4cce2cc72907241167f5540373a3ae84103b66823bbfac058db1cf7f0a7e38c4d6ae427ec150c8235bd2ff4e706f86ceadf804dd3a1278dcd_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (papazachariasa)",
+      "page": "https://pixabay.com/photos/ship-vessel-boat-sail-nautical-4803197/",
+      "card": 0.72
+     }
     },
     {
      "vo": "वो समुद्र में एक तैरते बॉय से जुड़ता है। और तेल समुद्र के नीचे बिछी पाइपलाइन से किनारे पहुँचता है।",
      "prompt": "A large orange mooring buoy floating at sea with a black floating hose running from it to the side of a moored tanker, a small support boat nearby, bright daylight, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "वो समुद्र में एक तैरते buoy से जुड़ता है। और तेल समुद्र के नीचे बिछी pipeline से किनारे पहुँचता है।"
+     "caption": "वो समुद्र में एक तैरते buoy से जुड़ता है। और तेल समुद्र के नीचे बिछी pipeline से किनारे पहुँचता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/SPM_No._1%2C_Scapa_Flow%2C_Orkney_-_geograph.org.uk_-_4186941.jpg/1920px-SPM_No._1%2C_Scapa_Flow%2C_Orkney_-_geograph.org.uk_-_4186941.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3264,
+      "h": 2176,
+      "credit": "SPM No. 1, Scapa Flow, Orkney - geograph.org.uk - 4186941.jpg by George Brown, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:SPM_No._1,_Scapa_Flow,_Orkney_-_geograph.org.uk_-_4186941.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "किनारे पर ये तेल बड़े-बड़े गोल टैंकों में भरा जाता है।",
      "prompt": "Rows of giant round white crude oil storage tanks at an Indian refinery, thick pipelines running between them, a worker walking on a catwalk, afternoon sun, sharp focus, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Oil_storage_tanks%2C_Camperdown_Refinery_-_geograph.org.uk_-_4544029.jpg/1920px-Oil_storage_tanks%2C_Camperdown_Refinery_-_geograph.org.uk_-_4544029.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4397,
+      "h": 3297,
+      "credit": "Oil storage tanks, Camperdown Refinery - geograph.org.uk - 4544029.jpg by Stanley Howe, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Oil_storage_tanks,_Camperdown_Refinery_-_geograph.org.uk_-_4544029.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर कच्चा तेल कोई एक चीज़ नहीं है। ये हज़ारों तरह के अणुओं का मिश्रण है, और हर देश का तेल अलग होता है।",
@@ -217,13 +318,29 @@
      "prompt": "The old Digboi refinery in Assam, old and new steel columns side by side among green hills and tea gardens, a large flat gate sign reading \"DIGBOI REFINERY\" facing the camera, soft monsoon light, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "और देश की पहली रिफाइनरी 1901 में असम के डिगबोई में बनी थी। वो आज भी चल रही है।"
+     "caption": "और देश की पहली रिफाइनरी 1901 में असम के डिगबोई में बनी थी। वो आज भी चल रही है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Digboi_Centenary_Museum_04.JPG/1920px-Digboi_Centenary_Museum_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2592,
+      "h": 1936,
+      "credit": "Digboi Centenary Museum 04.JPG by Subhashish Panigrahi, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Digboi_Centenary_Museum_04.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "रिफाइनरी पहुँचे तेल में नमक वाला पानी और मिट्टी भी होती है। इसलिए पहले उसमें साफ़ पानी मिलाते हैं।",
      "prompt": "A chemist in a white coat holding up a tall glass jar of crude oil to the light, a cloudy layer of salty water and fine mud settled at the bottom, refinery lab bench, bright light, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g3e8344742c3195f7737a98c804b2fc18e8d45e555e0fd24d571548d006270384f6a9f2345e90edea886ad2963d0da2edb46ab2baacdc6a1cc2580b3828f3bff9_1280.jpg",
+      "w": 3715,
+      "h": 2397,
+      "credit": "Pixabay (SatyaPrem)",
+      "page": "https://pixabay.com/photos/refinery-oil-industry-silhouette-3613522/",
+      "card": 0.72
+     }
     },
     {
      "vo": "नमक पानी में घुल जाता है। फिर बिजली के तेज़ फ़ील्ड से पानी की बूँदें जुड़कर नीचे बैठ जाती हैं, और बाहर निकाल दी जाती हैं।",
@@ -237,13 +354,29 @@
      "prompt": "Two refinery engineers examining a cut section of a corroded steel pipe, its inner wall eaten away by orange rust and held large in the centre, harsh work light, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "नमक रह गया, तो गर्म pipes के अंदर जंग लगा देगा।"
+     "caption": "नमक रह गया, तो गर्म pipes के अंदर जंग लगा देगा।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Cdn_paper_mill_lovely_housekeeping.jpg/1920px-Cdn_paper_mill_lovely_housekeeping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4694,
+      "h": 3168,
+      "credit": "Cdn paper mill lovely housekeeping.jpg by Achim Hering, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Cdn_paper_mill_lovely_housekeeping.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "तेल अब साफ़ है, पर इसे अलग-अलग हिस्सों में बाँटेगा कौन?",
      "prompt": "A refinery worker in a hard hat standing on a pipe rack at dusk, looking toward a tall distillation column and a glowing furnace in the distance, sharp focus, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Altona_Oil_Refinery_Victoria.jpg/1920px-Altona_Oil_Refinery_Victoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2223,
+      "h": 951,
+      "credit": "Altona Oil Refinery Victoria.jpg by Sgroey, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Altona_Oil_Refinery_Victoria.jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -263,7 +396,15 @@
      "vo": "इसका राज़ अणुओं के साइज़ में है। कच्चे तेल के ज़्यादातर अणु हाइड्रोजन और कार्बन से बने हैं।",
      "prompt": "A student's hand holding a ball-and-stick molecular model of a long chain of black carbon balls and white hydrogen balls, more chains of different lengths on the school desk, bright classroom light, close-up, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Chrysene_molecule_ball.png/1920px-Chrysene_molecule_ball.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2000,
+      "h": 1417,
+      "credit": "Chrysene molecule ball.png by Jynto (talk), CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Chrysene_molecule_ball.png",
+      "card": 0.72
+     }
     },
     {
      "vo": "फ़र्क़ बस लंबाई का है। एल पी जी के अणु में तीन या चार कार्बन होते हैं। पेट्रोल में लगभग पाँच से बारह, डीज़ल में उससे भी ज़्यादा।",
@@ -276,7 +417,15 @@
      "vo": "छोटा, हल्का अणु थोड़ी सी गर्मी में ही भाप बन जाता है।",
      "prompt": "A steel pot of water boiling hard on a gas stove in an Indian kitchen, thick white steam rising quickly, bright morning light, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g68e371d0429cdae66c8305a1079728304f34a69726c6d909d32bdcf28dff4be40ac7798be4aac1c1b1ccd320e04e0e5069daee44e5132cfe1d1bb3e76b09b1d1_1280.jpg",
+      "w": 5109,
+      "h": 3406,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/kettles-boil-burn-tea-pots-cook-2178442/",
+      "card": 0.72
+     }
     },
     {
      "vo": "बड़ा अणु भारी होता है। उसे भाप बनने के लिए कहीं ज़्यादा गर्मी चाहिए।",
@@ -288,14 +437,30 @@
      "vo": "यही फ़र्क़ रिफाइनरी का सबसे बड़ा हथियार है।",
      "prompt": "Workers in hard hats walking along a road between units of an Indian refinery, towers and pipe racks stretching to the horizon, golden hour light, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g103984196ecc6089f62aa2bce3a2efc3985da57ef8640755ad5f1d6d1a818437921edeb49fba64b52e6b10f884e043fa839290062f41088c12150ecd80690592_1280.jpg",
+      "w": 3715,
+      "h": 2397,
+      "credit": "Pixabay (SatyaPrem)",
+      "page": "https://pixabay.com/photos/refinery-oil-industry-silhouette-3613522/",
+      "card": 0.72
+     }
     },
     {
      "vo": "साफ़ तेल को एक बड़ी भट्टी में भेजा जाता है। वहाँ वो सैकड़ों मीटर लंबे, मुड़े हुए पाइप्स के अंदर से गुज़रता है।",
      "prompt": "Rows of long bent steel tubes glowing dull red inside a refinery furnace, blue and orange flames licking around them from burners on the floor, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "साफ़ तेल को एक बड़ी भट्टी में भेजा जाता है। वहाँ वो सैकड़ों मीटर लंबे, मुड़े हुए pipes के अंदर से गुज़रता है।"
+     "caption": "साफ़ तेल को एक बड़ी भट्टी में भेजा जाता है। वहाँ वो सैकड़ों मीटर लंबे, मुड़े हुए pipes के अंदर से गुज़रता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g72930b4899f775e1c92c9868fd67725dbb5b75de3a567b1320d7da8165575d638e6d13066bc75d89d3ef8f8ec5a91d9b69f3a03469c2d07026272739697e6ad4_1280.jpg",
+      "w": 4653,
+      "h": 3214,
+      "credit": "Pixabay (2427999)",
+      "page": "https://pixabay.com/photos/germany-duisburg-landschaftpark-1883995/",
+      "card": 0.72
+     }
     },
     {
      "vo": "बाहर आग, अंदर बहता तेल। निकलते-निकलते तेल लगभग तीन सौ पचास से चार सौ डिग्री तक गर्म हो जाता है।",
@@ -309,13 +474,29 @@
      "prompt": "Two Indian refinery operators in blue uniforms at a control desk at night, one speaking into a handheld radio, warm desk lamps on their faces, a large flat sign on the door behind reading \"CONTROL ROOM\" facing the camera, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इस आग पर control room से दिन-रात नज़र रहती है। operator बारी-बारी shift में बैठकर हर तापमान और दबाव जाँचते हैं।"
+     "caption": "इस आग पर control room से दिन-रात नज़र रहती है। operator बारी-बारी shift में बैठकर हर तापमान और दबाव जाँचते हैं।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Control_room_at_an_early_ACS_petroleum_refinery_installation.jpg/1920px-Control_room_at_an_early_ACS_petroleum_refinery_installation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2000,
+      "h": 1329,
+      "credit": "Control room at an early ACS petroleum refinery installation.jpg by Gerryrkirk, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Control_room_at_an_early_ACS_petroleum_refinery_installation.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "इतनी गर्मी में तेल का बड़ा हिस्सा भाप बन जाता है। बाकी तरल रहता है।",
      "prompt": "A thick insulated pipe leaving a refinery furnace, heat shimmer distorting the air around it, a large flat warning sign on the railing reading \"खतरा: गर्म पाइप\" facing the camera, bright daylight, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gdda7609151aae41929bde855913949426121599ac222897b58e9a6e9827710b94ef329b387c2db92e35f949d32eae705128140d387c9613f67e6410c7c4562fa_1280.jpg",
+      "w": 3872,
+      "h": 2592,
+      "credit": "Pixabay (tasukaran)",
+      "page": "https://pixabay.com/photos/industrial-plant-rain-mist-night-7527794/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर इससे ज़्यादा गर्म नहीं करते। अणु टूटने लगते हैं, और पाइप्स के अंदर काली कालिख जमने लगती है।",
@@ -340,14 +521,30 @@
      "vo": "सीधे उस ऊँचे टावर के पैर में। भाप और तरल, दोनों एक साथ।",
      "prompt": "A large insulated pipe entering the base of a tall distillation column, flanges and valves around the entry point, one worker beside it for scale, bright daylight, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gd6f2f847550da92d5efd4619da862a773ec2ce439ab762f250f44c5bef621499ee90f18f36f98da702e7f9b81e76e08684fc496e5112b02fed86b40d95e84cb2_1280.jpg",
+      "w": 3872,
+      "h": 2592,
+      "credit": "Pixabay (tasukaran)",
+      "page": "https://pixabay.com/photos/oil-factory-night-night-lights-7046358/",
+      "card": 0.72
+     }
     },
     {
      "vo": "बाहर से ये बस एक लंबा स्टील का खंभा दिखता है। कई टावर पचास मीटर तक ऊँचे होते हैं, लगभग पंद्रह मंज़िला इमारत जितने।",
      "prompt": "A tall crude distillation column at dawn beside a fifteen-storey refinery office building for scale, mist around its base, platforms and ladders spiralling up, lights still on, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "बाहर से ये बस एक लंबा steel का खंभा दिखता है। कई टावर 50 मीटर तक ऊँचे होते हैं, लगभग 15 मंज़िला इमारत जितने।"
+     "caption": "बाहर से ये बस एक लंबा steel का खंभा दिखता है। कई टावर 50 मीटर तक ऊँचे होते हैं, लगभग 15 मंज़िला इमारत जितने।",
+     "photo": {
+      "src": "https://pixabay.com/get/g850708326577da78a9d308067961fca58aec1b0427d40c5730c58cbd65ae2683b0624b24b08575570d8b9b035fac6d8d9700d58c45ebdea5a1b4235670fc9b3c_1280.jpg",
+      "w": 5040,
+      "h": 3360,
+      "credit": "Pixabay (2427999)",
+      "page": "https://pixabay.com/photos/germany-duisburg-industry-chemical-1367255/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर अंदर इसमें ऊपर-नीचे दर्जनों मंज़िलें हैं। इन्हें ट्रे कहते हैं। अक्सर तीस से पचास ट्रेज़।",
@@ -368,14 +565,30 @@
      "prompt": "A maintenance worker with a headlamp and safety harness climbing through a round manhole into a distillation column, another worker holding the rope outside, work light, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "टावर सालों तक दिन-रात चलता है। कुछ सालों में एक बार plant रोका जाता है, तब मज़दूर अंदर उतरकर trays साफ़ करते हैं।"
+     "caption": "टावर सालों तक दिन-रात चलता है। कुछ सालों में एक बार plant रोका जाता है, तब मज़दूर अंदर उतरकर trays साफ़ करते हैं।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Maintenance_work_in_the_refinery_during_shutdown.jpg/1920px-Maintenance_work_in_the_refinery_during_shutdown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4496,
+      "h": 3000,
+      "credit": "Maintenance work in the refinery during shutdown.jpg by Okane nyatoh daniel, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Maintenance_work_in_the_refinery_during_shutdown.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "नीचे से भाप इन छेदों से ऊपर चढ़ती है, और ट्रे पर जमा तरल में से बुलबुले बनकर निकलती है। हर ट्रे पर ये मिलना बार-बार होता है।",
      "prompt": "A cutaway of one distillation tray, hot vapour bubbling up through amber liquid oil sitting on the tray, glowing amber light, close-up, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "नीचे से भाप इन छेदों से ऊपर चढ़ती है, और tray पर जमा तरल में से बुलबुले बनकर निकलती है। हर tray पर ये मिलना बार-बार होता है।"
+     "caption": "नीचे से भाप इन छेदों से ऊपर चढ़ती है, और tray पर जमा तरल में से बुलबुले बनकर निकलती है। हर tray पर ये मिलना बार-बार होता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g94c8e4ed7d50c3afbc8c8b6895f7de9622e0aefef4ba17b75d0936d98ce360ed856ac654c4b3565523ecbc4a6799e5f9ad65d5d05bae18509f8293d99013e4f3_1280.jpg",
+      "w": 3648,
+      "h": 2736,
+      "credit": "Pixabay (MartinStr)",
+      "page": "https://pixabay.com/photos/bubbles-water-bubbly-bubbling-230014/",
+      "card": 0.72
+     }
     },
     {
      "vo": "टावर में नीचे सबसे ज़्यादा गर्मी है। हर ट्रे पिछली से थोड़ी ठंडी। और सबसे ऊपर सबसे ठंडा।",
@@ -388,20 +601,44 @@
      "vo": "जैसे-जैसे भाप ऊपर चढ़ती है, वो ठंडी होती जाती है।",
      "prompt": "A cutaway of the upper part of a distillation column, thin vapour rising past tray after tray, the colours fading from warm orange below to cool blue above, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gc805abd57057a21cb5221dc0cdc3a6b99cea4405f4163bed216fe5a732af3926770b4559323aafb9dbb903fff62410bec47f5aeb5c1a01109df47346e93f05ef_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Randgruppe)",
+      "page": "https://pixabay.com/photos/factory-powerplant-landscape-clouds-4338627/",
+      "card": 0.72
+     }
     },
     {
      "vo": "जहाँ भाप किसी अणु के लिए ठंडी पड़ी, वो अणु वहीं तरल बनकर उस ट्रे पर रुक जाता है।",
      "prompt": "Oil droplets condensing and pooling on a steel tray inside a column, vapour drifting above, bright light, macro close-up, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "जहाँ भाप किसी अणु के लिए ठंडी पड़ी, वो अणु वहीं तरल बनकर उस tray पर रुक जाता है।"
+     "caption": "जहाँ भाप किसी अणु के लिए ठंडी पड़ी, वो अणु वहीं तरल बनकर उस tray पर रुक जाता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/High-density_water_droplets_on_smooth_surface.jpg/1920px-High-density_water_droplets_on_smooth_surface.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3072,
+      "h": 4080,
+      "credit": "High-density water droplets on smooth surface.jpg by Dreamora96x, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:High-density_water_droplets_on_smooth_surface.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "ठीक वैसे, जैसे कुकर का ढक्कन खोलें तो भाप उस पर पानी की बूँदें बन जाती है।",
      "prompt": "A hand lifting a steel pressure cooker lid in an Indian kitchen, its underside covered with water droplets, steam curling up, bright morning light, close-up, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Pressure_cooker_-_Hawkins%2C_Contura_Model_-_3_litres_-_2.jpg/1920px-Pressure_cooker_-_Hawkins%2C_Contura_Model_-_3_litres_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pressure cooker - Hawkins, Contura Model - 3 litres - 2.jpg by Cantons-de-l'Est, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Pressure_cooker_-_Hawkins,_Contura_Model_-_3_litres_-_2.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "भारी अणु जल्दी तरल बनकर नीचे की ट्रेज़ पर रुक जाते हैं। हल्के अणु सबसे ऊपर तक निकल जाते हैं।",
@@ -433,7 +670,15 @@
      "vo": "सबसे ऊपर से वो गैसें निकलती हैं जो आम तापमान पर भी तरल नहीं बनतीं।",
      "prompt": "The top of a distillation column against a clear sky, a pipe leading from it to coolers, a worker on the topmost platform, bright daylight, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Seria_Refinery_flare_stack_in_2025_-_03.jpg/1920px-Seria_Refinery_flare_stack_in_2025_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 7611,
+      "h": 5074,
+      "credit": "Seria Refinery flare stack in 2025 - 03.jpg by Yu Chu Chin, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Seria_Refinery_flare_stack_in_2025_-_03.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "इनमें मीथेन और ईथेन जैसी बहुत हल्की गैसें हैं। रिफाइनरी इन्हें अपनी ही भट्टियों में जला देती है।",
@@ -447,21 +692,45 @@
      "prompt": "Rows of red gas cylinders moving on a conveyor in an Indian bottling plant, workers in caps checking them, a large flat sign on the wall reading \"LPG BOTTLING PLANT\" facing the camera, bright light, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "और propane और butane, यानी आपकी रसोई की LPG। इन्हें एक अलग unit में छाँटकर निकाला जाता है।"
+     "caption": "और propane और butane, यानी आपकी रसोई की LPG। इन्हें एक अलग unit में छाँटकर निकाला जाता है।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Cylinder%2Cgas%2C_LPG%2Cbharat%2CTamil_Nadu457.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1750,
+      "h": 1950,
+      "credit": "Cylinder,gas, LPG,bharat,Tamil Nadu457.jpeg by தகவலுழவன், CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Cylinder,gas,_LPG,bharat,Tamil_Nadu457.jpeg",
+      "card": 0.72
+     }
     },
     {
      "vo": "प्रोपेन लगभग माइनस बयालीस डिग्री पर ही उबल जाता है। इसलिए सिलेंडर में इसे दबाव डालकर तरल बनाकर रखते हैं।",
      "prompt": "A worker filling a red LPG cylinder on a filling carousel, a pressure gauge on the cylinder head, bright factory light, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "propane लगभग माइनस 42 डिग्री पर ही उबल जाता है। इसलिए cylinder में इसे दबाव डालकर तरल बनाकर रखते हैं।"
+     "caption": "propane लगभग माइनस 42 डिग्री पर ही उबल जाता है। इसलिए cylinder में इसे दबाव डालकर तरल बनाकर रखते हैं।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Propane_Storage_Tanks_5.jpg/1920px-Propane_Storage_Tanks_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3632,
+      "h": 2482,
+      "credit": "Propane Storage Tanks 5.jpg by Carl Young, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Propane_Storage_Tanks_5.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "उसके नीचे की ट्रेज़ से निकलता है नैफ़्था। यही आगे चलकर पेट्रोल बनता है।",
      "prompt": "A gloved hand holding a clear glass sample bottle of pale transparent liquid, a large flat label on it reading \"NAPHTHA\" facing the camera, refinery lab behind in sharp focus, close-up, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "उसके नीचे की trays से निकलता है naphtha। यही आगे चलकर पेट्रोल बनता है।"
+     "caption": "उसके नीचे की trays से निकलता है naphtha। यही आगे चलकर पेट्रोल बनता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Petroleum_ether.JPG/1920px-Petroleum_ether.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2448,
+      "h": 3264,
+      "credit": "Petroleum ether.JPG by Seilvorbau, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Petroleum_ether.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर डेढ़ सौ साल पहले इस पेट्रोल का कोई ख़रीदार ही नहीं था।",
@@ -472,50 +741,72 @@
     },
     {
      "vo": "तब रिफाइनरियाँ लालटेन के लिए केरोसिन बनाती थीं। हल्का पेट्रोल अक्सर बेकार समझकर फेंक दिया जाता था।",
-     "prompt": "A worker emptying a bucket of clear liquid into a ditch beside an 1870s wooden oil refinery with iron stills and smoke, overcast daylight, no cars, medium-wide shot, realistic painting, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "तब रिफाइनरियाँ लालटेन के लिए kerosene बनाती थीं। हल्का पेट्रोल अक्सर बेकार समझकर फेंक दिया जाता था।"
+     "clip": {
+      "id": 117192,
+      "tags": "lantern, fog, glowing, night, relaxing, meditation, brick, floor, path, dark, light, screensaver",
+      "page": "https://pixabay.com/videos/id-117192/"
+     }
     },
     {
      "vo": "फिर कारें आईं, और यही बेकार हिस्सा सबसे क़ीमती बन गया।",
-     "prompt": "A man in a cap pouring fuel from a metal can into an early 1900s open motor car on a dirt road, onlookers watching, car seen from its left side, daylight, medium shot, realistic painting, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "clip": {
+      "id": 2165,
+      "tags": "car, road, transportation, vehicle, driving, car on road, transport, drive, highway, speed, car driving, traffic, auto, car road, automobile, journey, blurred, motor, motion, modern, driving car, wheel, street, time lapse, time, lapse",
+      "page": "https://pixabay.com/videos/id-2165/"
+     }
     },
     {
      "vo": "उसके नीचे निकलता है केरोसिन। कुछ साल पहले तक यही राशन की दुकानों पर स्टोव और लालटेन के लिए बिकता था।",
-     "prompt": "A shopkeeper pouring blue kerosene into a customer's plastic can at an Indian ration shop, a large flat board above reading \"राशन की दुकान\" facing the camera, small-town street, daylight, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "उसके नीचे निकलता है kerosene। कुछ साल पहले तक यही राशन की दुकानों पर स्टोव और लालटेन के लिए बिकता था।"
+     "clip": {
+      "id": 11186,
+      "tags": "lamp, kerosene, flashlight, fire, old, antiques",
+      "page": "https://pixabay.com/videos/id-11186/"
+     }
     },
     {
      "vo": "इसी केरोसिन से बनता है ए टी एफ़, हवाई जहाज़ का ईंधन। ये माइनस सैंतालीस डिग्री तक भी नहीं जमता, क्योंकि ऊपर आसमान में इतनी ठंड होती है।",
      "prompt": "A refuelling truck beside a passenger jet at an Indian airport apron at night, a hose connected to the wing, a large flat marking on the truck's tank side reading \"ATF\" facing the camera, floodlights, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इसी kerosene से बनता है ATF, हवाई जहाज़ का ईंधन। ये माइनस 47 डिग्री तक भी नहीं जमता, क्योंकि ऊपर आसमान में इतनी ठंड होती है।"
+     "caption": "इसी kerosene से बनता है ATF, हवाई जहाज़ का ईंधन। ये माइनस 47 डिग्री तक भी नहीं जमता, क्योंकि ऊपर आसमान में इतनी ठंड होती है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/IBE-refueling-gua.jpg/1920px-IBE-refueling-gua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2500,
+      "h": 1571,
+      "credit": "IBE-refueling-gua.jpg by FDV, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:IBE-refueling-gua.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "फिर आता है डीज़ल, जो ट्रक, बस, जेनरेटर और डीज़ल रेल इंजन चलाता है। भारत में सबसे ज़्यादा यही बिकता है।",
-     "prompt": "An Indian Railways diesel locomotive seen from its left side pulling a freight train through dry countryside, exhaust rising, trucks on a highway alongside, bright sun, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "फिर आता है diesel, जो ट्रक, बस, जेनरेटर और डीज़ल रेल इंजन चलाता है। भारत में सबसे ज़्यादा यही बिकता है।"
+     "clip": {
+      "id": 8357,
+      "tags": "freeway, highway, traffic, cars, sun, truck, dashcam, passing trucks, transport, transportation, vehicle, logistic, road, sunny day, sunny, light, driving, weather",
+      "page": "https://pixabay.com/videos/id-8357/"
+     }
     },
     {
      "vo": "रिफाइनरी के लैब में इनके सैंपल लगातार जाँचे जाते हैं, ताकि हर हिस्सा सही तापमान पर ही निकले।",
-     "prompt": "A row of glass sample bottles on a refinery lab bench, clear on the left then pale yellow, amber and finally black on the right, a chemist in a white coat behind them, bright light, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "रिफाइनरी के lab में इनके sample लगातार जाँचे जाते हैं, ताकि हर हिस्सा सही तापमान पर ही निकले।"
+     "clip": {
+      "id": 197489,
+      "tags": "woman, chemistry, laboratory, test, experiment, technology",
+      "page": "https://pixabay.com/videos/id-197489/"
+     }
     },
     {
      "vo": "और सबसे नीचे बचता है गाढ़ा, काला हिस्सा। ये इतनी गर्मी में भी भाप नहीं बना।",
      "prompt": "The bottom of a distillation column with a thick insulated pipe carrying thick black heavy residue away, a worker reading a gauge, bright daylight, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Refined_bitumen.JPG/1920px-Refined_bitumen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2048,
+      "h": 1536,
+      "credit": "Refined bitumen.JPG by Burger, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Refined_bitumen.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "क्या ये बस कचरा है?",
@@ -545,7 +836,15 @@
      "vo": "तो इंजीनियरों ने एक चालाक तरीका निकाला। एक दूसरे टावर में हवा का दबाव बहुत कम कर दिया।",
      "prompt": "A second, wider vacuum distillation column at an Indian refinery, large pipes at its top, engineers on a platform, bright daylight, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g7cd982457966445ef292ea1ef6126242c777137d1d8a7450126e859fe318296c7b4378346beb0a6426a05779b3293ff2e5e8cf3187839fea92df7088d52060ef_1280.jpg",
+      "w": 5040,
+      "h": 3360,
+      "credit": "Pixabay (2427999)",
+      "page": "https://pixabay.com/photos/germany-duisburg-industry-chemical-1367255/",
+      "card": 0.72
+     }
     },
     {
      "vo": "दबाव कम हो, तो चीज़ें कम तापमान पर ही उबल जाती हैं।",
@@ -558,49 +857,98 @@
      "prompt": "A man pouring tea from a boiling kettle on a small stove outside a stone house in Leh, Ladakh, snowy mountains behind, bright cold sun, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "जैसे लेह जैसी ऊँचाई पर पानी 100 नहीं, लगभग 88 डिग्री पर ही उबल जाता है।"
+     "caption": "जैसे लेह जैसी ऊँचाई पर पानी 100 नहीं, लगभग 88 डिग्री पर ही उबल जाता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Ladakh_Range_01.jpg/1920px-Ladakh_Range_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3826,
+      "h": 2296,
+      "credit": "Ladakh Range 01.jpg by Bernard Gagnon, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ladakh_Range_01.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "इस वैक्यूम टावर के हिस्सों को आगे और साफ़ करके मशीनों का ल्यूब्रिकेंट और वैक्स बनाया जाता है।",
      "prompt": "Golden lubricating oil in containers and blocks of white paraffin wax on a refinery warehouse shelf, bright light, sharp focus, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इस vacuum टावर के हिस्सों को आगे और साफ़ करके मशीनों का lubricant और wax बनाया जाता है।"
+     "caption": "इस vacuum टावर के हिस्सों को आगे और साफ़ करके मशीनों का lubricant और wax बनाया जाता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/gf71ef3d3ff861c065ffc0a59acacec89215e9bbb55ae4661c0d21ffc5b8ac9e69ba1f6b2c28c4b10579b7ba5c054fd0f1a44dc8b11c873e60553ef8ffd67c2ca_1280.jpg",
+      "w": 3888,
+      "h": 2592,
+      "credit": "Pixabay (Skica911)",
+      "page": "https://pixabay.com/photos/oil-canister-bottle-3968993/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और सबसे नीचे बचता है बिटुमेन। गिट्टी में मिलाकर यही काला तारकोल आपकी सड़कों पर बिछता है।",
-     "prompt": "Workers laying a new road on an Indian highway, hot black bitumen mixed with gravel steaming as a roller presses it, bright daylight, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "और सबसे नीचे बचता है bitumen। गिट्टी में मिलाकर यही काला तारकोल आपकी सड़कों पर बिछता है।"
+     "clip": {
+      "id": 89956,
+      "tags": "asphalt paving machine, asphalting, building, equipment, industrial, industry, machine, machinery, road, road construction, roadworks, street, transportation, truck, urban scene, vibration, work",
+      "page": "https://pixabay.com/videos/id-89956/"
+     }
     },
     {
      "vo": "इसी भारी हिस्से से फ़र्नेस ऑयल भी बनता है, जो बड़े जहाज़ों और कारख़ानों की भट्टियाँ चलाता है।",
      "prompt": "A cargo ship at an Indian port being refuelled from a small bunker barge alongside, a thick black hose between them, bright daylight, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इसी भारी हिस्से से furnace oil भी बनता है, जो बड़े जहाज़ों और कारख़ानों की भट्टियाँ चलाता है।"
+     "caption": "इसी भारी हिस्से से furnace oil भी बनता है, जो बड़े जहाज़ों और कारख़ानों की भट्टियाँ चलाता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/gbf772ede8b074bfc2f35fde76a8c0c8b3a994ea241e8934d835d5c1537ce1041fdeee44b896f48f6990088bc8ed6c7d69a4177e5161ef7c07eccd5880ad187ec_1280.png",
+      "w": 7200,
+      "h": 4802,
+      "credit": "Pixabay (terski)",
+      "page": "https://pixabay.com/photos/boat-ship-sunset-bridge-oil-tanker-8163905/",
+      "card": 0.72
+     }
     },
     {
      "vo": "जो सबसे आख़िर में बचता है, उसे पकाकर पेटकोक बनाते हैं। ये सीमेंट फ़ैक्ट्रियों में कोयले की जगह जलता है।",
      "prompt": "A yellow loader scooping black petroleum coke chunks from a huge pile into a truck in a refinery yard, a large flat sign reading \"PETCOKE\" facing the camera, bright daylight, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "जो सबसे आख़िर में बचता है, उसे पकाकर petcoke बनाते हैं। ये सीमेंट फ़ैक्ट्रियों में कोयले की जगह जलता है।"
+     "caption": "जो सबसे आख़िर में बचता है, उसे पकाकर petcoke बनाते हैं। ये सीमेंट फ़ैक्ट्रियों में कोयले की जगह जलता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Petrolkoks_IMG_6160.jpg/1920px-Petrolkoks_IMG_6160.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3264,
+      "h": 2448,
+      "credit": "Petrolkoks IMG 6160.jpg by romanm (talk), CC BY-SA 2.5 SI, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Petrolkoks_IMG_6160.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "बाकी भारी तेल क्रैकिंग यूनिट में जाता है। ऐसी पहली बड़ी यूनिट उन्नीस सौ बयालीस में अमेरिका में चली थी।",
      "prompt": "A tall fluid catalytic cracking unit at an Indian refinery, a complex steel structure with large reactors and pipes, bright daylight, sharp focus, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "बाकी भारी तेल cracking unit में जाता है। ऐसी पहली बड़ी unit 1942 में अमेरिका में चली थी।"
+     "caption": "बाकी भारी तेल cracking unit में जाता है। ऐसी पहली बड़ी unit 1942 में अमेरिका में चली थी।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Cracker_USA_1944.png/1920px-Cracker_USA_1944.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4104,
+      "h": 2940,
+      "credit": "Cracker USA 1944.png by FSA, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Cracker_USA_1944.png",
+      "card": 0.72
+     }
     },
     {
      "vo": "वहाँ गर्मी और कैटेलिस्ट नाम के खास पाउडर की मदद से लंबे अणुओं को तोड़कर छोटा किया जाता है।",
      "prompt": "A gloved hand holding a scoop of fine grey catalyst powder inside a refinery lab, bright light, close-up, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "वहाँ गर्मी और catalyst नाम के खास पाउडर की मदद से लंबे अणुओं को तोड़कर छोटा किया जाता है।"
+     "caption": "वहाँ गर्मी और catalyst नाम के खास पाउडर की मदद से लंबे अणुओं को तोड़कर छोटा किया जाता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g5c27dc718ff4b7bd86ba5ab02604b5fbad3c8a66e489d83ca9db5dc947eda41325db3feb08b1f227c84efb98c2033dec89617295c4cf1e2191259997bcd29c02_1280.jpg",
+      "w": 6960,
+      "h": 4640,
+      "credit": "Pixabay (Tho-Ge)",
+      "page": "https://pixabay.com/photos/industry-port-rhine-ship-9562428/",
+      "card": 0.72
+     }
     },
     {
      "vo": "ये पाउडर टैल्कम जितना बारीक होता है, और गर्म भाप के साथ पानी की तरह बहता है।",
@@ -614,13 +962,29 @@
      "prompt": "Tanker trucks lined up at a refinery loading gantry at night, each being filled through a hose, bright floodlights, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "यानी उसी भारी तेल से और पेट्रोल, डीज़ल और LPG। अमेरिका की EIA के मुताबिक़, 159 लीटर कच्चे तेल से लगभग 170 लीटर उत्पाद बनते हैं, क्योंकि हल्के उत्पाद ज़्यादा जगह घेरते हैं।"
+     "caption": "यानी उसी भारी तेल से और पेट्रोल, डीज़ल और LPG। अमेरिका की EIA के मुताबिक़, 159 लीटर कच्चे तेल से लगभग 170 लीटर उत्पाद बनते हैं, क्योंकि हल्के उत्पाद ज़्यादा जगह घेरते हैं।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Blue_hour_fog_over_Preemraff_oil_refinery_by_Brofjorden.jpg/1920px-Blue_hour_fog_over_Preemraff_oil_refinery_by_Brofjorden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 11009,
+      "h": 3204,
+      "credit": "Blue hour fog over Preemraff oil refinery by Brofjorden.jpg by W.carter, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Blue_hour_fog_over_Preemraff_oil_refinery_by_Brofjorden.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर टावर से निकला पेट्रोल क्या सीधे आपकी गाड़ी में जा सकता है?",
      "prompt": "An engineer frowning at a clear sample bottle of naphtha in a refinery lab, bright light, medium close-up, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gf334be4417406134e9b3f305718a2e4df1cceb573804510dc99285709a93ce4dab491361b1217c5dd130355e19a40de56cc64243660e33d133acd617c5bd7679_1280.jpg",
+      "w": 4100,
+      "h": 2724,
+      "credit": "Pixabay (andreas160578)",
+      "page": "https://pixabay.com/photos/refuel-gas-station-gas-pump-petrol-2157211/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -633,21 +997,45 @@
      "prompt": "Heavy traffic of buses and trucks on a Delhi road in winter, grey smog haze over the vehicles, vehicles seen from the front three-quarter, daylight, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अभी नहीं। कच्चे तेल में sulphur होता है। गाड़ी में जलने पर ये sulphur dioxide जैसी ज़हरीली गैस बनाता है।"
+     "caption": "अभी नहीं। कच्चे तेल में sulphur होता है। गाड़ी में जलने पर ये sulphur dioxide जैसी ज़हरीली गैस बनाता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g8400ba6e69cc51a17d0990563745b344af41ff39be2adf2797c0a120c5c644bc41f359b931a9d4b35a364dcb034b5c6fa60d319f5ed9db64fda62a66896678f8_1280.jpg",
+      "w": 6024,
+      "h": 4024,
+      "credit": "Pixabay (webandi)",
+      "page": "https://pixabay.com/photos/exhaust-diesel-tube-vehicle-car-3538388/",
+      "card": 0.72
+     }
     },
     {
      "vo": "इसलिए पेट्रोल और डीज़ल को हाइड्रोजन के साथ गर्म करके उसमें से सल्फ़र निकाला जाता है।",
      "prompt": "A tall thick-walled hydrotreater reactor vessel at an Indian refinery, pipes connected at its top and bottom, a worker beside it for scale, bright daylight, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इसलिए पेट्रोल और डीज़ल को hydrogen के साथ गर्म करके उसमें से sulphur निकाला जाता है।"
+     "caption": "इसलिए पेट्रोल और डीज़ल को hydrogen के साथ गर्म करके उसमें से sulphur निकाला जाता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g13cfa3c5ceaadd75c976add369f48853f80a05b3be7e4a1a3d64cb0ca40a560aec70a25c1ecac4ee682ee83fb69c1bc01424c2bcb26d916c8e8cf4158a0360d3_1280.jpg",
+      "w": 3715,
+      "h": 2397,
+      "credit": "Pixabay (SatyaPrem)",
+      "page": "https://pixabay.com/photos/refinery-oil-industry-silhouette-3613522/",
+      "card": 0.72
+     }
     },
     {
      "vo": "निकला हुआ सल्फ़र पीले ढेरों में जमा होता है, और खाद बनाने वाली फ़ैक्ट्रियों को बिकता है।",
      "prompt": "Huge bright yellow mounds of solid sulphur in a refinery yard, a worker in a mask walking beside them, blue sky, bright sun, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "निकला हुआ sulphur पीले ढेरों में जमा होता है, और खाद बनाने वाली फ़ैक्ट्रियों को बिकता है।"
+     "caption": "निकला हुआ sulphur पीले ढेरों में जमा होता है, और खाद बनाने वाली फ़ैक्ट्रियों को बिकता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g97db16ce9ffac0b188398c4c437a0742c1a79948a3a88adb14e7cc83d0e95917f7b1966be0cd90d8e58597ce6b088f40560fc54f0337f05d777215dcd92007a0_1280.jpg",
+      "w": 5168,
+      "h": 3448,
+      "credit": "Pixabay (jhenning)",
+      "page": "https://pixabay.com/photos/sulfur-crystals-yellow-geology-7220327/",
+      "card": 0.72
+     }
     },
     {
      "vo": "एक अप्रैल दो हज़ार बीस से पूरे भारत में बी एस सिक्स ईंधन बिकता है।",
@@ -682,35 +1070,75 @@
      "prompt": "A refinery lab technician pouring a petrol sample into the small fuel cup of a test engine on a steel stand, a large flat tag on the engine reading \"OCTANE TEST\" facing the camera, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पेट्रोल की इस ताक़त को octane नंबर से नापते हैं। भारत के आम पेट्रोल में ये कम से कम 91 होता है।"
+     "caption": "पेट्रोल की इस ताक़त को octane नंबर से नापते हैं। भारत के आम पेट्रोल में ये कम से कम 91 होता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/89_Octane_gasoline_label.jpg/1920px-89_Octane_gasoline_label.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2036,
+      "h": 1377,
+      "credit": "89 Octane gasoline label.jpg by Epolk, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:89_Octane_gasoline_label.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "आज ज़्यादातर पंपों पर पेट्रोल में बीस प्रतिशत तक एथेनॉल मिला होता है, जो गन्ने और अनाज से बनता है। भारत ने ये लक्ष्य दो हज़ार पच्चीस में ही छू लिया, जबकि पहले ये दो हज़ार तीस के लिए था।",
      "prompt": "An Indian petrol pump dispenser with a large flat sticker on its side reading \"E20\" facing the camera, a truck loaded with sugarcane passing on the road behind, bright daylight, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "आज ज़्यादातर पंपों पर पेट्रोल में 20 प्रतिशत तक ethanol मिला होता है, जो गन्ने और अनाज से बनता है। भारत ने ये लक्ष्य 2025 में ही छू लिया, जबकि पहले ये 2030 के लिए था।"
+     "caption": "आज ज़्यादातर पंपों पर पेट्रोल में 20 प्रतिशत तक ethanol मिला होता है, जो गन्ने और अनाज से बनता है। भारत ने ये लक्ष्य 2025 में ही छू लिया, जबकि पहले ये 2030 के लिए था।",
+     "photo": {
+      "src": "https://pixabay.com/get/g1ba80b61ece9e0bdbf29d30d83070aca2705d3021b19fb1dbaeeb13fd16620d1a01fe4170ab28efdea9728c03ea3744f859b2864f6295784bd1887db39721164_1280.jpg",
+      "w": 4368,
+      "h": 2084,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/filling-station-gas-gas-station-1839760/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और एल पी जी का एक छिपा सच। असली एल पी जी में कोई गंध होती ही नहीं।",
      "prompt": "A puzzled woman in a simple cotton saree leaning toward a red gas cylinder in an Indian kitchen, sniffing the air, bright morning light, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "और LPG का एक छिपा सच। असली LPG में कोई गंध होती ही नहीं।"
+     "caption": "और LPG का एक छिपा सच। असली LPG में कोई गंध होती ही नहीं।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/LPG_cylinder_%282013%29.jpg/1920px-LPG_cylinder_%282013%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3672,
+      "h": 4896,
+      "credit": "LPG cylinder (2013).jpg by Prabhupuducherry, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:LPG_cylinder_(2013).jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "उसमें एथिल मरकैप्टन नाम का सड़े अंडे जैसी गंध वाला केमिकल मिलाया जाता है, ताकि लीक होते ही आपको पता चल जाए।",
      "prompt": "A worker in an LPG plant checking a small steel dosing tank connected to a gas line, a large flat label on the tank reading \"ODORANT\" facing the camera, bright light, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "उसमें ethyl mercaptan नाम का सड़े अंडे जैसी गंध वाला केमिकल मिलाया जाता है, ताकि leak होते ही आपको पता चल जाए।"
+     "caption": "उसमें ethyl mercaptan नाम का सड़े अंडे जैसी गंध वाला केमिकल मिलाया जाता है, ताकि leak होते ही आपको पता चल जाए।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ethanethiol-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1100,
+      "h": 713,
+      "credit": "Ethanethiol-3D-balls.png by Ben Mills, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ethanethiol-3D-balls.png",
+      "card": 0.5
+     }
     },
     {
      "vo": "फिर ये सब पाइपलाइंस, रेल के टैंकर डिब्बों और ट्रकों से देश के नब्बे हज़ार से ज़्यादा पेट्रोल पंपों तक पहुँचता है।",
      "prompt": "A long Indian Railways train of black tank wagons rolling past a refinery at sunset, sharp focus, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "फिर ये सब pipelines, रेल के टैंकर डिब्बों और ट्रकों से देश के 90 हज़ार से ज़्यादा पेट्रोल पंपों तक पहुँचता है।"
+     "caption": "फिर ये सब pipelines, रेल के टैंकर डिब्बों और ट्रकों से देश के 90 हज़ार से ज़्यादा पेट्रोल पंपों तक पहुँचता है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Tank_Wagon_%28BTPNM%29.jpg/1920px-Tank_Wagon_%28BTPNM%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3264,
+      "h": 2448,
+      "credit": "Tank Wagon (BTPNM).jpg by Apurv013, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Tank_Wagon_(BTPNM).jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -722,20 +1150,44 @@
      "vo": "तो जवाब ये है: गर्म तेल भाप बनकर टावर में चढ़ता है, और हर अणु अपनी गर्मी वाली मंज़िल पर रुक जाता है।",
      "prompt": "A distillation column at night with its side pipes glowing in orange sodium light, steam drifting across, sharp focus, wide shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g1056c486fd3faafefb2e2857f3dc5d60063d41ce8a1acb7c170c2942df20bee3aac16790c4dbbac802b7e2aa545726dbbd5a0bd2478e497615c27f159908fc9b_1280.jpg",
+      "w": 6048,
+      "h": 4024,
+      "credit": "Pixabay (yamabon)",
+      "page": "https://pixabay.com/photos/factory-industrial-production-7026489/",
+      "card": 0.72
+     }
     },
     {
      "vo": "अगली बार पंप पर ई ट्वेंटी का स्टिकर देखिए। और गैस की गंध आए, तो याद रखिए, वो रिफाइनरी ने आपकी हिफ़ाज़त के लिए डाली है।",
      "prompt": "A young man in a shirt looking at an Indian petrol pump dispenser with a large flat sticker reading \"E20\" facing the camera, his scooter seen from its left side beside him, evening light, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "अगली बार पंप पर E20 का sticker देखिए। और गैस की गंध आए, तो याद रखिए, वो रिफाइनरी ने आपकी हिफ़ाज़त के लिए डाली है।"
+     "caption": "अगली बार पंप पर E20 का sticker देखिए। और गैस की गंध आए, तो याद रखिए, वो रिफाइनरी ने आपकी हिफ़ाज़त के लिए डाली है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g3f2c337f89bcd9291d86bfce69e10b4a590aff3348f3bf9cfa8ccfc77bc5594bd3279910c8180175891cc77ac1bee5abc93862aab645b5596d78c744cd0619b2_1280.jpg",
+      "w": 3264,
+      "h": 2448,
+      "credit": "Pixabay (Magnascan)",
+      "page": "https://pixabay.com/photos/flame-gas-gas-flame-blue-hot-ring-580342/",
+      "card": 0.72
+     }
     },
     {
      "vo": "अगले एपिसोड में: पेट्रोल पंप के नीचे छिपे टैंक में तेल भरा कैसे जाता है?",
      "prompt": "A worker opening a round steel lid set in the ground beside a fuel tanker truck parked at an Indian petrol pump, the truck seen from its left side, bright daylight, medium shot, photoreal, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Underground_fuel_storage_tank.JPG/1920px-Underground_fuel_storage_tank.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3072,
+      "h": 2304,
+      "credit": "Underground fuel storage tank.JPG by Dwight Burdette, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Underground_fuel_storage_tank.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "ऐसे ही गज़ब सवालों के लिए सब्सक्राइब करें।",
@@ -766,7 +1218,5 @@
    1
   ]
  },
- "framework": "2026-11-18 23:40",
- "released_at": "2026-11-18 23:40",
- "voice_requested": "voice-gk-38-indian-oil-refinery-a91149e8b9"
+ "photos_checked": true
 }
