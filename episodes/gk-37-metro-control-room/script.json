@@ -226,7 +226,7 @@
      "caption": "आज यही जाल क़रीब 390 किलोमीटर तक फैल चुका है, दिल्ली से Noida और Gurugram तक।"
     },
     {
-     "vo": "हर लाइन के लिए यहाँ अलग कंट्रोल डेस्क है। रेड, ब्लू, येलो, मैजेंटा, सबकी अपनी टीम।",
+     "vo": "हर लाइन के लिए यहाँ अलग कंट्रोल डेस्क है। रेड, ब्लू, येलो, मजेंटा, इन सबकी अपनी अपनी टीम है।",
      "prompt": "A large dim control hall with separate desk clusters, each with its own team of controllers at screens, coloured strips along the desk edges in red, blue, yellow and magenta, wide shot, soft light from the screens, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
@@ -1259,5 +1259,11 @@
  "photos_checked": true,
  "framework": "2026-11-18 20:09",
  "released_at": "2026-11-18 20:09",
- "voice_requested": "voice-gk-37-metro-control-room-554f74e084"
+ "voice_requested": "voice-gk-37-metro-control-room-554f74e084",
+ "voice_fixed": {
+  "lines": [
+   16
+  ],
+  "at": "2026-11-18 20:17"
+ }
 }
