@@ -1681,6 +1681,8 @@ def main(script_path, out_dir):
                 src = s.get("from")  # an episode's own painting (Logos & Legends Shorts from a long-form, 8 Nov 2026)
                 img = paint_read(str(out / (f"shot-{int(src.split('-')[0]):02d}{'-' + src.split('-')[1] if '-' in src else ''}.png"
                                             if src else f"shot-{n:02d}.png")))
+                if img is None:  # a painting missing from the release: its line shown as a card, not a failed build
+                    img = card(s.get("title") or " ".join(s["vo"].split()[:5]))
                 if s.get("overlay"):  # science drawn onto the painting (a crack, a hole) where SDXL can't
                     img = bgr(OVERLAYS[s["overlay"]](Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))))
                 parts = 3 if d > 5.4 else 2 if d > 2.6 else 1
