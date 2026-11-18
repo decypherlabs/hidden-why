@@ -1,0 +1,991 @@
+{
+ "slug": "dk-245-gita-ep2-first-conch",
+ "format": "long",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "भगवद गीता Episode 2: कुरुक्षेत्र में पहला शंख किसने और क्यों बजाया? 🐚",
+ "thumbnail": {
+  "layout": "epic",
+  "text": "कुरुक्षेत्र का पहला *शंख*",
+  "plane": "Bhishma Pitamah, an elderly warrior with a long flowing white beard and white hair, in white garments and silver armour, bow on his shoulder, LARGE in the LEFT half, standing on his chariot, head thrown back, blowing a large white conch with fierce resolve, cheeks full, eyes blazing; the right half filled with the vast Kurukshetra battlefield at dawn, endless rows of armies, banners, chariots and rising dust, a blood-orange sun breaking through storm clouds, dark high-contrast cinematic light, realistic Indian epic painting, no text"
+ },
+ "music": {
+  "suspense": [
+   "cold_open",
+   "ch1",
+   "ch2",
+   "ch5",
+   "ch6",
+   "ch8"
+  ],
+  "epic": [
+   "ch3",
+   "ch4",
+   "ch10"
+  ],
+  "emotional": [
+   "ch7"
+  ],
+  "devotional": [
+   "ch9",
+   "outro"
+  ]
+ },
+ "source": "महाभारत, भीष्म पर्व: श्रीमद्भगवद्गीता अध्याय 1 (अर्जुन विषाद योग), श्लोक 7-12; अर्थ गीता प्रेस की टीकाओं (जयदयाल गोयन्दका की तत्त्व-विवेचनी, स्वामी रामसुखदास की साधक संजीवनी) के अनुसार; संदर्भ: भीष्म पर्व (व्यास का संजय को दिव्य दृष्टि देना, दसवें दिन भीष्म के गिरने के बाद संजय का वर्णन), आदि पर्व (अक्षौहिणी की गिनती, भीष्म की प्रतिज्ञा और इच्छामृत्यु, भीम को विष, लाक्षागृह, कर्ण को अंग का राज्य), सभा पर्व (भीम का प्रण, विकर्ण), उद्योग पर्व (कर्ण का प्रण, शिखंडी पर भीष्म का वचन, सेनाओं की संख्या), सौप्तिक पर्व (युद्ध के बाद बचे कौरव पक्ष के तीन महारथी)",
+ "journey_score": 8.6,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सर्दियों की भोर है, कुरुक्षेत्र का ब्रह्म सरोवर कोहरे में लिपटा है।",
+     "prompt": "A thick white mist lying over the vast still water of a huge square sacred pond at winter dawn, wide stone bathing steps and temple spires faintly visible on the far bank, Indian setting, soft blue-grey light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "घाट की सीढ़ियों पर दीये टिमटिमा रहे हैं।",
+     "prompt": "Rows of small flickering clay oil lamps burning on wide stone ghat steps beside still water, their flames reflected in the water, light mist, Indian setting, soft dawn light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लोग शॉल ओढ़े, हाथ जोड़े आरती का इंतज़ार कर रहे हैं।",
+     "prompt": "A family of four Indian devotees, an old man, a woman, a young man and a girl, in warm shawls standing on misty stone ghat steps with folded hands, faces turned toward the water, waiting, soft dawn light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तभी शंख की लंबी, गहरी आवाज़ पानी पर गूँज उठती है।",
+     "prompt": "A priest in a white dhoti and cream shawl blowing a large white conch shell, cheeks full, standing on stone ghat steps, mist drifting over the water behind him, soft dawn light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कभी सोचा है, इसी धरती पर पहला शंख किसने बजाया था?",
+     "prompt": "A single large white conch shell resting on bare brown earth in the foreground, a misty empty plain of fields stretching to the horizon behind it, soft dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "महाभारत के युद्ध से पहले, कुरुक्षेत्र में सबसे पहले कौन गरजा?",
+     "prompt": "Two vast ancient armies facing each other across a dusty open plain, rows of chariots, horses, spears and tall banners on both sides, dust rising under a heavy grey sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और वो आवाज़ आख़िर किसके लिए थी?",
+     "prompt": "Rows of armoured warriors with spears and shields standing still in a long front line, tall dark banners above them, tense golden dawn light, Indian ancient battlefield, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भगवद गीता के पहले अध्याय में इसका साफ़ जवाब लिखा है।",
+     "prompt": "An old open Sanskrit manuscript of palm-leaf style pages on a carved wooden stand, a lit brass oil lamp beside it, warm lamp light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पहला शंख न श्रीकृष्ण ने बजाया, न अर्जुन ने।",
+     "prompt": "A white chariot with four white horses standing still, a divinely beautiful Lord Krishna, blue skin, peacock feather crown, yellow dhoti, holding the reins on the right, a fair-skinned young man with a large bow standing beside him on the left, both silent, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वो शंख कौरवों की ओर से, भीष्म पितामह ने बजाया था।",
+     "prompt": "An old man with a long white beard and white hair, silver armour and white dhoti, standing tall on a chariot and raising a large white conch to his lips, dark banners behind him, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और श्लोक कहता है, वो शंख दुर्योधन का मन खुश करने के लिए बजा।",
+     "prompt": "A proud dark-skinned man with a thick black moustache, gold crown and golden armour, holding a heavy mace, smiling with relief on a battlefield, a pale army behind him, dawn light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उससे पहले दुर्योधन ने गुरु द्रोण से ऐसा क्या कहा?",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour on the left, speaking and gesturing to an old man with a long white beard, bare chest with grey armour and sacred thread, holding a bow, on the right beside a chariot, dawn light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कथा का आधार: महाभारत का भीष्म पर्व, श्रीमद्भगवद्गीता अध्याय एक।",
+     "prompt": "A bundle of old palm-leaf manuscripts tied with red thread resting on a cream cloth beside a lit brass lamp, warm lamp light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "संजय की दृष्टि",
+   "shots": [
+    {
+     "vo": "पिछली बार दुर्योधन ने गुरु द्रोण को पांडव सेना के बड़े योद्धा गिनाए थे।",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour on the left, pointing his arm across a plain toward a distant army, an old man with a long white beard, sacred thread and bow listening on the right beside his chariot, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये सारी बातें हस्तिनापुर के महल तक पहुँच रही हैं। वहाँ अंधे राजा धृतराष्ट्र बैठे हैं।",
+     "prompt": "A grand Indian palace hall with carved stone pillars lit by oil lamps, an old blind king with a grey beard, gold crown, maroon robes and closed eyes sitting alone on a golden throne, evening lamp light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्हें ये सब उनके सारथी और मंत्री संजय सुना रहे हैं।",
+     "prompt": "An old blind king with a grey beard, gold crown, maroon robes and closed eyes seated on a throne on the left, a middle-aged man in plain white robes and white turban standing beside him on the right and speaking, lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "युद्ध से पहले महर्षि व्यास ने धृतराष्ट्र को दिव्य दृष्टि देनी चाही थी।",
+     "prompt": "An old sage with long white matted hair and beard in saffron robes raising his right hand in blessing on the right, an old blind king with gold crown, maroon robes and closed eyes seated on his throne on the left, palace hall, lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर धृतराष्ट्र ने मना कर दिया। बोले, मैं अपने ही कुल का नाश आँखों से नहीं देखना चाहता, बस सुनना चाहता हूँ।",
+     "prompt": "An old blind king with a grey beard, gold crown and closed eyes turning his face away with his palm raised in refusal, sorrowful, an old sage with white matted hair in saffron robes watching him gravely on the right, lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तब व्यास जी ने वो दृष्टि संजय को दी। अब संजय मैदान की हर बात देख सकते थे, लोगों के मन की बात भी।",
+     "prompt": "A middle-aged man in plain white robes and white turban with softly glowing golden eyes, and in the air before him a shimmering glowing vision of a battlefield with armies and chariots, dark palace hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "महाभारत के भीष्म पर्व में एक बात और दर्ज है। संजय ये कथा युद्ध शुरू होने के दस दिन बाद सुना रहे हैं।",
+     "prompt": "A middle-aged man in plain white robes and white turban walking alone on a dusty evening road toward the large gates of an Indian palace, his head bowed, sombre orange-grey sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उस दिन वो मैदान से लौटे, तो पहली ख़बर यही थी कि भीष्म पितामह बाणों की शय्या पर गिर चुके हैं।",
+     "prompt": "An old white-bearded warrior in silver armour lying on a large bed of arrows rising from the ground, eyes half closed, his bow beside him, a battlefield at dusk with a red sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शोक में डूबे धृतराष्ट्र ने पूरी कथा शुरू से सुननी चाही।",
+     "prompt": "An old blind king with a grey beard, gold crown and maroon robes slumped on his throne, head bowed in grief, one hand gripping the armrest, oil lamps flickering around, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यानी भीष्म के शंख की कथा वो राजा सुन रहा है, जो जानता है कि भीष्म अब गिर चुके हैं।",
+     "prompt": "Close-up of an old blind king's aged face with a grey beard, closed eyes and a tear running down his cheek, gold crown above, warm lamp light in a dark hall, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "संजय उसी पहली सुबह पर लौटते हैं, जब दोनों सेनाएँ आमने-सामने खड़ी थीं।",
+     "prompt": "Two vast armies facing each other across a plain on the first morning, chariots, elephants and banners on both sides, a golden sunrise over the field, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पांडव सेना गिनाने के बाद, दुर्योधन अब अपनी सेना की ओर मुड़ता है।",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour turning away from the right to look at his own vast army on the left, an old white-bearded man with bow standing beside him, golden morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "गुरु से बात",
+   "shots": [
+    {
+     "vo": "सुबह की धूप में कौरव सेना दूर तक फैली है। रथ, हाथी, घोड़े और ऊँचे झंडे।",
+     "prompt": "A huge army spread to the horizon in bright morning sun, hundreds of chariots, elephants, horses and tall banners in clear rows, ancient Indian battlefield, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन अब भी गुरु द्रोण के रथ के पास खड़ा है, और अपनी बात आगे बढ़ाता है।",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour standing beside a large war chariot on the left, speaking, an old man with a long white beard, sacred thread and bow standing on the right, listening, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम, नायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते॥",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour speaking to an old white-bearded man with sacred thread and bow on a chariot, banners fluttering in the dawn wind behind them, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मतलब, हे ब्राह्मणों में श्रेष्ठ, अब हमारी ओर के खास योद्धाओं को भी जान लीजिए।",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour gesturing toward a long row of chariots with an open hand and a confident half-smile, chariots behind him, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मेरी सेना के जो नायक हैं, आपकी जानकारी के लिए उनके नाम बताता हूँ।",
+     "prompt": "A row of ancient war chariots lined up side by side with tall bright banners, each with an armoured warrior standing, dust in the golden morning air, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "'संज्ञार्थं' यानी आपको याद दिलाने के लिए, आपके ध्यान में लाने के लिए।",
+     "prompt": "An open old printed book with Sanskrit verses in the top lines and Hindi text below, a lit brass lamp glowing beside it on a wooden table, warm light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ज़रा सोचिए, द्रोण इनमें से अधिकतर को वर्षों से जानते थे।",
+     "prompt": "An old man with a long white beard, sacred thread and grey armour gazing over a row of armoured warriors with a knowing weary look, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कई योद्धाओं ने तो उन्हीं से धनुष चलाना सीखा था, और एक उनका अपना बेटा था।",
+     "prompt": "An old man with a long white beard and sacred thread teaching a group of young princes archery in a sunny courtyard, the boys in simple dhotis holding small bows, one boy on the right drawing his bow, forest ashram, bright daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर उन्हें नाम गिनाने की ज़रूरत क्या थी? टीकाकार मानते हैं, ये बातें दुर्योधन की बेचैनी से निकल रही थीं।",
+     "prompt": "Close-up of a dark-skinned man's face with a thick black moustache, gold crown, jaw tight, eyes darting to the side, beads of sweat on his brow, cool morning light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "'द्विजोत्तम' कहकर उसने गुरु को आदर भी दिया। कुछ टीकाकार इसमें ब्राह्मण होने की याद का एक छिपा इशारा भी देखते हैं।",
+     "prompt": "An old man with a long white beard, sacred thread across his bare chest and grey armour, standing still holding his bow, calm thoughtful face, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "द्रोण कोई साधारण योद्धा नहीं थे। वो कौरवों और पांडवों, दोनों के धनुर्विद्या के गुरु थे।",
+     "prompt": "An old white-bearded man with sacred thread and a raised bow standing alone on his chariot in the middle, a large army far on the left and another far on the right, dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और जो पहला नाम दुर्योधन ने लिया, वो सामने खड़े गुरु का ही था।",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour raising his hand toward an old white-bearded man with sacred thread and bow who turns toward him, both beside a chariot, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "कौरवों के नायक",
+   "shots": [
+    {
+     "vo": "भवान्भीष्मश्च कर्णश्च कृपश्च समितिञ्जयः, अश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च॥",
+     "prompt": "A line of armoured warriors standing on their chariots across a plain at dawn, tall banners above, armour gleaming, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पहला शब्द है 'भवान्', यानी आप। सबसे पहले उसने द्रोण का ही नाम लिया।",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour bowing his head slightly toward an old white-bearded man with sacred thread and bow, who faces him, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जिससे बात हो रही हो, उसे सबसे आगे रखना। टीकाकार कहते हैं, ये गुरु को अपने पक्ष में बनाए रखने का तरीका था।",
+     "prompt": "An old man with a long white beard, sacred thread and grey armour standing silent and dignified on his chariot, morning light on his white beard, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर भीष्म पितामह, कुरु वंश के सबसे बड़े, जो इस पूरी कौरव सेना के सेनापति थे।",
+     "prompt": "An old man with a long white beard and white hair, silver armour and white dhoti standing tall on his chariot holding a great bow, a large commander's banner above him, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "गंगा और राजा शांतनु के बेटे, जिनका असली नाम देवव्रत था।",
+     "prompt": "A river at dawn, a divinely beautiful woman in white and blue robes standing on the water on the left holding the hand of a young boy prince in a white dhoti on the right, soft golden light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर कर्ण, दुर्योधन का सबसे प्यारा मित्र, जिसे उसने अंग देश का राजा बनाया था।",
+     "prompt": "A radiant man with golden earrings, long black hair and golden armour with a sun emblem, holding a great bow, standing proudly beside a chariot, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर उद्योग पर्व के अनुसार, भीष्म ने कर्ण को 'अर्धरथी' कहा था। नाराज़ कर्ण ने प्रण लिया, भीष्म के रहते वो युद्ध नहीं करेगा।",
+     "prompt": "A man with golden earrings and long black hair laying his great bow down on the floor of a tent, firm-faced, lamp light, through the tent opening a tall banner is visible outside, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर भी दुर्योधन ने उसका नाम भीष्म के ठीक बाद लिया। मित्र पर उसे इतना भरोसा था।",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour on the left looking with pride toward a man with golden earrings and long black hair on the right, banners behind them, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर कृपाचार्य, कुरु राजकुमारों के कुलगुरु। 'समितिञ्जय', यानी हर युद्ध जीतने वाले।",
+     "prompt": "An old man with a grey beard, sacred thread and armour holding a bow, standing on his chariot, calm face, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृपाचार्य की बहन कृपी, गुरु द्रोण की पत्नी थीं। यानी दोनों गुरु आपस में रिश्तेदार थे।",
+     "prompt": "Two old warriors standing side by side beside their chariots, the left one with a grey beard, armour and bow, the right one with a long white beard, sacred thread and bow, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर अश्वत्थामा, द्रोण और कृपी के बेटे। महाभारत के अनुसार, माथे पर जन्म से एक मणि लिए हुए।",
+     "prompt": "A fierce young man with a glowing gem set in the middle of his forehead, armour and a bow, standing on a chariot, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर विकर्ण, दुर्योधन का अपना भाई। वही, जिसने जुए की सभा में द्रौपदी के पक्ष में आवाज़ उठाई थी।",
+     "prompt": "A grand Indian court hall with seated nobles, a young prince in princely clothes on the left standing up and speaking boldly, a dice board lying on the floor in the centre, lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और सौमदत्ति, यानी राजा सोमदत्त के बेटे भूरिश्रवा। ये भी कुरु वंश की ही एक शाखा से थे।",
+     "prompt": "A mature warrior king with a royal turban, armour and a sword standing on his chariot, strong face, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "हर नाम के पीछे कोई रिश्ता था। पर अगली बात में दुर्योधन का 'मैं' साफ़ झलकने लगा।",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour raising a heavy mace high, chest out, proud look, chariots behind him, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "मेरे लिए",
+   "shots": [
+    {
+     "vo": "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः, नानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः॥",
+     "prompt": "A sea of warriors with spears, swords, maces and bows standing in dense formation, weapons glinting in the sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इनके अलावा और भी बहुत से शूरवीर हैं, जिन्होंने मेरे लिए जीने की आशा छोड़ दी है।",
+     "prompt": "Rows of armoured soldiers raising their weapons high in salute toward a golden chariot, bright morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सब तरह-तरह के अस्त्र-शस्त्र चलाते हैं, और सब युद्ध में माहिर हैं।",
+     "prompt": "A wooden rack of ancient weapons, maces, spears, bows and quivers of arrows, standing beside a war chariot, bright daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "महाभारत के अनुसार, इन शूरवीरों में शल्य, जयद्रथ, कृतवर्मा और शकुनि जैसे राजा भी थे।",
+     "prompt": "Four chariots side by side on a plain, each with a different coloured banner and a crowned warrior in armour, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मद्र देश के राजा शल्य तो नकुल-सहदेव के सगे मामा थे, फिर भी कौरवों की ओर से लड़ने आए।",
+     "prompt": "A mature crowned warrior in armour holding a spear, standing on his chariot with a grave expression, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "श्लोक में एक छोटा सा शब्द है, 'मदर्थे', यानी मेरे लिए।",
+     "prompt": "A gloved hand of a man pressed flat on his own golden chest armour, a gold crown glinting above, close-up, morning light, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दुर्योधन ने ये नहीं कहा कि ये लोग धर्म के लिए लड़ रहे हैं, न ये कि राज्य के लिए।",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour standing alone on a raised mound, looking out over a large army below, a long shadow behind him, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उसने कहा, ये सब मेरे लिए जान हथेली पर लिए खड़े हैं।",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour sweeping his arm over a large army on the left, an old white-bearded man with sacred thread and bow beside him on the right listening silently, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "'त्यक्तजीविताः' शब्द भी गहरा है, यानी जो जीवन का मोह छोड़ चुके हों।",
+     "prompt": "Soldiers standing in silent straight ranks with spears under a pale sky, resolute faces, dust drifting between the rows, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और महाभारत बताता है, अठारह दिन बाद कौरवों की ओर से सिर्फ़ तीन महारथी बचे।",
+     "prompt": "An empty silent battlefield at dusk covered with broken chariots, fallen banners, broken wheels and arrows in the ground, smoke on the horizon, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कृपाचार्य, अश्वत्थामा और कृतवर्मा। बाकी लगभग सब उसी मैदान में रह गए।",
+     "prompt": "Three warriors riding away on horses, small, in dark silhouette against a twilight sky, leaving a darkened battlefield, broken banners and a broken chariot wheel in the foreground, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सामने गुरु द्रोण खड़े थे, पांडवों के भी उतने ही गुरु। और अर्जुन उनका सबसे प्यारा शिष्य था।",
+     "prompt": "An old man with a long white beard, sacred thread and grey armour in the foreground looking with a heavy face toward a white chariot far away, a fair-skinned young man with a large bow standing on it, small in the distance, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर दुर्योधन ने दोनों सेनाओं को तौला। और यहीं आया वो शब्द, जिसके दो अर्थ निकलते हैं।",
+     "prompt": "An aerial view of two armies facing each other across a plain, a huge dense army on the left, a much smaller army on the right, dust between them, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "दो सेनाएँ",
+   "shots": [
+    {
+     "vo": "कुरुक्षेत्र में कुल अठारह अक्षौहिणी सेना जुटी थी। कौरवों की ओर ग्यारह, पांडवों की ओर सात।",
+     "prompt": "A huge dense army on the left and a smaller army on the right facing each other across a dusty plain, banners above both, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "महाभारत के आदि पर्व में एक अक्षौहिणी का पूरा हिसाब दिया है।",
+     "prompt": "An old palm-leaf manuscript with columns of Sanskrit numerals, a brass lamp and a stylus beside it on a cloth, warm lamp light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इक्कीस हज़ार आठ सौ सत्तर रथ, और उतने ही हाथी।",
+     "prompt": "Endless rows of war chariots and armoured elephants in tight formation on a plain, stretching to the horizon, bright morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पैंसठ हज़ार छह सौ दस घोड़े, और एक लाख नौ हज़ार तीन सौ पचास पैदल सैनिक।",
+     "prompt": "Vast ranks of horsemen and foot soldiers with shields and spears, packed together, dust rising in the morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यानी गिनती में कौरव, पांडवों से डेढ़ गुने से भी ज़्यादा थे।",
+     "prompt": "Endless rows of armoured elephants and chariots in a long formation stretching out of frame, a much smaller group of chariots on the far right, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम्, पर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम्॥",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour pointing with one hand at his huge army on the left and with the other toward a smaller distant army, an old white-bearded man with bow beside him, dramatic morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सीधे शब्दों में: भीष्म से रक्षित हमारी सेना 'अपर्याप्त' है, भीम से रक्षित इनकी सेना 'पर्याप्त' है।",
+     "prompt": "An old man with a long white beard, silver armour and white dhoti standing on a chariot on the left, and far across the field on the right a huge muscular dark-skinned man in red dhoti holding a heavy mace, small in the distance, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अब 'अपर्याप्त' के दो अर्थ होते हैं। गीता प्रेस की दो प्रसिद्ध टीकाएँ भी अलग-अलग अर्थ लेती हैं।",
+     "prompt": "Two old printed books open side by side on a wooden desk, Sanskrit and Hindi lines on the pages, a lit brass lamp above them, warm light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जयदयाल गोयन्दका जी की 'तत्त्व-विवेचनी' कहती है, अपर्याप्त यानी जिसे नापा न जा सके।",
+     "prompt": "An elderly man in a white kurta and dhoti with grey hair and round glasses reading a thick book at a low wooden desk, lamp light, quiet room, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यानी हमारी सेना हर तरह से अजेय है, और इनकी सेना जीतने में आसान।",
+     "prompt": "A vast army glowing in golden triumphant light, rows of chariots, elephants and raised banners, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "स्वामी रामसुखदास जी की 'साधक संजीवनी' में अर्थ उल्टा है। वहाँ अपर्याप्त यानी कम पड़ने वाली।",
+     "prompt": "An elderly monk with a shaved head in simple white robes writing in a manuscript at a low desk by a lamp, quiet room, warm light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यानी हमारी सेना पांडवों को जीतने के लिए काफ़ी नहीं। क्योंकि हमारे रक्षक भीष्म दोनों पक्षों से प्रेम करते हैं।",
+     "prompt": "An old man with a long white beard and silver armour standing on his chariot looking across a field at a distant army with quiet affection and sorrow, soft morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और उनकी सेना के रक्षक भीम पूरे मन से पांडवों के साथ हैं।",
+     "prompt": "A huge muscular dark-skinned man in a red dhoti with a heavy mace resting on his shoulder, standing fierce and steady among soldiers, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर पांडवों के सेनापति तो धृष्टद्युम्न थे। फिर दुर्योधन के मुँह से भीम का नाम क्यों निकला?",
+     "prompt": "A young warrior prince in armour holding a sword, standing on his chariot at the front line of an army, banner above him, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "पुरानी दुश्मनी",
+   "shots": [
+    {
+     "vo": "दुर्योधन और भीम की दुश्मनी बचपन से चली आ रही थी।",
+     "prompt": "A sunny royal garden with a river, several young boys in simple dhotis playing by the water, bright daylight, Indian setting, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आदि पर्व के अनुसार, खेलों में भीम अकेले ही सब कौरव भाइयों पर भारी पड़ते थे।",
+     "prompt": "A big strong boy in a red dhoti laughing, standing over two other boys he has won against in a wrestling game on a sandy riverbank, bright daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इसी जलन में दुर्योधन ने एक बार भीम के खाने में विष मिला दिया।",
+     "prompt": "A young boy in princely clothes on the left secretly tipping a small vial into a dish of food on a low table, a riverside pavilion behind, his face cold, daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बेहोश भीम को लताओं से बाँधकर गंगा में फेंक दिया गया।",
+     "prompt": "A dark river at night with swirling water beneath a riverside pavilion, long creepers trailing into the current, moonlight on the water, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कथा के अनुसार, भीम नागलोक पहुँचे, और पहले से भी ज़्यादा बलवान होकर लौटे।",
+     "prompt": "A big strong young man rising from a river at dawn, water streaming off him, standing tall on the bank, strong and powerful, soft golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर आया लाक्षागृह। लाख का महल, जिसे आग लगाने की योजना दुर्योधन की थी।",
+     "prompt": "A grand palace made of reddish lacquer engulfed in roaring orange flames at night, sparks rising into the dark sky, Indian setting, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उस रात भीम ही माँ कुंती और चारों भाइयों को उठाकर सुरंग से बाहर निकले।",
+     "prompt": "A huge muscular man carrying an old woman in a white sari on his shoulder through a narrow dark earthen tunnel lit by firelight, four faint silhouettes behind him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर जुए की सभा आई, जहाँ द्रौपदी का अपमान हुआ।",
+     "prompt": "A grand Indian court hall with nobles seated in tense silence, a dice board lying on the floor in the centre, heavy shadows, lamp light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सभा पर्व के अनुसार, वहीं भीम ने प्रण लिया, युद्ध में अपनी गदा से दुर्योधन की जाँघ तोड़ूँगा।",
+     "prompt": "A huge muscular dark-skinned man in a red dhoti standing tall with clenched fists making a fierce vow, nobles seated and shocked in the background, grand court hall, lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बारह साल का वनवास और एक साल का अज्ञातवास बीत चुका था। पर वो प्रण अभी बाकी था।",
+     "prompt": "A forest path with autumn leaves falling, a huge muscular man in a red dhoti with a heavy mace walking ahead along it, determined face, soft daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शायद इसीलिए दुर्योधन के मन में भीम ही सबसे बड़ा डर बनकर बैठा था। सेना बड़ी थी, फिर भी वही बार-बार गिनती कर रहा था।",
+     "prompt": "Close-up of a dark-skinned man's face with a thick black moustache and gold crown, a flicker of fear in his eyes, a huge muscular figure small and far behind him, morning light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऐसी बेचैन गिनती सिर्फ़ राजकुमारों के मन में नहीं होती।",
+     "prompt": "A dark-skinned man in gold crown and golden armour standing small and alone before a huge army stretching out in front of him, the sky darkening with clouds, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "मन का डर",
+   "shots": [
+    {
+     "vo": "मोहल्ले में एक बड़ा मैच है। एक टीम में सारे अच्छे खिलाड़ी हैं।",
+     "prompt": "A dusty neighbourhood cricket ground in a small Indian town on a winter afternoon, boys in matching blue jerseys holding bats, a temple spire in the background, bright sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर भी उसका कप्तान कोच के पास जाकर बार-बार गिनाता है, हमारे पास ये है, वो है।",
+     "prompt": "A teenage cricket captain in a blue jersey on the left anxiously counting on his fingers while talking to an older coach in a white shirt on the right, edge of a dusty cricket ground, daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर कहता है, बस हमारा सबसे अच्छा बल्लेबाज़ आउट न हो। सब मिलकर उसे बचाना।",
+     "prompt": "A worried teenage captain in a blue jersey pointing toward a teammate fastening his batting pads, tense face, dusty Indian cricket ground, daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दूसरी टीम छोटी है, पर उसका कप्तान चुपचाप अभ्यास कर रहा है।",
+     "prompt": "A calm young captain in a green jersey quietly practising batting alone at cricket nets, focused face, warm sunset light, Indian ground, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जिसे अपनी तैयारी और अपनी नीयत पर भरोसा हो, उसे बार-बार गिनती की ज़रूरत नहीं पड़ती।",
+     "prompt": "Close-up of a young cricketer's steady hands gripping a cricket bat handle, golden evening light, sharp focus, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "घर में भी यही दिखता है। जिस बच्चे ने मन से पढ़ाई की हो, वो परीक्षा की रात चैन से सोता है।",
+     "prompt": "A schoolboy sleeping peacefully on a simple bed in a small Indian room, a neat stack of books on the table beside him, soft night lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और जिसने कुछ छिपाया हो, वो एक ही बात दस बार समझाता है।",
+     "prompt": "A nervous teenage boy on the left explaining something quickly with moving hands to his mother in a plain sari on the right, who listens quietly, small Indian kitchen, warm light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "टीकाकार कहते हैं, दुर्योधन भीतर से जानता था कि वो अन्याय के पक्ष में खड़ा है।",
+     "prompt": "A dark-skinned man with a thick black moustache, gold crown and golden armour standing in shadow, staring at the ground, a heavy mace hanging low in his hand, grey dawn light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और जो मन अन्याय के साथ खड़ा हो, वो भीड़ के बीच भी अकेला डरता है।",
+     "prompt": "A dark-skinned man with gold crown and golden armour standing alone in a pool of shadow, thousands of soldiers around him far back in the light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इस अध्याय का नाम 'अर्जुन विषाद योग' है। विषाद यानी मन का भारीपन।",
+     "prompt": "An open old book with a large Sanskrit chapter heading, a single lit diya flame beside it, warm light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर ध्यान से पढ़ें, तो मन का ये भारीपन सबसे पहले दुर्योधन के शब्दों में दिखता है।",
+     "prompt": "Close-up in profile of a dark-skinned man's troubled face with a thick black moustache and gold crown, against a cloudy dawn sky, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और इसी डर में दुर्योधन ने अपने योद्धाओं को एक आदेश दिया।",
+     "prompt": "A dark-skinned man in gold crown and golden armour stepping up onto his chariot and raising his mace toward a row of commanders, dawn light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch8",
+   "card": "भीष्म की रक्षा",
+   "shots": [
+    {
+     "vo": "दुर्योधन ने अपने सभी योद्धाओं से कहा।",
+     "prompt": "A dark-skinned man in gold crown and golden armour standing on his chariot speaking to commanders gathered on their chariots around him, banners above, dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अयनेषु च सर्वेषु यथाभागमवस्थिताः, भीष्ममेवाभिरक्षन्तु भवन्तः सर्व एव हि॥",
+     "prompt": "A dark-skinned man in gold crown and golden armour with his arm outstretched toward a distant chariot with an old white-bearded warrior, commanders' banners all around, dawn light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मतलब, सब मोर्चों पर अपनी-अपनी जगह डटे रहो, और तुम सब मिलकर भीष्म पितामह की ही रक्षा करो।",
+     "prompt": "Chariots moving into a protective ring around the central chariot of an old white-bearded warrior in silver armour standing at the centre, aerial angle, dust, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "'अयन' यानी सेना के व्यूह में आने-जाने के रास्ते, जहाँ से दुश्मन भीतर घुस सकता है।",
+     "prompt": "An aerial view of an ancient battle formation on a plain, narrow gaps between the rows of troops, each gap guarded by a chariot, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और 'भीष्ममेव' का अर्थ है, भीष्म की ही। यानी सबसे पहले, हर हाल में, पितामह की रक्षा।",
+     "prompt": "Armoured warriors on horseback taking position in a circle around a chariot carrying an old white-bearded warrior, shields raised, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अजीब बात है। जो सेनापति खुद सबकी रक्षा करता, उसी की रक्षा का आदेश!",
+     "prompt": "An old man with a white beard and silver armour looking calmly at someone with raised eyebrows, dark banners behind him, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पिता शांतनु के सुख के लिए देवव्रत ने जीवन भर ब्रह्मचारी रहने और गद्दी न लेने का प्रण लिया था।",
+     "prompt": "A young noble prince in a white dhoti raising his hand in a solemn vow on the left, a fisherman chief with a turban and dark skin on the right, a river bank with boats behind them, daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उसी भीषण प्रण से उनका नाम भीष्म पड़ा। और शांतनु ने उन्हें इच्छामृत्यु का वरदान दिया।",
+     "prompt": "An elderly crowned king in a golden-yellow robe on the right blessing a young prince in white on the left with a raised hand, palace hall, warm light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर डर किस बात का था? इसका जवाब महाभारत के उद्योग पर्व में मिलता है।",
+     "prompt": "An old palm-leaf manuscript page with worn edges under warm lamp light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "युद्ध से पहले भीष्म ने खुद दुर्योधन से कहा था, मैं शिखंडी पर बाण नहीं चलाऊँगा।",
+     "prompt": "An old man with a white beard and silver armour on the left speaking gravely to a dark-skinned man in gold crown and golden armour on the right, seated together in a royal war tent at night, lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शिखंडी राजा द्रुपद की संतान था। भीष्म के अनुसार वो स्त्री रूप में जन्मा था, इसलिए वो उस पर शस्त्र नहीं उठाएँगे।",
+     "prompt": "A slim young warrior in armour with a bow standing among soldiers beneath a banner, calm face, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "साधक संजीवनी के अनुसार, दुर्योधन को डर था कि कहीं शिखंडी को आगे करके कोई भीष्म तक न पहुँच जाए।",
+     "prompt": "A dark-skinned man in gold crown and golden armour staring across a field with narrowed worried eyes, distant army far off, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इसीलिए उसने कहा, हर रास्ते पर खड़े रहो, पितामह तक कोई न पहुँचे।",
+     "prompt": "Armoured warriors closing their ranks at every gap in a formation, spears pointing forward, shields locked, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और संजय ये सब उस राजा को सुना रहे थे, जो जानता था कि ये घेरा आख़िर में टूट गया।",
+     "prompt": "An old blind king with a grey beard, gold crown, maroon robes and closed eyes seated with his head lowered on the left, a middle-aged man in white robes and white turban speaking softly beside him on the right, dim palace hall, lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch9",
+   "card": "आज का कुरुक्षेत्र",
+   "shots": [
+    {
+     "vo": "वही कुरुक्षेत्र आज हरियाणा का एक शांत तीर्थ है।",
+     "prompt": "A peaceful modern Indian pilgrimage town at golden hour with temples, green fields and a large sacred pond, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भक्त मानते हैं, अड़तालीस कोस की ये पूरी धरती धर्मक्षेत्र है।",
+     "prompt": "Pilgrims in simple clothes walking a rural path past green fields and small roadside shrines, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ज्योतिसर में एक पुराना बरगद है। मान्यता है, गीता का उपदेश यहीं हुआ था।",
+     "prompt": "A huge ancient banyan tree with spreading roots, a small shrine and a sacred pond beside it, soft morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लोग उस पेड़ की छाँव में बैठकर गीता के श्लोक पढ़ते हैं।",
+     "prompt": "An elderly man on the left and a young girl on the right sitting side by side under a huge banyan tree reading a book together, simple clothes, soft shade, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पास ही नरकातारी गाँव में भीष्म कुंड है। मान्यता है, बाणों की शय्या पर पितामह यहीं लेटे थे।",
+     "prompt": "A quiet sacred pond with stone steps and a small temple, devotees offering flowers at the water's edge, soft evening light, Indian village setting, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ब्रह्म सरोवर के पास श्रीकृष्ण और अर्जुन के रथ की एक बड़ी प्रतिमा भी है।",
+     "prompt": "A large bronze sculpture of a chariot with four horses, a charioteer and a standing archer, beside a sacred pond, pilgrims looking up at it, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मार्गशीर्ष शुक्ल एकादशी को गीता जयंती मनाई जाती है। इसे मोक्षदा एकादशी भी कहते हैं।",
+     "prompt": "A home altar decorated with marigold garlands, a framed painting of a blue-skinned god and a fair-skinned archer on a chariot, a small book and a lit diya before it, warm light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन दिनों ब्रह्म सरोवर पर गीता महोत्सव होता है। दो हज़ार सोलह से हरियाणा सरकार इसे अंतरराष्ट्रीय गीता महोत्सव के रूप में मनाती है।",
+     "prompt": "A large sacred pond at dusk with thousands of glowing diyas on the stone ghats, crowds of devotees gathered, a lit stage in the distance, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "caption": "उन दिनों ब्रह्म सरोवर पर गीता महोत्सव होता है। 2016 से हरियाणा सरकार इसे अंतरराष्ट्रीय गीता महोत्सव के रूप में मनाती है।"
+    },
+    {
+     "vo": "घाटों पर दीयों की कतारें जलती हैं, और मंच पर गीता पाठ होता है।",
+     "prompt": "Rows of glowing diyas on stone ghat steps reflected in dark water, devotees sitting and chanting from books in the background, warm light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बहुत से घरों में उस दिन पूरी गीता का पाठ होता है, सातों सौ श्लोक।",
+     "prompt": "A family of four seated on a floor mat reading from books aloud together before a small altar with a lit lamp, simple clothes, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पाठ जब पहले अध्याय पर आता है, तो युद्धभूमि में सबसे पहले दुर्योधन की आवाज़ सुनाई देती है।",
+     "prompt": "A child's finger following Sanskrit lines on the page of an open book, a diya glowing beside the page, warm light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और उसकी बातों के ठीक बाद, बारहवें श्लोक में गूँजता है कुरुक्षेत्र का पहला शंख।",
+     "prompt": "A misty sacred pond at dawn on the left with the ghats, fading into an ancient battlefield on the right where two armies emerge from the mist, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch10",
+   "card": "सिंहनाद",
+   "shots": [
+    {
+     "vo": "श्लोकों में द्रोण का कोई उत्तर नहीं मिलता।",
+     "prompt": "Close-up of an old man's still face with a long white beard moving in the wind, lips closed, silent, sacred thread on his shoulder, morning light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "टीकाकार मानते हैं, गुरु दुर्योधन की बातों का मतलब समझ रहे थे, इसलिए मौन रहे।",
+     "prompt": "An old white-bearded man with sacred thread and armour turning slightly away from a dark-skinned man in gold crown on the left, gazing toward a distant army, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और भीष्म पितामह आगे बढ़कर शंख उठाते हैं।",
+     "prompt": "An old man with a long white beard, silver armour and white dhoti stepping forward on his chariot and lifting a great white conch with both hands, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कुरु वंश के सबसे बड़े बुज़ुर्ग, जिन्होंने हस्तिनापुर में कई पीढ़ियाँ बढ़ते देखी थीं।",
+     "prompt": "Close-up of an old man's aged eyes under white brows, wise and sorrowful, morning light, sharp focus, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तस्य सञ्जनयन्हर्षं कुरुवृद्धः पितामहः, सिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान्॥",
+     "prompt": "An old man with a long white beard and silver armour standing tall on his chariot raising a great white conch toward his lips, dark banners streaming behind him, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अर्थ: दुर्योधन के मन में हर्ष जगाते हुए, कुरुओं में सबसे बूढ़े, प्रतापी पितामह भीष्म ने सिंह की तरह ऊँची गर्जना की।",
+     "prompt": "An old man with a long white beard flying in the wind, silver armour, head thrown back with his mouth open in a lion-like roar, a fiery orange sky behind him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और फिर पूरे ज़ोर से अपना शंख बजाया।",
+     "prompt": "An old white-bearded man in silver armour blowing a large white conch on his chariot, clouds of dust rising over the battlefield behind him, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सिंहनाद यानी शेर जैसी दहाड़। पुराने युद्धों में वीर ऐसी गर्जना से अपनी सेना में जोश भरते थे।",
+     "prompt": "Rows of warriors raising their spears and bows high as they shout, banners and dust in the dawn wind, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर इस शंख की वजह श्लोक की पहली पंक्ति में ही लिखी है: 'तस्य सञ्जनयन्हर्षं', यानी दुर्योधन के मन में हर्ष जगाते हुए।",
+     "prompt": "A dark-skinned man with gold crown and golden armour turning toward the left with a tense face easing into a smile, a chariot with an old white-bearded warrior behind him, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "टीकाकारों के अनुसार, कुरुक्षेत्र का पहला शंख युद्ध की ललकार कम, एक बेचैन मन को दिया गया सहारा ज़्यादा था।",
+     "prompt": "A dark-skinned man in gold crown and golden armour raising his mace with renewed confidence on the left, an old white-bearded man in silver armour lowering a white conch beside him on the right, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीष्म जानते थे धर्म किस ओर है। फिर भी उन्होंने हस्तिनापुर की गद्दी की सेवा का वचन निभाया।",
+     "prompt": "An old man with a long white beard and silver armour standing solemn and steady on his chariot holding a white conch, quiet sadness in his face, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शंख की गूँज कौरव सेना से निकलकर पांडवों की ओर बढ़ चली।",
+     "prompt": "A vast battlefield at sunrise, a faint golden wave of light spreading from a large army on the left toward a smaller army on the right, birds rising into the sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "उधर सामने, सफ़ेद घोड़ों वाले रथ पर श्रीकृष्ण और अर्जुन खड़े थे।",
+     "prompt": "A white chariot with white horses on the right, a divinely beautiful Lord Krishna, blue skin, peacock feather crown, yellow dhoti, holding the reins, a fair-skinned young man with a large bow standing beside him on the left, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पितामह के शंख का जवाब किसने, किस शंख से दिया? अगली कथा में।",
+     "prompt": "Close-up of a divinely beautiful Lord Krishna, blue skin, peacock feather crown, yellow dhoti, calmly lifting a white conch to his lips, a gentle golden glow around him, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कमेंट में जय श्री कृष्ण लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
+     "prompt": "A white chariot with white horses on a calm field, a divinely beautiful Lord Krishna, blue skin, peacock feather crown, yellow dhoti, holding the reins, a fair-skinned young man with a large bow beside him, golden sunrise light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ],
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "series",
+  "points": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0
+  ]
+ },
+ "series": "gita",
+ "series_ep": 2,
+ "source_ref": "भगवद गीता · अध्याय 1 अर्जुनविषादयोग, श्लोक 7–12",
+ "lane": "series"
+}
