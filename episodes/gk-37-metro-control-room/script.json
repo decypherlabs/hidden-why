@@ -242,10 +242,10 @@
     },
     {
      "vo": "और जिस ट्रेन में ड्राइवर ही न हो, उसे कौन रोके?",
-     "prompt": "A magenta-striped Delhi Metro train gliding into an elevated station seen from the front three-quarter view, the plain front cab window dark and empty with nobody inside, the train front painted plain and wordless, passengers on the platform staring at it, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A magenta-striped Delhi Metro train gliding into an elevated station on a tall concrete viaduct, front three-quarter view, the front cab window dark and empty with nobody inside, the whole train front smooth, plain and unmarked, passengers on the platform staring at it, city rooftops far below, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 8927
+     "seed": 16846
     },
     {
      "vo": "भोर में पहली ट्रेन डिपो से निकलकर लाइन पर उतरती है।",
@@ -1953,8 +1953,128 @@
      "caption": "फिर 28 दिसंबर 2020 को उस पर दिल्ली मेट्रो की पहली बिना ड्राइवर वाली ट्रेन चली।",
      "words": {
       "81": {
-       "src": "f5eab80247d7",
-       "items": []
+       "src": "f986f82c9fb2",
+       "items": [
+        {
+         "text": "28 DEC 2020",
+         "grid": [
+          [
+           [
+            625.3,
+            308.7
+           ],
+           [
+            676.8,
+            309.0
+           ],
+           [
+            729.2,
+            309.3
+           ],
+           [
+            781.7,
+            309.6
+           ],
+           [
+            833.3,
+            309.9
+           ],
+           [
+            885.9,
+            310.2
+           ],
+           [
+            938.6,
+            310.5
+           ]
+          ],
+          [
+           [
+            625.3,
+            331.6
+           ],
+           [
+            676.8,
+            331.9
+           ],
+           [
+            729.2,
+            332.3
+           ],
+           [
+            781.7,
+            332.6
+           ],
+           [
+            833.3,
+            332.9
+           ],
+           [
+            885.9,
+            333.2
+           ],
+           [
+            938.6,
+            333.5
+           ]
+          ],
+          [
+           [
+            625.3,
+            354.5
+           ],
+           [
+            676.8,
+            354.9
+           ],
+           [
+            729.2,
+            355.2
+           ],
+           [
+            781.7,
+            355.5
+           ],
+           [
+            833.3,
+            355.8
+           ],
+           [
+            885.9,
+            356.1
+           ],
+           [
+            938.6,
+            356.5
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           604,
+           300
+          ],
+          [
+           960,
+           302
+          ],
+          [
+           960,
+           589
+          ],
+          [
+           604,
+           586
+          ]
+         ],
+         "band": [
+          0.03,
+          0.19
+         ]
+        }
+       ]
       }
      },
      "seed": 9000
@@ -2164,40 +2284,19 @@
  },
  "repaint": {
   "shots": [
-   8,
-   19,
-   21,
-   35,
-   44,
-   76,
-   81,
-   89
+   8
   ],
   "thumbs": [],
-  "at": "2026-11-18 20:56"
+  "at": "2026-11-18 21:24"
  },
  "shot_qc": {
-  "checked": "2026-11-18T15:23:55Z",
-  "rounds": 1,
+  "checked": "2026-11-18T15:52:25Z",
+  "rounds": 2,
   "why": {
-   "8": "Painted gibberish Hindi lettering on the train front, and the cab window isn't empty.",
-   "19": "Shows a camera-like box with a number and a light beam, not a pantograph touching the wire.",
-   "21": "A map and aircraft are shown on a screen.",
-   "35": "No cut cable with frayed copper ends. It shows a hose with a brush end.",
-   "44": "Shows a locomotive front with a cardboard box on the track, not a bogie passing over a small flat box.",
-   "76": "Map board with labels and a gibberish sign ('STATE Ruclater'); the point machine isn't clearly shown.",
-   "89": "Painted gibberish lettering on the emergency button ('EFEERGICY').",
-   "81": "no blank surface for its words"
+   "8": "The train front has painted lettering that reads 'Delhi Metra', which is misspelled and big enough to notice. The brief asked for a plain, wordless front. The station also looks ground-level, not elevated."
   },
   "recheck": [
-   "8",
-   "19",
-   "21",
-   "35",
-   "44",
-   "76",
-   "81",
-   "89"
+   "8"
   ]
  },
  "voice_ok": "voice-gk-37-metro-control-room-d629d3003f",
