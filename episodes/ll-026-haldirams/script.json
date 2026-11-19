@@ -5,6 +5,7 @@
  "build": "github",
  "lang": "hi",
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "words_in_edit": true,
@@ -48,7 +49,15 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up painting of the steel tray: cups of milky tea and a glass bowl heaped with thin golden bhujia, warm lamp light"
-     ]
+     ],
+     "photo": {
+      "src": "https://pixabay.com/get/g9dc87954d832af3199cba46fc4b126c941436f36fc37e4e90cecfdeecd8614add18b8aa9a6e34951f9727aa2058368731f51779bc1c86affff30e23158b17402_1280.jpg",
+      "w": 5760,
+      "h": 3840,
+      "credit": "Pixabay (JillWellington)",
+      "page": "https://pixabay.com/photos/tea-biscuit-still-life-cookie-6101059/",
+      "card": 0.72
+     }
     },
     {
      "vo": "चाय के साथ एक कटोरी भुजिया। और पैकेट पर एक ही नाम: हल्दीराम्स.",
@@ -58,8 +67,8 @@
      "more": [
       "Medium painting of the small Indian boy in a yellow t-shirt grinning as he grabs a fistful of bhujia from the bowl, his mother in a maroon salwar kameez laughing behind him"
      ],
-     "title": "*Haldiram's*",
-     "caption": "चाय के साथ एक कटोरी भुजिया। और पैकेट पर एक ही नाम: Haldiram's."
+     "caption": "चाय के साथ एक कटोरी भुजिया। और पैकेट पर एक ही नाम: Haldiram's.",
+     "label": "HALDIRAM'S · पैकेट पर एक ही नाम"
     },
     {
      "vo": "लोग नमकीन नहीं माँगते थे, बोलते थे, 'हल्दीराम वाली भुजिया लाना'।",
@@ -69,14 +78,21 @@
      "more": [
       "Close-up painting of an Indian shopkeeper's hand pulling one red packet off a hanging strip of identical snack packets"
      ],
-     "caption": "लोग नमकीन नहीं माँगते थे, बोलते थे, 'Haldiram वाली भुजिया लाना'।"
+     "caption": "लोग नमकीन नहीं माँगते थे, बोलते थे, 'Haldiram वाली भुजिया लाना'।",
+     "photo": {
+      "src": "https://pixabay.com/get/g3a33c78d8e4969ae1ef8816ecc08f3825697868ddb6de31c6f66a87f9375d84326eb50a486b12d30cf0802769f826d8621e37f41ed990954f21a96233c069a16_1280.jpg",
+      "w": 5770,
+      "h": 3847,
+      "credit": "Pixabay (Antonio_Cansino)",
+      "page": "https://pixabay.com/photos/woman-face-mask-market-hijab-5632026/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर क्या आपने कभी पैकेट का पीछे वाला हिस्सा पढ़ा है?",
      "prompt": "The back of a red snack packet held in an Indian hand, a large plain blank rectangular panel on it, the thumb pointing at the panel, sharp focus, cool overcast daylight, extreme close-up",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "पीछे का *पता*"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
      "vo": "कभी दिल्ली का पता, कभी नागपुर का, कभी कोलकाता का।",
@@ -86,8 +102,8 @@
      "more": [
       "Close-up painting of two paper address labels side by side reading \"NEW DELHI\" and \"NAGPUR\", a magnifying glass over them, grey afternoon light"
      ],
-     "title": "Delhi, Nagpur, *Kolkata*",
-     "caption": "कभी Delhi का पता, कभी Nagpur का, कभी Kolkata का।"
+     "caption": "कभी Delhi का पता, कभी Nagpur का, कभी Kolkata का।",
+     "title": "एक नाम, तीन पते"
     },
     {
      "vo": "तो हल्दीराम्स का असली मालिक है कौन? और ये इतना बड़ा कैसे बना?",
@@ -97,7 +113,15 @@
      "more": [
       "A symbolic painting: a single empty chair at the head of a long boardroom table in shadow, a red snack packet placed in front of it"
      ],
-     "caption": "तो Haldiram's का असली मालिक है कौन? और ये इतना बड़ा कैसे बना?"
+     "caption": "तो Haldiram's का असली मालिक है कौन? और ये इतना बड़ा कैसे बना?",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Haldiram%27s_-_Teghoria_-_Kolkata_2012-04-11_9424.JPG/1920px-Haldiram%27s_-_Teghoria_-_Kolkata_2012-04-11_9424.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4189,
+      "h": 2782,
+      "credit": "Haldiram's - Teghoria - Kolkata 2012-04-11 9424.JPG by Biswarup Ganguly, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Haldiram%27s_-_Teghoria_-_Kolkata_2012-04-11_9424.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "टाटा? कोई विदेशी फ़ंड? दिल्ली वाला परिवार?",
@@ -107,14 +131,22 @@
      "more": [
       "Close-up painting of an Indian hand hovering over the three envelopes, unsure which to open, cold blue light"
      ],
-     "caption": "Tata? कोई विदेशी fund? Delhi वाला परिवार?"
+     "caption": "Tata? कोई विदेशी fund? Delhi वाला परिवार?",
+     "label": "TATA · क्या ये हैं असली मालिक?",
+     "photo": {
+      "src": "https://pixabay.com/get/gc143a3cc346168cac6955ca93f6ada45aa6f1d2313b2a2e2b6fbf932dde72a5dab7ed3803372b05941fd5ced4be59610499b4047b2f6436efa4afe4cac533ce0_1280.jpg",
+      "w": 3456,
+      "h": 2304,
+      "credit": "Pixabay (eddypellegrino)",
+      "page": "https://pixabay.com/photos/street-road-people-crowd-buildings-5703332/",
+      "card": 0.72
+     }
     },
     {
      "vo": "या एक ऐसा आदमी, जिसका असली नाम हल्दीराम था ही नहीं?",
      "prompt": "An elderly Indian man in a white turban and dhoti standing in a doorway, face in shadow, a brass tray of golden bhujia on the floor at his feet, harsh desert sunlight behind him, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "असली *नाम*?",
      "caption": "या एक ऐसा आदमी, जिसका असली नाम Haldiram था ही नहीं?"
     },
     {
@@ -122,9 +154,8 @@
      "prompt": "A narrow 1930s lane in Bikaner at dawn, sandstone havelis with carved balconies, a camel cart on the left, smoke rising from a tiny shop's kadhai on the right, no cars or modern vehicles, pale pink light, wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "label": "BIKANER · 1937",
-     "title": "*1937*, Bikaner",
-     "caption": "सब शुरू हुआ 1937 में, Rajasthan के Bikaner की एक छोटी सी गली से।"
+     "caption": "सब शुरू हुआ 1937 में, Rajasthan के Bikaner की एक छोटी सी गली से।",
+     "date": "1937"
     }
    ]
   },
@@ -140,7 +171,22 @@
      "more": [
       "Medium painting of a 1930s Bikaner street with Indian men in bright turbans buying namkeen wrapped in paper from a roadside shop, dust in the air"
      ],
-     "caption": "Bikaner, रेगिस्तान का शहर। यहाँ भुजिया सिर्फ़ नमकीन नहीं, हर घर की आदत थी।"
+     "caption": "Bikaner, रेगिस्तान का शहर। यहाँ भुजिया सिर्फ़ नमकीन नहीं, हर घर की आदत थी।",
+     "place": {
+      "name": "BIKANER",
+      "sub": "RAJASTHAN · 1937",
+      "query": "Bikaner, Rajasthan, India",
+      "lat": 28.0159,
+      "lon": 73.3171
+     },
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/KOT_GATE-BIKANER-RAJASTHAN-DSC0001.jpg/1920px-KOT_GATE-BIKANER-RAJASTHAN-DSC0001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4640,
+      "h": 2610,
+      "credit": "KOT GATE-BIKANER-RAJASTHAN-DSC0001.jpg by sha, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:KOT_GATE-BIKANER-RAJASTHAN-DSC0001.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "कहा जाता है, अग्रवाल परिवार की यहाँ एक नमकीन की दुकान थी, जो दादा के ज़माने से चल रही थी।",
@@ -150,7 +196,15 @@
      "more": [
       "Close-up painting of an old Indian hand writing in a red cloth-bound bahi-khata ledger by an oil lamp"
      ],
-     "caption": "कहा जाता है, Agarwal परिवार की यहाँ एक नमकीन की दुकान थी, जो दादा के ज़माने से चल रही थी।"
+     "caption": "कहा जाता है, Agarwal परिवार की यहाँ एक नमकीन की दुकान थी, जो दादा के ज़माने से चल रही थी।",
+     "photo": {
+      "src": "https://pixabay.com/get/g0f07a6f570848a098f5fdd1009a4ce6283730479ffd47531ee427f4412cfe3de18645554ec1915eea0415bb9b24379a573e90ce7a98bbfc0cfc2d14376c5e61a_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (balouriarajesh)",
+      "page": "https://pixabay.com/photos/street-vendor-namkeen-seller-shop-5033238/",
+      "card": 0.72
+     }
     },
     {
      "vo": "इसी दुकान पर बैठता था एक लड़का, जिसे घर में सब हल्दीराम कहते थे।",
@@ -160,8 +214,8 @@
      "more": [
       "Medium painting of the plump Indian halwai with a thick black moustache in a white vest and dhoti handing the boy a ladle, steam between them"
      ],
-     "label": "HALDIRAM · The founder",
-     "caption": "इसी दुकान पर बैठता था एक लड़का, जिसे घर में सब Haldiram कहते थे।"
+     "caption": "इसी दुकान पर बैठता था एक लड़का, जिसे घर में सब Haldiram कहते थे।",
+     "label": "HALDIRAM · घर का नाम, दुकान पर बैठता लड़का"
     },
     {
      "vo": "उस वक़्त बीकानेर की भुजिया मोटी होती थी। सोचिए, हर दुकान पर लगभग एक जैसी।",
@@ -171,7 +225,15 @@
      "more": [
       "A realistic painting of a row of 1930s Bikaner shops, each with the same heap of thick namkeen on brass trays, bored Indian shopkeepers fanning themselves"
      ],
-     "caption": "उस वक़्त Bikaner की भुजिया मोटी होती थी। सोचिए, हर दुकान पर लगभग एक जैसी।"
+     "caption": "उस वक़्त Bikaner की भुजिया मोटी होती थी। सोचिए, हर दुकान पर लगभग एक जैसी।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Shop_selling_Bikaneri_bhujia_in_Jaipur.jpg/1920px-Shop_selling_Bikaneri_bhujia_in_Jaipur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2496,
+      "h": 1559,
+      "credit": "Shop selling Bikaneri bhujia in Jaipur.jpg by Nagarjun Kandukuru from Bangalore, India, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Shop_selling_Bikaneri_bhujia_in_Jaipur.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "कहा जाता है, हल्दीराम ने इसे पतला बनाना शुरू किया। मोठ का आटा, बारीक और कुरकुरी।",
@@ -182,7 +244,8 @@
       "Extreme close-up painting of hair-thin golden bhujia strands rising out of hot oil on a perforated ladle",
       "Close-up painting of an open jute sack of pale moth bean flour with a brass scoop, a paper tag on the sack reading \"मोठ\""
      ],
-     "caption": "कहा जाता है, Haldiram ने इसे पतला बनाना शुरू किया। मोठ का आटा, बारीक और कुरकुरी।"
+     "caption": "कहा जाता है, Haldiram ने इसे पतला बनाना शुरू किया। मोठ का आटा, बारीक और कुरकुरी।",
+     "title": "पतली भुजिया"
     },
     {
      "vo": "लोगों को स्वाद एकदम अलग लगा। एक बार खाया, तो वापस इसी दुकान पर आए।",
@@ -201,7 +264,8 @@
      "more": [
       "Close-up painting of a brass tray of thin bhujia with a hand-written card propped against it reading \"डूंगर सेव\""
      ],
-     "caption": "कहा जाता है, परिवार की इस भुजिया का नाम Bikaner के महाराजा Dungar Singh के नाम पर पड़ा: Dungar Sev."
+     "caption": "कहा जाता है, परिवार की इस भुजिया का नाम Bikaner के महाराजा Dungar Singh के नाम पर पड़ा: Dungar Sev.",
+     "label": "DUNGAR SINGH · बीकानेर के महाराजा"
     },
     {
      "vo": "और दाम? पतली भुजिया, बाकी दुकानों से ऊँचा दाम।",
@@ -210,15 +274,31 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Medium painting of the thin elderly Indian man in a white turban and kurta counting coins into the halwai's palm without arguing"
-     ]
+     ],
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Bikaneri_bhujia_in_West_Bengal%2C_India%2C_photographed_by_Yogabrata_Chakraborty%2C_on_March_11%2C_2023.jpg/1920px-Bikaneri_bhujia_in_West_Bengal%2C_India%2C_photographed_by_Yogabrata_Chakraborty%2C_on_March_11%2C_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3820,
+      "h": 2696,
+      "credit": "Bikaneri bhujia in West Bengal, India, photographed by Yogabrata Chakraborty, on March 11, 2023.jpg by Billjones94, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bikaneri_bhujia_in_West_Bengal,_India,_photographed_by_Yogabrata_Chakraborty,_on_March_11,_2023.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "सोचिए, आज जिसे हम प्रीमियम ब्रांड कहते हैं, वो सोच इस गली में तब ही आ चुकी थी।",
      "prompt": "A single paper cone of fine golden bhujia on a velvet cloth beside a pile of ordinary thick namkeen on old newspaper, a lantern lighting only the cone, dark table, close-up",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "पतली भुजिया, ऊँचा *दाम*",
-     "caption": "सोचिए, आज जिसे हम premium brand कहते हैं, वो सोच इस गली में तब ही आ चुकी थी।"
+     "caption": "सोचिए, आज जिसे हम premium brand कहते हैं, वो सोच इस गली में तब ही आ चुकी थी।",
+     "title": "PREMIUM सोच",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Sweets_store_in_Delhi_India_March_2013.jpg/1920px-Sweets_store_in_Delhi_India_March_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2448,
+      "h": 3264,
+      "credit": "Sweets store in Delhi India March 2013.jpg by Lingeswaran Marimuthukumar, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Sweets_store_in_Delhi_India_March_2013.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "उन्नीस सौ सैंतीस में हल्दीराम ने अपनी दुकान शुरू की। यही साल आज कंपनी की शुरुआत माना जाता है।",
@@ -228,7 +308,15 @@
      "more": [
       "A realistic painting of a fresh hand-painted board being hung over a small Bikaner shop, reading \"हल्दीराम भुजिया\", Indian workers on a wooden ladder, early morning light"
      ],
-     "caption": "1937 में Haldiram ने अपनी दुकान शुरू की। यही साल आज company की शुरुआत माना जाता है।"
+     "caption": "1937 में Haldiram ने अपनी दुकान शुरू की। यही साल आज company की शुरुआत माना जाता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g3bc3d28c1426e01491f9bab971529494be8a5cf4a875d31efa0c821dfdd36ecb0da47bffae0fe22807d1b86f17444c5a18a7d7156a2ba8720f9c821ff9305475_1280.jpg",
+      "w": 5598,
+      "h": 4010,
+      "credit": "Pixabay (Glavo)",
+      "page": "https://pixabay.com/photos/junagarh-fort-bikaner-architecture-3184273/",
+      "card": 0.72
+     }
     },
     {
      "vo": "हल्दीराम के बेटों में थे मूलचंद और रामेश्वर लाल. और मूलचंद के बेटे आगे चलकर अपने-अपने शहर बसाएँगे।",
@@ -238,14 +326,24 @@
      "more": [
       "A realistic painting of a large Indian joint family in a sandstone courtyard at dusk, children playing near the elders, the faces of the elders in shade"
      ],
-     "caption": "Haldiram के बेटों में थे Moolchand और Rameshwar Lal. और Moolchand के बेटे आगे चलकर अपने-अपने शहर बसाएँगे।"
+     "caption": "Haldiram के बेटों में थे Moolchand और Rameshwar Lal. और Moolchand के बेटे आगे चलकर अपने-अपने शहर बसाएँगे।",
+     "label": "MOOLCHAND · हल्दीराम के बेटे"
     },
     {
      "vo": "पर बीकानेर की गलियाँ छोटी थीं। और हल्दीराम का सपना उनसे कहीं बड़ा।",
      "prompt": "A young Indian man in a turban holding a tin trunk, seen from the side, looking at a steam train waiting on a 1930s Bikaner railway platform, a plain blank departure board above, no cars or modern vehicles, purple dusk sky, medium-wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "पर Bikaner की गलियाँ छोटी थीं। और Haldiram का सपना उनसे कहीं बड़ा।"
+     "caption": "पर Bikaner की गलियाँ छोटी थीं। और Haldiram का सपना उनसे कहीं बड़ा।",
+     "title": "बड़ा सपना",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Junagarh_Fort_Bikaner_Rajasthan.jpg/1920px-Junagarh_Fort_Bikaner_Rajasthan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Junagarh Fort Bikaner Rajasthan.jpg by Mukesh.kfc, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Junagarh_Fort_Bikaner_Rajasthan.jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -269,8 +367,16 @@
      "more": [
       "Medium painting of a Marwari wedding courtyard in 1950s Calcutta, marigold garlands, Indian guests in turbans and silk sarees, brass trays of sweets and namkeen"
      ],
-     "label": "KOLKATA · 1950s",
-     "caption": "1950s में, कहा जाता है शादी के लिए, Haldiram Kolkata पहुँचे।"
+     "caption": "1950s में, कहा जाता है शादी के लिए, Haldiram Kolkata पहुँचे।",
+     "date": "1950s",
+     "photo": {
+      "src": "https://pixabay.com/get/g6a53d8eac7b313af2a3984842e0d154ea606682cf7da048263452139260029538180612626be5584a29e798dffeb98a9cb86eea177c197b88b19495ff19b781d_1280.jpg",
+      "w": 5472,
+      "h": 3648,
+      "credit": "Pixabay (hitesh0141)",
+      "page": "https://pixabay.com/photos/car-vehicle-transportation-system-3153077/",
+      "card": 0.72
+     }
     },
     {
      "vo": "कोलकाता में राजस्थान से आए मारवाड़ी परिवार बहुत थे। और उन्हें घर का स्वाद याद आता था।",
@@ -280,7 +386,22 @@
      "more": [
       "Close-up painting of an elderly Indian Marwari woman in a red bandhani odhni tasting bhujia from a leaf bowl, eyes closed, smiling"
      ],
-     "caption": "Kolkata में Rajasthan से आए Marwari परिवार बहुत थे। और उन्हें घर का स्वाद याद आता था।"
+     "caption": "Kolkata में Rajasthan से आए Marwari परिवार बहुत थे। और उन्हें घर का स्वाद याद आता था।",
+     "place": {
+      "name": "KOLKATA",
+      "sub": "WEST BENGAL · 1950s",
+      "query": "Kolkata, West Bengal, India",
+      "lat": 22.5726,
+      "lon": 88.3639
+     },
+     "photo": {
+      "src": "https://pixabay.com/get/gdc51d3a6dfa91a3701fb961b2a6e7d93cea1b2304421cdebb42b1fc4e55748b2d5a4a7381ad9643fb9a93481e0c3a36f346f187076d58a3a2c7fa3f830c65e25_1280.jpg",
+      "w": 5434,
+      "h": 3623,
+      "credit": "Pixabay (katetrysh)",
+      "page": "https://pixabay.com/photos/spice-market-dubai-souq-9060102/",
+      "card": 0.72
+     }
     },
     {
      "vo": "यहीं उन्होंने भुजिया की दुकान खोल दी। बीकानेर से डेढ़ हज़ार किलोमीटर से भी ज़्यादा दूर।",
@@ -290,7 +411,15 @@
      "more": [
       "A realistic painting of a narrow new namkeen shop in 1950s Calcutta, a fresh blank signboard, Indian customers at the counter, a tube light flickering on"
      ],
-     "caption": "यहीं उन्होंने भुजिया की दुकान खोल दी। Bikaner से 1,500 किलोमीटर से भी ज़्यादा दूर।"
+     "caption": "यहीं उन्होंने भुजिया की दुकान खोल दी। Bikaner से 1,500 किलोमीटर से भी ज़्यादा दूर।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Haldiram_Banquets_-_Restaurant_-_24_Ballygunge_Park_Road_-_Kolkata_4803.JPG/1920px-Haldiram_Banquets_-_Restaurant_-_24_Ballygunge_Park_Road_-_Kolkata_4803.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3979,
+      "h": 2643,
+      "credit": "Haldiram Banquets - Restaurant - 24 Ballygunge Park Road - Kolkata 4803.JPG by Biswarup Ganguly, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Haldiram_Banquets_-_Restaurant_-_24_Ballygunge_Park_Road_-_Kolkata_4803.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "कहा जाता है, काम में साथ थे उनके बेटे रामेश्वर लाल. वही डूंगर सेव, अब बंगाल की गलियों में।",
@@ -300,15 +429,24 @@
      "more": [
       "Medium painting of a Bengali schoolboy in white shorts on the shop step munching from a paper cone, a yellow tram passing behind"
      ],
-     "caption": "कहा जाता है, काम में साथ थे उनके बेटे Rameshwar Lal. वही Dungar Sev, अब बंगाल की गलियों में।"
+     "caption": "कहा जाता है, काम में साथ थे उनके बेटे Rameshwar Lal. वही Dungar Sev, अब बंगाल की गलियों में।",
+     "label": "RAMESHWAR LAL · हल्दीराम के बेटे"
     },
     {
      "vo": "पहली बार परिवार की दुकान बीकानेर से बाहर निकली थी। और ये चल पड़ी!",
      "prompt": "A busy 1950s Calcutta namkeen counter at night, nearly empty brass trays, Indian customers in dhotis holding out coins, a shopkeeper filling paper cones, kerosene lamps glowing, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "पहली *छलांग*",
-     "caption": "पहली बार परिवार की दुकान Bikaner से बाहर निकली थी। और ये चल पड़ी!"
+     "caption": "पहली बार परिवार की दुकान Bikaner से बाहर निकली थी। और ये चल पड़ी!",
+     "title": "पहली बार बाहर",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Haldiram_Banquets_-_Restaurant_-_24_Ballygunge_Park_Road_-_Kolkata_4801.JPG/1920px-Haldiram_Banquets_-_Restaurant_-_24_Ballygunge_Park_Road_-_Kolkata_4801.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4288,
+      "h": 2848,
+      "credit": "Haldiram Banquets - Restaurant - 24 Ballygunge Park Road - Kolkata 4801.JPG by Biswarup Ganguly, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Haldiram_Banquets_-_Restaurant_-_24_Ballygunge_Park_Road_-_Kolkata_4801.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "उधर बीकानेर की पुरानी दुकान हल्दीराम के बेटे मूलचंद संभालते रहे।",
@@ -328,7 +466,15 @@
      "more": [
       "Medium painting of an Indian shop assistant in a white cap stacking paper packets of bhujia on a wooden shelf, humid afternoon light"
      ],
-     "caption": "समय के साथ Kolkata वाला काम अपनी अलग राह पर चल पड़ा। और आज भी East India में उसकी अपनी पहचान है।"
+     "caption": "समय के साथ Kolkata वाला काम अपनी अलग राह पर चल पड़ा। और आज भी East India में उसकी अपनी पहचान है।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Haldiram_Banquets_-_Restaurant_-_24_Ballygunge_Park_Road_-_Kolkata_4802.JPG/1920px-Haldiram_Banquets_-_Restaurant_-_24_Ballygunge_Park_Road_-_Kolkata_4802.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2848,
+      "h": 4288,
+      "credit": "Haldiram Banquets - Restaurant - 24 Ballygunge Park Road - Kolkata 4802.JPG by Biswarup Ganguly, CC BY 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Haldiram_Banquets_-_Restaurant_-_24_Ballygunge_Park_Road_-_Kolkata_4802.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "अब एक नाम था, दो शहर थे। और परिवार भी तेज़ी से बढ़ रहा था।",
@@ -337,14 +483,29 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A realistic painting of a large Indian joint family posed in a sandstone courtyard for a 1960s photograph, children in front, elders seated, faces of the elders in shade"
-     ]
+     ],
+     "split": {
+      "left": "28",
+      "right": "29",
+      "l": "BIKANER",
+      "r": "KOLKATA"
+     }
     },
     {
      "vo": "पर असली खेल शुरू किया अगली पीढ़ी ने। उन्नीस सौ सत्तर में, देश के बीचों-बीच, नागपुर में।",
      "prompt": "A dusty 1970 inter-city bus parked at a Nagpur depot at night, headlights cutting through haze, a young Indian man in a cream shirt stepping off the bus with a suitcase, seen from the side, plain blank signboards, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "पर असली खेल शुरू किया अगली पीढ़ी ने। 1970 में, देश के बीचों-बीच, Nagpur में।"
+     "caption": "पर असली खेल शुरू किया अगली पीढ़ी ने। 1970 में, देश के बीचों-बीच, Nagpur में।",
+     "date": "1970",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Nagpur_junction.jpg/1920px-Nagpur_junction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4624,
+      "h": 2604,
+      "credit": "Nagpur junction.jpg by Vinoth offl, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Nagpur_junction.jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -360,8 +521,14 @@
      "more": [
       "Close-up painting of a 1970 wall calendar in a small rented room, the page reading \"1970\", a suitcase on the floor below"
      ],
-     "label": "SHIV KISHAN AGARWAL · Nagpur",
-     "caption": "1970. Moolchand के बेटे, यानी Haldiram के पोते, Shiv Kishan Agarwal Nagpur पहुँचे।"
+     "caption": "1970. Moolchand के बेटे, यानी Haldiram के पोते, Shiv Kishan Agarwal Nagpur पहुँचे।",
+     "place": {
+      "name": "NAGPUR",
+      "sub": "MAHARASHTRA · 1970",
+      "query": "Nagpur, Maharashtra, India",
+      "lat": 21.1498,
+      "lon": 79.0821
+     }
     },
     {
      "vo": "यहाँ उन्होंने मिठाई और नमकीन की एक छोटी दुकान से शुरुआत की।",
@@ -370,7 +537,16 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up painting of an Indian hand placing silver-foiled barfi into a cardboard box on a marble counter"
-     ]
+     ],
+     "label": "SHIV KISHAN AGARWAL · हल्दीराम के पोते",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Indian_sweet_shop.jpg/1920px-Indian_sweet_shop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2592,
+      "h": 3888,
+      "credit": "Indian sweet shop.jpg by Yosarian, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Indian_sweet_shop.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "सोचिए, नागपुर ही क्यों? क्योंकि ये देश के बीच में है। यहाँ से वेस्ट और साउथ तक माल भेजना आसान था।",
@@ -390,7 +566,15 @@
      "more": [
       "Close-up painting of an Indian worker's hand pressing a heated sealing bar onto a clear plastic pouch filled with bhujia, a wisp of smoke rising"
      ],
-     "caption": "Shiv Kishan ने दुकान से आगे सोचा। नमकीन को पैकेट में बंद करो, और दूर तक भेजो।"
+     "caption": "Shiv Kishan ने दुकान से आगे सोचा। नमकीन को पैकेट में बंद करो, और दूर तक भेजो।",
+     "photo": {
+      "src": "https://pixabay.com/get/gc6f4ee4a092fa9f44906d19fe3cae332885827172a09fdef16da98313a7987543550a52d59903b326a03d0b3dacd9b39e3abb3a2e6e5543a74048072d1612c59_1280.jpg",
+      "w": 1920,
+      "h": 1280,
+      "credit": "Pixabay (pladkani)",
+      "page": "https://pixabay.com/photos/eatables-vendor-india-eatable-209360/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर मुश्किल थी! खुली भुजिया कुछ दिन में नरम पड़ जाती थी। पैकेट को ताज़ा रखना था।",
@@ -399,7 +583,8 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Medium painting of a young Indian factory worker in a white cap and green apron frowning as he squeezes a deflated snack pouch, other Indian workers watching"
-     ]
+     ],
+     "title": "ताज़ा रखने की चुनौती"
     },
     {
      "vo": "पैकेजिंग बेहतर हुई, मशीनें आईं। और नागपुर से निकले पैकेट दूर-दूर तक पहुँचने लगे।",
@@ -409,7 +594,15 @@
      "more": [
       "Close-up painting of a sealed red snack packet on a conveyor with the word \"HALDIRAM'S\" in bold letters, more packets blurred behind"
      ],
-     "caption": "Packaging बेहतर हुई, machines आईं। और Nagpur से निकले पैकेट दूर-दूर तक पहुँचने लगे।"
+     "caption": "Packaging बेहतर हुई, machines आईं। और Nagpur से निकले पैकेट दूर-दूर तक पहुँचने लगे।",
+     "photo": {
+      "src": "https://pixabay.com/get/g56f68e9e3a7996f17a8490b1467af9d514ba8949784b52911bcfefdc21348226256ec7053560be06454b52cdaf25e79c0ddf7dae01145d54c559f6763f00fd1c_1280.jpg",
+      "w": 5655,
+      "h": 3775,
+      "credit": "Pixabay (MustangJoe)",
+      "page": "https://pixabay.com/photos/gears-cogs-machine-machinery-1236578/",
+      "card": 0.72
+     }
     },
     {
      "vo": "नागपुर वाली कंपनी बनी हल्दीराम फ़ूड्स इंटरनेशनल. और साथ में रेस्टोरेंट्स भी खुले।",
@@ -419,7 +612,16 @@
      "more": [
       "A realistic painting of a busy Haldiram's restaurant in Nagpur in the 1990s, an Indian family: a father in a blue checked shirt, a mother in a maroon salwar kameez, a small boy in a yellow t-shirt, eating chaat at a steel table, warm evening light"
      ],
-     "caption": "Nagpur वाली company बनी Haldiram Foods International. और साथ में restaurants भी खुले।"
+     "caption": "Nagpur वाली company बनी Haldiram Foods International. और साथ में restaurants भी खुले।",
+     "label": "HALDIRAM FOODS INTERNATIONAL · नागपुर की company",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg/1920px-Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2804,
+      "h": 1126,
+      "credit": "Haldiram's outlet at the exit from platform no. 6 of Pune Junction railway station.jpg by DesiBoy101, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "उन्नीस सौ सत्तर की एक छोटी दुकान से शुरू होकर, नागपुर अब परिवार का दूसरा बड़ा सेंटर था.",
@@ -429,14 +631,23 @@
      "more": [
       "A wide realistic painting of a large Nagpur factory complex at dusk, chimneys and warehouses, lights coming on"
      ],
-     "caption": "1970 की एक छोटी दुकान से शुरू होकर, Nagpur अब परिवार का दूसरा बड़ा center था."
+     "caption": "1970 की एक छोटी दुकान से शुरू होकर, Nagpur अब परिवार का दूसरा बड़ा center था.",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg/1920px-Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2804,
+      "h": 1126,
+      "credit": "Haldiram's outlet at the exit from platform no. 6 of Pune Junction railway station.jpg by DesiBoy101, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर देश का सबसे बड़ा बाज़ार अभी बाकी था। और वो था, दिल्ली.",
-     "prompt": "Early-1980s Delhi at twilight, the red sandstone walls of the Red Fort in the distance, a crowded road of buses, scooters and cycle rickshaws, orange haze, wide shot",
-     "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "पर देश का सबसे बड़ा बाज़ार अभी बाकी था। और वो था, Delhi."
+     "clip": {
+      "id": 1643,
+      "tags": "india, shiva, people, asia, street, asian, person, culture, city, town, road, busy, crowd, alley, urban, men, women, market",
+      "page": "https://pixabay.com/videos/id-1643/"
+     }
     }
    ]
   },
@@ -452,18 +663,24 @@
      "more": [
       "Close-up painting of a rental agreement on a wooden desk with a large typed heading reading \"CHANDNI CHOWK\", a fountain pen beside it, dim office light"
      ],
-     "label": "CHANDNI CHOWK · Around 1982",
-     "caption": "करीब 1982. Moolchand के दो और बेटे, Manohar Lal और Madhusudan Agarwal, Delhi पहुँचे।"
+     "caption": "करीब 1982. Moolchand के दो और बेटे, Manohar Lal और Madhusudan Agarwal, Delhi पहुँचे।",
+     "date": "1982",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Chandni_Chowk_Area.jpg/1920px-Chandni_Chowk_Area.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4284,
+      "h": 5712,
+      "credit": "Chandni Chowk Area.jpg by Pecha tenzin, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Chandni_Chowk_Area.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "चाँदनी चौक में दुकान खुली। पुरानी दिल्ली की भीड़ में बीकानेर का स्वाद।",
-     "prompt": "Early-1980s Chandni Chowk at midday, tangled wires, cycle rickshaws, crowds, a new shop front with a board reading \"HALDIRAM'S\" large, flat and facing the camera, harsh bright sun, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Medium painting of a young Indian woman in a mustard saree with a jute bag at the counter, pointing at a tray of bhujia, an Indian shop assistant in a white cap scooping it"
-     ],
-     "caption": "Chandni Chowk में दुकान खुली। पुरानी Delhi की भीड़ में Bikaner का स्वाद।"
+     "clip": {
+      "id": 1643,
+      "tags": "india, shiva, people, asia, street, asian, person, culture, city, town, road, busy, crowd, alley, urban, men, women, market",
+      "page": "https://pixabay.com/videos/id-1643/"
+     }
     },
     {
      "vo": "भीड़ टूट पड़ी! दुकान के बाहर लाइन लगने लगी।",
@@ -472,7 +689,15 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up painting of the young Indian woman in a mustard saree smiling as she receives a paper packet of bhujia"
-     ]
+     ],
+     "photo": {
+      "src": "https://pixabay.com/get/g17a35a8c65b8dcd2ce55f20a3d4df50a66ce6902613bf725e464a4a1f26f5624b725d078791ed8f2b0082ed08f89f56bbd5c8ffae27d79aa100d366304d130c0_1280.jpg",
+      "w": 7132,
+      "h": 4757,
+      "credit": "Pixabay (Antonio_Cansino)",
+      "page": "https://pixabay.com/photos/woman-crowd-soup-the-raval-4634314/",
+      "card": 0.72
+     }
     },
     {
      "vo": "दिल्ली वाली कंपनी बनी हल्दीराम स्नैक्स. यहाँ से पूरे नॉर्थ इंडिया और फिर विदेश तक पैकेट जाने लगे।",
@@ -482,7 +707,16 @@
      "more": [
       "A realistic painting of shipping containers being loaded at a port at night, cartons stamped \"EXPORT\", Indian dock workers under floodlights"
      ],
-     "caption": "Delhi वाली company बनी Haldiram Snacks. यहाँ से पूरे North India और फिर विदेश तक पैकेट जाने लगे।"
+     "caption": "Delhi वाली company बनी Haldiram Snacks. यहाँ से पूरे North India और फिर विदेश तक पैकेट जाने लगे।",
+     "label": "HALDIRAM SNACKS · दिल्ली की company",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Haldiram%27s_Chai.jpg/1920px-Haldiram%27s_Chai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6936,
+      "h": 9248,
+      "credit": "Haldiram's Chai.jpg by Vansh Soni, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Haldiram%27s_Chai.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "और दिल्ली के रेस्टोरेंट्स में लोग पूरे परिवार के साथ छोले-भटूरे और चाट खाने जाने लगे।",
@@ -492,7 +726,15 @@
      "more": [
       "Close-up painting of a steaming plate of chole bhature on a steel tray, an Indian child's hand tearing a puffed bhatura"
      ],
-     "caption": "और Delhi के restaurants में लोग पूरे परिवार के साथ छोले-भटूरे और चाट खाने जाने लगे।"
+     "caption": "और Delhi के restaurants में लोग पूरे परिवार के साथ छोले-भटूरे और चाट खाने जाने लगे।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Chole_Bhature_3.jpg/1920px-Chole_Bhature_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 13497,
+      "h": 10123,
+      "credit": "Chole Bhature 3.jpg by Gannu03, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Chole_Bhature_3.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "रिपोर्ट्स बताती हैं, परिवार ने आपस में इलाके बाँटे: नॉर्थ में दिल्ली, वेस्ट और साउथ में नागपुर, ईस्ट में कोलकाता.",
@@ -502,14 +744,22 @@
      "more": [
       "A symbolic realistic painting: three hands in shirt cuffs placing brass weights on three parts of a map, faces out of frame"
      ],
-     "caption": "Reports बताती हैं, परिवार ने आपस में इलाके बाँटे: North में Delhi, West और South में Nagpur, East में Kolkata."
+     "caption": "Reports बताती हैं, परिवार ने आपस में इलाके बाँटे: North में Delhi, West और South में Nagpur, East में Kolkata.",
+     "title": "तीन इलाके",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/India_and_adjacent_countries%2C_1917.jpg/1920px-India_and_adjacent_countries%2C_1917.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 25429,
+      "h": 23559,
+      "credit": "India and adjacent countries, 1917.jpg by Survey of India, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:India_and_adjacent_countries,_1917.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "सोचिए, एक ही नाम, एक जैसा पैकेट, पर पीछे अलग-अलग कंपनी.",
      "prompt": "Two identical red snack packets standing back to back on a black table under a spotlight, the left one facing the camera, the right one turned to show its plain back panel, the rest of the room dark, close-up",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "1 नाम, कई *Company*",
      "caption": "सोचिए, एक ही नाम, एक जैसा पैकेट, पर पीछे अलग-अलग company."
     },
     {
@@ -520,7 +770,16 @@
      "more": [
       "Close-up painting of a thick case file tied with red string, a large stamped cover sheet reading \"TRADEMARK\""
      ],
-     "caption": "इतनी companies, एक नाम। तो लोग पूछने लगे। नाम को लेकर trademark के cases courts तक गए."
+     "caption": "इतनी companies, एक नाम। तो लोग पूछने लगे। नाम को लेकर trademark के cases courts तक गए.",
+     "title": "TRADEMARK की लड़ाई",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Delhi_High_Court_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1470,
+      "h": 1459,
+      "credit": "Delhi High Court Logo.png by Delhi High Court, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Delhi_High_Court_Logo.png",
+      "card": 0.5
+     }
     },
     {
      "vo": "फिर भी काम रुका नहीं। रिपोर्ट्स के मुताबिक़ दो हज़ार तेरह-चौदह तक सेल्स करीब चार हज़ार करोड़ रुपये पहुँच गई थी।",
@@ -530,7 +789,16 @@
      "more": [
       "A wide realistic painting of a huge modern Indian snack factory at dawn, rows of silos and warehouses, trucks lined up at the gate"
      ],
-     "caption": "फिर भी काम रुका नहीं। Reports के मुताबिक़ 2013-14 तक sales करीब ₹4,000 करोड़ पहुँच गई थी।"
+     "caption": "फिर भी काम रुका नहीं। Reports के मुताबिक़ 2013-14 तक sales करीब ₹4,000 करोड़ पहुँच गई थी।",
+     "date": "2013-14",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Illuminated_Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg/1920px-Illuminated_Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3264,
+      "h": 2448,
+      "credit": "Illuminated Haldiram's outlet at the exit from platform no. 6 of Pune Junction railway station.jpg by DesiBoy101, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Illuminated_Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "उस वक़्त की रिपोर्ट्स में तो ये तक लिखा गया कि इसकी सेल्स मैकडॉनल्ड्स और डोमिनोज़ इंडिया को मिलाकर भी ज़्यादा थी!",
@@ -540,22 +808,43 @@
      "more": [
       "Medium painting of young Indian college friends at a bus stop in Delhi sharing a red snack packet, one laughing, overcast afternoon"
      ],
-     "caption": "उस वक़्त की reports में तो ये तक लिखा गया कि इसकी sales McDonald's और Domino's India को मिलाकर भी ज़्यादा थी!"
+     "caption": "उस वक़्त की reports में तो ये तक लिखा गया कि इसकी sales McDonald's और Domino's India को मिलाकर भी ज़्यादा थी!",
+     "news": {
+      "headline": "Haldiram's की sales McDonald's-Domino's से ज़्यादा",
+      "sub": "Reports के मुताबिक़",
+      "date": "2013-14"
+     },
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/McDonald%27s_India_%2832331353336%29.jpg/1920px-McDonald%27s_India_%2832331353336%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 3024,
+      "credit": "McDonald's India (32331353336).jpg by Martin Lewison from Forest Hills, NY, U.S.A., CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:McDonald%27s_India_(32331353336).jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "दो हज़ार सोलह में आई किताब भुजिया बैरन्स ने इसे पाँच हज़ार करोड़ रुपये का एम्पायर बताया।",
      "prompt": "An open hardcover book on a library desk under a reading lamp, a large chart page with one bold figure reading \"₹5,000 CRORE\" facing the camera, a hand resting on the page, close-up",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "label": "2016 · Bhujia Barons",
-     "caption": "2016 में आई किताब Bhujia Barons ने इसे ₹5,000 करोड़ का empire बताया।"
+     "caption": "2016 में आई किताब Bhujia Barons ने इसे ₹5,000 करोड़ का empire बताया।",
+     "date": "2016"
     },
     {
      "vo": "पर बीकानेर में, परिवार का एक और सदस्य चुपचाप कुछ अलग सोच रहा था।",
      "prompt": "An Indian man in a white kurta sitting at the counter of the old Bikaner shop at night, seen from the side, staring at a blank open notebook, a single bulb burning, sand blowing across the lane outside, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "पर Bikaner में, परिवार का एक और सदस्य चुपचाप कुछ अलग सोच रहा था।"
+     "caption": "पर Bikaner में, परिवार का एक और सदस्य चुपचाप कुछ अलग सोच रहा था।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/20191211_Junagarh_Fort%2C_Bikaner%2C_India_1547_8077_DxO.jpg/1920px-20191211_Junagarh_Fort%2C_Bikaner%2C_India_1547_8077_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4158,
+      "h": 2764,
+      "credit": "20191211 Junagarh Fort, Bikaner, India 1547 8077 DxO.jpg by Jakub Hałun, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:20191211_Junagarh_Fort,_Bikaner,_India_1547_8077_DxO.jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -568,8 +857,8 @@
      "prompt": "A middle-aged Indian man in a white kurta and Rajasthani turban standing on a Bikaner rooftop at dawn, seen from the side, looking toward the fort, wind in his scarf, golden light, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "label": "SHIV RATAN AGARWAL · Bikaji",
-     "caption": "ये थे Haldiram के पोते, Shiv Ratan Agarwal, जो Bikaner में ही रहे।"
+     "caption": "ये थे Haldiram के पोते, Shiv Ratan Agarwal, जो Bikaner में ही रहे।",
+     "label": "SHIV RATAN AGARWAL · हल्दीराम के पोते"
     },
     {
      "vo": "उन्होंने अपना ब्रांड एक नए नाम से शुरू किया। नाम में ही शहर छिपा था: बीकाजी.",
@@ -579,7 +868,8 @@
      "more": [
       "A realistic painting of an Indian sign painter on a bamboo scaffold painting a big factory wall sign reading \"BIKAJI\", bright overcast light"
      ],
-     "caption": "उन्होंने अपना brand एक नए नाम से शुरू किया। नाम में ही शहर छिपा था: Bikaji."
+     "caption": "उन्होंने अपना brand एक नए नाम से शुरू किया। नाम में ही शहर छिपा था: Bikaji.",
+     "label": "BIKAJI · बीकानेर का नया brand"
     },
     {
      "vo": "उन्नीस सौ तिरानवे में बीकाजी लॉन्च हुआ। और यहाँ भुजिया बनने लगी बड़ी मशीनों पर।",
@@ -589,8 +879,8 @@
      "more": [
       "Close-up painting of steel rollers and extruder holes with golden strands pouring out, droplets of oil glistening under factory lights"
      ],
-     "label": "1993 · Bikaji launched",
-     "caption": "1993 में Bikaji launch हुआ। और यहाँ भुजिया बनने लगी बड़ी machines पर।"
+     "caption": "1993 में Bikaji launch हुआ। और यहाँ भुजिया बनने लगी बड़ी machines पर।",
+     "date": "1993"
     },
     {
      "vo": "कंपनी के आई पी ओ पेपर्स यानी आर एच पी में भी यही साल दर्ज है। सोचिए, हाथ का काम अब मशीन की स्पीड से।",
@@ -610,7 +900,8 @@
      "more": [
       "Medium painting of a grocery aisle in a London shop on a rainy evening, an Indian grandmother in a cardigan over her saree picking up a snack packet"
      ],
-     "caption": "सोच साफ़ थी। हर पैकेट में वही स्वाद, चाहे वो Bikaner में खुले या London में।"
+     "caption": "सोच साफ़ थी। हर पैकेट में वही स्वाद, चाहे वो Bikaner में खुले या London में।",
+     "title": "हर पैकेट वही स्वाद"
     },
     {
      "vo": "भुजिया के साथ आए रसगुल्ले के डिब्बे, पापड़ और नमकीन की दर्जनों किस्में।",
@@ -619,14 +910,30 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up painting of an open tin of white rasgullas in syrup, a spoon lifting one, glistening"
-     ]
+     ],
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Rasgulla_preparation_for_Indian_wedding_11.jpg/1920px-Rasgulla_preparation_for_Indian_wedding_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 7952,
+      "h": 5304,
+      "credit": "Rasgulla preparation for Indian wedding 11.jpg by Satdeep Gill, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Rasgulla_preparation_for_Indian_wedding_11.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "आर एच पी में दी गई इंडस्ट्री रिपोर्ट के मुताबिक़, बीकाजी देश में बीकानेरी भुजिया का सबसे बड़ा बनाने वाला है।",
      "prompt": "A vast Bikaner warehouse at night, mountains of sealed snack cartons under sodium lights, an Indian supervisor with a clipboard walking between the stacks, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "RHP में दी गई industry report के मुताबिक़, Bikaji देश में Bikaneri bhujia का सबसे बड़ा बनाने वाला है।"
+     "caption": "RHP में दी गई industry report के मुताबिक़, Bikaji देश में Bikaneri bhujia का सबसे बड़ा बनाने वाला है।",
+     "photo": {
+      "src": "https://pixabay.com/get/gff6fa5fd03e8094bb0fff416ec554d5b5ceb3c7fc8c951423291c36eabcf5bddc512248a64521d721eef6ab1ab0b48d2e8c1e201e2a37246bc7fe6977f0244d8_1280.jpg",
+      "w": 3487,
+      "h": 2321,
+      "credit": "Pixabay (PItamaas)",
+      "page": "https://pixabay.com/photos/salty-snacks-snack-food-popcorn-4372448/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और फिर नवंबर दो हज़ार बाईस. बीकाजी फ़ूड्स का आई पी ओ आया, आठ सौ इक्यासी करोड़ रुपये का!",
@@ -636,19 +943,24 @@
      "more": [
       "A realistic painting of a Mumbai stock exchange hall with Indian traders watching a large ticker board, bright overhead lights, a mood of excitement"
      ],
-     "label": "NOVEMBER 2022 · Bikaji IPO",
-     "caption": "और फिर November 2022. Bikaji Foods का IPO आया, ₹881 करोड़ का!"
+     "caption": "और फिर November 2022. Bikaji Foods का IPO आया, ₹881 करोड़ का!",
+     "date": "NOVEMBER 2022",
+     "photo": {
+      "src": "https://pixabay.com/get/gf0890201a49e2d59bd93f2dbfd32167146bd63f354be786f876a099d021854dd378178ceaf0ba49b2deaef2419a1da34a3a0faf2c0ffa904d8e44e33b2da76a1_1280.jpg",
+      "w": 5456,
+      "h": 3064,
+      "credit": "Pixabay (PIX1861)",
+      "page": "https://pixabay.com/photos/chart-trading-courses-forex-1905225/",
+      "card": 0.72
+     }
     },
     {
      "vo": "सोचिए! उन्नीस सौ सैंतीस वाली दुकान से निकला परिवार का एक हिस्सा, अब स्टॉक मार्केट में था।",
-     "prompt": "An old brass namkeen tray from the 1930s on a table in front of a glowing screen of rising green numbers, dark room, close-up",
-     "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Medium painting of an Indian investor in a sweater checking a phone on a Mumbai local train, smiling, overcast morning"
-     ],
-     "title": "दुकान से *Dalal Street*",
-     "caption": "सोचिए! 1937 वाली दुकान से निकला परिवार का एक हिस्सा, अब stock market में था।"
+     "clip": {
+      "id": 204306,
+      "tags": "market, values, stock, exchange, financial, graphics, silver, currency, company, economy, banking, bank, euro, payment, bitcoin",
+      "page": "https://pixabay.com/videos/id-204306/"
+     }
     },
     {
      "vo": "अब एक दुकान से तीन बड़े रास्ते निकल चुके थे। कोलकाता, दिल्ली-नागपुर, और बीकाजी.",
@@ -658,7 +970,8 @@
      "more": [
       "Close-up painting of three snack packets of different designs lined up on a kitchen shelf, morning light"
      ],
-     "caption": "अब एक दुकान से तीन बड़े रास्ते निकल चुके थे। Kolkata, Delhi-Nagpur, और Bikaji."
+     "caption": "अब एक दुकान से तीन बड़े रास्ते निकल चुके थे। Kolkata, Delhi-Nagpur, और Bikaji.",
+     "title": "तीन बड़े रास्ते"
     },
     {
      "vo": "पर आई पी ओ से दो महीने पहले ही, एक खबर आ चुकी थी जिसने सबको चौंका दिया था।",
@@ -681,8 +994,16 @@
      "more": [
       "Medium painting of the Indian father in a blue checked shirt reading the newspaper at the dining table, eyebrows raised, the mother in a maroon salwar kameez leaning in to look"
      ],
-     "label": "SEPTEMBER 2022 · Stake talks reported",
-     "caption": "September 2022. Reuters ने report किया कि Tata Consumer, Haldiram's में बड़ा हिस्सा खरीदने की बात कर रहा है।"
+     "caption": "September 2022. Reuters ने report किया कि Tata Consumer, Haldiram's में बड़ा हिस्सा खरीदने की बात कर रहा है।",
+     "date": "SEPTEMBER 2022",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/TATA-CONSUMER-PRODUCTS_BLUE_LOGO_Feb_13.png/1920px-TATA-CONSUMER-PRODUCTS_BLUE_LOGO_Feb_13.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3000,
+      "h": 996,
+      "credit": "TATA-CONSUMER-PRODUCTS BLUE LOGO Feb 13.png by Tata Consumer Products Limited, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:TATA-CONSUMER-PRODUCTS_BLUE_LOGO_Feb_13.png",
+      "card": 0.72
+     }
     },
     {
      "vo": "रिपोर्ट में लिखा था, हल्दीराम्स करीब दस बिलियन डॉलर की वैल्यूएशन चाहता है।",
@@ -692,14 +1013,26 @@
      "more": [
       "A symbolic realistic painting: a single red snack packet sitting on top of a tall stack of gold bars under a spotlight"
      ],
-     "caption": "Report में लिखा था, Haldiram's करीब $10 Billion की valuation चाहता है।"
+     "caption": "Report में लिखा था, Haldiram's करीब $10 Billion की valuation चाहता है।",
+     "quote": {
+      "text": "Haldiram's करीब $10 Billion की valuation चाहता है।",
+      "who": "Reuters की report"
+     }
     },
     {
      "vo": "पर टाटा कंज़्यूमर ने स्टॉक एक्सचेंज को जवाब दिया और इस रिपोर्ट को नकार दिया।",
      "prompt": "A company letter lying on a dark desk with a large typed heading reading \"CLARIFICATION\" facing the camera, a rubber stamp beside it, dim office light, close-up",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "पर Tata Consumer ने stock exchange को जवाब दिया और इस report को नकार दिया।"
+     "caption": "पर Tata Consumer ने stock exchange को जवाब दिया और इस report को नकार दिया।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1920px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2291,
+      "h": 1917,
+      "credit": "BSE - Bombay Stock Exchange Building.jpg by Niyantha Shekhar, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "फिर भी एक बात साफ़ हो गई। दुनिया के बड़े इन्वेस्टर्स की नज़र इस भुजिया पर थी।",
@@ -709,7 +1042,15 @@
      "more": [
       "Close-up painting of a manicured hand in a suit cuff reaching for the bowl of bhujia on the polished table"
      ],
-     "caption": "फिर भी एक बात साफ़ हो गई। दुनिया के बड़े investors की नज़र इस भुजिया पर थी।"
+     "caption": "फिर भी एक बात साफ़ हो गई। दुनिया के बड़े investors की नज़र इस भुजिया पर थी।",
+     "photo": {
+      "src": "https://pixabay.com/get/g60e04ab5d2d9f92755fce31c64fd25137c1be594889a8bc3d97e1df19b65169e53e72666691e45b1a357451e24d9138579b244e1455cc286b831dc2abf2ba05d_1280.jpg",
+      "w": 3487,
+      "h": 2321,
+      "credit": "Pixabay (PItamaas)",
+      "page": "https://pixabay.com/photos/salty-snacks-snack-food-popcorn-4372448/",
+      "card": 0.72
+     }
     },
     {
      "vo": "दो हज़ार चौबीस में रिपोर्ट्स आईं कि ब्लैकस्टोन के लेड ग्रुप ने भी स्टेक के लिए ऑफ़र दिया।",
@@ -719,7 +1060,8 @@
      "more": [
       "A realistic painting of foreign bankers in dark suits stepping out of a car under umbrellas at a glass office tower in Delhi, heavy rain"
      ],
-     "caption": "2024 में reports आईं कि Blackstone के led group ने भी stake के लिए offer दिया।"
+     "caption": "2024 में reports आईं कि Blackstone के led group ने भी stake के लिए offer दिया।",
+     "date": "2024"
     },
     {
      "vo": "इसी बीच परिवार ने बड़ा फ़ैसला लिया। दिल्ली और नागपुर का स्नैक्स बिज़नेस अब एक होगा।",
@@ -729,8 +1071,16 @@
      "more": [
       "A realistic painting of a long table in a dim conference room, figures seated in shadow on both sides, faces unseen, a pen resting on a thick document in the centre"
      ],
-     "title": "दो रास्ते, *एक*",
-     "caption": "इसी बीच परिवार ने बड़ा फ़ैसला लिया। Delhi और Nagpur का snacks business अब एक होगा।"
+     "caption": "इसी बीच परिवार ने बड़ा फ़ैसला लिया। Delhi और Nagpur का snacks business अब एक होगा।",
+     "label": "BLACKSTONE · stake का offer देने वाला group",
+     "photo": {
+      "src": "https://pixabay.com/get/g8f2f1f61c65ea41e8f5b7f395820606b31ecd8a956a47b6dfde3fc464c53fca3bd8b62410c092f5d2b797a55eb20330a21bf69458200f4124966a1f5b5a2ec63_1280.jpg",
+      "w": 2271,
+      "h": 1703,
+      "credit": "Pixabay (Ralphs_Fotos)",
+      "page": "https://pixabay.com/photos/handshake-agreement-trade-business-3100563/",
+      "card": 0.72
+     }
     },
     {
      "vo": "नई कंपनी बनी हल्दीराम स्नैक्स फ़ूड. रिपोर्ट्स के मुताबिक़ दिल्ली परिवार के पास छप्पन प्रतिशत, नागपुर के पास चौवालीस प्रतिशत.",
@@ -740,7 +1090,16 @@
      "more": [
       "Close-up painting of a merger agreement with a large heading reading \"HALDIRAM SNACKS FOOD\", an Indian hand holding a pen over the signature line"
      ],
-     "caption": "नई company बनी Haldiram Snacks Food. Reports के मुताबिक़ Delhi परिवार के पास 56%, Nagpur के पास 44%."
+     "caption": "नई company बनी Haldiram Snacks Food. Reports के मुताबिक़ Delhi परिवार के पास 56%, Nagpur के पास 44%.",
+     "label": "HALDIRAM SNACKS FOOD · Delhi 56%, Nagpur 44%",
+     "photo": {
+      "src": "https://pixabay.com/get/g5dc0918b508b5e091a0c53522c164e5fff3d0f9fda46b3cd219e056716457e94aad3e210d951f72f3812ea7a5c693fb71ade34fb98258b165e1954a97986851a_1280.jpg",
+      "w": 4200,
+      "h": 2800,
+      "credit": "Pixabay (geralt)",
+      "page": "https://pixabay.com/photos/signature-contract-shaking-hands-3113182/",
+      "card": 0.72
+     }
     },
     {
      "vo": "सालों बाद, दो अलग रास्ते फिर एक कंपनी में आ गए।",
@@ -757,15 +1116,38 @@
      "more": [
       "Close-up painting of a share purchase document with a large bold figure reading \"10%\" circled in red ink"
      ],
-     "label": "2025 · Temasek invests",
-     "caption": "और 2025 में Singapore की Temasek ने इस company का करीब 10% हिस्सा खरीद लिया।"
+     "caption": "और 2025 में Singapore की Temasek ने इस company का करीब 10% हिस्सा खरीद लिया।",
+     "date": "2025",
+     "photo": {
+      "src": "https://pixabay.com/get/gd86c4c92fc3b4e41d21d38650fbb16ac71676e1dbd298d5baf571563561859d1c63b72b487adf4d9995e36065b0ea2f4c406d26afc16c5934a5d003062b37d0a_1280.jpg",
+      "w": 4000,
+      "h": 2248,
+      "credit": "Pixabay (cegoh)",
+      "page": "https://pixabay.com/photos/skyline-cityscape-buildings-255116/",
+      "card": 0.72
+     }
     },
     {
      "vo": "रिपोर्ट्स के मुताबिक़ कुछ और इन्वेस्टर्स ने भी इसमें छोटे हिस्से लिए।",
      "prompt": "A large red pie on a silver plate on a dark table, a few thin slices being lifted away by anonymous hands in suit cuffs, a single spotlight, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "Reports के मुताबिक़ कुछ और investors ने भी इसमें छोटे हिस्से लिए।"
+     "caption": "Reports के मुताबिक़ कुछ और investors ने भी इसमें छोटे हिस्से लिए।",
+     "place": {
+      "name": "SINGAPORE",
+      "sub": "TEMASEK · 2025",
+      "query": "Singapore",
+      "lat": 1.3571,
+      "lon": 103.8195
+     },
+     "photo": {
+      "src": "https://pixabay.com/get/g262bba5e9f7c2c8f2eca53393933aaadd6b0cfd6142ba674a016a5cb30b07ec18d97dbdc95b76ceb44b2e6968632ec7cc7324dd5e24a04663260c27649afefc8_1280.jpg",
+      "w": 5695,
+      "h": 3797,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/chairs-empty-office-room-table-2181916/",
+      "card": 0.72
+     }
     },
     {
      "vo": "वैल्यूएशन? रिपोर्ट्स के मुताबिक़ करीब दस बिलियन डॉलर तक!",
@@ -775,7 +1157,16 @@
      "more": [
       "Close-up painting of an analyst's chart on a desk with one tall bar labelled in bold \"₹85,000 CRORE\", golden lamp light"
      ],
-     "caption": "Valuation? Reports के मुताबिक़ करीब $10 Billion तक!"
+     "caption": "Valuation? Reports के मुताबिक़ करीब $10 Billion तक!",
+     "title": "$10 BILLION",
+     "photo": {
+      "src": "https://pixabay.com/get/g3f438f6fdbf30343ba18873707ba6024f276b22f362f334cb2348ae6d0cbe2a54b36cbb57b3d82c76c7dc4901bcb736993b4ba62d20fd77bdadab68a8bbd62c3_1280.jpg",
+      "w": 4961,
+      "h": 3508,
+      "credit": "Pixabay (geralt)",
+      "page": "https://pixabay.com/photos/entrepreneur-idea-competence-vision-1340649/",
+      "card": 0.72
+     }
     },
     {
      "vo": "रिपोर्ट्स के मुताबिक़, इस कंपनी की सालाना सेल्स बारह हज़ार करोड़ रुपये से भी ज़्यादा है।",
@@ -785,7 +1176,15 @@
      "more": [
       "Close-up painting of an annual sales ledger page with a large bold figure reading \"₹12,000 CRORE+\""
      ],
-     "caption": "Reports के मुताबिक़, इस company की सालाना sales ₹12,000 करोड़ से भी ज़्यादा है।"
+     "caption": "Reports के मुताबिक़, इस company की सालाना sales ₹12,000 करोड़ से भी ज़्यादा है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g034025e4c894fbd6f2270235e7bc626512b1372e84903b976b5522e7ee3e7e4dc62696867d109644e529e6333490c52e04481f2dc5187f7987371e2b549d9127_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Quanlecntt2004)",
+      "page": "https://pixabay.com/photos/worker-woman-mask-face-mask-6322085/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -801,7 +1200,8 @@
      "more": [
       "Close-up painting of a faded family photograph of a large Rajasthani joint family propped on a shelf beside a red snack packet"
      ],
-     "caption": "तो Haldiram's का असली मालिक कौन है? Tata? नहीं। ज़्यादातर हिस्सा आज भी Agarwal परिवार के पास है। पर अब इसमें एक बाहरी investor भी है।"
+     "caption": "तो Haldiram's का असली मालिक कौन है? Tata? नहीं। ज़्यादातर हिस्सा आज भी Agarwal परिवार के पास है। पर अब इसमें एक बाहरी investor भी है।",
+     "drop": true
     },
     {
      "vo": "दिल्ली और नागपुर अब एक कंपनी हैं। कोलकाता की अपनी पहचान है। और बीकानेर से निकला बीकाजी, अपनी राह पर।",
@@ -811,7 +1211,15 @@
      "more": [
       "A wide realistic painting of the old narrow Bikaner lane at dusk, the tiny namkeen shop still glowing, a camel cart passing"
      ],
-     "caption": "Delhi और Nagpur अब एक company हैं। Kolkata की अपनी पहचान है। और Bikaner से निकला Bikaji, अपनी राह पर।"
+     "caption": "Delhi और Nagpur अब एक company हैं। Kolkata की अपनी पहचान है। और Bikaner से निकला Bikaji, अपनी राह पर।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Cenotaphs_of_the_early_rulers_of_Bikaner_Roa_Bikaji_ki_Takari_2.jpg/1920px-Cenotaphs_of_the_early_rulers_of_Bikaner_Roa_Bikaji_ki_Takari_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Cenotaphs of the early rulers of Bikaner Roa Bikaji ki Takari 2.jpg by Hari makar, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Cenotaphs_of_the_early_rulers_of_Bikaner_Roa_Bikaji_ki_Takari_2.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "और हल्दीराम? वो कोई ब्रांड का नाम नहीं, एक इंसान का घर का नाम था। असली नाम था गंगा बिशन अग्रवाल.",
@@ -821,22 +1229,38 @@
      "more": [
       "Close-up painting of an old ledger page under an oil lamp with the handwritten words \"गंगा बिशन\" at the top"
      ],
-     "title": "असली नाम: *Ganga Bishan*",
-     "caption": "और Haldiram? वो कोई brand का नाम नहीं, एक इंसान का घर का नाम था। असली नाम था Ganga Bishan Agarwal."
+     "caption": "और Haldiram? वो कोई brand का नाम नहीं, एक इंसान का घर का नाम था। असली नाम था Ganga Bishan Agarwal.",
+     "label": "GANGA BISHAN AGARWAL · असली नाम 'Haldiram' का"
     },
     {
      "vo": "उन्नीस सौ सैंतीस की वो एक दुकान, आज आपकी प्लेट तक पहुँचती है। हर कटोरी भुजिया में उसी गली का स्वाद।",
      "prompt": "A small Indian boy in a yellow t-shirt lifting a pinch of thin golden bhujia from a glass bowl, a red snack packet with the word \"HALDIRAM'S\" facing the camera behind the bowl, warm golden light, close-up",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "1937 की वो एक दुकान, आज आपकी प्लेट तक पहुँचती है। हर कटोरी भुजिया में उसी गली का स्वाद।"
+     "caption": "1937 की वो एक दुकान, आज आपकी प्लेट तक पहुँचती है। हर कटोरी भुजिया में उसी गली का स्वाद।",
+     "photo": {
+      "src": "https://pixabay.com/get/g960e568b663c0c3062fa758e34e508d934723009c13cf49fd3066a00764c01ce5371a9ba57818f9f48eccc5e4fb0ccb2354329ba0ac2aa06b02e8f8f1f3b3d79_1280.jpg",
+      "w": 3487,
+      "h": 2321,
+      "credit": "Pixabay (PItamaas)",
+      "page": "https://pixabay.com/photos/salty-snacks-snack-food-popcorn-4372448/",
+      "card": 0.72
+     }
     },
     {
      "vo": "अगली बार, एक और ब्रांड की कहानी, जिसे आप रोज़ देखते हैं पर जानते नहीं। सब्सक्राइब कर लीजिए।",
      "prompt": "A busy Indian market street at night, rows of lit shop fronts with plain blank signboards, Indian crowds walking, one shop shutter half open with warm light spilling out, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "अगली बार, एक और brand की कहानी, जिसे आप रोज़ देखते हैं पर जानते नहीं। Subscribe कर लीजिए।"
+     "caption": "अगली बार, एक और brand की कहानी, जिसे आप रोज़ देखते हैं पर जानते नहीं। Subscribe कर लीजिए।",
+     "photo": {
+      "src": "https://pixabay.com/get/g5bae48a536286338fcbff0b30ae6d18de83390b0d60cbc4bf033bebe78880acd65d15595bdc01d716f0bbae706b4300d15c87fb9c667b645185d3ce86f6825db_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (igorovsyannykov)",
+      "page": "https://pixabay.com/photos/beverages-bottles-shelf-cans-coke-3105631/",
+      "card": 0.72
+     }
     }
    ]
   }
@@ -854,7 +1278,5 @@
    1
   ]
  },
- "framework": "2026-11-19 06:48",
- "released_at": "2026-11-19 06:48",
- "voice_requested": "voice-ll-026-haldirams-cd5be617bd"
+ "photos_checked": true
 }
