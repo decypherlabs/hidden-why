@@ -578,7 +578,8 @@
     {
      "vo": "In September 2008, Nvidia cut about 360 jobs, roughly six and a half percent of its workforce.",
      "kind": "still",
-     "prompt": "Muted 35mm documentary photograph, an office parking lot at dusk, a person from behind carrying a cardboard box to a car, red accent, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+     "prompt": "Muted 35mm documentary photograph, a single person seen from behind at waist-up, carrying a cardboard box in both arms across an office parking lot at dusk, a parked car beside them, warm streetlight glow, red accent from the car's tail light, clear well-lit subject in the middle of the frame, detailed parking lot and sky filling the whole frame, no readable text, no logos, no signs or lettering on any storefront, screen or package",
+     "seed": 8966
     },
     {
      "vo": "Nvidia's profit swung from a record 798 million dollars to losses in each of the next two fiscal years.",
@@ -977,5 +978,19 @@
  "visuals_checked": true,
  "approved": true,
  "review": "auto",
- "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame"
+ "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
+ "repaint": {
+  "shots": [
+   47
+  ],
+  "thumbs": [],
+  "at": "2026-11-19 06:12"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   47
+  ]
+ },
+ "auto_regen": 1
 }
