@@ -60,14 +60,21 @@
     },
     {
      "vo": "चाय के साथ एक कटोरी भुजिया। और पैकेट पर एक ही नाम: हल्दीराम्स.",
-     "prompt": "A torn red snack packet with the word \"HALDIRAM'S\" in bold letters on a kitchen counter, thin golden bhujia spilling into a glass bowl beside a cup of tea, Indian kitchen, bright morning window light, close-up",
+     "prompt": "A torn red snack packet with the word \"HALDIRAM'S\" in bold letters, large, flat and facing the camera on a kitchen counter, thin golden bhujia spilling into a glass bowl beside a cup of tea, Indian kitchen, bright morning window light, close-up",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Medium painting of the small Indian boy in a yellow t-shirt grinning as he grabs a fistful of bhujia from the bowl, his mother in a maroon salwar kameez laughing behind him"
      ],
      "caption": "चाय के साथ एक कटोरी भुजिया। और पैकेट पर एक ही नाम: Haldiram's.",
-     "label": "HALDIRAM'S · पैकेट पर एक ही नाम"
+     "label": "HALDIRAM'S · पैकेट पर एक ही नाम",
+     "words": {
+      "02": {
+       "src": "c515628c4990",
+       "items": []
+      }
+     },
+     "seed": 8921
     },
     {
      "vo": "लोग नमकीन नहीं माँगते थे, बोलते थे, 'हल्दीराम वाली भुजिया लाना'।",
@@ -85,6 +92,132 @@
       "credit": "Pixabay (Antonio_Cansino)",
       "page": "https://pixabay.com/photos/woman-face-mask-market-hijab-5632026/",
       "card": 0.72
+     },
+     "words": {
+      "03": {
+       "src": "86a0eb9840e5",
+       "items": [
+        {
+         "text": "शर्मा जनरल स्टोर",
+         "grid": [
+          [
+           [
+            328.0,
+            199.5
+           ],
+           [
+            388.1,
+            199.3
+           ],
+           [
+            448.9,
+            200.2
+           ],
+           [
+            509.6,
+            202.2
+           ],
+           [
+            568.9,
+            205.2
+           ],
+           [
+            628.9,
+            209.4
+           ],
+           [
+            688.7,
+            214.7
+           ]
+          ],
+          [
+           [
+            328.0,
+            252.6
+           ],
+           [
+            388.1,
+            252.0
+           ],
+           [
+            448.9,
+            252.3
+           ],
+           [
+            509.6,
+            253.8
+           ],
+           [
+            568.9,
+            256.2
+           ],
+           [
+            628.9,
+            259.7
+           ],
+           [
+            688.7,
+            264.3
+           ]
+          ],
+          [
+           [
+            328.0,
+            305.7
+           ],
+           [
+            388.1,
+            304.6
+           ],
+           [
+            448.9,
+            304.5
+           ],
+           [
+            509.6,
+            305.4
+           ],
+           [
+            568.9,
+            307.2
+           ],
+           [
+            628.9,
+            310.0
+           ],
+           [
+            688.7,
+            313.8
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#7a1414",
+         "corners": [
+          [
+           303,
+           118
+          ],
+          [
+           713,
+           128
+          ],
+          [
+           713,
+           390
+          ],
+          [
+           303,
+           384
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -102,11 +235,256 @@
       "Close-up painting of two paper address labels side by side reading \"NEW DELHI\" and \"NAGPUR\", a magnifying glass over them, grey afternoon light"
      ],
      "caption": "कभी Delhi का पता, कभी Nagpur का, कभी Kolkata का।",
-     "title": "एक नाम, तीन पते"
+     "title": "एक नाम, तीन पते",
+     "words": {
+      "05-2": {
+       "src": "b442deef5e41",
+       "items": [
+        {
+         "text": "NEW DELHI",
+         "grid": [
+          [
+           [
+            429.6,
+            436.8
+           ],
+           [
+            476.8,
+            430.6
+           ],
+           [
+            524.9,
+            424.8
+           ],
+           [
+            573.0,
+            419.6
+           ],
+           [
+            620.3,
+            415.0
+           ],
+           [
+            668.4,
+            410.8
+           ],
+           [
+            716.4,
+            407.1
+           ]
+          ],
+          [
+           [
+            429.6,
+            476.2
+           ],
+           [
+            476.8,
+            474.9
+           ],
+           [
+            524.9,
+            472.0
+           ],
+           [
+            573.0,
+            467.6
+           ],
+           [
+            620.3,
+            461.8
+           ],
+           [
+            668.4,
+            454.3
+           ],
+           [
+            716.4,
+            445.2
+           ]
+          ],
+          [
+           [
+            429.6,
+            515.7
+           ],
+           [
+            476.8,
+            519.2
+           ],
+           [
+            524.9,
+            519.2
+           ],
+           [
+            573.0,
+            515.6
+           ],
+           [
+            620.3,
+            508.5
+           ],
+           [
+            668.4,
+            497.8
+           ],
+           [
+            716.4,
+            483.4
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           410,
+           311
+          ],
+          [
+           736,
+           311
+          ],
+          [
+           736,
+           614
+          ],
+          [
+           410,
+           614
+          ]
+         ],
+         "band": [
+          0.35,
+          0.65
+         ]
+        },
+        {
+         "text": "NAGPUR",
+         "grid": [
+          [
+           [
+            758.7,
+            403.5
+           ],
+           [
+            804.0,
+            396.8
+           ],
+           [
+            850.0,
+            393.3
+           ],
+           [
+            896.0,
+            393.0
+           ],
+           [
+            941.2,
+            395.9
+           ],
+           [
+            987.3,
+            402.1
+           ],
+           [
+            1033.3,
+            411.5
+           ]
+          ],
+          [
+           [
+            758.7,
+            439.8
+           ],
+           [
+            804.0,
+            434.0
+           ],
+           [
+            850.0,
+            430.4
+           ],
+           [
+            896.0,
+            429.0
+           ],
+           [
+            941.2,
+            429.9
+           ],
+           [
+            987.3,
+            433.1
+           ],
+           [
+            1033.3,
+            438.5
+           ]
+          ],
+          [
+           [
+            758.7,
+            476.1
+           ],
+           [
+            804.0,
+            471.2
+           ],
+           [
+            850.0,
+            467.4
+           ],
+           [
+            896.0,
+            465.0
+           ],
+           [
+            941.2,
+            463.9
+           ],
+           [
+            987.3,
+            464.1
+           ],
+           [
+            1033.3,
+            465.6
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           740,
+           311
+          ],
+          [
+           1052,
+           311
+          ],
+          [
+           1052,
+           618
+          ],
+          [
+           740,
+           618
+          ]
+         ],
+         "band": [
+          0.35,
+          0.65
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "तो हल्दीराम्स का असली मालिक है कौन? और ये इतना बड़ा कैसे बना?",
-     "prompt": "A man in a grey uniform driving a forklift lifting a carton in front of towering shelves stacked with red snack packets in a huge Indian warehouse, he looks up at the stacks, bright white lights, wide shot",
+     "prompt": "A man in a grey uniform driving a forklift that lifts a carton in front of towering shelves stacked with red snack packets, huge Indian warehouse, he looks up at the stacks, bright white lights, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -120,7 +498,8 @@
       "credit": "Haldiram's - Teghoria - Kolkata 2012-04-11 9424.JPG by Biswarup Ganguly, CC BY 3.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Haldiram%27s_-_Teghoria_-_Kolkata_2012-04-11_9424.JPG",
       "card": 0.72
-     }
+     },
+     "seed": 8925
     },
     {
      "vo": "टाटा? कोई विदेशी फ़ंड? दिल्ली वाला परिवार?",
@@ -139,6 +518,132 @@
       "credit": "Pixabay (eddypellegrino)",
       "page": "https://pixabay.com/photos/street-road-people-crowd-buildings-5703332/",
       "card": 0.72
+     },
+     "words": {
+      "07": {
+       "src": "ca7681c6fb3f",
+       "items": [
+        {
+         "text": "TATA?",
+         "grid": [
+          [
+           [
+            641.7,
+            369.2
+           ],
+           [
+            686.8,
+            368.8
+           ],
+           [
+            732.6,
+            368.5
+           ],
+           [
+            778.5,
+            368.4
+           ],
+           [
+            823.6,
+            368.4
+           ],
+           [
+            869.5,
+            368.7
+           ],
+           [
+            915.3,
+            369.0
+           ]
+          ],
+          [
+           [
+            641.7,
+            415.7
+           ],
+           [
+            686.8,
+            415.6
+           ],
+           [
+            732.6,
+            415.6
+           ],
+           [
+            778.5,
+            415.7
+           ],
+           [
+            823.6,
+            415.8
+           ],
+           [
+            869.5,
+            416.1
+           ],
+           [
+            915.3,
+            416.4
+           ]
+          ],
+          [
+           [
+            641.7,
+            462.3
+           ],
+           [
+            686.8,
+            462.5
+           ],
+           [
+            732.6,
+            462.7
+           ],
+           [
+            778.5,
+            462.9
+           ],
+           [
+            823.6,
+            463.2
+           ],
+           [
+            869.5,
+            463.5
+           ],
+           [
+            915.3,
+            463.8
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           623,
+           358
+          ],
+          [
+           934,
+           358
+          ],
+          [
+           934,
+           476
+          ],
+          [
+           623,
+           476
+          ]
+         ],
+         "band": [
+          0.1,
+          0.9
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -154,7 +659,8 @@
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "caption": "सब शुरू हुआ 1937 में, Rajasthan के Bikaner की एक छोटी सी गली से।",
-     "date": "1937"
+     "date": "1937",
+     "seed": 8928
     }
    ]
   },
@@ -164,7 +670,7 @@
    "shots": [
     {
      "vo": "बीकानेर, रेगिस्तान का शहर। यहाँ भुजिया सिर्फ़ नमकीन नहीं, हर घर की आदत थी।",
-     "prompt": "Bikaner seen from a flat rooftop at midday, a red sandstone fort in the distance, a family on the roof sharing bhujia from a steel plate, 1930s, no cars or modern vehicles, harsh white sunlight, wide shot",
+     "prompt": "A family on a flat rooftop sharing bhujia from a steel plate, Bikaner's red sandstone fort in the distance, 1930s, no cars or modern vehicles, harsh white sunlight, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -185,7 +691,8 @@
       "credit": "KOT GATE-BIKANER-RAJASTHAN-DSC0001.jpg by sha, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:KOT_GATE-BIKANER-RAJASTHAN-DSC0001.jpg",
       "card": 0.72
-     }
+     },
+     "seed": 8929
     },
     {
      "vo": "कहा जाता है, अग्रवाल परिवार की यहाँ एक नमकीन की दुकान थी, जो दादा के ज़माने से चल रही थी।",
@@ -203,18 +710,145 @@
       "credit": "Pixabay (balouriarajesh)",
       "page": "https://pixabay.com/photos/street-vendor-namkeen-seller-shop-5033238/",
       "card": 0.72
+     },
+     "words": {
+      "11": {
+       "src": "ecdaaf95c0ed",
+       "items": [
+        {
+         "text": "भुजिया",
+         "grid": [
+          [
+           [
+            156.7,
+            183.9
+           ],
+           [
+            218.3,
+            182.3
+           ],
+           [
+            280.6,
+            180.7
+           ],
+           [
+            342.3,
+            179.0
+           ],
+           [
+            402.5,
+            177.4
+           ],
+           [
+            463.3,
+            175.8
+           ],
+           [
+            523.6,
+            174.2
+           ]
+          ],
+          [
+           [
+            156.7,
+            240.2
+           ],
+           [
+            218.3,
+            238.4
+           ],
+           [
+            280.6,
+            236.5
+           ],
+           [
+            342.3,
+            234.7
+           ],
+           [
+            402.5,
+            232.9
+           ],
+           [
+            463.3,
+            231.0
+           ],
+           [
+            523.6,
+            229.2
+           ]
+          ],
+          [
+           [
+            156.7,
+            296.5
+           ],
+           [
+            218.3,
+            294.5
+           ],
+           [
+            280.6,
+            292.4
+           ],
+           [
+            342.3,
+            290.3
+           ],
+           [
+            402.5,
+            288.3
+           ],
+           [
+            463.3,
+            286.2
+           ],
+           [
+            523.6,
+            284.2
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#f2e3b3",
+         "corners": [
+          [
+           131,
+           147
+          ],
+          [
+           548,
+           137
+          ],
+          [
+           548,
+           320
+          ],
+          [
+           131,
+           335
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
      }
     },
     {
      "vo": "इसी दुकान पर बैठता था एक लड़का, जिसे घर में सब हल्दीराम कहते थे।",
-     "prompt": "A teenage Indian boy in a white kurta and small turban sitting cross-legged on a shop platform beside brass trays of namkeen, seen from the side in three-quarter view, watching the lane outside, 1930s Bikaner shop, soft morning light, medium shot",
+     "prompt": "A teenage Indian boy in a white kurta and small turban sitting cross-legged on a shop platform beside brass trays of namkeen, seen from the side in three-quarter view, watching the lane outside, 1930s Bikaner shop, no motorbikes or modern vehicles, soft morning light, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Medium painting of the plump Indian halwai with a thick black moustache in a white vest and dhoti handing the boy a ladle, steam between them"
      ],
      "caption": "इसी दुकान पर बैठता था एक लड़का, जिसे घर में सब Haldiram कहते थे।",
-     "label": "HALDIRAM · घर का नाम, दुकान पर बैठता लड़का"
+     "label": "HALDIRAM · घर का नाम, दुकान पर बैठता लड़का",
+     "seed": 8931
     },
     {
      "vo": "उस वक़्त बीकानेर की भुजिया मोटी होती थी। सोचिए, हर दुकान पर लगभग एक जैसी।",
@@ -232,7 +866,8 @@
       "credit": "Shop selling Bikaneri bhujia in Jaipur.jpg by Nagarjun Kandukuru from Bangalore, India, CC BY 2.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Shop_selling_Bikaneri_bhujia_in_Jaipur.jpg",
       "card": 0.72
-     }
+     },
+     "seed": 8932
     },
     {
      "vo": "कहा जाता है, हल्दीराम ने इसे पतला बनाना शुरू किया। मोठ का आटा, बारीक और कुरकुरी।",
@@ -244,7 +879,133 @@
       "Close-up painting of an open jute sack of pale moth bean flour with a brass scoop, a paper tag on the sack reading \"मोठ\""
      ],
      "caption": "कहा जाता है, Haldiram ने इसे पतला बनाना शुरू किया। मोठ का आटा, बारीक और कुरकुरी।",
-     "title": "पतली भुजिया"
+     "title": "पतली भुजिया",
+     "words": {
+      "14-3": {
+       "src": "d8ba046df64f",
+       "items": [
+        {
+         "text": "मोठ",
+         "grid": [
+          [
+           [
+            530.9,
+            670.0
+           ],
+           [
+            562.8,
+            676.2
+           ],
+           [
+            596.2,
+            685.1
+           ],
+           [
+            630.4,
+            696.7
+           ],
+           [
+            664.9,
+            711.1
+           ],
+           [
+            701.2,
+            728.8
+           ],
+           [
+            738.7,
+            750.0
+           ]
+          ],
+          [
+           [
+            522.3,
+            703.0
+           ],
+           [
+            553.7,
+            712.1
+           ],
+           [
+            586.6,
+            723.3
+           ],
+           [
+            620.7,
+            736.4
+           ],
+           [
+            655.3,
+            751.4
+           ],
+           [
+            691.9,
+            769.0
+           ],
+           [
+            729.9,
+            789.0
+           ]
+          ],
+          [
+           [
+            513.6,
+            736.3
+           ],
+           [
+            544.4,
+            748.5
+           ],
+           [
+            577.0,
+            761.9
+           ],
+           [
+            610.9,
+            776.6
+           ],
+           [
+            645.6,
+            792.3
+           ],
+           [
+            682.5,
+            809.6
+           ],
+           [
+            721.0,
+            828.5
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           531,
+           618
+          ],
+          [
+           768,
+           698
+          ],
+          [
+           732,
+           860
+          ],
+          [
+           495,
+           755
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "लोगों को स्वाद एकदम अलग लगा। एक बार खाया, तो वापस इसी दुकान पर आए।",
@@ -257,14 +1018,141 @@
     },
     {
      "vo": "कहा जाता है, परिवार की इस भुजिया का नाम बीकानेर के महाराजा डूंगर सिंह के नाम पर पड़ा: डूंगर सेव.",
-     "prompt": "A grand red sandstone palace courtyard in Bikaner with ornate balconies, a king in a royal turban and golden robe on a balcony above, a young man holding a paper cone of thin bhujia bowing in the courtyard below, late afternoon light, wide shot",
+     "prompt": "A young man holding a paper cone of thin bhujia bowing in a red sandstone palace courtyard in Bikaner, a king in a royal turban and golden robe on a balcony above, ornate balconies, no cars or modern vehicles, late afternoon light, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up painting of a brass tray of thin bhujia with a hand-written card propped against it reading \"डूंगर सेव\""
      ],
      "caption": "कहा जाता है, परिवार की इस भुजिया का नाम Bikaner के महाराजा Dungar Singh के नाम पर पड़ा: Dungar Sev.",
-     "label": "DUNGAR SINGH · बीकानेर के महाराजा"
+     "label": "DUNGAR SINGH · बीकानेर के महाराजा",
+     "words": {
+      "16-2": {
+       "src": "319661141264",
+       "items": [
+        {
+         "text": "डूंगर सेव",
+         "grid": [
+          [
+           [
+            713.1,
+            369.5
+           ],
+           [
+            766.0,
+            363.9
+           ],
+           [
+            820.8,
+            359.7
+           ],
+           [
+            876.8,
+            357.2
+           ],
+           [
+            933.1,
+            356.3
+           ],
+           [
+            991.7,
+            357.2
+           ],
+           [
+            1052.0,
+            359.9
+           ]
+          ],
+          [
+           [
+            701.6,
+            431.6
+           ],
+           [
+            756.0,
+            423.1
+           ],
+           [
+            812.0,
+            417.6
+           ],
+           [
+            869.0,
+            415.2
+           ],
+           [
+            926.1,
+            416.2
+           ],
+           [
+            985.5,
+            420.6
+           ],
+           [
+            1046.6,
+            428.6
+           ]
+          ],
+          [
+           [
+            689.7,
+            496.2
+           ],
+           [
+            745.7,
+            484.6
+           ],
+           [
+            803.0,
+            477.6
+           ],
+           [
+            860.9,
+            475.4
+           ],
+           [
+            918.9,
+            478.3
+           ],
+           [
+            979.1,
+            486.5
+           ],
+           [
+            1040.9,
+            500.4
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           704,
+           307
+          ],
+          [
+           1082,
+           292
+          ],
+          [
+           1062,
+           573
+          ],
+          [
+           655,
+           563
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8935
     },
     {
      "vo": "और दाम? पतली भुजिया, बाकी दुकानों से ऊँचा दाम।",
@@ -281,7 +1169,8 @@
       "credit": "Bikaneri bhujia in West Bengal, India, photographed by Yogabrata Chakraborty, on March 11, 2023.jpg by Billjones94, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Bikaneri_bhujia_in_West_Bengal,_India,_photographed_by_Yogabrata_Chakraborty,_on_March_11,_2023.jpg",
       "card": 0.72
-     }
+     },
+     "seed": 8936
     },
     {
      "vo": "सोचिए, आज जिसे हम प्रीमियम ब्रांड कहते हैं, वो सोच इस गली में तब ही आ चुकी थी।",
@@ -315,7 +1204,258 @@
       "credit": "Pixabay (Glavo)",
       "page": "https://pixabay.com/photos/junagarh-fort-bikaner-architecture-3184273/",
       "card": 0.72
-     }
+     },
+     "words": {
+      "19": {
+       "src": "aaacc480f46c",
+       "items": [
+        {
+         "text": "1937",
+         "grid": [
+          [
+           [
+            860.4,
+            471.2
+           ],
+           [
+            910.1,
+            464.7
+           ],
+           [
+            958.8,
+            459.7
+           ],
+           [
+            1006.0,
+            456.1
+           ],
+           [
+            1051.4,
+            453.9
+           ],
+           [
+            1096.8,
+            452.9
+           ],
+           [
+            1141.7,
+            453.2
+           ]
+          ],
+          [
+           [
+            851.3,
+            493.1
+           ],
+           [
+            902.3,
+            487.8
+           ],
+           [
+            952.7,
+            483.5
+           ],
+           [
+            1001.7,
+            480.3
+           ],
+           [
+            1048.9,
+            478.2
+           ],
+           [
+            1096.1,
+            476.9
+           ],
+           [
+            1142.9,
+            476.7
+           ]
+          ],
+          [
+           [
+            841.6,
+            516.7
+           ],
+           [
+            894.0,
+            512.7
+           ],
+           [
+            946.0,
+            509.3
+           ],
+           [
+            996.9,
+            506.6
+           ],
+           [
+            1046.1,
+            504.5
+           ],
+           [
+            1095.4,
+            503.0
+           ],
+           [
+            1144.1,
+            502.2
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#2a2a3a",
+         "corners": [
+          [
+           851,
+           448
+          ],
+          [
+           1158,
+           429
+          ],
+          [
+           1171,
+           595
+          ],
+          [
+           768,
+           634
+          ]
+         ],
+         "band": [
+          0.15,
+          0.45
+         ]
+        }
+       ]
+      },
+      "19-2": {
+       "src": "24130dd2a397",
+       "items": [
+        {
+         "text": "हल्दीराम भुजिया",
+         "grid": [
+          [
+           [
+            537.2,
+            311.1
+           ],
+           [
+            626.6,
+            287.3
+           ],
+           [
+            717.3,
+            269.5
+           ],
+           [
+            807.9,
+            258.1
+           ],
+           [
+            896.9,
+            253.2
+           ],
+           [
+            987.6,
+            254.5
+           ],
+           [
+            1078.4,
+            262.2
+           ]
+          ],
+          [
+           [
+            538.0,
+            402.7
+           ],
+           [
+            628.0,
+            386.3
+           ],
+           [
+            719.4,
+            373.9
+           ],
+           [
+            810.6,
+            365.8
+           ],
+           [
+            900.2,
+            362.1
+           ],
+           [
+            991.4,
+            362.6
+           ],
+           [
+            1082.7,
+            367.5
+           ]
+          ],
+          [
+           [
+            538.9,
+            495.3
+           ],
+           [
+            629.5,
+            486.4
+           ],
+           [
+            721.5,
+            479.5
+           ],
+           [
+            813.3,
+            474.9
+           ],
+           [
+            903.6,
+            472.5
+           ],
+           [
+            995.3,
+            472.1
+           ],
+           [
+            1087.1,
+            474.0
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#8b1a1a",
+         "corners": [
+          [
+           499,
+           173
+          ],
+          [
+           1111,
+           164
+          ],
+          [
+           1129,
+           582
+          ],
+          [
+           502,
+           593
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8938
     },
     {
      "vo": "हल्दीराम के बेटों में थे मूलचंद और रामेश्वर लाल. और मूलचंद के बेटे आगे चलकर अपने-अपने शहर बसाएँगे।",
@@ -326,7 +1466,253 @@
       "A realistic painting of a large Indian joint family in a sandstone courtyard at dusk, children playing near the elders, the faces of the elders in shade"
      ],
      "caption": "Haldiram के बेटों में थे Moolchand और Rameshwar Lal. और Moolchand के बेटे आगे चलकर अपने-अपने शहर बसाएँगे।",
-     "label": "MOOLCHAND · हल्दीराम के बेटे"
+     "label": "MOOLCHAND · हल्दीराम के बेटे",
+     "words": {
+      "20": {
+       "src": "b511510f3f06",
+       "items": [
+        {
+         "text": "HALDIRAM",
+         "grid": [
+          [
+           [
+            704.1,
+            219.1
+           ],
+           [
+            723.7,
+            220.2
+           ],
+           [
+            743.6,
+            220.8
+           ],
+           [
+            763.5,
+            220.8
+           ],
+           [
+            783.1,
+            220.3
+           ],
+           [
+            803.0,
+            219.3
+           ],
+           [
+            822.9,
+            217.7
+           ]
+          ],
+          [
+           [
+            704.1,
+            238.3
+           ],
+           [
+            723.7,
+            238.8
+           ],
+           [
+            743.6,
+            239.1
+           ],
+           [
+            763.5,
+            239.3
+           ],
+           [
+            783.1,
+            239.4
+           ],
+           [
+            803.0,
+            239.3
+           ],
+           [
+            822.9,
+            239.1
+           ]
+          ],
+          [
+           [
+            704.1,
+            257.5
+           ],
+           [
+            723.7,
+            257.3
+           ],
+           [
+            743.6,
+            257.4
+           ],
+           [
+            763.5,
+            257.8
+           ],
+           [
+            783.1,
+            258.4
+           ],
+           [
+            803.0,
+            259.4
+           ],
+           [
+            822.9,
+            260.6
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           696,
+           209
+          ],
+          [
+           831,
+           209
+          ],
+          [
+           831,
+           270
+          ],
+          [
+           696,
+           270
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        },
+        {
+         "text": "MOOLCHAND",
+         "grid": [
+          [
+           [
+            714.8,
+            403.2
+           ],
+           [
+            731.2,
+            401.4
+           ],
+           [
+            747.8,
+            399.7
+           ],
+           [
+            764.5,
+            397.9
+           ],
+           [
+            780.9,
+            396.2
+           ],
+           [
+            797.6,
+            394.4
+           ],
+           [
+            814.2,
+            392.6
+           ]
+          ],
+          [
+           [
+            714.8,
+            414.3
+           ],
+           [
+            731.2,
+            413.9
+           ],
+           [
+            747.8,
+            413.6
+           ],
+           [
+            764.5,
+            413.2
+           ],
+           [
+            780.9,
+            412.8
+           ],
+           [
+            797.6,
+            412.5
+           ],
+           [
+            814.2,
+            412.1
+           ]
+          ],
+          [
+           [
+            714.8,
+            425.4
+           ],
+           [
+            731.2,
+            426.4
+           ],
+           [
+            747.8,
+            427.4
+           ],
+           [
+            764.5,
+            428.5
+           ],
+           [
+            780.9,
+            429.5
+           ],
+           [
+            797.6,
+            430.6
+           ],
+           [
+            814.2,
+            431.6
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           708,
+           385
+          ],
+          [
+           821,
+           385
+          ],
+          [
+           821,
+           440
+          ],
+          [
+           708,
+           440
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8939
     },
     {
      "vo": "पर बीकानेर की गलियाँ छोटी थीं। और हल्दीराम का सपना उनसे कहीं बड़ा।",
@@ -360,7 +1746,7 @@
     },
     {
      "vo": "उन्नीस सौ पचास के दशक में, कहा जाता है शादी के लिए, हल्दीराम कोलकाता पहुँचे।",
-     "prompt": "A 1950s Howrah railway platform in heavy monsoon rain, Indian porters carrying trunks on their heads, a man in a white kurta and turban stepping off a steam train with a tin trunk, umbrellas, grey light, wide shot",
+     "prompt": "A man in a white kurta and turban stepping off a steam train with a tin trunk onto a 1950s Howrah railway platform in heavy monsoon rain, Indian porters carrying trunks on their heads, umbrellas, grey light, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -375,7 +1761,8 @@
       "credit": "Pixabay (hitesh0141)",
       "page": "https://pixabay.com/photos/car-vehicle-transportation-system-3153077/",
       "card": 0.72
-     }
+     },
+     "seed": 8942
     },
     {
      "vo": "कोलकाता में राजस्थान से आए मारवाड़ी परिवार बहुत थे। और उन्हें घर का स्वाद याद आता था।",
@@ -400,7 +1787,8 @@
       "credit": "Pixabay (katetrysh)",
       "page": "https://pixabay.com/photos/spice-market-dubai-souq-9060102/",
       "card": 0.72
-     }
+     },
+     "seed": 8943
     },
     {
      "vo": "यहीं उन्होंने भुजिया की दुकान खोल दी। बीकानेर से डेढ़ हज़ार किलोमीटर से भी ज़्यादा दूर।",
@@ -418,7 +1806,8 @@
       "credit": "Haldiram Banquets - Restaurant - 24 Ballygunge Park Road - Kolkata 4803.JPG by Biswarup Ganguly, CC BY 3.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Haldiram_Banquets_-_Restaurant_-_24_Ballygunge_Park_Road_-_Kolkata_4803.JPG",
       "card": 0.72
-     }
+     },
+     "seed": 8944
     },
     {
      "vo": "कहा जाता है, काम में साथ थे उनके बेटे रामेश्वर लाल. वही डूंगर सेव, अब बंगाल की गलियों में।",
@@ -429,7 +1818,8 @@
       "Medium painting of a Bengali schoolboy in white shorts on the shop step munching from a paper cone, a yellow tram passing behind"
      ],
      "caption": "कहा जाता है, काम में साथ थे उनके बेटे Rameshwar Lal. वही Dungar Sev, अब बंगाल की गलियों में।",
-     "label": "RAMESHWAR LAL · हल्दीराम के बेटे"
+     "label": "RAMESHWAR LAL · हल्दीराम के बेटे",
+     "seed": 8945
     },
     {
      "vo": "पहली बार परिवार की दुकान बीकानेर से बाहर निकली थी। और ये चल पड़ी!",
@@ -455,7 +1845,8 @@
      "more": [
       "Close-up painting of a cloth-bound ledger opened on the counter, a pen resting on a blank page, pale morning light"
      ],
-     "caption": "उधर Bikaner की पुरानी दुकान Haldiram के बेटे Moolchand संभालते रहे।"
+     "caption": "उधर Bikaner की पुरानी दुकान Haldiram के बेटे Moolchand संभालते रहे।",
+     "seed": 8947
     },
     {
      "vo": "समय के साथ कोलकाता वाला काम अपनी अलग राह पर चल पड़ा। और आज भी ईस्ट इंडिया में उसकी अपनी पहचान है।",
@@ -488,7 +1879,253 @@
       "right": "29",
       "l": "BIKANER",
       "r": "KOLKATA"
-     }
+     },
+     "words": {
+      "30": {
+       "src": "6de8111a1491",
+       "items": [
+        {
+         "text": "BIKANER",
+         "grid": [
+          [
+           [
+            282.0,
+            417.7
+           ],
+           [
+            323.2,
+            418.4
+           ],
+           [
+            365.1,
+            418.3
+           ],
+           [
+            407.0,
+            417.4
+           ],
+           [
+            448.2,
+            415.8
+           ],
+           [
+            490.1,
+            413.4
+           ],
+           [
+            532.0,
+            410.2
+           ]
+          ],
+          [
+           [
+            282.0,
+            460.1
+           ],
+           [
+            323.2,
+            461.6
+           ],
+           [
+            365.1,
+            461.7
+           ],
+           [
+            407.0,
+            460.7
+           ],
+           [
+            448.2,
+            458.4
+           ],
+           [
+            490.1,
+            454.8
+           ],
+           [
+            532.0,
+            449.9
+           ]
+          ],
+          [
+           [
+            282.0,
+            502.5
+           ],
+           [
+            323.2,
+            504.7
+           ],
+           [
+            365.1,
+            505.2
+           ],
+           [
+            407.0,
+            503.9
+           ],
+           [
+            448.2,
+            500.9
+           ],
+           [
+            490.1,
+            496.1
+           ],
+           [
+            532.0,
+            489.5
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           265,
+           352
+          ],
+          [
+           549,
+           352
+          ],
+          [
+           549,
+           553
+          ],
+          [
+           265,
+           553
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        },
+        {
+         "text": "CALCUTTA",
+         "grid": [
+          [
+           [
+            1038.3,
+            409.7
+           ],
+           [
+            1082.5,
+            410.2
+           ],
+           [
+            1127.5,
+            410.8
+           ],
+           [
+            1172.5,
+            411.8
+           ],
+           [
+            1216.7,
+            412.9
+           ],
+           [
+            1261.7,
+            414.3
+           ],
+           [
+            1306.7,
+            415.9
+           ]
+          ],
+          [
+           [
+            1038.3,
+            450.3
+           ],
+           [
+            1082.5,
+            450.8
+           ],
+           [
+            1127.5,
+            451.6
+           ],
+           [
+            1172.5,
+            452.9
+           ],
+           [
+            1216.7,
+            454.5
+           ],
+           [
+            1261.7,
+            456.5
+           ],
+           [
+            1306.7,
+            458.9
+           ]
+          ],
+          [
+           [
+            1038.3,
+            490.8
+           ],
+           [
+            1082.5,
+            491.4
+           ],
+           [
+            1127.5,
+            492.4
+           ],
+           [
+            1172.5,
+            494.0
+           ],
+           [
+            1216.7,
+            496.1
+           ],
+           [
+            1261.7,
+            498.8
+           ],
+           [
+            1306.7,
+            501.9
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           1020,
+           348
+          ],
+          [
+           1325,
+           348
+          ],
+          [
+           1325,
+           550
+          ],
+          [
+           1020,
+           550
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8949
     },
     {
      "vo": "पर असली खेल शुरू किया अगली पीढ़ी ने। उन्नीस सौ सत्तर में, देश के बीचों-बीच, नागपुर में।",
@@ -527,6 +2164,132 @@
       "query": "Nagpur, Maharashtra, India",
       "lat": 21.1498,
       "lon": 79.0821
+     },
+     "words": {
+      "32-2": {
+       "src": "7758ebd3d29b",
+       "items": [
+        {
+         "text": "1970",
+         "grid": [
+          [
+           [
+            418.0,
+            88.5
+           ],
+           [
+            485.5,
+            88.8
+           ],
+           [
+            553.6,
+            89.3
+           ],
+           [
+            621.2,
+            90.0
+           ],
+           [
+            687.2,
+            90.9
+           ],
+           [
+            753.9,
+            92.0
+           ],
+           [
+            820.2,
+            93.3
+           ]
+          ],
+          [
+           [
+            418.0,
+            120.4
+           ],
+           [
+            485.5,
+            122.4
+           ],
+           [
+            553.6,
+            123.9
+           ],
+           [
+            621.2,
+            125.0
+           ],
+           [
+            687.2,
+            125.6
+           ],
+           [
+            753.9,
+            125.9
+           ],
+           [
+            820.2,
+            125.7
+           ]
+          ],
+          [
+           [
+            418.0,
+            152.3
+           ],
+           [
+            485.5,
+            155.9
+           ],
+           [
+            553.6,
+            158.5
+           ],
+           [
+            621.2,
+            160.0
+           ],
+           [
+            687.2,
+            160.4
+           ],
+           [
+            753.9,
+            159.8
+           ],
+           [
+            820.2,
+            158.1
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           390,
+           79
+          ],
+          [
+           847,
+           77
+          ],
+          [
+           847,
+           160
+          ],
+          [
+           390,
+           164
+          ]
+         ],
+         "band": [
+          0.1,
+          0.9
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -545,17 +2308,145 @@
       "credit": "Indian sweet shop.jpg by Yosarian, CC BY-SA 3.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Indian_sweet_shop.jpg",
       "card": 0.72
-     }
+     },
+     "words": {
+      "33": {
+       "src": "3d68bd6e3e20",
+       "items": [
+        {
+         "text": "हल्दीराम",
+         "grid": [
+          [
+           [
+            515.7,
+            339.5
+           ],
+           [
+            611.5,
+            339.5
+           ],
+           [
+            709.0,
+            339.5
+           ],
+           [
+            806.5,
+            339.5
+           ],
+           [
+            902.3,
+            339.5
+           ],
+           [
+            999.8,
+            339.5
+           ],
+           [
+            1097.3,
+            339.5
+           ]
+          ],
+          [
+           [
+            515.7,
+            416.5
+           ],
+           [
+            611.5,
+            416.5
+           ],
+           [
+            709.0,
+            416.5
+           ],
+           [
+            806.5,
+            416.5
+           ],
+           [
+            902.3,
+            416.5
+           ],
+           [
+            999.8,
+            416.5
+           ],
+           [
+            1097.3,
+            416.5
+           ]
+          ],
+          [
+           [
+            515.7,
+            493.5
+           ],
+           [
+            611.5,
+            493.5
+           ],
+           [
+            709.0,
+            493.5
+           ],
+           [
+            806.5,
+            493.5
+           ],
+           [
+            902.3,
+            493.5
+           ],
+           [
+            999.8,
+            493.5
+           ],
+           [
+            1097.3,
+            493.5
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#8b1a1a",
+         "corners": [
+          [
+           476,
+           224
+          ],
+          [
+           1137,
+           224
+          ],
+          [
+           1137,
+           608
+          ],
+          [
+           476,
+           608
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8952
     },
     {
      "vo": "सोचिए, नागपुर ही क्यों? क्योंकि ये देश के बीच में है। यहाँ से वेस्ट और साउथ तक माल भेजना आसान था।",
-     "prompt": "A large map of India pinned to an office wall, a red pin in Nagpur at the centre, taut strings running from it to cities in the west and south, a man's hand holding the string, dim yellow bulb light, close-up",
+     "prompt": "A man's hand holding a taut string from a red pin in Nagpur at the centre of a large map of India pinned to an office wall, strings running to cities in the west and south, dim yellow bulb light, close-up",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A wide realistic painting of 1970s trucks loading cartons at a Nagpur railway goods yard at dusk, Indian porters in vests carrying boxes on their heads"
      ],
-     "caption": "सोचिए, Nagpur ही क्यों? क्योंकि ये देश के बीच में है। यहाँ से West और South तक माल भेजना आसान था।"
+     "caption": "सोचिए, Nagpur ही क्यों? क्योंकि ये देश के बीच में है। यहाँ से West और South तक माल भेजना आसान था।",
+     "seed": 8953
     },
     {
      "vo": "शिव किशन ने दुकान से आगे सोचा। नमकीन को पैकेट में बंद करो, और दूर तक भेजो।",
@@ -583,11 +2474,12 @@
      "more": [
       "Medium painting of a young Indian factory worker in a white cap and green apron frowning as he squeezes a deflated snack pouch, other Indian workers watching"
      ],
-     "title": "ताज़ा रखने की चुनौती"
+     "title": "ताज़ा रखने की चुनौती",
+     "seed": 8955
     },
     {
      "vo": "पैकेजिंग बेहतर हुई, मशीनें आईं। और नागपुर से निकले पैकेट दूर-दूर तक पहुँचने लगे।",
-     "prompt": "A bright 1980s Indian snack factory floor, conveyor belts carrying sealed red pouches, Indian women workers in hairnets and blue aprons packing cartons, white fluorescent light, wide shot",
+     "prompt": "Indian women workers in hairnets and blue aprons packing cartons beside conveyor belts carrying sealed red pouches, bright 1980s Indian snack factory floor, faces bowed over the work, white fluorescent light, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -601,7 +2493,134 @@
       "credit": "Pixabay (MustangJoe)",
       "page": "https://pixabay.com/photos/gears-cogs-machine-machinery-1236578/",
       "card": 0.72
-     }
+     },
+     "words": {
+      "37-2": {
+       "src": "338f4280c80c",
+       "items": [
+        {
+         "text": "HALDIRAM'S",
+         "grid": [
+          [
+           [
+            678.2,
+            510.2
+           ],
+           [
+            717.3,
+            508.0
+           ],
+           [
+            757.2,
+            506.2
+           ],
+           [
+            797.0,
+            504.8
+           ],
+           [
+            836.2,
+            503.9
+           ],
+           [
+            876.0,
+            503.3
+           ],
+           [
+            915.8,
+            503.1
+           ]
+          ],
+          [
+           [
+            678.2,
+            551.8
+           ],
+           [
+            717.3,
+            550.3
+           ],
+           [
+            757.2,
+            548.9
+           ],
+           [
+            797.0,
+            547.8
+           ],
+           [
+            836.2,
+            547.0
+           ],
+           [
+            876.0,
+            546.4
+           ],
+           [
+            915.8,
+            546.0
+           ]
+          ],
+          [
+           [
+            678.2,
+            593.4
+           ],
+           [
+            717.3,
+            592.5
+           ],
+           [
+            757.2,
+            591.6
+           ],
+           [
+            797.0,
+            590.8
+           ],
+           [
+            836.2,
+            590.1
+           ],
+           [
+            876.0,
+            589.4
+           ],
+           [
+            915.8,
+            588.8
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#c8102e",
+         "corners": [
+          [
+           662,
+           458
+          ],
+          [
+           932,
+           458
+          ],
+          [
+           932,
+           637
+          ],
+          [
+           662,
+           637
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8956
     },
     {
      "vo": "नागपुर वाली कंपनी बनी हल्दीराम फ़ूड्स इंटरनेशनल. और साथ में रेस्टोरेंट्स भी खुले।",
@@ -620,7 +2639,134 @@
       "credit": "Haldiram's outlet at the exit from platform no. 6 of Pune Junction railway station.jpg by DesiBoy101, CC BY 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg",
       "card": 0.72
-     }
+     },
+     "words": {
+      "38": {
+       "src": "bc5461e885d9",
+       "items": [
+        {
+         "text": "HALDIRAM FOODS INTERNATIONAL",
+         "grid": [
+          [
+           [
+            293.9,
+            150.0
+           ],
+           [
+            449.1,
+            148.0
+           ],
+           [
+            608.0,
+            145.8
+           ],
+           [
+            768.0,
+            143.5
+           ],
+           [
+            926.2,
+            141.2
+           ],
+           [
+            1088.3,
+            138.7
+           ],
+           [
+            1251.3,
+            136.0
+           ]
+          ],
+          [
+           [
+            293.9,
+            192.4
+           ],
+           [
+            449.1,
+            187.2
+           ],
+           [
+            608.0,
+            181.8
+           ],
+           [
+            768.0,
+            176.4
+           ],
+           [
+            926.2,
+            170.9
+           ],
+           [
+            1088.3,
+            165.2
+           ],
+           [
+            1251.3,
+            159.5
+           ]
+          ],
+          [
+           [
+            293.9,
+            234.8
+           ],
+           [
+            449.1,
+            226.4
+           ],
+           [
+            608.0,
+            217.9
+           ],
+           [
+            768.0,
+            209.2
+           ],
+           [
+            926.2,
+            200.6
+           ],
+           [
+            1088.3,
+            191.8
+           ],
+           [
+            1251.3,
+            182.9
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#5a1a1a",
+         "corners": [
+          [
+           230,
+           122
+          ],
+          [
+           1318,
+           113
+          ],
+          [
+           1318,
+           250
+          ],
+          [
+           230,
+           256
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8957
     },
     {
      "vo": "उन्नीस सौ सत्तर की एक छोटी दुकान से शुरू होकर, नागपुर अब परिवार का दूसरा बड़ा सेंटर था.",
@@ -638,7 +2784,14 @@
       "credit": "Haldiram's outlet at the exit from platform no. 6 of Pune Junction railway station.jpg by DesiBoy101, CC BY 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg",
       "card": 0.72
-     }
+     },
+     "words": {
+      "39": {
+       "src": "c09efac3faf0",
+       "items": []
+      }
+     },
+     "seed": 8958
     },
     {
      "vo": "पर देश का सबसे बड़ा बाज़ार अभी बाकी था। और वो था, दिल्ली.",
@@ -671,7 +2824,14 @@
       "credit": "Chandni Chowk Area.jpg by Pecha tenzin, CC0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Chandni_Chowk_Area.jpg",
       "card": 0.72
-     }
+     },
+     "words": {
+      "41-2": {
+       "src": "fe7ed555d3c3",
+       "items": []
+      }
+     },
+     "seed": 8960
     },
     {
      "vo": "चाँदनी चौक में दुकान खुली। पुरानी दिल्ली की भीड़ में बीकानेर का स्वाद।",
@@ -696,7 +2856,8 @@
       "credit": "Pixabay (Antonio_Cansino)",
       "page": "https://pixabay.com/photos/woman-crowd-soup-the-raval-4634314/",
       "card": 0.72
-     }
+     },
+     "seed": 8962
     },
     {
      "vo": "दिल्ली वाली कंपनी बनी हल्दीराम स्नैक्स. यहाँ से पूरे नॉर्थ इंडिया और फिर विदेश तक पैकेट जाने लगे।",
@@ -715,7 +2876,258 @@
       "credit": "Haldiram's Chai.jpg by Vansh Soni, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Haldiram%27s_Chai.jpg",
       "card": 0.72
-     }
+     },
+     "words": {
+      "44": {
+       "src": "0cc8fafc277f",
+       "items": [
+        {
+         "text": "HALDIRAM SNACKS",
+         "grid": [
+          [
+           [
+            556.4,
+            321.8
+           ],
+           [
+            620.2,
+            321.6
+           ],
+           [
+            685.1,
+            321.3
+           ],
+           [
+            750.0,
+            320.8
+           ],
+           [
+            813.8,
+            320.3
+           ],
+           [
+            878.7,
+            319.6
+           ],
+           [
+            943.6,
+            318.8
+           ]
+          ],
+          [
+           [
+            556.4,
+            371.4
+           ],
+           [
+            620.2,
+            371.2
+           ],
+           [
+            685.1,
+            370.8
+           ],
+           [
+            750.0,
+            370.3
+           ],
+           [
+            813.8,
+            369.8
+           ],
+           [
+            878.7,
+            369.1
+           ],
+           [
+            943.6,
+            368.3
+           ]
+          ],
+          [
+           [
+            556.4,
+            421.0
+           ],
+           [
+            620.2,
+            420.7
+           ],
+           [
+            685.1,
+            420.3
+           ],
+           [
+            750.0,
+            419.8
+           ],
+           [
+            813.8,
+            419.3
+           ],
+           [
+            878.7,
+            418.6
+           ],
+           [
+            943.6,
+            417.9
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1c3a6b",
+         "corners": [
+          [
+           530,
+           243
+          ],
+          [
+           970,
+           243
+          ],
+          [
+           970,
+           499
+          ],
+          [
+           530,
+           499
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      },
+      "44-2": {
+       "src": "44b32a9f5aba",
+       "items": [
+        {
+         "text": "EXPORT",
+         "grid": [
+          [
+           [
+            638.6,
+            481.2
+           ],
+           [
+            671.3,
+            481.4
+           ],
+           [
+            704.7,
+            481.3
+           ],
+           [
+            738.0,
+            481.0
+           ],
+           [
+            770.8,
+            480.5
+           ],
+           [
+            804.1,
+            479.8
+           ],
+           [
+            837.4,
+            478.9
+           ]
+          ],
+          [
+           [
+            638.6,
+            516.1
+           ],
+           [
+            671.3,
+            515.9
+           ],
+           [
+            704.7,
+            515.5
+           ],
+           [
+            738.0,
+            515.0
+           ],
+           [
+            770.8,
+            514.3
+           ],
+           [
+            804.1,
+            513.5
+           ],
+           [
+            837.4,
+            512.5
+           ]
+          ],
+          [
+           [
+            638.6,
+            551.1
+           ],
+           [
+            671.3,
+            550.5
+           ],
+           [
+            704.7,
+            549.8
+           ],
+           [
+            738.0,
+            549.0
+           ],
+           [
+            770.8,
+            548.1
+           ],
+           [
+            804.1,
+            547.2
+           ],
+           [
+            837.4,
+            546.1
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#b01e1e",
+         "corners": [
+          [
+           625,
+           429
+          ],
+          [
+           851,
+           429
+          ],
+          [
+           851,
+           602
+          ],
+          [
+           625,
+           602
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8963
     },
     {
      "vo": "और दिल्ली के रेस्टोरेंट्स में लोग पूरे परिवार के साथ छोले-भटूरे और चाट खाने जाने लगे।",
@@ -763,7 +3175,7 @@
     },
     {
      "vo": "इतनी कंपनियाँ, एक नाम। तो लोग पूछने लगे। नाम को लेकर ट्रेडमार्क के केसेस कोर्ट्स तक गए.",
-     "prompt": "A high-ceilinged Indian courtroom on a rainy afternoon, an Indian lawyer in a black coat and white bands arguing on the left, a judge in black robes on a raised desk on the right, stacks of files on the table, grey window light, wide shot",
+     "prompt": "An Indian lawyer in a black coat and white bands arguing on the left before a judge in black robes on a raised desk on the right, high-ceilinged Indian courtroom, stacks of files on the table, grey window light on a rainy afternoon, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -778,7 +3190,134 @@
       "credit": "Delhi High Court Logo.png by Delhi High Court, CC BY 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Delhi_High_Court_Logo.png",
       "card": 0.5
-     }
+     },
+     "words": {
+      "48-2": {
+       "src": "20afafce2e3f",
+       "items": [
+        {
+         "text": "TRADEMARK",
+         "grid": [
+          [
+           [
+            430.0,
+            225.1
+           ],
+           [
+            548.3,
+            226.2
+           ],
+           [
+            668.6,
+            227.2
+           ],
+           [
+            789.0,
+            228.0
+           ],
+           [
+            907.3,
+            228.7
+           ],
+           [
+            1027.7,
+            229.2
+           ],
+           [
+            1148.0,
+            229.6
+           ]
+          ],
+          [
+           [
+            430.0,
+            278.4
+           ],
+           [
+            548.3,
+            282.6
+           ],
+           [
+            668.6,
+            286.3
+           ],
+           [
+            789.0,
+            289.4
+           ],
+           [
+            907.3,
+            291.9
+           ],
+           [
+            1027.7,
+            293.9
+           ],
+           [
+            1148.0,
+            295.4
+           ]
+          ],
+          [
+           [
+            430.0,
+            331.7
+           ],
+           [
+            548.3,
+            339.0
+           ],
+           [
+            668.6,
+            345.4
+           ],
+           [
+            789.0,
+            350.8
+           ],
+           [
+            907.3,
+            355.2
+           ],
+           [
+            1027.7,
+            358.7
+           ],
+           [
+            1148.0,
+            361.2
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#6a1010",
+         "corners": [
+          [
+           381,
+           92
+          ],
+          [
+           1197,
+           92
+          ],
+          [
+           1197,
+           855
+          ],
+          [
+           381,
+           855
+          ]
+         ],
+         "band": [
+          0.2,
+          0.4
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8967
     },
     {
      "vo": "फिर भी काम रुका नहीं। रिपोर्ट्स के मुताबिक़ दो हज़ार तेरह-चौदह तक सेल्स करीब चार हज़ार करोड़ रुपये पहुँच गई थी।",
@@ -797,7 +3336,134 @@
       "credit": "Illuminated Haldiram's outlet at the exit from platform no. 6 of Pune Junction railway station.jpg by DesiBoy101, CC BY 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Illuminated_Haldiram%27s_outlet_at_the_exit_from_platform_no._6_of_Pune_Junction_railway_station.jpg",
       "card": 0.72
-     }
+     },
+     "words": {
+      "49": {
+       "src": "1c391f448007",
+       "items": [
+        {
+         "text": "₹4,000 CRORE",
+         "grid": [
+          [
+           [
+            1021.0,
+            216.7
+           ],
+           [
+            1050.7,
+            219.2
+           ],
+           [
+            1081.3,
+            221.8
+           ],
+           [
+            1112.2,
+            224.4
+           ],
+           [
+            1142.9,
+            227.0
+           ],
+           [
+            1174.4,
+            229.7
+           ],
+           [
+            1206.2,
+            232.4
+           ]
+          ],
+          [
+           [
+            1020.5,
+            259.1
+           ],
+           [
+            1049.9,
+            268.2
+           ],
+           [
+            1080.1,
+            277.5
+           ],
+           [
+            1110.4,
+            286.9
+           ],
+           [
+            1140.5,
+            296.2
+           ],
+           [
+            1171.4,
+            305.7
+           ],
+           [
+            1202.4,
+            315.3
+           ]
+          ],
+          [
+           [
+            1020.0,
+            300.9
+           ],
+           [
+            1049.1,
+            316.3
+           ],
+           [
+            1078.8,
+            332.1
+           ],
+           [
+            1108.7,
+            347.9
+           ],
+           [
+            1138.3,
+            363.6
+           ],
+           [
+            1168.5,
+            379.6
+           ],
+           [
+            1198.8,
+            395.7
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           1009,
+           189
+          ],
+          [
+           1222,
+           175
+          ],
+          [
+           1201,
+           617
+          ],
+          [
+           1005,
+           614
+          ]
+         ],
+         "band": [
+          0.1,
+          0.4
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8968
     },
     {
      "vo": "उस वक़्त की रिपोर्ट्स में तो ये तक लिखा गया कि इसकी सेल्स मैकडॉनल्ड्स और डोमिनोज़ इंडिया को मिलाकर भी ज़्यादा थी!",
@@ -820,7 +3486,8 @@
       "credit": "McDonald's India (32331353336).jpg by Martin Lewison from Forest Hills, NY, U.S.A., CC BY-SA 2.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:McDonald%27s_India_(32331353336).jpg",
       "card": 0.72
-     }
+     },
+     "seed": 8969
     },
     {
      "vo": "दो हज़ार सोलह में आई किताब भुजिया बैरन्स ने इसे पाँच हज़ार करोड़ रुपये का एम्पायर बताया।",
@@ -828,7 +3495,133 @@
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "caption": "2016 में आई किताब Bhujia Barons ने इसे ₹5,000 करोड़ का empire बताया।",
-     "date": "2016"
+     "date": "2016",
+     "words": {
+      "51": {
+       "src": "816d427e5f15",
+       "items": [
+        {
+         "text": "₹5,000 CRORE",
+         "grid": [
+          [
+           [
+            436.2,
+            367.9
+           ],
+           [
+            492.1,
+            347.0
+           ],
+           [
+            547.3,
+            326.4
+           ],
+           [
+            600.8,
+            306.4
+           ],
+           [
+            651.8,
+            287.3
+           ],
+           [
+            702.3,
+            268.5
+           ],
+           [
+            751.3,
+            250.2
+           ]
+          ],
+          [
+           [
+            432.8,
+            382.3
+           ],
+           [
+            488.4,
+            366.3
+           ],
+           [
+            543.7,
+            350.3
+           ],
+           [
+            597.9,
+            334.7
+           ],
+           [
+            650.1,
+            319.7
+           ],
+           [
+            702.1,
+            304.8
+           ],
+           [
+            753.0,
+            290.1
+           ]
+          ],
+          [
+           [
+            429.2,
+            397.0
+           ],
+           [
+            484.5,
+            386.2
+           ],
+           [
+            540.1,
+            375.4
+           ],
+           [
+            595.0,
+            364.6
+           ],
+           [
+            648.3,
+            354.2
+           ],
+           [
+            702.0,
+            343.7
+           ],
+           [
+            755.0,
+            333.3
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a2a4a",
+         "corners": [
+          [
+           451,
+           228
+          ],
+          [
+           771,
+           246
+          ],
+          [
+           800,
+           698
+          ],
+          [
+           343,
+           646
+          ]
+         ],
+         "band": [
+          0.05,
+          0.3
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "पर बीकानेर में, परिवार का एक और सदस्य चुपचाप कुछ अलग सोच रहा था।",
@@ -868,7 +3661,258 @@
       "A realistic painting of an Indian sign painter on a bamboo scaffold painting a big factory wall sign reading \"BIKAJI\", bright overcast light"
      ],
      "caption": "उन्होंने अपना brand एक नए नाम से शुरू किया। नाम में ही शहर छिपा था: Bikaji.",
-     "label": "BIKAJI · बीकानेर का नया brand"
+     "label": "BIKAJI · बीकानेर का नया brand",
+     "words": {
+      "54": {
+       "src": "c57f499337ba",
+       "items": [
+        {
+         "text": "BIKAJI",
+         "grid": [
+          [
+           [
+            758.7,
+            351.5
+           ],
+           [
+            828.0,
+            352.7
+           ],
+           [
+            898.2,
+            352.8
+           ],
+           [
+            968.2,
+            351.9
+           ],
+           [
+            1036.8,
+            349.9
+           ],
+           [
+            1106.4,
+            346.8
+           ],
+           [
+            1175.7,
+            342.6
+           ]
+          ],
+          [
+           [
+            758.8,
+            445.5
+           ],
+           [
+            828.4,
+            447.8
+           ],
+           [
+            898.9,
+            448.0
+           ],
+           [
+            969.2,
+            446.0
+           ],
+           [
+            1038.1,
+            441.9
+           ],
+           [
+            1107.9,
+            435.6
+           ],
+           [
+            1177.3,
+            427.2
+           ]
+          ],
+          [
+           [
+            759.0,
+            540.3
+           ],
+           [
+            828.8,
+            543.7
+           ],
+           [
+            899.6,
+            544.0
+           ],
+           [
+            970.2,
+            540.9
+           ],
+           [
+            1039.3,
+            534.7
+           ],
+           [
+            1109.4,
+            525.1
+           ],
+           [
+            1179.0,
+            512.3
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#111111",
+         "corners": [
+          [
+           730,
+           256
+          ],
+          [
+           1202,
+           256
+          ],
+          [
+           1210,
+           636
+          ],
+          [
+           730,
+           640
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
+      },
+      "54-2": {
+       "src": "dc58583a69bb",
+       "items": [
+        {
+         "text": "BIKAJI",
+         "grid": [
+          [
+           [
+            920.4,
+            394.6
+           ],
+           [
+            950.5,
+            380.7
+           ],
+           [
+            985.4,
+            364.8
+           ],
+           [
+            1025.5,
+            346.7
+           ],
+           [
+            1071.4,
+            326.3
+           ],
+           [
+            1126.3,
+            302.0
+           ],
+           [
+            1192.0,
+            273.3
+           ]
+          ],
+          [
+           [
+            920.5,
+            465.1
+           ],
+           [
+            950.9,
+            456.1
+           ],
+           [
+            986.1,
+            445.8
+           ],
+           [
+            1026.8,
+            434.1
+           ],
+           [
+            1073.3,
+            420.8
+           ],
+           [
+            1129.1,
+            405.0
+           ],
+           [
+            1195.9,
+            386.3
+           ]
+          ],
+          [
+           [
+            920.6,
+            536.9
+           ],
+           [
+            951.3,
+            533.0
+           ],
+           [
+            986.9,
+            528.4
+           ],
+           [
+            1028.0,
+            523.3
+           ],
+           [
+            1075.2,
+            517.5
+           ],
+           [
+            1131.9,
+            510.7
+           ],
+           [
+            1199.9,
+            502.6
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#a31515",
+         "corners": [
+          [
+           909,
+           297
+          ],
+          [
+           1216,
+           90
+          ],
+          [
+           1239,
+           689
+          ],
+          [
+           909,
+           653
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8973
     },
     {
      "vo": "उन्नीस सौ तिरानवे में बीकाजी लॉन्च हुआ। और यहाँ भुजिया बनने लगी बड़ी मशीनों पर।",
@@ -889,7 +3933,8 @@
      "more": [
       "Medium painting of an older Indian halwai in a white vest watching a machine pour bhujia, arms crossed, half impressed, half doubtful"
      ],
-     "caption": "Company के IPO papers यानी RHP में भी यही साल दर्ज है। सोचिए, हाथ का काम अब machine की speed से।"
+     "caption": "Company के IPO papers यानी RHP में भी यही साल दर्ज है। सोचिए, हाथ का काम अब machine की speed से।",
+     "seed": 8975
     },
     {
      "vo": "सोच साफ़ थी। हर पैकेट में वही स्वाद, चाहे वो बीकानेर में खुले या लंदन में।",
@@ -900,7 +3945,8 @@
       "Medium painting of a grocery aisle in a London shop on a rainy evening, an Indian grandmother in a cardigan over her saree picking up a snack packet"
      ],
      "caption": "सोच साफ़ थी। हर पैकेट में वही स्वाद, चाहे वो Bikaner में खुले या London में।",
-     "title": "हर पैकेट वही स्वाद"
+     "title": "हर पैकेट वही स्वाद",
+     "seed": 8976
     },
     {
      "vo": "भुजिया के साथ आए रसगुल्ले के डिब्बे, पापड़ और नमकीन की दर्जनों किस्में।",
@@ -917,6 +3963,132 @@
       "credit": "Rasgulla preparation for Indian wedding 11.jpg by Satdeep Gill, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Rasgulla_preparation_for_Indian_wedding_11.jpg",
       "card": 0.72
+     },
+     "words": {
+      "58": {
+       "src": "12ebd926ab8c",
+       "items": [
+        {
+         "text": "BIKAJI",
+         "grid": [
+          [
+           [
+            658.0,
+            514.2
+           ],
+           [
+            694.2,
+            502.8
+           ],
+           [
+            731.1,
+            495.8
+           ],
+           [
+            768.0,
+            493.4
+           ],
+           [
+            804.2,
+            495.7
+           ],
+           [
+            841.1,
+            502.7
+           ],
+           [
+            878.0,
+            514.4
+           ]
+          ],
+          [
+           [
+            658.0,
+            545.5
+           ],
+           [
+            694.2,
+            542.9
+           ],
+           [
+            731.1,
+            541.3
+           ],
+           [
+            768.0,
+            540.6
+           ],
+           [
+            804.2,
+            540.9
+           ],
+           [
+            841.1,
+            542.1
+           ],
+           [
+            878.0,
+            544.3
+           ]
+          ],
+          [
+           [
+            658.0,
+            576.7
+           ],
+           [
+            694.2,
+            583.1
+           ],
+           [
+            731.1,
+            586.9
+           ],
+           [
+            768.0,
+            587.8
+           ],
+           [
+            804.2,
+            586.1
+           ],
+           [
+            841.1,
+            581.5
+           ],
+           [
+            878.0,
+            574.1
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#222222",
+         "corners": [
+          [
+           643,
+           422
+          ],
+          [
+           893,
+           422
+          ],
+          [
+           893,
+           666
+          ],
+          [
+           643,
+           666
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -970,7 +4142,8 @@
       "Close-up painting of three snack packets of different designs lined up on a kitchen shelf, morning light"
      ],
      "caption": "अब एक दुकान से तीन बड़े रास्ते निकल चुके थे। Kolkata, Delhi-Nagpur, और Bikaji.",
-     "title": "तीन बड़े रास्ते"
+     "title": "तीन बड़े रास्ते",
+     "seed": 8981
     },
     {
      "vo": "पर आई पी ओ से दो महीने पहले ही, एक खबर आ चुकी थी जिसने सबको चौंका दिया था।",
@@ -1002,6 +4175,132 @@
       "credit": "TATA-CONSUMER-PRODUCTS BLUE LOGO Feb 13.png by Tata Consumer Products Limited, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:TATA-CONSUMER-PRODUCTS_BLUE_LOGO_Feb_13.png",
       "card": 0.72
+     },
+     "words": {
+      "64": {
+       "src": "0f21cdd56ae5",
+       "items": [
+        {
+         "text": "TATA EYES HALDIRAM'S",
+         "grid": [
+          [
+           [
+            253.1,
+            537.1
+           ],
+           [
+            363.9,
+            518.2
+           ],
+           [
+            469.5,
+            500.2
+           ],
+           [
+            568.6,
+            483.3
+           ],
+           [
+            660.3,
+            467.6
+           ],
+           [
+            748.2,
+            452.6
+           ],
+           [
+            831.1,
+            438.5
+           ]
+          ],
+          [
+           [
+            276.0,
+            562.5
+           ],
+           [
+            387.6,
+            542.5
+           ],
+           [
+            493.8,
+            523.4
+           ],
+           [
+            593.5,
+            505.6
+           ],
+           [
+            685.6,
+            489.1
+           ],
+           [
+            773.8,
+            473.3
+           ],
+           [
+            857.0,
+            458.4
+           ]
+          ],
+          [
+           [
+            299.6,
+            588.6
+           ],
+           [
+            411.9,
+            567.4
+           ],
+           [
+            518.9,
+            547.3
+           ],
+           [
+            619.0,
+            528.4
+           ],
+           [
+            711.5,
+            511.0
+           ],
+           [
+            800.0,
+            494.4
+           ],
+           [
+            883.5,
+            478.7
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           189,
+           527
+          ],
+          [
+           845,
+           419
+          ],
+          [
+           1101,
+           612
+          ],
+          [
+           416,
+           787
+          ]
+         ],
+         "band": [
+          0.08,
+          0.3
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -1016,7 +4315,8 @@
      "quote": {
       "text": "Haldiram's करीब $10 Billion की valuation चाहता है।",
       "who": "Reuters की report"
-     }
+     },
+     "seed": 8984
     },
     {
      "vo": "पर टाटा कंज़्यूमर ने स्टॉक एक्सचेंज को जवाब दिया और इस रिपोर्ट को नकार दिया।",
@@ -1031,11 +4331,137 @@
       "credit": "BSE - Bombay Stock Exchange Building.jpg by Niyantha Shekhar, CC BY 2.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
       "card": 0.72
+     },
+     "words": {
+      "66": {
+       "src": "8015a9188795",
+       "items": [
+        {
+         "text": "CLARIFICATION",
+         "grid": [
+          [
+           [
+            227.7,
+            513.1
+           ],
+           [
+            284.4,
+            504.1
+           ],
+           [
+            346.8,
+            494.0
+           ],
+           [
+            414.7,
+            482.8
+           ],
+           [
+            487.6,
+            470.6
+           ],
+           [
+            568.8,
+            456.7
+           ],
+           [
+            658.4,
+            441.2
+           ]
+          ],
+          [
+           [
+            267.4,
+            539.9
+           ],
+           [
+            324.7,
+            532.0
+           ],
+           [
+            386.8,
+            522.5
+           ],
+           [
+            453.6,
+            511.4
+           ],
+           [
+            524.3,
+            498.6
+           ],
+           [
+            602.4,
+            483.5
+           ],
+           [
+            687.8,
+            465.8
+           ]
+          ],
+          [
+           [
+            305.9,
+            565.8
+           ],
+           [
+            363.7,
+            559.0
+           ],
+           [
+            425.6,
+            550.1
+           ],
+           [
+            491.2,
+            539.1
+           ],
+           [
+            559.9,
+            525.8
+           ],
+           [
+            635.0,
+            509.5
+           ],
+           [
+            716.4,
+            489.7
+           ]
+          ]
+         ],
+         "style": "type",
+         "color": "#111111",
+         "corners": [
+          [
+           179,
+           499
+          ],
+          [
+           717,
+           451
+          ],
+          [
+           819,
+           538
+          ],
+          [
+           275,
+           563
+          ]
+         ],
+         "band": [
+          0.1,
+          0.9
+         ]
+        }
+       ]
+      }
      }
     },
     {
      "vo": "फिर भी एक बात साफ़ हो गई। दुनिया के बड़े इन्वेस्टर्स की नज़र इस भुजिया पर थी।",
-     "prompt": "A sleek glass boardroom high above a city at night, Indian and foreign investors in dark suits seated around a table, a single bowl of bhujia in the middle of the table, wide shot",
+     "prompt": "Indian and foreign investors in dark suits seated around a table in a sleek glass boardroom high above a city at night, a single bowl of bhujia in the middle of the table, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -1049,7 +4475,8 @@
       "credit": "Pixabay (PItamaas)",
       "page": "https://pixabay.com/photos/salty-snacks-snack-food-popcorn-4372448/",
       "card": 0.72
-     }
+     },
+     "seed": 8986
     },
     {
      "vo": "दो हज़ार चौबीस में रिपोर्ट्स आईं कि ब्लैकस्टोन के लेड ग्रुप ने भी स्टेक के लिए ऑफ़र दिया।",
@@ -1060,7 +4487,134 @@
       "A realistic painting of foreign bankers in dark suits stepping out of a car under umbrellas at a glass office tower in Delhi, heavy rain"
      ],
      "caption": "2024 में reports आईं कि Blackstone के led group ने भी stake के लिए offer दिया।",
-     "date": "2024"
+     "date": "2024",
+     "words": {
+      "68": {
+       "src": "89acbb987831",
+       "items": [
+        {
+         "text": "OFFER",
+         "grid": [
+          [
+           [
+            640.9,
+            432.7
+           ],
+           [
+            697.5,
+            430.6
+           ],
+           [
+            754.6,
+            428.7
+           ],
+           [
+            811.2,
+            426.8
+           ],
+           [
+            866.6,
+            425.0
+           ],
+           [
+            922.4,
+            423.3
+           ],
+           [
+            978.0,
+            421.7
+           ]
+          ],
+          [
+           [
+            639.3,
+            454.6
+           ],
+           [
+            698.5,
+            452.8
+           ],
+           [
+            758.3,
+            451.3
+           ],
+           [
+            817.8,
+            450.0
+           ],
+           [
+            876.1,
+            448.9
+           ],
+           [
+            935.3,
+            448.1
+           ],
+           [
+            994.5,
+            447.5
+           ]
+          ],
+          [
+           [
+            637.5,
+            478.6
+           ],
+           [
+            699.5,
+            477.2
+           ],
+           [
+            762.4,
+            476.1
+           ],
+           [
+            825.1,
+            475.5
+           ],
+           [
+            886.7,
+            475.3
+           ],
+           [
+            949.7,
+            475.6
+           ],
+           [
+            1012.9,
+            476.3
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           621,
+           403
+          ],
+          [
+           988,
+           403
+          ],
+          [
+           1039,
+           477
+          ],
+          [
+           612,
+           477
+          ]
+         ],
+         "band": [
+          0.15,
+          0.85
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8987
     },
     {
      "vo": "इसी बीच परिवार ने बड़ा फ़ैसला लिया। दिल्ली और नागपुर का स्नैक्स बिज़नेस अब एक होगा।",
@@ -1079,7 +4633,8 @@
       "credit": "Pixabay (Ralphs_Fotos)",
       "page": "https://pixabay.com/photos/handshake-agreement-trade-business-3100563/",
       "card": 0.72
-     }
+     },
+     "seed": 8988
     },
     {
      "vo": "नई कंपनी बनी हल्दीराम स्नैक्स फ़ूड. रिपोर्ट्स के मुताबिक़ दिल्ली परिवार के पास छप्पन प्रतिशत, नागपुर के पास चौवालीस प्रतिशत.",
@@ -1098,6 +4653,132 @@
       "credit": "Pixabay (geralt)",
       "page": "https://pixabay.com/photos/signature-contract-shaking-hands-3113182/",
       "card": 0.72
+     },
+     "words": {
+      "70-2": {
+       "src": "8a979163b7ea",
+       "items": [
+        {
+         "text": "HALDIRAM SNACKS FOOD",
+         "grid": [
+          [
+           [
+            439.4,
+            373.2
+           ],
+           [
+            548.0,
+            373.7
+           ],
+           [
+            655.7,
+            374.1
+           ],
+           [
+            760.9,
+            374.6
+           ],
+           [
+            861.8,
+            375.0
+           ],
+           [
+            962.0,
+            375.4
+           ],
+           [
+            1060.0,
+            375.8
+           ]
+          ],
+          [
+           [
+            433.8,
+            405.0
+           ],
+           [
+            545.3,
+            405.1
+           ],
+           [
+            656.0,
+            405.2
+           ],
+           [
+            763.8,
+            405.2
+           ],
+           [
+            867.3,
+            405.3
+           ],
+           [
+            970.0,
+            405.4
+           ],
+           [
+            1070.3,
+            405.4
+           ]
+          ],
+          [
+           [
+            427.9,
+            438.6
+           ],
+           [
+            542.5,
+            438.3
+           ],
+           [
+            656.2,
+            437.9
+           ],
+           [
+            766.9,
+            437.5
+           ],
+           [
+            873.1,
+            437.2
+           ],
+           [
+            978.4,
+            436.9
+           ],
+           [
+            1081.1,
+            436.6
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           412,
+           288
+          ],
+          [
+           1069,
+           297
+          ],
+          [
+           1222,
+           698
+          ],
+          [
+           317,
+           730
+          ]
+         ],
+         "band": [
+          0.25,
+          0.42
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -1124,7 +4805,134 @@
       "credit": "Pixabay (cegoh)",
       "page": "https://pixabay.com/photos/skyline-cityscape-buildings-255116/",
       "card": 0.72
-     }
+     },
+     "words": {
+      "72-2": {
+       "src": "3a3d93e834a9",
+       "items": [
+        {
+         "text": "10%",
+         "grid": [
+          [
+           [
+            588.0,
+            375.8
+           ],
+           [
+            648.3,
+            356.3
+           ],
+           [
+            709.6,
+            344.7
+           ],
+           [
+            771.0,
+            341.3
+           ],
+           [
+            831.3,
+            346.0
+           ],
+           [
+            892.7,
+            359.1
+           ],
+           [
+            954.0,
+            380.4
+           ]
+          ],
+          [
+           [
+            588.0,
+            433.0
+           ],
+           [
+            648.3,
+            428.7
+           ],
+           [
+            709.6,
+            426.8
+           ],
+           [
+            771.0,
+            427.4
+           ],
+           [
+            831.3,
+            430.4
+           ],
+           [
+            892.7,
+            435.8
+           ],
+           [
+            954.0,
+            443.8
+           ]
+          ],
+          [
+           [
+            588.0,
+            490.2
+           ],
+           [
+            648.3,
+            501.2
+           ],
+           [
+            709.6,
+            509.0
+           ],
+           [
+            771.0,
+            513.6
+           ],
+           [
+            831.3,
+            514.7
+           ],
+           [
+            892.7,
+            512.6
+           ],
+           [
+            954.0,
+            507.1
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#d0101a",
+         "corners": [
+          [
+           563,
+           256
+          ],
+          [
+           979,
+           256
+          ],
+          [
+           979,
+           602
+          ],
+          [
+           563,
+           602
+          ]
+         ],
+         "band": [
+          0.3,
+          0.7
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8991
     },
     {
      "vo": "रिपोर्ट्स के मुताबिक़ कुछ और इन्वेस्टर्स ने भी इसमें छोटे हिस्से लिए।",
@@ -1165,7 +4973,134 @@
       "credit": "Pixabay (geralt)",
       "page": "https://pixabay.com/photos/entrepreneur-idea-competence-vision-1340649/",
       "card": 0.72
-     }
+     },
+     "words": {
+      "74-2": {
+       "src": "97e9f0014776",
+       "items": [
+        {
+         "text": "₹85,000 CRORE",
+         "grid": [
+          [
+           [
+            336.2,
+            274.3
+           ],
+           [
+            430.4,
+            300.7
+           ],
+           [
+            524.6,
+            327.1
+           ],
+           [
+            617.4,
+            353.1
+           ],
+           [
+            707.2,
+            378.3
+           ],
+           [
+            797.1,
+            403.5
+           ],
+           [
+            885.7,
+            428.4
+           ]
+          ],
+          [
+           [
+            335.6,
+            250.3
+           ],
+           [
+            429.8,
+            285.2
+           ],
+           [
+            524.3,
+            320.2
+           ],
+           [
+            617.5,
+            354.8
+           ],
+           [
+            707.8,
+            388.3
+           ],
+           [
+            798.5,
+            421.9
+           ],
+           [
+            887.9,
+            455.1
+           ]
+          ],
+          [
+           [
+            335.0,
+            226.3
+           ],
+           [
+            429.2,
+            269.8
+           ],
+           [
+            524.0,
+            313.4
+           ],
+           [
+            617.6,
+            356.5
+           ],
+           [
+            708.5,
+            398.3
+           ],
+           [
+            799.9,
+            440.4
+           ],
+           [
+            890.2,
+            482.0
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#1a1a1a",
+         "corners": [
+          [
+           297,
+           269
+          ],
+          [
+           906,
+           260
+          ],
+          [
+           941,
+           666
+          ],
+          [
+           307,
+           707
+          ]
+         ],
+         "band": [
+          0.03,
+          0.25
+         ]
+        }
+       ]
+      }
+     },
+     "seed": 8993
     },
     {
      "vo": "रिपोर्ट्स के मुताबिक़, इस कंपनी की सालाना सेल्स बारह हज़ार करोड़ रुपये से भी ज़्यादा है।",
@@ -1183,6 +5118,132 @@
       "credit": "Pixabay (Quanlecntt2004)",
       "page": "https://pixabay.com/photos/worker-woman-mask-face-mask-6322085/",
       "card": 0.72
+     },
+     "words": {
+      "75-2": {
+       "src": "358b9129b99b",
+       "items": [
+        {
+         "text": "₹12,000 CRORE+",
+         "grid": [
+          [
+           [
+            708.4,
+            558.0
+           ],
+           [
+            798.7,
+            553.2
+           ],
+           [
+            893.5,
+            548.1
+           ],
+           [
+            991.4,
+            542.9
+           ],
+           [
+            1091.1,
+            537.5
+           ],
+           [
+            1195.9,
+            531.9
+           ],
+           [
+            1304.4,
+            526.1
+           ]
+          ],
+          [
+           [
+            715.7,
+            623.1
+           ],
+           [
+            806.9,
+            619.3
+           ],
+           [
+            902.7,
+            615.3
+           ],
+           [
+            1001.8,
+            611.1
+           ],
+           [
+            1102.6,
+            606.9
+           ],
+           [
+            1208.7,
+            602.4
+           ],
+           [
+            1318.5,
+            597.8
+           ]
+          ],
+          [
+           [
+            723.2,
+            689.4
+           ],
+           [
+            815.3,
+            686.6
+           ],
+           [
+            912.2,
+            683.7
+           ],
+           [
+            1012.4,
+            680.7
+           ],
+           [
+            1114.3,
+            677.6
+           ],
+           [
+            1221.7,
+            674.4
+           ],
+           [
+            1332.9,
+            671.0
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#111111",
+         "corners": [
+          [
+           636,
+           224
+          ],
+          [
+           1274,
+           151
+          ],
+          [
+           1418,
+           860
+          ],
+          [
+           704,
+           860
+          ]
+         ],
+         "band": [
+          0.55,
+          0.75
+         ]
+        }
+       ]
+      }
      }
     }
    ]
@@ -1200,7 +5261,8 @@
       "Close-up painting of a faded family photograph of a large Rajasthani joint family propped on a shelf beside a red snack packet"
      ],
      "caption": "तो Haldiram's का असली मालिक कौन है? Tata? नहीं। ज़्यादातर हिस्सा आज भी Agarwal परिवार के पास है। पर अब इसमें एक बाहरी investor भी है।",
-     "drop": true
+     "drop": true,
+     "seed": 8995
     },
     {
      "vo": "दिल्ली और नागपुर अब एक कंपनी हैं। कोलकाता की अपनी पहचान है। और बीकानेर से निकला बीकाजी, अपनी राह पर।",
@@ -1218,7 +5280,8 @@
       "credit": "Cenotaphs of the early rulers of Bikaner Roa Bikaji ki Takari 2.jpg by Hari makar, CC BY-SA 3.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Cenotaphs_of_the_early_rulers_of_Bikaner_Roa_Bikaji_ki_Takari_2.jpg",
       "card": 0.72
-     }
+     },
+     "seed": 8996
     },
     {
      "vo": "और हल्दीराम? वो कोई ब्रांड का नाम नहीं, एक इंसान का घर का नाम था। असली नाम था गंगा बिशन अग्रवाल.",
@@ -1229,7 +5292,133 @@
       "Close-up painting of an old ledger page under an oil lamp with the handwritten words \"गंगा बिशन\" at the top"
      ],
      "caption": "और Haldiram? वो कोई brand का नाम नहीं, एक इंसान का घर का नाम था। असली नाम था Ganga Bishan Agarwal.",
-     "label": "GANGA BISHAN AGARWAL · असली नाम 'Haldiram' का"
+     "label": "GANGA BISHAN AGARWAL · असली नाम 'Haldiram' का",
+     "words": {
+      "78-2": {
+       "src": "3e7998c3f11d",
+       "items": [
+        {
+         "text": "गंगा बिशन",
+         "grid": [
+          [
+           [
+            353.8,
+            411.0
+           ],
+           [
+            463.1,
+            398.6
+           ],
+           [
+            577.8,
+            385.6
+           ],
+           [
+            696.4,
+            372.2
+           ],
+           [
+            816.9,
+            358.5
+           ],
+           [
+            943.7,
+            344.1
+           ],
+           [
+            1075.0,
+            329.2
+           ]
+          ],
+          [
+           [
+            358.5,
+            463.8
+           ],
+           [
+            468.3,
+            449.6
+           ],
+           [
+            583.7,
+            434.6
+           ],
+           [
+            702.8,
+            419.2
+           ],
+           [
+            823.8,
+            403.5
+           ],
+           [
+            951.0,
+            387.0
+           ],
+           [
+            1082.6,
+            370.0
+           ]
+          ],
+          [
+           [
+            363.2,
+            517.4
+           ],
+           [
+            473.7,
+            501.3
+           ],
+           [
+            589.6,
+            484.3
+           ],
+           [
+            709.2,
+            466.9
+           ],
+           [
+            830.7,
+            449.1
+           ],
+           [
+            958.4,
+            430.5
+           ],
+           [
+            1090.4,
+            411.2
+           ]
+          ]
+         ],
+         "style": "hand",
+         "color": "#2b1d12",
+         "corners": [
+          [
+           301,
+           311
+          ],
+          [
+           1114,
+           243
+          ],
+          [
+           1235,
+           860
+          ],
+          [
+           346,
+           860
+          ]
+         ],
+         "band": [
+          0.2,
+          0.4
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "उन्नीस सौ सैंतीस की वो एक दुकान, आज आपकी प्लेट तक पहुँचती है। हर कटोरी भुजिया में उसी गली का स्वाद।",
@@ -1244,6 +5433,132 @@
       "credit": "Pixabay (PItamaas)",
       "page": "https://pixabay.com/photos/salty-snacks-snack-food-popcorn-4372448/",
       "card": 0.72
+     },
+     "words": {
+      "79": {
+       "src": "d61bbdc2e02b",
+       "items": [
+        {
+         "text": "HALDIRAM'S",
+         "grid": [
+          [
+           [
+            659.9,
+            477.2
+           ],
+           [
+            697.3,
+            477.8
+           ],
+           [
+            735.6,
+            478.1
+           ],
+           [
+            774.2,
+            477.8
+           ],
+           [
+            812.3,
+            477.2
+           ],
+           [
+            851.4,
+            476.1
+           ],
+           [
+            890.7,
+            474.6
+           ]
+          ],
+          [
+           [
+            660.3,
+            508.8
+           ],
+           [
+            697.7,
+            509.1
+           ],
+           [
+            736.0,
+            509.2
+           ],
+           [
+            774.6,
+            509.0
+           ],
+           [
+            812.8,
+            508.6
+           ],
+           [
+            851.9,
+            507.8
+           ],
+           [
+            891.2,
+            506.7
+           ]
+          ],
+          [
+           [
+            660.6,
+            540.4
+           ],
+           [
+            698.1,
+            540.5
+           ],
+           [
+            736.5,
+            540.5
+           ],
+           [
+            775.1,
+            540.3
+           ],
+           [
+            813.2,
+            540.0
+           ],
+           [
+            852.4,
+            539.5
+           ],
+           [
+            891.7,
+            538.9
+           ]
+          ]
+         ],
+         "style": "print",
+         "color": "#c8102e",
+         "corners": [
+          [
+           644,
+           433
+          ],
+          [
+           906,
+           429
+          ],
+          [
+           909,
+           612
+          ],
+          [
+           646,
+           612
+          ]
+         ],
+         "band": [
+          0.25,
+          0.6
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -1282,5 +5597,191 @@
  "released_at": "2026-11-19 06:58",
  "voice_requested": "voice-ll-026-haldirams-cd5be617bd",
  "voice_ok": "voice-ll-026-haldirams-cd5be617bd",
- "voice_approved_at": "2026-11-19 07:25"
+ "voice_approved_at": "2026-11-19 07:25",
+ "repaint": {
+  "shots": [
+   2,
+   6,
+   9,
+   10,
+   12,
+   13,
+   16,
+   17,
+   19,
+   20,
+   23,
+   24,
+   25,
+   26,
+   28,
+   30,
+   33,
+   34,
+   36,
+   37,
+   38,
+   39,
+   41,
+   43,
+   44,
+   48,
+   49,
+   50,
+   54,
+   56,
+   57,
+   61,
+   62,
+   65,
+   67,
+   68,
+   69,
+   72,
+   74,
+   76,
+   77
+  ],
+  "thumbs": [
+   "shot-02-2.png",
+   "shot-06-2.png",
+   "shot-10-2.png",
+   "shot-12-2.png",
+   "shot-13-2.png",
+   "shot-16-2.png",
+   "shot-17-2.png",
+   "shot-19-2.png",
+   "shot-20-2.png",
+   "shot-23-2.png",
+   "shot-24-2.png",
+   "shot-25-2.png",
+   "shot-26-2.png",
+   "shot-28-2.png",
+   "shot-30-2.png",
+   "shot-33-2.png",
+   "shot-34-2.png",
+   "shot-36-2.png",
+   "shot-37-2.png",
+   "shot-38-2.png",
+   "shot-39-2.png",
+   "shot-41-2.png",
+   "shot-43-2.png",
+   "shot-44-2.png",
+   "shot-48-2.png",
+   "shot-49-2.png",
+   "shot-50-2.png",
+   "shot-54-2.png",
+   "shot-56-2.png",
+   "shot-57-2.png",
+   "shot-62-2.png",
+   "shot-65-2.png",
+   "shot-67-2.png",
+   "shot-68-2.png",
+   "shot-69-2.png",
+   "shot-72-2.png",
+   "shot-74-2.png",
+   "shot-76-2.png",
+   "shot-77-2.png"
+  ],
+  "at": "2026-11-19 10:56"
+ },
+ "shot_qc": {
+  "checked": "2026-11-19T02:49:36Z",
+  "rounds": 1,
+  "why": {
+   "6b": "empty boardroom, no forklift/warehouse",
+   "9": "cars and auto-rickshaw in 1930s Bikaner lane",
+   "10b": "modern motorbike, not a rooftop family",
+   "10": "cars and van in 1930s scene",
+   "12b": "modern car and bike, adult with boy not a seated teen",
+   "12": "modern motorbike in 1930s lane",
+   "13b": "modern scooter, not close-up thick bhujia",
+   "16": "car and auto-rickshaw in palace courtyard",
+   "17b": "man praying, no price slate",
+   "19b": "modern car, no ledger",
+   "19": "stray 'Left Blank' text on the paper",
+   "20b": "street scene, no family tree",
+   "20": "misspelled painted 'FAMILY TRAE'",
+   "23b": "garland crowd, not Howrah platform",
+   "24b": "close-up of woman eating, not the market",
+   "25b": "NAMEEN sign, no map",
+   "25": "garbled map text, cars and street collage",
+   "26b": "boy with tram, not the line's action",
+   "28b": "notebook only, no shop",
+   "30b": "crowd with blank cards, not two trays",
+   "33b": "empty box, no sweet shop",
+   "34b": "trucks, no map",
+   "36b": "boy with packet, no soggy bhujia",
+   "37b": "Coca-Cola logo, foreign brand",
+   "37": "worker has a red box where the head should be",
+   "38b": "family at a table, no factory gate",
+   "39b": "factory skyline, no ledger",
+   "41b": "rental agreement, not men reaching Delhi",
+   "43b": "woman with packet, no queue",
+   "44b": "export containers, no factory gate",
+   "48b": "TRADEMARK folder, no courtroom",
+   "49b": "factory, no sales chart",
+   "50b": "laughing people, no scale",
+   "54b": "man on ladder, no drafting table",
+   "54": "stray 'Left' word before BIKAJI",
+   "56b": "man with arms crossed, no history page",
+   "56": "garbled heading, year shows 1983 not 1993",
+   "57b": "shopper, no lab weighing",
+   "61b": "man on phone, no stock market",
+   "62b": "packets on counter, no roads from a shop",
+   "65b": "packet and gold bars, no laptop",
+   "67b": "hand on bowl, no investors",
+   "68b": "men with umbrellas, no bid envelope",
+   "69b": "boardroom, no trays merging",
+   "72b": "'10%' card, no Singapore skyline",
+   "74b": "bar chart, no giant packet",
+   "76b": "old photo, not the family sharing bhujia",
+   "77b": "empty street, no three packets on a map",
+   "2": "no blank surface for its words",
+   "39": "no blank surface for its words"
+  },
+  "recheck": [
+   "2",
+   "6",
+   "9",
+   "10",
+   "12",
+   "13",
+   "16",
+   "17",
+   "19",
+   "20",
+   "23",
+   "24",
+   "25",
+   "26",
+   "28",
+   "30",
+   "33",
+   "34",
+   "36",
+   "37",
+   "38",
+   "39",
+   "41",
+   "43",
+   "44",
+   "48",
+   "49",
+   "50",
+   "54",
+   "56",
+   "57",
+   "61",
+   "62",
+   "65",
+   "67",
+   "68",
+   "69",
+   "72",
+   "74",
+   "76",
+   "77"
+  ]
+ }
 }
