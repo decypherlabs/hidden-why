@@ -1,0 +1,2625 @@
+{
+ "slug": "tsm-009-iran-fortress",
+ "channel": "The State Maps",
+ "format": "long",
+ "build": "kit",
+ "lang": "en",
+ "voice": "am_adam",
+ "title": "Iran's Mountains: A Wall With Two Gaps",
+ "thumbnail": {
+  "text": "Only these *doors*",
+  "idea": "Full-frame shaded relief map of Iran, the Zagros and Elburz ridges lit in orange against dark slate lowlands; two red circles, one on the flat Khuzestan plain in the southwest and one on the low ground around Mashhad in the northeast, each with a red arrow pointing in toward the plateau behind the ranges."
+ },
+ "sources": [
+  {
+   "claim": "Iran covers 1,648,195 square kilometres",
+   "source": "CIA World Factbook, Iran, 2025 edition"
+  },
+  {
+   "claim": "About 90 million people live in Iran",
+   "source": "UN World Population Prospects 2024 (about 91 million for 2024); Statistical Centre of Iran estimates are somewhat lower"
+  },
+  {
+   "claim": "Roughly France, Spain, Germany and Britain put together",
+   "source": "CIA World Factbook areas: metropolitan France 543,940; Spain 505,370; Germany 357,022; UK 243,610 km² (total about 1.65 million)"
+  },
+  {
+   "claim": "Seven land neighbours along 5,894 km of border",
+   "source": "CIA World Factbook, Iran, land boundaries (Iraq 1,599 km; Turkmenistan 1,148; Pakistan 959; Afghanistan 921; Azerbaijan 689; Turkey 534; Armenia 44)"
+  },
+  {
+   "claim": "Zagros: 1,500 to 1,600 km long, depending on the reference",
+   "source": "Encyclopaedia Britannica, 'Zagros Mountains'; other geographic references give about 1,600 km"
+  },
+  {
+   "claim": "Damavand is the highest peak in Iran and the Middle East",
+   "source": "Encyclopaedia Britannica, 'Mount Damavand'"
+  },
+  {
+   "claim": "Damavand: 5,610 m (Iranian surveys) vs 5,671 m (Britannica)",
+   "source": "National Cartographic Center of Iran; Encyclopaedia Britannica, 'Mount Damavand'"
+  },
+  {
+   "claim": "Tehran to the Caspian shore: 107 km straight line",
+   "source": "Straight-line measurement, Tehran (35.69 N, 51.39 E) to Chalus coast (36.66 N, 51.42 E)"
+  },
+  {
+   "claim": "Rasht over 1,300 mm of rain a year; Tehran about 230 mm",
+   "source": "Iran Meteorological Organization climate normals (Rasht and Tehran-Mehrabad stations)"
+  },
+  {
+   "claim": "70.7 °C ground temperature in the Lut, 2005",
+   "source": "Mildrexler, Zhao and Running, 'Satellite Finds Highest Land Skin Temperatures on Earth', Bulletin of the American Meteorological Society, 2011 (NASA MODIS data)"
+  },
+  {
+   "claim": "Average elevation of 1,305 m",
+   "source": "CIA World Factbook, Iran, mean elevation"
+  },
+  {
+   "claim": "2016 census: Tehran city 8.7 million; Mashhad 3.0m, Isfahan 1.96m, Karaj 1.59m, Shiraz 1.57m, Tabriz 1.56m",
+   "source": "Statistical Centre of Iran, National Population and Housing Census 2016"
+  },
+  {
+   "claim": "Tehran to the Persian Gulf about 750 km",
+   "source": "Straight-line measurement, Tehran to Bushehr (28.97 N, 50.84 E)"
+  },
+  {
+   "claim": "Most of Iran's crude reserves lie in giant onshore fields in Khuzestan",
+   "source": "US Energy Information Administration, Iran Country Analysis Brief"
+  },
+  {
+   "claim": "Ahvaz, Marun and Aghajari among Iran's largest oil fields",
+   "source": "US Energy Information Administration, Iran Country Analysis Brief (table of Iran's largest oil fields)"
+  },
+  {
+   "claim": "208.6 billion barrels of proven crude reserves, third largest by OPEC's count",
+   "source": "OPEC Annual Statistical Bulletin 2023 (after Venezuela and Saudi Arabia)"
+  },
+  {
+   "claim": "Shalamcheh to Dezful about 210 km",
+   "source": "Straight-line measurement, Shalamcheh crossing (30.50 N, 47.98 E) to Dezful (32.38 N, 48.40 E)"
+  },
+  {
+   "claim": "Abu Musa and the Tunbs: held by Iran, claimed by the UAE",
+   "source": "CIA World Factbook, Iran and UAE, international disputes"
+  },
+  {
+   "claim": "For 2,300 years armies have used the two gaps",
+   "source": "Arithmetic: 330 BC (Alexander, Arrian, Anabasis 3.18) to 1980 (Iraq's invasion of Khuzestan, Encyclopaedia Britannica, 'Iran-Iraq War') is about 2,310 years"
+  },
+  {
+   "claim": "330 BC, Persian Gates, Ariobarzanes; Alexander forced back, then outflanked",
+   "source": "Arrian, Anabasis of Alexander 3.18; Quintus Curtius Rufus, Histories 5.3-5.4"
+  },
+  {
+   "claim": "Guided by prisoners (Arrian) or a shepherd (Curtius)",
+   "source": "Arrian, Anabasis 3.18; Curtius 5.4"
+  },
+  {
+   "claim": "Persian Gates site still debated",
+   "source": "Encyclopaedia Iranica, 'Persian Gates'"
+  },
+  {
+   "claim": "Qadisiyyah in 636 or 637",
+   "source": "Encyclopaedia Iranica, 'Qadesiya, Battle of' (early Arabic sources disagree on the year)"
+  },
+  {
+   "claim": "Nahavand, 642",
+   "source": "Encyclopaedia Britannica, 'Battle of Nahavand'"
+  },
+  {
+   "claim": "Nahavand lies in a Zagros valley south of Hamadan",
+   "source": "Encyclopaedia Iranica, 'Nahavand'"
+  },
+  {
+   "claim": "The last Sasanian king, Yazdegerd III, died near Merv in 651",
+   "source": "Encyclopaedia Britannica, 'Yazdegerd III'; Encyclopaedia Iranica, 'Yazdegerd III'"
+  },
+  {
+   "claim": "Mongols from 1219; Nishapur taken in 1221",
+   "source": "Encyclopaedia Britannica, 'Mongol empire'; Juvayni, History of the World Conqueror"
+  },
+  {
+   "claim": "Chaldiran, 1514; Ottomans took Baghdad 1534; Safavids retook it in the 1620s; Ottomans in 1638",
+   "source": "Encyclopaedia Britannica, 'Battle of Chaldiran' and 'Baghdad: history'"
+  },
+  {
+   "claim": "Treaty of Zuhab, 1639; today's Iran-Iraq border largely follows it",
+   "source": "Encyclopaedia Iranica, 'Boundaries iii. With Iraq'; Encyclopaedia Britannica, 'Treaty of Qasr-e Shirin'"
+  },
+  {
+   "claim": "Algiers Agreement, 6 March 1975, Shatt al-Arab split along the deepest channel",
+   "source": "Algiers Agreement and 1975 Treaty on International Borders and Good Neighbourly Relations, UN Treaty Series vol. 1017"
+  },
+  {
+   "claim": "17 September 1980: Saddam Hussein declared the agreement void",
+   "source": "New York Times, 18 September 1980; Encyclopaedia Britannica, 'Iran-Iraq War'"
+  },
+  {
+   "claim": "22 September 1980: Iraq invaded, main thrust into Khuzestan",
+   "source": "Encyclopaedia Britannica, 'Iran-Iraq War'; Efraim Karsh, The Iran-Iraq War 1980-1988 (2002)"
+  },
+  {
+   "claim": "Khorramshahr taken in autumn 1980; Abadan besieged; Ahvaz and Dezful not taken",
+   "source": "Karsh, The Iran-Iraq War 1980-1988 (2002) (dates for Khorramshahr's fall vary from late October to November 1980)"
+  },
+  {
+   "claim": "Iran retook Khorramshahr in May 1982",
+   "source": "Encyclopaedia Britannica, 'Iran-Iraq War' (24 May 1982)"
+  },
+  {
+   "claim": "Ceasefire August 1988 under UN Resolution 598",
+   "source": "UN Security Council Resolution 598, 20 July 1987; ceasefire in force 20 August 1988 (UNIIMOG records)"
+  },
+  {
+   "claim": "Historians describe Iraq's plan as a short war",
+   "source": "Karsh (2002); Williamson Murray and Kevin Woods, The Iran-Iraq War: A Military and Strategic History (2014)"
+  },
+  {
+   "claim": "2013 declassified CIA documents acknowledged CIA direction of the 1953 coup",
+   "source": "National Security Archive, 'CIA Confirms Role in 1953 Iran Coup', 19 August 2013"
+  },
+  {
+   "claim": "From 1955 Iran was in the Western-aligned Baghdad Pact (later CENTO) with Turkey, Iraq and Pakistan, until 1979",
+   "source": "Encyclopaedia Britannica, 'Central Treaty Organization' (Baghdad Pact 1955; Iraq left 1959; Iran withdrew 1979)"
+  },
+  {
+   "claim": "About 40,000 US troops across the Middle East in 2025",
+   "source": "Pentagon figures reported by Reuters, June 2025"
+  },
+  {
+   "claim": "US bases in Qatar, Bahrain, Kuwait, the UAE and Iraq",
+   "source": "Congressional Research Service, 'Iran: Background and U.S. Policy', 2025"
+  },
+  {
+   "claim": "Washington's stated concerns: nuclear programme, missiles, armed groups in Lebanon, Iraq and Yemen",
+   "source": "US State Department, Country Reports on Terrorism 2023; CRS, 'Iran: Background and U.S. Policy', 2025"
+  },
+  {
+   "claim": "May 2025: 408.6 kg enriched up to 60 percent; 9,247.6 kg of enriched uranium in total, all levels, counted as uranium mass",
+   "source": "IAEA report GOV/2025/25, 31 May 2025"
+  },
+  {
+   "claim": "Fordow cut into a mountain near Qom; depth about 80-90 m in press reports; no Iranian figure",
+   "source": "Associated Press and Washington Post reporting, June 2025"
+  },
+  {
+   "claim": "22 June 2025: US struck Fordow, Natanz and Isfahan, nine days after Israel's strikes began on 13 June",
+   "source": "US Department of Defense briefing, 22 June 2025; Reuters, 13 and 22 June 2025"
+  },
+  {
+   "claim": "The Pentagon said B-2 bombers and submarine-launched missiles carried out the strikes; no ground invasion",
+   "source": "US Department of Defense briefing, 22 June 2025 (Secretary Hegseth and Gen. Caine); Reuters, 22 June 2025"
+  },
+  {
+   "claim": "Oil jumped about seven percent in a day in June 2025",
+   "source": "Reuters, 13 June 2025 (Brent settled up about 7%)"
+  },
+  {
+   "claim": "America invaded Afghanistan (October 2001) and Iraq (March 2003)",
+   "source": "Encyclopaedia Britannica, 'Afghanistan War' and 'Iraq War'"
+  },
+  {
+   "claim": "Iran says its programme is peaceful and enrichment is its right",
+   "source": "Statements by Iran's Foreign Ministry, 2025; Iran's letters to the IAEA Board of Governors"
+  },
+  {
+   "claim": "NPT Article IV text; US ratified in 1970",
+   "source": "Treaty on the Non-Proliferation of Nuclear Weapons, Article IV; US instrument of ratification deposited 5 March 1970"
+  },
+  {
+   "claim": "Tehran's Foreign Ministry cites the 1953 coup, sanctions and the 2018 US exit",
+   "source": "Iran Foreign Ministry statements: Foreign Minister Javad Zarif on the US withdrawal (8 May 2018) and on US sanctions as 'economic terrorism' (2019), reported by Reuters; Foreign Ministry statements on the 1953 coup anniversary, carried by IRNA"
+  },
+  {
+   "claim": "US exit from the 2015 deal in May 2018",
+   "source": "White House, Presidential Memorandum, 8 May 2018"
+  },
+  {
+   "claim": "Iranian officials describe US forces on almost every side",
+   "source": "Statements by Iran's Foreign Ministry and armed forces, quoted by Reuters, 2024-2025"
+  },
+  {
+   "claim": "About 610,000 active personnel",
+   "source": "IISS, The Military Balance 2024"
+  },
+  {
+   "claim": "Iraq covers 438,317 km²",
+   "source": "CIA World Factbook, Iraq"
+  },
+  {
+   "claim": "Roughly 25 million Iraqis in 2003",
+   "source": "UN World Population Prospects 2024"
+  },
+  {
+   "claim": "Baghdad to Tehran about 690 km",
+   "source": "Straight-line measurement, Baghdad (33.32 N, 44.37 E) to Tehran (35.69 N, 51.39 E)"
+  },
+  {
+   "claim": "August 1941: British from Iraq and the Gulf, Soviets from the north; Reza Shah abdicated 16 September",
+   "source": "Encyclopaedia Iranica, 'Anglo-Soviet Occupation of Iran'; Encyclopaedia Britannica, 'Reza Shah Pahlavi'"
+  },
+  {
+   "claim": "Iran divided into a Soviet zone in the north and a British zone in the south",
+   "source": "Encyclopaedia Iranica, 'Anglo-Soviet Occupation of Iran'; Anglo-Soviet-Iranian Treaty of Alliance, 29 January 1942"
+  },
+  {
+   "claim": "Allies cited German residents and a supply route to the Soviet Union",
+   "source": "Anglo-Soviet notes to the Iranian government, 25 August 1941 (Encyclopaedia Iranica)"
+  },
+  {
+   "claim": "About 20 million barrels a day through Hormuz in 2024, a fifth of world use",
+   "source": "US Energy Information Administration, 'Amid regional conflict, the Strait of Hormuz remains critical', June 2025"
+  },
+  {
+   "claim": "Khuzestan 4.7 million of almost 80 million (2016)",
+   "source": "Statistical Centre of Iran, Census 2016 (Khuzestan 4,710,509; Iran 79,926,270)"
+  },
+  {
+   "claim": "2015 deal: enrichment capped at 3.67 percent; stockpile at 300 kg of uranium hexafluoride, about 200 kg of uranium",
+   "source": "Joint Comprehensive Plan of Action, 14 July 2015, Annex I; IAEA verification reports state the limit as 202.8 kg of uranium"
+  },
+  {
+   "claim": "Wakhan Corridor drawn by Britain and Russia as a buffer",
+   "source": "Encyclopaedia Britannica, 'Wakhan'; Anglo-Russian Pamir agreement, 1895"
+  }
+ ],
+ "playbook": {
+  "topic_type": "place",
+  "points": [
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1
+  ],
+  "minor": [
+   "'Many later conquerors came where the wall is low, on Iraq's plain or through the northeast, rather than over the ridges' sits awkwardly beside Nahavand, which the script itself places in a Zagros valley. Alexander and the Arab armies also fought inside the Zagros. 'Many' and 'came where the wall is low' soften this, but it could be worded more carefully.",
+   "'Nishapur's fall marks the wall's second gap' is an interpretation, not a documented fact. A hedge such as 'is one example of' would fit.",
+   "'In 1980 that gap between plain and plateau helped turn what historians describe as a planned short war into eight years' presents a causal reading as settled. Karsh and Murray/Woods support the 'short war' plan, but the plain-to-plateau cause is an inference.",
+   "'Treaty of Zuhab drew a frontier along the western foot of the Zagros' is a simplification. The line ran through the borderlands and was never precisely surveyed in 1639.",
+   "The 22 June 2025 Pentagon briefing is correctly sourced, but the 7% oil jump was on 13 June, the day Israel's strikes began, not on the days of the US strikes. 'As strikes hit Iran' in the cold open is acceptable but blurs which strikes.",
+   "'The Persian Gates' is given as the 330 BC location while the script says its site is debated. This is consistent, but 'winter of 330 BC' is more precisely January 330 BC.",
+   "The Article IV line omits that the right is conditional on compliance with Articles I-III. This does not make the claim wrong, but it is context for the strongest form of the US side."
+  ]
+ },
+ "stats": {
+  "words": 1993,
+  "cold_open_words": 89,
+  "shots": 103,
+  "minutes": 14.1,
+  "kinds": {
+   "chart": 1,
+   "compare": 5,
+   "document": 2,
+   "footage": 3,
+   "headline": 2,
+   "map": 67,
+   "quote": 1,
+   "stat": 9,
+   "still": 11,
+   "timeline": 2
+  }
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Two mountain ranges wall in Iran: 1.6 million square kilometres, 90 million people.",
+     "kind": "still",
+     "prompt": "Duotone archival plate, dark slate and one muted orange: a vast mountain wall seen from a high plateau at dusk, ridge after ridge receding, a tiny caravan road at the foot, no faces, no text, no signs or lettering on any storefront, screen or package",
+     "title": "*90 million* people"
+    },
+    {
+     "vo": "The Zagros runs down the west; the Elburz caps the north.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       32.5,
+       53.5
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Zagros",
+        "lat": 32.5,
+        "lon": 49.5
+       },
+       {
+        "name": "Elburz",
+        "lat": 36.3,
+        "lon": 52.0
+       }
+      ],
+      "label": "Zagros · Elburz",
+      "globe": true
+     }
+    },
+    {
+     "vo": "In June 2025, as strikes hit Iran, oil jumped seven percent in a day.",
+     "kind": "footage",
+     "search": "oil refinery at dusk",
+     "clip": {
+      "id": 330501,
+      "tags": "industrial night photography, oil refinery complex, blue hour cityscape, factory illumination, water surface reflections, smokestacks at twilight, urban industrial landscape, orange and blue color palette, heavy industry at night, coastal industrial zone, illuminated plant structures, atmospheric industrial scene, long exposure water, chemical plant lighting, modern industrial architecture, harbor industrial view, nighttime pollution, city lights backdrop, dramatic industrial skyline, mirror-like water reflections, industrial tourism photography, petroleum refinery, twilight industrial scene, cyan and amber contrast, working factory at night",
+      "page": "https://pixabay.com/videos/id-330501/"
+     }
+    },
+    {
+     "vo": "That price reaches fuel pumps and food bills far from the Gulf.",
+     "kind": "still",
+     "prompt": "Wide dusk still of a roadside fuel station seen from behind a silhouetted driver beside a parked truck, with a market stall of crates of vegetables in the foreground. Pump displays and signs are blank, with no logos and no readable text. Painterly documentary style., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "America invaded two countries on Iran's borders, Afghanistan and Iraq, within two years.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       33.0,
+       55.0
+      ],
+      "span": 22,
+      "places": [
+       {
+        "name": "Afghanistan 2001",
+        "lat": 34.555,
+        "lon": 69.207
+       },
+       {
+        "name": "Iraq 2003",
+        "lat": 33.315,
+        "lon": 44.366
+       },
+       {
+        "name": "Iran",
+        "lat": 32.4,
+        "lon": 53.7
+       }
+      ],
+      "label": "2001 · 2003"
+     },
+     "title": "*2* invasions"
+    },
+    {
+     "vo": "So why has America never invaded Iran, and is the answer the map?",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       32.4,
+       53.7
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "Iran",
+        "lat": 32.4,
+        "lon": 53.7
+       }
+      ],
+      "label": "Why never Iran?"
+     }
+    },
+    {
+     "vo": "The answer starts in 330 BC, at a pass called the Persian Gates.",
+     "kind": "footage",
+     "search": "mountain pass road",
+     "clip": {
+      "id": 367684,
+      "tags": "ha giang, vietnam, drone, flycam, 4k, cinematic, mountain valley, mountain pass, winding road, karst, clouds, moody, dramatic, landscape, travel, adventure, tourism, epic landscape, highlands, dong van, ma pi leng, aerial view, wilderness",
+      "page": "https://pixabay.com/videos/id-367684/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "BUILT LIKE A FORTRESS",
+   "shots": [
+    {
+     "vo": "Start with the outline: Iran covers 1,648,195 square kilometres, roughly France, Spain, Germany and Britain put together.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       32.4,
+       53.7
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Iran",
+        "lat": 32.4,
+        "lon": 53.7
+       }
+      ],
+      "label": "1,648,195 km²"
+     }
+    },
+    {
+     "vo": "It borders seven countries along 5,894 kilometres of land border, from Turkey in the northwest to Pakistan in the southeast.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       33.0,
+       54.0
+      ],
+      "span": 20,
+      "places": [
+       {
+        "name": "Turkey",
+        "lat": 39.0,
+        "lon": 41.0
+       },
+       {
+        "name": "Armenia",
+        "lat": 40.0,
+        "lon": 45.0
+       },
+       {
+        "name": "Azerbaijan",
+        "lat": 40.3,
+        "lon": 47.7
+       },
+       {
+        "name": "Turkmenistan",
+        "lat": 38.9,
+        "lon": 59.5
+       },
+       {
+        "name": "Afghanistan",
+        "lat": 33.9,
+        "lon": 67.7
+       },
+       {
+        "name": "Pakistan",
+        "lat": 28.5,
+        "lon": 65.0
+       },
+       {
+        "name": "Iraq",
+        "lat": 33.2,
+        "lon": 43.7
+       }
+      ],
+      "label": "7 neighbours · 5,894 km"
+     }
+    },
+    {
+     "vo": "Down the west runs the Zagros, 1,500 to 1,600 kilometres of folded ridges, depending on which reference you read.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       32.5,
+       50.5
+      ],
+      "span": 13,
+      "places": [
+       {
+        "name": "NW end",
+        "lat": 37.5,
+        "lon": 45.0
+       },
+       {
+        "name": "SE end",
+        "lat": 27.5,
+        "lon": 56.0
+       }
+      ],
+      "label": "Zagros: 1,500–1,600 km"
+     }
+    },
+    {
+     "vo": "From the air its ridges look like a rug pushed against a wall, long parallel folds with narrow valleys between.",
+     "kind": "still",
+     "prompt": "Aerial view of the arid Zagros mountains in Iran. Long parallel ridges fold like a rug pushed against a wall, with narrow dry valleys between them. Brown and ochre rock, low raking light, no people, no text. Painterly documentary style., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Across the north runs the Elburz, which holds Mount Damavand, the highest peak in Iran and in the whole Middle East.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       36.2,
+       52.0
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Mount Damavand",
+        "lat": 35.955,
+        "lon": 52.11
+       },
+       {
+        "name": "Elburz",
+        "lat": 36.4,
+        "lon": 51.0
+       }
+      ],
+      "label": "Mount Damavand"
+     }
+    },
+    {
+     "vo": "Even its height is disputed: Iranian surveys give 5,610 metres, while Encyclopaedia Britannica gives 5,671.",
+     "kind": "stat",
+     "stat": {
+      "value": 5610,
+      "prefix": "",
+      "suffix": " m",
+      "label": "Damavand, Iranian survey (Britannica: 5,671 m)"
+     },
+     "prompt": "Duotone archival plate, dark slate and muted orange: a lone snow-capped volcanic cone above brown foothills, top third plain dark sky"
+    },
+    {
+     "vo": "Tehran sits at the Elburz's southern foot, only 107 kilometres in a straight line from the shore of the Caspian Sea.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       36.2,
+       51.4
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Tehran",
+        "lat": 35.689,
+        "lon": 51.389
+       },
+       {
+        "name": "Chalus",
+        "lat": 36.655,
+        "lon": 51.42
+       }
+      ],
+      "label": "107 km"
+     }
+    },
+    {
+     "vo": "That wall splits the weather: Rasht, on the Caspian side, gets over 1,300 millimetres of rain a year, Tehran about 230.",
+     "kind": "compare",
+     "compare": {
+      "title": "One wall, two climates",
+      "left": {
+       "name": "Rasht",
+       "value": 1300,
+       "prefix": "over ",
+       "suffix": " mm",
+       "label": "rain a year, Caspian side"
+      },
+      "right": {
+       "name": "Tehran",
+       "value": 230,
+       "prefix": "about ",
+       "suffix": " mm",
+       "label": "rain a year, plateau side"
+      },
+      "winner": "left"
+     }
+    },
+    {
+     "vo": "Inside the rim lie two great deserts, the Dasht-e Kavir and the Dasht-e Lut, where almost nobody lives.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       32.5,
+       56.0
+      ],
+      "span": 10,
+      "places": [
+       {
+        "name": "Dasht-e Kavir",
+        "lat": 34.7,
+        "lon": 54.5
+       },
+       {
+        "name": "Dasht-e Lut",
+        "lat": 30.6,
+        "lon": 58.6
+       }
+      ],
+      "label": "The empty centre"
+     }
+    },
+    {
+     "vo": "In 2005, a NASA satellite instrument measured a ground temperature of 70.7 degrees Celsius in the Lut, among the highest ever recorded.",
+     "kind": "footage",
+     "search": "desert sand dunes heat",
+     "clip": {
+      "id": 284568,
+      "tags": "namibia, nature, africa, drone, desert, sand, dunes",
+      "page": "https://pixabay.com/videos/id-284568/"
+     }
+    },
+    {
+     "vo": "So Iran is a bowl: high rim, dry centre, and an average elevation of 1,305 metres above sea level.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       32.4,
+       53.7
+      ],
+      "span": 15,
+      "places": [
+       {
+        "name": "Iranian plateau",
+        "lat": 33.0,
+        "lon": 54.0
+       }
+      ],
+      "label": "Average 1,305 m"
+     }
+    },
+    {
+     "vo": "And its people live up on that rim, in cities like Tabriz, Tehran, Isfahan and Shiraz, high above the sea.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       33.5,
+       51.5
+      ],
+      "span": 12,
+      "places": [
+       {
+        "name": "Tabriz",
+        "lat": 38.08,
+        "lon": 46.292
+       },
+       {
+        "name": "Tehran",
+        "lat": 35.689,
+        "lon": 51.389
+       },
+       {
+        "name": "Isfahan",
+        "lat": 32.654,
+        "lon": 51.668
+       },
+       {
+        "name": "Shiraz",
+        "lat": 29.592,
+        "lon": 52.584
+       },
+       {
+        "name": "Mashhad",
+        "lat": 36.297,
+        "lon": 59.606
+       }
+      ],
+      "label": "Cities on the rim"
+     }
+    },
+    {
+     "vo": "Iran's 2016 census counted 8.7 million people in Tehran city alone, and over 1.5 million in each of five other cities.",
+     "kind": "chart",
+     "chart": {
+      "type": "bar",
+      "title": "The capital dwarfs all",
+      "unit": "million people (2016)",
+      "points": [
+       [
+        "Tehran",
+        8.69
+       ],
+       [
+        "Mashhad",
+        3.0
+       ],
+       [
+        "Isfahan",
+        1.96
+       ],
+       [
+        "Karaj",
+        1.59
+       ],
+       [
+        "Shiraz",
+        1.57
+       ],
+       [
+        "Tabriz",
+        1.56
+       ]
+      ],
+      "mark": "Tehran",
+      "source": "Statistical Centre of Iran, Census 2016"
+     }
+    },
+    {
+     "vo": "From the capital to the Persian Gulf is about 750 kilometres, and the entire width of the Zagros stands in between.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       32.3,
+       51.1
+      ],
+      "span": 9,
+      "places": [
+       {
+        "name": "Tehran",
+        "lat": 35.689,
+        "lon": 51.389
+       },
+       {
+        "name": "Bushehr",
+        "lat": 28.969,
+        "lon": 50.838
+       }
+      ],
+      "label": "≈750 km"
+     }
+    },
+    {
+     "vo": "Look at the map for a moment: if you wanted a capital that was hard to reach, would you put it anywhere else?",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       33.0,
+       52.0
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "Tehran",
+        "lat": 35.689,
+        "lon": 51.389
+       }
+      ],
+      "label": "Behind two ranges"
+     }
+    },
+    {
+     "vo": "There is one big exception to the wall: Khuzestan, a flat lowland in the southwest that continues the plain of Iraq.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       31.3,
+       48.3
+      ],
+      "span": 5,
+      "places": [
+       {
+        "name": "Khuzestan",
+        "lat": 31.3,
+        "lon": 48.7
+       },
+       {
+        "name": "Basra",
+        "lat": 30.508,
+        "lon": 47.783
+       }
+      ],
+      "label": "Khuzestan: the flat door"
+     }
+    },
+    {
+     "vo": "And that exception matters, because the US Energy Information Administration says most of Iran's crude reserves lie onshore in Khuzestan.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       31.0,
+       49.0
+      ],
+      "span": 4,
+      "places": [
+       {
+        "name": "Ahvaz",
+        "lat": 31.318,
+        "lon": 48.67
+       },
+       {
+        "name": "Abadan",
+        "lat": 30.347,
+        "lon": 48.293
+       }
+      ],
+      "label": "Most of Iran's crude reserves"
+     }
+    },
+    {
+     "vo": "Giant fields such as Ahvaz, Marun and Aghajari, among the largest the EIA lists, spread across the plain and its foothills.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       31.0,
+       49.3
+      ],
+      "span": 2.5,
+      "places": [
+       {
+        "name": "Ahvaz field",
+        "lat": 31.3,
+        "lon": 48.8
+       },
+       {
+        "name": "Marun field",
+        "lat": 31.15,
+        "lon": 49.5
+       },
+       {
+        "name": "Aghajari field",
+        "lat": 30.75,
+        "lon": 49.83
+       }
+      ],
+      "label": "The giant fields"
+     }
+    },
+    {
+     "vo": "By OPEC's count, Iran holds 208.6 billion barrels of proven crude reserves, the third largest in the world.",
+     "kind": "stat",
+     "stat": {
+      "value": 208.6,
+      "prefix": "",
+      "suffix": " billion barrels",
+      "label": "Iran's proven crude reserves (OPEC, 2023)"
+     },
+     "prompt": "Duotone archival plate, dark slate and muted orange: oil wellheads and pipes on a flat plain, a gas flare on the horizon, top third plain dark sky"
+    },
+    {
+     "vo": "From the Iraqi border at Shalamcheh to the Zagros foothills at Dezful is about 210 kilometres of almost flat ground.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       31.4,
+       48.2
+      ],
+      "span": 4,
+      "places": [
+       {
+        "name": "Shalamcheh",
+        "lat": 30.5,
+        "lon": 47.98
+       },
+       {
+        "name": "Dezful",
+        "lat": 32.381,
+        "lon": 48.405
+       }
+      ],
+      "label": "≈210 km of plain"
+     }
+    },
+    {
+     "vo": "Further south, along the Gulf, the mountains come down close to the water and leave only a narrow coastal strip.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       28.0,
+       53.0
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Bushehr",
+        "lat": 28.969,
+        "lon": 50.838
+       },
+       {
+        "name": "Bandar Abbas",
+        "lat": 27.183,
+        "lon": 56.267
+       }
+      ],
+      "label": "Narrow coast"
+     }
+    },
+    {
+     "vo": "At the far end the Zagros meets the Strait of Hormuz, beside islands Iran holds and the United Arab Emirates claims.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       26.4,
+       55.8
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25
+       },
+       {
+        "name": "Abu Musa",
+        "lat": 25.877,
+        "lon": 55.033,
+        "disputed": true
+       },
+       {
+        "name": "Greater Tunb",
+        "lat": 26.265,
+        "lon": 55.307,
+        "disputed": true
+       },
+       {
+        "name": "Lesser Tunb",
+        "lat": 26.24,
+        "lon": 55.145,
+        "disputed": true
+       }
+      ],
+      "label": "Held by Iran, claimed by UAE (disputed)"
+     }
+    },
+    {
+     "vo": "Inside the range, the main routes squeeze through a few passes, like the old road from Baghdad up to Kermanshah.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       34.0,
+       45.8
+      ],
+      "span": 4,
+      "places": [
+       {
+        "name": "Baghdad",
+        "lat": 33.315,
+        "lon": 44.366
+       },
+       {
+        "name": "Qasr-e Shirin",
+        "lat": 34.516,
+        "lon": 45.579
+       },
+       {
+        "name": "Kermanshah",
+        "lat": 34.314,
+        "lon": 47.065
+       }
+      ],
+      "label": "Through the passes"
+     }
+    },
+    {
+     "vo": "Roads like these follow gorges and switchbacks, where a single bridge or tunnel can carry all the traffic of a valley.",
+     "kind": "footage",
+     "search": "mountain road switchbacks gorge",
+     "plate": null,
+     "clip": {
+      "id": 253720,
+      "tags": "road, rocks, mountain, fog, morning, forest, meadow, grass, trees, england, drone view, aerial view, rural, gorge, goats, outdoors, nature",
+      "page": "https://pixabay.com/videos/id-253720/"
+     }
+    },
+    {
+     "vo": "The widest opening is in the northeast, where the mountains break up into lower ground facing Turkmenistan and Afghanistan.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       36.0,
+       60.0
+      ],
+      "span": 7,
+      "places": [
+       {
+        "name": "Mashhad",
+        "lat": 36.297,
+        "lon": 59.606
+       },
+       {
+        "name": "Ashgabat",
+        "lat": 37.96,
+        "lon": 58.326
+       },
+       {
+        "name": "Herat",
+        "lat": 34.35,
+        "lon": 62.2
+       }
+      ],
+      "label": "The northeast opening"
+     }
+    },
+    {
+     "vo": "That northeast opening and that southwestern plain are exactly where, for 2,300 years, history has kept sending its armies.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       33.0,
+       53.5
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Khuzestan",
+        "lat": 31.3,
+        "lon": 48.7
+       },
+       {
+        "name": "Northeast",
+        "lat": 36.5,
+        "lon": 60.0
+       }
+      ],
+      "label": "Two doors"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "RIDGES DREW THE LINES",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "subscribe_ask": true,
+     "prompt": "Duotone archival plate, dark slate and muted orange: a snow-dusted gorge with a stone wall built across it, small silhouettes of defenders on the heights, an army halted below, no faces, no gore, no text, no signs or lettering on any storefront, screen or package",
+     "seed": 1500,
+     "kind": "still"
+    },
+    {
+     "vo": "In the winter of 330 BC, Alexander of Macedon marched from Susa, on the plain, toward the Persian capital Persepolis.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       31.0,
+       50.5
+      ],
+      "span": 5,
+      "places": [
+       {
+        "name": "Susa",
+        "lat": 32.19,
+        "lon": 48.26
+       },
+       {
+        "name": "Persepolis",
+        "lat": 29.935,
+        "lon": 52.891
+       }
+      ],
+      "label": "330 BC"
+     }
+    },
+    {
+     "vo": "The road climbed into the Zagros through a narrow defile, the Persian Gates, whose exact site historians still debate.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       30.5,
+       51.8
+      ],
+      "span": 2.5,
+      "places": [
+       {
+        "name": "Persian Gates (site debated)",
+        "lat": 30.68,
+        "lon": 51.63
+       }
+      ],
+      "label": "Persian Gates"
+     }
+    },
+    {
+     "vo": "A Persian commander, Ariobarzanes, blocked the gorge, and the ancient historian Arrian writes that Alexander was forced back.",
+     "kind": "still",
+     "prompt": "Duotone archival plate, dark slate and muted orange: a snow-dusted gorge with a stone wall built across it, small silhouettes of defenders on the heights, an army halted below, no faces, no gore, no text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "He got through only by a mountain path around the defenders, shown him by prisoners in Arrian's account, a shepherd in Curtius's.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       30.65,
+       51.65
+      ],
+      "span": 1.2,
+      "places": [
+       {
+        "name": "Persian Gates (site debated)",
+        "lat": 30.68,
+        "lon": 51.63
+       }
+      ],
+      "label": "The flanking path"
+     }
+    },
+    {
+     "vo": "So the first line on our map is a gate: the Zagros can be crossed, but only at a handful of places.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       32.0,
+       50.0
+      ],
+      "span": 10,
+      "places": [
+       {
+        "name": "Persian Gates",
+        "lat": 30.68,
+        "lon": 51.63
+       },
+       {
+        "name": "Kermanshah",
+        "lat": 34.314,
+        "lon": 47.065
+       }
+      ],
+      "label": "Line 1: the gates"
+     }
+    },
+    {
+     "vo": "Many later conquerors came where the wall is low, on Iraq's plain or through the northeast, rather than over the ridges.",
+     "kind": "timeline",
+     "timeline": {
+      "title": "Who came, and where",
+      "events": [
+       [
+        "330 BC",
+        "Alexander forces the Persian Gates"
+       ],
+       [
+        "636/7",
+        "Arab victory on Iraq's plain"
+       ],
+       [
+        "642",
+        "Battle of Nahavand, Zagros"
+       ],
+       [
+        "1219",
+        "Mongols enter from Central Asia"
+       ],
+       [
+        "1639",
+        "Treaty of Zuhab draws frontier"
+       ]
+      ],
+      "mark": "1639"
+     }
+    },
+    {
+     "vo": "Arab armies won at Qadisiyyah, on flat ground west of the mountains, in 636 or 637; the early sources disagree.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       32.5,
+       45.5
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Qadisiyyah (approx.)",
+        "lat": 31.75,
+        "lon": 44.45
+       }
+      ],
+      "label": "636 or 637"
+     }
+    },
+    {
+     "vo": "The battle that opened the plateau came later, in 642, at Nahavand, in a Zagros valley south of today's Hamadan.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       34.4,
+       48.4
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Nahavand",
+        "lat": 34.188,
+        "lon": 48.377
+       },
+       {
+        "name": "Hamadan",
+        "lat": 34.8,
+        "lon": 48.51
+       }
+      ],
+      "label": "Nahavand, 642"
+     }
+    },
+    {
+     "vo": "After Nahavand the plateau lay open, and the Sasanian map shrank east until its last king died near Merv in 651.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       35.0,
+       55.0
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Nahavand",
+        "lat": 34.188,
+        "lon": 48.377
+       },
+       {
+        "name": "Merv",
+        "lat": 37.66,
+        "lon": 62.19
+       }
+      ],
+      "label": "642 → 651",
+      "years": [
+       642,
+       651
+      ]
+     }
+    },
+    {
+     "vo": "In 1219 the Mongols came from Central Asia, through the northeast opening, and took Nishapur in 1221.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       37.5,
+       61.0
+      ],
+      "span": 9,
+      "places": [
+       {
+        "name": "Bukhara",
+        "lat": 39.77,
+        "lon": 64.42
+       },
+       {
+        "name": "Merv",
+        "lat": 37.66,
+        "lon": 62.19
+       },
+       {
+        "name": "Nishapur",
+        "lat": 36.213,
+        "lon": 58.796
+       }
+      ],
+      "label": "1219–1221"
+     }
+    },
+    {
+     "vo": "Nishapur's fall marks the wall's second gap: the northeast opening, where the ranges fall away toward Central Asia.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       36.3,
+       59.5
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Nishapur",
+        "lat": 36.213,
+        "lon": 58.796
+       },
+       {
+        "name": "Mashhad",
+        "lat": 36.297,
+        "lon": 59.606
+       }
+      ],
+      "label": "Gap 2: the northeast"
+     }
+    },
+    {
+     "vo": "Our second line comes from the 1500s, when Safavid Iran and the Ottoman Empire fought for the lands either side of the Zagros.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       35.0,
+       46.0
+      ],
+      "span": 12,
+      "places": [
+       {
+        "name": "Safavid Iran",
+        "lat": 33.5,
+        "lon": 51.0
+       },
+       {
+        "name": "Ottoman Empire",
+        "lat": 37.0,
+        "lon": 40.0
+       }
+      ],
+      "label": "1500s: two empires"
+     }
+    },
+    {
+     "vo": "The Ottomans won at Chaldiran, near today's Turkish border, in 1514, and took Baghdad from the Safavids in 1534.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       36.2,
+       44.4
+      ],
+      "span": 8,
+      "places": [
+       {
+        "name": "Chaldiran",
+        "lat": 39.07,
+        "lon": 44.38
+       },
+       {
+        "name": "Baghdad",
+        "lat": 33.315,
+        "lon": 44.366
+       }
+      ],
+      "label": "1514 · 1534"
+     }
+    },
+    {
+     "vo": "Baghdad then changed hands twice more, to the Safavids in the 1620s and back to the Ottomans in 1638.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       33.8,
+       46.0
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Baghdad",
+        "lat": 33.315,
+        "lon": 44.366
+       },
+       {
+        "name": "Kermanshah",
+        "lat": 34.314,
+        "lon": 47.065
+       }
+      ],
+      "label": "1620s · 1638"
+     }
+    },
+    {
+     "vo": "In 1639 the Treaty of Zuhab drew a frontier along the western foot of the Zagros, and today's Iran–Iraq border largely follows it.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       33.5,
+       46.5
+      ],
+      "span": 10,
+      "places": [
+       {
+        "name": "Qasr-e Shirin",
+        "lat": 34.516,
+        "lon": 45.579
+       },
+       {
+        "name": "Baghdad",
+        "lat": 33.315,
+        "lon": 44.366
+       }
+      ],
+      "label": "Line 2: Zuhab, 1639",
+      "years": [
+       1639,
+       2026
+      ]
+     }
+    },
+    {
+     "vo": "One way to read that line is as a stalemate written down, with each empire stopping where the mountains begin.",
+     "kind": "footage",
+     "search": "mountain range aerial",
+     "clip": {
+      "id": 344907,
+      "tags": "gerace, calabria, italy, aerial view, medieval village, hilltop town, cliff, scenic landscape, historic architecture, ancient walls, aspromonte national park, italian culture, tourism, travel destination, mediterranean, clouds, mountain range, valley, winding road, nature, countryside, southern italy, drone footage, panoramic view",
+      "page": "https://pixabay.com/videos/id-344907/"
+     }
+    },
+    {
+     "vo": "Only the far south stayed open, and in 1975 the Algiers Agreement split the Shatt al-Arab river along its deepest channel.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       30.3,
+       48.3
+      ],
+      "span": 1.6,
+      "places": [
+       {
+        "name": "Shatt al-Arab",
+        "lat": 30.35,
+        "lon": 48.25
+       },
+       {
+        "name": "Khorramshahr",
+        "lat": 30.44,
+        "lon": 48.166
+       },
+       {
+        "name": "Basra",
+        "lat": 30.508,
+        "lon": 47.783
+       }
+      ],
+      "label": "Deepest channel, 1975",
+      "years": [
+       1975
+      ]
+     }
+    },
+    {
+     "vo": "On 17 September 1980, Iraq's president Saddam Hussein declared that agreement void.",
+     "kind": "headline",
+     "headline": {
+      "date": "17 September 1980",
+      "text": "Iraq tears up 1975 river border deal"
+     },
+     "prompt": "Duotone archival plate, dark slate and muted orange: a wide river at dusk with date palms and a moored patrol boat, top third plain dark sky"
+    },
+    {
+     "vo": "Five days later Iraq invaded, sending its main thrust not into the mountains but across the flat plain of Khuzestan.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       31.5,
+       48.0
+      ],
+      "span": 5,
+      "places": [
+       {
+        "name": "Basra",
+        "lat": 30.508,
+        "lon": 47.783
+       },
+       {
+        "name": "Khuzestan",
+        "lat": 31.3,
+        "lon": 48.7
+       }
+      ],
+      "label": "22 September 1980"
+     }
+    },
+    {
+     "vo": "Iraqi forces took the port of Khorramshahr that autumn and besieged Abadan, but did not take Ahvaz or Dezful.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       31.4,
+       48.4
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Khorramshahr",
+        "lat": 30.44,
+        "lon": 48.166
+       },
+       {
+        "name": "Abadan",
+        "lat": 30.347,
+        "lon": 48.293
+       },
+       {
+        "name": "Ahvaz",
+        "lat": 31.318,
+        "lon": 48.67
+       },
+       {
+        "name": "Dezful",
+        "lat": 32.381,
+        "lon": 48.405
+       }
+      ],
+      "label": "Autumn 1980"
+     }
+    },
+    {
+     "vo": "In May 1982 Iran retook Khorramshahr, and the war ground on for six more years close to the old border.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       30.44,
+       48.17
+      ],
+      "span": 1,
+      "places": [
+       {
+        "name": "Khorramshahr",
+        "lat": 30.44,
+        "lon": 48.166
+       }
+      ],
+      "label": "May 1982"
+     }
+    },
+    {
+     "vo": "In August 1988 a ceasefire took hold under UN Resolution 598, which called for both armies to return to the recognised boundaries.",
+     "kind": "document",
+     "document": {
+      "title": "UN Security Council Resolution 598, 20 July 1987",
+      "highlight": "withdraw all forces to the internationally recognized boundaries without delay"
+     },
+     "prompt": "Duotone archival plate, dark slate and muted orange: a long council table with empty chairs and a single typed sheet under a lamp, top third plain dark wall"
+    },
+    {
+     "vo": "After eight years the line on the map ended almost where it began, at the foot of the Zagros: our third line.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       33.0,
+       46.5
+      ],
+      "span": 9,
+      "places": [
+       {
+        "name": "Iran–Iraq border",
+        "lat": 33.0,
+        "lon": 46.0
+       }
+      ],
+      "label": "Line 3: 1980 = 1988",
+      "years": [
+       1980,
+       1988
+      ]
+     }
+    },
+    {
+     "vo": "That is the map every planner inherits today, so who is looking at it now, and what does each side want?",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       30.0,
+       50.0
+      ],
+      "span": 24,
+      "places": [
+       {
+        "name": "Iran",
+        "lat": 32.4,
+        "lon": 53.7
+       }
+      ],
+      "label": "Who wants what?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "A STANDOFF IN STONE",
+   "shots": [
+    {
+     "vo": "The rivalry that matters most here is between Washington and Tehran, and its paper trail starts in 1953.",
+     "kind": "timeline",
+     "timeline": {
+      "title": "Seventy years, one rivalry",
+      "events": [
+       [
+        "1953",
+        "CIA-directed coup in Tehran"
+       ],
+       [
+        "1979",
+        "Revolution; embassy seized"
+       ],
+       [
+        "2015",
+        "Nuclear deal signed"
+       ],
+       [
+        "2018",
+        "US leaves the deal"
+       ],
+       [
+        "2025",
+        "US strikes nuclear sites"
+       ]
+      ],
+      "mark": "2025"
+     }
+    },
+    {
+     "vo": "In 2013 declassified CIA documents acknowledged the agency directed the coup that removed Prime Minister Mohammad Mossadegh in 1953.",
+     "kind": "document",
+     "document": {
+      "title": "CIA internal history, 'The Battle for Iran', declassified 2013",
+      "highlight": "the military coup that overthrew Mossadeq and his National Front cabinet was carried out under CIA direction as an act of U.S. foreign policy"
+     },
+     "prompt": "Duotone archival plate, dark slate and muted orange: a typed government file with black redaction bars on a wooden desk, top third plain dark"
+    },
+    {
+     "vo": "From 1955 the map put Iran in a Western-aligned ring, the Baghdad Pact, on the Soviet Union's southern edge, until 1979.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       35.0,
+       52.0
+      ],
+      "span": 22,
+      "places": [
+       {
+        "name": "Turkey",
+        "lat": 39.0,
+        "lon": 35.0
+       },
+       {
+        "name": "Iraq (until 1959)",
+        "lat": 33.2,
+        "lon": 43.7
+       },
+       {
+        "name": "Iran",
+        "lat": 32.4,
+        "lon": 53.7
+       },
+       {
+        "name": "Pakistan",
+        "lat": 30.0,
+        "lon": 69.0
+       }
+      ],
+      "label": "Baghdad Pact / CENTO, 1955–1979"
+     }
+    },
+    {
+     "vo": "Today the United States keeps forces at bases around Iran's edges, from Qatar, Bahrain and Kuwait to the Emirates and Iraq.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       29.5,
+       49.0
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "Al Udeid, Qatar",
+        "lat": 25.117,
+        "lon": 51.315
+       },
+       {
+        "name": "Bahrain",
+        "lat": 26.209,
+        "lon": 50.609
+       },
+       {
+        "name": "Camp Arifjan, Kuwait",
+        "lat": 28.876,
+        "lon": 48.16
+       },
+       {
+        "name": "Al Dhafra, UAE",
+        "lat": 24.248,
+        "lon": 54.547
+       },
+       {
+        "name": "Ain al-Asad, Iraq",
+        "lat": 33.786,
+        "lon": 42.441
+       },
+       {
+        "name": "Erbil, Iraq",
+        "lat": 36.237,
+        "lon": 43.963
+       }
+      ],
+      "label": "US bases"
+     }
+    },
+    {
+     "vo": "US officials put the total at about 40,000 troops across the Middle East in 2025.",
+     "kind": "stat",
+     "stat": {
+      "value": 40000,
+      "prefix": "",
+      "suffix": "",
+      "label": "US troops in the Middle East, 2025 (Pentagon)"
+     },
+     "prompt": "Duotone archival plate, dark slate and muted orange: rows of parked transport aircraft on a desert airfield at dusk, top third plain dark sky"
+    },
+    {
+     "vo": "Washington says its concerns are Iran's nuclear programme, its missiles, and the armed groups it backs in Lebanon, Iraq and Yemen.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       28.0,
+       44.0
+      ],
+      "span": 22,
+      "places": [
+       {
+        "name": "Lebanon",
+        "lat": 33.89,
+        "lon": 35.5
+       },
+       {
+        "name": "Iraq",
+        "lat": 33.315,
+        "lon": 44.366
+       },
+       {
+        "name": "Yemen",
+        "lat": 15.37,
+        "lon": 44.19
+       },
+       {
+        "name": "Iran",
+        "lat": 32.4,
+        "lon": 53.7
+       }
+      ],
+      "label": "US stated concerns"
+     }
+    },
+    {
+     "vo": "In May 2025 the International Atomic Energy Agency reported Iran held 408.6 kilograms of uranium enriched up to 60 percent.",
+     "kind": "stat",
+     "stat": {
+      "value": 408.6,
+      "prefix": "",
+      "suffix": " kg",
+      "label": "Uranium enriched up to 60%, IAEA, May 2025"
+     },
+     "prompt": "Duotone archival plate, dark slate and muted orange: long rows of industrial centrifuge cylinders in a dim hall, top third plain dark"
+    },
+    {
+     "vo": "Some of that work went into the mountains too: the Fordow enrichment plant is cut into a mountain near the city of Qom.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       34.75,
+       50.95
+      ],
+      "span": 1.2,
+      "places": [
+       {
+        "name": "Fordow",
+        "lat": 34.885,
+        "lon": 50.996
+       },
+       {
+        "name": "Qom",
+        "lat": 34.64,
+        "lon": 50.876
+       }
+      ],
+      "label": "Fordow"
+     }
+    },
+    {
+     "vo": "Press reports put its depth under rock at about 80 to 90 metres; Iran has never published a figure.",
+     "kind": "still",
+     "prompt": "Duotone archival plate, dark slate and muted orange: cross-section of a barren mountain with tunnels and halls deep inside the rock, small tunnel mouths at the base, no text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "On 22 June 2025, US forces struck Fordow, Natanz and Isfahan, nine days after Israel began strikes of its own.",
+     "kind": "headline",
+     "headline": {
+      "date": "22 June 2025",
+      "text": "US bombers hit three Iranian nuclear sites"
+     },
+     "prompt": "Duotone archival plate, dark slate and muted orange: a dark mountain ridge under a night sky with a faint aircraft silhouette high above, top third plain dark sky"
+    },
+    {
+     "vo": "There was no ground invasion: the Pentagon said B-2 bombers and submarine-launched missiles did the work, from the air and sea.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       33.6,
+       51.4
+      ],
+      "span": 4,
+      "places": [
+       {
+        "name": "Fordow",
+        "lat": 34.885,
+        "lon": 50.996
+       },
+       {
+        "name": "Natanz",
+        "lat": 33.724,
+        "lon": 51.727
+       },
+       {
+        "name": "Isfahan site",
+        "lat": 32.59,
+        "lon": 51.83
+       }
+      ],
+      "label": "Air and sea, no ground"
+     }
+    },
+    {
+     "vo": "Iran's government states its case just as firmly: it says its nuclear programme is peaceful and that enrichment is its right.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       35.689,
+       51.389
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Tehran",
+        "lat": 35.689,
+        "lon": 51.389
+       }
+      ],
+      "label": "Tehran's case"
+     }
+    },
+    {
+     "vo": "It points to Article IV of the Non-Proliferation Treaty, which the United States itself ratified in 1970.",
+     "kind": "quote",
+     "quote": {
+      "text": "Nothing in this Treaty shall be interpreted as affecting the inalienable right of all the Parties to the Treaty to develop research, production and use of nuclear energy for peaceful purposes without discrimination",
+      "who": "Treaty on the Non-Proliferation of Nuclear Weapons, Article IV",
+      "source": "NPT text, opened for signature 1 July 1968"
+     }
+    },
+    {
+     "vo": "Tehran's Foreign Ministry also cites the 1953 coup, decades of sanctions, and the US exit from the 2015 nuclear deal in May 2018.",
+     "kind": "still",
+     "prompt": "Duotone archival plate, dark slate and muted orange: an empty negotiating table with two flags' poles left bare and a pushed-back chair, seen from a distance, no faces, no text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "From Tehran's side of the map, Iranian officials describe American forces on almost every side, across the Gulf and in Iraq.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       30.5,
+       50.5
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Tehran",
+        "lat": 35.689,
+        "lon": 51.389
+       },
+       {
+        "name": "Al Udeid",
+        "lat": 25.117,
+        "lon": 51.315
+       },
+       {
+        "name": "Ain al-Asad",
+        "lat": 33.786,
+        "lon": 42.441
+       },
+       {
+        "name": "Al Dhafra",
+        "lat": 24.248,
+        "lon": 54.547
+       }
+      ],
+      "label": "The view from Tehran"
+     }
+    },
+    {
+     "vo": "Iran's own armed forces number about 610,000 active personnel, according to the International Institute for Strategic Studies.",
+     "kind": "stat",
+     "stat": {
+      "value": 610000,
+      "prefix": "",
+      "suffix": "",
+      "label": "Iran's active military personnel (IISS, 2024)"
+     },
+     "prompt": "Duotone archival plate, dark slate and muted orange: a long column of soldiers seen from far behind on a mountain road, no faces, top third plain dark sky"
+    },
+    {
+     "vo": "Now compare the 2003 invasion of Iraq: Iran's 1.65 million square kilometres are almost four times Iraq's 438,000.",
+     "kind": "compare",
+     "compare": {
+      "title": "Nearly four times larger",
+      "left": {
+       "name": "Iraq",
+       "value": 438317,
+       "prefix": "",
+       "suffix": " km²",
+       "label": "area"
+      },
+      "right": {
+       "name": "Iran",
+       "value": 1648195,
+       "prefix": "",
+       "suffix": " km²",
+       "label": "area"
+      },
+      "winner": "right"
+     }
+    },
+    {
+     "vo": "From Baghdad, Tehran is about 690 kilometres away, and the straight line between them crosses the full width of the Zagros.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       34.5,
+       47.9
+      ],
+      "span": 7,
+      "places": [
+       {
+        "name": "Baghdad",
+        "lat": 33.315,
+        "lon": 44.366
+       },
+       {
+        "name": "Tehran",
+        "lat": 35.689,
+        "lon": 51.389
+       }
+      ],
+      "label": "≈690 km"
+     }
+    },
+    {
+     "vo": "And Iran has more than three times the people: roughly 90 million today by UN estimates, against about 25 million Iraqis in 2003.",
+     "kind": "compare",
+     "compare": {
+      "title": "More than three times",
+      "left": {
+       "name": "Iraq, 2003",
+       "value": 25,
+       "prefix": "",
+       "suffix": " million",
+       "label": "people"
+      },
+      "right": {
+       "name": "Iran, today",
+       "value": 90,
+       "prefix": "",
+       "suffix": " million",
+       "label": "people"
+      },
+      "winner": "right"
+     }
+    },
+    {
+     "vo": "Which case sounds stronger to you? Hold that thought, because some analysts reject the mountain-fortress idea entirely.",
+     "kind": "still",
+     "prompt": "Duotone archival plate, dark slate and muted orange: a large relief map spread on a table in a dim room, rulers and pencils on it, hands only at the edge, no faces, no readable text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Their precedent is August 1941, when British forces moved in from Iraq and the Gulf while Soviet forces crossed from the north.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       33.5,
+       50.0
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "Basra",
+        "lat": 30.508,
+        "lon": 47.783
+       },
+       {
+        "name": "Kermanshah",
+        "lat": 34.314,
+        "lon": 47.065
+       },
+       {
+        "name": "Tabriz",
+        "lat": 38.08,
+        "lon": 46.292
+       },
+       {
+        "name": "Rasht",
+        "lat": 37.28,
+        "lon": 49.583
+       }
+      ],
+      "label": "25 August 1941"
+     }
+    },
+    {
+     "vo": "Iran's army stopped fighting within days, and on 16 September Reza Shah abdicated in favour of his son.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       35.689,
+       51.389
+      ],
+      "span": 4,
+      "places": [
+       {
+        "name": "Tehran",
+        "lat": 35.689,
+        "lon": 51.389
+       }
+      ],
+      "label": "16 September 1941"
+     }
+    },
+    {
+     "vo": "Then the map was cut in two, with a Soviet zone in the north and a British zone in the south.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       33.0,
+       52.0
+      ],
+      "span": 15,
+      "places": [
+       {
+        "name": "Soviet zone",
+        "lat": 37.5,
+        "lon": 50.0
+       },
+       {
+        "name": "British zone",
+        "lat": 31.0,
+        "lon": 50.0
+       }
+      ],
+      "label": "Soviet north · British south",
+      "years": [
+       1941
+      ]
+     }
+    },
+    {
+     "vo": "The Allies said they acted over German residents and a supply route to the Soviet Union, which then ran across Iran.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       33.5,
+       51.5
+      ],
+      "span": 9,
+      "places": [
+       {
+        "name": "Bandar Shahpur",
+        "lat": 30.43,
+        "lon": 49.08
+       },
+       {
+        "name": "Tehran",
+        "lat": 35.689,
+        "lon": 51.389
+       },
+       {
+        "name": "Bandar Shah",
+        "lat": 36.9,
+        "lon": 54.07
+       }
+      ],
+      "label": "Supply route, 1941–45"
+     }
+    },
+    {
+     "vo": "Their case is that mountains slow an army, but supplies, unity and politics decide whether a defence holds at all.",
+     "kind": "footage",
+     "search": "military convoy mountain road",
+     "clip": {
+      "id": 367684,
+      "tags": "ha giang, vietnam, drone, flycam, 4k, cinematic, mountain valley, mountain pass, winding road, karst, clouds, moody, dramatic, landscape, travel, adventure, tourism, epic landscape, highlands, dong van, ma pi leng, aerial view, wilderness",
+      "page": "https://pixabay.com/videos/id-367684/"
+     }
+    },
+    {
+     "vo": "So if the mountains are no guarantee either way, what would actually change this map?",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       32.4,
+       53.7
+      ],
+      "span": 15,
+      "places": [
+       {
+        "name": "Iran",
+        "lat": 32.4,
+        "lon": 53.7
+       }
+      ],
+      "label": "What changes it?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "THREE PATHS, ONE MAP",
+   "shots": [
+    {
+     "vo": "The first path is the one already taken in 2025: strikes from the air, with no troops on the ground.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       31.0,
+       50.0
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "Fordow",
+        "lat": 34.885,
+        "lon": 50.996
+       },
+       {
+        "name": "Natanz",
+        "lat": 33.724,
+        "lon": 51.727
+       }
+      ],
+      "label": "Path 1: from the air"
+     }
+    },
+    {
+     "vo": "On that path the map that matters is not the mountain wall but a handful of pins: Fordow, Natanz, Isfahan.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       33.7,
+       51.4
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Fordow",
+        "lat": 34.885,
+        "lon": 50.996
+       },
+       {
+        "name": "Natanz",
+        "lat": 33.724,
+        "lon": 51.727
+       },
+       {
+        "name": "Isfahan site",
+        "lat": 32.59,
+        "lon": 51.83
+       }
+      ],
+      "label": "Three pins"
+     }
+    },
+    {
+     "vo": "The mountains still count there, but as rock overhead rather than as distance in front of an army.",
+     "kind": "still",
+     "prompt": "Duotone archival plate, dark slate and muted orange: a sheer rock face with a sealed tunnel entrance at its base and a dirt access road, no people, no text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "One risk analysts name on that path is at sea, because the Strait of Hormuz runs along Iran's southern coast.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       26.5,
+       56.0
+      ],
+      "span": 4,
+      "places": [
+       {
+        "name": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25
+       },
+       {
+        "name": "Bandar Abbas",
+        "lat": 27.183,
+        "lon": 56.267
+       }
+      ],
+      "label": "Tanker lanes"
+     }
+    },
+    {
+     "vo": "The US Energy Information Administration counted about 20 million barrels a day through it in 2024, a fifth of world use.",
+     "kind": "stat",
+     "stat": {
+      "value": 20,
+      "prefix": "",
+      "suffix": " million barrels/day",
+      "label": "Oil through Hormuz, 2024 (EIA)"
+     },
+     "prompt": "Duotone archival plate, dark slate and muted orange: a loaded tanker passing rocky headlands at dawn, top third plain dark sky"
+    },
+    {
+     "vo": "The second path is the one Iraq tried in 1980: a ground push into the flat oil province of Khuzestan.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       31.3,
+       48.3
+      ],
+      "span": 4,
+      "places": [
+       {
+        "name": "Shalamcheh",
+        "lat": 30.5,
+        "lon": 47.98
+       },
+       {
+        "name": "Ahvaz",
+        "lat": 31.318,
+        "lon": 48.67
+       }
+      ],
+      "label": "Path 2: the plain"
+     }
+    },
+    {
+     "vo": "On that path an army crosses about 210 kilometres of plain, then reaches Dezful, where the plain ends and the ridges begin.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       31.5,
+       48.6
+      ],
+      "span": 4,
+      "places": [
+       {
+        "name": "Shalamcheh",
+        "lat": 30.5,
+        "lon": 47.98
+       },
+       {
+        "name": "Dezful",
+        "lat": 32.381,
+        "lon": 48.405
+       }
+      ],
+      "label": "210 km, then the wall"
+     }
+    },
+    {
+     "vo": "In 1980 the fighting reached where the oil is, but not where most Iranians live, because the big cities sit behind the ranges.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       33.0,
+       52.0
+      ],
+      "span": 14,
+      "places": [
+       {
+        "name": "Khuzestan",
+        "lat": 31.3,
+        "lon": 48.7
+       },
+       {
+        "name": "Tehran",
+        "lat": 35.689,
+        "lon": 51.389
+       },
+       {
+        "name": "Isfahan",
+        "lat": 32.654,
+        "lon": 51.668
+       },
+       {
+        "name": "Mashhad",
+        "lat": 36.297,
+        "lon": 59.606
+       }
+      ],
+      "label": "Oil outside, people inside"
+     }
+    },
+    {
+     "vo": "Khuzestan held 4.7 million people in the 2016 census, out of almost 80 million Iranians.",
+     "kind": "compare",
+     "compare": {
+      "title": "The plain is small",
+      "left": {
+       "name": "Khuzestan",
+       "value": 4.7,
+       "prefix": "",
+       "suffix": " million",
+       "label": "people, 2016"
+      },
+      "right": {
+       "name": "All Iran",
+       "value": 79.9,
+       "prefix": "",
+       "suffix": " million",
+       "label": "people, 2016"
+      },
+      "winner": "right"
+     }
+    },
+    {
+     "vo": "In 1980 that gap between plain and plateau helped turn what historians describe as a planned short war into eight years.",
+     "kind": "footage",
+     "search": "plateau plains aerial",
+     "clip": {
+      "id": 318341,
+      "tags": "australia, outback, scenery, nature, landscape, outdoors, natural, plateau, aerial view, drone photography, rocks, cliff, scenic",
+      "page": "https://pixabay.com/videos/id-318341/"
+     }
+    },
+    {
+     "vo": "The third path moves no border at all: a negotiated deal that sends inspectors, not bombers, to the same sites.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       33.7,
+       51.4
+      ],
+      "span": 5,
+      "places": [
+       {
+        "name": "Fordow",
+        "lat": 34.885,
+        "lon": 50.996
+       },
+       {
+        "name": "Natanz",
+        "lat": 33.724,
+        "lon": 51.727
+       },
+       {
+        "name": "Isfahan site",
+        "lat": 32.59,
+        "lon": 51.83
+       }
+      ],
+      "label": "Path 3: a deal"
+     }
+    },
+    {
+     "vo": "The 2015 deal capped enrichment at 3.67 percent; by May 2025 the IAEA reported material enriched up to 60.",
+     "kind": "compare",
+     "compare": {
+      "title": "Cap versus reality",
+      "left": {
+       "name": "2015 cap",
+       "value": 3.67,
+       "prefix": "",
+       "suffix": "%",
+       "label": "enrichment limit"
+      },
+      "right": {
+       "name": "May 2025",
+       "value": 60,
+       "prefix": "up to ",
+       "suffix": "%",
+       "label": "IAEA-reported level"
+      },
+      "winner": "right"
+     }
+    },
+    {
+     "vo": "It also capped the stockpile at about 200 kilograms of uranium, counted as 300 kilograms of uranium hexafluoride gas.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       34.3,
+       51.35
+      ],
+      "span": 2,
+      "places": [
+       {
+        "name": "Fordow",
+        "lat": 34.885,
+        "lon": 50.996
+       },
+       {
+        "name": "Natanz",
+        "lat": 33.724,
+        "lon": 51.727
+       }
+      ],
+      "label": "2015 caps: 3.67% · 300 kg UF6 (≈200 kg uranium)"
+     }
+    },
+    {
+     "vo": "The IAEA's May 2025 report counted 9,247.6 kilograms of enriched uranium across all levels, measured as uranium itself.",
+     "kind": "stat",
+     "stat": {
+      "value": 9247.6,
+      "prefix": "",
+      "suffix": " kg",
+      "label": "Enriched uranium, all levels, uranium mass (IAEA, May 2025)"
+     },
+     "prompt": "Duotone archival plate, dark slate and muted orange: rows of sealed steel storage cylinders in a dim concrete hall, top third plain dark"
+    },
+    {
+     "vo": "On that path the pins stay on the map, but the lines leading to them change from flight paths to inspection routes.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       34.2,
+       51.2
+      ],
+      "span": 3,
+      "places": [
+       {
+        "name": "Tehran",
+        "lat": 35.689,
+        "lon": 51.389
+       },
+       {
+        "name": "Fordow",
+        "lat": 34.885,
+        "lon": 50.996
+       },
+       {
+        "name": "Natanz",
+        "lat": 33.724,
+        "lon": 51.727
+       }
+      ],
+      "label": "Inspection routes"
+     }
+    },
+    {
+     "vo": "Which path comes, if any, is not something a map can tell us; what it can show is the cost of each one.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       30.0,
+       51.0
+      ],
+      "span": 20,
+      "places": [
+       {
+        "name": "Path 1",
+        "lat": 34.0,
+        "lon": 51.3
+       },
+       {
+        "name": "Path 2",
+        "lat": 31.3,
+        "lon": 48.7
+       },
+       {
+        "name": "Path 3",
+        "lat": 33.7,
+        "lon": 51.7
+       }
+      ],
+      "label": "Three paths"
+     }
+    },
+    {
+     "vo": "And none of the three paths moves the rock itself, which brings us back to the question we started with.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       32.4,
+       53.7
+      ],
+      "span": 15,
+      "places": [
+       {
+        "name": "Zagros",
+        "lat": 32.5,
+        "lon": 49.5
+       },
+       {
+        "name": "Elburz",
+        "lat": 36.3,
+        "lon": 52.0
+       }
+      ],
+      "label": "The rock stays"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Historically, Iran's mountains have made campaigns against it slower and narrower; whether that holds today is argued.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       32.4,
+       53.7
+      ],
+      "span": 16,
+      "places": [
+       {
+        "name": "Iran",
+        "lat": 32.4,
+        "lon": 53.7
+       }
+      ],
+      "label": "Slower · narrower · still?"
+     }
+    },
+    {
+     "vo": "Next, the Wakhan Corridor: the thin strip of Afghanistan that two empires drew on purpose, to keep each other apart.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       37.0,
+       72.5
+      ],
+      "span": 5,
+      "places": [
+       {
+        "name": "Ishkashim",
+        "lat": 36.71,
+        "lon": 71.61
+       },
+       {
+        "name": "Wakhan Corridor",
+        "lat": 36.95,
+        "lon": 72.6
+       },
+       {
+        "name": "China border",
+        "lat": 37.05,
+        "lon": 74.9
+       }
+      ],
+      "label": "Next: the Wakhan Corridor"
+     }
+    }
+   ]
+  }
+ ],
+ "restocked": true,
+ "replanned": true,
+ "templates_checked": true,
+ "painted_cards": true,
+ "photos_checked": true,
+ "visuals_checked": true,
+ "approved": true,
+ "review": "auto",
+ "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos"
+}
