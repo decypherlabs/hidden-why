@@ -5,7 +5,6 @@
  "build": "github",
  "lang": "hi",
  "approved": true,
- "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "words_in_edit": true,
@@ -54,7 +53,8 @@
      "prompt": "A stout middle-aged Indian shopkeeper with a grey moustache, white half-sleeve vest, opening a glass-door fridge full of plain water bottles and grabbing the nearest one, cold mist spilling out, dim stall interior, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "दुकानदार fridge खोलता है, और जो बोतल पहले हाथ आए, पकड़ा देता है।"
+     "caption": "दुकानदार fridge खोलता है, और जो बोतल पहले हाथ आए, पकड़ा देता है।",
+     "title": "एक BISLERI देना"
     },
     {
      "vo": "उस पर नाम कुछ भी लिखा हो, आप एक बार देखते तक नहीं।",
@@ -67,7 +67,6 @@
      "prompt": "A wall of hundreds of identical plain water bottles stacked in an Indian warehouse, one bottle in front with a green label reading \"BISLERI\", soft overcast light from a skylight, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "हर बोतल *Bisleri*",
      "caption": "क्योंकि आपके लिए, हर बंद बोतल का पानी Bisleri ही है।"
     },
     {
@@ -75,8 +74,8 @@
      "prompt": "A 19th-century Italian glass bottle and a modern plastic water bottle standing side by side on a wooden table, large in frame, a single beam of daylight between them, close medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "*Italian* नाम",
-     "caption": "पर सोचिए, एक Italian नाम पानी का दूसरा नाम कैसे बन गया?"
+     "caption": "पर सोचिए, एक Italian नाम पानी का दूसरा नाम कैसे बन गया?",
+     "title": "ITALIAN नाम"
     },
     {
      "vo": "क्या ये बस सबसे पहले आया था, इसलिए?",
@@ -96,8 +95,8 @@
      "prompt": "A typed 1960s sale agreement on a dark desk with a fountain pen beside it, the amount line reading \"₹4,00,000\", the page large and facing the camera, warm desk lamp light, close-up",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "1969 का ₹4 लाख *सौदा*",
-     "caption": "या 1969 के उस ₹4 लाख के सौदे में कोई राज़ छिपा था?"
+     "caption": "या 1969 के उस ₹4 लाख के सौदे में कोई राज़ छिपा था?",
+     "date": "1969"
     },
     {
      "vo": "और इतना बड़ा नाम बनाकर, मालिक ख़ुद इसे बेचने क्यों निकले?",
@@ -110,8 +109,8 @@
      "prompt": "A small 1960s bottling factory shed in Thane with a painted gate sign reading \"BISLERI\", Indian workers in white caps walking in through the gate, palm trees, bright morning sun, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "1965, *Thane*",
-     "caption": "1965 में Mumbai के पास Thane में, पानी बोतलों में भरने का एक plant लगा।"
+     "caption": "1965 में Mumbai के पास Thane में, पानी बोतलों में भरने का एक plant लगा।",
+     "date": "1965"
     }
    ]
   },
@@ -127,8 +126,14 @@
      "more": [
       "A map of Europe and Asia pinned on a wooden wall, a red pin on Milan and a thread stretched to Bombay, dim lamplight"
      ],
-     "label": "MILAN · Italy",
-     "caption": "पर इस plant पर लिखा नाम India का नहीं था। ये नाम Italy के Milan शहर से आया था।"
+     "caption": "पर इस plant पर लिखा नाम India का नहीं था। ये नाम Italy के Milan शहर से आया था।",
+     "place": {
+      "name": "MILAN",
+      "sub": "ITALY · 1800s",
+      "query": "Milan, Italy",
+      "lat": 45.4642,
+      "lon": 9.1896
+     }
     },
     {
      "vo": "वहाँ फ़ेलिस बिस्लेरी नाम के एक बिज़नेसमैन थे। उनकी कंपनी फ़ेरो-चाइना बिस्लेरी नाम का टॉनिक बेचती थी, जिसे लोग दवा की तरह पीते थे।",
@@ -139,8 +144,8 @@
       "An Italian gentleman in a frock coat seen from behind, silhouetted against the shop window, holding up a tonic bottle to the light",
       "Close-up of an Italian woman's hand pouring a dark tonic from a glass bottle into a small spoon, warm lamplight"
      ],
-     "label": "FELICE BISLERI · Milan businessman",
-     "caption": "वहाँ Felice Bisleri नाम के एक businessman थे। उनकी company Ferro-China Bisleri नाम का tonic बेचती थी, जिसे लोग दवा की तरह पीते थे।"
+     "caption": "वहाँ Felice Bisleri नाम के एक businessman थे। उनकी company Ferro-China Bisleri नाम का tonic बेचती थी, जिसे लोग दवा की तरह पीते थे।",
+     "label": "FELICE BISLERI · Milan के businessman"
     },
     {
      "vo": "फ़ेलिस के जाने के बाद, कहा जाता है, उनके फ़ैमिली डॉक्टर चेज़ारे रोसी ने ये ब्रांड संभाला।",
@@ -150,8 +155,8 @@
      "more": [
       "Close-up of an old leather ledger with the word \"BISLERI\" written at the top of the page, a doctor's stethoscope lying beside it"
      ],
-     "label": "CESARE ROSSI · Family doctor",
-     "caption": "Felice के जाने के बाद, कहा जाता है, उनके family doctor Cesare Rossi ने ये brand संभाला।"
+     "caption": "Felice के जाने के बाद, कहा जाता है, उनके family doctor Cesare Rossi ने ये brand संभाला।",
+     "label": "CESARE ROSSI · family doctor"
     },
     {
      "vo": "कहा जाता है, डॉक्टर रोसी को दूर इंडिया में एक मौका दिखा। एक बड़ा देश, जहाँ साफ़ पीने का पानी हर जगह नहीं मिलता था।",
@@ -172,8 +177,8 @@
      "more": [
       "A 1965 plant registration document on a clerk's desk, the year \"1965\" circled in red ink, a rubber stamp beside it"
      ],
-     "label": "KHUSHROO SUNTOOK · Bisleri India, 1965",
-     "caption": "India में उनके साथी बने Khushroo Suntook, और उन्हीं के साथ Thane का ये plant शुरू हुआ।"
+     "caption": "India में उनके साथी बने Khushroo Suntook, और उन्हीं के साथ Thane का ये plant शुरू हुआ।",
+     "label": "KHUSHROO SUNTOOK · India के साथी"
     },
     {
      "vo": "पानी ग्लास की बोतलों में भरा जाता था, दो तरह का, बबली और स्टिल। और जाता था बड़े होटलों और अमीर घरों में।",
@@ -203,7 +208,10 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of an older Indian man's face shaking his head with a doubtful grin, a glass of tap water in his hand"
-     ]
+     ],
+     "quote": {
+      "text": "पैसे देकर पानी ख़रीदना? ज़्यादातर लोगों के लिए ये बात ही अजीब थी!"
+     }
     },
     {
      "vo": "नतीजा? कहा जाता है, बिज़नेस उम्मीद जितना नहीं बढ़ा।",
@@ -223,7 +231,6 @@
      "more": [
       "Close-up of a desk calendar with the pages flipped from 1965 to 1969, dust in the light"
      ],
-     "title": "सिर्फ़ *4 साल*",
      "caption": "और plant लगने के सिर्फ़ 4 साल बाद, Suntook ने इसे बेचने का फ़ैसला कर लिया।"
     },
     {
@@ -231,7 +238,14 @@
      "prompt": "A delivery cart loaded with crates of soda bottles pushed by an Indian worker in a vest down a busy 1960s Bombay street, glass glinting in golden evening light, medium-wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "और खरीदार मिला, Bombay की एक soda company में।"
+     "caption": "और खरीदार मिला, Bombay की एक soda company में।",
+     "place": {
+      "name": "BOMBAY",
+      "sub": "SODA COMPANY · 1969",
+      "query": "Mumbai, India",
+      "lat": 19.055,
+      "lon": 72.8692
+     }
     }
    ]
   },
@@ -255,8 +269,8 @@
      "more": [
       "Close-up of an Indian worker's hands twisting a toffee wrapper, sugar dust on the table"
      ],
-     "label": "1929 · Vile Parle, Bombay",
-     "caption": "ये company थी Parle। Chauhan परिवार ने 1929 में Vile Parle से इसकी शुरुआत की थी, toffee और मिठाइयों से।"
+     "caption": "ये company थी Parle। Chauhan परिवार ने 1929 में Vile Parle से इसकी शुरुआत की थी, toffee और मिठाइयों से।",
+     "date": "1929"
     },
     {
      "vo": "बाद में परिवार सॉफ़्ट ड्रिंक्स में आया। पारले का गोल्ड स्पॉट तब देश भर में मशहूर ऑरेंज सोडा था।",
@@ -266,7 +280,8 @@
      "more": [
       "Close-up of an orange soda bottle sweating on a wooden counter, a label reading \"GOLD SPOT\""
      ],
-     "caption": "बाद में परिवार soft drinks में आया। Parle का Gold Spot तब देश भर में मशहूर orange soda था।"
+     "caption": "बाद में परिवार soft drinks में आया। Parle का Gold Spot तब देश भर में मशहूर orange soda था।",
+     "label": "PARLE · Chauhan परिवार की company"
     },
     {
      "vo": "इसी परिवार के रमेश चौहान तब करीब उनतीस साल के थे, और नई चीज़ें आज़माना चाहते थे।",
@@ -276,8 +291,8 @@
      "more": [
       "Close-up of a young man's hand flipping through technical drawings of bottles on a drafting table, face out of frame"
      ],
-     "label": "RAMESH CHAUHAN · Parle, 1969",
-     "caption": "इसी परिवार के Ramesh Chauhan तब करीब 29 साल के थे, और नई चीज़ें आज़माना चाहते थे।"
+     "caption": "इसी परिवार के Ramesh Chauhan तब करीब 29 साल के थे, और नई चीज़ें आज़माना चाहते थे।",
+     "label": "RAMESH CHAUHAN · 29 साल के"
     },
     {
      "vo": "उन्नीस सौ उनहत्तर में पारले ने बिस्लेरी ख़रीद लिया। क़ीमत? सिर्फ़ चार लाख रुपये!",
@@ -288,8 +303,8 @@
       "Close-up of the signed sale agreement on the table, the amount line reading \"₹4,00,000\" and a date line reading \"1969\"",
       "A yellowed newspaper clipping pinned on a corkboard, a headline reading \"BOUGHT FOR ₹4 LAKH\", a pushpin in the corner"
      ],
-     "title": "सिर्फ़ *₹4 लाख*",
-     "caption": "1969 में Parle ने Bisleri ख़रीद लिया। क़ीमत? सिर्फ़ ₹4 लाख!"
+     "caption": "1969 में Parle ने Bisleri ख़रीद लिया। क़ीमत? सिर्फ़ ₹4 लाख!",
+     "date": "1969"
     },
     {
      "vo": "इस सौदे में पारले को मिला एक नाम, ठाणे का प्लांट, और पानी बेचने का एक छोटा सा बिज़नेस।",
@@ -299,7 +314,14 @@
      "more": [
       "The young Indian plant worker in a white cap and blue overalls stacking glass water bottles beside fizzing soda bottles on a shelf, bright factory light"
      ],
-     "caption": "इस सौदे में Parle को मिला एक नाम, Thane का plant, और पानी बेचने का एक छोटा सा business।"
+     "caption": "इस सौदे में Parle को मिला एक नाम, Thane का plant, और पानी बेचने का एक छोटा सा business।",
+     "place": {
+      "name": "THANE",
+      "sub": "BISLERI PLANT · 1969",
+      "query": "Thane, Maharashtra, India",
+      "lat": 19.3654,
+      "lon": 73.3685
+     }
     },
     {
      "vo": "शुरू में बिस्लेरी नाम से सोडा भी बिकता था, और पानी भी।",
@@ -319,8 +341,8 @@
      "more": [
       "Close-up of a typed government letter with the year \"1977\" circled in red ink"
      ],
-     "label": "1977 · New rules for foreign firms",
-     "caption": "फिर 1977 में बड़ा मोड़ आया। नए नियमों के मुताबिक़ Coca-Cola को अपनी हिस्सेदारी घटानी थी, और formula भी share करना था।"
+     "caption": "फिर 1977 में बड़ा मोड़ आया। नए नियमों के मुताबिक़ Coca-Cola को अपनी हिस्सेदारी घटानी थी, और formula भी share करना था।",
+     "date": "1977"
     },
     {
      "vo": "कोका-कोला ने मना कर दिया, और इंडिया छोड़ दिया।",
@@ -330,7 +352,12 @@
      "more": [
       "A shuttered bottling plant gate on a rainy day, a paper notice on the gate reading \"CLOSED\", an Indian guard under an umbrella"
      ],
-     "caption": "Coca-Cola ने मना कर दिया, और India छोड़ दिया।"
+     "caption": "Coca-Cola ने मना कर दिया, और India छोड़ दिया।",
+     "news": {
+      "headline": "Coca-Cola ने India छोड़ा",
+      "sub": "हिस्सेदारी और formula पर मना",
+      "date": "1977"
+     }
     },
     {
      "vo": "और पारले ने थम्स अप लाकर वो खाली जगह भर दी। लिम्का तो उन्नीस सौ इकहत्तर से उनके पास पहले ही था।",
@@ -357,8 +384,8 @@
      "more": [
       "A wall calendar page reading \"1993\" pinned in a dim office, rain on the window behind it"
      ],
-     "label": "1993 · Coca-Cola returns",
-     "caption": "पर 1990 में Pepsi आ चुकी थी। फिर 1991 में economy खुली, और 1993 में Coca-Cola भी लौट आई!"
+     "caption": "पर 1990 में Pepsi आ चुकी थी। फिर 1991 में economy खुली, और 1993 में Coca-Cola भी लौट आई!",
+     "date": "1990"
     }
    ]
   },
@@ -384,8 +411,8 @@
      "more": [
       "A giant foreign cargo ship arriving at a misty Bombay port at dawn, small Indian fishing boats beside it"
      ],
-     "title": "लड़ें, या *बेचें*?",
-     "caption": "दुनिया की दो सबसे बड़ी cola companies से अकेले लड़ें, या उनमें से एक के साथ सौदा कर लें?"
+     "caption": "दुनिया की दो सबसे बड़ी cola companies से अकेले लड़ें, या उनमें से एक के साथ सौदा कर लें?",
+     "title": "अकेले या साथ?"
     },
     {
      "vo": "कहा जाता है, उन्हें लगा कि इतने बड़े पैसे और ऐड्स से अकेले लड़ना बहुत मुश्किल होगा।",
@@ -406,8 +433,12 @@
       "Crates of glass cola bottles being loaded onto a truck at a factory yard on an overcast day, Indian workers in khaki",
       "Close-up of a hand placing a set of factory keys on a signed contract"
      ],
-     "label": "1993 · The Coca-Cola deal",
-     "caption": "1993 में उन्होंने Thums Up, Limca, Gold Spot, Citra और Maaza, Coca-Cola को बेच दिए।"
+     "caption": "1993 में उन्होंने Thums Up, Limca, Gold Spot, Citra और Maaza, Coca-Cola को बेच दिए।",
+     "news": {
+      "headline": "Parle ने Thums Up Coca-Cola को बेचा",
+      "sub": "Limca, Gold Spot, Citra, Maaza भी",
+      "date": "1993"
+     }
     },
     {
      "vo": "ये सौदा बड़ी ख़बर बना। जिस थम्स अप ने कोका-कोला की जगह ली थी, वो अब उसी के पास था!",
@@ -427,7 +458,8 @@
      "more": [
       "A man in silhouette picking up the bottle and holding it against the setting sun"
      ],
-     "caption": "पर एक brand उन्होंने अपने पास रखा। वो brand था Bisleri।"
+     "caption": "पर एक brand उन्होंने अपने पास रखा। वो brand था Bisleri।",
+     "drop": true
     },
     {
      "vo": "सोचिए, जो ब्रांड्स हर दुकान पर बिकते थे, वो चले गए।",
@@ -498,8 +530,8 @@
      "more": [
       "Close-up of a heavy glass bottle beside a light plastic bottle on a steel table, a hand lifting the plastic one easily"
      ],
-     "title": "Glass या *PET*?",
-     "caption": "और यहाँ एक फ़ैसला सब बदल गया। कहा जाता है, 90s में Bisleri भारी glass छोड़कर हल्की PET plastic की बोतल पर आ गई।"
+     "caption": "और यहाँ एक फ़ैसला सब बदल गया। कहा जाता है, 90s में Bisleri भारी glass छोड़कर हल्की PET plastic की बोतल पर आ गई।",
+     "title": "PET बोतल"
     },
     {
      "vo": "पाँच सौ मिलीलीटर और एक लीटर की बोतलें, जिन्हें बैग में रखो और पीकर फेंक दो। ग्लास लौटाने का झंझट ख़त्म।",
@@ -519,7 +551,8 @@
      "more": [
       "Extreme close-up of a thumb twisting a bottle cap, the plastic seal ring snapping cleanly"
      ],
-     "caption": "और हर बोतल पर एक seal। लोग seal देखकर ही बोतल लेते थे। Seal का मतलब था भरोसा।"
+     "caption": "और हर बोतल पर एक seal। लोग seal देखकर ही बोतल लेते थे। Seal का मतलब था भरोसा।",
+     "title": "SEAL = भरोसा"
     },
     {
      "vo": "और यहीं से ज़ुबान बदल गई। लोग पानी की बोतल नहीं, बिस्लेरी माँगने लगे।",
@@ -529,7 +562,6 @@
      "more": [
       "A crowd of Indian travellers at a highway stall, all holding plain water bottles, warm sunset light"
      ],
-     "title": "पानी = *Bisleri*",
      "caption": "और यहीं से ज़ुबान बदल गई। लोग पानी की बोतल नहीं, Bisleri माँगने लगे।"
     },
     {
@@ -556,8 +588,8 @@
      "more": [
       "An Indian quality inspector in a white coat holding a water sample up to a lab lamp"
      ],
-     "label": "2001 · BIS certification mandatory",
-     "caption": "फिर 2001 में सरकार ने packaged पानी के लिए BIS certification ज़रूरी कर दिया, standard IS 14543।"
+     "caption": "फिर 2001 में सरकार ने packaged पानी के लिए BIS certification ज़रूरी कर दिया, standard IS 14543।",
+     "date": "2001"
     },
     {
      "vo": "अब हर बोतल पर आई एस आई मार्क ज़रूरी था। बिना सर्टिफ़िकेशन के पैकेज्ड पानी बेचना ग़ैरक़ानूनी हो गया।",
@@ -590,7 +622,8 @@
      "more": [
       "Close-up of a carton side printed with the word \"AQUAFINA\""
      ],
-     "caption": "करीब 2000 के आसपास, Pepsi अपना पानी Aquafina लेकर आई।"
+     "caption": "करीब 2000 के आसपास, Pepsi अपना पानी Aquafina लेकर आई।",
+     "date": "2000"
     },
     {
      "vo": "और लगभग उसी वक़्त, जिस कोका-कोला को चौहान ने थम्स अप बेचा था, वो किनले लेकर आ गई।",
@@ -610,7 +643,8 @@
      "more": [
       "Symbolic shot: a giant shadow of a hand looming over a small water bottle on a counter"
      ],
-     "caption": "बड़े ads, बड़ा पैसा, और हर दुकान पर उनका अपना fridge। अब लड़ाई बराबर की नहीं थी!"
+     "caption": "बड़े ads, बड़ा पैसा, और हर दुकान पर उनका अपना fridge। अब लड़ाई बराबर की नहीं थी!",
+     "title": "बराबर की लड़ाई नहीं"
     },
     {
      "vo": "फिर भी ग्राहक दुकान पर क्या बोलता था? एक बिस्लेरी देना!",
@@ -651,8 +685,8 @@
      "more": [
       "An aerial view of a large bottling plant in India at overcast noon, trucks lined up outside the gate"
      ],
-     "label": "2022 · Bisleri's network",
-     "caption": "Reports के मुताबिक़ 2022 तक इसके 122 plants, 4,500 distributors और 5,000 trucks थे।"
+     "caption": "Reports के मुताबिक़ 2022 तक इसके 122 plants, 4,500 distributors और 5,000 trucks थे।",
+     "title": "122 PLANTS"
     },
     {
      "vo": "ऑर्गनाइज़्ड बोतलबंद पानी मार्केट में इसका हिस्सा करीब बत्तीस प्रतिशत बताया गया। सबसे बड़ा।",
@@ -682,7 +716,8 @@
      "more": [
       "A wall calendar page reading \"NOV 2022\" in a dim office"
      ],
-     "caption": "सब ठीक चल रहा था। फिर नवंबर 2022 में एक ख़बर आई, जिसने सबको चौंका दिया।"
+     "caption": "सब ठीक चल रहा था। फिर नवंबर 2022 में एक ख़बर आई, जिसने सबको चौंका दिया।",
+     "date": "NOVEMBER 2022"
     }
    ]
   },
@@ -698,7 +733,6 @@
      "more": [
       "Close-up of the shopkeeper's eyebrows rising, glasses slipping down his nose"
      ],
-     "title": "Bisleri *बिकेगी*?",
      "caption": "ख़बर थी कि Bisleri बिकने वाली है!"
     },
     {
@@ -709,7 +743,6 @@
      "more": [
       "Close-up of an elderly man's wrinkled hands resting on a wooden walking stick"
      ],
-     "label": "RAMESH CHAUHAN · Chairman, 82",
      "caption": "Economic Times से बातचीत में Ramesh Chauhan ने बताया, वो अब 82 साल के हैं।"
     },
     {
@@ -720,7 +753,8 @@
      "more": [
       "An empty chairman's chair at the head of a long boardroom table, overcast window light"
      ],
-     "caption": "और उनके मुताबिक़, उनकी बेटी Jayanti ये business चलाने में ज़्यादा उत्सुक नहीं थीं।"
+     "caption": "और उनके मुताबिक़, उनकी बेटी Jayanti ये business चलाने में ज़्यादा उत्सुक नहीं थीं।",
+     "label": "JAYANTI CHAUHAN · Ramesh की बेटी"
     },
     {
      "vo": "उन्हें ऐसा कोई चाहिए था, जो इस ब्रांड को संभाले और आगे ले जाए।",
@@ -737,7 +771,8 @@
      "more": [
       "Close-up of folders on the table, one cover reading \"PROJECT WATER\""
      ],
-     "caption": "बातचीत Tata Consumer Products से चल रही थी। उन्होंने ये भी कहा कि उन्हें Tata की culture पसंद है।"
+     "caption": "बातचीत Tata Consumer Products से चल रही थी। उन्होंने ये भी कहा कि उन्हें Tata की culture पसंद है।",
+     "label": "TATA CONSUMER PRODUCTS · संभावित खरीदार"
     },
     {
      "vo": "रिपोर्ट्स में सौदे की क़ीमत छह हज़ार से सात हज़ार करोड़ रुपये तक बताई गई।",
@@ -754,8 +789,13 @@
      "prompt": "A split composition: on the left a faded sepia 1969 agreement reading \"₹4,00,000\", on the right a crisp modern contract reading \"₹7,000 CR\", cool light, both pages large and flat, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "₹4 लाख से *₹7,000* करोड़",
-     "caption": "सोचिए! 1969 में ₹4 लाख, और 2022 में हज़ारों करोड़ की बात।"
+     "caption": "सोचिए! 1969 में ₹4 लाख, और 2022 में हज़ारों करोड़ की बात।",
+     "split": {
+      "left": "08",
+      "right": "70",
+      "l": "1969: ₹4 लाख",
+      "r": "2022: ₹7,000 करोड़"
+     }
     },
     {
      "vo": "पर सत्रह मार्च दो हज़ार तेईस को टाटा कंज़्यूमर ने स्टॉक एक्सचेंज को बताया, ये बातचीत अब नहीं चल रही।",
@@ -765,8 +805,8 @@
      "more": [
       "Indian traders on a trading floor turning toward each other in surprise, overcast light through tall windows"
      ],
-     "label": "17 MARCH 2023 · Talks end",
-     "caption": "पर 17 मार्च 2023 को Tata Consumer ने stock exchange को बताया, ये बातचीत अब नहीं चल रही।"
+     "caption": "पर 17 मार्च 2023 को Tata Consumer ने stock exchange को बताया, ये बातचीत अब नहीं चल रही।",
+     "date": "17 MARCH 2023"
     },
     {
      "vo": "और जयंती चौहान ने साफ़ कहा, बिस्लेरी बिक नहीं रही। कंपनी वो एक प्रोफ़ेशनल टीम के साथ ख़ुद चलाएँगी।",
@@ -776,7 +816,8 @@
      "more": [
       "Close-up of a nameplate on the desk reading \"VICE CHAIRPERSON\""
      ],
-     "caption": "और Jayanti Chauhan ने साफ़ कहा, Bisleri बिक नहीं रही। Company वो एक professional team के साथ ख़ुद चलाएँगी।"
+     "caption": "और Jayanti Chauhan ने साफ़ कहा, Bisleri बिक नहीं रही। Company वो एक professional team के साथ ख़ुद चलाएँगी।",
+     "drop": true
     },
     {
      "vo": "जिस ब्रांड को बेचने की बात हुई, वो परिवार के पास ही रह गया।",
@@ -815,7 +856,10 @@
      "prompt": "The faded 1969 sale agreement reading \"₹4,00,000\" lying on a desk beside a green-labelled water bottle, soft dusk light through a window, close-up",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "और ₹4 लाख का वो सौदा? राज़ उसमें नहीं था। राज़ था 50 साल से ज़्यादा की मेहनत, जिसके बाद वो नाम बिकने आया, पर बिका नहीं।"
+     "caption": "और ₹4 लाख का वो सौदा? राज़ उसमें नहीं था। राज़ था 50 साल से ज़्यादा की मेहनत, जिसके बाद वो नाम बिकने आया, पर बिका नहीं।",
+     "quote": {
+      "text": "राज़ था 50 साल से ज़्यादा की मेहनत, जिसके बाद वो नाम बिकने आया, पर बिका नहीं।"
+     }
     },
     {
      "vo": "अगली बार, एक और ब्रांड की कहानी। ऐसी कहानियों के लिए सब्सक्राइब कर लीजिए।",
@@ -840,5 +884,6 @@
    1
   ]
  },
- "framework": "2026-11-19 06:12"
+ "released_at": "2026-11-19 06:12",
+ "voice_requested": "voice-ll-025-bisleri-229f3f8d97"
 }
