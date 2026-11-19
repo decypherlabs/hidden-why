@@ -1,0 +1,1099 @@
+{
+ "slug": "dk-246-kedarnath-rahasya-itihas",
+ "format": "long",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "केदारनाथ का रहस्य: बाढ़ में अडिग मंदिर और बैल रूपी महादेव की कथा 🙏",
+ "thumbnail": {
+  "layout": "epic",
+  "text": "केदारनाथ की *भीम शिला*",
+  "plane": "Kedarnath temple LARGE in the left half, its real grey stone walls, Nagara-style stone shikhara with a golden kalash, raised stone platform, a stone Nandi facing the door, glowing with warm golden divine light from within; directly behind the temple a giant dark boulder wedged in the ground, a roaring flood of muddy water and rocks splitting in two around the boulder and rushing past both sides of the temple; right half filled with storm clouds, lightning and the snowy Kedarnath peaks of the Himalaya; dark high-contrast cinematic light, mist and rain, the boulder clearly visible, no people, no text"
+ },
+ "music": {
+  "suspense": [
+   "cold_open",
+   "ch1",
+   "ch6",
+   "ch8",
+   "ch11"
+  ],
+  "devotional": [
+   "ch2",
+   "ch5",
+   "ch7",
+   "ch13",
+   "ch14",
+   "outro"
+  ],
+  "emotional": [
+   "ch3",
+   "ch10",
+   "ch12"
+  ],
+  "epic": [
+   "ch4",
+   "ch9"
+  ]
+ },
+ "source": "शिव पुराण, कोटिरुद्र संहिता (केदारेश्वर ज्योतिर्लिंग: नर-नारायण का तप); पांडवों, बैल रूपी शिव और पंच केदार की कथा: स्कंद पुराण के केदारखंड से जुड़ी उत्तराखंड की परंपरा; ऊखीमठ का नाम: लोककथा; मंदिर, आदि शंकराचार्य की परंपरा, रावल परंपरा, 16-17 जून 2013 की आपदा, पुनर्निर्माण (नवंबर 2021 समाधि व प्रतिमा) और कपाट-डोली परंपरा: मंदिर का दर्ज इतिहास व श्री बद्रीनाथ-केदारनाथ मंदिर समिति की परंपरा",
+ "journey_score": 8.6,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "भाई दूज की सुबह है, हिमालय पर हल्की बर्फ़ गिर रही है।",
+     "prompt": "Light snow falling over a grey stone temple courtyard in the high Himalaya, snow settling on the stone floor and temple roof, snowy peaks in soft blue dawn light, no people, sharp focus, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "केदारनाथ मंदिर के बाहर हज़ारों भक्त ठंड में काँपते हुए खड़े हैं।",
+     "prompt": "A huge crowd of devotees in woollen shawls standing shivering in the courtyard of Kedarnath temple, grey stone temple with stone shikhara and golden kalash behind them, snowy peaks, overcast daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ढोल बजते हैं, शंख गूँजता है, और भारी कपाट बंद होते हैं।",
+     "prompt": "The heavy silver-plated doors of Kedarnath temple closing, a priest in saffron robes on the left blowing a conch, drummers beating large dhol on the right, cold morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बाबा केदार की पंचमुखी डोली बर्फ़ीले रास्ते पर नीचे उतरने लगती है।",
+     "prompt": "A decorated palanquin carrying a silver five-faced Shiva idol, carried on the shoulders of four men in woollen clothes down a snowy mountain path, marigold garlands, bright cold daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अब छह महीने यहाँ सिर्फ़ बर्फ़ और सन्नाटा रहेगा।",
+     "prompt": "Kedarnath grey stone temple alone under deep snow, empty courtyard, snow-covered stone Nandi bull statue in front, no people, grey winter sky, sharp focus, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "केदारनाथ का रहस्य यहीं से शुरू होता है: भगवान अपना घर छोड़कर कहाँ जाते हैं?",
+     "prompt": "A decorated palanquin carried by a line of small devotees walking away into a misty Himalayan valley, the snowy temple small behind them, soft dawn light, extreme wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इतनी ऊँचाई पर, बर्फ़ के बीच, ये मंदिर किसने बनाया?",
+     "prompt": "Kedarnath grey stone temple small at the foot of towering snowy peaks, massive grey stone slabs in its walls, vast mountain valley, clear daylight, extreme wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और यहाँ महादेव बैल की पीठ के रूप में क्यों पूजे जाते हैं?",
+     "prompt": "A rough triangular rock shaped like a bull's hump rising from a dim stone sanctum floor, ghee and marigold flowers on it, oil lamps glowing around it, warm lamp light, medium close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दो हज़ार तेरह की भयानक बाढ़ में पूरा केदारनाथ कस्बा बह गया था।",
+     "prompt": "A flood of muddy brown water and boulders sweeping through a mountain town, houses collapsing into it, grey rain, no people, sharp focus, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "caption": "2013 की भयानक बाढ़ में पूरा केदारनाथ कस्बा बह गया था।"
+    },
+    {
+     "vo": "पर पत्थर के मंदिर का ढाँचा अडिग रहा।",
+     "prompt": "Kedarnath grey stone temple standing intact in the middle of a field of mud, boulders and wrecked buildings, overcast daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इसके पीछे आज भी एक विशाल शिला खड़ी है, जिसे भक्त भीम शिला कहते हैं।",
+     "prompt": "A giant dark boulder resting just behind Kedarnath grey stone temple, red vermilion and marigolds on the boulder, snowy peaks behind, bright daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीतर जलता छोड़ा गया एक दीया भी इस रहस्य का हिस्सा है।",
+     "prompt": "A single brass oil lamp burning with a steady flame inside a dark closed stone sanctum, deep shadows around it, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये कथा शिव पुराण और केदारखंड की परंपरा से है।",
+     "prompt": "An old palm-leaf manuscript open on a wooden stand beside a burning oil lamp, a window showing a snowy Himalayan temple in the distance, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "हिमालय का धाम",
+   "shots": [
+    {
+     "vo": "उत्तराखंड के रुद्रप्रयाग ज़िले में, मंदाकिनी नदी के किनारे केदारनाथ धाम है। ये साढ़े तीन हज़ार मीटर से भी ज़्यादा ऊँचाई पर बसा है।",
+     "prompt": "Aerial view of a green Mandakini river valley with a grey stone temple on a high meadow, snowy Himalayan peaks surrounding it, clear morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पीछे केदारनाथ की बर्फ़ीली चोटियाँ हैं, और सामने खुली घाटी। यहाँ पहुँचने के लिए गौरीकुंड से करीब सोलह किलोमीटर चढ़ना पड़ता है।",
+     "prompt": "A narrow stone trekking path winding up a steep green Himalayan mountainside, a line of small pilgrims climbing it, snowy peaks ahead, bright morning sun, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बूढ़े, बच्चे, जवान, सब इसी पहाड़ी रास्ते पर चलते हैं। रास्ते भर एक ही आवाज़ गूँजती है, जय बाबा केदार।",
+     "prompt": "An old man with a walking stick and a young man in a woollen cap climbing a mountain path together, the old man on the left, colourful prayer flags, mist, bright daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "केदारनाथ बारह ज्योतिर्लिंगों में से एक है। उत्तराखंड के चार धामों में भी इसकी गिनती होती है।",
+     "prompt": "Kedarnath temple front view, grey stone facade with carved doorway, stone Nandi bull in front, devotees with folded hands in the courtyard, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "हर साल लाखों भक्त यहाँ पहुँचते हैं। ठंडी हवा, पतली साँस और थकान, पर चेहरे पर एक अलग ही चमक।",
+     "prompt": "A long queue of tired devotees in woollen shawls waiting in front of Kedarnath temple, cold mist, glowing faces, peaks behind, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर गर्भगृह में पहुँचते ही भक्त एक अनोखी चीज़ देखते हैं। यहाँ बाकी मंदिरों जैसा गोल, चिकना शिवलिंग नहीं है।",
+     "prompt": "A woman in a modest cotton saree stepping into a dim stone sanctum, eyes wide in wonder, oil lamps glowing ahead of her, three-quarter view, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यहाँ एक त्रिकोण जैसा, ऊबड़-खाबड़ पत्थर है। ये धरती से किसी पीठ की तरह उभरा हुआ दिखता है।",
+     "prompt": "A rough triangular rock like a bull's hump rising from a stone floor, flowers and lamps around it, no people, warm lamp light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भक्त इसे छूते हैं, इस पर घी लगाते हैं, और माथा टेकते हैं। इसे स्वयंभू माना जाता है, यानी अपने आप प्रकट हुआ।",
+     "prompt": "A man in a white kurta, seen from the side, pressing his forehead to a hump-shaped rock and spreading ghee on it with his hand, oil lamps, warm lamp light, medium close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मान्यता है कि ये महादेव के बैल रूप की पीठ, यानी कूबड़ है। पर महादेव ने बैल का रूप लिया ही क्यों?",
+     "prompt": "A hump-shaped rock glowing softly in a dark sanctum, behind it a faint white bull outline in the darkness, oil lamps, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और वो किससे छिप रहे थे? इसका जवाब महाभारत के बाद की एक कथा में है।",
+     "prompt": "A lone white bull standing among grazing cattle on a misty Himalayan meadow at dusk, a snowy peak behind, wide shot, no people, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर उससे पहले जानना होगा कि महादेव इस बर्फ़ीली धरती पर आए ही क्यों। शिव पुराण इसकी एक अलग कथा सुनाता है।",
+     "prompt": "Snowy Himalayan peaks at golden sunrise over an untouched green valley with no buildings, rays of golden light falling on the land, extreme wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "नर-नारायण का तप",
+   "shots": [
+    {
+     "vo": "शिव पुराण के अनुसार, बहुत पहले बद्रिकाश्रम में दो ऋषि तप करते थे। उनके नाम थे नर और नारायण।",
+     "prompt": "Two thin old ascetic men with long matted grey hair and saffron bark cloth, seated in meditation side by side on a rock beside a Himalayan river, snowy peaks, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शिव पुराण उन्हें भगवान विष्णु का अवतार बताता है। वे हिमालय की इसी पवित्र धरती पर रहते थे।",
+     "prompt": "Two thin old ascetic men with long matted grey hair and saffron bark cloth, standing side by side in a pine forest, a soft blue glow behind them, calm faces, daylight, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दोनों रोज़ नदी किनारे की मिट्टी से शिवलिंग बनाते थे। फिर पूरे मन से उसकी पूजा करते थे।",
+     "prompt": "A thin old ascetic man with long matted grey hair shaping a small clay Shiva lingam with his hands on a riverbank, a second old ascetic on the right offering flowers to it, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दिन बीते, बरसों बीते। ठंड, बर्फ़, भूख, कुछ भी उनका ध्यान नहीं तोड़ पाया।",
+     "prompt": "Two thin old ascetic men with long matted grey hair meditating motionless with snow falling on their shoulders, a clay lingam with flowers before them, blizzard around, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उनकी भक्ति की ख़ुशबू जैसे पूरे हिमालय में फैल गई। घाटी में बस मंत्रों की आवाज़ गूँजती थी।",
+     "prompt": "Two tiny ascetic men meditating by a river in a vast quiet Himalayan valley, golden dawn light spreading over snow, extreme wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कथा के अनुसार, उनकी भक्ति से महादेव प्रसन्न हुए। वे उनके सामने प्रकट हुए और वर माँगने को कहा।",
+     "prompt": "Lord Shiva, blue-throated, matted locks with a crescent moon, trident, tiger-skin wrap, appearing in radiant light on the right, before a thin old ascetic with matted grey hair kneeling on the left, snowy peaks, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "नर-नारायण ने अपने लिए कुछ नहीं माँगा। उन्होंने प्रार्थना की कि महादेव केदार क्षेत्र में अपने रूप में निवास करें।",
+     "prompt": "A thin old ascetic man with long matted grey hair, folded hands, looking up at a bright divine glow in the sky, Himalayan peaks behind, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ताकि यहाँ आने वाले भक्तों के दुख दूर हों। महादेव ने उनकी प्रार्थना स्वीकार कर ली।",
+     "prompt": "Lord Shiva, blue-throated, crescent moon in matted locks, trident, raising his right hand in blessing with a gentle smile, golden light pouring over a Himalayan valley, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मान्यता है कि तभी से महादेव यहाँ ज्योतिर्लिंग के रूप में विराजते हैं। उनका नाम पड़ा केदारेश्वर।",
+     "prompt": "A pillar of brilliant golden light descending into a Himalayan meadow and forming a glowing rough rock lingam on the grass, snowy peaks around, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शिव पुराण में केदारेश्वर की पूजा को बहुत पुण्यदायी बताया गया है। तभी से भक्त इस कठिन रास्ते पर चढ़ते आए हैं।",
+     "prompt": "Pilgrims in simple robes climbing a rocky Himalayan path toward a distant glowing grey stone temple, soft morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये ज्योतिर्लिंग की कथा है। पर बैल की पीठ का रहस्य आगे छिपा है, जब पाँच भाई पाप का बोझ लेकर यहाँ आए।",
+     "prompt": "Five tall warrior men in simple robes walking in a line toward the snowy Himalaya, seen from three-quarter side with bowed heads, long shadows at dusk, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "पांडवों का पश्चाताप",
+   "shots": [
+    {
+     "vo": "कुरुक्षेत्र का युद्ध ख़त्म हो चुका था। पांडव जीत गए थे, पर उनके मन में शांति नहीं थी।",
+     "prompt": "A man with a gold crown, white dhoti and short black beard, standing alone with bowed head on an empty battlefield, broken chariots, fallen banners and smoke around him, dusk, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उस युद्ध में उनके अपने भाई, गुरु और रिश्तेदार मारे गए थे। अपनों के खून का बोझ उनके दिल पर था।",
+     "prompt": "A calm fair-skinned man with a gold crown and short black beard sitting on palace steps with his face in his hands, a lean fair-skinned man with a bow standing beside him on the right, evening lamps, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ये कथा केदारखंड से जुड़ी उत्तराखंड की पुरानी परंपरा में आती है। इसके अनुसार पांडवों ने तय किया कि इस पाप से मुक्ति सिर्फ़ महादेव दे सकते हैं।",
+     "prompt": "A fair-skinned man with a gold crown and short black beard on the left and a huge dark-skinned muscular man with a thick moustache on the right, both in plain travel clothes, hands folded before a small stone Shiva shrine, dawn, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वे सबसे पहले काशी पहुँचे, बाबा विश्वनाथ की नगरी। पर महादेव वहाँ उन्हें नहीं मिले।",
+     "prompt": "A fair-skinned man with a gold crown and short black beard and a lean fair-skinned man with a bow walking down stone steps of Kashi ghats, temple spires, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कथा के अनुसार, महादेव पांडवों से रुष्ट थे। अपनों की हत्या करने वालों को वे इतनी आसानी से दर्शन नहीं देना चाहते थे।",
+     "prompt": "Lord Shiva, blue-throated, crescent moon in matted locks, trident, turning his face away with a stern calm look on a cloud-covered mountain, misty light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इसलिए महादेव काशी छोड़कर हिमालय की ओर चले गए। पांडव भी उनके पीछे-पीछे पहाड़ों में चल पड़े।",
+     "prompt": "A huge dark-skinned muscular man with a thick moustache and a mace beside a lean fair-skinned man with a bow, climbing a rocky Himalayan trail, a few small figures behind them, pine forests, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मंदाकिनी घाटी में एक जगह महादेव कुछ समय छिपे रहे। मान्यता है कि इसी से उस जगह का नाम पड़ा गुप्तकाशी, यानी छिपी हुई काशी।",
+     "prompt": "A dark hidden cave mouth on a forested ridge in the Mandakini valley, a faint divine golden glow inside, mist drifting, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आज भी गुप्तकाशी में विश्वनाथ मंदिर है। केदारनाथ जाने वाले बहुत से भक्त यहाँ रुककर दर्शन करते हैं।",
+     "prompt": "An old stone Himalayan temple with a peaked roof, devotees with folded hands at its entrance, mountains behind, bright daylight, plain blank signboards, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर पांडव हार मानने वाले नहीं थे। वे खोजते-खोजते और ऊपर, केदार की घास भरी घाटी तक पहुँच गए।",
+     "prompt": "A fair-skinned man with a gold crown on the left and a huge dark-skinned muscular man with a thick moustache on the right, reaching the edge of a vast green high-altitude meadow, snowy peaks ahead, wind in their clothes, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वहाँ ढलानों पर गायों और बैलों का एक बड़ा झुंड चर रहा था। और उस झुंड में कोई ऐसा था, जो सिर्फ़ बैल नहीं था।",
+     "prompt": "A large herd of cows and bulls grazing on a Himalayan meadow at golden hour, one white bull among them with a faint glow, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "भीम और बैल",
+   "shots": [
+    {
+     "vo": "कथा के अनुसार, पांडवों से बचने के लिए महादेव ने बैल का रूप ले लिया था। और वे उसी झुंड में घुल-मिल गए।",
+     "prompt": "A majestic white bull with a large hump standing calmly among a grazing herd of brown cattle on a meadow, a faint golden glow around it, snowy peaks, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पाँचों भाई झुंड को देखते रहे। सैकड़ों पशु, सब एक जैसे। महादेव को पहचानें तो कैसे?",
+     "prompt": "A fair-skinned man with a gold crown and a lean fair-skinned man with a bow standing on a ridge looking down at a huge herd of cattle on the meadow, puzzled faces, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तब भीम ने एक उपाय सोचा। वे दो पहाड़ियों पर अपने दोनों पैर फैलाकर खड़े हो गए।",
+     "prompt": "A huge dark-skinned muscular man with a thick moustache, gold armbands and a mace on his back, standing upright with one foot on each of two rocky hillocks, legs wide apart, sky behind, low-angle wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "शाम हुई तो झुंड लौटने लगा। सारे पशु भीम के पैरों के नीचे से निकलते गए।",
+     "prompt": "A herd of cattle walking through the gap between two hillocks beneath the legs of a huge standing muscular man, golden dust at sunset, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर एक बैल ठिठक गया। वो भीम के पैरों के नीचे से नहीं गुज़रा।",
+     "prompt": "A white bull standing still apart from the herd, head up, refusing to walk forward, the brown herd moving away in the distance, sunset light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीम समझ गए, यही महादेव हैं। वे उस बैल की ओर लपके।",
+     "prompt": "A huge dark-skinned muscular man with a thick moustache running down a grassy hillside toward a white bull far below, fierce face, dust rising, golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उसी पल बैल धरती में समाने लगा। देखते ही देखते उसका आगे का हिस्सा ज़मीन में चला गया।",
+     "prompt": "A white bull with its front half sunk into glowing cracked ground, golden light pouring from the cracks, standing on a meadow, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीम ने पूरी ताक़त से बैल की पीठ, उसका कूबड़ थाम लिया। वो कूबड़ धरती के ऊपर ही रह गया।",
+     "prompt": "Only the hump of a white bull rising above the ground, glowing with golden light, a huge dark-skinned muscular man kneeling beside it with both hands gripping the hump, dust settling, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पांडवों की लगन और भक्ति देखकर महादेव प्रसन्न हो गए। उन्होंने दर्शन दिए और पांडवों को पाप से मुक्त किया।",
+     "prompt": "Lord Shiva, blue-throated, crescent moon in matted locks, trident, blessing hand raised, standing in blazing light on a meadow, a fair-skinned man with a gold crown kneeling before him on the left, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मान्यता है कि वही कूबड़ आज केदारनाथ में त्रिकोण आकार के शिवलिंग के रूप में पूजा जाता है।",
+     "prompt": "A triangular rough rock lingam inside a dim stone sanctum, marigold flowers and oil lamps around it, golden glow on the rock, no people, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भक्त जब उस पत्थर पर घी लगाते हैं, तो उनके मन में यही कथा होती है। जैसे वे महादेव की पीठ को छू रहे हों।",
+     "prompt": "Hands of a devotee spreading ghee on a hump-shaped rock lingam, a marigold garland beside it, soft lamp glow, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर कथा यहीं ख़त्म नहीं होती। बैल का बाकी शरीर कहाँ गया?",
+     "prompt": "Streaks of golden light travelling underground beneath a Himalayan mountain range toward distant peaks, dusk sky, extreme wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "पंच केदार",
+   "shots": [
+    {
+     "vo": "उत्तराखंड की मान्यता के अनुसार, महादेव के बैल रूप के बाकी अंग अलग-अलग जगह प्रकट हुए। ये पाँच धाम पंच केदार कहलाते हैं।",
+     "prompt": "A panorama of the Garhwal Himalaya with five small grey stone temples glowing with soft golden light on five different peaks, no text, extreme wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पहला केदारनाथ, जहाँ पीठ का कूबड़ पूजा जाता है। ये पंच केदार में सबसे बड़ा धाम है।",
+     "prompt": "Kedarnath grey stone temple with its stone shikhara before a snowy peak, devotees in the courtyard, a hump-shaped rock glowing gently at the doorway, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "दूसरा तुंगनाथ, जहाँ महादेव की भुजाएँ पूजी जाती हैं। कहा जाता है कि ये दुनिया का सबसे ऊँचा शिव मंदिर है।",
+     "prompt": "A small old stone temple on a high grassy ridge, snowy ranges behind, clouds below the ridge, bright daylight, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तीसरा रुद्रनाथ, जहाँ महादेव का मुख पूजा जाता है। यहाँ तक पहुँचने का रास्ता बहुत कठिन है।",
+     "prompt": "A small natural rock shrine among alpine meadows and rugged cliffs, one pilgrim climbing a steep trail toward it, overcast light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "चौथा मध्यमहेश्वर, जहाँ नाभि और पेट का भाग पूजा जाता है। ये घने जंगलों और ऊँचे बुग्यालों के बीच है।",
+     "prompt": "A stone temple with a pyramidal roof in a green alpine meadow, tall snowy peaks behind, bright morning light, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पाँचवाँ कल्पेश्वर, जहाँ महादेव की जटाएँ पूजी जाती हैं। पंच केदार में यही अकेला है, जिसके कपाट पूरे साल खुले रहते हैं।",
+     "prompt": "A small rock-cave shrine entered through a natural cave passage in a green valley, terraced fields below, open doorway, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "एक मान्यता ये भी है कि बैल का सिर नेपाल में प्रकट हुआ। वहाँ महादेव पशुपतिनाथ के रूप में पूजे जाते हैं।",
+     "prompt": "A Nepali golden two-tiered temple roof beside a river in Kathmandu, devotees on the steps at dawn, saffron flags, plain blank signboards, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आज भी बहुत से भक्त पाँचों केदार की पैदल यात्रा करते हैं। वे इसे जीवन की सबसे कठिन और पवित्र यात्राओं में गिनते हैं।",
+     "prompt": "A small group of pilgrims with walking sticks crossing a high Himalayan ridge, colourful prayer flags fluttering, a small temple in the distance, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर एक सवाल अब भी बाकी है। जहाँ कूबड़ प्रकट हुआ, वहाँ पहला मंदिर किसने बनाया?",
+     "prompt": "Kedarnath grey stone temple at twilight, stone walls catching the last orange light, snowy peaks behind, a lit lamp at its door, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "पत्थरों का मंदिर",
+   "shots": [
+    {
+     "vo": "आज का केदारनाथ मंदिर बड़े-बड़े भूरे पत्थरों से बना है। ये पत्थर इतने भारी हैं कि देखकर हैरानी होती है।",
+     "prompt": "Close view of massive grey stone slabs in the wall of a temple, finely joined, weathered, snow at the base, bright daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मंदिर एक ऊँचे चबूतरे पर खड़ा है। ऊपर ऊँचा पत्थर का शिखर है, और उसके ऊपर सुनहरा कलश।",
+     "prompt": "Kedarnath temple from a low angle on its raised stone platform, tall stone shikhara rising with a golden kalash at the top, blue sky and snowy peaks, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मंदिर के सामने महादेव के वाहन नंदी की बड़ी पत्थर की मूर्ति है। नंदी सदियों से इसी तरह गर्भगृह की ओर देख रहे हैं।",
+     "prompt": "A large stone Nandi bull statue seated and facing the door of a grey stone temple, marigold garland around its neck, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भीतर मंडप में पाँच पांडवों की मूर्तियाँ हैं। और भगवान कृष्ण की भी।",
+     "prompt": "A row of six carved stone statues of five warrior brothers and a blue-skinned Lord Krishna with a peacock feather crown in a dim ancient stone hall, oil lamps, warm light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भक्त मानते हैं कि यहाँ पहला मंदिर ख़ुद पांडवों ने बनवाया था।",
+     "prompt": "A huge dark-skinned muscular man with a thick moustache lifting a large stone block onto a half-built stone shrine on the left, a lean fair-skinned man with a bow watching on the right, Himalayan meadow, ancient times, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर उस पहले मंदिर का कोई लिखा हुआ रिकॉर्ड नहीं मिलता। ये मान्यता है, इतिहास नहीं।",
+     "prompt": "A small ancient stone shrine half-hidden and fading into Himalayan mist, soft muted light, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आज जो पत्थर का मंदिर हम देखते हैं, वो बहुत पुराना है। पर इसके बनने की पक्की तारीख़ पर इतिहासकारों में एक राय नहीं है।",
+     "prompt": "Kedarnath grey stone temple in winter with snow on its shikhara, ancient against towering peaks, cold blue light, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सदियों तक बर्फ़, ठंडी हवाएँ और भूकंप इसकी परीक्षा लेते रहे। पर पत्थर अपनी जगह से नहीं हटे।",
+     "prompt": "A snowstorm lashing a solid grey stone temple, snow swirling around it, dark dramatic sky, the temple standing firm, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "परंपरा इस मंदिर को एक युवा संन्यासी से जोड़ती है, जो केरल से पैदल चलकर हिमालय तक आए थे।",
+     "prompt": "A young monk with shaven head and saffron robe walking up a Himalayan path with a wooden staff, three-quarter side view, snowy peaks ahead, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उम्र बहुत कम थी, पर उन्होंने पूरे भारत को एक धागे में पिरो दिया। वो थे आदि शंकराचार्य।",
+     "prompt": "A young monk with shaven head, saffron robe, wooden staff and a small water pot, standing on a ridge overlooking the Himalaya at sunrise, three-quarter view, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "आदि शंकराचार्य",
+   "shots": [
+    {
+     "vo": "आदि शंकराचार्य का जन्म केरल के कालड़ी गाँव में हुआ था। बहुत छोटी उम्र में ही उन्होंने संन्यास ले लिया।",
+     "prompt": "A young boy in a saffron robe bowing before his mother at the doorway of a small village house in Kerala, coconut palms and a river behind, warm light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने पूरे भारत की पैदल यात्रा की। गाँव-गाँव, नगर-नगर जाकर वेदांत का संदेश दिया।",
+     "prompt": "A young monk with shaven head, saffron robe and wooden staff walking a long dusty road across Indian plains, temples and green fields in the distance, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उन्होंने देश के चार कोनों में चार मठ बनाए। उत्तर में उनका मठ ज्योतिर्मठ है, बद्रीनाथ के पास।",
+     "prompt": "A young monk with shaven head in a saffron robe teaching, seated under a tree, a few disciples in saffron listening around him, Himalayan town and mountains behind, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "परंपरा के अनुसार, उन्होंने केदारनाथ धाम को फिर से जगाया। यहाँ पूजा की व्यवस्था को नया रूप दिया।",
+     "prompt": "A young monk with shaven head and saffron robe standing with folded hands before a grey stone temple, a priest lighting a lamp at its door on the right, snowy peaks, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आम तौर पर उनका समय आठवीं सदी के आसपास माना जाता है। उनके बाद ये धाम पूरे भारत के भक्तों का केंद्र बनता गया।",
+     "prompt": "Pilgrims in varied traditional Indian clothes, women in sarees and men in dhotis and turbans, arriving at a grey stone mountain temple in olden times, no cars, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "परंपरा ये भी कहती है कि सिर्फ़ बत्तीस साल की उम्र में उन्होंने केदारनाथ में समाधि ली। मंदिर के पीछे उनकी समाधि बनी।",
+     "prompt": "A young monk with shaven head and saffron robe seated in deep meditation behind a grey stone temple, eyes closed, a soft golden light rising around him, snowy peaks, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "एक अनोखी परंपरा आज भी चल रही है। केदारनाथ के मुख्य पुजारी, जिन्हें रावल कहते हैं, कर्नाटक की वीरशैव परंपरा से आते हैं।",
+     "prompt": "A senior priest in saffron robes with rudraksha beads and a turban, holding a brass lamp, standing at the door of a grey stone temple, three-quarter view, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यानी हिमालय के इस मंदिर से दक्षिण भारत का गहरा नाता है। उत्तर और दक्षिण का ऐसा मेल कम ही देखने को मिलता है।",
+     "prompt": "Green Kerala backwaters with coconut palms on the left joining snowy Himalayan peaks and a grey stone temple on the right, soft daylight, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सदियाँ बीतती गईं। मंदिर हर बर्फ़, हर तूफ़ान के बाद वैसे ही खड़ा मिला।",
+     "prompt": "A grey stone temple standing in snow on its left side and green meadow on its right side, snowy peaks behind, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर आया जून दो हज़ार तेरह। एक ऐसी आपदा, जिसे उत्तराखंड कभी नहीं भूल पाया।",
+     "prompt": "Dark storm clouds gathering over a Himalayan valley, lightning over the snowy peaks, heavy rain beginning on a grey stone temple town, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "caption": "फिर आया जून 2013। एक ऐसी आपदा, जिसे उत्तराखंड कभी नहीं भूल पाया।"
+    }
+   ]
+  },
+  {
+   "id": "ch8",
+   "card": "जून 2013 की रात",
+   "shots": [
+    {
+     "vo": "जून का महीना था। यात्रा का मौसम पूरे ज़ोर पर था, और केदारनाथ में हज़ारों यात्री मौजूद थे।",
+     "prompt": "A mountain temple town crowded with pilgrims, lodges and shops around a grey stone temple, colourful umbrellas, cloudy sky, plain blank signboards, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सोलह जून दो हज़ार तेरह को पहाड़ों पर लगातार भारी बारिश होने लगी। मंदाकिनी का पानी तेज़ी से चढ़ने लगा।",
+     "prompt": "A swollen brown roaring river tearing past large rocks in a mountain valley, torrential rain, dark sky, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "caption": "16 जून 2013 को पहाड़ों पर लगातार भारी बारिश होने लगी। मंदाकिनी का पानी तेज़ी से चढ़ने लगा।"
+    },
+    {
+     "vo": "उसी शाम पानी और मलबे की पहली लहर केदारनाथ कस्बे में घुसी। लोग डरकर ऊँची जगहों की ओर भागे।",
+     "prompt": "Muddy water rushing through a narrow lane of a mountain town at dusk, small pilgrims climbing steps to higher ground on the right, rain, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मंदिर के ऊपर, पहाड़ों में चोराबाड़ी ग्लेशियर के पास एक झील है। उसे चोराबाड़ी ताल कहते हैं।",
+     "prompt": "A glacial lake below a grey glacier and rocky moraine high above a valley, heavy rain falling on the lake surface, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "लगातार बारिश से उस झील में पानी भरता गया। सत्रह जून की सुबह उसका किनारा टूट गया।",
+     "prompt": "The rocky wall of a glacial lake bursting open, a huge surge of water and boulders breaking through, spray in the air, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "caption": "लगातार बारिश से उस झील में पानी भरता गया। 17 जून की सुबह उसका किनारा टूट गया।"
+    },
+    {
+     "vo": "पानी, कीचड़ और बड़े-बड़े पत्थरों का सैलाब पूरी ताक़त से नीचे उतरा। सीधा केदारनाथ की ओर।",
+     "prompt": "A massive wall of muddy water and boulders racing down a mountain valley toward a small town below, spray and mist, extreme wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "होटल, धर्मशालाएँ, दुकानें, घर, सब बह गए। जो रास्ते में आया, वो नहीं बचा।",
+     "prompt": "Houses and lodges crumbling into a raging brown flood, roofs and debris swept away, grey rain, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "इस आपदा में हज़ारों लोगों की जान गई। बहुत से लोग आज तक नहीं मिले।",
+     "prompt": "A pair of wooden prayer beads and a small brass lamp lying on a muddy rock in a ruined valley, sharp focus, mournful grey light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बताया जाता है कि कई लोगों ने उस रात मंदिर के भीतर शरण ली थी। बाहर पानी गरज रहा था।",
+     "prompt": "Two frightened pilgrims in shawls huddled with folded hands near a rock lingam in a dim stone sanctum lit by one lamp, a woman on the left and a man on the right, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और उसी सैलाब के साथ बहकर एक विशाल शिला नीचे आई।",
+     "prompt": "A huge boulder carried down a Himalayan valley by a torrent of muddy water and debris, a grey stone temple small in the distance, dusk light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch9",
+   "card": "भीम शिला",
+   "shots": [
+    {
+     "vo": "पर वो विशाल शिला मंदिर से नहीं टकराई। वो मंदिर के ठीक पीछे, थोड़ी दूरी पर आकर रुक गई।",
+     "prompt": "A giant boulder lodged in the ground just behind a grey stone temple, floodwater crashing against the boulder, the temple untouched in front, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पीछे से आता पानी उस शिला से टकराकर दो धाराओं में बँट गया। और मंदिर के दोनों ओर से बह निकला।",
+     "prompt": "Aerial view of floodwater splitting into two streams around a boulder and flowing past both sides of a grey stone temple, dramatic light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "चारों ओर सब तबाह हो चुका था। पर बीच में, पत्थर का मंदिर अपनी जगह खड़ा था।",
+     "prompt": "A grey stone temple standing alone in a vast field of mud and rubble, destroyed buildings around it, pale light breaking through clouds, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मंदिर का मुख्य ढाँचा बचा रहा, ये पूरी दुनिया ने तस्वीरों में देखा।",
+     "prompt": "A grey stone temple standing intact amid mud, rubble and wrecked buildings after a flood, grey overcast sky, sharp focus, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भक्तों ने इस शिला को भीम शिला नाम दिया। जैसे भीम ने कभी बैल रूपी महादेव को रोका था, वैसे ही इसने सैलाब को रोका।",
+     "prompt": "A giant boulder behind a grey stone temple glowing faintly in golden light, a ghostly outline of a huge muscular man with a mace in the clouds above, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भक्त मानते हैं कि ये शिला महादेव ने ख़ुद अपने धाम की रक्षा के लिए भेजी थी।",
+     "prompt": "Clouds parting over a Himalayan temple, a soft beam of golden light falling on the grey stone temple and the boulder behind it, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जानकार मंदिर की मज़बूत बनावट की बात करते हैं। भारी पत्थर, ऊँचा चबूतरा और सदियों पुरानी कारीगरी।",
+     "prompt": "Close view of thick interlocking grey stone blocks at the base of a temple and its raised platform, mud stains on the stone, bright daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भक्त इसमें बाबा केदार की कृपा देखते हैं। दोनों अपनी-अपनी जगह, पर मंदिर खड़ा रहा, ये सच है।",
+     "prompt": "An elderly woman in a shawl, seen from three-quarter side, folded hands, tears in her eyes, looking at a grey stone temple standing across the rubble, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "आज भीम शिला की भी पूजा होती है। भक्त उस पर तिलक लगाते हैं, फूल चढ़ाते हैं और हाथ जोड़ते हैं।",
+     "prompt": "A big boulder covered in red vermilion and marigolds behind a grey stone temple, a man in a white kurta with folded hands on the left, bright morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर मंदिर बचा था, धाम नहीं। अब सवाल था, क्या केदारनाथ फिर से बस पाएगा?",
+     "prompt": "A grey stone temple surrounded by an empty wasteland of boulders and silt, a lone crow on a rock in front, grey sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch10",
+   "card": "फिर से उठा धाम",
+   "shots": [
+    {
+     "vo": "बाढ़ के बाद केदारनाथ में चारों ओर मलबा ही मलबा था। कई महीनों तक यात्रा रुकी रही।",
+     "prompt": "A ruined Himalayan valley covered in boulders and silt, a grey stone temple in the middle, no pilgrims, cold light, extreme wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मंदिर के भीतर भी कीचड़ भर गया था। उसे साफ़ करने और शुद्ध करने का काम चला।",
+     "prompt": "Two workers in simple clothes shovelling mud out of a temple's stone hall, a priest in saffron on the right sprinkling holy water, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उसी साल सितंबर में शुद्धि के बाद मंदिर में फिर से पूजा शुरू हुई। घंटियाँ फिर बजीं।",
+     "prompt": "A priest in saffron performing aarti with a brass lamp before a hump-shaped rock lingam, a hanging bell beside him, warm light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर धीरे-धीरे पूरे धाम को दोबारा बनाने का काम शुरू हुआ। इतनी ऊँचाई पर, ठंड में, ये आसान नहीं था।",
+     "prompt": "Workers in woollen caps building a stone wall with hand tools in the snow near a grey stone temple, peaks behind, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मंदिर के पीछे मज़बूत सुरक्षा दीवार बनाई गई, ताकि पहाड़ से आने वाला पानी मंदिर तक न पहुँचे।",
+     "prompt": "A tall stepped stone protection wall rising behind a grey stone temple, the large boulder visible beside it, snowy peaks, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मंदाकिनी के किनारे घाट बने, नया रास्ता बना, और मंदिर के सामने चौड़ा आँगन बना।",
+     "prompt": "A wide paved stone courtyard and path leading to a grey stone temple, new stone steps down to a mountain river, pilgrims walking, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बाढ़ में आदि शंकराचार्य की पुरानी समाधि भी बह गई थी। उसे फिर से बनाया गया।",
+     "prompt": "An empty patch of ground behind a grey stone temple with workers laying new stones, mountains behind, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "नवंबर दो हज़ार इक्कीस में मंदिर के पीछे नई समाधि पर आदि शंकराचार्य की बैठी हुई प्रतिमा स्थापित हुई।",
+     "prompt": "A large dark stone seated statue of a young monk in meditation inside a circular stone memorial behind a grey stone temple, soft light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence",
+     "caption": "नवंबर 2021 में मंदिर के पीछे नई समाधि पर आदि शंकराचार्य की बैठी हुई प्रतिमा स्थापित हुई।"
+    },
+    {
+     "vo": "आज फिर से हर साल लाखों भक्त केदारनाथ पहुँचते हैं। जयकारे फिर उसी तरह गूँजते हैं।",
+     "prompt": "A grey stone temple crowded with joyful devotees raising their hands, saffron flags, bright morning, snowy peaks, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर ये भीड़, ये जयकारे, सिर्फ़ आधे साल के लिए हैं। हर साल दिवाली के बाद यहाँ एक ऐसी परंपरा निभाई जाती है, जिसका भक्त इंतज़ार करते हैं।",
+     "prompt": "A grey stone temple at dusk in late autumn, first snow on the peaks, a few lamps glowing at its door, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch11",
+   "card": "भैरव बाबा",
+   "shots": [
+    {
+     "vo": "केदारनाथ मंदिर से थोड़ा ऊपर, पहाड़ी पर एक छोटा मंदिर है। ये भैरवनाथ का मंदिर है।",
+     "prompt": "A small open-air shrine on a hillside with dark stone idols under the sky, a grey stone temple below, snowy peaks, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भैरवनाथ को केदारनाथ का क्षेत्रपाल माना जाता है, यानी इस पूरे धाम के रक्षक।",
+     "prompt": "Lord Bhairav, fierce guardian form of Shiva, dark-skinned, trident in one hand and damru in the other, standing watch on a mountain ridge, a grey stone temple far below, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "परंपरा है कि केदारनाथ के कपाट खुलने और बंद होने से पहले भैरवनाथ की विशेष पूजा होती है।",
+     "prompt": "A priest in saffron, seen from the side, offering flowers and a lamp at a small hillside shrine with dark stone idols, cold morning mist, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भक्त मानते हैं कि फिर पूरा धाम उनके भरोसे छोड़ा जाता है।",
+     "prompt": "A hillside shrine wrapped in cloth for winter, a priest in saffron stepping back with folded hands, a grey stone temple below, grey sky, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "सर्दियों में जब बर्फ़ गिरती है, तब यहाँ न यात्री होते हैं, न पुजारी।",
+     "prompt": "A Himalayan valley buried under thick snow, grey stone temple roof white, no footprints, silent moonlit night, no people, extreme wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "भक्त मानते हैं कि उन छह महीनों में भैरवनाथ ही मंदिर की रखवाली करते हैं।",
+     "prompt": "A faint glowing figure of Lord Bhairav with a trident standing guard on a snowy hill above a dark temple, moonlight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्फ़ में दबे इस धाम का पहरा भी उन्हीं के ज़िम्मे माना जाता है।",
+     "prompt": "A snow-covered grey stone temple at night, a single bright star above the shikhara, a soft golden glow on the hill above it, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और जब भैरवनाथ की पूजा हो जाती है, तब आती है वो सुबह, जब बाबा केदार अपने धाम से विदा लेते हैं।",
+     "prompt": "Dawn breaking over snowy peaks above a grey stone temple, devotees in shawls gathering in the courtyard, men holding conch shells, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch12",
+   "card": "कपाट बंद",
+   "shots": [
+    {
+     "vo": "केदारनाथ के कपाट हर साल भाई दूज के दिन बंद होते हैं। ये दिवाली के दो दिन बाद आता है।",
+     "prompt": "A grey stone temple decorated with marigold garlands on a cold autumn morning, light snow falling, devotees in the courtyard, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उस सुबह तड़के से ही मंदिर में विशेष पूजा शुरू हो जाती है। ठंड हड्डियों तक उतरती है, पर भक्त डटे रहते हैं।",
+     "prompt": "Priests in saffron performing pre-dawn worship with brass lamps and bells inside a stone temple, breath steaming in the cold, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "स्वयंभू शिवलिंग की समाधि पूजा होती है। उसे भस्म और फूलों से ढक दिया जाता है।",
+     "prompt": "A priest's hands covering a hump-shaped rock lingam with sacred ash and marigold flowers, oil lamp light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मान्यता है कि कपाट बंद होते समय भीतर एक दीया जलता छोड़ा जाता है। भक्त इसे अखंड ज्योति कहते हैं।",
+     "prompt": "A brass oil lamp burning beside an ash-covered rock lingam in a dim sanctum, light from the doorway fading behind, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर बाबा केदार की पंचमुखी उत्सव मूर्ति को सजी हुई डोली में विराजमान किया जाता है।",
+     "prompt": "A silver five-faced Shiva idol being placed in a palanquin decorated with marigolds and red cloth, priests in saffron on both sides, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मुख्य कपाट बंद होते हैं, ताला लगता है, और उस पर मुहर लगाई जाती है।",
+     "prompt": "The great wooden doors of a grey stone temple shut, a priest's hand pressing a seal onto a heavy lock, marigold petals on the ground, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उस पल भीड़ में कोई चुप नहीं रहता। हर तरफ़ से जय बाबा केदार की आवाज़ उठती है।",
+     "prompt": "A crowd of devotees in shawls raising their arms and shouting in front of a closed temple door, snow falling, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कई भक्तों की आँखें भर आती हैं। जैसे घर का कोई बड़ा, कुछ महीनों के लिए दूर जा रहा हो।",
+     "prompt": "A young woman in a woollen shawl with tears on her cheeks and folded hands, looking at closed temple doors, three-quarter view, medium close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मान्यता है कि अगले छह महीने यहाँ देवता महादेव की पूजा करते हैं, इंसान नहीं।",
+     "prompt": "An empty snowy grey stone temple at night with soft golden lights descending around it, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और डोली अपनी लंबी यात्रा पर निकल पड़ती है, बर्फ़ से ढकी पगडंडियों पर, नीचे घाटी की ओर।",
+     "prompt": "A decorated palanquin carried on shoulders by men in woollen clothes, leaving a grey stone temple along a snowy trail, saffron flags, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch13",
+   "card": "डोली की यात्रा",
+   "shots": [
+    {
+     "vo": "डोली को भक्त अपने कंधों पर उठाकर चलते हैं। आगे ढोल-नगाड़े, पीछे जयकारे।",
+     "prompt": "Devotees carrying a decorated palanquin on their shoulders down a mountain path, drummers walking ahead, pine trees, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "रास्ते के गाँवों में लोग घरों से निकल आते हैं। वे फूल बरसाते हैं और डोली के आगे सिर झुकाते हैं।",
+     "prompt": "Villagers in traditional woollen clothes showering flower petals on a passing decorated palanquin, slate-roofed hill houses, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पहले दिन डोली रामपुर में रुकती है। अगले दिन वो गुप्तकाशी पहुँचती है।",
+     "prompt": "A decorated palanquin resting under a canopy in a mountain village at evening, lamps lit around it, mountains in blue dusk, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "वही गुप्तकाशी, जहाँ कथा के अनुसार महादेव कभी पांडवों से छिपे थे। अब वही महादेव भक्तों के कंधों पर वहाँ आते हैं।",
+     "prompt": "A decorated palanquin arriving at an old stone Himalayan temple, devotees welcoming it with lamps, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "तीसरे दिन डोली ऊखीमठ पहुँचती है। यहाँ ओंकारेश्वर मंदिर में बाबा केदार विराजते हैं।",
+     "prompt": "A traditional Himalayan stone temple complex with carved wooden details, a decorated palanquin entering the courtyard, devotees around it, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "ऊखीमठ बाबा केदार का शीतकालीन गद्दी स्थल है। सर्दियों भर उनकी पूजा यहीं होती है।",
+     "prompt": "A silver five-faced Shiva idol seated on a throne inside a stone temple, oil lamps and marigold flowers, a priest with folded hands on the left, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "यहाँ के लोग इसे अपने घर भगवान के आने जैसा मानते हैं। पूरा कस्बा उत्सव में डूब जाता है।",
+     "prompt": "A hillside Himalayan town lit with lamps at night, people celebrating in a temple courtyard, snowy peaks faintly visible, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर ऊखीमठ सिर्फ़ सर्दियों का ठिकाना नहीं है। इस जगह की अपनी भी एक पुरानी कथा है।",
+     "prompt": "A Himalayan stone temple complex in early morning mist, ancient stone walls, no people, quiet mood, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "ch14",
+   "card": "अखंड ज्योति",
+   "shots": [
+    {
+     "vo": "लोककथा के अनुसार, बाणासुर की बेटी उषा और कृष्ण के पोते अनिरुद्ध का विवाह इसी जगह हुआ था।",
+     "prompt": "A young woman in a red bridal saree on the left and a young man in royal attire with a peacock-feather crown on the right, seated at a sacred fire in a Himalayan courtyard, wedding, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कहते हैं, उषा के नाम से इस जगह का नाम उषामठ पड़ा, जो धीरे-धीरे ऊखीमठ बन गया।",
+     "prompt": "A Himalayan hillside town with stone temple roofs, soft golden light, plain blank walls, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "उधर सर्दियों के छह महीने केदारनाथ पर बर्फ़ की मोटी परत जम जाती है। रास्ते पूरी तरह बंद हो जाते हैं।",
+     "prompt": "A grey stone temple buried to its doorway in deep snow, only the shikhara peeking out, a blizzard blowing, extreme wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "पर ऊखीमठ के ओंकारेश्वर मंदिर में रोज़ सुबह-शाम बाबा केदार की आरती होती है।",
+     "prompt": "A priest in saffron performing evening aarti with a large brass lamp before a silver idol, devotees with folded hands on the right, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "जो भक्त सर्दियों में केदारनाथ नहीं जा सकते, वे यहीं आकर बाबा केदार के दर्शन करते हैं।",
+     "prompt": "An elderly grandmother, a man and a child in woollens, folded hands, at the door of a stone temple, warm lamp light, three-quarter view, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "फिर आती है महाशिवरात्रि। उस दिन ऊखीमठ में पंचांग देखकर कपाट खुलने की तारीख़ तय की जाती है।",
+     "prompt": "Priests in saffron seated on the floor of a stone temple hall, consulting an old almanac on a wooden desk, lamps and flowers, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अप्रैल-मई में डोली फिर उसी रास्ते से ऊपर लौटती है, पड़ाव-दर-पड़ाव, केदारनाथ की ओर।",
+     "prompt": "A decorated palanquin carried up a mountain path in spring, pink rhododendron flowers blooming, patches of snow, saffron flags, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "छह महीने बाद, बर्फ़ के बीच, मंदिर की मुहर खोली जाती है, और कपाट खुलते हैं।",
+     "prompt": "The great wooden doors of a grey stone temple opening, high snow walls on both sides of the path, devotees cheering, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "और यहीं वो रहस्य सामने आता है, जिसका भक्त सबसे ज़्यादा इंतज़ार करते हैं।",
+     "prompt": "A priest in saffron stepping into a dark sanctum holding a lamp, a faint golden glow ahead of him, three-quarter view, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "मान्यता है कि छह महीने पहले जलाया गया दीया, कपाट खुलने पर भी जलता हुआ मिलता है।",
+     "prompt": "A brass oil lamp still burning steadily beside an ash-covered rock lingam, daylight spilling from the opened doors, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "बर्फ़ में बंद मंदिर में जलती वो ज्योति, भक्तों के लिए बाबा केदार का सबसे बड़ा आशीर्वाद है।",
+     "prompt": "Devotees with folded hands and tears of joy at a temple doorway, a lamp glowing inside, snowy peaks behind, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "अगर कभी केदारनाथ जाएँ, तो भीम शिला के आगे भी एक पल रुककर हाथ जोड़िए।",
+     "prompt": "A man in a woollen shawl with folded hands before a big boulder marked with red vermilion, the temple shikhara beside it, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "अगली कथा में चलेंगे काशी, जहाँ मान्यता है कि महादेव ख़ुद मोक्ष का मंत्र देते हैं।",
+     "prompt": "Ancient Kashi ghats on the Ganga at dawn, stone steps, temple spires and lamps floating on the water, no people, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    },
+    {
+     "vo": "कमेंट में हर हर महादेव लिखना न भूलें, और ऐसी और कथाओं के लिए सब्सक्राइब करें।",
+     "prompt": "Lord Shiva, blue-throated, crescent moon in matted locks, trident in hand, seated in meditation on a snowy Himalayan peak above a grey stone temple, divine glow, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence"
+    }
+   ]
+  }
+ ],
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "rahasya",
+  "points": [
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1
+  ]
+ },
+ "lane": "rahasya",
+ "rahasya": "kedarnath"
+}
