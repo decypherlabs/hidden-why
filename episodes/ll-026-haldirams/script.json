@@ -1,0 +1,859 @@
+{
+ "slug": "ll-026-haldirams",
+ "format": "long",
+ "brand": "logos-and-legends",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "words_in_edit": true,
+ "look": "documentary",
+ "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, every other signboard, shop front, banner, poster and package plain and blank without any lettering, only the words the prompt quotes printed crisp and correctly spelled, Indian shops and markets with Indian goods and Indian shoppers, never a Western store, ultra detailed, natural true-to-life light and colour, moderate saturation, realistic documentary grade",
+ "title": "HALDIRAM'S के असली मालिक कौन? 🥨 | Bikaner की एक गली से $10 Billion तक | Business Story",
+ "intro_title": "THE HALDIRAM'S STORY",
+ "thumbnail": {
+  "layout": "face",
+  "text": "1 दुकान, 3 *EMPIRE*",
+  "plane": "A cinematic realistic painting: a small old sweet-and-namkeen shop in a narrow Bikaner lane at dusk, a huge mound of thin golden bhujia glowing in a brass tray in the foreground, behind it three giant modern factory towers rising out of the desert into a stormy orange sky, an anonymous Indian halwai in a white vest staring up at them in awe, dramatic rim light, no faces of real people, no logo, no text",
+  "zoom": "A close-up painting of a red snack packet split down the middle, thin golden bhujia spilling out onto a wooden table, dramatic side light, no logo, no text"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "ch3",
+   "ch5",
+   "ch6"
+  ],
+  "reflective": [
+   "ch1",
+   "ch2",
+   "outro"
+  ],
+  "epic": [
+   "ch4"
+  ]
+ },
+ "source": "Pavitra Kumar, 'Bhujia Barons: The Untold Story of How Haldiram Built a ₹5000-crore Empire' (Penguin, 2016); Bikaji Foods International Ltd, Red Herring Prospectus filed with SEBI (October 2022); Reuters, report on Tata Consumer Products' talks for a stake in Haldiram's (September 2022), and Tata Consumer Products' clarification to the stock exchanges; Reuters / The Economic Times, Temasek's purchase of about 10% of Haldiram Snacks Food (2025); The Economic Times, reports on Haldiram's sales (2014), the merger of the Delhi and Nagpur FMCG businesses into Haldiram Snacks Food, and stake bids by global funds (2024-2025)",
+ "journey_score": 8.6,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "आपके घर में मेहमान आए, तो प्लेट में सबसे पहले क्या आया?",
+     "prompt": "A mother in a maroon salwar kameez carrying a steel tray of tea cups toward two Indian guests seated on a sofa, a father in a blue checked shirt and a small boy in a yellow t-shirt standing beside her, Indian living room, warm lamp light, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of the steel tray: cups of milky tea and a glass bowl heaped with thin golden bhujia, warm lamp light"
+     ]
+    },
+    {
+     "vo": "चाय के साथ एक कटोरी भुजिया। और पैकेट पर एक ही नाम: हल्दीराम्स.",
+     "prompt": "A torn red snack packet with the word \"HALDIRAM'S\" in bold letters on a kitchen counter, thin golden bhujia spilling into a glass bowl beside a cup of tea, Indian kitchen, bright morning window light, close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of the small Indian boy in a yellow t-shirt grinning as he grabs a fistful of bhujia from the bowl, his mother in a maroon salwar kameez laughing behind him"
+     ],
+     "title": "*Haldiram's*",
+     "caption": "चाय के साथ एक कटोरी भुजिया। और पैकेट पर एक ही नाम: Haldiram's."
+    },
+    {
+     "vo": "लोग नमकीन नहीं माँगते थे, बोलते थे, 'हल्दीराम वाली भुजिया लाना'।",
+     "prompt": "A father in a blue checked shirt pointing at a row of red snack packets hanging on strings in a small Indian kirana shop, a shopkeeper in a white shirt beside him, a shop board reading \"शर्मा जनरल स्टोर\" large, flat and facing the camera above them, tube light at night, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of an Indian shopkeeper's hand pulling one red packet off a hanging strip of identical snack packets"
+     ],
+     "caption": "लोग नमकीन नहीं माँगते थे, बोलते थे, 'Haldiram वाली भुजिया लाना'।"
+    },
+    {
+     "vo": "पर क्या आपने कभी पैकेट का पीछे वाला हिस्सा पढ़ा है?",
+     "prompt": "The back of a red snack packet held in an Indian hand, a large plain blank rectangular panel on it, the thumb pointing at the panel, sharp focus, cool overcast daylight, extreme close-up",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "title": "पीछे का *पता*"
+    },
+    {
+     "vo": "कभी दिल्ली का पता, कभी नागपुर का, कभी कोलकाता का।",
+     "prompt": "Three identical red snack packets standing on a vintage paper map of India, each placed on a different city, a brass pin beside each packet, dark wooden table, warm overhead light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of two paper address labels side by side reading \"NEW DELHI\" and \"NAGPUR\", a magnifying glass over them, grey afternoon light"
+     ],
+     "title": "Delhi, Nagpur, *Kolkata*",
+     "caption": "कभी Delhi का पता, कभी Nagpur का, कभी Kolkata का।"
+    },
+    {
+     "vo": "तो हल्दीराम्स का असली मालिक है कौन? और ये इतना बड़ा कैसे बना?",
+     "prompt": "A man in a grey uniform driving a forklift lifting a carton in front of towering shelves stacked with red snack packets in a huge Indian warehouse, he looks up at the stacks, bright white lights, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A symbolic painting: a single empty chair at the head of a long boardroom table in shadow, a red snack packet placed in front of it"
+     ],
+     "caption": "तो Haldiram's का असली मालिक है कौन? और ये इतना बड़ा कैसे बना?"
+    },
+    {
+     "vo": "टाटा? कोई विदेशी फ़ंड? दिल्ली वाला परिवार?",
+     "prompt": "Three sealed brown envelopes laid in a row on a dark wooden desk under a single bulb, the first with a white card reading \"TATA?\" large and facing the camera, the other two plain, rain on the window behind, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of an Indian hand hovering over the three envelopes, unsure which to open, cold blue light"
+     ],
+     "caption": "Tata? कोई विदेशी fund? Delhi वाला परिवार?"
+    },
+    {
+     "vo": "या एक ऐसा आदमी, जिसका असली नाम हल्दीराम था ही नहीं?",
+     "prompt": "An elderly Indian man in a white turban and dhoti standing in a doorway, face in shadow, a brass tray of golden bhujia on the floor at his feet, harsh desert sunlight behind him, medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "title": "असली *नाम*?",
+     "caption": "या एक ऐसा आदमी, जिसका असली नाम Haldiram था ही नहीं?"
+    },
+    {
+     "vo": "सब शुरू हुआ उन्नीस सौ सैंतीस में, राजस्थान के बीकानेर की एक छोटी सी गली से।",
+     "prompt": "A narrow 1930s lane in Bikaner at dawn, sandstone havelis with carved balconies, a camel cart on the left, smoke rising from a tiny shop's kadhai on the right, no cars or modern vehicles, pale pink light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "label": "BIKANER · 1937",
+     "title": "*1937*, Bikaner",
+     "caption": "सब शुरू हुआ 1937 में, Rajasthan के Bikaner की एक छोटी सी गली से।"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "Bikaner, 1937",
+   "shots": [
+    {
+     "vo": "बीकानेर, रेगिस्तान का शहर। यहाँ भुजिया सिर्फ़ नमकीन नहीं, हर घर की आदत थी।",
+     "prompt": "Bikaner seen from a flat rooftop at midday, a red sandstone fort in the distance, a family on the roof sharing bhujia from a steel plate, 1930s, no cars or modern vehicles, harsh white sunlight, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of a 1930s Bikaner street with Indian men in bright turbans buying namkeen wrapped in paper from a roadside shop, dust in the air"
+     ],
+     "caption": "Bikaner, रेगिस्तान का शहर। यहाँ भुजिया सिर्फ़ नमकीन नहीं, हर घर की आदत थी।"
+    },
+    {
+     "vo": "कहा जाता है, अग्रवाल परिवार की यहाँ एक नमकीन की दुकान थी, जो दादा के ज़माने से चल रही थी।",
+     "prompt": "A plump Indian halwai with a thick black moustache in a white vest and dhoti frying in a huge kadhai, brass trays of namkeen on a raised platform beside him, a wooden board reading \"भुजिया\" large, flat and facing the camera above the shop front, dim smoky 1930s interior, medium-wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of an old Indian hand writing in a red cloth-bound bahi-khata ledger by an oil lamp"
+     ],
+     "caption": "कहा जाता है, Agarwal परिवार की यहाँ एक नमकीन की दुकान थी, जो दादा के ज़माने से चल रही थी।"
+    },
+    {
+     "vo": "इसी दुकान पर बैठता था एक लड़का, जिसे घर में सब हल्दीराम कहते थे।",
+     "prompt": "A teenage Indian boy in a white kurta and small turban sitting cross-legged on a shop platform beside brass trays of namkeen, seen from the side in three-quarter view, watching the lane outside, 1930s Bikaner shop, soft morning light, medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of the plump Indian halwai with a thick black moustache in a white vest and dhoti handing the boy a ladle, steam between them"
+     ],
+     "label": "HALDIRAM · The founder",
+     "caption": "इसी दुकान पर बैठता था एक लड़का, जिसे घर में सब Haldiram कहते थे।"
+    },
+    {
+     "vo": "उस वक़्त बीकानेर की भुजिया मोटी होती थी। सोचिए, हर दुकान पर लगभग एक जैसी।",
+     "prompt": "Thick coarse bhujia strands piled in a dented tin tray on a wooden counter, a hand lifting one thick strand, 1930s Bikaner shop, flat overcast light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A realistic painting of a row of 1930s Bikaner shops, each with the same heap of thick namkeen on brass trays, bored Indian shopkeepers fanning themselves"
+     ],
+     "caption": "उस वक़्त Bikaner की भुजिया मोटी होती थी। सोचिए, हर दुकान पर लगभग एक जैसी।"
+    },
+    {
+     "vo": "कहा जाता है, हल्दीराम ने इसे पतला बनाना शुरू किया। मोठ का आटा, बारीक और कुरकुरी।",
+     "prompt": "A young Indian man in a white kurta pressing dough through a brass sev press over a bubbling kadhai, thin golden strands falling into hot oil, a bowl of brown moth flour beside him, firelight on the walls, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Extreme close-up painting of hair-thin golden bhujia strands rising out of hot oil on a perforated ladle",
+      "Close-up painting of an open jute sack of pale moth bean flour with a brass scoop, a paper tag on the sack reading \"मोठ\""
+     ],
+     "caption": "कहा जाता है, Haldiram ने इसे पतला बनाना शुरू किया। मोठ का आटा, बारीक और कुरकुरी।"
+    },
+    {
+     "vo": "लोगों को स्वाद एकदम अलग लगा। एक बार खाया, तो वापस इसी दुकान पर आए।",
+     "prompt": "A thin elderly Indian man in a white turban and kurta tasting bhujia from a paper cone outside a small shop, eyes wide with surprise, a second customer holding a paper cone behind him, bright midday sun, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of a small crowd of Indian men in turbans gathering at the shop counter, the plump halwai in a white vest weighing bhujia on a brass balance"
+     ]
+    },
+    {
+     "vo": "कहा जाता है, परिवार की इस भुजिया का नाम बीकानेर के महाराजा डूंगर सिंह के नाम पर पड़ा: डूंगर सेव.",
+     "prompt": "A grand red sandstone palace courtyard in Bikaner with ornate balconies, a king in a royal turban and golden robe on a balcony above, a young man holding a paper cone of thin bhujia bowing in the courtyard below, late afternoon light, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of a brass tray of thin bhujia with a hand-written card propped against it reading \"डूंगर सेव\""
+     ],
+     "caption": "कहा जाता है, परिवार की इस भुजिया का नाम Bikaner के महाराजा Dungar Singh के नाम पर पड़ा: Dungar Sev."
+    },
+    {
+     "vo": "और दाम? पतली भुजिया, बाकी दुकानों से ऊँचा दाम।",
+     "prompt": "A small chalkboard price slate on a 1930s shop counter beside a heap of fine golden bhujia and a heap of thick bhujia, a hand drawing a chalk circle around the higher price on the slate, dim interior light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of the thin elderly Indian man in a white turban and kurta counting coins into the halwai's palm without arguing"
+     ]
+    },
+    {
+     "vo": "सोचिए, आज जिसे हम प्रीमियम ब्रांड कहते हैं, वो सोच इस गली में तब ही आ चुकी थी।",
+     "prompt": "A single paper cone of fine golden bhujia on a velvet cloth beside a pile of ordinary thick namkeen on old newspaper, a lantern lighting only the cone, dark table, close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "title": "पतली भुजिया, ऊँचा *दाम*",
+     "caption": "सोचिए, आज जिसे हम premium brand कहते हैं, वो सोच इस गली में तब ही आ चुकी थी।"
+    },
+    {
+     "vo": "उन्नीस सौ सैंतीस में हल्दीराम ने अपनी दुकान शुरू की। यही साल आज कंपनी की शुरुआत माना जाता है।",
+     "prompt": "An old ledger page open on a wooden counter with \"1937\" written large in ink at the top, a hand holding a pen over it, a brass weight holding the page open, lamp light, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A realistic painting of a fresh hand-painted board being hung over a small Bikaner shop, reading \"हल्दीराम भुजिया\", Indian workers on a wooden ladder, early morning light"
+     ],
+     "caption": "1937 में Haldiram ने अपनी दुकान शुरू की। यही साल आज company की शुरुआत माना जाता है।"
+    },
+    {
+     "vo": "हल्दीराम के बेटों में थे मूलचंद और रामेश्वर लाल. और मूलचंद के बेटे आगे चलकर अपने-अपने शहर बसाएँगे।",
+     "prompt": "A hand-drawn family tree on yellowed paper pinned to a wooden wall, the top box reading \"HALDIRAM\" and one box below reading \"MOOLCHAND\", the other boxes blank, large, flat and facing the camera, warm oil-lamp light, close-up",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A realistic painting of a large Indian joint family in a sandstone courtyard at dusk, children playing near the elders, the faces of the elders in shade"
+     ],
+     "caption": "Haldiram के बेटों में थे Moolchand और Rameshwar Lal. और Moolchand के बेटे आगे चलकर अपने-अपने शहर बसाएँगे।"
+    },
+    {
+     "vo": "पर बीकानेर की गलियाँ छोटी थीं। और हल्दीराम का सपना उनसे कहीं बड़ा।",
+     "prompt": "A young Indian man in a turban holding a tin trunk, seen from the side, looking at a steam train waiting on a 1930s Bikaner railway platform, a plain blank departure board above, no cars or modern vehicles, purple dusk sky, medium-wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर Bikaner की गलियाँ छोटी थीं। और Haldiram का सपना उनसे कहीं बड़ा।"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "Kolkata का सफ़र",
+   "shots": [
+    {
+     "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
+     "subscribe_ask": true,
+     "prompt": "A 1950s Howrah railway platform in heavy monsoon rain, Indian porters carrying trunks on their heads, a man in a white kurta and turban stepping off a steam train with a tin trunk, umbrellas, grey light, wide shot",
+     "seed": 1500,
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "move": "pan_right"
+    },
+    {
+     "vo": "उन्नीस सौ पचास के दशक में, कहा जाता है शादी के लिए, हल्दीराम कोलकाता पहुँचे।",
+     "prompt": "A 1950s Howrah railway platform in heavy monsoon rain, Indian porters carrying trunks on their heads, a man in a white kurta and turban stepping off a steam train with a tin trunk, umbrellas, grey light, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of a Marwari wedding courtyard in 1950s Calcutta, marigold garlands, Indian guests in turbans and silk sarees, brass trays of sweets and namkeen"
+     ],
+     "label": "KOLKATA · 1950s",
+     "caption": "1950s में, कहा जाता है शादी के लिए, Haldiram Kolkata पहुँचे।"
+    },
+    {
+     "vo": "कोलकाता में राजस्थान से आए मारवाड़ी परिवार बहुत थे। और उन्हें घर का स्वाद याद आता था।",
+     "prompt": "A crowded 1950s Calcutta market street, Indian traders in dhotis and Marwari turbans, a tram on the left, plain blank cloth shop fronts, no modern cars, overcast afternoon light, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of an elderly Indian Marwari woman in a red bandhani odhni tasting bhujia from a leaf bowl, eyes closed, smiling"
+     ],
+     "caption": "Kolkata में Rajasthan से आए Marwari परिवार बहुत थे। और उन्हें घर का स्वाद याद आता था।"
+    },
+    {
+     "vo": "यहीं उन्होंने भुजिया की दुकान खोल दी। बीकानेर से डेढ़ हज़ार किलोमीटर से भी ज़्यादा दूर।",
+     "prompt": "A glowing line across a painted map of India from Bikaner in Rajasthan to Kolkata, a bold label '1,500 km' along the route, a small brass tray of bhujia drawn at each end, warm painterly style, top-down shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A realistic painting of a narrow new namkeen shop in 1950s Calcutta, a fresh blank signboard, Indian customers at the counter, a tube light flickering on"
+     ],
+     "caption": "यहीं उन्होंने भुजिया की दुकान खोल दी। Bikaner से 1,500 किलोमीटर से भी ज़्यादा दूर।"
+    },
+    {
+     "vo": "कहा जाता है, काम में साथ थे उनके बेटे रामेश्वर लाल. वही डूंगर सेव, अब बंगाल की गलियों में।",
+     "prompt": "An Indian man in his thirties in a white dhoti and kurta pouring bhujia from a brass tray into paper bags for a line of Indian customers, shown from the side with his face bowed in shadow, 1950s Calcutta counter, evening light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of a Bengali schoolboy in white shorts on the shop step munching from a paper cone, a yellow tram passing behind"
+     ],
+     "caption": "कहा जाता है, काम में साथ थे उनके बेटे Rameshwar Lal. वही Dungar Sev, अब बंगाल की गलियों में।"
+    },
+    {
+     "vo": "पहली बार परिवार की दुकान बीकानेर से बाहर निकली थी। और ये चल पड़ी!",
+     "prompt": "A busy 1950s Calcutta namkeen counter at night, nearly empty brass trays, Indian customers in dhotis holding out coins, a shopkeeper filling paper cones, kerosene lamps glowing, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "title": "पहली *छलांग*",
+     "caption": "पहली बार परिवार की दुकान Bikaner से बाहर निकली थी। और ये चल पड़ी!"
+    },
+    {
+     "vo": "उधर बीकानेर की पुरानी दुकान हल्दीराम के बेटे मूलचंद संभालते रहे।",
+     "prompt": "A middle-aged Indian man in a turban, seen from the side with his face in shadow, lifting the metal shutter of the old Bikaner shop at dawn, a plump halwai with a thick black moustache in a white vest lighting the kadhai fire inside, pale light, medium-wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of a cloth-bound ledger opened on the counter, a pen resting on a blank page, pale morning light"
+     ],
+     "caption": "उधर Bikaner की पुरानी दुकान Haldiram के बेटे Moolchand संभालते रहे।"
+    },
+    {
+     "vo": "समय के साथ कोलकाता वाला काम अपनी अलग राह पर चल पड़ा। और आज भी ईस्ट इंडिया में उसकी अपनी पहचान है।",
+     "prompt": "A larger 1960s Calcutta namkeen shop front with a plain blank painted signboard, shelves of namkeen tins, hand-pulled rickshaws outside, Indian shoppers in dhotis and saris, no modern cars, overcast sky, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of an Indian shop assistant in a white cap stacking paper packets of bhujia on a wooden shelf, humid afternoon light"
+     ],
+     "caption": "समय के साथ Kolkata वाला काम अपनी अलग राह पर चल पड़ा। और आज भी East India में उसकी अपनी पहचान है।"
+    },
+    {
+     "vo": "अब एक नाम था, दो शहर थे। और परिवार भी तेज़ी से बढ़ रहा था।",
+     "prompt": "Two brass namkeen trays at opposite ends of a long wooden table, a card reading \"BIKANER\" large and flat in front of the left tray and a card reading \"CALCUTTA\" in front of the right tray, both facing the camera, a candle burning between them, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A realistic painting of a large Indian joint family posed in a sandstone courtyard for a 1960s photograph, children in front, elders seated, faces of the elders in shade"
+     ]
+    },
+    {
+     "vo": "पर असली खेल शुरू किया अगली पीढ़ी ने। उन्नीस सौ सत्तर में, देश के बीचों-बीच, नागपुर में।",
+     "prompt": "A dusty 1970 inter-city bus parked at a Nagpur depot at night, headlights cutting through haze, a young Indian man in a cream shirt stepping off the bus with a suitcase, seen from the side, plain blank signboards, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर असली खेल शुरू किया अगली पीढ़ी ने। 1970 में, देश के बीचों-बीच, Nagpur में।"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "Nagpur का दाँव",
+   "shots": [
+    {
+     "vo": "उन्नीस सौ सत्तर. मूलचंद के बेटे, यानी हल्दीराम के पोते, शिव किशन अग्रवाल नागपुर पहुँचे।",
+     "prompt": "A young Indian man in a cream shirt carrying a tin box, seen from the side, walking along a 1970 Nagpur street at sunrise, orange sellers with baskets on the left, an Ambassador car parked on the right, golden light, medium-wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of a 1970 wall calendar in a small rented room, the page reading \"1970\", a suitcase on the floor below"
+     ],
+     "label": "SHIV KISHAN AGARWAL · Nagpur",
+     "caption": "1970. Moolchand के बेटे, यानी Haldiram के पोते, Shiv Kishan Agarwal Nagpur पहुँचे।"
+    },
+    {
+     "vo": "यहाँ उन्होंने मिठाई और नमकीन की एक छोटी दुकान से शुरुआत की।",
+     "prompt": "A young Indian shop assistant in a white cap arranging trays of laddoos and namkeen behind glass jars in a small 1970s Nagpur sweet shop, a board reading \"हल्दीराम\" large, flat and facing the camera above the counter, bright tube lights, medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of an Indian hand placing silver-foiled barfi into a cardboard box on a marble counter"
+     ]
+    },
+    {
+     "vo": "सोचिए, नागपुर ही क्यों? क्योंकि ये देश के बीच में है। यहाँ से वेस्ट और साउथ तक माल भेजना आसान था।",
+     "prompt": "A large map of India pinned to an office wall, a red pin in Nagpur at the centre, taut strings running from it to cities in the west and south, a man's hand holding the string, dim yellow bulb light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A wide realistic painting of 1970s trucks loading cartons at a Nagpur railway goods yard at dusk, Indian porters in vests carrying boxes on their heads"
+     ],
+     "caption": "सोचिए, Nagpur ही क्यों? क्योंकि ये देश के बीच में है। यहाँ से West और South तक माल भेजना आसान था।"
+    },
+    {
+     "vo": "शिव किशन ने दुकान से आगे सोचा। नमकीन को पैकेट में बंद करो, और दूर तक भेजो।",
+     "prompt": "A man in a cream shirt standing at a table covered with plastic snack pouches filled with bhujia, his hand pressing a hand sealing machine on one pouch, seen from the side, dim 1970s back room, window light, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of an Indian worker's hand pressing a heated sealing bar onto a clear plastic pouch filled with bhujia, a wisp of smoke rising"
+     ],
+     "caption": "Shiv Kishan ने दुकान से आगे सोचा। नमकीन को पैकेट में बंद करो, और दूर तक भेजो।"
+    },
+    {
+     "vo": "पर मुश्किल थी! खुली भुजिया कुछ दिन में नरम पड़ जाती थी। पैकेट को ताज़ा रखना था।",
+     "prompt": "A limp, soggy pile of bhujia in an open paper bag on a damp counter, a hand lifting one soft bent strand, rain on the window behind, grey light, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of a young Indian factory worker in a white cap and green apron frowning as he squeezes a deflated snack pouch, other Indian workers watching"
+     ]
+    },
+    {
+     "vo": "पैकेजिंग बेहतर हुई, मशीनें आईं। और नागपुर से निकले पैकेट दूर-दूर तक पहुँचने लगे।",
+     "prompt": "A bright 1980s Indian snack factory floor, conveyor belts carrying sealed red pouches, Indian women workers in hairnets and blue aprons packing cartons, white fluorescent light, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of a sealed red snack packet on a conveyor with the word \"HALDIRAM'S\" in bold letters, more packets blurred behind"
+     ],
+     "caption": "Packaging बेहतर हुई, machines आईं। और Nagpur से निकले पैकेट दूर-दूर तक पहुँचने लगे।"
+    },
+    {
+     "vo": "नागपुर वाली कंपनी बनी हल्दीराम फ़ूड्स इंटरनेशनल. और साथ में रेस्टोरेंट्स भी खुले।",
+     "prompt": "A factory gate in Nagpur at noon with a large gate sign reading \"HALDIRAM FOODS INTERNATIONAL\" flat and facing the camera, a delivery truck rolling in, an Indian guard in khaki standing beside it, bright sun, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A realistic painting of a busy Haldiram's restaurant in Nagpur in the 1990s, an Indian family: a father in a blue checked shirt, a mother in a maroon salwar kameez, a small boy in a yellow t-shirt, eating chaat at a steel table, warm evening light"
+     ],
+     "caption": "Nagpur वाली company बनी Haldiram Foods International. और साथ में restaurants भी खुले।"
+    },
+    {
+     "vo": "उन्नीस सौ सत्तर की एक छोटी दुकान से शुरू होकर, नागपुर अब परिवार का दूसरा बड़ा सेंटर था.",
+     "prompt": "A 1980s sales register open on a dim office desk, a hand-drawn bar chart in the margin with rising bars, the first bar labelled \"1970\" in bold ink, large and facing the camera, a hand holding a pen, close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A wide realistic painting of a large Nagpur factory complex at dusk, chimneys and warehouses, lights coming on"
+     ],
+     "caption": "1970 की एक छोटी दुकान से शुरू होकर, Nagpur अब परिवार का दूसरा बड़ा center था."
+    },
+    {
+     "vo": "पर देश का सबसे बड़ा बाज़ार अभी बाकी था। और वो था, दिल्ली.",
+     "prompt": "Early-1980s Delhi at twilight, the red sandstone walls of the Red Fort in the distance, a crowded road of buses, scooters and cycle rickshaws, orange haze, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर देश का सबसे बड़ा बाज़ार अभी बाकी था। और वो था, Delhi."
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "Delhi, 1982",
+   "shots": [
+    {
+     "vo": "करीब उन्नीस सौ बयासी. मूलचंद के दो और बेटे, मनोहर लाल और मधुसूदन अग्रवाल, दिल्ली पहुँचे।",
+     "prompt": "Two Indian men in 1980s safari suits walking into a crowded Old Delhi lane, seen from the side, one carrying a briefcase and one a tin trunk, cycle rickshaws around them, morning haze, medium-wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of a rental agreement on a wooden desk with a large typed heading reading \"CHANDNI CHOWK\", a fountain pen beside it, dim office light"
+     ],
+     "label": "CHANDNI CHOWK · Around 1982",
+     "caption": "करीब 1982. Moolchand के दो और बेटे, Manohar Lal और Madhusudan Agarwal, Delhi पहुँचे।"
+    },
+    {
+     "vo": "चाँदनी चौक में दुकान खुली। पुरानी दिल्ली की भीड़ में बीकानेर का स्वाद।",
+     "prompt": "Early-1980s Chandni Chowk at midday, tangled wires, cycle rickshaws, crowds, a new shop front with a board reading \"HALDIRAM'S\" large, flat and facing the camera, harsh bright sun, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of a young Indian woman in a mustard saree with a jute bag at the counter, pointing at a tray of bhujia, an Indian shop assistant in a white cap scooping it"
+     ],
+     "caption": "Chandni Chowk में दुकान खुली। पुरानी Delhi की भीड़ में Bikaner का स्वाद।"
+    },
+    {
+     "vo": "भीड़ टूट पड़ी! दुकान के बाहर लाइन लगने लगी।",
+     "prompt": "A long line of Indian customers in shawls and mufflers outside a Chandni Chowk shop on a winter evening, steam rising from a samosa kadhai, warm shop light spilling onto the street, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of the young Indian woman in a mustard saree smiling as she receives a paper packet of bhujia"
+     ]
+    },
+    {
+     "vo": "दिल्ली वाली कंपनी बनी हल्दीराम स्नैक्स. यहाँ से पूरे नॉर्थ इंडिया और फिर विदेश तक पैकेट जाने लगे।",
+     "prompt": "A large 1990s Delhi factory gate with a sign reading \"HALDIRAM SNACKS\" large, flat and facing the camera, a line of delivery trucks waiting in front, overcast sky, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A realistic painting of shipping containers being loaded at a port at night, cartons stamped \"EXPORT\", Indian dock workers under floodlights"
+     ],
+     "caption": "Delhi वाली company बनी Haldiram Snacks. यहाँ से पूरे North India और फिर विदेश तक पैकेट जाने लगे।"
+    },
+    {
+     "vo": "और दिल्ली के रेस्टोरेंट्स में लोग पूरे परिवार के साथ छोले-भटूरे और चाट खाने जाने लगे।",
+     "prompt": "A crowded 1990s Delhi restaurant on a Sunday afternoon, Indian families seated at steel tables with plates of chole bhature and chaat, ceiling fans turning, plain blank wall boards, bright daylight, wide shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of a steaming plate of chole bhature on a steel tray, an Indian child's hand tearing a puffed bhatura"
+     ],
+     "caption": "और Delhi के restaurants में लोग पूरे परिवार के साथ छोले-भटूरे और चाट खाने जाने लगे।"
+    },
+    {
+     "vo": "रिपोर्ट्स बताती हैं, परिवार ने आपस में इलाके बाँटे: नॉर्थ में दिल्ली, वेस्ट और साउथ में नागपुर, ईस्ट में कोलकाता.",
+     "prompt": "A large painted map of India divided into three coloured territories, saffron for the north, green for the west and south, and blue for the east, a red snack packet standing on each territory, flat top-down view, clean bright light",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A symbolic realistic painting: three hands in shirt cuffs placing brass weights on three parts of a map, faces out of frame"
+     ],
+     "caption": "Reports बताती हैं, परिवार ने आपस में इलाके बाँटे: North में Delhi, West और South में Nagpur, East में Kolkata."
+    },
+    {
+     "vo": "सोचिए, एक ही नाम, एक जैसा पैकेट, पर पीछे अलग-अलग कंपनी.",
+     "prompt": "Two identical red snack packets standing back to back on a black table under a spotlight, the left one facing the camera, the right one turned to show its plain back panel, the rest of the room dark, close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "title": "1 नाम, कई *Company*",
+     "caption": "सोचिए, एक ही नाम, एक जैसा पैकेट, पर पीछे अलग-अलग company."
+    },
+    {
+     "vo": "इतनी कंपनियाँ, एक नाम। तो लोग पूछने लगे। नाम को लेकर ट्रेडमार्क के केसेस कोर्ट्स तक गए.",
+     "prompt": "A high-ceilinged Indian courtroom on a rainy afternoon, an Indian lawyer in a black coat and white bands arguing on the left, a judge in black robes on a raised desk on the right, stacks of files on the table, grey window light, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of a thick case file tied with red string, a large stamped cover sheet reading \"TRADEMARK\""
+     ],
+     "caption": "इतनी companies, एक नाम। तो लोग पूछने लगे। नाम को लेकर trademark के cases courts तक गए."
+    },
+    {
+     "vo": "फिर भी काम रुका नहीं। रिपोर्ट्स के मुताबिक़ दो हज़ार तेरह-चौदह तक सेल्स करीब चार हज़ार करोड़ रुपये पहुँच गई थी।",
+     "prompt": "A printed sales chart on an office desk, bars climbing to the right, the tallest bar labelled in bold \"₹4,000 CRORE\" large and facing the camera, a cup of tea beside it, cool morning light, close-up",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A wide realistic painting of a huge modern Indian snack factory at dawn, rows of silos and warehouses, trucks lined up at the gate"
+     ],
+     "caption": "फिर भी काम रुका नहीं। Reports के मुताबिक़ 2013-14 तक sales करीब ₹4,000 करोड़ पहुँच गई थी।"
+    },
+    {
+     "vo": "उस वक़्त की रिपोर्ट्स में तो ये तक लिखा गया कि इसकी सेल्स मैकडॉनल्ड्स और डोमिनोज़ इंडिया को मिलाकर भी ज़्यादा थी!",
+     "prompt": "A tall stack of red snack packets on one pan of a giant brass balance, outweighing a burger and a pizza box on the other pan which rises high, dark stage, dramatic spotlight, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of young Indian college friends at a bus stop in Delhi sharing a red snack packet, one laughing, overcast afternoon"
+     ],
+     "caption": "उस वक़्त की reports में तो ये तक लिखा गया कि इसकी sales McDonald's और Domino's India को मिलाकर भी ज़्यादा थी!"
+    },
+    {
+     "vo": "दो हज़ार सोलह में आई किताब भुजिया बैरन्स ने इसे पाँच हज़ार करोड़ रुपये का एम्पायर बताया।",
+     "prompt": "An open hardcover book on a library desk under a reading lamp, a large chart page with one bold figure reading \"₹5,000 CRORE\" facing the camera, a hand resting on the page, close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "label": "2016 · Bhujia Barons",
+     "caption": "2016 में आई किताब Bhujia Barons ने इसे ₹5,000 करोड़ का empire बताया।"
+    },
+    {
+     "vo": "पर बीकानेर में, परिवार का एक और सदस्य चुपचाप कुछ अलग सोच रहा था।",
+     "prompt": "An Indian man in a white kurta sitting at the counter of the old Bikaner shop at night, seen from the side, staring at a blank open notebook, a single bulb burning, sand blowing across the lane outside, medium shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर Bikaner में, परिवार का एक और सदस्य चुपचाप कुछ अलग सोच रहा था।"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "Bikaji की चाल",
+   "shots": [
+    {
+     "vo": "ये थे हल्दीराम के पोते, शिव रतन अग्रवाल, जो बीकानेर में ही रहे।",
+     "prompt": "A middle-aged Indian man in a white kurta and Rajasthani turban standing on a Bikaner rooftop at dawn, seen from the side, looking toward the fort, wind in his scarf, golden light, medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "label": "SHIV RATAN AGARWAL · Bikaji",
+     "caption": "ये थे Haldiram के पोते, Shiv Ratan Agarwal, जो Bikaner में ही रहे।"
+    },
+    {
+     "vo": "उन्होंने अपना ब्रांड एक नए नाम से शुरू किया। नाम में ही शहर छिपा था: बीकाजी.",
+     "prompt": "A designer's drafting table in a dim early-1990s office, a large paper sheet with the hand-lettered bold word \"BIKAJI\" facing the camera, a hand holding a pencil, ink pots around it, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A realistic painting of an Indian sign painter on a bamboo scaffold painting a big factory wall sign reading \"BIKAJI\", bright overcast light"
+     ],
+     "caption": "उन्होंने अपना brand एक नए नाम से शुरू किया। नाम में ही शहर छिपा था: Bikaji."
+    },
+    {
+     "vo": "उन्नीस सौ तिरानवे में बीकाजी लॉन्च हुआ। और यहाँ भुजिया बनने लगी बड़ी मशीनों पर।",
+     "prompt": "A young Indian factory worker in a white cap and green apron checking a large steel extruder pushing out sheets of thin bhujia strands, bright 1990s factory hall in Bikaner, white light, medium-wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of steel rollers and extruder holes with golden strands pouring out, droplets of oil glistening under factory lights"
+     ],
+     "label": "1993 · Bikaji launched",
+     "caption": "1993 में Bikaji launch हुआ। और यहाँ भुजिया बनने लगी बड़ी machines पर।"
+    },
+    {
+     "vo": "कंपनी के आई पी ओ पेपर्स यानी आर एच पी में भी यही साल दर्ज है। सोचिए, हाथ का काम अब मशीन की स्पीड से।",
+     "prompt": "A printed company history page lying on a desk, the year 1993 circled in red ink, a hand holding a pen beside it, a stack of papers behind, cool office light, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of an older Indian halwai in a white vest watching a machine pour bhujia, arms crossed, half impressed, half doubtful"
+     ],
+     "caption": "Company के IPO papers यानी RHP में भी यही साल दर्ज है। सोचिए, हाथ का काम अब machine की speed से।"
+    },
+    {
+     "vo": "सोच साफ़ थी। हर पैकेट में वही स्वाद, चाहे वो बीकानेर में खुले या लंदन में।",
+     "prompt": "An Indian woman in a white coat and hairnet weighing bhujia samples on a digital scale beside a clipboard, steel lab table, cool white light, medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of a grocery aisle in a London shop on a rainy evening, an Indian grandmother in a cardigan over her saree picking up a snack packet"
+     ],
+     "caption": "सोच साफ़ थी। हर पैकेट में वही स्वाद, चाहे वो Bikaner में खुले या London में।"
+    },
+    {
+     "vo": "भुजिया के साथ आए रसगुल्ले के डिब्बे, पापड़ और नमकीन की दर्जनों किस्में।",
+     "prompt": "A spread of round rasgulla tins, stacks of papad and colourful snack packets on a white marble table, the word \"BIKAJI\" on the largest tin facing the camera, soft studio light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of an open tin of white rasgullas in syrup, a spoon lifting one, glistening"
+     ]
+    },
+    {
+     "vo": "आर एच पी में दी गई इंडस्ट्री रिपोर्ट के मुताबिक़, बीकाजी देश में बीकानेरी भुजिया का सबसे बड़ा बनाने वाला है।",
+     "prompt": "A vast Bikaner warehouse at night, mountains of sealed snack cartons under sodium lights, an Indian supervisor with a clipboard walking between the stacks, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "RHP में दी गई industry report के मुताबिक़, Bikaji देश में Bikaneri bhujia का सबसे बड़ा बनाने वाला है।"
+    },
+    {
+     "vo": "और फिर नवंबर दो हज़ार बाईस. बीकाजी फ़ूड्स का आई पी ओ आया, आठ सौ इक्यासी करोड़ रुपये का!",
+     "prompt": "A printed page of numbers on a desk with one large figure circled in red ink, a hand holding a pen over it, a calendar showing November beside it, cool office light, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A realistic painting of a Mumbai stock exchange hall with Indian traders watching a large ticker board, bright overhead lights, a mood of excitement"
+     ],
+     "label": "NOVEMBER 2022 · Bikaji IPO",
+     "caption": "और फिर November 2022. Bikaji Foods का IPO आया, ₹881 करोड़ का!"
+    },
+    {
+     "vo": "सोचिए! उन्नीस सौ सैंतीस वाली दुकान से निकला परिवार का एक हिस्सा, अब स्टॉक मार्केट में था।",
+     "prompt": "An old brass namkeen tray from the 1930s on a table in front of a glowing screen of rising green numbers, dark room, close-up",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of an Indian investor in a sweater checking a phone on a Mumbai local train, smiling, overcast morning"
+     ],
+     "title": "दुकान से *Dalal Street*",
+     "caption": "सोचिए! 1937 वाली दुकान से निकला परिवार का एक हिस्सा, अब stock market में था।"
+    },
+    {
+     "vo": "अब एक दुकान से तीन बड़े रास्ते निकल चुके थे। कोलकाता, दिल्ली-नागपुर, और बीकाजी.",
+     "prompt": "A single small old shop in a desert lane at dusk, three wide roads branching out from its door toward three distant glowing cities on the horizon, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of three snack packets of different designs lined up on a kitchen shelf, morning light"
+     ],
+     "caption": "अब एक दुकान से तीन बड़े रास्ते निकल चुके थे। Kolkata, Delhi-Nagpur, और Bikaji."
+    },
+    {
+     "vo": "पर आई पी ओ से दो महीने पहले ही, एक खबर आ चुकी थी जिसने सबको चौंका दिया था।",
+     "prompt": "An Indian office worker in a shirt at a desk late at night, face lit by a laptop, mouth open in shock, a cup of tea going cold beside him, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर IPO से दो महीने पहले ही, एक खबर आ चुकी थी जिसने सबको चौंका दिया था।"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "बिकेगा या जुड़ेगा?",
+   "shots": [
+    {
+     "vo": "सितंबर दो हज़ार बाईस. रॉयटर्स ने रिपोर्ट किया कि टाटा कंज़्यूमर, हल्दीराम्स में बड़ा हिस्सा खरीदने की बात कर रहा है।",
+     "prompt": "An English newspaper on a breakfast table with a large headline reading \"TATA EYES HALDIRAM'S\" facing the camera, plain blank masthead, a cup of chai beside it, grey morning light, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Medium painting of the Indian father in a blue checked shirt reading the newspaper at the dining table, eyebrows raised, the mother in a maroon salwar kameez leaning in to look"
+     ],
+     "label": "SEPTEMBER 2022 · Stake talks reported",
+     "caption": "September 2022. Reuters ने report किया कि Tata Consumer, Haldiram's में बड़ा हिस्सा खरीदने की बात कर रहा है।"
+    },
+    {
+     "vo": "रिपोर्ट में लिखा था, हल्दीराम्स करीब दस बिलियन डॉलर की वैल्यूएशन चाहता है।",
+     "prompt": "A laptop screen on a desk showing a news page with a bold '$10 Billion' figure large and facing the camera, a hand on the mouse, a bowl of bhujia beside it, cool light, close-up",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A symbolic realistic painting: a single red snack packet sitting on top of a tall stack of gold bars under a spotlight"
+     ],
+     "caption": "Report में लिखा था, Haldiram's करीब $10 Billion की valuation चाहता है।"
+    },
+    {
+     "vo": "पर टाटा कंज़्यूमर ने स्टॉक एक्सचेंज को जवाब दिया और इस रिपोर्ट को नकार दिया।",
+     "prompt": "A company letter lying on a dark desk with a large typed heading reading \"CLARIFICATION\" facing the camera, a rubber stamp beside it, dim office light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर Tata Consumer ने stock exchange को जवाब दिया और इस report को नकार दिया।"
+    },
+    {
+     "vo": "फिर भी एक बात साफ़ हो गई। दुनिया के बड़े इन्वेस्टर्स की नज़र इस भुजिया पर थी।",
+     "prompt": "A sleek glass boardroom high above a city at night, Indian and foreign investors in dark suits seated around a table, a single bowl of bhujia in the middle of the table, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of a manicured hand in a suit cuff reaching for the bowl of bhujia on the polished table"
+     ],
+     "caption": "फिर भी एक बात साफ़ हो गई। दुनिया के बड़े investors की नज़र इस भुजिया पर थी।"
+    },
+    {
+     "vo": "दो हज़ार चौबीस में रिपोर्ट्स आईं कि ब्लैकस्टोन के लेड ग्रुप ने भी स्टेक के लिए ऑफ़र दिया।",
+     "prompt": "A sealed bid envelope on a polished conference table with a large typed label reading \"OFFER\" facing the camera, a wax seal on the flap, overcast window light, close-up",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A realistic painting of foreign bankers in dark suits stepping out of a car under umbrellas at a glass office tower in Delhi, heavy rain"
+     ],
+     "caption": "2024 में reports आईं कि Blackstone के led group ने भी stake के लिए offer दिया।"
+    },
+    {
+     "vo": "इसी बीच परिवार ने बड़ा फ़ैसला लिया। दिल्ली और नागपुर का स्नैक्स बिज़नेस अब एक होगा।",
+     "prompt": "Two separate brass namkeen trays being slid together by two hands on a long wooden table into one tray, a single hanging lamp above, dark room, medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A realistic painting of a long table in a dim conference room, figures seated in shadow on both sides, faces unseen, a pen resting on a thick document in the centre"
+     ],
+     "title": "दो रास्ते, *एक*",
+     "caption": "इसी बीच परिवार ने बड़ा फ़ैसला लिया। Delhi और Nagpur का snacks business अब एक होगा।"
+    },
+    {
+     "vo": "नई कंपनी बनी हल्दीराम स्नैक्स फ़ूड. रिपोर्ट्स के मुताबिक़ दिल्ली परिवार के पास छप्पन प्रतिशत, नागपुर के पास चौवालीस प्रतिशत.",
+     "prompt": "A round pie chart on a desk with a larger red slice and a smaller yellow slice, a small map of India beside it with two pins, a hand pointing at the red slice, bright office light, close-up",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of a merger agreement with a large heading reading \"HALDIRAM SNACKS FOOD\", an Indian hand holding a pen over the signature line"
+     ],
+     "caption": "नई company बनी Haldiram Snacks Food. Reports के मुताबिक़ Delhi परिवार के पास 56%, Nagpur के पास 44%."
+    },
+    {
+     "vo": "सालों बाद, दो अलग रास्ते फिर एक कंपनी में आ गए।",
+     "prompt": "Two highways merging into one at golden hour on the outskirts of an Indian city, a line of red delivery trucks driving toward the sunset, wide shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सालों बाद, दो अलग रास्ते फिर एक company में आ गए।"
+    },
+    {
+     "vo": "और दो हज़ार पच्चीस में सिंगापुर की टेमासेक ने इस कंपनी का करीब दस प्रतिशत हिस्सा खरीद लिया।",
+     "prompt": "The Singapore skyline at dusk seen across the bay, glass towers lit up, a purple overcast sky, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of a share purchase document with a large bold figure reading \"10%\" circled in red ink"
+     ],
+     "label": "2025 · Temasek invests",
+     "caption": "और 2025 में Singapore की Temasek ने इस company का करीब 10% हिस्सा खरीद लिया।"
+    },
+    {
+     "vo": "रिपोर्ट्स के मुताबिक़ कुछ और इन्वेस्टर्स ने भी इसमें छोटे हिस्से लिए।",
+     "prompt": "A large red pie on a silver plate on a dark table, a few thin slices being lifted away by anonymous hands in suit cuffs, a single spotlight, medium shot",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Reports के मुताबिक़ कुछ और investors ने भी इसमें छोटे हिस्से लिए।"
+    },
+    {
+     "vo": "वैल्यूएशन? रिपोर्ट्स के मुताबिक़ करीब दस बिलियन डॉलर तक!",
+     "prompt": "A giant red snack packet standing like a monument in a desert at golden hour, an Indian camel herder in a turban looking up at it, long shadows, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of an analyst's chart on a desk with one tall bar labelled in bold \"₹85,000 CRORE\", golden lamp light"
+     ],
+     "caption": "Valuation? Reports के मुताबिक़ करीब $10 Billion तक!"
+    },
+    {
+     "vo": "रिपोर्ट्स के मुताबिक़, इस कंपनी की सालाना सेल्स बारह हज़ार करोड़ रुपये से भी ज़्यादा है।",
+     "prompt": "A bar chart on an office wall with a short bar on the left and a very tall bar on the right, a man's hand pointing at the tall bar, bright office light, medium shot",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of an annual sales ledger page with a large bold figure reading \"₹12,000 CRORE+\""
+     ],
+     "caption": "Reports के मुताबिक़, इस company की सालाना sales ₹12,000 करोड़ से भी ज़्यादा है।"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "तो हल्दीराम्स का असली मालिक कौन है? टाटा? नहीं। ज़्यादातर हिस्सा आज भी अग्रवाल परिवार के पास है। पर अब इसमें एक बाहरी इन्वेस्टर भी है।",
+     "prompt": "A father in a blue checked shirt, a mother in a maroon salwar kameez and a small boy in a yellow t-shirt sharing a bowl of bhujia with two Indian guests in a living room, soft lamp light, medium-wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of a faded family photograph of a large Rajasthani joint family propped on a shelf beside a red snack packet"
+     ],
+     "caption": "तो Haldiram's का असली मालिक कौन है? Tata? नहीं। ज़्यादातर हिस्सा आज भी Agarwal परिवार के पास है। पर अब इसमें एक बाहरी investor भी है।"
+    },
+    {
+     "vo": "दिल्ली और नागपुर अब एक कंपनी हैं। कोलकाता की अपनी पहचान है। और बीकानेर से निकला बीकाजी, अपनी राह पर।",
+     "prompt": "Three different snack packets standing side by side on a map of India at Delhi, Kolkata and Bikaner, a brass lamp glowing beside them, dark background, close-up",
+     "move": "pan_left",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "A wide realistic painting of the old narrow Bikaner lane at dusk, the tiny namkeen shop still glowing, a camel cart passing"
+     ],
+     "caption": "Delhi और Nagpur अब एक company हैं। Kolkata की अपनी पहचान है। और Bikaner से निकला Bikaji, अपनी राह पर।"
+    },
+    {
+     "vo": "और हल्दीराम? वो कोई ब्रांड का नाम नहीं, एक इंसान का घर का नाम था। असली नाम था गंगा बिशन अग्रवाल.",
+     "prompt": "An elderly Indian man in a turban and dhoti seated on the old shop platform at dawn, face in shadow, steam rising from a kadhai beside him, pale pink light, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "more": [
+      "Close-up painting of an old ledger page under an oil lamp with the handwritten words \"गंगा बिशन\" at the top"
+     ],
+     "title": "असली नाम: *Ganga Bishan*",
+     "caption": "और Haldiram? वो कोई brand का नाम नहीं, एक इंसान का घर का नाम था। असली नाम था Ganga Bishan Agarwal."
+    },
+    {
+     "vo": "उन्नीस सौ सैंतीस की वो एक दुकान, आज आपकी प्लेट तक पहुँचती है। हर कटोरी भुजिया में उसी गली का स्वाद।",
+     "prompt": "A small Indian boy in a yellow t-shirt lifting a pinch of thin golden bhujia from a glass bowl, a red snack packet with the word \"HALDIRAM'S\" facing the camera behind the bowl, warm golden light, close-up",
+     "move": "pan_right",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "1937 की वो एक दुकान, आज आपकी प्लेट तक पहुँचती है। हर कटोरी भुजिया में उसी गली का स्वाद।"
+    },
+    {
+     "vo": "अगली बार, एक और ब्रांड की कहानी, जिसे आप रोज़ देखते हैं पर जानते नहीं। सब्सक्राइब कर लीजिए।",
+     "prompt": "A busy Indian market street at night, rows of lit shop fronts with plain blank signboards, Indian crowds walking, one shop shutter half open with warm light spilling out, wide shot",
+     "move": "pull",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगली बार, एक और brand की कहानी, जिसे आप रोज़ देखते हैं पर जानते नहीं। Subscribe कर लीजिए।"
+    }
+   ]
+  }
+ ],
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "story",
+  "points": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   1
+  ]
+ },
+ "framework": "2026-11-19 06:48"
+}
