@@ -5,6 +5,7 @@
  "build": "github",
  "lang": "hi",
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "words_in_edit": true,
@@ -60,7 +61,15 @@
      "vo": "उस पर नाम कुछ भी लिखा हो, आप एक बार देखते तक नहीं।",
      "prompt": "A slim young Indian man with a thin moustache, light-blue cotton shirt, twisting open a plain water bottle and gulping it with eyes closed in relief, not looking at the bottle, bright noon light, close-up",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "photo": {
+      "src": "https://pixabay.com/get/ge51ae61f6f5bd9bb297a0c7c75745f742c8bbf9f84932862981c184b451694b39178717c8237eabf61bfefea82da1a889230334b40a83ce8847e385043053323_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (derneuemann)",
+      "page": "https://pixabay.com/photos/water-bottle-plastic-bottle-2821977/",
+      "card": 0.72
+     }
     },
     {
      "vo": "क्योंकि आपके लिए, हर बंद बोतल का पानी बिस्लेरी ही है।",
@@ -75,7 +84,15 @@
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "caption": "पर सोचिए, एक Italian नाम पानी का दूसरा नाम कैसे बन गया?",
-     "title": "ITALIAN नाम"
+     "title": "ITALIAN नाम",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Bisleri_%C3%A9tiquette.JPG/1920px-Bisleri_%C3%A9tiquette.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2592,
+      "h": 1944,
+      "credit": "Bisleri étiquette.JPG by Gatien Couturier, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bisleri_%C3%A9tiquette.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "क्या ये बस सबसे पहले आया था, इसलिए?",
@@ -102,7 +119,15 @@
      "vo": "और इतना बड़ा नाम बनाकर, मालिक ख़ुद इसे बेचने क्यों निकले?",
      "prompt": "An elderly Indian businessman in a dark suit standing at a tall office window at night, face in shadow, city lights of Mumbai below, a water bottle on the desk behind him, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bisleri_PET_water_bottles_with_Telugu_labels.jpg/1920px-Bisleri_PET_water_bottles_with_Telugu_labels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3456,
+      "credit": "Bisleri PET water bottles with Telugu labels.jpg by Veeven, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bisleri_PET_water_bottles_with_Telugu_labels.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "उन्नीस सौ पैंसठ में मुंबई के पास ठाणे में, पानी बोतलों में भरने का एक प्लांट लगा।",
@@ -133,6 +158,14 @@
       "query": "Milan, Italy",
       "lat": 45.4642,
       "lon": 9.1896
+     },
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Milan_Duomo_with_tourists_in_Piazza.jpg/1920px-Milan_Duomo_with_tourists_in_Piazza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5376,
+      "h": 3768,
+      "credit": "Milan Duomo with tourists in Piazza.jpg by Daniel Case, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Milan_Duomo_with_tourists_in_Piazza.jpg",
+      "card": 0.72
      }
     },
     {
@@ -167,7 +200,15 @@
       "A 1960s Indian village well at pale dawn, Indian women in saris drawing water with brass pots, dusty ground",
       "Close-up of a brass pot of water with floating dust specks, a hand lowering it to the ground"
      ],
-     "caption": "कहा जाता है, Dr. Rossi को दूर India में एक मौका दिखा। एक बड़ा देश, जहाँ साफ़ पीने का पानी हर जगह नहीं मिलता था।"
+     "caption": "कहा जाता है, Dr. Rossi को दूर India में एक मौका दिखा। एक बड़ा देश, जहाँ साफ़ पीने का पानी हर जगह नहीं मिलता था।",
+     "photo": {
+      "src": "https://pixabay.com/get/ge4cbc743a7b1581ec4efe94a20a597d453e100a5d91ae0265fa55b9b4b8da6c58ccca1e289620c7e3451b21f4cdf8ebe0a12a73bfb09012204eba74cf27c8f8e_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (Explore_With_Mohini)",
+      "page": "https://pixabay.com/photos/rural-india-rural-life-water-7314844/",
+      "card": 0.72
+     }
     },
     {
      "vo": "इंडिया में उनके साथी बने खुशरू सुनटूक, और उन्हीं के साथ ठाणे का ये प्लांट शुरू हुआ।",
@@ -199,7 +240,15 @@
      "more": [
       "Close-up of a clay matka on a wooden stand with a steel glass on top, soft evening light in a modest Indian home"
      ],
-     "caption": "अब सोचिए, उस India में ज़्यादातर लोग नल, कुएँ और मटके का पानी पीते थे।"
+     "caption": "अब सोचिए, उस India में ज़्यादातर लोग नल, कुएँ और मटके का पानी पीते थे।",
+     "photo": {
+      "src": "https://pixabay.com/get/g3f8f4caa2177d8d8f5bcb53102a19c18a826bc1d47df62d40d3f262be75458faede20b7ba332be33c1457cd9f46ff8b4ed395f1a7501496850b735453c897847_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Gajubgr)",
+      "page": "https://pixabay.com/photos/indian-old-old-couple-india-man-6539738/",
+      "card": 0.72
+     }
     },
     {
      "vo": "ऐसे में पैसे देकर पानी ख़रीदना? ज़्यादातर लोगों के लिए ये बात ही अजीब थी!",
@@ -211,6 +260,14 @@
      ],
      "quote": {
       "text": "पैसे देकर पानी ख़रीदना? ज़्यादातर लोगों के लिए ये बात ही अजीब थी!"
+     },
+     "photo": {
+      "src": "https://pixabay.com/get/g143f01179f3922e708f8fdd3500cb50dde7dd327d7c283d7dbf144fc1d6f349816eff80018472646d62f10d168f1318a9df24c28372317837b2926d39ce16fa8_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (Explore_With_Mohini)",
+      "page": "https://pixabay.com/photos/rural-india-rural-life-water-7314844/",
+      "card": 0.72
      }
     },
     {
@@ -304,7 +361,15 @@
       "A yellowed newspaper clipping pinned on a corkboard, a headline reading \"BOUGHT FOR ₹4 LAKH\", a pushpin in the corner"
      ],
      "caption": "1969 में Parle ने Bisleri ख़रीद लिया। क़ीमत? सिर्फ़ ₹4 लाख!",
-     "date": "1969"
+     "date": "1969",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ferro-China_Bisleri%2C_small_tin_advertising_plaque.JPG/1920px-Ferro-China_Bisleri%2C_small_tin_advertising_plaque.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2900,
+      "h": 2862,
+      "credit": "Ferro-China Bisleri, small tin advertising plaque.JPG by Alf van Beem, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferro-China_Bisleri,_small_tin_advertising_plaque.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "इस सौदे में पारले को मिला एक नाम, ठाणे का प्लांट, और पानी बेचने का एक छोटा सा बिज़नेस।",
@@ -321,6 +386,14 @@
       "query": "Thane, Maharashtra, India",
       "lat": 19.3654,
       "lon": 73.3685
+     },
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ferro-China_Bisleri%2C_small_tin_advertising_plaque.JPG/1920px-Ferro-China_Bisleri%2C_small_tin_advertising_plaque.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2900,
+      "h": 2862,
+      "credit": "Ferro-China Bisleri, small tin advertising plaque.JPG by Alf van Beem, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferro-China_Bisleri,_small_tin_advertising_plaque.JPG",
+      "card": 0.72
      }
     },
     {
@@ -374,7 +447,15 @@
      "prompt": "Indian truck drivers in vests drinking cola from glass bottles at a 1980s highway roadside eatery, a glowing fridge full of soft drinks behind them, dusk light, medium-wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "अगले 16 साल Parle के soft drinks देश की market पर छाए रहे।"
+     "caption": "अगले 16 साल Parle के soft drinks देश की market पर छाए रहे।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Limca_soft_drink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 960,
+      "h": 1280,
+      "credit": "Limca soft drink.jpg by Max Kiesler, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Limca_soft_drink.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "पर उन्नीस सौ नब्बे में पेप्सी आ चुकी थी। फिर उन्नीस सौ इक्यानवे में इकॉनमी खुली, और उन्नीस सौ तिरानवे में कोका-कोला भी लौट आई!",
@@ -385,7 +466,15 @@
       "A wall calendar page reading \"1993\" pinned in a dim office, rain on the window behind it"
      ],
      "caption": "पर 1990 में Pepsi आ चुकी थी। फिर 1991 में economy खुली, और 1993 में Coca-Cola भी लौट आई!",
-     "date": "1990"
+     "date": "1990",
+     "photo": {
+      "src": "https://pixabay.com/get/g5c0f2031c33e2a79240379da366f6bcb33d8aa1020436ab80e550177af7b92fb567b18fddc815501c6cdf92f20be36087261f7772261a01c5aec3035bea62513_1280.jpg",
+      "w": 2048,
+      "h": 1420,
+      "credit": "Pixabay (DWilliam)",
+      "page": "https://pixabay.com/photos/drink-coca-cola-soda-glass-cold-647063/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -412,7 +501,15 @@
       "A giant foreign cargo ship arriving at a misty Bombay port at dawn, small Indian fishing boats beside it"
      ],
      "caption": "दुनिया की दो सबसे बड़ी cola companies से अकेले लड़ें, या उनमें से एक के साथ सौदा कर लें?",
-     "title": "अकेले या साथ?"
+     "title": "अकेले या साथ?",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Coke_and_pepsi_returnable_packaging_mexico_2026.jpg/1920px-Coke_and_pepsi_returnable_packaging_mexico_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3024,
+      "h": 4032,
+      "credit": "Coke and pepsi returnable packaging mexico 2026.jpg by Coral2712, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Coke_and_pepsi_returnable_packaging_mexico_2026.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "कहा जाता है, उन्हें लगा कि इतने बड़े पैसे और ऐड्स से अकेले लड़ना बहुत मुश्किल होगा।",
@@ -422,7 +519,15 @@
      "more": [
       "Close-up of a hand-drawn bar chart on a whiteboard in a dim office, one tall bar and one tiny bar, a marker lying below"
      ],
-     "caption": "कहा जाता है, उन्हें लगा कि इतने बड़े पैसे और ads से अकेले लड़ना बहुत मुश्किल होगा।"
+     "caption": "कहा जाता है, उन्हें लगा कि इतने बड़े पैसे और ads से अकेले लड़ना बहुत मुश्किल होगा।",
+     "photo": {
+      "src": "https://pixabay.com/get/g6bdde92d8ccb13eaab3f13dd7c73a32233db45a39b8543cba246c45466609c59ccb8137ff5caf2f6ab00bb3ae85f7175f42e625c2f7154a57bf6a8de210a5522_1280.jpg",
+      "w": 2400,
+      "h": 1595,
+      "credit": "Pixabay (mhouge)",
+      "page": "https://pixabay.com/photos/businessman-silhouette-windows-1477601/",
+      "card": 0.72
+     }
     },
     {
      "vo": "उन्नीस सौ तिरानवे में उन्होंने थम्स अप, लिम्का, गोल्ड स्पॉट, सिट्रा और माज़ा, कोका-कोला को बेच दिए।",
@@ -438,6 +543,14 @@
       "headline": "Parle ने Thums Up Coca-Cola को बेचा",
       "sub": "Limca, Gold Spot, Citra, Maaza भी",
       "date": "1993"
+     },
+     "photo": {
+      "src": "https://pixabay.com/get/g31bff65a0ac7c4f80ec776b33c7770914af0c8ce4dbdb900d232063652073808f49beefb1797eb33cc20f393dded9885a53454a38658a35e8e2558191938999a_1280.jpg",
+      "w": 1920,
+      "h": 1269,
+      "credit": "Pixabay (Couleur)",
+      "page": "https://pixabay.com/photos/coca-cola-bottle-caps-soda-1218688/",
+      "card": 0.72
      }
     },
     {
@@ -448,7 +561,15 @@
      "more": [
       "Close-up of an older Indian man's surprised face lowering the newspaper"
      ],
-     "caption": "ये सौदा बड़ी ख़बर बना। जिस Thums Up ने Coca-Cola की जगह ली थी, वो अब उसी के पास था!"
+     "caption": "ये सौदा बड़ी ख़बर बना। जिस Thums Up ने Coca-Cola की जगह ली थी, वो अब उसी के पास था!",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Thum%27s_Up_%2815124224444%29.jpg/1920px-Thum%27s_Up_%2815124224444%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3159,
+      "h": 3471,
+      "credit": "Thum's Up (15124224444).jpg by John Hoey from Framingham, MA, United States, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Thum%27s_Up_(15124224444).jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर एक ब्रांड उन्होंने अपने पास रखा। वो ब्रांड था बिस्लेरी।",
@@ -459,7 +580,15 @@
       "A man in silhouette picking up the bottle and holding it against the setting sun"
      ],
      "caption": "पर एक brand उन्होंने अपने पास रखा। वो brand था Bisleri।",
-     "drop": true
+     "drop": true,
+     "photo": {
+      "src": "https://pixabay.com/get/g616baa185ec65dedf5c519505f96a2c53b3b1449b13e5ca2bd88089ff3a8814086a50fdb22e72f81b09e53d83e2f187428ca7bc0de5bf30aa754f296eacee111_1280.jpg",
+      "w": 3008,
+      "h": 2000,
+      "credit": "Pixabay (ds_30)",
+      "page": "https://pixabay.com/photos/water-bottle-bottle-of-water-5501652/",
+      "card": 0.72
+     }
     },
     {
      "vo": "सोचिए, जो ब्रांड्स हर दुकान पर बिकते थे, वो चले गए।",
@@ -469,7 +598,15 @@
      "more": [
       "Close-up of a faded stencil mark on an empty wooden crate, cobwebs in the corner"
      ],
-     "caption": "सोचिए, जो brands हर दुकान पर बिकते थे, वो चले गए।"
+     "caption": "सोचिए, जो brands हर दुकान पर बिकते थे, वो चले गए।",
+     "photo": {
+      "src": "https://pixabay.com/get/g7d8dd7bbbf0a7f532e7707705be958e6801344d1fe2478fa271ea9684104ca261402acba062d5df72a1d6d6742368347e55c7fcea193360b85af208af2f8331c_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (igorovsyannykov)",
+      "page": "https://pixabay.com/photos/beverages-bottles-shelf-cans-coke-3105631/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और बचा वो पानी, जिसे बहुत लोग अब भी पैसे देकर ख़रीदने की चीज़ नहीं मानते थे।",
@@ -478,7 +615,15 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of tap water filling a steel bottle, splashing in soft window light"
-     ]
+     ],
+     "photo": {
+      "src": "https://pixabay.com/get/gfe52b083d33f8174f9a9a24d6cf1a2c926e81e061c327664d846dc0ae50bcc1343c060be1a0f2f0e3be6a0dae42ab4c95b7c03d5aa6b92919d6a2e1d95eda201_1280.jpg",
+      "w": 5491,
+      "h": 3036,
+      "credit": "Pixabay (congerdesign)",
+      "page": "https://pixabay.com/photos/bottle-mineral-water-glass-pour-2032980/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर चौहान ने अब अपना पूरा ध्यान इसी एक बोतल पर लगा दिया।",
@@ -492,9 +637,11 @@
     },
     {
      "vo": "सवाल फिर भी वही था। जो चीज़ नल में मुफ़्त आती है, उसके पैसे कौन देगा?",
-     "prompt": "Water running freely from a public tap onto stone on a 1990s Indian street, a sealed water bottle standing next to it on the ledge, overcast dusk light, medium shot",
-     "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "clip": {
+      "id": 147075,
+      "tags": "water tap, waterdrop, fountain, water, drought, waste, quiet, drops",
+      "page": "https://pixabay.com/videos/id-147075/"
+     }
     }
    ]
   },
@@ -504,23 +651,19 @@
    "shots": [
     {
      "vo": "जवाब सड़क पर था। ट्रेनों में, बस स्टैंड्स पर, हाईवे के ढाबों पर।",
-     "prompt": "A vendor with a crate of water bottles walking along a train at a crowded 1990s Indian railway station, families with steel trunks and bedrolls on the platform, yellow lamp light at night, wide shot",
-     "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "A dusty 1990s bus stand in a small Indian town at bright noon, passengers crowding a stall selling bottled water"
-     ],
-     "caption": "जवाब सड़क पर था। Trains में, bus stands पर, highway के ढाबों पर।"
+     "clip": {
+      "id": 15724,
+      "tags": "yangon, myanmar, burma, train, yangon circular railway, platform, train platform, crowd, people, sellers, produce sellers, food sellers, hawkers, passengers, train passengers, boarding train, travel, asia, culture, rangoon, traditional, burmese, attraction, tourist",
+      "page": "https://pixabay.com/videos/id-15724/"
+     }
     },
     {
      "vo": "नब्बे के दशक में लोग ज़्यादा सफ़र करने लगे, और अनजान जगह का पानी पीने से डरते थे।",
-     "prompt": "An Indian mother hesitating over a steel glass of station tap water on the left, her husband on the right holding out a sealed bottle, inside a 1990s Indian sleeper train compartment, dawn light, medium shot",
-     "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Close-up of the Indian mother's worried face looking at cloudy water in the steel glass"
-     ],
-     "caption": "90s में लोग ज़्यादा सफ़र करने लगे, और अनजान जगह का पानी पीने से डरते थे।"
+     "clip": {
+      "id": 9831,
+      "tags": "train, subway, tram, travel, transportation, station, transport, metro, railway, modern, city, rail, urban, underground, public, passenger, vehicle, transit, people, man, commuter, motion, track, traffic, tube, journey, platform, way",
+      "page": "https://pixabay.com/videos/id-9831/"
+     }
     },
     {
      "vo": "और यहाँ एक फ़ैसला सब बदल गया। कहा जाता है, नब्बे के दशक में बिस्लेरी भारी ग्लास छोड़कर हल्की पी ई टी प्लास्टिक की बोतल पर आ गई।",
@@ -531,7 +674,15 @@
       "Close-up of a heavy glass bottle beside a light plastic bottle on a steel table, a hand lifting the plastic one easily"
      ],
      "caption": "और यहाँ एक फ़ैसला सब बदल गया। कहा जाता है, 90s में Bisleri भारी glass छोड़कर हल्की PET plastic की बोतल पर आ गई।",
-     "title": "PET बोतल"
+     "title": "PET बोतल",
+     "photo": {
+      "src": "https://pixabay.com/get/gdfb7a8e74e7fec0cef7c3dcbc01d986b40561d18ec84b23b97176a49860fb60e61b22c6037169562581309894ba797f4d36f4419a83dd371e70af55a678451ab_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (fotoblend)",
+      "page": "https://pixabay.com/photos/bottles-plastic-recycling-4276208/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पाँच सौ मिलीलीटर और एक लीटर की बोतलें, जिन्हें बैग में रखो और पीकर फेंक दो। ग्लास लौटाने का झंझट ख़त्म।",
@@ -606,7 +757,15 @@
      "prompt": "Executives in suits seen from the side studying a large map of India on the wall of a dark boardroom at night, city lights outside the window, medium-wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "पर ये बढ़ता market अब बड़ी companies को भी दिख रहा था।"
+     "caption": "पर ये बढ़ता market अब बड़ी companies को भी दिख रहा था।",
+     "photo": {
+      "src": "https://pixabay.com/get/gd56ca5940534ac548476623f12b4673fe0c5b8e0e87bbb48bf951f632b591678142b97fb2a2bf11f24e7004fb09c7fdb8bd8db6d05962945ff7b763739ab599e_1280.jpg",
+      "w": 5472,
+      "h": 3648,
+      "credit": "Pixabay (denvit)",
+      "page": "https://pixabay.com/photos/water-bottles-bottle-plastic-1574384/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -623,7 +782,15 @@
       "Close-up of a carton side printed with the word \"AQUAFINA\""
      ],
      "caption": "करीब 2000 के आसपास, Pepsi अपना पानी Aquafina लेकर आई।",
-     "date": "2000"
+     "date": "2000",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Bottled_water_at_Pearson_YYZ_-_20251018.jpg/1920px-Bottled_water_at_Pearson_YYZ_-_20251018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 2268,
+      "credit": "Bottled water at Pearson YYZ - 20251018.jpg by Sikander, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bottled_water_at_Pearson_YYZ_-_20251018.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "और लगभग उसी वक़्त, जिस कोका-कोला को चौहान ने थम्स अप बेचा था, वो किनले लेकर आ गई।",
@@ -644,7 +811,15 @@
       "Symbolic shot: a giant shadow of a hand looming over a small water bottle on a counter"
      ],
      "caption": "बड़े ads, बड़ा पैसा, और हर दुकान पर उनका अपना fridge। अब लड़ाई बराबर की नहीं थी!",
-     "title": "बराबर की लड़ाई नहीं"
+     "title": "बराबर की लड़ाई नहीं",
+     "photo": {
+      "src": "https://pixabay.com/get/g174ac338c5eee0a155fc72ade16965192a17d1d6d4642ad1ddca70783d23fa51b356af517c6e1431382c468813d98b08014dede0a09559b861a61b1a3e9af675_1280.jpg",
+      "w": 6016,
+      "h": 4000,
+      "credit": "Pixabay (Sunriseforever)",
+      "page": "https://pixabay.com/photos/girl-the-drinks-supermarket-7024551/",
+      "card": 0.72
+     }
     },
     {
      "vo": "फिर भी ग्राहक दुकान पर क्या बोलता था? एक बिस्लेरी देना!",
@@ -675,7 +850,15 @@
       "A truck on a winding hill road in Himachal on a misty morning, water cartons stacked in the back",
       "A delivery boy on a bicycle carrying a 20-litre water jar through a narrow Indian lane"
      ],
-     "caption": "Bisleri ने इसका जवाब दिया अपने network से। बोतल वहाँ हो, जहाँ ग्राहक है। पहाड़ हों, highway हो या छोटा शहर।"
+     "caption": "Bisleri ने इसका जवाब दिया अपने network से। बोतल वहाँ हो, जहाँ ग्राहक है। पहाड़ हों, highway हो या छोटा शहर।",
+     "photo": {
+      "src": "https://pixabay.com/get/g93fb811c9bf5b24117e580c59f4f3e34867080aad88bb0dcbd8fdda28c320c592bf1187aea0f5545de46f6964044c1ee7a7770b1733026d431498ce849ba861d_1280.jpg",
+      "w": 3283,
+      "h": 2189,
+      "credit": "Pixabay (sarangib)",
+      "page": "https://pixabay.com/photos/truck-street-highway-road-india-272609/",
+      "card": 0.72
+     }
     },
     {
      "vo": "रिपोर्ट्स के मुताबिक़ दो हज़ार बाईस तक इसके एक सौ बाईस प्लांट्स, साढ़े चार हज़ार डिस्ट्रीब्यूटर्स और पाँच हज़ार ट्रक थे।",
@@ -686,7 +869,15 @@
       "An aerial view of a large bottling plant in India at overcast noon, trucks lined up outside the gate"
      ],
      "caption": "Reports के मुताबिक़ 2022 तक इसके 122 plants, 4,500 distributors और 5,000 trucks थे।",
-     "title": "122 PLANTS"
+     "title": "122 PLANTS",
+     "photo": {
+      "src": "https://pixabay.com/get/g55b398ba3d8c779ecb054ee178e24962d589ae160ba8af186cfb7761645bd683b81ecc606651a3a5b8a342a98c5d73334737ff671be1a593df1643078a67906f_1280.jpg",
+      "w": 4433,
+      "h": 3325,
+      "credit": "Pixabay (652234)",
+      "page": "https://pixabay.com/photos/factory-building-industry-1140760/",
+      "card": 0.72
+     }
     },
     {
      "vo": "ऑर्गनाइज़्ड बोतलबंद पानी मार्केट में इसका हिस्सा करीब बत्तीस प्रतिशत बताया गया। सबसे बड़ा।",
@@ -717,7 +908,15 @@
       "A wall calendar page reading \"NOV 2022\" in a dim office"
      ],
      "caption": "सब ठीक चल रहा था। फिर नवंबर 2022 में एक ख़बर आई, जिसने सबको चौंका दिया।",
-     "date": "NOVEMBER 2022"
+     "date": "NOVEMBER 2022",
+     "photo": {
+      "src": "https://pixabay.com/get/g3bfde7a7f40c58fddaa4dfe1b8627afcc0f4b4e4fb945116f676534bf59ccf22f543e1efb1df3de3e020ae7ca04653957ec69fca4e82465d81ebcf759f21e197_1280.jpg",
+      "w": 5760,
+      "h": 3840,
+      "credit": "Pixabay (Engin_Akyurt)",
+      "page": "https://pixabay.com/photos/press-camera-the-crowd-journalist-2333329/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -733,7 +932,15 @@
      "more": [
       "Close-up of the shopkeeper's eyebrows rising, glasses slipping down his nose"
      ],
-     "caption": "ख़बर थी कि Bisleri बिकने वाली है!"
+     "caption": "ख़बर थी कि Bisleri बिकने वाली है!",
+     "photo": {
+      "src": "https://pixabay.com/get/gaf9dc487972ca0388ba28b167b3c2fcea923398babb88e84b0883198b92d9bb0345bb3a2cf6b01ef43dc04c6684e4ab41c7ac3979c31d70e8b03df033ed83279_1280.jpg",
+      "w": 3008,
+      "h": 2000,
+      "credit": "Pixabay (ds_30)",
+      "page": "https://pixabay.com/photos/water-bottle-bottle-of-water-5501652/",
+      "card": 0.72
+     }
     },
     {
      "vo": "इकॉनमिक टाइम्स से बातचीत में रमेश चौहान ने बताया, वो अब बयासी साल के हैं।",
@@ -761,7 +968,15 @@
      "prompt": "A water bottle on the bottom step of a long marble staircase rising into bright light, the rest of the hall dark, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "उन्हें ऐसा कोई चाहिए था, जो इस brand को संभाले और आगे ले जाए।"
+     "caption": "उन्हें ऐसा कोई चाहिए था, जो इस brand को संभाले और आगे ले जाए।",
+     "photo": {
+      "src": "https://pixabay.com/get/gddb6715b17ffd312e494285e45d1d4b429e264710515219070d458edfb653c7f2d6786bf1dc3a068be09d00097af7996fec3ded3caf9ea647468d3e7b6caeddf_1280.jpg",
+      "w": 4900,
+      "h": 3236,
+      "credit": "Pixabay (geralt)",
+      "page": "https://pixabay.com/photos/handshake-consent-hands-welcome-7249766/",
+      "card": 0.72
+     }
     },
     {
      "vo": "बातचीत टाटा कंज़्यूमर प्रोडक्ट्स से चल रही थी। उन्होंने ये भी कहा कि उन्हें टाटा की कल्चर पसंद है।",
@@ -772,7 +987,15 @@
       "Close-up of folders on the table, one cover reading \"PROJECT WATER\""
      ],
      "caption": "बातचीत Tata Consumer Products से चल रही थी। उन्होंने ये भी कहा कि उन्हें Tata की culture पसंद है।",
-     "label": "TATA CONSUMER PRODUCTS · संभावित खरीदार"
+     "label": "TATA CONSUMER PRODUCTS · संभावित खरीदार",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/TATA-CONSUMER-PRODUCTS_BLUE_LOGO_Feb_13.png/1920px-TATA-CONSUMER-PRODUCTS_BLUE_LOGO_Feb_13.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3000,
+      "h": 996,
+      "credit": "TATA-CONSUMER-PRODUCTS BLUE LOGO Feb 13.png by Tata Consumer Products Limited, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:TATA-CONSUMER-PRODUCTS_BLUE_LOGO_Feb_13.png",
+      "card": 0.72
+     }
     },
     {
      "vo": "रिपोर्ट्स में सौदे की क़ीमत छह हज़ार से सात हज़ार करोड़ रुपये तक बताई गई।",
@@ -782,7 +1005,15 @@
      "more": [
       "Close-up of an Indian executive's pen circling the figure on the page"
      ],
-     "caption": "Reports में सौदे की क़ीमत ₹6,000 से ₹7,000 करोड़ तक बताई गई।"
+     "caption": "Reports में सौदे की क़ीमत ₹6,000 से ₹7,000 करोड़ तक बताई गई।",
+     "photo": {
+      "src": "https://pixabay.com/get/g745c633fb7e33ad4e2f42a2915d660c21dc3a5d33663c4a1b525bb8807141b52219e574845906343d6b85dcc6fbcd9bea23b1cfc6fe0f5a01b262f3d53c2607e_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (F1Digitals)",
+      "page": "https://pixabay.com/photos/hand-white-hand-brown-hand-7702609/",
+      "card": 0.72
+     }
     },
     {
      "vo": "सोचिए! उन्नीस सौ उनहत्तर में चार लाख रुपये, और दो हज़ार बाईस में हज़ारों करोड़ की बात।",
@@ -795,6 +1026,14 @@
       "right": "70",
       "l": "1969: ₹4 लाख",
       "r": "2022: ₹7,000 करोड़"
+     },
+     "photo": {
+      "src": "https://pixabay.com/get/g74d5e8743ea8ab9f64cc418f7191d8ecae1a75817fb749c5ad8e7407d4a81f6a5206d3b3fde2b7c583450e8a2d3e9be6f70224cc0eff2b99cb4b52c11d6ff346_1280.jpg",
+      "w": 4904,
+      "h": 2264,
+      "credit": "Pixabay (anaterate)",
+      "page": "https://pixabay.com/photos/rupee-banknotes-banknote-currency-2931876/",
+      "card": 0.72
      }
     },
     {
@@ -806,7 +1045,15 @@
       "Indian traders on a trading floor turning toward each other in surprise, overcast light through tall windows"
      ],
      "caption": "पर 17 मार्च 2023 को Tata Consumer ने stock exchange को बताया, ये बातचीत अब नहीं चल रही।",
-     "date": "17 MARCH 2023"
+     "date": "17 MARCH 2023",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1920px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2291,
+      "h": 1917,
+      "credit": "BSE - Bombay Stock Exchange Building.jpg by Niyantha Shekhar, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "और जयंती चौहान ने साफ़ कहा, बिस्लेरी बिक नहीं रही। कंपनी वो एक प्रोफ़ेशनल टीम के साथ ख़ुद चलाएँगी।",
@@ -840,7 +1087,15 @@
      "more": [
       "Close-up of the bottle passing between their hands, glowing in the golden light"
      ],
-     "caption": "तो एक Italian नाम, पानी का दूसरा नाम कैसे बन गया?"
+     "caption": "तो एक Italian नाम, पानी का दूसरा नाम कैसे बन गया?",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Ferro-China_Bisleri.JPG/1920px-Ferro-China_Bisleri.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 1944,
+      "h": 2592,
+      "credit": "Ferro-China Bisleri.JPG by Gatien Couturier, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferro-China_Bisleri.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "सिर्फ़ पहले आने से नहीं। उस वक़्त भरोसा बेचने से, जब पानी ख़रीदना अजीब लगता था, और हर गली तक बोतल पहुँचाने से।",
@@ -849,7 +1104,15 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of an unbroken bottle seal catching the light"
-     ]
+     ],
+     "photo": {
+      "src": "https://pixabay.com/get/ga992e09309923ac291627a72513e6505b1e5082864e661957d8f685efa13c8b22fe6183c977e955e03125c47c9bfe0c756101bbfb98f4fc59cd69ec4dd0284c8_1280.jpg",
+      "w": 5510,
+      "h": 4000,
+      "credit": "Pixabay (tvpco)",
+      "page": "https://pixabay.com/photos/transport-india-delhi-gurugram-7177099/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और चार लाख रुपये का वो सौदा? राज़ उसमें नहीं था। राज़ था पचास साल से ज़्यादा की मेहनत, जिसके बाद वो नाम बिकने आया, पर बिका नहीं।",
@@ -866,7 +1129,15 @@
      "prompt": "A wrapped object under a cloth cover on a dark wooden shelf of old Indian products, lit by a single beam of light, mysterious night atmosphere, close-up",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "अगली बार, एक और brand की कहानी। ऐसी कहानियों के लिए Subscribe कर लीजिए।"
+     "caption": "अगली बार, एक और brand की कहानी। ऐसी कहानियों के लिए Subscribe कर लीजिए।",
+     "photo": {
+      "src": "https://pixabay.com/get/gb12db3749b9888da0e107153788aee4162ede582ef09f6bdd2a044ab871af1861061d6b5e96f472ac051c28690eda219753dff21199ceedfe3c136731ceaed7e_1280.jpg",
+      "w": 2000,
+      "h": 2000,
+      "credit": "Pixabay (TheDigitalArtist)",
+      "page": "https://pixabay.com/photos/you-tube-social-media-icon-internet-2815920/",
+      "card": 0.72
+     }
     }
    ]
   }
@@ -884,6 +1155,5 @@
    1
   ]
  },
- "released_at": "2026-11-19 06:12",
- "voice_requested": "voice-ll-025-bisleri-229f3f8d97"
+ "photos_checked": true
 }
