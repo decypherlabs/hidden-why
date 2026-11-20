@@ -5,6 +5,7 @@
  "build": "github",
  "lang": "hi",
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "words_in_edit": true,
@@ -42,86 +43,153 @@
    "card": null,
    "shots": [
     {
-     "vo": "रात के 11 बजे हैं, और आपके घर की घंटी बजती है।",
+     "vo": "रात के ग्यारह बजे हैं, और आपके घर की घंटी बजती है।",
      "prompt": "A young Indian woman walking toward her apartment door as the doorbell rings, short hair, mustard kurta, centre, a round wall clock with both hands pointing to 11 o'clock beside the door, warm tube light, night, medium-wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of a finger pressing a doorbell beside a wooden door, a dim corridor light at night"
      ],
-     "title": "रात के *11* बजे"
+     "caption": "रात के 11 बजे हैं, और आपके घर की घंटी बजती है।",
+     "title": "रात के 11 बजे"
     },
     {
-     "vo": "दरवाज़े पर orange T-shirt में एक लड़का, हाथ में गरम खाना।",
+     "vo": "दरवाज़े पर ऑरेंज टी-शर्ट में एक लड़का, हाथ में गरम खाना।",
      "prompt": "A lean young Indian delivery rider holding out a paper food bag with steam rising at an apartment door, short beard, orange T-shirt, orange helmet, tired smile, centre, warm doorway light at night, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of the hands of a young Indian woman with short hair in a mustard kurta taking a warm paper food bag, steam curling in the corridor light"
-     ]
+     ],
+     "caption": "दरवाज़े पर orange T-shirt में एक लड़का, हाथ में गरम खाना।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Swiggy_delivery_partner.jpg/1920px-Swiggy_delivery_partner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4007,
+      "h": 2254,
+      "credit": "Swiggy delivery partner.jpg by SerChevalerie, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Swiggy_delivery_partner.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "आपके लिए वो बस एक app है, Swiggy।",
+     "vo": "आपके लिए वो बस एक ऐप है, स्विगी।",
      "prompt": "A smartphone lying on a kitchen counter, its screen filled with a plain orange page reading \"SWIGGY\", a steel plate and spoon beside it, warm night kitchen light, close-up",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "*Swiggy*"
+     "caption": "आपके लिए वो बस एक app है, Swiggy।",
+     "label": "SWIGGY · खाने की delivery app",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Swiggy_delivery_partner.jpg/1920px-Swiggy_delivery_partner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4007,
+      "h": 2254,
+      "credit": "Swiggy delivery partner.jpg by SerChevalerie, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Swiggy_delivery_partner.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "लोग अब 'खाना order करो' नहीं, 'Swiggy कर लो' बोलते हैं!",
+     "vo": "लोग अब 'खाना ऑर्डर करो' नहीं, 'स्विगी कर लो' बोलते हैं!",
      "prompt": "A young Indian college student holding up his phone and laughing with friends in a cramped hostel room, paper food bags piled on the bed, overcast daylight from the window, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of an expressive young Indian man's face mid-laugh, phone in hand, warm lamp light"
-     ]
+     ],
+     "caption": "लोग अब 'खाना order करो' नहीं, 'Swiggy कर लो' बोलते हैं!",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Swiggy_Text_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 947,
+      "h": 164,
+      "credit": "Swiggy Text Logo.png by Swiggy, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Swiggy_Text_Logo.png",
+      "card": 0.5
+     }
     },
     {
-     "vo": "पर कभी सोचा है, Swiggy इतनी बड़ी कैसे बनी?",
+     "vo": "पर कभी सोचा है, स्विगी इतनी बड़ी कैसे बनी?",
      "prompt": "Hundreds of Indian delivery riders in orange T-shirts on scooters weaving through a jammed flyover, Bangalore city lights switching on, dusk, wide aerial shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A large wall map of India in a dim office with dozens of small orange pins spread across cities"
-     ]
+     ],
+     "caption": "पर कभी सोचा है, Swiggy इतनी बड़ी कैसे बनी?"
     },
     {
-     "vo": "Zomato तो इससे 6 साल पहले, 2008 से मौजूद था।",
+     "vo": "ज़ोमैटो तो इससे छह साल पहले, दो हज़ार आठ से मौजूद था।",
      "prompt": "A large desk calendar page reading \"2008\" standing beside an old laptop and a stack of restaurant menus on a desk, morning daylight through blinds in a 2000s Delhi office, close-up",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "*2008* से Zomato"
+     "caption": "Zomato तो इससे 6 साल पहले, 2008 से मौजूद था।",
+     "date": "2008",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Zomato_Logo.jpg/1920px-Zomato_Logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2000,
+      "h": 2000,
+      "credit": "Zomato Logo.jpg by Zomatobr, CC BY-SA 3.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Zomato_Logo.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "तो क्या ये पैसे का खेल था? या भारी discount का?",
+     "vo": "तो क्या ये पैसे का खेल था? या भारी डिस्काउंट का?",
      "prompt": "Stacks of rupee notes and a pile of discount coupons on a wooden table, a worried young Indian man in a checked shirt counting them, single hanging bulb light, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of a large paper coupon card on a café table reading \"60% OFF\", bright daylight"
-     ]
+     ],
+     "caption": "तो क्या ये पैसे का खेल था? या भारी discount का?",
+     "photo": {
+      "src": "https://pixabay.com/get/gb29a9caa0cbca49b7bf10d264fb9119dad6216a9f1056d56297509fea3c807c4765f2ea86afa50f716b9173af258d122b9f658e8c409b4316d7713a1901f2cd3_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (pprasantasahooo)",
+      "page": "https://pixabay.com/photos/gst-money-cash-rupees-india-tax-2459328/",
+      "card": 0.72
+     }
     },
     {
-     "vo": "या Zomato ने कोई बड़ी ग़लती कर दी?",
+     "vo": "या ज़ोमैटो ने कोई बड़ी ग़लती कर दी?",
      "prompt": "A young Indian businessman in a white shirt with his head in his hands at a boardroom table, a red paper cup spilled and crumpled papers in front of him, rain on the window behind, medium shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "या Zomato ने कोई बड़ी ग़लती कर दी?",
+     "label": "ZOMATO · restaurants की list वाला app"
     },
     {
-     "vo": "या वो काम, जिसमें इसके founders का पहला idea नहीं चला था?",
+     "vo": "या वो काम, जिसमें इसके फ़ाउंडर्स का पहला आइडिया नहीं चला था?",
      "prompt": "Two young Indian men sitting on the steps of a small office with heads bowed, faces in shadow, a paper notice on the glass door reading \"CLOSED\", night light from a streetlamp, medium-wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "या वो काम, जिसमें इसके founders का पहला idea नहीं चला था?",
+     "photo": {
+      "src": "https://pixabay.com/get/g9a00bf1f3152027e4fb41b418a8b303b2dfe75069dad2dbe7f7948457bed03b7caab1bac42681cdb5baab7da5fab6d2fe4035f5a04b508805cda9627b1fcbf47_1280.jpg",
+      "w": 5472,
+      "h": 3648,
+      "credit": "Pixabay (StartupStockPhotos)",
+      "page": "https://pixabay.com/photos/startup-whiteboard-room-indoors-3267505/",
+      "card": 0.72
+     }
     },
     {
-     "vo": "कहानी शुरू होती है 2013 में, Bangalore के एक start-up से, जिसका पहला idea नहीं चला।",
+     "vo": "कहानी शुरू होती है दो हज़ार तेरह में, बैंगलोर के एक स्टार्ट-अप से, जिसका पहला आइडिया नहीं चला।",
      "prompt": "A small first-floor office with one light on above a quiet Bangalore lane, autorickshaws parked below, soft dawn light, Indian street, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A large wall calendar page reading \"2013\" pinned above a cluttered start-up desk with a laptop, pale dawn light"
      ],
-     "title": "*2013* Bangalore"
+     "caption": "कहानी शुरू होती है 2013 में, Bangalore के एक start-up से, जिसका पहला idea नहीं चला।",
+     "date": "2013",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Bangalore_skyline_%287121517855%29.jpg/1920px-Bangalore_skyline_%287121517855%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4809,
+      "h": 2576,
+      "credit": "Bangalore skyline (7121517855).jpg by Saad Faruque from Bangalore, India, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bangalore_skyline_(7121517855).jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -130,66 +198,104 @@
    "card": "पहली हार",
    "shots": [
     {
-     "vo": "2013, Bangalore। BITS Pilani से पढ़े दो दोस्त, Sriharsha Majety और Nandan Reddy, एक बड़ा सपना लेकर बैठे थे।",
+     "vo": "दो हज़ार तेरह, बैंगलोर। बिट्स पिलानी से पढ़े दो दोस्त, श्रीहर्ष माजेटी और नंदन रेड्डी, एक बड़ा सपना लेकर बैठे थे।",
      "prompt": "Two young Indian men standing side by side at a whiteboard full of arrows and boxes, one in a blue shirt on the left, one in a grey shirt on the right, coffee cups on the desk, dim small Bangalore office at night, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of an Indian hand drawing delivery routes with a blue marker on a whiteboard"
      ],
-     "label": "SRIHARSHA MAJETY · Co-founder"
+     "caption": "2013, Bangalore। BITS Pilani से पढ़े दो दोस्त, Sriharsha Majety और Nandan Reddy, एक बड़ा सपना लेकर बैठे थे।",
+     "label": "SRIHARSHA MAJETY & NANDAN REDDY · BITS Pilani के दो दोस्त",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/BITS_Dubai_campus_main.jpg/1920px-BITS_Dubai_campus_main.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2379,
+      "h": 681,
+      "credit": "BITS Dubai campus main.jpg by BITS Dubai, Shamsheer22, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:BITS_Dubai_campus_main.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "इन्होंने एक start-up शुरू किया, नाम था Bundl। काम था courier और parcel delivery को एक platform पर जोड़ना।",
+     "vo": "इन्होंने एक स्टार्ट-अप शुरू किया, नाम था बंडल। काम था कूरियर और पार्सल डिलीवरी को एक प्लेटफ़ॉर्म पर जोड़ना।",
      "prompt": "A whiteboard with the word \"BUNDL\" written large in black marker, sticky notes around it, a young Indian man in a blue shirt standing beside it, overcast daylight in a tiny office, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Cardboard parcels with blank shipping labels stacked in a narrow office corridor, flat grey light"
-     ]
+     ],
+     "caption": "इन्होंने एक start-up शुरू किया, नाम था Bundl। काम था courier और parcel delivery को एक platform पर जोड़ना।",
+     "place": {
+      "name": "BANGALORE",
+      "sub": "BUNDL · 2013",
+      "query": "Bengaluru, Karnataka, India",
+      "lat": 12.9768,
+      "lon": 77.5901
+     },
+     "photo": {
+      "src": "https://pixabay.com/get/ga95dbf02be1fc34efba9568700014e4a0ed7343990a67f30952c0883c53beb2719a19a879d63ce97750e66583bfc4730d897db759130492bfa91f5505af71204_1280.jpg",
+      "w": 7200,
+      "h": 5376,
+      "credit": "Pixabay (Sohidullah007)",
+      "page": "https://pixabay.com/photos/courier-delivery-parcel-10562973/",
+      "card": 0.72
+     }
     },
     {
-     "vo": "सुनने में आसान लगता है, है ना? पर असल में delivery किसी भी business का सबसे मुश्किल हिस्सा है।",
-     "prompt": "Indian courier boys on bikes stuck between buses and autorickshaws at a chaotic Bangalore junction, parcels strapped behind them, harsh afternoon heat, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Close-up of a sweating young Indian courier boy's face under a scratched helmet, staring at the traffic"
-     ]
+     "vo": "सुनने में आसान लगता है, है ना? पर असल में डिलीवरी किसी भी बिज़नेस का सबसे मुश्किल हिस्सा है।",
+     "clip": {
+      "id": 88242,
+      "tags": "motorcycle, rider, mobile, order, deliver, pizza, food, location",
+      "page": "https://pixabay.com/videos/id-88242/"
+     }
     },
     {
-     "vo": "हर parcel का अलग पता, अलग traffic, अलग समय। एक भी देर, और customer नाराज़।",
-     "prompt": "A wall map of Bangalore covered in scattered red pins and tangled red string, a young Indian man in a blue shirt staring at it, flickering office tube light, medium shot",
-     "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "An Indian shopkeeper in a vest frowning at a wall clock beside his counter, evening light"
-     ]
+     "vo": "हर पार्सल का अलग पता, अलग ट्रैफ़िक, अलग समय। एक भी देर, और कस्टमर नाराज़।",
+     "clip": {
+      "id": 88921,
+      "tags": "traffic, city, cityscape, urban, night, illuminated, eve, rush hour, automobile, bus, main road, road, traffic jam, highway, asphalt, taiwan, taipei",
+      "page": "https://pixabay.com/videos/id-88921/"
+     }
     },
     {
-     "vo": "courier वाला idea नहीं चला, तो उसी company ने 2014 में food delivery की तरफ़ pivot किया। [document]",
+     "vo": "कूरियर वाला आइडिया नहीं चला, तो उसी कंपनी ने दो हज़ार चौदह में फ़ूड डिलीवरी की तरफ़ पिवट किया। [डॉक्यूमेंट]",
      "prompt": "A young Indian man in a blue shirt taping a paper notice reading \"CLOSED\" onto the glass door of an empty office, chairs stacked on desks behind him, dusk light, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of an Indian hand switching off the last light switch, the room going dark"
-     ]
+     ],
+     "caption": "courier वाला idea नहीं चला, तो उसी company ने 2014 में food delivery की तरफ़ pivot किया। [document]",
+     "date": "2014"
     },
     {
-     "vo": "ज़्यादातर लोग यहाँ हार मान लेते। नौकरी पकड़ लेते, और start-up भूल जाते।",
-     "prompt": "A young Indian man in a grey shirt sitting alone at a bus stop holding a folder on his lap, head bowed, face in shadow, bright shop light glowing behind, night, medium shot",
-     "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "हार के *बाद*?"
+     "vo": "ज़्यादातर लोग यहाँ हार मान लेते। नौकरी पकड़ लेते, और स्टार्ट-अप भूल जाते।",
+     "clip": {
+      "id": 215751,
+      "tags": "man, office work, business, payroll, payroll management, working late night, computer, digital, tired",
+      "page": "https://pixabay.com/videos/id-215751/"
+     }
     },
     {
-     "vo": "कहा जाता है, Bundl के अनुभव से एक सबक़ निकला: delivery को ख़ुद संभालना पड़ता है।",
+     "vo": "कहा जाता है, बंडल के अनुभव से एक सबक़ निकला: डिलीवरी को ख़ुद संभालना पड़ता है।",
      "prompt": "A single scooter key resting in an open Indian palm, a desk lamp lighting it, a small scooter model blurred behind, dark room, close-up",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A whiteboard wiped clean in soft morning light, a single marker resting on the ledge"
-     ]
+     ],
+     "caption": "कहा जाता है, Bundl के अनुभव से एक सबक़ निकला: delivery को ख़ुद संभालना पड़ता है।",
+     "quote": {
+      "text": "Bundl के अनुभव से एक सबक़ निकला: delivery को ख़ुद संभालना पड़ता है।"
+     },
+     "photo": {
+      "src": "https://pixabay.com/get/g134dd302fbc1cf5baa0ecd66bc07c788932a892b495966bb2f04f308355e92fbc022f64978e059b7988ecc8b48ebde0a8b47a95f5ba5cfb7ede0d40e5e1aef01_1280.jpg",
+      "w": 7200,
+      "h": 5376,
+      "credit": "Pixabay (Sohidullah007)",
+      "page": "https://pixabay.com/photos/courier-delivery-man-delivery-van-10562968/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और इसी सबक़ के साथ, उनकी नज़र गई उस चीज़ पर जो हर रात लाखों घरों में पहुँचती है: खाना।",
@@ -198,13 +304,23 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A small Indian restaurant counter with paper food parcels stacked high, a landline phone ringing beside the register"
-     ]
+     ],
+     "photo": {
+      "src": "https://pixabay.com/get/gebadb90069c002c41f9581f0ce471a524c6d43abf82b234b42caf028f9bc5a379ac671b6f4f43d722a8caffd5fe72bd53bd08c610e790d6c7890971ea3394f80_1280.jpg",
+      "w": 1920,
+      "h": 1280,
+      "credit": "Pixabay (PublicDomainPictures)",
+      "page": "https://pixabay.com/photos/buffet-indian-food-spices-lunch-315691/",
+      "card": 0.72
+     }
     },
     {
-     "vo": "पर खाना पहुँचाना parcel से भी मुश्किल था। ठंडा पहुँचा, तो ग्राहक दोबारा order नहीं करता।",
+     "vo": "पर खाना पहुँचाना पार्सल से भी मुश्किल था। ठंडा पहुँचा, तो ग्राहक दोबारा ऑर्डर नहीं करता।",
      "prompt": "A steel food container of cold curry with white congealed oil on a restaurant delivery counter, a large wall calendar page behind it reading \"2014\", flat white light, close-up",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर खाना पहुँचाना parcel से भी मुश्किल था। ठंडा पहुँचा, तो ग्राहक दोबारा order नहीं करता।",
+     "title": "ठंडा खाना"
     }
    ]
   },
@@ -221,106 +337,166 @@
      "move": "pan_left"
     },
     {
-     "vo": "August 2014, Bangalore का Koramangala। यहीं से शुरू होती है Swiggy।",
+     "vo": "अगस्त दो हज़ार चौदह, बैंगलोर का कोरमंगला। यहीं से शुरू होती है स्विगी।",
      "prompt": "A bright morning street in Koramangala, Bangalore in 2014, low buildings, small cafés, scooters parked, a modest first-floor office above them, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A small office door with a plain paper sign taped to it reading \"SWIGGY\", bright morning light"
      ],
-     "label": "AUGUST 2014 · Koramangala, Bangalore"
+     "caption": "August 2014, Bangalore का Koramangala। यहीं से शुरू होती है Swiggy।",
+     "date": "AUGUST 2014",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Habibi_Falafel_Koramangala_in_Bangalore_Karnataka.jpg/1920px-Habibi_Falafel_Koramangala_in_Bangalore_Karnataka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3637,
+      "h": 2498,
+      "credit": "Habibi Falafel Koramangala in Bangalore Karnataka.jpg by Rgbzone, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Habibi_Falafel_Koramangala_in_Bangalore_Karnataka.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "तीसरे co-founder बने Rahul Jaimini, जो Myntra में engineer रह चुके थे। App उन्होंने बनाई।",
+     "vo": "तीसरे को-फ़ाउंडर बने राहुल जैमिनी, जो मिंत्रा में इंजीनियर रह चुके थे। ऐप उन्होंने बनाई।",
      "prompt": "A young Indian man coding at two monitors, glasses, grey shirt, side three-quarter view with the screens full of glowing code in front of him, dim office at night, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of hands typing on a laptop keyboard, an empty glass of cutting chai beside it"
      ],
-     "label": "RAHUL JAIMINI · Co-founder"
+     "caption": "तीसरे co-founder बने Rahul Jaimini, जो Myntra में engineer रह चुके थे। App उन्होंने बनाई।",
+     "label": "RAHUL JAIMINI · तीसरे co-founder, पूर्व Myntra engineer",
+     "photo": {
+      "src": "https://pixabay.com/get/g3c2c2bd27203541115288878829a76d7855c4be50d7ad6fad0d7dbd62b1383716fcebd9c6490d98b77e03ababcda85e17c5bbcd785209c731cf69339f6b01d0b_1280.jpg",
+      "w": 4500,
+      "h": 3000,
+      "credit": "Pixabay (27707)",
+      "page": "https://pixabay.com/photos/laptop-computer-man-typing-1146825/",
+      "card": 0.72
+     }
     },
     {
-     "vo": "उस वक़्त ज़्यादातर food apps बस restaurants की list और menu दिखाते थे।",
+     "vo": "उस वक़्त ज़्यादातर फ़ूड ऐप्स बस रेस्टोरेंट्स की लिस्ट और मेन्यू दिखाते थे।",
      "prompt": "An Indian hand holding a 2014 smartphone showing a plain list of restaurant names, a cup of tea on the café table, overcast light, close-up",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "उस वक़्त ज़्यादातर food apps बस restaurants की list और menu दिखाते थे।",
+     "place": {
+      "name": "KORAMANGALA",
+      "sub": "BANGALORE · 2014",
+      "query": "Koramangala, Bengaluru, India",
+      "lat": 12.9357,
+      "lon": 77.6241
+     },
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Zomato_delivery_partner_on_a_Yulu_bike.jpg/1920px-Zomato_delivery_partner_on_a_Yulu_bike.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 2268,
+      "credit": "Zomato delivery partner on a Yulu bike.jpg by SerChevalerie, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Zomato_delivery_partner_on_a_Yulu_bike.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "Order लिया, आगे भेज दिया। Delivery करना restaurant का अपना सिरदर्द था।",
+     "vo": "ऑर्डर लिया, आगे भेज दिया। डिलीवरी करना रेस्टोरेंट का अपना सिरदर्द था।",
      "prompt": "A plump middle-aged Indian restaurant owner with a grey moustache in a white shirt shouting into a landline phone, cooks working behind him in a busy small Indian kitchen, lunch rush, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of the worried face of a plump middle-aged Indian restaurant owner with a grey moustache in a white shirt, unsent parcels piled on the counter"
-     ]
+     ],
+     "caption": "Order लिया, आगे भेज दिया। Delivery करना restaurant का अपना सिरदर्द था।",
+     "photo": {
+      "src": "https://pixabay.com/get/g49675dbb40d6dade000b43244d4f2e5fe5003d69bd15763e58ea9becf3494c7c20e71254ff1235db89314464c634f9ca1676e2f6825d95a5d7d7779b0b6f22f8_1280.jpg",
+      "w": 4608,
+      "h": 3456,
+      "credit": "Pixabay (RahulPandit)",
+      "page": "https://pixabay.com/photos/shop-city-night-neon-advertising-4806610/",
+      "card": 0.72
+     }
     },
     {
-     "vo": "और छोटे restaurants के पास तो अपना delivery boy होता ही नहीं था! सोचिए, कितने orders छूटते होंगे।",
+     "vo": "और छोटे रेस्टोरेंट्स के पास तो अपना डिलीवरी बॉय होता ही नहीं था! सोचिए, कितने ऑर्डर्स छूटते होंगे।",
      "prompt": "A pad of handwritten order slips on a small restaurant counter beside a cardboard sign reading \"NO DELIVERY\", an empty stool behind it, fluorescent light, close-up",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A plump middle-aged Indian restaurant owner with a grey moustache in a white shirt shaking his head while on the phone"
-     ]
-    },
-    {
-     "vo": "Swiggy ने उल्टा रास्ता चुना। Delivery हम करेंगे, अपने riders से, अपनी fleet से।",
-     "prompt": "A row of young Indian riders in orange T-shirts standing beside scooters outside a small first-floor office in Koramangala, one lean rider with a short beard and orange helmet in front, golden morning light, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Close-up of an orange insulated delivery bag strapped to a scooter, printed with the word \"SWIGGY\""
      ],
-     "title": "अपनी *Fleet*"
+     "caption": "और छोटे restaurants के पास तो अपना delivery boy होता ही नहीं था! सोचिए, कितने orders छूटते होंगे।",
+     "photo": {
+      "src": "https://pixabay.com/get/gbe11cbd726bf36104aac7c46f511351d57df8ea145aafd566ebd447c7cb4678ff2c12381e4cba10609fe64813448e1174855cda095d8c9a5b46f4cf19516b602_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Tho-Ge)",
+      "page": "https://pixabay.com/photos/india-meal-street-kitchen-snack-6945344/",
+      "card": 0.72
+     }
     },
     {
-     "vo": "ये सस्ता नहीं था। हर rider की कमाई, हर bike का petrol, हर order का ख़र्च company पर।",
-     "prompt": "An Indian hand writing columns of numbers in an open ledger, a petrol can and a small pile of rupee notes beside it, a heading at the top reading \"COST PER ORDER\", dim desk lamp light, close-up",
-     "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "A petrol pump at night, a lean young Indian delivery rider with a short beard in an orange T-shirt and orange helmet filling his scooter"
-     ]
+     "vo": "स्विगी ने उल्टा रास्ता चुना। डिलीवरी हम करेंगे, अपने राइडर्स से, अपनी फ़्लीट से।",
+     "clip": {
+      "id": 21115,
+      "tags": "seoul, street, traffic, cars, speed, motorcycle, people, movement",
+      "page": "https://pixabay.com/videos/id-21115/"
+     }
     },
     {
-     "vo": "Business की भाषा में ये घाटे वाला काम था। पर इसी से Swiggy के हाथ में पूरा control आया।",
+     "vo": "ये सस्ता नहीं था। हर राइडर की कमाई, हर बाइक का पेट्रोल, हर ऑर्डर का ख़र्च कंपनी पर।",
+     "clip": {
+      "id": 21115,
+      "tags": "seoul, street, traffic, cars, speed, motorcycle, people, movement",
+      "page": "https://pixabay.com/videos/id-21115/"
+     }
+    },
+    {
+     "vo": "बिज़नेस की भाषा में ये घाटे वाला काम था। पर इसी से स्विगी के हाथ में पूरा कंट्रोल आया।",
      "prompt": "An Indian hand holding a stopwatch above a paper city map spread on a desk, red pins on the map, hard side light, dark room, close-up",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Business की भाषा में ये घाटे वाला काम था। पर इसी से Swiggy के हाथ में पूरा control आया।"
     },
     {
-     "vo": "कहा जाता है, शुरुआत में बस कुछ दर्जन restaurants थे, और कभी-कभी founders ख़ुद खाना पहुँचाने निकल जाते थे।",
+     "vo": "कहा जाता है, शुरुआत में बस कुछ दर्जन रेस्टोरेंट्स थे, और कभी-कभी फ़ाउंडर्स ख़ुद खाना पहुँचाने निकल जाते थे।",
      "prompt": "A young Indian man riding a scooter with an orange food bag on his back through Koramangala streets, face in shadow, side view, shop lights streaking past, night, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of a food parcel being handed over at a gate under a yellow streetlamp"
-     ]
+     ],
+     "caption": "कहा जाता है, शुरुआत में बस कुछ दर्जन restaurants थे, और कभी-कभी founders ख़ुद खाना पहुँचाने निकल जाते थे।"
     },
     {
-     "vo": "Customer को एक चीज़ नई मिली: app पर दिखता था कि खाना कहाँ पहुँचा।",
-     "prompt": "A young Indian woman with short hair in a mustard kurta sitting on her sofa smiling at a phone showing a small scooter moving on a map, warm lamp light, medium shot",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Close-up of a phone screen held close to camera showing a simple city map with a small scooter icon on a route"
-     ]
+     "vo": "कस्टमर को एक चीज़ नई मिली: ऐप पर दिखता था कि खाना कहाँ पहुँचा।",
+     "clip": {
+      "id": 202987,
+      "tags": "phone, smartphone, mobile, portable, screen, digital, communication, texting, business, work",
+      "page": "https://pixabay.com/videos/id-202987/"
+     }
     },
     {
-     "vo": "शुरुआती दौर में Accel और SAIF Partners ने Swiggy में पैसा लगाया।",
+     "vo": "शुरुआती दौर में एक्सेल और सैफ़ पार्टनर्स ने स्विगी में पैसा लगाया।",
      "prompt": "A printed funding document on a glass table with a heading reading \"SERIES A\" and a bold line reading \"$2 MILLION\", a pen beside it, bright office daylight, close-up",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Indian investors in a bright 2015 conference room shaking hands across a table, faces lit by daylight"
-     ]
+     ],
+     "caption": "शुरुआती दौर में Accel और SAIF Partners ने Swiggy में पैसा लगाया।",
+     "label": "ACCEL & SAIF PARTNERS · शुरुआती investors"
     },
     {
      "vo": "पैसा आ गया था। पर अब सामने वो खिलाड़ी था, जो सालों से तैयार बैठा था।",
      "prompt": "A lone man with an umbrella standing on a wet street in the foreground, a tall lit glass office tower in Gurgaon behind him, rain at night, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "photo": {
+      "src": "https://pixabay.com/get/ga7e495ba6c536a8ac39ffce1526cc5cf889824deace6837b94761b41b49346f6b82ff7a6b7ae953fc1269aacef6f25e0cb71a0aa6b54918cae6b1d7593361be7_1280.jpg",
+      "w": 5697,
+      "h": 3798,
+      "credit": "Pixabay (17831348)",
+      "page": "https://pixabay.com/photos/chess-checkmate-chess-board-5516446/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -329,97 +505,168 @@
    "card": "Zomato से जंग",
    "shots": [
     {
-     "vo": "Delhi-NCR में था Zomato, 2008 से restaurants की सबसे बड़ी list वाला app।",
+     "vo": "दिल्ली-एन सी आर में था ज़ोमैटो, दो हज़ार आठ से रेस्टोरेंट्स की सबसे बड़ी लिस्ट वाला ऐप।",
      "prompt": "Young Indian employees at rows of desks in a busy Gurgaon office, a red wall with the word \"ZOMATO\" in white letters, bright white light, mid-2010s, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "label": "ZOMATO · Founded 2008"
+     "caption": "Delhi-NCR में था Zomato, 2008 से restaurants की सबसे बड़ी list वाला app।",
+     "place": {
+      "name": "DELHI-NCR",
+      "sub": "GURUGRAM · ZOMATO",
+      "query": "Gurugram, Haryana, India",
+      "lat": 28.4646,
+      "lon": 77.0299
+     },
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Eternal_headquarters.jpg/1920px-Eternal_headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2813,
+      "h": 2084,
+      "credit": "Eternal headquarters.jpg by Uttsaav, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Eternal_headquarters.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "Swiggy को बढ़ता देख, 2015 में Zomato ने भी food delivery शुरू कर दी।",
+     "vo": "स्विगी को बढ़ता देख, दो हज़ार पंद्रह में ज़ोमैटो ने भी फ़ूड डिलीवरी शुरू कर दी।",
      "prompt": "An Indian rider in a red T-shirt on the left and a lean young Indian delivery rider with a short beard in an orange T-shirt and orange helmet on the right, waiting side by side at the same restaurant counter, overcast daylight, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of the two riders exchanging a sideways glance"
-     ]
+     ],
+     "caption": "Swiggy को बढ़ता देख, 2015 में Zomato ने भी food delivery शुरू कर दी।",
+     "date": "2015",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1200,
+      "h": 1200,
+      "credit": "Zomato logo.png by Zomato, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Zomato_logo.png",
+      "card": 0.5
+     }
     },
     {
-     "vo": "Market में भीड़ थी। Foodpanda, TinyOwl, और 2017 में Uber Eats भी आ गया।",
+     "vo": "मार्केट में भीड़ थी। फ़ूडपांडा, टाइनीओल, और दो हज़ार सत्रह में उबर ईट्स भी आ गया।",
      "prompt": "Riders in pink, green, black and orange T-shirts jostling at one restaurant counter in a crowded Indian food street, night, warm street lights, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A row of blank delivery bags in different colours lined up on a bench under a streetlight"
-     ]
+     ],
+     "caption": "Market में भीड़ थी। Foodpanda, TinyOwl, और 2017 में Uber Eats भी आ गया।",
+     "date": "2017",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Uber_Eats_806-EZV_20201010.jpg/1920px-Uber_Eats_806-EZV_20201010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4080,
+      "h": 3060,
+      "credit": "Uber Eats 806-EZV 20201010.jpg by Solomon203, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Uber_Eats_806-EZV_20201010.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "हर कोई discount बाँट रहा था। हर order पर, company की जेब से पैसा जा रहा था!",
-     "prompt": "A large paper coupon card reading \"FLAT ₹100 OFF\" lying on a dining table beside a plate of biryani, warm indoor light, close-up",
-     "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Symbolic: rupee notes burning in a steel bowl on a dark table"
-     ]
+     "vo": "हर कोई डिस्काउंट बाँट रहा था। हर ऑर्डर पर, कंपनी की जेब से पैसा जा रहा था!",
+     "clip": {
+      "id": 993,
+      "tags": "sale, price, city, new york, billboard, sign, offer, discount, label, special, market, sale tag, retail, best price, shopping, marketing",
+      "page": "https://pixabay.com/videos/id-993/"
+     }
     },
     {
-     "vo": "TinyOwl जैसे नाम छोटे पड़ गए, और 2017 में Ola ने Foodpanda India को ख़रीद लिया।",
+     "vo": "टाइनीओल जैसे नाम छोटे पड़ गए, और दो हज़ार सत्रह में ओला ने फ़ूडपांडा इंडिया को ख़रीद लिया।",
      "prompt": "Young Indian employees packing cardboard boxes in a half-empty office, a pink banner being taken down from the wall, empty desks, dusk light, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "TinyOwl जैसे नाम छोटे पड़ गए, और 2017 में Ola ने Foodpanda India को ख़रीद लिया।",
+     "label": "OLA · Foodpanda India को ख़रीदा",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Foodpanda_in_the_Philippines.jpg/1920px-Foodpanda_in_the_Philippines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3456,
+      "credit": "Foodpanda in the Philippines.jpg by Judgefloro, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Foodpanda_in_the_Philippines.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "पर Swiggy की fleet हर महीने बड़ी होती गई। ज़्यादा riders, नए शहर, तेज़ delivery।",
+     "vo": "पर स्विगी की फ़्लीट हर महीने बड़ी होती गई। ज़्यादा राइडर्स, नए शहर, तेज़ डिलीवरी।",
      "prompt": "Dozens of young Indian riders in orange T-shirts receiving new orange helmets in a large training hall, a banner on the wall reading \"SWIGGY\", bright morning light, wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A lean young Indian delivery rider with a short beard in an orange T-shirt and orange helmet proudly adjusting his new helmet strap"
-     ]
+     ],
+     "caption": "पर Swiggy की fleet हर महीने बड़ी होती गई। ज़्यादा riders, नए शहर, तेज़ delivery।",
+     "photo": {
+      "src": "https://pixabay.com/get/g2c5182a916b0a57b1adbfd8b13a39d631756321a40231446849c97799670aa9fc0637d98b05f1f008f6261cfd177c8670a16b95af173eff7bb48eb67a7991598_1280.jpg",
+      "w": 5316,
+      "h": 3543,
+      "credit": "Pixabay (Surprising_Media)",
+      "page": "https://pixabay.com/photos/food-delivery-courier-motorcycle-7210175/",
+      "card": 0.72
+     }
     },
     {
-     "vo": "फिर दुनिया के बड़े investor Naspers ने Swiggy पर बड़ा दाँव लगाया।",
+     "vo": "फिर दुनिया के बड़े इन्वेस्टर नैस्पर्स ने स्विगी पर बड़ा दाँव लगाया।",
      "prompt": "A hand pushing a tall stack of poker chips across a green table toward a young Indian man in a suit, single bright lamp above, medium close-up",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "फिर दुनिया के बड़े investor Naspers ने Swiggy पर बड़ा दाँव लगाया।",
+     "label": "NASPERS · दुनिया के बड़े investor"
     },
     {
-     "vo": "2018 आते-आते Swiggy की valuation $1 billion पार कर गई। Swiggy अब unicorn थी!",
+     "vo": "दो हज़ार अठारह आते-आते स्विगी की वैल्युएशन एक बिलियन डॉलर पार कर गई। स्विगी अब यूनिकॉर्न थी!",
      "prompt": "Young Indian employees in orange T-shirts cheering with raised arms on a Bangalore rooftop, confetti in the air, city skyline behind, golden hour, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "अब *Unicorn*"
+     "caption": "2018 आते-आते Swiggy की valuation $1 billion पार कर गई। Swiggy अब unicorn थी!",
+     "date": "2018"
     },
     {
-     "vo": "और December 2018 में, Swiggy ने $1 billion जुटाए।",
+     "vo": "और दिसंबर दो हज़ार अठारह में, स्विगी ने एक बिलियन डॉलर जुटाए।",
      "prompt": "An English newspaper business page with a large headline reading \"SWIGGY RAISES $1 BILLION\" lying on a breakfast table beside a tea cup, soft morning light, close-up",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "label": "DECEMBER 2018 · $1 billion round"
+     "caption": "और December 2018 में, Swiggy ने $1 billion जुटाए।",
+     "news": {
+      "headline": "SWIGGY ने जुटाए $1 BILLION",
+      "sub": "Naspers के दाँव के बाद बड़ा funding round",
+      "date": "DECEMBER 2018"
+     }
     },
     {
-     "vo": "Naspers के $1 billion के बाद Swiggy ने कई शहरों में fleet बढ़ाई, बड़े metro से छोटे शहरों तक। [chart]",
+     "vo": "नैस्पर्स के एक बिलियन डॉलर के बाद स्विगी ने कई शहरों में फ़्लीट बढ़ाई, बड़े मेट्रो से छोटे शहरों तक। [चार्ट]",
      "prompt": "An Indian rider in an orange T-shirt on a scooter passing a tea stall in a small-town market lane, a shop board reading \"गुप्ता स्वीट्स\", overcast morning, wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A large wall map of India in an office, orange pins spreading across dozens of cities, dim tube light"
-     ]
+     ],
+     "caption": "Naspers के $1 billion के बाद Swiggy ने कई शहरों में fleet बढ़ाई, बड़े metro से छोटे शहरों तक। [chart]"
     },
     {
-     "vo": "Swiggy Access जैसे kitchens बने, जहाँ restaurants बिना dining hall के, सिर्फ़ delivery के लिए खाना बनाते थे।",
-     "prompt": "Many Indian cooks in white caps at stoves in a bright steel kitchen with no dining tables anywhere, a wall board reading \"SWIGGY ACCESS\", wide shot",
-     "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Close-up of an Indian cook's hands sealing a hot food container"
-     ]
+     "vo": "स्विगी एक्सेस जैसे किचन्स बने, जहाँ रेस्टोरेंट्स बिना डाइनिंग हॉल के, सिर्फ़ डिलीवरी के लिए खाना बनाते थे।",
+     "clip": {
+      "id": 197205,
+      "tags": "cook, kitchen, chef, food, salad, vegetables, healthy, nutrition, gastronomy",
+      "page": "https://pixabay.com/videos/id-197205/"
+     }
     },
     {
-     "vo": "सब कुछ रफ़्तार से बढ़ रहा था। फिर आया 2020, और सब कुछ रुक गया।",
+     "vo": "सब कुछ रफ़्तार से बढ़ रहा था। फिर आया दो हज़ार बीस, और सब कुछ रुक गया।",
      "prompt": "An hourglass on a dark desk with the sand nearly run out, a large wall calendar page behind it reading \"2020\", dim side light, close-up",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सब कुछ रफ़्तार से बढ़ रहा था। फिर आया 2020, और सब कुछ रुक गया।",
+     "drop": true,
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Empty_Kunnamkulam_Town_During_Kerala_COVID-19_Pandemic_Lockdown.jpg/1920px-Empty_Kunnamkulam_Town_During_Kerala_COVID-19_Pandemic_Lockdown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Empty Kunnamkulam Town During Kerala COVID-19 Pandemic Lockdown.jpg by Subin Siby, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Empty_Kunnamkulam_Town_During_Kerala_COVID-19_Pandemic_Lockdown.jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -428,96 +675,140 @@
    "card": "2020 का झटका",
    "shots": [
     {
-     "vo": "January 2020। Zomato ने Uber Eats India को ख़रीद लिया।",
+     "vo": "जनवरी दो हज़ार बीस। ज़ोमैटो ने उबर ईट्स इंडिया को ख़रीद लिया।",
      "prompt": "An English newspaper on a café table with a large headline reading \"ZOMATO BUYS UBER EATS\", a tea cup beside it, rainy night, close-up",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "label": "JANUARY 2020 · Zomato buys Uber Eats India"
+     "caption": "January 2020। Zomato ने Uber Eats India को ख़रीद लिया।",
+     "date": "JANUARY 2020",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Zomato_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1920,
+      "h": 1080,
+      "credit": "Zomato Logo.png by Unknown authorUnknown author, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Zomato_Logo.png",
+      "card": 0.72
+     }
     },
     {
-     "vo": "बदले में Uber को Zomato में 9.99% stake मिली। ये पूरा all-stock deal था। [document]",
+     "vo": "बदले में उबर को ज़ोमैटो में नौ दशमलव नौ नौ प्रतिशत स्टेक मिली। ये पूरा ऑल-स्टॉक डील था। [डॉक्यूमेंट]",
      "prompt": "A printed document on a dark boardroom table with a pie chart, one slice marked \"9.99%\", a pen resting on it, close-up",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Dim boardroom, Indian executives in suits with faces in shadow around the table, rain on the windows"
-     ]
+     ],
+     "caption": "बदले में Uber को Zomato में 9.99% stake मिली। ये पूरा all-stock deal था। [document]",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/UBER_Eats_Delivery_Cyclist_Riding_Through_a_Busy_Oxford_Road_in_Manchester.jpg/1920px-UBER_Eats_Delivery_Cyclist_Riding_Through_a_Busy_Oxford_Road_in_Manchester.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3888,
+      "h": 2592,
+      "credit": "UBER Eats Delivery Cyclist Riding Through a Busy Oxford Road in Manchester.jpg by shopblocks, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:UBER_Eats_Delivery_Cyclist_Riding_Through_a_Busy_Oxford_Road_in_Manchester.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "अब मैदान में बस दो बड़े players बचे थे: Swiggy और Zomato, आमने-सामने।",
+     "vo": "अब मैदान में बस दो बड़े प्लेयर्स बचे थे: स्विगी और ज़ोमैटो, आमने-सामने।",
      "prompt": "An orange chess king on the left and a red chess king on the right facing each other alone on a chess board, dramatic side light, close-up",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अब मैदान में बस दो बड़े players बचे थे: Swiggy और Zomato, आमने-सामने।"
     },
     {
-     "vo": "फिर March 2020 में पूरा देश lockdown में चला गया।",
+     "vo": "फिर मार्च दो हज़ार बीस में पूरा देश लॉकडाउन में चला गया।",
      "prompt": "An empty Bangalore main road at noon, shuttered shops on both sides, a police barricade across the lane, hazy sky, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A Hindi paper notice taped on a shop shutter reading \"लॉकडाउन\""
-     ]
+     ],
+     "caption": "फिर March 2020 में पूरा देश lockdown में चला गया।",
+     "date": "MARCH 2020",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Migrant_workers_stand_in_a_queue_for_food_at_Delhi_Govt_school_during_COVID-19_Lockdown_at_Delhi_IMG_20200331_132400.jpg/1920px-Migrant_workers_stand_in_a_queue_for_food_at_Delhi_Govt_school_during_COVID-19_Lockdown_at_Delhi_IMG_20200331_132400.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3027,
+      "h": 3015,
+      "credit": "Migrant workers stand in a queue for food at Delhi Govt school during COVID-19 Lockdown at Delhi IMG 20200331 132400.jpg by Goutam1962, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Migrant_workers_stand_in_a_queue_for_food_at_Delhi_Govt_school_during_COVID-19_Lockdown_at_Delhi_IMG_20200331_132400.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "Restaurants बंद, सड़कें ख़ाली। Food orders अचानक नीचे गिर गए।",
-     "prompt": "A plump middle-aged Indian restaurant owner with a grey moustache in a white shirt pulling down his shop shutter, anxious face, side view, empty street, dusk, medium shot",
-     "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "A printed line chart on a desk under a cold lamp, the line dropping steeply, labelled \"ORDERS\""
-     ]
+     "vo": "रेस्टोरेंट्स बंद, सड़कें ख़ाली। फ़ूड ऑर्डर्स अचानक नीचे गिर गए।",
+     "clip": {
+      "id": 63973,
+      "tags": "snow, cold, winter, dark, night, 4k, evening, snowing, city, urban, shops, street, empty, quiet, peaceful, stores",
+      "page": "https://pixabay.com/videos/id-63973/"
+     }
     },
     {
-     "vo": "May 2020 में Swiggy ने करीब 1,100 लोगों को नौकरी से निकाल दिया।",
+     "vo": "मई दो हज़ार बीस में स्विगी ने करीब ग्यारह सौ लोगों को नौकरी से निकाल दिया।",
      "prompt": "A printed company memo on a desk with a large line reading \"1,100 ROLES\", cold desk lamp light, close-up",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Overcast light, a sad young Indian office worker carrying a cardboard box of belongings out of a glass building"
-     ]
+     ],
+     "caption": "May 2020 में Swiggy ने करीब 1,100 लोगों को नौकरी से निकाल दिया।",
+     "date": "MAY 2020",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/SUN_Mobility_Swiggy_Bike.png/1920px-SUN_Mobility_Swiggy_Bike.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2896,
+      "h": 1980,
+      "credit": "SUN Mobility Swiggy Bike.png by Eshshiv, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:SUN_Mobility_Swiggy_Bike.png",
+      "card": 0.72
+     }
     },
     {
-     "vo": "सोचिए, जिस company ने 6 साल में इतना कुछ बनाया, वो अपने सबसे बुरे दौर में थी।",
+     "vo": "सोचिए, जिस कंपनी ने छह साल में इतना कुछ बनाया, वो अपने सबसे बुरे दौर में थी।",
      "prompt": "A single orange helmet left on a desk in a dim empty office floor, chairs pushed in, night, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सोचिए, जिस company ने 6 साल में इतना कुछ बनाया, वो अपने सबसे बुरे दौर में थी।"
     },
     {
-     "vo": "पर Swiggy के पास अब भी वो चीज़ थी, जो सबसे मुश्किल से बनी थी: शहर-शहर में अपनी fleet।",
-     "prompt": "A lean young Indian delivery rider with a short beard in an orange T-shirt and orange helmet, wearing a face mask, starting his scooter on an empty street at dawn, side view, medium-wide shot",
-     "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Close-up of his determined eyes above the face mask"
-     ]
+     "vo": "पर स्विगी के पास अब भी वो चीज़ थी, जो सबसे मुश्किल से बनी थी: शहर-शहर में अपनी फ़्लीट।",
+     "clip": {
+      "id": 21115,
+      "tags": "seoul, street, traffic, cars, speed, motorcycle, people, movement",
+      "page": "https://pixabay.com/videos/id-21115/"
+     }
     },
     {
      "vo": "लोग घर से निकल नहीं सकते थे। ज़रूरत थी दूध, सब्ज़ी और राशन की।",
-     "prompt": "A young Indian woman with short hair in a mustard kurta standing in her kitchen beside a nearly empty shelf, looking worried, grey morning light, medium shot",
-     "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "clip": {
+      "id": 4730,
+      "tags": "indoor market, vegetable market, groceries, market, food, vegetable, organic, lifestyle, store, retail, supermarket, shop, healthy, consumerism, customer, shopping, caucasian, purchasing, natural, fresh",
+      "page": "https://pixabay.com/videos/id-4730/"
+     }
     },
     {
-     "vo": "तो Swiggy ने वही riders grocery और ज़रूरी सामान पहुँचाने में लगा दिए।",
+     "vo": "तो स्विगी ने वही राइडर्स ग्रोसरी और ज़रूरी सामान पहुँचाने में लगा दिए।",
      "prompt": "A lean young Indian delivery rider with a short beard in an orange T-shirt, orange helmet and face mask handing a bag of vegetables and a milk packet to a resident at a housing society gate, bright afternoon, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "तो Swiggy ने वही riders grocery और ज़रूरी सामान पहुँचाने में लगा दिए।",
+     "title": "GROCERY DELIVERY"
     },
     {
-     "vo": "और August 2020 में launch हुआ Instamart, शुरुआत में Gurugram जैसे शहरों में।",
+     "vo": "और अगस्त दो हज़ार बीस में लॉन्च हुआ इंस्टामार्ट, शुरुआत में गुरुग्राम जैसे शहरों में।",
      "prompt": "A grocery bag on a doorstep with a printed label reading \"INSTAMART\", a milk packet and vegetables peeking out, morning light, close-up",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A young Indian family unpacking groceries on a kitchen counter, smiling"
      ],
-     "label": "AUGUST 2020 · Instamart launches"
+     "caption": "और August 2020 में launch हुआ Instamart, शुरुआत में Gurugram जैसे शहरों में।",
+     "date": "AUGUST 2020"
     },
     {
-     "vo": "उस वक़्त ये एक छोटा experiment लगता था। पर यहीं से अगली सबसे बड़ी जंग शुरू हुई।",
+     "vo": "उस वक़्त ये एक छोटा एक्सपेरिमेंट लगता था। पर यहीं से अगली सबसे बड़ी जंग शुरू हुई।",
      "prompt": "A shuttered warehouse door in an Indian city lane with a single bulb above it, one orange scooter parked outside, night, wide shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "उस वक़्त ये एक छोटा experiment लगता था। पर यहीं से अगली सबसे बड़ी जंग शुरू हुई।"
     }
    ]
   },
@@ -526,89 +817,121 @@
    "card": "10 Minute War",
    "shots": [
     {
-     "vo": "Instamart के लिए Swiggy ने बनाए dark stores। नाम अजीब है, है ना?",
+     "vo": "इंस्टामार्ट के लिए स्विगी ने बनाए डार्क स्टोर्स। नाम अजीब है, है ना?",
      "prompt": "A dim warehouse-like space with tall shelves of groceries and no customers, Indian riders in orange T-shirts waiting by a side door, night, wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
-    },
-    {
-     "vo": "ये ऐसे stores हैं जहाँ कोई customer नहीं जाता। अंदर सिर्फ़ shelves, packers और riders।",
-     "prompt": "Young Indian packers in orange vests picking items from tall shelves into paper bags, bright fluorescent interior, medium-wide shot",
-     "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Close-up of a packer's hand scanning a rice packet with a barcode scanner"
-     ]
+     "caption": "Instamart के लिए Swiggy ने बनाए dark stores। नाम अजीब है, है ना?",
+     "title": "DARK STORES"
     },
     {
-     "vo": "हर store आपके घर से बस कुछ किलोमीटर दूर, ताकि order मिनटों में पहुँच सके।",
+     "vo": "ये ऐसे स्टोर्स हैं जहाँ कोई कस्टमर नहीं जाता। अंदर सिर्फ़ शेल्व्स, पैकर्स और राइडर्स।",
+     "clip": {
+      "id": 43658,
+      "tags": "amazon, box, parcels, warehouse, post, shelf, rack, shipping, transport, cargo, delivery, storage, order, willbot studios",
+      "page": "https://pixabay.com/videos/id-43658/"
+     }
+    },
+    {
+     "vo": "हर स्टोर आपके घर से बस कुछ किलोमीटर दूर, ताकि ऑर्डर मिनटों में पहुँच सके।",
      "prompt": "A paper city map on a table with a small circle drawn around one pin and a handwritten label reading \"2 KM\", dim office light, close-up",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "हर store आपके घर से बस कुछ किलोमीटर दूर, ताकि order मिनटों में पहुँच सके।"
     },
     {
-     "vo": "फिर 2021 में Blinkit और Zepto ने बड़ा वादा किया: सिर्फ़ 10 minute में delivery!",
+     "vo": "फिर दो हज़ार इक्कीस में ब्लिंकिट और ज़ेप्टो ने बड़ा वादा किया: सिर्फ़ दस मिनट में डिलीवरी!",
      "prompt": "A large stopwatch beside a grocery bag on a kitchen counter, a card leaning against it reading \"10 MINUTES\", bright morning light, close-up",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "सिर्फ़ *10* Minute?"
+     "caption": "फिर 2021 में Blinkit और Zepto ने बड़ा वादा किया: सिर्फ़ 10 minute में delivery!",
+     "date": "2021",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Blinkit_delivery_bike_in_Hitech_City.jpg/1920px-Blinkit_delivery_bike_in_Hitech_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Blinkit delivery bike in Hitech City.jpg by Syced, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Blinkit_delivery_bike_in_Hitech_City.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "2022 में Zomato ने Blinkit को ख़रीद लिया। जंग फिर वही: Swiggy बनाम Zomato।",
+     "vo": "दो हज़ार बाईस में ज़ोमैटो ने ब्लिंकिट को ख़रीद लिया। जंग फिर वही: स्विगी बनाम ज़ोमैटो।",
      "prompt": "Two stores facing each other across a narrow Indian city lane, one glowing orange on the left, one glowing yellow on the right, riders lined up outside both, rainy evening, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of two Indian riders in different coloured raincoats racing out into the rain"
-     ]
+     ],
+     "caption": "2022 में Zomato ने Blinkit को ख़रीद लिया। जंग फिर वही: Swiggy बनाम Zomato।",
+     "date": "2022"
     },
     {
-     "vo": "अब race थी: कौन सबसे तेज़, और किसका store आपके सबसे पास।",
+     "vo": "अब रेस थी: कौन सबसे तेज़, और किसका स्टोर आपके सबसे पास।",
      "prompt": "A lean young Indian delivery rider with a short beard in an orange T-shirt and orange helmet speeding on a scooter through a wet street, seen from the front three-quarter view, lights streaking, night, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A young Indian woman with short hair in a mustard kurta opening her door in surprise, glancing at a wall clock"
-     ]
+     ],
+     "caption": "अब race थी: कौन सबसे तेज़, और किसका store आपके सबसे पास।",
+     "photo": {
+      "src": "https://pixabay.com/get/gfe690f57ae95b95fc53096df22a4e009881dbb40c3f3bf75495f959d6b66acbfcc0197048073572356c2cfe9c6ad6e4360e02a10ade5014a715c2ef45211fca3_1280.jpg",
+      "w": 4591,
+      "h": 3063,
+      "credit": "Pixabay (Tho-Ge)",
+      "page": "https://pixabay.com/photos/motorcycle-package-parcel-delivery-4821984/",
+      "card": 0.72
+     }
     },
     {
-     "vo": "ये फिर वही मुश्किल काम था। Riders, गोदाम, traffic, और हर minute का हिसाब।",
-     "prompt": "Young Indian managers studying a large printed city map pinned on the wall, coffee cups on the table, overcast light through blinds in an operations room, medium-wide shot",
-     "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "vo": "ये फिर वही मुश्किल काम था। राइडर्स, गोदाम, ट्रैफ़िक, और हर मिनट का हिसाब।",
+     "clip": {
+      "id": 31785,
+      "tags": "asia, thailand, bangkok, traffic, traffic jam, city, taxi, motorbike, circulation, road",
+      "page": "https://pixabay.com/videos/id-31785/"
+     }
     },
     {
-     "vo": "पर ये race बहुत महँगी थी। FY23 में Swiggy का loss था ₹4,179 करोड़! [document]",
+     "vo": "पर ये रेस बहुत महँगी थी। एफ़ वाई तेईस में स्विगी का लॉस था चार हज़ार एक सौ उनासी करोड़ रुपये! [डॉक्यूमेंट]",
      "prompt": "A printed annual results sheet on a dark desk with a bold red line reading \"LOSS ₹4,179 CR\", single lamp light, close-up",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "पर ये race बहुत महँगी थी। FY23 में Swiggy का loss था ₹4,179 करोड़! [document]",
+     "title": "LOSS ₹4,179 करोड़"
     },
     {
-     "vo": "अगले साल FY24 में revenue हुआ ₹11,247 करोड़, और loss घटकर ₹2,350 करोड़ रह गया। [chart]",
+     "vo": "अगले साल एफ़ वाई चौबीस में रेवेन्यू हुआ ग्यारह हज़ार दो सौ सैंतालीस करोड़ रुपये, और लॉस घटकर दो हज़ार तीन सौ पचास करोड़ रुपये रह गया। [चार्ट]",
      "prompt": "A printed bar chart on a desk with a tall bar labelled \"₹11,247 CR\" and a shorter red bar labelled \"LOSS ₹2,350 CR\", bright office light, close-up",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगले साल FY24 में revenue हुआ ₹11,247 करोड़, और loss घटकर ₹2,350 करोड़ रह गया। [chart]"
     },
     {
-     "vo": "यानी company बड़ी हो रही थी, पर अब भी मुनाफ़े तक नहीं पहुँची थी।",
+     "vo": "यानी कंपनी बड़ी हो रही थी, पर अब भी मुनाफ़े तक नहीं पहुँची थी।",
      "prompt": "A climber's rope leading up a misty mountain face toward a small flag far above, overcast sky, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "यानी company बड़ी हो रही थी, पर अब भी मुनाफ़े तक नहीं पहुँची थी।"
     },
     {
-     "vo": "Zomato तो July 2021 में ही stock market पर आ चुका था।",
+     "vo": "ज़ोमैटो तो जुलाई दो हज़ार इक्कीस में ही स्टॉक मार्केट पर आ चुका था।",
      "prompt": "A tall stock exchange tower on Dalal Street, Mumbai, office crowds and taxis below, dusk, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A folded English newspaper on a local train seat with a headline reading \"ZOMATO LISTS\""
-     ]
+     ],
+     "caption": "Zomato तो July 2021 में ही stock market पर आ चुका था।",
+     "date": "JULY 2021"
     },
     {
-     "vo": "अब Swiggy की बारी थी। सबसे बड़ा इम्तिहान: क्या शेयर बाज़ार इस पर भरोसा करेगा?",
-     "prompt": "An Indian man in a suit standing at a tall office window overlooking a lit city, hands in pockets, side view, face in shadow, night, medium shot",
-     "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "vo": "अब स्विगी की बारी थी। सबसे बड़ा इम्तिहान: क्या शेयर बाज़ार इस पर भरोसा करेगा?",
+     "clip": {
+      "id": 204306,
+      "tags": "market, values, stock, exchange, financial, graphics, silver, currency, company, economy, banking, bank, euro, payment, bitcoin",
+      "page": "https://pixabay.com/videos/id-204306/"
+     }
     }
    ]
   },
@@ -617,73 +940,128 @@
    "card": "IPO Day",
    "shots": [
     {
-     "vo": "November 2024। Swiggy का IPO खुला, पूरे ₹11,327 करोड़ का।",
+     "vo": "नवंबर दो हज़ार चौबीस। स्विगी का आई पी ओ खुला, पूरे ग्यारह हज़ार तीन सौ सत्ताईस करोड़ रुपये का।",
      "prompt": "An IPO prospectus booklet on a polished table with a cover reading \"SWIGGY\" and a sticker reading \"₹11,327 CR\", bright morning light, close-up",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "label": "NOVEMBER 2024 · Swiggy IPO"
+     "caption": "November 2024। Swiggy का IPO खुला, पूरे ₹11,327 करोड़ का।",
+     "date": "NOVEMBER 2024"
     },
     {
-     "vo": "Price band रखा गया ₹371 से ₹390 प्रति share। [document]",
+     "vo": "प्राइस बैंड रखा गया तीन सौ इकहत्तर रुपये से तीन सौ नब्बे रुपये प्रति शेयर। [डॉक्यूमेंट]",
      "prompt": "A young Indian man in a checked shirt studying a printed sheet reading \"₹371 – ₹390\" at a home desk, evening lamp light, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of his pen circling the number on the sheet"
-     ]
+     ],
+     "caption": "Price band रखा गया ₹371 से ₹390 प्रति share। [document]"
     },
     {
-     "vo": "सवाल बड़ा था। घाटे में चल रही company पर लोग पैसा लगाएँगे?",
+     "vo": "सवाल बड़ा था। घाटे में चल रही कंपनी पर लोग पैसा लगाएँगे?",
      "prompt": "Young Indian office colleagues debating around a café table, one shrugging, another looking skeptical, overcast daylight, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "सवाल बड़ा था। घाटे में चल रही company पर लोग पैसा लगाएँगे?",
+     "photo": {
+      "src": "https://pixabay.com/get/g59db07e619c67459afe88901d0d87857bb548935649bee4284dcc19ea90a66dd1f5bd6bf7feba38c6411715fa37ec39627bc5049b6ed6d7c02d3657ff88f165c_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (TheInvestorPost)",
+      "page": "https://pixabay.com/photos/finance-stock-trading-day-trading-5771541/",
+      "card": 0.72
+     }
     },
     {
-     "vo": "IPO करीब 3.59 गुना subscribe हुआ। मतलब जितने shares थे, उससे साढ़े तीन गुना से ज़्यादा demand।",
+     "vo": "आई पी ओ करीब तीन दशमलव पाँच नौ गुना सब्सक्राइब हुआ। मतलब जितने शेयर्स थे, उससे साढ़े तीन गुना से ज़्यादा डिमांड।",
      "prompt": "A printed subscription chart pinned on a board, one bar rising high marked \"3.59x\", bright office light, close-up",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "IPO करीब 3.59 गुना subscribe हुआ। मतलब जितने shares थे, उससे साढ़े तीन गुना से ज़्यादा demand।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1920px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2291,
+      "h": 1917,
+      "credit": "BSE - Bombay Stock Exchange Building.jpg by Niyantha Shekhar, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "13 November 2024। NSE पर Swiggy का share खुला ₹420 पर! [document]",
+     "vo": "तेरह नवंबर दो हज़ार चौबीस। एन एस ई पर स्विगी का शेयर खुला चार सौ बीस रुपये पर! [डॉक्यूमेंट]",
      "prompt": "Indian employees in orange T-shirts cheering under a large board reading \"SWIGGY ₹420\" inside a stock exchange hall, golden morning light, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of orange confetti falling over a crowd of joyful young Indian faces"
      ],
-     "label": "13 NOVEMBER 2024 · Listing day"
+     "caption": "13 November 2024। NSE पर Swiggy का share खुला ₹420 पर! [document]",
+     "date": "13 NOVEMBER 2024",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/National_Stock_Exchange_NSE_India.jpg/1920px-National_Stock_Exchange_NSE_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4481,
+      "h": 3360,
+      "credit": "National Stock Exchange NSE India.jpg by Ganesh Dhamodkar, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:National_Stock_Exchange_NSE_India.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "यानी ऊपर वाले price से करीब 7.7% ज़्यादा।",
+     "vo": "यानी ऊपर वाले प्राइस से करीब सात दशमलव सात प्रतिशत ज़्यादा।",
      "prompt": "A printed price chart on a desk with an arrow rising to a mark reading \"+7.7%\", cool daylight, close-up",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "यानी ऊपर वाले price से करीब 7.7% ज़्यादा।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/National_Stock_Exchange_NSE_India.jpg/1920px-National_Stock_Exchange_NSE_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4481,
+      "h": 3360,
+      "credit": "National Stock Exchange NSE India.jpg by Ganesh Dhamodkar, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:National_Stock_Exchange_NSE_India.jpg",
+      "card": 0.72
+     }
     },
     {
-     "vo": "Upper price पर Swiggy की valuation थी लगभग $11.3 billion।",
+     "vo": "अपर प्राइस पर स्विगी की वैल्युएशन थी लगभग ग्यारह दशमलव तीन बिलियन डॉलर।",
      "prompt": "A towering stack of gold coins on a dark table lit by a single beam, a small card in front reading \"$11.3 BILLION\", close-up",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Upper price पर Swiggy की valuation थी लगभग $11.3 billion।",
+     "photo": {
+      "src": "https://pixabay.com/get/g84468bdb265fba0c298192db42edb9b4644b7aca1012ca68084c76491edc79cd68890f0413185b08d454c4d387c228525c2e30088a1764523f45f7655ae9d7f9_1280.jpg",
+      "w": 5812,
+      "h": 3875,
+      "credit": "Pixabay (3844328)",
+      "page": "https://pixabay.com/photos/stock-trading-monitor-business-1863880/",
+      "card": 0.72
+     }
     },
     {
-     "vo": "Reports के मुताबिक़, ESOPs की वजह से करीब 500 employees उस दिन करोड़पति बन गए।",
+     "vo": "रिपोर्ट्स के मुताबिक़, ई एस ओ पीज़ की वजह से करीब पाँच सौ एम्प्लॉईज़ उस दिन करोड़पति बन गए।",
      "prompt": "A young Indian woman software engineer in glasses covering her mouth in joy at her desk, colleagues clapping around her, bright office, medium shot",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "Reports के मुताबिक़, ESOPs की वजह से करीब 500 employees उस दिन करोड़पति बन गए।"
     },
     {
-     "vo": "सोचिए, Swiggy के launch से यहाँ तक, बस 10 साल का सफ़र।",
+     "vo": "सोचिए, स्विगी के लॉन्च से यहाँ तक, बस दस साल का सफ़र।",
      "prompt": "A dim empty office with a paper notice reading \"CLOSED\" on the left, and a bright stock exchange hall full of orange confetti on the right, split composition, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "हार से *IPO* तक"
+     "caption": "सोचिए, Swiggy के launch से यहाँ तक, बस 10 साल का सफ़र।",
+     "split": {
+      "left": "15",
+      "right": "73",
+      "l": "2014 · CLOSED",
+      "r": "2024 · LISTING"
+     }
     },
     {
-     "vo": "और बाहर सड़क पर, वो rider आज भी उसी orange bag के साथ दौड़ रहा है।",
+     "vo": "और बाहर सड़क पर, वो राइडर आज भी उसी ऑरेंज बैग के साथ दौड़ रहा है।",
      "prompt": "A lean young Indian delivery rider with a short beard in an orange T-shirt and orange helmet riding down a Mumbai street, an orange bag on his back reading \"SWIGGY\", seen from the left side, golden evening, medium shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "और बाहर सड़क पर, वो rider आज भी उसी orange bag के साथ दौड़ रहा है।"
     }
    ]
   },
@@ -692,37 +1070,45 @@
    "card": null,
    "shots": [
     {
-     "vo": "तो Swiggy इतनी बड़ी कैसे बनी? पैसा और discount तो सबके पास थे।",
+     "vo": "तो स्विगी इतनी बड़ी कैसे बनी? पैसा और डिस्काउंट तो सबके पास थे।",
      "prompt": "A young Indian woman with short hair in a mustard kurta receiving a food bag at her apartment door, a wall clock behind her showing 11 o'clock, warm night light, medium shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "तो Swiggy इतनी बड़ी कैसे बनी? पैसा और discount तो सबके पास थे।"
     },
     {
-     "vo": "Swiggy बनी उसी काम से, जिसमें इसके founders का पहला idea अटका था: delivery।",
+     "vo": "स्विगी बनी उसी काम से, जिसमें इसके फ़ाउंडर्स का पहला आइडिया अटका था: डिलीवरी।",
      "prompt": "A rider's hand zipping shut an orange delivery bag printed with the word \"SWIGGY\", under a streetlamp at night, close-up",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Night, two young Indian men in silhouette with faces in shadow on office steps, now with bright lights on in the windows behind them"
-     ]
+     ],
+     "caption": "Swiggy बनी उसी काम से, जिसमें इसके founders का पहला idea अटका था: delivery।"
     },
     {
-     "vo": "2014 में जो फ़ैसला सबसे महँगा लगा, अपनी fleet, वही इसकी सबसे बड़ी ताक़त बना।",
+     "vo": "दो हज़ार चौदह में जो फ़ैसला सबसे महँगा लगा, अपनी फ़्लीट, वही इसकी सबसे बड़ी ताक़त बना।",
      "prompt": "A long line of orange scooters leaving a depot into a waking Indian city, dawn light, wide aerial shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "2014 में जो फ़ैसला सबसे महँगा लगा, अपनी fleet, वही इसकी सबसे बड़ी ताक़त बना।",
+     "quote": {
+      "text": "जो फ़ैसला सबसे महँगा लगा, अपनी fleet, वही सबसे बड़ी ताक़त बना।"
+     }
     },
     {
-     "vo": "अगली बार, एक और brand की कहानी, जिसके पीछे का सच आपने कभी सोचा भी नहीं होगा।",
+     "vo": "अगली बार, एक और ब्रांड की कहानी, जिसके पीछे का सच आपने कभी सोचा भी नहीं होगा।",
      "prompt": "A large object hidden under a cloth on a dim stage, a single spotlight falling on it, wide shot",
      "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "अगली बार, एक और brand की कहानी, जिसके पीछे का सच आपने कभी सोचा भी नहीं होगा।"
     },
     {
-     "vo": "ऐसी और कहानियों के लिए channel को subscribe कर लीजिए।",
+     "vo": "ऐसी और कहानियों के लिए चैनल को सब्सक्राइब कर लीजिए।",
      "prompt": "A lean young Indian delivery rider with a short beard in an orange T-shirt and orange helmet riding away down a quiet lit street, seen from the left side, small in the frame, night, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "caption": "ऐसी और कहानियों के लिए channel को subscribe कर लीजिए।"
     }
    ]
   }
@@ -740,7 +1126,6 @@
    1
   ]
  },
- "framework": "2026-11-20 06:28",
- "released_at": "2026-11-20 06:28",
- "voice_requested": "voice-ll-027-swiggy-story-88e7645497"
+ "photos_checked": true,
+ "framework": "2026-11-20 06:38"
 }
