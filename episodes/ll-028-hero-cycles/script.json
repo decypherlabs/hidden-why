@@ -5,6 +5,7 @@
  "build": "github",
  "lang": "hi",
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "words_in_edit": true,
@@ -50,13 +51,30 @@
      "more": [
       "Close-up of the father's hand slowly letting go of the bicycle seat, the boy's feet pedalling, overcast light"
      ],
-     "caption": "याद है, पापा ने पीछे से cycle पकड़ी थी?"
+     "caption": "याद है, पापा ने पीछे से cycle पकड़ी थी?",
+     "photo": {
+      "src": "https://pixabay.com/get/g0693b306687b62e0c3ce9e59a782ab8083d05160715e4e5ccf45d2320fea151091092430a08beb6e87261c457332e4b423c09a189098d86113e9144808be6e16_1280.jpg",
+      "w": 6997,
+      "h": 4987,
+      "credit": "Pixabay (Engin_Akyurt)",
+      "page": "https://pixabay.com/photos/bicycle-children-graffiti-art-3045580/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और फिर चुपचाप हाथ छोड़ दिया था।",
      "prompt": "A ten-year-old boy in a blue school uniform riding a bicycle alone down a lane, grinning in surprise, centre, while a young Indian father with a thin moustache in a cream 1970s shirt stands far behind him with open empty hands, smiling, overcast light, wide shot",
      "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "title": "चुपचाप हाथ छोड़ा",
+     "photo": {
+      "src": "https://pixabay.com/get/gfa1ce602930f301366359e3407ea5c7d4ac898a5eb303fbc8264b4dda8f7c5a0fa73a5f872303095778d4665d50053e5ee460dacdcf2abe0a41b9f9e2dd351c5_1280.jpg",
+      "w": 3425,
+      "h": 2252,
+      "credit": "Pixabay (sasint)",
+      "page": "https://pixabay.com/photos/father-son-bicycle-relationship-1822528/",
+      "card": 0.72
+     }
     },
     {
      "vo": "बहुत से घरों में उस साइकिल पर एक ही नाम लिखा था।",
@@ -66,7 +84,16 @@
      "more": [
       "Wide shot of a crowded Indian town bazaar in the 1970s full of black roadster bicycles parked in rows, bright afternoon"
      ],
-     "caption": "बहुत से घरों में उस cycle पर एक ही नाम लिखा था।"
+     "caption": "बहुत से घरों में उस cycle पर एक ही नाम लिखा था।",
+     "label": "HERO CYCLES · हर घर की cycle",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Herooftherwenzoris.jpg/1920px-Herooftherwenzoris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 1977,
+      "h": 3844,
+      "credit": "Herooftherwenzoris.jpg by Karsten-Werner, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Herooftherwenzoris.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "दूधवाला, अख़बार वाला, स्कूल जाता बच्चा, सब उसी पर चलते थे।",
@@ -86,7 +113,6 @@
      "more": [
       "Close-up of the ten-year-old boy in a blue school uniform touching the new bicycle's bell with wide excited eyes"
      ],
-     "title": "*Hero* लाना है",
      "caption": "लोग cycle नहीं माँगते थे, कहते थे, 'Hero लाना है।'"
     },
     {
@@ -94,8 +120,8 @@
      "prompt": "A black roadster bicycle seen exactly from its left side, standing in the middle of a dusty Indian lane at dawn, a young boy in a blue school uniform on the left looking at it with a puzzled face, soft misty morning light, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "आई *कहाँ* से?",
-     "caption": "पर क्या हमने कभी पूछा, Hero Cycles आई कहाँ से?"
+     "caption": "पर क्या हमने कभी पूछा, Hero Cycles आई कहाँ से?",
+     "title": "आई कहाँ से?"
     },
     {
      "vo": "क्या ये किसी अमीर फ़ैमिली की कंपनी थी?",
@@ -119,15 +145,24 @@
      "more": [
       "A dusty road with a stone milestone reading \"KAMALIA\" fading into smoky haze at dusk"
      ],
-     "title": "Partition में *छूटा* शहर",
-     "caption": "या चार भाई, जिनका शहर Partition में सरहद के उस पार छूट गया?"
+     "caption": "या चार भाई, जिनका शहर Partition में सरहद के उस पार छूट गया?",
+     "quote": {
+      "text": "या चार भाई, जिनका शहर Partition में सरहद के उस पार छूट गया?"
+     },
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Refugees_en_route_to_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1024,
+      "h": 817,
+      "credit": "Refugees en route to India.jpg by Unknown authorUnknown author, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Refugees_en_route_to_India.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "उन्होंने दुनिया की सबसे बड़ी साइकिल कंपनी कैसे बनाई?",
      "prompt": "A vast field of thousands of black bicycles parked in perfect rows in front of a huge factory, a small Indian man in a white kurta standing beside one bicycle in the foreground, bright daylight, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "सबसे बड़ी *cycle* company",
      "caption": "उन्होंने दुनिया की सबसे बड़ी cycle company कैसे बनाई?"
     },
     {
@@ -135,9 +170,8 @@
      "prompt": "Four slim young Indian men in 1940s white kurtas stepping down from a crowded steam train onto a dusty platform, faces in shadow, a large flat station board reading \"LUDHIANA\" above them facing the camera, grey overcast morning, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "label": "LUDHIANA · 1947",
-     "title": "*1947* Kamalia से Ludhiana",
-     "caption": "1947 में Kamalia के चार भाई Ludhiana पहुँचे।"
+     "caption": "1947 में Kamalia के चार भाई Ludhiana पहुँचे।",
+     "date": "1947"
     },
     {
      "vo": "जेब में पैसा कम, हाथ में सिर्फ़ साइकिल के पार्ट्स का हुनर।",
@@ -147,7 +181,22 @@
      "more": [
       "Close-up of a young Indian man's calloused hands, face out of frame, turning a bicycle hub against the light"
      ],
-     "caption": "जेब में पैसा कम, हाथ में सिर्फ़ cycle के parts का हुनर।"
+     "caption": "जेब में पैसा कम, हाथ में सिर्फ़ cycle के parts का हुनर।",
+     "place": {
+      "name": "LUDHIANA",
+      "sub": "PUNJAB · 1947",
+      "query": "Ludhiana, Punjab, India",
+      "lat": 30.909,
+      "lon": 75.8516
+     },
+     "photo": {
+      "src": "https://pixabay.com/get/g3b5af5f852231119453e4204932048813398cb9370730cc4c2d6605ab89e38a675fdd9687539c0416500749566cd1b6ba2d246812f06920be5da2d12ecc76409_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (hhach)",
+      "page": "https://pixabay.com/photos/bicycle-rims-wheel-tire-2485105/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -163,8 +212,22 @@
      "more": [
       "A hand-drawn old map on a wooden table with a red pin on the town name \"KAMALIA\""
      ],
-     "label": "KAMALIA · Punjab, 1920s",
-     "caption": "Kamalia, Punjab का एक छोटा सा कस्बा था, जो आज Pakistan के Toba Tek Singh ज़िले में है।"
+     "caption": "Kamalia, Punjab का एक छोटा सा कस्बा था, जो आज Pakistan के Toba Tek Singh ज़िले में है।",
+     "place": {
+      "name": "KAMALIA",
+      "sub": "TOBA TEK SINGH · PAKISTAN",
+      "query": "Kamalia, Toba Tek Singh, Pakistan",
+      "lat": 30.727,
+      "lon": 72.645
+     },
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Kamalia_railway_station.jpg/1920px-Kamalia_railway_station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2048,
+      "h": 1152,
+      "credit": "Kamalia railway station.jpg by Fahads1982, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Kamalia_railway_station.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "यहीं एक जुलाई उन्नीस सौ तेईस को बृजमोहन लाल मुंजाल पैदा हुए, चार भाइयों में से एक।",
@@ -174,8 +237,8 @@
      "more": [
       "A wall calendar page reading \"1923\" hanging on a mud wall beside a flickering oil lamp"
      ],
-     "label": "BRIJMOHAN LALL MUNJAL · Co-founder",
-     "caption": "यहीं 1 जुलाई 1923 को Brijmohan Lall Munjal पैदा हुए, चार भाइयों में से एक।"
+     "caption": "यहीं 1 जुलाई 1923 को Brijmohan Lall Munjal पैदा हुए, चार भाइयों में से एक।",
+     "date": "1 JULY 1923"
     },
     {
      "vo": "बाक़ी भाई थे दयानंद, सत्यानंद और ओम प्रकाश, और घर में पैसा ज़्यादा नहीं था।",
@@ -185,7 +248,8 @@
      "more": [
       "Close-up of a small cloth purse holding a few copper coins on a wooden shelf"
      ],
-     "caption": "बाक़ी भाई थे Dayanand, Satyanand और Om Prakash, और घर में पैसा ज़्यादा नहीं था।"
+     "caption": "बाक़ी भाई थे Dayanand, Satyanand और Om Prakash, और घर में पैसा ज़्यादा नहीं था।",
+     "label": "BRIJMOHAN LALL MUNJAL · चार भाइयों में से एक"
     },
     {
      "vo": "उस दौर में साइकिल अमीरी की चीज़ थी, और ज़्यादातर इंग्लैंड की फ़ैक्ट्रियों से बनकर आती थी।",
@@ -195,14 +259,23 @@
      "more": [
       "A wooden shipping crate stamped \"MADE IN ENGLAND\" being opened by Indian porters at a dusty railway goods shed, revealing a bicycle frame"
      ],
-     "caption": "उस दौर में cycle अमीरी की चीज़ थी, और ज़्यादातर England की factories से बनकर आती थी।"
+     "caption": "उस दौर में cycle अमीरी की चीज़ थी, और ज़्यादातर England की factories से बनकर आती थी।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Robin_Hood_Raleigh_bicycles_Elliot_Street_downtown_Brattleboro_VT_May_2024_02.jpg/1920px-Robin_Hood_Raleigh_bicycles_Elliot_Street_downtown_Brattleboro_VT_May_2024_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3024,
+      "h": 4032,
+      "credit": "Robin Hood Raleigh bicycles Elliot Street downtown Brattleboro VT May 2024 02.jpg by Artaxerxes, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Robin_Hood_Raleigh_bicycles_Elliot_Street_downtown_Brattleboro_VT_May_2024_02.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "सोचिए, एक साधारण साइकिल के लिए भी भारत को विदेश की तरफ़ देखना पड़ता था!",
      "prompt": "A single black bicycle wheel balanced on one pan of a brass scale, a pile of gold coins on the other pan, a cargo steamship visible on the horizon behind, grey overcast light, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "सोचिए, एक साधारण cycle के लिए भी भारत को विदेश की तरफ़ देखना पड़ता था!"
+     "caption": "सोचिए, एक साधारण cycle के लिए भी भारत को विदेश की तरफ़ देखना पड़ता था!",
+     "title": "विदेश पर निर्भर"
     },
     {
      "vo": "फिर उन्नीस सौ चौवालीस में, करीब बीस साल के बृजमोहन ने एक बड़ा फ़ैसला लिया: घर का कस्बा छोड़ना।",
@@ -212,8 +285,8 @@
      "more": [
       "Close-up of the tin trunk lid closing on folded kurtas and a small bundle of bicycle spokes"
      ],
-     "title": "घर छोड़ें, या *रुकें*?",
-     "caption": "फिर 1944 में, करीब 20 साल के Brijmohan ने एक बड़ा फ़ैसला लिया: घर का कस्बा छोड़ना।"
+     "caption": "फिर 1944 में, करीब 20 साल के Brijmohan ने एक बड़ा फ़ैसला लिया: घर का कस्बा छोड़ना।",
+     "date": "1944"
     },
     {
      "vo": "भाई अमृतसर पहुँचे, जो पंजाब का बड़ा बाज़ार था, और साइकिल के पार्ट्स का छोटा सा काम शुरू किया।",
@@ -224,18 +297,22 @@
       "Inside the small shop, young Indian men in white kurtas with faces in shadow sorting spokes and chains into wooden boxes",
       "Close-up of oily hands untangling a bicycle chain on a wooden counter"
      ],
-     "label": "AMRITSAR · 1944",
-     "caption": "भाई Amritsar पहुँचे, जो Punjab का बड़ा बाज़ार था, और cycle के parts का छोटा सा काम शुरू किया।"
+     "caption": "भाई Amritsar पहुँचे, जो Punjab का बड़ा बाज़ार था, और cycle के parts का छोटा सा काम शुरू किया।",
+     "place": {
+      "name": "AMRITSAR",
+      "sub": "PUNJAB · 1944",
+      "query": "Amritsar, Punjab, India",
+      "lat": 31.6357,
+      "lon": 74.8787
+     }
     },
     {
      "vo": "पूरी साइकिल नहीं, बस पार्ट्स: स्पोक्स, चेन, हैंडल, फ़ोर्क, जो साइकिल की दुकानों को रोज़ चाहिए थे।",
-     "prompt": "A wooden counter covered with bicycle spokes, chains, a handlebar and a front fork laid out in neat rows, an Indian hand in a white sleeve placing a spoke, warm dim lamp light, close-up",
-     "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "A lean Indian bicycle mechanic in his thirties with a grey turban, a trimmed beard and a khaki kurta testing a fork with a hammer, focused face"
-     ],
-     "caption": "पूरी cycle नहीं, बस parts: spokes, chain, handle, fork, जो cycle की दुकानों को रोज़ चाहिए थे।"
+     "clip": {
+      "id": 31480,
+      "tags": "exchange bike, bicycle, chain, rays, sport, shimano, exchange, cycling, bike, gears",
+      "page": "https://pixabay.com/videos/id-31480/"
+     }
     },
     {
      "vo": "सिर्फ़ पार्ट्स क्यों? क्योंकि पूरी साइकिल के लिए फ़ैक्ट्री और बहुत पैसा चाहिए था, जो उनके पास नहीं था।",
@@ -245,7 +322,15 @@
      "more": [
       "Close-up of a nearly empty tin cash box with a few coins beside a pile of spokes, cold morning light"
      ],
-     "caption": "सिर्फ़ parts क्यों? क्योंकि पूरी cycle के लिए factory और बहुत पैसा चाहिए था, जो उनके पास नहीं थी।"
+     "caption": "सिर्फ़ parts क्यों? क्योंकि पूरी cycle के लिए factory और बहुत पैसा चाहिए था, जो उनके पास नहीं थी।",
+     "photo": {
+      "src": "https://pixabay.com/get/g9d4cbf50171c0905579fe7bac891266fa3887b688fe7ab0174d5f6e932e9fca9fcc6f92c153a02178eae40cf14433d157c30d605e6a66ad7f9d052b58e3b9689_1280.jpg",
+      "w": 5558,
+      "h": 3705,
+      "credit": "Pixabay (pen_ash)",
+      "page": "https://pixabay.com/photos/bike-bicycle-street-urban-pavement-8337261/",
+      "card": 0.72
+     }
     },
     {
      "vo": "हिसाब की कॉपी में हर पैसे का जोड़-घटाव होता: मुनाफ़ा छोटा था, पर काम धीरे-धीरे बढ़ रहा था।",
@@ -254,15 +339,31 @@
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A young Indian man in a white kurta, face in shadow, counting coins into a tin box late at night"
-     ]
+     ],
+     "photo": {
+      "src": "https://pixabay.com/get/g843e096199927a68aed2009bfca8f26305986e3282ee35d26a768461c01ac2fe52c200cceb69b42346156a663d6f6e5e526dede5a4f83e5c6d60bc1e14fda5b6_1280.jpg",
+      "w": 6000,
+      "h": 3989,
+      "credit": "Pixabay (cpastrick)",
+      "page": "https://pixabay.com/photos/ledger-accounting-business-money-1428230/",
+      "card": 0.72
+     }
     },
     {
      "vo": "काम चल निकला था, पर सिर्फ़ तीन साल बाद, पार्टीशन की एक लकीर ने सब कुछ बदल दिया।",
      "prompt": "A red line being drawn with a fountain pen across an old paper map of Punjab on a table, a hand holding the pen, the map torn slightly along the line, cold blue light, close-up",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "एक *लकीर*",
-     "caption": "काम चल निकला था, पर सिर्फ़ तीन साल बाद, Partition की एक लकीर ने सब कुछ बदल दिया।"
+     "caption": "काम चल निकला था, पर सिर्फ़ तीन साल बाद, Partition की एक लकीर ने सब कुछ बदल दिया।",
+     "title": "PARTITION की लकीर",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Map_of_the_partition_boundaries_in_the_Punjab%2C_Research_Dept.%2C_F.O.%2C_September%2C_1948.jpg/1920px-Map_of_the_partition_boundaries_in_the_Punjab%2C_Research_Dept.%2C_F.O.%2C_September%2C_1948.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4503,
+      "h": 3340,
+      "credit": "Map of the partition boundaries in the Punjab, Research Dept., F.O., September, 1948.jpg by Research Dept., F.O., September, 1948, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Map_of_the_partition_boundaries_in_the_Punjab,_Research_Dept.,_F.O.,_September,_1948.jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -286,8 +387,16 @@
      "more": [
       "Wide shot of a packed 1947 Punjab railway station, Indian families on train roofs, smoke and grey sky"
      ],
-     "label": "AUGUST 1947 · Partition",
-     "caption": "अगस्त 1947 में Partition हुआ, और देखते ही देखते Punjab दो टुकड़ों में बँट गया।"
+     "caption": "अगस्त 1947 में Partition हुआ, और देखते ही देखते Punjab दो टुकड़ों में बँट गया।",
+     "date": "AUGUST 1947",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Map_of_the_partition_of_British_India.jpg/1920px-Map_of_the_partition_of_British_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5152,
+      "h": 4777,
+      "credit": "Map of the partition of British India.jpg by The National Archives UK, NO RESTRICTIONS, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Map_of_the_partition_of_British_India.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "कमालिया पाकिस्तान के हिस्से में चला गया: बचपन का घर, गलियाँ, रिश्ते, सब सरहद के उस पार।",
@@ -297,7 +406,15 @@
      "more": [
       "Close-up of an old iron lock hanging open on a wooden door, a fading handprint on the wall"
      ],
-     "caption": "Kamalia Pakistan के हिस्से में चला गया: बचपन का घर, गलियाँ, रिश्ते, सब सरहद के उस पार।"
+     "caption": "Kamalia Pakistan के हिस्से में चला गया: बचपन का घर, गलियाँ, रिश्ते, सब सरहद के उस पार।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Map_of_Lord_Wavell%27s_proposed_demarcation_line_for_the_Punjab_of_February_1946.jpg/1920px-Map_of_Lord_Wavell%27s_proposed_demarcation_line_for_the_Punjab_of_February_1946.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2661,
+      "h": 2169,
+      "credit": "Map of Lord Wavell's proposed demarcation line for the Punjab of February 1946.jpg by Research Dept., F.O., September, 1948, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Map_of_Lord_Wavell%27s_proposed_demarcation_line_for_the_Punjab_of_February_1946.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "लाखों परिवार बैलगाड़ियों और भरी हुई ट्रेनों में, जो हाथ आया लेकर, सरहद पार कर रहे थे।",
@@ -307,7 +424,20 @@
      "more": [
       "Medium shot of an exhausted Indian mother carrying a child and a cloth bundle, tears on her face",
       "Close-up of a little Indian girl's hand clutching a brass lota on a moving bullock cart"
-     ]
+     ],
+     "news": {
+      "headline": "लाखों परिवार सरहद पार, Punjab दो टुकड़ों में",
+      "sub": "बैलगाड़ियों और भरी ट्रेनों में",
+      "date": "1947"
+     },
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Scene_of_Migrants_Train_for_Pakistan_%28Army_Museum%2C_Lahore%29.jpg/1920px-Scene_of_Migrants_Train_for_Pakistan_%28Army_Museum%2C_Lahore%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4128,
+      "h": 3096,
+      "credit": "Scene of Migrants Train for Pakistan (Army Museum, Lahore).jpg by Muhammad Umair Mirza, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Scene_of_Migrants_Train_for_Pakistan_(Army_Museum,_Lahore).jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "मुंजाल परिवार भी उन्हीं में था, जिनका पुराना शहर हमेशा के लिए पीछे छूट गया।",
@@ -324,25 +454,31 @@
      "more": [
       "The small shop with the board reading \"CYCLE PARTS\" shut, a paper notice on its door reading \"बंद\""
      ],
-     "caption": "Amritsar अब नई सरहद से बस कुछ ही दूरी पर था, और हर गली में डर था।"
+     "caption": "Amritsar अब नई सरहद से बस कुछ ही दूरी पर था, और हर गली में डर था।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Indian_Wagah_Attari_border_arena_-Wagah_-Punjab_-20190605_172115.jpg/1920px-Indian_Wagah_Attari_border_arena_-Wagah_-Punjab_-20190605_172115.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 2268,
+      "credit": "Indian Wagah Attari border arena -Wagah -Punjab -20190605 172115.jpg by Schüler1000, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Indian_Wagah_Attari_border_arena_-Wagah_-Punjab_-20190605_172115.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "ऐसे में भाइयों ने तय किया: नई शुरुआत लुधियाना में होगी, अमृतसर से करीब एक सौ चालीस किलोमीटर दूर।",
      "prompt": "A young Indian man's hand resting beside an old paper map of Punjab on a wooden table, a red pin on \"LUDHIANA\" and a pencil arrow drawn from \"AMRITSAR\", face out of frame, dim morning light, close-up",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "label": "AMRITSAR → LUDHIANA · 1947",
-     "caption": "ऐसे में भाइयों ने तय किया: नई शुरुआत Ludhiana में होगी, Amritsar से करीब 140 km दूर।"
+     "caption": "ऐसे में भाइयों ने तय किया: नई शुरुआत Ludhiana में होगी, Amritsar से करीब 140 km दूर।",
+     "title": "नई शुरुआत"
     },
     {
      "vo": "लुधियाना पहले से छोटी फ़ैक्ट्रियों का शहर था: हौज़री, औज़ार, मशीनों के पार्ट्स।",
-     "prompt": "Brick workshops with smoking chimneys along a dusty late-1940s Ludhiana road, workers carrying knitted woollen vests and steel tools, bicycles passing, no cars, pale hazy morning light, wide shot",
-     "move": "pan_right",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Inside a small Ludhiana hosiery workshop, Indian women at knitting machines, dusty light through a window"
-     ],
-     "caption": "Ludhiana पहले से छोटी factories का शहर था: hosiery, औज़ार, मशीनों के parts।"
+     "clip": {
+      "id": 115791,
+      "tags": "fabric, sewing machine, seamstress, workshop, cutting table, tool, work, woman, human, employee, shop, person, worker, sewing equipment",
+      "page": "https://pixabay.com/videos/id-115791/"
+     }
     },
     {
      "vo": "जेब में पैसा कम था, पर हाथ में हुनर था: साइकिल का हर एक पार्ट पहचानना।",
@@ -352,7 +488,15 @@
      "more": [
       "Close-up of calloused hands measuring a bicycle hub with brass calipers"
      ],
-     "caption": "जेब में पैसा कम था, पर हाथ में हुनर था: cycle का हर एक part पहचानना।"
+     "caption": "जेब में पैसा कम था, पर हाथ में हुनर था: cycle का हर एक part पहचानना।",
+     "photo": {
+      "src": "https://pixabay.com/get/g282e2c40c5bb91aa32714fd760b9c83dd9893910dd21a8c2f1245eef12f877d0b09c2afcc20f88481cc0cbd1d4331c48b0b607877327044fe347542b2f525e30_1280.jpg",
+      "w": 4182,
+      "h": 3827,
+      "credit": "Pixabay (matthiasboeckel)",
+      "page": "https://pixabay.com/photos/bicycle-bicycle-saddle-rusty-6565219/",
+      "card": 0.72
+     }
     },
     {
      "vo": "धीरे-धीरे लुधियाना की तंग गलियों में मुंजाल भाइयों का पार्ट्स का काम फिर से जमने लगा।",
@@ -362,7 +506,15 @@
      "more": [
       "A delivery cart stacked with bicycle rims and tyres pushed through the lane by two Indian labourers"
      ],
-     "caption": "धीरे-धीरे Ludhiana की तंग गलियों में Munjal भाइयों का parts का काम फिर से जमने लगा।"
+     "caption": "धीरे-धीरे Ludhiana की तंग गलियों में Munjal भाइयों का parts का काम फिर से जमने लगा।",
+     "photo": {
+      "src": "https://pixabay.com/get/g8e3459b41daa41443d03b8caa62550c8d5211fa983bdcd55a3e3152ebc59736de5f1376097b2dcdb617f1775ebc33d773c77f6ea7b3c6181d89e0019d3664644_1280.jpg",
+      "w": 7077,
+      "h": 3869,
+      "credit": "Pixabay (thepoorphotographer)",
+      "page": "https://pixabay.com/photos/tokyo-woman-market-city-people-4436914/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर पार्ट्स बेचने में मुनाफ़ा थोड़ा था। असली कमाई पूरी साइकिल बेचने वाले की होती थी।",
@@ -372,14 +524,26 @@
      "more": [
       "Close-up of a few coins in an open palm next to a stack of notes on the counter"
      ],
-     "caption": "पर parts बेचने में मुनाफ़ा थोड़ा था। असली कमाई पूरी cycle बेचने वाले की होती थी।"
+     "caption": "पर parts बेचने में मुनाफ़ा थोड़ा था। असली कमाई पूरी cycle बेचने वाले की होती थी।",
+     "quote": {
+      "text": "पार्ट्स बेचने में मुनाफ़ा थोड़ा था। असली कमाई पूरी cycle बेचने वाले की होती थी।"
+     }
     },
     {
      "vo": "और फिर उन्नीस सौ पचास के दशक में, आज़ाद भारत की सरकार ने एक नया दरवाज़ा खोल दिया।",
      "prompt": "A heavy wooden door opening onto bright light at the end of a dim 1950s Indian government corridor, a stack of files on a bench beside it, no people, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "और फिर 1950s में, आज़ाद भारत की सरकार ने एक नया दरवाज़ा खोल दिया।"
+     "caption": "और फिर 1950s में, आज़ाद भारत की सरकार ने एक नया दरवाज़ा खोल दिया।",
+     "date": "1950s",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Inaugration_of_the_Salar_Jung_Museum_by_Prime_Minister_Jawaharlal_Nehru%2C_c._1951.jpg/1920px-Inaugration_of_the_Salar_Jung_Museum_by_Prime_Minister_Jawaharlal_Nehru%2C_c._1951.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2757,
+      "h": 2438,
+      "credit": "Inaugration of the Salar Jung Museum by Prime Minister Jawaharlal Nehru, c. 1951.jpg by Unknown authorUnknown author, PUBLIC DOMAIN, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Inaugration_of_the_Salar_Jung_Museum_by_Prime_Minister_Jawaharlal_Nehru,_c._1951.jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -402,7 +566,8 @@
      "prompt": "A row of Indian businessmen in 1950s coats waiting on a bench outside a government office door, an Indian clerk with a rubber stamp behind a desk in the doorway, tired faces, overcast light, medium-wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "पर factory लगाने के लिए सरकारी licence चाहिए था, और वो licence मिलना आसान नहीं था।"
+     "caption": "पर factory लगाने के लिए सरकारी licence चाहिए था, और वो licence मिलना आसान नहीं था।",
+     "title": "सरकारी LICENCE"
     },
     {
      "vo": "ये रहा उन्नीस सौ छप्पन का वो लाइसेंस: मुंजाल भाइयों को लुधियाना में पूरी साइकिल बनाने की इजाज़त मिली, और काम शुरू हुआ।",
@@ -412,9 +577,8 @@
      "more": [
       "A young Indian man in a white kurta, face in shadow, holding the stamped letter up to the window light with both hands"
      ],
-     "label": "1956 · Ludhiana",
-     "title": "1956: *पूरी* Cycle",
-     "caption": "ये रहा 1956 का वो licence: Munjal भाइयों को Ludhiana में पूरी cycle बनाने की इजाज़त मिली, और काम शुरू हुआ।"
+     "caption": "ये रहा 1956 का वो licence: Munjal भाइयों को Ludhiana में पूरी cycle बनाने की इजाज़त मिली, और काम शुरू हुआ।",
+     "date": "1956"
     },
     {
      "vo": "अब सिर्फ़ दूसरों के लिए पार्ट्स नहीं, अपने नाम की पूरी साइकिल बनेगी।",
@@ -444,7 +608,16 @@
      "more": [
       "A short row of black bicycles lined up against a factory wall at the end of a shift, evening light"
      ],
-     "caption": "शुरुआत छोटी थी: कहा जाता है, पहले रोज़ करीब 25 cycles ही बनती थीं।"
+     "caption": "शुरुआत छोटी थी: कहा जाता है, पहले रोज़ करीब 25 cycles ही बनती थीं।",
+     "title": "25 CYCLES / दिन",
+     "photo": {
+      "src": "https://pixabay.com/get/gd7b6e7a58ad7e2e0fc52f6386197c36a5a5813313c042dcfda2cd165466af6d783885f491d4d8d03697c5b64033d2a4e22532a204173aa97b78e850d00cfd790_1280.jpg",
+      "w": 3264,
+      "h": 2448,
+      "credit": "Pixabay (lihuikhh)",
+      "page": "https://pixabay.com/photos/assemble-the-bicycle-component-bike-1727903/",
+      "card": 0.72
+     }
     },
     {
      "vo": "हर साइकिल हाथ से जुड़ती, हर पहिए की हर स्पोक कारीगर अपने हाथ से कसता।",
@@ -461,21 +634,30 @@
      "prompt": "A 1950s Indian cycle dealership with several established bicycles on display, an Indian salesman turning away from a lone new black bicycle in the corner, dim interior light, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "और बाज़ार में Atlas जैसे नाम और England से आई cycles पहले से जमी हुई थीं।"
+     "caption": "और बाज़ार में Atlas जैसे नाम और England से आई cycles पहले से जमी हुई थीं।",
+     "label": "ATLAS · बाज़ार में पहले से जमा नाम",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Cycles_on_Display..JPG/1920px-Cycles_on_Display..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3456,
+      "credit": "Cycles on Display..JPG by Rudolph.A.furtado, CC0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Cycles_on_Display..JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "सोचिए, एक नया नाम, थोड़ा पैसा, और सामने बड़े-बड़े खिलाड़ी!",
      "prompt": "A small chess pawn standing alone in the foreground facing a row of tall chess kings and queens on a wooden board, dramatic side light at night, close-up",
      "move": "pull",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "नया नाम, *बड़े* खिलाड़ी"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
     },
     {
      "vo": "तो हीरो जीतेगा कैसे? जवाब फ़ैक्ट्री के अंदर नहीं, उसकी दीवार के बाहर था।",
      "prompt": "A view from inside a factory gate with a large flat sign reading \"HERO CYCLES\" facing the camera, looking out onto a dusty Ludhiana lane full of tiny workshops, rain beginning to fall, grey light, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "तो Hero जीतेगा कैसे? जवाब factory के अंदर नहीं, उसकी दीवार के बाहर था।"
+     "caption": "तो Hero जीतेगा कैसे? जवाब factory के अंदर नहीं, उसकी दीवार के बाहर था।",
+     "drop": true
     }
    ]
   },
@@ -485,28 +667,42 @@
    "shots": [
     {
      "vo": "एक साइकिल में सैकड़ों छोटे पार्ट्स होते हैं: चेन, रिम, स्पोक्स, घंटी, सैडल, पैडल।",
-     "prompt": "A bicycle taken apart and laid out part by part on a factory floor: chain, rims, spokes, bell, saddle, pedals, top-down view, bright overhead light, close-up",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Close-up of a black leather saddle being stitched by an Indian craftsman's hands"
-     ],
-     "caption": "एक cycle में सैकड़ों छोटे parts होते हैं: chain, rim, spokes, bell, saddle, pedal।"
+     "clip": {
+      "id": 31480,
+      "tags": "exchange bike, bicycle, chain, rays, sport, shimano, exchange, cycling, bike, gears",
+      "page": "https://pixabay.com/videos/id-31480/"
+     }
     },
     {
      "vo": "हर पार्ट ख़ुद बनाने का मतलब था ढेर सारी मशीनें, बड़े गोदाम और बहुत सारा पैसा।",
      "prompt": "A vast warehouse with towering shelves of unused bicycle parts under a layer of dust, a single Indian storekeeper in a vest looking up worriedly, cold light, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "हर part ख़ुद बनाने का मतलब था ढेर सारी मशीनें, बड़े गोदाम और बहुत सारा पैसा।"
+     "caption": "हर part ख़ुद बनाने का मतलब था ढेर सारी मशीनें, बड़े गोदाम और बहुत सारा पैसा।",
+     "photo": {
+      "src": "https://pixabay.com/get/gfae03f414e0434b2e16c5fe04fea2aaffd5c9ef9f31d4126087208a6cae64c3edd9c17752040e3d1f74a7da9f7ecc81f34512718d9a636e5325e35369101a8c5_1280.jpg",
+      "w": 6019,
+      "h": 4005,
+      "credit": "Pixabay (Tama66)",
+      "page": "https://pixabay.com/photos/factory-nostalgia-machinery-past-4477482/",
+      "card": 0.72
+     }
     },
     {
      "vo": "तो हीरो ने फ़ैसला किया: ज़्यादातर पार्ट्स लुधियाना की छोटी यूनिट्स से ही ख़रीदे जाएँगे।",
      "prompt": "A maze of narrow Ludhiana lanes packed with tiny workshops, blue smoke and sparks, Indian workers carrying bicycle parts in baskets between them, hazy morning light, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "बनाएँ, या *ख़रीदें*?",
-     "caption": "तो Hero ने फ़ैसला किया: ज़्यादातर parts Ludhiana की छोटी units से ही ख़रीदे जाएँगे।"
+     "caption": "तो Hero ने फ़ैसला किया: ज़्यादातर parts Ludhiana की छोटी units से ही ख़रीदे जाएँगे।",
+     "title": "छोटी UNITS",
+     "photo": {
+      "src": "https://pixabay.com/get/g77f334297e6b06ba377445bb45a18dbc3cccfc612a1a7101e4603ccd8b509043e76780f9341aa33541aa0fb550227e81b30f0c1002dceee6dc424dd867a7ab42_1280.jpg",
+      "w": 6720,
+      "h": 4480,
+      "credit": "Pixabay (jannonivergall)",
+      "page": "https://pixabay.com/photos/worker-grinder-factory-workplace-5736096/",
+      "card": 0.72
+     }
     },
     {
      "vo": "कोई यूनिट सिर्फ़ स्पोक्स बनाती, कोई सिर्फ़ घंटी, तो कोई सिर्फ़ चेन।",
@@ -517,7 +713,15 @@
       "Next door, a workshop board reading \"BELLS\", an Indian teenager polishing chrome bicycle bells",
       "Close-up of a pile of freshly made bicycle chains glinting in lamp light"
      ],
-     "caption": "कोई unit सिर्फ़ spokes बनाती, कोई सिर्फ़ bell, तो कोई सिर्फ़ chain।"
+     "caption": "कोई unit सिर्फ़ spokes बनाती, कोई सिर्फ़ bell, तो कोई सिर्फ़ chain।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/The_Wheel_and_cycling_trade_review_%281889%29_%2814792318313%29.jpg/1920px-The_Wheel_and_cycling_trade_review_%281889%29_%2814792318313%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 1936,
+      "h": 1570,
+      "credit": "The Wheel and cycling trade review (1889) (14792318313).jpg by Internet Archive Book Images, NO RESTRICTIONS, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Wheel_and_cycling_trade_review_(1889)_(14792318313).jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "हीरो इन्हें लगातार ऑर्डर देता, और ऑर्डर के भरोसे ये छोटी यूनिट्स बढ़ती चली गईं।",
@@ -527,7 +731,15 @@
      "more": [
       "Close-up of a handshake over a wooden crate stamped \"HERO CYCLES\""
      ],
-     "caption": "Hero इन्हें लगातार order देता, और order के भरोसे ये छोटी units बढ़ती चली गईं।"
+     "caption": "Hero इन्हें लगातार order देता, और order के भरोसे ये छोटी units बढ़ती चली गईं।",
+     "photo": {
+      "src": "https://pixabay.com/get/ge715043f10398f558fc8e2fb0bc704f1ec08bd37d72c2a19e7e21a31c998bb56750c069cf843d78ce7f836088203e0f5fe7c12d5b7a275be2b1a35d6c357ad6a_1280.jpg",
+      "w": 6720,
+      "h": 4480,
+      "credit": "Pixabay (jannonivergall)",
+      "page": "https://pixabay.com/photos/worker-grinder-factory-workplace-5736096/",
+      "card": 0.72
+     }
     },
     {
      "vo": "कहा जाता है, कई सप्लायर्स हीरो के ही पुराने कारीगर थे, जिन्होंने अपनी यूनिट खोल ली।",
@@ -537,8 +749,15 @@
      "more": [
       "Close-up of his face, eyes glistening with pride, as he looks up at the board"
      ],
-     "label": "LUDHIANA · The supplier network",
-     "caption": "कहा जाता है, कई suppliers Hero के ही पुराने कारीगर थे, जिन्होंने अपनी unit खोल ली।"
+     "caption": "कहा जाता है, कई suppliers Hero के ही पुराने कारीगर थे, जिन्होंने अपनी unit खोल ली।",
+     "photo": {
+      "src": "https://pixabay.com/get/g08e9f1ec64c3548eaa3cd5374da61efaae29d58925f7e8496248b671c23260cdcfa80424b6629188baec1be0e4931745ebe9b9dd1a56d08dbe9be695dea86730_1280.jpg",
+      "w": 3094,
+      "h": 2059,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/adult-artisan-tools-workshop-1866533/",
+      "card": 0.72
+     }
     },
     {
      "vo": "माल रोज़ आता, रोज़ साइकिल बनती, और गोदाम में पार्ट्स का ढेर नहीं लगता।",
@@ -555,7 +774,10 @@
      "prompt": "A young Indian father with a thin moustache in a cream 1970s shirt reaching for a new black roadster bicycle in a shop, a large cardboard price tag hanging from its handlebar, smiling, bright morning light, medium shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "कम गोदाम मतलब कम ख़र्च, और कम ख़र्च मतलब सस्ती, पर मज़बूत cycle।"
+     "caption": "कम गोदाम मतलब कम ख़र्च, और कम ख़र्च मतलब सस्ती, पर मज़बूत cycle।",
+     "quote": {
+      "text": "कम गोदाम मतलब कम ख़र्च, और कम ख़र्च मतलब सस्ती, पर मज़बूत cycle।"
+     }
     },
     {
      "vo": "नतीजा देखिए, ये रहा ग्राफ़: रोज़ पच्चीस से शुरू हुई हीरो, कहा जाता है उन्नीस सौ छियासठ तक साल में एक लाख साइकिलें बनाने लगी।",
@@ -565,8 +787,8 @@
      "more": [
       "An Indian factory manager in a 1960s shirt pointing at the chart while Indian workers look on, impressed faces"
      ],
-     "label": "1966 · 1 lakh a year",
-     "caption": "नतीजा देखिए, ये रहा ग्राफ़: रोज़ 25 से शुरू हुई Hero, कहा जाता है 1966 तक साल में 1 लाख cycles बनाने लगी।"
+     "caption": "नतीजा देखिए, ये रहा ग्राफ़: रोज़ 25 से शुरू हुई Hero, कहा जाता है 1966 तक साल में 1 लाख cycles बनाने लगी।",
+     "date": "1966"
     },
     {
      "vo": "दूसरी तरफ़ डीलर्स गाँव-गाँव तक पहुँचे, और हर कस्बे में हीरो की दुकान खुल गई।",
@@ -583,7 +805,8 @@
      "prompt": "A wall calendar page reading \"1975\" large and facing the camera, fluttering in a fan breeze in a factory office, black bicycles visible through the window behind, warm afternoon light, close-up",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "Hero अब सस्ती, टिकाऊ cycle का दूसरा नाम बन रहा था। और फिर आया 1975।"
+     "caption": "Hero अब सस्ती, टिकाऊ cycle का दूसरा नाम बन रहा था। और फिर आया 1975।",
+     "date": "1975"
     }
    ]
   },
@@ -599,15 +822,23 @@
      "more": [
       "Chart shot: close-up of a bar chart on a board with the tallest bar labelled \"HERO\" and the year \"1975\""
      ],
-     "label": "1975 · India No.1",
-     "caption": "1975 तक Hero, India की सबसे बड़ी cycle company बन चुकी थी।"
+     "caption": "1975 तक Hero, India की सबसे बड़ी cycle company बन चुकी थी।",
+     "photo": {
+      "src": "https://pixabay.com/get/gff3186c03f4ac88e7039eed9158a8673f84f511629841e0ab0f5a00a61f16a21d80ebde11553bcdd6be0191740dd3f87e248e8342712a6d3093094ac5c3086a4_1280.jpg",
+      "w": 4320,
+      "h": 3240,
+      "credit": "Pixabay (varshapanicker)",
+      "page": "https://pixabay.com/photos/rusted-bicycles-wheel-old-iron-2794810/",
+      "card": 0.72
+     }
     },
     {
      "vo": "ये वो दौर था, जब साइकिल हर घर की सबसे ज़रूरी सवारी होती थी।",
-     "prompt": "A 1970s Indian small-town street at morning rush, a dozen Indian people on black bicycles, a milkman, a schoolboy and a clerk among them, a tea stall beside the road, soft hazy morning light, wide shot",
-     "move": "push",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "ये वो दौर था, जब cycle हर घर की सबसे ज़रूरी सवारी होती थी।"
+     "clip": {
+      "id": 3175,
+      "tags": "india, street, busy, rickshaw, people, indian, shiva, asia, shops",
+      "page": "https://pixabay.com/videos/id-3175/"
+     }
     },
     {
      "vo": "दूधवाला, डाकिया, मज़दूर, स्कूल जाता बच्चा, सबकी सवारी एक ही थी: हीरो।",
@@ -617,7 +848,15 @@
      "more": [
       "The ten-year-old Indian boy in a blue school uniform racing his friends on bicycles, laughing, bright morning"
      ],
-     "caption": "दूधवाला, डाकिया, मज़दूर, स्कूल जाता बच्चा, सबकी सवारी एक ही थी: Hero।"
+     "caption": "दूधवाला, डाकिया, मज़दूर, स्कूल जाता बच्चा, सबकी सवारी एक ही थी: Hero।",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Sikh_postman_01.jpg/1920px-Sikh_postman_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2521,
+      "h": 2563,
+      "credit": "Sikh postman 01.jpg by Harvinder Chandigarh, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Sikh_postman_01.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "कई घरों में तो शादी में भी नई साइकिल दी जाती थी, बड़े शौक़ से।",
@@ -627,17 +866,23 @@
      "more": [
       "Close-up of a red ribbon and marigold garland tied on a bicycle handlebar"
      ],
-     "caption": "कई घरों में तो शादी में भी नई cycle दी जाती थी, बड़े शौक़ से।"
+     "caption": "कई घरों में तो शादी में भी नई cycle दी जाती थी, बड़े शौक़ से।",
+     "photo": {
+      "src": "https://pixabay.com/get/ge8b6662a79f1f96f73d1ca6dd2c2ffe3604f02cf107bfb81fbe5d69853c89b8a8945fa084e5451f5fce428911cab502d04579be3609b7e22e8293d3a4207389a_1280.jpg",
+      "w": 6720,
+      "h": 4480,
+      "credit": "Pixabay (Jupilu)",
+      "page": "https://pixabay.com/photos/classic-bike-old-house-kiss-love-10119091/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और लुधियाना से हीरो की साइकिलें अब विदेश के बाज़ारों तक भी जाने लगी थीं।",
-     "prompt": "Indian dock workers loading wooden crates stamped \"HERO CYCLES\" onto a cargo ship at a Bombay dock, the stamped crate large and facing the camera, overcast monsoon sky, wide shot",
-     "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "more": [
-      "Close-up of a crate lid lifted to show a black bicycle wrapped in brown paper"
-     ],
-     "caption": "और Ludhiana से Hero की cycles अब विदेश के बाज़ारों तक भी जाने लगी थीं।"
+     "clip": {
+      "id": 23008,
+      "tags": "container terminal, harbor, container, cargo, port, export, shipping, terminal, industry, logistics, ship, transport, harbour, warehouse",
+      "page": "https://pixabay.com/videos/id-23008/"
+     }
     },
     {
      "vo": "फिर आया उन्नीस सौ छियासी, जब हीरो का नाम गिनीज़ बुक ऑफ़ वर्ल्ड रिकॉर्ड्स में दर्ज हुआ।",
@@ -647,15 +892,14 @@
      "more": [
       "Indian factory workers gathered around a notice board, cheering, faces lit with joy, bright daylight"
      ],
-     "label": "1986 · Guinness World Record",
-     "caption": "फिर आया 1986, जब Hero का नाम Guinness Book of World Records में दर्ज हुआ।"
+     "caption": "फिर आया 1986, जब Hero का नाम Guinness Book of World Records में दर्ज हुआ।",
+     "date": "1986"
     },
     {
      "vo": "गिनती के हिसाब से, दुनिया में सबसे ज़्यादा साइकिलें बनाने वाली कंपनी!",
      "prompt": "Thousands of black roadster bicycles in perfect rows stretching to the horizon outside a Ludhiana factory, golden hour, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "Kamalia से *World No.1*",
      "caption": "गिनती के हिसाब से, दुनिया में सबसे ज़्यादा cycles बनाने वाली company!"
     },
     {
@@ -666,7 +910,8 @@
      "more": [
       "An Indian accountant in spectacles adding figures on a mechanical calculator, amazed expression"
      ],
-     "caption": "कहा जाता है, उस दौर में Hero साल की करीब 22 लाख cycles बना रहा था।"
+     "caption": "कहा जाता है, उस दौर में Hero साल की करीब 22 लाख cycles बना रहा था।",
+     "title": "22 लाख / साल"
     },
     {
      "vo": "मतलब हर दिन हज़ारों साइकिलें, उस परिवार की फ़ैक्ट्री से जो कभी सिर्फ़ स्पोक्स बेचता था।",
@@ -686,7 +931,10 @@
      "more": [
       "A faded black-and-white photograph of a mud-brick Kamalia lane resting on a windowsill beside a chrome bicycle bell"
      ],
-     "caption": "सोचिए, जिनका शहर Partition में छूट गया था, वो दुनिया में सबसे ज़्यादा cycles बना रहे थे।"
+     "caption": "सोचिए, जिनका शहर Partition में छूट गया था, वो दुनिया में सबसे ज़्यादा cycles बना रहे थे।",
+     "quote": {
+      "text": "जिनका शहर Partition में छूट गया था, वो दुनिया में सबसे ज़्यादा cycles बना रहे थे।"
+     }
     },
     {
      "vo": "पर उन्नीस सौ अस्सी के दशक में भारत की सड़कों पर मोटरसाइकिल दिखने लगी थी।",
@@ -696,7 +944,15 @@
      "more": [
       "Close-up of an Indian cyclist turning his head to watch the motorcycle pass, curious face"
      ],
-     "caption": "पर 1980s में भारत की सड़कों पर motorcycle दिखने लगी थी।"
+     "caption": "पर 1980s में भारत की सड़कों पर motorcycle दिखने लगी थी।",
+     "photo": {
+      "src": "https://pixabay.com/get/gf2c3fbefc9765b21b132c8fd6643c6999aedfc53596512e0a9cd29a6a1e2b6b7fe63b4e95408a5910e5020582b78b9eed24a0e3dc79225697180839eabc2c007_1280.jpg",
+      "w": 4096,
+      "h": 2730,
+      "credit": "Pixabay (shivaphotographyy)",
+      "page": "https://pixabay.com/photos/traffic-city-road-street-rain-7272520/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -709,8 +965,8 @@
      "prompt": "An Indian businessman in a white kurta on the left and a Japanese executive in a grey suit on the right shaking hands across a long boardroom table, both in silhouette against a bright window, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "label": "1984 · Hero Honda",
-     "caption": "1984 में Brijmohan Lall Munjal ने Japan की Honda के साथ हाथ मिलाया।"
+     "caption": "1984 में Brijmohan Lall Munjal ने Japan की Honda के साथ हाथ मिलाया।",
+     "date": "1984"
     },
     {
      "vo": "सौदा बराबरी का था: हीरो होंडा में छब्बीस प्रतिशत हिस्सा मुंजाल परिवार का, और छब्बीस प्रतिशत होंडा का।",
@@ -720,8 +976,16 @@
      "more": [
       "Close-up of an Indian hand and a Japanese hand each placing a pen down beside the signatures"
      ],
-     "title": "26% + *26%*",
-     "caption": "सौदा बराबरी का था: Hero Honda में 26% हिस्सा Munjal परिवार का, और 26% Honda का।"
+     "caption": "सौदा बराबरी का था: Hero Honda में 26% हिस्सा Munjal परिवार का, और 26% Honda का।",
+     "label": "HONDA · जापान की साझेदार कंपनी",
+     "photo": {
+      "src": "https://pixabay.com/get/g510322367792b2bac0d64075288271ff8570a4af7e468bb4c3a8c64c6bf9c1c94afbae862d21b8fa08102f827d4f099ec3c59e475610d6a1d44f744ae8234636_1280.jpg",
+      "w": 2271,
+      "h": 1703,
+      "credit": "Pixabay (Ralphs_Fotos)",
+      "page": "https://pixabay.com/photos/handshake-agreement-trade-business-3100563/",
+      "card": 0.72
+     }
     },
     {
      "vo": "उन्नीस सौ पचासी में हरियाणा के धारूहेड़ा प्लांट से पहली बाइक निकली: सी डी सौ।",
@@ -731,15 +995,30 @@
      "more": [
       "Wide shot of a new factory with a gate sign reading \"DHARUHERA\", flat Haryana fields around it, pale morning"
      ],
-     "label": "DHARUHERA · 1985",
-     "caption": "1985 में Haryana के Dharuhera plant से पहली bike निकली: CD100।"
+     "caption": "1985 में Haryana के Dharuhera plant से पहली bike निकली: CD100।",
+     "date": "1985"
     },
     {
      "vo": "उस दौर में बाइक ख़रीदने वाला सबसे पहले एक ही बात पूछता था: माइलेज कितना देगी?",
      "prompt": "An older Indian man with a thin moustache in a cream shirt asking an Indian salesman a question with raised eyebrows, a red motorcycle between them, 1980s two-wheeler showroom, tube-light interior, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "उस दौर में bike ख़रीदने वाला सबसे पहले एक ही बात पूछता था: mileage कितना देगी?"
+     "caption": "उस दौर में bike ख़रीदने वाला सबसे पहले एक ही बात पूछता था: mileage कितना देगी?",
+     "place": {
+      "name": "DHARUHERA",
+      "sub": "HARYANA · 1985",
+      "query": "Dharuhera, Haryana, India",
+      "lat": 28.2055,
+      "lon": 76.7953
+     },
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/1985_CD_100.jpg/1920px-1985_CD_100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4320,
+      "h": 3240,
+      "credit": "1985 CD 100.jpg by Abhiedava, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1985_CD_100.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "सी डी सौ में सौ सीसी का फ़ोर-स्ट्रोक इंजन था, जो उस दौर की ज़्यादातर टू-स्ट्रोक बाइक्स से कम पेट्रोल पीता था।",
@@ -759,7 +1038,18 @@
      "more": [
       "Close-up of a hand screwing the fuel cap shut on a red fuel tank"
      ],
-     "caption": "Hero Honda का जवाब एक मशहूर ad line बन गया: 'Fill it, shut it, forget it.'"
+     "caption": "Hero Honda का जवाब एक मशहूर ad line बन गया: 'Fill it, shut it, forget it.'",
+     "quote": {
+      "text": "Fill it, shut it, forget it."
+     },
+     "photo": {
+      "src": "https://pixabay.com/get/g215852815f5398e1800590de6fd6f9f8b46db95f7a6cbec7b45e1a27e6e9f08510136c0c799c11ee0500bf6a139dadd1f7c60e0b6f933189a51e1b8d8ee8b5b8_1280.jpg",
+      "w": 4368,
+      "h": 2084,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/filling-station-gas-gas-station-1839760/",
+      "card": 0.72
+     }
     },
     {
      "vo": "उन्नीस सौ चौरानवे में आई स्प्लेंडर, जो आगे चलकर लाखों घरों की पहली बाइक बनी।",
@@ -769,7 +1059,16 @@
      "more": [
       "An Indian family of three riding a black commuter motorcycle past a sweet shop in light rain"
      ],
-     "caption": "1994 में आई Splendor, जो आगे चलकर लाखों घरों की पहली bike बनी।"
+     "caption": "1994 में आई Splendor, जो आगे चलकर लाखों घरों की पहली bike बनी।",
+     "date": "1994",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Hero_Honda_Splendor_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1440,
+      "h": 960,
+      "credit": "Hero Honda Splendor 2007.jpg by Larry Tomlinson, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Hero_Honda_Splendor_2007.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "और दो हज़ार एक तक हीरो होंडा, गिनती में दुनिया की सबसे बड़ी मोटरसाइकिल कंपनी बन गई।",
@@ -779,22 +1078,46 @@
      "more": [
       "Epic shot of a long line of 2000s Indian commuter motorcycles rolling off an assembly line under bright factory lights, Indian workers in blue overalls"
      ],
-     "label": "2001 · World No.1 by units",
-     "caption": "और 2001 तक Hero Honda, गिनती में दुनिया की सबसे बड़ी motorcycle company बन गई।"
+     "caption": "और 2001 तक Hero Honda, गिनती में दुनिया की सबसे बड़ी motorcycle company बन गई।",
+     "date": "2001",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Hero_Honda_Splendor_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1440,
+      "h": 960,
+      "credit": "Hero Honda Splendor 2007.jpg by Larry Tomlinson, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Hero_Honda_Splendor_2007.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "साइकिल वाले परिवार ने अब मोटरसाइकिल में भी वर्ल्ड नंबर वन का ठप्पा लगा दिया!",
      "prompt": "A black roadster bicycle on the left and a red motorcycle on the right, both seen exactly from their left side, standing side by side on a Ludhiana road at golden hour, long shadows, wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "title": "फिर से *No.1*",
-     "caption": "Cycle वाले परिवार ने अब motorcycle में भी World No.1 का ठप्पा लगा दिया!"
+     "caption": "Cycle वाले परिवार ने अब motorcycle में भी World No.1 का ठप्पा लगा दिया!",
+     "drop": true,
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Hero_Honda_Ambition_135_Left_Side_View.jpg/1920px-Hero_Honda_Ambition_135_Left_Side_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4000,
+      "h": 3000,
+      "credit": "Hero Honda Ambition 135 Left Side View.jpg by Kamalesh Ramalingame, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Hero_Honda_Ambition_135_Left_Side_View.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर इतना बड़ा कारोबार, और चार भाइयों का बढ़ता परिवार। आगे क्या होना था?",
      "prompt": "A long boardroom table at night with many empty chairs, thick family files stacked in the middle, a single desk lamp lit, medium-wide shot",
      "move": "pan_left",
-     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
+     "photo": {
+      "src": "https://pixabay.com/get/g0cc348154fa94f2a01370a15343e353801009b626e84841ed7131e9420873507426982824010e652e0a22ae1d4eeef5ac359ea60f5c129226d9a49577353ff5c_1280.jpg",
+      "w": 5695,
+      "h": 3797,
+      "credit": "Pixabay (Pexels)",
+      "page": "https://pixabay.com/photos/chairs-empty-office-room-table-2181916/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -810,8 +1133,8 @@
      "more": [
       "A faded black-and-white photograph of a mud-brick Kamalia lane on a table beside a gleaming medal"
      ],
-     "label": "2005 · Padma Bhushan",
-     "caption": "2005 में, Kamalia के उसी लड़के Brijmohan Lall Munjal को Padma Bhushan मिला।"
+     "caption": "2005 में, Kamalia के उसी लड़के Brijmohan Lall Munjal को Padma Bhushan मिला।",
+     "date": "2005"
     },
     {
      "vo": "समय के साथ परिवार बढ़ा, और दो हज़ार दस के आसपास मुंजाल परिवार ने कारोबार आपस में बाँट लिया।",
@@ -821,7 +1144,8 @@
      "more": [
       "Close-up of a hand placing a file labelled \"HERO CYCLES\" on one of the stacks"
      ],
-     "caption": "समय के साथ परिवार बढ़ा, और 2010 के आसपास Munjal परिवार ने कारोबार आपस में बाँट लिया।"
+     "caption": "समय के साथ परिवार बढ़ा, और 2010 के आसपास Munjal परिवार ने कारोबार आपस में बाँट लिया।",
+     "date": "2010"
     },
     {
      "vo": "बँटवारे में हीरो साइकिल्स, ओम प्रकाश मुंजाल के परिवार के हिस्से में आई, जहाँ से सब शुरू हुआ था।",
@@ -835,7 +1159,15 @@
      "prompt": "Rows of new motorcycles parked in a vast factory yard in bright midday sun, Indian workers in blue overalls walking between them, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "और Hero Honda, जो अब देश की सबसे बड़ी bike company थी, Brijmohan Lall Munjal के परिवार के पास रही।"
+     "caption": "और Hero Honda, जो अब देश की सबसे बड़ी bike company थी, Brijmohan Lall Munjal के परिवार के पास रही।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hero_Honda_Splendor_Pro_2011_Model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1280,
+      "h": 878,
+      "credit": "Hero Honda Splendor Pro 2011 Model.jpg by Sonachalam 2k Ramalingame, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Hero_Honda_Splendor_Pro_2011_Model.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "दो हज़ार ग्यारह में होंडा अलग हुई, मुंजाल परिवार ने उसका छब्बीस प्रतिशत हिस्सा ख़रीदा, और नाम हुआ हीरो मोटोकॉर्प।",
@@ -845,8 +1177,8 @@
      "more": [
       "A factory gate sign being changed to read \"HERO MOTOCORP\", Indian workers on a ladder, overcast sky"
      ],
-     "label": "2011 · Hero MotoCorp",
-     "caption": "2011 में Honda अलग हुई, Munjal परिवार ने उसका 26% हिस्सा ख़रीदा, और नाम हुआ Hero MotoCorp।"
+     "caption": "2011 में Honda अलग हुई, Munjal परिवार ने उसका 26% हिस्सा ख़रीदा, और नाम हुआ Hero MotoCorp।",
+     "date": "2011"
     },
     {
      "vo": "दो हज़ार पंद्रह में ओम प्रकाश और बृजमोहन, कुछ ही महीनों के फ़ासले पर दुनिया से चले गए। बृजमोहन बानवे साल के थे।",
@@ -856,15 +1188,16 @@
      "more": [
       "Indian factory workers standing in silence at the factory gate, heads bowed, grey rain"
      ],
-     "label": "2015 · End of an era",
-     "caption": "2015 में Om Prakash और Brijmohan, कुछ ही महीनों के फ़ासले पर दुनिया से चले गए। Brijmohan 92 साल के थे।"
+     "caption": "2015 में Om Prakash और Brijmohan, कुछ ही महीनों के फ़ासले पर दुनिया से चले गए। Brijmohan 92 साल के थे।",
+     "date": "2015"
     },
     {
      "vo": "आज हीरो साइकिल्स को ओम प्रकाश मुंजाल के बेटे पंकज मुंजाल चलाते हैं।",
      "prompt": "An Indian businessman in a suit in silhouette standing in a modern Ludhiana factory office with glass walls, new bicycles on display behind him, bright window light, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "आज Hero Cycles को Om Prakash Munjal के बेटे Pankaj Munjal चलाते हैं।"
+     "caption": "आज Hero Cycles को Om Prakash Munjal के बेटे Pankaj Munjal चलाते हैं।",
+     "label": "PANKAJ MUNJAL · Hero Cycles के मौजूदा प्रमुख"
     },
     {
      "vo": "और लुधियाना में आज भी साइकिलें बनती हैं, सप्लायर्स की वो गलियाँ आज भी उसी तरह चलती हैं।",
@@ -874,14 +1207,30 @@
      "more": [
       "Close-up of the lean Indian bicycle mechanic, now older with a white beard and a grey turban, teaching a young Indian apprentice to lace a wheel"
      ],
-     "caption": "और Ludhiana में आज भी cycles बनती हैं, suppliers की वो गलियाँ आज भी उसी तरह चलती हैं।"
+     "caption": "और Ludhiana में आज भी cycles बनती हैं, suppliers की वो गलियाँ आज भी उसी तरह चलती हैं।",
+     "photo": {
+      "src": "https://pixabay.com/get/g06e77c180be0c6523056fc26633c81fbbd484c0bfdf135f143643c74386f45da46243c7d2e13ac9c8e3fcba484d8fb4820d0a6bd678f2e08263f43fa0735d5ad_1280.jpg",
+      "w": 4608,
+      "h": 3456,
+      "credit": "Pixabay (RahulPandit)",
+      "page": "https://pixabay.com/photos/shop-city-night-neon-advertising-4806610/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और बहुत से घरों में, बच्चे की पहली साइकिल आज भी हीरो ही होती है।",
      "prompt": "A young Indian father holding the back of a small bicycle seat as his young daughter pedals, a present-day Indian housing colony at dusk, soft street lights, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "और बहुत से घरों में, बच्चे की पहली cycle आज भी Hero ही होती है।"
+     "caption": "और बहुत से घरों में, बच्चे की पहली cycle आज भी Hero ही होती है।",
+     "photo": {
+      "src": "https://pixabay.com/get/gd2239265fad9a9549865f01aa97ef1427402a47b294f6a7a1b2a054907e3b01c5b966fbe4ce7a9f6def5bda433ccd6eb13f6d4479e697608abc893f3b6d0a359_1280.jpg",
+      "w": 6997,
+      "h": 4987,
+      "credit": "Pixabay (Engin_Akyurt)",
+      "page": "https://pixabay.com/photos/bicycle-children-graffiti-art-3045580/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -904,7 +1253,18 @@
      "prompt": "Four slim young Indian men in 1940s white kurtas walking into a small Ludhiana workshop at dawn, side view, one man carrying a box of bicycle spokes in his arms, soft dawn light, medium-wide shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
-     "caption": "चार भाइयों से, जिनका शहर उस पार छूट गया, और जिन्होंने छोटे parts से शुरुआत की।"
+     "caption": "चार भाइयों से, जिनका शहर उस पार छूट गया, और जिन्होंने छोटे parts से शुरुआत की।",
+     "quote": {
+      "text": "चार भाइयों से, जिनका शहर उस पार छूट गया, और जिन्होंने छोटे parts से शुरुआत की।"
+     },
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/A_view_of_Kamalia_Wellcome_L0068594.jpg/1920px-A_view_of_Kamalia_Wellcome_L0068594.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5200,
+      "h": 4061,
+      "credit": "A view of Kamalia Wellcome L0068594.jpg by unknown, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:A_view_of_Kamalia_Wellcome_L0068594.jpg",
+      "card": 0.72
+     }
     },
     {
      "vo": "अगली बार, एक और ब्रांड की कहानी, जिसका सच आपकी सोच से बिलकुल अलग है।",
@@ -936,7 +1296,5 @@
    1
   ]
  },
- "framework": "2026-11-20 06:50",
- "released_at": "2026-11-20 06:50",
- "voice_requested": "voice-ll-028-hero-cycles-ac87187c30"
+ "photos_checked": true
 }
