@@ -1,0 +1,813 @@
+{
+ "slug": "gk-40-mumbai-local-system",
+ "format": "long",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "words_in_edit": true,
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "मुंबई लोकल हर 3 मिनट कैसे? 75 लाख लोगों का छिपा टाइमटेबल 🚆",
+ "thumbnail": {
+  "text": "एक ट्रेन, *4,000* लोग",
+  "plane": "A packed Mumbai suburban local train pulling into a platform at morning rush hour, seen big and close from the platform edge, commuters filling the open doorways shoulder to shoulder, hands gripping the door poles, a sea of heads inside, overhead electric wires above, warm low golden sunlight cutting through the station roof, dust and haze in the light beams, dramatic contrast, photoreal, no text"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "ch3",
+   "ch5"
+  ],
+  "reflective": [
+   "ch1",
+   "ch2",
+   "outro"
+  ],
+  "epic": [
+   "ch4",
+   "ch6"
+  ]
+ },
+ "source": "Central Railway और Western Railway (Mumbai Division) की आधिकारिक जानकारी; Mumbai Railway Vikas Corporation (MRVC); Indian Railways Signal Engineering Manual; Ministry of Railways; India Meteorological Department",
+ "journey_score": 8.6,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सोचिए, सुबह नौ बजे आप दादर के प्लेटफ़ॉर्म पर खड़े हैं।",
+     "prompt": "Office commuters packed shoulder to shoulder at the edge of a crowded Mumbai railway platform at 9 am, men in shirts and women in kurtas, a large flat yellow board reading \"DADAR\" hanging above them facing the camera, bright morning sun through the roof, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "एक लोकल निकलती है, और तीन मिनट में अगली आ जाती है।",
+     "prompt": "A cream-and-blue Mumbai local train pulling away from a platform on the right, the headlight of the next local already glowing on the same track behind it, commuters on the platform turning to look, bright morning light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर ये तीन मिनट आख़िर तय कौन करता है?",
+     "prompt": "Close-up of a man in a white shirt checking his wristwatch, face sharp and worried, on a crowded Mumbai platform, a local train standing behind him, bright daylight, medium close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इतनी भीड़ में ट्रेन सिर्फ़ बीस सेकंड क्यों रुकती है?",
+     "prompt": "A Mumbai local stopped at a platform with open doors, a dense crowd of Indian men and women stepping out while another crowd pushes in at the same doors, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "मोटरमैन को कैसे पता कि आगे पटरी खाली है?",
+     "prompt": "A Mumbai local motorman seen from the side in his cab, grey uniform, hand on the controller, eyes fixed on the clear tracks ahead through the windscreen, bright morning sun, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और एक ट्रेन लेट हो जाए, तो पीछे वालों का क्या?",
+     "prompt": "Three Mumbai local trains standing one behind another on the same track with a glowing red signal in front of the first, commuters leaning out of the open doors to look ahead, overcast daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "मुंबई लोकल रोज़ क़रीब पचहत्तर लाख यात्री ढोती है, लगभग पूरे हॉन्ग कॉन्ग जितने।",
+     "prompt": "Rivers of Indian commuters filling every platform and staircase of a Mumbai suburban railway station seen from a foot overbridge, several local trains standing at the platforms, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "मुंबई लोकल रोज़ क़रीब 75 लाख यात्री ढोती है, लगभग पूरे हॉन्ग कॉन्ग जितने।"
+    },
+    {
+     "vo": "इतनी भीड़ के साथ मुंबई लोकल का टाइमटेबल आख़िर चलता कैसे है?",
+     "prompt": "Thousands of Indian commuters streaming across a foot overbridge toward waiting local trains below, seen from above at a slight angle, dense crowd of heads and shoulders, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "जवाब रात एक बजे शुरू होता है,",
+     "prompt": "A large round platform clock showing one o'clock hanging over an empty Mumbai railway platform at night, empty benches below, warm yellow lamp light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "जब आख़िरी लोकल निकलती है और पटरियाँ खाली हो जाती हैं।",
+     "prompt": "The red tail lamps of the last Mumbai local train shrinking down empty tracks at night, the empty platform in the foreground, overhead wires glinting under orange lamp light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "सुबह 4 बजे",
+   "shots": [
+    {
+     "vo": "रात क़रीब एक बजे आख़िरी लोकल निकल जाती है। डिब्बों में बस गिने-चुने थके यात्री बचे हैं।",
+     "prompt": "Inside an almost empty Mumbai local coach at night, three tired Indian passengers dozing against the windows, one man with a bag on his lap, warm yellow ceiling lights, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अब पटरियाँ खाली हैं, पर आराम नहीं करतीं। कुछ घंटों का ब्लॉक लगता है, यानी उस हिस्से में कोई ट्रेन नहीं।",
+     "prompt": "Empty Mumbai railway tracks at night with no train, overhead wires above, a closed signal glowing red, a quiet platform far behind, orange lamp light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अब पटरियाँ खाली हैं, पर आराम नहीं करतीं। कुछ घंटों का block लगता है, यानी उस हिस्से में कोई ट्रेन नहीं।"
+    },
+    {
+     "vo": "इसी ब्लॉक में रेलवे की टीम टॉर्च लेकर पटरी, तार और सिग्नल जाँचती है। एक ढीला बोल्ट भी सुबह भारी पड़ सकता है।",
+     "prompt": "Railway workers in orange safety vests crouching beside a rail at night, one man tightening a large bolt on the rail fastening with a spanner while another shines a torch on it, Mumbai suburban line, torch light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसी block में रेलवे की टीम टॉर्च लेकर पटरी, तार और सिग्नल जाँचती है। एक ढीला बोल्ट भी सुबह भारी पड़ सकता है।"
+    },
+    {
+     "vo": "ऊपर के तार में पच्चीस हज़ार वोल्ट बिजली दौड़ती है। काम से पहले ये बिजली बंद की जाती है।",
+     "prompt": "A lineman in helmet and safety gear standing on a tower wagon platform working on the overhead wires above a Mumbai track at night, bright floodlights, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ऊपर के तार में 25,000 volt बिजली दौड़ती है। काम से पहले ये बिजली बंद की जाती है।"
+    },
+    {
+     "vo": "दो हज़ार सोलह तक कुछ लाइनों पर पुरानी पंद्रह सौ वोल्ट डी सी बिजली थी। अब पूरा नेटवर्क पच्चीस हज़ार वोल्ट ए सी पर चलता है।",
+     "prompt": "A steel mast beside a Mumbai suburban track holding thick overhead wires and rows of white insulators, dark evening sky, medium shot from the track side, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "2016 तक कुछ लाइनों पर पुरानी 1,500 volt DC बिजली थी। अब पूरा नेटवर्क 25,000 volt AC पर चलता है।"
+    },
+    {
+     "vo": "उधर कार शेड में ट्रेनें तैयार होती हैं, जैसे वेस्टर्न के कांदिवली और सेंट्रल के कुर्ला शेड में। हर शेड में दर्जनों ट्रेनें खड़ी होती हैं।",
+     "prompt": "Rows of Mumbai local trains parked side by side inside a large car shed at night, two technicians in overalls walking between them with torches, bright shed lights, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उधर car shed में ट्रेनें तैयार होती हैं, जैसे Western के कांदिवली और Central के कुर्ला shed में। हर shed में दर्जनों ट्रेनें खड़ी होती हैं।"
+    },
+    {
+     "vo": "हर ट्रेन के ब्रेक, दरवाज़े, पंखे और लाइट एक-एक करके देखे जाते हैं। जो ट्रेन पास नहीं हुई, वो सुबह नहीं निकलती।",
+     "prompt": "A technician in overalls standing in an inspection pit shining a torch at the brake equipment under a Mumbai local coach, the underside large in frame, bright shed light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ज़्यादातर लोकल बारह डिब्बों की होती हैं। कुछ लाइनों पर पंद्रह डिब्बों की भी।",
+     "prompt": "A very long Mumbai local train stretching along a curved platform seen from the platform end, twelve coaches receding into the distance, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ज़्यादातर लोकल 12 डिब्बों की होती हैं। कुछ लाइनों पर 15 डिब्बों की भी।"
+    },
+    {
+     "vo": "पंद्रह डिब्बों वाली पहली लोकल नवंबर दो हज़ार नौ में वेस्टर्न लाइन पर चली थी। तीन डिब्बे ज़्यादा, यानी सैकड़ों यात्री ज़्यादा।",
+     "prompt": "A long fifteen-coach Mumbai local running past a platform on the Western line, the last coaches still curving into view, commuters on the platform watching, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "15 डिब्बों वाली पहली लोकल नवंबर 2009 में Western लाइन पर चली थी। तीन डिब्बे ज़्यादा, यानी सैकड़ों यात्री ज़्यादा।"
+    },
+    {
+     "vo": "फिर आता है मोटरमैन। ड्यूटी शुरू करने से पहले क्रू लॉबी में उसका ब्रेथ टेस्ट होता है।",
+     "prompt": "A Mumbai local motorman in grey uniform blowing into a handheld breathalyser held by an official in a white shirt, at a desk in a railway office, a flat board reading \"CREW LOBBY\" on the wall facing the camera, bright indoor light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "फिर आता है मोटरमैन। ड्यूटी शुरू करने से पहले crew lobby में उसका breath test होता है।"
+    },
+    {
+     "vo": "शराब का ज़रा सा भी असर मिला, तो उस दिन वो ट्रेन नहीं चलाएगा। ये जाँच हर ड्यूटी पर होती है।",
+     "prompt": "Close-up of an official's hand holding a breathalyser device above an open register on a wooden desk, the motorman waiting in grey uniform on the right, bright indoor light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "हर लोकल में दो लोग चलाने वाले होते हैं। आगे मोटरमैन, सबसे पीछे गार्ड।",
+     "prompt": "A motorman in grey uniform climbing into the front cab of a Mumbai local on the left, a guard with a canvas bag walking toward the rear cab far down the same train on the right, dim early-morning platform light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "सुबह चार बजे के आसपास पहली लोकल निकल पड़ती है। उसमें मंडी जाने वाले और शिफ़्ट से लौटते लोग होते हैं।",
+     "prompt": "The first Mumbai local of the day leaving a platform in pre-dawn darkness, headlight bright, a few early Indian workers with vegetable baskets and bags sitting inside the lit coach, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर उसके बाद की हज़ारों ट्रेनें कब और किस पटरी पर चलेंगी? ये पहले से लिखा होता है।",
+     "prompt": "A thick printed railway working timetable book open on a railway official's desk, columns of tiny times on the page, a pencil lying across it, a window with a platform behind, warm lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "टाइमटेबल का गणित",
+   "shots": [
+    {
+     "vo": "आगे बढ़ने से पहले एक बात: ऐसी एक वीडियो के पीछे बहुत मेहनत लगती है, पर चैनल को सब्सक्राइब करना बिल्कुल फ़्री है।",
+     "subscribe_ask": true,
+     "prompt": "An early steam passenger train with small wooden coaches leaving a Bombay terminus in 1853, white smoke from the funnel, crowds in period dress watching from the side, no cars or modern vehicles, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "move": "push"
+    },
+    {
+     "vo": "भारत की पहली यात्री ट्रेन सोलह अप्रैल अठारह सौ तिरपन को यहीं चली थी, बोरी बंदर से ठाणे तक।",
+     "prompt": "An early steam passenger train with small wooden coaches leaving a Bombay terminus in 1853, white smoke from the funnel, crowds in period dress watching from the side, no cars or modern vehicles, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "भारत की पहली यात्री ट्रेन 16 अप्रैल 1853 को यहीं चली थी, बोरी बंदर से ठाणे तक।"
+    },
+    {
+     "vo": "चौंतीस किलोमीटर, चौदह डिब्बे और क़रीब चार सौ मेहमान। तीन इंजन खींच रहे थे: साहिब, सुल्तान और सिंध।",
+     "prompt": "Three small steam locomotives coupled at the head of a wooden passenger train in 1853 Bombay, guests in top hats and saris boarding, flags on the coaches, no modern vehicles, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "34 किलोमीटर, 14 डिब्बे और क़रीब 400 मेहमान। तीन इंजन खींच रहे थे: साहिब, सुल्तान और सिंध।"
+    },
+    {
+     "vo": "आज मुंबई लोकल की तीन बड़ी लाइनें हैं: वेस्टर्न, सेंट्रल और हार्बर।",
+     "map": {
+      "center": [
+       19.15,
+       72.98
+      ],
+      "span": 1.0,
+      "from_span": 6,
+      "countries": [
+       {
+        "iso": "IND",
+        "label": "भारत",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 18.9353,
+        "lon": 72.827,
+        "label": "चर्चगेट"
+       },
+       {
+        "lat": 18.9398,
+        "lon": 72.8355,
+        "label": "सीएसएमटी"
+       },
+       {
+        "lat": 19.4559,
+        "lon": 72.8114,
+        "label": "विरार"
+       },
+       {
+        "lat": 19.2437,
+        "lon": 73.1355,
+        "label": "कल्याण"
+       },
+       {
+        "lat": 18.9894,
+        "lon": 73.1175,
+        "label": "पनवेल"
+       },
+       {
+        "lat": 19.1645,
+        "lon": 72.8493,
+        "label": "गोरेगाँव"
+       }
+      ]
+     },
+     "caption": "आज मुंबई लोकल की तीन बड़ी लाइनें हैं: Western, Central और Harbour।"
+    },
+    {
+     "vo": "वेस्टर्न चर्चगेट से विरार और आगे डहाणू रोड तक जाती है, एक सौ बीस किलोमीटर से ज़्यादा।",
+     "prompt": "A Mumbai local running along the coast beside the blue sea, the water on the left and the train on the right, palm trees, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Western चर्चगेट से विरार और आगे डहाणू रोड तक जाती है, 120 किलोमीटर से ज़्यादा।"
+    },
+    {
+     "vo": "सेंट्रल सीएसएमटी से कल्याण, फिर कसारा और खोपोली तक। हार्बर सीएसएमटी से पनवेल, और एक शाखा गोरेगाँव तक।",
+     "prompt": "A Mumbai local climbing a track toward green hills beyond Kalyan, forested ghats in the distance, mist in the valley, overcast daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Central सीएसएमटी से कल्याण, फिर कसारा और खोपोली तक। Harbour सीएसएमटी से पनवेल, और एक शाखा गोरेगाँव तक।"
+    },
+    {
+     "vo": "वेस्टर्न और सेंट्रल मिलकर रोज़ तीन हज़ार से ज़्यादा फेरे चलाती हैं। औसतन हर मिनट दो से ज़्यादा।",
+     "prompt": "Aerial view of a Mumbai junction with many parallel tracks and four local trains moving at once, dense city buildings around, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Western और Central मिलकर रोज़ 3,000 से ज़्यादा फेरे चलाती हैं। औसतन हर मिनट दो से ज़्यादा।"
+    },
+    {
+     "vo": "हर फेरे का अपना नंबर, समय और रास्ता तय है। रेलवे इसे पाथ कहती है।",
+     "prompt": "A railway officer's finger tracing one row on a printed timetable page filled with columns of times, a pen beside it, warm desk lamp light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर फेरे का अपना नंबर, समय और रास्ता तय है। रेलवे इसे path कहती है।"
+    },
+    {
+     "vo": "टाइमटेबल आम तौर पर साल में एक-दो बार बदलता है। एक नई ट्रेन जोड़ना भी पहेली है। उसे बाक़ी सबके बीच खाली जगह चाहिए।",
+     "prompt": "Two railway planners, a man and a woman, leaning over printed timetable sheets on an office desk, the woman pointing at a gap between rows, a calculator beside them, bright office light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बड़ा राज़ है पटरियों की जोड़ी। एक जोड़ी स्लो ट्रेनों के लिए, दूसरी फ़ास्ट के लिए।",
+     "prompt": "Four parallel tracks seen from a foot overbridge, a local train on the inner pair on the left and another local on the outer pair on the right, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "बड़ा राज़ है पटरियों की जोड़ी। एक जोड़ी slow ट्रेनों के लिए, दूसरी fast के लिए।"
+    },
+    {
+     "vo": "स्लो ट्रेन हर स्टेशन पर रुकती है। फ़ास्ट सिर्फ़ दादर, बांद्रा, अंधेरी जैसे बड़े स्टेशनों पर।",
+     "prompt": "A fast Mumbai local speeding through a small platform without stopping on the left, a slow local standing at the next platform on the right with passengers waiting, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Slow ट्रेन हर स्टेशन पर रुकती है। Fast सिर्फ़ दादर, बांद्रा, अंधेरी जैसे बड़े स्टेशनों पर।"
+    },
+    {
+     "vo": "दोनों अलग पटरी पर हैं, इसलिए फ़ास्ट ट्रेन को हर स्लो के पीछे नहीं रुकना पड़ता।",
+     "prompt": "Two Mumbai locals side by side on parallel tracks, the left one overtaking the right one, passengers at the open doors looking across at each other, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दोनों अलग पटरी पर हैं, इसलिए fast ट्रेन को हर slow के पीछे नहीं रुकना पड़ता।"
+    },
+    {
+     "vo": "सुबह ज़्यादातर भीड़ चर्चगेट और सीएसएमटी की तरफ़ जाती है, जहाँ दफ़्तर हैं। शाम को ठीक उल्टा।",
+     "prompt": "Morning rush at a Mumbai suburban platform, a train on the left overflowing with commuters hanging from the doors, the train on the right nearly empty, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसलिए पीक में उसी दिशा में ट्रेनें घनी रखी जाती हैं। कुछ हिस्सों में हर तीन मिनट में एक।",
+     "prompt": "Three Mumbai local trains one behind another at a safe distance on a straight stretch of track, equal gaps between them, morning haze, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसलिए peak में उसी दिशा में ट्रेनें घनी रखी जाती हैं। कुछ हिस्सों में हर तीन मिनट में एक।"
+    },
+    {
+     "vo": "पर काग़ज़ पर तीन मिनट लिखना आसान है। असली पटरी पर ट्रेनें आपस में दूर कैसे रहती हैं?",
+     "prompt": "The red tail lamp of one Mumbai local in the foreground and the bright headlight of the next local far behind on the same track, dusk, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "सिग्नल की दीवार",
+   "shots": [
+    {
+     "vo": "पूरी लाइन छोटे हिस्सों में बँटी है, जिन्हें ब्लॉक कहते हैं। मुंबई में ये ब्लॉक छोटे हैं, ताकि ज़्यादा ट्रेनें समा सकें।",
+     "prompt": "A long straight Mumbai suburban track with a row of tall colour-light signal posts spaced closely along it into the distance, overhead wires above, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पूरी लाइन छोटे हिस्सों में बँटी है, जिन्हें block कहते हैं। मुंबई में ये block छोटे हैं, ताकि ज़्यादा ट्रेनें समा सकें।"
+    },
+    {
+     "vo": "हर ब्लॉक की शुरुआत में एक सिग्नल खड़ा है। एक ब्लॉक में एक समय पर सिर्फ़ एक ट्रेन।",
+     "prompt": "A four-lamp colour-light signal post beside a Mumbai track, large in frame, one lamp lit red, overhead wires behind, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर block की शुरुआत में एक सिग्नल खड़ा है। एक block में एक समय पर सिर्फ़ एक ट्रेन।"
+    },
+    {
+     "vo": "पटरी में हल्का करंट चलता रहता है। इसे ट्रैक सर्किट कहते हैं।",
+     "prompt": "Close-up of a steel rail joint with a thick bonded cable attached, a small grey trackside equipment box beside the track, bright daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पटरी में हल्का करंट चलता रहता है। इसे track circuit कहते हैं।"
+    },
+    {
+     "vo": "ट्रेन के लोहे के पहिए दोनों पटरियों को जोड़ देते हैं। सिस्टम समझ जाता है, यहाँ ट्रेन है।",
+     "prompt": "Low close-up of the steel wheels of a Mumbai local rolling over both rails at once, a bright shine on the metal, bright daylight, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "उसी पल पीछे का सिग्नल अपने-आप लाल हो जाता है। कोई इंसान बटन नहीं दबाता।",
+     "prompt": "A Mumbai local passing a signal post on the right, the signal behind it glowing red, the track stretching back, dusk, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "मुंबई में सिग्नल के चार रूप हैं: लाल, पीला, दो पीले और हरा।",
+     "prompt": "A row of four colour-light signal posts beside a Mumbai track at dusk, lit red, yellow, two yellow lamps and green in order from near to far, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "लाल मतलब रुको। पीला मतलब अगला सिग्नल लाल है, धीमे हो जाओ।",
+     "prompt": "View from a motorman's cab of a single yellow signal ahead on the left, a red signal glowing further down the straight track, evening light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दो पीले मतलब अगला सिग्नल पीला है, तैयार रहो। हरा मतलब आगे कम से कम तीन ब्लॉक खाली हैं।",
+     "prompt": "View from a motorman's cab of a bright green signal ahead on a clear straight track with empty rails, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दो पीले मतलब अगला सिग्नल पीला है, तैयार रहो। हरा मतलब आगे कम से कम तीन block खाली हैं।"
+    },
+    {
+     "vo": "ट्रेन आगे बढ़ती है, तो पीछे के सिग्नल एक-एक करके लाल से पीले, फिर हरे होते जाते हैं। इसी से ट्रेनें पास-पास चलकर भी सुरक्षित रहती हैं।",
+     "prompt": "Two Mumbai locals on the same track far apart, the signals between them lit red near the front train and yellow then green further back, dusk, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर अगर मोटरमैन से पीला या लाल छूट जाए तो? केबिन में चेतावनी की आवाज़ बजती है।",
+     "prompt": "Inside a Mumbai local motorman's cab, a motorman in grey uniform looking alert, his hand reaching toward a round button on the console, an amber warning light glowing, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये है ए डब्ल्यू एस, यानी ऑक्ज़िलियरी वॉर्निंग सिस्टम। मोटरमैन को बटन दबाकर बताना होता है कि उसने देख लिया।",
+     "prompt": "Close-up of a motorman's hand pressing a round acknowledge button on a cab console, an amber warning light glowing beside it, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये है AWS, यानी Auxiliary Warning System। मोटरमैन को बटन दबाकर बताना होता है कि उसने देख लिया।"
+    },
+    {
+     "vo": "समय पर जवाब नहीं मिला, तो ब्रेक अपने-आप लग जाते हैं।",
+     "prompt": "A Mumbai local braking to a halt in front of a red signal, grey brake dust rising near the wheels, the red lamp large on the right, dusk, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "यानी इंसान चूके, तो मशीन बचाती है।",
+     "prompt": "A Mumbai local standing still just short of a red signal on an empty track, the motorman visible through the windscreen with a relieved face, evening light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पटरी तो संभल गई। पर सफ़र का सबसे धीमा हिस्सा पटरी नहीं, प्लेटफ़ॉर्म है।",
+     "prompt": "A Mumbai platform packed with waiting Indian commuters, all looking toward an approaching local train on the left, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "20 सेकंड का खेल",
+   "shots": [
+    {
+     "vo": "तीन मिनट के गैप में ट्रेन को आना, रुकना और फिर निकलना है।",
+     "prompt": "A Mumbai local gliding into a crowded platform, the crowd surging forward toward the doors, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसलिए ज़्यादातर स्टेशनों पर लोकल सिर्फ़ बीस से तीस सेकंड रुकती है।",
+     "prompt": "Commuters stepping out and in through the open doors of a stopped Mumbai local, a guard at the rear leaning out and watching, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसलिए ज़्यादातर स्टेशनों पर लोकल सिर्फ़ 20 से 30 सेकंड रुकती है।"
+    },
+    {
+     "vo": "अब भीड़ देखिए। पीक में एक बारह डिब्बे की लोकल चार हज़ार से ज़्यादा लोग ले जाती है।",
+     "prompt": "Inside a packed Mumbai local coach at rush hour, Indian men standing pressed together, hands gripping the overhead bars, bright ceiling lights, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अब भीड़ देखिए। peak में एक 12 डिब्बे की लोकल 4,000 से ज़्यादा लोग ले जाती है।"
+    },
+    {
+     "vo": "कई डिब्बों में एक वर्ग मीटर में चौदह से सोलह लोग खड़े होते हैं। रेलवे इसे सुपर डेंस क्रश लोड कहती है।",
+     "prompt": "Top-down view into a crowded Mumbai local coach, commuters standing so close together that no floor is visible, shoulders and bags filling the frame, bright ceiling lights, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "कई डिब्बों में एक वर्ग मीटर में 14 से 16 लोग खड़े होते हैं। रेलवे इसे super dense crush load कहती है।"
+    },
+    {
+     "vo": "दादर, अंधेरी, ठाणे जैसे स्टेशनों पर एक ही स्टॉप में सैकड़ों लोग उतरते-चढ़ते हैं।",
+     "prompt": "A massive exchange of passengers at the open doors of a Mumbai local, hundreds of people streaming out and in, a large flat yellow board reading \"ANDHERI\" hanging above facing the camera, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ज़्यादातर लोकल में दरवाज़े बंद ही नहीं होते। उतरना-चढ़ना तेज़ होता है, पर यही ख़तरा भी है।",
+     "prompt": "Three Indian commuters standing at the open doorway of a moving Mumbai local, holding the door pole, wind in their shirts, city passing behind, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दिसंबर दो हज़ार सत्रह में पहली ए सी लोकल आई। उसके दरवाज़े अपने-आप बंद होते हैं, और बंद हुए बिना ट्रेन नहीं चलती।",
+     "prompt": "A modern air-conditioned Mumbai local at a platform, its sliding doors closing, Indian commuters standing inside behind the glass, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दिसंबर 2017 में पहली AC लोकल आई। उसके दरवाज़े अपने-आप बंद होते हैं, और बंद हुए बिना ट्रेन नहीं चलती।"
+    },
+    {
+     "vo": "रोज़ के यात्री जानते हैं कि उनका डिब्बा ठीक कहाँ रुकेगा। वो पहले से वहीं खड़े मिलते हैं।",
+     "prompt": "Indian commuters lined up in a neat row on the platform edge at one exact spot, all facing the empty track before a train arrives, bright morning light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "क्योंकि मोटरमैन हर बार ट्रेन एक तय निशान पर रोकता है। प्लेटफ़ॉर्म के सिरे पर बारह या पंद्रह डिब्बों का बोर्ड लगा होता है।",
+     "prompt": "A flat white board reading \"12 CAR STOP\" on a post at the platform end facing the camera, a Mumbai local stopped right beside it, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "क्योंकि मोटरमैन हर बार ट्रेन एक तय निशान पर रोकता है। प्लेटफ़ॉर्म के सिरे पर 12 या 15 डिब्बों का बोर्ड लगा होता है।"
+    },
+    {
+     "vo": "लेडीज़ डिब्बा और फ़र्स्ट क्लास भी हर बार उसी जगह आते हैं।",
+     "prompt": "The side of a Mumbai local coach with a large flat painted panel reading \"LADIES\" facing the camera, Indian women in saris and kurtas boarding through the door, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Ladies डिब्बा और first class भी हर बार उसी जगह आते हैं।"
+    },
+    {
+     "vo": "उन्नीस सौ बानवे में वेस्टर्न लाइन पर सिर्फ़ महिलाओं के लिए पूरी एक लोकल चली थी, लेडीज़ स्पेशल। आज भी हर लोकल में महिलाओं के अलग डिब्बे हैं।",
+     "prompt": "Indian women commuters boarding a Mumbai local at a platform, a large flat board reading \"LADIES SPECIAL\" on a post facing the camera, bright morning light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "1992 में Western लाइन पर सिर्फ़ महिलाओं के लिए पूरी एक लोकल चली थी, Ladies Special। आज भी हर लोकल में महिलाओं के अलग डिब्बे हैं।"
+    },
+    {
+     "vo": "सबसे पीछे गार्ड प्लेटफ़ॉर्म देखता है। सब चढ़ गए, तो बजर बजाकर मोटरमैन को इशारा देता है।",
+     "prompt": "A railway guard in uniform leaning out of the rear cab of a Mumbai local, looking down the platform, his hand near the buzzer button, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "तीस स्टेशनों पर दस-दस सेकंड ज़्यादा लगे, तो पूरे पाँच मिनट की देरी। यानी तीन मिनट के गैप से भी ज़्यादा।",
+     "prompt": "Indian commuters on a platform looking anxiously down the empty track for a late train, one man checking his watch, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और पीछे वाली ट्रेन को लाल सिग्नल मिलने लगता है। अब मामला किसके हाथ में जाता है?",
+     "prompt": "A Mumbai local stopped at a red signal just outside a platform, passengers leaning out of the doors and peering ahead, overcast daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "कंट्रोल रूम",
+   "shots": [
+    {
+     "vo": "हर लाइन पर एक कंट्रोल रूम नज़र रखता है। सेंट्रल का सीएसएमटी में, वेस्टर्न का चर्चगेट में।",
+     "prompt": "The grand Gothic stone building of a Mumbai railway terminus with a tall central dome at evening, crowds of commuters outside, warm evening light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर लाइन पर एक control room नज़र रखता है। Central का सीएसएमटी में, Western का चर्चगेट में।"
+    },
+    {
+     "vo": "दोनों शहर के दक्षिणी सिरे पर, एक-दूसरे से थोड़ी ही दूर।",
+     "map": {
+      "center": [
+       18.938,
+       72.831
+      ],
+      "span": 0.04,
+      "from_span": 0.6,
+      "countries": [
+       {
+        "iso": "IND",
+        "label": "भारत",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 18.9398,
+        "lon": 72.8355,
+        "label": "सीएसएमटी"
+       },
+       {
+        "lat": 18.9353,
+        "lon": 72.827,
+        "label": "चर्चगेट"
+       }
+      ]
+     }
+    },
+    {
+     "vo": "यहाँ हर ट्रेन कहाँ है, लाइव दिखता है। इसे ट्रेन मैनेजमेंट सिस्टम, यानी टी एम एस कहते हैं।",
+     "prompt": "Railway controllers seated at a long desk in a dim control room, headsets on, a large wall panel of glowing train lines behind them, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "यहाँ हर ट्रेन कहाँ है, live दिखता है। इसे Train Management System, यानी TMS कहते हैं।"
+    },
+    {
+     "vo": "पहले ये काम काग़ज़ पर होता था। कंट्रोलर बड़े चार्ट पर पेंसिल से हर ट्रेन की तिरछी लाइन खींचते थे।",
+     "prompt": "A controller in a white shirt drawing a diagonal pencil line on a large paper train chart pinned to a table, a telephone receiver at his ear, old desk lamps, warm light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "हर हिस्से का अलग कंट्रोलर। हाथ में फ़ोन, कान पर हेडसेट, और नज़र हर स्टेशन पर।",
+     "prompt": "Close-up of a railway controller wearing a headset and speaking into the microphone, eyes focused on a screen out of frame, soft control room light, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर हिस्से का अलग कंट्रोलर। हाथ में फ़ोन, कान पर headset, और नज़र हर स्टेशन पर।"
+    },
+    {
+     "vo": "मान लीजिए किसी स्टेशन पर भीड़ से ट्रेन दो मिनट अटक गई।",
+     "prompt": "A Mumbai local held at a platform with crowds jammed at its open doors, passengers pushing in and out, a guard looking at his watch, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पहला रास्ता: पीछे की ट्रेनें थोड़ी धीमी करना, ताकि सबके बीच गैप बराबर रहे।",
+     "prompt": "Several Mumbai locals moving slowly one behind another on a track with wide equal gaps between them, haze, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दूसरा: किसी ट्रेन को बीच में ही ख़त्म करके वापस मोड़ना, ताकि दूसरी तरफ़ की कमी पूरी हो।",
+     "prompt": "A Mumbai local stopped at a middle platform with its destination end empty, commuters getting off and walking away along the platform, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "तीसरा: फ़ास्ट ट्रेन को कुछ देर स्लो पटरी पर चलाना, या उल्टा। इसके लिए पटरियों के बीच कैंची जैसे जोड़ होते हैं, जिन्हें पॉइंट्स कहते हैं।",
+     "prompt": "A Mumbai local crossing over from one track to another at points, the scissor-shaped crossing rails large and clear in the foreground in front of it, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "तीसरा: fast ट्रेन को कुछ देर slow पटरी पर चलाना, या उल्टा। इसके लिए पटरियों के बीच कैंची जैसे जोड़ होते हैं, जिन्हें points कहते हैं।"
+    },
+    {
+     "vo": "बारिश में मुश्किल सबसे बड़ी। पटरी पर पानी चढ़ा, तो उस हिस्से में ट्रेनें रोकनी पड़ती हैं।",
+     "prompt": "Mumbai railway tracks flooded with brown monsoon water up to the rails, a local train halted in the water, heavy rain, grey overcast light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "छब्बीस जुलाई दो हज़ार पाँच को सांताक्रूज़ में एक ही दिन में नौ सौ चौवालीस मिलीमीटर बारिश हुई।",
+     "prompt": "Torrential monsoon rain over a flooded Mumbai suburban platform, brown water up to the platform edge, Indian commuters wading with bags held high, grey light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "26 जुलाई 2005 को सांताक्रूज़ में एक ही दिन में 944 mm बारिश हुई।"
+    },
+    {
+     "vo": "उस दिन पूरे शहर की लोकल थम गई, और लाखों लोग रास्ते में फँस गए।",
+     "prompt": "Stranded Indian commuters sitting inside a halted Mumbai local at night, floodwater outside the windows, rain streaming down the glass, dim yellow coach lights, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "हर फ़ैसले में एक ही बात: किसी प्लेटफ़ॉर्म पर भीड़ इतनी न बढ़े कि ख़तरा बन जाए।",
+     "prompt": "A crowded Mumbai platform in the rain, Indian commuters waiting under umbrellas, wet floor reflecting lights, overcast daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर एक बात बाकी है। आख़िरी स्टेशन पर ट्रेन इतनी जल्दी वापस कैसे मुड़ती है?",
+     "prompt": "A Mumbai local arriving slowly at the end of its track, a heavy steel buffer stop large in the foreground in front of the train, platform crowds alongside, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "आख़िरी स्टेशन",
+   "shots": [
+    {
+     "vo": "चर्चगेट या सीएसएमटी पर पटरी ख़त्म हो जाती है। आगे जाने की जगह नहीं।",
+     "prompt": "Heavy steel buffer stops at the end of the tracks, the tracks ending abruptly, a train approaching slowly from the distance, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ट्रेन को घुमाने के लिए वहाँ कोई गोल चक्कर भी नहीं।",
+     "prompt": "A Mumbai terminus with several parallel tracks all ending at buffer stops, trains waiting at the platforms, no turntable, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "राज़ ये है कि लोकल के दोनों सिरों पर केबिन होता है।",
+     "prompt": "Both ends of a Mumbai local train showing a driver's cab window with a headlight, platform crowds alongside, bright daylight, medium shot from the side, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "जो सिरा अब तक पीछे था, वही अब आगे बन जाता है।",
+     "prompt": "The rear end of a Mumbai local now facing outward, its headlight lit and its cab window glowing, standing at the end of the platform, dusk, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "मोटरमैन दूसरे सिरे के केबिन में पहुँचता है, गार्ड भी अपनी जगह बदलता है।",
+     "prompt": "A motorman in grey uniform walking along a platform toward the far cab of a Mumbai local, a bag in his hand, the long train beside him, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "उतने में यात्री उतरते हैं, नई भीड़ चढ़ती है, और कुछ ही मिनटों में ट्रेन फिर निकल पड़ती है।",
+     "prompt": "A rush of new Indian commuters boarding the same Mumbai local at the terminus while the last passengers step off, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसीलिए एक ही ट्रेन दिन भर में कई चक्कर लगा लेती है। एक फेरा ख़त्म, तुरंत अगला।",
+     "prompt": "A Mumbai local arriving at a terminus platform where a big crowd is already waiting to board, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दोनों सिरों पर केबिन वाली बिजली की लोकल यहाँ सौ साल से चल रही है। पहली तीन फ़रवरी उन्नीस सौ पच्चीस को, विक्टोरिया टर्मिनस से कुर्ला तक।",
+     "prompt": "An early electric suburban train with wooden coaches standing at a Bombay terminus in 1925, passengers in period clothes with turbans and saris on the platform, no cars or modern vehicles, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दोनों सिरों पर केबिन वाली बिजली की लोकल यहाँ सौ साल से चल रही है। पहली 3 फ़रवरी 1925 को, विक्टोरिया टर्मिनस से कुर्ला तक।"
+    },
+    {
+     "vo": "वही विक्टोरिया टर्मिनस आज सीएसएमटी है, और दो हज़ार चार से यूनेस्को की विश्व धरोहर।",
+     "prompt": "The domed Gothic tower of a Mumbai heritage railway terminus lit up at night, commuters streaming in below, warm lights, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "वही विक्टोरिया टर्मिनस आज सीएसएमटी है, और 2004 से UNESCO की विश्व धरोहर।"
+    },
+    {
+     "vo": "रात को आख़िरी फेरे के बाद ट्रेनें शेड लौटती हैं। फिर वही जाँच शुरू।",
+     "prompt": "Mumbai local trains rolling slowly into a car shed at night, workers waiting with torches beside the track, bright shed lights, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "रात को आख़िरी फेरे के बाद ट्रेनें shed लौटती हैं। फिर वही जाँच शुरू।"
+    },
+    {
+     "vo": "और ज़्यादातर रविवार कई हिस्सों में मेगा ब्लॉक लगता है।",
+     "prompt": "Railway workers replacing a rail on a Mumbai track on a Sunday, a flat board reading \"MEGA BLOCK\" beside the track facing the camera, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "और ज़्यादातर रविवार कई हिस्सों में Mega Block लगता है।"
+    },
+    {
+     "vo": "कुछ घंटे ट्रेनें कम चलती हैं, ताकि पटरी बदलने जैसा बड़ा काम हो सके।",
+     "prompt": "A heavy yellow track machine working on a Mumbai railway line with crews in orange vests around it, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "रेलवे इसकी सूचना पहले से देती है, ताकि लोग अपना सफ़र पहले से तय कर सकें।",
+     "prompt": "Indian commuters reading a large printed paper notice pasted flat on a platform pillar, the notice reading \"रविवार मेगा ब्लॉक\" facing the camera, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ताकि सोमवार सुबह फिर वही तीन मिनट का गैप बना रहे, और पचहत्तर लाख लोग काम पर पहुँचें।",
+     "prompt": "A Mumbai platform filling with Indian commuters on a Monday morning, a local arriving on time, bright morning sun, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ताकि सोमवार सुबह फिर वही तीन मिनट का गैप बना रहे, और 75 लाख लोग काम पर पहुँचें।"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "तीन मिनट टाइमटेबल तय करता है, खाली पटरी सिग्नल बताते हैं, और बिगड़ा खेल कंट्रोल रूम संभालता है।",
+     "prompt": "A Mumbai local passing a green signal at sunset, crowds at the open doors, golden light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "तीन मिनट टाइमटेबल तय करता है, खाली पटरी सिग्नल बताते हैं, और बिगड़ा खेल control room संभालता है।"
+    },
+    {
+     "vo": "अगली बार प्लेटफ़ॉर्म का इंडिकेटर देखिए: एफ़ मतलब फ़ास्ट, एस मतलब स्लो, और साथ में बारह या पंद्रह डिब्बे।",
+     "prompt": "Indian commuters on a platform looking up at a hanging platform indicator, faces upturned, bright daylight, medium shot from below, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अगली बार प्लेटफ़ॉर्म का indicator देखिए: F मतलब fast, S मतलब slow, और साथ में 12 या 15 डिब्बे।"
+    },
+    {
+     "vo": "अगले एपिसोड में: लोकल का एक डिब्बा बनता कैसे है, फ़ैक्ट्री से पटरी तक।",
+     "prompt": "A new local train coach under construction in a large railway coach factory, a worker welding the steel body with bright sparks, bright factory light, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ऐसे ही गज़ब सवालों के लिए सब्सक्राइब करें।",
+     "prompt": "A Mumbai local train standing at a platform with Indian commuters boarding, warm golden light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  }
+ ],
+ "topic_demand": {
+  "median": 148010,
+  "hits": 5,
+  "outliers": 6,
+  "q": "मुंबई लोकल ट्रेन कैसे चलती है",
+  "matched": "2/9"
+ },
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "system",
+  "points": [
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1
+  ]
+ }
+}
