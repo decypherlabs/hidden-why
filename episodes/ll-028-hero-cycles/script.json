@@ -96,13 +96,14 @@
     },
     {
      "vo": "दूधवाला, अख़बार वाला, स्कूल जाता बच्चा, सब उसी पर चलते थे।",
-     "prompt": "An elderly Indian milkman with a white turban riding a black roadster bicycle loaded with steel milk cans, seen from its left side, a boy in a blue school uniform and a newspaper seller on bicycles behind him, misty dawn street in Punjab, wide shot",
+     "prompt": "An elderly Indian milkman with a white turban riding a plain black roadster bicycle seen exactly from its left side, two steel milk cans hung on the rear carrier, front wheel on the right, a quiet 1970s Punjab village lane with mud houses, no cars, plain blank walls, misty dawn light, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "An Indian newspaper boy on a black bicycle tossing a rolled Hindi newspaper onto a balcony at dawn",
       "Indian schoolchildren in uniforms cycling together past a mustard field in morning light"
-     ]
+     ],
+     "seed": 8923
     },
     {
      "vo": "लोग साइकिल नहीं माँगते थे, कहते थे, 'हीरो लाना है।'",
@@ -116,11 +117,12 @@
     },
     {
      "vo": "पर क्या हमने कभी पूछा, हीरो साइकिल्स आई कहाँ से?",
-     "prompt": "A black roadster bicycle seen exactly from its left side, standing in the middle of a dusty Indian lane at dawn, a young boy in a blue school uniform on the left looking at it with a puzzled face, soft misty morning light, medium shot",
+     "prompt": "A plain black roadster bicycle seen exactly from its left side, front wheel on the right, standing in the middle of a dusty 1970s Indian village lane at dawn, a young boy in a blue school uniform on the left looking at it with a puzzled face, mud houses, no cars, soft misty morning light, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "caption": "पर क्या हमने कभी पूछा, Hero Cycles आई कहाँ से?",
-     "title": "आई कहाँ से?"
+     "title": "आई कहाँ से?",
+     "seed": 8925
     },
     {
      "vo": "क्या ये किसी अमीर फ़ैमिली की कंपनी थी?",
@@ -252,7 +254,7 @@
     },
     {
      "vo": "उस दौर में साइकिल अमीरी की चीज़ थी, और ज़्यादातर इंग्लैंड की फ़ैक्ट्रियों से बनकर आती थी।",
-     "prompt": "A wealthy Indian man in a suit riding a shiny bicycle with a small British maker's plate on the frame, seen from its left side, barefoot Indian village children staring at it from the roadside, 1930s Punjab street, bright noon light, wide shot",
+     "prompt": "A wealthy Indian man in a suit riding a shiny plain black bicycle seen exactly from its left side, front wheel on the right, barefoot Indian village children staring at it from the dusty roadside, mud houses, no cars, no signs, 1930s Punjab, bright noon light, wide shot",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -266,15 +268,17 @@
       "credit": "Robin Hood Raleigh bicycles Elliot Street downtown Brattleboro VT May 2024 02.jpg by Artaxerxes, CC BY 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Robin_Hood_Raleigh_bicycles_Elliot_Street_downtown_Brattleboro_VT_May_2024_02.jpg",
       "card": 0.72
-     }
+     },
+     "seed": 8935
     },
     {
      "vo": "सोचिए, एक साधारण साइकिल के लिए भी भारत को विदेश की तरफ़ देखना पड़ता था!",
-     "prompt": "A single black bicycle wheel balanced on one pan of a brass scale, a pile of gold coins on the other pan, a cargo steamship visible on the horizon behind, grey overcast light, medium shot",
+     "prompt": "Indian porters carrying large wooden crates stamped with nothing but plain wood, unloading disassembled bicycles from a cargo steamship at a 1930s harbour dock, an Indian merchant in a turban inspecting one new black bicycle in the foreground, grey overcast light, wide shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "caption": "सोचिए, एक साधारण cycle के लिए भी भारत को विदेश की तरफ़ देखना पड़ता था!",
-     "title": "विदेश पर निर्भर"
+     "title": "विदेश पर निर्भर",
+     "seed": 8936
     },
     {
      "vo": "फिर उन्नीस सौ चौवालीस में, करीब बीस साल के बृजमोहन ने एक बड़ा फ़ैसला लिया: घर का कस्बा छोड़ना।",
@@ -742,7 +746,7 @@
     },
     {
      "vo": "कहा जाता है, कई सप्लायर्स हीरो के ही पुराने कारीगर थे, जिन्होंने अपनी यूनिट खोल ली।",
-     "prompt": "A lean Indian bicycle mechanic in his thirties with a grey turban, a trimmed beard and a khaki kurta standing proudly outside his own small workshop, a new flat board reading \"CYCLE PARTS WORKS\" above it facing the camera, his wife and two children beside him, warm late afternoon, medium-wide shot",
+     "prompt": "A lean Indian bicycle mechanic in his thirties with a grey turban, a trimmed beard and a khaki kurta standing proudly in front of his own small workshop, a new flat board reading \"CYCLE PARTS WORKS\" mounted above the doorway facing the camera, bicycle rims stacked beside the door, warm late afternoon, medium-wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -756,7 +760,8 @@
       "credit": "Pixabay (Pexels)",
       "page": "https://pixabay.com/photos/adult-artisan-tools-workshop-1866533/",
       "card": 0.72
-     }
+     },
+     "seed": 8970
     },
     {
      "vo": "माल रोज़ आता, रोज़ साइकिल बनती, और गोदाम में पार्ट्स का ढेर नहीं लगता।",
@@ -841,7 +846,7 @@
     },
     {
      "vo": "दूधवाला, डाकिया, मज़दूर, स्कूल जाता बच्चा, सबकी सवारी एक ही थी: हीरो।",
-     "prompt": "An elderly Indian milkman with a white turban and steel milk cans cycling on the left, passing an Indian postman with a mail bag on a bicycle on the right, misty winter dawn, wide shot",
+     "prompt": "An Indian postman in khaki with a mail bag riding a plain black roadster bicycle seen exactly from its left side, front wheel on the right, on an empty misty winter village lane at dawn, mud houses, no cars, soft light, wide shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -855,7 +860,8 @@
       "credit": "Sikh postman 01.jpg by Harvinder Chandigarh, CC BY-SA 4.0, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Sikh_postman_01.jpg",
       "card": 0.72
-     }
+     },
+     "seed": 8978
     },
     {
      "vo": "कई घरों में तो शादी में भी नई साइकिल दी जाती थी, बड़े शौक़ से।",
@@ -1021,13 +1027,14 @@
     },
     {
      "vo": "सी डी सौ में सौ सीसी का फ़ोर-स्ट्रोक इंजन था, जो उस दौर की ज़्यादातर टू-स्ट्रोक बाइक्स से कम पेट्रोल पीता था।",
-     "prompt": "A close-up of a polished 100cc four-stroke motorcycle engine with cooling fins, a mechanic's hand pointing at the engine, bright workshop light",
+     "prompt": "A polished silver four-stroke 100cc motorcycle engine with cooling fins and a single cylinder, standing alone on a clean workbench, no hands, sharp detail, bright workshop light, close-up",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "A smoky 1980s Indian road where a two-stroke scooter leaves a blue exhaust cloud beside a clean-running red motorcycle"
      ],
-     "caption": "CD100 में 100cc का 4-stroke engine था, जो उस दौर की ज़्यादातर 2-stroke bikes से कम petrol पीता था।"
+     "caption": "CD100 में 100cc का 4-stroke engine था, जो उस दौर की ज़्यादातर 2-stroke bikes से कम petrol पीता था।",
+     "seed": 8991
     },
     {
      "vo": "हीरो होंडा का जवाब एक मशहूर ऐड लाइन बन गया: 'फ़िल इट, शट इट, फ़ॉरगेट इट।'",
@@ -1137,14 +1144,15 @@
     },
     {
      "vo": "समय के साथ परिवार बढ़ा, और दो हज़ार दस के आसपास मुंजाल परिवार ने कारोबार आपस में बाँट लिया।",
-     "prompt": "A long office table at dusk with files split into two separate stacks, a wall calendar page reading \"2010\" large and facing the camera above it, dim light, medium shot",
+     "prompt": "Two older Indian men in white kurtas sitting across a long office table, the man on the left pushing one stack of files toward the right, a second separate stack in front of the man on the right, a wall calendar page reading \"2010\" large and facing the camera above them, dusk light, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of a hand placing a file labelled \"HERO CYCLES\" on one of the stacks"
      ],
      "caption": "समय के साथ परिवार बढ़ा, और 2010 के आसपास Munjal परिवार ने कारोबार आपस में बाँट लिया।",
-     "date": "2010"
+     "date": "2010",
+     "seed": 8998
     },
     {
      "vo": "बँटवारे में हीरो साइकिल्स, ओम प्रकाश मुंजाल के परिवार के हिस्से में आई, जहाँ से सब शुरू हुआ था।",
@@ -1239,13 +1247,14 @@
    "shots": [
     {
      "vo": "तो हीरो साइकिल्स आई कहाँ से? न किसी अमीर फ़ैमिली से, न किसी विदेशी ब्रांड से।",
-     "prompt": "A black roadster bicycle seen from its left side, the word \"HERO\" large on its frame facing the camera, leaning against a whitewashed courtyard wall, golden hour, warm nostalgic light, medium shot",
+     "prompt": "A black roadster bicycle seen exactly from its left side, front wheel on the right, the word \"HERO\" large on its frame facing the camera, leaning against a whitewashed courtyard wall, golden hour, warm nostalgic light, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of the chrome bell catching the last golden light"
      ],
-     "caption": "तो Hero Cycles आई कहाँ से? न किसी अमीर family से, न किसी विदेशी brand से।"
+     "caption": "तो Hero Cycles आई कहाँ से? न किसी अमीर family से, न किसी विदेशी brand से।",
+     "seed": 9006
     },
     {
      "vo": "चार भाइयों से, जिनका शहर उस पार छूट गया, और जिन्होंने छोटे पार्ट्स से शुरुआत की।",
@@ -1300,5 +1309,56 @@
  "released_at": "2026-11-20 07:01",
  "voice_requested": "voice-ll-028-hero-cycles-ac87187c30",
  "voice_ok": "voice-ll-028-hero-cycles-ac87187c30",
- "voice_approved_at": "2026-11-21 18:46"
+ "voice_approved_at": "2026-11-21 18:46",
+ "repaint": {
+  "shots": [
+   4,
+   6,
+   16,
+   17,
+   51,
+   59,
+   72,
+   79,
+   87
+  ],
+  "thumbs": [
+   "shot-04-2.png",
+   "shot-04-3.png",
+   "shot-16-2.png",
+   "shot-51-2.png",
+   "shot-59-2.png",
+   "shot-72-2.png",
+   "shot-79-2.png",
+   "shot-87-2.png"
+  ],
+  "at": "2026-11-22 12:55",
+  "by": "owner"
+ },
+ "shot_qc": {
+  "checked": null,
+  "rounds": 1,
+  "why": {
+   "4": "The milkman's bicycle is built wrong: the frame, handlebars and basket merge into the milk cans, and the signs are gibberish. The scene looks modern, not like a Hero-cycle era street.",
+   "6": "The object is a malformed motorbike with a bent frame and stray rods, but the line asks about where Hero Cycles came from, so it should show a plain bicycle. The kids look odd and the era is unclear.",
+   "16": "The rider's bicycle and body are distorted, and the signboards and banner carry garbled lettering ('ONDARRIGS'). The line says cycles were rare imports from England, but this shows a busy modern street with a taxi.",
+   "17": "The bicycle is built wrong: it has a single oversized wheel, a broken frame and no proper chain. The scale pan holds a stack of papers and coins that doesn't clearly mean 'imported from England'.",
+   "51": "The man's head is merged into or stuck on a blank white board, which reads as a second head or face. His hands, the woman and the child are tangled together, and the signs behind are gibberish. It doesn't show former Hero craftsmen opening their own units.",
+   "59": "The cyclists' bicycles are malformed, with extra wheels and broken frames merged together. The milkman's can is fused to his bike, and no postman or labourer is shown. The line says everyone rode a Hero cycle, but it doesn't show that.",
+   "72": "The hands are malformed, with fused fingers and a stray thumb, pressing on a glowing orange engine cover. The engine looks like a modern sci-fi design rather than a four-stroke CD 100. The text in the background is gibberish.",
+   "79": "The scene is an empty dim office with a blank, garbled calendar and gibberish signs, so the family split in 2010 isn't shown. It needs the Munjal family members dividing papers at a table.",
+   "87": "A blank white plate with the gibberish word 'Lett' is stuck on a malformed motorbike. The line is about a Hero cycle, not a rich family or foreign brand, so it should show a bicycle with a clean plate and no lettering."
+  },
+  "recheck": [
+   "4",
+   "6",
+   "16",
+   "17",
+   "51",
+   "59",
+   "72",
+   "79",
+   "87"
+  ]
+ }
 }
