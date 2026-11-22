@@ -258,14 +258,15 @@
     },
     {
      "vo": "कूरियर वाला आइडिया नहीं चला, तो उसी कंपनी ने दो हज़ार चौदह में फ़ूड डिलीवरी की तरफ़ पिवट किया। [डॉक्यूमेंट]",
-     "prompt": "A young Indian man in a blue shirt taping a paper notice reading \"CLOSED\" onto the glass door of an empty office, chairs stacked on desks behind him, dusk light, medium shot",
+     "prompt": "A young Indian man in a blue shirt taping a paper notice reading \"CLOSED\" onto the glass door of an empty office, chairs stacked on desks behind him, one large brown parcel left on the floor, dusk light, medium shot",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
       "Close-up of an Indian hand switching off the last light switch, the room going dark"
      ],
      "caption": "courier वाला idea नहीं चला, तो उसी company ने 2014 में food delivery की तरफ़ pivot किया। [document]",
-     "date": "2014"
+     "date": "2014",
+     "seed": 8934
     },
     {
      "vo": "ज़्यादातर लोग यहाँ हार मान लेते। नौकरी पकड़ लेते, और स्टार्ट-अप भूल जाते।",
@@ -527,7 +528,7 @@
     },
     {
      "vo": "स्विगी को बढ़ता देख, दो हज़ार पंद्रह में ज़ोमैटो ने भी फ़ूड डिलीवरी शुरू कर दी।",
-     "prompt": "An Indian rider in a red T-shirt on the left and a lean young Indian delivery rider with a short beard in an orange T-shirt and orange helmet on the right, waiting side by side at the same restaurant counter, overcast daylight, medium shot",
+     "prompt": "A lean young Indian delivery rider with a short beard in a plain red T-shirt and red helmet holding a red insulated delivery bag, standing at a restaurant pickup counter in daylight, restaurant cooks packing a food box behind him, plain blank signboards, centre, overcast daylight, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -542,7 +543,8 @@
       "credit": "Zomato logo.png by Zomato, PUBLIC DOMAIN, Wikimedia Commons",
       "page": "https://commons.wikimedia.org/wiki/File:Zomato_logo.png",
       "card": 0.5
-     }
+     },
+     "seed": 8953
     },
     {
      "vo": "मार्केट में भीड़ थी। फ़ूडपांडा, टाइनीओल, और दो हज़ार सत्रह में उबर ईट्स भी आ गया।",
@@ -607,11 +609,12 @@
     },
     {
      "vo": "फिर दुनिया के बड़े इन्वेस्टर नैस्पर्स ने स्विगी पर बड़ा दाँव लगाया।",
-     "prompt": "A hand pushing a tall stack of poker chips across a green table toward a young Indian man in a suit, single bright lamp above, medium close-up",
+     "prompt": "A tall man in a dark suit on the left handing a thick sealed envelope to a young Indian man in an orange T-shirt on the right, both shaking hands in front of a row of parked orange scooters, bright morning light, medium shot",
      "move": "pan_right",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "caption": "फिर दुनिया के बड़े investor Naspers ने Swiggy पर बड़ा दाँव लगाया।",
-     "label": "NASPERS · दुनिया के बड़े investor"
+     "label": "NASPERS · दुनिया के बड़े investor",
+     "seed": 8958
     },
     {
      "vo": "दो हज़ार अठारह आते-आते स्विगी की वैल्युएशन एक बिलियन डॉलर पार कर गई। स्विगी अब यूनिकॉर्न थी!",
@@ -1130,5 +1133,35 @@
  "released_at": "2026-11-20 06:38",
  "voice_requested": "voice-ll-027-swiggy-story-cba890e3ac",
  "voice_ok": "voice-ll-027-swiggy-story-cba890e3ac",
- "voice_approved_at": "2026-11-21 18:46"
+ "voice_approved_at": "2026-11-21 18:46",
+ "repaint": {
+  "shots": [
+   15,
+   34,
+   39,
+   43
+  ],
+  "thumbs": [
+   "shot-15-2.png",
+   "shot-34-2.png"
+  ],
+  "at": "2026-11-22 12:59",
+  "by": "owner"
+ },
+ "shot_qc": {
+  "checked": null,
+  "rounds": 1,
+  "why": {
+   "15": "Two people press one blank sheet on a glass door, and the second person is only a floating arm with no body. The image doesn't show a courier idea failing or a pivot to food delivery.",
+   "34": "The shop signs and the road signs carry gibberish lettering ('ISALSCEN', '310 OII', 'KIZEN'). The orange-clad rider is generic, with no Zomato red branding or food-delivery bag, so it doesn't read as Zomato launching in 2015.",
+   "39": "A poker table with chips and a hand is the wrong scene for Nasper's investment, and nothing shows an investor backing Swiggy. The background signs are garbled, the hand looks oddly built, and the suited man looks like a casino dealer.",
+   "43": "The cloud-kitchen scene is a crowded traditional restaurant kitchen with many chefs, and the foreground chef has no head. It is also not a delivery-only kitchen (no packed orders or delivery riders), and the people on the right are cropped and distorted."
+  },
+  "recheck": [
+   "15",
+   "34",
+   "39",
+   "43"
+  ]
+ }
 }
