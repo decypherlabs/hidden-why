@@ -64,9 +64,10 @@
     },
     {
      "vo": "नई लाइनों पर धक-धक की आवाज़ कहाँ गायब हो गई?",
-     "prompt": "Two old rail ends with a small gap between them, joined by a bolted steel fish plate, a steel train wheel just about to roll onto the joint, bright daylight, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Two old steel rail ends with a small gap between them, joined by a bolted flat steel fish plate with four large bolts, the joint filling the frame, rails lying on sleepers, bright daylight, sharp focus, close-up, photorealistic",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8924
     },
     {
      "vo": "और खेत की खाली ज़मीन पर ये सब आता कैसे है?",
@@ -107,9 +108,10 @@
     },
     {
      "vo": "इतनी फ़िक्र क्यों? क्योंकि ट्रेन को चढ़ाई बिल्कुल पसंद नहीं।",
-     "prompt": "A heavy Indian goods train with a diesel locomotive straining up a gentle slope, dark exhaust rising, a long line of wagons behind, clear daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A heavy modern diesel locomotive in blue and orange pulling a long line of goods wagons up a gentle slope, no steam, dark exhaust from the engine roof, clear daylight, sharp focus, wide shot, photorealistic",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8930
     },
     {
      "vo": "लोहे का पहिया लोहे की पटरी पर बहुत कम पकड़ बनाता है। इसलिए ट्रेन आसानी से दौड़ती है, पर आसानी से चढ़ नहीं पाती।",
@@ -145,7 +147,133 @@
      "vo": "रास्ता तय होते ही ज़मीन ली जाती है, और पूरे रास्ते पर खूँटे गड़ जाते हैं।",
      "prompt": "Workers hammering painted wooden pegs into the ground along a straight line across a harvested field, a hand-painted roadside board reading \"निर्माण कार्य प्रगति पर\" large, flat and facing the camera, bright daylight, sharp focus, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "17": {
+       "src": "90f718b418a7",
+       "items": [
+        {
+         "text": "निर्माण कार्य प्रगति पर",
+         "grid": [
+          [
+           [
+            1003.6,
+            146.3
+           ],
+           [
+            1073.9,
+            144.9
+           ],
+           [
+            1145.8,
+            144.3
+           ],
+           [
+            1218.2,
+            144.5
+           ],
+           [
+            1289.6,
+            145.6
+           ],
+           [
+            1362.7,
+            147.5
+           ],
+           [
+            1436.2,
+            150.3
+           ]
+          ],
+          [
+           [
+            1002.9,
+            240.3
+           ],
+           [
+            1073.0,
+            239.0
+           ],
+           [
+            1144.6,
+            238.4
+           ],
+           [
+            1216.7,
+            238.7
+           ],
+           [
+            1287.9,
+            239.6
+           ],
+           [
+            1360.7,
+            241.3
+           ],
+           [
+            1434.0,
+            243.8
+           ]
+          ],
+          [
+           [
+            1002.2,
+            333.5
+           ],
+           [
+            1072.0,
+            332.4
+           ],
+           [
+            1143.4,
+            331.9
+           ],
+           [
+            1215.2,
+            332.1
+           ],
+           [
+            1286.2,
+            333.0
+           ],
+           [
+            1358.8,
+            334.5
+           ],
+           [
+            1431.7,
+            336.7
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1a2a5a",
+         "corners": [
+          [
+           975,
+           83
+          ],
+          [
+           1468,
+           79
+          ],
+          [
+           1460,
+           399
+          ],
+          [
+           973,
+           397
+          ]
+         ],
+         "band": [
+          0.2,
+          0.8
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "अब सवाल: नरम मिट्टी पर हज़ारों टन की ट्रेन टिकेगी कैसे?",
@@ -175,10 +303,11 @@
     },
     {
      "vo": "इसे फ़ॉर्मेशन कहते हैं। नीची ज़मीन पर ये मिट्टी का ऊँचा बाँध बनता है, जिसे एम्बैंकमेंट कहते हैं।",
-     "prompt": "A tall railway embankment under construction across low-lying Indian land, sloped earthen sides, yellow excavators on top, bright daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A tall railway embankment of piled brown earth with sloped earthen sides under construction across low-lying Indian land, yellow excavators on top, no concrete, bright daylight, sharp focus, wide shot, photorealistic",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इसे formation कहते हैं। नीची ज़मीन पर ये मिट्टी का ऊँचा बाँध बनता है, जिसे embankment कहते हैं।"
+     "caption": "इसे formation कहते हैं। नीची ज़मीन पर ये मिट्टी का ऊँचा बाँध बनता है, जिसे embankment कहते हैं।",
+     "seed": 8940
     },
     {
      "vo": "पहाड़ी जगह पर उल्टा होता है। वहाँ ज़मीन काटकर रास्ता बनाया जाता है।",
@@ -188,10 +317,11 @@
     },
     {
      "vo": "डम्पर मिट्टी डालते हैं, और रोलर उसे दबाते हैं। एक बार में नहीं, पतली-पतली परतों में।",
-     "prompt": "Yellow dumpers unloading soil onto an embankment while a heavy road roller compacts the thin layer behind them, dust rising, bright daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A yellow dumper truck on the left tipping brown soil onto an embankment, a separate heavy grey road roller on the right pressing a thin soil layer flat, two distinct machines with space between them, dust rising, bright daylight, sharp focus, wide shot, photorealistic",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Dumper मिट्टी डालते हैं, और रोलर उसे दबाते हैं। एक बार में नहीं, पतली-पतली परतों में।"
+     "caption": "Dumper मिट्टी डालते हैं, और रोलर उसे दबाते हैं। एक बार में नहीं, पतली-पतली परतों में।",
+     "seed": 8942
     },
     {
      "vo": "हर परत के बाद जाँच होती है कि मिट्टी कितनी कसकर दबी है।",
@@ -282,9 +412,10 @@
     },
     {
      "vo": "ट्रेन का वज़न पहिये से पटरी, पटरी से स्लीपर, फिर गिट्टी में फैलकर ज़मीन तक जाता है।",
-     "prompt": "A cut-away side view of a railway track: a train wheel on a rail, the rail on a concrete sleeper, the sleeper bedded in a deep ballast layer over brown earth, bright daylight, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A cut-away side view of a railway track: a steel train wheel on a rail, the rail on a concrete sleeper, the sleeper bedded in a thick grey ballast layer over brown earth, all layers visible in one cross-section, bright daylight, sharp focus, medium shot, photorealistic",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8956
     },
     {
      "vo": "जैसे कीचड़ पर एक पैर रखो तो धँसता है, चौड़ा तख़्ता रखो तो नहीं।",
@@ -319,9 +450,10 @@
     },
     {
      "vo": "पत्थर बिछ गए। अब उन पर आएँगे वो भारी कंक्रीट के ब्लॉक।",
-     "prompt": "Tall stacks of grey concrete railway sleepers piled beside a freshly ballasted formation, a yellow crane waiting next to them, bright daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Tall stacks of plain grey concrete railway sleepers piled beside a freshly ballasted formation, a yellow crane waiting next to them, bare unmarked concrete surfaces, bright daylight, sharp focus, wide shot, photorealistic",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8962
     }
    ]
   },
@@ -453,14 +585,141 @@
      "vo": "यहाँ लाल-गर्म स्टील को बार-बार रोलर से दबाकर पटरी का आकार दिया जाता है।",
      "prompt": "Inside a huge rail rolling mill, a glowing orange-red steel rail passing through massive rollers, sparks and steam, a gate board outside the hall reading \"BHILAI STEEL PLANT\" large, flat and facing the camera, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "words": {
+      "59": {
+       "src": "35c994d6ac61",
+       "items": [
+        {
+         "text": "BHILAI STEEL PLANT",
+         "grid": [
+          [
+           [
+            555.2,
+            394.2
+           ],
+           [
+            628.3,
+            394.7
+           ],
+           [
+            702.7,
+            395.2
+           ],
+           [
+            777.0,
+            395.5
+           ],
+           [
+            850.1,
+            395.7
+           ],
+           [
+            924.4,
+            395.8
+           ],
+           [
+            998.8,
+            395.8
+           ]
+          ],
+          [
+           [
+            555.2,
+            451.6
+           ],
+           [
+            628.3,
+            452.0
+           ],
+           [
+            702.7,
+            452.3
+           ],
+           [
+            777.0,
+            452.5
+           ],
+           [
+            850.1,
+            452.7
+           ],
+           [
+            924.4,
+            452.9
+           ],
+           [
+            998.8,
+            452.9
+           ]
+          ],
+          [
+           [
+            555.2,
+            509.0
+           ],
+           [
+            628.3,
+            509.2
+           ],
+           [
+            702.7,
+            509.4
+           ],
+           [
+            777.0,
+            509.6
+           ],
+           [
+            850.1,
+            509.7
+           ],
+           [
+            924.4,
+            509.9
+           ],
+           [
+            998.8,
+            510.0
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#f2f2f2",
+         "corners": [
+          [
+           525,
+           348
+          ],
+          [
+           1029,
+           348
+          ],
+          [
+           1029,
+           557
+          ],
+          [
+           525,
+           557
+          ]
+         ],
+         "band": [
+          0.22,
+          0.78
+         ]
+        }
+       ]
+      }
+     }
     },
     {
      "vo": "ज़्यादातर मेन लाइनों की पटरी हर मीटर में लगभग साठ किलो की होती है।",
-     "prompt": "The cut end of a new steel rail showing its I-shaped profile, standing upright on a factory floor, bright light, sharp focus, close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "The cut end of a new solid steel rail showing its I-shaped profile with a wide head, thin web and flat foot, standing upright on a factory floor, bright light, sharp focus, close-up, photorealistic",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ज़्यादातर मेन लाइनों की पटरी हर मीटर में लगभग 60 किलो की होती है।"
+     "caption": "ज़्यादातर मेन लाइनों की पटरी हर मीटर में लगभग 60 किलो की होती है।",
+     "seed": 8979
     },
     {
      "vo": "मिल से एक टुकड़ा एक सौ तीस मीटर लंबा निकलता है। दो टुकड़े जोड़कर दो सौ साठ मीटर का पैनल बनता है।",
@@ -658,9 +917,10 @@
     },
     {
      "vo": "वो काँपते हुए पत्थरों को स्लीपर के नीचे कसकर ठूँस देती हैं।",
-     "prompt": "Vibrating steel tamping tines squeezing ballast under a concrete sleeper, dust and flying stone chips, bright daylight, sharp focus, extreme close-up, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Vibrating steel tamping tines squeezing ballast under a concrete sleeper, dust and flying stone chips, plain bare metal, bright daylight, sharp focus, extreme close-up, photorealistic",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 9009
     },
     {
      "vo": "अंदर लगे सेंसर देखते हैं कि पटरी कहाँ ऊँची है, कहाँ टेढ़ी।",
@@ -671,9 +931,10 @@
     },
     {
      "vo": "कुछ मशीनें एक बार में तीन स्लीपर एक साथ दबा देती हैं।",
-     "prompt": "A tamping machine working over three sleepers at once, its tines buried in the ballast, bright daylight, sharp focus, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A plain yellow tamping machine working over three sleepers at once, its tines buried in the ballast, unmarked yellow body, bright daylight, sharp focus, medium shot, photorealistic",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 9011
     },
     {
      "vo": "मोड़ पर बाहर की पटरी अंदर वाली से थोड़ी ऊँची रखी जाती है।",
@@ -689,10 +950,11 @@
     },
     {
      "vo": "ब्रॉड गेज पर ये फ़र्क़ आम तौर पर सोलह पूर्णांक पाँच सेंटीमीटर तक होता है।",
-     "prompt": "An express train on a banked curve seen from the front three-quarter, the outer rail clearly higher than the inner rail, bright daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An express train on a banked curve seen from the front three-quarter, the outer rail clearly raised much higher than the inner rail so the whole track tilts, bright daylight, sharp focus, wide shot, photorealistic",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ब्रॉड गेज पर ये फ़र्क़ आम तौर पर 16.5 सेंटीमीटर तक होता है।"
+     "caption": "ब्रॉड गेज पर ये फ़र्क़ आम तौर पर 16.5 सेंटीमीटर तक होता है।",
+     "seed": 9014
     },
     {
      "vo": "टैम्पिंग कई बार होती है। हर बार पटरी थोड़ी और बैठती, थोड़ी और सीधी होती है।",
@@ -703,9 +965,10 @@
     },
     {
      "vo": "फिर ख़ाली इंजन, फिर मालगाड़ी, धीरे-धीरे स्पीड बढ़ाकर चलाई जाती है।",
-     "prompt": "A single diesel locomotive running slowly on a brand-new railway line, two engineers in hard hats watching from the side, bright daylight, sharp focus, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A single modern diesel locomotive in blue and orange running slowly on a brand-new railway line, no steam, two engineers in hard hats watching from the side, bright daylight, sharp focus, wide shot, photorealistic",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 9016
     },
     {
      "vo": "आख़िर में रेल संरक्षा आयुक्त ख़ुद लाइन की जाँच करते हैं। उनकी मंज़ूरी के बिना एक भी यात्री ट्रेन नहीं चल सकती।",
@@ -767,5 +1030,52 @@
   "at": "2026-11-15 01:50"
  },
  "voice_ok": "voice-gk-30-railway-track-kaise-bichta-ea32dd98e0",
- "voice_approved_at": "2026-11-15 03:36"
+ "voice_approved_at": "2026-11-15 03:36",
+ "repaint": {
+  "shots": [
+   5,
+   11,
+   21,
+   23,
+   37,
+   43,
+   60,
+   90,
+   92,
+   95,
+   97
+  ],
+  "thumbs": [],
+  "at": "2026-11-22 13:10"
+ },
+ "shot_qc": {
+  "checked": "2026-11-14T20:05:36Z",
+  "rounds": 1,
+  "why": {
+   "5": "Shows a wheel or brake part, not two rail ends joined by a fish plate",
+   "11": "A steam locomotive, but the line says a diesel locomotive",
+   "21": "A smooth concrete bowl like a dam, not an earthen embankment with excavators",
+   "23": "The dumper and the roller are fused into one machine",
+   "37": "No cut-away of wheel, rail, sleeper and ballast layers",
+   "43": "Gibberish painted lettering on the sleeper stacks",
+   "60": "The rail's cut end is a hollow box, not an I-shaped profile",
+   "90": "Gibberish painted text on the yellow plate",
+   "92": "Gibberish painted text on the machine",
+   "95": "A train in a station on a straight track, not on a banked curve with the outer rail higher",
+   "97": "A steam locomotive, but the line says a diesel locomotive"
+  },
+  "recheck": [
+   "5",
+   "11",
+   "21",
+   "23",
+   "37",
+   "43",
+   "60",
+   "90",
+   "92",
+   "95",
+   "97"
+  ]
+ }
 }
