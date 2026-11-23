@@ -782,7 +782,8 @@
     {
      "vo": "The same day it shut its entertainment division and announced that its president would leave at the year's end.",
      "kind": "still",
-     "prompt": "A darkened edit suite with blank screens and a coat left on a chair, muted 35mm documentary photograph, accent colour red, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+     "prompt": "A darkened edit suite with blank black screens and a coat left on a chair, bare walls with no posters or signs, no shopfront or storefront in view, muted 35mm documentary photograph, accent colour red, no text, no lettering, no numbers, no logos, no signs, no labels on any object",
+     "seed": 8980
     },
     {
      "vo": "The year closed with sales of $1.18 billion, below even the forecast GoPro had cut weeks earlier.",
@@ -1011,7 +1012,8 @@
     {
      "vo": "When you enter a rival's market late, your first product cannot just be yours; it has to be better.",
      "kind": "still",
-     "prompt": "An empty starting line on a wet running track at dawn, one lane lit, muted 35mm documentary photograph, accent colour red, no readable text, no logos, no signs or lettering on any storefront, screen or package"
+     "prompt": "An empty wet running track at dawn, one lane lit by soft low sun, a single pair of plain running shoes resting on the white start line, muted 35mm documentary photograph, accent colour red, plain blank track surface, no text, no numbers, no lettering anywhere, no logos, no signs, no banners, no billboards, no buildings with signage, open sky and trees in the background",
+     "seed": 9002
     },
     {
      "vo": "GoPro's drone arrived after its rival's best, and then for sixteen days it could not even stay in the air.",
@@ -1039,5 +1041,21 @@
  "visuals_checked": true,
  "approved": true,
  "review": "auto",
- "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame"
+ "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
+ "repaint": {
+  "shots": [
+   61,
+   83
+  ],
+  "thumbs": [],
+  "at": "2026-11-23 07:08"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   61,
+   83
+  ]
+ },
+ "auto_regen": 1
 }
