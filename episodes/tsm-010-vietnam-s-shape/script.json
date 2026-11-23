@@ -326,8 +326,9 @@
     {
      "vo": "At its narrowest, Vietnam is less than 50 kilometres from the mountains to the sea.",
      "kind": "still",
-     "prompt": "Duotone archival plate in dark slate and one muted orange: high aerial view of a thin green coastal strip squeezed between a dark mountain wall and a pale sea, rice paddies and a single road, no people, no text, no signs or lettering on any storefront, screen or package",
-     "title": "Under 50 *km*"
+     "prompt": "Duotone archival plate in dark slate and one muted orange: high aerial view looking down a long narrow coastal strip of land, the thin strip of rice paddies and a single road lit in warm muted orange, the dark mountain wall inland in deep slate, the sea on the other side in pale slate, the orange strip clearly the brightest element and running in a gentle S-curve across the frame, no people, no text, no signs or lettering on any storefront, screen or package",
+     "title": "Under 50 *km*",
+     "seed": 8920
     },
     {
      "vo": "Yet it runs some 1,650 kilometres, from the Chinese border down to Cà Mau.",
@@ -2405,5 +2406,19 @@
  "visuals_checked": true,
  "approved": true,
  "review": "auto",
- "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos"
+ "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos",
+ "repaint": {
+  "shots": [
+   1
+  ],
+  "thumbs": [],
+  "at": "2026-11-23 12:37"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   1
+  ]
+ },
+ "auto_regen": 1
 }
