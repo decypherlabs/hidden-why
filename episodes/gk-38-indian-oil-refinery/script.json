@@ -2357,10 +2357,10 @@
     },
     {
      "vo": "दबाव कम हो, तो चीज़ें कम तापमान पर ही उबल जाती हैं।",
-     "prompt": "A large round pressure gauge on a vacuum column with its needle resting at the far left zero position, a worker's hand tapping it, plain blank white dial face with no numbers, bright light, close-up, photoreal",
+     "prompt": "A large round pressure gauge on a vacuum column with its needle resting at the far left start position, a worker's hand tapping the glass, plain blank white dial face with no numbers and no markings, plain bare steel wall behind, bright light, close-up, photoreal",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 8985
+     "seed": 16904
     },
     {
      "vo": "जैसे लेह जैसी ऊँचाई पर पानी सौ नहीं, लगभग अठासी डिग्री पर ही उबल जाता है।",
@@ -2676,17 +2676,137 @@
     },
     {
      "vo": "एक अप्रैल दो हज़ार बीस से पूरे भारत में बी एस सिक्स ईंधन बिकता है।",
-     "prompt": "A car refuelling at an Indian petrol pump forecourt, a large flat board standing on the pump island reading \"BS-VI\" facing the camera, the whole frame filled with the forecourt, daylight, medium shot, photoreal",
+     "prompt": "A car refuelling at an Indian petrol pump forecourt, a large flat board standing on the pump island reading \"BS-VI\" facing the camera, plain smooth grey ground and plain unmarked curb, the whole frame filled with the forecourt, daylight, medium shot, photoreal",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "1 अप्रैल 2020 से पूरे भारत में BS-VI ईंधन बिकता है।",
      "words": {
       "80": {
-       "src": "76ddf54b856a",
-       "items": []
+       "src": "9fdddc34d177",
+       "items": [
+        {
+         "text": "BS-VI",
+         "grid": [
+          [
+           [
+            690.7,
+            379.7
+           ],
+           [
+            786.5,
+            379.5
+           ],
+           [
+            884.0,
+            379.2
+           ],
+           [
+            981.5,
+            378.9
+           ],
+           [
+            1077.3,
+            378.5
+           ],
+           [
+            1174.8,
+            378.1
+           ],
+           [
+            1272.3,
+            377.6
+           ]
+          ],
+          [
+           [
+            690.7,
+            452.7
+           ],
+           [
+            786.5,
+            452.4
+           ],
+           [
+            884.0,
+            452.0
+           ],
+           [
+            981.5,
+            451.7
+           ],
+           [
+            1077.3,
+            451.3
+           ],
+           [
+            1174.8,
+            451.0
+           ],
+           [
+            1272.3,
+            450.6
+           ]
+          ],
+          [
+           [
+            690.7,
+            525.7
+           ],
+           [
+            786.5,
+            525.3
+           ],
+           [
+            884.0,
+            524.9
+           ],
+           [
+            981.5,
+            524.5
+           ],
+           [
+            1077.3,
+            524.2
+           ],
+           [
+            1174.8,
+            523.9
+           ],
+           [
+            1272.3,
+            523.6
+           ]
+          ]
+         ],
+         "style": "sign",
+         "color": "#1a237e",
+         "corners": [
+          [
+           651,
+           302
+          ],
+          [
+           1312,
+           302
+          ],
+          [
+           1312,
+           603
+          ],
+          [
+           651,
+           603
+          ]
+         ],
+         "band": [
+          0.25,
+          0.75
+         ]
+        }
+       ]
       }
      },
-     "seed": 8999
+     "seed": 16918
     },
     {
      "vo": "इसमें सल्फ़र की सीमा है सिर्फ़ दस पी पी एम। यानी दस लाख हिस्सों में बस दस हिस्से।",
@@ -3619,42 +3739,21 @@
  "voice_approved_at": "2026-11-19 00:11",
  "repaint": {
   "shots": [
-   3,
-   4,
-   7,
-   25,
-   59,
-   65,
    66,
-   77,
    80
   ],
   "thumbs": [],
-  "at": "2026-11-22 13:08"
+  "at": "2026-11-23 20:09"
  },
  "shot_qc": {
-  "checked": "2026-11-18T19:13:04Z",
-  "rounds": 1,
+  "checked": "2026-11-22T14:04:44Z",
+  "rounds": 2,
   "why": {
-   "3": "Left flask is clear and the right is brown, not black crude and golden petrol. A map is pinned on the wall behind.",
-   "4": "No mother is shown, only a floating arm. The LPG cylinder is built oddly, and its label sits on a loose white paper.",
-   "7": "The 350°C tag floats over the flames instead of hanging on the pipe, so it looks pasted on.",
-   "25": "A map is pinned on the classroom wall behind the hand.",
-   "59": "The loco is a smoking steam engine, but the line is about diesel rail engines.",
-   "65": "Big painted gibberish lettering ('MIC3 Pady') on the column.",
-   "66": "The gauge dial has garbled numbers and text, not a plain blank face, and the needle is not near zero.",
-   "77": "The buses carry painted gibberish lettering, and no smog haze is clearly shown.",
-   "80": "The image has a blank white strip at the bottom, and the BS-VI board is missing from the pump island."
+   "66": "The dial has numbers and the gibberish label 'ZLNE JP', and the needle is not at zero. Maps are also pinned on the wall behind it.",
+   "80": "Painted gibberish lettering runs along the yellow curb and is big enough to notice. The BS-VI board itself is fine."
   },
   "recheck": [
-   "3",
-   "4",
-   "7",
-   "25",
-   "59",
-   "65",
    "66",
-   "77",
    "80"
   ]
  }
