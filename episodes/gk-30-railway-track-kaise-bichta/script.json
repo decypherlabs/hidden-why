@@ -108,10 +108,10 @@
     },
     {
      "vo": "इतनी फ़िक्र क्यों? क्योंकि ट्रेन को चढ़ाई बिल्कुल पसंद नहीं।",
-     "prompt": "A heavy modern diesel locomotive in blue and orange pulling a long line of goods wagons up a gentle slope, no steam, dark exhaust from the engine roof, clear daylight, sharp focus, wide shot, photorealistic",
+     "prompt": "A modern blue and orange electric locomotive pulling a long line of goods wagons up a gentle slope, clean roof with overhead wire, no smoke and no steam, clear daylight, seen from the front three-quarter view, wide shot, sharp focus",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 8930
+     "seed": 16849
     },
     {
      "vo": "लोहे का पहिया लोहे की पटरी पर बहुत कम पकड़ बनाता है। इसलिए ट्रेन आसानी से दौड़ती है, पर आसानी से चढ़ नहीं पाती।",
@@ -412,10 +412,10 @@
     },
     {
      "vo": "ट्रेन का वज़न पहिये से पटरी, पटरी से स्लीपर, फिर गिट्टी में फैलकर ज़मीन तक जाता है।",
-     "prompt": "A cut-away side view of a railway track: a steel train wheel on a rail, the rail on a concrete sleeper, the sleeper bedded in a thick grey ballast layer over brown earth, all layers visible in one cross-section, bright daylight, sharp focus, medium shot, photorealistic",
+     "prompt": "A cut-away side view of a railway track: a steel train wheel sitting directly on top of a steel rail, the rail fixed on a grey concrete sleeper, the sleeper bedded in a thick grey ballast layer over brown earth, every layer visible in one cross-section, bright daylight, medium shot, sharp focus",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 8956
+     "seed": 16875
     },
     {
      "vo": "जैसे कीचड़ पर एक पैर रखो तो धँसता है, चौड़ा तख़्ता रखो तो नहीं।",
@@ -917,10 +917,10 @@
     },
     {
      "vo": "वो काँपते हुए पत्थरों को स्लीपर के नीचे कसकर ठूँस देती हैं।",
-     "prompt": "Vibrating steel tamping tines squeezing ballast under a concrete sleeper, dust and flying stone chips, plain bare metal, bright daylight, sharp focus, extreme close-up, photorealistic",
+     "prompt": "Vibrating steel tamping tines squeezing grey ballast stones under a concrete sleeper, dust and flying stone chips, the sleeper and tines large in frame, bright daylight, extreme close-up, sharp focus",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 9009
+     "seed": 16928
     },
     {
      "vo": "अंदर लगे सेंसर देखते हैं कि पटरी कहाँ ऊँची है, कहाँ टेढ़ी।",
@@ -950,11 +950,11 @@
     },
     {
      "vo": "ब्रॉड गेज पर ये फ़र्क़ आम तौर पर सोलह पूर्णांक पाँच सेंटीमीटर तक होता है।",
-     "prompt": "An express train on a banked curve seen from the front three-quarter, the outer rail clearly raised much higher than the inner rail so the whole track tilts, bright daylight, sharp focus, wide shot, photorealistic",
+     "prompt": "A railway track on a curve seen head-on from low down, the outer rail raised far higher than the inner rail so the whole track visibly tilts, an express train far away on it, plain surroundings, bright daylight, wide shot, sharp focus",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "ब्रॉड गेज पर ये फ़र्क़ आम तौर पर 16.5 सेंटीमीटर तक होता है।",
-     "seed": 9014
+     "seed": 16933
     },
     {
      "vo": "टैम्पिंग कई बार होती है। हर बार पटरी थोड़ी और बैठती, थोड़ी और सीधी होती है।",
@@ -1033,49 +1033,28 @@
  "voice_approved_at": "2026-11-15 03:36",
  "repaint": {
   "shots": [
-   5,
    11,
-   21,
-   23,
    37,
-   43,
-   60,
    90,
-   92,
-   95,
-   97
+   95
   ],
   "thumbs": [],
-  "at": "2026-11-22 13:10"
+  "at": "2026-11-23 20:09"
  },
  "shot_qc": {
-  "checked": "2026-11-14T20:05:36Z",
-  "rounds": 1,
+  "checked": "2026-11-22T14:05:39Z",
+  "rounds": 2,
   "why": {
-   "5": "Shows a wheel or brake part, not two rail ends joined by a fish plate",
-   "11": "A steam locomotive, but the line says a diesel locomotive",
-   "21": "A smooth concrete bowl like a dam, not an earthen embankment with excavators",
-   "23": "The dumper and the roller are fused into one machine",
-   "37": "No cut-away of wheel, rail, sleeper and ballast layers",
-   "43": "Gibberish painted lettering on the sleeper stacks",
-   "60": "The rail's cut end is a hollow box, not an I-shaped profile",
-   "90": "Gibberish painted text on the yellow plate",
-   "92": "Gibberish painted text on the machine",
-   "95": "A train in a station on a straight track, not on a banked curve with the outer rail higher",
-   "97": "A steam locomotive, but the line says a diesel locomotive"
+   "11": "The locomotive is a hybrid: black steam-style smoke and a boiler-like tank body on a diesel. The line says no steam.",
+   "37": "The wheel sits beside the rail rather than on it, and the cross-section is not clear. The sleeper is not a concrete sleeper in ballast, so the weight path from wheel to rail to sleeper to ballast is not shown.",
+   "90": "It shows a rusty wagon or bogie passing over the track. There are no vibrating tamping tines squeezing ballast under a sleeper.",
+   "95": "The track does not visibly tilt, with no clear raised outer rail. The sign has painted gibberish lettering ('EEN TREO COPTRENAIL') big enough to notice."
   },
   "recheck": [
-   "5",
    "11",
-   "21",
-   "23",
    "37",
-   "43",
-   "60",
    "90",
-   "92",
-   "95",
-   "97"
+   "95"
   ]
  }
 }
