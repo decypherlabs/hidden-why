@@ -1,0 +1,2264 @@
+{
+ "slug": "tsm-013-suwalki-gap",
+ "channel": "The State Maps",
+ "format": "long",
+ "build": "kit",
+ "lang": "en",
+ "voice": "am_adam",
+ "title": "Why Is the Suwałki Gap NATO's Narrowest Door?",
+ "thumbnail": {
+  "text": "ONLY *65* KM WIDE",
+  "idea": "Full-frame map of the Baltic region in muted slate: Kaliningrad in dark red on the left, Belarus in dark red on the right, and the narrow Polish-Lithuanian strip between them circled in bright orange, with a red arrow pushing in from each side so the two arrows almost touch."
+ },
+ "sources": [
+  {
+   "claim": "Kaliningrad and Belarus are about 65 km apart across the Polish-Lithuanian border",
+   "source": "Hodges, Bugajski, Doran, 'Securing the Suwałki Corridor', CEPA, July 2018; BBC News, June 2022 ('65km, 40 miles')"
+  },
+  {
+   "claim": "About six million people live in Estonia, Latvia and Lithuania",
+   "source": "Eurostat population on 1 January 2024: EE 1.37m, LV 1.87m, LT 2.89m"
+  },
+  {
+   "claim": "The Poland-Lithuania border is about 104 km long",
+   "source": "State Border Guard Service of Lithuania, border data"
+  },
+  {
+   "claim": "Kaliningrad has about one million people",
+   "source": "Rosstat, 2021 All-Russian census: Kaliningrad oblast 1,029,966"
+  },
+  {
+   "claim": "Transit between Kaliningrad and the rest of Russia through Lithuania under a 2002 deal",
+   "source": "Joint Statement of the EU and the Russian Federation on transit between the Kaliningrad region and the rest of the Russian Federation, 11 November 2002"
+  },
+  {
+   "claim": "Baltiysk is the main base of Russia's Baltic Fleet",
+   "source": "Russian Ministry of Defence, Baltic Fleet page"
+  },
+  {
+   "claim": "Belarus and Russia joined in the Union State treaty in 1999",
+   "source": "Treaty on the Creation of a Union State, signed 8 December 1999"
+  },
+  {
+   "claim": "Grodno lies about 20 km from the Polish border",
+   "source": "Measured on OpenStreetMap, Grodno to the Kuźnica crossing"
+  },
+  {
+   "claim": "Suwałki has about 69,000 people",
+   "source": "Statistics Poland (GUS), National Census 2021"
+  },
+  {
+   "claim": "Budzisko-Kalvarija is the Via Baltica crossing toward Kaunas and Riga",
+   "source": "European Commission TEN-T North Sea-Baltic corridor maps; Polish S61 expressway (GDDKiA)"
+  },
+  {
+   "claim": "One railway crossing at Trakiszki-Mockava",
+   "source": "Lithuanian Railways (LTG) and PKP PLK network maps"
+  },
+  {
+   "claim": "Poland's rails are 1,435 mm apart, Lithuania's 1,520 mm",
+   "source": "Rail Baltica project documentation; UIC gauge standards"
+  },
+  {
+   "claim": "Since 2015 a European-gauge line runs from the Polish border to Kaunas",
+   "source": "Rail Baltica / Lithuanian Railways, opening of the Kaunas-Polish border 1,435 mm line, 2015"
+  },
+  {
+   "claim": "Vilnius is about 30 km from the Belarusian border",
+   "source": "Measured on OpenStreetMap; Lithuanian government statements cite about 30-35 km"
+  },
+  {
+   "claim": "Suwałki Agreement signed 7 October 1920, in Suwałki",
+   "source": "Suwałki Agreement text, League of Nations Treaty Series; Encyclopaedia Britannica"
+  },
+  {
+   "claim": "Vilnius lies about 165 km east of Suwałki",
+   "source": "Measured on OpenStreetMap, Suwałki town centre to Vilnius old town, straight line"
+  },
+  {
+   "claim": "Two days later Polish troops under General Żeligowski took Vilnius",
+   "source": "Encyclopaedia Britannica, 'Lithuania: Interwar period'; Vilnius taken 9 October 1920"
+  },
+  {
+   "claim": "Poland held Vilnius until 1939; diplomatic relations established in 1938",
+   "source": "Encyclopaedia Britannica; Polish ultimatum of 17 March 1938"
+  },
+  {
+   "claim": "Potsdam Conference, August 1945, agreed in principle to the transfer of Königsberg and the adjacent area to the USSR",
+   "source": "Protocol of the Proceedings of the Berlin (Potsdam) Conference, 2 August 1945, section VI ('agreed in principle to the proposal of the Soviet Government concerning the ultimate transfer... pending the final determination of territorial questions at the peace settlement')"
+  },
+  {
+   "claim": "Southern East Prussia went under Polish administration",
+   "source": "Potsdam Protocol, 2 August 1945, section IX(b)"
+  },
+  {
+   "claim": "Polish-Soviet border treaty of 16 August 1945",
+   "source": "Treaty between Poland and the USSR concerning the Polish-Soviet State Frontier, Moscow, 16 August 1945"
+  },
+  {
+   "claim": "Königsberg renamed Kaliningrad in July 1946; most remaining Germans deported by 1948",
+   "source": "Decree of the Presidium of the Supreme Soviet, 4 July 1946; Encyclopaedia Britannica, 'Kaliningrad'"
+  },
+  {
+   "claim": "On 6 September 1991 Moscow recognised the independence of Lithuania, Latvia and Estonia",
+   "source": "Resolution of the USSR State Council, 6 September 1991"
+  },
+  {
+   "claim": "Estonia, Latvia and Lithuania had been taken into the Soviet Union in 1940",
+   "source": "Encyclopaedia Britannica, 'Baltic states: Soviet occupation', 1940"
+  },
+  {
+   "claim": "The Soviet Union ended in December 1991",
+   "source": "Declaration 142-N of the Soviet of the Republics, 26 December 1991"
+  },
+  {
+   "claim": "Belarus was independent by the end of 1991",
+   "source": "Declaration of State Independence of the Byelorussian SSR, 25 August 1991; Belovezha Accords, 8 December 1991"
+  },
+  {
+   "claim": "Estonia, Latvia and Lithuania joined NATO on 29 March 2004; Poland on 12 March 1999",
+   "source": "NATO, 'Member countries'"
+  },
+  {
+   "claim": "A UN vote backed by 100 countries called the Crimea annexation invalid",
+   "source": "UN General Assembly Resolution 68/262, 27 March 2014 (100 in favour, 11 against, 58 abstentions)"
+  },
+  {
+   "claim": "RAND war games: Russian forces reached Tallinn or Riga within 36 to 60 hours",
+   "source": "Shlapak and Johnson, 'Reinforcing Deterrence on NATO's Eastern Flank', RAND Corporation, 2016"
+  },
+  {
+   "claim": "NATO's Warsaw summit agreed four multinational battlegroups",
+   "source": "Warsaw Summit Communiqué, NATO, 9 July 2016"
+  },
+  {
+   "claim": "The US-led battlegroup in Poland is based at Orzysz, about 70 km south-west of Suwałki",
+   "source": "NATO Multinational Corps Northeast, eFP Battlegroup Poland; distance measured on OpenStreetMap"
+  },
+  {
+   "claim": "Germany formally set up a permanent armoured brigade in Lithuania on 1 April 2025, aiming for about 4,800 soldiers by 2027",
+   "source": "Bundeswehr, Panzerbrigade 45 commissioning, 1 April 2025; German Federal Ministry of Defence"
+  },
+  {
+   "claim": "Germany's first permanent brigade abroad since the Second World War",
+   "source": "German Federal Ministry of Defence and Bundeswehr statements on Panzerbrigade 45, 1 April 2025 (the first Bundeswehr brigade permanently stationed outside Germany)"
+  },
+  {
+   "claim": "Poland announced East Shield in May 2024, about 10 billion złoty through 2028",
+   "source": "Polish Ministry of National Defence, announcement 18 May 2024"
+  },
+  {
+   "claim": "10 billion złoty is roughly 2.5 billion dollars at 2024 exchange rates",
+   "source": "Our conversion of the Polish MoD figure (18 May 2024) at about 4 złoty per US dollar, National Bank of Poland reference rate, May 2024 (about 3.9-4.0)"
+  },
+  {
+   "claim": "Poland spent 4.1% of GDP on defence in 2024; Estonia 3.4%, Latvia 3.2%, Lithuania 2.9%; target 2%; no NATO member spent a larger share",
+   "source": "NATO, 'Defence Expenditure of NATO Countries (2014-2024)', 17 June 2024 (estimates; Poland highest at 4.12%)"
+  },
+  {
+   "claim": "Russia's December 2021 drafts asked NATO to stop expanding and pull back forces deployed since 1997",
+   "source": "Russian Foreign Ministry, draft Agreement on measures to ensure the security of Russia and NATO member states, published 17 December 2021, Articles 4 and 6"
+  },
+  {
+   "claim": "In June 2022 Lithuania stopped EU-sanctioned goods such as steel crossing to Kaliningrad by rail",
+   "source": "Lithuanian Railways and Lithuanian Foreign Ministry, 18 June 2022; Reuters, June 2022"
+  },
+  {
+   "claim": "Moscow called the move hostile and said it reserved the right to act to protect its interests",
+   "source": "Russian Foreign Ministry statement, 21 June 2022, as reported by Reuters"
+  },
+  {
+   "claim": "Rail transit resumed in July 2022 after EU guidance",
+   "source": "European Commission guidance on Kaliningrad transit, 13 July 2022; Reuters, 23 July 2022"
+  },
+  {
+   "claim": "In March 2023 Russia announced it would station tactical nuclear weapons in Belarus",
+   "source": "Vladimir Putin, interview on Rossiya-1, 25 March 2023"
+  },
+  {
+   "claim": "Lukashenko said in June 2023 that the first warheads had arrived",
+   "source": "Alexander Lukashenko, interview on Rossiya-1, June 2023, as reported by Reuters"
+  },
+  {
+   "claim": "Zapad 2017: Russia and Belarus declared 12,700 troops; Baltic officials warned of up to 100,000",
+   "source": "Russian and Belarusian defence ministries, notification under the Vienna Document, 2017; Lithuanian and Estonian defence officials quoted by Reuters, 2017"
+  },
+  {
+   "claim": "Article 5, in short: an attack on one member is an attack on all (paraphrase; treaty text: 'an armed attack against one or more of them in Europe or North America shall be considered an attack against them all')",
+   "source": "North Atlantic Treaty, Article 5, 4 April 1949"
+  },
+  {
+   "claim": "Estonia, Latvia and Lithuania agreed a joint Baltic Defence Line in January 2024",
+   "source": "Agreement of Baltic defence ministers, Riga, 19 January 2024"
+  },
+  {
+   "claim": "Finland joined NATO in April 2023 and Sweden in March 2024",
+   "source": "NATO: Finland 4 April 2023, Sweden 7 March 2024"
+  },
+  {
+   "claim": "Gotland lies about 300 km from Kaliningrad's coast",
+   "source": "Measured on OpenStreetMap, southern Gotland to Baltiysk"
+  },
+  {
+   "claim": "Rail Baltica's Baltic section is about 870 km, main line targeted for 2030",
+   "source": "RB Rail AS, Rail Baltica project facts, 2024"
+  },
+  {
+   "claim": "European auditors reported delays and rising costs on Rail Baltica",
+   "source": "European Court of Auditors, Special Report 10/2020 on EU transport infrastructures"
+  }
+ ],
+ "playbook": {
+  "topic_type": "anomaly",
+  "points": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1
+  ],
+  "minor": [
+   "Line 'Its busiest crossing is Budzisko': the listed source only shows Budzisko is the Via Baltica crossing, so 'busiest' is not sourced. Say 'main road crossing' or add a traffic-count source.",
+   "'for decades it needed special trains' (Trakiszki-Mockava): no listed source gives the decades or the special-train detail, only the gauge difference. Add a source or soften it.",
+   "'twice the 2 percent target': 4.1% is about, not exactly, double. 'roughly twice' would be safer.",
+   "'planned barriers run from the Gulf of Finland almost to Ukraine': the East Shield and the Baltic Defence Line are separate programmes and the barrier is not one continuous line, so 'planned barriers stretch' is more accurate than 'run'.",
+   "'Two weeks later, on 16 August 1945, a Polish-Soviet treaty fixed the frontier that Poland's border with Lithuania near Suwałki later inherited': the treaty is separate from Potsdam and mainly fixed the Polish-Soviet line, so the link to the Suwałki stretch is a little compressed. It is not wrong.",
+   "Potsdam only agreed 'in principle' to the transfer, pending a peace settlement. The script says 'agreed in principle', which is correct, but the narration could add that the final settlement came later.",
+   "'(map) Grodno ... at the gap's southern end': the gap is defined loosely, so say 'at the gap's southeastern edge' or attribute the framing."
+  ]
+ },
+ "stats": {
+  "words": 1490,
+  "cold_open_words": 81,
+  "shots": 87,
+  "minutes": 10.7,
+  "kinds": {
+   "chart": 1,
+   "compare": 2,
+   "document": 3,
+   "footage": 2,
+   "headline": 2,
+   "map": 61,
+   "quote": 1,
+   "stat": 6,
+   "still": 7,
+   "timeline": 2
+  }
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "A strip about 65 kilometres wide at its narrowest joins three NATO countries to all the rest.",
+     "kind": "map",
+     "title": "*65* KM WIDE",
+     "map": {
+      "action": "pin",
+      "center": [
+       54.3,
+       23.3
+      ],
+      "span": 6,
+      "places": [
+       {
+        "name": "Suwałki Gap",
+        "lat": 54.1,
+        "lon": 23.0
+       }
+      ],
+      "label": "A strip about 65 km wide at its narrowest",
+      "globe": true
+     }
+    },
+    {
+     "vo": "On one side is Russia's Kaliningrad. On the other, Russia's ally Belarus.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       54.15,
+       23.15
+      ],
+      "span": 3.0,
+      "places": [
+       {
+        "name": "Poland-Lithuania-Russia tripoint",
+        "lat": 54.3633,
+        "lon": 22.7924
+       },
+       {
+        "name": "Poland-Lithuania-Belarus tripoint",
+        "lat": 53.9542,
+        "lon": 23.5154
+       }
+      ],
+      "label": "≈ 65 km"
+     },
+     "title": "*Kaliningrad*"
+    },
+    {
+     "vo": "Behind the strip live about six million people in Estonia, Latvia and Lithuania.",
+     "kind": "stat",
+     "stat": {
+      "value": 6.1,
+      "suffix": "million",
+      "label": "People in Estonia, Latvia and Lithuania (Eurostat, 2024)"
+     },
+     "prompt": "Painted map of the Baltic region with Estonia, Latvia and Lithuania highlighted in one colour, and a bold serif overlay reading '6 million' across the three states.",
+     "title": "*6 MILLION* PEOPLE"
+    },
+    {
+     "vo": "If your country is in NATO, it promised to defend all three.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       55.0,
+       18.0
+      ],
+      "span": 22.0,
+      "places": [
+       {
+        "name": "Estonia",
+        "lat": 58.6,
+        "lon": 25.0
+       },
+       {
+        "name": "Latvia",
+        "lat": 56.9,
+        "lon": 24.6
+       },
+       {
+        "name": "Lithuania",
+        "lat": 55.2,
+        "lon": 23.9
+       }
+      ],
+      "label": "NATO members since 2004"
+     }
+    },
+    {
+     "vo": "This is the Suwałki Gap. Why is NATO's only land door so narrow?",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       54.6,
+       22.5
+      ],
+      "span": 7.0,
+      "places": [
+       {
+        "name": "Suwałki Gap",
+        "lat": 54.15,
+        "lon": 23.15
+       },
+       {
+        "name": "Kaliningrad",
+        "lat": 54.7104,
+        "lon": 20.4522
+       },
+       {
+        "name": "Belarus",
+        "lat": 53.7,
+        "lon": 27.9
+       }
+      ],
+      "label": "THE SUWAŁKI GAP"
+     },
+     "title": "Suwałki *Gap*"
+    },
+    {
+     "vo": "And why has nobody widened it? The answer starts in this town, in 1920.",
+     "kind": "still",
+     "prompt": "Duotone archival plate of a small Polish market town in autumn 1920, horse carts and soldiers' greatcoats in a wide square, figures seen from afar, dark slate with one muted orange, no signs or lettering on any storefront, screen or package",
+     "title": "*1920*"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "THE NARROWEST DOOR",
+   "shots": [
+    {
+     "vo": "Estonia, Latvia and Lithuania touch the rest of NATO by land in only one place.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       56.0,
+       22.0
+      ],
+      "span": 12.0,
+      "places": [
+       {
+        "name": "Tallinn",
+        "lat": 59.437,
+        "lon": 24.7536
+       },
+       {
+        "name": "Riga",
+        "lat": 56.9496,
+        "lon": 24.1052
+       },
+       {
+        "name": "Vilnius",
+        "lat": 54.6872,
+        "lon": 25.2797
+       },
+       {
+        "name": "Warsaw",
+        "lat": 52.2297,
+        "lon": 21.0122
+       }
+      ],
+      "label": "One land link"
+     }
+    },
+    {
+     "vo": "That place is the border between Poland and Lithuania, which runs for about 104 kilometres in all.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       54.15,
+       23.2
+      ],
+      "span": 1.6,
+      "places": [
+       {
+        "name": "Poland",
+        "lat": 53.95,
+        "lon": 22.8
+       },
+       {
+        "name": "Lithuania",
+        "lat": 54.4,
+        "lon": 23.5
+       }
+      ],
+      "label": "Poland-Lithuania border: 104 km"
+     }
+    },
+    {
+     "vo": "But in a straight line, Kaliningrad and Belarus are only about 65 kilometres apart across it.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       54.2,
+       23.0
+      ],
+      "span": 4.0,
+      "places": [
+       {
+        "name": "Kaliningrad oblast (Russia)",
+        "lat": 54.5,
+        "lon": 21.8
+       },
+       {
+        "name": "Belarus",
+        "lat": 53.8,
+        "lon": 24.2
+       }
+      ],
+      "label": "≈ 65 km"
+     }
+    },
+    {
+     "vo": "To the west sits Kaliningrad, a piece of Russia with about one million people and no land link home.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       54.7,
+       21.0
+      ],
+      "span": 2.5,
+      "places": [
+       {
+        "name": "Kaliningrad",
+        "lat": 54.7104,
+        "lon": 20.4522
+       }
+      ],
+      "label": "Russia · 1.03 million people"
+     }
+    },
+    {
+     "vo": "Its land transit to the rest of Russia runs through Lithuania, a NATO country, under a transit deal from 2002.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       55.0,
+       27.0
+      ],
+      "span": 9.0,
+      "places": [
+       {
+        "name": "Kaliningrad",
+        "lat": 54.7104,
+        "lon": 20.4522
+       },
+       {
+        "name": "Kybartai",
+        "lat": 54.6386,
+        "lon": 22.7579
+       },
+       {
+        "name": "Vilnius",
+        "lat": 54.6872,
+        "lon": 25.2797
+       },
+       {
+        "name": "Moscow",
+        "lat": 55.7558,
+        "lon": 37.6173
+       }
+      ],
+      "label": "Transit through Lithuania, deal of 2002"
+     }
+    },
+    {
+     "vo": "On its coast, at Baltiysk, sits the main base of Russia's Baltic Fleet, facing the open sea.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       54.65,
+       19.9
+      ],
+      "span": 0.8,
+      "places": [
+       {
+        "name": "Baltiysk",
+        "lat": 54.6491,
+        "lon": 19.9146
+       }
+      ],
+      "label": "Baltic Fleet base"
+     }
+    },
+    {
+     "vo": "To the east is Belarus, bound to Russia since 1999 by a treaty called the Union State.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       54.5,
+       31.0
+      ],
+      "span": 14.0,
+      "places": [
+       {
+        "name": "Belarus",
+        "lat": 53.7,
+        "lon": 27.9
+       },
+       {
+        "name": "Russia",
+        "lat": 55.75,
+        "lon": 37.6
+       }
+      ],
+      "label": "Union State, 1999"
+     }
+    },
+    {
+     "vo": "Its city of Grodno lies only about 20 kilometres from the Polish border, at the gap's southern end.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       53.7,
+       23.6
+      ],
+      "span": 1.2,
+      "places": [
+       {
+        "name": "Grodno",
+        "lat": 53.6694,
+        "lon": 23.8131
+       },
+       {
+        "name": "Kuźnica crossing",
+        "lat": 53.704,
+        "lon": 23.552
+       }
+      ],
+      "label": "≈ 20 km"
+     }
+    },
+    {
+     "vo": "Between them lies quiet country of lakes, low hills and thick forest, with small farms along the roads.",
+     "kind": "footage",
+     "search": "forest lakes aerial",
+     "clip": {
+      "id": 118792,
+      "tags": "forest, lake, wales, landscape, hills, aerial, scenic",
+      "page": "https://pixabay.com/videos/id-118792/"
+     }
+    },
+    {
+     "vo": "The town of Suwałki, about 69,000 people, sits at its heart and gave the gap its name.",
+     "kind": "stat",
+     "stat": {
+      "value": 69000,
+      "label": "People in Suwałki (Polish census, 2021)"
+     },
+     "prompt": "Painted map of the Polish-Lithuanian border area with Suwałki marked by a red marker and label, and a bold serif overlay reading '69,000' beside it."
+    },
+    {
+     "vo": "Its busiest crossing is Budzisko, where the Via Baltica road runs north toward Kaunas and Riga.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       55.4,
+       23.6
+      ],
+      "span": 4.0,
+      "places": [
+       {
+        "name": "Budzisko-Kalvarija crossing",
+        "lat": 54.385,
+        "lon": 23.22
+       },
+       {
+        "name": "Kaunas",
+        "lat": 54.8985,
+        "lon": 23.9036
+       },
+       {
+        "name": "Riga",
+        "lat": 56.9496,
+        "lon": 24.1052
+       }
+      ],
+      "label": "Via Baltica"
+     }
+    },
+    {
+     "vo": "There is just one railway crossing, at Trakiszki and Mockava, and for decades it needed special trains.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       54.21,
+       23.39
+      ],
+      "span": 0.5,
+      "places": [
+       {
+        "name": "Trakiszki-Mockava rail crossing",
+        "lat": 54.21,
+        "lon": 23.39
+       }
+      ],
+      "label": "The only rail link"
+     }
+    },
+    {
+     "vo": "Poland's rails are 1,435 millimetres apart, while Lithuania's Soviet-era rails sit 1,520 millimetres apart.",
+     "kind": "compare",
+     "compare": {
+      "title": "Two track widths",
+      "left": {
+       "name": "Poland",
+       "value": 1435,
+       "suffix": " mm",
+       "label": "European gauge"
+      },
+      "right": {
+       "name": "Lithuania",
+       "value": 1520,
+       "suffix": " mm",
+       "label": "Russian gauge"
+      },
+      "winner": "right"
+     }
+    },
+    {
+     "vo": "Since 2015, a European-gauge line has run from the Polish border to Kaunas, ending that wheel change at the border.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       54.6,
+       23.6
+      ],
+      "span": 1.8,
+      "places": [
+       {
+        "name": "Polish border",
+        "lat": 54.21,
+        "lon": 23.39
+       },
+       {
+        "name": "Kaunas",
+        "lat": 54.8985,
+        "lon": 23.9036
+       }
+      ],
+      "label": "1,435 mm line, 2015"
+     }
+    },
+    {
+     "vo": "Further east, Lithuania's capital Vilnius sits only about 30 kilometres from the Belarusian border.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       54.6,
+       25.6
+      ],
+      "span": 1.4,
+      "places": [
+       {
+        "name": "Vilnius",
+        "lat": 54.6872,
+        "lon": 25.2797
+       },
+       {
+        "name": "Belarus border",
+        "lat": 54.6,
+        "lon": 25.75
+       }
+      ],
+      "label": "≈ 30 km"
+     }
+    },
+    {
+     "vo": "So every road and railway from NATO's mainland to the three Baltic states has to pass through this strip.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       55.5,
+       22.5
+      ],
+      "span": 10.0,
+      "places": [
+       {
+        "name": "Warsaw",
+        "lat": 52.2297,
+        "lon": 21.0122
+       },
+       {
+        "name": "Suwałki Gap",
+        "lat": 54.15,
+        "lon": 23.15
+       },
+       {
+        "name": "Tallinn",
+        "lat": 59.437,
+        "lon": 24.7536
+       }
+      ],
+      "label": "All land routes, one strip"
+     }
+    },
+    {
+     "vo": "Nobody designed this narrow door. It was left behind, line by line, by a century of wars and treaties.",
+     "kind": "still",
+     "prompt": "Duotone archival plate of an old folded paper map on a wooden table, pencil lines crossing it, a brass compass beside it, dark slate with one muted orange, no readable text, no signs or lettering on any storefront, screen or package"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "LINES DRAWN BY OTHERS",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "subscribe_ask": true,
+     "prompt": "Painted map of Poland and Lithuania in 1920 with Vilnius marked by a red marker and label, as an opening beat before the still of the two newly independent states., no signs or lettering on any storefront, screen or package",
+     "seed": 1500,
+     "kind": "still"
+    },
+    {
+     "vo": "Four moments made the gap, and the first of them was signed in Suwałki itself.",
+     "kind": "timeline",
+     "timeline": {
+      "title": "How the gap formed",
+      "events": [
+       [
+        "1920",
+        "Ceasefire line signed in Suwałki"
+       ],
+       [
+        "1945",
+        "Königsberg passed to Soviets"
+       ],
+       [
+        "1991",
+        "Soviet Union breaks apart"
+       ],
+       [
+        "2004",
+        "Baltic states join NATO"
+       ]
+      ],
+      "mark": "2004"
+     }
+    },
+    {
+     "vo": "In 1920, Poland and Lithuania were both newly independent, and both claimed the city of Vilnius.",
+     "kind": "still",
+     "prompt": "Painted map of Poland and Lithuania in 1920 with Vilnius marked by a red marker and label, as an opening beat before the still of the two newly independent states., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Vilnius lies about 165 kilometres east of Suwałki, the town where the two sides met to talk.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       54.2,
+       23.5
+      ],
+      "span": 8.0,
+      "places": [
+       {
+        "name": "Suwałki",
+        "lat": 54.1115,
+        "lon": 22.9308
+       },
+       {
+        "name": "Vilnius (claimed by both, 1920)",
+        "lat": 54.6872,
+        "lon": 25.2797,
+        "disputed": true
+       },
+       {
+        "name": "Poland",
+        "lat": 52.8,
+        "lon": 21.5
+       },
+       {
+        "name": "Lithuania",
+        "lat": 55.4,
+        "lon": 23.6
+       }
+      ],
+      "label": "Vilnius: claimed by both, 1920",
+      "disputed": true
+     }
+    },
+    {
+     "vo": "On 7 October 1920, in Suwałki, they signed a deal drawing a ceasefire line between their armies.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       54.4,
+       24.0
+      ],
+      "span": 4.0,
+      "places": [
+       {
+        "name": "Suwałki",
+        "lat": 54.1115,
+        "lon": 22.9308
+       },
+       {
+        "name": "Vilnius",
+        "lat": 54.6872,
+        "lon": 25.2797
+       }
+      ],
+      "label": "Suwałki line, 1920",
+      "years": [
+       1920
+      ]
+     }
+    },
+    {
+     "vo": "Two days later, Polish troops under General Żeligowski took Vilnius, and the deal fell apart.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       54.3,
+       25.3
+      ],
+      "span": 1.6,
+      "places": [
+       {
+        "name": "Lida",
+        "lat": 53.887,
+        "lon": 25.302
+       },
+       {
+        "name": "Vilnius",
+        "lat": 54.6872,
+        "lon": 25.2797
+       }
+      ],
+      "label": "9 October 1920"
+     }
+    },
+    {
+     "vo": "Poland held Vilnius until 1939, and the two neighbours did not even open diplomatic ties until 1938.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       53.5,
+       22.0
+      ],
+      "span": 9.0,
+      "places": [
+       {
+        "name": "Poland (1922-1939)",
+        "lat": 52.5,
+        "lon": 21.5
+       },
+       {
+        "name": "Lithuania",
+        "lat": 55.3,
+        "lon": 23.6
+       }
+      ],
+      "label": "Vilnius region under Poland, 1920-1939"
+     }
+    },
+    {
+     "vo": "But that quarrel would soon matter far less than a line drawn by the winners of a world war.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       53.0,
+       18.0
+      ],
+      "span": 14.0,
+      "places": [
+       {
+        "name": "East Prussia",
+        "lat": 54.3,
+        "lon": 21.0
+       },
+       {
+        "name": "Berlin",
+        "lat": 52.52,
+        "lon": 13.405
+       }
+      ],
+      "label": "Europe, 1939",
+      "years": [
+       1939
+      ]
+     }
+    },
+    {
+     "vo": "In August 1945, the leaders of the war's winners met at Potsdam, near Berlin, to decide Germany's eastern lands.",
+     "kind": "still",
+     "prompt": "Duotone archival plate of a long conference table in a wood-panelled palace hall in summer 1945, empty chairs and papers, seen from the doorway, dark slate with one muted orange, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "They agreed in principle to pass the German city of Königsberg and the land around it to the Soviet Union.",
+     "kind": "document",
+     "document": {
+      "title": "Protocol of the Potsdam Conference, 2 August 1945",
+      "highlight": "the ultimate transfer to the Soviet Union of the City of Koenigsberg and the area adjacent to it"
+     },
+     "prompt": "Duotone archival plate of a typed treaty page lying on a dark desk with a fountain pen, dark slate with one muted orange lamp glow, top third dark plain"
+    },
+    {
+     "vo": "East Prussia was cut in two: the south went under Polish rule, the north to the Soviets.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       54.2,
+       20.8
+      ],
+      "span": 3.0,
+      "places": [
+       {
+        "name": "Königsberg",
+        "lat": 54.7104,
+        "lon": 20.4522
+       },
+       {
+        "name": "Olsztyn",
+        "lat": 53.7784,
+        "lon": 20.4801
+       }
+      ],
+      "label": "East Prussia divided",
+      "years": [
+       1945
+      ]
+     }
+    },
+    {
+     "vo": "Two weeks later, on 16 August 1945, a Polish-Soviet treaty fixed the frontier that Poland's border with Lithuania near Suwałki later inherited.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       53.0,
+       24.0
+      ],
+      "span": 8.0,
+      "places": [
+       {
+        "name": "Suwałki",
+        "lat": 54.1115,
+        "lon": 22.9308
+       },
+       {
+        "name": "Brest",
+        "lat": 52.0976,
+        "lon": 23.7341
+       }
+      ],
+      "label": "Polish-Soviet border, 16 Aug 1945",
+      "years": [
+       1945
+      ]
+     }
+    },
+    {
+     "vo": "In July 1946, Königsberg was renamed Kaliningrad, and by 1948 most of its remaining Germans had been deported.",
+     "kind": "still",
+     "prompt": "Duotone archival plate of a war-damaged brick city by a river in 1946, cranes and empty streets, seen from far away, dark slate with one muted orange, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Back then none of this mattered much, because Kaliningrad, Lithuania and Belarus all sat inside the Soviet Union.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       57.0,
+       40.0
+      ],
+      "span": 32.0,
+      "places": [
+       {
+        "name": "Soviet Union",
+        "lat": 56.0,
+        "lon": 45.0
+       },
+       {
+        "name": "Kaliningrad",
+        "lat": 54.7104,
+        "lon": 20.4522
+       }
+      ],
+      "label": "USSR, 1946-1991"
+     }
+    },
+    {
+     "vo": "The lines between them were internal ones, a bit like the borders between American states.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       54.8,
+       24.0
+      ],
+      "span": 6.0,
+      "places": [
+       {
+        "name": "Lithuanian SSR",
+        "lat": 55.3,
+        "lon": 23.9
+       },
+       {
+        "name": "Byelorussian SSR",
+        "lat": 53.7,
+        "lon": 27.9
+       },
+       {
+        "name": "Kaliningrad oblast",
+        "lat": 54.7,
+        "lon": 21.3
+       }
+      ],
+      "label": "Internal Soviet lines"
+     }
+    },
+    {
+     "vo": "That changed fast when the Soviet Union began to break apart.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       58.0,
+       32.0
+      ],
+      "span": 20.0,
+      "places": [
+       {
+        "name": "Moscow",
+        "lat": 55.7558,
+        "lon": 37.6173
+       }
+      ],
+      "label": "1990-1991",
+      "years": [
+       1990,
+       1991
+      ]
+     }
+    },
+    {
+     "vo": "On 6 September 1991, Moscow recognised the independence of Lithuania, Latvia and Estonia.",
+     "kind": "headline",
+     "headline": {
+      "date": "6 September 1991",
+      "text": "Moscow accepts Baltic independence"
+     },
+     "prompt": "Painted map of the Baltic coast with Lithuania, Latvia and Estonia highlighted and labelled, Moscow's recognition shown as a faint arrow from the east, followed by the headline."
+    },
+    {
+     "vo": "Taken into the Soviet Union in 1940, the three Baltic states were back on the map as countries.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       57.0,
+       24.5
+      ],
+      "span": 8.0,
+      "places": [
+       {
+        "name": "Estonia",
+        "lat": 58.6,
+        "lon": 25.0
+       },
+       {
+        "name": "Latvia",
+        "lat": 56.9,
+        "lon": 24.6
+       },
+       {
+        "name": "Lithuania",
+        "lat": 55.2,
+        "lon": 23.9
+       }
+      ],
+      "label": "Independent again, 1991"
+     }
+    },
+    {
+     "vo": "By the end of that year the Soviet Union was gone, and Belarus was independent too.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       55.0,
+       30.0
+      ],
+      "span": 18.0,
+      "places": [
+       {
+        "name": "Lithuania",
+        "lat": 55.3,
+        "lon": 23.9
+       },
+       {
+        "name": "Belarus",
+        "lat": 53.7,
+        "lon": 27.9
+       },
+       {
+        "name": "Russia",
+        "lat": 56.0,
+        "lon": 38.0
+       },
+       {
+        "name": "Ukraine",
+        "lat": 49.0,
+        "lon": 31.0
+       }
+      ],
+      "label": "New borders, December 1991",
+      "years": [
+       1991
+      ]
+     }
+    },
+    {
+     "vo": "As the Soviet Union ended, Kaliningrad became an exclave: Russian land cut off from the rest of Russia by new countries.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       54.7,
+       21.0
+      ],
+      "span": 4.0,
+      "places": [
+       {
+        "name": "Kaliningrad",
+        "lat": 54.7104,
+        "lon": 20.4522
+       }
+      ],
+      "label": "Exclave since 1991"
+     }
+    },
+    {
+     "vo": "Then, on 29 March 2004, Estonia, Latvia and Lithuania joined NATO, five years after Poland.",
+     "kind": "map",
+     "map": {
+      "action": "border_change",
+      "center": [
+       55.5,
+       21.0
+      ],
+      "span": 13.0,
+      "places": [
+       {
+        "name": "Poland",
+        "lat": 52.1,
+        "lon": 19.4
+       },
+       {
+        "name": "Estonia",
+        "lat": 58.6,
+        "lon": 25.0
+       },
+       {
+        "name": "Latvia",
+        "lat": 56.9,
+        "lon": 24.6
+       },
+       {
+        "name": "Lithuania",
+        "lat": 55.2,
+        "lon": 23.9
+       }
+      ],
+      "label": "NATO: Poland 1999, Baltics 2004",
+      "years": [
+       1999,
+       2004
+      ]
+     }
+    },
+    {
+     "vo": "With that, a quiet stretch of Polish-Lithuanian border became the only land link between those allies.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       54.2,
+       23.1
+      ],
+      "span": 2.2,
+      "places": [
+       {
+        "name": "Suwałki Gap",
+        "lat": 54.15,
+        "lon": 23.15
+       }
+      ],
+      "label": "The gap is born, 2004"
+     }
+    },
+    {
+     "vo": "In 2004, few people called it a weak spot. Within ten years, both sides were planning around it.",
+     "kind": "still",
+     "prompt": "Duotone archival plate of an empty two-lane road through pine forest at dusk with a lone border post far away, dark slate with one muted orange, no signs or lettering on any storefront, screen or package"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "TWO SIDES, ONE STRIP",
+   "shots": [
+    {
+     "vo": "In 2014 Russia annexed Crimea, and a UN vote backed by 100 countries called the move invalid.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       45.3,
+       34.0
+      ],
+      "span": 4.0,
+      "places": [
+       {
+        "name": "Crimea",
+        "lat": 44.9521,
+        "lon": 34.1024,
+        "disputed": true
+       }
+      ],
+      "label": "Crimea (disputed): annexed by Russia 2014",
+      "disputed": true
+     }
+    },
+    {
+     "vo": "After that, Western war-gamers asked a hard question: could NATO reach the Baltic states in time?",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       55.0,
+       17.0
+      ],
+      "span": 14.0,
+      "places": [
+       {
+        "name": "Berlin",
+        "lat": 52.52,
+        "lon": 13.405
+       },
+       {
+        "name": "Suwałki Gap",
+        "lat": 54.15,
+        "lon": 23.15
+       },
+       {
+        "name": "Riga",
+        "lat": 56.9496,
+        "lon": 24.1052
+       }
+      ],
+      "label": "How fast can help arrive?"
+     }
+    },
+    {
+     "vo": "In 2016, a RAND study ran war games in which Russian forces reached Tallinn or Riga within 36 to 60 hours.",
+     "kind": "document",
+     "document": {
+      "title": "RAND, Reinforcing Deterrence on NATO's Eastern Flank, 2016",
+      "highlight": "the longest it has taken Russian forces to reach the outskirts of the Estonian and/or Latvian capitals of Tallinn and Riga, respectively, is 60 hours"
+     },
+     "prompt": "Painted map of the Baltic states with Tallinn and Riga marked by red markers and labels, with the study document shown in a corner."
+    },
+    {
+     "vo": "Tallinn and Riga, the Estonian and Latvian capitals, both lie on the far side of the gap from NATO's mainland.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       58.0,
+       26.0
+      ],
+      "span": 6.0,
+      "places": [
+       {
+        "name": "Ivangorod (Russia)",
+        "lat": 59.3667,
+        "lon": 28.2167
+       },
+       {
+        "name": "Tallinn",
+        "lat": 59.437,
+        "lon": 24.7536
+       },
+       {
+        "name": "Pskov (Russia)",
+        "lat": 57.8136,
+        "lon": 28.3496
+       },
+       {
+        "name": "Riga",
+        "lat": 56.9496,
+        "lon": 24.1052
+       }
+      ],
+      "label": "RAND war games, 2016: Tallinn, Riga"
+     }
+    },
+    {
+     "vo": "Those were game results under the forces of 2016, not a forecast, but they helped change NATO's plans.",
+     "kind": "stat",
+     "stat": {
+      "value": 60,
+      "suffix": "hours",
+      "label": "Longest time in RAND's 2016 games to reach Tallinn or Riga"
+     },
+     "prompt": "Duotone archival plate of an old wall clock above a map room, dark slate with one muted orange, top third dark plain"
+    },
+    {
+     "vo": "That July, at its Warsaw summit, NATO agreed to station four multinational battlegroups in Poland and the Baltic states.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       56.0,
+       23.0
+      ],
+      "span": 9.0,
+      "places": [
+       {
+        "name": "Tapa",
+        "lat": 59.26,
+        "lon": 25.96
+       },
+       {
+        "name": "Ādaži",
+        "lat": 57.08,
+        "lon": 24.33
+       },
+       {
+        "name": "Rukla",
+        "lat": 55.0306,
+        "lon": 24.3747
+       },
+       {
+        "name": "Orzysz",
+        "lat": 53.8086,
+        "lon": 21.9468
+       }
+      ],
+      "label": "Four battlegroups, 2016"
+     }
+    },
+    {
+     "vo": "The one in Poland, led by the United States, is based at Orzysz, about 70 kilometres south-west of Suwałki.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       53.95,
+       22.45
+      ],
+      "span": 1.5,
+      "places": [
+       {
+        "name": "Orzysz",
+        "lat": 53.8086,
+        "lon": 21.9468
+       },
+       {
+        "name": "Suwałki",
+        "lat": 54.1115,
+        "lon": 22.9308
+       }
+      ],
+      "label": "≈ 70 km"
+     }
+    },
+    {
+     "vo": "Germany went further: on 1 April 2025 it formally set up a permanent armoured brigade in Lithuania.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       54.8,
+       24.8
+      ],
+      "span": 1.8,
+      "places": [
+       {
+        "name": "Rukla",
+        "lat": 55.0306,
+        "lon": 24.3747
+       },
+       {
+        "name": "Rūdninkai",
+        "lat": 54.43,
+        "lon": 25.06
+       }
+      ],
+      "label": "German Panzerbrigade 45"
+     }
+    },
+    {
+     "vo": "Berlin aims for about 4,800 soldiers by 2027, its first permanent brigade abroad since the Second World War.",
+     "kind": "stat",
+     "stat": {
+      "value": 4800,
+      "label": "Planned German soldiers in Lithuania by 2027"
+     },
+     "prompt": "Duotone archival plate of rows of armoured vehicles parked on a snowy forest base, seen from far away, dark slate with one muted orange, top third dark plain"
+    },
+    {
+     "vo": "Poland announced its own East Shield in May 2024: barriers and defences on its borders with Russia and Belarus.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       53.0,
+       22.5
+      ],
+      "span": 5.0,
+      "places": [
+       {
+        "name": "Poland-Russia border",
+        "lat": 54.35,
+        "lon": 21.2
+       },
+       {
+        "name": "Poland-Belarus border",
+        "lat": 52.8,
+        "lon": 23.6
+       }
+      ],
+      "label": "East Shield, 2024"
+     }
+    },
+    {
+     "vo": "Warsaw put the price at about 10 billion złoty, roughly 2.5 billion dollars at 2024 rates, spread through 2028.",
+     "kind": "stat",
+     "stat": {
+      "value": 10,
+      "suffix": "billion złoty",
+      "label": "Planned cost of East Shield through 2028 (≈ $2.5 billion at 4 zł/$)"
+     },
+     "prompt": "Duotone archival plate of concrete anti-tank blocks in a row across a misty field, dark slate with one muted orange, top third dark plain"
+    },
+    {
+     "vo": "By NATO's 2024 estimates, Poland spent 4.1 percent of its economy on defence, twice the 2 percent target.",
+     "kind": "chart",
+     "chart": {
+      "type": "bar",
+      "title": "The front line spends most",
+      "unit": "% of GDP, 2024",
+      "points": [
+       [
+        "Poland",
+        4.12
+       ],
+       [
+        "Estonia",
+        3.43
+       ],
+       [
+        "Latvia",
+        3.15
+       ],
+       [
+        "Lithuania",
+        2.85
+       ],
+       [
+        "NATO target",
+        2.0
+       ]
+      ],
+      "mark": "Poland",
+      "source": "NATO, Defence Expenditure of NATO Countries (2014-2024), June 2024"
+     }
+    },
+    {
+     "vo": "By that count, no NATO member spent a bigger share than Poland, the country on the gap's southern side.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       52.5,
+       20.0
+      ],
+      "span": 9.0,
+      "places": [
+       {
+        "name": "Poland",
+        "lat": 52.1,
+        "lon": 19.4
+       },
+       {
+        "name": "Suwałki Gap",
+        "lat": 54.15,
+        "lon": 23.15
+       }
+      ],
+      "label": "Poland: 4.1% of GDP, 2024"
+     }
+    },
+    {
+     "vo": "Now the other side of the map. Russia says the threat runs the other way: NATO has moved up to its borders.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       55.0,
+       30.0
+      ],
+      "span": 20.0,
+      "places": [
+       {
+        "name": "Moscow",
+        "lat": 55.7558,
+        "lon": 37.6173
+       },
+       {
+        "name": "Tallinn",
+        "lat": 59.437,
+        "lon": 24.7536
+       },
+       {
+        "name": "Warsaw",
+        "lat": 52.2297,
+        "lon": 21.0122
+       }
+      ],
+      "label": "Moscow's view: NATO moved east"
+     }
+    },
+    {
+     "vo": "In December 2021, Moscow published draft treaties asking NATO to stop expanding and pull back forces sent since 1997.",
+     "kind": "document",
+     "document": {
+      "title": "Russian draft agreement on security of Russia and NATO member states, 17 December 2021",
+      "highlight": "All member States of the North Atlantic Treaty Organization commit themselves to refrain from any further enlargement of NATO"
+     },
+     "prompt": "Duotone archival plate of printed papers stacked on a long ministry table under a chandelier, dark slate with one muted orange, top third dark plain"
+    },
+    {
+     "vo": "In June 2022, Lithuania stopped EU-sanctioned goods, such as steel, from crossing to Kaliningrad by rail.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       54.8,
+       24.0
+      ],
+      "span": 5.0,
+      "places": [
+       {
+        "name": "Kaliningrad",
+        "lat": 54.7104,
+        "lon": 20.4522
+       },
+       {
+        "name": "Kybartai",
+        "lat": 54.6386,
+        "lon": 22.7579
+       },
+       {
+        "name": "Belarus border",
+        "lat": 54.6,
+        "lon": 25.9
+       }
+      ],
+      "label": "Sanctioned goods halted, 18 June 2022"
+     }
+    },
+    {
+     "vo": "Moscow called the move hostile and said it reserved the right to act to protect its interests.",
+     "kind": "headline",
+     "headline": {
+      "date": "21 June 2022",
+      "text": "Moscow warns Vilnius over Kaliningrad rail limits"
+     },
+     "prompt": "Duotone archival plate of a freight train of steel wagons waiting at a rail yard at night, dark slate with one muted orange signal light, top third dark plain"
+    },
+    {
+     "vo": "In July, after new EU guidance, rail transit of those goods resumed, and the crisis cooled.",
+     "kind": "map",
+     "map": {
+      "action": "flow",
+      "center": [
+       54.9,
+       29.0
+      ],
+      "span": 12.0,
+      "places": [
+       {
+        "name": "Kaliningrad",
+        "lat": 54.7104,
+        "lon": 20.4522
+       },
+       {
+        "name": "Moscow",
+        "lat": 55.7558,
+        "lon": 37.6173
+       }
+      ],
+      "label": "Transit resumed, July 2022"
+     }
+    },
+    {
+     "vo": "Belarus adds another layer. In March 2023, Russia announced it would station tactical nuclear weapons there.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       53.7,
+       27.9
+      ],
+      "span": 6.0,
+      "places": [
+       {
+        "name": "Belarus",
+        "lat": 53.7,
+        "lon": 27.9
+       },
+       {
+        "name": "Minsk",
+        "lat": 53.9006,
+        "lon": 27.559
+       }
+      ],
+      "label": "Announced March 2023"
+     }
+    },
+    {
+     "vo": "Its leader, Alexander Lukashenko, said in June 2023 that the first warheads had arrived.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       53.9,
+       27.56
+      ],
+      "span": 1.0,
+      "places": [
+       {
+        "name": "Minsk",
+        "lat": 53.9006,
+        "lon": 27.559
+       }
+      ],
+      "label": "Claimed arrival, June 2023"
+     }
+    },
+    {
+     "vo": "Their joint war games show how sources disagree. For Zapad 2017, Russia and Belarus declared 12,700 troops.",
+     "kind": "compare",
+     "compare": {
+      "title": "Zapad 2017: whose count?",
+      "left": {
+       "name": "Declared by Russia and Belarus",
+       "value": 12700,
+       "label": "troops"
+      },
+      "right": {
+       "name": "Warned by Baltic officials",
+       "value": 100000,
+       "label": "troops, upper estimate"
+      },
+      "winner": "right"
+     }
+    },
+    {
+     "vo": "Lithuanian and Estonian officials had warned it could reach 100,000, and independent counts are hard to make.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       54.3,
+       25.5
+      ],
+      "span": 8.0,
+      "places": [
+       {
+        "name": "Kaliningrad",
+        "lat": 54.7104,
+        "lon": 20.4522
+       },
+       {
+        "name": "Belarus",
+        "lat": 53.7,
+        "lon": 27.9
+       }
+      ],
+      "label": "Zapad 2017 exercise areas"
+     }
+    },
+    {
+     "vo": "Behind it all sits NATO's Article 5, from 1949. In short, an attack on one member is an attack on all.",
+     "kind": "quote",
+     "quote": {
+      "text": "an armed attack against one or more of them in Europe or North America shall be considered an attack against them all",
+      "who": "North Atlantic Treaty, Article 5 (treaty text)",
+      "source": "North Atlantic Treaty, 4 April 1949"
+     },
+     "prompt": "Duotone archival plate of a signing table with flags in a hall in 1949, seen from the back of the room, dark slate with one muted orange, top third dark plain"
+    },
+    {
+     "vo": "Critics of NATO's plans say the test is how fast help can travel through the strip.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       54.15,
+       23.15
+      ],
+      "span": 1.2,
+      "places": [
+       {
+        "name": "Poland-Lithuania-Russia tripoint",
+        "lat": 54.3633,
+        "lon": 22.7924
+       },
+       {
+        "name": "Poland-Lithuania-Belarus tripoint",
+        "lat": 53.9542,
+        "lon": 23.5154
+       }
+      ],
+      "label": "65 km"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "WALLS, SHIPS OR RAILS",
+   "shots": [
+    {
+     "vo": "So what could change the gap? Three paths are already on the map, and each leads somewhere different.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       56.5,
+       22.0
+      ],
+      "span": 14.0,
+      "places": [
+       {
+        "name": "Suwałki Gap",
+        "lat": 54.15,
+        "lon": 23.15
+       },
+       {
+        "name": "Baltic Sea",
+        "lat": 57.0,
+        "lon": 19.0
+       }
+      ],
+      "label": "Three paths"
+     }
+    },
+    {
+     "vo": "First, the walls. In January 2024, Estonia, Latvia and Lithuania agreed to build a joint Baltic Defence Line.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       56.8,
+       26.5
+      ],
+      "span": 8.0,
+      "places": [
+       {
+        "name": "Estonia-Russia border",
+        "lat": 58.6,
+        "lon": 27.6
+       },
+       {
+        "name": "Latvia-Russia border",
+        "lat": 56.9,
+        "lon": 28.0
+       },
+       {
+        "name": "Lithuania-Belarus border",
+        "lat": 54.6,
+        "lon": 25.9
+       }
+      ],
+      "label": "Baltic Defence Line, 2024"
+     }
+    },
+    {
+     "vo": "Put Poland's East Shield beside it, and planned barriers run from the Gulf of Finland almost to Ukraine.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       55.5,
+       25.0
+      ],
+      "span": 12.0,
+      "places": [
+       {
+        "name": "Narva",
+        "lat": 59.3772,
+        "lon": 28.1903
+       },
+       {
+        "name": "Poland-Belarus-Ukraine tripoint",
+        "lat": 51.5,
+        "lon": 23.6
+       }
+      ],
+      "label": "One long fortified line"
+     }
+    },
+    {
+     "vo": "On the map, the gap would stop being an open door and become a guarded corridor between two fortified borders.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       54.2,
+       23.1
+      ],
+      "span": 2.0,
+      "places": [
+       {
+        "name": "Suwałki Gap",
+        "lat": 54.15,
+        "lon": 23.15
+       }
+      ],
+      "label": "From gap to corridor"
+     }
+    },
+    {
+     "vo": "Second, the sea. Finland joined NATO in April 2023, and Sweden followed in March 2024.",
+     "kind": "timeline",
+     "timeline": {
+      "title": "NATO around the Baltic",
+      "events": [
+       [
+        "1999",
+        "Poland joins"
+       ],
+       [
+        "2004",
+        "Estonia, Latvia, Lithuania join"
+       ],
+       [
+        "2023",
+        "Finland joins"
+       ],
+       [
+        "2024",
+        "Sweden joins"
+       ]
+      ],
+      "mark": "2024"
+     }
+    },
+    {
+     "vo": "Now almost every shore of the Baltic Sea belongs to NATO, except Russia's coasts near St Petersburg and Kaliningrad.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       58.5,
+       21.0
+      ],
+      "span": 14.0,
+      "places": [
+       {
+        "name": "Stockholm",
+        "lat": 59.3293,
+        "lon": 18.0686
+       },
+       {
+        "name": "Helsinki",
+        "lat": 60.1699,
+        "lon": 24.9384
+       },
+       {
+        "name": "St Petersburg",
+        "lat": 59.9311,
+        "lon": 30.3609
+       },
+       {
+        "name": "Kaliningrad",
+        "lat": 54.7104,
+        "lon": 20.4522
+       }
+      ],
+      "label": "A sea ringed by NATO"
+     }
+    },
+    {
+     "vo": "Sweden's island of Gotland sits about 300 kilometres from Kaliningrad's coast, in the middle of that sea.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       55.9,
+       19.0
+      ],
+      "span": 4.0,
+      "places": [
+       {
+        "name": "Gotland",
+        "lat": 56.95,
+        "lon": 18.2
+       },
+       {
+        "name": "Baltiysk",
+        "lat": 54.6491,
+        "lon": 19.9146
+       }
+      ],
+      "label": "≈ 300 km"
+     }
+    },
+    {
+     "vo": "Supplies could then reach the Baltic states by ship and by plane, so the land gap would matter less.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       57.5,
+       19.5
+      ],
+      "span": 8.0,
+      "places": [
+       {
+        "name": "Stockholm",
+        "lat": 59.3293,
+        "lon": 18.0686
+       },
+       {
+        "name": "Riga",
+        "lat": 56.9496,
+        "lon": 24.1052
+       },
+       {
+        "name": "Klaipėda",
+        "lat": 55.7033,
+        "lon": 21.1443
+       }
+      ],
+      "label": "Sea routes"
+     }
+    },
+    {
+     "vo": "Seen from Kaliningrad, though, the same change leaves Russia's exclave more surrounded by NATO coasts than ever.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       54.9,
+       20.2
+      ],
+      "span": 3.0,
+      "places": [
+       {
+        "name": "Kaliningrad",
+        "lat": 54.7104,
+        "lon": 20.4522
+       },
+       {
+        "name": "Baltiysk",
+        "lat": 54.6491,
+        "lon": 19.9146
+       }
+      ],
+      "label": "The other side of the same map"
+     }
+    },
+    {
+     "vo": "Third, the railway. Rail Baltica is a planned European-gauge line from Poland, through the gap, to Tallinn.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       56.3,
+       23.5
+      ],
+      "span": 9.0,
+      "places": [
+       {
+        "name": "Warsaw",
+        "lat": 52.2297,
+        "lon": 21.0122
+       },
+       {
+        "name": "Kaunas",
+        "lat": 54.8985,
+        "lon": 23.9036
+       },
+       {
+        "name": "Riga",
+        "lat": 56.9496,
+        "lon": 24.1052
+       },
+       {
+        "name": "Tallinn",
+        "lat": 59.437,
+        "lon": 24.7536
+       }
+      ],
+      "label": "Rail Baltica"
+     }
+    },
+    {
+     "vo": "Its Baltic section runs about 870 kilometres, and its builders aim to finish the main line by 2030.",
+     "kind": "stat",
+     "stat": {
+      "value": 870,
+      "suffix": "km",
+      "label": "Rail Baltica in the Baltic states, main line target 2030"
+     },
+     "prompt": "Duotone archival plate of new railway embankment cutting through pine forest, rails not yet laid, seen from far above, dark slate with one muted orange, top third dark plain"
+    },
+    {
+     "vo": "European auditors have already reported delays and rising costs, so that date is a goal, not a promise.",
+     "kind": "map",
+     "map": {
+      "action": "route",
+      "center": [
+       54.6,
+       23.5
+      ],
+      "span": 2.5,
+      "places": [
+       {
+        "name": "Polish border",
+        "lat": 54.21,
+        "lon": 23.39
+       },
+       {
+        "name": "Kaunas",
+        "lat": 54.8985,
+        "lon": 23.9036
+       }
+      ],
+      "label": "Built so far: border to Kaunas"
+     }
+    },
+    {
+     "vo": "Each path could make the gap stronger or less needed, but none of them would make it a single metre wider.",
+     "kind": "map",
+     "map": {
+      "action": "measure",
+      "center": [
+       54.15,
+       23.2
+      ],
+      "span": 3.0,
+      "places": [
+       {
+        "name": "Kaliningrad oblast",
+        "lat": 54.5,
+        "lon": 21.8
+       },
+       {
+        "name": "Belarus",
+        "lat": 53.8,
+        "lon": 24.2
+       }
+      ],
+      "label": "Still ≈ 65 km"
+     }
+    },
+    {
+     "vo": "It cannot be widened, because the land on both sides belongs to Russia's exclave and to Russia's ally.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       54.5,
+       25.0
+      ],
+      "span": 10.0,
+      "places": [
+       {
+        "name": "Kaliningrad (Russia)",
+        "lat": 54.7104,
+        "lon": 20.4522
+       },
+       {
+        "name": "Belarus",
+        "lat": 53.7,
+        "lon": 27.9
+       },
+       {
+        "name": "Suwałki Gap",
+        "lat": 54.15,
+        "lon": 23.15
+       }
+      ],
+      "label": "Russia's exclave · Russia's ally"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "So the Suwałki Gap is not really a hole in NATO's map.",
+     "kind": "map",
+     "map": {
+      "action": "locate",
+      "center": [
+       55.5,
+       22.0
+      ],
+      "span": 12.0,
+      "places": [
+       {
+        "name": "Suwałki Gap",
+        "lat": 54.15,
+        "lon": 23.15
+       }
+      ],
+      "label": "THE SUWAŁKI GAP"
+     }
+    },
+    {
+     "vo": "It is a hallway, and six million people live at the far end of it.",
+     "kind": "map",
+     "map": {
+      "action": "fill",
+      "center": [
+       57.2,
+       24.5
+      ],
+      "span": 7.0,
+      "places": [
+       {
+        "name": "Estonia",
+        "lat": 58.6,
+        "lon": 25.0
+       },
+       {
+        "name": "Latvia",
+        "lat": 56.9,
+        "lon": 24.6
+       },
+       {
+        "name": "Lithuania",
+        "lat": 55.2,
+        "lon": 23.9
+       }
+      ],
+      "label": "6.1 million people"
+     }
+    },
+    {
+     "vo": "Next, Narva: an Estonian city where NATO and Russia face each other across one narrow river.",
+     "kind": "map",
+     "map": {
+      "action": "pin",
+      "center": [
+       59.38,
+       28.2
+      ],
+      "span": 0.4,
+      "places": [
+       {
+        "name": "Narva (Estonia)",
+        "lat": 59.3772,
+        "lon": 28.1903
+       },
+       {
+        "name": "Ivangorod (Russia)",
+        "lat": 59.3667,
+        "lon": 28.2167
+       }
+      ],
+      "label": "NEXT: NARVA"
+     }
+    }
+   ]
+  }
+ ],
+ "restocked": true,
+ "replanned": true,
+ "templates_checked": true,
+ "painted_cards": true,
+ "photos_checked": true,
+ "visuals_checked": true,
+ "approved": true,
+ "review": "auto",
+ "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos"
+}
