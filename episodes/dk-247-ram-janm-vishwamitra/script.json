@@ -1,0 +1,1096 @@
+{
+ "slug": "dk-247-ram-janm-vishwamitra",
+ "format": "long",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "श्रीराम जन्म की असली कहानी: विश्वामित्र ने बालक राम को क्यों माँगा? 🙏 | रामायण Ep 5",
+ "thumbnail": {
+  "layout": "epic",
+  "text": "दशरथ से *राम* माँगा",
+  "plane": "Inside the golden royal court of Ayodhya at dusk, Sage Vishwamitra, tall ascetic with matted grey hair, long grey beard, saffron robes, rudraksha beads, holding a wooden staff, LARGE in the left half, standing with fierce burning resolve and one hand raised in demand; in the right half elderly King Dasharatha, white beard, golden crown, royal silk robes, collapsing back onto his throne in anguish, oil lamps flickering, tall carved pillars, deep shadows, dark high-contrast cinematic light, no text"
+ },
+ "music": {
+  "suspense": [
+   "cold_open",
+   "ch9",
+   "ch10",
+   "ch12"
+  ],
+  "devotional": [
+   "ch1",
+   "ch4",
+   "ch5",
+   "ch6",
+   "ch7",
+   "outro"
+  ],
+  "epic": [
+   "ch2",
+   "ch3"
+  ],
+  "emotional": [
+   "ch8",
+   "ch11"
+  ]
+ },
+ "source": "Valmiki Ramayana (Gita Press edition), Bal Kand, sargas 17-20",
+ "journey_score": 8.6,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "चैत्र महीने की नवमी है, अयोध्या में भोर के चार बजे हैं।",
+     "prompt": "Thousands of small oil lamps glowing along the stone steps of the Ayodhya ghats beside the Saryu river, temple spires in silhouette, soft mist on the water, deep blue pre-dawn sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सरयू के पानी में भक्तों की भीड़ डुबकी लगा रही है।",
+     "prompt": "Crowds of modestly dressed Indian devotees standing waist-deep and dipping in the Saryu river, saffron flags on the stone ghats behind them, golden first light on the water, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "घाटों पर घंटियाँ बज रही हैं, हर ज़ुबान पर एक ही नाम है।",
+     "prompt": "A priest in a white dhoti ringing a large brass bell at a small riverside shrine on the Ayodhya ghats, devotees with folded hands behind him, saffron flags, warm sunrise light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "दोपहर होते ही रामलला के माथे पर सूरज की किरण तिलक करती है।",
+     "prompt": "A single golden beam of sunlight falling on the forehead of a dark stone idol of child Lord Rama decked with flowers and jewels, inside a carved stone sanctum, sharp focus, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "आख़िर यही तिथि क्यों?",
+     "prompt": "An elderly Indian woman in a plain cotton saree with folded hands, looking up at a tall temple spire of Ayodhya, bright midday sky, seen from the side, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "किसने लिखा कि राम इसी घड़ी में जन्मे थे?",
+     "prompt": "An old palm-leaf manuscript lying open on a wooden stand, an oil lamp beside it, dust floating in a shaft of light, quiet stone library, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सच यह है कि वाल्मीकि जी ने राम जन्म का पूरा समय लिखा है।",
+     "prompt": "An old sage with long white beard and matted hair, white robes, writing on palm leaves with a stylus, seated in a forest hermitage hut, warm evening lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "महीना, तिथि, नक्षत्र, लग्न, और पाँच ग्रहों की जगह तक।",
+     "prompt": "Five bright planets in a line in a night sky above ancient Ayodhya palace domes, a crescent moon beside a very bright Jupiter, stars, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर जिस बेटे को दशरथ ने, अपने कहे अनुसार, साठ हज़ार बरस की उम्र में पाया,",
+     "prompt": "An old king with white beard, golden crown and cream-and-gold royal robes, standing on a palace balcony at sunset, smiling tenderly, Ayodhya rooftops below, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "एक दिन ऋषि विश्वामित्र उसी बेटे को माँगने आ पहुँचे।",
+     "prompt": "A tall ascetic old man with matted grey hair, long grey beard, saffron robes, rudraksha beads and a wooden staff, walking towards the huge golden gates of Ayodhya, stormy sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "देवों का काम",
+   "shots": [
+    {
+     "vo": "पिछली बार यज्ञ की आग से एक दिव्य पुरुष खीर का पात्र लेकर निकले थे।",
+     "prompt": "A radiant divine being in red and gold rising from a blazing sacrificial fire altar, holding a golden vessel of kheer in both hands, white-robed priests watching, smoke rising, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "राजा दशरथ ने वो खीर तीनों रानियों में बाँटी। तीनों रानियाँ माँ बनने वाली थीं।",
+     "prompt": "An old king with white beard and golden crown on the left, handing a golden bowl of kheer to Queen Kaushalya on the right, a woman in a cream silk saree with gold jewellery, lamp-lit palace hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उधर स्वर्ग में भगवान विष्णु रावण के अंत के लिए मनुष्य बनने को तैयार थे।",
+     "prompt": "Lord Vishnu, blue skin, four arms holding conch, discus, mace and lotus, yellow silk, golden crown, standing on clouds in a radiant heaven, looking down at the earth, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "तब ब्रह्मा जी ने सब देवताओं को अपने पास बुलाया।",
+     "prompt": "Lord Brahma with one bearded golden face, red robes, holding scriptures and a water pot, seated on a giant pink lotus, small gods gathering in the distance, heavenly light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उन्होंने कहा, विष्णु सत्य के रक्षक हैं, और हम सबका भला चाहते हैं।",
+     "prompt": "Lord Brahma with one bearded golden face, red robes, raising one hand as he speaks, in a golden celestial hall, soft divine light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वो धरती पर जा रहे हैं, तो उन्हें बलवान साथी चाहिए।",
+     "prompt": "Rays of divine golden light descending from the clouds towards a distant Indian city and green forests, rivers glittering far below, seen from the heavens, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "इसलिए तुम सब अपने जैसे बलवान, बुद्धिमान और वीर पुत्र पैदा करो।",
+     "prompt": "Lord Indra, golden-skinned, crowned, holding a thunderbolt, standing with folded hands before Lord Brahma on a lotus seat, heavenly court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "ऐसे वीर जो रूप बदल सकें, हवा जैसे तेज़ हों, और कभी हार न मानें।",
+     "prompt": "Streaks of golden light shooting down from a swirling sky towards green mountain forests on earth, bright clouds, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वो वानर रूप में जन्म लें, और विष्णु की सहायता करें।",
+     "prompt": "Misty green mountain forest at sunrise, tall trees on rocky peaks, a soft golden glow settling over the treetops, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "फिर ब्रह्मा जी ने बताया कि एक वीर तो पहले ही जन्म ले चुका है।",
+     "prompt": "Lord Brahma with one bearded golden face, red robes, gentle knowing smile, one hand raised, a lotus behind him, celestial light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "वानर वीरों का जन्म",
+   "shots": [
+    {
+     "vo": "ब्रह्मा जी बोले: पूर्वमेव मया सृष्टो जाम्बवानृक्षपुङ्गवः, जृम्भमाणस्य सहसा मम वक्त्रादजायत॥",
+     "prompt": "Lord Brahma with one golden bearded face, red robes, yawning, a burst of golden light emerging from his mouth in front of him, seated on a lotus in the heavens, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "यानी, भालुओं के राजा जाम्बवान को मैंने पहले ही रच दिया है। मेरे जम्हाई लेते ही वो मेरे मुख से प्रकट हुए।",
+     "prompt": "Jambavan, a huge grey-furred bear king with a bear's face, armour and a necklace, standing on a mountain peak at dawn, strong and old, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "ब्रह्मा जी की बात सुनकर देवताओं ने वैसा ही किया।",
+     "prompt": "Many gods in glowing robes descending on rays of golden light towards green earth mountains, bright clouds, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वाल्मीकि जी के अनुसार, इंद्र देव से वानरराज बाली जन्मे, जो इंद्र जैसे ही बलवान थे।",
+     "prompt": "Vali, a muscular golden-furred monkey king with a golden necklace, standing proudly on a rocky cliff, thunderclouds and lightning behind him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कथा में आता है कि सूर्य देव से सुग्रीव जन्मे, जिनमें सूरज जैसा तेज था।",
+     "prompt": "Sugriva, a monkey prince with reddish-gold fur and golden armlets, standing on a mountain ridge with the rising sun blazing behind him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "देवगुरु बृहस्पति से तार जन्मे, जो वानरों में सबसे बुद्धिमान माने गए।",
+     "prompt": "Tara, a wise monkey with grey-brown fur and a calm thoughtful face, seated on a rock in a forest clearing, soft morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कुबेर से गंधमादन जन्मे, और देवताओं के शिल्पी विश्वकर्मा से नल।",
+     "prompt": "Nala, a monkey builder with strong hands holding a stone-cutting chisel, standing beside carved rocks in a mountain forest, golden afternoon light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अग्नि देव से नील जन्मे, जो आग जैसे तेजस्वी थे।",
+     "prompt": "Nila, a dark-furred monkey warrior with bright eyes, standing before a forest of flame-coloured palash trees in bloom at sunset, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अश्विनी कुमारों से मैंद और द्विविद, वरुण से सुषेण, और पर्जन्य से शरभ जन्मे।",
+     "prompt": "Two identical young monkey twins with tawny fur standing side by side on a river bank in a misty forest, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और फिर, कथा के अनुसार, पवन देव से वो वीर जन्मे, जिनकी पूजा आज हर गली में होती है।",
+     "prompt": "Vayu, the wind god in flowing white and blue robes, amid swirling winds over mountain peaks, looking down at a glowing golden light in the forest below, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "हनुमान जी। जिनका शरीर वज्र जैसा कठोर था, और वेग गरुड़ जैसा।",
+     "prompt": "Young Lord Hanuman, monkey god with golden-orange fur, saffron loincloth, gold crown, holding a mace, standing tall on a mountain peak, wind sweeping around him, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वाल्मीकि जी कहते हैं, वो सब वानरों में सबसे बुद्धिमान और सबसे श्रेष्ठ थे।",
+     "prompt": "Young Lord Hanuman, monkey god with golden-orange fur, saffron loincloth, holding a mace, calm wise expression, sunlight on his face, forest behind, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "हर मंगलवार हनुमान मंदिरों में जो भीड़ लगती है, उसकी जड़ यहीं है।",
+     "prompt": "Devotees lining up in a Hanuman temple courtyard on an evening, offering orange sindoor and marigold garlands to a large saffron idol of Lord Hanuman holding a mace, lamps lit, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और ये तो बस शुरुआत थी। देखते ही देखते हज़ारों वानर वीर धरती पर आ गए।",
+     "prompt": "Thousands of monkey warriors standing on every ridge of forested mountain ranges, clouds drifting between the peaks, epic wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "वानर सेना",
+   "shots": [
+    {
+     "vo": "ये कोई साधारण वानर नहीं थे। मान्यता है कि हर एक में अपने देव-पिता जैसा बल था।",
+     "prompt": "A group of mighty monkey warriors with fur of different colours standing on a cliff edge, muscular, looking towards the horizon, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वाल्मीकि जी लिखते हैं, वो बड़े-बड़े पेड़ उखाड़ सकते थे, पहाड़ हिला सकते थे।",
+     "prompt": "A huge monkey warrior lifting an uprooted tree above his head with both hands on a rocky mountainside, dust and leaves flying, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मान्यता है कि वो समुद्र को मथ सकते थे, और आसमान में जाकर बादल तक पकड़ सकते थे।",
+     "prompt": "A monkey warrior standing on top of a tall rock stretching his hand up to grab a dark cloud in a stormy sky above a rough sea, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "जंगल के मतवाले हाथी भी उनके बल के आगे कुछ नहीं थे।",
+     "prompt": "A strong monkey warrior standing on a boulder in a forest clearing while a herd of wild elephants walks away into the jungle in the distance, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वो मनचाहा रूप बदल सकते थे, और पहाड़ों-जंगलों में रहते थे।",
+     "prompt": "Monkeys resting on ledges and tree branches beside caves and a waterfall in a deep green forest, evening mist, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "भालू और लंबी पूंछ वाले गोलांगूल वानर भी इस सेना में शामिल हुए।",
+     "prompt": "Bear warriors and long-tailed monkeys gathered together in a large forest valley, campfire smoke rising, evening light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सब वानर बाली और सुग्रीव के चारों ओर इकट्ठा होने लगे।",
+     "prompt": "Vali, a golden-furred monkey king, on the left and Sugriva, a reddish-gold monkey prince, on the right, standing together on a high rock above a valley full of monkey warriors, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "नल, नील और हनुमान जैसे वीर इस सेना के मुखिया बने।",
+     "prompt": "Lord Hanuman, monkey god with golden-orange fur, saffron, holding a mace, on the left, standing beside Nila, a dark-furred monkey warrior, on the right, on a forest ridge, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "बादलों के झुंड जैसी ये सेना पहाड़ों पर चुपचाप इंतज़ार करने लगी।",
+     "prompt": "Mountain ranges covered with huge silent monkey armies like dark clouds, sunset light, still air, epic wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "इंतज़ार किसका? अयोध्या में होने वाले एक जन्म का।",
+     "prompt": "A distant view from a mountain top towards the golden city of Ayodhya on the plains at dusk, a soft golden glow over the royal palace, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "यज्ञ की विदाई",
+   "shots": [
+    {
+     "vo": "उधर अयोध्या में राजा दशरथ का अश्वमेध यज्ञ पूरा हो चुका था।",
+     "prompt": "A huge ground with smouldering fire altars outside Ayodhya, white-robed priests completing the final rites, smoke rising at sunset, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "देवता अपना-अपना यज्ञ भाग लेकर स्वर्ग लौट गए।",
+     "prompt": "Glowing divine figures rising from yajna smoke into golden clouds above the sacrificial ground, white-robed priests below with folded hands, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "यज्ञ की दीक्षा पूरी कर राजा रानियों के साथ नगर लौट आए।",
+     "prompt": "An old king with white beard and golden crown walking beside Queen Kaushalya in a cream silk saree through the decorated gates of Ayodhya, citizens with folded hands lining the road, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "यज्ञ में आए राजाओं को राजा दशरथ ने आदर से विदा किया।",
+     "prompt": "Inside a royal hall, an old king with white beard and golden crown bidding farewell with folded hands to a visiting king in a different crown and robes, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सब राजा खुशी-खुशी अपने-अपने राज्य लौट गए।",
+     "prompt": "A long royal procession of chariots and banners moving away from Ayodhya along a wide road towards distant hills at dawn, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "फिर ऋष्यश्रृंग मुनि की बारी आई, जिनकी कृपा से यह यज्ञ हुआ था।",
+     "prompt": "A young ascetic with matted hair, a single small horn on his forehead and saffron robes, being honoured by an old king with white beard and golden crown in a palace courtyard, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "राजा ने उनका पूजन किया, और वो पत्नी शांता के साथ लौट चले।",
+     "prompt": "A young ascetic with a single small horn on his forehead and saffron robes walking away on a forest path beside Princess Shanta in a simple saree, palace far behind them, side view, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अब महल में बस इंतज़ार था। तीनों रानियों के आँगन में ख़ुशी पल रही थी।",
+     "prompt": "Queen Sumitra, a woman in a green silk saree, sitting peacefully and smiling softly beside a lotus pond with lamps in a palace garden of Ayodhya, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "दिन बीते, महीने बीते। छह ऋतुएँ आईं और चली गईं।",
+     "prompt": "A palace courtyard tree shown in four seasons: monsoon rain, orange autumn leaves, winter mist and spring blossoms, soft light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और फिर आई वो घड़ी, जिसे पूरी धरती ने याद रखा।",
+     "prompt": "A night sky over Ayodhya palace with bright stars and planets aligned, a soft golden light glowing from one palace window, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "राम जन्म",
+   "shots": [
+    {
+     "vo": "वाल्मीकि जी लिखते हैं: ततो यज्ञे समाप्ते तु ऋतूनां षट् समत्ययुः, ततश्च द्वादशे मासे चैत्रे नावमिके तिथौ॥",
+     "prompt": "An old sage with long white beard and white robes writing on palm leaves by lamp light in his hermitage, stars visible through the hut door, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मतलब, यज्ञ पूरा होने के बाद छह ऋतुएँ बीतीं। फिर बारहवें महीने में चैत्र की नवमी आई।",
+     "prompt": "Spring night over Ayodhya, mango blossoms and flowering trees around the palace, a crescent moon in the sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "नक्षत्रेऽदितिदैवत्ये स्वोच्चसंस्थेषु पञ्चसु, ग्रहेषु कर्कटे लग्ने वाक्पताविन्दुना सह॥",
+     "prompt": "Five bright planets shining in a deep blue sky above the palace towers of Ayodhya, the moon close to a brilliant Jupiter, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मतलब, पुनर्वसु नक्षत्र था, जिसकी देवी अदिति हैं। पाँच ग्रह अपने ऊँचे स्थान पर थे।",
+     "prompt": "A close view of a starry night sky with a cluster of shining stars and five glowing planets, faint golden glow, sharp stars, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कर्क लग्न था, और बृहस्पति चंद्रमा के साथ उदित थे।",
+     "prompt": "A bright full moon beside a large glowing Jupiter rising over the Saryu river and the palace domes of Ayodhya, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उसी शुभ घड़ी में माता कौशल्या ने एक बालक को जन्म दिया।",
+     "prompt": "Queen Kaushalya, a woman in a cream silk saree with gold jewellery, holding newborn baby Lord Rama with blue skin wrapped in yellow silk, in a lamp-lit palace chamber, divine golden glow, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "तुलसीदास जी रामचरितमानस में दोपहर का समय बताते हैं, वाल्मीकि जी ग्रहों की स्थिति देते हैं।",
+     "prompt": "Bright midday sun shining over the palace domes and flowering gardens of ancient Ayodhya in spring, golden haze, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सब शुभ लक्षणों वाला, कमल जैसी आँखों वाला। वाल्मीकि जी कहते हैं, वो विष्णु का आधा अंश थे।",
+     "prompt": "Newborn baby Lord Rama with blue skin and large lotus-like eyes, wrapped in yellow silk, a soft golden halo behind his head, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "इक्ष्वाकु वंश को आगे बढ़ाने वाले, जगत के स्वामी, श्रीराम।",
+     "prompt": "Queen Kaushalya, a woman in a cream silk saree, lifting newborn baby Lord Rama with blue skin in yellow silk towards a window as golden light floods the chamber, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "बेटे को पाकर माता कौशल्या ऐसी शोभित हुईं, जैसे इंद्र को पाकर देवमाता अदिति।",
+     "prompt": "Queen Kaushalya, a woman in a cream silk saree, smiling with tears of joy while holding baby Lord Rama with blue skin, flower petals floating in the room, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "इसी घड़ी को भक्तों ने रामनवमी बनाकर संजोया। घर-घर में पालना सजता है, मंदिरों में शंख बजते हैं।",
+     "prompt": "A decorated cradle holding a tiny idol of child Lord Rama, marigold flowers around it, a mother in a saree lighting a brass lamp beside it, Indian home interior, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अयोध्या में हर साल भक्तों की भारी भीड़ इसी घड़ी का इंतज़ार करती है।",
+     "prompt": "Crowds of devotees outside the Ram temple in Ayodhya, saffron flags and flower decorations, bright sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर महल की ख़ुशी अभी पूरी नहीं हुई थी। तीन और बालक आने वाले थे।",
+     "prompt": "A long palace corridor in Ayodhya with maids hurrying with lamps and flowers towards a chamber door, warm night light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "चार भाई",
+   "shots": [
+    {
+     "vo": "माता कैकेयी ने भरत को जन्म दिया, जो सत्य पर चलने वाले पराक्रमी बालक थे।",
+     "prompt": "Queen Kaikeyi, a beautiful woman in a red silk saree with gold jewellery, holding newborn baby Bharata wrapped in white silk in a richly decorated palace chamber, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "भरत पुष्य नक्षत्र और मीन लग्न में जन्मे।",
+     "prompt": "Dawn sky over Ayodhya with a bright star cluster fading into sunrise colours above the palace, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "माता सुमित्रा ने दो बेटों को जन्म दिया, लक्ष्मण और शत्रुघ्न।",
+     "prompt": "Queen Sumitra, a woman in a green silk saree, holding two newborn baby boys wrapped in white silk, in a soft-lit palace chamber, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "दोनों आश्लेषा नक्षत्र और कर्क लग्न में जन्मे, जब सूरज उग चुका था।",
+     "prompt": "Sunrise over the Saryu river, golden light spreading over the palace domes and gardens of Ayodhya, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वाल्मीकि जी कहते हैं, चारों भाई गुणों में ऐसे थे, जैसे आकाश में चमकते चार तारे।",
+     "prompt": "Four bright stars shining together in a twilight sky above the royal palace of Ayodhya, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वाल्मीकि जी लिखते हैं कि उस दिन आसमान में गंधर्वों ने गीत गाए, अप्सराओं ने नृत्य किया।",
+     "prompt": "Heavenly musicians with veenas and a modestly dressed dancing woman in flowing robes among golden clouds above Ayodhya, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "देवताओं के नगाड़े बजे, और आसमान से फूल बरसे।",
+     "prompt": "Flower petals raining from a bright sky over the palace and streets of Ayodhya, large celestial drums glowing in the clouds, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अयोध्या की गलियाँ लोगों से भर गईं। हर तरफ़ नाच-गाना और उत्सव था।",
+     "prompt": "A festive street of ancient Ayodhya full of modestly dressed citizens celebrating, garlands, banners, drummers and dancers, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "नट, नर्तक और गायक हर चौराहे पर थे। पूरा नगर रत्नों से सजा था।",
+     "prompt": "A crowded city square in ancient Ayodhya with musicians and dancers performing, flower garlands, jewelled arches and lamps at dusk, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "राजा दशरथ ने सूत, मागध और बंदीजनों को इनाम दिए। ब्राह्मणों को धन और गायें दान कीं।",
+     "prompt": "An old king with white beard and golden crown handing a tray of gold coins to a white-robed Brahmin, a few cows grazing in the palace courtyard behind, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अब बाकी था एक बड़ा दिन, चारों बेटों का नाम रखना।",
+     "prompt": "A palace hall decorated with marigold flowers and colourful rangoli, a sacred fire altar ready in the centre, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "नामकरण",
+   "shots": [
+    {
+     "vo": "जन्म के ग्यारह दिन बाद नामकरण संस्कार हुआ।",
+     "prompt": "A palace hall with a small sacred fire, Queen Kaushalya in a cream silk saree seated holding baby Lord Rama on her lap, priests chanting behind, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कुलगुरु वसिष्ठ जी ने खुद चारों बालकों के नाम रखे।",
+     "prompt": "An elderly sage with long white beard and matted hair, white robes, seated before a sacred fire, raising one hand in blessing, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "बड़े बेटे का नाम राम, कैकेयी के बेटे का भरत, सुमित्रा के बेटों का लक्ष्मण और शत्रुघ्न।",
+     "prompt": "An old sage with white beard and white robes on the left, speaking beside an old king with white beard and golden crown on the right, in a flower-decorated hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उस दिन ब्राह्मणों, नगर वालों और गाँव वालों को भोजन कराया गया।",
+     "prompt": "A palace courtyard where rows of villagers and townspeople sit on the ground eating from leaf plates, servers walking with pots, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "आज भी कई घरों में बच्चे का नामकरण जन्म के ग्यारहवें या बारहवें दिन होता है।",
+     "prompt": "A priest in white beside a small fire at an Indian home naming ceremony, parents holding a baby, relatives smiling, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "समय बीता। चारों भाई बड़े हुए, वेद पढ़े, और धनुष चलाना सीखा।",
+     "prompt": "Young Lord Rama as a boy, blue skin, side-locks, yellow dhoti, drawing a bow at a target in a palace training ground, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "चारों वीर थे, ज्ञानी थे, और सबका भला चाहने वाले थे।",
+     "prompt": "Young Lord Rama, blue skin, side-locks, on the left, and a fair-skinned young prince in saffron on the right, studying palm-leaf books together under a tree in a palace garden, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर इन चारों में राम सबसे श्रेष्ठ थे, जैसे प्राणियों में स्वयंभू।",
+     "prompt": "Young Lord Rama, blue skin, side-locks, yellow dhoti, standing on palace steps, a tall saffron royal flag flying above him in the wind, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वो पिता के सबसे लाडले थे, और पिता की सेवा में सबसे आगे।",
+     "prompt": "Young Lord Rama, blue skin, side-locks, bending to touch the feet of an old king with white beard and golden crown, who blesses him with a smile, palace hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "धनुर्वेद में भी राम सबसे निपुण थे।",
+     "prompt": "Young Lord Rama, blue skin, side-locks, yellow dhoti, releasing an arrow towards a distant target in an open field, golden evening light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर राम के साथ हर पल एक परछाई चलती थी।",
+     "prompt": "Young Lord Rama, blue skin, yellow dhoti, walking ahead along a palace corridor at sunset, a fair-skinned boy following close behind, long shadows on the floor, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch8",
+   "card": "राम की परछाई",
+   "shots": [
+    {
+     "vo": "वो परछाई थे लक्ष्मण।",
+     "prompt": "A fair-skinned boy with side-locks in a saffron dhoti, holding a bow, standing just behind young Lord Rama with blue skin in a palace garden, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "बचपन से ही लक्ष्मण का मन बड़े भाई राम में रमा रहता था।",
+     "prompt": "A fair-skinned toddler holding the hand of a blue-skinned toddler, little Lord Rama, walking together in a palace garden, bright morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वो राम का हर काम ख़ुद करते, जैसे राम ही उनके प्राण हों।",
+     "prompt": "A fair-skinned boy with side-locks carrying a bow and quiver, following behind young Lord Rama with blue skin, who walks ahead in a palace courtyard, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वाल्मीकि जी लिखते हैं: न च तेन विना निद्रां लभते पुरुषोत्तमः, मृष्टमन्नमुपानीतमश्नाति न हि तं विना॥",
+     "prompt": "A fair-skinned boy with side-locks sitting awake on a bed beside a burning lamp in a quiet palace bedchamber at night, looking towards the door, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मतलब, लक्ष्मण के बिना राम को नींद नहीं आती थी। स्वादिष्ट भोजन भी आए, तो लक्ष्मण के बिना वो नहीं खाते थे।",
+     "prompt": "A low table with a silver plate of untouched food and a fair-skinned boy with side-locks sitting beside it with folded hands, waiting, palace lamps, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वाल्मीकि जी कहते हैं, लक्ष्मण राम के लिए ऐसे थे, जैसे शरीर के बाहर चलता दूसरा प्राण।",
+     "prompt": "Young Lord Rama with blue skin and a fair-skinned boy with side-locks sitting close together on palace steps at dusk, smiling, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "जब राम शिकार पर निकलते, लक्ष्मण धनुष लेकर रक्षा करते पीछे चलते।",
+     "prompt": "Teenage Lord Rama, blue skin, yellow dhoti, walking into a forest with a bow on the left, a fair-skinned teenage boy in saffron following behind with a bow drawn, alert, on the right, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "यही लक्ष्मण आगे चलकर चौदह बरस वन में भी राम की रक्षा करते रहे।",
+     "prompt": "A fair-skinned young archer in saffron standing guard with a bow beside a small leaf hut on a forest path under the moon, night, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वैसे ही शत्रुघ्न भरत को प्राणों से प्यारे थे, और भरत उन्हें।",
+     "prompt": "Two fair-skinned young princes with side-locks walking side by side in a palace garden, laughing, one in saffron, one in orange, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "चारों बेटों को देखकर राजा दशरथ ऐसे खुश होते, जैसे देवताओं को देखकर ब्रह्मा जी।",
+     "prompt": "An old king with white beard and golden crown sitting on his throne smiling proudly, four small boys playing in the distance in the royal court, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "बेटे बड़े हो रहे थे। अब राजा उनके विवाह की सोचने लगे।",
+     "prompt": "An old king with white beard and golden crown on the left, seated thoughtfully facing an old sage with white beard and white robes on the right, in a council chamber, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "गुरुजनों और मंत्रियों से यही बात चल रही थी, कि तभी द्वार पर कोई आया।",
+     "prompt": "The great golden gates of the Ayodhya palace, armoured guards turning their heads towards a tall figure in saffron approaching, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch9",
+   "card": "ऋषि का आगमन",
+   "shots": [
+    {
+     "vo": "वो थे महान तपस्वी, महर्षि विश्वामित्र।",
+     "prompt": "A tall ascetic old man with matted grey hair, long grey beard, saffron robes, rudraksha beads and wooden staff, standing at the palace gates with intense eyes, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उन्होंने द्वारपालों से कहा, जाकर राजा से कहो, गाधि के पुत्र कौशिक आए हैं।",
+     "prompt": "A tall ascetic with matted grey hair, saffron robes and staff, speaking to a palace guard in armour who bows nervously, at the palace gate, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "नाम सुनते ही द्वारपाल घबराकर दौड़े, और राजा को ख़बर दी।",
+     "prompt": "A palace guard in armour running through a pillared corridor towards the royal court, lamps flickering, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "राजा दशरथ तुरंत गुरु वसिष्ठ के साथ आगे आए।",
+     "prompt": "An old king with white beard and golden crown walking quickly beside an old sage with white beard and white robes down the palace steps, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "जैसे इंद्र ब्रह्मा जी का स्वागत करते हैं, वैसे ही राजा ने ऋषि का स्वागत किया।",
+     "prompt": "An old king with white beard and golden crown bowing low with folded hands before a tall ascetic with matted grey hair, saffron robes and staff, at the palace entrance, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उन्हें अर्घ्य दिया, आसन दिया, और हाथ जोड़कर खड़े हो गए।",
+     "prompt": "A tall ascetic with matted grey hair and saffron robes seated on a high golden seat in the royal court, an old king with white beard and golden crown standing before him with folded hands, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "राजा बोले, आपका आना मेरे लिए ऐसा है, जैसे मरते को अमृत मिल जाए।",
+     "prompt": "An old king with white beard and golden crown speaking with joy and reverence, hands folded, lamp light on his face, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "जैसे सूखी धरती पर बारिश हो, जैसे निःसंतान को बेटा मिल जाए।",
+     "prompt": "Rain falling on parched cracked earth, dark clouds breaking with light, a dry field turning green, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "आप पहले राजर्षि थे, फिर तप से ब्रह्मर्षि बने। आप मेरे लिए पूजनीय हैं।",
+     "prompt": "A tall ascetic with matted grey hair, long grey beard and saffron robes, seated calmly on a golden seat, a faint golden glow around him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "फिर राजा ने वो बात कह दी, जो आगे सब कुछ बदलने वाली थी।",
+     "prompt": "The silent royal court of Ayodhya, ministers watching, an old king with white beard and golden crown stepping forward towards a seated ascetic in saffron, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "बोलिए मुनिवर, आप जो चाहें, मैं वो ज़रूर पूरा करूँगा। बस आज्ञा दीजिए।",
+     "prompt": "An old king with white beard and golden crown, hands folded, making a solemn promise before a tall ascetic with grey beard and saffron robes, royal court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "राजा की बात सुनकर विश्वामित्र का रोम-रोम खिल उठा।",
+     "prompt": "A tall ascetic with matted grey hair, long grey beard and saffron robes, eyes brightening with a pleased smile, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch10",
+   "card": "ऋषि की माँग",
+   "shots": [
+    {
+     "vo": "विश्वामित्र बोले, राजन, ये वचन आपके ही योग्य है। आप रघुकुल के हैं, और वसिष्ठ जी आपके गुरु हैं।",
+     "prompt": "A tall ascetic with matted grey hair and saffron robes speaking from his seat, an old king with white beard and golden crown on the right listening attentively, royal court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मैं एक सिद्धि के लिए नियम से यज्ञ कर रहा हूँ।",
+     "prompt": "A tall ascetic with matted grey hair and saffron robes seated before a sacred fire altar in a forest hermitage, chanting with closed eyes, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर जब यज्ञ पूरा होने को आता है, दो राक्षस आ धमकते हैं।",
+     "prompt": "Dark storm clouds over a forest hermitage, two huge shadowy demon figures in the sky above a burning yajna fire, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मारीच और सुबाहु। दोनों बलवान हैं, और युद्ध में माहिर।",
+     "prompt": "A fearsome dark-skinned demon with fangs and dark armour flying through a stormy sky above a forest, menacing, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वो यज्ञ की वेदी पर मांस और खून बरसा देते हैं।",
+     "prompt": "A sacred yajna altar in a forest hermitage under a dark sky, its fire put out, smeared with dark red stains and scattered offerings, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मेरी सारी मेहनत बेकार गई, और निराश होकर मैं वहाँ से चला आया।",
+     "prompt": "A tall ascetic with grey hair and saffron robes, staff in hand, walking away from a ruined altar in a hermitage with a sorrowful face, side view, grey sky, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मैं उन्हें श्राप दे सकता हूँ, पर इस यज्ञ के नियम में क्रोध करना मना है।",
+     "prompt": "A tall ascetic with matted grey hair, eyes closed, hands folded over his staff, controlling his anger, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "इसलिए राजन, मुझे अपना बड़ा बेटा राम दे दीजिए।",
+     "prompt": "A tall ascetic in saffron raising one hand in request on the left, an old king with white beard and golden crown on the right, his face frozen in shock, royal court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वो सच्चा पराक्रमी वीर है, भले अभी कनपटी पर लटें रखने वाला बालक है।",
+     "prompt": "Young Lord Rama, about fifteen, blue skin, side-locks, yellow dhoti, holding a bow, standing calmly in a palace garden, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मेरी रक्षा में, अपने दिव्य तेज से वो इन राक्षसों का अंत कर सकता है।",
+     "prompt": "Young Lord Rama, blue skin, side-locks, drawing a glowing bow in a dark forest, divine golden light around him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मैं उसे कई तरह का कल्याण दूँगा, जिससे वो तीनों लोकों में प्रसिद्ध होगा।",
+     "prompt": "A tall ascetic in saffron robes with a calm confident smile, a soft golden light around him, standing in the royal court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पिता का मोह बीच में मत लाइए। मैं राम को जानता हूँ, और वसिष्ठ जी भी जानते हैं।",
+     "prompt": "A tall ascetic in saffron gesturing with one hand towards an old sage with white beard and white robes, who nods silently, royal court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "बस दस रातों की बात है। धर्म और यश चाहते हैं, तो राम को मेरे साथ भेज दीजिए।",
+     "prompt": "A tall ascetic with grey hair, saffron robes and staff, standing tall in the centre of the royal court, ministers watching anxiously on both sides, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "ये सुनते ही राजा दशरथ कुछ पल के लिए सुध-बुध खो बैठे।",
+     "prompt": "An old king with white beard and golden crown collapsing back onto his throne with eyes closed, a minister rushing towards him, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch11",
+   "card": "पिता का डर",
+   "shots": [
+    {
+     "vo": "होश आया, तो राजा काँपती आवाज़ में बोले: ऊनषोडशवर्षो मे रामो राजीवलोचनः, न युद्धयोग्यतामस्य पश्यामि सह राक्षसैः॥",
+     "prompt": "An old king with white beard and golden crown trembling on his throne, tearful eyes, speaking to a tall ascetic in saffron robes, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मतलब, मेरा कमल-नयन राम अभी सोलह बरस का भी नहीं है। मुझे नहीं लगता वो राक्षसों से लड़ने लायक है।",
+     "prompt": "Young Lord Rama, blue skin, side-locks, gentle large lotus-like eyes, innocent face, soft palace light, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मेरे पास एक अक्षौहिणी सेना है। उसे लेकर मैं ख़ुद चलूँगा।",
+     "prompt": "A vast army of Ayodhya gathered outside the city, chariots, foot soldiers and banners under a morning sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मेरे वीर सैनिक हथियारों में माहिर हैं। हम राक्षसों से लड़ेंगे।",
+     "prompt": "Rows of armoured soldiers holding spears and bows standing in formation, saffron banners, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मैं ख़ुद धनुष लेकर आपके यज्ञ की रक्षा करूँगा, जब तक मेरे प्राण हैं।",
+     "prompt": "An old king with white beard and golden crown rising from his throne holding up a great bow with determination, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर राम को मत ले जाइए। वो बालक है, उसने अस्त्र-शस्त्र पूरे नहीं सीखे।",
+     "prompt": "An old king with white beard and golden crown, hands folded in pleading, before a tall ascetic in saffron robes who listens without moving, royal court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उसे दुश्मन के बल का पता नहीं, और राक्षस तो छल से लड़ते हैं।",
+     "prompt": "A dark forest at night with shadowy demon shapes hiding among twisted trees, glowing eyes, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मुनिवर, राम के बिना मैं एक पल भी जी नहीं सकता।",
+     "prompt": "An old king with white beard and golden crown, tears running down his face, one hand on his heart, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "साठ हज़ार बरस की उम्र में, बड़ी मुश्किल से मुझे ये बेटा मिला है।",
+     "prompt": "An old king with white beard and golden crown looking up, a faint glowing vision of baby Lord Rama with blue skin floating in the air before him, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "चारों बेटों में राम मुझे सबसे प्यारे हैं। वो सबसे बड़े हैं, और धर्म पर चलते हैं।",
+     "prompt": "An old king with golden crown looking down through a palace window at young Lord Rama with blue skin walking in the garden below, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अगर ले ही जाना है, तो मुझे और मेरी सेना को ले चलिए।",
+     "prompt": "An old king with white beard and golden crown kneeling with folded hands before a tall ascetic in saffron robes, royal court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "फिर राजा ने पूछा, ये राक्षस हैं कौन? किसके बेटे हैं? कितने बलवान हैं?",
+     "prompt": "An old king with golden crown looking up anxiously at a tall ascetic in saffron robes whose face turns grave, royal court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch12",
+   "card": "रावण का नाम",
+   "shots": [
+    {
+     "vo": "विश्वामित्र ने जो नाम लिया, उसे सुनकर पूरा दरबार सन्न रह गया।",
+     "prompt": "The royal court of Ayodhya frozen in silence, ministers with shocked faces, lamps flickering, a tall ascetic in saffron standing in the centre, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "रावण। पुलस्त्य ऋषि के कुल में जन्मा, विश्रवा मुनि का बेटा, कुबेर का भाई।",
+     "prompt": "Ravana, a dark-skinned demon king with one face, tall golden crown, heavy jewels and armour, seated on a black-and-gold throne in a dark palace, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "ब्रह्मा जी के वरदान से वो बहुत बलवान है, और तीनों लोकों को सता रहा है।",
+     "prompt": "Ravana, a dark-skinned demon king with one face, golden crown and armour, standing on a cliff above a burning land under a blood-red sky, arms raised, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "बड़े-बड़े राक्षस उसकी सेना में हैं।",
+     "prompt": "A vast dark demon army with spears and torches marching across a rocky plain at night, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "छोटे यज्ञ बिगाड़ने वो ख़ुद नहीं आता। उसके कहने पर मारीच और सुबाहु आते हैं।",
+     "prompt": "Two fearsome fanged demons in dark armour bowing before an empty throne in a shadowy hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "रावण का नाम सुनते ही दशरथ का चेहरा उतर गया।",
+     "prompt": "An old king with white beard and golden crown, face pale with fear, eyes wide, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वो बोले, देवता, दानव, गंधर्व, यक्ष और नाग भी रावण के सामने नहीं टिकते। फिर इंसान की क्या बिसात?",
+     "prompt": "An old king with golden crown speaking in despair, hands open, to a tall ascetic in saffron robes, dim royal court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वो युद्ध में वीरों का बल छीन लेता है। मैं सेना और बेटों के साथ भी उससे नहीं लड़ सकता।",
+     "prompt": "A dark battlefield with broken chariots, fallen banners and scattered weapons under a stormy sky, smoke drifting, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "फिर अपने देवता जैसे, युद्ध से अनजान बालक को कैसे भेज दूँ?",
+     "prompt": "Young Lord Rama, blue skin, side-locks, yellow dhoti, standing peacefully in a sunlit palace garden among flowers, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "नहीं मुनिवर, मैं अपना बेटा नहीं दूँगा।",
+     "prompt": "An old king with white beard and golden crown turning his face away, one hand raised in refusal, from a tall ascetic in saffron robes, royal court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "जिस राजा ने अभी कहा था, आप जो माँगेंगे दूँगा, वही अब पीछे हट रहा था।",
+     "prompt": "An old king with golden crown seated with bowed head on his throne, an old sage with white beard and white robes watching gravely from the side, royal court, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पिता के प्रेम से लड़खड़ाती ये बातें सुनकर विश्वामित्र का चेहरा तमतमा उठा।",
+     "prompt": "A tall ascetic with matted grey hair, long grey beard and saffron robes, face reddening with anger, eyes blazing, close-up, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "महर्षि को क्रोध आ गया। अब रघुकुल का वचन दाँव पर था।",
+     "prompt": "A tall ascetic in saffron robes gripping his staff and rising to his full height in the royal court as lamp flames flicker, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "क्या विश्वामित्र राजा को श्राप देंगे? और क्या दशरथ अपना वचन निभाएँगे?",
+     "prompt": "A tall ascetic in saffron robes standing in fury on the left facing an old king with golden crown on his throne on the right, dark storm clouds visible through the windows, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "अगले एपिसोड में, गुरु वसिष्ठ ने ऐसा क्या कहा कि दशरथ मान गए?",
+     "prompt": "An elderly sage with long white beard and white robes speaking gently to an old king with white beard and golden crown, royal court, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सरयू के किनारे विश्वामित्र ने राम को कौन सी दो विद्याएँ दीं, जिनसे भूख-प्यास तक न लगे?",
+     "prompt": "A tall ascetic in saffron robes standing on the bank of the Saryu river at sunrise beside young Lord Rama with blue skin holding a bow, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और वो आश्रम कौन सा था, जहाँ महादेव ने कामदेव को भस्म किया था?",
+     "prompt": "A peaceful ancient hermitage at the meeting of two rivers at dusk, smoke rising from a sacred fire, snowy peaks in the distance, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कमेंट में जय श्री राम लिखना न भूलें।",
+     "prompt": "The Ram temple of Ayodhya glowing with lamps at night, saffron flags, devotees with folded hands, the Saryu river shining below, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "हर एपिसोड के पीछे मूल ग्रंथ को पढ़ना, हर दृश्य को चित्र में उतारना और हर बात को जाँचना होता है। अगर ये मेहनत आपको सार्थक लगी, तो देवलोक कथा को सब्सक्राइब करके इस यात्रा में हमारे साथ जुड़िए।",
+     "subscribe_ask": true,
+     "prompt": "The Ram temple of Ayodhya glowing with lamps at night, saffron flags, devotees with folded hands, the Saryu river shining below, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers",
+     "move": "push"
+    }
+   ]
+  }
+ ],
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "series",
+  "points": [
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1
+  ]
+ },
+ "series": "ramayan",
+ "series_ep": 5,
+ "source_ref": "वाल्मीकि रामायण · बालकाण्ड, सर्ग 17–20",
+ "lane": "series"
+}
