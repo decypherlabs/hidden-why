@@ -46,9 +46,25 @@ TOKEN = re.compile(r"(\$)?(\d{1,3}(?:,\d{3})+|\d+)(\.\d+)?(%|s\b|st\b|nd\b|rd\b|
 SCALE = re.compile(r"\s*(thousand|million|billion|trillion)\b")
 
 
+FOLD = str.maketrans({"Đ": "D", "đ": "d", "Ø": "O", "ø": "o", "Ł": "L", "ł": "l", "ß": "ss", "Æ": "Ae", "æ": "ae",
+                      "Œ": "Oe", "œ": "oe", "Þ": "Th", "þ": "th", "ı": "i", "’": "'", "‘": "'", "“": '"', "”": '"'})
+
+
+def plain(text):
+    """Accented Latin letters as plain ones for the English voice (owner, 23 Nov 2026: TSM Vietnam at 3:04, "Bạch
+    Đằng" came out as random sounds; Vietnamese, Turkish, Polish... names everywhere): Bach Dang, Dong Hoi, Ca Mau.
+    Other scripts are left alone. Captions and on-screen words keep the real spelling."""
+    import unicodedata
+    t = unicodedata.normalize("NFKD", text.translate(FOLD))
+    return unicodedata.normalize("NFC", "".join(c for c in t if not (unicodedata.combining(c) and
+                                                                    unicodedata.name(c, "").startswith("COMBINING"))))
+
+
 def say(text):
     """Every figure as words (owner, 15 Nov 2026: "and other numbers too"): 17,000 / 6.75 / 90% / 1975 / 1980s /
-    3rd / $6,000 / $2 billion."""
+    3rd / $6,000 / $2 billion. Accented names as plain letters (plain)."""
+    text = plain(text)
+
     def rep(m):
         dollar, digits, dec, suf = m.group(1), m.group(2), m.group(3), m.group(4) or ""
         n = int(digits.replace(",", ""))
