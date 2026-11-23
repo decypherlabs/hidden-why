@@ -1,0 +1,970 @@
+{
+ "slug": "dk-248-gita-panchajanya-conch",
+ "format": "long",
+ "brand": "devlok-katha",
+ "build": "github",
+ "lang": "hi",
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "श्रीकृष्ण का पांचजन्य शंख: हथियार न उठाने वाले ने क्यों फूँका? 🐚 | भगवद गीता Ep 3",
+ "thumbnail": {
+  "layout": "epic",
+  "text": "*पांचजन्य* की गूँज",
+  "plane": "Lord Krishna, blue-skinned, peacock-feather crown, yellow silk garments, golden ornaments, LARGE in the left half, standing tall on a great golden chariot and blowing a huge spiral white conch with fierce resolve, cheeks full, eyes blazing; the right half filled by the Kurukshetra battlefield at dawn, vast armies with raised banners, dust clouds, four white horses rearing in front of the chariot, dark stormy sky split by golden rim light, high-contrast cinematic realistic oil painting, no text"
+ },
+ "music": {
+  "suspense": [
+   "cold_open",
+   "ch8"
+  ],
+  "epic": [
+   "ch1",
+   "ch4",
+   "ch5",
+   "ch7"
+  ],
+  "devotional": [
+   "ch2",
+   "ch3",
+   "ch6",
+   "ch10",
+   "outro"
+  ],
+  "emotional": [
+   "ch9"
+  ]
+ },
+ "source": "महाभारत, भीष्म पर्व: श्रीमद्भगवद्गीता अध्याय 1 (अर्जुनविषादयोग), श्लोक 13-18 (गीता प्रेस टीका); संजय की दिव्य दृष्टि: भीष्म पर्व; खांडव दाह, गांडीव और रथ, धृष्टद्युम्न का जन्म, माद्री के पुत्र: आदि पर्व; अर्जुन की दिग्विजय, द्यूत और भीम की प्रतिज्ञा: सभा पर्व; देवदत्त, अर्जुन का इंद्रलोक, भीम-हनुमान भेंट: वन पर्व; धनंजय नाम: विराट पर्व; कृष्ण का निःशस्त्र रहने का वचन: उद्योग पर्व; पांचजन्य की कथा: श्रीमद्भागवत, दशम स्कंध, अध्याय 45",
+ "journey_score": 8.6,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "मार्गशीर्ष की ठंडी सुबह है, कुरुक्षेत्र के ब्रह्म सरोवर पर धुंध छाई है।",
+     "prompt": "Thick white mist over the vast still water of a sacred lake at dawn in winter, stone temple towers faint in the haze, a row of stone steps in the foreground, cold blue light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "घाट पर दीये तैर रहे हैं, लोग शॉल ओढ़े हाथ जोड़े खड़े हैं।",
+     "prompt": "Small clay lamps with flames floating on misty water beside a stone ghat, a row of Indian devotees in woollen shawls standing on the steps with folded hands, soft golden lamp light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "तभी एक पुजारी शंख उठाते हैं, और गूँज पानी पर फैल जाती है।",
+     "prompt": "An elderly Indian priest in a saffron dhoti and grey woollen shawl blowing a large white conch toward a misty lake, standing centre on a stone ghat, ripples spreading on the water, dawn light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "गीता जयंती के दिनों में हर साल यहाँ यही दृश्य दिखता है।",
+     "prompt": "Stone lake steps decorated with orange marigold garlands and rows of lit clay lamps, Indian families in shawls walking along the steps, morning mist, soft golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मान्यता है, इसी धरती पर युद्ध से पहले शंखों की गूँज उठी थी।",
+     "prompt": "Two vast armies of ancient Indian warriors with chariots and banners facing each other across a flat dusty plain at dawn, dust hanging in the air, heavy grey sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उस सुबह किसने कौन सा शंख फूँका था?",
+     "prompt": "A large white conch resting on a brass plate with orange marigold flowers and a lit clay lamp, a misty lake sharp behind it, soft dawn light, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और गीता के पहले ही अध्याय में इतने शंखों के नाम क्यों?",
+     "prompt": "An old handwritten palm-leaf scripture book open on a carved wooden stand beside a white conch, a glowing oil lamp, stone temple interior, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "जवाब है भगवद गीता अध्याय एक के श्लोक तेरह से अठारह में।",
+     "prompt": "A devotee's hand turning a page of an old Sanskrit scripture book on a wooden reading stand, golden morning light across the page, blank unreadable lines, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers",
+     "caption": "जवाब है भगवद गीता अध्याय 1 के श्लोक 13 से 18 में।"
+    },
+    {
+     "vo": "और वहाँ एक चौंकाने वाली बात लिखी है।",
+     "prompt": "The Pandava army on a battlefield in golden morning light, still banners, a great white-horsed golden chariot at its centre, rows of soldiers, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "श्रीकृष्ण ने इस युद्ध में हथियार न उठाने का वचन दिया था।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow silk dhoti, seated as charioteer on a great chariot holding only the reins, calm face, empty hands without weapons, battlefield behind, golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "फिर भी पांडवों के शंखों में पहला नाम उन्हीं के शंख का है।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow silk dhoti, standing on a chariot raising a huge white conch to his lips, four white horses in front, golden dawn light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पांचजन्य शंख। हथियार न उठाने वाले ने शंख क्यों फूँका?",
+     "prompt": "Lord Krishna's blue hand with gold bangles holding a great white spiral conch, no weapon anywhere, sharp battlefield with chariots behind, golden light, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और कथा के अनुसार, ये वो शंख है जो यमलोक तक गया था।",
+     "prompt": "A white conch glowing softly in darkness before towering dark stone gates wreathed in mist, eerie blue light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कथा का स्रोत: महाभारत का भीष्म पर्व, श्रीमद्भगवद्गीता।",
+     "prompt": "A sacred scripture book on a red cloth beside a white conch and a lit oil lamp, a battlefield with two armies faintly visible behind, warm lamp light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "रणभेरी",
+   "shots": [
+    {
+     "vo": "पिछली बार भीष्म पितामह ने सिंह की तरह गरजकर शंख बजाया था, दुर्योधन के मन में हर्ष जगाने के लिए।",
+     "prompt": "An elderly white-bearded warrior Bhishma in white robes and silver armour blowing a conch on a chariot, roaring, the Kaurava army behind him, dawn light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उधर हस्तिनापुर के महल में अंधे राजा धृतराष्ट्र बैठे हैं। पास बैठे संजय उन्हें युद्ध का हाल सुना रहे हैं।",
+     "prompt": "An old blind king, white beard, eyes closed, gold crown, red robes, seated on the left on a throne, a middle-aged man in plain white robes and white turban seated on the right speaking to him, dim palace hall, lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "भीष्म पर्व के अनुसार, ये दिव्य दृष्टि संजय को महर्षि वेदव्यास ने दी थी। महल में बैठे-बैठे वो रणभूमि का हर दृश्य देख सकते थे।",
+     "prompt": "A dark-skinned old sage with long matted hair and white beard raising his hand in blessing over a middle-aged man in white robes who bows with folded hands, soft divine golden light, palace hall, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "संजय कहते हैं, पितामह का शंख गूँजते ही पूरी कौरव सेना जाग उठी।",
+     "prompt": "A middle-aged man in plain white robes and white turban with wide open eyes gazing far away as if seeing a distant battle, palace lamp light on his face, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः, सहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत्॥",
+     "prompt": "Thousands of Kaurava soldiers on a battlefield all raising conches, drums and curved brass horns at once, banners fluttering, dust rising, bright morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "यानी उसके बाद शंख, नगाड़े, ढोल, मृदंग और नरसिंघे एक साथ बज उठे। वो आवाज़ बड़ी भयंकर थी।",
+     "prompt": "Armoured soldiers beating huge war drums with sticks and blowing white conches together, fierce faces, dust swirling, bright morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "भेरी यानी बड़े नगाड़े, जिन पर डंडों से चोट होती थी। पणव और आनक यानी ढोल और मृदंग।",
+     "prompt": "Two soldiers in armour beating a giant kettledrum with heavy wooden sticks, smaller drums beside them, banners behind, bright daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "गोमुख यानी गाय के मुँह जैसा मुड़ा हुआ बाजा। गाँवों में इसे आज भी नरसिंघा कहते हैं।",
+     "prompt": "A soldier in armour blowing a long curved brass horn shaped like a cow's mouth, army ranks behind him, bright daylight, close-medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "श्लोक में एक छोटा सा शब्द है, 'सहसा'। यानी अचानक, एक ही झटके में।",
+     "prompt": "Ranks of Kaurava soldiers all raising conches and horns in one instant, a flock of birds scattering into the sky above them, bright morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कौरवों के पास ग्यारह अक्षौहिणी सेना थी। एक अक्षौहिणी में इक्कीस हज़ार आठ सौ सत्तर रथ होते थे।",
+     "prompt": "An enormous army of chariots, elephants and soldiers stretching to the horizon seen from high above, rows of chariots glinting in the sun, banners raised, dust clouds, very wide aerial shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उतने ही हाथी, पैंसठ हज़ार से ज़्यादा घोड़े, और एक लाख से ज़्यादा पैदल सैनिक। सब एक साथ गरज उठे।",
+     "prompt": "War elephants in armour with howdahs, cavalry and long lines of foot soldiers with raised spears all shouting together, dust in golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर ध्यान दीजिए, संजय यहाँ किसी एक वीर का नाम नहीं लेते। बस बाजे गिनाते हैं, और एक भारी शोर।",
+     "prompt": "A middle-aged man in white robes and white turban speaking on the left, an old blind king with white beard and gold crown on the right gripping the arms of his throne, palace hall, lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सामने पांडवों की सात अक्षौहिणी सेना चुप खड़ी थी। इस शोर का जवाब कैसे आएगा?",
+     "prompt": "A silent Pandava army standing in tidy formation across a dusty field, dust drifting between the two armies, tense morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "सफ़ेद घोड़े",
+   "shots": [
+    {
+     "vo": "पांडव सेना के बीच एक बहुत बड़ा रथ खड़ा था। उसमें सफ़ेद घोड़े जुते थे।",
+     "prompt": "A great golden chariot with four white horses standing in the middle of the Pandava army, soldiers around it, soft golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ, माधवः पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतुः॥",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow dhoti, on the left and fair-skinned warrior Arjun, gold crown, gold armour, on the right, both raising white conches on a white-horsed chariot, golden light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "यानी सफ़ेद घोड़ों वाले उस बड़े रथ पर बैठे श्रीकृष्ण और अर्जुन ने भी अपने अलौकिक शंख बजाए।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, and fair-skinned warrior Arjun in gold armour blowing their conches together on a chariot, a golden glow around the conches, soldiers looking up below, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "ये रथ साधारण नहीं था। इसकी कथा खांडव वन से जुड़ी है।",
+     "prompt": "A dense ancient forest at dusk with huge trees under a red sky, tall flames beginning at its edge, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "महाभारत के आदि पर्व के अनुसार, अग्नि देव खांडव वन को जलाना चाहते थे। उन्होंने कृष्ण और अर्जुन से मदद माँगी।",
+     "prompt": "Agni Dev, fiery-haired god in red robes with flames around him, standing on the left facing Lord Krishna, blue skin, peacock feather crown, yellow dhoti, on the right, at the edge of a forest, evening light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अर्जुन ने कहा, इस काम के लायक धनुष और रथ उनके पास नहीं है।",
+     "prompt": "Fair-skinned warrior Arjun, gold crown, speaking with an open palm held out toward Agni Dev, fiery-haired god in red robes, empty-handed, forest edge behind, evening light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कथा के अनुसार, तब अग्नि देव के कहने पर वरुण देव ने अर्जुन को गांडीव धनुष दिया। साथ में कभी खाली न होने वाले दो तरकश।",
+     "prompt": "Varun Dev, god of waters in blue-green robes with a crown, rising from a lake offering a shining golden bow with both hands to fair-skinned warrior Arjun in a gold crown, two full quivers of arrows at Arjun's feet, soft light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और यही दिव्य रथ, सफ़ेद घोड़ों वाला, जिसकी ध्वजा पर वानर का चिह्न था।",
+     "prompt": "A divine golden chariot with four white horses on a lakeshore, a tall flag on it bearing a monkey emblem, soft evening light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अब कुरुक्षेत्र में उसी रथ पर दो लोग हैं। धनुषधारी अर्जुन, और उनके सारथी श्रीकृष्ण।",
+     "prompt": "A white-horsed chariot at Kurukshetra, Lord Krishna, blue skin, peacock feather crown, in front holding the reins, fair-skinned warrior Arjun in gold crown holding a long bow standing behind him, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "संजय कृष्ण को 'माधव' कहते हैं। मा यानी लक्ष्मी, धव यानी पति। यानी लक्ष्मीपति।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow silk dhoti, with a serene smile and a soft golden halo, battlefield sharp behind him, close-medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "श्लोक में माधव का नाम पहले आता है, पांडव का बाद में। पर दोनों के शंख एक साथ उठते हैं।",
+     "prompt": "Two conches raised side by side, one held by a blue hand with gold bangles, the other by a fair hand with a gold armguard, dawn light, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "एक रथ, दो शंख, एक साथ। पर उन शंखों के नाम क्या थे?",
+     "prompt": "A middle-aged man in white robes and white turban speaking with folded hands in reverence, palace lamp glow, pillars behind, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "हृषीकेश",
+   "shots": [
+    {
+     "vo": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनञ्जयः, पौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः॥",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, blowing a conch on a white-horsed chariot in the foreground, huge muscular warrior Bhima with a mace small in the distance raising a giant conch, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "यानी हृषीकेश ने पांचजन्य बजाया, धनंजय ने देवदत्त। और भयानक काम करने वाले भीम ने पौंड्र नाम का महाशंख।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow silk dhoti, blowing a large white conch with eyes closed in focus, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "यहीं से संजय पांडवों के शंख गिनाना शुरू करते हैं। और पहला नाम आता है पांचजन्य का।",
+     "prompt": "A middle-aged man in white robes and white turban, lips moving as he speaks, eyes far away, palace pillars behind, lamp light, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "हृषीकेश यानी इंद्रियों के स्वामी। हृषीक यानी इंद्रियाँ, ईश यानी स्वामी।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, with calm knowing eyes and a soft golden halo, battlefield haze behind, close-medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "जो सबके मन चलाते हैं, वही आज अर्जुन का रथ चला रहे थे।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, holding the chariot reins with calm authority in front, fair-skinned warrior Arjun with a long bow standing behind him, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "योद्धा के रथ की लगाम खुद भगवान के हाथ में। आगे पूरी गीता इसी रथ पर कही जाएगी।",
+     "prompt": "Lord Krishna's blue hands holding the leather reins of four white horses, sunlight on the leather and gold fittings, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "भगवान विष्णु के चतुर्भुज रूप के एक हाथ में भी शंख है। शंख, चक्र, गदा और पद्म।",
+     "prompt": "A temple idol of four-armed Lord Vishnu, blue skin, holding a conch, a discus, a mace and a lotus in his four hands, lit lamps before him, warm glow, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर कुरुक्षेत्र में उनके अवतार के हाथ में न चक्र था, न गदा। सिर्फ़ लगाम, और एक शंख।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, on a chariot with the reins in one hand and a white conch in the other, both other hands empty, no weapons, Pandava army behind, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "आज भी पूजा-घर में शंख रखा जाता है, और आरती से पहले फूँका जाता है।",
+     "prompt": "An Indian grandmother blowing a white conch in a home shrine at dusk, a small Krishna idol and a lit lamp before her, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "भक्त मानते हैं, शंख की ध्वनि से जगह पवित्र होती है, और भगवान का आह्वान होता है।",
+     "prompt": "A temple priest blowing a white conch before an idol of Lord Krishna, glowing lamps, devotees with folded hands behind him, evening light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पांचजन्य की गूँज के साथ ही, उसी रथ से दूसरा शंख उठा। अर्जुन का।",
+     "prompt": "Fair-skinned warrior Arjun, gold crown, gold armour, raising a gleaming conch to his lips on a chariot, long bow on his shoulder, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "देवदत्त",
+   "shots": [
+    {
+     "vo": "संजय यहाँ अर्जुन को 'धनंजय' कहते हैं। धनंजय यानी धन को जीतने वाला।",
+     "prompt": "Fair-skinned warrior Arjun, gold crown, blowing a gold-rimmed conch on a chariot, wind lifting his scarf, golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "महाभारत के विराट पर्व में अर्जुन खुद राजकुमार उत्तर को अपने दस नाम और उनके कारण बताते हैं।",
+     "prompt": "Fair-skinned warrior Arjun on the left speaking to a young prince in royal clothes on the right, beside a chariot near a large shami tree, afternoon light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वो बताते हैं, सब देशों को जीतकर धन लाने के कारण लोग उन्हें धनंजय कहते हैं।",
+     "prompt": "A young prince in royal clothes listening wide-eyed, a shami tree and a chariot behind him, afternoon light, close-medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सभा पर्व के अनुसार, राजसूय यज्ञ से पहले अर्जुन ने उत्तर दिशा के कई राज्य जीते, और ढेर सारा धन बड़े भाई को सौंपा।",
+     "prompt": "Fair-skinned warrior Arjun on a chariot returning to a city gate, carts piled with gold and treasures following behind, crowds at the gate, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और उनके शंख का नाम देवदत्त। यानी देवताओं का दिया हुआ।",
+     "prompt": "A shining conch with a golden rim glowing with divine light among soft clouds, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वन पर्व की कथा के अनुसार, वनवास के समय अर्जुन इंद्र के बुलावे पर स्वर्ग गए थे, दिव्य अस्त्र सीखने।",
+     "prompt": "The heavenly city of Indra with golden palaces among clouds, fair-skinned warrior Arjun walking up a path of cloud toward them, golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वहाँ वो पाँच साल रहे, और एक-एक अस्त्र साधा।",
+     "prompt": "Fair-skinned warrior Arjun, gold crown, drawing a bow in a heavenly courtyard among clouds, golden glowing arrows in the air, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "फिर वो निवातकवच दैत्यों से लड़ने निकले। कथा के अनुसार, तब देवराज इंद्र ने उन्हें ये शंख दिया।",
+     "prompt": "Lord Indra, king of gods, gold crown, golden robes, holding a thunderbolt in one hand and handing a shining conch with the other to fair-skinned warrior Arjun in gold crown, heavenly hall, golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सोचिए, एक शंख की कथा समुद्र की गहराई से जुड़ी, दूसरे की स्वर्ग से। और दोनों एक ही रथ पर।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, holding a glowing white conch on the left, fair-skinned warrior Arjun holding a glowing gold conch on the right, white-horsed chariot, battlefield behind, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "गीता में आगे अर्जुन को कई नामों से पुकारा जाएगा। पार्थ, धनंजय, कौन्तेय, गुडाकेश।",
+     "prompt": "Fair-skinned warrior Arjun, gold crown, holding a long bow and looking out over a battlefield with steady eyes, morning light, close-medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पार्थ यानी पृथा का बेटा, क्योंकि कुंती का बचपन का नाम पृथा था। हर नाम किसी जीत या रिश्ते की याद है।",
+     "prompt": "Fair-skinned warrior Arjun bending to touch the feet of his mother Kunti, a woman in a simple white sari with a calm face, palace courtyard, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और फिर गूँजा पांडव सेना का सबसे भारी शंख।",
+     "prompt": "A giant muscular warrior Bhima raising a huge conch high above the Pandava ranks, soldiers small around him, dust swirling, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "पौंड्र",
+   "shots": [
+    {
+     "vo": "संजय भीम के लिए दो नाम लेते हैं: भीमकर्मा और वृकोदर।",
+     "prompt": "Huge muscular dark-skinned warrior Bhima, saffron cloth, heavy golden mace in his hand, standing on his chariot with fierce eyes, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "भीमकर्मा यानी जिसके काम भयानक हों। ऐसे काम, जो किसी और के बस के न हों।",
+     "prompt": "Huge muscular dark-skinned warrior Bhima lifting a massive uprooted tree above his head in a forest, muscles straining, daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वृकोदर यानी भेड़िये जैसे पेट वाला। भीम की भूख और ताक़त, दोनों मशहूर थीं।",
+     "prompt": "Huge muscular dark-skinned warrior Bhima, saffron cloth, seated at a forest hut before a large meal of food piled on banana leaves, smiling, warm daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उनका शंख था पौंड्र। श्लोक उसे 'महाशंख' कहता है, यानी बहुत बड़ा शंख।",
+     "prompt": "Huge muscular dark-skinned warrior Bhima blowing an enormous conch with his cheeks full, a mace on his shoulder, small soldiers covering their ears behind him, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उस गूँज में तेरह साल पुराना ग़ुस्सा भी था। उसकी जड़ हस्तिनापुर की द्यूत सभा में है।",
+     "prompt": "A grand palace hall with courtiers seated in rows, a dice board with dice on the floor in the centre, tense dim torch light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सभा पर्व के अनुसार, जुए में सब हारने के बाद भरी सभा में द्रौपदी का अपमान हुआ।",
+     "prompt": "A woman Draupadi in a full red sari standing with dignity in a grand palace hall, hands folded in prayer, eyes raised, shocked courtiers seated far behind, dim light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "तब भीम ने सबके सामने प्रतिज्ञा की थी। दुःशासन और दुर्योधन से इस अपमान का बदला लेने की।",
+     "prompt": "Huge muscular dark-skinned warrior Bhima standing up in a palace hall with a raised fist, face burning with anger, shocked courtiers small behind him, torch light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वनवास के बारह साल, अज्ञातवास का एक साल। भीम ने वो ग़ुस्सा भीतर दबाए रखा।",
+     "prompt": "Huge muscular dark-skinned warrior Bhima walking through a deep forest carrying a heavy bundle of firewood on his shoulder, four men walking far ahead, sunset light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उसी वनवास में, वन पर्व के अनुसार, गंधमादन पर्वत के रास्ते भीम की भेंट हनुमान जी से हुई।",
+     "prompt": "Lord Hanuman, reddish-brown monkey god with gold crown, seated on a rock on the right holding a mace, facing huge muscular dark-skinned warrior Bhima standing on the left, misty mountain forest path, daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कथा के अनुसार, हनुमान जी ने वचन दिया: युद्ध में जब भीम गरजेंगे, वो अर्जुन की ध्वजा से अपनी गर्जना मिलाएँगे।",
+     "prompt": "Lord Hanuman, reddish-brown monkey god with gold crown, raising his hand in blessing toward huge dark-skinned warrior Bhima who bows with folded hands, mountain forest, soft golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मानो आज वो सारा दबा ग़ुस्सा एक साँस बनकर पौंड्र में गूँजा।",
+     "prompt": "Huge muscular dark-skinned warrior Bhima blowing a great conch, veins standing out on his neck, eyes blazing, battlefield dust behind, close-medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर अभी पाँचों में सबसे बड़े भाई बाकी थे। वो राजा, जिनके पास उस दिन राज्य ही नहीं था।",
+     "prompt": "Calm fair-skinned king Yudhishthira in white and gold robes, gold crown, holding a spear and standing on his chariot looking ahead, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "अनंतविजय",
+   "shots": [
+    {
+     "vo": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः, नकुलः सहदेवश्च सुघोषमणिपुष्पकौ॥",
+     "prompt": "Calm fair-skinned king Yudhishthira in white and gold robes raising a conch on his chariot at the front, more chariots with banners behind him, dawn light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "यानी कुंतीपुत्र राजा युधिष्ठिर ने अनंतविजय नाम का शंख बजाया। नकुल और सहदेव ने सुघोष और मणिपुष्पक।",
+     "prompt": "Calm fair-skinned king Yudhishthira in white and gold robes, gold crown, blowing a conch with dignity on his chariot, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "ध्यान दीजिए, संजय युधिष्ठिर को 'राजा' कहते हैं। जबकि उस दिन उनके पास कोई राज्य नहीं था।",
+     "prompt": "A middle-aged man in white robes and white turban speaking on the left, an old blind king with white beard and gold crown on the right turning his face sharply toward him, palace hall, lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर राजसूय यज्ञ उन्होंने ही किया था, और दूर-दूर के राजा भेंट लेकर आए थे। धर्म से राजा वही थे।",
+     "prompt": "A great sacred fire ceremony with calm fair-skinned king Yudhishthira seated by the flames, rows of crowned kings standing with gifts of gold and jewels, grand hall, warm firelight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और 'कुंतीपुत्र' शब्द, एक व्याख्या के अनुसार, धृतराष्ट्र को याद दिलाता है कि ये उनके भाई पांडु के बेटे हैं।",
+     "prompt": "An old blind king, white beard, eyes closed, gold crown, lowering his head on a throne, a faint portrait of a pale king on the wall behind him, dim palace light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "शंख का नाम अनंतविजय, यानी जिसकी जीत का कोई अंत नहीं।",
+     "prompt": "A gleaming conch with silver bands held up against a bright sunrise, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "तेरह साल युधिष्ठिर ने सब सहा, पर सच का रास्ता नहीं छोड़ा। मानो शंख का नाम ही उनका भरोसा था।",
+     "prompt": "Calm fair-skinned man Yudhishthira in simple plain forest clothes seated cross-legged in meditation under a large tree, serene face, a forest hut behind, soft daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "फिर माद्री के जुड़वाँ बेटे, नकुल और सहदेव। आदि पर्व के अनुसार, माद्री के जाने के बाद कुंती ने ही उन्हें अपने बेटों की तरह पाला।",
+     "prompt": "Kunti, a woman in a simple white sari, holding two small twin boys close in a forest hermitage, gentle evening light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "नकुल के शंख का नाम सुघोष। यानी मीठी, साफ़ आवाज़ वाला।",
+     "prompt": "Handsome young warrior Nakul with a sword at his waist blowing a slender pearl-white conch, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सहदेव का शंख मणिपुष्पक। यानी मणियों और फूलों जैसा सुंदर।",
+     "prompt": "Handsome young warrior Sahadev with a sword at his waist blowing a conch inlaid with gems and carved flowers, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पाँच भाई, पाँच शंख, पाँच अलग आवाज़ें। पर पांडव सेना में सिर्फ़ ये पाँच नहीं थे।",
+     "prompt": "The Pandava army stretching behind five chariots in front, many more chariots and banners of allied kings, golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "महारथी",
+   "shots": [
+    {
+     "vo": "अब संजय बाकी वीरों के नाम लेते हैं, एक-एक करके।",
+     "prompt": "A middle-aged man in white robes and white turban with eyes far away and lips moving as he speaks, palace lamp light, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "काश्यश्च परमेष्वासः शिखण्डी च महारथः, धृष्टद्युम्नो विराटश्च सात्यकिश्चापराजितः॥",
+     "prompt": "Allied kings on many chariots under colourful banners lifting conches one after another along the Pandava line, golden dust, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "यानी बड़े धनुष वाले काशीराज, महारथी शिखंडी, धृष्टद्युम्न, राजा विराट और कभी न हारने वाले सात्यकि।",
+     "prompt": "The King of Kashi, a crowned archer with a very long bow, blowing a conch on his chariot, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "परंपरा के अनुसार महारथी वो, जो अकेले दस हज़ार धनुर्धरों से लड़ सके।",
+     "prompt": "A lone warrior on a chariot with a drawn bow facing a sea of enemy archers, dust and arrows in the air, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "शिखंडी भी ऐसे ही महारथी थे। उनका नाम आगे भीष्म पितामह की कथा से जुड़ेगा।",
+     "prompt": "Warrior Shikhandi in armour with a bow raising a conch on his chariot, determined face, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "द्रौपदी के भाई धृष्टद्युम्न पांडव सेना के सेनापति थे। आदि पर्व के अनुसार, वो द्रुपद के यज्ञ की अग्नि से जन्मे थे।",
+     "prompt": "A young commander Dhrishtadyumna in shining armour with a sword standing before a tall blazing sacrificial fire, firelight on his face, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "राजा विराट, जिनके महल में पांडवों ने अज्ञातवास का एक साल छिपकर बिताया।",
+     "prompt": "Middle-aged crowned king Virat with a grey beard blowing a conch on his chariot, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उन्हीं की बेटी उत्तरा का विवाह अर्जुन के बेटे अभिमन्यु से हुआ था।",
+     "prompt": "A royal wedding in a palace, a young groom with a small crown and a young bride in a red bridal sari seated side by side beside a sacred fire, warm firelight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और सात्यकि, जिन्हें संजय 'अपराजित' कहते हैं। यदुवंश के वीर, और अर्जुन के शिष्य।",
+     "prompt": "Young Yadava warrior Satyaki with a bow and gold armlets blowing a conch on his chariot with a fierce smile, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कृष्ण की नारायणी सेना कौरवों की ओर थी। पर सात्यकि पांडवों के साथ खड़े रहे।",
+     "prompt": "A Yadava army with banners standing small in the distance on the left, warrior Satyaki on his chariot large in the foreground on the right, battlefield, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "फिर संजय एक ही श्लोक में बाकी सबको समेट लेते हैं।",
+     "prompt": "A middle-aged man in white robes and white turban on the left speaking to an old blind king with white beard and gold crown on the right who leans forward on his throne, palace hall, lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch8",
+   "card": "पृथक् पृथक्",
+   "shots": [
+    {
+     "vo": "द्रुपदो द्रौपदेयाश्च सर्वशः पृथिवीपते, सौभद्रश्च महाबाहुः शङ्खान्दध्मुः पृथक्पृथक्॥",
+     "prompt": "The whole Pandava front line, warriors on many chariots each raising his own conch, banners of many colours, golden dust in the air, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "यानी हे राजन, राजा द्रुपद, द्रौपदी के पाँचों बेटे, और महाबाहु अभिमन्यु ने भी अलग-अलग शंख बजाए।",
+     "prompt": "Elderly crowned King Drupad with a white beard blowing a conch on his chariot, young princes on chariots behind him, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "द्रौपदी के पाँचों बेटे, पाँचों पांडवों से एक-एक। पिता के साथ आज बेटे भी रणभूमि में थे।",
+     "prompt": "Five young princes in light armour on five chariots in a row, each raising a conch, banners above them, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "सौभद्र यानी सुभद्रा का बेटा अभिमन्यु। अर्जुन का बेटा, और कृष्ण का भांजा।",
+     "prompt": "A young teenage warrior Abhimanyu with a small crown and a bow, blowing a conch bravely on his chariot, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "संजय धृतराष्ट्र को 'पृथिवीपते' कहते हैं। यानी हे पृथ्वी के स्वामी।",
+     "prompt": "An old blind king, white beard, eyes closed, gold crown, on a golden throne in a vast empty hall, a middle-aged man in white robes and white turban standing beside him, dim light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "एक व्याख्या के अनुसार, ये याद दिलाना था: युद्ध रोकना अब भी आपके हाथ में है।",
+     "prompt": "An old king's wrinkled hands gripping the arms of a golden throne, crown jewels glinting, dark palace behind, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और सबसे ज़रूरी शब्द: 'पृथक् पृथक्'। यानी अलग-अलग।",
+     "prompt": "Many conches raised at different points across the Pandava army, each one catching the golden light separately, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कौरवों की ओर एक साथ बजा भारी शोर था, बिना किसी वीर के नाम के।",
+     "prompt": "Massed Kaurava drums and curved horns in dark dust, helmeted soldiers in shadow under a heavy grey sky, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पांडवों की ओर संजय एक-एक नाम गिनाते हैं। हर वीर का अपना शंख, अपनी पहचान।",
+     "prompt": "The Pandava warriors in golden light, each on his own chariot under his own banner, each raising a conch, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अंधे राजा के कानों तक ये नाम एक-एक करके पहुँच रहे थे। पांडवों के साथ कौन-कौन है, अब छिपा नहीं था।",
+     "prompt": "An old blind king, white beard, eyes closed, listening with a troubled face, a middle-aged man in white robes speaking beside him, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर इस पूरी गूँज की शुरुआत जिस शंख से हुई, उसे फूँकने वाले ने हथियार न उठाने का वचन दिया था।",
+     "prompt": "A view from behind a white-horsed chariot across the Pandava army with conches raised everywhere, the Kaurava army facing them across the field, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch9",
+   "card": "वचन",
+   "shots": [
+    {
+     "vo": "महाभारत के उद्योग पर्व के अनुसार, युद्ध से पहले दुर्योधन और अर्जुन दोनों मदद माँगने द्वारका पहुँचे।",
+     "prompt": "A golden palace by the sea with white walls, two warriors in royal dress walking up the palace steps, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कृष्ण सो रहे थे। दुर्योधन पहले पहुँचा और सिरहाने बैठा। अर्जुन बाद में आए, और पैरों के पास बैठे।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, asleep on a royal bed, a crowned prince with a mace seated near his head on the left, fair-skinned warrior Arjun seated humbly near his feet on the right, palace chamber, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "जागने पर कृष्ण की नज़र पहले अर्जुन पर पड़ी। दुर्योधन ने कहा, पहले मैं आया हूँ।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, sitting up on his bed and looking toward fair-skinned warrior Arjun with a gentle smile, palace chamber, soft light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कृष्ण बोले, आए तुम पहले हो, पर देखा मैंने अर्जुन को पहले। और अर्जुन छोटे भी हैं, तो पहले चुनने का हक़ उनका।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, speaking calmly to a crowned prince with a golden mace who listens with a tight face, palace chamber, soft light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "फिर उन्होंने दो रास्ते रखे। एक तरफ़ उनकी विशाल नारायणी सेना।",
+     "prompt": "A vast army of soldiers in shining armour lined up in rows outside a seaside city, spears and banners, the sea behind, bright daylight, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "दूसरी तरफ़ वो अकेले। जो युद्ध में न लड़ेंगे, न हथियार उठाएँगे।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, standing alone with both open empty hands held out, no weapons, a palace hall, soft light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अर्जुन ने तुरंत कृष्ण को चुना। दुर्योधन पूरी सेना पाकर खुश होकर लौट गया।",
+     "prompt": "Fair-skinned warrior Arjun, gold crown, bowing with folded hands on the left before Lord Krishna, blue skin, peacock feather crown, on the right, a palace hall, soft light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "फिर अर्जुन ने एक ही विनती की: आप मेरे सारथी बनिए। कृष्ण ने मान लिया।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, placing a hand on the shoulder of fair-skinned warrior Arjun with a warm smile, a chariot visible through the palace doorway, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "जैसे बोर्ड परीक्षा की सुबह, माँ बच्चे के हाथ पर दही-चीनी रखती है। पेपर तो बच्चा ही लिखेगा।",
+     "prompt": "An Indian mother in a sari placing a spoon of curd and sugar on the palm of her son in a school uniform at a home doorway, early morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "पर उस एक पल से बच्चे को लगता है, मैं अकेला नहीं हूँ।",
+     "prompt": "A boy in a school uniform with a school bag on his shoulder walking out confidently with a smile, his mother in a sari watching from the doorway behind, morning light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कुरुक्षेत्र के ज्योतिसर में, जहाँ मान्यता है कि गीता कही गई, भक्त आज भी उस बरगद के नीचे गीता पढ़ते हैं।",
+     "prompt": "An ancient banyan tree on a raised stone platform, devotees seated beneath it reading holy books, soft morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "ch10",
+   "card": "पांचजन्य",
+   "shots": [
+    {
+     "vo": "श्रीमद्भागवत के दसवें स्कंध की कथा के अनुसार, कृष्ण और बलराम उज्जैन में गुरु सांदीपनि के आश्रम में पढ़े।",
+     "prompt": "Young Krishna, blue-skinned boy with a peacock feather, and young fair-skinned Balram sitting before white-bearded sage Guru Sandipani in a forest hermitage, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कथा कहती है, दोनों भाइयों ने सिर्फ़ चौंसठ दिनों में चौंसठ कलाएँ सीख लीं।",
+     "prompt": "Young Krishna, blue-skinned boy with a peacock feather, studying palm-leaf books by a lamp in a simple hermitage hut, warm lamp light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "शिक्षा पूरी हुई तो दोनों ने गुरुदक्षिणा पूछी। गुरु और गुरुमाता की आँखें भर आईं।",
+     "prompt": "White-bearded sage Guru Sandipani and his wife in a simple sari, both with tears in their eyes, facing young Krishna, blue-skinned boy with a peacock feather, who stands with folded hands, hermitage hut behind, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उनका बेटा प्रभास तीर्थ के पास समुद्र में खो गया था। उन्होंने बस अपना बेटा वापस माँगा।",
+     "prompt": "A stormy sea shore with dark waves crashing on rocks, grey sky, an empty beach with a small pair of sandals at the water's edge, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कृष्ण और बलराम रथ पर प्रभास पहुँचे। समुद्र देव हाथ जोड़कर सामने आए।",
+     "prompt": "Young Lord Krishna, blue skin, peacock feather crown, on the left on the shore, Samudra Dev, sea god with a crown of shells, rising from the waves on the right with folded hands, daylight, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "समुद्र देव ने बताया, पंचजन नाम का दैत्य शंख के रूप में पानी में रहता है।",
+     "prompt": "A huge dark conch-shaped shadow resting among rocks on the deep sea floor, faint light beams from above, eerie blue water, wide underwater shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कथा के अनुसार, कृष्ण ने जल में उतरकर उस दैत्य को मारा। पर गुरु का बेटा उसके पेट में नहीं मिला।",
+     "prompt": "Young Lord Krishna, blue skin, glowing, striking a huge dark conch-shaped sea demon with his fist in the deep sea, light beams through the water, wide underwater shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "तब दैत्य के शरीर से बना शंख लेकर कृष्ण यमराज की नगरी संयमनी पहुँचे, और वहाँ शंख फूँका।",
+     "prompt": "Young Lord Krishna, blue skin, peacock feather crown, standing before towering dark gates blowing a white conch, a glow around him, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "मान्यता है कि यमराज ने आदर से कृष्ण की पूजा की, और गुरु का बेटा लौटा दिया।",
+     "prompt": "Lord Yama, dark-skinned god with a crown and staff, standing with folded hands before Lord Krishna, blue skin, who holds a white conch, a dim stone hall behind, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "उसी दैत्य पंचजन के नाम पर ये शंख पांचजन्य कहलाया।",
+     "prompt": "A large white spiral conch glowing softly on a lotus pedestal, a temple lamp beside it, close shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "एक अन्य परंपरा में, पांचजन्य को समुद्र मंथन से निकले रत्नों से भी जोड़ा जाता है, भगवान विष्णु के शंख के रूप में।",
+     "prompt": "The cosmic ocean being churned, a radiant white conch rising from the foaming waves among glowing treasures, golden light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "आज भी उज्जैन में सांदीपनि आश्रम है। भक्त मानते हैं, यहीं कृष्ण ने शिक्षा पाई, और वहाँ दर्शन करने आते हैं।",
+     "prompt": "A temple at a hermitage in morning light, devotees with folded hands walking in, orange marigold garlands at the entrance, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कथा के अनुसार जिस शंख से गुरु का बेटा यमलोक से लौटा, वो किसी को मारने का हथियार नहीं था।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow silk dhoti, lowering a white conch from his lips on a chariot, thoughtful face, armies far behind, morning light, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कुरुक्षेत्र में भी पांचजन्य ने किसी को घायल नहीं किया। शंख किसी पर वार नहीं करता।",
+     "prompt": "The Pandava soldiers on the field looking toward a chariot as a conch sounds, their faces lifting with courage, morning light, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "वो बस बताता है कि कौन किसके साथ खड़ा है। और भक्तों के लिए उस सुबह पांचजन्य का संदेश यही था कि भगवान स्वयं पांडवों के रथ पर हैं।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, blowing a white conch on a white-horsed chariot, fair-skinned warrior Arjun beside him holding a long bow, golden light breaking through clouds, medium-wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "पर जब ये गूँज कौरव सेना तक पहुँची, तो दुर्योधन और उसके भाइयों के दिलों पर क्या बीती?",
+     "prompt": "A crowned prince Duryodhan with a golden mace standing on his chariot among the Kaurava ranks, face tense, looking toward the Pandava side, dust swirling, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अगले एपिसोड में, अर्जुन गांडीव उठाते हैं और कृष्ण से एक विनती करते हैं।",
+     "prompt": "Fair-skinned warrior Arjun, gold crown, lifting a long bow on a chariot and turning to speak to Lord Krishna, blue skin, peacock feather crown, who holds the reins, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "अर्जुन ने रथ को दोनों सेनाओं के बीच ले जाने को क्यों कहा?",
+     "prompt": "An empty strip of land between two vast armies, dust drifting, a single white-horsed chariot starting to roll forward, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "और जब रथ रुका, तो ठीक सामने कौन खड़े थे?",
+     "prompt": "A white-horsed chariot halted between two armies, Lord Krishna, blue skin, at the reins and fair-skinned warrior Arjun looking ahead, the Kaurava ranks in shadow in front, wide shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "कमेंट में जय श्री कृष्ण लिखना न भूलें।",
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow silk dhoti, holding a white conch with a gentle blessing smile, soft golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers"
+    },
+    {
+     "vo": "हर एपिसोड के पीछे मूल ग्रंथ को पढ़ना, हर दृश्य को चित्र में उतारना और हर बात को जाँचना होता है। अगर ये मेहनत आपको सार्थक लगी, तो देवलोक कथा को सब्सक्राइब करके इस यात्रा में हमारे साथ जुड़िए।",
+     "subscribe_ask": true,
+     "prompt": "Lord Krishna, blue skin, peacock feather crown, yellow silk dhoti, holding a white conch with a gentle blessing smile, soft golden light, medium shot, cinematic film still of the whole scene, wide 16:9 composition, detailed environment, clear detailed faces, natural anatomy, every person whole with two arms and two hands",
+     "seed": 1500,
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, blood, gore, wound, severed, violence, extra hands, extra arms, missing limbs, deformed hands, fused fingers",
+     "move": "pan_right"
+    }
+   ]
+  }
+ ],
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "series",
+  "points": [
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1
+  ]
+ },
+ "series": "gita",
+ "series_ep": 3,
+ "source_ref": "भगवद गीता · अध्याय 1 अर्जुनविषादयोग, श्लोक 13–18",
+ "lane": "series",
+ "framework": "2026-11-23 16:49"
+}
