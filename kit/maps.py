@@ -340,7 +340,8 @@ def frame(spec, t, dur, i=0):
     action = spec.get("action") or "locate"
     u = t / max(dur, 0.1)
     te = min(2.2, dur * 0.45)  # the wide view, then the detail: quicker (14 Nov 2026: bare maps during long zooms)
-    if True:  # every map: the whole region first, eased in log space toward the detail (owner, 13 Nov 2026)
+    if not spec.get("_cont"):  # every map: the whole region first, eased in log space toward the detail (owner, 13 Nov
+        # 2026); a map continuing the one before it (same area, kit/build.py) only pushes in slowly (23 Nov 2026)
         e = ease(t / te)
         s0 = min(150.0, span * 6)
         span_now = float(np.exp(np.log(s0) * (1 - e) + np.log(span) * e))

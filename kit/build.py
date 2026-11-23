@@ -188,6 +188,12 @@ def prep(script_path, out):
         t += d
     items.append({"kind": "end", "start": t, "dur": END})
     t += END
+    near = lambda a, b: max(abs(a[0] - b[0]), abs(a[1] - b[1])) < max(float(sa.get("span") or 20), 1.0)
+    for a, b in zip(items, items[1:]):  # a map right after a map of the same area continues from it: no second wide-to-
+        # detail zoom (owner, 23 Nov 2026 TSM review: "same part of map is zoomed again and again right after each other")
+        sa, sb = a.get("map") or {}, b.get("map") or {}
+        if a.get("kind") == b.get("kind") == "map" and sa.get("center") and sb.get("center") and near(sa["center"], sb["center"]):
+            sb["_cont"] = True
     if not chapters or chapters[0][0] > 0:
         chapters.insert(0, (0.0, "Intro"))
     (out / "timeline.json").write_text(json.dumps({"slug": sc["slug"], "look": look_of(sc), "sec": t, "items": items,
