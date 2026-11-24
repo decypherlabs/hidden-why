@@ -365,7 +365,8 @@
       "suffix": "",
       "label": "neighbours: every route in or out crosses Russia or China"
      },
-     "prompt": "A freight container on a flatbed wagon waiting at a lonely border gate on the steppe, top third dark and plain sky, duotone archival plate in dark slate and one muted orange, no text"
+     "prompt": "A single freight container on a flatbed wagon waiting at a lonely closed border gate on the steppe, centred and seen from a distance, wide and calm composition with generous empty margins left and right, top third dark and plain sky, a wide empty dark band across the middle of the frame left clear for an overlay, duotone archival plate in dark slate and one muted orange, no people, no text, no signs or lettering on the container, gate or wagon",
+     "seed": 8923
     },
     {
      "vo": "Even Kazakhstan, almost touching it in the far west, stays about 37 kilometres away.",
@@ -2093,5 +2094,19 @@
  "visuals_checked": true,
  "approved": true,
  "review": "auto",
- "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos"
+ "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos",
+ "repaint": {
+  "shots": [
+   4
+  ],
+  "thumbs": [],
+  "at": "2026-11-24 14:15"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   4
+  ]
+ },
+ "auto_regen": 1
 }
