@@ -1,0 +1,983 @@
+{
+ "slug": "por-017-aws-side-project",
+ "channel": "Story of Giants",
+ "format": "long",
+ "build": "kit",
+ "lang": "en",
+ "voice": "am_adam",
+ "title": "How Did AWS Become Amazon's Profit Machine?",
+ "thumbnail": {
+  "text": "Not *spare* servers",
+  "idea": "One full-frame image: a single tall black server rack in a dim data hall, its door open, with a thick stack of banknotes spilling out of the bottom bay. A red circle around the cash, a red arrow from the blinking server lights down to the money. The top third is dark and plain for the words."
+ },
+ "sources": [
+  {
+   "claim": "Amazon launched S3 on March 14, 2006, promising developers the same storage infrastructure that ran Amazon's own websites",
+   "source": "Amazon press release, 'Amazon Web Services Launches Amazon S3', 14 Mar 2006"
+  },
+  {
+   "claim": "S3 cost fifteen cents per gigabyte per month with no minimum fee",
+   "source": "Amazon S3 launch press release and pricing page, 14 Mar 2006"
+  },
+  {
+   "claim": "EC2 launched in beta in August 2006; a small virtual server cost ten cents an hour",
+   "source": "Amazon press release announcing Amazon EC2 limited beta, 24 Aug 2006"
+  },
+  {
+   "claim": "A November 2006 BusinessWeek cover called the push Jeff Bezos's risky bet",
+   "source": "BusinessWeek cover story, 'Jeff Bezos' Risky Bet', Robert D. Hof, 13 Nov 2006"
+  },
+  {
+   "claim": "In 2024 AWS earned $39.8 billion in operating income on $107.6 billion of sales",
+   "source": "Amazon.com Inc. Form 10-K for fiscal 2024, segment information, filed Feb 2025"
+  },
+  {
+   "claim": "Amazon's total 2024 operating income was $68.6 billion and net sales $638.0 billion, so AWS was 58 percent of operating profit from about 17 percent of sales",
+   "source": "Amazon.com Inc. Form 10-K for fiscal 2024, filed Feb 2025 (percentages calculated from the filed figures)"
+  },
+  {
+   "claim": "Amazon was founded in 1994 and listed on Nasdaq in 1997",
+   "source": "Amazon.com Inc. IPO prospectus, May 1997"
+  },
+  {
+   "claim": "Amazon's first full-year profit came in 2003: net income of $35 million on sales of $5.26 billion",
+   "source": "Amazon.com Inc. Form 10-K for fiscal 2003, filed Feb 2004"
+  },
+  {
+   "claim": "Amazon's share price fell more than ninety percent between December 1999 and September 2001",
+   "source": "Nasdaq historical price data for AMZN, Dec 1999 to Sep 2001"
+  },
+  {
+   "claim": "Andy Jassy, then Bezos's technical assistant, said teams kept rebuilding the same infrastructure; a 2003 retreat at Bezos's house concluded Amazon had become good at running reliable, scalable infrastructure; a vision document came first",
+   "source": "Ron Miller, 'How AWS came to be', TechCrunch, 2 Jul 2016 (interview with Andy Jassy)"
+  },
+  {
+   "claim": "An early-2000s order said all teams will henceforth expose their data and functionality through service interfaces, and anyone who did not would be fired",
+   "source": "Steve Yegge, former Amazon engineer, public Google+ post recalling the memo, 12 Oct 2011 (one engineer's recollection)"
+  },
+  {
+   "claim": "Chris Pinkham and Benjamin Black wrote a 2003 paper on standardized, automated infrastructure that mentioned selling virtual servers as a service",
+   "source": "Benjamin Black, 'EC2 Origins', personal blog, 25 Jan 2009"
+  },
+  {
+   "claim": "EC2 was built by a team Chris Pinkham led in Cape Town, South Africa",
+   "source": "Benjamin Black, 'EC2 Origins', 25 Jan 2009; Ron Miller, TechCrunch, 2 Jul 2016"
+  },
+  {
+   "claim": "A message-queue service, SQS, opened to developers in beta in 2004",
+   "source": "Amazon Web Services blog announcement of Simple Queue Service beta, Nov 2004"
+  },
+  {
+   "claim": "Werner Vogels: it was never a matter of selling excess capacity; within two months of launch AWS would have burned through Amazon.com's excess capacity",
+   "source": "Werner Vogels, Amazon CTO, public answer on Quora, 2011"
+  },
+  {
+   "claim": "In April 2008 Animoto grew from about 50 servers to 3,500 in three days after going viral on Facebook",
+   "source": "Werner Vogels, 'Animoto - Scaling Through Viral Growth', All Things Distributed blog, Apr 2008"
+  },
+  {
+   "claim": "In August 2008 a database corruption stopped Netflix shipping DVDs for three days; it moved to AWS and finished in January 2016",
+   "source": "Yury Izrailevsky, 'Completing the Netflix Cloud Migration', Netflix blog, 11 Feb 2016"
+  },
+  {
+   "claim": "Google App Engine opened in preview in April 2008; Google Compute Engine in preview in June 2012",
+   "source": "Google official blog announcements, 7 Apr 2008 and 28 Jun 2012"
+  },
+  {
+   "claim": "Microsoft's Azure went live commercially in February 2010",
+   "source": "Microsoft press release on Windows Azure commercial availability, 1 Feb 2010"
+  },
+  {
+   "claim": "S3 held more than two trillion objects in 2013",
+   "source": "Jeff Barr, 'Amazon S3 - Two Trillion Objects', AWS News Blog, 18 Apr 2013"
+  },
+  {
+   "claim": "Before 2015 AWS results were included in Amazon's 'other' sales; Amazon first reported AWS separately in April 2015",
+   "source": "Amazon.com Inc. Q1 2015 earnings release, 23 Apr 2015; Form 10-K filings 2006-2014"
+  },
+  {
+   "claim": "AWS revenue was $4.6 billion in 2014 and operating income $265 million in Q1 2015",
+   "source": "Amazon.com Inc. Q1 2015 earnings release, 23 Apr 2015"
+  },
+  {
+   "claim": "Bezos wrote that AWS reached $10 billion in annual sales faster than Amazon itself reached that mark",
+   "source": "Jeff Bezos, 2015 Letter to Shareholders, Apr 2016"
+  },
+  {
+   "claim": "AWS operating income: $1.5B (2015), $3.1B (2016), $4.3B (2017), $7.3B (2018), $9.2B (2019), $13.5B (2020), $18.5B (2021), $22.8B (2022), $24.6B (2023), $39.8B (2024)",
+   "source": "Amazon.com Inc. Form 10-K filings, fiscal 2016 through fiscal 2024, segment information"
+  },
+  {
+   "claim": "In 2017 AWS operating income was $4.33 billion against Amazon's total of $4.11 billion; the international segment lost $3.1 billion",
+   "source": "Amazon.com Inc. Form 10-K for fiscal 2017, filed Feb 2018"
+  },
+  {
+   "claim": "In 2022 AWS earned $22.8 billion operating income, Amazon $12.2 billion; North America lost $2.8 billion and International $7.7 billion, $10.6 billion together",
+   "source": "Amazon.com Inc. Form 10-K for fiscal 2022, filed Feb 2023"
+  },
+  {
+   "claim": "Amazon spent $83 billion on property and equipment in 2024, much of it for AWS",
+   "source": "Amazon.com Inc. Form 10-K for fiscal 2024 (cash capital expenditures); Andy Jassy, Q4 2024 earnings call, 6 Feb 2025"
+  },
+  {
+   "claim": "On February 28, 2017, a mistyped command took part of S3 offline in Northern Virginia for hours",
+   "source": "AWS, 'Summary of the Amazon S3 Service Disruption in the Northern Virginia (US-EAST-1) Region', Mar 2017"
+  },
+  {
+   "claim": "Dropbox moved most of its storage onto its own machines and said this cut costs by $74.6 million over two years",
+   "source": "Dropbox Inc. Form S-1 registration statement, 23 Feb 2018"
+  },
+  {
+   "claim": "At the end of 2024 AWS held about 30 percent of cloud infrastructure, Microsoft about 21 percent",
+   "source": "Synergy Research Group, cloud infrastructure market share, Q4 2024 release, Feb 2025"
+  },
+  {
+   "claim": "Netflix, a Prime Video competitor, still runs on AWS",
+   "source": "Netflix Technology Blog, 11 Feb 2016; AWS customer case study, Netflix"
+  },
+  {
+   "claim": "Andy Jassy became Amazon's CEO on July 5, 2021, having run AWS since its start",
+   "source": "Amazon press release and Jeff Bezos letter to employees, 2 Feb 2021; Amazon announcement, 5 Jul 2021"
+  },
+  {
+   "claim": "Intel decided in 1985 to leave the memory-chip business",
+   "source": "Andrew S. Grove, 'Only the Paranoid Survive', Doubleday, 1996"
+  }
+ ],
+ "playbook": {
+  "topic_type": "rise",
+  "points": [
+   1,
+   1,
+   1,
+   0,
+   1,
+   0,
+   1,
+   1
+  ],
+  "minor": [
+   "Opening line: 'a store that would earn just $35 million in 2003' sits in a sentence set in 2006, so 'would earn' points the wrong way in time. Say 'a store that had earned just $35 million in 2003'.",
+   "'Google's Compute Engine in 2012' was a June 2012 preview, not general availability. Say 'opened in preview in 2012', or drop the 'went live' phrasing.",
+   "'Five months later came EC2' was a limited beta in August 2006. 'Launched in beta' is more exact.",
+   "SQS as 'a first small service' in 2004 is fair for this script, but Amazon had earlier web-service APIs. Say 'an early service'.",
+   "'Near the end' for the virtual-server mention in the Pinkham/Black paper is not in the listed source, which says only that it mentioned selling virtual servers. Drop 'near the end'.",
+   "'Netflix ... still runs on AWS' rests on a 2016 source plus a case study. Consider citing a more recent source.",
+   "2022 store losses: $2.8B + $7.7B = $10.5B, while the script's $10.6B comes from $22.8B - $12.2B. This is rounding, and 'about' covers it.",
+   "The Yegge memo is one engineer's recollection. The script says 'a former engineer recalled', which is fair."
+  ]
+ },
+ "stats": {
+  "words": 1327,
+  "cold_open_words": 110,
+  "shots": 74,
+  "minutes": 9.5,
+  "kinds": {
+   "chart": 1,
+   "compare": 4,
+   "document": 1,
+   "flow": 1,
+   "footage": 12,
+   "headline": 3,
+   "quote": 3,
+   "stat": 12,
+   "still": 34,
+   "timeline": 3
+  }
+ },
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "In 2006, Amazon, a store that would earn just $35 million in 2003, bet its thin margins on building data centers to rent out by the hour.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a long dim aisle of server racks at night, one technician seen from behind holding a laptop, thin amber indicator lights as the single accent colour, no readable text, no logos., no signs or lettering on any storefront, screen or package",
+     "title": "2006: The *Bet*"
+    },
+    {
+     "vo": "A business magazine called it a risky bet.",
+     "kind": "still",
+     "prompt": "a muted documentary scene of the moment: A business magazine called it a risky bet."
+    },
+    {
+     "vo": "In 2024, that rental business, AWS, earned $39.8 billion in operating profit.",
+     "kind": "stat",
+     "stat": {
+      "value": 39.8,
+      "prefix": "$",
+      "suffix": " billion",
+      "label": "AWS operating profit, 2024"
+     },
+     "prompt": "Muted 35mm photograph of a vast modern data hall seen from a high walkway, rows of racks vanishing into haze, cool blue light, one orange cable tray as accent; the top third dark and plain.",
+     "title": "$39.8B *Profit*"
+    },
+    {
+     "vo": "Fifty-eight percent of Amazon's profit, from seventeen percent of its sales.",
+     "kind": "compare",
+     "compare": {
+      "title": "Small slice, big profit",
+      "left": {
+       "name": "Share of sales",
+       "value": 17,
+       "prefix": "",
+       "suffix": "%",
+       "label": "AWS share of Amazon net sales, 2024"
+      },
+      "right": {
+       "name": "Share of profit",
+       "value": 58,
+       "prefix": "",
+       "suffix": "%",
+       "label": "AWS share of Amazon operating income, 2024"
+      },
+      "winner": "right"
+     },
+     "title": "*58%* of Profit"
+    },
+    {
+     "vo": "It began in 2003, at an executive retreat held at Bezos's own house.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a lakeside house at dusk, a lit living-room window with several silhouettes seated around a low table, warm lamp glow as the single accent, no readable text., no signs or lettering on any storefront, screen or package",
+     "title": "Bezos's *House*, 2003"
+    },
+    {
+     "vo": "That year, all of Amazon netted just $35 million.",
+     "kind": "stat",
+     "stat": {
+      "value": 35,
+      "prefix": "$",
+      "suffix": " million",
+      "label": "Amazon net income, full year 2003"
+     },
+     "prompt": "Muted 35mm photograph of an early-2000s warehouse floor with a few cardboard boxes on a conveyor, grey light, one yellow safety line as accent; the top third dark and plain."
+    },
+    {
+     "vo": "The popular story says Amazon sold spare servers. Its own CTO says it was never about that.",
+     "kind": "quote",
+     "quote": {
+      "text": "It was never a matter of selling excess capacity.",
+      "who": "Werner Vogels, Amazon CTO",
+      "source": "Public answer on Quora, 2011"
+     }
+    },
+    {
+     "vo": "So how did Amazon Web Services become the real profit machine behind Amazon?",
+     "kind": "still",
+     "prompt": "Wide view of a vast modern data center aisle at night, endless rows of server racks with small glowing blue and green status lights, a lone technician seen only from behind in silhouette at the far end, cool cinematic light, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "ALL BOXES, NO PROFIT",
+   "shots": [
+    {
+     "vo": "In the early 2000s, Amazon was mostly a store that shipped boxes and kept very little from each sale.",
+     "kind": "footage",
+     "search": "warehouse packages conveyor belt",
+     "clip": {
+      "id": 69,
+      "tags": "packaging, band-conveyor, flat conveyor, conveyor, production line, conveyor belt, cardboard, cartons, production, industry, rolling",
+      "page": "https://pixabay.com/videos/id-69/"
+     }
+    },
+    {
+     "vo": "Founded in 1994, it lost money for years and did not post a full-year profit until 2003.",
+     "kind": "timeline",
+     "timeline": {
+      "title": "A slow road to profit",
+      "events": [
+       [
+        "1994",
+        "Founded in Seattle"
+       ],
+       [
+        "1997",
+        "Shares listed on Nasdaq"
+       ],
+       [
+        "2001",
+        "Stock down over 90 percent"
+       ],
+       [
+        "2003",
+        "First full-year profit"
+       ]
+      ],
+      "mark": "2003"
+     }
+    },
+    {
+     "vo": "When the dot-com bubble burst, its share price fell more than ninety percent in under two years.",
+     "kind": "stat",
+     "stat": {
+      "value": 90,
+      "prefix": "",
+      "suffix": "%+",
+      "label": "Fall in Amazon's share price, Dec 1999 to Sep 2001"
+     },
+     "prompt": "Muted 35mm photograph of an empty trading-floor corner in 2001, dark monitors, scattered paper on the carpet, one red chair as accent; the top third dark and plain."
+    },
+    {
+     "vo": "Behind the website, though, sat rooms full of servers that had to survive the holiday rush every single year.",
+     "kind": "footage",
+     "search": "server racks data center",
+     "clip": {
+      "id": 14900,
+      "tags": "network, internet, data, switch, router, cabinet, ethernet, equipment, connection, server, cable, rack, networking, lan, technology",
+      "page": "https://pixabay.com/videos/id-14900/"
+     }
+    },
+    {
+     "vo": "And every new project inside Amazon needed its own machines, its own storage and its own databases before work could start.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: an early-2000s open-plan office at night, engineers seen from behind at CRT monitors, stacks of unopened server boxes along the wall, one green desk lamp as accent, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Andy Jassy, then Jeff Bezos's technical assistant, later said teams kept rebuilding the same basic plumbing again and again.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: two figures in silhouette at a whiteboard covered in abstract boxes and arrows, seen from behind, late afternoon light, one blue marker line as accent, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "A former engineer recalled an order from the top: every team must offer its work through service interfaces.",
+     "kind": "quote",
+     "quote": {
+      "text": "All teams will henceforth expose their data and functionality through service interfaces.",
+      "who": "Steve Yegge, former Amazon engineer, recalling an early-2000s memo",
+      "source": "Google+ post, 12 Oct 2011"
+     }
+    },
+    {
+     "vo": "He remembered the warning too: anyone who did not follow the rule would be fired.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a single printed memo lying on an office desk under a lamp, text blurred and unreadable, an empty chair pushed back, one red pen as accent., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Quietly, that rule turned Amazon's insides into building blocks that someone outside the company could, in theory, use too.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: rows of identical grey server units being slotted into a rack by gloved hands seen from behind, one orange label-free tab as accent, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "So here is the question that started everything: what if the plumbing itself was the product?",
+     "kind": "still",
+     "prompt": "A lone engineer seen from behind standing in a dim server room at an early 2000s e-commerce company, rows of humming racks stretching ahead, contemplating the infrastructure, period-accurate, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "SELL THE ENGINE ROOM",
+   "shots": [
+    {
+     "vo": "Before the next part, one thing: episodes like this take real work, and subscribing is free.",
+     "kind": "footage",
+     "search": "person using smartphone video",
+     "clip": {
+      "id": 202987,
+      "tags": "phone, smartphone, mobile, portable, screen, digital, communication, texting, business, work",
+      "page": "https://pixabay.com/videos/id-202987/"
+     }
+    },
+    {
+     "vo": "In 2003, Amazon's senior leaders held a retreat at Bezos's house, and one exercise asked a deceptively simple question.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a living room with a large window over grey water, a dozen people in silhouette around a coffee table with notepads, morning light, one teal mug as accent, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "(quote) What, the leaders asked, was Amazon actually good at, beyond selling things on a website?",
+     "kind": "still",
+     "prompt": "A large typographic quote card in serif type on a dark paper background, the question 'What is Amazon actually good at?' written as if on a retreat whiteboard, warm lamp light, muted palette, no people, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "According to Jassy, the answer surprised them: they had become very good at running reliable, scalable infrastructure.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a figure seen from behind standing in the doorway of a humming server room, cold light spilling out, one amber status light as accent, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "The options were to keep the machines as an internal cost, or to sell computing to anyone with a credit card.",
+     "kind": "still",
+     "prompt": "A split comparison image: on the left, a locked server room labelled 'internal cost'; on the right, an open storefront sign with a credit card reading 'sell computing', divided by a clear vertical line, painterly style., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "On paper, selling looked strange for a retailer whose 2003 sales of $5.26 billion left only $35 million of profit.",
+     "kind": "stat",
+     "stat": {
+      "value": 5.26,
+      "prefix": "$",
+      "suffix": " billion",
+      "label": "Amazon net sales, 2003, on which it kept $35 million"
+     },
+     "prompt": "Muted 35mm photograph of a quiet 2003 fulfilment centre aisle lined with shelves of books, a lone worker from behind, one orange tote as accent; the top third dark and plain."
+    },
+    {
+     "vo": "It would mean spending heavily on data centers, and handing powerful tools to companies that might one day compete with Amazon.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a construction site for a large windowless building at dusk, cranes in silhouette, one sodium streetlight as the warm accent, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Around then, two infrastructure engineers, Chris Pinkham and Benjamin Black, wrote a short paper about how Amazon ran its servers.",
+     "kind": "footage",
+     "search": "engineers working at computers",
+     "clip": {
+      "id": 42305,
+      "tags": "man, computer, work, pc, home, mac, windows, desk, clics, house, mouse, books, table, office, modern, at work, black, busy, working, email, screen, electronic",
+      "page": "https://pixabay.com/videos/id-42305/"
+     }
+    },
+    {
+     "vo": "(document) Black later wrote that it described fully standardized, automated infrastructure, and near the end, selling virtual servers as a service.",
+     "kind": "still",
+     "prompt": "Close view of a typed 2003 internal paper on a desk, pages with diagrams of server racks and a highlighted paragraph near the end, muted paper tones, soft desk lamp light, no readable logos, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Jassy has said his team wrote a vision document first, describing the finished service before writing any code.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a small meeting room, people in silhouette reading printed pages in silence around a table, overcast light, one blue folder as accent, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Soon after, Amazon's internal plumbing began turning into a business of its own.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a figure seen from behind walking down a long empty office corridor toward a lit room, rain on the windows, one amber exit-sign glow without letters as accent., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "EC2, the server-rental part, was built far from Seattle, by a small team Pinkham led in Cape Town, South Africa.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a small mid-2000s office window in Cape Town at dusk with Table Mountain in the distance, two engineers seen from behind at desks with monitors, one warm orange sunset band as the accent, no readable text, no logos., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "A first small service, a message queue for developers, opened in 2004, but the real launch came two years later.",
+     "kind": "timeline",
+     "timeline": {
+      "title": "From memo to market",
+      "events": [
+       [
+        "2002",
+        "Service-interface order, as recalled"
+       ],
+       [
+        "2003",
+        "Retreat and engineers' paper"
+       ],
+       [
+        "2004",
+        "Cape Town team; queue beta"
+       ],
+       [
+        "2006",
+        "S3 in March, EC2 in August"
+       ]
+      ],
+      "mark": "2006"
+     }
+    },
+    {
+     "vo": "On March 14, 2006, Amazon launched S3, promising developers the same storage that ran Amazon's own websites.",
+     "kind": "document",
+     "document": {
+      "title": "Amazon press release launching Amazon S3, 14 March 2006",
+      "highlight": "It gives any developer access to the same highly scalable, reliable, fast, inexpensive data storage infrastructure that Amazon uses to run its own global network of web sites."
+     },
+     "prompt": "Muted 35mm photograph of a 2006 laptop on a dorm-room desk at night, screen glow on an empty chair, one red notebook as accent; the top third dark and plain."
+    },
+    {
+     "vo": "The price was fifteen cents per gigabyte per month, with no minimum fee.",
+     "kind": "stat",
+     "stat": {
+      "value": 0.15,
+      "prefix": "$",
+      "suffix": " per GB",
+      "label": "S3 storage price per month, March 2006"
+     },
+     "prompt": "Muted 35mm photograph of a palm holding a few coins under a desk lamp, a hard drive blurred in the background, one copper coin as accent; the top third dark and plain."
+    },
+    {
+     "vo": "Five months later came EC2, and with it something genuinely new: a whole server you could rent by the hour.",
+     "kind": "footage",
+     "search": "server rack blinking lights",
+     "clip": {
+      "id": 14900,
+      "tags": "network, internet, data, switch, router, cabinet, ethernet, equipment, connection, server, cable, rack, networking, lan, technology",
+      "page": "https://pixabay.com/videos/id-14900/"
+     }
+    },
+    {
+     "vo": "One small virtual server cost ten cents an hour, and you could switch it off the moment you were done.",
+     "kind": "stat",
+     "stat": {
+      "value": 0.1,
+      "prefix": "$",
+      "suffix": " per hour",
+      "label": "EC2 small instance price, August 2006"
+     },
+     "prompt": "Muted 35mm photograph of a finger above a single power switch on a dark rack panel, one red indicator lamp as accent; the top third dark and plain."
+    },
+    {
+     "vo": "Not everyone cheered: in November 2006 a BusinessWeek cover called the whole push Jeff Bezos's risky bet.",
+     "kind": "still",
+     "prompt": "A magazine cover lying flat on a desk, a business magazine front page with a bold headline about Jeff Bezos's risky bet, a portrait of a bald man in a blue shirt, document close-up, painterly style., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "It raised an obvious question: why was a bookseller building a computer company inside itself?",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: silhouettes of analysts in a dim conference room facing a blank projection screen, one blue screen glow as the accent, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "And here the popular story breaks: AWS was not just Amazon renting out spare holiday servers, says its own CTO.",
+     "kind": "quote",
+     "quote": {
+      "text": "It was never a matter of selling excess capacity, actually within 2 months after launch AWS would already have burned through the excess Amazon.com capacity.",
+      "who": "Werner Vogels, Amazon CTO",
+      "source": "Public answer on Quora, 2011"
+     }
+    },
+    {
+     "vo": "In other words, outside demand would have swallowed every idle machine Amazon owned within two months of launch.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a loading dock at night with pallets of new boxed servers being wheeled in, workers seen from behind, one orange forklift as accent, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "AWS needed its own fleet of new machines, built and paid for in order to be sold.",
+     "kind": "footage",
+     "search": "technician installing server rack",
+     "clip": {
+      "id": 14906,
+      "tags": "network, internet, data, switch, router, cabinet, ethernet, equipment, connection, server, cable, rack, networking, lan, technology",
+      "page": "https://pixabay.com/videos/id-14906/"
+     }
+    },
+    {
+     "vo": "But a few cents an hour only matters if somebody builds something huge on top of it.",
+     "kind": "footage",
+     "search": "developer building website laptop",
+     "clip": {
+      "id": 1625,
+      "tags": "laptop, notebook, developer, web developer, programming, code, computer, typing, undo, text editor, code editor, pc, it, technology, internet, web, source code, source code editor",
+      "page": "https://pixabay.com/videos/id-1625/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "STARTUPS MOVE IN",
+   "shots": [
+    {
+     "vo": "Before AWS, a new web company had to buy servers up front, guessing how many customers it might someday get.",
+     "kind": "still",
+     "prompt": "Early 2000s startup founders seen from behind in a cramped office, staring at a whiteboard with rough sketches of servers and customer growth, boxes of new server hardware stacked in the corner, period-accurate, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "With AWS, it could start with one rented machine and add more only when people actually showed up.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: two young founders seen from behind in a small apartment, one laptop on a kitchen table, city lights through the window, one yellow lamp as accent, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "In April 2008, a video startup called Animoto went viral on Facebook and grew from about 50 servers to 3,500 in three days.",
+     "kind": "stat",
+     "stat": {
+      "value": 3500,
+      "prefix": "",
+      "suffix": " servers",
+      "label": "Animoto's rented servers after three days, April 2008 (from about 50)"
+     },
+     "prompt": "Muted 35mm photograph of a tiny office at 3 a.m., one figure from behind watching a monitor glow, empty takeaway cups, one magenta screen light as accent; the top third dark and plain."
+    },
+    {
+     "vo": "Buying that many machines in three days would have been impossible; renting them took a few commands.",
+     "kind": "footage",
+     "search": "data center technician cables",
+     "clip": {
+      "id": 14900,
+      "tags": "network, internet, data, switch, router, cabinet, ethernet, equipment, connection, server, cable, rack, networking, lan, technology",
+      "page": "https://pixabay.com/videos/id-14900/"
+     }
+    },
+    {
+     "vo": "Later in 2008, a database failure at Netflix stopped it shipping DVDs for three days.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a silent mail-sorting room with stacks of red-sleeved disc envelopes waiting on tables, no people, one red envelope edge as the accent, no readable text or logos., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Netflix decided to leave its own data centers and move onto AWS, a job it finally finished in January 2016.",
+     "kind": "still",
+     "prompt": "Silhouetted engineers in a modern open-plan office in 2016 watching a large wall screen as an old data center is switched off and workloads settle onto the cloud, people only from behind, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "A full rival to EC2 took years to arrive: Microsoft's Azure went live in 2010, and Google's Compute Engine in 2012.",
+     "kind": "timeline",
+     "timeline": {
+      "title": "The rivals arrive late",
+      "events": [
+       [
+        "2006",
+        "AWS launches S3 and EC2"
+       ],
+       [
+        "2008",
+        "Google App Engine preview"
+       ],
+       [
+        "2010",
+        "Microsoft Azure goes live"
+       ],
+       [
+        "2012",
+        "Google Compute Engine preview"
+       ]
+      ],
+      "mark": "2006"
+     }
+    },
+    {
+     "vo": "That head start let AWS sign up developers before the biggest tech companies had a rival server-rental service to sell.",
+     "kind": "footage",
+     "search": "developers coding laptops",
+     "clip": {
+      "id": 1625,
+      "tags": "laptop, notebook, developer, web developer, programming, code, computer, typing, undo, text editor, code editor, pc, it, technology, internet, web, source code, source code editor",
+      "page": "https://pixabay.com/videos/id-1625/"
+     }
+    },
+    {
+     "vo": "By 2013, S3 alone was holding more than two trillion stored objects for its customers.",
+     "was": {
+      "kind": "stat",
+      "stat": {
+       "value": 2,
+       "prefix": "",
+       "suffix": " trillion",
+       "label": "Objects stored in Amazon S3, April 2013"
+      },
+      "prompt": "Muted 35mm photograph of endless identical storage drives in trays receding into darkness, one cyan drive light as accent; the top third dark and plain."
+     },
+     "kind": "still",
+     "prompt": "a documentary photograph of the moment: By 2013, S3 alone was holding more than two trillion stored objects for its customers."
+    },
+    {
+     "vo": "That scale made AWS too big to hide inside a line called other, yet for years Amazon did exactly that.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a thick bound annual report lying closed on a boardroom table, pages unreadable, a hand resting on it from behind, one green bookmark ribbon as accent., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Then, in April 2015, Amazon finally showed the numbers, and the cloud unit was already making money.",
+     "kind": "headline",
+     "headline": {
+      "date": "23 April 2015",
+      "text": "Amazon Opens the Books on Its Cloud, and It Profits"
+     },
+     "prompt": "Muted 35mm photograph of a trading screen wall reflected in a dark window at evening, figures blurred, one green glow as accent; the top third dark and plain."
+    },
+    {
+     "vo": "AWS had brought in $4.6 billion in 2014, and earned $265 million of operating profit in early 2015 alone.",
+     "was": {
+      "kind": "stat",
+      "stat": {
+       "value": 4.6,
+       "prefix": "$",
+       "suffix": " billion",
+       "label": "AWS revenue, full year 2014"
+      },
+      "prompt": "Muted 35mm photograph of a newly finished windowless data center beside a highway at dusk, one red aircraft-warning light as accent; the top third dark and plain."
+     },
+     "kind": "still",
+     "prompt": "a documentary photograph of the moment: AWS had brought in $4.6 billion in 2014, and earned $265 million of operating profit in early 2015 alone."
+    },
+    {
+     "vo": "After that, the profit kept climbing: from $1.5 billion in 2015 to $39.8 billion in 2024.",
+     "kind": "chart",
+     "chart": {
+      "type": "bar",
+      "title": "Twenty-six times bigger",
+      "unit": "$ billion operating income",
+      "points": [
+       [
+        "2015",
+        1.5
+       ],
+       [
+        "2016",
+        3.1
+       ],
+       [
+        "2017",
+        4.3
+       ],
+       [
+        "2018",
+        7.3
+       ],
+       [
+        "2019",
+        9.2
+       ],
+       [
+        "2020",
+        13.5
+       ],
+       [
+        "2021",
+        18.5
+       ],
+       [
+        "2022",
+        22.8
+       ],
+       [
+        "2023",
+        24.6
+       ],
+       [
+        "2024",
+        39.8
+       ]
+      ],
+      "mark": "2024",
+      "source": "Amazon.com Inc. Form 10-K filings, fiscal 2016-2024"
+     }
+    },
+    {
+     "vo": "In his 2015 shareholder letter, Bezos wrote that AWS hit $10 billion in yearly sales faster than Amazon itself had.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a printed letter on a desk beside a window with Seattle rain, text unreadable, a reading-glasses silhouette, one amber desk lamp as accent., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "By 2017 something strange happened: AWS earned more operating profit than the whole of Amazon put together.",
+     "kind": "compare",
+     "compare": {
+      "title": "The part beats the whole",
+      "left": {
+       "name": "AWS",
+       "value": 4.33,
+       "prefix": "$",
+       "suffix": "B",
+       "label": "AWS operating income, 2017"
+      },
+      "right": {
+       "name": "All of Amazon",
+       "value": 4.11,
+       "prefix": "$",
+       "suffix": "B",
+       "label": "Amazon total operating income, 2017"
+      },
+      "winner": "left"
+     }
+    },
+    {
+     "vo": "How can one part earn more than the whole? Because Amazon's international stores lost $3.1 billion that year.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a huge half-empty fulfilment centre in another country at night, rows of conveyors idle, one worker in silhouette, one red light as accent, no readable text or logos., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Five years later, that same pattern came back, and this time it was much bigger.",
+     "kind": "still",
+     "prompt": "A vast hyperscale data center campus under a heavy, darkening sky, rows of new buildings and cooling units stretching to the horizon, a small figure in silhouette in the foreground, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "AWS CARRIES THE STORE",
+   "shots": [
+    {
+     "vo": "In 2022, AWS earned $22.8 billion in operating profit, while Amazon as a whole earned only $12.2 billion.",
+     "kind": "compare",
+     "compare": {
+      "title": "The cloud pays the bills",
+      "left": {
+       "name": "AWS",
+       "value": 22.8,
+       "prefix": "$",
+       "suffix": "B",
+       "label": "AWS operating income, 2022"
+      },
+      "right": {
+       "name": "All of Amazon",
+       "value": 12.2,
+       "prefix": "$",
+       "suffix": "B",
+       "label": "Amazon total operating income, 2022"
+      },
+      "winner": "left"
+     }
+    },
+    {
+     "vo": "Take AWS away, and Amazon's stores lost about $10.6 billion that year, in North America and abroad combined.",
+     "was": {
+      "kind": "stat",
+      "stat": {
+       "value": 10.6,
+       "prefix": "-$",
+       "suffix": " billion",
+       "label": "Operating result of Amazon's North America and International segments, 2022"
+      },
+      "prompt": "Muted 35mm photograph of delivery vans parked in long rows at a depot before dawn, no markings, one orange hazard light as accent; the top third dark and plain."
+     },
+     "kind": "still",
+     "prompt": "a documentary photograph of the moment: Take AWS away, and Amazon's stores lost about $10.6 billion that year, in North America and abroad combined."
+    },
+    {
+     "vo": "In 2024, customers paid AWS $107.6 billion, and $39.8 billion of that came back to Amazon as operating profit.",
+     "kind": "flow",
+     "flow": {
+      "title": "Where the profit comes from",
+      "nodes": [
+       "Cloud customers",
+       "AWS",
+       "Amazon"
+      ],
+      "links": [
+       [
+        "Cloud customers",
+        "AWS",
+        "$107.6B sales"
+       ],
+       [
+        "AWS",
+        "Amazon",
+        "$39.8B operating profit"
+       ]
+      ]
+     }
+    },
+    {
+     "vo": "And Amazon keeps pouring money back in: $83 billion on property and equipment in 2024, much of it for AWS.",
+     "was": {
+      "kind": "stat",
+      "stat": {
+       "value": 83,
+       "prefix": "$",
+       "suffix": " billion",
+       "label": "Amazon cash capital spending, 2024"
+      },
+      "prompt": "Muted 35mm photograph of a vast data-center construction site with steel frames and cranes under a pale sky, one yellow crane as accent; the top third dark and plain."
+     },
+     "kind": "still",
+     "prompt": "a documentary photograph of the moment: And Amazon keeps pouring money back in: $83 billion on property and equipment in 2024, much of it for AWS."
+    },
+    {
+     "vo": "Size brought a new risk: a huge share of the internet came to lean on Amazon data centers in Northern Virginia.",
+     "kind": "footage",
+     "search": "data center corridor servers",
+     "clip": {
+      "id": 14900,
+      "tags": "network, internet, data, switch, router, cabinet, ethernet, equipment, connection, server, cable, rack, networking, lan, technology",
+      "page": "https://pixabay.com/videos/id-14900/"
+     }
+    },
+    {
+     "vo": "On February 28, 2017, one mistyped command took part of S3 offline there for hours, and many popular websites stumbled with it.",
+     "kind": "footage",
+     "search": "hands typing keyboard code",
+     "clip": {
+      "id": 10822,
+      "tags": "keyboard, typing, writing, notebook, computer, technology, laptop, business, internet, work, office, person, hand, communication, working, using, connection, pc, information, desktop, web, workplace",
+      "page": "https://pixabay.com/videos/id-10822/"
+     }
+    },
+    {
+     "vo": "Some customers found renting costly at scale: Dropbox moved most of its storage onto its own machines.",
+     "kind": "still",
+     "prompt": "A plain warehouse-style room with rows of black server racks on a concrete floor, with indicator lights glowing. A silhouetted technician is seen from behind, rolling in another rack. No logos, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "In its 2018 IPO filing, Dropbox said that move cut its costs by $74.6 million over two years.",
+     "was": {
+      "kind": "stat",
+      "stat": {
+       "value": 74.6,
+       "prefix": "$",
+       "suffix": " million",
+       "label": "Dropbox's reported savings over two years after leaving most of AWS, 2018 filing"
+      },
+      "prompt": "Muted 35mm photograph of a private server cage with its door half open, a figure walking away from behind, one blue cable as accent; the top third dark and plain."
+     },
+     "kind": "still",
+     "prompt": "a documentary photograph of the moment: In its 2018 IPO filing, Dropbox said that move cut its costs by $74.6 million over two years."
+    },
+    {
+     "vo": "Even so, Netflix, which competes with Amazon's Prime Video, still runs on AWS, the very risk critics once raised.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a living room at night, a family in silhouette on a sofa facing a glowing television, screen content blurred, one red cushion as accent, no logos., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Despite those exits, AWS still held about 30 percent of cloud infrastructure at the end of 2024, research firm Synergy said, Microsoft 21.",
+     "kind": "compare",
+     "compare": {
+      "title": "Still in front",
+      "left": {
+       "name": "AWS",
+       "value": 30,
+       "prefix": "",
+       "suffix": "%",
+       "label": "Cloud infrastructure share, Q4 2024"
+      },
+      "right": {
+       "name": "Microsoft",
+       "value": 21,
+       "prefix": "",
+       "suffix": "%",
+       "label": "Cloud infrastructure share, Q4 2024"
+      },
+      "winner": "left"
+     }
+    },
+    {
+     "vo": "On July 5, 2021, the man who had run AWS from the start, Andy Jassy, became Amazon's chief executive.",
+     "kind": "headline",
+     "headline": {
+      "date": "5 July 2021",
+      "text": "The Cloud Builder Now Runs All of Amazon"
+     },
+     "prompt": "Muted 35mm photograph of a glass office tower lobby in Seattle at morning, a single figure from behind crossing the floor, one green plant as accent; the top third dark and plain."
+    },
+    {
+     "vo": "So what would keeping the servers private have cost? In 2022, the gap between a large loss and a profit.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: the same lakeside house from the retreat, now in daylight and empty, chairs pushed back from the low table, one teal mug left behind as accent., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Nobody at that 2003 retreat could see these numbers coming; the choice only looks obvious because it worked.",
+     "kind": "still",
+     "prompt": "A small group of executives in silhouette at a quiet lakeside retreat in 2003, sitting around a table outdoors with notebooks, morning mist over the water, period-accurate, people only from behind, no logos, no readable text, no signs or lettering on any storefront, screen or package"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "Amazon did not get rich by selling leftovers; it built the machines it needed, then sold them to everyone else.",
+     "kind": "still",
+     "prompt": "Muted 35mm documentary photograph: a server-hall door opening onto a bright city street, a silhouette stepping through, one amber light from inside as accent, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "The principle: the tool you build to fix your own problem may be the product others will pay most for.",
+     "kind": "still",
+     "prompt": "A craftsperson seen from behind at a workbench, holding a homemade tool they built for their own job. Behind them, a line of silhouetted strangers waits to buy the same tool. Warm workshop light. No logos, no readable text., no signs or lettering on any storefront, screen or package"
+    },
+    {
+     "vo": "Next: Intel, and the 1985 decision to walk away from the memory chips that had made it famous.",
+     "kind": "footage",
+     "search": "computer chip circuit board",
+     "clip": {
+      "id": 13462,
+      "tags": "circuit board, motherboard, technology, computer, digital, hardware, electronics, circuit, chip, processor, design, electricity, macro, tech, server board, server, cloud computing",
+      "page": "https://pixabay.com/videos/id-13462/"
+     }
+    }
+   ]
+  }
+ ],
+ "restocked": true,
+ "replanned": true,
+ "templates_checked": true,
+ "painted_cards": true,
+ "photos_checked": true,
+ "visuals_checked": true,
+ "approved": true,
+ "review": "auto",
+ "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame"
+}
