@@ -576,7 +576,8 @@
     {
      "vo": "Census figures show roughly half of Narva holds Estonian citizenship, and about a third holds Russian passports.",
      "kind": "still",
-     "prompt": "Duotone archival plate, dark slate and muted orange: two passports of different colours lying on a wooden table by a window, no readable text, no signs or lettering on any storefront, screen or package"
+     "prompt": "Duotone archival plate, dark slate and muted orange: a plain wooden table by a window at dusk, a single closed dark-red booklet with a blank cover and a second closed dark-blue booklet with a blank cover lying side by side with space between them, covers completely smooth and unmarked with no emblem, no crest, no eagle, no embossing, no printing, no readable text, no signs or lettering on any storefront, screen or package",
+     "seed": 8933
     },
     {
      "vo": "For generations, families here are said to have had relatives on both banks and simply crossed the bridge to visit.",
@@ -1887,5 +1888,19 @@
  "visuals_checked": true,
  "approved": true,
  "review": "auto",
- "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos"
+ "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos",
+ "repaint": {
+  "shots": [
+   14
+  ],
+  "thumbs": [],
+  "at": "2026-11-24 09:37"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   14
+  ]
+ },
+ "auto_regen": 1
 }
