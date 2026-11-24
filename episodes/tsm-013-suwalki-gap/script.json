@@ -1112,13 +1112,34 @@
     },
     {
      "vo": "On 6 September 1991, Moscow recognised the independence of Lithuania, Latvia and Estonia.",
-     "kind": "headline",
-     "headline": {
-      "date": "6 September 1991",
-      "text": "Moscow accepts Baltic independence"
-     },
-     "prompt": "Painted map of the Baltic coast seen from above, three states each filled in a distinct flat colour with clean borders (the northern state muted orange, the middle state ochre, the southern state slate blue), the sea in dark slate, one solid opaque arrow in dark red entering from the far east edge pointing toward the three states, blank map with no text, no letters, no numbers, no labels, no lettering, no captions, no place names, no writing of any kind anywhere in the frame including the edges and corners, plain unmarked borders only, top third dark plain for the headline",
-     "seed": 16878
+     "kind": "map",
+     "seed": 16878,
+     "map": {
+      "action": "fill",
+      "center": [
+       57.0,
+       24.5
+      ],
+      "span": 9.0,
+      "places": [
+       {
+        "name": "Estonia",
+        "lat": 58.6,
+        "lon": 25.0
+       },
+       {
+        "name": "Latvia",
+        "lat": 56.9,
+        "lon": 24.6
+       },
+       {
+        "name": "Lithuania",
+        "lat": 55.2,
+        "lon": 23.9
+       }
+      ],
+      "label": "Independent, 6 Sep 1991"
+     }
     },
     {
      "vo": "Taken into the Soviet Union in 1940, the three Baltic states were back on the map as countries.",
@@ -2264,11 +2285,10 @@
  "review": "auto",
  "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos",
  "repaint": {
-  "shots": [
-   40
-  ],
+  "shots": [],
   "thumbs": [],
-  "at": "2026-11-24 08:10"
+  "at": "2026-11-25 04:34",
+  "why": "QC: shot 40 map framed on Denmark; now the Baltic states"
  },
  "shot_qc": {
   "rounds": 1,
