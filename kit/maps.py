@@ -442,6 +442,10 @@ def frame(spec, t, dur, i=0):
                 if a <= 0:
                     continue
                 f = inter(lb["size"]) if lb["size"] else None
+                if f is not None and lb["kind"] in ("plate", "spaced"):  # never off the frame while the camera drifts
+                    lw_ = _tw(d, lb["text"], f) + 26  # (25 Nov 2026: 'RUDHOE BAY' clipped at the left edge)
+                    x = min(max(x, 16), W - lw_ - 16)
+                    y = min(max(y, 16), H - f.size - 30)
                 if lb["kind"] == "plate":
                     _plate(d, x, y, lb["text"], f, a)
                 elif lb["kind"] == "spaced":
@@ -529,8 +533,11 @@ def frame(spec, t, dur, i=0):
         for q, p in list(zip(pts, places))[:6]:
             _spaced(d, (q[0] + 26, q[1] - 16), str(p.get("name", "")).upper(), inter(26), BONE, reveal)
     if lab and la > 0:
-        f = inter(40)
-        tw = d.textlength(str(lab).upper(), font=f) + len(str(lab)) * 3.2 + 40
+        sz = 40
+        while sz > 24 and d.textlength(str(lab).upper(), font=inter(sz)) + len(str(lab)) * sz * 0.08 + 40 > W - 180:
+            sz -= 2  # a long title shrinks to fit the frame (25 Nov 2026: 'POLAR SEA 1985 (NO...' ran off the edge)
+        f = inter(sz)
+        tw = d.textlength(str(lab).upper(), font=f) + len(str(lab)) * sz * 0.08 + 40
         x0, y0 = 90, 120
         d.rectangle((x0, y0, x0 + tw, y0 + 72), fill=(10, 12, 14, int(225 * la)))
         d.line((x0, y0, x0 + tw, y0), fill=(*ORANGE, int(255 * la)), width=3)

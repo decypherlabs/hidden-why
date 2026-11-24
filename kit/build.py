@@ -764,11 +764,18 @@ def on_top(ctx, it, t, rgb, layer):
         fmt = "{:,.0f}" if abs(v) >= 100 or v.is_integer() else "{:,.2f}" if abs(v) < 10 and round(v, 2) != round(v, 1) else "{:,.1f}"
         nf = kit.font("BarlowCondensed-Bold", 120)
         unit = str(s.get("label") or "")
-        unit = unit if len(unit) <= 56 else unit[:56].rsplit(" ", 1)[0].rstrip(",;:")
         uf = kit.font("Inter", 30)
-        w = max(d.textlength(pre + fmt.format(v) + suf, font=nf),
-                sum(d.textlength(ch, font=uf) + 30 * 0.1 for ch in unit.upper())) + 80
-        kit.stat_panel(layer, t, v, unit, fmt=fmt, prefix=pre, suffix=suf, box=(90, 70, 90 + int(w), 300),
+        lw = lambda s_: sum(d.textlength(ch, font=uf) + 30 * 0.1 for ch in s_.upper())
+        lines_ = [""]
+        for wd in unit.split():  # the whole label, wrapped at ~900 px, up to 3 lines (25 Nov 2026: it was cut at 56 characters)
+            nxt = (lines_[-1] + " " + wd).strip()
+            if lw(nxt) > 900 and lines_[-1] and len(lines_) < 3:
+                lines_.append(wd)
+            else:
+                lines_[-1] = nxt
+        unit = "\n".join(lines_)
+        w = max(d.textlength(pre + fmt.format(v) + suf, font=nf), max(lw(x) for x in lines_)) + 80
+        kit.stat_panel(layer, t, v, unit, fmt=fmt, prefix=pre, suffix=suf, box=(90, 70, 90 + int(w), 300 + 38 * (len(lines_) - 1)),
                        numcolor=tuple(ctx.L["accent"]), accent=tuple(ctx.L["accent"]))
         return rgb
     h = it.get("headline") or it.get("document") or {}

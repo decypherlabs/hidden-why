@@ -372,7 +372,8 @@ def stat_panel(layer, t, value, unit, fmt="{:,.0f}", prefix="", suffix="", box=(
             gx = bx1 + 22 + d.textlength("→", font=af) + 18
             d.text((gx, y0 + 14), label2, font=nf, fill=(226, 58, 46, int(255 * a2)))
     au = ease_out((t - 16 / FPS) / (8 / FPS))  # the label after the number, lifting into place
-    spaced(d, (x0 + 30, rule_y + 12 + int(10 * (1 - au))), unit.upper(), font("Inter", 30), (216, 210, 196, int(255 * au)), track=0.1)
+    for li, ln in enumerate(unit.upper().split("\n")):  # a long label on 2-3 lines, never cut (25 Nov 2026: "...RUSSIA OR")
+        spaced(d, (x0 + 30, rule_y + 12 + 38 * li + int(10 * (1 - au))), ln, font("Inter", 30), (216, 210, 196, int(255 * au)), track=0.1)
     if source:
         d.text((x0 + 30, y1 - 32), source.upper(), font=font("IBMPlexMono-Regular", 15), fill=(216, 210, 196, int(140 * a)))
 
