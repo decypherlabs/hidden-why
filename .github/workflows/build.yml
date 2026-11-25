@@ -35,6 +35,8 @@ jobs:
           echo "EP=$EP" >> "$GITHUB_ENV"
           echo "HW_BRAND=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1])).get('brand') or '')" "$EP/script.json")" >> "$GITHUB_ENV"
       - name: Python packages
+        env:
+          GIT_LFS_SKIP_SMUDGE: "1"  # 26 Nov 2026: descript-audiotools (via parler-tts) failed on its LFS test audio, not needed
         run: |
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
           pip install -q -r requirements.txt
