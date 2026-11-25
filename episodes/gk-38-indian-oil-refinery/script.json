@@ -2357,10 +2357,10 @@
     },
     {
      "vo": "दबाव कम हो, तो चीज़ें कम तापमान पर ही उबल जाती हैं।",
-     "prompt": "A large round pressure gauge on a vacuum column with its needle resting at the far left start position, a worker's hand tapping the glass, plain blank white dial face with no numbers and no markings, plain bare steel wall behind, bright light, close-up, photoreal",
+     "prompt": "A single large round pressure gauge on a steel pipe, one thin needle resting at the far left start position, a worker's hand tapping the glass, completely plain blank white dial face with no numbers, no letters and no markings, plain bare steel wall behind, bright light, close-up, photoreal",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 16904
+     "seed": 24823
     },
     {
      "vo": "जैसे लेह जैसी ऊँचाई पर पानी सौ नहीं, लगभग अठासी डिग्री पर ही उबल जाता है।",
@@ -2682,125 +2682,125 @@
      "caption": "1 अप्रैल 2020 से पूरे भारत में BS-VI ईंधन बिकता है।",
      "words": {
       "80": {
-       "src": "9fdddc34d177",
+       "src": "077b608eb96d",
        "items": [
         {
          "text": "BS-VI",
          "grid": [
           [
            [
-            690.7,
-            379.7
+            832.9,
+            329.7
            ],
            [
-            786.5,
-            379.5
+            875.7,
+            325.1
            ],
            [
-            884.0,
-            379.2
+            919.2,
+            321.7
            ],
            [
-            981.5,
-            378.9
+            962.6,
+            319.8
            ],
            [
-            1077.3,
-            378.5
+            1005.4,
+            319.2
            ],
            [
-            1174.8,
-            378.1
+            1048.9,
+            320.0
            ],
            [
-            1272.3,
-            377.6
+            1092.5,
+            322.1
            ]
           ],
           [
            [
-            690.7,
-            452.7
+            833.2,
+            390.0
            ],
            [
-            786.5,
-            452.4
+            876.4,
+            386.3
            ],
            [
-            884.0,
-            452.0
+            920.2,
+            383.5
            ],
            [
-            981.5,
-            451.7
+            964.1,
+            381.9
            ],
            [
-            1077.3,
-            451.3
+            1007.2,
+            381.4
            ],
            [
-            1174.8,
-            451.0
+            1051.1,
+            382.0
            ],
            [
-            1272.3,
-            450.6
+            1095.0,
+            383.6
            ]
           ],
           [
            [
-            690.7,
-            525.7
+            833.6,
+            451.4
            ],
            [
-            786.5,
-            525.3
+            877.1,
+            448.5
            ],
            [
-            884.0,
-            524.9
+            921.3,
+            446.4
            ],
            [
-            981.5,
-            524.5
+            965.5,
+            445.1
            ],
            [
-            1077.3,
-            524.2
+            1009.0,
+            444.7
            ],
            [
-            1174.8,
-            523.9
+            1053.3,
+            445.0
            ],
            [
-            1272.3,
-            523.6
+            1097.5,
+            446.2
            ]
           ]
          ],
-         "style": "sign",
-         "color": "#1a237e",
+         "style": "modern",
+         "color": "#1a3a8a",
          "corners": [
           [
-           651,
-           302
+           815,
+           248
           ],
           [
-           1312,
-           302
+           1107,
+           248
           ],
           [
-           1312,
-           603
+           1123,
+           619
           ],
           [
-           651,
-           603
+           816,
+           619
           ]
          ],
          "band": [
-          0.25,
-          0.75
+          0.2,
+          0.55
          ]
         }
        ]
@@ -3739,22 +3739,19 @@
  "voice_approved_at": "2026-11-19 00:11",
  "repaint": {
   "shots": [
-   66,
-   80
+   66
   ],
   "thumbs": [],
-  "at": "2026-11-23 20:09"
+  "at": "2026-11-25 20:44"
  },
  "shot_qc": {
-  "checked": "2026-11-22T14:04:44Z",
-  "rounds": 2,
+  "checked": "2026-11-23T20:25:24Z",
+  "rounds": 3,
   "why": {
-   "66": "The dial has numbers and the gibberish label 'ZLNE JP', and the needle is not at zero. Maps are also pinned on the wall behind it.",
-   "80": "Painted gibberish lettering runs along the yellow curb and is big enough to notice. The BS-VI board itself is fine."
+   "66": "The dial has painted numbers and gibberish lettering (\"VTART\", \"Vacuum Lft.\", a garbled sign in the background), and it has two needles. The prompt asked for a blank dial face."
   },
   "recheck": [
-   "66",
-   "80"
+   "66"
   ]
  }
 }
