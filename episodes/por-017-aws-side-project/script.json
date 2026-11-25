@@ -516,7 +516,8 @@
     {
      "vo": "Not everyone cheered: in November 2006 a BusinessWeek cover called the whole push Jeff Bezos's risky bet.",
      "kind": "still",
-     "prompt": "A magazine cover lying flat on a desk, a business magazine front page with a bold headline about Jeff Bezos's risky bet, a portrait of a bald man in a blue shirt, document close-up, painterly style., no signs or lettering on any storefront, screen or package"
+     "prompt": "Muted 35mm documentary photograph: a glossy business magazine lying flat on a dark wooden desk under a warm desk lamp, seen from above at a slight angle. The cover is one large, soft-focus portrait of a bald man in a blue shirt, facing the viewer, waist-up, filling the cover. The rest of the cover is plain, solid colour with no headline, no masthead and no lettering of any kind. A pen rests beside the magazine as the only other object. Painterly, shallow depth of field, calm composition. No readable text, no logos, no signs or lettering on any storefront, screen or package.",
+     "seed": 8955
     },
     {
      "vo": "It raised an obvious question: why was a bookseller building a computer company inside itself?",
@@ -979,5 +980,19 @@
  "visuals_checked": true,
  "approved": true,
  "review": "auto",
- "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame"
+ "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
+ "repaint": {
+  "shots": [
+   36
+  ],
+  "thumbs": [],
+  "at": "2026-11-25 11:31"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   36
+  ]
+ },
+ "auto_regen": 1
 }
