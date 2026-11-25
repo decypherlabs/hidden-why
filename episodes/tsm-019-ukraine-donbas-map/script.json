@@ -1678,7 +1678,8 @@
       "title": "Memorandum on Security Assurances, Budapest, 5 December 1994",
       "highlight": "...to respect the independence and sovereignty and the existing borders of Ukraine"
      },
-     "prompt": "Painted map of Ukraine's full internationally recognised borders outlined in gold, Crimea and Donbas included, with a faint document seal in one corner, muted style, no text."
+     "prompt": "Painted map of Ukraine with its full internationally recognised borders outlined in a single clear gold line, Crimea and the Donbas inside the outline, muted parchment style, soft aged paper texture, plain empty margins, the top third left calm and uncluttered, no seal, no stamp, no emblem, no text, no letters, no numbers, no labels, no signs or lettering anywhere",
+     "seed": 8984
     },
     {
      "vo": "And Ukraine's own constitution says any change to its territory needs a referendum of the whole country.",
@@ -2270,5 +2271,19 @@
  "visuals_checked": true,
  "approved": true,
  "review": "auto",
- "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos"
+ "art_style": "duotone archival plate, dark slate grey and one muted orange, grainy historical photograph look, no faces in close-up, no readable text, no logos",
+ "repaint": {
+  "shots": [
+   65
+  ],
+  "thumbs": [],
+  "at": "2026-11-25 12:05"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   65
+  ]
+ },
+ "auto_regen": 1
 }
