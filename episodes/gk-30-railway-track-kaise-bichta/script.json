@@ -412,10 +412,10 @@
     },
     {
      "vo": "ट्रेन का वज़न पहिये से पटरी, पटरी से स्लीपर, फिर गिट्टी में फैलकर ज़मीन तक जाता है।",
-     "prompt": "A cut-away side view of a railway track: a steel train wheel sitting directly on top of a steel rail, the rail fixed on a grey concrete sleeper, the sleeper bedded in a thick grey ballast layer over brown earth, every layer visible in one cross-section, bright daylight, medium shot, sharp focus",
+     "prompt": "A cut-away side view of a railway track: a steel train wheel sitting directly on top of a steel rail, the rail fixed on a grey concrete sleeper, the sleeper bedded in a thick grey ballast layer over brown earth, four layers stacked clearly one below the other, bright daylight, medium shot, sharp focus",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "seed": 16875
+     "seed": 24794
     },
     {
      "vo": "जैसे कीचड़ पर एक पैर रखो तो धँसता है, चौड़ा तख़्ता रखो तो नहीं।",
@@ -950,11 +950,11 @@
     },
     {
      "vo": "ब्रॉड गेज पर ये फ़र्क़ आम तौर पर सोलह पूर्णांक पाँच सेंटीमीटर तक होता है।",
-     "prompt": "A railway track on a curve seen head-on from low down, the outer rail raised far higher than the inner rail so the whole track visibly tilts, an express train far away on it, plain surroundings, bright daylight, wide shot, sharp focus",
+     "prompt": "A railway track on a curve seen head-on from low down, the outer rail raised far higher than the inner rail so the whole track visibly tilts, an express train far away on it, plain open farmland around, no platform, no signs, bright daylight, wide shot, sharp focus, photorealistic",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "ब्रॉड गेज पर ये फ़र्क़ आम तौर पर 16.5 सेंटीमीटर तक होता है।",
-     "seed": 16933
+     "seed": 24852
     },
     {
      "vo": "टैम्पिंग कई बार होती है। हर बार पटरी थोड़ी और बैठती, थोड़ी और सीधी होती है।",
@@ -1033,27 +1033,21 @@
  "voice_approved_at": "2026-11-15 03:36",
  "repaint": {
   "shots": [
-   11,
    37,
-   90,
    95
   ],
   "thumbs": [],
-  "at": "2026-11-23 20:09"
+  "at": "2026-11-25 20:44"
  },
  "shot_qc": {
-  "checked": "2026-11-22T14:05:39Z",
-  "rounds": 2,
+  "checked": "2026-11-23T20:26:20Z",
+  "rounds": 3,
   "why": {
-   "11": "The locomotive is a hybrid: black steam-style smoke and a boiler-like tank body on a diesel. The line says no steam.",
-   "37": "The wheel sits beside the rail rather than on it, and the cross-section is not clear. The sleeper is not a concrete sleeper in ballast, so the weight path from wheel to rail to sleeper to ballast is not shown.",
-   "90": "It shows a rusty wagon or bogie passing over the track. There are no vibrating tamping tines squeezing ballast under a sleeper.",
-   "95": "The track does not visibly tilt, with no clear raised outer rail. The sign has painted gibberish lettering ('EEN TREO COPTRENAIL') big enough to notice."
+   "37": "The wheel floats beside a block, not on a rail. The cut-away layers (rail, sleeper, ballast, earth) are muddled and don't show the weight spreading downward.",
+   "95": "The track is not visibly tilted, with the outer rail no higher than the inner. The scene is a station platform, not a curve in plain surroundings. The red signs carry garbled painted lettering."
   },
   "recheck": [
-   "11",
    "37",
-   "90",
    "95"
   ]
  }
