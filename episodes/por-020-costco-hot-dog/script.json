@@ -769,7 +769,8 @@
     {
      "vo": "The bet is that shoppers who see those prices unchanged trust the rest of the store a little more.",
      "kind": "still",
-     "prompt": "Muted 35mm documentary photograph of a couple from behind loading a cart with bulk goods, accent colour red, no readable text, no signs or lettering on any storefront, screen or package"
+     "prompt": "Muted 35mm documentary photograph, medium shot from behind of a single shopper leaning over a flatbed cart stacked with plain unmarked cardboard cases and a big bag of bulk goods, bare concrete floor, warehouse racks behind blurred and empty of any signage, accent colour red on the cart handle, top third a dark plain shadowed ceiling with nothing on it, no readable text, no logos, no signs, no banners, no wall graphics, no lettering of any kind on walls, racks, boxes or packages",
+     "seed": 8978
     },
     {
      "vo": "And the money that rests on that trust kept rising, from $2.4 billion in fees in 2014 to $4.8 billion in 2024.",
@@ -1051,5 +1052,19 @@
  "visuals_checked": true,
  "approved": true,
  "review": "auto",
- "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame"
+ "art_style": "muted 35mm documentary photograph, faded film colour with one restrained accent colour, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame",
+ "repaint": {
+  "shots": [
+   59
+  ],
+  "thumbs": [],
+  "at": "2026-11-26 05:13"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   59
+  ]
+ },
+ "auto_regen": 1
 }
