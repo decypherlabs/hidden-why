@@ -1815,7 +1815,7 @@
     },
     {
      "vo": "पर सोचिए, नई घड़ी लेना इतना आसान भी नहीं था। कहा जाता है, कई मॉडल्स के लिए दुकान पर इंतज़ार करना पड़ता था।",
-     "prompt": "A line of Indian men in 1970s shirts waiting outside a small watch shop, the elderly shopkeeper with grey hair and thick black spectacles in a white kurta writing names in a thick register at the counter, a paper notice on the counter reading \"स्टॉक ख़त्म\" large and facing the camera, overcast sky, medium-wide shot",
+     "prompt": "Medium close-up of an elderly Indian shopkeeper with grey hair and thick black spectacles in a white kurta, alone behind the counter of a small 1970s watch shop, writing in a thick register and looking up at the viewer. On the counter in front of him stands a plain blank white paper notice, angled to face the camera, with no writing or stamp on it. The shop is empty, with only a rope barrier and a shop door in the background. Overcast daylight, clear upper frame, lower third left as plain counter wood.",
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -1960,7 +1960,7 @@
        ]
       }
      },
-     "seed": 8935
+     "seed": 16854
     },
     {
      "vo": "क्यों? क्योंकि लाइसेंस राज में प्राइवेट कंपनियों को घड़ी बनाने की खुली छूट नहीं थी। सरकार तय करती थी, कौन कितना बनाएगा।",
@@ -5937,7 +5937,7 @@
     },
     {
      "vo": "और उसी दौर में आई असली चाल, एक मशीन। तनिष्क शोरूम्स में आया कैरेटमीटर।",
-     "prompt": "A sleek grey testing machine on a jewellery showroom counter, a plate on its front reading \"KARATMETER\", clean bright light, close-up",
+     "prompt": "Close-up of a sleek grey testing machine standing alone on a clean jewellery showroom counter, a single rectangular metal plate on its front facing the camera, reading \"KARATMETER\" in large, clear capital letters. A single gold ring rests beside the machine. Plain blank background wall, no people, no other signs, clean bright light, sharp focus.",
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -6078,7 +6078,8 @@
         }
        ]
       }
-     }
+     },
+     "seed": 8983
     },
     {
      "vo": "ये मशीन सोने को बिना काटे, बिना घिसे, कुछ ही मिनटों में बता देती थी कि वो कितना प्योर है।",
@@ -6218,7 +6219,7 @@
     },
     {
      "vo": "तनिष्क ने कहा: अपना पुराना सोना लाइए, कहीं से भी ख़रीदा हो, मुफ़्त में जाँच करवाइए।",
-     "prompt": "A queue of Indian women and families outside a jewellery showroom, a banner above the door reading \"FREE GOLD TEST\", people holding small jewellery pouches, bright morning, wide shot",
+     "prompt": "Medium shot of two middle-aged Indian women in cotton sarees standing side by side with clear space between them at the door of a jewellery showroom, facing the viewer, each holding a small jewellery pouch. A plain blank white banner hangs above the door with no writing on it. Bright morning light, empty pavement behind them, no other people.",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -6358,7 +6359,8 @@
         }
        ]
       }
-     }
+     },
+     "seed": 8985
     },
     {
      "vo": "और फिर चौंकाने वाली बात! कुछ लोगों का सोना जाँच में उस कैरेट से कम निकला, जो उन्हें बताया गया था।",
@@ -7300,22 +7302,20 @@
  "voice_approved_at": "2026-11-25 07:13",
  "repaint": {
   "shots": [
-   3,
-   43
+   16,
+   64,
+   66
   ],
-  "thumbs": [
-   "shot-03-2.png",
-   "shot-43-2.png"
-  ],
-  "at": "2026-11-26 06:03"
+  "thumbs": [],
+  "at": "2026-11-26 07:12"
  },
  "shot_qc": {
-  "checked": "2026-11-26T01:04:06Z",
-  "rounds": 3,
-  "left": [
-   "3b",
-   "43b",
-   "43"
+  "rounds": 1,
+  "recheck": [
+   16,
+   64,
+   66
   ]
- }
+ },
+ "auto_regen": 1
 }
