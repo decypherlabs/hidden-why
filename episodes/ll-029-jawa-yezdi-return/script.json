@@ -1691,7 +1691,7 @@
     },
     {
      "vo": "उन्नीस सौ साठ में जावा से लाइसेंस लेकर एक नई कंपनी बनी: आइडियल जावा (इंडिया) लिमिटेड.",
-     "prompt": "medium shot on a sunlit 1960 Mysore factory floor with plain bare walls, an Indian businessman in a white shirt standing on the left and a Czech engineer in a grey suit standing on the right, wide space between them, both waist-up facing the viewer with calm confident smiles, their hands at their sides, a new red motorcycle seen from its left side parked far behind them between the two men, every motorcycle complete and real, both wheels, the tank, seat and engine fully in frame, its headlamp at the front, no one sitting on it, no text, no signs, no rectangles, no overlays, no boards, no posters",
+     "prompt": "an Indian businessman in a white shirt on the left and a Czech engineer in a grey suit on the right, wide space between them, both waist-up facing the viewer with calm smiles, a new red motorcycle seen from its left side parked far behind them, sunlit 1960 Mysore factory floor, plain bare walls, complete motorcycle, no one sitting on it, medium shot",
      "move": "push",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
@@ -1699,7 +1699,7 @@
      ],
      "caption": "1960 में Jawa से licence लेकर एक नई company बनी: Ideal Jawa (India) Ltd.",
      "date": "1960",
-     "seed": 48531
+     "seed": 56450
     },
     {
      "vo": "उन्नीस सौ इकसठ में मैसूर के प्लांट से पहली जावा दो सौ पचास बाहर निकली।",
@@ -5035,13 +5035,20 @@
   "shots": [
    17
   ],
-  "thumbs": [],
-  "at": "2026-11-26 08:50"
+  "thumbs": [
+   "shot-17-2.png"
+  ],
+  "at": "2026-11-26 11:21"
  },
  "shot_qc": {
-  "rounds": 1,
+  "checked": "2026-11-26T03:04:44Z",
+  "rounds": 2,
+  "why": {
+   "17": "Shows an 'Agreement' paper, key-like tiles and pens on a desk. There is no factory, no Indian businessman and no Czech engineer, and the street behind it looks modern.",
+   "17b": "A hand writing on a blank paper on a modern street. Nothing matches the Jawa licence line, and the painted-in shop signs are garbled."
+  },
   "recheck": [
-   17
+   "17"
   ]
  },
  "auto_regen": 3
