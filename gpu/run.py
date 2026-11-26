@@ -214,6 +214,9 @@ def main():
             rp = json.loads(script.read_text()).get("repaint") or {}
             for name in [f"shot-{n:02d}.png" for n in rp.get("shots") or []] + list(rp.get("thumbs") or []):
                 (out / name).unlink(missing_ok=True)
+            for n in rp.get("with_more") or []:  # 26 Nov 2026: a repaint that also redoes the shot's extra pictures
+                for f in out.glob(f"shot-{int(n):02d}-*.png"):
+                    f.unlink()
         os.environ["HW_BRAND"] = json.loads(script.read_text()).get("brand") or ""  # the channel's art style
         try:  # one episode's failure must not lose the others' work (31 Oct: s29's edit crash lost a whole run)
             paint(slug, script, out)

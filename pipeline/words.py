@@ -21,8 +21,9 @@ ASKED = (", only the words the prompt quotes printed crisp and correctly spelled
          ", only the quoted words printed, large, crisp and spelled exactly letter by letter; every other sign, board, "
          "label, can, newspaper and banner plain and blank",
          ", every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere")
-BLANK = (", every sign, board, label, page, document, screen and package completely plain and blank, a clean empty "
-         "surface with no letters, words or numbers anywhere")
+BLANK = (", no letters, words or numbers anywhere, every background sign small, distant and out of focus, no large "
+         "empty board, page, card, placard or screen in the frame")  # 26 Nov 2026 (owner, Jawa-Yezdi): "every sign, board,
+# page... completely plain and blank" painted big empty boards and papers; only a quoted surface is left blank now (lift)
 
 
 def lift(prompt):

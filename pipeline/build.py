@@ -1662,6 +1662,8 @@ def main(script_path, out_dir):
             chapters.append((0.0, "Intro"))
         for s in sec.get("shots") or []:
             n += 1
+            if s.get("cut"):  # a line taken out after narration (26 Nov 2026: the early subscribe ask); numbers stay
+                continue
             d = vo[f"{n:02d}"] + BREATH
             if s.get("clip") and not short:  # a stock clip picked for this line; a failed download shows the line as a card
                 cp = out / "clips" / f"{n:02d}.mp4"
