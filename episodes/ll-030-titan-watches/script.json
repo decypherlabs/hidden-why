@@ -9,7 +9,7 @@
  "voice_review": true,
  "words_in_edit": true,
  "look": "documentary",
- "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, background signboards small and out of focus, never a large empty board, sheet of paper, placard, banner or screen anywhere in the frame, only the words the prompt quotes printed crisp and correctly spelled, Indian shops and markets with Indian goods and Indian shoppers, never a Western store, ultra detailed, natural true-to-life light and colour, moderate saturation, realistic documentary grade",
+ "art_style": "Indian people with South Asian features and skin tones in Indian clothing, Indian cities, streets, factories and homes, cinematic film still, shallow depth of field, detailed foreground, documentary cinematography, period-accurate costumes, cars and buildings, plain blank number plates, no signboards, shop signs, posters or banners in the frame (plain walls, shutters and windows instead), no papers, placards or screens, only the words the prompt quotes printed crisp and correctly spelled, Indian shops and markets with Indian goods and Indian shoppers, never a Western store, ultra detailed, natural true-to-life light and colour, moderate saturation, realistic documentary grade",
  "title": "TITAN ने HMT को कैसे हराया? ⌚ | Hosur की सूखी ज़मीन से Tanishq के Comeback तक | Business Story",
  "intro_title": "THE TITAN STORY",
  "thumbnail": {
@@ -1679,7 +1679,7 @@
      "move": "pull",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
-      "close-up of a steel wristwatch ticking on an Indian man's wrist, warm lamp light"
+      "close-up of a steel wristwatch on an Indian man's wrist resting on a railway platform bench, morning haze"
      ],
      "caption": "Ads में एक line आती थी, 'देश की धड़कन'। और सच कहें, उस दौर में ये line ग़लत भी नहीं लगती थी।",
      "quote": {
@@ -2125,7 +2125,7 @@
      "move": "pan_left",
      "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry",
      "more": [
-      "the executive waiting on a wooden bench outside a closed government office door, hat in his lap"
+      "the executive in his suit sitting alone on a wooden bench in a plain government corridor, waiting"
      ],
      "caption": "Tata group के Xerxes Desai इस खेल में उतरना चाहते थे। पर पहले चाहिए था, सरकार का licence।",
      "label": "XERXES DESAI · Tata group के अगुवा"
@@ -6801,12 +6801,19 @@
  "voice_approved_at": "2026-11-25 07:13",
  "repaint": {
   "shots": [
+   15,
+   17,
+   20,
    64
   ],
-  "thumbs": [
-   "shot-64-2.png"
+  "with_more": [
+   15,
+   17,
+   20
   ],
-  "at": "2026-11-26 08:54"
+  "thumbs": [],
+  "at": "2026-11-27 07:07",
+  "why": "27 Nov: the 26 Nov painter rule let FLUX write garbled signs; repainted with no signs in frame"
  },
  "shot_qc": {
   "checked": "2026-11-26T03:23:03Z",

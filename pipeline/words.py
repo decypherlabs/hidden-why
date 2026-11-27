@@ -21,9 +21,10 @@ ASKED = (", only the words the prompt quotes printed crisp and correctly spelled
          ", only the quoted words printed, large, crisp and spelled exactly letter by letter; every other sign, board, "
          "label, can, newspaper and banner plain and blank",
          ", every sign, board, label, can, newspaper and banner plain and blank, no lettering or text anywhere")
-BLANK = (", no letters, words or numbers anywhere, every background sign small, distant and out of focus, no large "
-         "empty board, page, card, placard or screen in the frame")  # 26 Nov 2026 (owner, Jawa-Yezdi): "every sign, board,
-# page... completely plain and blank" painted big empty boards and papers; only a quoted surface is left blank now (lift)
+BLANK = (", no signboards, shop signs, posters, banners, papers or screens anywhere in the frame (plain walls, shutters "
+         "and windows instead), no letters, words or numbers anywhere")  # 27 Nov 2026: "every sign... completely plain and
+# blank" painted big empty boards (owner, Jawa-Yezdi), and dropping it (26 Nov) let FLUX write garbled Hindi on every
+# sign (Titan's repaint); now there are simply no signs, only the quoted surface, which lift() leaves blank
 
 
 def lift(prompt):
