@@ -6,7 +6,6 @@
  "lang": "hi",
  "words_in_edit": true,
  "approved": true,
- "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "title": "Train Brake कैसे काम करता है: 4000 टन की ट्रेन रुकने में 1 किलोमीटर क्यों? 🚆",
@@ -45,10 +44,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "लोको पायलट train brake लगाता है।",
+     "vo": "लोको पायलट ट्रेन ब्रेक लगाता है।",
      "prompt": "A loco pilot in grey uniform pushing the brake handle forward on the desk inside an Indian electric locomotive cab, the track ahead visible through the windscreen, sharp focus, natural daylight, medium shot from the side, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "लोको पायलट train brake लगाता है।"
     },
     {
      "vo": "फिर भी ट्रेन दस फ़ुटबॉल मैदान आगे जाती है।",
@@ -57,10 +57,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "4000 टन की ट्रेन एक किलोमीटर में क्यों रुकती है?",
+     "vo": "चार हज़ार टन की ट्रेन एक किलोमीटर में क्यों रुकती है?",
      "prompt": "A heavily loaded open coal wagon seen exactly from its left side, black coal heaped high, a large flat steel side plate facing the camera reading \"BOXN\", heavy wheels on the rail, overcast daylight, side view, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "4000 टन की ट्रेन एक किलोमीटर में क्यों रुकती है?"
     },
     {
      "vo": "आपकी कार तो इससे कहीं छोटी दूरी में रुक जाती है।",
@@ -99,13 +100,14 @@
    "card": "घाट पर टूटी ट्रेन",
    "shots": [
     {
-     "vo": "सोचिए, घाट की चढ़ाई पर एक भरी मालगाड़ी चढ़ रही है। आगे दो इंजन, पीछे 58 डिब्बे।",
+     "vo": "सोचिए, घाट की चढ़ाई पर एक भरी मालगाड़ी चढ़ रही है। आगे दो इंजन, पीछे अट्ठावन डिब्बे।",
      "prompt": "A long loaded freight train climbing a steep curving ghat track, two red electric locomotives at the front and many wagons behind, green hillsides, a tunnel mouth in the rock, morning light, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "सोचिए, घाट की चढ़ाई पर एक भरी मालगाड़ी चढ़ रही है। आगे दो इंजन, पीछे 58 डिब्बे।"
     },
     {
-     "vo": "मुंबई के पास थल घाट पर पटरी हर 37 मीटर में एक मीटर ऊपर चढ़ती है।",
+     "vo": "मुंबई के पास थल घाट पर पटरी हर सैंतीस मीटर में एक मीटर ऊपर चढ़ती है।",
      "map": {
       "center": [
        19.67,
@@ -132,19 +134,22 @@
         "label": "इगतपुरी"
        }
       ]
-     }
+     },
+     "caption": "मुंबई के पास थल घाट पर पटरी हर 37 मीटर में एक मीटर ऊपर चढ़ती है।"
     },
     {
-     "vo": "इंजन पूरी ताक़त से खींच रहे हैं। हर coupling पर दसियों टन का खिंचाव।",
+     "vo": "इंजन पूरी ताक़त से खींच रहे हैं। हर कपलिंग पर दसियों टन का खिंचाव।",
      "prompt": "A heavy steel coupling between two loaded freight wagons pulled tight and straight on a ghat slope, the metal links stretched and strained, sharp focus, daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इंजन पूरी ताक़त से खींच रहे हैं। हर coupling पर दसियों टन का खिंचाव।"
     },
     {
-     "vo": "तभी बीच का एक coupling टूट जाता है। एक ज़ोर का धमाका।",
+     "vo": "तभी बीच का एक कपलिंग टूट जाता है। एक ज़ोर का धमाका।",
      "prompt": "A snapped steel coupling with its two broken ends hanging apart between two freight wagons, a gap opening between them, dust and metal fragments in the air, daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "तभी बीच का एक coupling टूट जाता है। एक ज़ोर का धमाका।"
     },
     {
      "vo": "पीछे के तीस डिब्बे अलग होकर ढलान पर पीछे लुढ़कने लगते हैं।",
@@ -153,10 +158,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "उन डिब्बों पर ना इंजन है, ना ड्राइवर। नीचे की ओर लुढ़कते लगभग 2400 टन।",
+     "vo": "उन डिब्बों पर ना इंजन है, ना ड्राइवर। नीचे की ओर लुढ़कते लगभग चौबीस सौ टन।",
      "prompt": "Runaway loaded coal wagons rolling downhill on a ghat track with no locomotive and no driver, empty track uphill behind them, heaped black coal, daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उन डिब्बों पर ना इंजन है, ना ड्राइवर। नीचे की ओर लुढ़कते लगभग 2400 टन।"
     },
     {
      "vo": "पर तभी हवा निकली, और बिना किसी के हाथ लगाए ब्रेक लग गए।",
@@ -171,22 +177,25 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "कैसे? क्योंकि coupling के साथ डिब्बों के बीच का एक rubber pipe भी टूटा था।",
+     "vo": "कैसे? क्योंकि कपलिंग के साथ डिब्बों के बीच का एक रबर पाइप भी टूटा था।",
      "prompt": "Two snapped black rubber brake hoses hanging apart and loose between two separated freight wagons, torn ends visible, daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "कैसे? क्योंकि coupling के साथ डिब्बों के बीच का एक rubber pipe भी टूटा था।"
     },
     {
-     "vo": "उस pipe में हवा भरी थी। और ट्रेन के ब्रेक उसी हवा से बंधे हैं।",
+     "vo": "उस पाइप में हवा भरी थी। और ट्रेन के ब्रेक उसी हवा से बंधे हैं।",
      "prompt": "A thick steel pipe running along the underframe of a freight wagon from one end to the other, seen from a low angle under the wagon, wheels and rail around it, sharp focus, daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उस pipe में हवा भरी थी। और ट्रेन के ब्रेक उसी हवा से बंधे हैं।"
     },
     {
-     "vo": "हवा गई, तो ब्रेक लगा। पर ये pipe चलता कहाँ से है, और इसे चलाता कौन है?",
+     "vo": "हवा गई, तो ब्रेक लगा। पर ये पाइप चलता कहाँ से है, और इसे चलाता कौन है?",
      "prompt": "A loco pilot in uniform climbing the steel steps to the cab door of a red Indian electric locomotive, a large flat plate on its side facing the camera reading \"WAG-9\", bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हवा गई, तो ब्रेक लगा। पर ये pipe चलता कहाँ से है, और इसे चलाता कौन है?"
     }
    ]
   },
@@ -195,10 +204,11 @@
    "card": "दो हैंडल, एक पाइप",
    "shots": [
     {
-     "vo": "इंजन के केबिन में लोको पायलट के पैरों के पास कार जैसा brake pedal नहीं है।",
+     "vo": "इंजन के केबिन में लोको पायलट के पैरों के पास कार जैसा ब्रेक पेडल नहीं है।",
      "prompt": "The inside of an Indian electric locomotive cab, a bare empty floor in front of the driver's seat with no pedal, a desk of switches and two handles, the track visible through the windscreen, wide shot, natural light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इंजन के केबिन में लोको पायलट के पैरों के पास कार जैसा brake pedal नहीं है।"
     },
     {
      "vo": "ब्रेक हाथ से लगता है। डेस्क पर दो हैंडल हैं, दोनों अलग काम के।",
@@ -207,28 +217,32 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "पहला A9, पूरी ट्रेन के ब्रेक के लिए। दूसरा SA9, सिर्फ़ इंजन के लिए।",
+     "vo": "पहला ए नाइन, पूरी ट्रेन के ब्रेक के लिए। दूसरा एस ए नाइन, सिर्फ़ इंजन के लिए।",
      "prompt": "Two brake handles on a locomotive desk, a large flat plate beside the first reading \"A9\" and a large flat plate beside the second reading \"SA9\", sharp focus, natural cab light, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पहला A9, पूरी ट्रेन के ब्रेक के लिए। दूसरा SA9, सिर्फ़ इंजन के लिए।"
     },
     {
-     "vo": "A9 से एक मोटा पाइप निकलता है, जो हर डिब्बे के नीचे से होकर पीछे जाता है।",
+     "vo": "ए नाइन से एक मोटा पाइप निकलता है, जो हर डिब्बे के नीचे से होकर पीछे जाता है।",
      "prompt": "A thick steel brake pipe running from wagon to wagon along the underside of a long freight train into the distance, low view under the wagons, sharp focus, daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "A9 से एक मोटा पाइप निकलता है, जो हर डिब्बे के नीचे से होकर पीछे जाता है।"
     },
     {
-     "vo": "इसे कहते हैं brake pipe। दो डिब्बों के बीच ये rubber hose से जुड़ता है।",
+     "vo": "इसे कहते हैं ब्रेक पाइप। दो डिब्बों के बीच ये रबर होज़ से जुड़ता है।",
      "prompt": "Two black rubber brake hoses coupled together between two freight wagons, metal couplings locked, wagon buffers on both sides, sharp focus, daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसे कहते हैं brake pipe। दो डिब्बों के बीच ये rubber hose से जुड़ता है।"
     },
     {
-     "vo": "चलती ट्रेन में इसमें हवा भरी रहती है, 5 kg/cm² के दबाव पर।",
+     "vo": "चलती ट्रेन में इसमें हवा भरी रहती है, पाँच किलोग्राम प्रति वर्ग सेंटीमीटर के दबाव पर।",
      "prompt": "A long freight train on a straight track seen from the side, black rubber brake hoses clearly visible between every pair of wagons, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "चलती ट्रेन में इसमें हवा भरी रहती है, 5 kg/cm² के दबाव पर।"
     },
     {
      "vo": "ये आपकी कार के टायर की हवा से लगभग दोगुना दबाव है, पूरी ट्रेन की लंबाई में।",
@@ -243,34 +257,39 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "टंकी के पास एक distributor valve है। उसका काम बस pipe के दबाव पर नज़र रखना।",
+     "vo": "टंकी के पास एक डिस्ट्रीब्यूटर वाल्व है। उसका काम बस पाइप के दबाव पर नज़र रखना।",
      "prompt": "A distributor valve with steel fittings bolted beside an air tank under a freight wagon, sharp focus, neutral daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "टंकी के पास एक distributor valve है। उसका काम बस pipe के दबाव पर नज़र रखना।"
     },
     {
-     "vo": "लोको पायलट A9 को आगे करता है, और pipe की कुछ हवा इंजन से बाहर निकलती है।",
+     "vo": "लोको पायलट ए नाइन को आगे करता है, और पाइप की कुछ हवा इंजन से बाहर निकलती है।",
      "prompt": "A loco pilot pushing the brake handle forward with his hand, his focused face behind it, the track visible through the cab windscreen, natural light, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "लोको पायलट A9 को आगे करता है, और pipe की कुछ हवा इंजन से बाहर निकलती है।"
     },
     {
-     "vo": "दबाव गिरते ही valve टंकी की हवा brake cylinder में भेज देता है। ब्रेक लग गए।",
+     "vo": "दबाव गिरते ही वाल्व टंकी की हवा ब्रेक सिलेंडर में भेज देता है। ब्रेक लग गए।",
      "prompt": "A brake cylinder under a freight wagon with its piston rod pushed out, the brake rigging pulling a brake block against the wheel, sharp focus, daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दबाव गिरते ही valve टंकी की हवा brake cylinder में भेज देता है। ब्रेक लग गए।"
     },
     {
-     "vo": "जितना दबाव गिरा, उतना कसकर ब्रेक। pipe पूरा ख़ाली, तो emergency brake।",
+     "vo": "जितना दबाव गिरा, उतना कसकर ब्रेक। पाइप पूरा ख़ाली, तो इमरजेंसी ब्रेक।",
      "prompt": "A loco pilot pushing the brake handle fully forward, tense face, the track rushing ahead through the cab windscreen, natural light, medium close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "जितना दबाव गिरा, उतना कसकर ब्रेक। pipe पूरा ख़ाली, तो emergency brake।"
     },
     {
-     "vo": "रुकने के बाद हैंडल वापस। इंजन का compressor फिर हवा भरता है, और ब्रेक छूट जाते हैं।",
+     "vo": "रुकने के बाद हैंडल वापस। इंजन का कंप्रेसर फिर हवा भरता है, और ब्रेक छूट जाते हैं।",
      "prompt": "A large air compressor with pipes and round gauges inside a locomotive machine room, steel machinery, sharp focus, neutral light, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "रुकने के बाद हैंडल वापस। इंजन का compressor फिर हवा भरता है, और ब्रेक छूट जाते हैं।"
     },
     {
      "vo": "पर ब्रेक हमेशा ऐसे नहीं थे। हवा वाले ब्रेक से पहले, ट्रेन रोकता कौन था?",
@@ -285,10 +304,11 @@
    "card": "छत पर दौड़ते लोग",
    "shots": [
     {
-     "vo": "1860 के दशक का अमेरिका। हर मालगाड़ी पर कुछ आदमी होते थे, जिन्हें brakeman कहते थे।",
+     "vo": "अठारह सौ साठ के दशक का अमेरिका। हर मालगाड़ी पर कुछ आदमी होते थे, जिन्हें ब्रेकमैन कहते थे।",
      "prompt": "Two brakemen in 1860s work clothes and flat caps standing on the roof of a wooden boxcar of a steam freight train, iron brake wheel beside them, smoke behind, daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "1860 के दशक का अमेरिका। हर मालगाड़ी पर कुछ आदमी होते थे, जिन्हें brakeman कहते थे।"
     },
     {
      "vo": "ड्राइवर सीटी बजाता, और वो चलती ट्रेन की छत पर एक डिब्बे से दूसरे पर कूदते।",
@@ -303,16 +323,18 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "रात हो, बारिश हो या बर्फ़। बहुत से brakeman छत से गिरकर मारे गए।",
+     "vo": "रात हो, बारिश हो या बर्फ़। बहुत से ब्रेकमैन छत से गिरकर मारे गए।",
      "prompt": "A brakeman in 1860s work clothes crouching on an icy wooden boxcar roof at night in falling snow, a lit lantern in one hand, the other gripping an iron brake wheel, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "रात हो, बारिश हो या बर्फ़। बहुत से brakeman छत से गिरकर मारे गए।"
     },
     {
-     "vo": "1869 में George Westinghouse ने air brake का पेटेंट कराया। तब वो सिर्फ़ 22 साल के थे।",
+     "vo": "अठारह सौ उनहत्तर में जॉर्ज वेस्टिंगहाउस ने एयर ब्रेक का पेटेंट कराया। तब वो सिर्फ़ बाईस साल के थे।",
      "prompt": "A young engineer in 1860s clothes standing beside an early railway air brake pump on a wooden workbench, a paper on the bench facing the camera reading \"PATENT 1869\", warm lamp light, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "1869 में George Westinghouse ने air brake का पेटेंट कराया। तब वो सिर्फ़ 22 साल के थे।"
     },
     {
      "vo": "पहले वाले में ब्रेक के लिए पाइप में हवा भरनी पड़ती थी। पाइप फटा, तो ब्रेक गए।",
@@ -321,46 +343,53 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "और 1872 में उसे ऐसा बनाया कि पाइप की हवा निकलते ही ब्रेक अपने-आप लगें।",
+     "vo": "और अठारह सौ बहत्तर में उसे ऐसा बनाया कि पाइप की हवा निकलते ही ब्रेक अपने-आप लगें।",
      "prompt": "The same young engineer in 1860s clothes holding a brass valve at a workbench, a paper on the bench facing the camera reading \"PATENT 1872\", warm lamp light, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "और 1872 में उसे ऐसा बनाया कि पाइप की हवा निकलते ही ब्रेक अपने-आप लगें।"
     },
     {
-     "vo": "यानी ख़राबी हो, तो ट्रेन रुकेगी। इंजीनियर इसे कहते हैं fail-safe।",
+     "vo": "यानी ख़राबी हो, तो ट्रेन रुकेगी। इंजीनियर इसे कहते हैं फ़ेल-सेफ़।",
      "prompt": "A stopped freight train on an Indian main line, brake blocks pressed against the wheels, a railway worker in a vest inspecting with a torch, dusk light, medium-wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "यानी ख़राबी हो, तो ट्रेन रुकेगी। इंजीनियर इसे कहते हैं fail-safe।"
     },
     {
-     "vo": "भारत में बरसों तक vacuum brake चला। वो भी fail-safe था, पर कमज़ोर।",
+     "vo": "भारत में बरसों तक वैक्यूम ब्रेक चला। वो भी फ़ेल-सेफ़ था, पर कमज़ोर।",
      "prompt": "An old Indian passenger coach in faded maroon paint standing in a railway yard, an old vacuum brake hose hanging at its end, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "भारत में बरसों तक vacuum brake चला। वो भी fail-safe था, पर कमज़ोर।"
     },
     {
-     "vo": "उसमें ज़ोर बाहर की हवा के दबाव से आता था, जो एक kg/cm² से ज़्यादा नहीं।",
+     "vo": "उसमें ज़ोर बाहर की हवा के दबाव से आता था, जो एक किलोग्राम प्रति वर्ग सेंटीमीटर से ज़्यादा नहीं।",
      "prompt": "A large old round vacuum brake cylinder under a vintage Indian coach, worn black paint, rust, sharp focus, daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उसमें ज़ोर बाहर की हवा के दबाव से आता था, जो एक kg/cm² से ज़्यादा नहीं।"
     },
     {
-     "vo": "भारी मालगाड़ियों के लिए 1980 के दशक से air brake आने लगा, पाँच गुना दबाव के साथ।",
+     "vo": "भारी मालगाड़ियों के लिए उन्नीस सौ अस्सी के दशक से एयर ब्रेक आने लगा, पाँच गुना दबाव के साथ।",
      "prompt": "A row of air-braked open coal wagons in an Indian railway yard, the large flat steel side of the nearest wagon facing the camera reading \"BOXN\", bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "भारी मालगाड़ियों के लिए 1980 के दशक से air brake आने लगा, पाँच गुना दबाव के साथ।"
     },
     {
-     "vo": "यही उल्टा नियम आपके coach की alarm chain में छिपा है।",
+     "vo": "यही उल्टा नियम आपके कोच की अलार्म चेन में छिपा है।",
      "prompt": "A red alarm chain handle hanging above a window inside an Indian sleeper coach, passengers sitting on the berths below, warm daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "यही उल्टा नियम आपके coach की alarm chain में छिपा है।"
     },
     {
-     "vo": "chain खींचते ही एक valve brake pipe की हवा बाहर निकाल देता है, और ट्रेन रुकती है।",
+     "vo": "चेन खींचते ही एक वाल्व ब्रेक पाइप की हवा बाहर निकाल देता है, और ट्रेन रुकती है।",
      "prompt": "A passenger's hand pulling the red alarm chain handle above a window in an Indian train coach, sharp focus, warm daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "chain खींचते ही एक valve brake pipe की हवा बाहर निकाल देता है, और ट्रेन रुकती है।"
     },
     {
      "vo": "तो हर डिब्बा अपना ब्रेक ख़ुद लगाता है। फिर रुकने में इतनी देर क्यों?",
@@ -375,22 +404,25 @@
    "card": "आगे से पीछे तक",
    "shots": [
     {
-     "vo": "अब हमारी कोयले वाली मालगाड़ी देखिए। लगभग 58 डिब्बे, लगभग 650 मीटर लंबी।",
+     "vo": "अब हमारी कोयले वाली मालगाड़ी देखिए। लगभग अट्ठावन डिब्बे, लगभग छह सौ पचास मीटर लंबी।",
      "prompt": "A long loaded coal freight train of about fifty-eight open wagons in a straight line in an Indian railway yard, red electric locomotive at the front, bright daylight, aerial wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अब हमारी कोयले वाली मालगाड़ी देखिए। लगभग 58 डिब्बे, लगभग 650 मीटर लंबी।"
     },
     {
-     "vo": "हर डिब्बे में लगभग 60 टन कोयला। डिब्बे मिलाकर कुल वज़न 4000 टन से ज़्यादा।",
+     "vo": "हर डिब्बे में लगभग साठ टन कोयला। डिब्बे मिलाकर कुल वज़न चार हज़ार टन से ज़्यादा।",
      "prompt": "Open freight wagons heaped with black coal, one after another in a row, seen from straight above, sharp detail, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर डिब्बे में लगभग 60 टन कोयला। डिब्बे मिलाकर कुल वज़न 4000 टन से ज़्यादा।"
     },
     {
-     "vo": "चलने से पहले हर डिब्बे के ब्रेक जाँचे जाते हैं, और एक brake power certificate बनता है।",
+     "vo": "चलने से पहले हर डिब्बे के ब्रेक जाँचे जाते हैं, और एक ब्रेक पावर सर्टिफ़िकेट बनता है।",
      "prompt": "An Indian railway worker in a vest holding a clipboard with a printed sheet facing the camera reading \"BRAKE POWER CERTIFICATE\", freight wagons standing behind him, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "चलने से पहले हर डिब्बे के ब्रेक जाँचे जाते हैं, और एक brake power certificate बनता है।"
     },
     {
      "vo": "कितने डिब्बों के ब्रेक ठीक काम कर रहे हैं, ये इसी कागज़ पर लिखा जाता है।",
@@ -405,16 +437,18 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "पहले डिब्बे का ब्रेक तुरंत लगता है, पर 650 मीटर पीछे तक ख़बर पहुँचने में कुछ सेकंड लगते हैं।",
+     "vo": "पहले डिब्बे का ब्रेक तुरंत लगता है, पर छह सौ पचास मीटर पीछे तक ख़बर पहुँचने में कुछ सेकंड लगते हैं।",
      "prompt": "The last wagon of a long freight train still rolling with its wheels turning, the locomotive far away ahead on the straight track, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पहले डिब्बे का ब्रेक तुरंत लगता है, पर 650 मीटर पीछे तक ख़बर पहुँचने में कुछ सेकंड लगते हैं।"
     },
     {
-     "vo": "60 की स्पीड पर ट्रेन हर सेकंड लगभग 17 मीटर चलती है।",
+     "vo": "साठ की स्पीड पर ट्रेन हर सेकंड लगभग सत्रह मीटर चलती है।",
      "prompt": "A freight train passing a white railway kilometre post beside the track, the wagons moving fast, green fields, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "60 की स्पीड पर ट्रेन हर सेकंड लगभग 17 मीटर चलती है।"
     },
     {
      "vo": "यानी इन कुछ सेकंडों में ही, पूरे ब्रेक लगने से पहले, दर्जनों मीटर निकल गए।",
@@ -429,16 +463,18 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "पीछे के हज़ारों टन आगे वालों पर धक्का मारते हैं। couplings में ज़ोर का झटका।",
+     "vo": "पीछे के हज़ारों टन आगे वालों पर धक्का मारते हैं। कपलिंग्स में ज़ोर का झटका।",
      "prompt": "Wagon buffers slamming together, coal dust jumping off the heaped coal on top of the wagons, daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पीछे के हज़ारों टन आगे वालों पर धक्का मारते हैं। couplings में ज़ोर का झटका।"
     },
     {
-     "vo": "झटका बहुत ज़्यादा हो, तो coupling टूट सकता है, या डिब्बा पटरी से उतर सकता है।",
+     "vo": "झटका बहुत ज़्यादा हो, तो कपलिंग टूट सकता है, या डिब्बा पटरी से उतर सकता है।",
      "prompt": "A freight wagon tilted off the rail after a hard stop, one set of wheels on the ground beside the track, two railway workers in vests inspecting it, bright daylight, medium-wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "झटका बहुत ज़्यादा हो, तो coupling टूट सकता है, या डिब्बा पटरी से उतर सकता है।"
     },
     {
      "vo": "इसलिए लोको पायलट ब्रेक क़दमों में लगाते हैं, और स्टेशन से किलोमीटरों पहले धीमा करना शुरू करते हैं।",
@@ -465,10 +501,11 @@
    "card": "लोहे पर लोहा",
    "shots": [
     {
-     "vo": "पहिए के पास एक मोटा brake block है। brake cylinder इसे पहिए पर दबाता है।",
+     "vo": "पहिए के पास एक मोटा ब्रेक ब्लॉक है। ब्रेक सिलेंडर इसे पहिए पर दबाता है।",
      "prompt": "A thick brake block clamping onto the rim of a steel train wheel under a freight wagon, the brake rigging taut, sharp focus, daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पहिए के पास एक मोटा brake block है। brake cylinder इसे पहिए पर दबाता है।"
     },
     {
      "vo": "पर असली खेल ब्रेक में नहीं, पहिए और पटरी के बीच है।",
@@ -519,16 +556,18 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "घिसकर पहिए पर सपाट जगह बनती है, wheel flat, और फिर हर चक्कर पर 'खट... खट...'।",
+     "vo": "घिसकर पहिए पर सपाट जगह बनती है, व्हील फ़्लैट, और फिर हर चक्कर पर 'खट... खट...'।",
      "prompt": "A railway wheel with a flat worn patch on its rim, a maintenance worker in a vest pointing at the flat patch, workshop light, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "घिसकर पहिए पर सपाट जगह बनती है, wheel flat, और फिर हर चक्कर पर 'खट... खट...'।"
     },
     {
-     "vo": "नए LHB कोच में disc brake हैं, और wheel slide protection भी।",
+     "vo": "नए एल एच बी कोच में डिस्क ब्रेक हैं, और व्हील स्लाइड प्रोटेक्शन भी।",
      "prompt": "A disc brake on the axle of a modern LHB coach bogie, a steel disc with a caliper clamped on it, sharp focus, workshop light, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "नए LHB कोच में disc brake हैं, और wheel slide protection भी।"
     },
     {
      "vo": "पहिया लॉक होने लगे, तो ये सिस्टम उस पहिए का ब्रेक पल भर ढीला कर देता है।",
@@ -543,10 +582,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "तो फिर 4000 टन की इतनी रफ़्तार आख़िर जाती कहाँ है?",
+     "vo": "तो फिर चार हज़ार टन की इतनी रफ़्तार आख़िर जाती कहाँ है?",
      "prompt": "A heavy coal train rolling fast on a straight track, dust rising from the stones along the rails, bright daylight, side view, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "तो फिर 4000 टन की इतनी रफ़्तार आख़िर जाती कहाँ है?"
     }
    ]
   },
@@ -561,10 +601,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "60 की स्पीड पर ये ट्रेन, उसी स्पीड पर दौड़ती लगभग 2500-3000 कारों जितनी ताक़त रखती है।",
+     "vo": "साठ की स्पीड पर ये ट्रेन, उसी स्पीड पर दौड़ती लगभग ढाई हज़ार-तीन हज़ार कारों जितनी ताक़त रखती है।",
      "prompt": "A huge Indian highway packed with thousands of cars driving in one direction, stretching to the horizon, bright daylight, aerial wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "60 की स्पीड पर ये ट्रेन, उसी स्पीड पर दौड़ती लगभग 2500-3000 कारों जितनी ताक़त रखती है।"
     },
     {
      "vo": "इतनी ऊर्जा से घर का एक पंखा लगभग तीन महीने लगातार चल जाए।",
@@ -579,16 +620,18 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "brake block इसे गर्मी में बदलते हैं। लंबी ढलान पर इनसे चिंगारियाँ तक निकलती हैं।",
+     "vo": "ब्रेक ब्लॉक इसे गर्मी में बदलते हैं। लंबी ढलान पर इनसे चिंगारियाँ तक निकलती हैं।",
      "prompt": "A freight train descending a ghat slope at dusk, bright sparks flying from the brake blocks on several wheels against a dark hillside, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "brake block इसे गर्मी में बदलते हैं। लंबी ढलान पर इनसे चिंगारियाँ तक निकलती हैं।"
     },
     {
-     "vo": "ज़्यादा गर्मी से block जल्दी घिसते हैं, और ब्रेक की पकड़ भी कमज़ोर पड़ने लगती है।",
+     "vo": "ज़्यादा गर्मी से ब्लॉक जल्दी घिसते हैं, और ब्रेक की पकड़ भी कमज़ोर पड़ने लगती है।",
      "prompt": "A heavily worn, heat-darkened brake block held in a worker's gloved hands in a workshop, sharp focus, workshop light, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ज़्यादा गर्मी से block जल्दी घिसते हैं, और ब्रेक की पकड़ भी कमज़ोर पड़ने लगती है।"
     },
     {
      "vo": "इसलिए इंजन ख़ुद भी ब्रेक बनता है। बिजली के इंजन में मोटर ही पहिए घुमाती है।",
@@ -597,16 +640,18 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "ब्रेक के समय उल्टा होता है: पहिए मोटर को घुमाते हैं, और मोटर generator बन जाती है।",
+     "vo": "ब्रेक के समय उल्टा होता है: पहिए मोटर को घुमाते हैं, और मोटर जनरेटर बन जाती है।",
      "prompt": "Locomotive wheels turning on the rail with the traction motor housing between them, sharp focus, bright daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ब्रेक के समय उल्टा होता है: पहिए मोटर को घुमाते हैं, और मोटर generator बन जाती है।"
     },
     {
-     "vo": "लाइन उसे ले सके, तो ये बिजली ऊपर के तार में लौटती है: regenerative braking।",
+     "vo": "लाइन उसे ले सके, तो ये बिजली ऊपर के तार में लौटती है: रीजनरेटिव ब्रेकिंग।",
      "prompt": "A locomotive pantograph touching the overhead wire above an Indian railway line, the wires stretching ahead, clear blue sky, bright daylight, low angle shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "लाइन उसे ले सके, तो ये बिजली ऊपर के तार में लौटती है: regenerative braking।"
     },
     {
      "vo": "यानी ढलान से उतरती मालगाड़ी, पास की चढ़ती ट्रेन के लिए बिजली बना सकती है।",
@@ -615,22 +660,25 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "ढलान पर इससे brake block कम घिसते हैं, और ब्रेक ठंडे रहते हैं।",
+     "vo": "ढलान पर इससे ब्रेक ब्लॉक कम घिसते हैं, और ब्रेक ठंडे रहते हैं।",
      "prompt": "A cool clean brake block beside a wheel on a descending freight train, no sparks, sharp focus, natural light, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ढलान पर इससे brake block कम घिसते हैं, और ब्रेक ठंडे रहते हैं।"
     },
     {
-     "vo": "डीज़ल इंजन में ये बिजली छत पर लगे बड़े grid में गर्मी बनकर उड़ जाती है।",
+     "vo": "डीज़ल इंजन में ये बिजली छत पर लगे बड़े ग्रिड में गर्मी बनकर उड़ जाती है।",
      "prompt": "The roof of an Indian diesel locomotive with large grid fans, heat shimmer rising above them, bright daylight, high angle shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "डीज़ल इंजन में ये बिजली छत पर लगे बड़े grid में गर्मी बनकर उड़ जाती है।"
     },
     {
-     "vo": "लेकिन इंजन के पहिए गिनती के हैं। वो अकेले 4000 टन नहीं रोक सकते।",
+     "vo": "लेकिन इंजन के पहिए गिनती के हैं। वो अकेले चार हज़ार टन नहीं रोक सकते।",
      "prompt": "A side view of a locomotive with its six axles and wheels clearly visible, the long train of wagons behind it, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "लेकिन इंजन के पहिए गिनती के हैं। वो अकेले 4000 टन नहीं रोक सकते।"
     },
     {
      "vo": "तो जब सब कुछ एक साथ लगा दिया, तब भी ट्रेन कितनी दूर जाती है?",
@@ -645,10 +693,11 @@
    "card": "एक किलोमीटर क्यों",
    "shots": [
     {
-     "vo": "वज़न: 4000 टन रोकना, सड़क पर लगभग 2500-3000 कारें एक साथ रोकने जैसा है।",
+     "vo": "वज़न: चार हज़ार टन रोकना, सड़क पर लगभग ढाई हज़ार-तीन हज़ार कारें एक साथ रोकने जैसा है।",
      "prompt": "A low-angle shot of loaded coal wagons towering above the track, heavy and massive, black coal heaped high, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "वज़न: 4000 टन रोकना, सड़क पर लगभग 2500-3000 कारें एक साथ रोकने जैसा है।"
     },
     {
      "vo": "पकड़: लोहे पर लोहा है, इसलिए ब्रेक एक हद से ज़्यादा कस ही नहीं सकते।",
@@ -669,22 +718,25 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "इन चारों को जोड़िए। emergency brake के बाद भी भरी मालगाड़ी क़रीब एक किलोमीटर तक चलती है।",
+     "vo": "इन चारों को जोड़िए। इमरजेंसी ब्रेक के बाद भी भरी मालगाड़ी क़रीब एक किलोमीटर तक चलती है।",
      "prompt": "A freight train finally coming to a stop on a long straight track, dust settling around the wheels, bright daylight, aerial wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इन चारों को जोड़िए। emergency brake के बाद भी भरी मालगाड़ी क़रीब एक किलोमीटर तक चलती है।"
     },
     {
-     "vo": "130 की स्पीड वाली passenger train को भी, हल्के डिब्बों के बावजूद, लगभग इतनी दूरी चाहिए।",
+     "vo": "एक सौ तीस की स्पीड वाली पैसेंजर ट्रेन को भी, हल्के डिब्बों के बावजूद, लगभग इतनी दूरी चाहिए।",
      "prompt": "A modern red and grey Indian passenger train with LHB coaches running fast on a straight track, bright daylight, front three-quarter view, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "130 की स्पीड वाली passenger train को भी, हल्के डिब्बों के बावजूद, लगभग इतनी दूरी चाहिए।"
     },
     {
-     "vo": "इसीलिए लाल signal से पहले वाला signal पीला होता है, ताकि ब्रेक वक़्त पर शुरू हो।",
+     "vo": "इसीलिए लाल सिग्नल से पहले वाला सिग्नल पीला होता है, ताकि ब्रेक वक़्त पर शुरू हो।",
      "prompt": "An Indian railway colour-light signal showing a single yellow light beside the track, the line stretching ahead, dusk light, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसीलिए लाल signal से पहले वाला signal पीला होता है, ताकि ब्रेक वक़्त पर शुरू हो।"
     },
     {
      "vo": "लोको पायलट अभी के लिए नहीं, एक किलोमीटर आगे के लिए ब्रेक लगाता है।",
@@ -693,10 +745,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "और अगर इंसान चूक जाए, तो Kavach जैसा सिस्टम ख़ुद ही ब्रेक लगा देता है।",
+     "vo": "और अगर इंसान चूक जाए, तो कवच जैसा सिस्टम ख़ुद ही ब्रेक लगा देता है।",
      "prompt": "A trackside equipment box beside an Indian railway line, a large flat door panel facing the camera reading \"KAVACH\", the track stretching beyond, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "और अगर इंसान चूक जाए, तो Kavach जैसा सिस्टम ख़ुद ही ब्रेक लगा देता है।"
     },
     {
      "vo": "पर फाटक पर फँसी गाड़ी के लिए, कोई भी सिस्टम ट्रेन को वक़्त पर नहीं रोक सकता।",
@@ -705,10 +758,11 @@
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
     },
     {
-     "vo": "पटरी पर कोई दिखे, तो लोको पायलट हॉर्न बजाता है, और पूरा emergency brake लगाता है।",
+     "vo": "पटरी पर कोई दिखे, तो लोको पायलट हॉर्न बजाता है, और पूरा इमरजेंसी ब्रेक लगाता है।",
      "prompt": "A loco pilot in the cab pushing the brake handle fully forward with one hand and pressing the horn with the other, a small person standing on the track far ahead through the windscreen, natural light, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पटरी पर कोई दिखे, तो लोको पायलट हॉर्न बजाता है, और पूरा emergency brake लगाता है।"
     },
     {
      "vo": "और फिर बस इंतज़ार करता है। उसके हाथ में इससे ज़्यादा कुछ है ही नहीं।",
@@ -735,16 +789,18 @@
    "card": null,
    "shots": [
     {
-     "vo": "तो ब्रेक कमज़ोर नहीं है। 4000 टन को बस लोहे की छोटी सी पकड़ रोकती है।",
+     "vo": "तो ब्रेक कमज़ोर नहीं है। चार हज़ार टन को बस लोहे की छोटी सी पकड़ रोकती है।",
      "prompt": "A train wheel slowing on the rail with the brake block pressed against it, sharp focus, soft natural light, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "तो ब्रेक कमज़ोर नहीं है। 4000 टन को बस लोहे की छोटी सी पकड़ रोकती है।"
     },
     {
-     "vo": "अगली बार दो डिब्बों के बीच लटकते rubber pipe देखिए, और रुकती ट्रेन की 'फ़्स्स' सुनिए।",
+     "vo": "अगली बार दो डिब्बों के बीच लटकते रबर पाइप देखिए, और रुकती ट्रेन की 'फ़्स्स' सुनिए।",
      "prompt": "Two coupled black rubber brake hoses hanging between two coaches at an Indian railway platform, a passenger looking at them, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अगली बार दो डिब्बों के बीच लटकते rubber pipe देखिए, और रुकती ट्रेन की 'फ़्स्स' सुनिए।"
     },
     {
      "vo": "अगली बार: लोको पायलट का हॉर्न। हर सीटी का अलग मतलब होता है।",
@@ -775,5 +831,6 @@
    1
   ]
  },
- "framework": "2026-11-28 21:55"
+ "released_at": "2026-11-28 21:55",
+ "voice_requested": "voice-gk-42-train-brake-kaise-lagta-b79d338c94"
 }
