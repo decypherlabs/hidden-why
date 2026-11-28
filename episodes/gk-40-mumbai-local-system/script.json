@@ -698,9 +698,10 @@
     },
     {
      "vo": "पटरी तो संभल गई। पर सफ़र का सबसे धीमा हिस्सा पटरी नहीं, प्लेटफ़ॉर्म है।",
-     "prompt": "A Mumbai platform packed with waiting Indian commuters, all looking toward an approaching local train on the left, bright daylight, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Two Indian commuters, a man on the left and a woman on the right, standing at a Mumbai platform edge with space between them, waist-up, facing the viewer, a local train approaching along the track behind them on the left, bare open roof and sky above with nothing hanging overhead, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8972
     }
    ]
   },
@@ -1297,9 +1298,10 @@
     },
     {
      "vo": "तीस स्टेशनों पर दस-दस सेकंड ज़्यादा लगे, तो पूरे पाँच मिनट की देरी। यानी तीन मिनट के गैप से भी ज़्यादा।",
-     "prompt": "Indian commuters on a platform looking anxiously down the empty track for a late train, one man checking his watch, bright daylight, medium-wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "One Indian commuter in a plain shirt standing on a Mumbai platform edge, waist-up, facing the viewer and glancing at his wristwatch, an empty track stretching behind him, bare open sky above the platform with nothing hanging overhead, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 8985
     },
     {
      "vo": "और पीछे वाली ट्रेन को लाल सिग्नल मिलने लगता है। अब मामला किसके हाथ में जाता है?",
@@ -1801,11 +1803,11 @@
     },
     {
      "vo": "अगली बार प्लेटफ़ॉर्म का इंडिकेटर देखिए: एफ़ मतलब फ़ास्ट, एस मतलब स्लो, और साथ में बारह या पंद्रह डिब्बे।",
-     "prompt": "Two Indian commuters, a man in a checked shirt on the left and a woman in a kurta on the right, standing side by side with space between them on a Mumbai suburban platform, waist-up, both facing the viewer with their chins lifted and eyes turned upward and slightly aside in expectation, the platform roof beams and a train waiting far behind them, no signs, boards or screens anywhere in frame, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Two Indian commuters, a man in a checked shirt on the left and a woman in a kurta on the right, standing side by side with space between them on a Mumbai suburban platform, waist-up, both facing the viewer with their chins lifted and eyes turned upward and slightly aside in expectation, bare plain roof beams far above and a train waiting far behind them, the walls and posts plain and empty, nothing hanging overhead, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "अगली बार प्लेटफ़ॉर्म का indicator देखिए: F मतलब fast, S मतलब slow, और साथ में 12 या 15 डिब्बे।",
-     "seed": 16935
+     "seed": 24854
     },
     {
      "vo": "अगले एपिसोड में: लोकल का एक डिब्बा बनता कैसे है, फ़ैक्ट्री से पटरी तक।",
@@ -1815,9 +1817,10 @@
     },
     {
      "vo": "ऐसे ही गज़ब सवालों के लिए सब्सक्राइब करें।",
-     "prompt": "A Mumbai local train standing at a platform with Indian commuters boarding, warm golden light, wide shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Two Indian commuters, a man in a plain shirt on the left and a woman in a kurta on the right, stepping toward the open door of a Mumbai local train at a platform, space between them, both facing the viewer, the train filling the background, a bare plain steel roof and open sky above the platform with nothing hanging from it, warm golden light, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "seed": 9018
     }
    ]
   }
@@ -1849,16 +1852,22 @@
  "voice_approved_at": "2026-11-23 23:01",
  "repaint": {
   "shots": [
-   97
+   53,
+   66,
+   97,
+   99
   ],
   "thumbs": [],
-  "at": "2026-11-28 21:43"
+  "at": "2026-11-28 21:55"
  },
  "shot_qc": {
   "rounds": 1,
   "recheck": [
-   97
+   53,
+   66,
+   97,
+   99
   ]
  },
- "auto_regen": 1
+ "auto_regen": 2
 }
