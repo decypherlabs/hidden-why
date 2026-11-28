@@ -1801,11 +1801,11 @@
     },
     {
      "vo": "अगली बार प्लेटफ़ॉर्म का इंडिकेटर देखिए: एफ़ मतलब फ़ास्ट, एस मतलब स्लो, और साथ में बारह या पंद्रह डिब्बे।",
-     "prompt": "Indian commuters on a platform looking up at a rectangular indicator box hanging from the roof above them, faces upturned, plain blank glowing panel, bright daylight, medium shot from below, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Two Indian commuters, a man in a checked shirt on the left and a woman in a kurta on the right, standing side by side with space between them on a Mumbai suburban platform, waist-up, both facing the viewer with their chins lifted and eyes turned upward and slightly aside in expectation, the platform roof beams and a train waiting far behind them, no signs, boards or screens anywhere in frame, bright daylight, medium shot, photorealistic documentary film still, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
      "caption": "अगली बार प्लेटफ़ॉर्म का indicator देखिए: F मतलब fast, S मतलब slow, और साथ में 12 या 15 डिब्बे।",
-     "seed": 9016
+     "seed": 16935
     },
     {
      "vo": "अगले एपिसोड में: लोकल का एक डिब्बा बनता कैसे है, फ़ैक्ट्री से पटरी तक।",
@@ -1849,25 +1849,16 @@
  "voice_approved_at": "2026-11-23 23:01",
  "repaint": {
   "shots": [
-   21,
-   26,
-   74
+   97
   ],
   "thumbs": [],
-  "at": "2026-11-26 02:05"
+  "at": "2026-11-28 21:43"
  },
  "shot_qc": {
-  "checked": "2026-11-24T23:36:05Z",
-  "rounds": 2,
-  "why": {
-   "21": "A scooter mirror and headlight sit on the desk, so the object is built wrong, and the official isn't clearly holding the breathalyser toward the motorman.",
-   "26": "Gibberish lettering is painted on the station arch (\"BBENNATIS\") and on the coach (\"19841\").",
-   "74": "Two people run along a red road or track, but the line is about three slow trains with equal gaps between them, and no trains are shown."
-  },
+  "rounds": 1,
   "recheck": [
-   "21",
-   "26",
-   "74"
+   97
   ]
- }
+ },
+ "auto_regen": 1
 }
