@@ -1,0 +1,859 @@
+{
+ "slug": "gk-41-railway-points-track-change",
+ "format": "long",
+ "brand": "hidden-why-hindi",
+ "build": "github",
+ "lang": "hi",
+ "words_in_edit": true,
+ "approved": true,
+ "paint_hold": true,
+ "review": "auto",
+ "voice_review": true,
+ "title": "Railway Track Change कैसे काम करता है: बिना steering के ट्रेन दूसरी पटरी पर कैसे जाती है? 🚆",
+ "thumbnail": {
+  "text": "हथेली भर का *कांटा*",
+  "plane": "Extreme low close-up at rail level of an Indian Railways turnout: a thin, sharp, polished steel tongue rail pressed tight against a thick stock rail in the foreground, the other tongue rail pulled away leaving an open gap, a grey point machine box beside the sleepers, and a blue-and-red Indian express locomotive racing straight toward the camera along the track behind, headlight bright, strong late sunlight raking across the shining steel, crisp clear air, natural neutral colour, dramatic depth"
+ },
+ "music": {
+  "intense": [
+   "cold_open",
+   "ch3",
+   "ch5"
+  ],
+  "reflective": [
+   "ch1",
+   "ch2",
+   "ch4",
+   "ch6",
+   "outro"
+  ],
+  "epic": [
+   "ch7"
+  ]
+ },
+ "source": "Indian Railways Signal Engineering Manual; Indian Railways Permanent Way Manual; Commission of Railway Safety report on the Bahanaga Bazar (Balasore) collision, 2 June 2023",
+ "journey_score": 7.1,
+ "sections": [
+  {
+   "id": "cold_open",
+   "card": null,
+   "shots": [
+    {
+     "vo": "सोचिए, आप तेज़ रफ़्तार ट्रेन में हैं।",
+     "prompt": "A young Indian man sitting at the open window of a moving train sleeper coach, wind in his hair, green fields passing outside, one figure, centre, bright clear daylight, natural colour, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "आगे पटरी दो में बँट रही है, और ड्राइवर के पास स्टीयरिंग नहीं।",
+     "prompt": "View from inside an Indian locomotive cab: a control desk with throttle and brake handles large in the foreground and no steering wheel, through the windscreen a railway track splitting into two tracks ahead, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "आगे पटरी दो में बँट रही है, और ड्राइवर के पास steering नहीं।"
+    },
+    {
+     "vo": "फिर ट्रेन पटरी कैसे बदलती है? आख़िर रेलवे ट्रैक कैसे बदलता है?",
+     "prompt": "An Indian express train rushing over a railway turnout where one track splits into two, sunlight glinting on the polished steel rails, low angle at track level, clear daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "फिर ट्रेन पटरी कैसे बदलती है? आख़िर Railway Track कैसे बदलता है?"
+    },
+    {
+     "vo": "किसने तय किया आप किधर जाएँगे? पहिया गैप में फँसता क्यों नहीं?",
+     "prompt": "Extreme close-up of a steel train wheel rolling onto the V-shaped crossing of a railway turnout, a small gap between the rails right under the wheel, sharp focus, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और कांटा गलत तरफ़ हो, तो ड्राइवर को पता कैसे चलेगा?",
+     "prompt": "An Indian railway signal post with a glowing light beside the track just before a turnout, a train far away on the left approaching the turnout, clear daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दो जून दो हज़ार तेईस, ओडिशा। एक सौ अट्ठाईस की रफ़्तार, हरा सिग्नल।",
+     "prompt": "A glowing green railway signal on the left beside a straight main line, flat green Odisha fields, an express train with blue coaches approaching fast on the right, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "2 जून 2023, ओडिशा। 128 की रफ़्तार, हरा signal।"
+    },
+    {
+     "vo": "और ट्रेन फिर भी गलत पटरी पर घुस गई।",
+     "prompt": "An Indian express train locomotive turning off the straight main line onto a side loop track through a turnout, seen from the side at a small station, clear daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और इसे रोकने वाली चीज़ एक पेंसिल से भी पतली है।",
+     "prompt": "A thin flat steel test piece held in a technician's fingers between a tongue rail and a stock rail at an Indian turnout, the piece large and sharp, close-up, bright natural light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "जवाब पटरी के अंदर छिपा है।",
+     "prompt": "High top-down view of an Indian passenger train with blue coaches following the rails from a straight track onto a curving branch line through a turnout, clear daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "शाम सात बजे, बहानागा बाज़ार। कांटे पर एक छड़ सरकती है, और एक सौ अट्ठाईस की रफ़्तार वाली ट्रेन उसी पर चढ़ने वाली है। पर पहले देखिए, पहिया पटरी पर टिकता कैसे है।",
+     "prompt": "A metal rod sliding at a track switch large in the foreground of a small Indian railway station, an express train approaching fast far down the track, warm dusk light, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "शाम 7 बजे, बहानागा बाज़ार। कांटे पर एक छड़ सरकती है, और 128 की रफ़्तार वाली ट्रेन उसी पर चढ़ने वाली है। पर पहले देखिए, पहिया पटरी पर टिकता कैसे है।"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "पहिया और कांटा",
+   "shots": [
+    {
+     "vo": "ट्रेन के पहिये को ध्यान से देखिए। अंदर की तरफ़ एक उभरा हुआ किनारा है।",
+     "prompt": "Close-up of an Indian railways coach wheel resting on a steel rail, the raised inner rim of the wheel hanging down on the inside of the rail, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसे फ़्लैंज कहते हैं। ये पटरी के अंदर वाले किनारे से सटकर चलता है, और पहिये को बाहर गिरने नहीं देता।",
+     "prompt": "A steel train wheel on a rail seen from the side, its raised inner flange hooked against the inner side of the rail head, close-up, bright workshop light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसे flange कहते हैं। ये पटरी के अंदर वाले किनारे से सटकर चलता है, और पहिये को बाहर गिरने नहीं देता।"
+    },
+    {
+     "vo": "दोनों पहिये एक ही लोहे की धुरी पर कसे हैं। वो अलग-अलग नहीं घूम सकते।",
+     "prompt": "A pair of train wheels fixed on one solid steel axle standing in an Indian railway workshop, a mechanic in blue overalls standing on the right for scale, medium-wide shot, bright light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और पहिया पूरा सीधा भी नहीं। उसकी सतह पर हल्का ढलान है, जैसे कोन का कटा टुकड़ा।",
+     "prompt": "A steel train wheel seen from the side with its tread sloping gently from the flange outward, a steel ruler laid against the slope, close-up, bright workshop light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "और पहिया पूरा सीधा भी नहीं। उसकी सतह पर हल्का ढलान है, जैसे cone का कटा टुकड़ा।"
+    },
+    {
+     "vo": "मोड़ पर बाहर वाला पहिया इस ढलान के मोटे हिस्से पर चढ़ जाता है। उसका घेरा बड़ा हो जाता है।",
+     "prompt": "Train bogie wheels rolling through a curve on an Indian railway track, the outer wheel riding up toward its flange on the outer rail, low close view, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बड़ा घेरा, यानी एक चक्कर में ज़्यादा दूरी। इसलिए धुरी बिना स्टीयरिंग के ख़ुद मुड़ जाती है।",
+     "prompt": "A long Indian passenger train curving smoothly along a bend in the track seen from a low embankment, all coaches centred on the rails, clear daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "बड़ा घेरा, यानी एक चक्कर में ज़्यादा दूरी। इसलिए धुरी बिना steering के ख़ुद मुड़ जाती है।"
+    },
+    {
+     "vo": "पर ये तो मोड़ की बात थी। दो पटरियों में से एक रास्ता चुनना हो, तो पटरी ख़ुद कैसे बदलती है? इस जोड़ को 'कांटा' कहते हैं, अंग्रेज़ी में पॉइंट्स।",
+     "prompt": "A complete broad gauge railway turnout in an Indian station yard, the main line and the branching line on concrete sleepers, a platform in the background, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पर ये तो मोड़ की बात थी। दो पटरियों में से एक रास्ता चुनना हो, तो पटरी ख़ुद कैसे बदलती है? इस जोड़ को 'कांटा' कहते हैं, अंग्रेज़ी में points।"
+    },
+    {
+     "vo": "बाहर की दो मोटी पटरियाँ अपनी जगह जमी रहती हैं। इन्हें स्टॉक रेल कहते हैं।",
+     "prompt": "The two thick outer stock rails of a turnout firmly fixed to concrete sleepers with steel clips, ballast stones around them, close view, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "बाहर की दो मोटी पटरियाँ अपनी जगह जमी रहती हैं। इन्हें stock rail कहते हैं।"
+    },
+    {
+     "vo": "उनके अंदर दो पतली, चाकू जैसी नुकीली पटरियाँ हैं। इन्हें टंग रेल कहते हैं।",
+     "prompt": "Two thin, tapered, blade-like tongue rails lying inside the stock rails at an Indian turnout, their sharp tips gleaming, close-up, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उनके अंदर दो पतली, चाकू जैसी नुकीली पटरियाँ हैं। इन्हें tongue rail कहते हैं।"
+    },
+    {
+     "vo": "ये दोनों एक साथ बाएँ-दाएँ खिसकती हैं, सिर्फ़ करीब ग्यारह सेंटीमीटर, बस हथेली भर।",
+     "prompt": "A railway trackman's open palm held beside the gap between a tongue rail and a stock rail at an Indian turnout, the gap as wide as his palm, close-up, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये दोनों एक साथ बाएँ-दाएँ खिसकती हैं, सिर्फ़ करीब 11 सेंटीमीटर, बस हथेली भर।"
+    },
+    {
+     "vo": "एक नुकीली पटरी बाहर वाली से चिपक जाती है। दूसरी उससे दूर हटकर गैप छोड़ देती है।",
+     "prompt": "A turnout seen from above: the left tongue rail pressed tight against its stock rail, the right tongue rail pulled away leaving a clear open gap, bright daylight, top-down shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "चिपकी हुई नुकीली पटरी पहिये के फ़्लैंज को धकेलकर नई दिशा में मोड़ देती है।",
+     "prompt": "A moving train wheel whose flange runs along the inside of the closed tongue rail, steering onto the curving branch rail, close-up, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "चिपकी हुई नुकीली पटरी पहिये के flange को धकेलकर नई दिशा में मोड़ देती है।"
+    },
+    {
+     "vo": "दूसरी तरफ़ का खुला गैप, दूसरे पहिये के फ़्लैंज को निकलने की जगह देता है।",
+     "prompt": "The opposite train wheel's flange passing freely through the open gap between the pulled-away tongue rail and its stock rail, close-up, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दूसरी तरफ़ का खुला गैप, दूसरे पहिये के flange को निकलने की जगह देता है।"
+    },
+    {
+     "vo": "यानी पूरी ट्रेन का रास्ता बदलता है, हथेली भर के खिसकने से। पर इन्हें खिसकाता कौन है?",
+     "prompt": "A long Indian express train approaching a turnout, the slim tongue rails sharp and large in the foreground, the train behind them, bright daylight, low angle wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "कौन खिसकाता है?",
+   "shots": [
+    {
+     "vo": "पुराने ज़माने में जवाब था: एक आदमी, और लोहे का एक लंबा लीवर।",
+     "prompt": "A cabinman in khaki uniform pulling a tall iron lever with both hands inside an old Indian railway signal cabin, a row of levers beside him, warm light, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पुराने ज़माने में जवाब था: एक आदमी, और लोहे का एक लंबा lever।"
+    },
+    {
+     "vo": "स्टेशन के पास एक केबिन होता था, जिसमें दर्जनों लीवर एक कतार में लगे रहते थे।",
+     "prompt": "A small brick railway cabin beside the tracks at an Indian station, a large flat board on its wall facing the camera reading \"CABIN\", tracks and turnouts in front of it, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "स्टेशन के पास एक cabin होता था, जिसमें दर्जनों lever एक कतार में लगे रहते थे।"
+    },
+    {
+     "vo": "केबिनमैन पूरी ताक़त से लीवर खींचता था। ज़मीन पर बिछी लोहे की छड़ें ये ज़ोर दूर कांटे तक पहुँचातीं।",
+     "prompt": "Long iron point rods running on small rollers along the ground beside an Indian railway track, from a small brick cabin on the left to a distant turnout on the right, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Cabinman पूरी ताक़त से lever खींचता था। ज़मीन पर बिछी लोहे की छड़ें ये ज़ोर दूर कांटे तक पहुँचातीं।"
+    },
+    {
+     "vo": "हर लीवर का रंग तय था: लाल सिग्नल के लिए, काला कांटे के लिए, नीला कांटे पर ताले के लिए।",
+     "prompt": "The tops of a row of cabin levers painted red, black and blue, polished steel handles worn bright, close-up, warm cabin light, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर lever का रंग तय था: लाल signal के लिए, काला कांटे के लिए, नीला कांटे पर ताले के लिए।"
+    },
+    {
+     "vo": "कई छोटे स्टेशनों पर ऐसे लीवर आज भी दिख जाते हैं, और उन्हें खींचने में पूरा दम लगता है।",
+     "prompt": "A small rural Indian station with a row of levers visible through the cabin window, a large flat yellow station board facing the camera reading \"रामपुर\", bright daylight, medium-wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "कई छोटे स्टेशनों पर ऐसे lever आज भी दिख जाते हैं, और उन्हें खींचने में पूरा दम लगता है।"
+    },
+    {
+     "vo": "लेकिन ज़्यादातर बड़े रूट पर अब कांटे के बगल में एक बंद लोहे का डिब्बा लगा है।",
+     "prompt": "A grey metal point machine box mounted on sleepers right beside the tongue rails of an Indian turnout, a steel rod linking it to the rails, close view, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "ये है पॉइंट मशीन। इसके अंदर बिजली की एक मोटर और गियर लगे हैं।",
+     "prompt": "A point machine box with its lid open showing an electric motor, gears and a throw rod inside, an Indian signal maintainer in uniform kneeling beside it on the right, medium shot, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये है point machine। इसके अंदर बिजली की एक motor और gear लगे हैं।"
+    },
+    {
+     "vo": "आदेश मिलते ही मोटर घूमती है, और एक लोहे की छड़ नुकीली पटरी को धकेल देती है।",
+     "prompt": "The steel throw rod of a point machine pushing a tongue rail across the slide chairs of an Indian turnout, close-up, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "आदेश मिलते ही motor घूमती है, और एक लोहे की छड़ नुकीली पटरी को धकेल देती है।"
+    },
+    {
+     "vo": "पूरा काम कुछ ही सेकंड में हो जाता है, ट्रेन के आने से काफ़ी पहले।",
+     "prompt": "A tongue rail fully closed against the stock rail in the foreground, far down the straight track a train's headlight just visible, clear daylight, medium-wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "बड़े जंक्शन यार्ड में सौ से ज़्यादा कांटे भी होते हैं, हर एक अपनी मशीन के साथ।",
+     "prompt": "Aerial view of a huge Indian railway junction yard, many tracks crossing and branching through dozens of turnouts, trains on several lines, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "बड़े junction yard में सौ से ज़्यादा कांटे भी होते हैं, हर एक अपनी machine के साथ।"
+    },
+    {
+     "vo": "मशीन खिसकाती है, पर तय कौन करता है?",
+     "prompt": "A single grey point machine beside a turnout in the foreground, a cable running along the track toward a distant station building, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और सोचिए, खिसकते वक़्त बीच में एक छोटा-सा पत्थर फँस जाए तो?",
+     "prompt": "A small stone wedged between a tongue rail and the stock rail at a turnout, the gap held open by the stone, extreme close-up, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पटरी आधी खिसकी रह जाए, और सामने से ट्रेन सौ की रफ़्तार पर आ रही हो?",
+     "prompt": "A tongue rail stuck half-way with a narrow gap in the foreground, an express train approaching fast on the same track far behind, clear daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पटरी आधी खिसकी रह जाए, और सामने से ट्रेन 100 की रफ़्तार पर आ रही हो?"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "5 mm का इम्तिहान",
+   "shots": [
+    {
+     "vo": "यहीं रेलवे का सबसे सख़्त नियम काम करता है।",
+     "prompt": "An Indian signal maintainer in uniform crouching at a turnout with a toolbox beside him, inspecting the tongue rail closely, medium shot, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पॉइंट मशीन सिर्फ़ पटरी नहीं खिसकाती। आख़िर में उसे वहीं लॉक भी कर देती है।",
+     "prompt": "The steel locking bar inside an opened point machine firmly engaged, close-up, bright light, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Point machine सिर्फ़ पटरी नहीं खिसकाती। आख़िर में उसे वहीं lock भी कर देती है।"
+    },
+    {
+     "vo": "लॉक की छड़ में एक खाँचा है। पटरी पूरी चिपके, तभी ताला उस खाँचे में बैठता है।",
+     "prompt": "A notched steel lock slide inside a point machine, the locking dog seated exactly in the notch, macro shot, bright light, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Lock की छड़ में एक खाँचा है। पटरी पूरी चिपके, तभी ताला उस खाँचे में बैठता है।"
+    },
+    {
+     "vo": "लॉक होने के बाद ट्रेन का पूरा वज़न भी नुकीली पटरी को टस से मस नहीं कर सकता।",
+     "prompt": "Heavy locomotive wheels rolling over a locked tongue rail pressed tight against the stock rail, low close view, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Lock होने के बाद ट्रेन का पूरा वज़न भी नुकीली पटरी को टस से मस नहीं कर सकता।"
+    },
+    {
+     "vo": "फिर मशीन के अंदर के कॉन्टैक्ट जाँचते हैं: क्या नुकीली पटरी सच में पूरी चिपकी है?",
+     "prompt": "Inside a point machine: electrical detection contacts and wiring lit by a technician's torch beam, close-up, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "फिर machine के अंदर के contact जाँचते हैं: क्या नुकीली पटरी सच में पूरी चिपकी है?"
+    },
+    {
+     "vo": "इसे डिटेक्शन कहते हैं। जाँच पूरी न हो, तो मशीन 'ठीक है' का संदेश भेजती ही नहीं।",
+     "prompt": "A technician's hand pointing at a pair of open detection contacts inside a point machine, the contacts clearly not touching, close-up, bright light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसे detection कहते हैं। जाँच पूरी न हो, तो machine 'ठीक है' का संदेश भेजती ही नहीं।"
+    },
+    {
+     "vo": "इस जाँच को परखने का तरीका सीधा है। पटरियों के बीच पाँच मिलीमीटर का एक टुकड़ा रख दो।",
+     "prompt": "A technician placing a thin flat steel test piece between the tongue rail and the stock rail at an Indian turnout, the piece large in frame, close-up, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इस जाँच को परखने का तरीका सीधा है। पटरियों के बीच 5 मिलीमीटर का एक टुकड़ा रख दो।"
+    },
+    {
+     "vo": "इतनी-सी रुकावट पर भी कांटा लॉक नहीं होना चाहिए। हो गया, तो मशीन फ़ेल।",
+     "prompt": "A thin steel test piece trapped between a tongue rail and a stock rail, the tongue rail unable to close fully, a visible gap, close-up, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इतनी-सी रुकावट पर भी कांटा lock नहीं होना चाहिए। हो गया, तो machine fail।"
+    },
+    {
+     "vo": "पाँच मिलीमीटर, यानी एक आम पेंसिल की मोटाई से भी कम।",
+     "prompt": "An ordinary yellow pencil held next to a thin steel test piece lying on a rail, the test piece clearly thinner than the pencil, close-up, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "5 मिलीमीटर, यानी एक आम pencil की मोटाई से भी कम।"
+    },
+    {
+     "vo": "इतना सख़्त क्यों? आधी खुली पटरी पर पहिये दो रास्तों में बँटकर डिब्बे को गिरा सकते हैं।",
+     "prompt": "A half-open tongue rail tip with a narrow gap in the foreground, a coach wheel about to reach it on the right, close view, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "सिग्नल मेंटेनर तय दिनों पर हर कांटे को ये इम्तिहान देते हैं, और स्लाइड पर ग्रीस भी लगाते हैं।",
+     "prompt": "Two Indian signal maintainers in uniform at a turnout, the one on the left greasing the slide chairs under the tongue rail, the one on the right holding a thin steel test piece, medium shot, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Signal maintainer तय दिनों पर हर कांटे को ये इम्तिहान देते हैं, और slide पर ग्रीस भी लगाते हैं।"
+    },
+    {
+     "vo": "गड़बड़ हुई तो ट्रेन रुकेगी, गिरेगी नहीं। रेलवे का नियम है: शक हो, तो लाल।",
+     "prompt": "An Indian railway signal glowing red beside the track ahead of a turnout, an express train standing still before it, clear daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "पर ड्राइवर की तरफ़ से सोचिए। उसे कैसे पता चले कि आगे कांटा किधर है?",
+     "prompt": "An Indian loco pilot in the cab leaning forward and looking up through the windscreen at a signal ahead of a junction, medium shot, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "मोड़ पर धीमे",
+   "shots": [
+    {
+     "vo": "ड्राइवर कांटा देखकर फ़ैसला नहीं कर सकता। इतनी रफ़्तार पर वो बहुत छोटा है, और पलक झपकते पास।",
+     "prompt": "View from a locomotive cab at a turnout in the far distance ahead, the tongue rails tiny on the track below the windscreen, clear daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसलिए रास्ता सिग्नल की बत्ती और रूट इंडिकेटर मिलकर बताते हैं।",
+     "prompt": "An Indian railway signal post ahead of a junction with a route indicator box mounted above the signal head, clear daylight, medium-wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसलिए रास्ता signal की बत्ती और route indicator मिलकर बताते हैं।"
+    },
+    {
+     "vo": "मुड़ना हो, तो सिग्नल के ऊपर सफ़ेद बत्तियों की एक तिरछी कतार जलती है।",
+     "prompt": "An Indian junction route indicator above a signal: a slanted row of five white lights glowing, angled toward the branching line, clear daylight, close view, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "मुड़ना हो, तो signal के ऊपर सफ़ेद बत्तियों की एक तिरछी कतार जलती है।"
+    },
+    {
+     "vo": "जिधर कतार झुकी, उधर रास्ता। सीधे जाना हो, तो ये कतार बुझी रहती है।",
+     "prompt": "A signal with its route indicator unlit, the straight main line running ahead past the turnout, clear daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अब अगला सवाल: क्या सौ वाली ट्रेन मुड़ते वक़्त भी सौ पर रहती है?",
+     "prompt": "An express train approaching a turnout set for the branch line, a slanted row of white lights glowing on the signal beside the track, clear daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अब अगला सवाल: क्या 100 वाली ट्रेन मुड़ते वक़्त भी 100 पर रहती है?"
+    },
+    {
+     "vo": "कांटा सीधे रास्ते पर हो, तो ट्रेन पूरी रफ़्तार से निकल जाती है। उसे फ़र्क़ ही नहीं पड़ता।",
+     "prompt": "An Indian express train running straight through a station turnout at full speed on the main line, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "लेकिन बगल की लाइन में मुड़ना हो, तो कहानी बदल जाती है।",
+     "prompt": "A passenger train slowly entering a curving loop line through a turnout at an Indian station, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कांटे का मोड़ छोटा और तीखा होता है। तेज़ घुसे, तो झटका सीधे डिब्बों और यात्रियों पर।",
+     "prompt": "Indian passengers inside a coach holding onto the berth rails, bodies leaning sideways as the train curves, medium shot, bright coach light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "मोड़ पर डिब्बे को बाहर की ओर धक्का लगता है। रफ़्तार दोगुनी, तो धक्का चार गुना।",
+     "prompt": "A passenger coach leaning slightly outward on a sharp curve through a turnout, seen from the track side, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसलिए भारत के आम कांटों पर मुड़ने की रफ़्तार अक्सर पंद्रह या तीस किलोमीटर प्रति घंटा तय है।",
+     "prompt": "A large flat yellow speed board beside a loop line facing the camera reading \"30\", the turnout just behind it, bright daylight, medium-wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसलिए भारत के आम कांटों पर मुड़ने की रफ़्तार अक्सर 15 या 30 km/h तय है।"
+    },
+    {
+     "vo": "रेलवे कांटों को नंबर से पहचानता है, जैसे 'वन इन साढ़े आठ' या 'वन इन बारह'।",
+     "prompt": "Two turnouts side by side in an Indian yard seen from above, the left one short and sharply curved, the right one long and gently curved, bright daylight, top-down shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "रेलवे कांटों को नंबर से पहचानता है, जैसे '1 in 8.5' या '1 in 12'।"
+    },
+    {
+     "vo": "वन इन बारह वाला ज़्यादा लंबा और हल्का है। इसलिए उस पर ट्रेन दोगुनी रफ़्तार से मुड़ सकती है।",
+     "prompt": "A train taking a long gentle turnout smoothly at a big Indian junction, the curve wide and gradual, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "1 in 12 वाला ज़्यादा लंबा और हल्का है। इसलिए उस पर ट्रेन दोगुनी रफ़्तार से मुड़ सकती है।"
+    },
+    {
+     "vo": "ये सीमा कांटे से पहले लगे स्पीड बोर्ड पर लिखी होती है, और ड्राइवर उसे मानता है।",
+     "prompt": "An Indian loco pilot easing the throttle back in the cab, a large flat yellow speed board facing the camera reading \"15\" passing beside the cab window, medium shot, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ये सीमा कांटे से पहले लगे speed board पर लिखी होती है, और ड्राइवर उसे मानता है।"
+    },
+    {
+     "vo": "पर कांटे के आख़िर में, जहाँ ट्रेन अभी पहुँचने वाली है, पटरी अधूरी है।",
+     "prompt": "The rear coach of a train just past the tongue rails, the track continuing toward the crossing section of the turnout, bright daylight, medium-wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "बीच का गैप",
+   "shots": [
+    {
+     "vo": "जहाँ दो पटरियाँ एक-दूसरे को काटती हैं, वहाँ पटरी में सचमुच एक गैप है।",
+     "prompt": "The V-shaped crossing of a turnout where two rails meet, a clear gap in the rail visible, close-up, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "कांटे के आख़िर में वी जैसा एक नुकीला हिस्सा होता है। इसे क्रॉसिंग या 'नाक' कहते हैं।",
+     "prompt": "A large steel crossing nose of an Indian turnout, V-shaped and shining where wheels run over it, close view, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "कांटे के आख़िर में V जैसा एक नुकीला हिस्सा होता है। इसे crossing या 'नाक' कहते हैं।"
+    },
+    {
+     "vo": "यहाँ एक पटरी दूसरी को पार करती है, इसलिए फ़्लैंज के निकलने को खाँचा छोड़ना ही पड़ता है।",
+     "prompt": "Top-down close view of a turnout crossing with the narrow flangeway gaps between the wing rails and the nose, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "यहाँ एक पटरी दूसरी को पार करती है, इसलिए flange के निकलने को खाँचा छोड़ना ही पड़ता है।"
+    },
+    {
+     "vo": "कुछ पलों के लिए पहिया उस गैप के ऊपर से लुढ़ककर नाक पर चढ़ता है।",
+     "prompt": "A train wheel at the instant it rolls across the gap from the wing rail onto the crossing nose, close-up, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "स्टेशन के पास सुनाई देने वाली ज़ोर की 'खट-खट' कई बार यही होती है।",
+     "prompt": "An Indian passenger sitting at a coach window, head turned toward the window as if listening, the train rolling slowly over turnouts into a station outside, medium shot, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "हर पहिया यहाँ हल्की चोट मारता है। इसलिए ये नाक मैंगनीज़ मिले ख़ास सख़्त स्टील की ढली होती है।",
+     "prompt": "A new cast steel crossing lying in an Indian railway depot before fitting, heavy and solid, two workers in blue overalls standing beside it for scale, wide shot, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हर पहिया यहाँ हल्की चोट मारता है। इसलिए ये नाक manganese मिले ख़ास सख़्त स्टील की ढली होती है।"
+    },
+    {
+     "vo": "अब ख़तरा देखिए। उस पल फ़्लैंज को कोई दीवार नहीं रोक रही।",
+     "prompt": "Extreme close-up of a wheel flange hanging over the open flangeway at the crossing, no rail beside it, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अब ख़तरा देखिए। उस पल flange को कोई दीवार नहीं रोक रही।"
+    },
+    {
+     "vo": "वो गलत खाँचे में जा सकता है, और ट्रेन पटरी से उतर सकती है।",
+     "prompt": "Close view of the two flangeways at a crossing, one leading the right way and one the wrong way, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "इसका इलाज बड़ा चालाक है। और वो इस तरफ़ नहीं, सामने वाली पटरी पर है।",
+     "prompt": "A wide view across both rails of a turnout, the crossing on the left and the opposite running rail on the right, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "उधर मुख्य पटरी के साथ एक छोटी एक्स्ट्रा पटरी लगी है। इसे चेक रेल कहते हैं।",
+     "prompt": "A short check rail bolted parallel to the inside of the running rail, opposite the crossing, close and clear, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उधर मुख्य पटरी के साथ एक छोटी extra पटरी लगी है। इसे check rail कहते हैं।"
+    },
+    {
+     "vo": "ये सामने वाले पहिये को अंदर से पकड़ती है, ताकि धुरी एक तरफ़ खिसके ही नहीं।",
+     "prompt": "A wheel flange running in the narrow slot between the running rail and the check rail, held firmly, close-up, bright daylight, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "याद है, दोनों पहिये एक ही धुरी पर कसे हैं? एक पहिया बँधा, तो दूसरा भी सही खाँचे में।",
+     "prompt": "A full wheelset with both wheels on one steel axle, the left wheel at the check rail and the right wheel at the crossing, medium shot, bright light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "दुनिया की कई तेज़ लाइनों पर तो नाक ख़ुद खिसककर गैप भर देती है। इसे स्विंग नोज़ कहते हैं।",
+     "prompt": "A modern high-speed turnout with a movable swing nose crossing pressed tight against one wing rail, no gap, clean ballast, close view, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दुनिया की कई तेज़ लाइनों पर तो नाक ख़ुद खिसककर गैप भर देती है। इसे swing nose कहते हैं।"
+    },
+    {
+     "vo": "सब कुछ इतना पक्का। फिर भी एक ट्रेन एक सौ अट्ठाईस की रफ़्तार पर गलत लाइन में कैसे घुस गई?",
+     "prompt": "An empty loop line beside a main line at a small Indian station, a turnout between them, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "सब कुछ इतना पक्का। फिर भी एक ट्रेन 128 की रफ़्तार पर गलत लाइन में कैसे घुस गई?"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "हरा, पर गलत",
+   "shots": [
+    {
+     "vo": "दो जून दो हज़ार तेईस, शाम करीब सात बजे। ओडिशा के बालासोर ज़िले का बहानागा बाज़ार स्टेशन।",
+     "map": {
+      "center": [
+       21.34,
+       86.77
+      ],
+      "span": 3,
+      "from_span": 25,
+      "countries": [
+       {
+        "iso": "IND",
+        "label": "भारत",
+        "color": "teal"
+       }
+      ],
+      "points": [
+       {
+        "lat": 21.34,
+        "lon": 86.77,
+        "label": "बहानागा बाज़ार"
+       }
+      ]
+     },
+     "caption": "2 जून 2023, शाम करीब 7 बजे। ओडिशा के बालासोर ज़िले का बहानागा बाज़ार स्टेशन।"
+    },
+    {
+     "vo": "बारह हज़ार आठ सौ इकतालीस कोरोमंडल एक्सप्रेस, कोलकाता के पास शालीमार से चेन्नई जा रही थी।",
+     "prompt": "An Indian express train with blue coaches on a main line through flat green Odisha countryside, a large flat coach name board facing the camera reading \"COROMANDEL EXPRESS\", bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "12841 Coromandel Express, कोलकाता के पास शालीमार से चेन्नई जा रही थी।"
+    },
+    {
+     "vo": "मुख्य लाइन पर उसकी रफ़्तार करीब एक सौ अट्ठाईस किलोमीटर प्रति घंटा थी, तय सीमा के अंदर। सामने सिग्नल हरा।",
+     "prompt": "A glowing green railway signal beside a main line ahead of a small Indian station, an express train approaching fast on the right, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "मुख्य लाइन पर उसकी रफ़्तार करीब 128 km/h थी, तय सीमा के अंदर। सामने signal हरा।"
+    },
+    {
+     "vo": "हरा यानी सीधा रास्ता साफ़। ड्राइवर ने वही किया, जो सिग्नल ने कहा।",
+     "prompt": "An Indian loco pilot in the cab keeping one hand on the throttle, eyes on a green signal through the windscreen, medium shot, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "हरा यानी सीधा रास्ता साफ़। ड्राइवर ने वही किया, जो signal ने कहा।"
+    },
+    {
+     "vo": "लेकिन आगे का कांटा सीधी लाइन पर नहीं, बगल की लूप लाइन पर सेट था।",
+     "prompt": "A turnout at a small Indian station set toward the loop line, the tongue rail closed for the branch, loop line curving away on the right, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "लेकिन आगे का कांटा सीधी लाइन पर नहीं, बगल की loop line पर set था।"
+    },
+    {
+     "vo": "और उस लूप लाइन पर लौह अयस्क से लदी एक मालगाड़ी खड़ी थी।",
+     "prompt": "A stationary Indian goods train of open wagons loaded with reddish iron ore standing on a loop line, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "और उस loop line पर लौह अयस्क से लदी एक मालगाड़ी खड़ी थी।"
+    },
+    {
+     "vo": "टक्कर बहुत ज़ोरदार थी। कोरोमंडल के कई डिब्बे पटरी से उतरकर बगल की लाइन पर जा गिरे।",
+     "prompt": "Derailed passenger coaches lying tilted across railway tracks, rescue workers in orange vests standing nearby, no injured people shown, overcast daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "टक्कर बहुत ज़ोरदार थी। Coromandel के कई डिब्बे पटरी से उतरकर बगल की लाइन पर जा गिरे।"
+    },
+    {
+     "vo": "उसी पल उल्टी दिशा से यशवंतपुर-हावड़ा एक्सप्रेस गुज़र रही थी। उसके पीछे के डिब्बे भी चपेट में आ गए।",
+     "prompt": "The rear coaches of a second passenger train knocked off the adjacent track, a crane and rescue workers in orange vests beside them, overcast daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "उसी पल उल्टी दिशा से Yesvantpur-Howrah Express गुज़र रही थी। उसके पीछे के डिब्बे भी चपेट में आ गए।"
+    },
+    {
+     "vo": "दो सौ नब्बे से ज़्यादा लोगों की जान गई, हज़ार से ज़्यादा घायल हुए।",
+     "prompt": "A row of rescue workers and local villagers standing in silence beside the railway line, heads bowed, overcast daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "290 से ज़्यादा लोगों की जान गई, हज़ार से ज़्यादा घायल हुए।"
+    },
+    {
+     "vo": "कमीशन ऑफ़ रेलवे सेफ़्टी की जाँच ने वजह बताई: सिग्नल के तारों में गलती।",
+     "prompt": "Two railway safety inspectors in uniform examining a trackside signal cabinet with open wiring terminals, medium shot, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "Commission of Railway Safety की जाँच ने वजह बताई: signal के तारों में गलती।"
+    },
+    {
+     "vo": "पास के एक रेलवे फाटक पर पहले हुए सिग्नलिंग के काम में तार गलत जोड़े गए थे।",
+     "prompt": "A railway level crossing with lifted barrier poles beside a small Indian station, a trackside equipment box with its door open in the foreground, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पास के एक railway फाटक पर पहले हुए signalling के काम में तार गलत जोड़े गए थे।"
+    },
+    {
+     "vo": "कांटा लूप की तरफ़ खिसका था। पर उस दिन सिग्नल ने वो कहा, जो कांटे का सच नहीं था।",
+     "prompt": "A tangle of signal relay wires and terminal blocks inside an open trackside cabinet, close-up, bright light, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "कांटा loop की तरफ़ खिसका था। पर उस दिन signal ने वो कहा, जो कांटे का सच नहीं था।"
+    },
+    {
+     "vo": "सी बी आई ने सिग्नल विभाग के तीन कर्मचारियों को गिरफ़्तार किया, और देशभर में सिग्नल-कांटों की जाँच का अभियान चला।",
+     "prompt": "Indian signal maintainers in uniform checking a point machine at a turnout, one holding a clipboard, a busy station behind them, medium-wide shot, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "CBI ने signal विभाग के तीन कर्मचारियों को गिरफ़्तार किया, और देशभर में signal-कांटों की जाँच का अभियान चला।"
+    },
+    {
+     "vo": "तो सवाल और बड़ा हो गया: आख़िर सिग्नल हरा करने का हक़ किसके पास है?",
+     "prompt": "A single green signal glowing beside an empty main line, a turnout just beyond it, clear daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "तो सवाल और बड़ा हो गया: आख़िर signal हरा करने का हक़ किसके पास है?"
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "असली फ़ैसला",
+   "shots": [
+    {
+     "vo": "जवाब कोई एक इंसान नहीं। एक चेन है, जो स्टेशन मास्टर से शुरू होकर सिग्नल पर ख़त्म होती है।",
+     "prompt": "An Indian station building with the Station Master's office window large on the left, tracks and a signal visible beyond it on the right, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "जवाब कोई एक इंसान नहीं। एक chain है, जो Station Master से शुरू होकर signal पर ख़त्म होती है।"
+    },
+    {
+     "vo": "पहली कड़ी: स्टेशन मास्टर अपने पैनल पर रास्ता चुनता है। एक बटन शुरुआत का, एक आख़िर का।",
+     "prompt": "An Indian Station Master in a white uniform at a large control panel with a track diagram and rows of buttons, pressing one button with his finger, side view, medium shot, bright indoor light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पहली कड़ी: Station Master अपने panel पर रास्ता चुनता है। एक बटन शुरुआत का, एक आख़िर का।"
+    },
+    {
+     "vo": "पर बटन दबाने से सिग्नल हरा नहीं होता। बटन बस एक अर्ज़ी है।",
+     "prompt": "A finger resting on a single panel button, the route lights beside it still dark, close-up, bright indoor light, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पर बटन दबाने से signal हरा नहीं होता। बटन बस एक अर्ज़ी है।"
+    },
+    {
+     "vo": "दूसरी कड़ी है इंटरलॉकिंग। ये सिस्टम हर अर्ज़ी पर एक-एक करके कई शर्तें जाँचता है।",
+     "prompt": "A modern Indian interlocking room with tall grey equipment racks and neat cables, a technician checking one rack, wide shot, bright indoor light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "दूसरी कड़ी है interlocking। ये system हर अर्ज़ी पर एक-एक करके कई शर्तें जाँचता है।"
+    },
+    {
+     "vo": "क्या पटरी खाली है? पटरी में दौड़ती हल्की बिजली, यानी ट्रैक सर्किट, ये बता देती है।",
+     "prompt": "A track circuit cable bonded to the side of a rail, an empty stretch of track running ahead, close-up, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "क्या पटरी खाली है? पटरी में दौड़ती हल्की बिजली, यानी track circuit, ये बता देती है।"
+    },
+    {
+     "vo": "क्या कोई दूसरी ट्रेन इस रास्ते को काट तो नहीं रही? क्या आगे का फाटक बंद है?",
+     "prompt": "A closed railway level crossing barrier with a few waiting vehicles on the road, a second track crossing the main line nearby, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "और हर कांटा सही तरफ़ खिसका, लॉक हुआ, और पाँच मिलीमीटर वाली जाँच में पास हुआ?",
+     "prompt": "A tongue rail pressed tight against the stock rail beside a closed point machine, sharp detail, close view, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "और हर कांटा सही तरफ़ खिसका, lock हुआ, और 5 मिलीमीटर वाली जाँच में पास हुआ?"
+    },
+    {
+     "vo": "एक भी जवाब 'नहीं', तो सिग्नल लाल। स्टेशन मास्टर चाहे भी, हरा नहीं कर सकता।",
+     "prompt": "An Indian Station Master seated at the panel with his finger on a button, a red signal glowing outside the window behind him, medium shot, bright light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "एक भी जवाब 'नहीं', तो signal लाल। Station Master चाहे भी, हरा नहीं कर सकता।"
+    },
+    {
+     "vo": "तीसरी कड़ी: सब 'हाँ' हुआ, तभी सिग्नल हरा होता है, और रूट इंडिकेटर रास्ता दिखाता है।",
+     "prompt": "A signal turned green with a slanted row of white route lights lit above it, a turnout set ahead on the track, clear daylight, medium-wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "तीसरी कड़ी: सब 'हाँ' हुआ, तभी signal हरा होता है, और route indicator रास्ता दिखाता है।"
+    },
+    {
+     "vo": "ट्रेन के रास्ते में घुसते ही वो रास्ता लॉक हो जाता है। ट्रेन के नीचे कोई कांटा हिल नहीं सकता।",
+     "prompt": "An express train passing over a locked turnout, wheels on the closed tongue rail, a point machine beside the track, low close view, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "ट्रेन के रास्ते में घुसते ही वो रास्ता lock हो जाता है। ट्रेन के नीचे कोई कांटा हिल नहीं सकता।"
+    },
+    {
+     "vo": "पहले ये जाँच रिले के तारों में होती थी, अब कई स्टेशनों पर कंप्यूटर करता है: इलेक्ट्रॉनिक इंटरलॉकिंग।",
+     "prompt": "Rows of old signal relays in glass cases on the left side of a room and modern electronic interlocking cabinets on the right, wide shot, bright indoor light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "पहले ये जाँच relay के तारों में होती थी, अब कई स्टेशनों पर computer करता है: Electronic Interlocking।"
+    },
+    {
+     "vo": "भारत में रोज़ तेरह हज़ार से ज़्यादा पैसेंजर ट्रेनें चलती हैं, और हर ट्रेन रास्ते में दर्जनों कांटे पार करती है।",
+     "prompt": "A crowded Indian station platform with passengers boarding, several trains on parallel tracks and turnouts at the platform end, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "भारत में रोज़ 13,000 से ज़्यादा passenger ट्रेनें चलती हैं, और हर ट्रेन रास्ते में दर्जनों कांटे पार करती है।"
+    },
+    {
+     "vo": "बहानागा में यही चेन बीच से गलत जुड़ी थी। चेन उतनी ही पक्की होती है, जितने उसके तार।",
+     "prompt": "Neatly labelled signal wires on terminal blocks in a trackside cabinet, one wire being traced by a technician's finger, close-up, bright light, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "बहानागा में यही chain बीच से गलत जुड़ी थी। chain उतनी ही पक्की होती है, जितने उसके तार।"
+    },
+    {
+     "vo": "इसीलिए सिग्नल वाले हर तार बदलने के बाद पूरा रास्ता दोबारा परखते हैं, ट्रेन चलाने से पहले।",
+     "prompt": "Two signal engineers testing a route at a turnout, one holding a circuit diagram on a clipboard, a red signal beside them, medium-wide shot, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "इसीलिए signal वाले हर तार बदलने के बाद पूरा रास्ता दोबारा परखते हैं, ट्रेन चलाने से पहले।"
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "card": null,
+   "shots": [
+    {
+     "vo": "ट्रेन ख़ुद नहीं मुड़ती। पटरी उसे मोड़ती है, और हर कांटे पर पाँच मिलीमीटर की जाँच तय करती है कि वो रास्ता सच में सुरक्षित है या नहीं।",
+     "prompt": "A tongue rail pressed tight to the stock rail in the foreground, a green signal glowing beyond it, a train approaching in the distance, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pull",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अगली बार स्टेशन से निकलते वक़्त खिड़की से नीचे देखिए: नुकीली पटरी, और बगल में पॉइंट मशीन का डिब्बा।",
+     "prompt": "View looking down from a train coach window at a turnout passing below, the tongue rails and a grey point machine box clearly visible, bright daylight, close shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_left",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "caption": "अगली बार स्टेशन से निकलते वक़्त खिड़की से नीचे देखिए: नुकीली पटरी, और बगल में point machine का डिब्बा।"
+    },
+    {
+     "vo": "अगले एपिसोड में: हज़ार टन की ट्रेन के ब्रेक आख़िर लगते कैसे हैं?",
+     "prompt": "An Indian train's brake block pressed against a steel wheel, bright sparks flying from the contact, close-up, bright daylight, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "push",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+    },
+    {
+     "vo": "अगर आपको ये वीडियो पसंद आ रही है, तो चैनल को सब्सक्राइब करना न भूलें। इससे हमें ऐसी और वीडियो बनाने की प्रेरणा मिलती है।",
+     "prompt": "An Indian express train gliding away through a turnout into the distance, clear daylight, natural colour, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "move": "pan_right",
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "subscribe_ask": true
+    }
+   ]
+  }
+ ],
+ "late_intro": true,
+ "playbook": {
+  "topic_type": "system",
+  "points": [
+   0,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "framework": "2026-11-28 18:53"
+}
