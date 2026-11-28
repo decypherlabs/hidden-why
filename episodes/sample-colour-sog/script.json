@@ -1,0 +1,32 @@
+{
+ "slug": "sample-colour-sog",
+ "format": "long",
+ "build": "github",
+ "approved": true,
+ "lang": "hi",
+ "title": "Colour sample (Story of Giants)",
+ "hold_build": true,
+ "hindi_skip": "colour sample, no story",
+ "_about": "owner, 28 Nov 2026: natural-colour samples, painted before any video; never built or published",
+ "sections": [
+  {
+   "id": "s1",
+   "card": null,
+   "shots": [
+    {
+     "vo": "-",
+     "prompt": "a busy American supermarket aisle in 1985, shoppers seen from behind, shelves of red soda cans, bright fluorescent light, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+    },
+    {
+     "vo": "-",
+     "prompt": "a corporate boardroom in 1985 Atlanta, executives seen from behind around a long table, city skyline through the windows in daylight, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+    }
+   ]
+  }
+ ],
+ "art_style": "natural-colour modern documentary photograph, neutral white balance, true-to-life colours with clear blues, greens and crisp whites, natural light, people only from behind or in silhouette, no readable text, no logos, storefront signs blank or out of frame"
+}
