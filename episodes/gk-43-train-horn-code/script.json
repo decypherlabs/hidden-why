@@ -6,6 +6,7 @@
  "lang": "hi",
  "words_in_edit": true,
  "approved": true,
+ "paint_hold": true,
  "review": "auto",
  "voice_review": true,
  "title": "Train Horn Code कैसे काम करता है: हर हॉर्न में लोको पायलट क्या कहता है? 🚆",
@@ -41,7 +42,15 @@
      "vo": "प्लेटफ़ॉर्म पर चाय गर्म है।",
      "prompt": "A young Indian passenger holding a steaming clay kulhad of tea in both hands, close-up of the cup large in frame, a long blue express train with open doors beside them on a busy platform, bright daylight, sharp focus, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gfa8714bb7a6a231ff606bbf89a3f80d986aca374d29b99ad0afc19722c02d04b233028d721ab01e665dd255158ee3f4fbfe26aa951e71afe20e0790a853b97b0_1280.jpg",
+      "w": 4896,
+      "h": 3264,
+      "credit": "Pixabay (mmamontov)",
+      "page": "https://pixabay.com/photos/train-railway-locomotive-station-4971800/",
+      "card": 0.72
+     }
     },
     {
      "vo": "इंजन से दो छोटे हॉर्न, पीं... पीं...",
@@ -120,7 +129,15 @@
      "prompt": "An Indian train guard in dark blue uniform and white cap standing at the open brake van door, a rolled green flag and a rolled red flag in his right hand, seen from the side, platform behind him, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "हरी झंडी वाले ये आदमी पहले guard कहलाते थे। 2022 से Railway उन्हें Train Manager कहती है।"
+     "caption": "हरी झंडी वाले ये आदमी पहले guard कहलाते थे। 2022 से Railway उन्हें Train Manager कहती है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g91e870a96ec0026e25efc913747d2e6545b9bf6db2d387695aa7e504561b723d6f6cf26c711afb277dcb6ec1e6c0898a9248a7c648c518be41a51885985d7f14_1280.jpg",
+      "w": 4896,
+      "h": 3264,
+      "credit": "Pixabay (mmamontov)",
+      "page": "https://pixabay.com/photos/train-railway-locomotive-station-4971800/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और इंजन से उनकी दूरी? चौबीस डिब्बे की ट्रेन लगभग छह सौ मीटर लंबी होती है।",
@@ -137,29 +154,47 @@
     },
     {
      "vo": "बीच में अनाउंसमेंट, कुली, सैकड़ों यात्रियों का शोर। आवाज़ देकर बुलाना तो नामुमकिन है।",
-     "prompt": "A crowded Indian platform with porters in red shirts carrying suitcases on their heads, families with bags, tea vendors with trays, a long blue train alongside, bright daylight, sharp focus, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "बीच में announcement, कुली, सैकड़ों यात्रियों का शोर। आवाज़ देकर बुलाना तो नामुमकिन है।"
+     "clip": {
+      "id": 15724,
+      "tags": "yangon, myanmar, burma, train, yangon circular railway, platform, train platform, crowd, people, sellers, produce sellers, food sellers, hawkers, passengers, train passengers, boarding train, travel, asia, culture, rangoon, traditional, burmese, attraction, tourist",
+      "page": "https://pixabay.com/videos/id-15724/"
+     }
     },
     {
      "vo": "इसलिए लोको पायलट हॉर्न से पूछते हैं: दो छोटे। मतलब, 'मैं तैयार हूँ, क्या चलूँ?'",
      "prompt": "A middle-aged loco pilot in grey uniform and white cap seated at the controls, his right hand on the horn button, leaning to look back along the long train through the side window, bright daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Indian_railway_loco_pilot_signalling.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1920,
+      "h": 1080,
+      "credit": "Indian railway loco pilot signalling.JPG by Raj.palgun13, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Indian_railway_loco_pilot_signalling.JPG",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर ट्रेन मैनेजर झंडी तुरंत नहीं उठाते। पहले पूरे प्लेटफ़ॉर्म पर नज़र दौड़ाते हैं।",
-     "prompt": "A train manager in dark blue uniform and white cap at the brake van door, a green flag still lowered in his hand, turning his head to scan the long platform, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पर Train Manager झंडी तुरंत नहीं उठाते। पहले पूरे प्लेटफ़ॉर्म पर नज़र दौड़ाते हैं।"
+     "clip": {
+      "id": 3178,
+      "tags": "train, railway, railway station, departure, travel, welcome, transportation, station, rails, transport, railroad, platform, locomotive, journey, passenger, wagon, arrival, terminal, public transportation, traveler, commuting, tourism, commute",
+      "page": "https://pixabay.com/videos/id-3178/"
+     }
     },
     {
      "vo": "कोई दरवाज़े पर लटका तो नहीं? कोई बुज़ुर्ग यात्री अभी चढ़ ही रहे हैं?",
      "prompt": "An elderly Indian man with white hair and a white kurta being helped up the steps of a blue coach door by a younger man in a blue shirt, other passengers waiting behind them, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g473ae4940677663497641a1f56ad9c009a797595ecd143d4db5751138131bb01ef02b44a2302cb2ea72b5385470a29d1a2b41ef0bc0cc373eb47955bafdf6a17_1280.jpg",
+      "w": 4896,
+      "h": 3264,
+      "credit": "Pixabay (mmamontov)",
+      "page": "https://pixabay.com/photos/train-railway-locomotive-station-4971800/",
+      "card": 0.72
+     }
     },
     {
      "vo": "सब ठीक हो, तभी हरी झंडी। और रात में, हरे शीशे वाला हाथ का लैंप।",
@@ -179,20 +214,37 @@
      "prompt": "The steel wheels of an Indian locomotive just starting to turn on the rail, close and low angle, the platform edge and a yellow line in the frame, bright daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "ट्रेन धीरे से सरकने लगती है। एक शब्द बोले बिना, 600 मीटर के पार बात हो गई।"
+     "caption": "ट्रेन धीरे से सरकने लगती है। एक शब्द बोले बिना, 600 मीटर के पार बात हो गई।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/ZDM_2_Diesel_locomotive_at_Solan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1024,
+      "h": 680,
+      "credit": "ZDM 2 Diesel locomotive at Solan.jpg by generalising from Cambridge, UK, CC BY-SA 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:ZDM_2_Diesel_locomotive_at_Solan.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "और ये भाषा नई नहीं है। ये भाप इंजन के ज़माने से चली आ रही है।",
      "prompt": "An old black Indian steam locomotive standing at a heritage station platform, a brass whistle on top of the boiler, a puff of white steam rising, bright daylight, sharp focus, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/ge42102d4115997786ee5df3996eb4c424ba1ae513c751ecce8be745548a9bcc9870bb66bd58341c6ab7fc38b54e5017e93c45714f652e6d3595ba8e9b5ed0bfe_1280.jpg",
+      "w": 6000,
+      "h": 4000,
+      "credit": "Pixabay (Géo)",
+      "page": "https://pixabay.com/photos/locomotive-train-transport-rail-10084813/",
+      "card": 0.72
+     }
     },
     {
      "vo": "तब हॉर्न नहीं, भाप की सीटी होती थी। इसीलिए रूल बुक में आज भी इसे 'सीटी' ही कहते हैं।",
-     "prompt": "A brass steam whistle on top of an old black Indian steam locomotive releasing a jet of white steam, the whistle large in the frame, bright daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "तब हॉर्न नहीं, भाप की सीटी होती थी। इसीलिए rule book में आज भी इसे 'सीटी' ही कहते हैं।"
+     "clip": {
+      "id": 21555,
+      "tags": "train, locomotive, steam locomotive, railway, blackjack, rails, metal, loco",
+      "page": "https://pixabay.com/videos/id-21555/"
+     }
     },
     {
      "vo": "पर रेडियो के ज़माने में भी हॉर्न क्यों बचा है? क्योंकि हॉर्न सिर्फ़ ट्रेन मैनेजर के लिए नहीं बजता।",
@@ -209,10 +261,11 @@
    "shots": [
     {
      "vo": "आगे एक छोटा स्टेशन है। इस ट्रेन का वहाँ स्टॉप नहीं है, और रफ़्तार पूरी है।",
-     "prompt": "A small Indian roadside station with a yellow name board reading \"रामपुरा\" and \"RAMPURA\", the board large, flat and facing the camera, a few passengers waiting on the platform, empty track, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "आगे एक छोटा स्टेशन है। इस ट्रेन का वहाँ stop नहीं है, और रफ़्तार पूरी है।"
+     "clip": {
+      "id": 22686,
+      "tags": "train, passing, nature, trees, fast, speed",
+      "page": "https://pixabay.com/videos/id-22686/"
+     }
     },
     {
      "vo": "स्टेशन से पहले लोको पायलट हॉर्न दबाते हैं, और फिर छोड़ते नहीं।",
@@ -224,7 +277,15 @@
      "vo": "एक लंबा, लगातार हॉर्न। मतलब: 'मैं रुकूँगा नहीं, पटरी से दूर रहो।'",
      "prompt": "A blue Indian express train rushing through a small station at full speed, the locomotive large in the frame, coaches streaming behind, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Indian_Railways_Orange_Vande_Bharat_at_Bengaluru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1260,
+      "h": 713,
+      "credit": "Indian Railways Orange Vande Bharat at Bengaluru.jpg by ActStuffOGWiki, CC BY 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Indian_Railways_Orange_Vande_Bharat_at_Bengaluru.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "प्लेटफ़ॉर्म के किनारे खड़े लोग पीली लाइन से पीछे हट जाते हैं।",
@@ -256,7 +317,15 @@
      "vo": "और पटरी पर एक और आदमी है, जिसे आप शायद कभी नहीं देखते।",
      "prompt": "A lone keyman in orange vest and yellow helmet walking on the railway sleepers far down a straight track beyond a small station, bright daylight, sharp focus, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g60ad9d593f073c5e038c64df616ffe64e6ba612433fa34efd56c2ce929c8336ad1594e68cb00e83e662b0b5b5ac405957d2898b6862047f9c2a7f55f0633d174_1280.jpg",
+      "w": 4098,
+      "h": 2513,
+      "credit": "Pixabay (sarangib)",
+      "page": "https://pixabay.com/photos/track-inspection-car-railway-track-179231/",
+      "card": 0.72
+     }
     },
     {
      "vo": "कीमैन। हर दिन अपने हिस्से की पटरी पैदल चलकर, एक-एक बोल्ट चेक करते हैं।",
@@ -279,10 +348,11 @@
     },
     {
      "vo": "क्योंकि तेज़ ट्रेन रफ़्तार के हिसाब से छह सौ मीटर से एक किलोमीटर में रुकती है।",
-     "prompt": "A long straight railway track seen from the locomotive window, the two rails running far into the distance, a small village at the far end, bright daylight, sharp focus, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "क्योंकि तेज़ ट्रेन रफ़्तार के हिसाब से 600 मीटर से एक किलोमीटर में रुकती है।"
+     "clip": {
+      "id": 183270,
+      "tags": "train, bernina express, forest, unesco, bernina, rhb, architecture, tourism, travel, switzerland",
+      "page": "https://pixabay.com/videos/id-183270/"
+     }
     },
     {
      "vo": "पटरी पर कोई दिखे और ब्रेक लगे, तब भी देर हो चुकी होती है। इसलिए हॉर्न पहले।",
@@ -294,7 +364,15 @@
      "vo": "लेकिन सबसे बड़ा ख़तरा स्टेशन पर नहीं। वो सड़क पर इंतज़ार कर रहा है।",
      "prompt": "A railway level crossing seen in the distance ahead along the track, red-and-white barriers lowered across the road, a tractor and several motorcycles waiting, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/gdb5813bab380ebd1df42ec0bae4a18907814df09d84c87dbd3e19d6c08a977fbdf35c6c3d32202d8e57a92718eb7ed4d778ba6cde45a0840029ddd5d435821cd_1280.jpg",
+      "w": 4650,
+      "h": 2365,
+      "credit": "Pixabay (hpgruesen)",
+      "page": "https://pixabay.com/photos/railroad-crossing-drive-through-1695561/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -313,7 +391,15 @@
      "vo": "फाटक से कुछ सौ मीटर पहले, पटरी किनारे एक बोर्ड खड़ा है।",
      "prompt": "A square yellow metal board on a post beside a railway track in open countryside, the track running toward a distant crossing, the board facing the camera, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g0e8c4502b59519648eb3633ad486aa95026d10dbf38f4ad84de5e10d606b58e6a62f325eb095750dc188b2a6dd908dc61b04a656a575be2b160ebd9a7a635c64_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (chrisp120)",
+      "page": "https://pixabay.com/photos/train-heritage-diesel-4441348/",
+      "card": 0.72
+     }
     },
     {
      "vo": "उस पर लिखा है 'सी/फा'। यानी सीटी बजाओ, फाटक आ रहा है। अंग्रेज़ी में डब्ल्यू/एल।",
@@ -341,7 +427,15 @@
      "prompt": "A narrow village road meeting a railway track with no gate, no barrier and no hut, only a small plain signpost, dry fields on both sides, bright morning sun, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "वहाँ एक मानवरहित फाटक था। न barrier, न gate, बस सड़क और पटरी।"
+     "caption": "वहाँ एक मानवरहित फाटक था। न barrier, न gate, बस सड़क और पटरी।",
+     "photo": {
+      "src": "https://pixabay.com/get/g47761e99d36a582c062ae752580147942b2bac161321f092c563ad05703e38b92aec36974849b674f110b1ca05eb57ecf75ebb9d0838f71c92a16cc0781b9c33_1280.jpg",
+      "w": 4608,
+      "h": 3072,
+      "credit": "Pixabay (652234)",
+      "page": "https://pixabay.com/photos/rails-soft-tracks-railroad-3309912/",
+      "card": 0.72
+     }
     },
     {
      "vo": "सुबह का वक़्त था, बच्चे स्कूल जा रहे थे। एक स्कूल वैन पटरी पर चढ़ी।",
@@ -368,7 +462,15 @@
      "prompt": "A white car stopped well before an ungated railway crossing, its driver, a man in a grey shirt, standing beside it looking both ways down the track, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Motor Vehicles Act की धारा 131 कहती है: बिना gate वाले फाटक पर रुको, देखो, तब पार करो।"
+     "caption": "Motor Vehicles Act की धारा 131 कहती है: बिना gate वाले फाटक पर रुको, देखो, तब पार करो।",
+     "photo": {
+      "src": "https://pixabay.com/get/g87e04e6dc3b9476b235b638855a4d43c85b670dbb6e08cd2889266b0579dcd4005737be23e5b9f1475aecbcbe052af4ddb8069f4b9b1d04e1656c68291c3fd39_1280.jpg",
+      "w": 5208,
+      "h": 3476,
+      "credit": "Pixabay (knerri61)",
+      "page": "https://pixabay.com/photos/stop-sign-traffic-sign-road-sign-634941/",
+      "card": 0.72
+     }
     },
     {
      "vo": "पर हॉर्न तभी काम करता है, जब कोई सुने। तो रेलवे ने फाटक ही बदल दिए।",
@@ -388,7 +490,15 @@
      "vo": "फाटक पीछे छूट गया। लेकिन आगे ट्रेन को अपनी पटरी ही बदलनी है।",
      "prompt": "The railway track splitting into two at a junction ahead of a locomotive, steel points visible between the rails, seen from the cab window, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Indian_Railways_Track_Maintenance_-_various_tasks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1600,
+      "h": 1200,
+      "credit": "Indian Railways Track Maintenance - various tasks.jpg by Gopal Aggarwal, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Indian_Railways_Track_Maintenance_-_various_tasks.jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -401,7 +511,15 @@
      "prompt": "A wide Indian railway junction with several tracks fanning out, a blue express approaching on the main line, a signal post on the left, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "आगे junction है। ट्रेन को सीधे नहीं, बगल वाली line पर जाना है।"
+     "caption": "आगे junction है। ट्रेन को सीधे नहीं, बगल वाली line पर जाना है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g2e69e89b56245b39d9a72d78b1b0d25cb238a5fbd57280d381b4bb5c13985354bb5cfc81224854ad4608e8bdd3f8f70742e5da907e4a3a7d4e5d797988fa9283_1280.jpg",
+      "w": 4608,
+      "h": 3072,
+      "credit": "Pixabay (652234)",
+      "page": "https://pixabay.com/photos/rails-soft-tracks-railroad-3309912/",
+      "card": 0.72
+     }
     },
     {
      "vo": "सिग्नल ने रास्ता दे दिया है। पॉइंट्स भी बदल चुके हैं, ट्रेन के लिए नया रास्ता तैयार।",
@@ -435,14 +553,30 @@
      "prompt": "A blue Indian locomotive crossing over from the main line onto the side track, its wheels on the crossing rails, seen from a low side angle, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इंजन main line से उतरकर, बगल की line पर चढ़ जाता है।"
+     "caption": "इंजन main line से उतरकर, बगल की line पर चढ़ जाता है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g8de7caf93f5332b2a9d94dad78bd30d67d55d9e8b2580a842bf0eefc87cbc6e0cfb900f2e7dc28e545a56acc6f33a09c2dcf1394cfdefbab7e5b762321471572_1280.jpg",
+      "w": 4608,
+      "h": 3072,
+      "credit": "Pixabay (652234)",
+      "page": "https://pixabay.com/photos/rails-soft-tracks-railroad-3309912/",
+      "card": 0.72
+     }
     },
     {
      "vo": "ट्रेन मैनेजर खिड़की से देखते हैं: हर डिब्बा ठीक से मुड़ रहा है? कोई चिंगारी, कोई झटका तो नहीं?",
      "prompt": "A long blue train snaking smoothly through a junction onto a side line, seen from the brake van window at the rear, a hand on the window frame, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Train Manager खिड़की से देखते हैं: हर डिब्बा ठीक से मुड़ रहा है? कोई चिंगारी, कोई झटका तो नहीं?"
+     "caption": "Train Manager खिड़की से देखते हैं: हर डिब्बा ठीक से मुड़ रहा है? कोई चिंगारी, कोई झटका तो नहीं?",
+     "photo": {
+      "src": "https://pixabay.com/get/g9bacc04fa7d4b6cdacb95fcf530737b978bc2334a1c42150029142285d626d0774547eeb0a0091b0dbac85e53cbafeba4a09e3f670b7c6e91d96a9b18fd4106c_1280.jpg",
+      "w": 6725,
+      "h": 4485,
+      "credit": "Pixabay (r-q)",
+      "page": "https://pixabay.com/photos/old-train-train-nostalgia-china-8110662/",
+      "card": 0.72
+     }
     },
     {
      "vo": "डिब्बे में सोए यात्री को बस हल्का सा झटका लगता है।",
@@ -461,14 +595,30 @@
      "prompt": "A middle-aged loco pilot in grey uniform and white cap sitting up straight in the cab, surprised face, looking at the gauges on the panel, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "फिर अचानक, बिना किसी signal के, ट्रेन धीमी होने लगती है।"
+     "caption": "फिर अचानक, बिना किसी signal के, ट्रेन धीमी होने लगती है।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Bhusawal_WAM_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1296,
+      "h": 972,
+      "credit": "Bhusawal WAM 4.jpg by Swapnilshelatkar, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bhusawal_WAM_4.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "इंजन में ब्रेक पाइप का प्रेशर गिर रहा है। किसी ने पीछे कुछ खींचा है।",
      "prompt": "A round analog brake pressure gauge in a locomotive cab, the needle large and dropping toward the low end, a loco pilot's blurred hand beside it, bright daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "इंजन में brake pipe का pressure गिर रहा है। किसी ने पीछे कुछ खींचा है।"
+     "caption": "इंजन में brake pipe का pressure गिर रहा है। किसी ने पीछे कुछ खींचा है।",
+     "photo": {
+      "src": "https://pixabay.com/get/ga0cb6ff2962b9fb647eea4ace0d47642d3158bc8fc1b7848528df888d31697b46f465b5ec5098ef13421509b2b43e39c61d24ad2d2990854594cb7f7351b871f_1280.jpg",
+      "w": 5127,
+      "h": 3418,
+      "credit": "Pixabay (ThomasWolter)",
+      "page": "https://pixabay.com/photos/manometer-pressure-technology-4345880/",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -481,7 +631,15 @@
      "prompt": "A hand pulling the red alarm chain handle above a window inside an Indian train coach, a plate beside it reading \"ALARM CHAIN\", the plate large, flat and facing the camera, bright daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "किसी डिब्बे में किसी ने alarm chain खींच दी है।"
+     "caption": "किसी डिब्बे में किसी ने alarm chain खींच दी है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g33f249f720decbf36ecd71e6af6b33f6a6014de048da7415f6fa33594aa24dcc0ff6798295810db9d33e920ee87e4b37f024b13a68c78f532936aaccb5640293_1280.jpg",
+      "w": 5184,
+      "h": 3456,
+      "credit": "Pixabay (lutz6078)",
+      "page": "https://pixabay.com/photos/emergency-brake-train-danger-2111981/",
+      "card": 0.72
+     }
     },
     {
      "vo": "चेन खिंचते ही ब्रेक पाइप की हवा निकलती है, और पूरी ट्रेन के ब्रेक लगने लगते हैं।",
@@ -495,7 +653,15 @@
      "prompt": "A middle-aged loco pilot in grey uniform and white cap tapping the brake pressure gauge with one finger, frowning, the gauge needle falling, bright daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "लोको पायलट को gauge पर दिखता है: pressure लगातार नीचे जा रहा है।"
+     "caption": "लोको पायलट को gauge पर दिखता है: pressure लगातार नीचे जा रहा है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g37e142d662baecaa3963d5e0d84e392b5d2605e75c36716ce9d6fd5768a1a2cf5e49f03be54fc9106537eb1f9d2ef6a8ddec736104ce23bfe5e1c0ac92e4edbe_1280.jpg",
+      "w": 3942,
+      "h": 2871,
+      "credit": "Pixabay (hpgruesen)",
+      "page": "https://pixabay.com/photos/steam-locomotive-drivers-cab-1433767/",
+      "card": 0.72
+     }
     },
     {
      "vo": "अब वो पीछे खबर भेजते हैं: दो छोटे, एक लंबा।",
@@ -541,7 +707,15 @@
      "vo": "ज़रूरत सच्ची हो तो ठीक है: कोई बीमार यात्री, या स्टेशन पर छूटा कोई बच्चा।",
      "prompt": "A worried woman in a yellow sari standing at a coach door, pointing back along the track, an RPF constable in khaki uniform listening beside her, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://pixabay.com/get/g2eac0a3e03d69d6c1107fc91360f9576231bb461949f860d63db375aab0f26e910d66e9f0be77f1ad50b10567dc74ed0de35d19ce551581aa2ddd8d0e2d353d6_1280.jpg",
+      "w": 4896,
+      "h": 3264,
+      "credit": "Pixabay (mmamontov)",
+      "page": "https://pixabay.com/photos/train-railway-locomotive-station-4971800/",
+      "card": 0.72
+     }
     },
     {
      "vo": "बेवजह खींची, तो रेलवे एक्ट की धारा एक सौ इकतालीस लगती है।",
@@ -555,7 +729,15 @@
      "prompt": "An RPF constable in khaki uniform writing in a challan book, a young man in a blue shirt standing beside him with his head bowed, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "एक साल तक जेल, या ₹1,000 तक जुर्माना, या दोनों।"
+     "caption": "एक साल तक जेल, या ₹1,000 तक जुर्माना, या दोनों।",
+     "photo": {
+      "src": "https://pixabay.com/get/gec7175ee182d800a98c0eb3462eea842a36b762193209118cd6d82081521b77f3f74266f9e45feebfa31b364460e59e0b61f550bb1e8a9a7239450c12fa4dd43_1280.jpg",
+      "w": 5893,
+      "h": 2881,
+      "credit": "Pixabay (sick-street-photography)",
+      "page": "https://pixabay.com/photos/jail-gangster-caught-penalty-5210097/",
+      "card": 0.72
+     }
     },
     {
      "vo": "और पीछे आ रही ट्रेनें भी उतनी देर लाल सिग्नल पर रुकी रहती हैं।",
@@ -568,7 +750,15 @@
      "vo": "पर चेन तो छोटी बात थी। असली डर तब है, जब इंजन ही बात न माने।",
      "prompt": "A long downhill stretch of railway track through green hills, a blue express starting down the slope, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
+     "photo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/An_Indian_Railways_Class_WAP-7_belonging_to_Siliguri_Diesel_Loco_Shed%2C_parked_in_a_station_loop_at_Siliguri_Town_railway_station_in_the_evening..jpg/1920px-An_Indian_Railways_Class_WAP-7_belonging_to_Siliguri_Diesel_Loco_Shed%2C_parked_in_a_station_loop_at_Siliguri_Town_railway_station_in_the_evening..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3872,
+      "h": 2592,
+      "credit": "An Indian Railways Class WAP-7 belonging to Siliguri Diesel Loco Shed, parked in a station loop at Siliguri Town railway station in the evening..jpg by NLBRT, CC BY-SA 4.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:An_Indian_Railways_Class_WAP-7_belonging_to_Siliguri_Diesel_Loco_Shed,_parked_in_a_station_loop_at_Siliguri_Town_railway_station_in_the_evening..jpg",
+      "card": 0.72
+     }
     }
    ]
   },
@@ -578,9 +768,11 @@
    "shots": [
     {
      "vo": "सोचिए, ट्रेन ढलान पर है, और लोको पायलट का ब्रेक साथ नहीं दे रहा।",
-     "prompt": "A middle-aged loco pilot in grey uniform and white cap pulling hard on the brake handle with both hands, sweat on his face, the steep downhill track rushing ahead through the windscreen, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "clip": {
+      "id": 183271,
+      "tags": "train, mountains, rhb, switzerland, unesco, bernina, forest, historic, architecture, tourism, landscape",
+      "page": "https://pixabay.com/videos/id-183271/"
+     }
     },
     {
      "vo": "ऐसे पल का भी एक कोड है, जो बहुत ही कम बजता है।",
@@ -600,7 +792,15 @@
      "prompt": "A train manager in dark blue uniform and white cap in his brake van snapping his head up at the sound, alarmed face, bright daylight, close-up, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "मतलब: 'मेरा control छूट गया है। पीछे से brake लगाओ।'"
+     "caption": "मतलब: 'मेरा control छूट गया है। पीछे से brake लगाओ।'",
+     "photo": {
+      "src": "https://pixabay.com/get/g1ff15cfe94d08393e6bbb0f4bc47dcd76927f1c425b270b1601ccf839a7a30867932991564c4c2439c31e1faf0bdca21d857db55ba4c4256861d3fbb91fec28e_1280.jpg",
+      "w": 5499,
+      "h": 3666,
+      "credit": "Pixabay (Tama66)",
+      "page": "https://pixabay.com/photos/rail-control-desk-transport-3112109/",
+      "card": 0.72
+     }
     },
     {
      "vo": "ट्रेन मैनेजर के डिब्बे में भी इमरजेंसी ब्रेक का अपना हैंडल होता है।",
@@ -679,7 +879,15 @@
      "prompt": "A gateman in uniform at his small hut turning toward the track, one hand on the barrier lever, alert face, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "आसपास जो भी Railway वाला सुने, उसे बिना बताए पता है: कुछ ठीक नहीं।"
+     "caption": "आसपास जो भी Railway वाला सुने, उसे बिना बताए पता है: कुछ ठीक नहीं।",
+     "photo": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Indian_Railways_Track_Maintenance_Dec_2007_Jalandhar_Punjab_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1024,
+      "h": 768,
+      "credit": "Indian Railways Track Maintenance Dec 2007 Jalandhar Punjab India.jpg by Gopal Aggarwal, CC BY 2.0, Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Indian_Railways_Track_Maintenance_Dec_2007_Jalandhar_Punjab_India.jpg",
+      "card": 0.5
+     }
     },
     {
      "vo": "स्टेशन मास्टर आगे-पीछे के स्टेशनों को खबर करते हैं, ताकि कोई और ट्रेन इधर न बढ़े।",
@@ -700,7 +908,15 @@
      "prompt": "A gateman in uniform holding a heavy barrier rope with both hands, a black radio clipped to his belt, out of reach, strained face, bright daylight, medium shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "Radio उसी तक पहुँचता है, जिसके पास set है, और उस पल चालू है।"
+     "caption": "Radio उसी तक पहुँचता है, जिसके पास set है, और उस पल चालू है।",
+     "photo": {
+      "src": "https://pixabay.com/get/g70e4cbd89b2c26392dc0cb0d2d5df50df5ffdf342e19c3ecc3d08414871755318489243d3d1e99e63ddfb9072af12cf03cb362d8b489dc0d55165ef964d94f32_1280.jpg",
+      "w": 3330,
+      "h": 3330,
+      "credit": "Pixabay (jeanvdmeulen)",
+      "page": "https://pixabay.com/photos/antenna-black-cable-communication-4769733/",
+      "card": 0.72
+     }
     },
     {
      "vo": "हॉर्न को नेटवर्क नहीं चाहिए। कोई बैटरी नहीं, कोई जवाबी बटन नहीं।",
@@ -732,10 +948,11 @@
     },
     {
      "vo": "और सफ़र के बाद, जब यार्ड में इंजन हिल रहा हो, तो बस एक छोटा हॉर्न।",
-     "prompt": "An empty blue train rolling slowly into an Indian railway yard, rows of parked blue coaches on either side, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_left",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "और सफ़र के बाद, जब yard में इंजन हिल रहा हो, तो बस एक छोटा हॉर्न।"
+     "clip": {
+      "id": 90789,
+      "tags": "locomotive, train, railway, junkyard, rust, old, drone, low angle, aerial",
+      "page": "https://pixabay.com/videos/id-90789/"
+     }
     },
     {
      "vo": "तो ट्रेन हॉर्न से ही बात क्यों करती है? क्योंकि हॉर्न बटन नहीं, एक भाषा है।",
@@ -745,9 +962,11 @@
     },
     {
      "vo": "जो इंजन से आख़िरी डिब्बे तक, और पटरी किनारे हर इंसान तक, एक साथ पहुँचती है।",
-     "prompt": "A long blue express moving across open green country, seen from the side, a keyman in orange vest, a gateman and villagers along the line watching it pass, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
-     "move": "pan_right",
-     "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore"
+     "clip": {
+      "id": 22686,
+      "tags": "train, passing, nature, trees, fast, speed",
+      "page": "https://pixabay.com/videos/id-22686/"
+     }
     }
    ]
   },
@@ -797,7 +1016,5 @@
    1
   ]
  },
- "framework": "2026-11-28 22:19",
- "released_at": "2026-11-28 22:19",
- "voice_requested": "voice-gk-43-train-horn-code-b9526c5667"
+ "photos_checked": true
 }
