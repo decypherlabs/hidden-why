@@ -1,0 +1,32 @@
+{
+ "slug": "sample-colour-tsm",
+ "format": "long",
+ "build": "github",
+ "approved": true,
+ "lang": "en",
+ "title": "Colour sample (The State Maps)",
+ "hold_build": true,
+ "hindi_skip": "colour sample, no story",
+ "_about": "owner, 28 Nov 2026: natural-colour samples for every channel; never built or published",
+ "sections": [
+  {
+   "id": "s1",
+   "card": null,
+   "shots": [
+    {
+     "vo": "-",
+     "prompt": "a narrow sea strait seen from a cliff on a clear day, a large container ship passing through turquoise water, desert hills on the far shore, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+    },
+    {
+     "vo": "-",
+     "prompt": "a border crossing on a mountain road in daylight, a long line of trucks, a striped barrier, snow-capped peaks behind, medium shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+    }
+   ]
+  }
+ ],
+ "art_style": "natural-colour modern documentary photograph, neutral white balance, true-to-life colours with clear blues, greens and crisp whites, natural light, no faces in close-up, no readable text, no logos"
+}

@@ -1,0 +1,31 @@
+{
+ "slug": "sample-colour-thw",
+ "format": "long",
+ "build": "github",
+ "approved": true,
+ "lang": "en",
+ "title": "Colour sample (The Hidden Why)",
+ "hold_build": true,
+ "hindi_skip": "colour sample, no story",
+ "_about": "owner, 28 Nov 2026: natural-colour samples for every channel; never built or published",
+ "sections": [
+  {
+   "id": "s1",
+   "card": null,
+   "shots": [
+    {
+     "vo": "-",
+     "prompt": "a quiet American suburban street on a sunny morning, wooden houses with white siding and green lawns, a yellow school bus at the curb, wide shot",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+    },
+    {
+     "vo": "-",
+     "prompt": "close-up of a hand holding a red pencil over a kitchen table in bright daylight, a glass of orange juice and a blue mug beside it",
+     "move": "push",
+     "negative": "text, letters, words, logo, brand name, watermark, signage text, recognisable real person, celebrity likeness, deformed hands, extra fingers, distorted face, blurry"
+    }
+   ]
+  }
+ ]
+}
