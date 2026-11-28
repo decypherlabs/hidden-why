@@ -270,10 +270,9 @@ def footage(ctx, it, t, i, n):
         import cv2
         cw, ch = int(W / 1.22), int(H / 1.22)
         rgb = cv2.resize(rgb[(H - ch) // 2:(H - ch) // 2 + ch, (W - cw) // 2:(W - cw) // 2 + cw], (W, H), interpolation=cv2.INTER_LINEAR)
-    rgb = kit.grade(rgb, sat=0.55 if it.get("kind") == "archive" else 0.8, tint=ctx.L["tint"])
-    if it.get("kind") == "archive":  # duotone-ish archive treatment
-        g = rgb.mean(axis=2, keepdims=True)
-        rgb = np.clip(g * np.array([1.05, 0.98, 0.86]), 0, 255).astype(np.uint8)
+    # owner, 28 Nov 2026 ("natural images", "brown, khaki shade"): footage in full natural colour; archive footage
+    # only a little desaturated, never the old brown duotone
+    rgb = kit.grade(rgb, sat=0.7 if it.get("kind") == "archive" else 1.0, tint=ctx.L["tint"])
     return rgb
 
 
@@ -298,7 +297,7 @@ def still(ctx, it, t, i, n):
     x0 = int(np.clip(src.shape[1] * cx - cw / 2, 0, src.shape[1] - cw))
     y0 = int(np.clip(src.shape[0] * cy - ch / 2, 0, src.shape[0] - ch))
     import cv2
-    return kit.grade(cv2.resize(src[y0:y0 + ch, x0:x0 + cw], (W, H), interpolation=cv2.INTER_LINEAR), tint=ctx.L["tint"])
+    return kit.grade(cv2.resize(src[y0:y0 + ch, x0:x0 + cw], (W, H), interpolation=cv2.INTER_LINEAR), sat=1.0, tint=ctx.L["tint"])
 
 
 def _desk(ctx, key):
