@@ -614,10 +614,11 @@
     },
     {
      "vo": "बारह हज़ार आठ सौ इकतालीस कोरोमंडल एक्सप्रेस, कोलकाता के पास शालीमार से चेन्नई जा रही थी।",
-     "prompt": "An Indian express train with blue coaches on a main line through flat green Odisha countryside, a large flat coach name board facing the camera reading \"COROMANDEL EXPRESS\", bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An Indian express train with blue coaches running on a main line through flat green Odisha countryside, rice fields on both sides, plain blue coach sides with no writing or boards, the whole train visible on the track, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "12841 Coromandel Express, कोलकाता के पास शालीमार से चेन्नई जा रही थी।"
+     "caption": "12841 Coromandel Express, कोलकाता के पास शालीमार से चेन्नई जा रही थी।",
+     "seed": 8999
     },
     {
      "vo": "मुख्य लाइन पर उसकी रफ़्तार करीब एक सौ अट्ठाईस किलोमीटर प्रति घंटा थी, तय सीमा के अंदर। सामने सिग्नल हरा।",
@@ -711,24 +712,27 @@
    "shots": [
     {
      "vo": "जवाब कोई एक इंसान नहीं। एक चेन है, जो स्टेशन मास्टर से शुरू होकर सिग्नल पर ख़त्म होती है।",
-     "prompt": "An Indian station building with the Station Master's office window large on the left, tracks and a signal visible beyond it on the right, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An Indian station building with a plain whitewashed front, the Station Master's office window large on the left, no signboards, no writing, no shopfronts, railway tracks and a signal visible beyond it on the right, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "push",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "जवाब कोई एक इंसान नहीं। एक chain है, जो Station Master से शुरू होकर signal पर ख़त्म होती है।"
+     "caption": "जवाब कोई एक इंसान नहीं। एक chain है, जो Station Master से शुरू होकर signal पर ख़त्म होती है।",
+     "seed": 9012
     },
     {
      "vo": "पहली कड़ी: स्टेशन मास्टर अपने पैनल पर रास्ता चुनता है। एक बटन शुरुआत का, एक आख़िर का।",
-     "prompt": "An Indian Station Master in a white uniform at a large control panel with a track diagram and rows of buttons, pressing one button with his finger, side view, medium shot, bright indoor light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An Indian Station Master in a white uniform seen from the side, seated at a control desk, pressing one large round button with his finger, the panel shows plain coloured lines and unlabelled buttons only, no text, no labels, no posters, blank wall behind him, one figure, medium shot, bright indoor light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_right",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पहली कड़ी: Station Master अपने panel पर रास्ता चुनता है। एक बटन शुरुआत का, एक आख़िर का।"
+     "caption": "पहली कड़ी: Station Master अपने panel पर रास्ता चुनता है। एक बटन शुरुआत का, एक आख़िर का।",
+     "seed": 9013
     },
     {
      "vo": "पर बटन दबाने से सिग्नल हरा नहीं होता। बटन बस एक अर्ज़ी है।",
-     "prompt": "A finger resting on a single panel button, the route lights beside it still dark, close-up, bright indoor light, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "Close-up of a finger resting on a single large round panel button, a short strip of small route lights beside it still dark, the panel surface plain and unlabelled with no text or lettering, shallow background blur, bright indoor light, sharp focus, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pull",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "पर बटन दबाने से signal हरा नहीं होता। बटन बस एक अर्ज़ी है।"
+     "caption": "पर बटन दबाने से signal हरा नहीं होता। बटन बस एक अर्ज़ी है।",
+     "seed": 9014
     },
     {
      "vo": "दूसरी कड़ी है इंटरलॉकिंग। ये सिस्टम हर अर्ज़ी पर एक-एक करके कई शर्तें जाँचता है।",
@@ -759,10 +763,11 @@
     },
     {
      "vo": "एक भी जवाब 'नहीं', तो सिग्नल लाल। स्टेशन मास्टर चाहे भी, हरा नहीं कर सकता।",
-     "prompt": "An Indian Station Master seated at the panel with his finger on a button, a red signal glowing outside the window behind him, medium shot, bright light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "An Indian Station Master in a white uniform seated at a plain desk panel with his finger on one button, facing the viewer, one figure waist-up, a red signal glowing outside the window behind him, panel and walls plain with no text, labels or posters, medium shot, bright light, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "एक भी जवाब 'नहीं', तो signal लाल। Station Master चाहे भी, हरा नहीं कर सकता।"
+     "caption": "एक भी जवाब 'नहीं', तो signal लाल। Station Master चाहे भी, हरा नहीं कर सकता।",
+     "seed": 9019
     },
     {
      "vo": "तीसरी कड़ी: सब 'हाँ' हुआ, तभी सिग्नल हरा होता है, और रूट इंडिकेटर रास्ता दिखाता है।",
@@ -787,10 +792,11 @@
     },
     {
      "vo": "भारत में रोज़ तेरह हज़ार से ज़्यादा पैसेंजर ट्रेनें चलती हैं, और हर ट्रेन रास्ते में दर्जनों कांटे पार करती है।",
-     "prompt": "A crowded Indian station platform with passengers boarding, several trains on parallel tracks and turnouts at the platform end, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
+     "prompt": "A wide view along an Indian station platform with several trains on parallel tracks and turnouts at the platform end, only a few small passengers far away, plain platform roof and pillars with no signboards or writing, bright daylight, wide shot, photorealistic modern documentary photograph, neutral white balance, wide 16:9 composition, natural true-to-life colour, sharp detail",
      "move": "pan_left",
      "negative": "text, letters, words, numbers, logo, watermark, signs, lettering, writing, map, globe, chart, screen, poster, cartoon, gore",
-     "caption": "भारत में रोज़ 13,000 से ज़्यादा passenger ट्रेनें चलती हैं, और हर ट्रेन रास्ते में दर्जनों कांटे पार करती है।"
+     "caption": "भारत में रोज़ 13,000 से ज़्यादा passenger ट्रेनें चलती हैं, और हर ट्रेन रास्ते में दर्जनों कांटे पार करती है।",
+     "seed": 9023
     },
     {
      "vo": "बहानागा में यही चेन बीच से गलत जुड़ी थी। चेन उतनी ही पक्की होती है, जितने उसके तार।",
@@ -858,5 +864,29 @@
  "released_at": "2026-11-28 18:53",
  "voice_requested": "voice-gk-41-railway-points-track-change-6a62e1bc58",
  "voice_ok": "voice-gk-41-railway-points-track-change-6a62e1bc58",
- "voice_approved_at": "2026-11-28 19:25"
+ "voice_approved_at": "2026-11-28 19:25",
+ "repaint": {
+  "shots": [
+   80,
+   93,
+   94,
+   95,
+   100,
+   104
+  ],
+  "thumbs": [],
+  "at": "2026-11-28 22:31"
+ },
+ "shot_qc": {
+  "rounds": 1,
+  "recheck": [
+   80,
+   93,
+   94,
+   95,
+   100,
+   104
+  ]
+ },
+ "auto_regen": 1
 }
